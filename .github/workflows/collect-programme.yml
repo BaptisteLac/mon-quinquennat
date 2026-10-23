@@ -1,0 +1,48 @@
+# Collecte d'un programme officiel (test n°1) depuis GitHub Actions, qui a un accès internet ouvert.
+# Déclenchée par une modification de spikes/extraction/collect-request.json, ou à la main.
+# Le corpus collecté est commité sur la branche qui a déclenché la collecte, pour être relu et annoté.
+name: Collecte d'un programme
+
+on:
+  push:
+    paths: [spikes/extraction/collect-request.json]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - name: Collecter
+        working-directory: spikes/extraction
+        env:
+          CHROMIUM_PATH: /usr/bin/google-chrome
+        run: |
+          req=collect-request.json
+          corpus=$(jq -r .corpus $req)
+          args=(--corpus "$corpus" --candidate "$(jq -r .candidate $req)")
+          for u in $(jq -r '.start[]' $req); do args+=(--start "$u"); done
+          for u in $(jq -r '.include[]' $req); do args+=(--include "$u"); done
+          if [ "$(jq -r .render $req)" = "true" ]; then args+=(--render); fi
+          npm run collect -- "${args[@]}"
+          echo "CORPUS=$corpus" >> "$GITHUB_ENV"
+      - name: Commiter le corpus
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f "data/archives/$CORPUS"
+          git commit -m "Collecte du corpus $CORPUS" || echo "Aucun changement"
+          git push
