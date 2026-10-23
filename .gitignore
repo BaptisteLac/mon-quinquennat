@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.next/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.venv/
+__pycache__/
+# Archives de programmes téléchargées localement (la copie de référence est l'archive publique)
+data/archives/

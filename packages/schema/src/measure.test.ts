@@ -1,0 +1,111 @@
+import { describe, expect, it } from "vitest";
+import { Condition, Measure, Profile, avatarAgeBand, isPublishable } from "./measure.js";
+
+const validMeasure = {
+  id: "m-001",
+  candidateId: "c-07",
+  theme: "fiscalite",
+  title: "Baisse du taux de la 2e tranche de l'impôt sur le revenu",
+  summary: {
+    simple: "Moins d'impôt pour les revenus moyens.",
+    normal: "Le taux de la 2e tranche du barème passe de 11 % à 9 %.",
+  },
+  sources: [{ documentId: "doc-07-v1", page: 12, quote: "[citation exacte du programme, page 12]" }],
+  precision: "precise",
+  legalPath: "loi_de_finances",
+  schedule: { effectiveDate: "2028-01-01", dateOrigin: "estimee", estimationRule: "prochaine loi de finances" },
+  effects: [
+    {
+      id: "e-001",
+      ticketLine: "impot_revenu",
+      section: "portefeuille",
+      appliesTo: { all: [{ field: "revenusFoyerMensuels", op: "gte", value: 1500 }] },
+      computation: {
+        kind: "bareme",
+        engine: "openfisca",
+        reform: [{ parameter: "a_caler_pendant_le_test", value: 0.09, from: "2028-01-01" }],
+      },
+    },
+  ],
+  review: {
+    status: "auto_validee",
+    riskLevel: "chiffre_ticket",
+    score: 0.94,
+    checks: [
+      { id: "format", passed: true },
+      { id: "citation_exacte", passed: true },
+    ],
+    extractedBy: { model: "modele-extraction", promptVersion: "extract-v1", at: "2026-10-23T15:00:00Z" },
+  },
+  version: 1,
+};
+
+describe("Measure", () => {
+  it("accepte une mesure complète", () => {
+    expect(Measure.safeParse(validMeasure).success).toBe(true);
+  });
+
+  it("refuse une mesure sans citation", () => {
+    expect(Measure.safeParse({ ...validMeasure, sources: [] }).success).toBe(false);
+  });
+
+  it("refuse une citation de moins de 10 caractères (impossible à vérifier sans ambiguïté)", () => {
+    const atLimit = { ...validMeasure, sources: [{ documentId: "doc-07-v1", page: 12, quote: "0123456789" }] };
+    expect(Measure.safeParse(atLimit).success).toBe(true);
+    const tooShort = { ...validMeasure, sources: [{ documentId: "doc-07-v1", page: 12, quote: "court" }] };
+    expect(Measure.safeParse(tooShort).success).toBe(false);
+  });
+
+  it("ne publie que les mesures validées", () => {
+    expect(isPublishable(validMeasure as never)).toBe(true);
+    expect(isPublishable({ review: { ...validMeasure.review, status: "en_attente" } } as never)).toBe(false);
+    expect(isPublishable({ review: { ...validMeasure.review, status: "rejetee" } } as never)).toBe(false);
+  });
+});
+
+describe("Condition", () => {
+  it("accepte des conditions imbriquées", () => {
+    const c = {
+      all: [
+        { field: "situationPro", op: "in", value: ["salarie_prive", "fonctionnaire"] },
+        { not: { field: "logement", op: "eq", value: "heberge" } },
+      ],
+    };
+    expect(Condition.safeParse(c).success).toBe(true);
+  });
+
+  it("refuse un champ de profil inconnu", () => {
+    expect(Condition.safeParse({ field: "nationalite", op: "eq", value: "x" }).success).toBe(false);
+  });
+});
+
+describe("Profile", () => {
+  it("refuse un profil de moins de 18 ans", () => {
+    const p = {
+      age: 17,
+      genre: "autre",
+      situationFamiliale: "seul",
+      enfants: [],
+      situationPro: "etudiant",
+      revenusNetsMensuels: 0,
+      logement: "heberge",
+      lieuDeVie: "grande_ville",
+      mobilite: "transports",
+    };
+    expect(Profile.safeParse(p).success).toBe(false);
+  });
+});
+
+describe("avatarAgeBand", () => {
+  it.each([
+    [18, "18_24"],
+    [24, "18_24"],
+    [25, "25_44"],
+    [44, "25_44"],
+    [45, "45_64"],
+    [64, "45_64"],
+    [65, "65_plus"],
+  ])("%i ans → %s", (age, band) => {
+    expect(avatarAgeBand(age)).toBe(band);
+  });
+});
