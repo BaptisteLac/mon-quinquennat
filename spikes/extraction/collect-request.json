@@ -1,7 +1,9 @@
 {
   "corpus": "nouvelle-energie-2026-10",
   "candidate": "c-01",
-  "start": ["https://www.unenouvelleenergie.fr/notre-programme/"],
+  "start": [
+    "https://www.unenouvelleenergie.fr/notre-programme/"
+  ],
   "include": [
     "https://www.unenouvelleenergie.fr/notre-programme/",
     "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/"
