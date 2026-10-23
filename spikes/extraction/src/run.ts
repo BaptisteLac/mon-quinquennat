@@ -41,13 +41,17 @@ export const RunFile = z.object({
   runId: z.string(),
   startedAt: z.string().datetime(),
   finishedAt: z.string().datetime(),
-  document: z.object({
+  corpus: z.object({
     id: z.string(),
     candidateId: z.string(),
-    sha256: z.string(),
+    manifestSha256: z.string(),
+    documents: z.number().int().positive(),
     totalPages: z.number().int().positive(),
+    totalChars: z.number().int().positive(),
   }),
+  /** Pages du corpus traitées (numérotation 1…N du corpus). */
   pagesProcessed: z.array(z.number().int().positive()),
+  charsProcessed: z.number().int().positive(),
   config: z.object({
     promptVersion: z.string(),
     promptSha256: z.string(),

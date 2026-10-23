@@ -6,8 +6,7 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "archive": "tsx scripts/archive.ts",
-    "pages": "tsx scripts/pages.ts",
+    "collect": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 tsx scripts/collect.ts",
     "check-gt": "tsx scripts/check-ground-truth.ts",
     "extract": "tsx scripts/extract.ts",
     "score": "tsx scripts/score.ts"
@@ -17,6 +16,8 @@
     "@ai-sdk/openai": "^4.0.101",
     "@mon-quinquennat/schema": "*",
     "ai": "^7.0.150",
+    "linkedom": "^0.18.14",
+    "playwright-core": "^1.64.1",
     "unpdf": "^1.9.1",
     "zod": "^3.25.76"
   },

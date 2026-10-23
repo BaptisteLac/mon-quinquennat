@@ -1,6 +1,6 @@
 /** Rapport Markdown d'une exécution : indicateurs, feu vert, coût, exemples d'erreurs. */
 import { totalCost, type CostSummary } from "./cost.js";
-import type { GroundTruth } from "./ground-truth.js";
+import type { ResolvedGroundTruth } from "./ground-truth.js";
 import { gate, GATES, type GateStatus, type Metrics, type Rate } from "./metrics.js";
 import type { RunFile } from "./run.js";
 
@@ -15,7 +15,7 @@ function money(n: number | null, unit: string): string {
 }
 
 export interface CostReport extends CostSummary {
-  /** Facteur d'extrapolation au programme complet (pages totales / pages traitées). */
+  /** Facteur d'extrapolation au programme complet (caractères du corpus / caractères traités). */
   factor: number;
   eurPerProgramme: number | null;
   usdPerProgramme: number;
@@ -23,7 +23,7 @@ export interface CostReport extends CostSummary {
 
 export function costReport(run: RunFile, env: NodeJS.ProcessEnv): CostReport {
   const summary = totalCost(run.calls, env);
-  const factor = run.document.totalPages / run.pagesProcessed.length;
+  const factor = run.corpus.totalChars / run.charsProcessed;
   const complete = summary.unpricedModels.length === 0;
   return {
     ...summary,
@@ -33,7 +33,8 @@ export function costReport(run: RunFile, env: NodeJS.ProcessEnv): CostReport {
   };
 }
 
-export function renderReport(run: RunFile, gt: GroundTruth, m: Metrics, cost: CostReport): string {
+export function renderReport(run: RunFile, resolved: ResolvedGroundTruth, m: Metrics, cost: CostReport): string {
+  const gt = resolved.gt;
   const rows: [string, string, string, GateStatus][] = [
     ["Citations exactes (mesures publiées)", pct(m.exactCitations.published), "100 %", gate(m.exactCitations.published.value, GATES.exactCitationsPublished)],
     ["Précision (mesures auto-validées)", pct(m.precision.published), "≥ 95 %", gate(m.precision.published.value, GATES.precisionPublished)],
@@ -49,8 +50,8 @@ export function renderReport(run: RunFile, gt: GroundTruth, m: Metrics, cost: Co
   push(
     `# Score — exécution ${run.runId}`,
     "",
-    `- Document : \`${run.document.id}\` (${run.document.totalPages} pages, sha256 \`${run.document.sha256.slice(0, 12)}…\`)`,
-    `- Pages traitées : ${run.pagesProcessed.length} ; sections annotées : ${gt.sections.map((s) => `${s.label} (p. ${s.pages.from}–${s.pages.to})`).join(", ")}`,
+    `- Corpus : \`${run.corpus.id}\` (${run.corpus.documents} documents, ${run.corpus.totalPages} pages, manifeste \`${run.corpus.manifestSha256.slice(0, 12)}…\`)`,
+    `- Pages traitées : ${run.pagesProcessed.length} ; sections annotées : ${gt.sections.map((s) => s.label).join(", ")} (${resolved.scope.size} pages)`,
     `- Extraction A : \`${run.config.models.extractA}\` ; B : \`${run.config.models.extractB ?? "—"}\` ; relecture : \`${run.config.models.crossCheck ?? "—"}\``,
     `- Prompt : \`${run.config.promptVersion}\` (\`${run.config.promptSha256.slice(0, 12)}\`), effort \`${run.config.effort}\`, lots de ${run.config.batchPages} pages`,
     "",
@@ -70,7 +71,7 @@ export function renderReport(run: RunFile, gt: GroundTruth, m: Metrics, cost: Co
     "## Coût",
     "",
     `- Exécution : ${money(cost.usd, "$")} / ${money(cost.eur, "€")}${cost.unpricedModels.length > 0 ? ` — incomplet, tarif inconnu : ${cost.unpricedModels.join(", ")}` : ""}`,
-    `- Programme complet (× ${cost.factor.toFixed(2)}, proportionnel au nombre de pages) : ${money(cost.usdPerProgramme, "$")} / ${money(cost.eurPerProgramme, "€")}`,
+    `- Programme complet (× ${cost.factor.toFixed(2)}, proportionnel au nombre de caractères) : ${money(cost.usdPerProgramme, "$")} / ${money(cost.eurPerProgramme, "€")}`,
     "",
     "| Rôle | Modèle | Appels | Échecs | Jetons entrée | Jetons sortie |",
     "|---|---|---|---|---|---|",
@@ -87,7 +88,11 @@ export function renderReport(run: RunFile, gt: GroundTruth, m: Metrics, cost: Co
     push("", `## ${title} (${items.length})`, "");
     push(...(items.length > 0 ? items : ["Aucune."]));
   };
-  const title = (s: Metrics["scored"][number]) => `${s.record.raw.title} (p. ${s.record.raw.sources[0]?.page ?? "?"}, \`${s.record.key}\`)`;
+  const where = (s: Metrics["scored"][number]) => {
+    const src = s.record.measure?.sources[0];
+    return src ? `${src.documentId} p. ${src.page}` : `page ${s.record.raw.sources[0]?.page ?? "?"} du corpus`;
+  };
+  const title = (s: Metrics["scored"][number]) => `${s.record.raw.title} (${where(s)}, \`${s.record.key}\`)`;
   const failed = (s: Metrics["scored"][number], id: string) => s.record.review.checks.find((c) => c.id === id && !c.passed);
 
   section(
@@ -103,7 +108,7 @@ export function renderReport(run: RunFile, gt: GroundTruth, m: Metrics, cost: Co
   );
   section(
     "Mesures de la vérité terrain manquées",
-    m.missed.map((g) => `- \`${g.id}\` p. ${g.page} — ${g.description}`),
+    m.missed.map((g) => `- \`${g.id}\` ${g.documentId} p. ${g.page} — ${g.description}`),
   );
   section(
     "Paramètres faux",

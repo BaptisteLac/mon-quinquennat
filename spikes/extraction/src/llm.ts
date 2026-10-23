@@ -39,14 +39,28 @@ function usageOf(u: { inputTokens: number | undefined; outputTokens: number | un
   return { inputTokens: u.inputTokens ?? 0, outputTokens: u.outputTokens ?? 0 };
 }
 
-export function renderPages(pages: readonly { page: number; text: string }[]): string {
-  return pages.map((p) => `<page numero="${p.page}">\n${p.text}\n</page>`).join("\n\n");
+export interface PromptPage {
+  page: number;
+  text: string;
+  documentId?: string;
+  url?: string;
+}
+
+const attr = (v: string) => v.replace(/&/g, "&amp;").replace(/"/g, "&quot;");
+
+export function renderPages(pages: readonly PromptPage[]): string {
+  return pages
+    .map((p) => {
+      const source = p.url ? ` document="${attr(p.documentId ?? "")}" url="${attr(p.url)}"` : "";
+      return `<page numero="${p.page}"${source}>\n${p.text}\n</page>`;
+    })
+    .join("\n\n");
 }
 
 export async function extractBatch(args: {
   modelSpec: string;
   systemPrompt: string;
-  pages: readonly { page: number; text: string }[];
+  pages: readonly PromptPage[];
   effort: Effort;
 }): Promise<{ measures: LlmMeasure[]; usage: TokenUsage }> {
   const result = await generateText({
@@ -64,7 +78,7 @@ export async function crossCheck(args: {
   modelSpec: string;
   systemPrompt: string;
   quotes: readonly { page: number; quote: string }[];
-  pages: readonly { page: number; text: string }[];
+  pages: readonly PromptPage[];
   measureCard: unknown;
 }): Promise<{ result: CrossCheck; usage: TokenUsage }> {
   const quotes = args.quotes.map((q) => `- p. ${q.page} : « ${q.quote} »`).join("\n");

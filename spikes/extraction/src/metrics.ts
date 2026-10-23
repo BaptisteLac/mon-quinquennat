@@ -7,7 +7,7 @@
  * à titre provisoire, et une mesure non appariée est « à adjudiquer » (exclue de la précision, signalée).
  */
 import { z } from "zod";
-import { type GroundTruth, type GroundTruthMeasure, inScope } from "./ground-truth.js";
+import type { GroundTruthMeasure, ResolvedGroundTruth } from "./ground-truth.js";
 import { matchOneToOne } from "./match.js";
 import type { RunRecord } from "./run.js";
 import { compareValues, extractedValues, type ValueComparison } from "./values.js";
@@ -54,11 +54,12 @@ export interface Metrics {
 const isPublished = (r: RunRecord) => r.review.status === "auto_validee";
 const citationPassed = (r: RunRecord) => r.review.checks.some((c) => c.id === "citation_exacte" && c.passed);
 
-export function computeMetrics(records: readonly RunRecord[], gt: GroundTruth, adjudications: Adjudications): Metrics {
-  const scope = records.filter((r) => r.raw.sources.some((s) => inScope(s.page, gt.sections)));
+export function computeMetrics(records: readonly RunRecord[], gt: ResolvedGroundTruth, adjudications: Adjudications): Metrics {
+  // Les citations brutes sont numérotées en pages du corpus, comme `gt.scope` et `measure.unit`.
+  const scope = records.filter((r) => r.raw.sources.some((s) => gt.scope.has(s.page)));
   const pairs = matchOneToOne(
     scope.map((r) => r.raw.sources),
-    gt.measures.map((m) => [{ page: m.page, quote: m.quote }]),
+    gt.measures.map((m) => [{ page: m.unit, quote: m.quote }]),
   );
   const gtByRecord = new Map(pairs.map((p) => [p.left, gt.measures[p.right] ?? null]));
 

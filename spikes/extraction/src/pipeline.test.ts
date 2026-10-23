@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { GT, llmMeasure, PAGES, QUALITATIVE } from "./fixtures.test-helpers.js";
+import { resolveGroundTruth } from "./ground-truth.js";
+import { CORPUS, GT, llmMeasure, QUALITATIVE } from "./fixtures.test-helpers.js";
 import type { crossCheck, extractBatch } from "./llm.js";
 import type { LlmMeasure } from "./llm-schema.js";
 import { computeMetrics } from "./metrics.js";
@@ -43,10 +44,10 @@ const fakeCrossCheck: typeof crossCheck = async ({ measureCard }) => {
 
 describe("runPipeline", async () => {
   const out = await runPipeline({
-    pages: PAGES,
-    pagesToProcess: [2, 3],
+    units: CORPUS.units,
+    unitsToProcess: [2, 3],
     batchPages: 6,
-    document: { id: GT.document.id, candidateId: GT.document.candidateId },
+    candidateId: "c-test",
     models: { extractA: "test:A", extractB: "test:B", crossCheck: "test:C" },
     prompts: { extract: "[prompt de test]", extractVersion: "extract-v1", crossCheck: "[prompt de test]" },
     effort: "high",
@@ -58,8 +59,9 @@ describe("runPipeline", async () => {
     runId: "test",
     startedAt: "2026-10-23T00:00:00Z",
     finishedAt: "2026-10-23T00:00:00Z",
-    document: { id: GT.document.id, candidateId: GT.document.candidateId, sha256: GT.document.sha256, totalPages: 4 },
+    corpus: { id: "corpus-test", candidateId: "c-test", manifestSha256: CORPUS.manifestSha256, documents: 2, totalPages: 4, totalChars: 400 },
     pagesProcessed: [2, 3],
+    charsProcessed: 200,
     config: {
       promptVersion: "extract-v1",
       promptSha256: "x",
@@ -71,6 +73,7 @@ describe("runPipeline", async () => {
     },
     ...out,
   });
+  const resolved = resolveGroundTruth(GT, CORPUS);
   const status = (title: string) => a.find((r) => r.raw.title === title)?.review.status;
 
   it("route chaque mesure selon ses contrôles", () => {
@@ -93,11 +96,14 @@ describe("runPipeline", async () => {
 
   it("produit des mesures conformes au schéma Measure et un fichier d'exécution valide", () => {
     expect(a.filter((r) => r.measure !== null)).toHaveLength(4);
+    // Le LLM cite la page 3 du corpus : c'est la page 2 du PDF.
+    const gammaSource = a.find((r) => r.raw.title === "Âge fictif de départ")?.measure?.sources[0];
+    expect(gammaSource).toMatchObject({ documentId: "corpus-test-programme", page: 2 });
     expect(RunFile.safeParse(runFile()).success).toBe(true);
   });
 
   it("calcule les indicateurs et le rapport", () => {
-    const m = computeMetrics(a, GT, {});
+    const m = computeMetrics(a, resolved, {});
     expect(m.recall.raw.value).toBe(1);
     expect(m.recall.published).toMatchObject({ num: 2, den: 3 });
     expect(m.precision.published).toMatchObject({ num: 2, den: 2 });
@@ -107,13 +113,13 @@ describe("runPipeline", async () => {
     expect(m.autoValidation).toMatchObject({ num: 2, den: 4 });
     expect(m.toAdjudicate).toBe(1);
 
-    const adjudicated = computeMetrics(a, GT, { [a[1]?.key ?? ""]: { verdict: "resume_incorrect" } });
+    const adjudicated = computeMetrics(a, resolved, { [a[1]?.key ?? ""]: { verdict: "resume_incorrect" } });
     expect(adjudicated.precision.published).toMatchObject({ num: 1, den: 2 });
 
     const run = RunFile.parse(runFile());
     const cost = costReport(run, { PRICE_TEST_A: "1,1", PRICE_TEST_B: "1,1", PRICE_TEST_C: "1,1", EUR_PER_USD: "1" });
     expect(cost.factor).toBe(2);
-    const report = renderReport(run, GT, m, cost);
+    const report = renderReport(run, resolved, m, cost);
     expect(report).toContain("Citations introuvables (mesures rejetées) (1)");
     expect(report).toContain("À adjudiquer");
   });

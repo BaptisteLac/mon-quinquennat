@@ -1,8 +1,8 @@
 /**
- * Exécute l'extraction et ses contrôles sur le programme décrit par la vérité terrain.
+ * Exécute l'extraction et ses contrôles sur le corpus annoté par la vérité terrain.
  *
  *   npm run extract                       # pages des sections annotées
- *   npm run extract -- --pages 12-20      # pages choisies
+ *   npm run extract -- --pages 12-20      # pages choisies (numérotation du corpus, voir corpus.txt)
  *   npm run extract -- --all              # programme complet (coût réel, sans extrapolation)
  *
  * Options : --gt <fichier> --batch-pages <n> --effort <low|medium|high|xhigh|max> --no-double --no-crosscheck
@@ -15,7 +15,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { relative, resolve } from "node:path";
 import { parseArgs } from "node:util";
-import { loadArchivedPages, loadDotEnv, loadGroundTruth, REPO_ROOT, SPIKE_DIR } from "../src/files.js";
+import { loadDotEnv, loadGroundTruthAndCorpus, REPO_ROOT, SPIKE_DIR } from "../src/files.js";
 import { crossCheck, extractBatch, parseModelSpec, type Effort } from "../src/llm.js";
 import { parsePageRanges } from "../src/pdf.js";
 import { runPipeline } from "../src/pipeline.js";
@@ -54,13 +54,14 @@ if (!args["no-crosscheck"]) {
 }
 if (extractB && extractB === extractA) throw new Error("La seconde extraction doit utiliser un autre modèle");
 
-const gt = await loadGroundTruth(resolve(SPIKE_DIR, args.gt));
-const pages = await loadArchivedPages(gt.document);
+const { corpus, resolved } = await loadGroundTruthAndCorpus(resolve(SPIKE_DIR, args.gt));
+const units = corpus.units;
 const pagesToProcess = args.all
-  ? pages.map((_, i) => i + 1)
+  ? units.map((u) => u.index)
   : args.pages
-    ? parsePageRanges(args.pages, pages.length)
-    : gt.sections.flatMap((s) => parsePageRanges(`${s.pages.from}-${s.pages.to}`, pages.length));
+    ? parsePageRanges(args.pages, units.length)
+    : [...resolved.scope].sort((a, b) => a - b);
+const charsOf = (indices: readonly number[]) => indices.reduce((n, i) => n + (units[i - 1]?.text.length ?? 0), 0);
 
 const extractPrompt = await readFile(resolve(SPIKE_DIR, `prompts/${PROMPT_VERSION}.md`), "utf8");
 const crossPrompt = await readFile(resolve(SPIKE_DIR, `prompts/${CROSSCHECK_PROMPT_VERSION}.md`), "utf8");
@@ -70,10 +71,10 @@ const runId = startedAt.toISOString().replace(/[:.]/g, "-");
 console.log(`Exécution ${runId} : ${pagesToProcess.length} pages, A=${extractA}, B=${extractB ?? "—"}, relecture=${crossModel ?? "—"}`);
 
 const { calls, records } = await runPipeline({
-  pages,
-  pagesToProcess,
+  units,
+  unitsToProcess: pagesToProcess,
   batchPages,
-  document: { id: gt.document.id, candidateId: gt.document.candidateId },
+  candidateId: corpus.manifest.candidateId,
   models: { extractA, extractB, crossCheck: crossModel },
   prompts: { extract: extractPrompt, extractVersion: PROMPT_VERSION, crossCheck: crossPrompt },
   effort: effort satisfies Effort,
@@ -85,13 +86,16 @@ const run = RunFile.parse({
   runId,
   startedAt: startedAt.toISOString(),
   finishedAt: new Date().toISOString(),
-  document: {
-    id: gt.document.id,
-    candidateId: gt.document.candidateId,
-    sha256: gt.document.sha256,
-    totalPages: gt.document.totalPages,
+  corpus: {
+    id: corpus.manifest.corpusId,
+    candidateId: corpus.manifest.candidateId,
+    manifestSha256: corpus.manifestSha256,
+    documents: corpus.manifest.documents.length,
+    totalPages: units.length,
+    totalChars: charsOf(units.map((u) => u.index)),
   },
   pagesProcessed: pagesToProcess,
+  charsProcessed: charsOf(pagesToProcess),
   config: {
     promptVersion: PROMPT_VERSION,
     promptSha256: sha256(extractPrompt),

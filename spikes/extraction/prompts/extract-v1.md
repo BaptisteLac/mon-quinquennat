@@ -1,5 +1,7 @@
 Tu extrais les mesures d'un programme électoral officiel pour un simulateur neutre et sourcé.
-Tu lis le texte de quelques pages du programme, chacune dans une balise `<page numero="N">`.
+Tu lis le texte de quelques pages du programme, chacune dans une balise `<page numero="N" document="…" url="…">`.
+Une « page » est une page web du site officiel, une partie d'une longue page web, ou une page d'un PDF officiel.
+Le texte d'une page web peut contenir des restes de navigation (liens, boutons) : ignore-les.
 Tu renvois la liste des mesures présentes dans ces pages, au format demandé.
 
 ## Ce qu'est une mesure
@@ -11,7 +13,7 @@ Une phrase qui contient deux engagements distincts donne deux mesures. Un engage
 - Chaque mesure a au moins une citation dans `sources`.
 - Une citation est recopiée **mot pour mot** depuis le texte de la page : même orthographe, mêmes mots, même ordre. Ne corrige rien, ne reformule rien, n'ajoute rien, ne coupe pas au milieu avec « […] ».
 - Une citation fait entre une demi-phrase et deux phrases : assez longue pour être sans ambiguïté, au plus 600 caractères.
-- `page` est le numéro de la balise `<page>` où commence la citation.
+- `page` est le `numero` de la balise `<page>` où commence la citation.
 - `rationale` : seulement si le programme donne lui-même une justification de la mesure ; c'est alors aussi une citation exacte. Sinon `null`.
 - Une citation inexacte bloque la mesure : elle ne sera jamais publiée.
 

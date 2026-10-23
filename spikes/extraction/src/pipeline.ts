@@ -1,8 +1,9 @@
 /**
- * Enchaînement du test n°1 : extraction A (+ B) par lots de pages → format → citation exacte →
+ * Enchaînement du test n°1 : extraction A (+ B) par lots de pages du corpus → format → citation exacte →
  * double extraction → relecture croisée → routage. Les appels LLM sont injectés, pour tester sans réseau.
  */
 import { Measure } from "@mon-quinquennat/schema";
+import type { CorpusUnit } from "./corpus.js";
 import { checkCitations, riskLevel, route, type CheckResult, type Review } from "./checks.js";
 import type { crossCheck as CrossCheckFn, extractBatch as ExtractBatchFn, Effort, TokenUsage } from "./llm.js";
 import { MeasureDraft, toDraftInput, type LlmMeasure } from "./llm-schema.js";
@@ -12,11 +13,11 @@ import { measureKeys, type CallRecord, type CrossCheck, type RunRecord } from ".
 import { extractedValues, sameValues } from "./values.js";
 
 export interface PipelineInput {
-  /** Texte de toutes les pages du PDF ; la page n est `pages[n - 1]`. */
-  pages: readonly string[];
-  pagesToProcess: readonly number[];
+  /** Toutes les pages du corpus ; la page n est `units[n - 1]`. */
+  units: readonly CorpusUnit[];
+  unitsToProcess: readonly number[];
   batchPages: number;
-  document: { id: string; candidateId: string };
+  candidateId: string;
   models: { extractA: string; extractB: string | null; crossCheck: string | null };
   prompts: { extract: string; extractVersion: string; crossCheck: string };
   effort: Effort;
@@ -55,13 +56,21 @@ export async function runPipeline(input: PipelineInput): Promise<PipelineOutput>
   const now = input.now ?? (() => new Date());
   const log = input.log ?? (() => {});
   const calls: CallRecord[] = [];
-  const pageText = (p: number) => ({ page: p, text: input.pages[p - 1] ?? "" });
+  const texts = input.units.map((u) => u.text);
+  const pageText = (p: number) => {
+    const u = input.units[p - 1];
+    return { page: p, text: u?.text ?? "", documentId: u?.documentId ?? "", url: u?.url ?? "" };
+  };
+  const locate = (p: number) => {
+    const u = input.units[p - 1];
+    return u ? { documentId: u.documentId, page: u.page } : null;
+  };
   const call = (role: CallRecord["role"], model: string, batch: number | null, usage: TokenUsage | null, error: string | null) =>
     calls.push({ role, model, batch, inputTokens: usage?.inputTokens ?? 0, outputTokens: usage?.outputTokens ?? 0, error });
 
   // 1. Extractions A et B, lot par lot.
   const extracted: Record<"A" | "B", Extracted[]> = { A: [], B: [] };
-  const lots = batches(input.pagesToProcess, input.batchPages);
+  const lots = batches(input.unitsToProcess, input.batchPages);
   for (const [batch, lot] of lots.entries()) {
     log(`Lot ${batch + 1}/${lots.length} : pages ${lot[0]}–${lot.at(-1)}`);
     const runs: ["A" | "B", string][] = [["A", input.models.extractA]];
@@ -93,10 +102,10 @@ export async function runPipeline(input: PipelineInput): Promise<PipelineOutput>
     return list.map((e, i) => {
       const key = keys[i] ?? String(i);
       const parsed = MeasureDraft.safeParse(
-        toDraftInput(e.raw, { id: `x-${key}`, candidateId: input.document.candidateId, documentId: input.document.id }),
+        toDraftInput(e.raw, { id: `x-${key}`, candidateId: input.candidateId, locate }),
       );
       const formatErrors = parsed.success ? [] : parsed.error.issues.map((iss) => `${iss.path.join(".")} : ${iss.message}`);
-      const citation = checkCitations(e.raw, input.pages);
+      const citation = checkCitations(e.raw, texts);
       return { ...e, which, key, draft: parsed.success ? parsed.data : null, formatErrors, citation };
     });
   };
@@ -127,8 +136,8 @@ export async function runPipeline(input: PipelineInput): Promise<PipelineOutput>
     await pool(eligible, input.concurrency ?? 4, async (i) => {
       const a = A[i];
       if (!a?.draft) return;
-      const quotes = a.draft.sources.map((s) => ({ page: s.page, quote: s.quote }));
-      const pageNumbers = [...new Set(quotes.flatMap((q) => [q.page, q.page + 1]))].filter((p) => p <= input.pages.length);
+      const quotes = a.raw.sources; // numérotées en pages du corpus
+      const pageNumbers = [...new Set(quotes.flatMap((q) => [q.page, q.page + 1]))].filter((p) => p <= input.units.length);
       const { id: _id, candidateId: _c, version: _v, ...card } = a.draft;
       try {
         const { result, usage } = await input.llm.crossCheck({

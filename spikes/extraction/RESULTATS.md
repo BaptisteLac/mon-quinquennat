@@ -3,8 +3,9 @@
 > À remplir après les exécutions. Ne reporter que des chiffres issus d'un rapport `runs/<runId>.report.md`.
 
 ## Matériau
-- Programme : [candidat, parti, titre] — `doc-XX-v1`, [n] pages, sha256 `[…]`
-- Version officielle : [URL] — archive : [URL]
+- Programme : [candidat, parti] — corpus `[id]` : [n] pages web, [n] PDF, [n] pages de citation ; manifeste sha256 `[…]`
+- Page d'entrée officielle : [URL] — préfixes suivis : [liste] — rendu JavaScript : [oui/non]
+- Archives publiques : [URL Internet Archive des pages annotées]
 - Vérité terrain : [n] mesures dans [sections], relevées le [date] par [initiales]
 
 ## Configuration

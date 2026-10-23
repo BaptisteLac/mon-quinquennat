@@ -12,7 +12,7 @@ import { z } from "zod";
 import type { Quoted } from "./match.js";
 
 const LlmQuote = z.object({
-  page: z.number().int().describe("Numéro de page du PDF indiqué dans la balise <page>"),
+  page: z.number().int().describe("Numéro de la balise <page> où commence la citation"),
   quote: z.string().describe("Citation recopiée mot pour mot, sans coupure ni ellipse"),
 });
 
@@ -100,13 +100,20 @@ function toComputation(c: LlmComputation): unknown {
   }
 }
 
+/** Retrouve le document et la page d'une page du corpus (null si elle n'existe pas). */
+export type LocateUnit = (unit: number) => { documentId: string; page: number } | null;
+
 /**
  * Convertit la sortie du LLM en objet à valider par `MeasureDraft`.
- * Ne valide rien elle-même : une incohérence (formule inconnue pour un barème, date invalide…)
- * est laissée telle quelle pour que le contrôle « format » la rejette.
+ * Le LLM cite par numéro de page du corpus ; le code le traduit en (document, page).
+ * Ne valide rien elle-même : une incohérence (page hors corpus, formule inconnue pour un barème,
+ * date invalide…) est laissée telle quelle pour que le contrôle « format » la rejette.
  */
-export function toDraftInput(m: LlmMeasure, ids: { id: string; candidateId: string; documentId: string }): unknown {
-  const quote = (q: { page: number; quote: string }) => ({ documentId: ids.documentId, page: q.page, quote: q.quote });
+export function toDraftInput(m: LlmMeasure, ids: { id: string; candidateId: string; locate: LocateUnit }): unknown {
+  const quote = (q: { page: number; quote: string }) => {
+    const where = ids.locate(q.page);
+    return where ? { ...where, quote: q.quote } : { documentId: "", page: 0, quote: q.quote };
+  };
   return {
     id: ids.id,
     candidateId: ids.candidateId,

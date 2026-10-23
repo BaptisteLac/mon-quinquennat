@@ -3,12 +3,16 @@ import { describe, expect, it } from "vitest";
 import { llmMeasure } from "./fixtures.test-helpers.js";
 import { MeasureDraft, toDraftInput } from "./llm-schema.js";
 
-const ids = { id: "x-1", candidateId: "c-test", documentId: "doc-test-v1" };
+const ids = {
+  id: "x-1",
+  candidateId: "c-test",
+  locate: (unit: number) => (unit === 2 ? { documentId: "doc-test-programme", page: 1 } : null),
+};
 
 describe("toDraftInput", () => {
   it("produit un brouillon valide pour le schéma Measure (sans review)", () => {
     const draft = MeasureDraft.parse(toDraftInput(llmMeasure(), ids));
-    expect(draft.sources[0]?.documentId).toBe("doc-test-v1");
+    expect(draft.sources[0]).toMatchObject({ documentId: "doc-test-programme", page: 1 });
     expect(draft.effects[0]?.id).toBe("x-1-e1");
     expect(draft.effects[0]?.computation).toEqual({
       kind: "bareme",
@@ -42,6 +46,8 @@ describe("toDraftInput", () => {
   });
 
   it("laisse le contrôle de format rejeter une sortie incohérente", () => {
+    const outside = llmMeasure({ sources: [{ page: 99, quote: "[citation de test hors corpus]" }] });
+    expect(MeasureDraft.safeParse(toDraftInput(outside, ids)).success).toBe(false);
     const noSource = llmMeasure({ sources: [] });
     expect(MeasureDraft.safeParse(toDraftInput(noSource, ids)).success).toBe(false);
     const badDate = llmMeasure({ schedule: { effectiveDate: "début 2028", dateOrigin: "annoncee", estimationRule: null } });

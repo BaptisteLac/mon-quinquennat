@@ -11,7 +11,7 @@ import { existsSync } from "node:fs";
 import { readdir, writeFile } from "node:fs/promises";
 import { relative, resolve } from "node:path";
 import { parseArgs } from "node:util";
-import { loadDotEnv, loadGroundTruth, readJson, REPO_ROOT, SPIKE_DIR } from "../src/files.js";
+import { loadDotEnv, loadGroundTruthAndCorpus, readJson, REPO_ROOT, SPIKE_DIR } from "../src/files.js";
 import { Adjudications, computeMetrics } from "../src/metrics.js";
 import { costReport, renderReport } from "../src/report.js";
 import { RunFile } from "../src/run.js";
@@ -35,19 +35,19 @@ async function latestRun(): Promise<string> {
 
 const runPath = positionals[0] ? resolve(SPIKE_DIR, positionals[0]) : await latestRun();
 const run = RunFile.parse(await readJson(runPath));
-const gt = await loadGroundTruth(resolve(SPIKE_DIR, args.gt));
-if (gt.document.sha256 !== run.document.sha256) {
-  throw new Error("L'exécution ne porte pas sur le même fichier que la vérité terrain (sha256 différent)");
+const { resolved } = await loadGroundTruthAndCorpus(resolve(SPIKE_DIR, args.gt));
+if (resolved.gt.corpusSha256 !== run.corpus.manifestSha256) {
+  throw new Error("L'exécution ne porte pas sur le même corpus que la vérité terrain (manifeste différent)");
 }
 const adjPath = resolve(SPIKE_DIR, args.adjudications);
 const adjudications = existsSync(adjPath) ? Adjudications.parse(await readJson(adjPath)) : {};
 
 const metrics = computeMetrics(
   run.records.filter((r) => r.extraction === "A"),
-  gt,
+  resolved,
   adjudications,
 );
-const report = renderReport(run, gt, metrics, costReport(run, process.env));
+const report = renderReport(run, resolved, metrics, costReport(run, process.env));
 const out = runPath.replace(/\.json$/, ".report.md");
 await writeFile(out, report);
 console.log(report);

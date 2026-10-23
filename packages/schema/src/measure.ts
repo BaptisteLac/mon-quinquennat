@@ -98,6 +98,7 @@ export type DataSource = z.infer<typeof DataSource>;
 /** Citation exacte. Contrôle automatique : `quote` doit exister mot pour mot dans le texte archivé. */
 export const SourceQuote = z.object({
   documentId: z.string(),
+  /** Page du PDF (1 = première page du fichier) ; pour une page web : 1, ou le numéro de partie d'une très longue page. */
   page: z.number().int().positive(),
   quote: z.string().min(10).max(600), // court : droit de citation
 });
