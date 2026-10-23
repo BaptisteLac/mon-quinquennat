@@ -11,6 +11,9 @@ describe("documentIdFromUrl", () => {
     expect(documentIdFromUrl("c1", "https://example.org/")).toBe("c1-accueil");
     expect(documentIdFromUrl("c1", "https://example.org/docs/Livret.pdf")).toBe("c1-docs-livret");
     expect(documentIdFromUrl("c1", "https://example.org/a?p=2")).not.toBe(documentIdFromUrl("c1", "https://example.org/a?p=3"));
+    // Chemin long : tronqué entre deux mots, jamais au milieu d'un mot.
+    const long = documentIdFromUrl("c1", "https://example.org/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf");
+    expect(long).toBe("c1-legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026");
   });
 });
 

@@ -95,7 +95,9 @@ export function documentIdFromUrl(corpusId: string, url: string): string {
     .replace(/\.(pdf|html?)$/, "")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
-  const slug = (path || "accueil").slice(-60).replace(/^-+/, "");
+  // Les 60 derniers caractères, coupés entre deux mots.
+  const full = path || "accueil";
+  const slug = full.length <= 60 ? full : full.slice(-60).replace(/^[^-]*-/, "");
   const query = u.search ? `-${sha256(u.search).slice(0, 6)}` : "";
   return `${corpusId}-${slug}${query}`;
 }
