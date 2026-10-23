@@ -1,12 +1,13 @@
 {
   "corpusId": "nouvelle-energie-2026-10",
   "candidateId": "c-01",
-  "collectedAt": "2026-10-23T14:28:57.637Z",
+  "collectedAt": "2026-10-23T14:30:39.865Z",
   "startUrls": [
     "https://www.unenouvelleenergie.fr/notre-programme/"
   ],
   "include": [
-    "https://www.unenouvelleenergie.fr/notre-programme/"
+    "https://www.unenouvelleenergie.fr/notre-programme/",
+    "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/"
   ],
   "rendered": true,
   "documents": [
@@ -16,9 +17,9 @@
       "officialUrl": "https://www.unenouvelleenergie.fr/notre-programme/",
       "contentType": "text/html; charset=utf-8",
       "title": "Le programme de David Lisnard | Nouvelle Énergie",
-      "retrievedAt": "2026-10-23T14:29:10.612Z",
+      "retrievedAt": "2026-10-23T14:31:33.246Z",
       "file": "raw/nouvelle-energie-2026-10-notre-programme.html",
-      "sha256": "b9a92495ec01d5e2a8caebed706247afa998a0a531845ae6b575ac0efa0eee26",
+      "sha256": "3bbbe7b0de394a0321de879c0c1b782b714c22eac982c296888268c5ca1fb8ab",
       "textFile": "text/nouvelle-energie-2026-10-notre-programme.json",
       "textSha256": "299b103aeeea5e309b1735ae04ffe8bb5ab417d78067094728d00c043b233bd1",
       "pageCount": 1
@@ -29,7 +30,7 @@
       "officialUrl": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
       "contentType": "text/html; charset=utf-8",
       "title": "Institutions et dette : David Lisnard | Nouvelle Énergie",
-      "retrievedAt": "2026-10-23T14:29:13.885Z",
+      "retrievedAt": "2026-10-23T14:31:36.679Z",
       "file": "raw/nouvelle-energie-2026-10-notre-programme-etre-maitre-de-notre-destin.html",
       "sha256": "ffa9d03753d297743ed54f518e68e606aedc80c1d22a0f337cd0682957e1baa0",
       "textFile": "text/nouvelle-energie-2026-10-notre-programme-etre-maitre-de-notre-destin.json",
@@ -42,7 +43,7 @@
       "officialUrl": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
       "contentType": "text/html; charset=utf-8",
       "title": "L'ambition française de David Lisnard | Nouvelle Énergie",
-      "retrievedAt": "2026-10-23T14:29:16.829Z",
+      "retrievedAt": "2026-10-23T14:31:39.389Z",
       "file": "raw/nouvelle-energie-2026-10-notre-programme-reussir-une-nouvelle-ambition-francaise.html",
       "sha256": "3615fe17a7c7b4079b0b471186770dd27cc1ad4af3204b9aa329db86d169c03e",
       "textFile": "text/nouvelle-energie-2026-10-notre-programme-reussir-une-nouvelle-ambition-francaise.json",
@@ -55,7 +56,7 @@
       "officialUrl": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
       "contentType": "text/html; charset=utf-8",
       "title": "Le renouveau civique de David Lisnard | Nouvelle Énergie",
-      "retrievedAt": "2026-10-23T14:29:19.726Z",
+      "retrievedAt": "2026-10-23T14:31:42.037Z",
       "file": "raw/nouvelle-energie-2026-10-notre-programme-generer-un-renouveau-civique.html",
       "sha256": "fd121f7cc3fd0c32d27b000bc9366f6208a840a68453790a66bfd37a656b3720",
       "textFile": "text/nouvelle-energie-2026-10-notre-programme-generer-un-renouveau-civique.json",
@@ -68,7 +69,7 @@
       "officialUrl": "https://www.unenouvelleenergie.fr/notre-programme/education/",
       "contentType": "text/html; charset=utf-8",
       "title": "École : le projet de David Lisnard | Nouvelle Énergie",
-      "retrievedAt": "2026-10-23T14:29:22.570Z",
+      "retrievedAt": "2026-10-23T14:31:44.663Z",
       "file": "raw/nouvelle-energie-2026-10-notre-programme-education.html",
       "sha256": "dc5c3b3408366e57f61d20c5f382daa97076586e2444e1963a76579d89c97712",
       "textFile": "text/nouvelle-energie-2026-10-notre-programme-education.json",
@@ -81,7 +82,7 @@
       "officialUrl": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
       "contentType": "text/html; charset=utf-8",
       "title": "Sécurité : le projet de David Lisnard | Nouvelle Énergie",
-      "retrievedAt": "2026-10-23T14:29:25.396Z",
+      "retrievedAt": "2026-10-23T14:31:47.333Z",
       "file": "raw/nouvelle-energie-2026-10-notre-programme-securite.html",
       "sha256": "8f46efe0a3e6c3b811c19f9a353130b2021f6ba4bbbc7f63fa1800332ccd294f",
       "textFile": "text/nouvelle-energie-2026-10-notre-programme-securite.json",
@@ -94,9 +95,9 @@
       "officialUrl": "https://www.unenouvelleenergie.fr/notre-programme/sante/",
       "contentType": "text/html; charset=utf-8",
       "title": "Santé : le projet de David Lisnard | Nouvelle Énergie",
-      "retrievedAt": "2026-10-23T14:29:28.325Z",
+      "retrievedAt": "2026-10-23T14:31:50.064Z",
       "file": "raw/nouvelle-energie-2026-10-notre-programme-sante.html",
-      "sha256": "f0b3d453630d1a4e6b44f8feb9e243f9a31c3d0d5b16a973826d7e530f33b5f9",
+      "sha256": "8dd749e438c8d19f553e6d043747840d1795547cd58a9f2abb000cb510af9d40",
       "textFile": "text/nouvelle-energie-2026-10-notre-programme-sante.json",
       "textSha256": "8c0851a663fb57aa4b6d3139dd4af6d6368bf3b63138f27df2f28eaaeadfb8b1",
       "pageCount": 1
@@ -107,7 +108,7 @@
       "officialUrl": "https://www.unenouvelleenergie.fr/notre-programme/agriculture/",
       "contentType": "text/html; charset=utf-8",
       "title": "Agriculture : le projet de David Lisnard | Nouvelle Énergie",
-      "retrievedAt": "2026-10-23T14:29:31.636Z",
+      "retrievedAt": "2026-10-23T14:31:52.766Z",
       "file": "raw/nouvelle-energie-2026-10-notre-programme-agriculture.html",
       "sha256": "9340f64b0177afc2cf7e7b47128228e38c613b7a4e3fd80366f3a284849ef9e4",
       "textFile": "text/nouvelle-energie-2026-10-notre-programme-agriculture.json",
@@ -120,12 +121,38 @@
       "officialUrl": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
       "contentType": "text/html; charset=utf-8",
       "title": "Immigration : le projet de David Lisnard | Nouvelle Énergie",
-      "retrievedAt": "2026-10-23T14:29:34.493Z",
+      "retrievedAt": "2026-10-23T14:31:55.389Z",
       "file": "raw/nouvelle-energie-2026-10-notre-programme-immigration.html",
-      "sha256": "d3751efe93c0cae1c53c581248080deab19d179906a4a066f8da97c0e518e2e3",
+      "sha256": "e36863f817b109b0a134eb7bd2586d26d93c0e78d60ea7c0574a3db7bfad2613",
       "textFile": "text/nouvelle-energie-2026-10-notre-programme-immigration.json",
       "textSha256": "bb7b443da93c6a6db493096b8d81c3891e715345b11d9c3843041980f6ecad73",
       "pageCount": 1
+    },
+    {
+      "id": "nouvelle-energie-2026-10-media-legacy-2026-06-agriculture",
+      "kind": "pdf",
+      "officialUrl": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/AGRICULTURE.pdf",
+      "contentType": "application/pdf",
+      "title": "",
+      "retrievedAt": "2026-10-23T14:31:58.130Z",
+      "file": "raw/nouvelle-energie-2026-10-media-legacy-2026-06-agriculture.pdf",
+      "sha256": "ec3ca5281c585919116742b5735fae18bc6ff1b7246afe33d94b46be2acea1dc",
+      "textFile": "text/nouvelle-energie-2026-10-media-legacy-2026-06-agriculture.json",
+      "textSha256": "f5fd409f724abdb83234cdd87f4a88b422df8982af38348467e09a51463707c4",
+      "pageCount": 12
+    },
+    {
+      "id": "nouvelle-energie-2026-10-media-legacy-2026-05-livret-sante-nouvelle-energie",
+      "kind": "pdf",
+      "officialUrl": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/05/Livret-Sante-Nouvelle-Energie.pdf",
+      "contentType": "application/pdf",
+      "title": "",
+      "retrievedAt": "2026-10-23T14:31:59.327Z",
+      "file": "raw/nouvelle-energie-2026-10-media-legacy-2026-05-livret-sante-nouvelle-energie.pdf",
+      "sha256": "12d4960813fe48773c018509552e59b3d4acd65d627afae15e0000cc313f40ae",
+      "textFile": "text/nouvelle-energie-2026-10-media-legacy-2026-05-livret-sante-nouvelle-energie.json",
+      "textSha256": "5eca0a95cc97b87d05ab85329c04ade0e9d11a65c1ece186401a9245f2baaad4",
+      "pageCount": 12
     },
     {
       "id": "nouvelle-energie-2026-10-media-file-nouvelle-energie-livre-noir-pages-20-24-inversees",
@@ -133,7 +160,7 @@
       "officialUrl": "https://www.unenouvelleenergie.fr/api/media/file/Nouvelle_energie_Livre_noir_pages_20_24_inversees.pdf",
       "contentType": "application/pdf",
       "title": "",
-      "retrievedAt": "2026-10-23T14:29:36.586Z",
+      "retrievedAt": "2026-10-23T14:32:01.779Z",
       "file": "raw/nouvelle-energie-2026-10-media-file-nouvelle-energie-livre-noir-pages-20-24-inversees.pdf",
       "sha256": "a074a50031da9bef4650560bf6d9881ea35864609a896b274586e6ded24b00ca",
       "textFile": "text/nouvelle-energie-2026-10-media-file-nouvelle-energie-livre-noir-pages-20-24-inversees.json",
@@ -141,17 +168,43 @@
       "pageCount": 24
     },
     {
+      "id": "nouvelle-energie-2026-10-a-legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026",
+      "kind": "pdf",
+      "officialUrl": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf",
+      "contentType": "application/pdf",
+      "title": "",
+      "retrievedAt": "2026-10-23T14:32:03.314Z",
+      "file": "raw/nouvelle-energie-2026-10-a-legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026.pdf",
+      "sha256": "6d03dc178d1d921a7e1361bd45bee19979617679cb4f097cb7137d718a6e6529",
+      "textFile": "text/nouvelle-energie-2026-10-a-legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026.json",
+      "textSha256": "8d4dd743a9aaa51a32a08a52cbdea2f5a0022c29443a8a66852ba50e89679fc2",
+      "pageCount": 14
+    },
+    {
       "id": "nouvelle-energie-2026-10-notre-programme-pole-de-travail-et-didees",
       "kind": "html",
       "officialUrl": "https://www.unenouvelleenergie.fr/notre-programme/pole-de-travail-et-didees/",
       "contentType": "text/html; charset=utf-8",
       "title": "Apporter vos idées | Nouvelle Énergie",
-      "retrievedAt": "2026-10-23T14:29:39.557Z",
+      "retrievedAt": "2026-10-23T14:32:06.118Z",
       "file": "raw/nouvelle-energie-2026-10-notre-programme-pole-de-travail-et-didees.html",
-      "sha256": "096cd654f408eec0518a9276b34260fdd9a8dae53463765a6783d9127645915e",
+      "sha256": "413df440a6cee7dfc8713ac142d6f7e81290cb0a7e90b8ab9a5d3c7a0a953119",
       "textFile": "text/nouvelle-energie-2026-10-notre-programme-pole-de-travail-et-didees.json",
       "textSha256": "579733262575505d6e0cb8df18e126eb1bd93243157459c1118e9cde9da954fb",
       "pageCount": 1
+    },
+    {
+      "id": "nouvelle-energie-2026-10-media-legacy-2026-02-livret-agriculture",
+      "kind": "pdf",
+      "officialUrl": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/02/livret-agriculture.pdf",
+      "contentType": "application/pdf",
+      "title": "",
+      "retrievedAt": "2026-10-23T14:32:08.069Z",
+      "file": "raw/nouvelle-energie-2026-10-media-legacy-2026-02-livret-agriculture.pdf",
+      "sha256": "822db482080a4c004e15bcb4c9aeea29c9247509f7a5d33cc6e55efae13606c8",
+      "textFile": "text/nouvelle-energie-2026-10-media-legacy-2026-02-livret-agriculture.json",
+      "textSha256": "70634429e8672a4bc8dfb5f0010b053ea9fbbd0d35cbe2627f2a4e5b74edc39d",
+      "pageCount": 12
     }
   ],
   "excludedLinks": [
@@ -235,11 +288,6 @@
     "https://www.unenouvelleenergie.fr/questions/qui-est-david-lisnard/",
     "https://www.unenouvelleenergie.fr/recherche/"
   ],
-  "externalPdfs": [
-    "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/02/livret-agriculture.pdf",
-    "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/05/Livret-Sante-Nouvelle-Energie.pdf",
-    "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/AGRICULTURE.pdf",
-    "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf"
-  ],
+  "externalPdfs": [],
   "skipped": []
 }
