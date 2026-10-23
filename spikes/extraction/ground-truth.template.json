@@ -1,0 +1,44 @@
+{
+  "document": {
+    "id": "doc-XX-v1",
+    "candidateId": "c-XX",
+    "publisher": "[nom complet du parti ou de la campagne, copié depuis le document]",
+    "title": "[titre exact du programme]",
+    "docType": "programme",
+    "officialUrl": "[URL officielle du PDF, copiée depuis le site du candidat]",
+    "archiveUrl": "[URL de la copie Internet Archive]",
+    "sha256": "[empreinte donnée par npm run archive]",
+    "publishedAt": "[AAAA-MM-JJ, si indiquée]",
+    "retrievedAt": "[horodatage donné par npm run archive]",
+    "localPath": "data/archives/doc-XX-v1.pdf",
+    "totalPages": 0
+  },
+  "sections": [
+    { "id": "fiscalite", "label": "[intitulé de la section dans le programme]", "pages": { "from": 0, "to": 0 } },
+    { "id": "retraite", "label": "[intitulé de la section dans le programme]", "pages": { "from": 0, "to": 0 } },
+    { "id": "logement", "label": "[intitulé de la section dans le programme]", "pages": { "from": 0, "to": 0 } }
+  ],
+  "measures": [
+    {
+      "id": "gt-01",
+      "sectionId": "fiscalite",
+      "page": 0,
+      "quote": "[citation exacte copiée depuis data/archives/doc-XX-v1.pages.txt]",
+      "description": "[ce que dit la mesure, en une phrase neutre]",
+      "values": [
+        { "label": "[ex. taux de la 2e tranche]", "value": 0, "unit": "pourcent" },
+        { "label": "[ex. date d'application annoncée]", "value": "AAAA", "unit": "date" }
+      ]
+    },
+    {
+      "id": "gt-02",
+      "sectionId": "logement",
+      "page": 0,
+      "quote": "[citation exacte d'une mesure sans chiffre]",
+      "description": "[ce que dit la mesure, en une phrase neutre]",
+      "values": []
+    }
+  ],
+  "annotatedBy": "[initiales]",
+  "annotatedAt": "[AAAA-MM-JJ]"
+}
