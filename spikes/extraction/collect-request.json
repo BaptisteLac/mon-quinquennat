@@ -2,10 +2,12 @@
   "corpus": "nouvelle-energie-2026-10",
   "candidate": "c-01",
   "start": [
-    "https://www.unenouvelleenergie.fr/notre-programme/"
+    "https://www.unenouvelleenergie.fr/notre-programme/",
+    "https://www.unenouvelleenergie.fr/questions/"
   ],
   "include": [
     "https://www.unenouvelleenergie.fr/notre-programme/",
+    "https://www.unenouvelleenergie.fr/questions/",
     "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/"
   ],
   "render": true
