@@ -6,19 +6,19 @@
 | Statut | Mesures | Part |
 |---|---|---|
 | Auto-validées | 0 | 0.0 % |
-| En attente | 112 | 100.0 % |
+| En attente | 149 | 100.0 % |
 | Rejetées (format ou citation) | 0 | 0.0 % |
-| **Total** | **112** | |
+| **Total** | **149** | |
 
-Répartition des scores : 0.75 → 112
+Répartition des scores : 0.75 → 149
 
-Par thème : immigration 18, institutions 16, education 15, sante 9, agriculture 8, securite 7, justice 7, entreprise 5, finances_publiques 4, international 4, travail 4, retraite 4, environnement 4, energie 2, numerique 1, transport 1, logement 1, famille 1, prestations 1
+Par thème : sante 36, immigration 18, institutions 16, agriculture 16, education 16, securite 7, justice 7, entreprise 5, finances_publiques 4, international 4, travail 4, retraite 4, environnement 4, numerique 2, energie 2, transport 1, logement 1, famille 1, prestations 1
 
 ## Rejetées (0)
 
 Aucune.
 
-## En attente (112)
+## En attente (149)
 
 - `28da48ebd139` Règle d'or de limitation des déficits publics, hors investissement (notre-programme-etre-maitre-de-notre-destin p. 1) — relecture_sens — relecture du sens non faite
 - `6c2fcec877f6` Rééquilibrer le budget de l'État vers les fonctions régaliennes (notre-programme-etre-maitre-de-notre-destin p. 1) — relecture_sens — relecture du sens non faite
@@ -132,3 +132,40 @@ Aucune.
 - `01b2e6c5d71d` Rétablir le délit de séjour irrégulier (notre-programme-immigration p. 1) — relecture_sens — relecture du sens non faite
 - `3a69aebc3e7b` Expulser systématiquement les étrangers condamnés pour délits graves et fichés S (notre-programme-immigration p. 1) — relecture_sens — relecture du sens non faite
 - `b2beb448e356` Réserver les prestations sociales non contributives aux étrangers résidant depuis cinq ans (notre-programme-immigration p. 1) — relecture_sens — relecture du sens non faite
+- `7c3b991ea514` Objectif de 10 000 installations agricoles par an (media-legacy-2026-06-agriculture p. 3) — relecture_sens — relecture du sens non faite
+- `28996cb06b27` Recentrer l'INRAE et les instituts techniques sur la recherche appliquée (media-legacy-2026-06-agriculture p. 8) — relecture_sens — relecture du sens non faite
+- `3b56ed44b621` Supprimer les impôts de production agricoles (media-legacy-2026-06-agriculture p. 9) — relecture_sens — relecture du sens non faite
+- `6fd3e611b9ba` Promouvoir l'élevage et simplifier l'usage des lisiers et fumiers (media-legacy-2026-06-agriculture p. 8) — relecture_sens — relecture du sens non faite
+- `d5f0866dadd0` Permettre aux agriculteurs et forestiers de vendre le carbone stocké (media-legacy-2026-06-agriculture p. 9) — relecture_sens — relecture du sens non faite
+- `7fa194f81085` Simplification administrative agricole et inversion de la charge de la preuve (media-legacy-2026-06-agriculture p. 3) — relecture_sens — relecture du sens non faite
+- `a48e1f8f665f` Diplomatie agricole offensive et clauses de sauvegarde unilatérales (media-legacy-2026-06-agriculture p. 3) — relecture_sens — relecture du sens non faite
+- `54519a196563` Harmonisation fiscale et sociale agricole en Europe et préférence communautaire (media-legacy-2026-06-agriculture p. 10) — relecture_sens — relecture du sens non faite
+- `dd21f63e6db5` Centres de formation des soignants dans les zones rurales (media-legacy-2026-05-livret-sante-nouvelle-energie p. 8) — relecture_sens — relecture du sens non faite
+- `9a3906b2904b` Exonérer de CFE les médecins libéraux en zone sous-dense (media-legacy-2026-05-livret-sante-nouvelle-energie p. 8) — relecture_sens — relecture du sens non faite
+- `29b64f60772f` Exonérer les plus-values de cession de patientèle en zone sous-dense (media-legacy-2026-05-livret-sante-nouvelle-energie p. 8) — relecture_sens — relecture du sens non faite
+- `23151d55a0e9` Réduire la charge administrative des soignants (media-legacy-2026-05-livret-sante-nouvelle-energie p. 8) — relecture_sens — relecture du sens non faite
+- `6e91566b3607` Faire de la santé un ascenseur social (media-legacy-2026-05-livret-sante-nouvelle-energie p. 8) — relecture_sens — relecture du sens non faite
+- `94d1b6f3e05d` Exonérer de cotisations sociales les soignants libéraux en cumul emploi-retraite (media-legacy-2026-05-livret-sante-nouvelle-energie p. 8) — relecture_sens — relecture du sens non faite
+- `f18924808b51` Faciliter les contrats passerelles entre la ville et l'hôpital (media-legacy-2026-05-livret-sante-nouvelle-energie p. 8) — relecture_sens — relecture du sens non faite
+- `c798b1e5fcfd` Défiscaliser les heures supplémentaires des soignants (media-legacy-2026-05-livret-sante-nouvelle-energie p. 8) — relecture_sens — relecture du sens non faite
+- `fbafdc8e0ff2` Politique nationale de prévention évaluée, financement conditionné aux résultats (media-legacy-2026-05-livret-sante-nouvelle-energie p. 9) — relecture_sens — relecture du sens non faite
+- `36ec99499884` Vaccination et dépistages portés par les infirmiers et les pharmaciens (media-legacy-2026-05-livret-sante-nouvelle-energie p. 9) — relecture_sens — relecture du sens non faite
+- `02c702203a21` Éducation à la santé dans les programmes scolaires et recrutement d'infirmiers scolaires (media-legacy-2026-05-livret-sante-nouvelle-energie p. 9) — relecture_sens — relecture du sens non faite
+- `db77ce879a95` Stratégie nationale de santé mentale et renforcement de la pédopsychiatrie (media-legacy-2026-05-livret-sante-nouvelle-energie p. 9) — relecture_sens — relecture du sens non faite
+- `13099ab668a9` Incitations fiscales pour les entreprises qui investissent dans la santé des salariés (media-legacy-2026-05-livret-sante-nouvelle-energie p. 9) — relecture_sens — relecture du sens non faite
+- `b3c7ad7cfbb7` Bilans de santé obligatoires à des âges clés (media-legacy-2026-05-livret-sante-nouvelle-energie p. 9) — relecture_sens — relecture du sens non faite
+- `fa57bdafdba4` Prévenir les chutes des plus de 65 ans (media-legacy-2026-05-livret-sante-nouvelle-energie p. 9) — relecture_sens — relecture du sens non faite
+- `320b7928d632` Simplifier la tarification à l'activité (T2A) des hôpitaux (media-legacy-2026-05-livret-sante-nouvelle-energie p. 9) — relecture_sens — relecture du sens non faite
+- `fad8aaffbfe6` Certificats médicaux courants entièrement numériques (media-legacy-2026-05-livret-sante-nouvelle-energie p. 9) — relecture_sens — relecture du sens non faite
+- `bad48e24fb74` Suivi coordonné des malades chroniques par des équipes de proximité (media-legacy-2026-05-livret-sante-nouvelle-energie p. 9) — relecture_sens — relecture du sens non faite
+- `be4d8e7859aa` Plus de souplesse pour les directions d'hôpitaux (media-legacy-2026-05-livret-sante-nouvelle-energie p. 9) — relecture_sens — relecture du sens non faite
+- `0a2a9d378a61` Loi pluriannuelle de programmation de la santé (media-legacy-2026-05-livret-sante-nouvelle-energie p. 10) — relecture_sens — relecture du sens non faite
+- `e7e3d5fa4ab3` Convergence tarifaire entre hôpitaux publics et cliniques privées (media-legacy-2026-05-livret-sante-nouvelle-energie p. 10) — relecture_sens — relecture du sens non faite
+- `e8f6ddf03382` Carte Vitale biométrique contre la fraude (media-legacy-2026-05-livret-sante-nouvelle-energie p. 10) — relecture_sens — relecture du sens non faite
+- `653b719b0661` Flux de santé numérisés et contrôlés par IA, entente préalable rétablie pour les prothèses dentaires (media-legacy-2026-05-livret-sante-nouvelle-energie p. 10) — relecture_sens — relecture du sens non faite
+- `df35e9d2329d` Formation médicale continue effective pour tous les praticiens (media-legacy-2026-05-livret-sante-nouvelle-energie p. 10) — relecture_sens — relecture du sens non faite
+- `a7b948864a70` Offre de soins de premier recours graduée autour des infirmiers, pharmaciens et kinés (media-legacy-2026-05-livret-sante-nouvelle-energie p. 10) — relecture_sens — relecture du sens non faite
+- `52a3a51db715` Dossier médical partagé obligatoire et prescription électronique systématique (media-legacy-2026-05-livret-sante-nouvelle-energie p. 10) — relecture_sens — relecture du sens non faite
+- `cf1da76c5832` Programmation pluriannuelle de la recherche en santé (media-legacy-2026-05-livret-sante-nouvelle-energie p. 10) — relecture_sens — relecture du sens non faite
+- `59b7e427466a` Relocaliser la production de médicaments et dispositifs médicaux critiques (media-legacy-2026-05-livret-sante-nouvelle-energie p. 10) — relecture_sens — relecture du sens non faite
+- `7803ceb440d7` Hébergement souverain des données de santé (media-legacy-2026-05-livret-sante-nouvelle-energie p. 10) — relecture_sens — relecture du sens non faite

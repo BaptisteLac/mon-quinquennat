@@ -56,12 +56,20 @@
       "title": "Créer un compte-épargne aléas climatiques et économiques pour les agriculteurs",
       "summary": {
         "simple": "Les agriculteurs mettraient de l'argent de côté les bonnes années pour faire face aux intempéries.",
-        "normal": "Création d'un « compte-épargne aléas climatiques et économiques », alimenté les années bénéficiaires et débloqué lors d'intempéries touchant les cultures ; extension possible à toute forme d'entreprise."
+        "normal": "Création d'un « compte-épargne aléas climatiques et économiques » dans chaque exploitation, alimenté les années bénéficiaires et mobilisable en cas de crise, plafonné à une année de chiffre d'affaires et défiscalisé à l'entrée comme à la sortie ; extension possible à toute forme d'entreprise."
       },
       "sources": [
         {
           "page": 5,
           "quote": "une meilleure protection assurantielle contre les conséquences de plus en plus importantes des intempéries sera recherchée à travers un « compte-épargne aléas climatiques et économiques », alimenté lors des années bénéficiaires et débloqué lors des phénomènes climatiques impactant les cultures"
+        },
+        {
+          "page": 16,
+          "quote": "Créons un compte épargne aléas climatiques, plafonné à une année de chiffre d'affaires, défiscalisé à l'entrée comme à la sortie."
+        },
+        {
+          "page": 22,
+          "quote": "Mettre en place un compte épargne aléas climatiques et économiques, dans chaque exploitation mobilisable en cas de crise, forme d’assurance par capitalisation"
         }
       ],
       "precision": "partielle"
@@ -160,6 +168,14 @@
         {
           "page": 5,
           "quote": "le remplacement du principe constitutionnel de précaution par un principe de responsabilité"
+        },
+        {
+          "page": 16,
+          "quote": "Le principe de précaution doit être supprimé de la constitution et remplacé par un principe de responsabilité."
+        },
+        {
+          "page": 21,
+          "quote": "Supprimer le principe de précaution de la Constitution pour établir un principe de responsabilité."
         }
       ],
       "precision": "partielle",

@@ -255,12 +255,20 @@
       "title": "Conventionnement différencié : mieux rembourser les soins dans les zones sous-dotées",
       "summary": {
         "simple": "La Sécurité sociale rembourserait mieux les soins là où il manque des médecins.",
-        "normal": "Conventionnement différencié : la Sécurité sociale rembourserait mieux les actes dans les zones sous-dotées que dans les zones saturées."
+        "normal": "Liberté d'installation des médecins maintenue, avec un conventionnement différencié selon les besoins définis localement : la Sécurité sociale rembourserait mieux les actes dans les zones sous-dotées que dans les zones saturées."
       },
       "sources": [
         {
           "page": 11,
           "quote": "Nous proposons un conventionnement différencié : la Sécurité sociale rembourse mieux les actes dans les zones sous-dotées que dans les zones saturées."
+        },
+        {
+          "page": 28,
+          "quote": "maintenir la liberté d'installation mais proposer un conventionnement différencié avec l'Assurance Maladie selon les zones et les besoins locaux."
+        },
+        {
+          "page": 33,
+          "quote": "Garantir la liberté d’installation des médecins et instaurer un conventionnement différencié selon les besoins définis localement par les élus et communautés soignantes, afin d’orienter l’offre là où elle manque le plus."
         }
       ],
       "precision": "partielle",
@@ -290,12 +298,20 @@
       "title": "Une maison de santé dans chaque canton et accès direct aux infirmiers, kinés, pharmaciens",
       "summary": {
         "simple": "Une maison de santé par canton, et consulter un infirmier ou un kiné sans passer par le médecin.",
-        "normal": "Généralisation des maisons de santé pluridisciplinaires dans chaque canton et accès direct aux infirmiers, kinésithérapeutes et pharmaciens, pour désengorger les généralistes."
+        "normal": "Maisons de santé pluridisciplinaires dans chaque canton, généralisation de la télémédecine, et libre accès du patient à tout professionnel compétent (spécialiste, infirmier en pratique avancée, kinésithérapeute, pharmacien) avec remboursement plein, pour désengorger les généralistes."
       },
       "sources": [
         {
           "page": 11,
           "quote": "Nous défendons aussi la généralisation des maisons de santé pluridisciplinaires à l’échelle de chaque canton, et l’accès direct aux infirmiers, kinés, pharmaciens, pour désengorger les généralistes et fluidifier les parcours."
+        },
+        {
+          "page": 29,
+          "quote": "Enfin, il faut soulager l'hôpital par la relance de la médecine de ville, l'installation de maisons de santé locales à l'échelle de chaque ancien canton, la généralisation de la télémédecine et la simplification du partage des données médicales."
+        },
+        {
+          "page": 33,
+          "quote": "Permettre le libre accès du patient à tout professionnel compétent (spécialiste, infirmier en pratique avancée, kinésithérapeute…) avec remboursement plein, pour fluidifier les parcours et réduire les délais."
         }
       ],
       "precision": "partielle",
@@ -304,8 +320,8 @@
           "ticketLine": "sante",
           "section": "vie",
           "sentence": {
-            "simple": "Tu pourrais consulter directement un infirmier, un kiné ou un pharmacien.",
-            "normal": "L'accès direct aux infirmiers, kinésithérapeutes et pharmaciens serait ouvert, et chaque canton aurait une maison de santé pluridisciplinaire."
+            "simple": "Tu pourrais consulter directement un spécialiste, un infirmier ou un kiné, avec remboursement plein.",
+            "normal": "Le libre accès à tout professionnel compétent (spécialiste, infirmier en pratique avancée, kinésithérapeute) serait remboursé pleinement, et chaque canton aurait une maison de santé."
           }
         }
       ]
@@ -325,6 +341,14 @@
         {
           "page": 11,
           "quote": "Dans chaque bassin de vie, les communautés médicales locales devront pouvoir définir les besoins, organiser les stages, réguler l’offre."
+        },
+        {
+          "page": 29,
+          "quote": "Supprimons les ARS en confiant les missions utiles d’État aux préfets, en association avec les collectivités."
+        },
+        {
+          "page": 34,
+          "quote": "Créer des communautés soignantes locales (ancien canton) responsables de la planification et de la coordination des soins."
         }
       ],
       "precision": "partielle",
@@ -335,27 +359,47 @@
       "title": "Revaloriser les soignants selon leurs responsabilités",
       "summary": {
         "simple": "Les soignants seraient payés selon leurs responsabilités, avec des recrutements plus souples.",
-        "normal": "Pacte avec les soignants : revalorisation salariale fondée sur les responsabilités et non les statuts, recrutements contractuels souples avec passerelles public-privé, reconnaissance des compétences paramédicales."
+        "normal": "Revalorisation des rémunérations des soignants selon l'expérience et les responsabilités, financée par les économies de débureaucratisation, avec un objectif chiffré de progression salariale sur 5 ans ; recrutements contractuels souples ; compétences paramédicales élargies (prescription, suivi autonome, accès direct)."
       },
       "sources": [
         {
           "page": 11,
           "quote": "Cela suppose une revalorisation salariale fondée sur les responsabilités, non sur les statuts, des recrutements contractuels souples, y compris passerelles public-privé, et la reconnaissance pleine des compétences paramédicales, dans une logique de coopération."
+        },
+        {
+          "page": 33,
+          "quote": "Revaloriser les rémunérations des soignants par les économies issues de la débureaucratisation, en fonction de l’expérience et des responsabilités, avec un objectif chiffré de progression salariale sur 5 ans."
+        },
+        {
+          "page": 33,
+          "quote": "Élargir réellement les compétences des professionnels paramédicaux (prescription, suivi autonome, accès direct) avec un encadrement garantissant la qualité."
         }
       ],
-      "precision": "floue"
+      "precision": "partielle"
     },
     {
       "theme": "sante",
       "title": "Doubler le nombre d'étudiants en médecine d'ici 2030 et supprimer Parcoursup",
       "summary": {
         "simple": "Deux fois plus d'étudiants en médecine d'ici 2030, et Parcoursup supprimé.",
-        "normal": "Doublement du nombre d'étudiants en médecine d'ici 2030, suppression de Parcoursup, simplification de la LAS/PASS, exercice sous supervision dès la 5e année et ouverture de tous les lieux de stage, publics et privés."
+        "normal": "Doublement du nombre d'étudiants en médecine d'ici 2030, suppression de Parcoursup, fin de la réforme LAS/PASS, concours national classant adapté aux besoins de soins, exercice sous supervision dès la 5e année, stages ouverts hors CHU (publics et privés) et autonomie des facultés pour contractualiser avec les structures de soins."
       },
       "sources": [
         {
           "page": 11,
           "quote": "Nous voulons doubler le nombre d’étudiants en médecine d’ici 2030, supprimer Parcoursup, simplifier la LAS/PASS, autoriser l’exercice sous supervision dès la 5e année, et ouvrir tous les lieux de stage, publics comme privés."
+        },
+        {
+          "page": 29,
+          "quote": "Doubler le nombre d'étudiants formés d'ici 2030, accélérer l'apprentissage avec un exercice supervisé dès la cinquième année, supprimer ParcourSup, et en finir réellement avec la réforme LAS/PASS, adapter le concours classant aux besoins réels de soins."
+        },
+        {
+          "page": 33,
+          "quote": "Adapter le « concours national classant » aux besoins réels de soins et non aux seules capacités universitaires."
+        },
+        {
+          "page": 33,
+          "quote": "Donner une réelle autonomie aux facultés pour contractualiser librement avec les structures de soins."
         }
       ],
       "precision": "precise",
@@ -434,6 +478,14 @@
         {
           "page": 11,
           "quote": "nous défendons une réglementation agile et sécurisée pour l’innovation médicale : télésurveillance, IA diagnostique, robotique chirurgicale"
+        },
+        {
+          "page": 34,
+          "quote": "Mettre en place un cadre réglementaire souple pour les innovations médicales (IA, robotique, médecine génomique, télésurveillance), avec procédures accélérées et évaluation post-mise en œuvre."
+        },
+        {
+          "page": 35,
+          "quote": "Encourager l’investissement dans l’innovation médicale et numérique (IA diagnostique, robotique chirurgicale, télésurveillance des maladies chroniques, partage sécurisé des données) pour améliorer l’efficience et la qualité."
         }
       ],
       "precision": "floue"
@@ -449,6 +501,14 @@
         {
           "page": 12,
           "quote": "Nous proposons d’en finir avec les surtranspositions françaises, l’alignement réglementaire avec le marché commun, et la mise en œuvre de clauses miroirs obligatoires pour les produits importés. Ce que nous interdisons ici ne doit plus être autorisé là-bas."
+        },
+        {
+          "page": 23,
+          "quote": "Supprimer les surtranspositions françaises des normes européennes."
+        },
+        {
+          "page": 23,
+          "quote": "Instaurer la réciprocité des normes dans les accords commerciaux."
         }
       ],
       "precision": "partielle"
@@ -458,12 +518,20 @@
       "title": "Recentrer la PAC sur la souveraineté alimentaire et la production",
       "summary": {
         "simple": "La politique agricole européenne devrait d'abord soutenir la production.",
-        "normal": "La PAC redeviendrait une politique agricole recentrée sur la souveraineté alimentaire, la production et l'augmentation des capacités exportatrices."
+        "normal": "La PAC redeviendrait une politique agricole recentrée sur la souveraineté alimentaire, la production et l'investissement, avec des contrats d'objectifs partagés ; elle récompenserait la production et non la mise en jachère."
       },
       "sources": [
         {
           "page": 12,
           "quote": "La PAC doit cesser d’être une politique environnementale hors-sol : elle doit redevenir une politique agricole, recentrée sur la souveraineté alimentaire, la production, et l’augmentation de nos capacités exportatrices."
+        },
+        {
+          "page": 16,
+          "quote": "Cela implique de réorienter la PAC, qui doit récompenser la production, pas la mise en jachère."
+        },
+        {
+          "page": 21,
+          "quote": "Réorienter la PAC vers le soutien à la production et à l’investissement, revenir à une logique de développement durable basée sur des contrats d’objectifs partagés"
         }
       ],
       "precision": "floue",
@@ -480,6 +548,10 @@
         {
           "page": 12,
           "quote": "nous plaidons pour l’autorisation des nouvelles techniques génomiques (NTG), l’usage raisonné des phytosanitaires sur base scientifique, et une réduction de la part des aides conditionnées à des critères idéologiques"
+        },
+        {
+          "page": 21,
+          "quote": "Autoriser sans délai les NBT (nouvelles techniques de sélection végétale), et promouvoir les biotechnologies utiles."
         }
       ],
       "precision": "partielle"
@@ -495,6 +567,14 @@
         {
           "page": 12,
           "quote": "Nous proposons une réforme profonde du système de rémunération agricole : transfert d’une part des charges vers la valeur ajoutée pour améliorer les revenus nets et une juste rémunération des services environnementaux rendus par les agriculteurs et forestiers (stockage du carbone, entretien des écosystèmes)."
+        },
+        {
+          "page": 16,
+          "quote": "Solution : transférer les charges non contributives vers la valeur ajoutée."
+        },
+        {
+          "page": 22,
+          "quote": "Transférer les charges fiscales et sociales non contributives vers l’assiette de la valeur ajoutée"
         }
       ],
       "precision": "partielle"
@@ -510,6 +590,18 @@
         {
           "page": 12,
           "quote": "Nous devons relancer une politique industrielle fondée sur les productions agricoles et forestières (industries de 1re et 2e transformation sur tout le territoire, circuits courts soutenus, développement des filières biomasse, bois, fibres, énergie, transformation alimentaire locale), reconstruire une filière française d’engrais azotés décarbonés, mobiliser l’agriculture dans une stratégie géopolitique : diplomatie du blé, sécurisation des filières, souveraineté logistique."
+        },
+        {
+          "page": 21,
+          "quote": "Rendre possible une filière française d’engrais azotés décarbonés, alimentée par notre électricité nucléaire et renouvelable"
+        },
+        {
+          "page": 22,
+          "quote": "Développer un maillage territorial d’industries de première et deuxième transformation (meuneries, conserveries, laiteries, scieries, …)."
+        },
+        {
+          "page": 22,
+          "quote": "Faciliter les filières d’avenir : protéines végétales, bois, chimie verte."
         }
       ],
       "precision": "floue"
@@ -529,6 +621,14 @@
         {
           "page": 12,
           "quote": "une débureaucratisation massive (suppression des normes redondantes, guichet numérique unique, autonomie locale sur les modalités d’application), et une remise à plat du carcan normatif viticole, notamment dans les AOC"
+        },
+        {
+          "page": 22,
+          "quote": "Créer un statut unique d’entreprise rurale agricole intégrée permettant d’accueillir toutes les activités (production, transformation, vente, énergie, foncier, forêt, immobilier, tourisme …) et leur développement"
+        },
+        {
+          "page": 21,
+          "quote": "Permettre l'innovation et l'expérimentation au sein des AOC (Appellations d'Origine Contrôlée) afin de s'adapter aux changements climatiques et de réduire les produits phytosanitaires. Libérer notamment l'usage des cépages résistants en viticulture."
         }
       ],
       "precision": "partielle",
@@ -539,12 +639,16 @@
       "title": "Agriculture de précision et retenues d'eau (bassines) décidées localement",
       "summary": {
         "simple": "Soutenir la technologie agricole et autoriser les bassines quand elles sont justifiées.",
-        "normal": "Soutien à l'agriculture de précision, aux capteurs connectés, à la robotisation et à l'IA ; politique des sols fondée sur la fertilité et la captation du carbone ; gestion de l'eau par subsidiarité, avec des bassines lorsqu'elles sont techniquement justifiées et localement décidées."
+        "normal": "Soutien à l'agriculture de précision, aux capteurs connectés, à la robotisation et à l'IA ; politique des sols fondée sur la fertilité et la captation du carbone ; gestion de l'eau par subsidiarité, avec des bassines lorsqu'elles sont techniquement justifiées et localement décidées, et une loi sur l'eau simplifiée pour permettre le stockage hivernal et l'irrigation estivale."
       },
       "sources": [
         {
           "page": 12,
           "quote": "Cela passe par le soutien à l’agriculture de précision, aux capteurs connectés, à la robotisation, à l’usage de l’intelligence artificielle pour la gestion des cultures, par une politique des sols fondée sur la fertilité et la captation du carbone, et par une gestion de l’eau fondée sur la subsidiarité : oui aux bassines, lorsqu’elles sont techniquement justifiées et localement décidées."
+        },
+        {
+          "page": 21,
+          "quote": "Réformer et simplifier la loi sur l’eau pour permettre le stockage hivernal et l’irrigation estivale."
         }
       ],
       "precision": "floue"
