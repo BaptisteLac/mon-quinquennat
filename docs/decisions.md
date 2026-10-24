@@ -20,6 +20,7 @@ Toute nouvelle décision s'ajoute ici (date, décision, raison).
 ## Données et automatisation
 - **Seule source des mesures : les programmes officiels des candidats.** Pas de collecte sur le reste du web.
 - **Le programme fait foi** (2026-10-24). Sur le site officiel, le programme (pages programme et documents qu'elles publient : livrets, carnets, discours) prime sur les autres pages (questions-réponses, prises de position). Celles-ci peuvent préciser ou compléter une mesure, jamais la contredire : en cas d'écart, on garde la version du programme et on retire l'élément contradictoire. Si le programme ne tranche pas et que les autres pages se contredisent, on publie seulement ce qu'elles ont en commun, sans préciser le point contesté (2026-10-24).
+- **Archive immuable** (2026-10-24) : un corpus archivé puis exploité n'est jamais recollecté ni réécrit ; une nouvelle collecte prend un nouvel identifiant (`<parti>-<aaaa-mm>[-n]`). La veille compare la nouvelle collecte à l'ancienne.
 - **Aucune validation manuelle par défaut.** Six contrôles automatiques ; l'humain ne traite que la file d'exceptions (issues GitHub, commandes `/approuver`, `/rejeter`, `/corriger`).
 - **Le LLM ne calcule jamais** : OpenFisca, formules sur liste blanche, estimations INSEE marquées ≈.
 - **Taux d'erreur mesuré** par audit d'échantillon, publié sur la page Méthode.
@@ -45,3 +46,4 @@ Toute nouvelle décision s'ajoute ici (date, décision, raison).
 - **Citation localisée par page web + chemin de section** au lieu d'un numéro de page PDF ; lien vers le site officiel avec la phrase surlignée (`#:~:text=`).
 - **Contrôle des chiffres** : tout nombre d'une mesure doit figurer dans sa citation, sinon la mesure est `floue`.
 - **Évaluation sans saisie manuelle** : vérification ✅/❌ d'un échantillon, couverture calculée automatiquement (deux modèles repèrent les engagements phrase par phrase), rejeu sur les programmes 2022 contre des listes tierces.
+- **Questions de profil pour le calcul** (test n°2, 2026-10-24) : le profil actuel ne suffit pas pour certains montants. À ajouter : loyer hors charges (aides au logement, sinon non calculées) ; code postal (zone des aides au logement, sinon déduite du lieu de vie ≈) ; année de naissance des enfants plutôt qu'une tranche (majoration des allocations familiales à 14 ans) ; pour un indépendant en micro-entreprise, chiffre d'affaires annuel et type d'activité ; situation professionnelle du conjoint.

@@ -1,10 +1,13 @@
 # Collecte d'un programme officiel (test n°1) depuis GitHub Actions, qui a un accès internet ouvert.
 # Déclenchée par une modification de spikes/extraction/collect-request.json, ou à la main.
 # Le corpus collecté est commité sur la branche qui a déclenché la collecte, pour être relu et annoté.
+# Un corpus déjà exploité (data/extractions/<corpus> existe) n'est jamais recollecté : une archive est
+# immuable, une nouvelle collecte prend un nouvel identifiant de corpus. Pas de déclenchement sur main.
 name: Collecte d'un programme
 
 on:
   push:
+    branches-ignore: [main]
     paths: [spikes/extraction/collect-request.json]
   workflow_dispatch:
 
@@ -37,6 +40,10 @@ jobs:
           for u in $(jq -r '.start[]' $req); do args+=(--start "$u"); done
           for u in $(jq -r '.include[]' $req); do args+=(--include "$u"); done
           if [ "$(jq -r .render $req)" = "true" ]; then args+=(--render); fi
+          if [ -d "../../data/extractions/$corpus" ]; then
+            echo "::error::Le corpus $corpus est déjà exploité : archive immuable, choisir un nouvel identifiant."
+            exit 1
+          fi
           rm -rf "../../data/archives/$corpus"   # nouvelle collecte complète, sans fichiers périmés
           npm run collect -- "${args[@]}"
           echo "CORPUS=$corpus" >> "$GITHUB_ENV"
