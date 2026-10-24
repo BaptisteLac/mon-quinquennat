@@ -1,0 +1,205 @@
+[
+ {
+  "file": "Main.html",
+  "title": "1 · Personnage · Toi",
+  "w": 390,
+  "h": 1040,
+  "row": 0
+ },
+ {
+  "file": "A-perso-2.html",
+  "title": "2 · Personnage · Ta vie",
+  "w": 390,
+  "h": 900,
+  "row": 0
+ },
+ {
+  "file": "A-affiner.html",
+  "title": "3 · Affiner (facultatif)",
+  "w": 390,
+  "h": 844,
+  "row": 0
+ },
+ {
+  "file": "A-candidats.html",
+  "title": "4 · Choix des programmes",
+  "w": 390,
+  "h": 900,
+  "row": 0
+ },
+ {
+  "file": "A-couloirs.html",
+  "title": "5 · Le quinquennat (frise à faire défiler)",
+  "w": 390,
+  "h": 1780,
+  "row": 0
+ },
+ {
+  "file": "R1-intro.html",
+  "title": "6.1 · Intro du récap",
+  "w": 390,
+  "h": 844,
+  "row": 2200
+ },
+ {
+  "file": "D-fiche.html",
+  "title": "6.2 · Tickets 1 à 3",
+  "w": 390,
+  "h": 844,
+  "row": 2200
+ },
+ {
+  "file": "R2b-mystere-ticket.html",
+  "title": "6.2 · Ticket 4, mystère à gratter",
+  "w": 390,
+  "h": 844,
+  "row": 2200
+ },
+ {
+  "file": "R5-mystere.html",
+  "title": "6.3 · Le mystère révélé",
+  "w": 390,
+  "h": 844,
+  "row": 2200
+ },
+ {
+  "file": "R3-cote.html",
+  "title": "6.4 · En un coup d'œil",
+  "w": 390,
+  "h": 844,
+  "row": 2200
+ },
+ {
+  "file": "R4-themes.html",
+  "title": "6.5 · Ce qui bouge le plus",
+  "w": 390,
+  "h": 844,
+  "row": 2200
+ },
+ {
+  "file": "R6-certitude.html",
+  "title": "6.6 · La certitude",
+  "w": 390,
+  "h": 844,
+  "row": 2200
+ },
+ {
+  "file": "R7-fin.html",
+  "title": "6.7 · À toi de jouer",
+  "w": 390,
+  "h": 844,
+  "row": 2200
+ },
+ {
+  "file": "E0-accueil.html",
+  "title": "0 · Accueil",
+  "w": 390,
+  "h": 1720,
+  "row": 3600
+ },
+ {
+  "file": "E0b-reprise.html",
+  "title": "0 · Reprendre (retour sur le site)",
+  "w": 390,
+  "h": 844,
+  "row": 3600
+ },
+ {
+  "file": "E0c-lien.html",
+  "title": "0 · Arrivée par un lien partagé",
+  "w": 390,
+  "h": 1000,
+  "row": 3600
+ },
+ {
+  "file": "P1-partage.html",
+  "title": "Aperçu avant partage",
+  "w": 390,
+  "h": 844,
+  "row": 3600
+ },
+ {
+  "file": "T0-vide.html",
+  "title": "Cas limite · ticket vide",
+  "w": 390,
+  "h": 844,
+  "row": 3600
+ },
+ {
+  "file": "S1-source.html",
+  "title": "Source d'une ligne (au toucher)",
+  "w": 390,
+  "h": 844,
+  "row": 3600
+ },
+ {
+  "file": "M1-methode.html",
+  "title": "Page Méthode",
+  "w": 390,
+  "h": 1700,
+  "row": 3600
+ },
+ {
+  "file": "PG1-programme.html",
+  "title": "Programme en mesures",
+  "w": 390,
+  "h": 1500,
+  "row": 3600
+ },
+ {
+  "file": "F1-fiche-mesure.html",
+  "title": "Fiche mesure",
+  "w": 390,
+  "h": 2360,
+  "row": 3600
+ },
+ {
+  "file": "X1-calcul.html",
+  "title": "Calcul en cours",
+  "w": 390,
+  "h": 844,
+  "row": 5700
+ },
+ {
+  "file": "X2-erreur.html",
+  "title": "Erreur ou coupure",
+  "w": 390,
+  "h": 844,
+  "row": 5700
+ },
+ {
+  "file": "DUEL1-accueil.html",
+  "title": "Entre-deux-tours · accueil",
+  "w": 390,
+  "h": 844,
+  "row": 5700
+ },
+ {
+  "file": "DUEL2-ticket.html",
+  "title": "Entre-deux-tours · ticket duel",
+  "w": 390,
+  "h": 844,
+  "row": 5700
+ },
+ {
+  "file": "OG1-apercu-lien.html",
+  "title": "Aperçu du lien partagé (1200×630)",
+  "w": 1200,
+  "h": 630,
+  "row": 5700
+ },
+ {
+  "file": "DA-candidats.html",
+  "title": "Représenter les candidats",
+  "w": 1180,
+  "h": 700,
+  "row": 6900
+ },
+ {
+  "file": "DA-retenue.html",
+  "title": "DA retenue · Sticker, peau jaune",
+  "w": 1180,
+  "h": 1060,
+  "row": 7720
+ }
+]

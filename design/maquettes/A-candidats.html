@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Choix des programmes</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&amp;family=DM+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#111}a:hover{color:#444}
+</style>
+</helmet>
+<div style="width: 390px; height: 900px; box-sizing: border-box; background: #EFEEE8; color: #111; font-family: 'DM Sans', sans-serif; padding: 20px 20px 24px; display: flex; flex-direction: column; gap: 14px">
+  <div style="display: flex; justify-content: space-between; align-items: center">
+    <a href="A-perso-2.dc.html" aria-label="Retour" style="width: 44px; height: 44px; box-sizing: border-box; border: 2px solid #111; border-radius: 12px; background: #fff; display: flex; align-items: center; justify-content: center">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
+    </a>
+    <div style="font-size: 13px; font-weight: 700; border: 2px solid #111; border-radius: 999px; padding: 4px 10px; background: #fff">3 / 3 choisis</div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 6px">
+    <h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 34px; line-height: 1; letter-spacing: -0.03em">Quels programmes<br>veux-tu vivre ?</h1>
+    <p style="margin: 0; font-size: 14px; line-height: 1.45; color: #3A3A36">Choisis jusqu'à 3 candidats. Seuls ceux qui ont publié un programme apparaissent, dans un ordre tiré au hasard.</p>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 8px">
+    <button style="min-height: 64px; border: 2.5px solid #111; border-radius: 14px; background: #FFD23F; box-shadow: 3px 3px 0 #111; padding: 10px 12px; display: flex; align-items: center; gap: 12px; text-align: left; color: #111; font-family: 'DM Sans', sans-serif">
+      <span style="position: relative; width: 52px; height: 52px; flex: none; box-sizing: border-box; border: 2px solid #111; border-radius: 10px; background: repeating-linear-gradient(-45deg, #D9D6CE 0 5px, #ECEAE4 5px 10px)"><span style="position: absolute; right: -7px; bottom: -7px; width: 22px; height: 22px; box-sizing: border-box; border: 2px solid #111; border-radius: 999px; background: #fff; display: flex; align-items: center; justify-content: center"><svg width="10" height="10" viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="5" fill="#111"/></svg></span></span>
+      <span style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px">
+        <span style="font-weight: 700; font-size: 15px">[Prénom Nom]</span>
+        <span style="font-size: 13px; font-weight: 700">[Nom complet du parti]</span>
+        <span style="font-size: 12px">24 mesures · <b>candidature officielle</b></span>
+      </span>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>
+    </button>
+
+    <button style="min-height: 64px; border: 2px solid #111; border-radius: 14px; background: #fff; padding: 10px 12px; display: flex; align-items: center; gap: 12px; text-align: left; color: #111; font-family: 'DM Sans', sans-serif">
+      <span style="position: relative; width: 52px; height: 52px; flex: none; box-sizing: border-box; border: 2px solid #111; border-radius: 10px; background: repeating-linear-gradient(-45deg, #D9D6CE 0 5px, #ECEAE4 5px 10px)"><span style="position: absolute; right: -7px; bottom: -7px; width: 22px; height: 22px; box-sizing: border-box; border: 2px solid #111; border-radius: 999px; background: #fff; display: flex; align-items: center; justify-content: center"><svg width="10" height="10" viewBox="0 0 12 12" aria-hidden="true"><path d="M6 0.5 L11.5 6 L6 11.5 L0.5 6 Z" fill="#111"/></svg></span></span>
+      <span style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px">
+        <span style="font-weight: 700; font-size: 15px">[Prénom Nom]</span>
+        <span style="font-size: 13px; font-weight: 700">[Nom complet du parti]</span>
+        <span style="font-size: 12px; color: #3A3A36">18 mesures · candidature déclarée</span>
+      </span>
+    </button>
+
+    <button style="min-height: 64px; border: 2.5px solid #111; border-radius: 14px; background: #FFD23F; box-shadow: 3px 3px 0 #111; padding: 10px 12px; display: flex; align-items: center; gap: 12px; text-align: left; color: #111; font-family: 'DM Sans', sans-serif">
+      <span style="position: relative; width: 52px; height: 52px; flex: none; box-sizing: border-box; border: 2px solid #111; border-radius: 10px; background: repeating-linear-gradient(-45deg, #D9D6CE 0 5px, #ECEAE4 5px 10px)"><span style="position: absolute; right: -7px; bottom: -7px; width: 22px; height: 22px; box-sizing: border-box; border: 2px solid #111; border-radius: 999px; background: #fff; display: flex; align-items: center; justify-content: center"><svg width="10" height="10" viewBox="0 0 12 12" aria-hidden="true"><path d="M6 1 L11 11 H1 Z" fill="#111"/></svg></span></span>
+      <span style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px">
+        <span style="font-weight: 700; font-size: 15px">[Prénom Nom]</span>
+        <span style="font-size: 13px; font-weight: 700">[Nom complet du parti]</span>
+        <span style="font-size: 12px">31 mesures · <b>candidature officielle</b></span>
+      </span>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>
+    </button>
+
+    <button style="min-height: 64px; border: 2.5px solid #111; border-radius: 14px; background: #FFD23F; box-shadow: 3px 3px 0 #111; padding: 10px 12px; display: flex; align-items: center; gap: 12px; text-align: left; color: #111; font-family: 'DM Sans', sans-serif">
+      <span style="position: relative; width: 52px; height: 52px; flex: none; box-sizing: border-box; border: 2px solid #111; border-radius: 10px; background: repeating-linear-gradient(-45deg, #D9D6CE 0 5px, #ECEAE4 5px 10px)"><span style="position: absolute; right: -7px; bottom: -7px; width: 22px; height: 22px; box-sizing: border-box; border: 2px solid #111; border-radius: 999px; background: #fff; display: flex; align-items: center; justify-content: center"><svg width="10" height="10" viewBox="0 0 12 12" aria-hidden="true"><rect x="1" y="1" width="10" height="10" fill="#111"/></svg></span></span>
+      <span style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px">
+        <span style="font-weight: 700; font-size: 15px">[Prénom Nom]</span>
+        <span style="font-size: 13px; font-weight: 700">[Nom complet du parti]</span>
+        <span style="font-size: 12px">9 mesures · candidature déclarée</span>
+      </span>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>
+    </button>
+
+
+    <a href="#" style="height: 44px; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 700">Voir les 7 autres candidats</a>
+  </div>
+
+  <button style="border: 2.5px solid #111; border-radius: 16px; background: #fff; padding: 12px 14px; display: flex; align-items: center; gap: 12px; text-align: left; color: #111; font-family: 'DM Sans', sans-serif">
+    <span style="width: 40px; height: 40px; flex: none; border: 2.5px solid #111; border-radius: 12px; background: #111; color: #FFD23F; display: flex; align-items: center; justify-content: center; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 22px">?</span>
+    <span style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px">
+      <span style="font-weight: 700; font-size: 15px">+ 1 programme mystère</span>
+      <span style="font-size: 12px; color: #3A3A36; line-height: 1.35">Tiré au hasard, anonyme pendant le quinquennat, révélé à la fin.</span>
+    </span>
+    <span role="img" aria-label="Activé" style="width: 48px; height: 28px; flex: none; box-sizing: border-box; border: 2.5px solid #111; border-radius: 999px; background: #FFD23F; position: relative">
+      <span style="position: absolute; right: 2px; top: 2px; width: 19px; height: 19px; border-radius: 999px; background: #111"></span>
+    </span>
+  </button>
+
+  <div style="margin-top: auto">
+    <a href="A-couloirs.dc.html" style="height: 56px; box-sizing: border-box; border: 2.5px solid #111; border-radius: 16px; background: #111; color: #fff; box-shadow: 4px 4px 0 #FFD23F; display: flex; align-items: center; justify-content: center; gap: 10px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 18px; text-decoration: none">Vivre 3 programmes + 1 mystère
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":900}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>

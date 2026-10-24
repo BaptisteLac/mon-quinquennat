@@ -3,7 +3,15 @@
 ## Le projet en une phrase
 Un simulateur neutre et sourcé : l'utilisateur crée son personnage, choisit jusqu'à 3 candidats à la présidentielle 2027 (+ un programme « mystère » tiré au sort), vit 2027–2032 dans une frise, et repart avec un ticket partageable « Ma vie en 2032 ».
 
-Cadrage complet : `docs/cadrage.md`. Étape en cours : `docs/faisabilite.md`.
+## À lire avant de travailler
+Ce dépôt est la seule source de vérité : la conception a eu lieu ailleurs, tout ce qui compte est ici.
+- `docs/cadrage.md` — périmètre du MVP, parcours, ticket, pipeline, architecture
+- `docs/decisions.md` — ce qui est tranché, ce qui est **écarté** (ne pas le reproposer), ce qui reste à valider
+- `docs/design-system.md` — couleurs, typo, illustrations, règles d'affichage des candidats
+- `design/maquettes/` — écrans validés (HTML + captures PNG dans `png/`), index dans `design/README.md`. Pour construire un écran, lire sa capture **et** son HTML.
+- `docs/faisabilite.md` — étape en cours
+
+Une décision prise en cours de route s'ajoute à `docs/decisions.md` dans le même commit.
 
 ## Principes non négociables
 Chaque modification de code doit respecter ces cinq règles. En cas de doute, s'arrêter et demander.
@@ -33,7 +41,8 @@ calc/                Service OpenFisca + profils de référence
 spikes/extraction/   Test de faisabilité n°1
 spikes/openfisca/    Test de faisabilité n°2
 data/sources.yaml    Liste des programmes officiels suivis
-docs/                Cadrage, faisabilité, méthode
+design/maquettes/    Écrans validés (HTML + PNG)
+docs/                Cadrage, décisions, design system, faisabilité
 ```
 
 ## Conventions
