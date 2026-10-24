@@ -5,7 +5,7 @@
       "title": "Baisser la dépense publique de 200 milliards d'euros, objectif 300 milliards",
       "summary": {
         "simple": "La dépense publique baisserait de 200 milliards d'euros par an en fin de quinquennat, avec un objectif de 300 milliards.",
-        "normal": "Baisse de la dépense publique de 200 milliards d'euros documentés, soit environ sept points de PIB en fin de quinquennat, avec un objectif de 300 milliards (une publication d'avril 2026 retenait 100 milliards sur le seul train de vie de l'État). Baisse visée de 80 milliards dès la première année. Objectif : dépense publique sous 50 % du PIB en dix ans (57 % aujourd'hui selon le candidat). Répartition annoncée des 200 milliards : 120 milliards rendus aux actifs en salaire net, 40 milliards de baisse des impôts de production, 40 milliards affectés à la dette."
+        "normal": "Baisse de la dépense publique de 200 milliards d'euros documentés, soit environ sept points de PIB en fin de quinquennat, avec un objectif de 300 milliards (une publication d'avril 2026 retenait 100 milliards sur le seul train de vie de l'État). Baisse visée de 80 milliards dès la première année. Objectif : dépense publique sous 50 % du PIB en dix ans (57 % aujourd'hui selon le candidat). Sur les 200 milliards : 120 milliards rendus aux actifs en salaire net et 40 milliards de baisse des impôts de production."
       },
       "sources": [
         {
@@ -30,11 +30,11 @@
         },
         {
           "page": 125,
-          "quote": "David Lisnard veut baisser la dépense, jamais augmenter l’impôt : 80 milliards d’euros dès la première année, au moins 200 milliards en trajectoire, dont 40 affectés au désendettement."
+          "quote": "80 milliards d’euros dès la première année, au moins 200 milliards en trajectoire"
         },
         {
           "page": 124,
-          "quote": "120 milliards d’euros rendus aux actifs en salaire net, 40 milliards en baisse des impôts de production, à commencer par la suppression de la C3S, et 40 milliards affectés à la dette"
+          "quote": "120 milliards d’euros rendus aux actifs en salaire net, 40 milliards en baisse des impôts de production, à commencer par la suppression de la C3S"
         }
       ],
       "precision": "partielle",
@@ -45,12 +45,12 @@
       "title": "Baisser les cotisations pour rendre 120 milliards d'euros en salaire net",
       "summary": {
         "simple": "Moins de cotisations sur la fiche de paie : le salaire net augmenterait sans coûter plus à l'employeur.",
-        "normal": "Sur 200 milliards d'euros d'économies, 120 milliards seraient rendus aux actifs en salaire net par la baisse des cotisations, 40 milliards iraient à la baisse des impôts de production et 40 milliards au désendettement ; le gain annoncé varie selon les interventions de 250 à 400 euros net par mois et par salarié."
+        "normal": "Sur 200 milliards d'euros d'économies, 120 milliards seraient rendus aux actifs en salaire net par la baisse des cotisations et 40 milliards iraient à la baisse des impôts de production ; le gain annoncé varie selon les interventions de 250 à 400 euros net par mois et par salarié."
       },
       "sources": [
         {
           "page": 107,
-          "quote": "Sur 200 milliards d’euros d’économies documentées, la répartition annoncée est de 120 milliards rendus aux actifs en salaire net, 40 milliards en baisse des impôts de production, à commencer par la suppression de la C3S, et 40 milliards affectés à la dette."
+          "quote": "Sur 200 milliards d’euros d’économies documentées, la répartition annoncée est de 120 milliards rendus aux actifs en salaire net, 40 milliards en baisse des impôts de production"
         },
         {
           "page": 79,

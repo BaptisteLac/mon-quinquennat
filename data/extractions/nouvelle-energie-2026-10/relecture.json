@@ -876,14 +876,8 @@
     "contentSha256": "4f7b61888eac56874f26dd483964983062c01178d004dc1fdd6f4a282c353887"
   },
   "624215cfb8d3": {
-    "verdict": "a_revoir",
-    "contentSha256": "ca16de38bc8f6a910a057f22e833bf0453510f8ed560f9d0762db042baae90d5",
-    "note": "Le programme ne fixe pas la répartition des économies ; deux pages « Questions » se contredisent sur le troisième bloc : 20 % (40 milliards) affectés à la dette (pages 96, 124, 125) ou « vingt pour cent modernisent l'État » (page 128). Arbitrage humain."
-  },
-  "770fdc9e9c2b": {
-    "verdict": "a_revoir",
-    "contentSha256": "38f0a335b55cbbf4fa01567c6e20c3b65f05a1efae8f46823dfe97db75e07e40",
-    "note": "Le programme ne fixe pas la répartition des économies ; deux pages « Questions » se contredisent sur le troisième bloc : 20 % (40 milliards) affectés à la dette (pages 96, 124, 125) ou « vingt pour cent modernisent l'État » (page 128). Arbitrage humain."
+    "verdict": "fidele",
+    "contentSha256": "8a00caf2db8d8334126911b55d68142a0b6d9a37b61046909c07d937dc0d583e"
   },
   "df42fc65cb36": {
     "verdict": "fidele",
@@ -1040,5 +1034,9 @@
   "7b8f7ffd55ec": {
     "verdict": "fidele",
     "contentSha256": "3b03ffa71252becdbe879c560f8d53072282038d5a5e8cfaccb8534788ef7aee"
+  },
+  "cf53edec4641": {
+    "verdict": "fidele",
+    "contentSha256": "a389bb4ad4f998ed18b992550b8e7b8c81f263394f8f063332f2c693e5ab8062"
   }
 }
