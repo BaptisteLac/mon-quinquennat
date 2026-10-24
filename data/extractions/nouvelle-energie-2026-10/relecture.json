@@ -132,19 +132,16 @@
     "contentSha256": "01860a223b0ac19cfb86e3d87c3d8c347dc89ea9b9ce06da3d439e8c934c7e13"
   },
   "292afd3ae0d2": {
-    "verdict": "a_revoir",
-    "contentSha256": "f2bfc7b2b9fa9097b1ecfcae8bfd2b282e14ec6ee47ca9b6b96b5469e215552b",
-    "note": "Écart entre sources officielles : la page programme (axe 2) fixe l'âge légal à 65 ans ; la page « Quel âge de départ… » (page 146 du corpus) indique qu'il « ne fait pas de l'âge sa réponse » et refuse de revenir sur la réforme de 2023. Arbitrage humain : quelle version publier, ou publier les deux ?"
+    "verdict": "fidele",
+    "contentSha256": "f2bfc7b2b9fa9097b1ecfcae8bfd2b282e14ec6ee47ca9b6b96b5469e215552b"
   },
   "9dd1526ae0f6": {
-    "verdict": "a_revoir",
-    "contentSha256": "19b9c360476ba3256a29e362d9209ab29419aa65e0df5008e533c6bb6296dbd9",
-    "note": "Écart entre sources officielles : minimum vieillesse à 1 000 € par mois (axe 2) ; socle de pension « autour de 1 200 euros mensuels » (page 144, tribune de 2023)."
+    "verdict": "fidele",
+    "contentSha256": "19b9c360476ba3256a29e362d9209ab29419aa65e0df5008e533c6bb6296dbd9"
   },
   "befbb59aa25e": {
-    "verdict": "a_revoir",
-    "contentSha256": "99e260b2456eab8d10abe91cf00a9ee28f975c4022a2189083d63ff65f0e93aa",
-    "note": "Écart entre sources officielles : capitalisation par « dispositif individuel de son choix », environ 40 % des retraites (axe 2) ; capitalisation « obligatoire et collective », « un tiers » (pages 142 à 145)."
+    "verdict": "fidele",
+    "contentSha256": "99e260b2456eab8d10abe91cf00a9ee28f975c4022a2189083d63ff65f0e93aa"
   },
   "e40d2bc4b629": {
     "verdict": "fidele",
@@ -415,9 +412,8 @@
     "contentSha256": "43e2867a321bc3ae00b86f190212ae822b603af51872c2eeeebaebbde4b8d9e8"
   },
   "c26ef0bab5a7": {
-    "verdict": "a_revoir",
-    "contentSha256": "11d4cb5fb916be008cdd8bcd8a0fa65c91e1e3eaf5fae21b12eccb1ee8f0484e",
-    "note": "Écart entre sources officielles : regroupement familial conditionné (page immigration) ; le livre cité page 170 « mettrait fin au regroupement familial »."
+    "verdict": "fidele",
+    "contentSha256": "11d4cb5fb916be008cdd8bcd8a0fa65c91e1e3eaf5fae21b12eccb1ee8f0484e"
   },
   "a3d949cdb5aa": {
     "verdict": "fidele",
@@ -882,16 +878,16 @@
   "624215cfb8d3": {
     "verdict": "a_revoir",
     "contentSha256": "ca16de38bc8f6a910a057f22e833bf0453510f8ed560f9d0762db042baae90d5",
-    "note": "Écart entre sources officielles sur la clé de répartition : 40 milliards (20 %) « affectés à la dette » (pages 96, 124, 125) ; « vingt pour cent modernisent l'État » (page 128)."
+    "note": "Le programme ne fixe pas la répartition des économies ; deux pages « Questions » se contredisent sur le troisième bloc : 20 % (40 milliards) affectés à la dette (pages 96, 124, 125) ou « vingt pour cent modernisent l'État » (page 128). Arbitrage humain."
   },
   "770fdc9e9c2b": {
     "verdict": "a_revoir",
     "contentSha256": "38f0a335b55cbbf4fa01567c6e20c3b65f05a1efae8f46823dfe97db75e07e40",
-    "note": "Même écart sur la clé de répartition : 20 % affectés à la dette (pages 96, 124) ou à la modernisation de l'État (page 128)."
+    "note": "Le programme ne fixe pas la répartition des économies ; deux pages « Questions » se contredisent sur le troisième bloc : 20 % (40 milliards) affectés à la dette (pages 96, 124, 125) ou « vingt pour cent modernisent l'État » (page 128). Arbitrage humain."
   },
   "df42fc65cb36": {
     "verdict": "fidele",
-    "contentSha256": "0c0815eda680b6018480f4d017a453af51b3236c0b09e5087a82344cad04d09c"
+    "contentSha256": "fd9428c9d863410ef3d8d9bfab5b7003bd49325af56a6357fa6476403b722c5c"
   },
   "6c65b91996c9": {
     "verdict": "fidele",
@@ -942,9 +938,8 @@
     "contentSha256": "ffdeedab852ced4ab78c8de065b93e1e96edd3ed8202f997674b13b10af08f9c"
   },
   "a726bacfc511": {
-    "verdict": "a_revoir",
-    "contentSha256": "0b4827472ca96e19be340e7a8527b33daf07747a4ae85d16273969fc7d1cd3ff",
-    "note": "Repose sur la clé de répartition de la page 128 (20 % pour moderniser l'État), qui diffère de celle des pages 96, 124 et 125 (20 % pour la dette)."
+    "verdict": "fidele",
+    "contentSha256": "9b8ea5ecd1240e1a69fe7ae47cf714959c19e471459bf19bdcb6cd07497119e7"
   },
   "929f05e713c5": {
     "verdict": "fidele",

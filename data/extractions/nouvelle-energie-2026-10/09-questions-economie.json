@@ -91,7 +91,7 @@
       "title": "Désindexer les retraites au-delà d'un seuil et plafonner certains revenus sociaux",
       "summary": {
         "simple": "Les pensions au-dessus d'environ 2 000 € par mois ne suivraient plus automatiquement les prix.",
-        "normal": "Parmi les économies finançant la baisse des cotisations : plafonnement de certains revenus sociaux, désindexation des retraites au-delà d'un seuil de l'ordre de 2 000 euros mensuels, et suppression d'organismes publics. Le différentiel dégagé par la désindexation servirait aussi à amorcer un étage de retraite par capitalisation obligatoire et collective."
+        "normal": "Parmi les économies finançant la baisse des cotisations : plafonnement de certains revenus sociaux, désindexation des retraites au-delà d'un seuil de l'ordre de 2 000 euros mensuels, et suppression d'organismes publics. Le différentiel dégagé par la désindexation servirait aussi à amorcer l'étage de retraite par capitalisation."
       },
       "sources": [
         {
@@ -109,10 +109,6 @@
         {
           "page": 142,
           "quote": "Sa réponse est de ne plus indexer les pensions au-delà d’environ 2 000 euros par mois et d’orienter le différentiel vers l’amorçage du nouvel étage."
-        },
-        {
-          "page": 142,
-          "quote": "David Lisnard la veut sous une forme précise : obligatoire et collective, négociée branche par branche, et universelle."
         }
       ],
       "precision": "partielle",
@@ -452,16 +448,12 @@
       "title": "Ne plus remplacer l'ensemble des départs de fonctionnaires",
       "summary": {
         "simple": "Une partie des départs de fonctionnaires ne serait pas remplacée, d'abord dans les fonctions administratives.",
-        "normal": "Non-remplacement d'une partie des cinq cent mille départs annuels de la fonction publique, en commençant par les fonctions administratives ; selon la clé de répartition associée, vingt pour cent des économies moderniseraient l'État et financeraient une meilleure rémunération des agents de terrain."
+        "normal": "Non-remplacement d'une partie des cinq cent mille départs annuels de la fonction publique, en commençant par les fonctions administratives."
       },
       "sources": [
         {
           "page": 128,
           "quote": "David Lisnard propose de ne plus remplacer l’ensemble des cinq cent mille départs annuels de la fonction publique, en commençant par les fonctions administratives."
-        },
-        {
-          "page": 128,
-          "quote": "soixante pour cent reviennent aux actifs en salaire net, vingt pour cent baissent les impôts de production, vingt pour cent modernisent l’État. C’est ce dernier bloc qui doit financer une meilleure rémunération des agents de terrain."
         }
       ],
       "precision": "partielle"
