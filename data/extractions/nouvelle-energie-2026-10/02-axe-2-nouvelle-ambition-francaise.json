@@ -1,0 +1,691 @@
+{
+  "measures": [
+    {
+      "theme": "entreprise",
+      "title": "Supprimer la C3S et la CVAE pour réduire de moitié les impôts de production",
+      "summary": {
+        "simple": "Les entreprises paieraient moins d'impôts liés à leur production.",
+        "normal": "Suppression de la C3S et, le cas échéant, de la CVAE, soit 11,5 milliards d'euros s'ajoutant à la baisse de 10 milliards déjà prévue : les impôts de production passeraient de 2 % à 1 % du PIB."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "L’allègement de la fiscalité des entreprises doit se poursuivre par la diminution des impôts de production à travers la suppression de plusieurs contributions (C3S, CVAE…) ainsi que la réforme des droits de succession sur les entreprises."
+        },
+        {
+          "page": 5,
+          "quote": "La suppression de la C3S (Contribution sociale de solidarité au bénéfice de la Sécurité Sociale) et, le cas échéant, de la CVAE (Contribution sur la valeur ajoutée des entreprises au bénéfice des collectivités territoriales) représenterait 11,5 milliards d’euros qui s’ajouteraient à la baisse de 10 milliards déjà prévue par le gouvernement, soit au total une diminution de moitié des impôts de production, de 2% à 1% du PIB."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Réformer les droits de succession sur les entreprises",
+      "summary": {
+        "simple": "La transmission d'une entreprise serait moins taxée.",
+        "normal": "Réforme des droits de succession sur les entreprises, dans le cadre de l'allègement de la fiscalité des entreprises."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "ainsi que la réforme des droits de succession sur les entreprises"
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Favoriser l'investissement en capital et la recherche dans les entreprises",
+      "summary": {
+        "simple": "Des mesures pour encourager l'investissement et l'innovation.",
+        "normal": "Dispositions favorisant l'investissement en capital dans les entreprises et stimulant la recherche et l'innovation."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "D’autres dispositions favoriseront l’investissement en capital dans les entreprises et stimuler la recherche et l’innovation."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Créer un compte-épargne aléas climatiques et économiques pour les agriculteurs",
+      "summary": {
+        "simple": "Les agriculteurs mettraient de l'argent de côté les bonnes années pour faire face aux intempéries.",
+        "normal": "Création d'un « compte-épargne aléas climatiques et économiques », alimenté les années bénéficiaires et débloqué lors d'intempéries touchant les cultures ; extension possible à toute forme d'entreprise."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "une meilleure protection assurantielle contre les conséquences de plus en plus importantes des intempéries sera recherchée à travers un « compte-épargne aléas climatiques et économiques », alimenté lors des années bénéficiaires et débloqué lors des phénomènes climatiques impactant les cultures"
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "travail",
+      "title": "Contrat de travail unique fusionnant CDI et CDD",
+      "summary": {
+        "simple": "Un seul contrat de travail pour les nouvelles embauches, à la place du CDI et du CDD.",
+        "normal": "Instauration d'un contrat de travail unique pour les nouveaux emplois, fusionnant CDI et CDD, avec des indemnités de licenciement progressives."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "Une mesure essentielle sera l’instauration d’un contrat de travail unique pour les nouveaux emplois, fusionnant CDI et CDD avec des indemnités de licenciement qui seraient progressives."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "travail",
+      "title": "Supprimer les charges des particuliers employeurs au niveau du SMIC",
+      "summary": {
+        "simple": "Employer quelqu'un chez soi au SMIC ne coûterait plus de charges.",
+        "normal": "Suppression des charges pour les employeurs à domicile au niveau du SMIC."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "les charges pour les employeurs à domicile au niveau du SMIC seront supprimées"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "travail",
+      "title": "Charges patronales négatives pour l'embauche d'allocataires du RSA depuis plus de 2 ans",
+      "summary": {
+        "simple": "Les entreprises seraient aidées pour embaucher des personnes au RSA depuis longtemps.",
+        "normal": "Création d'un système de charges patronales négatives pour les embauches de personnes au RSA depuis plus de 2 ans."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "Un système de charges patronales négatives pour les embauches de personnes au RSA depuis plus de 2 ans sera créé."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "travail",
+      "title": "Abaisser la limite d'âge de l'apprentissage",
+      "summary": {
+        "simple": "L'âge maximum pour être apprenti serait abaissé.",
+        "normal": "La limite d'âge pour l'apprentissage serait revue à la baisse."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "Enfin, la limite d’âge pour l’apprentissage sera revue à la baisse."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Clusters et filières industrielles d'avenir",
+      "summary": {
+        "simple": "Soutenir des pôles industriels dans la robotique, l'énergie, la cybersécurité et l'IA.",
+        "normal": "Mise en place de clusters ou filières d'avenir, locaux et en réseau national et européen, dans des secteurs comme la robotique, l'énergie, la cybersécurité, l'intelligence artificielle et les sciences des données."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "Le renouveau industriel de la France exige aussi de travailler sur la mise en place de clusters ou filières d’avenir, locales et en réseau national et européen, autour des pépites françaises dans des secteurs aussi stratégiques et d’excellence que la robotique"
+        },
+        {
+          "page": 5,
+          "quote": "l’énergie, la cybersécurité, l’intelligence artificielle et les data sciences"
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "institutions",
+      "title": "Remplacer le principe constitutionnel de précaution par un principe de responsabilité",
+      "summary": {
+        "simple": "Le principe de précaution inscrit dans la Constitution serait remplacé.",
+        "normal": "Remplacement du principe constitutionnel de précaution par un principe de responsabilité."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "le remplacement du principe constitutionnel de précaution par un principe de responsabilité"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "transport",
+      "title": "Plan d'investissement dans les routes, le rail, la fibre et l'internet par satellite",
+      "summary": {
+        "simple": "Investir dans les routes, les trains et internet pour les territoires isolés.",
+        "normal": "Plan d'investissement dans les infrastructures routières et ferroviaires et déploiement de la fibre (FTTH) ou de l'internet par satellite pour lutter contre l'enclavement."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "la lutte contre l’enclavement de certaines zones géographiques à l’écart du développement doit passer par un plan d’investissement dans les infrastructures routières et ferroviaires ainsi que le déploiement du réseau FFTH ou/et l’internet par satellite"
+        }
+      ],
+      "precision": "floue",
+      "effects": [
+        {
+          "ticketLine": "transport",
+          "section": "vie",
+          "appliesTo": {
+            "field": "lieuDeVie",
+            "op": "in",
+            "value": [
+              "rural",
+              "peripherie",
+              "ville_moyenne"
+            ]
+          },
+          "sentence": {
+            "simple": "Des investissements dans les routes, le train et internet pour les zones isolées.",
+            "normal": "Un plan d'investissement viserait les routes, le rail et la fibre ou l'internet par satellite dans les zones à l'écart."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Supprimer l'article 55 de la loi SRU (quota de logements sociaux)",
+      "summary": {
+        "simple": "Les communes n'auraient plus d'obligation d'avoir un pourcentage de logements sociaux.",
+        "normal": "Suppression de l'article 55 de la loi SRU qui oblige les communes à disposer de 20 % (bientôt 25 %) de logements sociaux ; un dispositif transitoire pourrait fixer un objectif sur le flux de constructions, défini entre l'État et les collectivités."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "Dans ce domaine une mesure essentielle sera la suppression de l’article 55 de la loi SRU du 13 décembre 2000 obligeant les communes à disposer de 20% et bientôt 25% de logements sociaux."
+        },
+        {
+          "page": 5,
+          "quote": "un nouveau dispositif pourrait remplacer l’objectif sur le stock par un objectif sur le flux des habitations construites, défini par une concertation entre l’Etat et les collectivités concernées et qui serait plafonné"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "sentence": {
+            "simple": "Les communes ne seraient plus obligées d'avoir un quota de logements sociaux.",
+            "normal": "L'obligation pour les communes de disposer de 20 % de logements sociaux (article 55 de la loi SRU) serait supprimée."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "retraite",
+      "title": "Porter l'âge légal de départ à la retraite à 65 ans",
+      "summary": {
+        "simple": "L'âge légal de départ à la retraite passerait à 65 ans.",
+        "normal": "Avant toute réforme d'ensemble, l'âge légal de départ à la retraite serait fixé à 65 ans."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "Avant toute nouvelle option de réforme fondamentale, en l’occurrence une combinaison de la répartition avec la capitalisation, la norme de l’âge légal de 65 ans est un impératif national urgent pour des raisons d’équilibre financier."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "age_depart_retraite",
+          "section": "temps",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "in",
+            "value": [
+              "salarie_prive",
+              "fonctionnaire",
+              "independant",
+              "chef_entreprise",
+              "demandeur_emploi",
+              "sans_activite"
+            ]
+          },
+          "computation": {
+            "kind": "formule",
+            "formulaId": "retraite_age_depart",
+            "params": [
+              {
+                "name": "ageLegal",
+                "value": 65
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "theme": "retraite",
+      "title": "Pension socle par répartition dès 65 ans et minimum vieillesse à 1 000 € par mois",
+      "summary": {
+        "simple": "Chaque retraité toucherait une pension de base dès 65 ans, avec un minimum de 1 000 € par mois.",
+        "normal": "Un socle de pension minimale par répartition serait attribué à tous les retraités sans condition dès 65 ans, complété par un minimum vieillesse de 1 000 euros par mois."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "conserver un socle de pension minimale par répartition pour tous les retraités, attribué à tous sans condition dès l’âge de 65 ans, complété par un minimum-vieillesse à hauteur de 1000 euros par mois."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "pension",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "age",
+            "op": "gte",
+            "value": 65
+          },
+          "sentence": {
+            "simple": "Une pension de base pour tous dès 65 ans, avec un minimum vieillesse de 1 000 € par mois.",
+            "normal": "Un socle de pension par répartition serait versé sans condition dès 65 ans, complété par un minimum vieillesse de 1 000 € par mois."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "retraite",
+      "title": "Basculer les autres régimes de retraite vers la capitalisation",
+      "summary": {
+        "simple": "Au-delà de la pension de base, les cotisations retraite seraient placées sur un compte personnel.",
+        "normal": "Tous les autres régimes évolueraient vers la capitalisation à partir des cotisations obligatoires ; chacun choisirait son dispositif individuel. Transition en environ 8 tranches, pour une capitalisation évaluée à 116 milliards d'euros, soit environ 40 % du montant total des retraites."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "faire évoluer tous les autres régimes vers la capitalisation, à partir des cotisations obligatoires des salariés et des employeurs."
+        },
+        {
+          "page": 5,
+          "quote": "Chaque Français pourra investir les contributions obligatoires dans un dispositif individuel de son choix."
+        },
+        {
+          "page": 5,
+          "quote": "La transition entre le système actuel et le nouveau se fera par tranches successives, soit environ 8 tranches, pour atteindre un montant de capitalisation évalué à 116 milliards d’euros, soit environ 40% du montant total des retraites."
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Une partie des sommes serait investie dans les entreprises françaises.",
+          "source": {
+            "page": 5,
+            "quote": "Une partie des sommes seront investies dans la croissance et le développement des entreprises françaises."
+          }
+        },
+        {
+          "text": "Possibilité de débloquer une part de l'épargne capitalisée pour acheter sa résidence principale.",
+          "source": {
+            "page": 5,
+            "quote": "Il sera possible de débloquer une part capitalisée de cette épargne pour l’achat de la résidence principale."
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "pension",
+          "section": "vie",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "in",
+            "value": [
+              "salarie_prive",
+              "fonctionnaire",
+              "independant",
+              "chef_entreprise"
+            ]
+          },
+          "sentence": {
+            "simple": "Une partie de tes cotisations retraite irait sur un placement que tu choisis.",
+            "normal": "Les cotisations obligatoires au-delà du socle iraient vers un dispositif de capitalisation individuel choisi par chacun, déblocable en partie pour acheter sa résidence principale."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "retraite",
+      "title": "Une Agence centrale publique de retraite à la place des caisses actuelles",
+      "summary": {
+        "simple": "Un seul organisme public gérerait toutes les retraites.",
+        "normal": "Une Agence centrale publique de retraite assurerait l'ensemble de la gestion et remplacerait tous les organismes actuels."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "Une Agence Centrale Publique de Retraite sera en charge de l’ensemble de la gestion et remplacera tous les organismes actuels."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "sante",
+      "title": "Réforme globale du système de santé : du soin à la santé",
+      "summary": {
+        "simple": "Réorganiser la santé autour de la prévention et des besoins des patients.",
+        "normal": "Réforme globale visant à passer du soin à la santé et de l'offre à la demande, en transformant la gouvernance, en renforçant la recherche et en réindustrialisant le secteur de la santé."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "La réforme globale à développer devra permettre de passer du soin à la santé et de l’offre à la demande. Elle devra transformer la gouvernance, renforcer la recherche et réindustrialiser le secteur de la santé, avec une démocratisation qui se substituera à l’étatisme centralisé et vertical actuel."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "famille",
+      "title": "Relancer la politique familiale et déplafonner le quotient familial",
+      "summary": {
+        "simple": "Plus d'avantages fiscaux pour les familles, plus de places d'accueil pour les enfants.",
+        "normal": "Relance de la politique familiale : allocations financières, notamment par le déplafonnement du quotient familial, investissements dans les structures d'accueil et politique du logement familial."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "la France doit relancer sa politique familiale dans ses trois dimensions : des allocations financières, notamment par le déplafonnement du quotient familial, des investissements pour les structures d’accueil et une politique du logement familial"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "impot_revenu",
+          "section": "vie",
+          "appliesTo": {
+            "field": "nbEnfants",
+            "op": "gte",
+            "value": 1
+          },
+          "sentence": {
+            "simple": "Le plafond de l'avantage fiscal lié aux enfants serait supprimé.",
+            "normal": "Le quotient familial serait déplafonné : l'avantage d'impôt lié aux enfants ne serait plus limité par un plafond."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "securite",
+      "title": "Plan de remise à niveau de la police nationale sur 10 ans",
+      "summary": {
+        "simple": "Plus de moyens pour la police nationale pendant 10 ans.",
+        "normal": "Plan massif de remise à niveau de la police nationale, déployé sur 10 ans."
+      },
+      "sources": [
+        {
+          "page": 6,
+          "quote": "La première priorité pour la sécurité est celle d’un plan massif de remise à niveau de la police nationale"
+        },
+        {
+          "page": 6,
+          "quote": "Pour garantir son effectivité et son efficacité ce plan doit être déployé sur 10 ans."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "securite",
+      "title": "Secrétariat d'État à la sécurité intérieure et police territoriale décentralisée",
+      "summary": {
+        "simple": "Réorganiser la police avec une police territoriale gérée localement.",
+        "normal": "Réforme des structures de la sécurité publique : un secrétariat d'État à la sécurité intérieure piloterait les agences nationales et une police territoriale décentralisée."
+      },
+      "sources": [
+        {
+          "page": 6,
+          "quote": "Un Secrétariat d’Etat à la Sécurité Intérieure pilotera à la fois les agences nationales et la police territoriale."
+        },
+        {
+          "page": 6,
+          "quote": "La police territoriale sera décentralisée avec les structures de contrôle voulues."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "securite",
+      "title": "Accroître les compétences de police des collectivités territoriales",
+      "summary": {
+        "simple": "Les polices locales auraient plus de pouvoirs, dont ceux de police judiciaire.",
+        "normal": "Création d'un corps spécifique de police territoriale, attribution de la qualité d'officiers et d'agents de police judiciaire aux polices territoriales, et rôle d'officier du ministère public confié à des officiers de police territoriale."
+      },
+      "sources": [
+        {
+          "page": 6,
+          "quote": "Les collectivités territoriales verront donc leurs compétences de police accrues"
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Créer un corps spécifique de police territoriale ouvert au recrutement externe.",
+          "source": {
+            "page": 6,
+            "quote": "la création d’un corps spécifique de police territoriale ouvert sur l’extérieur par passerelle et recrutement externe"
+          }
+        },
+        {
+          "text": "Donner la qualité d'officiers et d'agents de police judiciaire aux polices territoriales.",
+          "source": {
+            "page": 6,
+            "quote": "l’attribution de la qualité d’officiers et d’agents de police judiciaire aux polices territoriales décentralisées"
+          }
+        },
+        {
+          "text": "Confier le rôle d'officier du ministère public à des officiers de la police territoriale.",
+          "source": {
+            "page": 6,
+            "quote": "de confier le rôle d’officier du ministère public (OMP) en délictuel et contraventionnel à un corps d’officiers spécialisés appartenant à la police territoriale"
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Rattraper la moyenne européenne du budget de la justice et doubler les procureurs",
+      "summary": {
+        "simple": "Plus de budget pour la justice, deux fois plus de procureurs.",
+        "normal": "Budget de la justice porté vers la moyenne européenne et séparé de celui de l'administration pénitentiaire ; nombre de procureurs et de juges d'application des peines doublé ; greffiers ajustés à la charge."
+      },
+      "sources": [
+        {
+          "page": 6,
+          "quote": "La priorité sera d’abord de donner un budget décent à la justice."
+        },
+        {
+          "page": 6,
+          "quote": "Il faut rattraper la moyenne européenne. Pour davantage de lisibilité, le budget de la justice devra être séparé de celui de l’Administration pénitentiaire. Le nombre de greffiers doit correspondre à la réalité de la charge et celui de procureurs être doublé pour une poursuite plus efficace des crimes et délits, ainsi que celui des juges d’application des peines."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "justice",
+      "title": "Simplifier la justice et publier ses résultats par tribunal",
+      "summary": {
+        "simple": "Une justice plus simple et plus transparente, des magistrats recrutés plus largement.",
+        "normal": "Simplification des textes et procédures, publication en ligne des statistiques d'activité et de résultats par tribunal, partenariats avec les collectivités pour l'exécution des petites peines, recrutement des magistrats diversifié (échevinage, passerelles pour avocats)."
+      },
+      "sources": [
+        {
+          "page": 6,
+          "quote": "Les textes et procédures existants doivent être simplifiés. Les statistiques d’activité et de résultats par tribunaux doivent être accessibles en ligne. Des partenariats avec les collectivités territoriales pourront être développés pour l’exécution des petites peines."
+        },
+        {
+          "page": 6,
+          "quote": "le recrutement extérieur doit être réellement accru, y compris le cas échéant par le système de l’échevinage, les passerelles pour les avocats d’expérience facilitées"
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "justice",
+      "title": "Fixer aux juges des objectifs de délais et d'effectivité des sanctions",
+      "summary": {
+        "simple": "Les juges auraient des objectifs de délais de jugement.",
+        "normal": "Fixation aux juges d'objectifs de délais de jugement et d'effectivité des sanctions, spécialisation plus durable des juges et justice des mineurs rendue plus efficace."
+      },
+      "sources": [
+        {
+          "page": 6,
+          "quote": "Des objectifs de délais de jugement et d’effectivité des sanctions doivent être fixés aux juges de manière plus tangible. Les juges doivent pouvoir se spécialiser plus durablement à travers un système de gestion de carrière plus ouvert. La justice des mineurs doit être rendue plus efficace."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "justice",
+      "title": "Créer un délit de recel de violation du secret de l'instruction",
+      "summary": {
+        "simple": "Sanctionner davantage les fuites dans les enquêtes judiciaires.",
+        "normal": "Réflexion sur le secret de l'instruction et création envisagée d'un délit spécifique de recel de violation du secret de l'instruction."
+      },
+      "sources": [
+        {
+          "page": 6,
+          "quote": "il faut engager une réflexion sur le secret de l’instruction et envisager, au-delà du délit de droit commun de recel, un délit spécifique de recel de violation du secret de l’instruction"
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Transformer le CSM en Conseil supérieur de la justice plus pluraliste",
+      "summary": {
+        "simple": "L'organe qui encadre les magistrats s'ouvrirait à d'autres professions.",
+        "normal": "Le Conseil supérieur de la magistrature deviendrait un Conseil supérieur de la justice intégrant davantage de pluralisme, avec d'autres professions, notamment judiciaires."
+      },
+      "sources": [
+        {
+          "page": 6,
+          "quote": "il faut enfin oser réformer les modes de fonctionnement du Conseil Supérieur de la Magistrature transformé en Conseil Supérieur de la Justice en intégrant au sein de ses formations davantage de pluralisme, à travers la présence d’autres professions notamment judiciaires"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "immigration",
+      "title": "Interdire toute régularisation après une entrée clandestine",
+      "summary": {
+        "simple": "Une personne entrée illégalement ne pourrait plus être régularisée.",
+        "normal": "Suppression de toute possibilité d'être régularisé après être entré clandestinement sur le territoire."
+      },
+      "sources": [
+        {
+          "page": 6,
+          "quote": "supprimer toute possibilité d’être régularisé après être entré clandestinement sur le territoire"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Faire travailler ensemble les administrations sur la situation des étrangers",
+      "summary": {
+        "simple": "Les administrations partageraient les informations pour mieux contrôler le séjour.",
+        "normal": "Coopération entre toutes les administrations traitant de la situation des étrangers (préfecture, police, impôts, sécurité sociale, hôpitaux…) et contrôle plus systématique de la régularité du séjour."
+      },
+      "sources": [
+        {
+          "page": 6,
+          "quote": "faire travailler entre elles toutes les administrations qui traitent de la situation des étrangers (Préfecture, police, impôts, sécurité sociale, action sociale, hôpitaux, institutions privées…). Le contrôle de la régularité du séjour doit être rendu plus systématique."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "immigration",
+      "title": "Quotas d'immigration selon les besoins économiques et limitation des titres « vie privée et familiale »",
+      "summary": {
+        "simple": "Des quotas d'immigration selon les métiers qui manquent de bras.",
+        "normal": "Instauration de quotas d'immigration légale en fonction des besoins économiques des secteurs en tension, et limitation stricte des titres de séjour « vie privée et familiale »."
+      },
+      "sources": [
+        {
+          "page": 6,
+          "quote": "Pour l’immigration légale des quotas d’immigration doivent désormais être instaurés en fonction des stricts besoins économiques des secteurs « sous tension » limitativement définis. Les titres de séjour « vie privée et familiale » seront également strictement limités."
+        },
+        {
+          "page": 13,
+          "quote": "Fixer des quotas de main-d’œuvre qualifiée"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Renforcer le contrôle des frontières et réserver l'asile aux situations le justifiant",
+      "summary": {
+        "simple": "Mieux contrôler les frontières et faciliter le retour des déboutés de l'asile.",
+        "normal": "Renforcement des dispositifs nationaux de contrôle des frontières avec Frontex, droit d'asile réservé aux situations le justifiant, retour des déboutés organisé par de meilleures procédures et des accords avec les pays d'origine."
+      },
+      "sources": [
+        {
+          "page": 6,
+          "quote": "Le meilleur contrôle effectif des frontières doit s’appuyer sur le renforcement des dispositifs nationaux avec le concours des nouveaux moyens de Frontex. Le droit d’asile doit être réservé aux situations le justifiant. Le retour des « déboutés » doit être réglé par de meilleures procédures et des accords avec les pays d’origine."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "immigration",
+      "title": "Référendum pour s'affranchir des contraintes des traités en matière d'immigration",
+      "summary": {
+        "simple": "Un référendum pour changer les règles qui encadrent la politique d'immigration.",
+        "normal": "Se libérer des contraintes imposées par les juges en vertu des traités internationaux, par révision constitutionnelle, renégociation des traités ou autres dispositifs ; un référendum serait nécessaire."
+      },
+      "sources": [
+        {
+          "page": 6,
+          "quote": "La condition pour réaliser cette révolution de la politique d’immigration est de se libérer des contraintes imposées par les juges nationaux en vertu des traités internationaux signés par la France. Cela peut passer par une révision constitutionnelle, par des renégociations de traités internationaux, voire par d’autres dispositifs juridiques à imaginer. Un référendum sera nécessaire."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "referendum"
+    },
+    {
+      "theme": "immigration",
+      "title": "Politique d'assimilation par l'éducation, la loi, l'emploi et le logement",
+      "summary": {
+        "simple": "Une politique pour mieux intégrer les immigrés installés légalement.",
+        "normal": "Nouvelle politique d'assimilation des immigrés installés régulièrement, par l'éducation, le respect rigoureux de la loi, l'emploi et le logement."
+      },
+      "sources": [
+        {
+          "page": 6,
+          "quote": "Une nouvelle politique d’assimilation par l’éducation, le respect rigoureux de la loi, l’emploi et le logement doit se déployer au bénéfice des immigrés installés régulièrement sur le sol français et de l’unité nationale."
+        }
+      ],
+      "precision": "floue"
+    }
+  ]
+}

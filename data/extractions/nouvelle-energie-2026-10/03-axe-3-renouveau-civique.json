@@ -1,0 +1,392 @@
+{
+  "measures": [
+    {
+      "theme": "education",
+      "title": "Autonomie des chefs d'établissement pour recruter et évaluer les enseignants",
+      "summary": {
+        "simple": "Les directeurs d'école et de collège recruteraient leurs enseignants, mieux payés en échange de travail en plus.",
+        "normal": "Les chefs d'établissement du premier et du second degré pourraient recruter et évaluer les enseignants, appliquer leurs méthodes, gérer leur budget et refuser les élèves qui nuisent au collectif, en contrepartie d'une évaluation publique des résultats ; les enseignants choisiraient leur établissement ; revalorisation financière du métier en contrepartie de travail ou de formation complémentaires."
+      },
+      "sources": [
+        {
+          "page": 7,
+          "quote": "En parallèle d’une véritable revalorisation financière du métier d’enseignant, en contrepartie de travail ou formation complémentaires, l’autonomie sera donnée aux chefs d’établissements des premier et second degré en leur permettant notamment de recruter et évaluer les enseignants."
+        },
+        {
+          "page": 7,
+          "quote": "Le corollaire de cette mesure sera la liberté pour les enseignants de choisir leur établissement et d’en changer facilement, en postulant directement auprès du chef d’établissement."
+        },
+        {
+          "page": 9,
+          "quote": "Cela passe par la liberté donnée aux chefs d’établissement de recruter leurs équipes pédagogiques, d’appliquer leurs méthodes, de gérer leur budget, de refuser les élèves qui nuisent au collectif. Cette autonomie sera la contrepartie d’une évaluation publique des résultats, menée avec rigueur et clarté."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "education",
+      "title": "Assouplir puis supprimer la carte scolaire",
+      "summary": {
+        "simple": "Les familles pourraient choisir l'école de leurs enfants.",
+        "normal": "La carte scolaire serait assouplie progressivement puis supprimée, avec plus d'autonomie des programmes et des pédagogies, pour que les familles choisissent l'établissement sur la base de critères et d'indicateurs transparents."
+      },
+      "sources": [
+        {
+          "page": 7,
+          "quote": "La carte scolaire sera assouplie progressivement puis supprimée, en liaison avec une plus grande autonomie des programmes et des pédagogies."
+        },
+        {
+          "page": 7,
+          "quote": "aux familles de choisir l’établissement où elles souhaitent scolariser leurs enfants, sur la base de critères et indicateurs transparents"
+        },
+        {
+          "page": 9,
+          "quote": "Il faut abroger la carte scolaire qui enferme les familles dans leur quartier"
+        }
+      ],
+      "precision": "partielle",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Tu pourrais choisir l'école de tes enfants.",
+            "normal": "La carte scolaire serait progressivement supprimée : les familles choisiraient l'établissement de leurs enfants."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Recentrer les programmes sur les fondamentaux autour d'un tronc commun",
+      "summary": {
+        "simple": "Plus de français, de maths et de langue étrangère, évalués pour chaque élève.",
+        "normal": "Programmes révisés autour d'un tronc commun à volume horaire minimal, le reste du temps étant laissé au projet de chaque école ; instruction renforcée et évaluée individuellement en français, mathématiques et langue étrangère ; littérature, langues anciennes, histoire et géographie rétablies ou renforcées."
+      },
+      "sources": [
+        {
+          "page": 7,
+          "quote": "Le contenu des programmes sera révisé notamment autour d’un « tronc commun » représentant un volume minimal horaire et le reste de l’emploi du temps sera à disposition du projet de chaque école, ainsi que sa répartition sur la journée ou sur l’année."
+        },
+        {
+          "page": 7,
+          "quote": "les élèves bénéficieront tout au long de leur scolarité d’une instruction renforcée et évaluée individuellement en Français, mathématiques et langue étrangère"
+        },
+        {
+          "page": 7,
+          "quote": "L’apprentissage de la littérature française, des langues anciennes, de l’histoire et de la géographie sera rétabli ou renforcé."
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Éducation artistique et culturelle tout au long de la scolarité, autour d'un répertoire national de grandes œuvres.",
+          "source": {
+            "page": 7,
+            "quote": "L’Éducation Artistique et Culturelle sera une réalité tout au long de la scolarité, structurée autour d’un répertoire national de grandes œuvres de l’esprit."
+          }
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "education",
+      "title": "Examens nationaux et niveau de chaque école rendu public",
+      "summary": {
+        "simple": "Des examens nationaux pour mesurer le niveau de chaque école.",
+        "normal": "L'efficacité de l'enseignement serait vérifiée par des examens nationaux, permettant de déterminer de façon objective et transparente le niveau de chaque école."
+      },
+      "sources": [
+        {
+          "page": 7,
+          "quote": "L’efficacité de l’enseignement sera vérifiée par des examens nationaux. Le niveau de chaque école pourra être déterminé de façon objective et transparente."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "education",
+      "title": "Instaurer le chèque-éducation",
+      "summary": {
+        "simple": "Chaque famille recevrait un crédit pour inscrire ses enfants dans l'école de son choix.",
+        "normal": "Instauration progressive du chèque-éducation : un financement public équivalent, que la famille choisisse l'enseignement public ou privé, sous forme d'un crédit correspondant au coût de chaque élève pour la collectivité ; développement parallèle des bourses sociales et au mérite."
+      },
+      "sources": [
+        {
+          "page": 7,
+          "quote": "Le libre-choix de l’école par les familles ainsi progressivement établi sera gagé par le développement des bourses sociales et au mérite, et parallèlement l’instauration du chèque-éducation"
+        },
+        {
+          "page": 7,
+          "quote": "Au regard du montant de la charge pour la collectivité de chaque élève, les familles disposeront d’un crédit de droits correspondant, leur permettant d’inscrire leurs enfants dans les écoles et les filières de leur choix."
+        },
+        {
+          "page": 9,
+          "quote": "Nous proposons un droit réel au libre choix de l’école, garanti par la transparence des résultats et l’instauration progressive d’un chèque-éducation : un financement public équivalent, que la famille choisisse l’enseignement public ou privé."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Tu recevrais un chèque-éducation pour inscrire tes enfants dans l'école de ton choix.",
+            "normal": "Chaque famille disposerait d'un crédit égal au coût d'un élève pour la collectivité, utilisable dans l'école ou la filière choisie."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Développer les internats d'excellence et créer des externats d'excellence",
+      "summary": {
+        "simple": "Plus de places dans des établissements d'excellence pour les élèves méritants.",
+        "normal": "Développement des internats d'excellence et création d'externats d'excellence, aux mêmes conditions d'encadrement que les internes, pour des élèves rentrant chez eux le soir."
+      },
+      "sources": [
+        {
+          "page": 7,
+          "quote": "Les internats d’excellence seront développés et des externats d’excellence seront créés."
+        },
+        {
+          "page": 7,
+          "quote": "Cette politique sera intensifiée par la création d’externats d’excellence pour des élèves qui bénéficieront des mêmes conditions d’encadrement et d’infrastructures que les internes, mais qui rentreront chez eux le soir après l’étude."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "education",
+      "title": "Développement massif de l'apprentissage, lycées professionnels et CFA mis en cohérence",
+      "summary": {
+        "simple": "Beaucoup plus d'apprentissage et des voies professionnelles mieux organisées.",
+        "normal": "Développement massif de l'apprentissage, avec une limite d'âge revue, et mise en cohérence des lycées professionnels et des centres de formation d'apprentis."
+      },
+      "sources": [
+        {
+          "page": 7,
+          "quote": "en particulièrement par le développement massif de l’apprentissage. A cet effet la limite d’âge de l’apprentissage sera revue (cf infra). Les lycées professionnels et les CFA seront mis en cohérence."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "institutions",
+      "title": "Remplacer départements et régions par une quarantaine ou cinquantaine de provinces",
+      "summary": {
+        "simple": "Trois niveaux seulement : l'État, les provinces et les communes.",
+        "normal": "Nouveau schéma institutionnel à trois niveaux (État, province, bloc communal) soumis à référendum constitutionnel : une quarantaine ou une cinquantaine de provinces, issues de la fusion de départements et de territoires des régions, remplaceraient départements et régions."
+      },
+      "sources": [
+        {
+          "page": 7,
+          "quote": "la future organisation territoriale devrait correspondre à un nouveau schéma institutionnel à trois niveaux : Etat/ Province/ Bloc communal selon un choix à faire valider par un référendum constitutionnel"
+        },
+        {
+          "page": 7,
+          "quote": "les Provinces pourraient résulter de la fusion de départements avec des territoires des Régions actuelles"
+        },
+        {
+          "page": 7,
+          "quote": "d’une quarantaine ou cinquantaine de provinces"
+        },
+        {
+          "page": 7,
+          "quote": "qui remplaceront départements et régions actuels"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "referendum"
+    },
+    {
+      "theme": "institutions",
+      "title": "Chaque zone rurale à moins de 20 minutes d'une ville moyenne",
+      "summary": {
+        "simple": "Chaque village à moins de 20 minutes d'une ville moyenne.",
+        "normal": "Objectif d'aménagement : chaque zone rurale à moins de 20 minutes d'une ville moyenne et chaque ville moyenne à moins d'1 h 30 d'une métropole régionale, avec bases logistiques, tiers-lieux de coworking et réseaux de transport."
+      },
+      "sources": [
+        {
+          "page": 7,
+          "quote": "Chaque zone rurale sera à moins de 20 minutes d’une ville moyenne et chaque ville moyenne à moins d’1h30 d’une métropole régionale."
+        },
+        {
+          "page": 7,
+          "quote": "Des équipements tels que les bases logistiques, les tiers-lieux de coworking et les réseaux de transport permettraient de structurer les territoires"
+        }
+      ],
+      "precision": "precise",
+      "effects": [
+        {
+          "ticketLine": "transport",
+          "section": "vie",
+          "appliesTo": {
+            "field": "lieuDeVie",
+            "op": "eq",
+            "value": "rural"
+          },
+          "sentence": {
+            "simple": "Objectif : être à moins de 20 minutes d'une ville moyenne.",
+            "normal": "L'aménagement du territoire viserait à placer chaque zone rurale à moins de 20 minutes d'une ville moyenne."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "institutions",
+      "title": "Transférer aux collectivités l'essentiel des compétences non régaliennes et un pouvoir réglementaire",
+      "summary": {
+        "simple": "Les collectivités locales décideraient de la plupart des politiques publiques non régaliennes.",
+        "normal": "Transfert aux collectivités de l'essentiel des compétences de l'État hors régalien et libertés publiques, avec un pouvoir normatif (décrets et arrêtés d'application des lois) ; suppression des services de l'État correspondants (DREAL, ARS, DIREN…)."
+      },
+      "sources": [
+        {
+          "page": 7,
+          "quote": "Le principe de base de la nouvelle décentralisation serait de transférer aux collectivités territoriales, outre l’essentiel des compétences aujourd’hui exercées par l’Etat (dont les effectifs seront ainsi diminués par la suppression des services correspondant dont les DREAL, ARS, DIREN, etc, ces tâches étant transférées aux provinces) en dehors de son périmètre régalien et de garant des libertés publiques, un pouvoir normatif (décrets et arrêtés d’application des lois votées par le Parlement)."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "finances_publiques",
+      "title": "Étudier un partage des recettes fiscales nationales avec les collectivités",
+      "summary": {
+        "simple": "Les collectivités recevraient une part des impôts nationaux pour financer leurs nouvelles missions.",
+        "normal": "Pour financer les compétences transférées, la voie d'un partage de recettes fiscales nationales serait étudiée, afin que les ressources propres redeviennent une part déterminante des ressources des collectivités."
+      },
+      "sources": [
+        {
+          "page": 7,
+          "quote": "Pour le transfert de ressources fiscales induit par celui des compétences de l’Etat, la voie du partage de recettes fiscales nationales sera étudiée."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "environnement",
+      "title": "Faire de la France le leader « bas carbone » du G20",
+      "summary": {
+        "simple": "Objectif : que la France soit le pays du G20 qui émet le moins de carbone.",
+        "normal": "Objectif de faire de la France le leader « bas carbone » du G20, en donnant la priorité aux énergies d'avenir, à une taxation de la pollution avec réciprocité internationale et à la recherche sur les nouvelles technologies de l'énergie."
+      },
+      "sources": [
+        {
+          "page": 7,
+          "quote": "Nous voulons faire de la France le leader « Bas carbone » du G20."
+        },
+        {
+          "page": 7,
+          "quote": "si la priorité est donnée aux énergies d’avenir, si la pollution est taxée dans une approche de réciprocité internationale et si la recherche des nouvelles technologies de l’énergie est accélérée"
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "energie",
+      "title": "Fin des dérogations aux énergies renouvelables et relance du nucléaire",
+      "summary": {
+        "simple": "Plus de nucléaire, et les éoliennes et le solaire soumis aux règles communes.",
+        "normal": "Les projets d'énergies renouvelables rentreraient dans le droit commun (prix de marché, urbanisme) et les sommes économisées seraient réinvesties dans le nucléaire : traitement des déchets par laser, prolongation des réacteurs jusqu'à 60 ans, EPR de nouvelle génération, mini-réacteurs."
+      },
+      "sources": [
+        {
+          "page": 7,
+          "quote": "Il faut mettre un terme à cette gabegie en faisant rentrer ces projets dans le droit commun et réinvestir les sommes ainsi économisées dans des projets d’avenir, en particulier les nouvelles technologies nucléaires : recherche et développement des technologies laser pour le traitement des déchets, prolongation de la durée de vie des réacteurs jusqu’à 60 ans, construction d’EPR de nouvelle génération, déploiement de mini-réacteurs nucléaires."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "environnement",
+      "title": "Fiscalité verte pollueur-payeur, à prélèvements totaux constants",
+      "summary": {
+        "simple": "Faire payer la pollution sans augmenter le total des impôts.",
+        "normal": "Facturer la pollution selon le principe pollueur-payeur, avec trois règles : taxation totale constante, redistribution aux « perdants » et aux acteurs vertueux, préservation de la compétitivité des entreprises ; plus la réciprocité internationale."
+      },
+      "sources": [
+        {
+          "page": 7,
+          "quote": "il faut évaluer un coût à ces externalités négatives, pour facturer la pollution selon le principe pollueur-payeur"
+        },
+        {
+          "page": 7,
+          "quote": "la fiscalité environnementale doit respecter trois règles : d’abord se faire à taxation totale constante, ensuite redistribuer les fruits de la taxation au bénéfice des « perdants » des nouvelles dispositions et aux acteurs vertueux qui contribuent à compenser ou amoindrir les pollutions, enfin préserver la compétitivité des entreprises"
+        },
+        {
+          "page": 8,
+          "quote": "Ajoutons le respect du principe de réciprocité internationale."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "environnement",
+      "title": "Programme international de fixation du carbone",
+      "summary": {
+        "simple": "Stocker du carbone grâce aux cultures, aux forêts et aux océans.",
+        "normal": "Engagement de la France dans un programme international de fixation du carbone, s'appuyant sur les pratiques culturales, la forêt, la mer et les océans."
+      },
+      "sources": [
+        {
+          "page": 8,
+          "quote": "En particulier la France s’engagera dans un programme international de fixation du carbone, en s’appuyant sur nos pratiques culturales, la forêt, la mer et les océans."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "environnement",
+      "title": "Action diplomatique ciblée sur les « super-pollueurs » et réciprocité commerciale",
+      "summary": {
+        "simple": "Agir au niveau international contre les plus gros pollueurs.",
+        "normal": "Interventions ciblées sur les « super-pollueurs » dans le cadre de la coopération internationale, et action diplomatique fondée sur la réciprocité pour lutter contre l'avantage commercial des pays à faibles exigences écologiques."
+      },
+      "sources": [
+        {
+          "page": 8,
+          "quote": "La voix de la France doit se faire entendre sur ces sujets dans les instances internationales afin que des interventions ciblées sur ces « super-pollueurs », dans le cadre de la coopération internationale, permettent de traiter ces problèmes à la source"
+        },
+        {
+          "page": 8,
+          "quote": "une action diplomatique tournée vers nos intérêts écologiques et économiques, sur la base recherchée de la réciprocité pour lutter contre l’avantage commercial des pays à faible prise en compte des exigences écologiques, devra être développée de façon méthodique"
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "energie",
+      "title": "Filières industrielles du captage de CO2, de l'hydrogène et des piles à combustible",
+      "summary": {
+        "simple": "Développer des industries du captage de CO2 et de l'hydrogène.",
+        "normal": "Développement de filières d'excellence de niveau mondial sur le captage de CO2, l'électrolyse pour produire de l'hydrogène, l'hydrogénération et les piles à combustible à méthanol, avec une ambition nationale et européenne."
+      },
+      "sources": [
+        {
+          "page": 8,
+          "quote": "Des filières d’excellence et industrielles de niveau mondial seront développées sur le captage de CO2, l’électrolyse pour la production d’hydrogène, l’hydrogénération, les piles à combustible à méthanol… La France portera en la matière une ambition nationale et de coopération européenne."
+        }
+      ],
+      "precision": "floue"
+    }
+  ]
+}

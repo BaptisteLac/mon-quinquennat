@@ -1,0 +1,766 @@
+{
+  "measures": [
+    {
+      "theme": "education",
+      "title": "Certificat de fin de primaire conditionnant l'entrée au collège",
+      "summary": {
+        "simple": "Il faudrait réussir un certificat en fin de primaire pour entrer au collège.",
+        "normal": "Instauration d'un certificat de fin de primaire dont la validation conditionnerait l'entrée au collège ; les élèves ne maîtrisant pas les savoirs essentiels bénéficieraient d'un accompagnement spécifique."
+      },
+      "sources": [
+        {
+          "page": 9,
+          "quote": "Nous proposons l’instauration d’un certificat de fin de primaire, dont la validation conditionnera l’entrée au collège. Ceux qui ne maîtrisent pas les savoirs essentiels bénéficieront d’un accompagnement spécifique, et non d’un passage automatique vers l’échec."
+        }
+      ],
+      "precision": "precise",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "eq",
+            "value": "3_10"
+          },
+          "sentence": {
+            "simple": "Tes enfants devraient valider un certificat de fin de primaire pour entrer au collège.",
+            "normal": "L'entrée au collège serait conditionnée à la validation d'un certificat de fin de primaire, avec un accompagnement spécifique pour les élèves en difficulté."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Initiation au grec, au latin et à la philosophie dès le primaire",
+      "summary": {
+        "simple": "Du grec, du latin et de la philosophie dès l'école primaire.",
+        "normal": "Programmes recentrés sur les disciplines structurantes, avec une initiation au grec, au latin et à la philosophie étendue dès le primaire."
+      },
+      "sources": [
+        {
+          "page": 9,
+          "quote": "Les programmes seront recentrés sur les disciplines structurantes. L’initiation au grec, au latin, et à la philosophie sera étendu, dès le primaire"
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "education",
+      "title": "Rétablir l'autorité du professeur et laisser les rythmes scolaires à l'échelon local",
+      "summary": {
+        "simple": "Plus d'autorité pour les professeurs ; les rythmes scolaires décidés localement.",
+        "normal": "Rétablissement de l'autorité du professeur et du primat du cours sur l'animation ; la réforme de l'année scolaire et des rythmes relèverait d'une autonomie locale encadrée."
+      },
+      "sources": [
+        {
+          "page": 9,
+          "quote": "nous rétablirons l’autorité du professeur, le primat du cours sur l’animation, et la logique de progression sur celle du ressenti. La réforme de l’année scolaire et des rythmes fera l’objet d’une autonomie locale encadrée."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "education",
+      "title": "Augmenter de 20 % la rémunération des enseignants en cinq ans",
+      "summary": {
+        "simple": "Les enseignants seraient payés 20 % de plus en cinq ans, avec plus de présence et de formation.",
+        "normal": "Hausse de 20 % des rémunérations des enseignants en cinq ans, conditionnée à une réorganisation : autonomie accrue, présence renforcée dans l'établissement, formation continue obligatoire, évaluation régulière."
+      },
+      "sources": [
+        {
+          "page": 9,
+          "quote": "Nous proposons une augmentation de 20 % des rémunérations en cinq ans, conditionnée à une réorganisation profonde : autonomie accrue, présence renforcée dans l’établissement, formation continue obligatoire, évaluation régulière."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "education",
+      "title": "Corps unique d'enseignants contractuels recrutés sur concours national",
+      "summary": {
+        "simple": "Les nouveaux enseignants seraient des contractuels recrutés par concours national.",
+        "normal": "Mise en place progressive d'un corps unique d'enseignants contractuels recrutés sur concours national, avec des missions élargies et des perspectives de carrière."
+      },
+      "sources": [
+        {
+          "page": 9,
+          "quote": "Un corps unique d’enseignants contractuels, recrutés sur concours national, sera progressivement mis en place, avec des missions élargies et des perspectives de carrière attractives."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "education",
+      "title": "L'Éducation nationale recentrée sur 6-16 ans, l'éveil des 1-6 ans confié aux communes",
+      "summary": {
+        "simple": "Les communes s'occuperaient des enfants de 1 à 6 ans, l'État de l'école de 6 à 16 ans.",
+        "normal": "L'Éducation nationale serait recentrée sur le tronc commun obligatoire (6-16 ans), l'éveil des 1-6 ans étant confié aux communes."
+      },
+      "sources": [
+        {
+          "page": 9,
+          "quote": "L’Éducation nationale sera recentrée sur le tronc commun obligatoire (6-16 ans), l’éveil (1-6 ans) étant confié aux communes dans une logique de subsidiarité."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "0_2",
+              "3_10"
+            ]
+          },
+          "sentence": {
+            "simple": "L'éveil de tes enfants de 1 à 6 ans relèverait de ta commune.",
+            "normal": "L'éveil des enfants de 1 à 6 ans serait confié aux communes, l'Éducation nationale gardant le tronc commun de 6 à 16 ans."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Lycées professionnels et CFA liés aux entreprises, formations décidées localement",
+      "summary": {
+        "simple": "Les formations professionnelles s'adapteraient aux emplois disponibles localement.",
+        "normal": "Renforcement des lycées professionnels et des CFA en lien étroit avec les entreprises ; ouverture et fermeture des formations décidées localement selon les débouchés."
+      },
+      "sources": [
+        {
+          "page": 9,
+          "quote": "Nous renforcerons les lycées professionnels et les CFA, en les liant étroitement aux entreprises et aux besoins de l’économie locale. L’ouverture ou la fermeture des formations sera décidée au niveau local, en fonction des débouchés réels."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "education",
+      "title": "Classes d'excellence en mathématiques et en sciences dans chaque académie",
+      "summary": {
+        "simple": "Des classes d'excellence en maths et sciences dans chaque académie.",
+        "normal": "Création de classes d'excellence en mathématiques et en sciences dans chaque académie."
+      },
+      "sources": [
+        {
+          "page": 9,
+          "quote": "Des classes d’excellence en mathématiques et en sciences seront créées dans chaque académie, pour tirer vers le haut."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "securite",
+      "title": "Au moins 50 % de présence des forces de sécurité sur le terrain",
+      "summary": {
+        "simple": "Plus de policiers et gendarmes dans la rue plutôt que dans les bureaux.",
+        "normal": "Réorganisation de la sécurité publique : préfets dotés de marges d'action locales, 50 % minimum de présence des forces sur le terrain (contre 37 %), moins de bureaucratie, outils modernisés (vidéoprotection, radios numériques, IA de prévention) et audit public annuel de la performance sécuritaire."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "donner aux préfets les moyens de commander réellement, avec des marges d’action locales sur les effectifs et les équipements, ramener les forces de sécurité sur le terrain (50 % de présence minimum, contre 37 % aujourd’hui), réduire la bureaucratie policière et moderniser les outils (vidéoprotection, radios numériques, IA de prévention, instaurer un audit public annuel de la performance sécuritaire, localement et nationalement."
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "securite",
+      "title": "Permettre aux communes volontaires d'armer leur police municipale",
+      "summary": {
+        "simple": "Les communes qui le veulent pourraient armer leur police municipale.",
+        "normal": "Les communes volontaires pourraient armer leur police municipale et disposer d'outils : accès aux fichiers, verbalisation renforcée, amendes forfaitaires délictuelles ; sans obligation."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Il faut ainsi permettre aux communes volontaires d’armer leur police municipale et de disposer d’outils réels : accès aux fichiers, possibilité de verbalisation renforcée, procédures d’amendes forfaitaires délictuelles. Mais cela doit rester une liberté, jamais une obligation."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Cellules locales anti-stupéfiants sous l'autorité du préfet",
+      "summary": {
+        "simple": "Des équipes locales contre le trafic de drogue, pilotées par le préfet.",
+        "normal": "Contre le narcotrafic : cellules locales anti-stupéfiants sous l'autorité du préfet, confiscations ciblées, infiltration numérique des réseaux sociaux, coopération internationale renforcée, task forces en outre-mer."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Face au narcotrafic : cellules locales anti-stups sous autorité du préfet, confiscations ciblées et visibles, infiltration numérique des réseaux sociaux, coopération internationale renforcée, task forces dédiées en outre-mer."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "securite",
+      "title": "Interdire les Frères musulmans et le voile à l'université",
+      "summary": {
+        "simple": "Interdiction des Frères musulmans et du voile à l'université, expulsion des prêcheurs radicaux.",
+        "normal": "Face à l'islamisme : interdiction des Frères musulmans, contrôle des écoles hors contrat, expulsion des prêcheurs radicaux, interdiction du voile à l'université, campagne républicaine de contre-discours."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Face à l’islamisme : désignation claire de l’ennemi idéologique, interdiction des Frères musulmans, contrôle des écoles hors contrat, expulsion des prêcheurs radicaux, interdiction du voile à l’université, campagne républicaine de contre-discours."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Supprimer les réductions de peine automatiques et rétablir les peines planchers",
+      "summary": {
+        "simple": "Les peines prononcées seraient vraiment exécutées, avec des peines minimales pour les récidivistes.",
+        "normal": "Suppression des réductions de peine automatiques, fin des aménagements dès l'audience, peines planchers pour les récidivistes, sanction systématique dès la première infraction, procédures accélérées, effectifs des juridictions correctionnelles doublés, greffes renforcés et circuit judiciaire dématérialisé."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Il faut un basculement radical et supprimer les réductions de peine automatiques, mettre fin aux aménagements dès l’audience, rétablir les peines planchers pour les récidivistes, appliquer systématiquement une sanction, même courte, dès la première infraction, accélérer les procédures, doubler les effectifs dans les juridictions correctionnelles, renforcer les greffes et dématérialiser l’ensemble du circuit judiciaire."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Abaisser la majorité pénale à 16 ans",
+      "summary": {
+        "simple": "Les mineurs de 16 ans seraient jugés comme des majeurs.",
+        "normal": "Majorité pénale abaissée à 16 ans, excuse de minorité inversée dès 13 ans, nouveau délit d'instrumentalisation de mineur, internats disciplinaires fermés, comparution immédiate dès 13 ans pour les cas graves, travaux d'intérêt général dès le premier acte délictueux."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Nous voulons abaisser la majorité pénale à 16 ans, inverser le principe de l’excuse de minorité dès 13 ans, créer un nouveau délit d’instrumentalisation de mineur, mettre en place des internats disciplinaires fermés, étendre la comparution immédiate dès 13 ans pour les cas graves, et généraliser les travaux d’intérêt général dès le premier acte délictueux."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "sante",
+      "title": "Conventionnement différencié : mieux rembourser les soins dans les zones sous-dotées",
+      "summary": {
+        "simple": "La Sécurité sociale rembourserait mieux les soins là où il manque des médecins.",
+        "normal": "Conventionnement différencié : la Sécurité sociale rembourserait mieux les actes dans les zones sous-dotées que dans les zones saturées."
+      },
+      "sources": [
+        {
+          "page": 11,
+          "quote": "Nous proposons un conventionnement différencié : la Sécurité sociale rembourse mieux les actes dans les zones sous-dotées que dans les zones saturées."
+        }
+      ],
+      "precision": "partielle",
+      "effects": [
+        {
+          "ticketLine": "sante",
+          "section": "vie",
+          "appliesTo": {
+            "field": "lieuDeVie",
+            "op": "in",
+            "value": [
+              "rural",
+              "peripherie",
+              "ville_moyenne",
+              "outre_mer"
+            ]
+          },
+          "sentence": {
+            "simple": "Les soins pourraient être mieux remboursés si tu vis dans une zone qui manque de médecins.",
+            "normal": "Dans les zones sous-dotées en médecins, les actes seraient mieux remboursés par la Sécurité sociale."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "sante",
+      "title": "Une maison de santé dans chaque canton et accès direct aux infirmiers, kinés, pharmaciens",
+      "summary": {
+        "simple": "Une maison de santé par canton, et consulter un infirmier ou un kiné sans passer par le médecin.",
+        "normal": "Généralisation des maisons de santé pluridisciplinaires dans chaque canton et accès direct aux infirmiers, kinésithérapeutes et pharmaciens, pour désengorger les généralistes."
+      },
+      "sources": [
+        {
+          "page": 11,
+          "quote": "Nous défendons aussi la généralisation des maisons de santé pluridisciplinaires à l’échelle de chaque canton, et l’accès direct aux infirmiers, kinés, pharmaciens, pour désengorger les généralistes et fluidifier les parcours."
+        }
+      ],
+      "precision": "partielle",
+      "effects": [
+        {
+          "ticketLine": "sante",
+          "section": "vie",
+          "sentence": {
+            "simple": "Tu pourrais consulter directement un infirmier, un kiné ou un pharmacien.",
+            "normal": "L'accès direct aux infirmiers, kinésithérapeutes et pharmaciens serait ouvert, et chaque canton aurait une maison de santé pluridisciplinaire."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "sante",
+      "title": "Supprimer les ARS et confier la présidence des hôpitaux aux maires",
+      "summary": {
+        "simple": "Les agences régionales de santé seraient supprimées ; les maires présideraient les hôpitaux.",
+        "normal": "Suppression des agences régionales de santé, transfert de leurs responsabilités aux préfets et aux élus, présidence des conseils d'administration des hôpitaux rendue aux maires ; dans chaque bassin de vie, les communautés médicales locales définiraient les besoins et organiseraient l'offre."
+      },
+      "sources": [
+        {
+          "page": 11,
+          "quote": "Nous voulons supprimer les ARS, transférer les responsabilités aux préfets et aux élus, redonner aux maires la présidence des conseils d’administration des hôpitaux."
+        },
+        {
+          "page": 11,
+          "quote": "Dans chaque bassin de vie, les communautés médicales locales devront pouvoir définir les besoins, organiser les stages, réguler l’offre."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "sante",
+      "title": "Revaloriser les soignants selon leurs responsabilités",
+      "summary": {
+        "simple": "Les soignants seraient payés selon leurs responsabilités, avec des recrutements plus souples.",
+        "normal": "Pacte avec les soignants : revalorisation salariale fondée sur les responsabilités et non les statuts, recrutements contractuels souples avec passerelles public-privé, reconnaissance des compétences paramédicales."
+      },
+      "sources": [
+        {
+          "page": 11,
+          "quote": "Cela suppose une revalorisation salariale fondée sur les responsabilités, non sur les statuts, des recrutements contractuels souples, y compris passerelles public-privé, et la reconnaissance pleine des compétences paramédicales, dans une logique de coopération."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "sante",
+      "title": "Doubler le nombre d'étudiants en médecine d'ici 2030 et supprimer Parcoursup",
+      "summary": {
+        "simple": "Deux fois plus d'étudiants en médecine d'ici 2030, et Parcoursup supprimé.",
+        "normal": "Doublement du nombre d'étudiants en médecine d'ici 2030, suppression de Parcoursup, simplification de la LAS/PASS, exercice sous supervision dès la 5e année et ouverture de tous les lieux de stage, publics et privés."
+      },
+      "sources": [
+        {
+          "page": 11,
+          "quote": "Nous voulons doubler le nombre d’étudiants en médecine d’ici 2030, supprimer Parcoursup, simplifier la LAS/PASS, autoriser l’exercice sous supervision dès la 5e année, et ouvrir tous les lieux de stage, publics comme privés."
+        }
+      ],
+      "precision": "precise",
+      "schedule": {
+        "effectiveDate": "2030-01-01",
+        "dateOrigin": "annoncee",
+        "estimationRule": null
+      },
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "any": [
+              {
+                "field": "situationPro",
+                "op": "eq",
+                "value": "etudiant"
+              },
+              {
+                "field": "enfantsAgeBand",
+                "op": "in",
+                "value": [
+                  "11_17",
+                  "18_25"
+                ]
+              }
+            ]
+          },
+          "sentence": {
+            "simple": "Parcoursup serait supprimé.",
+            "normal": "Parcoursup serait supprimé et le nombre d'étudiants en médecine doublé d'ici 2030."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "sante",
+      "title": "Créer un consortium pharmaceutique européen sur le modèle d'Airbus",
+      "summary": {
+        "simple": "Un groupe européen pour produire des médicaments en Europe.",
+        "normal": "Création d'un consortium pharmaceutique européen, sur le modèle d'Airbus, pour mutualiser la demande, garantir des prix et relocaliser les chaînes de valeur."
+      },
+      "sources": [
+        {
+          "page": 11,
+          "quote": "Nous proposons la création d’un consortium pharmaceutique européen, sur le modèle d’Airbus, pour mutualiser la demande, garantir des prix, et relocaliser les chaînes de valeur."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "sante",
+      "title": "Réinvestir dans la recherche en santé et créer des clusters de biotechnologie",
+      "summary": {
+        "simple": "Plus d'argent pour la recherche médicale et des pôles de biotechnologie.",
+        "normal": "Réinvestissement dans la recherche publique en santé et création de clusters français de biotechnologie et de médecine génomique."
+      },
+      "sources": [
+        {
+          "page": 11,
+          "quote": "Nous proposons aussi de réinvestir dans la recherche publique en santé, et de créer des clusters français de biotechnologie et de médecine génomique."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "sante",
+      "title": "Réglementation agile pour l'innovation médicale",
+      "summary": {
+        "simple": "Faciliter la télésurveillance, l'IA de diagnostic et la chirurgie robotisée.",
+        "normal": "Réglementation agile et sécurisée pour l'innovation médicale : télésurveillance, IA diagnostique, robotique chirurgicale."
+      },
+      "sources": [
+        {
+          "page": 11,
+          "quote": "nous défendons une réglementation agile et sécurisée pour l’innovation médicale : télésurveillance, IA diagnostique, robotique chirurgicale"
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Fin des surtranspositions et clauses miroirs obligatoires pour les importations",
+      "summary": {
+        "simple": "Ce qui est interdit aux agriculteurs français serait interdit aux produits importés.",
+        "normal": "Fin des surtranspositions françaises, alignement réglementaire sur le marché commun et clauses miroirs obligatoires pour les produits importés."
+      },
+      "sources": [
+        {
+          "page": 12,
+          "quote": "Nous proposons d’en finir avec les surtranspositions françaises, l’alignement réglementaire avec le marché commun, et la mise en œuvre de clauses miroirs obligatoires pour les produits importés. Ce que nous interdisons ici ne doit plus être autorisé là-bas."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Recentrer la PAC sur la souveraineté alimentaire et la production",
+      "summary": {
+        "simple": "La politique agricole européenne devrait d'abord soutenir la production.",
+        "normal": "La PAC redeviendrait une politique agricole recentrée sur la souveraineté alimentaire, la production et l'augmentation des capacités exportatrices."
+      },
+      "sources": [
+        {
+          "page": 12,
+          "quote": "La PAC doit cesser d’être une politique environnementale hors-sol : elle doit redevenir une politique agricole, recentrée sur la souveraineté alimentaire, la production, et l’augmentation de nos capacités exportatrices."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Autoriser les nouvelles techniques génomiques et un usage raisonné des phytosanitaires",
+      "summary": {
+        "simple": "Autoriser les NTG et utiliser les pesticides selon des critères scientifiques.",
+        "normal": "Autorisation des nouvelles techniques génomiques (NTG), usage raisonné des phytosanitaires sur base scientifique et réduction de la part des aides conditionnées à des critères jugés idéologiques."
+      },
+      "sources": [
+        {
+          "page": 12,
+          "quote": "nous plaidons pour l’autorisation des nouvelles techniques génomiques (NTG), l’usage raisonné des phytosanitaires sur base scientifique, et une réduction de la part des aides conditionnées à des critères idéologiques"
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Transférer une part des charges agricoles vers la valeur ajoutée",
+      "summary": {
+        "simple": "Alléger les charges des agriculteurs et payer leurs services rendus à l'environnement.",
+        "normal": "Réforme de la rémunération agricole : transfert d'une part des charges vers la valeur ajoutée pour améliorer les revenus nets, et rémunération des services environnementaux rendus par les agriculteurs et forestiers (stockage du carbone, entretien des écosystèmes)."
+      },
+      "sources": [
+        {
+          "page": 12,
+          "quote": "Nous proposons une réforme profonde du système de rémunération agricole : transfert d’une part des charges vers la valeur ajoutée pour améliorer les revenus nets et une juste rémunération des services environnementaux rendus par les agriculteurs et forestiers (stockage du carbone, entretien des écosystèmes)."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Relocaliser la transformation agroalimentaire et une filière d'engrais azotés décarbonés",
+      "summary": {
+        "simple": "Transformer en France les produits agricoles et produire des engrais français.",
+        "normal": "Politique industrielle fondée sur les productions agricoles et forestières (transformation sur tout le territoire, circuits courts, biomasse, bois, fibres, énergie), filière française d'engrais azotés décarbonés et stratégie géopolitique agricole (diplomatie du blé, sécurisation des filières)."
+      },
+      "sources": [
+        {
+          "page": 12,
+          "quote": "Nous devons relancer une politique industrielle fondée sur les productions agricoles et forestières (industries de 1re et 2e transformation sur tout le territoire, circuits courts soutenus, développement des filières biomasse, bois, fibres, énergie, transformation alimentaire locale), reconstruire une filière française d’engrais azotés décarbonés, mobiliser l’agriculture dans une stratégie géopolitique : diplomatie du blé, sécurisation des filières, souveraineté logistique."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Statut unique de l'exploitation agricole et guichet numérique unique",
+      "summary": {
+        "simple": "Un statut d'exploitation plus simple et moins de paperasse pour les agriculteurs.",
+        "normal": "Statut unique de l'exploitation agricole autorisant production agricole, forestière et énergétique, transformation et tourisme rural ; débureaucratisation (suppression des normes redondantes, guichet numérique unique) ; remise à plat des normes viticoles, notamment dans les AOC."
+      },
+      "sources": [
+        {
+          "page": 12,
+          "quote": "Nous proposons une simplification radicale du statut de l’exploitation agricole, avec un cadre unique qui autorise, dans une même entité, la production agricole, forestière, énergétique, la transformation, le tourisme rural, la gestion du foncier et la participation aux objectifs climatiques"
+        },
+        {
+          "page": 12,
+          "quote": "une débureaucratisation massive (suppression des normes redondantes, guichet numérique unique, autonomie locale sur les modalités d’application), et une remise à plat du carcan normatif viticole, notamment dans les AOC"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Agriculture de précision et retenues d'eau (bassines) décidées localement",
+      "summary": {
+        "simple": "Soutenir la technologie agricole et autoriser les bassines quand elles sont justifiées.",
+        "normal": "Soutien à l'agriculture de précision, aux capteurs connectés, à la robotisation et à l'IA ; politique des sols fondée sur la fertilité et la captation du carbone ; gestion de l'eau par subsidiarité, avec des bassines lorsqu'elles sont techniquement justifiées et localement décidées."
+      },
+      "sources": [
+        {
+          "page": 12,
+          "quote": "Cela passe par le soutien à l’agriculture de précision, aux capteurs connectés, à la robotisation, à l’usage de l’intelligence artificielle pour la gestion des cultures, par une politique des sols fondée sur la fertilité et la captation du carbone, et par une gestion de l’eau fondée sur la subsidiarité : oui aux bassines, lorsqu’elles sont techniquement justifiées et localement décidées."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "immigration",
+      "title": "Revenir sur l'accord franco-algérien de 1968",
+      "summary": {
+        "simple": "Remettre en cause l'accord de 1968 entre la France et l'Algérie.",
+        "normal": "Remise en cause de l'accord franco-algérien de 1968."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Revenir sur l’accord franco-algérien de 1968"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "immigration",
+      "title": "Rétorsions envers les pays qui ne coopèrent pas sur l'immigration",
+      "summary": {
+        "simple": "Sanctionner les pays qui ne reprennent pas leurs ressortissants.",
+        "normal": "Pressions diplomatiques et mesures de rétorsion à l'égard des pays non coopératifs : visas, transferts d'argent, aide publique au développement."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Exercer des pressions diplomatiques et prendre des mesures de rétorsion à l’égard des pays non-coopératifs (visas, transferts d’argent, aide publique au développement, etc.)"
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "immigration",
+      "title": "Traiter les demandes d'asile dans les consulats à l'étranger",
+      "summary": {
+        "simple": "Demander l'asile se ferait depuis l'étranger, dans les consulats français.",
+        "normal": "Les demandes d'asile seraient traitées au sein des consulats français à l'étranger."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Traiter les demandes d’asiles au sein de nos consulats à l’étranger"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Diviser par huit la délivrance de titres de séjour",
+      "summary": {
+        "simple": "Huit fois moins de titres de séjour délivrés.",
+        "normal": "Objectif de diviser par huit la délivrance de titres de séjour."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Diviser par huit la délivrance de titres de séjour"
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "immigration",
+      "title": "Conditionner le regroupement familial à des ressources et des tests d'intégration",
+      "summary": {
+        "simple": "Pour faire venir sa famille, il faudrait des revenus suffisants et réussir des tests d'intégration.",
+        "normal": "Le regroupement familial serait conditionné à des critères de ressources et à des tests d'intégration."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "conditionner le regroupement familial à des critères de ressources et des tests d’intégration"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Mettre fin à l'automaticité du droit du sol",
+      "summary": {
+        "simple": "Naître en France ne donnerait plus automatiquement la nationalité.",
+        "normal": "Fin de l'automaticité du droit du sol."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Mettre fin à l’automaticité du droit du sol"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Réorganiser l'administration pour simplifier la gestion de l'immigration",
+      "summary": {
+        "simple": "Une administration de l'immigration plus simple.",
+        "normal": "Réorganisation de l'administration pour simplifier la gestion de l'immigration."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Réorganiser l’administration pour simplifier la gestion de l’immigration"
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "immigration",
+      "title": "Plus de centres de rétention et rétention administrative portée à 24 mois",
+      "summary": {
+        "simple": "Plus de centres de rétention, et une rétention possible jusqu'à 24 mois.",
+        "normal": "Construction de centres de rétention administrative supplémentaires et allongement de la durée de rétention administrative à 24 mois."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Construire plus de centres de rétention administrative et allonger la durée de la rétention administrative à 24 mois"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Inscrire dans la Constitution la primauté du droit national en matière migratoire",
+      "summary": {
+        "simple": "La Constitution primerait sur les décisions européennes contraires en matière d'immigration.",
+        "normal": "Inscription dans la Constitution de la primauté du droit national en matière migratoire, pour rendre inapplicables les décisions de la CJUE et de la CEDH contraires à l'intérêt national ; bras de fer avec la CEDH et, en dernier recours, sortie de la CEDH."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Inscrire la primauté du droit national en matière migratoire dans la Constitution afin de rendre inapplicables les décisions de la CJUE et de la CEDH contraires à l’intérêt national"
+        },
+        {
+          "page": 13,
+          "quote": "Entamer un bras de fer avec la Cour européenne des droits de l’Homme (CEDH) pour réaffirmer la primauté de la souveraineté nationale"
+        },
+        {
+          "page": 13,
+          "quote": "Sortir de la CEDH en dernier recours"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "immigration",
+      "title": "Remplacer l'Aide médicale d'État par une aide d'urgence",
+      "summary": {
+        "simple": "L'AME serait remplacée par une aide limitée aux urgences.",
+        "normal": "Suppression de l'Aide médicale d'État (AME), remplacée par une aide d'urgence, pour 700 millions d'euros d'économies."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Supprimer l’Aide Médicale d’État (AME) et la remplacer par une aide d’urgence : 700 millions d’euros d’économies"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "immigration",
+      "title": "Rétablir le délit de séjour irrégulier",
+      "summary": {
+        "simple": "Séjourner illégalement en France redeviendrait un délit.",
+        "normal": "Rétablissement du délit de séjour irrégulier."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Rétablir le délit de séjour irrégulier"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Expulser systématiquement les étrangers condamnés pour délits graves et fichés S",
+      "summary": {
+        "simple": "Les étrangers condamnés pour délits graves ou fichés S seraient expulsés.",
+        "normal": "Expulsion systématique des étrangers condamnés pour délits graves et des étrangers fichés S."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Expulser systématiquement les étrangers condamnés pour délits graves et les fichés S étrangers"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "prestations",
+      "title": "Réserver les prestations sociales non contributives aux étrangers résidant depuis cinq ans",
+      "summary": {
+        "simple": "Les étrangers devraient résider légalement depuis cinq ans pour certaines aides sociales.",
+        "normal": "Les prestations sociales non contributives seraient conditionnées, pour les étrangers, à une résidence régulière en France depuis au moins cinq ans."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Conditionner les prestations sociales non contributives aux étrangers résidant régulièrement sur le territoire national depuis au moins cinq ans"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    }
+  ]
+}

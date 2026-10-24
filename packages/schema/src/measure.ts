@@ -209,6 +209,15 @@ export const Theme = z.enum([
   "transport",
   "famille",
   "entreprise",
+  "finances_publiques",
+  "institutions",
+  "securite",
+  "justice",
+  "immigration",
+  "agriculture",
+  "environnement",
+  "international",
+  "numerique",
   "autre",
 ]);
 
