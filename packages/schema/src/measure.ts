@@ -262,10 +262,16 @@ export const ContextFact = z.object({
   dataSourceId: z.string(),
 });
 
-/** Les six contrôles automatiques, dans l'ordre du pipeline. */
+/**
+ * Contrôles automatiques. Les programmes officiels font foi : les contrôles vérifient que l'extraction
+ * ne change ni les phrases (citation exacte), ni les chiffres (chiffres fidèles), ni le sens (relecture du sens).
+ * `relecture_croisee`, `double_extraction`, `vraisemblance` et `neutralite` sont facultatifs.
+ */
 export const CheckId = z.enum([
   "format",
   "citation_exacte",
+  "chiffres_fideles",
+  "relecture_sens",
   "relecture_croisee",
   "double_extraction",
   "vraisemblance",

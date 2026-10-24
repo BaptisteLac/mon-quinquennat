@@ -36,15 +36,14 @@ Hypothèse de simulation : l'utilisateur est un électeur français (aucune ques
 ## Pipeline automatisé
 1. **Veille** : GitHub Actions, hebdomadaire (quotidien les 6 dernières semaines avant le 1er tour). Nouvelle collecte de chaque corpus, comparaison de l'empreinte du texte extrait de chaque page (le HTML brut varie à chaque visite) ; nouvelle page ou page disparue = changement.
 2. **Archivage** de toute version nouvelle.
-3. **Extraction** uniquement sur les sections modifiées (Vercel AI SDK, sortie structurée Zod).
-4. **Six contrôles** :
-   1. format (schéma Zod) ;
-   2. citation exacte présente dans le texte archivé (bloquant) ;
-   3. relecture croisée par un second modèle d'un autre fournisseur ;
-   4. deux extractions indépendantes concordantes ;
-   5. vraisemblance des résultats sur des profils de référence ;
-   6. neutralité (gabarit, test d'échange des noms).
-5. **Routage** selon le risque : seuil plus haut pour une ligne chiffrée que pour une phrase qualitative. Au-dessus → publication automatique. En dessous → issue GitHub « en attente », traitée par commentaire : `/approuver`, `/rejeter raison`, `/corriger taux=0.09`.
+3. **Extraction** uniquement sur les pages modifiées : session Claude Code programmée (abonnement, sans clé API) qui ouvre une PR ; à terme, appel direct par l'API si l'on veut se passer de session (Vercel AI SDK, sortie structurée Zod).
+4. **Contrôles** : les programmes officiels font foi ; on vérifie seulement que l'extraction n'en change ni les phrases, ni les chiffres, ni le sens.
+   1. format (schéma Zod) — bloquant ;
+   2. citation exacte présente dans le texte archivé — bloquant ;
+   3. chiffres fidèles : chaque nombre de la fiche (résumés, paramètres, date annoncée) figure dans la citation ;
+   4. relecture du sens : seconde lecture qui compare chaque résumé à sa citation.
+   Facultatifs, si le score s'avère insuffisant : relecture croisée par un modèle d'un autre fournisseur, double extraction, vraisemblance sur profils de référence, neutralité.
+5. **Score de confiance et routage** : chaque mesure reçoit un score (part des contrôles passés). Au-dessus du seuil fixé → publication automatique ; en dessous → « en attente » (issue GitHub, traitée par commentaire : `/approuver`, `/rejeter raison`, `/corriger taux=0.09`). Le seuil se fixe sur la répartition réelle des scores.
 6. **Qualité** : audit hebdomadaire d'un échantillon ; le taux d'erreur mesuré est affiché sur la page Méthode. Chaque correction et chaque signalement d'utilisateur devient un cas de test.
 
 ## Calcul

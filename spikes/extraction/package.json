@@ -9,7 +9,8 @@
     "collect": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 tsx scripts/collect.ts",
     "check-gt": "tsx scripts/check-ground-truth.ts",
     "extract": "tsx scripts/extract.ts",
-    "score": "tsx scripts/score.ts"
+    "score": "tsx scripts/score.ts",
+    "ingest": "tsx scripts/ingest.ts"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^4.0.87",
