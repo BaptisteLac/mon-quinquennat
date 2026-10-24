@@ -4,7 +4,8 @@
  *   npm run ingest -- --corpus nouvelle-energie-2026-10 [--threshold 1]
  *
  * Lit   data/extractions/<corpus>/*.json (sauf relecture.json) et data/archives/<corpus>/manifest.json
- * Écrit data/measures/<corpus>.json (mesures validées par le schéma Measure) et <corpus>.report.md
+ * Écrit data/measures/<corpus>.json (mesures validées par le schéma Measure), <corpus>.report.md
+ *       et <corpus>.a-relire.json (mesures dont la relecture du sens manque ou est obsolète)
  * Sort en erreur si deux mesures ont la même première citation (doublon à fusionner).
  */
 import { existsSync } from "node:fs";
@@ -71,6 +72,16 @@ await writeFile(
       threshold,
       measures: items.flatMap((i) => (i.measure ? [i.measure] : [])),
     },
+    null,
+    2,
+  ) + "\n",
+);
+// Mesures dont la relecture du sens manque ou est obsolète : la session de relecture complète relecture.json.
+const toReview = items.filter((i) => meaning[i.key]?.contentSha256 !== i.contentSha256);
+await writeFile(
+  out.replace(/\.json$/, ".a-relire.json"),
+  JSON.stringify(
+    toReview.map((i) => ({ key: i.key, contentSha256: i.contentSha256, file: i.file, title: i.raw.title })),
     null,
     2,
   ) + "\n",

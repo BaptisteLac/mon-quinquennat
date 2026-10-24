@@ -7,7 +7,7 @@ import type { Corpus } from "./corpus.js";
 import { riskLevel, type Review } from "./checks.js";
 import { MeasureDraft, toDraftInput, type LlmMeasure } from "./llm-schema.js";
 import { measureKeys } from "./run.js";
-import { routeByScore, runChecks, type MeaningReview } from "./scoring.js";
+import { contentSha256, routeByScore, runChecks, type MeaningReview } from "./scoring.js";
 
 export interface IngestInput {
   corpus: Corpus;
@@ -21,6 +21,8 @@ export interface IngestedMeasure {
   key: string;
   file: string;
   raw: LlmMeasure;
+  /** Empreinte du contenu relu, à reporter dans relecture.json. */
+  contentSha256: string;
   review: Review;
   /** Mesure complète si le format est valide. */
   measure: Measure | null;
@@ -47,7 +49,14 @@ export function ingest(input: IngestInput): IngestedMeasure[] {
       checks,
       extractedBy: input.extractedBy,
     };
-    return { key, file, raw, review, measure: draft ? Measure.parse({ ...draft, review }) : null };
+    return {
+      key,
+      file,
+      raw,
+      contentSha256: contentSha256(raw),
+      review,
+      measure: draft ? Measure.parse({ ...draft, review }) : null,
+    };
   });
 }
 

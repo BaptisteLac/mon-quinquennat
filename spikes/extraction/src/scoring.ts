@@ -6,19 +6,29 @@
  * - chiffres fidèles et relecture du sens : comptent dans le score.
  * Score = part des contrôles passés. Auto-validée si score ≥ seuil, sinon en attente.
  */
+import { createHash } from "node:crypto";
 import { checkCitations, riskLevel, type CheckResult, type Review } from "./checks.js";
 import { checkFigures } from "./figures.js";
 import type { LlmMeasure, MeasureDraft } from "./llm-schema.js";
 
 export const SCORED_CHECKS = ["format", "citation_exacte", "chiffres_fideles", "relecture_sens"] as const;
 
+/** La relecture porte sur un contenu précis : toute modification ultérieure de la mesure l'invalide. */
 export interface MeaningReview {
   verdict: "fidele" | "a_revoir";
+  contentSha256: string;
   note?: string | undefined;
 }
 
-export function meaningCheck(review: MeaningReview | undefined): CheckResult {
+export function contentSha256(raw: LlmMeasure): string {
+  return createHash("sha256").update(JSON.stringify(raw)).digest("hex");
+}
+
+export function meaningCheck(review: MeaningReview | undefined, sha: string): CheckResult {
   if (!review) return { id: "relecture_sens", passed: false, detail: "relecture du sens non faite" };
+  if (review.contentSha256 !== sha) {
+    return { id: "relecture_sens", passed: false, detail: "relecture obsolète : la mesure a changé depuis la relecture" };
+  }
   return review.verdict === "fidele"
     ? { id: "relecture_sens", passed: true }
     : { id: "relecture_sens", passed: false, detail: review.note ?? "sens à revoir" };
@@ -49,7 +59,7 @@ export function runChecks(args: {
     checkCitations(args.raw, args.corpusTexts),
   ];
   if (args.draft) checks.push(checkFigures(args.draft));
-  checks.push(meaningCheck(args.meaning));
+  checks.push(meaningCheck(args.meaning, contentSha256(args.raw)));
   return checks;
 }
 

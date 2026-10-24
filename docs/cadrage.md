@@ -41,7 +41,7 @@ Hypothèse de simulation : l'utilisateur est un électeur français (aucune ques
    1. format (schéma Zod) — bloquant ;
    2. citation exacte présente dans le texte archivé — bloquant ;
    3. chiffres fidèles : chaque nombre de la fiche (résumés, paramètres, date annoncée) figure dans la citation ;
-   4. relecture du sens : seconde lecture qui compare chaque résumé à sa citation.
+   4. relecture du sens : seconde lecture qui compare chaque résumé à sa citation. Le verdict est lié à une empreinte du contenu relu : toute modification ultérieure de la mesure l'annule et la renvoie en relecture. Une mesure dont les sources officielles se contredisent (deux pages du même candidat) est marquée « à revoir » avec la note de l'écart.
    Facultatifs, si le score s'avère insuffisant : relecture croisée par un modèle d'un autre fournisseur, double extraction, vraisemblance sur profils de référence, neutralité.
 5. **Score de confiance et routage** : chaque mesure reçoit un score (part des contrôles passés). Au-dessus du seuil fixé → publication automatique ; en dessous → « en attente » (issue GitHub, traitée par commentaire : `/approuver`, `/rejeter raison`, `/corriger taux=0.09`). Le seuil se fixe sur la répartition réelle des scores.
 6. **Qualité** : audit hebdomadaire d'un échantillon ; le taux d'erreur mesuré est affiché sur la page Méthode. Chaque correction et chaque signalement d'utilisateur devient un cas de test.

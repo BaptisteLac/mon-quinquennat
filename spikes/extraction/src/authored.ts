@@ -57,5 +57,11 @@ export function toLlmMeasure(m: z.infer<typeof AuthoredMeasure>): LlmMeasure {
 
 export const MeaningReviews = z.record(
   z.string(),
-  z.object({ verdict: z.enum(["fidele", "a_revoir"]), note: z.string().optional() }).strict(),
+  z
+    .object({
+      verdict: z.enum(["fidele", "a_revoir"]),
+      contentSha256: z.string().regex(/^[0-9a-f]{64}$/),
+      note: z.string().optional(),
+    })
+    .strict(),
 );

@@ -56,14 +56,10 @@ describe("AuthoredFile", () => {
 
 describe("ingest", () => {
   const firstPass = ingest({ corpus: CORPUS, measures, meaning: {}, threshold: 1, extractedBy });
-  const keys = firstPass.map((i) => i.key);
-  const items = ingest({
-    corpus: CORPUS,
-    measures,
-    meaning: Object.fromEntries(keys.map((k) => [k, { verdict: "fidele" as const }])),
-    threshold: 1,
-    extractedBy,
-  });
+  const meaning = Object.fromEntries(
+    firstPass.map((i) => [i.key, { verdict: "fidele" as const, contentSha256: i.contentSha256 }]),
+  );
+  const items = ingest({ corpus: CORPUS, measures, meaning, threshold: 1, extractedBy });
   const status = (title: string) => items.find((i) => i.raw.title === title)?.review;
 
   it("auto-valide une mesure fidèle, relue, et rattache la citation à son document", () => {
@@ -81,6 +77,16 @@ describe("ingest", () => {
 
   it("met en attente une mesure dont le sens n'a pas été relu", () => {
     expect(firstPass.find((i) => i.raw.title === "Guichet fictif")?.review.status).toBe("en_attente");
+  });
+
+  it("invalide la relecture si la mesure a changé depuis", () => {
+    const edited = measures.map((m, i) =>
+      i === 0 ? { ...m, raw: { ...m.raw, summary: { ...m.raw.summary, simple: "Résumé modifié." } } } : m,
+    );
+    const again = ingest({ corpus: CORPUS, measures: edited, meaning, threshold: 1, extractedBy });
+    expect(again[0]?.key).toBe(items[0]?.key);
+    expect(again[0]?.review).toMatchObject({ status: "en_attente", score: 0.75 });
+    expect(again[0]?.review.checks.find((c) => c.id === "relecture_sens")?.detail).toContain("obsolète");
   });
 
   it("produit un rapport avec la répartition", () => {
