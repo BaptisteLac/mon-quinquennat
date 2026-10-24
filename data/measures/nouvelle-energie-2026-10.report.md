@@ -6,19 +6,19 @@
 | Statut | Mesures | Part |
 |---|---|---|
 | Auto-validées | 0 | 0.0 % |
-| En attente | 209 | 100.0 % |
+| En attente | 219 | 100.0 % |
 | Rejetées (format ou citation) | 0 | 0.0 % |
-| **Total** | **209** | |
+| **Total** | **219** | |
 
-Répartition des scores : 0.75 → 209
+Répartition des scores : 0.75 → 219
 
-Par thème : sante 40, institutions 34, agriculture 20, immigration 18, education 16, entreprise 11, logement 10, securite 9, travail 7, justice 7, environnement 7, finances_publiques 5, numerique 5, retraite 5, international 4, prestations 4, fiscalite 3, energie 2, transport 1, famille 1
+Par thème : institutions 42, sante 40, agriculture 20, immigration 19, education 16, entreprise 11, logement 10, securite 9, travail 7, justice 7, environnement 7, numerique 6, finances_publiques 5, retraite 5, international 4, prestations 4, fiscalite 3, energie 2, transport 1, famille 1
 
 ## Rejetées (0)
 
 Aucune.
 
-## En attente (209)
+## En attente (219)
 
 - `28da48ebd139` Règle d'or de limitation des déficits publics, hors investissement (notre-programme-etre-maitre-de-notre-destin p. 1) — relecture_sens — relecture du sens non faite
 - `6c2fcec877f6` Rééquilibrer le budget de l'État vers les fonctions régaliennes (notre-programme-etre-maitre-de-notre-destin p. 1) — relecture_sens — relecture du sens non faite
@@ -229,3 +229,13 @@ Aucune.
 - `0a5f69b923c0` Verser automatiquement les prestations dont l'éligibilité est connue (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 19) — relecture_sens — relecture du sens non faite
 - `6077776578ac` Fin de la présence physique obligatoire pour les personnes lourdement handicapées (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 19) — relecture_sens — relecture du sens non faite
 - `70e3618e2e9c` Un médiateur de la simplification pour débloquer les dossiers anciens (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 19) — relecture_sens — relecture du sens non faite
+- `ee114a2902ab` Rétablir le septennat (legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026 p. 8) — relecture_sens — relecture du sens non faite
+- `35c7fc7497d5` Confier au Sénat l'évaluation des politiques publiques (legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026 p. 9) — relecture_sens — relecture du sens non faite
+- `4f7e1ecc4afc` Référendum possible sur tout sujet et révision de la Constitution par référendum (legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026 p. 9) — relecture_sens — relecture du sens non faite
+- `7d11b245b664` Rendre praticable le référendum d'initiative populaire (legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026 p. 9) — relecture_sens — relecture du sens non faite
+- `680d1cf4f3d7` Recentrer le contrôle de constitutionnalité sur la lettre de la Constitution (legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026 p. 9) — relecture_sens — relecture du sens non faite
+- `1bebda02074c` Hautes nominations soumises à l'approbation de l'Assemblée à majorité qualifiée (legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026 p. 10) — relecture_sens — relecture du sens non faite
+- `8168c377b2b2` Réviser l'article 55 de la Constitution pour faire primer la loi sur l'interprétation de la CEDH (legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026 p. 10) — relecture_sens — relecture du sens non faite
+- `5d97237ca399` Obtenir une dérogation aux règles européennes d'asile et d'immigration, sur le modèle danois (legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026 p. 10) — relecture_sens — relecture du sens non faite
+- `83381d4b3cb0` Les mêmes libertés locales pour tous les territoires, outre-mer compris (legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026 p. 11) — relecture_sens — relecture du sens non faite
+- `1212aa038033` Une intelligence artificielle souveraine au cœur de l'administration (legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026 p. 12) — relecture_sens — relecture du sens non faite
