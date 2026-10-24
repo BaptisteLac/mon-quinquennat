@@ -400,6 +400,10 @@
         {
           "page": 33,
           "quote": "Donner une réelle autonomie aux facultés pour contractualiser librement avec les structures de soins."
+        },
+        {
+          "page": 46,
+          "quote": "Supprimer Parcoursup et le remplacer par un système d’affectation fondé sur les résultats scolaires objectifs. Rétablir le libre accès à l’université pour toute filière non contingentée."
         }
       ],
       "precision": "precise",
@@ -430,8 +434,8 @@
             ]
           },
           "sentence": {
-            "simple": "Parcoursup serait supprimé.",
-            "normal": "Parcoursup serait supprimé et le nombre d'étudiants en médecine doublé d'ici 2030."
+            "simple": "Parcoursup serait supprimé et remplacé par une affectation sur les résultats scolaires.",
+            "normal": "Parcoursup serait remplacé par une affectation fondée sur les résultats scolaires, avec libre accès à l'université dans les filières non contingentées ; le nombre d'étudiants en médecine serait doublé d'ici 2030."
           }
         }
       ]
@@ -509,6 +513,10 @@
         {
           "page": 23,
           "quote": "Instaurer la réciprocité des normes dans les accords commerciaux."
+        },
+        {
+          "page": 45,
+          "quote": "Appliquer aux importations les mêmes exigences normatives qu’aux produits français."
         }
       ],
       "precision": "partielle"
@@ -552,6 +560,10 @@
         {
           "page": 21,
           "quote": "Autoriser sans délai les NBT (nouvelles techniques de sélection végétale), et promouvoir les biotechnologies utiles."
+        },
+        {
+          "page": 45,
+          "quote": "Autoriser sans délai les nouvelles techniques génomiques (NBT)."
         }
       ],
       "precision": "partielle"
@@ -807,12 +819,16 @@
       "title": "Remplacer l'Aide médicale d'État par une aide d'urgence",
       "summary": {
         "simple": "L'AME serait remplacée par une aide limitée aux urgences.",
-        "normal": "Suppression de l'Aide médicale d'État (AME), remplacée par une aide d'urgence, pour 700 millions d'euros d'économies."
+        "normal": "Suppression de l'Aide médicale d'État (AME), remplacée par une aide médicale d'urgence limitée aux soins vitaux, aux maladies transmissibles et aux soins liés à la grossesse ; économie annoncée de 700 millions d'euros (600 à 900 M€ selon le Livre noir), réaffectée à l'offre de soins dans les déserts médicaux."
       },
       "sources": [
         {
           "page": 13,
           "quote": "Supprimer l’Aide Médicale d’État (AME) et la remplacer par une aide d’urgence : 700 millions d’euros d’économies"
+        },
+        {
+          "page": 46,
+          "quote": "Supprimer l’AME et la remplacer par une Aide Médicale d’Urgence strictement limitée aux soins vitaux, maladies transmissibles et soins liés à la grossesse. Réaffecter intégralement l’économie réalisée (600 à 900 M€) au renforcement de l’offre en déserts médicaux."
         }
       ],
       "precision": "precise",

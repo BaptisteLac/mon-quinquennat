@@ -1,0 +1,1274 @@
+{
+  "measures": [
+    {
+      "theme": "institutions",
+      "title": "Évaluation d'impact préalable contraignante pour toute nouvelle règle",
+      "summary": {
+        "simple": "Chaque nouvelle règle serait évaluée avant d'être adoptée, et le nombre de normes suivi comme un budget.",
+        "normal": "Toute règle nouvelle serait soumise à une évaluation préalable contraignante de son impact réel (économique, social, pratique) ; le stock et le flux de normes seraient mesurés avec la même rigueur que le budget de l'État."
+      },
+      "sources": [
+        {
+          "page": 40,
+          "quote": "Toute règle nouvelle doit être soumise à une évaluation préalable de son impact réel, économique, social, pratique, rendue contraignante et non consultative. Le stock et le flux de normes doivent être mesurés avec la même rigueur que doit l’être le budget de l’État."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Une norme créée, deux normes de même rang supprimées",
+      "summary": {
+        "simple": "Pour chaque nouvelle règle, deux règles existantes seraient supprimées.",
+        "normal": "Application réelle de la règle « une norme créée, deux supprimées », en abrogeant des textes de rang équivalent à chaque nouvelle règle, par ordonnances."
+      },
+      "sources": [
+        {
+          "page": 40,
+          "quote": "La règle du « une norme créée, deux supprimées » doit enfin être appliquée réellement, non pas en supprimant des circulaires sans portée normative pour satisfaire à la forme, mais en abrogeant des textes de rang équivalent à chaque nouvelle règle créée."
+        },
+        {
+          "page": 61,
+          "quote": "Ces ordonnances instaureront une règle simple : toute nouvelle norme imposera la suppression de deux normes de rang équivalent."
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "institutions",
+      "title": "Supprimer la moitié des 1 200 agences et opérateurs de l'État",
+      "summary": {
+        "simple": "La moitié des agences de l'État seraient supprimées, dont les ARS et les DREAL.",
+        "normal": "Par ordonnances, suppression de la moitié des 1 200 agences et opérateurs dont le coût et la redondance ne se justifient pas (480 000 agents), dont les ARS, les DREAL, les MRAe et les DREETS."
+      },
+      "sources": [
+        {
+          "page": 61,
+          "quote": "Ces ordonnances supprimeront la moitié des 1 200 agences et opérateurs dont le coût et la redondance ne se justifient pas (480 000 agents)"
+        },
+        {
+          "page": 61,
+          "quote": "Elles supprimeront les ARS, les DREAL, les MRAe, et autres DREETS (Directions Régionales de l’Économie, de l’Emploi, du Travail et des Solidarités)."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "institutions",
+      "title": "Le préfet interlocuteur unique, qui contrôle a posteriori au lieu d'autoriser",
+      "summary": {
+        "simple": "Un seul interlocuteur, le préfet, qui contrôle après coup au lieu de tout autoriser à l'avance.",
+        "normal": "Rétablissement d'un interlocuteur unique déconcentré, le préfet, chargé non plus de délivrer des autorisations préalables mais de contrôler a posteriori et de sanctionner effectivement."
+      },
+      "sources": [
+        {
+          "page": 40,
+          "quote": "de rétablir un interlocuteur unique déconcentré en la personne du préfet, chargé non plus de délivrer des autorisations préalables mais de contrôler a posteriori et de sanctionner effectivement"
+        },
+        {
+          "page": 61,
+          "quote": "Elles rétabliront un interlocuteur unique déconcentré, en l’occurrence le préfet."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Interdire la surtransposition des directives européennes",
+      "summary": {
+        "simple": "La France ne pourrait plus ajouter ses propres contraintes aux règles européennes, sauf vote du Parlement.",
+        "normal": "Interdiction de la surtransposition des directives européennes ; toute surtransposition devrait être justifiée par écrit, soumise au Conseil national d'évaluation des normes et validée par le Parlement."
+      },
+      "sources": [
+        {
+          "page": 40,
+          "quote": "Cela suppose d’interdire la surtransposition des directives européennes"
+        },
+        {
+          "page": 61,
+          "quote": "Elles interdiront la surtransposition des directives européennes. Toute surtransposition devra être justifiée par écrit, soumise au Conseil national d’évaluation des normes, et validée par le Parlement"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "institutions",
+      "title": "Supprimer l'INSP et diversifier l'accès à la haute fonction publique",
+      "summary": {
+        "simple": "L'école qui a remplacé l'ENA serait supprimée ; les hauts fonctionnaires seraient recrutés autrement.",
+        "normal": "Dans les cent premiers jours, réforme de la haute fonction publique : suppression de l'Institut national du service public, remplacé par des voies d'accès diversifiées valorisant les profils opérationnels et les expériences de terrain."
+      },
+      "sources": [
+        {
+          "page": 61,
+          "quote": "Dans les cent premiers jours : réforme de la haute fonction publique. Suppression de l’Institut National du Service Public, qui a remplacé l’ENA sans rien changer au problème de l’énarchie, qui sera remplacée par des voies d’accès diversifiées valorisant les profils opérationnels et les expériences de terrain."
+        },
+        {
+          "page": 40,
+          "quote": "Cela suppose de réformer en profondeur la formation des hauts fonctionnaires en y introduisant la diversité des profils, le management, la sociologie du terrain et le pragmatisme"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "institutions",
+      "title": "Évaluer les agents publics sur leurs résultats et créer une DRH de l'État",
+      "summary": {
+        "simple": "Les responsables publics seraient jugés sur les résultats, et l'État aurait une vraie DRH.",
+        "normal": "Passage d'une culture du processus à une culture du résultat (agents, élus et responsables évalués sur les effets concrets de leur action) ; création d'une DRH de l'État et d'une fonction transformation dans chaque ministère."
+      },
+      "sources": [
+        {
+          "page": 40,
+          "quote": "Passer de la culture du processus à la culture du résultat : un agent public, un élu, un responsable administratif doit être évalué non sur sa conformité aux procédures, mais sur les effets concrets de son action pour les citoyens."
+        },
+        {
+          "page": 61,
+          "quote": "Chaque ministère disposera en outre d’une fonction transformation dédiée, chargée de piloter le changement de l’intérieur. Et nous créerons une DRH de l’État"
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "numerique",
+      "title": "L'intelligence artificielle au service de l'usager face à la complexité du droit",
+      "summary": {
+        "simple": "Utiliser l'IA pour rendre le droit compréhensible et appliquer les règles plus simplement.",
+        "normal": "L'intelligence artificielle deviendrait un outil de gestion de la complexité normative : concilier des normes contradictoires, rendre le droit intelligible pour les décideurs de terrain et offrir une application personnalisée des règles."
+      },
+      "sources": [
+        {
+          "page": 40,
+          "quote": "l’intelligence artificielle doit devenir un outil de gestion de cette complexité — capable de concilier des normes contradictoires, de rendre le droit intelligible pour les décideurs de terrain, d’offrir une application personnalisée des règles sans multiplier les textes"
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "institutions",
+      "title": "Réécrire le droit domaine par domaine : « tout ce qui n'est pas interdit est permis »",
+      "summary": {
+        "simple": "Garder seulement les règles nécessaires, réécrites en français clair ; tout ce qui n'est pas interdit serait permis.",
+        "normal": "Réécriture du droit domaine par domaine (fiscal, social, environnemental, urbanisme) : chaque règle nécessaire est gardée et réécrite en français clair, les autres sont supprimées ; règle générale : tout ce qui n'est pas interdit est permis."
+      },
+      "sources": [
+        {
+          "page": 59,
+          "quote": "Nous allons aussi évacuer l’eau du bain et réécrire notre droit pour le faire reposer sur des principes généraux clairs dont découleront des règles simples. Et nous le ferons domaine par domaine - fiscal, social, environnemental, urbanisme - avec une seule grille de lecture"
+        },
+        {
+          "page": 59,
+          "quote": "Si oui, on la garde, on la réécrit en français clair, intelligible par tous. Si non, on la supprime. Et pour tout le reste, une règle générale s’appliquera : tout ce qui n’est pas interdit est permis."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Un responsable de la performance publique rattaché au Premier ministre",
+      "summary": {
+        "simple": "Un responsable unique pour réformer l'État, au-dessus de tous les ministères.",
+        "normal": "Un responsable à la performance publique, rattaché au Premier ministre, aurait autorité sur tous les ministères et réunirait des personnalités du privé et du public recrutées pour leur expertise opérationnelle."
+      },
+      "sources": [
+        {
+          "page": 60,
+          "quote": "Un responsable à la performance publique, directement rattaché au Premier ministre, aura autorité sur tous les ministères"
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Un gouvernement de douze ministres et un moratoire réglementaire dès le premier jour",
+      "summary": {
+        "simple": "Dès le premier jour : douze ministres seulement et gel des nouvelles normes.",
+        "normal": "Le premier jour, nomination d'un gouvernement de douze ministres et signature d'un moratoire réglementaire gelant toutes les normes en cours d'adoption ; les réglementations publiées dans les quatre-vingt-dix jours précédant l'élection seraient suspendues le temps d'une revue d'utilité."
+      },
+      "sources": [
+        {
+          "page": 60,
+          "quote": "Le premier jour : le Premier ministre devra nommer un gouvernement composé de douze ministres, pour décider plus vite et assumer davantage."
+        },
+        {
+          "page": 60,
+          "quote": "Un moratoire réglementaire sera signé à l’Élysée le jour même : toutes les normes en cours d’adoption seront gelées. Toutes les réglementations publiées dans les quatre-vingt-dix jours précédant l’élection suspendues le temps d’une revue d’utilité pilotée directement par la Présidence."
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "institutions",
+      "title": "Transformer l'État par ordonnances dans les trente premiers jours",
+      "summary": {
+        "simple": "Une loi pour réformer l'État par ordonnances serait déposée dans le premier mois.",
+        "normal": "Dans les trente premiers jours, dépôt d'une loi d'habilitation pour transformer l'État par ordonnances."
+      },
+      "sources": [
+        {
+          "page": 60,
+          "quote": "Dans les trente premiers jours, je chargerai le Premier ministre de déposer une loi d’habilitation pour transformer l’État par ordonnances."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "institutions",
+      "title": "Droit de contester une norme inutile, la charge de la preuve à l'administration",
+      "summary": {
+        "simple": "Chacun pourrait contester une règle ou un formulaire inutile ; l'administration devrait prouver son utilité.",
+        "normal": "Tout citoyen, entreprise ou association pourrait saisir une autorité rattachée au Premier ministre pour contester une norme, une procédure ou un formulaire jugé inutile ; l'administration devrait démontrer que la norme est nécessaire, lisible et proportionnée."
+      },
+      "sources": [
+        {
+          "page": 61,
+          "quote": "Tout citoyen, toute entreprise, toute association pourra saisir une autorité rattachée au Premier ministre pour contester une norme, une procédure ou un formulaire jugé inutile ou disproportionné. La charge de la preuve sera renversée : ce sera à l’administration de démontrer que la norme est nécessaire, lisible et proportionnée."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Évaluer l'impact de chaque nouvelle norme sur la croissance",
+      "summary": {
+        "simple": "Une règle qui freine la croissance ne pourrait être adoptée qu'avec une compensation.",
+        "normal": "Principe de compétitivité : toute nouvelle norme serait accompagnée d'une évaluation de son impact sur la croissance ; en cas d'impact négatif, elle ne pourrait être adoptée sans compensation explicite."
+      },
+      "sources": [
+        {
+          "page": 61,
+          "quote": "Ces ordonnances incluront enfin un principe de compétitivité : toute nouvelle norme devra être accompagnée d’une évaluation de son impact sur la croissance. Si cet impact est négatif, la norme ne pourra être adoptée sans compensation explicite et réelle."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "finances_publiques",
+      "title": "Revue de chaque programme et agence de l'État sur le modèle canadien",
+      "summary": {
+        "simple": "Chaque mission de l'État serait passée au crible ; celles jugées inutiles seraient fusionnées, transférées ou supprimées.",
+        "normal": "Dans les quarante-cinq jours, revue fonctionnelle ministère par ministère sur le modèle canadien : cinq questions posées à chaque programme et agence ; toute réponse négative déclencherait une fusion, un transfert ou une suppression."
+      },
+      "sources": [
+        {
+          "page": 61,
+          "quote": "Dans les quarante-cinq jours : mise en œuvre d’une revue fonctionnelle, ministère par ministère, sur le modèle canadien de 1994. Cinq questions posées à chaque programme, chaque agence"
+        },
+        {
+          "page": 61,
+          "quote": "Toute réponse négative déclenchera automatiquement une procédure de fusion, de transfert ou de suppression."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "travail",
+      "title": "Accords d'entreprise libres de déroger à la durée légale du travail",
+      "summary": {
+        "simple": "La durée du travail pourrait être fixée par accord d'entreprise, au-dessus ou en dessous de la durée légale.",
+        "normal": "Tout accord d'entreprise pourrait déroger à la durée légale du travail, à la hausse comme à la baisse, dans le respect du repos minimum de onze heures ; heures supplémentaires majorées de 10 % par défaut, sans supplément de charges patronales ; suppression de l'obligation de prendre 12 jours ouvrés consécutifs de congés avant le 31 octobre."
+      },
+      "sources": [
+        {
+          "page": 43,
+          "quote": "Permettre à tout accord d’entreprise de déroger à la durée légale à la hausse comme à la baisse, dans le respect du repos minimum de onze heures. Majoration des heures supplémentaires à 10 % par défaut, sans supplément de charges patronales. Supprimer l’obligation légale de 12 jours ouvrés consécutifs avant le 31 octobre."
+        },
+        {
+          "page": 48,
+          "quote": "Supprimer l’obligation légale de prise de 12 jours consécutifs avant le 31 octobre. La prise des congés est organisée par accord entre les parties, dans le respect des minima de repos."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "temps_travail",
+          "section": "temps",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "eq",
+            "value": "salarie_prive"
+          },
+          "sentence": {
+            "simple": "Ta durée de travail pourrait être fixée par un accord dans ton entreprise ; tes heures sup seraient majorées de 10 % par défaut.",
+            "normal": "Un accord d'entreprise pourrait fixer une durée du travail différente de la durée légale ; la majoration par défaut des heures supplémentaires serait de 10 %."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "entreprise",
+      "title": "Abroger l'information préalable des salariés avant cession (loi Hamon)",
+      "summary": {
+        "simple": "Plus d'obligation d'informer les salariés avant de vendre son entreprise, mais un avantage fiscal s'ils la reprennent.",
+        "normal": "Abrogation de l'obligation d'information préalable des salariés avant cession, remplacée par un cadre fiscal incitatif à la reprise par les salariés : exonération des plus-values du cédant en cas de cession à un véhicule de reprise salarié."
+      },
+      "sources": [
+        {
+          "page": 43,
+          "quote": "Abroger l’obligation d’information préalable. La remplacer par un cadre fiscal incitatif à la reprise par les salariés : exonérations d’impôt sur les plus-values du cédant conditionnées à une cession à un véhicule de reprise salarié."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Alléger Qualiopi pour les petits organismes de formation",
+      "summary": {
+        "simple": "Les organismes de formation seraient jugés sur leurs résultats plutôt que sur leurs procédures.",
+        "normal": "Remplacer l'audit de processus Qualiopi par une évaluation de résultats (taux d'insertion, satisfaction), créer une voie simplifiée aux financements OPCO pour les organismes de moins de cinq salariés et supprimer l'exclusivité de Qualiopi pour accéder aux financements publics."
+      },
+      "sources": [
+        {
+          "page": 43,
+          "quote": "Substituer à l’audit de processus une évaluation de résultats (taux d’insertion, satisfaction des stagiaires). Créer une voie simplifiée aux financements OPCO pour les organismes de moins de cinq salariés. Supprimer l’exclusivité de Qualiopi comme condition d’accès aux financements publics."
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Exonérer les PME de moins de 50 salariés du reporting CSRD",
+      "summary": {
+        "simple": "Les petites entreprises n'auraient plus à faire de rapport de durabilité.",
+        "normal": "Interdiction de la surtransposition de la CSRD, application stricte des seuils européens (250 salariés minimum) et exonération totale des TPE-PME de moins de 50 salariés, y compris par ricochet contractuel."
+      },
+      "sources": [
+        {
+          "page": 43,
+          "quote": "Interdire la surtransposition de la CSRD en droit français. Appliquer strictement les seuils européens (250 salariés minimum). Exonérer totalement les TPE-PME de moins de 50 salariés, y compris par ricochet contractuel."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "sante",
+      "title": "Alléger l'homologation des dispositifs médicaux à faible risque",
+      "summary": {
+        "simple": "Homologuer plus vite et moins cher les dispositifs médicaux à faible risque.",
+        "normal": "Procédures allégées au niveau européen pour les dispositifs médicaux à faible risque (classes I et IIa), fonds national de prise en charge partielle des coûts MDR pour les fabricants de moins de 50 salariés, délais opposables aux organismes notifiés avec indemnités de retard."
+      },
+      "sources": [
+        {
+          "page": 43,
+          "quote": "Différencier au niveau européen les dispositifs à faible risque (classes I et IIa) avec procédures allégées. Créer un fonds national de prise en charge partielle des coûts MDR pour les fabricants de moins de 50 salariés. Délais opposables aux organismes notifiés avec indemnités de retard."
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "travail",
+      "title": "Allonger à dix ans la validité du CACES pour les conducteurs sans incident",
+      "summary": {
+        "simple": "Le certificat de conduite d'engins durerait dix ans pour les conducteurs sans incident.",
+        "normal": "Validité du CACES portée à dix ans pour les conducteurs sans incident, revalidation simplifiée pour les conducteurs en exercice continu, et suppression du CACES pour les engins de catégorie 1 en environnement fermé."
+      },
+      "sources": [
+        {
+          "page": 43,
+          "quote": "Allonger la validité à dix ans pour les conducteurs sans incident. Revalidation simplifiée (test pratique seul) pour les conducteurs en exercice continu. Supprimer le CACES pour les engins de catégorie 1 en environnement fermé, au profit d’une autorisation interne de l’employeur."
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Alléger les obligations anti-blanchiment des petites structures",
+      "summary": {
+        "simple": "Moins d'obligations anti-blanchiment pour les très petites structures.",
+        "normal": "Obligations anti-blanchiment différenciées selon le risque réel : structures de moins de cinq salariés exonérées de la cartographie formelle des risques (remplacée par une formation annuelle de deux heures) ; suppression des contrôles internes de niveau bancaire pour les petites structures."
+      },
+      "sources": [
+        {
+          "page": 43,
+          "quote": "Différencier les obligations selon le profil de risque réel. Exonérer les structures de moins de cinq salariés de la cartographie formelle des risques, remplacée par une formation certifiée annuelle de deux heures. Supprimer les dispositions MICQ imposant un contrôle interne de niveau bancaire aux petites structures."
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "logement",
+      "title": "Décentraliser le ZAN et construire sur les zones commerciales déjà artificialisées",
+      "summary": {
+        "simple": "Construire des logements sur les parkings et zones commerciales existants ; plus de « double peine » ZAN-SRU.",
+        "normal": "Objectif « zéro artificialisation nette » décentralisé aux intercommunalités ; mobilisation prioritaire des 55 000 hectares de zones commerciales déjà artificialisées (potentiel d'un million de logements) ; suppression de la double peine qui contraint une commune à la fois par le ZAN et par la loi SRU."
+      },
+      "sources": [
+        {
+          "page": 44,
+          "quote": "Décentraliser l’objectif ZAN aux EPCI. Mobiliser en priorité les 55 000 ha de zones commerciales déjà artificialisées (potentiel : 1 million de logements). Supprimer la double peine : une commune ne peut être simultanément contrainte par le ZAN et sanctionnée par la loi SRU."
+        },
+        {
+          "page": 60,
+          "quote": "Et les 55 000 hectares de zones commerciales déjà artificialisées - parkings, hangars, friches - doivent être mobilisés pour un potentiel d’un million de logements."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "sentence": {
+            "simple": "Des logements pourraient être construits sur les zones commerciales déjà bétonnées.",
+            "normal": "Les 55 000 hectares de zones commerciales déjà artificialisées seraient mobilisés en priorité pour construire des logements."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "entreprise",
+      "title": "Exonérer de CFE et de cotisations toute entreprise nouvelle pendant douze mois",
+      "summary": {
+        "simple": "Une nouvelle entreprise ne paierait ni CFE ni cotisations la première année.",
+        "normal": "Exonération de CFE et de cotisations Urssaf de toute entreprise nouvelle pendant les douze premiers mois ; ensuite, cotisations calculées sur les revenus effectivement perçus, sans assiette forfaitaire minimale avant la troisième année."
+      },
+      "sources": [
+        {
+          "page": 44,
+          "quote": "Exonérer de CFE et de cotisations URSSAF toute entreprise nouvelle pendant les douze premiers mois. Après douze mois, cotisations calculées sur les revenus effectivement perçus, sans assiette forfaitaire minimale avant la troisième année."
+        },
+        {
+          "page": 60,
+          "quote": "Avec Nouvelle Energie, nous proposons d’exonérer toute entreprise nouvelle pendant les douze premiers mois, et calculer ensuite les cotisations sur les revenus effectivement perçus."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "logement",
+      "title": "Quotas de logements sociaux négociés entre intercommunalités et État",
+      "summary": {
+        "simple": "Les objectifs de logements sociaux seraient fixés localement selon les besoins réels.",
+        "normal": "Réforme de la loi SRU par différenciation territoriale : quotas négociés par contrat entre intercommunalités et État sur la base des besoins réels, logements intermédiaires et résidences étudiantes intégrés au décompte, suppression de la reprise préfectorale du droit de préemption."
+      },
+      "sources": [
+        {
+          "page": 44,
+          "quote": "Réformer selon un principe de différenciation territoriale : quotas négociés par contrat EPCI-État sur la base des besoins réels. Intégrer logements intermédiaires et résidences étudiantes dans le décompte. Supprimer la reprise préfectorale du droit de préemption, qui dessaisit les maires sans produire un seul logement supplémentaire."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "fiscalite",
+      "title": "Supprimer l'IFI au profit d'une fiscalité foncière sur valeurs actualisées",
+      "summary": {
+        "simple": "L'impôt sur la fortune immobilière serait supprimé et remplacé par un impôt foncier.",
+        "normal": "Rétablir l'imposition de l'usufruitier sur la seule valeur de l'usufruit ; supprimer l'IFI et le remplacer par une fiscalité foncière assise sur des valeurs vénales actualisées."
+      },
+      "sources": [
+        {
+          "page": 44,
+          "quote": "Rétablir la règle initiale : l’usufruitier est imposé sur la valeur de l’usufruit, non de la pleine propriété. Dans la ligne de « Changer de logiciel fiscal », supprimer l’IFI et le remplacer par une fiscalité foncière assise sur des valeurs vénales actualisées."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "taxe_fonciere",
+          "section": "vie",
+          "appliesTo": {
+            "field": "patrimoine",
+            "op": "eq",
+            "value": "plus_1m"
+          },
+          "sentence": {
+            "simple": "L'IFI serait remplacé par une fiscalité foncière sur la valeur actuelle des biens.",
+            "normal": "L'impôt sur la fortune immobilière serait supprimé et remplacé par une fiscalité foncière assise sur des valeurs vénales actualisées."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Fin de l'interdiction de louer les passoires thermiques, remplacée par un bonus-malus",
+      "summary": {
+        "simple": "Les logements mal isolés pourraient de nouveau être loués, avec un bonus-malus pour inciter aux travaux.",
+        "normal": "Suppression de l'interdiction de location des passoires thermiques, remplacée par un bonus-malus incitatif ; réforme du DPE supprimant les indicateurs d'énergie primaire qui pénalisent le chauffage électrique dans un pays à plus de 90 % d'électricité décarbonée."
+      },
+      "sources": [
+        {
+          "page": 44,
+          "quote": "Supprimer l’interdiction de location des passoires thermiques et la remplacer par un bonus-malus incitatif. Réformer le DPE en supprimant les indicateurs d’énergie primaire qui pénalisent le chauffage électrique dans un pays à plus de 90 % d’électricité décarbonée."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "field": "logement",
+            "op": "in",
+            "value": [
+              "locataire_prive",
+              "proprio_credit",
+              "proprio_sans_credit"
+            ]
+          },
+          "sentence": {
+            "simple": "Les logements classés passoires thermiques pourraient de nouveau être loués, avec un bonus-malus.",
+            "normal": "L'interdiction de louer les passoires thermiques serait remplacée par un bonus-malus, et le DPE ne pénaliserait plus le chauffage électrique."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Encadrer l'avis des Architectes des bâtiments de France",
+      "summary": {
+        "simple": "Les ABF ne pourraient plus bloquer des travaux d'isolation, et leur silence vaudrait accord au bout de deux mois.",
+        "normal": "L'avis conforme des Architectes des bâtiments de France deviendrait un avis simple hors façade principale, toiture visible et éléments classés ; délai maximal de deux mois, au-delà duquel l'avis est réputé favorable ; interdiction de s'opposer à des travaux d'isolation lorsque des solutions adaptées au bâti ancien existent."
+      },
+      "sources": [
+        {
+          "page": 44,
+          "quote": "Transformer l’avis conforme en avis simple pour tout ce qui ne touche pas la façade principale, la toiture visible et les éléments classés. Délai maximal de deux mois, passé lequel l’avis est réputé favorable. Interdire à l’ABF de s’opposer à des travaux d’isolation lorsque des solutions adaptées au bâti ancien existent sur le marché."
+        },
+        {
+          "page": 47,
+          "quote": "Règle législative explicite : l’ABF ne peut s’opposer à des travaux d’isolation dès lors que des solutions adaptées au bâti ancien existent sur le marché. La conformité au DPE prime sur l’avis esthétique de l’ABF."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "field": "logement",
+            "op": "in",
+            "value": [
+              "proprio_credit",
+              "proprio_sans_credit"
+            ]
+          },
+          "sentence": {
+            "simple": "Les Architectes des bâtiments de France ne pourraient plus s'opposer à tes travaux d'isolation si une solution adaptée existe.",
+            "normal": "L'avis des Architectes des bâtiments de France deviendrait simple hors façade principale et éléments classés, avec un délai de deux mois au-delà duquel il est réputé favorable."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "environnement",
+      "title": "Réviser les plans de prévention des risques d'inondation",
+      "summary": {
+        "simple": "Des zones inondables mieux évaluées et révisées régulièrement.",
+        "normal": "Évaluation contradictoire des études hydrologiques servant de base aux PPRI, régimes de constructibilité distincts pour risque fort et risque modéré, révision automatique tous les dix ans."
+      },
+      "sources": [
+        {
+          "page": 44,
+          "quote": "Imposer l’évaluation contradictoire des études hydrologiques servant de base aux PPRI. Différencier risque fort et risque modéré avec des régimes de constructibilité distincts. Révision automatique tous les dix ans intégrant les données actualisées."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "logement",
+      "title": "Clarifier la loi Littoral et créer un rescrit urbanistique",
+      "summary": {
+        "simple": "Faciliter la densification des centres-villes du littoral.",
+        "normal": "Clarification par la loi de la notion d'« extension de l'urbanisation » pour exclure la densification en tissu urbain constitué, et création d'un rescrit urbanistique littoral donnant une position opposable en trois mois avant le dépôt du permis."
+      },
+      "sources": [
+        {
+          "page": 44,
+          "quote": "Clarifier par la loi la notion d’« extension de l’urbanisation » pour exclure les opérations de densification en tissu urbain constitué. Créer un rescrit urbanistique littoral : position opposable en trois mois avant dépôt du permis."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "fiscalite",
+      "title": "Exonérer de taxe sur les locaux vacants pendant les travaux",
+      "summary": {
+        "simple": "Pas de taxe sur les logements vacants pendant des travaux de rénovation.",
+        "normal": "Exonération automatique de plein droit de la taxe sur les locaux vacants pendant toute la durée des travaux faisant l'objet d'un permis ou d'une déclaration préalable."
+      },
+      "sources": [
+        {
+          "page": 45,
+          "quote": "Exonération automatique de plein droit pendant toute la durée des travaux faisant l’objet d’un permis ou d’une déclaration préalable déposé en mairie."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "taxe_fonciere",
+          "section": "vie",
+          "appliesTo": {
+            "field": "logement",
+            "op": "in",
+            "value": [
+              "proprio_credit",
+              "proprio_sans_credit"
+            ]
+          },
+          "sentence": {
+            "simple": "Un logement vacant en travaux ne serait pas taxé.",
+            "normal": "La taxe sur les locaux vacants ne s'appliquerait pas pendant des travaux déclarés en mairie."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "environnement",
+      "title": "Autoriser l'entretien des barrages de moulins et des seuils de rivière",
+      "summary": {
+        "simple": "Les riverains pourraient entretenir les barrages et vannes existants.",
+        "normal": "Révision de l'article L. 214-17 du Code de l'environnement : présomption d'utilité des ouvrages existants à rôle hydraulique avéré, et droit des riverains à entretenir seuils et vannes dans le cadre d'un plan pluriannuel, sans autorisation annuelle."
+      },
+      "sources": [
+        {
+          "page": 45,
+          "quote": "Réviser l’article L. 214-17 du Code de l’environnement : présomption d’utilité des ouvrages existants à rôle hydraulique avéré, à la place de la présomption d’obstacle. Rétablir le droit des riverains à entretenir seuils et vannes dans le cadre d’un plan pluriannuel approuvé par la DDT, sans autorisation annuelle."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Dérogation automatique aux cultures intermédiaires en cas de sécheresse",
+      "summary": {
+        "simple": "Plus d'obligation de semer en pleine sécheresse.",
+        "normal": "Activation automatique de la clause de force majeure pour toute exploitation en zone de restriction hydrique déclarée, sans démarche individuelle, et dérogation permanente négociée pour les zones de sécheresse structurelle."
+      },
+      "sources": [
+        {
+          "page": 45,
+          "quote": "Activer automatiquement la clause de force majeure pour toute exploitation en zone de restriction hydrique déclarée : la déclaration de zone en restriction vaut dérogation collective, sans démarche individuelle. Négocier une dérogation permanente pour les zones de sécheresse structurelle."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Suspendre les normes françaises de bien-être animal sans réciprocité européenne",
+      "summary": {
+        "simple": "Les règles françaises plus strictes qu'ailleurs en Europe seraient suspendues si l'Europe ne s'aligne pas.",
+        "normal": "Porter au niveau européen l'harmonisation obligatoire (taxe sur l'ovosexage) ; à défaut dans deux ans, suspendre l'obligation française ; principe appliqué à toutes les normes de bien-être animal propres à la France sans réciprocité aux frontières."
+      },
+      "sources": [
+        {
+          "page": 45,
+          "quote": "Porter l’harmonisation obligatoire au niveau européen. À défaut dans deux ans, suspendre l’obligation française. Appliquer ce principe à toutes les normes bien-être animal franco-françaises sans réciprocité aux frontières."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Aligner les zones de non-traitement sur 5 mètres et supprimer la séparation vente-conseil",
+      "summary": {
+        "simple": "Des distances d'épandage alignées sur les standards européens.",
+        "normal": "Alignement immédiat des zones de non-traitement sur les standards européens (5 mètres), suppression du Conseil stratégique phytosanitaire et de la séparation obligatoire entre vente et conseil."
+      },
+      "sources": [
+        {
+          "page": 45,
+          "quote": "Aligner sans délai les zones de non-traitement sur les standards européens (5 mètres). Supprimer le Conseil stratégique phytosanitaire et la séparation obligatoire vente-conseil."
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Retenues d'eau agricoles d'intérêt général majeur, procédure en douze mois maximum",
+      "summary": {
+        "simple": "Créer une retenue d'eau agricole serait beaucoup plus rapide.",
+        "normal": "Les retenues d'eau agricoles seraient déclarées d'intérêt général majeur : procédure accélérée (douze mois maximum), recours contentieux plafonné à dix-huit mois, études « quatre saisons » remplacées sous seuil par une étude simplifiée de trois mois."
+      },
+      "sources": [
+        {
+          "page": 45,
+          "quote": "Déclarer les retenues d’eau agricoles d’intérêt général majeur : procédure accélérée (douze mois maximum), recours contentieux plafonné à dix-huit mois. Supprimer les études « quatre saisons » sous seuil, remplacées par une étude simplifiée de trois mois."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "fiscalite",
+      "title": "Relever à 50 € le seuil de déclaration des petits intérêts",
+      "summary": {
+        "simple": "Plus besoin de déclarer de tout petits intérêts : la banque les transmettrait au fisc.",
+        "normal": "Relèvement du seuil de déclaration des revenus de capitaux mobiliers à 50 euros ; en deçà, transmission automatique à la DGFiP par les établissements financiers, sans obligation déclarative pour le contribuable."
+      },
+      "sources": [
+        {
+          "page": 45,
+          "quote": "Relever le seuil à 50 euros. En deçà, transmission automatique à la DGFiP par les établissements financiers, sans obligation déclarative pour le contribuable."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "impot_revenu",
+          "section": "vie",
+          "sentence": {
+            "simple": "Tu n'aurais plus à déclarer les intérêts de moins de 50 €.",
+            "normal": "En dessous de 50 euros d'intérêts, la banque transmettrait directement l'information au fisc, sans déclaration de ta part."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "securite",
+      "title": "Répartir par la loi les urgences entre SDIS et SAMU",
+      "summary": {
+        "simple": "Une règle claire pour savoir qui des pompiers ou du SAMU intervient.",
+        "normal": "Clarification par la loi de la répartition SDIS/SAMU sur un critère unique : le type d'urgence désigne immédiatement l'opérateur compétent."
+      },
+      "sources": [
+        {
+          "page": 46,
+          "quote": "Clarifier par la loi la répartition SDIS/SAMU sur un critère unique : le type d’urgence désigne immédiatement l’opérateur compétent."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "sante",
+      "title": "Limiter les exigences du COFRAC pour les laboratoires à la norme européenne",
+      "summary": {
+        "simple": "Des règles d'accréditation des laboratoires limitées au standard européen.",
+        "normal": "Non-surtransposition appliquée au COFRAC (exigences limitées à la norme ISO 15189), audit comparatif public dans les six mois, délais d'instruction plafonnés à douze mois (initiale) et six mois (renouvellement)."
+      },
+      "sources": [
+        {
+          "page": 46,
+          "quote": "Appliquer le principe de non-surtransposition au COFRAC : ses exigences ne peuvent excéder la norme ISO 15189 adoptée par le CEN, avec audit comparatif public dans les six mois. Plafonner les délais d’instruction à douze mois (initiale) et six mois (renouvellement)."
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "securite",
+      "title": "Vigipirate ne pourrait plus interdire l'accès des parents accompagnant leurs enfants",
+      "summary": {
+        "simple": "Les parents pourraient accompagner leurs enfants dans les équipements publics malgré Vigipirate.",
+        "normal": "Circulaire du Premier ministre précisant que Vigipirate ne peut interdire l'accès des parents accompagnant leurs enfants mineurs ; rescrit préfectoral obligeant une collectivité plus restrictive que la doctrine nationale à justifier sa base légale en dix jours."
+      },
+      "sources": [
+        {
+          "page": 46,
+          "quote": "Circulaire du Premier ministre précisant que Vigipirate ne peut interdire l’accès des parents pour l’accompagnement de leurs enfants mineurs. Créer un rescrit préfectoral : toute collectivité appliquant une interprétation excédant la doctrine nationale justifie dans dix jours la base légale de sa restriction."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "nbEnfants",
+            "op": "gte",
+            "value": 1
+          },
+          "sentence": {
+            "simple": "Tu pourrais accompagner tes enfants dans les équipements publics malgré Vigipirate.",
+            "normal": "Vigipirate ne pourrait plus interdire l'accès des parents accompagnant leurs enfants mineurs."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Architecte obligatoire seulement au-delà de 250 m² pour une maison",
+      "summary": {
+        "simple": "Plus besoin d'architecte pour agrandir une maison de moins de 250 m².",
+        "normal": "Seuil de recours obligatoire à un architecte relevé à 250 m² pour les maisons individuelles, avec un régime intermédiaire (déclaration de conformité par un maître d'œuvre agréé) pour les extensions de moins de 40 m²."
+      },
+      "sources": [
+        {
+          "page": 47,
+          "quote": "Relever le seuil à 250 m² pour les maisons individuelles. Régime intermédiaire — déclaration de conformité par un maître d’œuvre agréé — pour les extensions de moins de 40 m², quel que soit le gabarit total."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "field": "logement",
+            "op": "in",
+            "value": [
+              "proprio_credit",
+              "proprio_sans_credit"
+            ]
+          },
+          "sentence": {
+            "simple": "Pour agrandir ta maison, l'architecte ne serait obligatoire qu'au-delà de 250 m².",
+            "normal": "Le seuil de recours obligatoire à un architecte passerait à 250 m² pour une maison, avec un régime simplifié pour les extensions de moins de 40 m²."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Limiter le bornage obligatoire aux abords du projet",
+      "summary": {
+        "simple": "Plus besoin de borner tout un grand terrain pour une petite construction.",
+        "normal": "Obligation de bornage limitée aux seules parties du périmètre situées à moins de 10 mètres du projet de construction, sauf contestation par un voisin."
+      },
+      "sources": [
+        {
+          "page": 47,
+          "quote": "Limiter l’obligation de bornage aux seules parties du périmètre situées à moins de 10 mètres du projet de construction, sauf contestation de limite par un voisin."
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "logement",
+      "title": "Liste limitative des travaux soumis à réception par un bureau de contrôle",
+      "summary": {
+        "simple": "Remplacer un capteur d'alarme à l'identique ne demanderait plus de contrôle coûteux.",
+        "normal": "Liste limitative, fixée par arrêté, des interventions soumises à réception obligatoire ; le remplacement à l'identique de capteurs relèverait d'une simple déclaration de l'entreprise certifiée."
+      },
+      "sources": [
+        {
+          "page": 47,
+          "quote": "Définir par arrêté une liste limitative des interventions soumises à réception obligatoire. Le remplacement de capteurs à l’identique sans modification de l’architecture relève d’une simple déclaration de l’entreprise certifiée."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "decret"
+    },
+    {
+      "theme": "institutions",
+      "title": "Rescrit de cohérence et test de compatibilité des nouvelles normes",
+      "summary": {
+        "simple": "Face à deux règles contradictoires, un arbitre unique tranche ; les nouvelles règles seraient testées avant adoption.",
+        "normal": "Rescrit de cohérence : un usager face à deux règles contradictoires saisit un arbitre unique dont la décision s'impose à tous les services ; le préfet a trois mois pour arbitrer, son silence valant accord ; test « terrain » et de compatibilité de toute nouvelle norme ; veto d'une autorité indépendante sur les textes créant des contradictions ; rapport public annuel avec réponse législative dans les douze mois."
+      },
+      "sources": [
+        {
+          "page": 52,
+          "quote": "Le «Rescrit de cohérence» : Permettre à un usager face à deux règles contradictoires de saisir un arbitre unique dont la décision s’imposera à tous les services."
+        },
+        {
+          "page": 52,
+          "quote": "Le préfet dispose de trois mois pour arbitrer ; son silence vaut accord favorable à l’usager, sauf matières touchant à la sécurité des personnes."
+        },
+        {
+          "page": 52,
+          "quote": "Test PME/Réalité : Soumettre toute nouvelle norme à un test «terrain» pour vérifier qu’elle n’entre pas en conflit avec les réglementations existantes."
+        },
+        {
+          "page": 52,
+          "quote": "Veto d’une autorité indépendante sur les textes créant des contradictions nouvelles avant promulgation."
+        },
+        {
+          "page": 52,
+          "quote": "Rapport public annuel des contradictions identifiées, avec obligation de réponse législative dans les douze mois."
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "institutions",
+      "title": "Droit à l'erreur effectif : avertissement avant toute sanction",
+      "summary": {
+        "simple": "Une première erreur de bonne foi ne serait pas sanctionnée.",
+        "normal": "Droit à l'erreur opposable : aucune pénalité financière au premier manquement de bonne foi, agents de contrôle transformés en conseillers avec régularisation sans frais, charge de la preuve de la fraude à l'administration, pas d'huissier pour un retard de moins de 500 euros sans mise en demeure de trente jours, contentieux d'urbanisme plafonnés à deux ans."
+      },
+      "sources": [
+        {
+          "page": 54,
+          "quote": "Avertissement avant sanction : Interdire toute pénalité financière au premier manquement de bonne foi."
+        },
+        {
+          "page": 54,
+          "quote": "Le conseiller plutôt que le contrôleur : Transformer les agents de contrôle en conseillers de conformité, avec une phase de régularisation sans frais."
+        },
+        {
+          "page": 54,
+          "quote": "Charge de la preuve de l’intention frauduleuse appartenant à l’administration, non à l’usager."
+        },
+        {
+          "page": 54,
+          "quote": "Aucune procédure d’huissier pour un retard inférieur à 500 euros sans mise en demeure restée sans réponse pendant trente jours."
+        },
+        {
+          "page": 54,
+          "quote": "Plafonnement des contentieux d’urbanisme à deux ans entre dépôt du recours et décision définitive."
+        },
+        {
+          "page": 47,
+          "quote": "Droit à l’erreur opposable : premier manquement non intentionnel = mise en conformité sans sanction."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "logement",
+      "title": "Modification mineure d'un permis réputée conforme",
+      "summary": {
+        "simple": "Un petit changement sur un permis de construire ne bloquerait plus le projet.",
+        "normal": "Procédure de déclaration de modification mineure : toute modification n'affectant aucune règle d'urbanisme serait déclarée dans les trois mois et réputée conforme sauf opposition motivée en trente jours."
+      },
+      "sources": [
+        {
+          "page": 47,
+          "quote": "Procédure de déclaration de modification mineure : toute modification n’affectant aucune règle d’urbanisme est déclarée dans les trois mois et réputée conforme sauf opposition motivée en trente jours."
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "numerique",
+      "title": "Interdire le rejet d'un dossier pour une simple erreur de format",
+      "summary": {
+        "simple": "Un dossier ne pourrait plus être refusé pour une question de format si l'information est juste.",
+        "normal": "Conversion automatique des unités dans tous les formulaires numériques ; interdiction de rejeter un dossier pour un motif de format si la donnée est correcte, avec dix jours de correction sans suspension du délai d'instruction."
+      },
+      "sources": [
+        {
+          "page": 47,
+          "quote": "Généraliser dans tous les formulaires numériques un mécanisme de conversion automatique des unités. Interdire le rejet d’un dossier pour motif de format si la donnée technique est correcte : l’administration signale et accorde dix jours de correction sans suspension du délai d’instruction."
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "environnement",
+      "title": "Assainissement non collectif : règles fondées sur le risque réel",
+      "summary": {
+        "simple": "Des règles d'assainissement adaptées au risque réel des installations.",
+        "normal": "Réforme des prescriptions du SPANC fondées sur le risque réel ; les micro-stations agréées certifiées sans production de méthane seraient exemptées de l'obligation de ventilation passive."
+      },
+      "sources": [
+        {
+          "page": 48,
+          "quote": "Réformer les prescriptions du SPANC en les fondant sur le risque réel du dispositif. Les micro-stations agréées avec certification de non-production de méthane sont exemptées de l’obligation de ventilation passive."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "travail",
+      "title": "Supprimer la visite médicale d'embauche pour les contrats de moins de trois mois sans risque",
+      "summary": {
+        "simple": "Plus de visite médicale obligatoire pour un contrat court sur un poste sans risque.",
+        "normal": "Suppression de la visite médicale d'embauche pour les contrats de moins de trois mois sur des postes sans risque particulier, avec un suivi médical adapté aux risques réels du poste."
+      },
+      "sources": [
+        {
+          "page": 48,
+          "quote": "Supprimer la visite médicale d’embauche pour les contrats de moins de trois mois sur des postes sans risque particulier. Adapter le suivi médical aux risques réels du poste."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "retraite",
+      "title": "Supprimer le certificat annuel de non-remariage pour la pension de réversion",
+      "summary": {
+        "simple": "Plus besoin de prouver chaque année qu'on ne s'est pas remarié pour toucher sa pension de réversion.",
+        "normal": "Suppression de l'obligation de certificat annuel de non-remariage : l'état civil signalerait automatiquement tout remariage à la caisse de retraite."
+      },
+      "sources": [
+        {
+          "page": 48,
+          "quote": "Supprimer l’obligation de certificat annuel : le registre d’état civil signale automatiquement tout remariage à la caisse de retraite. La charge de la preuve se renverse."
+        }
+      ],
+      "precision": "precise",
+      "effects": [
+        {
+          "ticketLine": "pension",
+          "section": "vie",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "eq",
+            "value": "retraite"
+          },
+          "sentence": {
+            "simple": "Tu n'aurais plus à fournir de certificat de non-remariage pour ta pension de réversion.",
+            "normal": "Le certificat annuel de non-remariage serait supprimé : l'état civil préviendrait directement la caisse de retraite."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "institutions",
+      "title": "La carte d'identité ou le passeport suffiraient à prouver la nationalité",
+      "summary": {
+        "simple": "Plus d'attestation de nationalité à fournir quand on a une carte d'identité ou un passeport valide.",
+        "normal": "Suppression de l'exigence d'attestation de nationalité pour toute démarche d'un usager titulaire d'une carte nationale d'identité ou d'un passeport en cours de validité."
+      },
+      "sources": [
+        {
+          "page": 48,
+          "quote": "Supprimer l’exigence d’attestation de nationalité pour toute démarche présentée par un usager titulaire d’une carte nationale d’identité ou d’un passeport en cours de validité. Ces documents font preuve de nationalité."
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "sante",
+      "title": "Créer un statut de « cabinet de télémédecine »",
+      "summary": {
+        "simple": "Les médecins qui consultent uniquement à distance n'auraient plus besoin de salle d'attente.",
+        "normal": "Création par décret d'un statut de « cabinet de télémédecine » exemptant les médecins en téléconsultation exclusive des obligations de salle d'attente et d'accessibilité de locaux non destinés au public."
+      },
+      "sources": [
+        {
+          "page": 48,
+          "quote": "Créer par décret simple un statut de « cabinet de télémédecine » exemptant les médecins en téléconsultation exclusive des obligations de salle d’attente et des normes d’accessibilité de locaux non destinés à accueillir du public."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "decret"
+    },
+    {
+      "theme": "sante",
+      "title": "Supprimer le certificat médical pour les activités sportives de loisir",
+      "summary": {
+        "simple": "Plus de certificat médical pour un sport de loisir sans risque particulier.",
+        "normal": "Suppression de l'obligation de certificat médical pour les activités de loisir sans risque particulier, maintenue pour les sports à contrainte physiologique élevée et les personnes déclarant une pathologie chronique."
+      },
+      "sources": [
+        {
+          "page": 49,
+          "quote": "Supprimer l’obligation pour les activités de loisir sans risque particulier. Le maintenir uniquement pour les sports à contrainte physiologique élevée et les personnes déclarant une pathologie chronique."
+        }
+      ],
+      "precision": "precise",
+      "effects": [
+        {
+          "ticketLine": "sante",
+          "section": "vie",
+          "sentence": {
+            "simple": "Plus de certificat médical pour un sport de loisir sans risque.",
+            "normal": "Le certificat médical ne serait plus exigé pour les activités sportives de loisir sans risque particulier."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "numerique",
+      "title": "« Dites-le nous une fois » obligatoire et dossier numérique unique",
+      "summary": {
+        "simple": "Un document donné à une administration ne serait plus jamais redemandé par une autre.",
+        "normal": "Obligation légale opposable du « Dites-le nous une fois » : tout document détenu par une administration est accessible aux autres (mairies, préfectures, écoles, MDPH) ; coffre-fort numérique unique ; fin des exemplaires papier multiples ; un seul signalement (décès, déménagement, mariage) met à jour tous les fichiers en 48 heures."
+      },
+      "sources": [
+        {
+          "page": 49,
+          "quote": "Obligation légale de « Dites-le nous une fois » : tout document détenu par une administration est accessible aux autres. Dossier numérique unique. Suppression des exigences d’exemplaires papier multiples."
+        },
+        {
+          "page": 51,
+          "quote": "Partage des données : Obliger les administrations (mairies, préfectures, écoles, MDPH) à communiquer entre elles pour qu’un document fourni à l’une soit accessible aux autres."
+        },
+        {
+          "page": 51,
+          "quote": "Rendre l’obligation juridiquement opposable par loi d’application universelle, au-delà du principe déclaratif."
+        },
+        {
+          "page": 51,
+          "quote": "Un seul signalement (décès, changement d’adresse, mariage) met à jour l’ensemble des fichiers dans les 48 heures."
+        },
+        {
+          "page": 45,
+          "quote": "Appliquer le « Dites-le nous une fois » au monde agricole : toute donnée transmise à un organisme est accessible aux autres."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "prestations",
+      "title": "Droit acquis permanent pour les handicaps reconnus définitivement",
+      "summary": {
+        "simple": "Plus de dossier à refaire quand un handicap est reconnu à vie.",
+        "normal": "Droit acquis permanent pour les situations de handicap définitivement reconnues : aucun renouvellement de dossier si la situation médicale n'a pas évolué, même si les formulaires changent."
+      },
+      "sources": [
+        {
+          "page": 51,
+          "quote": "Droit acquis permanent pour les situations de handicap définitivement reconnues : aucun renouvellement de dossier si la situation médicale n’a pas évolué, même si les formulaires changent."
+        }
+      ],
+      "precision": "precise",
+      "effects": [
+        {
+          "ticketLine": "sante",
+          "section": "vie",
+          "appliesTo": {
+            "field": "handicapOuAidant",
+            "op": "in",
+            "value": [
+              "moi",
+              "proche"
+            ]
+          },
+          "sentence": {
+            "simple": "Un handicap reconnu à vie ne demanderait plus de renouveler le dossier.",
+            "normal": "Pour un handicap définitivement reconnu, aucun renouvellement de dossier ne serait exigé tant que la situation médicale n'évolue pas."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "institutions",
+      "title": "Silence de l'administration valant accord pour la quasi-totalité des actes",
+      "summary": {
+        "simple": "Sans réponse de l'administration, une demande serait acceptée.",
+        "normal": "Extension du « silence vaut accord » à la quasi-totalité des actes, avec suppression des 1 600 exceptions actuelles ; intérêts moratoires automatiques en cas de retard de remboursement ; pièces manquantes à notifier sous quinze jours, sinon dossier réputé complet ; tri des dossiers urgents par IA."
+      },
+      "sources": [
+        {
+          "page": 53,
+          "quote": "Extension du SVA : Faire du silence de l’administration une approbation automatique pour la quasi-totalité des actes."
+        },
+        {
+          "page": 53,
+          "quote": "Suppression des 1 600 exceptions actuelles au SVA issues d’une quarantaine de décrets sectoriels."
+        },
+        {
+          "page": 53,
+          "quote": "Délais de remboursement stricts : Imposer le paiement d’intérêts moratoires automatiques par l’État à l’usager en cas de retard de remboursement."
+        },
+        {
+          "page": 53,
+          "quote": "Délai de quinze jours pour notifier les pièces manquantes : passé ce délai, le dossier est réputé complet et aucune demande ultérieure ne peut plus suspendre ni interrompre le délai d’instruction."
+        },
+        {
+          "page": 53,
+          "quote": "Guichet de secours IA : Utiliser l’intelligence artificielle pour trier les dossiers urgents et alerter dès qu’un délai critique est dépassé."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "institutions",
+      "title": "Indemnisation automatique des usagers victimes d'une erreur administrative",
+      "summary": {
+        "simple": "L'administration rembourserait les frais causés par ses erreurs.",
+        "normal": "Procédure simple de dédommagement des frais engagés par l'usager suite à une erreur administrative, droit de suspendre une saisie dès la preuve d'un paiement ou d'une erreur, procédure instruite par le médiateur de la République en trois mois."
+      },
+      "sources": [
+        {
+          "page": 55,
+          "quote": "Indemnisation automatique : Créer une procédure simple de dédommagement pour les frais engagés par l’usager suite à une erreur administrative (frais d’avocat, agios bancaires, perte d’emploi)."
+        },
+        {
+          "page": 55,
+          "quote": "Droit de rectification immédiat : Permettre à l’usager de suspendre une saisie ou une procédure dès qu’il apporte la preuve d’un paiement ou d’une erreur logicielle."
+        },
+        {
+          "page": 55,
+          "quote": "Procédure instruite par le médiateur de la République en trois mois, sans contentieux administratif préalable."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "prestations",
+      "title": "Verser automatiquement les prestations dont l'éligibilité est connue",
+      "summary": {
+        "simple": "Les aides auxquelles tu as droit te seraient versées sans avoir à les demander.",
+        "normal": "Administration proactive : versement automatique de toute prestation dont l'éligibilité est vérifiable sur les données fiscales et sociales existantes, sans demande annuelle (le non-recours représente 30 à 50 % des prestations dues)."
+      },
+      "sources": [
+        {
+          "page": 56,
+          "quote": "Verser automatiquement toute prestation dont les conditions d’éligibilité sont vérifiables sur données fiscales et sociales existantes, sans demande annuelle : le non-recours représente 30 à 50 % des prestations auxquelles les ménages éligibles pourraient prétendre."
+        },
+        {
+          "page": 49,
+          "quote": "Administration proactive : versement automatique des prestations vérifiables sur données fiscales et sociales existantes."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "prime_activite",
+          "section": "vie",
+          "sentence": {
+            "simple": "Les aides auxquelles tu as droit seraient versées automatiquement.",
+            "normal": "Toute prestation dont l'éligibilité est vérifiable sur tes données fiscales et sociales serait versée sans demande."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "prestations",
+      "title": "Fin de la présence physique obligatoire pour les personnes lourdement handicapées",
+      "summary": {
+        "simple": "Le service viendrait à domicile pour les personnes lourdement handicapées.",
+        "normal": "Suppression de l'obligation de présence physique en mairie pour les personnes lourdement handicapées : le service se déplace ou la démarche est entièrement dématérialisée."
+      },
+      "sources": [
+        {
+          "page": 56,
+          "quote": "Supprimer l’obligation de présence physique en mairie pour les personnes lourdement handicapées : le service se déplace ou la démarche est entièrement dématérialisée."
+        }
+      ],
+      "precision": "precise",
+      "effects": [
+        {
+          "ticketLine": "sante",
+          "section": "vie",
+          "appliesTo": {
+            "field": "handicapOuAidant",
+            "op": "in",
+            "value": [
+              "moi",
+              "proche"
+            ]
+          },
+          "sentence": {
+            "simple": "Pour une personne lourdement handicapée, les démarches se feraient à domicile ou en ligne.",
+            "normal": "La présence physique en mairie ne serait plus exigée des personnes lourdement handicapées : le service se déplacerait ou la démarche serait dématérialisée."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "institutions",
+      "title": "Un médiateur de la simplification pour débloquer les dossiers anciens",
+      "summary": {
+        "simple": "Un médiateur pourrait débloquer les dossiers coincés depuis des années.",
+        "normal": "Médiateur de la simplification doté d'un pouvoir de validation administrative exceptionnelle pour les dossiers bloqués depuis plus de cinq ans."
+      },
+      "sources": [
+        {
+          "page": 56,
+          "quote": "Doter le médiateur de la simplification d’un pouvoir de validation administrative exceptionnelle pour les dossiers bloqués depuis plus de cinq ans, fondée sur le bon sens et la réalité de la situation."
+        }
+      ],
+      "precision": "precise"
+    }
+  ]
+}

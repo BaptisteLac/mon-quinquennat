@@ -29,7 +29,7 @@
       "title": "Assouplir puis supprimer la carte scolaire",
       "summary": {
         "simple": "Les familles pourraient choisir l'école de leurs enfants.",
-        "normal": "La carte scolaire serait assouplie progressivement puis supprimée, avec plus d'autonomie des programmes et des pédagogies, pour que les familles choisissent l'établissement sur la base de critères et d'indicateurs transparents."
+        "normal": "La carte scolaire serait assouplie puis supprimée sur trois ans, avec plus d'autonomie des programmes et des pédagogies, pour que les familles choisissent l'établissement sur la base de critères et d'indicateurs transparents."
       },
       "sources": [
         {
@@ -43,6 +43,10 @@
         {
           "page": 9,
           "quote": "Il faut abroger la carte scolaire qui enferme les familles dans leur quartier"
+        },
+        {
+          "page": 46,
+          "quote": "Supprimer la carte scolaire sur trois ans."
         }
       ],
       "precision": "partielle",
@@ -131,6 +135,10 @@
         {
           "page": 9,
           "quote": "Nous proposons un droit réel au libre choix de l’école, garanti par la transparence des résultats et l’instauration progressive d’un chèque-éducation : un financement public équivalent, que la famille choisisse l’enseignement public ou privé."
+        },
+        {
+          "page": 46,
+          "quote": "Allocation scolaire mobilisable auprès de l’établissement de son choix, public ou privé sous contrat : le financement public suit l’élève, non l’établissement."
         }
       ],
       "precision": "partielle",
@@ -211,6 +219,10 @@
         {
           "page": 7,
           "quote": "qui remplaceront départements et régions actuels"
+        },
+        {
+          "page": 61,
+          "quote": "nous organiserons un référendum sur l’organisation des pouvoirs publics et la création des Provinces. Celles-ci résulteront la fusion des régions et des départements en une cinquantaine d’entités avec un vrai pouvoir normatif local, une véritable autonomie fiscale, des compétences exclusives et non plus des compétences partagées"
         }
       ],
       "precision": "partielle",
@@ -261,6 +273,10 @@
         {
           "page": 7,
           "quote": "Le principe de base de la nouvelle décentralisation serait de transférer aux collectivités territoriales, outre l’essentiel des compétences aujourd’hui exercées par l’Etat (dont les effectifs seront ainsi diminués par la suppression des services correspondant dont les DREAL, ARS, DIREN, etc, ces tâches étant transférées aux provinces) en dehors de son périmètre régalien et de garant des libertés publiques, un pouvoir normatif (décrets et arrêtés d’application des lois votées par le Parlement)."
+        },
+        {
+          "page": 40,
+          "quote": "Cela suppose enfin de transférer un vrai pouvoir normatif aux collectivités – les normes nationales moins nombreuses, seront alors concentrées sur les grands principes et d’ordre public"
         }
       ],
       "precision": "partielle",

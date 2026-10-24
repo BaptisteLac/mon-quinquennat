@@ -6,19 +6,19 @@
 | Statut | Mesures | Part |
 |---|---|---|
 | Auto-validées | 0 | 0.0 % |
-| En attente | 149 | 100.0 % |
+| En attente | 209 | 100.0 % |
 | Rejetées (format ou citation) | 0 | 0.0 % |
-| **Total** | **149** | |
+| **Total** | **209** | |
 
-Répartition des scores : 0.75 → 149
+Répartition des scores : 0.75 → 209
 
-Par thème : sante 36, immigration 18, institutions 16, agriculture 16, education 16, securite 7, justice 7, entreprise 5, finances_publiques 4, international 4, travail 4, retraite 4, environnement 4, numerique 2, energie 2, transport 1, logement 1, famille 1, prestations 1
+Par thème : sante 40, institutions 34, agriculture 20, immigration 18, education 16, entreprise 11, logement 10, securite 9, travail 7, justice 7, environnement 7, finances_publiques 5, numerique 5, retraite 5, international 4, prestations 4, fiscalite 3, energie 2, transport 1, famille 1
 
 ## Rejetées (0)
 
 Aucune.
 
-## En attente (149)
+## En attente (209)
 
 - `28da48ebd139` Règle d'or de limitation des déficits publics, hors investissement (notre-programme-etre-maitre-de-notre-destin p. 1) — relecture_sens — relecture du sens non faite
 - `6c2fcec877f6` Rééquilibrer le budget de l'État vers les fonctions régaliennes (notre-programme-etre-maitre-de-notre-destin p. 1) — relecture_sens — relecture du sens non faite
@@ -169,3 +169,63 @@ Aucune.
 - `cf1da76c5832` Programmation pluriannuelle de la recherche en santé (media-legacy-2026-05-livret-sante-nouvelle-energie p. 10) — relecture_sens — relecture du sens non faite
 - `59b7e427466a` Relocaliser la production de médicaments et dispositifs médicaux critiques (media-legacy-2026-05-livret-sante-nouvelle-energie p. 10) — relecture_sens — relecture du sens non faite
 - `7803ceb440d7` Hébergement souverain des données de santé (media-legacy-2026-05-livret-sante-nouvelle-energie p. 10) — relecture_sens — relecture du sens non faite
+- `3869c9d3f20e` Évaluation d'impact préalable contraignante pour toute nouvelle règle (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 3) — relecture_sens — relecture du sens non faite
+- `33e3e65f6a6e` Une norme créée, deux normes de même rang supprimées (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 3) — relecture_sens — relecture du sens non faite
+- `904050b3fe95` Supprimer la moitié des 1 200 agences et opérateurs de l'État (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 24) — relecture_sens — relecture du sens non faite
+- `a353f046b4d7` Le préfet interlocuteur unique, qui contrôle a posteriori au lieu d'autoriser (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 3) — relecture_sens — relecture du sens non faite
+- `2f00936950da` Interdire la surtransposition des directives européennes (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 3) — relecture_sens — relecture du sens non faite
+- `5e43f46ed237` Supprimer l'INSP et diversifier l'accès à la haute fonction publique (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 24) — relecture_sens — relecture du sens non faite
+- `e2c1d1e3f631` Évaluer les agents publics sur leurs résultats et créer une DRH de l'État (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 3) — relecture_sens — relecture du sens non faite
+- `0b18620dd60c` L'intelligence artificielle au service de l'usager face à la complexité du droit (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 3) — relecture_sens — relecture du sens non faite
+- `389321bee121` Réécrire le droit domaine par domaine : « tout ce qui n'est pas interdit est permis » (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 22) — relecture_sens — relecture du sens non faite
+- `0f32f125bea9` Un responsable de la performance publique rattaché au Premier ministre (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 23) — relecture_sens — relecture du sens non faite
+- `55ecac48c641` Un gouvernement de douze ministres et un moratoire réglementaire dès le premier jour (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 23) — relecture_sens — relecture du sens non faite
+- `b6ef9b7c8e21` Transformer l'État par ordonnances dans les trente premiers jours (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 23) — relecture_sens — relecture du sens non faite
+- `d7a3488389bb` Droit de contester une norme inutile, la charge de la preuve à l'administration (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 24) — relecture_sens — relecture du sens non faite
+- `e3cf25e31e65` Évaluer l'impact de chaque nouvelle norme sur la croissance (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 24) — relecture_sens — relecture du sens non faite
+- `cf01ceabbc9e` Revue de chaque programme et agence de l'État sur le modèle canadien (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 24) — relecture_sens — relecture du sens non faite
+- `808f0eb4b2f4` Accords d'entreprise libres de déroger à la durée légale du travail (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 6) — relecture_sens — relecture du sens non faite
+- `7fba4bd1732b` Abroger l'information préalable des salariés avant cession (loi Hamon) (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 6) — relecture_sens — relecture du sens non faite
+- `0a70e99c9768` Alléger Qualiopi pour les petits organismes de formation (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 6) — relecture_sens — relecture du sens non faite
+- `ee02f0c1916e` Exonérer les PME de moins de 50 salariés du reporting CSRD (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 6) — relecture_sens — relecture du sens non faite
+- `31d8b2e26cbb` Alléger l'homologation des dispositifs médicaux à faible risque (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 6) — relecture_sens — relecture du sens non faite
+- `54d802fab506` Allonger à dix ans la validité du CACES pour les conducteurs sans incident (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 6) — relecture_sens — relecture du sens non faite
+- `0df7afdc0e86` Alléger les obligations anti-blanchiment des petites structures (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 6) — relecture_sens — relecture du sens non faite
+- `5f7520dcaf89` Décentraliser le ZAN et construire sur les zones commerciales déjà artificialisées (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 7) — relecture_sens — relecture du sens non faite
+- `78f9ca2e5930` Exonérer de CFE et de cotisations toute entreprise nouvelle pendant douze mois (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 7) — relecture_sens — relecture du sens non faite
+- `52b8a159db8f` Quotas de logements sociaux négociés entre intercommunalités et État (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 7) — relecture_sens — relecture du sens non faite
+- `ba72de6449ae` Supprimer l'IFI au profit d'une fiscalité foncière sur valeurs actualisées (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 7) — relecture_sens — relecture du sens non faite
+- `d1c27ce1cc33` Fin de l'interdiction de louer les passoires thermiques, remplacée par un bonus-malus (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 7) — relecture_sens — relecture du sens non faite
+- `880bdbe625de` Encadrer l'avis des Architectes des bâtiments de France (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 7) — relecture_sens — relecture du sens non faite
+- `d031d33bbb43` Réviser les plans de prévention des risques d'inondation (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 7) — relecture_sens — relecture du sens non faite
+- `01e814d3e44c` Clarifier la loi Littoral et créer un rescrit urbanistique (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 7) — relecture_sens — relecture du sens non faite
+- `0c4872c1cfc8` Exonérer de taxe sur les locaux vacants pendant les travaux (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 8) — relecture_sens — relecture du sens non faite
+- `edd1afcc1104` Autoriser l'entretien des barrages de moulins et des seuils de rivière (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 8) — relecture_sens — relecture du sens non faite
+- `c45099ae75ee` Dérogation automatique aux cultures intermédiaires en cas de sécheresse (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 8) — relecture_sens — relecture du sens non faite
+- `e273681b720e` Suspendre les normes françaises de bien-être animal sans réciprocité européenne (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 8) — relecture_sens — relecture du sens non faite
+- `4b090acd3d52` Aligner les zones de non-traitement sur 5 mètres et supprimer la séparation vente-conseil (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 8) — relecture_sens — relecture du sens non faite
+- `b38b4c79d9d7` Retenues d'eau agricoles d'intérêt général majeur, procédure en douze mois maximum (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 8) — relecture_sens — relecture du sens non faite
+- `752823d0d396` Relever à 50 € le seuil de déclaration des petits intérêts (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 8) — relecture_sens — relecture du sens non faite
+- `411896be731a` Répartir par la loi les urgences entre SDIS et SAMU (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 9) — relecture_sens — relecture du sens non faite
+- `d8a32a7a88af` Limiter les exigences du COFRAC pour les laboratoires à la norme européenne (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 9) — relecture_sens — relecture du sens non faite
+- `cb0108bbcbfd` Vigipirate ne pourrait plus interdire l'accès des parents accompagnant leurs enfants (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 9) — relecture_sens — relecture du sens non faite
+- `49ffaf30d56f` Architecte obligatoire seulement au-delà de 250 m² pour une maison (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 10) — relecture_sens — relecture du sens non faite
+- `e84b56e7bbb6` Limiter le bornage obligatoire aux abords du projet (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 10) — relecture_sens — relecture du sens non faite
+- `57b665bbf92c` Liste limitative des travaux soumis à réception par un bureau de contrôle (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 10) — relecture_sens — relecture du sens non faite
+- `1f5156307546` Rescrit de cohérence et test de compatibilité des nouvelles normes (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 15) — relecture_sens — relecture du sens non faite
+- `06d65b602fe8` Droit à l'erreur effectif : avertissement avant toute sanction (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 17) — relecture_sens — relecture du sens non faite
+- `8d80273b1c19` Modification mineure d'un permis réputée conforme (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 10) — relecture_sens — relecture du sens non faite
+- `9219efcc8762` Interdire le rejet d'un dossier pour une simple erreur de format (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 10) — relecture_sens — relecture du sens non faite
+- `97f71ac4a0b9` Assainissement non collectif : règles fondées sur le risque réel (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 11) — relecture_sens — relecture du sens non faite
+- `c5dc3c4630ec` Supprimer la visite médicale d'embauche pour les contrats de moins de trois mois sans risque (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 11) — relecture_sens — relecture du sens non faite
+- `676c179e9899` Supprimer le certificat annuel de non-remariage pour la pension de réversion (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 11) — relecture_sens — relecture du sens non faite
+- `ec474b66ccbc` La carte d'identité ou le passeport suffiraient à prouver la nationalité (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 11) — relecture_sens — relecture du sens non faite
+- `bb20349b79d8` Créer un statut de « cabinet de télémédecine » (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 11) — relecture_sens — relecture du sens non faite
+- `332fbeb505c8` Supprimer le certificat médical pour les activités sportives de loisir (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 12) — relecture_sens — relecture du sens non faite
+- `9f008a134241` « Dites-le nous une fois » obligatoire et dossier numérique unique (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 12) — relecture_sens — relecture du sens non faite
+- `97cfa5983a28` Droit acquis permanent pour les handicaps reconnus définitivement (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 14) — relecture_sens — relecture du sens non faite
+- `4e4ad4010dda` Silence de l'administration valant accord pour la quasi-totalité des actes (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 16) — relecture_sens — relecture du sens non faite
+- `67bf8fd7e2dc` Indemnisation automatique des usagers victimes d'une erreur administrative (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 18) — relecture_sens — relecture du sens non faite
+- `0a5f69b923c0` Verser automatiquement les prestations dont l'éligibilité est connue (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 19) — relecture_sens — relecture du sens non faite
+- `6077776578ac` Fin de la présence physique obligatoire pour les personnes lourdement handicapées (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 19) — relecture_sens — relecture du sens non faite
+- `70e3618e2e9c` Un médiateur de la simplification pour débloquer les dossiers anciens (file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 19) — relecture_sens — relecture du sens non faite
