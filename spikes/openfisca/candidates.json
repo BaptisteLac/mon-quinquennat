@@ -1,0 +1,4 @@
+{
+  "description": "Réformes paramétriques des candidats, issues des mesures publiées (data/measures). Vide tant qu'aucune mesure publiée ne modifie un paramètre OpenFisca.",
+  "candidates": []
+}

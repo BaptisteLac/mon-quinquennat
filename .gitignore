@@ -13,3 +13,6 @@ __pycache__/
 data/archives/
 # Test n°1 : fichiers d'exécution bruts (les rapports .report.md sont commités)
 spikes/extraction/runs/*.json
+spikes/openfisca/.venv/
+__pycache__/
+.pytest_cache/
