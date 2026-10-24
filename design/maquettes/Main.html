@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Personnage 1/2 — Toi</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&amp;family=DM+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#111}a:hover{color:#444}
+</style>
+</helmet>
+<div style="width: 390px; height: 1040px; box-sizing: border-box; background: #EFEEE8; color: #111; font-family: 'DM Sans', sans-serif; padding: 20px 20px 24px; display: flex; flex-direction: column; gap: 16px">
+  <div style="display: flex; justify-content: space-between; align-items: center">
+    <div style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 15px; letter-spacing: -0.01em">Mon quinquennat</div>
+    <div style="font-size: 13px; font-weight: 700; border: 2px solid #111; border-radius: 999px; padding: 4px 10px; background: #fff">Étape 1 / 2</div>
+  </div>
+
+  <div style="display: flex; gap: 12px; align-items: center">
+    <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px">
+      <h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 36px; line-height: 1; letter-spacing: -0.03em">Qui es-tu<br>en 2027 ?</h1>
+      <p style="margin: 0; font-size: 14px; line-height: 1.4; color: #3A3A36">Une minute. Rien n'est enregistré.</p>
+    </div>
+    <div style="flex: none; display: flex; flex-direction: column; align-items: center; gap: 4px">
+      <svg width="88" height="88" viewBox="0 0 88 88" role="img" aria-label="Ton avatar : il change selon tes réponses" style="display: block">
+        <g fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="84" height="84" rx="14" fill="#FFD23F"/>
+          <path d="M18 86 Q24 60 44 58 Q64 60 70 86" fill="#fff"/>
+          <path d="M36 58 L44 66 L52 58"/>
+          <circle cx="44" cy="38" r="16" fill="#F2C9A8"/>
+          <path d="M27 37 Q27 18 44 18 Q61 18 61 37 Q53 27 44 29 Q35 27 27 37 Z" fill="#3B2A20"/>
+          <path d="M39 45 Q44 49 49 45"/>
+          <path d="M60 86 Q62 72 70 71 Q78 72 80 86" fill="#8EC5FF"/>
+          <circle cx="70" cy="64" r="8" fill="#E9B88F"/>
+          <path d="M6 86 Q8 76 14 75 Q20 76 22 86" fill="#FF9F80"/>
+          <circle cx="14" cy="69" r="7" fill="#F2C9A8"/>
+        </g>
+        <g fill="#111"><circle cx="38" cy="38" r="2"/><circle cx="50" cy="38" r="2"/></g>
+      </svg>
+      <span style="font-size: 11px; font-weight: 700">Ton perso</span>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 6px">
+    <div style="font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em">Âge</div>
+    <div style="height: 48px; box-sizing: border-box; border: 2.5px solid #111; border-radius: 14px; background: #fff; display: flex; align-items: center; justify-content: space-between; padding: 0 6px; width: 180px">
+      <button aria-label="Moins" style="width: 36px; height: 36px; border: none; background: #EFEEE8; border-radius: 10px; font-size: 20px; font-weight: 700; color: #111">−</button>
+      <span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 22px">34 ans</span>
+      <button aria-label="Plus" style="width: 36px; height: 36px; border: none; background: #EFEEE8; border-radius: 10px; font-size: 20px; font-weight: 700; color: #111">+</button>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 6px">
+    <div style="display: flex; justify-content: space-between; align-items: baseline"><span style="font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em">Genre</span><span style="font-size: 11px; color: #3A3A36">pour ton avatar</span></div>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px">
+      <button style="height: 48px; border: 2.5px solid #111; border-radius: 12px; background: #FFD23F; box-shadow: 3px 3px 0 #111; font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 13px; color: #111">Femme</button>
+      <button style="height: 48px; border: 2.5px solid #111; border-radius: 12px; background: #fff; font-family: 'DM Sans', sans-serif; font-weight: 500; font-size: 13px; color: #111">Homme</button>
+      <button style="height: 48px; border: 2.5px solid #111; border-radius: 12px; background: #fff; font-family: 'DM Sans', sans-serif; font-weight: 500; font-size: 13px; color: #111; line-height: 1.15">Autre ou<br>ne pas dire</button>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 6px">
+    <div style="font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em">Situation familiale</div>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px">
+      <button style="height: 48px; border: 2.5px solid #111; border-radius: 12px; background: #fff; font-family: 'DM Sans', sans-serif; font-weight: 500; font-size: 13px; color: #111; line-height: 1.15">Seul·e</button>
+      <button style="height: 48px; border: 2.5px solid #111; border-radius: 12px; background: #FFD23F; box-shadow: 3px 3px 0 #111; font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 13px; color: #111; line-height: 1.15">Marié·e<br>ou pacsé·e</button>
+      <button style="height: 48px; border: 2.5px solid #111; border-radius: 12px; background: #fff; font-family: 'DM Sans', sans-serif; font-weight: 500; font-size: 13px; color: #111; line-height: 1.15">En couple<br>non marié</button>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 6px">
+    <div style="font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em">Enfants à charge</div>
+    <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px">
+      <button style="height: 44px; border: 2.5px solid #111; border-radius: 12px; background: #fff; font-weight: 700; font-size: 15px; color: #111">0</button>
+      <button style="height: 44px; border: 2.5px solid #111; border-radius: 12px; background: #fff; font-weight: 700; font-size: 15px; color: #111">1</button>
+      <button style="height: 44px; border: 2.5px solid #111; border-radius: 12px; background: #FFD23F; box-shadow: 3px 3px 0 #111; font-weight: 700; font-size: 15px; color: #111">2</button>
+      <button style="height: 44px; border: 2.5px solid #111; border-radius: 12px; background: #fff; font-weight: 700; font-size: 15px; color: #111">3+</button>
+    </div>
+
+    <div style="margin-top: 4px; border: 2px dashed #111; border-radius: 14px; background: #fff; padding: 12px; display: flex; flex-direction: column; gap: 10px">
+      <div style="font-size: 13px; font-weight: 700">Leurs âges ?</div>
+      <div style="display: flex; align-items: center; gap: 8px">
+        <span style="width: 58px; flex: none; font-size: 12px; font-weight: 500">Enfant 1</span>
+        <div style="flex: 1; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px">
+          <button style="height: 44px; border: 2px solid #111; border-radius: 10px; background: #FFD23F; font-weight: 700; font-size: 12px; color: #111">− 3 ans</button>
+          <button style="height: 44px; border: 2px solid #111; border-radius: 10px; background: #fff; font-weight: 500; font-size: 12px; color: #111">3–10</button>
+          <button style="height: 44px; border: 2px solid #111; border-radius: 10px; background: #fff; font-weight: 500; font-size: 12px; color: #111">11–17</button>
+          <button style="height: 44px; border: 2px solid #111; border-radius: 10px; background: #fff; font-weight: 500; font-size: 12px; color: #111">18–25</button>
+        </div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 8px">
+        <span style="width: 58px; flex: none; font-size: 12px; font-weight: 500">Enfant 2</span>
+        <div style="flex: 1; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px">
+          <button style="height: 44px; border: 2px solid #111; border-radius: 10px; background: #fff; font-weight: 500; font-size: 12px; color: #111">− 3 ans</button>
+          <button style="height: 44px; border: 2px solid #111; border-radius: 10px; background: #FFD23F; font-weight: 700; font-size: 12px; color: #111">3–10</button>
+          <button style="height: 44px; border: 2px solid #111; border-radius: 10px; background: #fff; font-weight: 500; font-size: 12px; color: #111">11–17</button>
+          <button style="height: 44px; border: 2px solid #111; border-radius: 10px; background: #fff; font-weight: 500; font-size: 12px; color: #111">18–25</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 6px">
+    <div style="font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em">Ta situation</div>
+    <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px">
+      <button style="height: 44px; border: 2.5px solid #111; border-radius: 12px; background: #FFD23F; box-shadow: 3px 3px 0 #111; font-weight: 700; font-size: 13px; color: #111">Salarié·e du privé</button>
+      <button style="height: 44px; border: 2.5px solid #111; border-radius: 12px; background: #fff; font-weight: 500; font-size: 13px; color: #111">Fonctionnaire</button>
+      <button style="height: 44px; border: 2.5px solid #111; border-radius: 12px; background: #fff; font-weight: 500; font-size: 13px; color: #111">Indépendant·e</button>
+      <button style="height: 44px; border: 2.5px solid #111; border-radius: 12px; background: #fff; font-weight: 500; font-size: 13px; color: #111">Chef·fe d'entreprise</button>
+      <button style="height: 44px; border: 2.5px solid #111; border-radius: 12px; background: #fff; font-weight: 500; font-size: 13px; color: #111">Demandeur·se d'emploi</button>
+      <button style="height: 44px; border: 2.5px solid #111; border-radius: 12px; background: #fff; font-weight: 500; font-size: 13px; color: #111">Étudiant·e</button>
+      <button style="height: 44px; border: 2.5px solid #111; border-radius: 12px; background: #fff; font-weight: 500; font-size: 13px; color: #111">Retraité·e</button>
+      <button style="height: 44px; border: 2.5px solid #111; border-radius: 12px; background: #fff; font-weight: 500; font-size: 13px; color: #111">Sans activité</button>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; margin-top: 2px">
+      <span style="font-size: 12px; font-weight: 500">Et tu travailles</span>
+      <button style="height: 44px; padding: 0 14px; border: 2px solid #111; border-radius: 999px; background: #FFD23F; font-weight: 700; font-size: 12px; color: #111">À temps plein</button>
+      <button style="height: 44px; padding: 0 14px; border: 2px solid #111; border-radius: 999px; background: #fff; font-weight: 500; font-size: 12px; color: #111">À temps partiel</button>
+    </div>
+  </div>
+
+  <div style="margin-top: auto; display: flex; flex-direction: column; gap: 10px; align-items: stretch">
+    <a href="A-perso-2.dc.html" style="height: 56px; box-sizing: border-box; border: 2.5px solid #111; border-radius: 16px; background: #111; color: #fff; box-shadow: 4px 4px 0 #FFD23F; display: flex; align-items: center; justify-content: center; gap: 10px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 18px; text-decoration: none">Continuer
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+    <a href="#" style="text-align: center; font-size: 14px; font-weight: 700; text-decoration: underline; text-underline-offset: 3px">Ou vivre la vie d'un Français tiré au hasard</a>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":1040}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>

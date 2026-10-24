@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Ticket sans effet chiffré</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&amp;family=DM+Sans:wght@400;500;700&amp;family=DM+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#111}a:hover{color:#444}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; background: #FFD23F; color: #111; font-family: 'DM Sans', sans-serif; padding: 16px 20px 20px; display: flex; flex-direction: column; gap: 12px">
+
+  <div style="display: flex; justify-content: space-between; align-items: center">
+    <span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 16px">Ton ticket · 2 sur 4</span>
+    <button aria-label="Fermer le récap" style="width: 44px; height: 44px; border: none; background: transparent; display: flex; align-items: center; justify-content: center">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+
+  <div style="flex: 1; min-height: 0; background: #fff; border: 2.5px solid #111; border-radius: 4px; padding: 14px 16px 12px; display: flex; flex-direction: column; gap: 9px; font-family: 'DM Mono', monospace; font-size: 12px">
+    <div style="display: flex; flex-direction: column; gap: 2px">
+      <div style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 24px; line-height: 1">MA VIE EN 2032</div>
+      <div style="display: flex; align-items: center; gap: 5px">si <svg width="10" height="10" viewBox="0 0 12 12" aria-hidden="true"><rect x="1" y="1" width="10" height="10" fill="#111"/></svg> [Candidat·e 4] passe</div>
+    </div>
+    <div style="font-size: 11px; color: #2A2A26">72 ans · seul · retraité · propriétaire · rural</div>
+    <div style="border-top: 1.5px dashed #111"></div>
+
+    <div style="font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 0.06em">TON PORTEFEUILLE</div>
+    <div style="font-family: 'DM Sans', sans-serif; border: 2px dashed #111; border-radius: 10px; padding: 12px; display: flex; flex-direction: column; gap: 6px; text-align: center">
+      <span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 22px">= 0 €</span>
+      <span style="font-size: 13px; line-height: 1.45">Aucune mesure chiffrée de ce programme ne change ton portefeuille, d'après sa version actuelle.</span>
+    </div>
+
+    <div style="border-top: 1.5px dashed #111"></div>
+    <div style="font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 0.06em">TON TEMPS</div>
+    <div style="display: flex; justify-content: space-between"><span>Pension</span><span>inchangée</span></div>
+
+    <div style="font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 0.06em; margin-top: 4px">TA VIE</div>
+    <div style="display: flex; flex-direction: column; gap: 4px; line-height: 1.4">
+      <span>· [Fait concret sur la santé]</span>
+      <span>· [Fait concret sur les transports en zone rurale]</span>
+    </div>
+
+    <div style="margin-top: auto; font-family: 'DM Sans', sans-serif; display: flex; gap: 10px; align-items: flex-start; background: #EFEEE8; border-radius: 10px; padding: 10px 12px; font-size: 12px; line-height: 1.45">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 1px"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+      <span><b>3 mesures de ce programme sont encore en vérification</b> et n'apparaissent pas ici. Ton ticket se mettra à jour quand elles seront validées.</span>
+    </div>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px">
+    <a href="PG1-programme.dc.html" style="height: 52px; box-sizing: border-box; border: 2px solid #111; border-radius: 16px; background: #fff; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 14px; display: flex; align-items: center; justify-content: center; text-align: center; text-decoration: none; line-height: 1.15">Tout son<br>programme</a>
+    <a href="#" style="height: 52px; box-sizing: border-box; border: 2.5px solid #111; border-radius: 16px; background: #111; color: #fff; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 15px; display: flex; align-items: center; justify-content: center; text-decoration: none">Ticket suivant</a>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>

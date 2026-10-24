@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Méthode</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&amp;family=DM+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#111}a:hover{color:#444}
+</style>
+</helmet>
+<div style="width: 390px; height: 1700px; box-sizing: border-box; background: #fff; color: #111; font-family: 'DM Sans', sans-serif; padding: 18px 20px 28px; display: flex; flex-direction: column; gap: 22px">
+
+  <div style="display: flex; justify-content: space-between; align-items: center">
+    <a href="E0-accueil.dc.html" style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 16px; text-decoration: none">Mon quinquennat</a>
+    <span style="font-size: 12px; color: #3A3A36">Mis à jour le [date]</span>
+  </div>
+
+  <h1 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 44px; line-height: 0.95; letter-spacing: -0.04em">Comment on<br>calcule ta vie<br>en 2032</h1>
+
+  <div style="background: #FFD23F; border: 2.5px solid #111; border-radius: 16px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px">
+    <b style="font-size: 15px">En bref</b>
+    <span style="font-size: 14px; line-height: 1.5">· Une seule source pour les mesures : les programmes officiels.<br>· Les calculs suivent les barèmes officiels.<br>· L'IA lit les programmes, des contrôles automatiques vérifient tout, le code calcule.<br>· Aucun classement, aucune recommandation de vote.</span>
+  </div>
+
+  <section style="display: flex; flex-direction: column; gap: 8px">
+    <h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 22px">1. D'où viennent les mesures</h2>
+    <p style="margin: 0; font-size: 14px; line-height: 1.55">Uniquement des programmes et des sites officiels des candidats. Chaque version est archivée et datée. Nous vérifions chaque semaine s'ils ont changé, chaque jour dans les six semaines avant le vote. Les déclarations à l'oral ou dans la presse ne sont pas prises en compte.</p>
+    <a href="#" style="font-size: 14px; font-weight: 700">Voir ce qui a changé récemment</a>
+  </section>
+
+  <section style="display: flex; flex-direction: column; gap: 10px">
+    <h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 22px">2. Trois types de lignes</h2>
+    <div style="display: flex; gap: 10px; align-items: flex-start; font-size: 14px; line-height: 1.5"><span style="flex: none; width: 18px; height: 14px; margin-top: 3px; background: #111"></span><span><b>Sûr</b> : la règle est précise, on l'applique à ton profil avec les barèmes officiels (OpenFisca, le moteur open source des règles fiscales). Version de la législation de référence : [2026].</span></div>
+    <div style="display: flex; gap: 10px; align-items: flex-start; font-size: 14px; line-height: 1.5"><span style="flex: none; width: 18px; height: 14px; margin-top: 3px; border: 1.5px solid #111; box-sizing: border-box; background: repeating-linear-gradient(45deg, #111 0 2px, #fff 2px 5px)"></span><span><b>≈ Estimé</b> : dépend d'une consommation moyenne (énergie, achats). On utilise les moyennes de l'INSEE pour un foyer comme le tien, et on l'écrit.</span></div>
+    <div style="display: flex; gap: 10px; align-items: flex-start; font-size: 14px; line-height: 1.5"><span style="flex: none; width: 18px; height: 14px; margin-top: 3px; border: 1.5px dashed #111; box-sizing: border-box"></span><span><b>Qualitatif</b> : pas de montant possible, une phrase factuelle à la place.</span></div>
+    <p style="margin: 0; font-size: 13px; line-height: 1.5; color: #3A3A36">On compare toujours aux règles actuelles, une fois toutes les mesures appliquées. Le sûr et l'estimé ne sont jamais additionnés sans le dire : c'est pourquoi le solde est une fourchette.</p>
+  </section>
+
+  <section style="display: flex; flex-direction: column; gap: 10px">
+    <h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 22px">3. Le rôle de l'IA</h2>
+    <p style="margin: 0; font-size: 14px; line-height: 1.55">Une IA lit les programmes et en extrait les mesures. Elle ne calcule aucun chiffre et ne répond à aucune question. Chaque mesure passe ensuite six contrôles automatiques :</p>
+    <ol style="margin: 0; padding-left: 20px; font-size: 14px; line-height: 1.6">
+      <li>Le format est complet.</li>
+      <li>La citation existe mot pour mot dans le programme archivé.</li>
+      <li>Une seconde IA confirme que la citation dit bien ce que la mesure affirme.</li>
+      <li>Deux lectures indépendantes trouvent les mêmes chiffres.</li>
+      <li>Le résultat est vraisemblable sur des profils de référence.</li>
+      <li>Le résumé est neutre, rédigé sur le même modèle pour tous.</li>
+    </ol>
+    <p style="margin: 0; font-size: 14px; line-height: 1.55">Si un contrôle échoue, la mesure n'est pas publiée et part en vérification humaine.</p>
+    <div style="border: 2.5px solid #111; border-radius: 14px; padding: 12px 14px; display: flex; justify-content: space-between; align-items: center; gap: 10px">
+      <span style="font-size: 13px; line-height: 1.4">Taux d'erreur mesuré sur un échantillon audité chaque semaine</span>
+      <span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 28px; white-space: nowrap">[X,X] %</span>
+    </div>
+  </section>
+
+  <section style="display: flex; flex-direction: column; gap: 8px">
+    <h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 22px">4. Neutralité</h2>
+    <p style="margin: 0; font-size: 14px; line-height: 1.55">Même traitement, même gabarit et mêmes contrôles pour tous les candidats. L'ordre d'affichage est tiré au hasard. Pas de couleurs de parti, pas de classement, pas de « meilleur programme pour toi ». Un test automatique vérifie qu'en échangeant les noms des candidats, les textes ne changent pas de ton.</p>
+  </section>
+
+  <section style="display: flex; flex-direction: column; gap: 8px">
+    <h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 22px">5. Tes données</h2>
+    <p style="margin: 0; font-size: 14px; line-height: 1.55">Pas de compte. Ton profil est envoyé pour le calcul puis oublié : rien n'est enregistré sur nos serveurs. Ta progression est gardée sur ton appareil pour que tu puisses reprendre, et tu peux l'effacer à tout moment.</p>
+  </section>
+
+  <section style="display: flex; flex-direction: column; gap: 8px">
+    <h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 22px">6. Nos limites</h2>
+    <p style="margin: 0; font-size: 14px; line-height: 1.55">Une simulation n'est pas une prévision. Elle ne tient pas compte des changements de comportement, de la conjoncture ni de ce qui serait vraiment voté au Parlement. Des erreurs restent possibles : chacune peut être signalée et corrigée.</p>
+  </section>
+
+  <div style="display: flex; flex-direction: column; gap: 8px">
+    <a href="#" style="height: 52px; box-sizing: border-box; border: 2.5px solid #111; border-radius: 16px; background: #111; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 15px; text-decoration: none">Signaler une erreur</a>
+    <a href="#" style="height: 48px; box-sizing: border-box; border: 2px solid #111; border-radius: 14px; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 14px; text-decoration: none">Voir le code source</a>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":1700}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>
