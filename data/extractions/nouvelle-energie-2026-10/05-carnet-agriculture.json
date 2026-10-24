@@ -1,0 +1,170 @@
+{
+  "measures": [
+    {
+      "theme": "agriculture",
+      "title": "Objectif de 10 000 installations agricoles par an",
+      "summary": {
+        "simple": "Aider 10 000 nouveaux agriculteurs à s'installer chaque année.",
+        "normal": "Cap de 10 000 installations agricoles par an, avec un accompagnement technique, humain et bancaire et un guichet unique pour simplifier les démarches."
+      },
+      "sources": [
+        {
+          "page": 16,
+          "quote": "Il faut se fixer un cap clair de 10 000 installations par an avec un accompagnement technique, humain, bancaire, et un guichet unique pour simplifier les démarches."
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Recentrer l'INRAE et les instituts techniques sur la recherche appliquée",
+      "summary": {
+        "simple": "La recherche agricole publique travaillerait d'abord pour les agriculteurs.",
+        "normal": "L'INRAE et les instituts techniques seraient recentrés sur la recherche appliquée au service des agriculteurs."
+      },
+      "sources": [
+        {
+          "page": 21,
+          "quote": "Libérer l’INRAE et les instituts techniques, en les recentrant sur la recherche appliquée au service des agriculteurs."
+        },
+        {
+          "page": 16,
+          "quote": "Libérons l'INRAE pour qu'elle travaille pour nos agriculteurs, pas contre eux."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Supprimer les impôts de production agricoles",
+      "summary": {
+        "simple": "Les exploitations agricoles ne paieraient plus d'impôts de production.",
+        "normal": "Suppression des impôts de production agricoles et libération de l'amortissement comptable agricole pour tenir compte des variations de production."
+      },
+      "sources": [
+        {
+          "page": 22,
+          "quote": "Supprimer les impôts de production agricoles"
+        },
+        {
+          "page": 22,
+          "quote": "Libérer l’amortissement comptable Agricole pour tenir compte des variations de production"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Promouvoir l'élevage et simplifier l'usage des lisiers et fumiers",
+      "summary": {
+        "simple": "Soutenir l'élevage et faciliter l'usage du fumier comme engrais.",
+        "normal": "Promotion de l'élevage, producteur de protéines et d'engrais organiques, et simplification de l'usage des lisiers et fumiers."
+      },
+      "sources": [
+        {
+          "page": 21,
+          "quote": "promouvoir et développer l’élevage , producteur de protéines et gisement précieux d’engrais organiques"
+        },
+        {
+          "page": 21,
+          "quote": "Optimiser le gisement organique : simplifier et valoriser l'usage des lisiers et fumiers, richesses agronomiques naturelles trop souvent entravées par des obligations excessives."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Permettre aux agriculteurs et forestiers de vendre le carbone stocké",
+      "summary": {
+        "simple": "Payer les agriculteurs pour le carbone qu'ils stockent dans les sols et les forêts.",
+        "normal": "Valorisation des services écosystémiques : vente du carbone économisé, substitué ou stocké par les agriculteurs et les forestiers ; accélération du programme « 4 pour 1000 » et de l'agriculture de conservation des sols ; rémunérer le carbone stocké plutôt que sanctionner l'usage des engrais."
+      },
+      "sources": [
+        {
+          "page": 22,
+          "quote": "Valoriser les services écosystémiques : permettre aux agriculteurs et aux forestiers de vendre le carbone économisé, substitué ou stocké"
+        },
+        {
+          "page": 22,
+          "quote": "Récompenser le stockage plutôt que taxer l'intrant : accélérer le programme « 4 pour 1000 » et l’Agriculture de Conservation des Sols (ACS). Rémunérer le carbone capté et stocké par les sols agricoles plutôt que de sanctionner l’usage des engrais."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Simplification administrative agricole et inversion de la charge de la preuve",
+      "summary": {
+        "simple": "Moins de formulaires et un seul interlocuteur par exploitation ; la confiance devient la règle.",
+        "normal": "Un interlocuteur unique par exploitation, dématérialisation totale, suppression des formulaires et déclarations redondantes, déclarations viticoles fusionnées en une seule, dossier PAC annuel remplacé par un contrat d'objectifs sur cinq ans, inversion de la charge de la preuve et pouvoir réglementaire décentralisé vers les préfets et les collectivités."
+      },
+      "sources": [
+        {
+          "page": 16,
+          "quote": "Simplification radicale : un interlocuteur unique par exploitation, dématérialisation totale, suppression des déclarations redondantes."
+        },
+        {
+          "page": 23,
+          "quote": "Supprimer des formulaires inutiles, et les déclarations redondantes. simplifier les dossiers PAC"
+        },
+        {
+          "page": 23,
+          "quote": "Inversion de la charge de la preuve : la confiance redevient le principe, l’obligation administrative l’exception."
+        },
+        {
+          "page": 23,
+          "quote": "Décentraliser le pouvoir réglementaire vers les préfets, chefs des administrations, et les collectivités locales"
+        },
+        {
+          "page": 45,
+          "quote": "Fusionner les quatre déclarations viticoles en une déclaration unique dématérialisée. Remplacer le dossier PAC annuel par un contrat d’objectifs sur cinq ans, révisé seulement en cas de modification significative."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Diplomatie agricole offensive et clauses de sauvegarde unilatérales",
+      "summary": {
+        "simple": "Utiliser l'agriculture comme levier diplomatique et protéger les marchés si besoin.",
+        "normal": "Diplomatie agricole offensive entre l'Afrique et l'Europe, fondée sur des transferts de technologie, avec application unilatérale de clauses de sauvegarde si nécessaire."
+      },
+      "sources": [
+        {
+          "page": 16,
+          "quote": "Bâtissons une diplomatie agricole offensive entre l'Afrique et l'Europe en appliquant, si besoin, des clauses de sauvegarde unilatérales."
+        },
+        {
+          "page": 23,
+          "quote": "Appliquer unilatéralement des clauses de sauvegarde si nécessaire."
+        },
+        {
+          "page": 23,
+          "quote": "Relancer une diplomatie agricole offensive, fondée sur des transferts de technologie et des accords mutuellement bénéfiques."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Harmonisation fiscale et sociale agricole en Europe et préférence communautaire",
+      "summary": {
+        "simple": "Les mêmes règles fiscales et sociales pour les agriculteurs européens, et priorité aux produits européens.",
+        "normal": "Engager un processus d'harmonisation des règles fiscales et sociales agricoles en Europe et affirmer une préférence communautaire en matière agricole et alimentaire."
+      },
+      "sources": [
+        {
+          "page": 23,
+          "quote": "Jeter les bases d’ un processus d’harmonisation des règles fiscales et sociales agricoles en Europe"
+        },
+        {
+          "page": 23,
+          "quote": "Affirmer une préférence communautaire assumée en matière agricole et alimentaire."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "accord_ue"
+    }
+  ]
+}

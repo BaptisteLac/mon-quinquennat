@@ -1,0 +1,182 @@
+{
+  "measures": [
+    {
+      "theme": "institutions",
+      "title": "Rétablir le septennat",
+      "summary": {
+        "simple": "Le mandat présidentiel repasserait à sept ans.",
+        "normal": "Rétablissement du septennat ; le Président retrouverait la fonction de l'article 5 : garant de la Constitution, de la continuité de l'État et de l'indépendance nationale."
+      },
+      "sources": [
+        {
+          "page": 69,
+          "quote": "Le septennat sera rétabli. Le quinquennat se voulait moderne : il a dénaturé la présidence. Le Président retrouvera la fonction que lui assigne l’article 5 : garant de la Constitution, de la continuité de l’État, de l’indépendance nationale."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Confier au Sénat l'évaluation des politiques publiques",
+      "summary": {
+        "simple": "Le Sénat serait chargé d'évaluer les politiques publiques.",
+        "normal": "Le Sénat retrouverait comme mission essentielle l'évaluation des politiques publiques."
+      },
+      "sources": [
+        {
+          "page": 70,
+          "quote": "Et le Sénat retrouvera une mission essentielle que l’on a laissé glisser vers la Cour des comptes et les juridictions : évaluer les politiques publiques."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Référendum possible sur tout sujet et révision de la Constitution par référendum",
+      "summary": {
+        "simple": "Tout sujet pourrait être soumis à référendum, y compris pour modifier la Constitution.",
+        "normal": "L'article 11 serait libéré de ses limites thématiques (immigration, école, justice, dépense publique…) ; la Constitution pourrait, à terme, être révisée directement par référendum."
+      },
+      "sources": [
+        {
+          "page": 70,
+          "quote": "L’article 11 sera libéré de ses limites thématiques : tout sujet pourra être soumis au pays - l’immigration, l’école, la justice, la dépense publique. La Constitution doit pouvoir, à terme, être révisée directement par référendum"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Rendre praticable le référendum d'initiative populaire",
+      "summary": {
+        "simple": "Les citoyens pourraient vraiment déclencher un référendum.",
+        "normal": "Le référendum d'initiative populaire serait réellement institué, avec un seuil de signatures atteignable et, au terme du délai, un vote garanti."
+      },
+      "sources": [
+        {
+          "page": 70,
+          "quote": "Le référendum d’initiative populaire sera vraiment institué et rendu praticable, avec un seuil de signatures atteignable et, au terme du délai, un vote garanti."
+        },
+        {
+          "page": 176,
+          "quote": "Par la mise en place d'un véritable référendum d'initiative populaire. N'ayons pas peur de ce que font les Suisses."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Recentrer le contrôle de constitutionnalité sur la lettre de la Constitution",
+      "summary": {
+        "simple": "Le Conseil constitutionnel jugerait sur le texte de la Constitution ; une censure fondée sur le préambule pourrait être levée par référendum.",
+        "normal": "Contrôle de constitutionnalité limité à la lettre des articles ; possibilité de passer outre par référendum une censure fondée sur le préambule ; le préambule de 1946 et la charte de l'environnement cesseraient d'être des normes de contrôle."
+      },
+      "sources": [
+        {
+          "page": 70,
+          "quote": "Le contrôle de constitutionnalité devra porter sur la lettre des articles de la Constitution."
+        },
+        {
+          "page": 70,
+          "quote": "Si censure il y a sur la base du préambule, alors il doit être possible de passer outre par la voie du référendum. C’est ce que nous instaurerons. Le préambule de 1946 et la charte de l’environnement cesseront de servir de normes de contrôle"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Hautes nominations soumises à l'approbation de l'Assemblée à majorité qualifiée",
+      "summary": {
+        "simple": "Les grandes nominations devraient être approuvées par l'Assemblée nationale.",
+        "normal": "Les nominations à la présidence du Conseil constitutionnel, de la Cour des comptes, de la Banque de France, du Conseil d'État et des autorités de régulation ne prendraient effet qu'après approbation de l'Assemblée à une majorité qualifiée."
+      },
+      "sources": [
+        {
+          "page": 71,
+          "quote": "Présidence du Conseil constitutionnel, de la Cour des Cour des Comptes, Banque de France, Conseil d’État, autorités de régulation"
+        },
+        {
+          "page": 71,
+          "quote": "Ces nominations ne pourront prendre effet qu’approuvées par l’Assemblée à une majorité qualifiée."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Réviser l'article 55 de la Constitution pour faire primer la loi sur l'interprétation de la CEDH",
+      "summary": {
+        "simple": "Quand le Parlement le décide, la loi française primerait sur la Convention européenne des droits de l'homme.",
+        "normal": "Révision de l'article 55 de la Constitution : quand le Parlement décide clairement de s'écarter de la Convention européenne des droits de l'homme sur un point précis, la loi française s'appliquerait, à commencer par l'immigration."
+      },
+      "sources": [
+        {
+          "page": 71,
+          "quote": "Nous y mettrons fin en révisant l’article 55 de la constitution. Demain, quand le Parlement aura clairement décidé de s’en écarter sur un point précis, c’est la loi française qui s’appliquera, et non l’interprétation de la CEDH."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "immigration",
+      "title": "Obtenir une dérogation aux règles européennes d'asile et d'immigration, sur le modèle danois",
+      "summary": {
+        "simple": "La France demanderait, comme le Danemark, à ne pas appliquer les règles européennes sur l'asile et l'immigration.",
+        "normal": "Suivre la voie du Danemark, dispensé des règles communes d'asile et d'immigration de l'Union européenne, pour obtenir la même dérogation."
+      },
+      "sources": [
+        {
+          "page": 71,
+          "quote": "Il nous faudra suivre la voie ouverte par le Danemark qui a obtenu d’être dispensé des règles communes d’asile et d’immigration."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "institutions",
+      "title": "Les mêmes libertés locales pour tous les territoires, outre-mer compris",
+      "summary": {
+        "simple": "Pas de statut d'exception : les mêmes lois pour tous les territoires, y compris l'outre-mer.",
+        "normal": "Pas de décentralisation asymétrique ni à la carte, pas de statuts d'exception négociés : des libertés locales étendues identiques pour tous les territoires, outre-mer compris."
+      },
+      "sources": [
+        {
+          "page": 72,
+          "quote": "Il n’y aura pas de décentralisation asymétrique, pas de décentralisation à la carte, pas de statuts d’exception négociés sous la pression, pas de Français soumis à des lois différentes selon le lieu où ils vivent."
+        },
+        {
+          "page": 72,
+          "quote": "Des libertés locales étendues, partout, pour tous les territoires et une seule République."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "numerique",
+      "title": "Une intelligence artificielle souveraine au cœur de l'administration",
+      "summary": {
+        "simple": "L'administration utiliserait une IA maîtrisée par la France pour aller plus vite.",
+        "normal": "L'intelligence artificielle serait au cœur de la performance publique (instruction plus rapide, agents déchargés des tâches répétitives), sans dépendre de puissances étrangères pour les données et les systèmes ; l'IA générative se verrait confier l'instruction des dossiers, la vérification des pièces et la rédaction des actes."
+      },
+      "sources": [
+        {
+          "page": 73,
+          "quote": "Nous les lui donnerons notamment grâce à l’intelligence artificielle, cette technologie de rupture de notre époque, qui doit être au cœur de la performance publique. Elle permet d’instruire plus vite, de décharger les agents des tâches répétitives pour les rendre à leurs missions de terrain. Mais elle ne saurait dépendre de puissances étrangères."
+        },
+        {
+          "page": 92,
+          "quote": "il annonce qu’il confiera à l’IA générative « l'instruction des dossiers, la vérification des pièces, la rédaction des actes », dans un État qui numérise ses démarches"
+        }
+      ],
+      "precision": "floue"
+    }
+  ]
+}

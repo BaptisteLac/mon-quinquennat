@@ -11,3 +11,5 @@ coverage/
 __pycache__/
 # Archives de programmes téléchargées localement (la copie de référence est l'archive publique)
 data/archives/
+# Test n°1 : fichiers d'exécution bruts (les rapports .report.md sont commités)
+spikes/extraction/runs/*.json

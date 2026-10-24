@@ -28,22 +28,22 @@ Hypothèse de simulation : l'utilisateur est un électeur français (aucune ques
 
 ## Sources et données
 - **Seule source des mesures : les programmes officiels** (PDF ou pages officielles de campagne), listés dans `data/sources.yaml`. Pas de collecte sur le reste du web.
-- Chaque version est archivée (Internet Archive) avec son empreinte sha256 ; les citations pointent vers une version précise.
+- Un programme est un **corpus** : les pages web du site officiel sous les préfixes déclarés dans `data/sources.yaml`, plus les PDF du même site liés depuis ces pages. Collecte automatique (robots.txt respecté), avec rendu JavaScript si le site l'exige.
+- Chaque version est archivée (Internet Archive) avec son empreinte sha256 ; les citations pointent vers une version précise. Pour une page web, `page` vaut 1 (ou le numéro de partie d'une très longue page) et le lien affiché mène à l'URL officielle.
 - Chiffres de contexte et hypothèses : statistiques publiques (INSEE, Légifrance, barèmes officiels), toujours citées.
 - Candidats : déclarés **et** avec un programme publié. Statuts : déclaré·e, officiel·le (liste du Conseil constitutionnel), retiré·e. Les marchés de prédiction servent seulement de liste de veille.
 
 ## Pipeline automatisé
-1. **Veille** : GitHub Actions, hebdomadaire (quotidien les 6 dernières semaines avant le 1er tour). Comparaison d'empreinte.
+1. **Veille** : GitHub Actions, hebdomadaire (quotidien les 6 dernières semaines avant le 1er tour). Nouvelle collecte de chaque corpus, comparaison de l'empreinte du texte extrait de chaque page (le HTML brut varie à chaque visite) ; nouvelle page ou page disparue = changement.
 2. **Archivage** de toute version nouvelle.
-3. **Extraction** uniquement sur les sections modifiées (Vercel AI SDK, sortie structurée Zod).
-4. **Six contrôles** :
-   1. format (schéma Zod) ;
-   2. citation exacte présente dans le texte archivé (bloquant) ;
-   3. relecture croisée par un second modèle d'un autre fournisseur ;
-   4. deux extractions indépendantes concordantes ;
-   5. vraisemblance des résultats sur des profils de référence ;
-   6. neutralité (gabarit, test d'échange des noms).
-5. **Routage** selon le risque : seuil plus haut pour une ligne chiffrée que pour une phrase qualitative. Au-dessus → publication automatique. En dessous → issue GitHub « en attente », traitée par commentaire : `/approuver`, `/rejeter raison`, `/corriger taux=0.09`.
+3. **Extraction** uniquement sur les pages modifiées : session Claude Code programmée (abonnement, sans clé API) qui ouvre une PR ; à terme, appel direct par l'API si l'on veut se passer de session (Vercel AI SDK, sortie structurée Zod).
+4. **Contrôles** : les programmes officiels font foi ; on vérifie seulement que l'extraction n'en change ni les phrases, ni les chiffres, ni le sens.
+   1. format (schéma Zod) — bloquant ;
+   2. citation exacte présente dans le texte archivé — bloquant ;
+   3. chiffres fidèles : chaque nombre de la fiche (résumés, paramètres, date annoncée) figure dans la citation ;
+   4. relecture du sens : seconde lecture qui compare chaque résumé à sa citation. Le verdict est lié à une empreinte du contenu relu : toute modification ultérieure de la mesure l'annule et la renvoie en relecture. En cas d'écart entre le programme et une autre page officielle, le programme fait foi et l'élément contradictoire est retiré ; si le programme ne tranche pas et que les autres pages se contredisent, seul ce qu'elles ont en commun est publié, sans préciser le point contesté.
+   Facultatifs, si le score s'avère insuffisant : relecture croisée par un modèle d'un autre fournisseur, double extraction, vraisemblance sur profils de référence, neutralité.
+5. **Score de confiance et routage** : chaque mesure reçoit un score (part des contrôles passés). Au-dessus du seuil fixé → publication automatique ; en dessous → « en attente » (issue GitHub, traitée par commentaire : `/approuver`, `/rejeter raison`, `/corriger taux=0.09`). Le seuil se fixe sur la répartition réelle des scores.
 6. **Qualité** : audit hebdomadaire d'un échantillon ; le taux d'erreur mesuré est affiché sur la page Méthode. Chaque correction et chaque signalement d'utilisateur devient un cas de test.
 
 ## Calcul

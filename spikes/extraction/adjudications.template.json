@@ -1,0 +1,6 @@
+{
+  "[clé à 12 caractères donnée par le rapport]": {
+    "verdict": "correcte",
+    "note": "[facultatif ; verdicts possibles : correcte, resume_incorrect, inexistante, doublon]"
+  }
+}

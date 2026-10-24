@@ -98,6 +98,7 @@ export type DataSource = z.infer<typeof DataSource>;
 /** Citation exacte. Contrôle automatique : `quote` doit exister mot pour mot dans le texte archivé. */
 export const SourceQuote = z.object({
   documentId: z.string(),
+  /** Page du PDF (1 = première page du fichier) ; pour une page web : 1, ou le numéro de partie d'une très longue page. */
   page: z.number().int().positive(),
   quote: z.string().min(10).max(600), // court : droit de citation
 });
@@ -208,6 +209,15 @@ export const Theme = z.enum([
   "transport",
   "famille",
   "entreprise",
+  "finances_publiques",
+  "institutions",
+  "securite",
+  "justice",
+  "immigration",
+  "agriculture",
+  "environnement",
+  "international",
+  "numerique",
   "autre",
 ]);
 
@@ -261,10 +271,16 @@ export const ContextFact = z.object({
   dataSourceId: z.string(),
 });
 
-/** Les six contrôles automatiques, dans l'ordre du pipeline. */
+/**
+ * Contrôles automatiques. Les programmes officiels font foi : les contrôles vérifient que l'extraction
+ * ne change ni les phrases (citation exacte), ni les chiffres (chiffres fidèles), ni le sens (relecture du sens).
+ * `relecture_croisee`, `double_extraction`, `vraisemblance` et `neutralite` sont facultatifs.
+ */
 export const CheckId = z.enum([
   "format",
   "citation_exacte",
+  "chiffres_fideles",
+  "relecture_sens",
   "relecture_croisee",
   "double_extraction",
   "vraisemblance",

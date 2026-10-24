@@ -1,6 +1,9 @@
 # Programmes officiels suivis par la veille.
-# Règle : uniquement des documents publiés par le candidat ou sa campagne.
+# Règle : uniquement des pages et documents publiés par le candidat ou sa campagne.
 # Ne jamais remplir une URL de mémoire : copier l'adresse depuis le site officiel.
+#
+# Un programme est un corpus : les pages web du site officiel sous les préfixes déclarés,
+# plus les PDF du même site liés depuis ces pages. Rien d'autre n'est collecté.
 #
 # Exemple de structure (à dupliquer par candidat) :
 #
@@ -8,11 +11,12 @@
 #   displayName: "Prénom Nom"
 #   party: "Nom complet du parti"
 #   status: declaree        # declaree | officielle | retire
-#   documents:
-#     - id: doc-01-v1
-#       title: "Titre du programme"
-#       docType: programme  # programme | page_officielle
-#       officialUrl: "https://…"
-#       watch: weekly       # passe en daily 6 semaines avant le 1er tour
+#   programme:
+#     start:                # pages d'entrée (ex. « Notre programme »)
+#       - "https://…"
+#     include:              # préfixes d'URL suivis ; par défaut, les pages d'entrée
+#       - "https://…"
+#     render: false         # true si le contenu n'apparaît qu'avec JavaScript
+#     watch: weekly         # passe en daily 6 semaines avant le 1er tour
 
 candidates: []
