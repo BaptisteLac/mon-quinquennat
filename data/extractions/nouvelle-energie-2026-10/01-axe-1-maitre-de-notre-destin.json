@@ -23,8 +23,8 @@
       "theme": "finances_publiques",
       "title": "Rééquilibrer le budget de l'État vers les fonctions régaliennes",
       "summary": {
-        "simple": "Plus de budget pour la défense, la police, la justice et la diplomatie.",
-        "normal": "Rééquilibrage du budget de l'État vers les dépenses régaliennes (défense, police, justice, diplomatie), avec des plans de remise à niveau des moyens de la police et de la justice."
+        "simple": "Une plus grande part du budget de l'État irait aux missions régaliennes, notamment la police et la justice.",
+        "normal": "Rééquilibrage du budget de l'État vers les fonctions régaliennes, avec des plans de remise à niveau des moyens de la police et de la justice."
       },
       "sources": [
         {
@@ -126,6 +126,10 @@
         {
           "page": 3,
           "quote": "le rôle du Président de la République doit être recentré sur son statut constitutionnel autour de trois grandes fonctions"
+        },
+        {
+          "page": 3,
+          "quote": "le lien entre toutes les composantes de la Nation par un dialogue constant avec les forces vives du pays."
         }
       ],
       "subMeasures": [
@@ -234,12 +238,16 @@
       "title": "Réformer les trois fonctions publiques et généraliser le contrat hors régalien",
       "summary": {
         "simple": "Les fonctionnaires des métiers non régaliens seraient de plus en plus recrutés sous contrat.",
-        "normal": "Réorganisation des services de l'État et réforme des trois fonctions publiques pour une fonction publique de métier, avec le contrat systématisé dans les fonctions non régaliennes."
+        "normal": "Réorganisation des services de l'État et réforme des trois fonctions publiques pour une fonction publique de métier : statut aligné progressivement sur les contrats de droit privé pour les missions non régaliennes, avec la possibilité de récompenser et de sanctionner."
       },
       "sources": [
         {
           "page": 3,
           "quote": "revoir l’organisation de l’Etat, en particulier de ses services déconcentrés, et réformer les trois fonctions publiques, pour développer une fonction publique de métier et systématiser le contrat dans les fonctions non-régaliennes"
+        },
+        {
+          "page": 130,
+          "quote": "Son livre propose d’aligner progressivement ce statut sur les contrats de droit privé pour les missions non régaliennes, de diversifier le recrutement de la haute fonction publique, d’externaliser certains services, et de pouvoir récompenser et sanctionner pour mieux rémunérer les agents méritants."
         }
       ],
       "precision": "partielle"
@@ -264,12 +272,16 @@
       "title": "Réduire le stock de normes via le Conseil national d'évaluation des normes",
       "summary": {
         "simple": "Moins de règles et des démarches plus simples.",
-        "normal": "Mise en place d'un processus pour réduire le stock de normes et simplifier les procédures, via le Conseil national d'évaluation des normes."
+        "normal": "Mise en place d'un processus pour réduire le stock de normes et simplifier les procédures, via le Conseil national d'évaluation des normes. Une équipe placée sous l'autorité directe du président de la République ou du Premier ministre retirerait les normes existantes."
       },
       "sources": [
         {
           "page": 3,
           "quote": "mettre en place un processus pour dégonfler le stock de normes et simplifier les procédures, via le Conseil National d’Evaluation des Normes"
+        },
+        {
+          "page": 175,
+          "quote": "Le stock, lui, ne disparaît pas tout seul : il propose une équipe placée sous l’autorité directe du président de la République ou du premier ministre pour retirer les normes existantes."
         }
       ],
       "precision": "partielle"
@@ -285,6 +297,10 @@
         {
           "page": 3,
           "quote": "il s’agit de passer d’un « système nerveux » de l’Etat basé sur la norme à un système basé sur la donnée pour éclairer les choix collectifs et servir de levier aux décideurs publics"
+        },
+        {
+          "page": 3,
+          "quote": "En collaboration étroite avec les acteurs privés et la société civile"
         }
       ],
       "precision": "floue"

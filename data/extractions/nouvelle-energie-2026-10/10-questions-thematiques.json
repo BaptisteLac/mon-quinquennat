@@ -1,0 +1,490 @@
+{
+  "measures": [
+    {
+      "theme": "sante",
+      "title": "Mettre la Sécurité sociale en concurrence sur le modèle des Pays-Bas",
+      "summary": {
+        "simple": "Chacun choisirait son organisme d'assurance maladie, qui devrait rembourser un panier de soins obligatoire.",
+        "normal": "Mise en concurrence de la Sécurité sociale sur le modèle néerlandais : un panier de soins obligatoire qu'aucun organisme ne peut refuser de rembourser, et le libre choix de son organisme par l'assuré. Il ne s'agit pas d'une suppression de la Sécurité sociale."
+      },
+      "sources": [
+        {
+          "page": 135,
+          "quote": "David Lisnard propose de mettre la Sécurité sociale en concurrence sur le modèle des Pays-Bas : un panier de soins obligatoire, qu’aucun organisme ne peut refuser de rembourser, et le libre choix de son organisme par l’assuré."
+        },
+        {
+          "page": 135,
+          "quote": "David Lisnard propose une mise en concurrence, pas une suppression."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "sante",
+          "section": "vie",
+          "sentence": {
+            "simple": "Tu pourrais choisir ton organisme d'assurance maladie, qui devrait rembourser un panier de soins obligatoire.",
+            "normal": "L'assuré choisirait son organisme d'assurance maladie ; un panier de soins obligatoire serait remboursé par tous. L'effet sur les cotisations n'est pas chiffré."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "sante",
+      "title": "Ne pas réguler l'installation des médecins",
+      "summary": {
+        "simple": "Les médecins resteraient libres de s'installer où ils veulent.",
+        "normal": "Opposition à la régulation de l'installation des médecins, c'est-à-dire à l'obligation d'exercer dans une zone sous-dotée ; la réponse aux déserts médicaux passerait par la formation de davantage de médecins et la médecine libérale."
+      },
+      "sources": [
+        {
+          "page": 134,
+          "quote": "Il est opposé à la régulation de l’installation : selon lui, chaque contrainte supplémentaire pousse davantage de médecins à exercer à l’étranger."
+        },
+        {
+          "page": 134,
+          "quote": "David Lisnard est opposé à la régulation de l’installation des médecins, c’est-à-dire à l’obligation d’exercer dans une zone sous-dotée."
+        },
+        {
+          "page": 134,
+          "quote": "C’est pourquoi sa réponse aux déserts médicaux passe par la médecine libérale plutôt que par de nouveaux dispositifs hospitaliers."
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "justice",
+      "title": "Construire 20 000 places de prison",
+      "summary": {
+        "simple": "20 000 nouvelles places de prison seraient construites.",
+        "normal": "Construction de vingt mille places de prison, avec un partenariat avec des pays disposant de places disponibles en prison, dont les Pays-Bas."
+      },
+      "sources": [
+        {
+          "page": 151,
+          "quote": "David Lisnard s’engage à construire vingt mille places de prison."
+        },
+        {
+          "page": 149,
+          "quote": "partenariat avec des pays qui ont des places disponibles en prison, dont les Pays-Bas, et lancement des programmes de vingt mille places de prison."
+        },
+        {
+          "page": 151,
+          "quote": "Nous construirons enfin les vingt mille places de prison"
+        },
+        {
+          "page": 149,
+          "quote": "Il y ajoute l’expulsion de tout délinquant récidiviste ou criminel étranger vers son pays d’origine, l’exécution réelle des courtes peines pour les petits délits et la construction de 20 000 places de prison."
+        },
+        {
+          "page": 151,
+          "quote": "qui demandait « la réalisation de 20 000 places de prison supplémentaires »"
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "justice",
+      "title": "Exécution intégrale des peines et perpétuité réelle",
+      "summary": {
+        "simple": "Les peines prononcées seraient entièrement exécutées et la perpétuité serait réelle.",
+        "normal": "Engagement à ce que les peines prononcées soient intégralement exécutées, y compris les courtes peines pour les petits délits, et instauration de la perpétuité réelle."
+      },
+      "sources": [
+        {
+          "page": 155,
+          "quote": "David Lisnard s’engage à ce que les peines prononcées soient intégralement exécutées, et propose d’instaurer la perpétuité réelle."
+        },
+        {
+          "page": 155,
+          "quote": "Nous instaurerons la perpétuité réelle"
+        },
+        {
+          "page": 155,
+          "quote": "L’écrit antérieur de David Lisnard demandait « l’exécution réelle de courtes peines de prison pour les petits délits »"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Réécrire le droit pénal des mineurs et créer des centres disciplinaires fermés",
+      "summary": {
+        "simple": "La justice des mineurs serait réécrite, avec des centres disciplinaires fermés.",
+        "normal": "Réécriture du code pénal des mineurs, création de centres disciplinaires fermés ; politique pénale nettement plus ferme envers les trafiquants, y compris mineurs."
+      },
+      "sources": [
+        {
+          "page": 156,
+          "quote": "Revoir le code pénal des mineurs, créer des centres disciplinaires fermés, priver les parents irresponsables du soutien de la société."
+        },
+        {
+          "page": 149,
+          "quote": "réécriture du code pénal des mineurs"
+        },
+        {
+          "page": 148,
+          "quote": "La demande de David Lisnard est une politique pénale nettement plus ferme envers les trafiquants, y compris les mineurs trafiquants."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Rendre les parents responsables des délits de leurs enfants mineurs",
+      "summary": {
+        "simple": "Les parents de mineurs délinquants répondraient de leurs actes et paieraient la réparation s'ils en ont les moyens.",
+        "normal": "Les parents de mineurs délinquants répondraient des actes de leurs enfants ; les parents solvables paieraient la réparation."
+      },
+      "sources": [
+        {
+          "page": 156,
+          "quote": "David Lisnard propose que les parents de mineurs délinquants répondent des actes de leurs enfants, et que les parents solvables paient la réparation."
+        },
+        {
+          "page": 156,
+          "quote": "les parents solvables devront payer"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Rétablir la responsabilité des magistrats",
+      "summary": {
+        "simple": "Les magistrats pourraient être tenus responsables de leurs décisions.",
+        "normal": "Rétablissement de la responsabilité des magistrats ; les modalités ne sont pas précisées."
+      },
+      "sources": [
+        {
+          "page": 153,
+          "quote": "Nous rétablirons évidemment la responsabilité des magistrats"
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "justice",
+      "title": "Interdire le Syndicat de la magistrature",
+      "summary": {
+        "simple": "Le Syndicat de la magistrature serait interdit.",
+        "normal": "Interdiction du Syndicat de la magistrature, mesure distincte du rétablissement de la responsabilité des magistrats."
+      },
+      "sources": [
+        {
+          "page": 153,
+          "quote": "David Lisnard propose de rétablir la responsabilité des magistrats, et annonce dans le même discours vouloir interdire le Syndicat de la magistrature."
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "securite",
+      "title": "Retirer logement social et aides sociales aux délinquants et à leurs familles",
+      "summary": {
+        "simple": "Les délinquants, et les familles qui les hébergent, perdraient leur logement social et leurs aides sociales.",
+        "normal": "Retrait du logement social et des aides sociales aux délinquants, trafiquants en tête, et aux familles qui les hébergent ; expulsion des délinquants des HLM systématisée à l'échelle nationale en 2027 ; fin du versement des prestations non contributives à l'étranger."
+      },
+      "sources": [
+        {
+          "page": 154,
+          "quote": "David Lisnard veut frapper le narcotrafic dans ce qui le fait vivre : retirer le logement social et les aides sociales aux délinquants, trafiquants en tête, et aux familles qui les hébergent, mesure qu’il veut systématiser dès 2027."
+        },
+        {
+          "page": 154,
+          "quote": "Je vous confirme ma position et la mesure que nous systématiserons à l’échelle nationale immédiatement en 2027 : l’expulsion des délinquants des HLM."
+        },
+        {
+          "page": 126,
+          "quote": "Le même discours de David Lisnard retire le logement social et les aides sociales aux personnes condamnées pour délinquance, et met fin au versement des prestations non contributives à l’étranger."
+        },
+        {
+          "page": 167,
+          "quote": "on cessera de verser les prestations sociales non contributives aux personnes qui vont vivre à l’étranger"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "schedule": {
+        "effectiveDate": "2027-12-31",
+        "dateOrigin": "estimee",
+        "estimationRule": "Année annoncée par le programme (2027) sans date précise : fin de l'année annoncée retenue."
+      }
+    },
+    {
+      "theme": "securite",
+      "title": "Contrôler les mosquées, renvoyer les imams étrangers prêchant la haine et expulser les islamistes étrangers",
+      "summary": {
+        "simple": "Les mosquées seraient contrôlées et les islamistes étrangers expulsés.",
+        "normal": "Contrôle effectif de toutes les mosquées et fermeture de celles qui seraient à risque, renvoi des imams étrangers prêchant la haine, expulsion des islamistes étrangers et information des maires sur les individus radicalisés."
+      },
+      "sources": [
+        {
+          "page": 150,
+          "quote": "David Lisnard demande dans le même texte le contrôle effectif de toutes les mosquées et la fermeture de celles qui seraient à risque, le renvoi des imams étrangers prêchant la haine, l’expulsion des islamistes étrangers et l’information des maires sur les individus radicalisés."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "securite",
+      "title": "Interdire les signes politico-religieux ostentatoires à l'université, sur les plages et en sortie scolaire",
+      "summary": {
+        "simple": "Pas de signes religieux ostentatoires à l'université, sur les plages ni pour les parents qui accompagnent les sorties scolaires.",
+        "normal": "Interdiction des signes ostentatoires politico-religieux à l'université, sur les plages et pour les parents accompagnateurs de sorties scolaires ; fin des dérogations religieuses pour des examens ou des rendez-vous médicaux."
+      },
+      "sources": [
+        {
+          "page": 150,
+          "quote": "David Lisnard propose d’interdire les signes ostentatoires politico-religieux à l’université, sur les plages et pour les parents accompagnateurs de sorties scolaires, de mettre fin aux dérogations religieuses pour des examens ou des rendez-vous médicaux, et de faire respecter l’égalité entre les hommes et les femmes."
+        },
+        {
+          "page": 150,
+          "quote": "veut interdire les signes politico-religieux ostentatoires à l’université et sur les plages."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "« Une infraction, une sanction » dès la première incivilité",
+      "summary": {
+        "simple": "Chaque infraction serait sanctionnée dès la première fois, même un tag.",
+        "normal": "Principe « une infraction, une sanction », appliqué de façon proportionnée dès les plus petites incivilités ; pour les mineurs violents, procédures accélérées et très courtes peines de prison effectives dès la première infraction."
+      },
+      "sources": [
+        {
+          "page": 159,
+          "quote": "Dans son livre, David Lisnard pose un principe, « une infraction, une sanction », à appliquer dès les plus petites incivilités, du tag au crime."
+        },
+        {
+          "page": 159,
+          "quote": "Pour les mineurs violents, il ajoute l’accélération des procédures et l’effectivité de très courtes peines de prison dès la première infraction."
+        },
+        {
+          "page": 159,
+          "quote": "La sanction sera réelle et immédiate."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "justice",
+      "title": "Mise en concurrence des écoles de magistrature et expérience professionnelle préalable pour juger",
+      "summary": {
+        "simple": "Les futurs juges devraient avoir travaillé avant, et les écoles de magistrats seraient mises en concurrence.",
+        "normal": "Compétition entre les écoles de magistrature et exigence d'une expérience professionnelle préalable avant de juger."
+      },
+      "sources": [
+        {
+          "page": 160,
+          "quote": "David Lisnard propose de la compétition entre les écoles de magistrature et une expérience professionnelle préalable avant de juger."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "international",
+      "title": "Augmenter le budget de la défense et financer un système de combat aérien souverain",
+      "summary": {
+        "simple": "Plus de budget pour la défense, et un système de combat aérien souverain.",
+        "normal": "Augmentation du budget de la défense, jugée incontournable ; financement d'un système de combat aérien souverain (appareil, drones, cloud de combat, capteurs) intégré à la dissuasion nucléaire, à partir du Rafale F5 et de son drone de combat."
+      },
+      "sources": [
+        {
+          "page": 158,
+          "quote": "Interrogé sur l’état des finances publiques, il affirme qu’il faut augmenter le budget de la défense et que c’est incontournable."
+        },
+        {
+          "page": 158,
+          "quote": "La priorité n'est donc pas de pleurer un programme mal conçu dès l'origine, mais d'assumer et de financer notre propre système de combat aérien souverain."
+        },
+        {
+          "page": 158,
+          "quote": "La guerre moderne exige selon lui un système complet : l’appareil, ses drones, son cloud de combat et ses capteurs, intégrés à la dissuasion nucléaire. Les briques existent déjà en France, avec le Rafale F5 et son drone de combat furtif."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "international",
+      "title": "Soutenir l'Ukraine en produisant et en livrant des armes",
+      "summary": {
+        "simple": "La France aiderait l'Ukraine en produisant et en livrant des armes.",
+        "normal": "Soutien à l'Ukraine au nom des intérêts de la France : produire et livrer des armes, passer commande à l'industrie de l'armement, sans entrer dans des escalades verbales."
+      },
+      "sources": [
+        {
+          "page": 162,
+          "quote": "Il défend le droit du peuple ukrainien à disposer de lui-même et demande de produire et de livrer des armes, sans se laisser entraîner dans des escalades verbales."
+        },
+        {
+          "page": 162,
+          "quote": "il est temps de passer commande"
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "institutions",
+      "title": "Inscrire la subsidiarité ascendante comme principe",
+      "summary": {
+        "simple": "L'échelon le plus proche des habitants déciderait d'abord ; seul ce qu'il ne peut pas faire remonterait.",
+        "normal": "Inscription de la subsidiarité ascendante comme principe : l'échelon le plus proche décide d'abord et ne transfère à l'échelon supérieur que ce qu'il ne peut pas assumer ; péréquation verticale adossée à des objectifs nationaux d'égalité territoriale plutôt qu'horizontale entre collectivités."
+      },
+      "sources": [
+        {
+          "page": 177,
+          "quote": "propose d’inscrire la subsidiarité ascendante comme principe : l’échelon le plus proche décide d’abord, et ne transfère vers le haut que ce qu’il ne peut pas assumer."
+        },
+        {
+          "page": 177,
+          "quote": "David Lisnard y ajoute la question de la péréquation, qu’il veut verticale et adossée à des objectifs nationaux d’égalité territoriale, plutôt qu’horizontale entre collectivités"
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Refaire entièrement les codes des marchés publics, des impôts et du travail",
+      "summary": {
+        "simple": "Trois gros codes de lois (marchés publics, impôts, travail) seraient entièrement réécrits.",
+        "normal": "Refonte complète, plutôt qu'amendement, de trois codes : les marchés publics, les impôts et le travail (dont les quatre mille pages du Code du travail)."
+      },
+      "sources": [
+        {
+          "page": 179,
+          "quote": "David Lisnard propose de refaire entièrement trois codes plutôt que de les amender : les marchés publics, les impôts et le travail, dont il cite les quatre mille pages."
+        },
+        {
+          "page": 179,
+          "quote": "À la broyeuse, le Code du travail et ses quatre mille pages"
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "education",
+      "title": "Garder un réseau d'établissements publics d'excellence dans chaque ancien canton",
+      "summary": {
+        "simple": "Chaque ancien canton garderait des écoles publiques d'excellence.",
+        "normal": "Maintien d'un réseau d'établissements publics à l'échelle des anciens cantons, avec des internats d'excellence et une élite d'enseignants, pour garder une couverture géographique cohérente ; le reste de l'école serait libéré."
+      },
+      "sources": [
+        {
+          "page": 182,
+          "quote": "On gardera un réseau d’établissements publics à l’échelle des anciens cantons d’excellence, avec des internats d’excellence, avec une élite d’enseignants, pour garder une couverture géographique cohérente. Mais pour tout le reste, on va libérer totalement l’école."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "education",
+      "title": "Faire entrer Samuel Paty au Panthéon",
+      "summary": {
+        "simple": "Samuel Paty, professeur assassiné, entrerait au Panthéon.",
+        "normal": "Entrée de Samuel Paty au Panthéon, présentée comme un hommage national aux enseignants face aux intimidations."
+      },
+      "sources": [
+        {
+          "page": 183,
+          "quote": "David Lisnard demande l’entrée au Panthéon de Samuel Paty, assassiné « pour avoir enseigné la liberté et l’esprit français »."
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "transport",
+      "title": "Supprimer les zones à faibles émissions (ZFE) par une loi",
+      "summary": {
+        "simple": "Les zones à faibles émissions, qui interdisent certaines voitures en ville, seraient supprimées.",
+        "normal": "Suppression des zones à faibles émissions par une loi dès l'arrivée au pouvoir, après la censure d'une première suppression pour cavalier législatif ; une réforme constitutionnelle permettrait de surmonter par référendum les blocages du Conseil constitutionnel."
+      },
+      "sources": [
+        {
+          "page": 191,
+          "quote": "David Lisnard s’engage à supprimer les zones à faibles émissions par une loi dès son arrivée au pouvoir, après la censure d’une première suppression pour cavalier législatif."
+        },
+        {
+          "page": 191,
+          "quote": "La suppression des ZFE censurée pour un cavalier législatif ? Ok, une fois au pouvoir, nous les supprimerons par une loi en bonne et due forme, et au galop."
+        },
+        {
+          "page": 191,
+          "quote": "bloquer la volonté populaire sur les ZFE […] nous pourrons, et ça sera une réforme constitutionnelle, transcender cela par un référendum"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "transport",
+          "section": "vie",
+          "appliesTo": {
+            "field": "mobilite",
+            "op": "eq",
+            "value": "voiture_thermique"
+          },
+          "sentence": {
+            "simple": "Ta voiture pourrait circuler en ville quelle que soit sa vignette Crit'Air.",
+            "normal": "Les zones à faibles émissions seraient supprimées : plus de restriction de circulation liée à la vignette Crit'Air dans ces zones."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "energie",
+      "title": "Neutralité technologique : fixer des objectifs environnementaux sans imposer les moyens",
+      "summary": {
+        "simple": "L'État fixerait des objectifs écologiques sans imposer comment les atteindre.",
+        "normal": "La puissance publique fixerait des objectifs environnementaux atteignables et valoriserait les externalités, sans imposer la technique (toit végétalisé, biocarburant, solaire, nucléaire) ; c'est ce que le candidat appelle la neutralité scientifique."
+      },
+      "sources": [
+        {
+          "page": 189,
+          "quote": "la puissance publique doit fixer des objectifs environnementaux atteignables et valoriser les externalités, sans imposer la technique par laquelle on les atteint. Ne pas prescrire le toit végétalisé, le biocarburant, le solaire ou le nucléaire, mais laisser le résultat commander le moyen."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Refuser l'accord UE-Mercosur en l'état",
+      "summary": {
+        "simple": "L'accord commercial avec le Mercosur ne serait pas signé tel quel.",
+        "normal": "L'accord entre l'Union européenne et le Mercosur est jugé « pas signable » en l'état, au nom des éleveurs et du refus des distorsions de concurrence."
+      },
+      "sources": [
+        {
+          "page": 188,
+          "quote": "En janvier 2026, David Lisnard juge l’accord avec le Mercosur « pas signable » en l’état, car « on ne peut pas sacrifier nos éleveurs »."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Crédit d'impôt recherche au sein des exploitations agricoles",
+      "summary": {
+        "simple": "Les exploitations agricoles pourraient bénéficier du crédit d'impôt recherche.",
+        "normal": "Extension du crédit d'impôt recherche au sein même des exploitations agricoles, parmi d'autres propositions agricoles."
+      },
+      "sources": [
+        {
+          "page": 188,
+          "quote": "un statut d’exploitation simplifié et le crédit d’impôt recherche au sein même des exploitations"
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "loi_de_finances"
+    }
+  ]
+}

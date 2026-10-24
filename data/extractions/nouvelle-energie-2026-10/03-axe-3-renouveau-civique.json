@@ -4,7 +4,7 @@
       "theme": "education",
       "title": "Autonomie des chefs d'établissement pour recruter et évaluer les enseignants",
       "summary": {
-        "simple": "Les directeurs d'école et de collège recruteraient leurs enseignants, mieux payés en échange de travail en plus.",
+        "simple": "Les chefs d'établissement recruteraient leurs enseignants ; le métier serait revalorisé en échange de travail ou de formation en plus.",
         "normal": "Les chefs d'établissement du premier et du second degré pourraient recruter et évaluer les enseignants, appliquer leurs méthodes, gérer leur budget et refuser les élèves qui nuisent au collectif, en contrepartie d'une évaluation publique des résultats ; les enseignants choisiraient leur établissement ; revalorisation financière du métier en contrepartie de travail ou de formation complémentaires."
       },
       "sources": [
@@ -19,6 +19,10 @@
         {
           "page": 9,
           "quote": "Cela passe par la liberté donnée aux chefs d’établissement de recruter leurs équipes pédagogiques, d’appliquer leurs méthodes, de gérer leur budget, de refuser les élèves qui nuisent au collectif. Cette autonomie sera la contrepartie d’une évaluation publique des résultats, menée avec rigueur et clarté."
+        },
+        {
+          "page": 182,
+          "quote": "Les chefs d'établissement doivent décider qui ils acceptent en prof en enseignant. Les enseignants doivent pouvoir décider leur statut privé ou public et où ils vont enseigner"
         }
       ],
       "precision": "partielle",
@@ -47,6 +51,10 @@
         {
           "page": 46,
           "quote": "Supprimer la carte scolaire sur trois ans."
+        },
+        {
+          "page": 181,
+          "quote": "je vais supprimer la carte scolaire et on va donner la liberté de choix aux parents et le financement public suivra le choix des parents"
         }
       ],
       "precision": "partielle",
@@ -88,6 +96,10 @@
         {
           "page": 7,
           "quote": "L’apprentissage de la littérature française, des langues anciennes, de l’histoire et de la géographie sera rétabli ou renforcé."
+        },
+        {
+          "page": 182,
+          "quote": "Un tronc commun garantirait à chaque Français des connaissances communes, avec les sciences le matin et, l’après-midi, les compétences dites douces : éducation artistique et culturelle, sport, découverte des œuvres."
         }
       ],
       "subMeasures": [
@@ -112,6 +124,10 @@
         {
           "page": 7,
           "quote": "L’efficacité de l’enseignement sera vérifiée par des examens nationaux. Le niveau de chaque école pourra être déterminé de façon objective et transparente."
+        },
+        {
+          "page": 181,
+          "quote": "Ces connaissances seraient vérifiées par des examens nationaux à l’entrée en sixième, en troisième et à la sortie du lycée"
         }
       ],
       "precision": "partielle"
@@ -139,6 +155,10 @@
         {
           "page": 46,
           "quote": "Allocation scolaire mobilisable auprès de l’établissement de son choix, public ou privé sous contrat : le financement public suit l’élève, non l’établissement."
+        },
+        {
+          "page": 181,
+          "quote": "Il faut que le financement public suive le choix des parents, des établissements, que tous les gamins, que tous les parents puissent mettre l’enfant dans l’école qu’ils veulent."
         }
       ],
       "precision": "partielle",
@@ -166,7 +186,7 @@
       "theme": "education",
       "title": "Développer les internats d'excellence et créer des externats d'excellence",
       "summary": {
-        "simple": "Plus de places dans des établissements d'excellence pour les élèves méritants.",
+        "simple": "Plus d'internats d'excellence, et création d'externats d'excellence.",
         "normal": "Développement des internats d'excellence et création d'externats d'excellence, aux mêmes conditions d'encadrement que les internes, pour des élèves rentrant chez eux le soir."
       },
       "sources": [
@@ -227,6 +247,10 @@
         {
           "page": 72,
           "quote": "Départements et régions seront réunis en une cinquantaine de provinces, aux compétences claires et entières sur le modèle de la carte établie en 1947 par Michel Debré"
+        },
+        {
+          "page": 178,
+          "quote": "nous créerons les provinces à la place des départements et des régions"
         }
       ],
       "precision": "partielle",
@@ -285,6 +309,10 @@
         {
           "page": 72,
           "quote": "La subsidiarité cessera d’être un mot abscons pour devenir une règle d’organisation constitutionnelle"
+        },
+        {
+          "page": 174,
+          "quote": "David Lisnard veut transférer aux collectivités un véritable pouvoir réglementaire et le pouvoir d’appliquer les lois, hors du régalien qui reste le monopole de l’État."
         }
       ],
       "precision": "partielle",
@@ -301,6 +329,10 @@
         {
           "page": 7,
           "quote": "Pour le transfert de ressources fiscales induit par celui des compétences de l’Etat, la voie du partage de recettes fiscales nationales sera étudiée."
+        },
+        {
+          "page": 7,
+          "quote": "Les recettes fiscales et autres ressources propres doivent redevenir « une part déterminante de l’ensemble de leurs ressources »."
         }
       ],
       "precision": "floue"
@@ -309,7 +341,7 @@
       "theme": "environnement",
       "title": "Faire de la France le leader « bas carbone » du G20",
       "summary": {
-        "simple": "Objectif : que la France soit le pays du G20 qui émet le moins de carbone.",
+        "simple": "Objectif : faire de la France le leader « bas carbone » du G20.",
         "normal": "Objectif de faire de la France le leader « bas carbone » du G20, en donnant la priorité aux énergies d'avenir, à une taxation de la pollution avec réciprocité internationale et à la recherche sur les nouvelles technologies de l'énergie."
       },
       "sources": [
@@ -329,12 +361,20 @@
       "title": "Fin des dérogations aux énergies renouvelables et relance du nucléaire",
       "summary": {
         "simple": "Plus de nucléaire, et les éoliennes et le solaire soumis aux règles communes.",
-        "normal": "Les projets d'énergies renouvelables rentreraient dans le droit commun (prix de marché, urbanisme) et les sommes économisées seraient réinvesties dans le nucléaire : traitement des déchets par laser, prolongation des réacteurs jusqu'à 60 ans, EPR de nouvelle génération, mini-réacteurs."
+        "normal": "Les projets d'énergies renouvelables rentreraient dans le droit commun (prix de marché, urbanisme) et les sommes économisées seraient réinvesties dans le nucléaire : arrêt du plan de démantèlement, traitement des déchets par laser, prolongation des réacteurs jusqu'à 60 ans, une première série de six EPR de nouvelle génération, mini-réacteurs, recherche sur la quatrième génération et la fusion."
       },
       "sources": [
         {
           "page": 7,
           "quote": "Il faut mettre un terme à cette gabegie en faisant rentrer ces projets dans le droit commun et réinvestir les sommes ainsi économisées dans des projets d’avenir, en particulier les nouvelles technologies nucléaires : recherche et développement des technologies laser pour le traitement des déchets, prolongation de la durée de vie des réacteurs jusqu’à 60 ans, construction d’EPR de nouvelle génération, déploiement de mini-réacteurs nucléaires."
+        },
+        {
+          "page": 190,
+          "quote": "Arrêter le plan de démantèlement, prolonger les réacteurs jusqu’à soixante ans par des investissements de maintenance et de sûreté, engager une première série de six EPR, déployer des mini-réacteurs pour renouveler le parc de première génération, et financer la recherche sur la quatrième génération et la fusion."
+        },
+        {
+          "page": 190,
+          "quote": "engager une première série de construction de six EPR (réacteur pressurisé européen) de nouvelle génération"
         }
       ],
       "precision": "partielle"

@@ -59,6 +59,10 @@
         {
           "page": 70,
           "quote": "Le référendum d’initiative populaire sera vraiment institué et rendu praticable, avec un seuil de signatures atteignable et, au terme du délai, un vote garanti."
+        },
+        {
+          "page": 176,
+          "quote": "Par la mise en place d'un véritable référendum d'initiative populaire. N'ayons pas peur de ce que font les Suisses."
         }
       ],
       "precision": "partielle",
@@ -160,12 +164,16 @@
       "title": "Une intelligence artificielle souveraine au cœur de l'administration",
       "summary": {
         "simple": "L'administration utiliserait une IA maîtrisée par la France pour aller plus vite.",
-        "normal": "L'intelligence artificielle serait au cœur de la performance publique (instruction plus rapide, agents déchargés des tâches répétitives), sans dépendre de puissances étrangères pour les données et les systèmes."
+        "normal": "L'intelligence artificielle serait au cœur de la performance publique (instruction plus rapide, agents déchargés des tâches répétitives), sans dépendre de puissances étrangères pour les données et les systèmes ; l'IA générative se verrait confier l'instruction des dossiers, la vérification des pièces et la rédaction des actes."
       },
       "sources": [
         {
           "page": 73,
           "quote": "Nous les lui donnerons notamment grâce à l’intelligence artificielle, cette technologie de rupture de notre époque, qui doit être au cœur de la performance publique. Elle permet d’instruire plus vite, de décharger les agents des tâches répétitives pour les rendre à leurs missions de terrain. Mais elle ne saurait dépendre de puissances étrangères."
+        },
+        {
+          "page": 92,
+          "quote": "il annonce qu’il confiera à l’IA générative « l'instruction des dossiers, la vérification des pièces, la rédaction des actes », dans un État qui numérise ses démarches"
         }
       ],
       "precision": "floue"

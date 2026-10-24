@@ -15,6 +15,10 @@
         {
           "page": 5,
           "quote": "La suppression de la C3S (Contribution sociale de solidarité au bénéfice de la Sécurité Sociale) et, le cas échéant, de la CVAE (Contribution sur la valeur ajoutée des entreprises au bénéfice des collectivités territoriales) représenterait 11,5 milliards d’euros qui s’ajouteraient à la baisse de 10 milliards déjà prévue par le gouvernement, soit au total une diminution de moitié des impôts de production, de 2% à 1% du PIB."
+        },
+        {
+          "page": 106,
+          "quote": "puis les impôts de production pour 40 milliards, à commencer par la suppression de la C3S"
         }
       ],
       "precision": "precise",
@@ -31,6 +35,10 @@
         {
           "page": 5,
           "quote": "ainsi que la réforme des droits de succession sur les entreprises"
+        },
+        {
+          "page": 119,
+          "quote": "Évidemment que la transmission des entreprises doit être totalement libérée des droits de succession."
         }
       ],
       "precision": "floue",
@@ -70,6 +78,10 @@
         {
           "page": 22,
           "quote": "Mettre en place un compte épargne aléas climatiques et économiques, dans chaque exploitation mobilisable en cas de crise, forme d’assurance par capitalisation"
+        },
+        {
+          "page": 5,
+          "quote": "Le mécanisme pourrait d’ailleurs être étendu à toute forme d’entreprise."
         }
       ],
       "precision": "partielle"
@@ -188,6 +200,10 @@
         {
           "page": 70,
           "quote": "Le principe de précaution sortira de la Constitution ; le principe de responsabilité prendra sa place. La protection de l’environnement relèvera de la loi, c’est-à-dire du débat démocratique."
+        },
+        {
+          "page": 187,
+          "quote": "Il annonce aussi la suppression du principe de précaution, inscrit dans la Constitution en 2005, au profit d’« un principe de responsabilité »."
         }
       ],
       "precision": "partielle",
@@ -305,7 +321,7 @@
       "theme": "retraite",
       "title": "Pension socle par répartition dès 65 ans et minimum vieillesse à 1 000 € par mois",
       "summary": {
-        "simple": "Chaque retraité toucherait une pension de base dès 65 ans, avec un minimum de 1 000 € par mois.",
+        "simple": "Chaque retraité toucherait une pension de base dès 65 ans ; le minimum vieillesse serait fixé à 1 000 € par mois.",
         "normal": "Un socle de pension minimale par répartition serait attribué à tous les retraités sans condition dès 65 ans, complété par un minimum vieillesse de 1 000 euros par mois."
       },
       "sources": [
@@ -374,7 +390,7 @@
       "effects": [
         {
           "ticketLine": "pension",
-          "section": "vie",
+          "section": "portefeuille",
           "appliesTo": {
             "field": "situationPro",
             "op": "in",
@@ -412,7 +428,7 @@
       "theme": "sante",
       "title": "Réforme globale du système de santé : du soin à la santé",
       "summary": {
-        "simple": "Réorganiser la santé autour de la prévention et des besoins des patients.",
+        "simple": "Passer d'un système centré sur le soin à une politique de santé, organisée à partir de la demande plutôt que de l'offre.",
         "normal": "Réforme globale visant à passer du soin à la santé et de l'offre à la demande, en transformant la gouvernance, en renforçant la recherche et en réindustrialisant le secteur de la santé."
       },
       "sources": [
@@ -441,7 +457,7 @@
       "effects": [
         {
           "ticketLine": "impot_revenu",
-          "section": "vie",
+          "section": "portefeuille",
           "appliesTo": {
             "field": "nbEnfants",
             "op": "gte",
@@ -498,12 +514,20 @@
       "title": "Accroître les compétences de police des collectivités territoriales",
       "summary": {
         "simple": "Les polices locales auraient plus de pouvoirs, dont ceux de police judiciaire.",
-        "normal": "Création d'un corps spécifique de police territoriale, attribution de la qualité d'officiers et d'agents de police judiciaire aux polices territoriales, et rôle d'officier du ministère public confié à des officiers de police territoriale."
+        "normal": "Création d'un corps spécifique de police territoriale, attribution de la qualité d'officiers et d'agents de police judiciaire aux polices territoriales, et rôle d'officier du ministère public confié à des officiers de police territoriale. Accès de la police municipale à certains fichiers sous le contrôle du juge ; compétences des gardes champêtres élargies."
       },
       "sources": [
         {
           "page": 6,
           "quote": "Les collectivités territoriales verront donc leurs compétences de police accrues"
+        },
+        {
+          "page": 157,
+          "quote": "Avec l’AMF, nous demandons désormais l’examen rapide du texte de loi sur les polices municipales et les gardes champêtres en élargissant les compétences de ces derniers."
+        },
+        {
+          "page": 163,
+          "quote": "David Lisnard réclame l’accès de la police municipale à certains fichiers, sous le contrôle du juge."
         }
       ],
       "subMeasures": [
@@ -547,6 +571,10 @@
         {
           "page": 6,
           "quote": "Il faut rattraper la moyenne européenne. Pour davantage de lisibilité, le budget de la justice devra être séparé de celui de l’Administration pénitentiaire. Le nombre de greffiers doit correspondre à la réalité de la charge et celui de procureurs être doublé pour une poursuite plus efficace des crimes et délits, ainsi que celui des juges d’application des peines."
+        },
+        {
+          "page": 159,
+          "quote": "Si l'on veut une justice efficace, il faut plus de procureurs, de greffiers, de magistrats, de gardiens de prison."
         }
       ],
       "precision": "partielle",
@@ -664,6 +692,10 @@
         {
           "page": 13,
           "quote": "Fixer des quotas de main-d’œuvre qualifiée"
+        },
+        {
+          "page": 170,
+          "quote": "avec des quotas adaptés aux capacités d’accueil du pays"
         }
       ],
       "precision": "partielle",
@@ -695,6 +727,14 @@
         {
           "page": 6,
           "quote": "La condition pour réaliser cette révolution de la politique d’immigration est de se libérer des contraintes imposées par les juges nationaux en vertu des traités internationaux signés par la France. Cela peut passer par une révision constitutionnelle, par des renégociations de traités internationaux, voire par d’autres dispositifs juridiques à imaginer. Un référendum sera nécessaire."
+        },
+        {
+          "page": 168,
+          "quote": "David Lisnard propose un référendum sur l’immigration, et pose d’abord la condition qui le rend possible : élargir le champ de l’article 11 de la Constitution."
+        },
+        {
+          "page": 166,
+          "quote": "comment on remaîtrise les flux migratoires, ça veut dire des référendums"
         }
       ],
       "precision": "partielle",

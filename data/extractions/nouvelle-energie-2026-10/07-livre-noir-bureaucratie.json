@@ -53,6 +53,14 @@
         {
           "page": 72,
           "quote": "L’État sera rendu à ses missions régaliennes : la sécurité, la justice, la défense, la diplomatie. Les agences redondantes seront supprimées."
+        },
+        {
+          "page": 132,
+          "quote": "Il vise la strate née de la multiplication récente, et cite nommément les directions régionales de l’environnement, les directions départementales des territoires et de la mer, et les agences régionales de santé."
+        },
+        {
+          "page": 179,
+          "quote": "Il annonce également la suppression d’une partie des mille cent cinquante-trois organismes d’État recensés par des sources sénatoriales"
         }
       ],
       "precision": "precise",
@@ -92,6 +100,10 @@
         {
           "page": 61,
           "quote": "Elles interdiront la surtransposition des directives européennes. Toute surtransposition devra être justifiée par écrit, soumise au Conseil national d’évaluation des normes, et validée par le Parlement"
+        },
+        {
+          "page": 175,
+          "quote": "on ne surtranspose pas les normes européennes"
         }
       ],
       "precision": "partielle",
@@ -181,6 +193,10 @@
         {
           "page": 60,
           "quote": "Un responsable à la performance publique, directement rattaché au Premier ministre, aura autorité sur tous les ministères"
+        },
+        {
+          "page": 60,
+          "quote": "et réunira une des personnalités du secteur privé, des praticiens, également du secteur public, recrutées pour leur expertise opérationnelle, non pour leur appartenance aux grands corps."
         }
       ],
       "precision": "partielle"
@@ -231,6 +247,10 @@
         {
           "page": 61,
           "quote": "Tout citoyen, toute entreprise, toute association pourra saisir une autorité rattachée au Premier ministre pour contester une norme, une procédure ou un formulaire jugé inutile ou disproportionné. La charge de la preuve sera renversée : ce sera à l’administration de démontrer que la norme est nécessaire, lisible et proportionnée."
+        },
+        {
+          "page": 179,
+          "quote": "si cette règle est reconnue absurde, il y aura une suppression de la règle absurde"
         }
       ],
       "precision": "partielle"
@@ -274,7 +294,7 @@
       "title": "Accords d'entreprise libres de déroger à la durée légale du travail",
       "summary": {
         "simple": "La durée du travail pourrait être fixée par accord d'entreprise, au-dessus ou en dessous de la durée légale.",
-        "normal": "Tout accord d'entreprise pourrait déroger à la durée légale du travail, à la hausse comme à la baisse, dans le respect du repos minimum de onze heures ; heures supplémentaires majorées de 10 % par défaut, sans supplément de charges patronales ; suppression de l'obligation de prendre 12 jours ouvrés consécutifs de congés avant le 31 octobre."
+        "normal": "Tout accord d'entreprise pourrait déroger à la durée légale du travail, à la hausse comme à la baisse, dans le respect du repos minimum de onze heures ; heures supplémentaires majorées de 10 % par défaut, sans supplément de charges patronales ; suppression de l'obligation de prendre 12 jours ouvrés consécutifs de congés avant le 31 octobre. Les salariés qui le souhaitent pourraient travailler davantage et être payés en conséquence (« 37 heures payées 37 »)."
       },
       "sources": [
         {
@@ -284,6 +304,10 @@
         {
           "page": 48,
           "quote": "Supprimer l’obligation légale de prise de 12 jours consécutifs avant le 31 octobre. La prise des congés est organisée par accord entre les parties, dans le respect des minima de repos."
+        },
+        {
+          "page": 112,
+          "quote": "David Lisnard propose de laisser les accords d’entreprise « libérer le temps de travail », en recentrant le Code du travail sur ses principes généraux. Il défend la possibilité, pour les salariés qui le souhaitent, de travailler davantage et d’être payés en conséquence, sur le principe « 37 heures payées 37 »"
         }
       ],
       "precision": "precise",
@@ -480,7 +504,7 @@
       "effects": [
         {
           "ticketLine": "taxe_fonciere",
-          "section": "vie",
+          "section": "portefeuille",
           "appliesTo": {
             "field": "patrimoine",
             "op": "eq",
@@ -615,7 +639,7 @@
       "effects": [
         {
           "ticketLine": "taxe_fonciere",
-          "section": "vie",
+          "section": "portefeuille",
           "appliesTo": {
             "field": "logement",
             "op": "in",
@@ -681,7 +705,7 @@
       "theme": "agriculture",
       "title": "Aligner les zones de non-traitement sur 5 mètres et supprimer la séparation vente-conseil",
       "summary": {
-        "simple": "Des distances d'épandage alignées sur les standards européens.",
+        "simple": "Les zones de non-traitement par pesticides seraient alignées sur le standard européen de 5 mètres.",
         "normal": "Alignement immédiat des zones de non-traitement sur les standards européens (5 mètres), suppression du Conseil stratégique phytosanitaire et de la séparation obligatoire entre vente et conseil."
       },
       "sources": [
@@ -726,7 +750,7 @@
       "effects": [
         {
           "ticketLine": "impot_revenu",
-          "section": "vie",
+          "section": "portefeuille",
           "sentence": {
             "simple": "Tu n'aurais plus à déclarer les intérêts de moins de 50 €.",
             "normal": "En dessous de 50 euros d'intérêts, la banque transmettrait directement l'information au fisc, sans déclaration de ta part."
@@ -1006,7 +1030,7 @@
       "effects": [
         {
           "ticketLine": "pension",
-          "section": "vie",
+          "section": "portefeuille",
           "appliesTo": {
             "field": "situationPro",
             "op": "eq",
@@ -1218,7 +1242,7 @@
       "effects": [
         {
           "ticketLine": "prime_activite",
-          "section": "vie",
+          "section": "portefeuille",
           "sentence": {
             "simple": "Les aides auxquelles tu as droit seraient versées automatiquement.",
             "normal": "Toute prestation dont l'éligibilité est vérifiable sur tes données fiscales et sociales serait versée sans demande."

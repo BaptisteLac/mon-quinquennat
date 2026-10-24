@@ -1,0 +1,517 @@
+{
+  "measures": [
+    {
+      "theme": "finances_publiques",
+      "title": "Baisser la dépense publique de 200 milliards d'euros, objectif 300 milliards",
+      "summary": {
+        "simple": "La dépense publique baisserait de 200 milliards d'euros par an en fin de quinquennat, avec un objectif de 300 milliards.",
+        "normal": "Baisse de la dépense publique de 200 milliards d'euros documentés, soit environ sept points de PIB en fin de quinquennat, avec un objectif de 300 milliards (une publication d'avril 2026 retenait 100 milliards sur le seul train de vie de l'État). Baisse visée de 80 milliards dès la première année. Objectif : dépense publique sous 50 % du PIB en dix ans (57 % aujourd'hui selon le candidat). Répartition annoncée des 200 milliards : 120 milliards rendus aux actifs en salaire net, 40 milliards de baisse des impôts de production, 40 milliards affectés à la dette."
+      },
+      "sources": [
+        {
+          "page": 79,
+          "quote": "David Lisnard présente 200 milliards d’euros de baisse de la dépense publique documentés avec Nouvelle Énergie, soit environ sept points de PIB en fin de quinquennat, et vise 300 milliards ; une publication d’avril 2026 retenait 100 milliards sur le seul train de vie de l’État."
+        },
+        {
+          "page": 96,
+          "quote": "la baisse de dépense publique visée dès la première année"
+        },
+        {
+          "page": 96,
+          "quote": "80 milliards d’euros"
+        },
+        {
+          "page": 113,
+          "quote": "Il annonce pour cela une revue générale des dépenses publiques et 80 milliards d’euros d’économies dès la première année."
+        },
+        {
+          "page": 129,
+          "quote": "David Lisnard veut ramener la dépense publique sous 50 % du PIB en dix ans, contre 57 % aujourd’hui selon lui, soit 200 milliards d’euros d’économies par an obtenues par une réorganisation de l’État plutôt que par des coupes aveugles."
+        },
+        {
+          "page": 125,
+          "quote": "David Lisnard veut baisser la dépense, jamais augmenter l’impôt : 80 milliards d’euros dès la première année, au moins 200 milliards en trajectoire, dont 40 affectés au désendettement."
+        },
+        {
+          "page": 124,
+          "quote": "120 milliards d’euros rendus aux actifs en salaire net, 40 milliards en baisse des impôts de production, à commencer par la suppression de la C3S, et 40 milliards affectés à la dette"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "travail",
+      "title": "Baisser les cotisations pour rendre 120 milliards d'euros en salaire net",
+      "summary": {
+        "simple": "Moins de cotisations sur la fiche de paie : le salaire net augmenterait sans coûter plus à l'employeur.",
+        "normal": "Sur 200 milliards d'euros d'économies, 120 milliards seraient rendus aux actifs en salaire net par la baisse des cotisations, 40 milliards iraient à la baisse des impôts de production et 40 milliards au désendettement ; le gain annoncé varie selon les interventions de 250 à 400 euros net par mois et par salarié."
+      },
+      "sources": [
+        {
+          "page": 107,
+          "quote": "Sur 200 milliards d’euros d’économies documentées, la répartition annoncée est de 120 milliards rendus aux actifs en salaire net, 40 milliards en baisse des impôts de production, à commencer par la suppression de la C3S, et 40 milliards affectés à la dette."
+        },
+        {
+          "page": 79,
+          "quote": "selon les interventions, le gain annoncé va donc de 250 à 400 euros par mois"
+        },
+        {
+          "page": 105,
+          "quote": "En baissant les cotisations, pas en imposant une hausse de salaire. La cotisation supprimée disparaît des deux côtés de la feuille de paie : le salarié touche plus, l’employeur paie moins."
+        },
+        {
+          "page": 113,
+          "quote": "il s’engage à réduire « significativement les cotisations patronales et salariales », pour que l’on puisse « vivre dignement de son travail »"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "salaire_net",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "in",
+            "value": [
+              "salarie_prive",
+              "fonctionnaire"
+            ]
+          },
+          "sentence": {
+            "simple": "Ton salaire net augmenterait grâce à la baisse des cotisations ; le candidat annonce de 250 à 400 € par mois selon ses interventions.",
+            "normal": "La baisse des cotisations rendrait 120 milliards d'euros en salaire net aux actifs ; le gain annoncé par le candidat va de 250 à 400 euros net par mois selon les interventions. Ce montant n'est pas calculé par l'outil."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "retraite",
+      "title": "Désindexer les retraites au-delà d'un seuil et plafonner certains revenus sociaux",
+      "summary": {
+        "simple": "Les pensions au-dessus d'environ 2 000 € par mois ne suivraient plus automatiquement les prix.",
+        "normal": "Parmi les économies finançant la baisse des cotisations : plafonnement de certains revenus sociaux, désindexation des retraites au-delà d'un seuil de l'ordre de 2 000 euros mensuels, et suppression d'organismes publics. Le différentiel dégagé par la désindexation servirait aussi à amorcer un étage de retraite par capitalisation obligatoire et collective."
+      },
+      "sources": [
+        {
+          "page": 105,
+          "quote": "Les pistes citées sont le plafonnement de certains revenus sociaux, la désindexation des retraites au-delà d’un seuil et la suppression d’organismes publics."
+        },
+        {
+          "page": 111,
+          "quote": "plafonnement des revenus sociaux, désindexation des retraites à partir d’un seuil, suppression d’organismes"
+        },
+        {
+          "page": 132,
+          "quote": "Les pistes citées sont le plafonnement de certains revenus sociaux et la désindexation des retraites au-delà d’un seuil, de l’ordre de 2 000 euros mensuels."
+        },
+        {
+          "page": 142,
+          "quote": "Sa réponse est de ne plus indexer les pensions au-delà d’environ 2 000 euros par mois et d’orienter le différentiel vers l’amorçage du nouvel étage."
+        },
+        {
+          "page": 142,
+          "quote": "David Lisnard la veut sous une forme précise : obligatoire et collective, négociée branche par branche, et universelle."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "pension",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "eq",
+            "value": "retraite"
+          },
+          "sentence": {
+            "simple": "Si ta pension dépasse environ 2 000 € par mois, elle pourrait ne plus être revalorisée avec les prix.",
+            "normal": "Les retraites au-delà d'un seuil de l'ordre de 2 000 euros mensuels seraient désindexées ; les modalités exactes ne sont pas précisées."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "fiscalite",
+      "title": "Aligner la CSG des actifs sur celle des inactifs",
+      "summary": {
+        "simple": "Les salariés paieraient la même CSG que les retraités et autres inactifs.",
+        "normal": "Alignement de la CSG des actifs sur celle des inactifs (taux cités de mémoire par le candidat : 9,2 % et 6,6 %), financé par la réduction d'un tiers, puis de moitié, des organismes jugés inutiles."
+      },
+      "sources": [
+        {
+          "page": 79,
+          "quote": "L’alignement de la CSG des actifs sur celle des inactifs, qu’il situe de mémoire à 9,2 % et 6,6 %, serait financé par la réduction d’un tiers, puis de moitié, des organismes qu’il juge inutiles."
+        },
+        {
+          "page": 116,
+          "quote": "Il en fait l’une de ses premières mesures, un alignement par la baisse financé par la réduction de moitié, d’abord d’un tiers, d’organismes publics qu’il juge inutiles."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "salaire_net",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "in",
+            "value": [
+              "salarie_prive",
+              "fonctionnaire",
+              "independant"
+            ]
+          },
+          "sentence": {
+            "simple": "Ta CSG serait alignée sur celle des inactifs, cités à 6,6 % contre 9,2 % pour les actifs.",
+            "normal": "La CSG des actifs serait alignée sur celle des inactifs ; le candidat cite de mémoire 9,2 % et 6,6 %. L'effet sur le salaire n'est pas calculé tant que le taux retenu n'est pas fixé."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "fiscalite",
+      "title": "Taxe « par clic » sur les livraisons à domicile, au profit du commerce de proximité",
+      "summary": {
+        "simple": "Les livraisons à domicile du commerce en ligne seraient taxées pour baisser les impôts locaux des magasins.",
+        "normal": "Taxe forfaitaire « par clic » sur chaque livraison à domicile du commerce à distance (points relais et retrait en magasin exonérés), dont le produit financerait un abattement de fiscalité locale pour les magasins de détail, opération neutre pour les collectivités."
+      },
+      "sources": [
+        {
+          "page": 109,
+          "quote": "Il propose donc une taxe forfaitaire « par clic » sur chaque livraison à domicile, dont seraient exonérés les points relais et le retrait en magasin, et d’en affecter le produit à un abattement de fiscalité locale pour les magasins de détail, une opération neutre pour les collectivités."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "tva",
+          "section": "portefeuille",
+          "sentence": {
+            "simple": "Une taxe forfaitaire s'appliquerait aux livraisons à domicile d'achats en ligne (pas aux points relais).",
+            "normal": "Chaque livraison à domicile d'un achat à distance supporterait une taxe forfaitaire, hors points relais et retrait en magasin."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "entreprise",
+      "title": "Suspendre l'obligation de facturation électronique",
+      "summary": {
+        "simple": "L'obligation de facturation électronique serait suspendue.",
+        "normal": "Suspension en urgence de l'obligation de facturation électronique, demandée en août 2026 pour protéger les entrepreneurs, notamment les TPE, artisans et commerçants."
+      },
+      "sources": [
+        {
+          "page": 109,
+          "quote": "En premier lieu, David Lisnard vise la facturation électronique obligatoire. En août 2026, il demande de la suspendre en urgence"
+        },
+        {
+          "page": 109,
+          "quote": "Nous devons protéger les entrepreneurs face à ces risques et suspendre en urgence l'obligation de la facturation électronique au 1er septembre."
+        },
+        {
+          "page": 109,
+          "quote": "une TPE, un artisan ou un commerçant doivent choisir parmi plus de 140 plateformes privées payantes"
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "energie",
+      "title": "Suspendre pendant six mois les certificats d'économies d'énergie sur les carburants",
+      "summary": {
+        "simple": "Faire baisser le prix à la pompe en suspendant pendant six mois les certificats d'économies d'énergie (CEE).",
+        "normal": "Suspension pendant six mois de l'obligation des certificats d'économies d'énergie (CEE) sur les carburants, soit selon le candidat 17 centimes par litre, présentée comme une baisse immédiate pour tous et sans incidence budgétaire."
+      },
+      "sources": [
+        {
+          "page": 107,
+          "quote": "Depuis des mois, pour faire baisser le prix du carburant pendant la crise, je propose la suspension provisoire des certificats d’économies d’énergie, les CEE. […] Suspendre provisoirement les CEE ferait baisser le prix à la pompe immédiatement et pour tous, sans creuser le déficit"
+        },
+        {
+          "page": 115,
+          "quote": "David Lisnard propose de suspendre pendant six mois l’obligation des certificats d’économies d’énergie sur les carburants, soit selon lui 17 centimes par litre, une baisse immédiate pour tous et sans incidence budgétaire."
+        }
+      ],
+      "precision": "precise",
+      "effects": [
+        {
+          "ticketLine": "transport",
+          "section": "vie",
+          "appliesTo": {
+            "field": "mobilite",
+            "op": "eq",
+            "value": "voiture_thermique"
+          },
+          "sentence": {
+            "simple": "Le prix du carburant baisserait pendant six mois ; le candidat chiffre la baisse à 17 centimes par litre.",
+            "normal": "La suspension pendant six mois des certificats d'économies d'énergie ferait baisser le litre de carburant de 17 centimes selon le candidat ; ce montant n'est pas calculé par l'outil."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "entreprise",
+      "title": "Rétablir la liberté d'implantation industrielle",
+      "summary": {
+        "simple": "Implanter une usine serait plus libre : des contrôles après coup plutôt que des autorisations préalables.",
+        "normal": "Rétablissement du « principe de liberté d'implantation industrielle », en privilégiant le contrôle a posteriori sur les autorisations préalables."
+      },
+      "sources": [
+        {
+          "page": 110,
+          "quote": "Il propose de rétablir le « principe de liberté d’implantation industrielle », en privilégiant le contrôle a posteriori sur les autorisations préalables, et de remplacer le principe de précaution par un principe de responsabilité."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "travail",
+      "title": "Travailler le 1er mai pour les volontaires, payé double",
+      "summary": {
+        "simple": "Ceux qui le veulent pourraient travailler le 1er mai, payés double.",
+        "normal": "Maintien du droit de ne pas travailler le 1er mai, tout en permettant à ceux qui le souhaitent de travailler ce jour-là, payé double."
+      },
+      "sources": [
+        {
+          "page": 112,
+          "quote": "il défend le maintien du droit de ne pas travailler le 1er mai, tout en permettant à « ceux qui veulent travailler » de le faire, « payé double »."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "temps_travail",
+          "section": "temps",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "eq",
+            "value": "salarie_prive"
+          },
+          "sentence": {
+            "simple": "Tu pourrais choisir de travailler le 1er mai, payé double.",
+            "normal": "Le travail le 1er mai serait possible pour les volontaires, payé double ; le droit de ne pas travailler serait maintenu."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "fiscalite",
+      "title": "Ramener l'impôt sur les sociétés à 20 %, avec une part locale de 0 à 5 %",
+      "summary": {
+        "simple": "Les entreprises paieraient 20 % d'impôt sur les sociétés.",
+        "normal": "Impôt sur les sociétés ramené à 20 %, avec une part variable de 0 à 5 % laissée aux collectivités locales, pour aligner la fiscalité sur celle des voisins européens."
+      },
+      "sources": [
+        {
+          "page": 114,
+          "quote": "« Alléger les impôts de production, ramener l’impôt sur les sociétés à 20 % avec une part variable laissée aux collectivités locales entre 0 et 5 % »"
+        },
+        {
+          "page": 114,
+          "quote": "pour aligner la fiscalité française sur celle des voisins européens et restaurer la compétitivité de l’industrie"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "prestations",
+      "title": "Garantir 500 € d'écart entre le plus faible salaire à temps plein et le plus haut revenu d'assistance",
+      "summary": {
+        "simple": "Travailler à temps plein rapporterait au moins 500 € de plus que ne pas travailler.",
+        "normal": "Engagement que le plus faible salaire à temps plein dépasse d'au moins 500 euros le revenu d'assistance le plus élevé, notamment par la baisse des cotisations et l'alignement à la baisse de la CSG des actifs."
+      },
+      "sources": [
+        {
+          "page": 116,
+          "quote": "David Lisnard s’engage à ce qu’une personne qui travaille à temps plein gagne au moins 500 euros de plus que celle qui ne travaille pas."
+        },
+        {
+          "page": 116,
+          "quote": "l’engagement que le plus faible salaire à temps plein dépasse d’au moins 500 euros le revenu d’assistance le plus élevé"
+        }
+      ],
+      "precision": "precise",
+      "effects": [
+        {
+          "ticketLine": "prime_activite",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "in",
+            "value": [
+              "demandeur_emploi",
+              "sans_activite"
+            ]
+          },
+          "sentence": {
+            "simple": "Un emploi à temps plein rapporterait au moins 500 € de plus que le plus haut revenu d'assistance.",
+            "normal": "Le plus faible salaire à temps plein devrait dépasser d'au moins 500 euros le revenu d'assistance le plus élevé ; les modalités de calcul ne sont pas précisées."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "travail",
+      "title": "Allocations chômage dégressives et formation des demandeurs d'emploi",
+      "summary": {
+        "simple": "Les allocations chômage baisseraient avec le temps, avec plus de formation.",
+        "normal": "Dégressivité des allocations chômage, associée à une vraie formation et à un soutien de terrain pour les demandeurs d'emploi en difficulté ; assurance chômage « simple, équitable, efficace »."
+      },
+      "sources": [
+        {
+          "page": 117,
+          "quote": "David Lisnard est favorable à la dégressivité des allocations chômage, associée à une vraie formation des demandeurs d’emploi en difficulté."
+        },
+        {
+          "page": 117,
+          "quote": "Dégressivité, et puis parallèlement renforcer la vraie formation des personnes en difficulté et soutenir sur le terrain les personnes qui galèrent."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Réindustrialiser par la règle des « six F »",
+      "summary": {
+        "simple": "Faciliter l'industrie : foncier, énergie, démarches, formation, financement, fiscalité.",
+        "normal": "Règle des « six F » pour réindustrialiser : libérer le foncier, les flux énergétiques, les formalités administratives, la formation, les fonds financiers et la fiscalité."
+      },
+      "sources": [
+        {
+          "page": 118,
+          "quote": "Pour réindustrialiser la France, nous appliquerons avec Nouvelle Énergie la règle des “six F”, qui consiste à libérer : le foncier, les flux énergétiques, les formalités administratives, la formation, les fonds financiers, la fiscalité."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "fiscalite",
+      "title": "Alléger les droits de succession : taux marginal à 20 % et transmission d'entreprise exonérée",
+      "summary": {
+        "simple": "Moins d'impôt sur l'héritage, et plus du tout pour transmettre une entreprise.",
+        "normal": "Transmission des entreprises totalement libérée des droits de succession ; barème allégé avec un taux marginal supérieur ramené à 20 % et des abattements unifiés quel que soit le lien de parenté (un grand-parent pourrait transmettre 100 000 euros sans impôt à ses petits-enfants)."
+      },
+      "sources": [
+        {
+          "page": 119,
+          "quote": "David Lisnard veut libérer totalement la transmission des entreprises des droits de succession et juge confiscatoire la fiscalité de l’héritage. Son livre estime qu’un débat sur sa suppression « ne serait pas incongru » et propose au minimum un barème fortement allégé, un taux marginal ramené à 20 % et des abattements unifiés, quel que soit le lien de parenté."
+        },
+        {
+          "page": 119,
+          "quote": "Un grand-parent pourrait ainsi transmettre jusqu’à 100 000 euros en franchise d’impôt à ses petits-enfants"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "succession",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "patrimoine",
+            "op": "in",
+            "value": [
+              "100k_1m",
+              "plus_1m"
+            ]
+          },
+          "sentence": {
+            "simple": "Les droits de succession baisseraient, avec un taux maximal de 20 %.",
+            "normal": "Le barème des droits de succession serait allégé (taux marginal à 20 %, abattements unifiés) ; l'effet n'est pas calculé tant que les tranches ne sont pas publiées."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "prestations",
+      "title": "Regrouper toutes les aides sociales en une allocation unique plafonnée",
+      "summary": {
+        "simple": "Toutes les aides sociales seraient fusionnées en une seule, plafonnée.",
+        "normal": "Regroupement de l'ensemble des aides sociales en une allocation unique plafonnée à un pourcentage du SMIC (non précisé)."
+      },
+      "sources": [
+        {
+          "page": 126,
+          "quote": "David Lisnard propose de regrouper l’ensemble des aides sociales en une allocation unique, plafonnée à un pourcentage du SMIC."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "institutions",
+      "title": "Ne plus remplacer l'ensemble des départs de fonctionnaires",
+      "summary": {
+        "simple": "Une partie des départs de fonctionnaires ne serait pas remplacée, d'abord dans les fonctions administratives.",
+        "normal": "Non-remplacement d'une partie des cinq cent mille départs annuels de la fonction publique, en commençant par les fonctions administratives ; selon la clé de répartition associée, vingt pour cent des économies moderniseraient l'État et financeraient une meilleure rémunération des agents de terrain."
+      },
+      "sources": [
+        {
+          "page": 128,
+          "quote": "David Lisnard propose de ne plus remplacer l’ensemble des cinq cent mille départs annuels de la fonction publique, en commençant par les fonctions administratives."
+        },
+        {
+          "page": 128,
+          "quote": "soixante pour cent reviennent aux actifs en salaire net, vingt pour cent baissent les impôts de production, vingt pour cent modernisent l’État. C’est ce dernier bloc qui doit financer une meilleure rémunération des agents de terrain."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Privatiser France 2 et recentrer l'audiovisuel public",
+      "summary": {
+        "simple": "France 2 serait privatisée et l'audiovisuel public réduit.",
+        "normal": "Recentrage des missions de l'audiovisuel public, fermeture ou réorganisation de certaines chaînes et privatisation de celles qui ont une valeur commerciale, comme France 2 ; privatisations ciblées selon une grille en trois questions."
+      },
+      "sources": [
+        {
+          "page": 121,
+          "quote": "en mai 2026, il demandait d’en recentrer les missions, de fermer ou réorganiser certaines chaînes et d’envisager la privatisation de celles qui ont une valeur commerciale, comme France 2"
+        },
+        {
+          "page": 121,
+          "quote": "Il assume des privatisations ciblées, comme France 2, mais veut recentrer l’État sur le régalien."
+        },
+        {
+          "page": 121,
+          "quote": "David Lisnard applique une grille en trois questions : l’action relève-t-elle vraiment de la puissance publique ? Si oui, peut-elle être confiée au privé par contrat, à condition d’une vraie concurrence ? Sinon, peut-on la faire moins cher ?"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Cesser de subventionner les entreprises pour compenser leurs charges",
+      "summary": {
+        "simple": "Moins d'aides publiques aux entreprises, mais moins de charges et d'impôts à la place.",
+        "normal": "Fin des subventions destinées à compenser les charges des entreprises, remplacées par une baisse directe de la fiscalité et des charges ; suppression des aides superflues."
+      },
+      "sources": [
+        {
+          "page": 131,
+          "quote": "David Lisnard propose de cesser de subventionner les entreprises pour compenser leurs charges, et de baisser directement la fiscalité et les charges à la place."
+        },
+        {
+          "page": 131,
+          "quote": "nous cesserons de subventionner les entreprises pour compenser les charges"
+        },
+        {
+          "page": 113,
+          "quote": "Sa conclusion : supprimer les aides superflues et, « symétriquement », baisser fortement les prélèvements sur les entreprises."
+        }
+      ],
+      "precision": "partielle"
+    }
+  ]
+}

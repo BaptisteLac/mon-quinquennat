@@ -71,6 +71,10 @@
         {
           "page": 9,
           "quote": "Nous proposons une augmentation de 20 % des rémunérations en cinq ans, conditionnée à une réorganisation profonde : autonomie accrue, présence renforcée dans l’établissement, formation continue obligatoire, évaluation régulière."
+        },
+        {
+          "page": 182,
+          "quote": "et des professeurs appelés à devenir « les mieux payés » d’Europe"
         }
       ],
       "precision": "precise",
@@ -182,6 +186,14 @@
         {
           "page": 10,
           "quote": "Il faut ainsi permettre aux communes volontaires d’armer leur police municipale et de disposer d’outils réels : accès aux fichiers, possibilité de verbalisation renforcée, procédures d’amendes forfaitaires délictuelles. Mais cela doit rester une liberté, jamais une obligation."
+        },
+        {
+          "page": 152,
+          "quote": "Il se déclare favorable à son armement."
+        },
+        {
+          "page": 163,
+          "quote": "Mais il s’oppose à un seuil qui rendrait l’armement obligatoire : la police municipale est optionnelle, le choix appartient aux habitants et au débat local."
         }
       ],
       "precision": "partielle",
@@ -213,6 +225,10 @@
         {
           "page": 10,
           "quote": "Face à l’islamisme : désignation claire de l’ennemi idéologique, interdiction des Frères musulmans, contrôle des écoles hors contrat, expulsion des prêcheurs radicaux, interdiction du voile à l’université, campagne républicaine de contre-discours."
+        },
+        {
+          "page": 150,
+          "quote": "Il veut interdire et démanteler les réseaux salafistes et les Frères musulmans, et sanctionner pénalement les parents qui font pression sur les enseignants pour des raisons religieuses ou politiques."
         }
       ],
       "precision": "partielle",
@@ -222,7 +238,7 @@
       "theme": "justice",
       "title": "Supprimer les réductions de peine automatiques et rétablir les peines planchers",
       "summary": {
-        "simple": "Les peines prononcées seraient vraiment exécutées, avec des peines minimales pour les récidivistes.",
+        "simple": "Fin des réductions de peine automatiques, peines minimales pour les récidivistes et sanction dès la première infraction.",
         "normal": "Suppression des réductions de peine automatiques, fin des aménagements dès l'audience, peines planchers pour les récidivistes, sanction systématique dès la première infraction, procédures accélérées, effectifs des juridictions correctionnelles doublés, greffes renforcés et circuit judiciaire dématérialisé."
       },
       "sources": [
@@ -238,13 +254,17 @@
       "theme": "justice",
       "title": "Abaisser la majorité pénale à 16 ans",
       "summary": {
-        "simple": "Les mineurs de 16 ans seraient jugés comme des majeurs.",
+        "simple": "Dès 16 ans, un mineur serait jugé comme un majeur.",
         "normal": "Majorité pénale abaissée à 16 ans, excuse de minorité inversée dès 13 ans, nouveau délit d'instrumentalisation de mineur, internats disciplinaires fermés, comparution immédiate dès 13 ans pour les cas graves, travaux d'intérêt général dès le premier acte délictueux."
       },
       "sources": [
         {
           "page": 10,
           "quote": "Nous voulons abaisser la majorité pénale à 16 ans, inverser le principe de l’excuse de minorité dès 13 ans, créer un nouveau délit d’instrumentalisation de mineur, mettre en place des internats disciplinaires fermés, étendre la comparution immédiate dès 13 ans pour les cas graves, et généraliser les travaux d’intérêt général dès le premier acte délictueux."
+        },
+        {
+          "page": 163,
+          "quote": "de rabaisser l’âge de la responsabilité des mineurs."
         }
       ],
       "precision": "precise",
@@ -312,6 +332,10 @@
         {
           "page": 33,
           "quote": "Permettre le libre accès du patient à tout professionnel compétent (spécialiste, infirmier en pratique avancée, kinésithérapeute…) avec remboursement plein, pour fluidifier les parcours et réduire les délais."
+        },
+        {
+          "page": 137,
+          "quote": "permettre la prescription par les réseaux de pharmaciens, s’appuyer sur les infirmiers en pratique avancée et sur les kinésithérapeutes"
         }
       ],
       "precision": "partielle",
@@ -349,6 +373,14 @@
         {
           "page": 34,
           "quote": "Créer des communautés soignantes locales (ancien canton) responsables de la planification et de la coordination des soins."
+        },
+        {
+          "page": 139,
+          "quote": "Les ARS emploient 9 000 agents pour produire des schémas directeurs déconnectés du terrain. Nous les supprimerons, nous rendrons la présidence des conseils d’administration d’hôpitaux aux maires, et nous confierons l’organisation locale aux préfets et aux élus."
+        },
+        {
+          "page": 139,
+          "quote": "L’économie réalisée sur leurs effectifs servirait à la fois à réduire la dette et à mieux rémunérer les agents publics mal payés"
         }
       ],
       "precision": "partielle",
@@ -404,14 +436,13 @@
         {
           "page": 46,
           "quote": "Supprimer Parcoursup et le remplacer par un système d’affectation fondé sur les résultats scolaires objectifs. Rétablir le libre accès à l’université pour toute filière non contingentée."
+        },
+        {
+          "page": 134,
+          "quote": "La première réponse est quantitative et David Lisnard la formule sans détour : ouvrir les vannes de la formation des médecins."
         }
       ],
       "precision": "precise",
-      "schedule": {
-        "effectiveDate": "2030-01-01",
-        "dateOrigin": "annoncee",
-        "estimationRule": null
-      },
       "effects": [
         {
           "ticketLine": "ecole",
@@ -517,6 +548,10 @@
         {
           "page": 45,
           "quote": "Appliquer aux importations les mêmes exigences normatives qu’aux produits français."
+        },
+        {
+          "page": 188,
+          "quote": "Il propose d’aligner la France sur les normes européennes, d’interdire la surtransposition et d’interdire l’importation en Europe de produits dont la production est interdite sur le sol français"
         }
       ],
       "precision": "partielle"
@@ -692,6 +727,10 @@
         {
           "page": 13,
           "quote": "Exercer des pressions diplomatiques et prendre des mesures de rétorsion à l’égard des pays non-coopératifs (visas, transferts d’argent, aide publique au développement, etc.)"
+        },
+        {
+          "page": 170,
+          "quote": "David Lisnard veut remettre les choses en ordre avec les pays d’origine afin d’obtenir les laissez-passer consulaires indispensables au renvoi de leurs ressortissants"
         }
       ],
       "precision": "partielle"
@@ -707,6 +746,10 @@
         {
           "page": 13,
           "quote": "Traiter les demandes d’asiles au sein de nos consulats à l’étranger"
+        },
+        {
+          "page": 170,
+          "quote": "et externaliser les demandes d’asile, pour éviter qu’un demandeur débouté ne devienne clandestin"
         }
       ],
       "precision": "partielle",
@@ -723,6 +766,10 @@
         {
           "page": 13,
           "quote": "Diviser par huit la délivrance de titres de séjour"
+        },
+        {
+          "page": 166,
+          "quote": "Couper le robinet de l'immigration, la diviser au moins par huit"
         }
       ],
       "precision": "precise"
@@ -829,6 +876,10 @@
         {
           "page": 46,
           "quote": "Supprimer l’AME et la remplacer par une Aide Médicale d’Urgence strictement limitée aux soins vitaux, maladies transmissibles et soins liés à la grossesse. Réaffecter intégralement l’économie réalisée (600 à 900 M€) au renforcement de l’offre en déserts médicaux."
+        },
+        {
+          "page": 167,
+          "quote": "Nous supprimons l’aide médicale d’État"
         }
       ],
       "precision": "precise",
@@ -845,6 +896,10 @@
         {
           "page": 13,
           "quote": "Rétablir le délit de séjour irrégulier"
+        },
+        {
+          "page": 165,
+          "quote": "David Lisnard demande le rétablissement du délit de séjour irrégulier, supprimé fin 2012."
         }
       ],
       "precision": "precise",
@@ -871,12 +926,16 @@
       "title": "Réserver les prestations sociales non contributives aux étrangers résidant depuis cinq ans",
       "summary": {
         "simple": "Les étrangers devraient résider légalement depuis cinq ans pour certaines aides sociales.",
-        "normal": "Les prestations sociales non contributives seraient conditionnées, pour les étrangers, à une résidence régulière en France depuis au moins cinq ans."
+        "normal": "Les prestations sociales non contributives seraient conditionnées, pour les étrangers, à une résidence régulière en France depuis au moins cinq ans. Économie attendue selon le candidat : huit milliards d'euros par an."
       },
       "sources": [
         {
           "page": 13,
           "quote": "Conditionner les prestations sociales non contributives aux étrangers résidant régulièrement sur le territoire national depuis au moins cinq ans"
+        },
+        {
+          "page": 79,
+          "quote": "Exiger cinq ans de résidence en France avant d’ouvrir droit à une allocation non contributive ferait économiser, selon lui, huit milliards d’euros par an."
         }
       ],
       "precision": "precise",
