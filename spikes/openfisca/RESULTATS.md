@@ -24,7 +24,7 @@ Montants produits (€/mois) : impôt sur le revenu (revenus 2025, payé en 2026
 | Écart ≤ 2 % ou ≤ 10 €/mois avec les simulateurs officiels | **oui** : 13 montants relevés sur les simulateurs (prime d'activité ×5, allocations familiales ×5, aides au logement ×3), écart maximal 1,87 € ; impôt sur le revenu identique à l'euro près au code officiel de la DGFiP pour les 5 profils (revenus 2023, dernière année exécutable publiée). |
 | Réforme paramétrique fonctionnelle et testée | **oui** : baisser de 2 points le taux de la 2e tranche baisse l'impôt d'exactement 2 % de la tranche (à l'euro d'arrondi annuel près) ; réforme neutre sans effet ; paramètre hors liste blanche refusé. |
 | Temps de réponse < 2 s pour tous les candidats d'un profil | **oui, de justesse** sur 1 cœur : 1,85 s en médiane dans le cas défavorable (2 candidats sur 8 touchent la prime d'activité). |
-| Hébergement identifié, avec son coût | **oui** : ≈ 28 € HT/mois chez Scaleway Serverless Containers (Paris) pour une instance toujours allumée, ≈ 2 € par 100 000 appels au-delà ; comparaison Cloud Run et Fly.io ci-dessous, tarifs relevés et archivés. |
+| Hébergement identifié, avec son coût | **oui** : Scaleway Serverless Containers (Paris), éteint au repos et réveillé pendant la création du personnage : 0 € jusqu'à ≈ 100 000 calculs par mois, ≈ 2,2 € par 100 000 au-delà (28,30 € HT/mois si une instance doit rester allumée) ; tarifs relevés et archivés. |
 
 ## Correspondance profil → OpenFisca
 
@@ -86,7 +86,7 @@ Clever Cloud n'affiche ses prix que dans un simulateur interactif : non relevé.
 
 Ordre de grandeur : **≈ 30 à 40 €/mois** pendant la campagne pour le service de calcul, la part fixe (instance toujours allumée) dominant ; un pic de 10 appels/s pendant une heure coûte ≈ 0,86 € chez Scaleway (20 instances × 3 600 s × 0,000012 €). Hypothèses : une instance minimale est facturée en continu ; trafic sortant négligeable (réponses JSON de quelques Ko).
 
-Recommandation (à valider, `docs/decisions.md`) : Scaleway Serverless Containers à Paris (hébergeur et données en France, facturation à la seconde, coût fixe prévisible). Alternative moins chère à faible trafic : Cloud Run à la requête.
+Retenu (`docs/decisions.md`) : Scaleway Serverless Containers à Paris **sans instance minimale** (éteint au repos). Le quota gratuit (200 000 vCPU-s et 400 000 GB-s par mois) couvre ≈ 100 000 calculs à 1,85 s ; au-delà ≈ 2,2 € par 100 000. Le démarrage à froid (≈ 13 s) est masqué : le front réveille le service (`/sante`) dès le début de la création du personnage. Instance toujours allumée (28,30 € HT/mois) seulement si le trafic l'exige.
 
 ## Mesures branchées sur le calcul (2026-10-26)
 
@@ -150,7 +150,7 @@ Erreur corrigée : sans l'année des revenus (`ANREV`), le code DGFiP ne calcule
 
 ## Reste à faire pour le feu vert
 
-Rien : les quatre critères sont remplis. Choix de l'hébergeur à valider.
+Rien : les quatre critères sont remplis. À mesurer au déploiement : temps de réveil réel du conteneur.
 
 ## Commandes
 

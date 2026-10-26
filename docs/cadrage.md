@@ -55,6 +55,7 @@ Hypothèse de simulation : l'utilisateur est un électeur français (aucune ques
 ## Architecture
 - Next.js (front + routes API), mesures publiées en JSON statique livré avec le site, Supabase Storage (archives brutes des programmes), service Python OpenFisca, GitHub Actions (pipeline), images OG pour le partage.
 - API sans état : reçoit le profil, renvoie les tickets de **tous** les candidats ; le navigateur affiche ceux choisis.
+- Service de calcul éteint au repos : le front le réveille (`/sante`) dès le début de la création du personnage, pour que les montants soient prêts à l'arrivée sur la frise.
 - Profil, progression et tickets dans le stockage du navigateur. Mesure d'audience sans cookie.
 
 ## Direction artistique
