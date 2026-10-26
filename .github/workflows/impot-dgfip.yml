@@ -35,8 +35,24 @@ jobs:
           repository: MLanguage/mlang
           ref: ${{ env.MLANG_REF }}
           path: mlang
+      - name: Accès réseau (diagnostic)
+        run: |
+          for u in https://gitlab.adullact.net https://archive.softwareheritage.org/api/1/ https://framagit.org; do
+            echo "$u : $(curl -sS -o /dev/null -w '%{http_code}' --max-time 20 "$u" 2>&1 | tail -1)"
+          done
       - name: Sources M de la DGFiP
-        run: git -C mlang submodule update --init ir-calcul
+        run: |
+          rev=$(git -C mlang ls-tree HEAD ir-calcul | awk '{print $3}')
+          if timeout 90 git -C mlang submodule update --init ir-calcul; then
+            echo "ir-calcul: $rev (gitlab.adullact.net)" > mlang/ir-calcul.source
+          else
+            # Forge injoignable : copie archivée par Software Heritage.
+            rm -rf mlang/ir-calcul
+            used=$(python3 spikes/impot-dgfip/swh_fetch.py "$rev" mlang/ir-calcul)
+            echo "ir-calcul: $used (archive.softwareheritage.org, origine gitlab.adullact.net/dgfip/ir-calcul ; révision attendue par Mlang : $rev)" > mlang/ir-calcul.source
+          fi
+          cat mlang/ir-calcul.source
+          ls mlang/ir-calcul
       - name: Dépendances système
         run: |
           sudo apt-get update
@@ -57,7 +73,7 @@ jobs:
           rm -rf "$out" && mkdir -p "$out"
           {
             echo "mlang: $MLANG_REF"
-            echo "ir-calcul: $(git -C ir-calcul rev-parse HEAD) ($(git -C ir-calcul log -1 --format=%cd))"
+            cat ir-calcul.source
             echo "annee: $YEAR"
           } > "$out/versions.txt"
           for f in "$GITHUB_WORKSPACE"/spikes/impot-dgfip/cas/*.irj; do
