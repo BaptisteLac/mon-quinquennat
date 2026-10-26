@@ -16,6 +16,8 @@
 #       - "https://…"
 #     include:              # préfixes d'URL suivis ; par défaut, les pages d'entrée
 #       - "https://…"
+#     exclude:              # préfixes jamais collectés (ex. document d'une autre élection)
+#       - "https://…"
 #     render: false         # true si le contenu n'apparaît qu'avec JavaScript
 #     watch: weekly         # passe en daily 6 semaines avant le 1er tour
 #     volatile:             # expressions régulières retirées avant comparaison par la veille :
@@ -63,9 +65,10 @@ candidates:
       include:
         - "https://melenchon2027.fr/programme/"
         - "https://melenchon2027.fr/programme2025/livre/"
-        # PDF de campagne d'octobre 2026 (« Comment nous allons remettre de l'ordre dans les
-        # comptes publics ») ; pas le programme du Nouveau Front populaire de 2024, lié depuis le menu.
-        - "https://melenchon2027.fr/wp-content/uploads/2026/10/"
+      # Les PDF du site liés depuis ces pages sont collectés, sauf le programme du Nouveau Front
+      # populaire de 2024, lié depuis le menu : document d'une autre élection.
+      exclude:
+        - "https://melenchon2027.fr/wp-content/uploads/2026/04/PROGRAMME-FRONT-POPULAIRE.pdf"
       render: true
       watch: weekly
       volatile: []

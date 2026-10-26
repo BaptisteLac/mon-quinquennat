@@ -30,6 +30,7 @@ const Sources = z.object({
       programme: z.object({
         start: z.array(z.string().url()).min(1),
         include: z.array(z.string()).default([]),
+        exclude: z.array(z.string()).default([]),
         render: z.boolean().default(false),
         watch: z.enum(["weekly", "daily"]).default("weekly"),
         volatile: z.array(Volatile).default([]),
@@ -62,6 +63,7 @@ for (const c of sources.candidates.filter((x) => !args.candidate || x.candidateI
   const collectArgs = ["tsx", "scripts/collect.ts", "--corpus", newId, "--candidate", c.candidateId];
   for (const u of c.programme.start) collectArgs.push("--start", u);
   for (const u of c.programme.include) collectArgs.push("--include", u);
+  for (const u of c.programme.exclude) collectArgs.push("--exclude", u);
   if (c.programme.render) collectArgs.push("--render");
   const run = spawnSync("npx", collectArgs, { stdio: "inherit", env: process.env });
   if (run.status !== 0) throw new Error(`Collecte en échec pour ${c.displayName}`);

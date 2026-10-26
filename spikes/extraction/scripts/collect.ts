@@ -28,13 +28,14 @@ const { values: args } = parseArgs({
     candidate: { type: "string" },
     start: { type: "string", multiple: true },
     include: { type: "string", multiple: true, default: [] },
+    exclude: { type: "string", multiple: true, default: [] },
     render: { type: "boolean", default: false },
     "max-pages": { type: "string", default: "200" },
     "delay-ms": { type: "string", default: "1000" },
   },
 });
 if (!args.corpus || !/^[a-z0-9-]+$/.test(args.corpus) || !args.candidate || !args.start?.length) {
-  console.error("Usage : npm run collect -- --corpus <id-en-minuscules> --candidate <c-XX> --start <url> [--include <préfixe>]… [--render]");
+  console.error("Usage : npm run collect -- --corpus <id-en-minuscules> --candidate <c-XX> --start <url> [--include <préfixe>]… [--exclude <préfixe>]… [--render]");
   process.exit(1);
 }
 
@@ -45,6 +46,7 @@ try {
   result = await crawl({
     startUrls: args.start,
     include: args.include,
+    exclude: args.exclude,
     maxPages: Number(args["max-pages"]),
     delayMs: Number(args["delay-ms"]),
     fetcher,

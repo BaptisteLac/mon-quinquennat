@@ -63,6 +63,13 @@ describe("crawl", () => {
     expect(r.externalPdfs).toEqual(["https://ailleurs.example.org/annexe.pdf"]);
   });
 
+  it("ne collecte pas un préfixe exclu, même lié depuis le programme", async () => {
+    const r = await crawl({ startUrls: [`${base}/programme/`], exclude: [`${base}/wp-content/livret.pdf`], fetcher: httpFetcher() });
+    const urls = r.pages.map((p) => p.url.replace(base, ""));
+    expect(urls).not.toContain("/wp-content/livret.pdf");
+    expect(r.excludedLinks.map((u) => u.replace(base, ""))).toContain("/wp-content/livret.pdf");
+  });
+
   it("suit les préfixes ajoutés et respecte la limite de pages", async () => {
     const r = await crawl({ startUrls: [`${base}/programme/`], include: [`${base}/programme/`, `${base}/actualites/`], maxPages: 2, fetcher: httpFetcher() });
     expect(r.pages).toHaveLength(2);

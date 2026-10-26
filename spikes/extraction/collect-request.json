@@ -9,8 +9,10 @@
   ],
   "include": [
     "https://melenchon2027.fr/programme/",
-    "https://melenchon2027.fr/programme2025/livre/",
-    "https://melenchon2027.fr/wp-content/uploads/2026/10/"
+    "https://melenchon2027.fr/programme2025/livre/"
+  ],
+  "exclude": [
+    "https://melenchon2027.fr/wp-content/uploads/2026/04/PROGRAMME-FRONT-POPULAIRE.pdf"
   ],
   "render": true
 }
