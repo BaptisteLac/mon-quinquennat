@@ -27,8 +27,8 @@
           "source": "a_caler_pendant_le_test"
         },
         "prime_activite": {
-          "montant": null,
-          "source": "a_caler_pendant_le_test"
+          "montant": 234,
+          "source": "Simulateur prime d'activité de la CAF (wwwd.caf.fr/wps/portal/caffr/simulateurpa), rempli automatiquement depuis GitHub Actions le 2026-10-26 (run 40307820043) : « le montant de votre Prime d'activité est estimé à : 234 € / mois ». Saisie : seul, sans enfant, locataire, aucune aide au logement, salariée, 1 450 € net social par mois sur les 3 derniers mois. Preuve : profiles/preuves/celibataire-smic-locataire-prime-activite-caf.{txt,png}"
         },
         "aides_logement": {
           "montant": null,

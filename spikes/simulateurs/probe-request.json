@@ -1,8 +1,8 @@
 {
-  "run": 8,
+  "run": 9,
   "targets": [
     {
-      "id": "caf-prime-activite",
+      "id": "pa-couple",
       "url": "https://www.caf.fr/redirect/s/redirect?page=simulateurPa",
       "continueOnError": true,
       "actions": [
@@ -14,7 +14,7 @@
         },
         {
           "fillCss": "#codePostal",
-          "value": "69003"
+          "value": "44400"
         },
         {
           "press": "Tab"
@@ -23,11 +23,8 @@
           "wait": 2000
         },
         {
-          "clickCss": "input[name=revenuDeSolidarite][value=false]"
-        },
-        {
           "fillCss": "#dateDeNaissance",
-          "value": "01/10/1996"
+          "value": "01/10/1986"
         },
         {
           "press": "Tab"
@@ -37,6 +34,165 @@
         },
         {
           "clickCss": "button[name=BCSuivant]"
+        },
+        {
+          "wait": 2000
+        },
+        {
+          "clickCss": "label[for=idCoupleCouple]"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "label[for=idFutureParentN]"
+        },
+        {
+          "clickCss": "label[for=idNbEnfant2]"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "label[for=idProprietaireO]"
+        },
+        {
+          "wait": 1500
+        }
+      ]
+    },
+    {
+      "id": "pa-parent-isole",
+      "url": "https://www.caf.fr/redirect/s/redirect?page=simulateurPa",
+      "continueOnError": true,
+      "actions": [
+        {
+          "click": "Commencer"
+        },
+        {
+          "clickCss": "label[for=idResidentEnFranceO]"
+        },
+        {
+          "fillCss": "#codePostal",
+          "value": "36000"
+        },
+        {
+          "press": "Tab"
+        },
+        {
+          "wait": 2000
+        },
+        {
+          "fillCss": "#dateDeNaissance",
+          "value": "01/10/1990"
+        },
+        {
+          "press": "Tab"
+        },
+        {
+          "clickCss": "label[for=idRevenusO]"
+        },
+        {
+          "clickCss": "button[name=BCSuivant]"
+        },
+        {
+          "wait": 2000
+        },
+        {
+          "clickCss": "label[for=idCoupleSeul]"
+        },
+        {
+          "clickCss": "label[for=idFutureParentN]"
+        },
+        {
+          "clickCss": "label[for=idNbEnfant2]"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "label[for=idProprietaireN]"
+        },
+        {
+          "wait": 1500
+        }
+      ]
+    },
+    {
+      "id": "pa-retraite",
+      "url": "https://www.caf.fr/redirect/s/redirect?page=simulateurPa",
+      "continueOnError": true,
+      "actions": [
+        {
+          "click": "Commencer"
+        },
+        {
+          "clickCss": "label[for=idResidentEnFranceO]"
+        },
+        {
+          "fillCss": "#codePostal",
+          "value": "18200"
+        },
+        {
+          "press": "Tab"
+        },
+        {
+          "wait": 2000
+        },
+        {
+          "fillCss": "#dateDeNaissance",
+          "value": "01/10/1954"
+        },
+        {
+          "press": "Tab"
+        },
+        {
+          "clickCss": "label[for=idRevenusN]"
+        },
+        {
+          "clickCss": "button[name=BCSuivant]"
+        },
+        {
+          "wait": 2000
+        }
+      ]
+    },
+    {
+      "id": "pa-independant",
+      "url": "https://www.caf.fr/redirect/s/redirect?page=simulateurPa",
+      "continueOnError": true,
+      "actions": [
+        {
+          "click": "Commencer"
+        },
+        {
+          "clickCss": "label[for=idResidentEnFranceO]"
+        },
+        {
+          "fillCss": "#codePostal",
+          "value": "75011"
+        },
+        {
+          "press": "Tab"
+        },
+        {
+          "wait": 2000
+        },
+        {
+          "fillCss": "#dateDeNaissance",
+          "value": "01/10/1991"
+        },
+        {
+          "press": "Tab"
+        },
+        {
+          "clickCss": "label[for=idRevenusO]"
+        },
+        {
+          "clickCss": "button[name=BCSuivant]"
+        },
+        {
+          "wait": 2000
         },
         {
           "clickCss": "label[for=idCoupleSeul]"
@@ -51,94 +207,10 @@
           "clickCss": "label[for=idProprietaireN]"
         },
         {
-          "fillCss": "#allocationLogementMoisMoins3",
-          "value": "0"
-        },
-        {
-          "fillCss": "#allocationLogementMoisMoins2",
-          "value": "0"
-        },
-        {
-          "fillCss": "#allocationLogementMoisMoins1",
-          "value": "0"
-        },
-        {
           "clickCss": "label[for=idAllocationAahN]"
         },
         {
-          "clickCss": "label[for=idSituProf4]"
-        },
-        {
-          "fillCss": "#revenusMoisMoins3",
-          "value": "1450"
-        },
-        {
-          "fillCss": "#revenusMoisMoins2",
-          "value": "1450"
-        },
-        {
-          "fillCss": "#revenusMoisMoins1",
-          "value": "1450"
-        },
-        {
-          "fillCss": "#revenuPlacement",
-          "value": "0"
-        },
-        {
-          "fillCss": "#autresRessourcesMoisMoins3",
-          "value": "0"
-        },
-        {
-          "fillCss": "#autresRessourcesMoisMoins2",
-          "value": "0"
-        },
-        {
-          "fillCss": "#autresRessourcesMoisMoins1",
-          "value": "0"
-        },
-        {
-          "clickCss": "button[name=BCSuivant]"
-        },
-        {
-          "wait": 3000
-        }
-      ]
-    },
-    {
-      "id": "caf-logement",
-      "url": "https://www.caf.fr/redirect/s/redirect?page=aidesEtServicesSimuLogement",
-      "continueOnError": true,
-      "actions": [
-        {
-          "click": "Commencer"
-        },
-        {
-          "clickCss": "button:has-text(\"J'ai compris\")"
-        },
-        {
-          "fillCss": "#cpCommune",
-          "value": "36000"
-        },
-        {
-          "wait": 2500
-        },
-        {
-          "press": "ArrowDown"
-        },
-        {
-          "press": "Enter"
-        },
-        {
-          "wait": 1500
-        },
-        {
-          "clickCss": "label[for=lieuResidence_APPARTEMENT_OU_MAISON]"
-        },
-        {
-          "wait": 1500
-        },
-        {
-          "clickCss": "label[for=typeOccupation_LOCATION]"
+          "clickCss": "label[for=idSituProf2]"
         },
         {
           "wait": 1500
