@@ -4,6 +4,9 @@ import {
   describeProfile,
   drawMystery,
   emptyJourney,
+  freshResult,
+  profileKey,
+  startQuinquennat,
   missingStep1,
   missingStep2,
   normalize,
@@ -146,5 +149,35 @@ describe("stockage du parcours", () => {
     saveJourney(emptyJourney(), s);
     clearJourney(s);
     expect(s.data.size).toBe(0);
+  });
+});
+
+describe("résultat et frise", () => {
+  const profile = completeProfile({ ...step1, ...step2 });
+  if (!profile) throw new Error("profil de test incomplet");
+  const versions = { "c-01": "corpus-a" };
+  it("réutilise un résultat seulement pour le même profil et les mêmes versions", () => {
+    const j: Journey = { ...emptyJourney(), profile, resultat: { profileKey: profileKey(profile), versions, tickets: [], calculeLe: new Date().toISOString() } };
+    expect(freshResult(j, profile, versions)).toEqual([]);
+    expect(freshResult(j, { ...profile, age: 35 }, versions)).toBeNull();
+    expect(freshResult(j, profile, { "c-01": "corpus-b" })).toBeNull();
+    expect(freshResult(j, profile, { ...versions, "c-02": "corpus-c" })).toBeNull();
+  });
+  it("la clé du profil ne dépend pas de l'ordre des champs", () => {
+    const reversed = Object.fromEntries(Object.entries(profile).reverse()) as typeof profile;
+    expect(profileKey(reversed)).toBe(profileKey(profile));
+  });
+  it("la clé tient compte des champs imbriqués (année de naissance des enfants)", () => {
+    expect(profileKey({ ...profile, enfants: [{ anneeNaissance: 2021 }] })).not.toBe(profileKey(profile));
+  });
+  it("reprend dans la frise quand elle a été commencée", () => {
+    const j: Journey = { ...emptyJourney(), profile, choix: { candidats: ["c-01"], mystere: false, mystereId: null }, frise: { month: "2028-01" } };
+    expect(resumeStep(j)).toBe("frise");
+  });
+  it("au départ, l'ordre est tiré au sort et le mystère choisi parmi les autres", () => {
+    const reverse = <T,>(xs: readonly T[]) => [...xs].reverse();
+    const c = startQuinquennat(["a", "b", "c", "d"], { candidats: ["a", "b"], mystere: true, mystereId: null }, () => 0, reverse);
+    expect(c.candidats).toEqual(["b", "a"]);
+    expect(["c", "d"]).toContain(c.mystereId);
   });
 });

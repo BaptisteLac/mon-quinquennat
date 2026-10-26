@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { BadgeIcon } from "@/components/BadgeIcon";
 import { FlowTop, formStyles as styles } from "@/components/form/fields";
 import { plural } from "@/lib/format";
-import { completeProfile, MAX_CANDIDATES, mysteryPool, toggleCandidate } from "@/lib/journey";
+import { completeProfile, MAX_CANDIDATES, mysteryPool, startQuinquennat, toggleCandidate } from "@/lib/journey";
 import { STATUS_SHORT, type ProgrammeSummary } from "@/lib/programme-summary";
 import { cryptoRandom, shuffle } from "@/lib/shuffle";
 import { useJourney } from "@/lib/use-journey";
@@ -117,10 +117,19 @@ export function StepCandidats({ programmes }: { programmes: readonly ProgrammeSu
       </button>
 
       <div className={styles.actions}>
-        <span className={styles.primary} aria-disabled="true" role="link">
+        <button
+          type="button"
+          className={styles.primary}
+          aria-disabled={chosen.length === 0}
+          onClick={() => {
+            if (chosen.length === 0) return;
+            // Ordre des programmes et mystère tirés au sort dans le navigateur, au départ de la frise.
+            update((j) => ({ ...j, choix: startQuinquennat(allIds, { ...j.choix, candidats: chosen }, cryptoRandom, shuffle) }));
+            router.push("/quinquennat");
+          }}
+        >
           {label}
-        </span>
-        <p className={styles.missing}>La frise du quinquennat arrive bientôt. Ton choix est gardé sur cet appareil.</p>
+        </button>
       </div>
     </main>
   );

@@ -3,7 +3,8 @@ import { describe, expect, it } from "vitest";
 import { Profile, type Condition } from "@mon-quinquennat/schema";
 import { dataDir, loadProgrammes, type Programme } from "../data";
 import { CalculResponse, fetchCalcul } from "./calc-client";
-import { buildTicket, corpusMismatch, monthsApplied } from "./build";
+import { monthsApplied } from "../term";
+import { buildTicket, corpusMismatch } from "./build";
 import { matches } from "./conditions";
 
 // Réponses réelles du service de calcul (calc/scripts/record_web_fixtures.py) : aucun montant écrit à la main.

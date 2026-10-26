@@ -17,9 +17,11 @@ export interface MeasureCard {
   sourceUrl: string;
   /** « p. 12 » pour un PDF, titre de la page pour une page web. */
   sourceLabel: string;
+  /** Fiche de la mesure (F1). */
+  href: string;
 }
 
-export function toMeasureCard(m: Measure, documents: Readonly<Record<string, SourceDocument>>): MeasureCard {
+export function toMeasureCard(m: Measure, documents: Readonly<Record<string, SourceDocument>>, slug: string): MeasureCard {
   const source = m.sources[0];
   if (!source) throw new Error(`${m.id} sans citation`);
   const doc = documents[source.documentId];
@@ -36,5 +38,6 @@ export function toMeasureCard(m: Measure, documents: Readonly<Record<string, Sou
     quote: source.quote,
     sourceUrl: isPdf ? `${doc.officialUrl}#page=${source.page}` : doc.officialUrl,
     sourceLabel: isPdf ? `p. ${source.page}` : (doc.title ?? "page du site officiel"),
+    href: `/programme/${slug}/${m.id}`,
   };
 }
