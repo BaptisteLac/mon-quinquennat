@@ -1,0 +1,25 @@
+dune build @fmt --auto-promote | true
+echo /home/runner/work/mon-quinquennat/mon-quinquennat/mlang
+/home/runner/work/mon-quinquennat/mon-quinquennat/mlang
+sed -i 's/(version %%VERSION%%)/(version 66f6b37)/' dune-project
+LINKING_MODE= dune build --profile dev
+make --no-print-directory -f /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/Makefile -C /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/ ROOT_DIR=/home/runner/work/mon-quinquennat/mon-quinquennat/mlang remise_a_zero_versionnage
+sed -i 's/(version .*)/(version %%VERSION%%)/' dune-project
+git checkout -- *.opam
+OCAMLRUNPARAM=b dune exec /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/_build/default/src/main.exe -- -A iliad --display_time --debug --precision double --income-year=2024 --comparison_error_margin=0.000001 --mpp_function=enchainement_primitif_interpreteur  --run_test=/home/runner/work/mon-quinquennat/mon-quinquennat/spikes/impot-dgfip/cas/independant-micro-bnc.irj ir-calcul/sources2024m_3_13/tgvI.m ir-calcul/sources2024m_3_13/errI.m ir-calcul/sources2024m_3_13/chap-1.m
+[DEBUG] Reading M files...
+[🕛  0.0 s] [🕛  0.1 s] Parsing: ir-calcul/sources2024m_3_13/tgvI.mParsing: ir-calcul/sources2024m_3_13/tgvI.m[🕛  0.2 s] Parsing: ir-calcul/sources2024m_3_13/chap-1.m[RESULT] Parsing: completed!
+[TIME] 158 ms
+[DEBUG] Elaborating...
+[ERROR] this program has no target
+[ERROR] this program has no target
+Fatal error: exception Utils.Errors.StructuredError(_)
+Raised at Utils__Errors.raise_error in file "src/mlang/utils/errors.ml", line 57, characters 38-77
+Called from M_frontend__Validator.Err.has_no_target in file "src/mlang/m_frontend/validator.ml" (inlined), line 379, characters 25-72
+Called from M_frontend__Validator.proceed in file "src/mlang/m_frontend/validator.ml", line 3473, characters 44-64
+Called from Mlang__Driver.driver in file "src/mlang/driver.ml", line 167, characters 20-68
+Re-raised at Mlang__Driver.driver in file "src/mlang/driver.ml", line 178, characters 4-11
+Called from Mlang__Driver.main in file "src/mlang/driver.ml", line 211, characters 6-12
+Re-raised at Mlang__Driver.main in file "src/mlang/driver.ml", line 215, characters 4-11
+Called from Dune__exe__Main in file "src/main.ml", line 17, characters 9-29
+make: *** [/home/runner/work/mon-quinquennat/mon-quinquennat/mlang/makefiles/mlang.mk:110: test_file] Error 2
