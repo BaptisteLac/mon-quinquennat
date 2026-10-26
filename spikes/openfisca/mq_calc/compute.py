@@ -127,7 +127,8 @@ def compute(
     if "minimum_vieillesse" in want:
         amounts["minimum_vieillesse"] = round(float(sim.calculate("aspa", MONTH)[0]), 2)
     if "allocations_familiales" in want:
-        amounts["allocations_familiales"] = round(float(sim.calculate("af", MONTH)[0]), 2)
+        # Montant versé : net de CRDS (`crds_af` est négatif), comme sur service-public.fr.
+        amounts["allocations_familiales"] = round(float(sim.calculate("af", MONTH)[0] + sim.calculate("crds_af", MONTH)[0]), 2)
     if "aides_logement" in want:
         if profile.logement in ("locataire_prive", "locataire_hlm") and profile.loyerMensuel is None:
             missing["aides_logement"] = "Loyer non renseigné."

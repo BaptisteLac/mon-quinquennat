@@ -112,3 +112,13 @@ def test_la_situation_du_conjoint_est_prise_en_compte():
     built = build(p, {"demandeur": 2500, "conjoint": 1900})
     assert "traitement_indiciaire_brut" in built.situation["individus"]["conjoint"]
     assert not any("Situation du conjoint" in h for h in built.hypotheses)
+
+
+def test_les_allocations_familiales_sont_nettes_de_crds():
+    # Erreur corrigée : OpenFisca donne `af` brut ; service-public.fr affiche le montant versé, net de CRDS.
+    p = profile(situationPro="salarie_prive", revenusNetsMensuels=2000, enfants=[{"anneeNaissance": 2018}, {"anneeNaissance": 2020}])
+    inputs = solve_inputs(p)
+    sim = _simulate(baseline(), build(p, inputs.bruts, inputs.rfr).situation)
+    brut = float(sim.calculate("af", MONTH)[0])
+    net = compute(p, None, inputs).amounts["allocations_familiales"]
+    assert 0 < net < brut
