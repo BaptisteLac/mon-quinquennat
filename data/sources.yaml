@@ -18,5 +18,29 @@
 #       - "https://…"
 #     render: false         # true si le contenu n'apparaît qu'avec JavaScript
 #     watch: weekly         # passe en daily 6 semaines avant le 1er tour
+#     volatile:             # expressions régulières retirées avant comparaison par la veille :
+#       - "…"               # ce qui change sans que le programme change (compteurs, dates de mise à jour)
 
-candidates: []
+candidates:
+  - candidateId: c-01
+    displayName: "David Lisnard"
+    party: "Nouvelle Énergie"
+    status: declaree
+    corpusPrefix: nouvelle-energie
+    programme:
+      start:
+        - "https://www.unenouvelleenergie.fr/notre-programme/"
+        - "https://www.unenouvelleenergie.fr/questions/"
+      include:
+        - "https://www.unenouvelleenergie.fr/notre-programme/"
+        - "https://www.unenouvelleenergie.fr/questions/"
+        - "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/"
+      render: true
+      watch: weekly
+      volatile:
+        - "\\d[\\d\\s]* adhérents( au \\d{1,2}(er)? \\p{L}+ \\d{4})?"
+        - "Mis à jour le \\d{1,2}(er)? \\p{L}+ \\d{4}"
+        - "Prochains rendez-vous : .*"
+        - "(registre des adhésions|base des contacts) de Nouvelle Énergie, \\d{1,2}(er)? \\p{L}+ \\d{4}"
+        - pattern: "^\\d[\\d\\s]*$"
+          url: "https://www.unenouvelleenergie.fr/questions/combien-d-adherents-compte-nouvelle-energie/"

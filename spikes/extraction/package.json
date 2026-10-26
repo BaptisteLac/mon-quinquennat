@@ -10,7 +10,8 @@
     "check-gt": "tsx scripts/check-ground-truth.ts",
     "extract": "tsx scripts/extract.ts",
     "score": "tsx scripts/score.ts",
-    "ingest": "tsx scripts/ingest.ts"
+    "ingest": "tsx scripts/ingest.ts",
+    "veille": "tsx scripts/veille.ts"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^4.0.87",
@@ -20,6 +21,7 @@
     "linkedom": "^0.18.14",
     "playwright-core": "^1.64.1",
     "unpdf": "^1.9.1",
+    "yaml": "^2.9.1",
     "zod": "^3.25.76"
   },
   "devDependencies": {
