@@ -19,6 +19,11 @@ const Action = z.union([
   z.object({ select: z.string(), option: z.string() }),
   z.object({ check: z.string() }),
   z.object({ wait: z.number().int().max(30_000) }),
+  // Ciblage par sélecteur CSS, quand le texte est ambigu (plusieurs « OUI ») ou absent.
+  z.object({ clickCss: z.string() }),
+  z.object({ fillCss: z.string(), value: z.string() }),
+  z.object({ selectCss: z.string(), option: z.string() }),
+  z.object({ press: z.string() }),
 ]);
 type Action = z.infer<typeof Action>;
 
@@ -114,7 +119,16 @@ async function snapshot(
 
 async function act(page: Page, a: Action): Promise<void> {
   if ("wait" in a) return void (await page.waitForTimeout(a.wait));
-  if ("click" in a) {
+  if ("clickCss" in a) {
+    await page.locator(a.clickCss).first().click({ timeout: 15_000 });
+  } else if ("fillCss" in a) {
+    await page.locator(a.fillCss).first().fill(a.value, { timeout: 15_000 });
+  } else if ("selectCss" in a) {
+    const el = page.locator(a.selectCss).first();
+    await el.selectOption({ label: a.option }, { timeout: 5_000 }).catch(() => el.selectOption(a.option, { timeout: 10_000 }));
+  } else if ("press" in a) {
+    await page.keyboard.press(a.press);
+  } else if ("click" in a) {
     const target = page.getByRole("button", { name: a.click }).or(page.getByRole("link", { name: a.click })).or(page.getByText(a.click, { exact: true }));
     await target.first().click({ timeout: 15_000 });
   } else if ("fill" in a) {

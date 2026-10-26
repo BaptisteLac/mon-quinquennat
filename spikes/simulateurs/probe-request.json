@@ -1,20 +1,41 @@
 {
-  "run": 5,
+  "run": 6,
   "targets": [
-    {
-      "id": "impots-ir",
-      "url": "https://simulateur-ir-ifi.impots.gouv.fr/calcul_impot/",
-      "waitUntil": "domcontentloaded",
-      "timeoutMs": 120000,
-      "follow": "2026|simplifi|calcul",
-      "maxFollow": 3
-    },
     {
       "id": "caf-prime-activite",
       "url": "https://www.caf.fr/redirect/s/redirect?page=simulateurPa",
       "actions": [
         {
           "click": "Commencer"
+        },
+        {
+          "clickCss": "#idResidentEnFranceO"
+        },
+        {
+          "fillCss": "#codePostal",
+          "value": "69003"
+        },
+        {
+          "press": "Tab"
+        },
+        {
+          "wait": 2000
+        },
+        {
+          "clickCss": "input[name=revenuDeSolidarite][value=false]"
+        },
+        {
+          "fillCss": "#dateDeNaissance",
+          "value": "01/10/1996"
+        },
+        {
+          "press": "Tab"
+        },
+        {
+          "clickCss": "#idRevenusO"
+        },
+        {
+          "clickCss": "button[name=BCSuivant]"
         }
       ]
     },
@@ -24,14 +45,33 @@
       "actions": [
         {
           "click": "Commencer"
+        },
+        {
+          "clickCss": "button:has-text(\"J'ai compris\")"
+        },
+        {
+          "fillCss": "#cpCommune",
+          "value": "36000"
+        },
+        {
+          "wait": 2500
+        },
+        {
+          "press": "ArrowDown"
+        },
+        {
+          "press": "Enter"
+        },
+        {
+          "clickCss": "#btn-suivant"
         }
       ]
     },
     {
       "id": "service-public-retraite-age",
-      "url": "https://www.service-public.gouv.fr/particuliers/recherche?keyword=%C3%A2ge%20l%C3%A9gal%20de%20d%C3%A9part%20%C3%A0%20la%20retraite",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14043",
       "follow": "vosdroits/F",
-      "maxFollow": 4
+      "maxFollow": 3
     }
   ]
 }
