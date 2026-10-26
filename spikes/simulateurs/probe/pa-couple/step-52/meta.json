@@ -2,7 +2,7 @@
   "requested": null,
   "final": "https://wwwd.caf.fr/wps/portal/caffr/simulateurpa/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_RzNHD2MDYwMPPxDnA0CjS19fQx9HQ3dfQ31w1EVBAQEGgAVBPsGmPs4Gxp4GOhHAaUNcABHA6h-PAqiSLIfUwFB-6PQrLB0czIIDLE08fI29jQGKoIqwGNGJNAN5jjd4GqmX5AbGhphkGUKAOTY6uw!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_NA6AH3020HOTC0Q39ML1MA1GE6=CZ6_NA6AH3020HOTC0Q39ML1MA1GM1=LA0=/",
   "status": null,
-  "title": "Situation du conjoint - Simulateur prime d'activité - CNAF",
+  "title": "Situation de la personne à charge 2 - Simulateur prime d'activité - CNAF",
   "iframes": [
     "https://wwwd.caf.fr/wps/portal/caffr/simulateurpa/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_RzNHD2MDYwMPPxDnA0CjS19fQx9HQ3dfQ31w1EVBAQEGgAVBPsGmPs4Gxp4GOhHAaUNcABHA6h-PAqiSLIfUwFB-6PQrLB0czIIDLE08fI29jQGKoIqwGNGJNAN5jjd4GqmX5AbGhphkGUKAOTY6uw!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_NA6AH3020HOTC0Q39ML1MA1GE6=CZ6_NA6AH3020HOTC0Q39ML1MA1GM1=LA0=/",
     ""
@@ -56,7 +56,7 @@
       "name": "dateNaissance",
       "id": "dateNaissance",
       "value": "01/07/2017",
-      "label": "Date de naissance de votre conjoint(e) format attendu JJ/MM/AAAA Ce champ est obligatoire"
+      "label": "Date de naissance de la personne à charge 2 format attendu JJ/MM/AAAA Ce champ est obligatoire"
     },
     {
       "tag": "button",
@@ -65,22 +65,6 @@
       "id": "",
       "value": "",
       "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "radio",
-      "name": "allocationAah",
-      "id": "idAllocationAahO",
-      "value": "true",
-      "label": "OUI"
-    },
-    {
-      "tag": "input",
-      "type": "radio",
-      "name": "allocationAah",
-      "id": "idAllocationAahN",
-      "value": "false",
-      "label": "NON"
     },
     {
       "tag": "input",
@@ -175,7 +159,7 @@
       "type": "text",
       "name": "revenusSocietes[0].montantBenefice",
       "id": "montantBenefices",
-      "value": "0",
+      "value": "",
       "label": "Montant de ses bénéfices en 2024 Ce champ est obligatoire"
     },
     {
@@ -255,7 +239,7 @@
       "type": "text",
       "name": "revenuPlacement",
       "id": "revenuPlacement",
-      "value": "0",
+      "value": "",
       "label": "Revenus imposables de placement ou du patrimoine pour Année 2024 Ce champ est obligatoire"
     },
     {
@@ -264,7 +248,7 @@
       "name": "revenusTravailleurs[0].autresRessourcesMoisMoins3",
       "id": "autresRessourcesMoisMoins3",
       "value": "",
-      "label": "Autres ressources perçues pour JUIN 2026 Ce champ est obligatoire"
+      "label": "Indemnités chômage pour JUIN 2026 Ce champ est obligatoire"
     },
     {
       "tag": "input",
@@ -272,7 +256,7 @@
       "name": "revenusTravailleurs[0].autresRessourcesMoisMoins2",
       "id": "autresRessourcesMoisMoins2",
       "value": "",
-      "label": "Autres ressources perçues pour JUILLET 2026 Ce champ est obligatoire"
+      "label": "Indemnités chômage pour JUILLET 2026 Ce champ est obligatoire"
     },
     {
       "tag": "input",
@@ -280,7 +264,7 @@
       "name": "revenusTravailleurs[0].autresRessourcesMoisMoins1",
       "id": "autresRessourcesMoisMoins1",
       "value": "",
-      "label": "Autres ressources perçues pour AOÛT 2026 Ce champ est obligatoire"
+      "label": "Indemnités chômage pour AOÛT 2026 Ce champ est obligatoire"
     },
     {
       "tag": "input",
@@ -336,7 +320,7 @@
       "name": "revenusTravailleurs[1].autresRessourcesMoisMoins3",
       "id": "revenusTravailleursAutresRessourcesMoisMoins3",
       "value": "",
-      "label": "Autres ressources perçues pour JUIN 2026 Ce champ est obligatoire"
+      "label": "Indemnités chômage pour JUIN 2026 Ce champ est obligatoire"
     },
     {
       "tag": "input",
@@ -344,7 +328,7 @@
       "name": "revenusTravailleurs[1].autresRessourcesMoisMoins2",
       "id": "revenusTravailleursAutresRessourcesMoisMoins2",
       "value": "",
-      "label": "Autres ressources perçues pour JUILLET 2026 Ce champ est obligatoire"
+      "label": "Indemnités chômage pour JUILLET 2026 Ce champ est obligatoire"
     },
     {
       "tag": "input",
@@ -352,15 +336,7 @@
       "name": "revenusTravailleurs[1].autresRessourcesMoisMoins1",
       "id": "revenusTravailleursAutresRessourcesMoisMoins1",
       "value": "",
-      "label": "Autres ressources perçues pour AOÛT 2026 Ce champ est obligatoire"
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Fermer"
+      "label": "Indemnités chômage pour AOÛT 2026 Ce champ est obligatoire"
     },
     {
       "tag": "button",
@@ -369,6 +345,14 @@
       "id": "",
       "value": "",
       "label": "Fermer dialog d'avertissement Montants non saisis"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer dialog d'avertissement Montant non saisis"
     },
     {
       "tag": "button",

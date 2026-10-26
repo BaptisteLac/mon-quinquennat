@@ -207,7 +207,7 @@
       "type": "text",
       "name": "revenusTravailleurs[0].revenusMoisMoins3",
       "id": "revenusMoisMoins3",
-      "value": "",
+      "value": "1900",
       "label": "Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour JUIN 2026 Ce champ est obligatoire"
     },
     {
@@ -215,7 +215,7 @@
       "type": "text",
       "name": "revenusTravailleurs[0].revenusMoisMoins2",
       "id": "revenusMoisMoins2",
-      "value": "",
+      "value": "1900",
       "label": "Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour JUILLET 2026 Ce champ est obligatoire"
     },
     {
@@ -223,7 +223,7 @@
       "type": "text",
       "name": "revenusTravailleurs[0].revenusMoisMoins1",
       "id": "revenusMoisMoins1",
-      "value": "",
+      "value": "1900",
       "label": "Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour AOÛT 2026 Ce champ est obligatoire"
     },
     {

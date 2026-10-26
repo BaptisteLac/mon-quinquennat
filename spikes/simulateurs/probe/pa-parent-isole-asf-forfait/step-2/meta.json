@@ -1,0 +1,172 @@
+{
+  "requested": null,
+  "final": "https://wwwd.caf.fr/wps/portal/caffr/simulateurpa/!ut/p/z1/lZDBDoIwEES_xS_o1iqEYyUqKlUIEGkvpjFgqlBMJX6_JeGiBox72-zbmckggXIktHyqi2xVo2Vldy6c0546NCAwheCQ-hATj4WYUbxmGB3fgSiKwQIJi9zQxxAAEvYMA0Oh_x8BxF_-38BPf_Fh4a0WEKfebLsjG2KhHhjR4DaDO5hh6aBMN6a2bSadVmnqm69lSc9dx4ibQmnVKlmpR2HQvc6yHK5zxenkBVkNQL0!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_NA6AH3020HOTC0Q39ML1MA1GE6=CZ6_NA6AH3020HOTC0Q39ML1MA1GM1=LA0=/",
+  "status": null,
+  "title": "Accès - Simulateur prime d'activité - CNAF",
+  "iframes": [
+    "https://wwwd.caf.fr/wps/portal/caffr/simulateurpa/!ut/p/z1/lZDBDoIwEES_xS_o1iqEYyUqKlUIEGkvpjFgqlBMJX6_JeGiBox72-zbmckggXIktHyqi2xVo2Vldy6c0546NCAwheCQ-hATj4WYUbxmGB3fgSiKwQIJi9zQxxAAEvYMA0Oh_x8BxF_-38BPf_Fh4a0WEKfebLsjG2KhHhjR4DaDO5hh6aBMN6a2bSadVmnqm69lSc9dx4ibQmnVKlmpR2HQvc6yHK5zxenkBVkNQL0!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_NA6AH3020HOTC0Q39ML1MA1GE6=CZ6_NA6AH3020HOTC0Q39ML1MA1GM1=LA0=/",
+    ""
+  ],
+  "links": [
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=mentionsLegales",
+      "text": "en savoir plus"
+    },
+    {
+      "href": "javascript:void(0);",
+      "text": "Contenu principal de la page"
+    },
+    {
+      "href": "javascript:void(0)",
+      "text": ""
+    },
+    {
+      "href": "javascript:void(0)",
+      "text": ""
+    },
+    {
+      "href": "javascript:void(0)",
+      "text": ""
+    },
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=mentionsLegales",
+      "text": "Mentions légales"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "residentEnFrance",
+      "id": "idResidentEnFranceO",
+      "value": "true",
+      "label": "OUI"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "residentEnFrance",
+      "id": "idResidentEnFranceN",
+      "value": "false",
+      "label": "NON"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "codePostal",
+      "id": "codePostal",
+      "value": "",
+      "label": "Code postal"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "revenuDeSolidarite",
+      "id": "",
+      "value": "true",
+      "label": "Oui, je bénéficie du revenu de solidarité RSO"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "revenuDeSolidarite",
+      "id": "",
+      "value": "false",
+      "label": "Non, je ne bénéficie pas du revenu de solidarité RSO"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "dateDeNaissance",
+      "id": "dateDeNaissance",
+      "value": "",
+      "label": "Date de naissance format attendu JJ/MM/AAAA Ce champ est obligatoire"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "revenusPercus",
+      "id": "idRevenusO",
+      "value": "true",
+      "label": "OUI"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "revenusPercus",
+      "id": "idRevenusN",
+      "value": "false",
+      "label": "NON"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "BCSuivant",
+      "id": "",
+      "value": "Suivant",
+      "label": "Suivant"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "calmois",
+      "id": "calmois",
+      "value": [
+        "0=...",
+        "1=JANVIER",
+        "2=FEVRIER",
+        "3=MARS",
+        "4=AVRIL",
+        "5=MAI",
+        "6=JUIN",
+        "7=JUILLET",
+        "8=AOUT",
+        "9=SEPTEMBRE",
+        "10=OCTOBRE",
+        "11=NOVEMBRE",
+        "12=DECEMBRE"
+      ],
+      "label": ""
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "calyear",
+      "id": "calyear",
+      "value": [],
+      "label": ""
+    }
+  ],
+  "calls": [
+    {
+      "method": "POST",
+      "url": "https://wwwd.caf.fr/wps/rb_bf53223bka?type=js3&sn=v_4_srv_1_sn_10ED37FA66170655E5370AF6BCDBF1CA_perc_100000_ol_0_mul_1_app-3A3f8f7016b9b1835e_1&svrid=1&flavor=post&vi=KJJJEURWPAAMNFBUAUDEFFBOAUJHPUCW-0&modifiedSince=1792414650704&bp=3&app=3f8f7016b9b1835e&crc=3361257370&en=3yk59fmt&end=1",
+      "resourceType": "fetch",
+      "postData": "$a=1%7C6%7C_event_%7C1793012624007%7C_wv_%7CAAI%7C1%7CfIS%7C4413%7CfID%7C1$rId=RID_762300556$rpId=-1608449024$domR=1793012620372$tvn=%2Fwps%2Fportal%2Fcaffr%2Fsimulateurpa%2F!ut%2Fp%2Fz1%2FlZDBDoIwEES_xS_o1iqEYyUqKlUIEGkvpjFgqlBMJX6_JeGiBox72-zbmckggXIktHyqi2xVo2Vldy6c0546NCAwheCQ-hATj4WYUbxmGB3fgSiKwQIJi9zQxxAAEvYMA0Oh_x8BxF_-38BPf_Fh4a0WEKfebLsjG2KhHhjR4DaDO5hh6aBMN6a2bSadVmnqm69lSc9dx4ibQmnVKlmpR2HQvc6yHK5zxenkBVkNQL0!%2Fdz%2Fd5%2FL2dBISEvZ0FBIS9nQSEh%2Fp0%2FIZ7_NA6AH3020HOTC0Q39ML1MA1GE6%3DCZ6_NA6AH3020HOTC0Q39ML1MA1GM1%3DLA0%3D%2F$tvt=1793012619561$tvm=i1%3Bk0%3Bh0$tvtrg=1$w=1280$h=1600$sw=1280$sh=1600$ni=4g|1.55$url=https%3A%2F%2Fwwwd.caf.fr%2Fwps%2Fportal%2Fcaffr%2Fsimulateurpa%2F!ut%2Fp%2Fz1%2FlZDBDoIwEES_xS_o1iqEYyUqKlUIEGkvpjFgqlBMJX6_JeGiBox72-zbmckggXIktHyqi2xVo2Vldy6c0546NCAwheCQ-hATj4WYUbxmGB3fgSiKwQIJi9zQxxAAEvYMA0Oh_x8BxF_-38BPf_Fh4a0WEKfebLsjG2KhHhjR4DaDO5hh6aBMN6a2bSadVmnqm69lSc9dx4ibQmnVKlmpR2HQvc6yHK5zxenkBVkNQL0!%2Fdz%2Fd5%2FL2dBISEvZ0FBIS9nQSEh%2Fp0%2FIZ7_NA6AH3020HOTC0Q39ML1MA1GE6%3DCZ6_NA6AH3020HOTC0Q39ML1MA1GM1%3DLA0%3D%2F$title=Acc%C3%A8s%20-%20Simulateur%20prime%20d%27activit%C3%A9%20-%20CNAF$latC=0$app=3f8f7016b9b1835e$vi=KJJJEURWPAAMNFBUAUDEFFBOAUJHPUCW-0$fId=212619906_51$v=10347260902154543$vID=1793012430104MPOSVMBNLL15B9DGQIFV4T43Q7AEHRT4$rf=https%3A%2F%2Fwwwd.caf.fr%2Fwps%2Fportal%2Fcaffr%2Fsimulateurpa%2F!ut%2Fp%2Fz1%2FlZDBDoIwEES_xS_o1iqEYyUqKlUIEGkvpjFgqlBMJX6_JeGiBox72-zbmckggXIktHyqi2xVo2Vldy6c0546NCAwheCQ-hATj4WYUbxmGB3fgSiKwQIJi9zQxxAAEvYMA0Oh_x8BxF_-38BPf_Fh4a0WEKfebLsjG2KhHhjR4DaDO5hh6aBMN6a2bSadVmnqm69lSc9dx4ibQmnVKlmpR2HQvc6yHK5zxenkBVkNQL0!%2Fdz%2Fd5%2FL2dBISEvZ0FBIS9nQSEh%2Fp0%2FIZ7_NA6AH3020HOTC0Q39ML1MA1GE6%3DCZ6_NA6AH3020HOTC0Q39ML1MA1GM1%3DLA0%3D%2F$time=1793012626012"
+    }
+  ]
+}

@@ -17,24 +17,16 @@ RÉSULTAT
 Situation
 Vous
 informations déjà saisies
-	
-Conjoint(e)
-en cours de saisie
+	Conjoint(e)
+informations déjà saisies
 	Personne 1
-à saisir
-	Personne 2
-à saisir
+informations déjà saisies
+	
+Personne 2
+en cours de saisie
  Les champs signalés par un astérisque sont obligatoires
-Date de naissance de votre conjoint(e) 
+Date de naissance de la personne à charge 2 
 format attendu JJ/MM/AAAA
-La date de naissance doit se trouver avant le 26/10/2010.
-Montants non saisis
-
-Vous n'avez pas saisi les ressources ci-dessous pour votre conjoint(e). Nous considérons que les montants non saisis sont égaux à 0€.
-
-Salaires, indemnités maladie et indemnités paternité/maternité
-Revenus annuels de placement ou du patrimoine
-Autres ressources (indemnités chômage, pensions alimentaires, retraites, pensions, rentes et allocations veuvage)
-Fermer
+ 
 PRECEDENT
 Mentions légales

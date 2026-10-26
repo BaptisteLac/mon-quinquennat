@@ -1,0 +1,1084 @@
+<!DOCTYPE html><html lang="fr" class=""><!-- DEBUT HEAD --><head>
+
+	
+	
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="OWNER" content="CNAF">
+	<meta name="AUTHOR" content="CNAF">
+	
+	
+	
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+	
+
+	<title>Accès - Simulateur prime d'activité - CNAF</title>
+
+	<script async="" src="https://wwwd.caf.fr/18f5227b-e27b-445a-a53f-f845fbe69b40/stormcaster.js"></script><script type="text/javascript" src="/wps/ruxitagentjs_ICANVfqru_10347260902154543.js" data-dtconfig="app=3f8f7016b9b1835e|srtbv=4|owasp=1|featureHash=ICANVfqru|nsfnv=1|rdnt=1|uxrgce=1|bp=3|cuc=3yk59fmt|mel=100000|dpvc=1|ssv=4|lastModification=1792414650704|rvcl=13|tp=500,50,0|srbbv=3|agentUri=/wps/ruxitagentjs_ICANVfqru_10347260902154543.js|reportUrl=/wps/rb_bf53223bka|rid=RID_762300556|rpid=-48362465|domain=caf.fr"></script><link href="/wtd-themeresponsivedesign-web/themes/html/ThemeResponsiveDesign/css/styles.css?id=1792980155991" rel="stylesheet">
+	<link href="/wtd-themeresponsivedesign-web/themes/html/ThemeResponsiveDesign/images/favicon.ico" rel="shortcut icon">
+	
+	<link href="/icf-ressources-statiques-rwd-web/fonts-cnaf/roboto_cnaf.css?id=1792980155991" rel="stylesheet">
+	
+	
+		<link href="/icf-ressources-statiques-rwd-web/StatiquesCaffr/css/bootstrap.css?id=1792980155991" rel="stylesheet">
+		<link href="/icf-ressources-statiques-rwd-web/StatiquesCaffr/css/bootstrap-theme.css?id=1792980155991" rel="stylesheet">
+		<link href="/icf-ressources-statiques-rwd-web/StatiquesCaffr/contraste/css/bootstrap.css?id=1792980155991" rel="stylesheet">
+		<link href="/icf-ressources-statiques-rwd-web/StatiquesCaffr/contraste/css/bootstrap-theme.css?id=1792980155991" rel="stylesheet">
+		
+	
+	
+	<script src="/icf-ressources-statiques-rwd-web/jquery/1.11.2/jquery.min.js"></script>
+	<script src="/icf-ressources-statiques-rwd-web/jquery/ui/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="/icf-ressources-statiques-rwd-web/jquery/ui/jquery-ui.min.css"> 
+	
+	<script src="/icf-ressources-statiques-rwd-web/StatiquesCaffr/js/bootstrap.min.js?id=1792980155991"></script>
+	<script src="/icf-ressources-statiques-rwd-web/StatiquesCaffr/js/headerCnaf.min.js?id=1792980155991"></script>
+	<script>
+		// Surcharge maintienSession pour maintenir aussi la session connect.caf.fr
+		var timeLastMaintienSession;
+		function maintienSession(){
+			var newTime = new Date().getTime();
+			// permet de ne pas refaire l'appel au maintien de session s'il a ete fait il y a moins de 2 secondes
+			if (!timeLastMaintienSession || Math.abs((newTime - timeLastMaintienSession) / 1000) > 2) { 
+				timeLastMaintienSession = newTime;
+				$.ajax({
+					type: "GET",
+					url: "/wps/session/RefreshSession.jsp",
+					success: function(){
+						// ok
+					},
+					error: function() {
+						// ko
+					}
+				});
+				$.ajax({
+					type: "GET",
+					url: "/token/usagers?contexteAppel=caffr&sessionOnly=true",
+					success: function(){
+						// ok
+					},
+					error: function() {
+						// ko
+					}
+				});
+				if(false){
+					setExpirationSessionTimeout(10);
+				}
+			}
+		}
+	</script>
+	<script src="/icfstatiquesangularappli/dist/angular/bowser.js?id=1792980155991"></script>
+	
+	
+	
+	<script>
+    	var contexteAffichageAngular = "Simulateur Prime d'activité";
+    	var pageUniqueName = "fr.caf.page.Caffr.SimulateurPA";
+	</script>
+	
+	<!--[if lt IE 9]>
+		<script src="/icf-ressources-statiques-rwd-web/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="/icf-ressources-statiques-rwd-web/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+<script>var __uzdbm_1 = "af535b71-b574-4190-a6b0-a69e30341362";var __uzdbm_2 = "OWUzYWU3NmItY3B0My00YzRmLWFhY2QtZThjNDA5MmFiMjRkJDIwLjQwLjIyMy4xMjM=";var __uzdbm_3 = "7f9000af535b71-b574-4190-a6b0-a69e303413621-1793012429276333762-005f564b819acfa5daa244";var __uzdbm_4 = "false";var __uzdbm_5 = "uzmx";var __uzdbm_6 = "7fc000a858ebc6-d811-4d44-866b-bb7835d9e9211-1793012428328334710-00b3fbfce4df675089b256";var __uzdbm_7 = "caf.fr";</script> <script>   (function (w, d, e, u, c, g, a, b) {     w["SSJSConnectorObj"] = w["SSJSConnectorObj"] || {       ss_cid: c,       domain_info: "auto",     };     w[g] = function (i, j) {       w["SSJSConnectorObj"][i] = j;     };     a = d.createElement(e);     a.async = true;     if (       navigator.userAgent.indexOf('MSIE') !== -1 ||       navigator.appVersion.indexOf('Trident/') > -1     ) {       u = u.replace("/advanced/", "/advanced/ie/");     }     a.src = u;     b = d.getElementsByTagName(e)[0];     b.parentNode.insertBefore(a, b);   })(     window, document, "script", "https://wwwd.caf.fr/18f5227b-e27b-445a-a53f-f845fbe69b40/stormcaster.js", "cpt5", "ssConf"   );   ssConf("c1", "https://wwwd.caf.fr");   ssConf("c3", "c99a4269-161c-4242-a3f0-28d44fa6ce24");   ssConf("au", "wwwd.caf.fr");   ssConf("cu", "validate.perfdrive.com, ssc"); </script></head>
+		
+			
+		
+		
+				
+		<!-- FIN HEAD -->		
+		<!-- DEBUT BODY -->
+		
+		
+		<body role="document" class=" ">
+		
+			<script>
+				// suppression du cookie userConnectedCaf
+				document.cookie = "userConnectedCaf=; path=/; domain=.caf.fr; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+			</script>
+		
+		 <!--   affichage carousel onBoarding -->
+	     <!-- DEBUT ONBOARDING -->
+		
+		
+					<!-- FIN HEADER -->		
+		
+			<script>
+				var dateExpireCookie = new Date();
+				dateExpireCookie.setTime(dateExpireCookie.getTime() + (24 * 60 * 60 * 1000));
+				document.cookie = "portailVirtuel=caffr; path=/; domain=.caf.fr; expires=" + dateExpireCookie.toGMTString(); 
+			</script>
+		
+			<!-- DEBUT POPUP COOKIE -->
+			<div id="popup-accept-cookies" class="popup-cookies">
+				<div class="popup-content container">
+					<div class="row">
+						<div class="popup-text col-sm-12">
+							<p>En poursuivant votre navigation, vous acceptez l'utilisation de cookies pour améliorer votre navigation, faciliter votre connexion et recueillir des statistiques. <a title="Utilisation de cookies - En savoir plus (Nouvelle Fenêtre)" href="/redirect/s/Redirect?page=mentionsLegales" target="_blank" class="btn not-accept-cookies">en savoir plus</a></p>
+						</div>
+						<div class="popup-buttons col-sm-12">
+							<button class="pull-right agree-button float-end" type="button">OK</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- FIN POPUP COOKIE -->
+			
+			<!-- DEBUT BANDEAU DEGRADE -->
+			<div id="bandeau-accept-degrade" class="bandeau-degrade">
+				<div class="bandeau-content container">
+					<div class="row">
+						<div class="bandeau-text col-sm-12">
+							<p>Attention la navigation en mode privé pourrait provoquer certains dysfonctionnements, merci de quitter ce mode pour profiter pleinement de l'ensemble des services proposés.</p>
+						</div>
+						<div class="bandeau-buttons col-sm-12">
+							<button class="pull-right agree-button not-accept-cookies float-end" type="button">OK</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- FIN BANDEAU DEGRADE -->	
+		 
+			<!-- DEBUT HEADER -->		
+			<!-- pour le simulateur PA, resté ancienne charte non RSL (propriété icfAngular non présente), il y a header/footer simplifiés ,
+				 cela doit resté comme cela jusqu'à la r��criture de l'appli en RSL -->
+			 
+			
+					
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		<header id="theme-header-cnaf" role="banner">
+			
+			<div id="theme-header-content-cnaf" class="affix" style="width: 1280px;">
+				<div class="container">
+					<div class="row">
+						<div class="btn-domaine-cnaf">
+							<img alt="Accueil caf.fr" src="/icf-ressources-statiques-rwd-web/images/logo_caf-fr.png">
+						</div>
+						
+						
+						
+						
+						
+						<div>
+							<div class="separator"></div>
+						</div>
+						
+						<div class="titre-cnaf">
+							
+								<p class="sur-titre-cnaf hidden-xs text-uppercase">
+									MES SERVICES EN LIGNE
+								</p>
+							
+							
+								<p class="sous-titre-cnaf text-uppercase">
+										SIMULATEUR PRIME D'ACTIVITE
+								</p>
+							
+						</div>
+						<span class="btn-logo-cnaf hidden-xs">
+							<img alt="Allocations Familiales" src="/icf-ressources-statiques-rwd-web/images/logoCNAF.gif">
+						</span>
+					</div>
+				</div>
+			</div>
+		</header>
+		 
+
+				
+			<!-- FIN HEADER -->		
+		  
+			
+			<!-- TEST obsolesence des navigateurs  -->
+			<script>
+				if ((bowser.msie && bowser.version < 11)
+	          		|| (bowser.chrome && bowser.version < 26)
+	          		|| (bowser.firefox && bowser.version < 1.5)) {
+	 
+	        		window.location.replace("https://www.caf.fr/navigateur-obsolete.html");
+	    		}
+    		</script>
+			
+			
+			<!-- FIN TEST obsolesence des navigateurs  -->
+			<!-- DEBUT CONTENU -->
+			
+
+
+
+
+
+
+
+
+
+
+<main id="theme-contenu-cnaf" class="   " role="main" style="margin-top: 80px;">
+	
+	<div class="container">
+		<div class="row">
+			<div class="" id="theme-contenu-content-wrapper-cnaf" style="">
+				<div id="theme-contenu-content-cnaf">
+					<a id="theme-contenu-content-link-cnaf" class="sr-only visually-hidden" tabindex="-1" href="javascript:void(0);">Contenu principal de la page</a>
+					
+						
+						
+			                
+						
+					
+	                
+					 
+<div class="layoutRow">
+ 
+<div class="layoutColumn"><a name="Z7_NA6AH3020HOTC0Q39ML1MA1GE6"></a><div class="wpsPortletBody">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- DEBUT barre d'etape-->
+
+	
+
+
+
+
+
+
+
+
+
+
+				<div id="barre-etape-teleprocedure-cnaf" class="affix-top">
+					<div class="container">
+						<div class="row">
+							<ul class="barre-etape-cnaf">
+							
+								<li class="active">
+										
+									<span class="etape-indicateur-cnaf picto picto-acces"></span>
+										
+										
+									<span class="etape-nom-cnaf hidden-xs hidden-sm text-uppercase">Accès</span><span class="sr-only"> phase en cours</span><!-- ajouter class hidden-sm uniquement si plus de 3 éléments -->
+									<span class="etape-nom-cnaf visible-xs visible-sm">&nbsp;</span><!-- ajouter class visible-sm uniquement si plus de 3 éléments -->
+										
+									<span class="etape-etat-cnaf"></span>	
+										
+								</li>																				
+									
+								<li class="inactive">
+										
+									<span class="etape-indicateur-cnaf">1</span>
+										
+										
+									<span class="etape-nom-cnaf hidden-xs hidden-sm text-uppercase">Situation</span><!-- ajouter class hidden-sm uniquement si plus de 3 éléments -->
+									<span class="etape-nom-cnaf visible-xs visible-sm">&nbsp;</span><!-- ajouter class visible-sm uniquement si plus de 3 éléments -->
+										
+								</li>																				
+									
+								<li class="inactive">
+										
+									<span class="etape-indicateur-cnaf">2</span>
+										
+										
+									<span class="etape-nom-cnaf hidden-xs hidden-sm text-uppercase">Résultat</span><!-- ajouter class hidden-sm uniquement si plus de 3 éléments -->
+									<span class="etape-nom-cnaf visible-xs visible-sm">&nbsp;</span><!-- ajouter class visible-sm uniquement si plus de 3 éléments -->
+										
+								</li>																				
+									
+								
+								
+								
+								<li class="barre-etape-information-cnaf hidden-xs invisible">
+									<!-- INFORMATION SIMULATEUR-->
+									
+									<!-- INFORMATION SIMULATEUR-->
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+<!-- FIN barre d'etape-->
+
+<div class="container">
+	<form name="ns_Z7_NA6AH3020HOTC0Q39ML1MA1GE6_SbAcces" method="post" action="/wps/portal/caffr/simulateurpa/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_RzNHD2MDYwMPPxDnA0CjS19fQx9HQ3dfQ31w1EVBAQEGgAVBPsGmPs4Gxp4GOhHAaUNcABHA6h-PAqiSLIfUwFB-6PQrLB0czIIDLE08fI29jQGKoIqwGNGJNAN5jjd4GqmX5AbGhphkGUKAOTY6uw!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_NA6AH3020HOTC0Q39ML1MA1GE6=CZ6_NA6AH3020HOTC0Q39ML1MA1GM1=LA0=/" class="content-jsp-data-cnaf" data-toggle="validator" role="form" data-cnaftype="bootstrap" novalidate="true"> 
+	
+		<!-- Ligne complete formulaire, barre d'etape-->
+		<div class="row">
+			<!-- Colonne 1 avec le formulaire -->
+			<div class="col-sm-12">
+				
+				<!-- Messages d'erreur -->
+					
+				
+				<!-- Formulaire -->
+				
+					
+				
+                 
+<!-- Inclusion des styles, notamment pour ICF (l'inclusion est faite de façon statique à la compilation de la JSP) -->
+
+
+
+
+
+
+
+<!-- Styles pour le framework icf : barre de progression, tableau récapitulatif... -->
+<link href="/wpp-simulateur-web/StatiquesCaffr/stylesScreenCaf.css" rel="stylesheet" type="text/css">
+<link href="/wpp-simulateur-web/StatiquesCaffr/stylesGabaritDefault.css" rel="stylesheet" type="text/css">
+ 
+
+
+<link href="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/styles.css" rel="stylesheet" type="text/css">
+
+<!-- Triches pour IE8 -->
+<!--[if lt IE 9]>
+<script src="/wpp-simulateur-web/js/ie8-hacks.js"></script>
+<![endif]-->
+
+<!-- Fichiers utilitaires communs javascript (JS utils) -->
+<script src="/wpp-simulateur-web/js/utils.js"></script>
+<script src="/wpp-simulateur-web/js/logs.js"></script>
+<script src="/wpp-simulateur-web/js/components-utils.js"></script>
+<script src="/wpp-simulateur-web/js/dynform.js"></script>
+
+<!-- Fichier js dédier aux simulateurs, traitement de bouton cnaf:aide en attendant ADAC -->
+
+
+
+
+
+
+
+<!-- Formulaire de saisie des données -->
+<div class="row">
+	<div class="col-sm-12">
+		<h1 class="filet-cnaf">Accès</h1>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-sm-12">
+		<div id="caf-mandatory-fields" class="control-item">
+			<span style="float: left;">
+				<img class="mandatory" alt="" style="padding-left:20px" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">
+				Les champs signalés par un astérisque sont obligatoires
+			</span>
+		</div>
+	</div>
+</div>
+
+<div class="row" id="cmpResideEnFrance" data-dynform-input=".radResidentEnFrance" data-dynform-choose="getValueRadio('residentEnFrance')" data-dynform-next="#cmpCodePostal" data-dynform-displayed="true" style="display: block;">
+	<div class="col-sm-12">
+		<fieldset>
+			<legend class="label-form-cnaf control-label hide-border">
+				Vous résidez en France
+				<a class="btn btn-info popover-button-cnaf" tabindex="0" role="button" data-toggle="popover" data-container="body" data-id-content-cnaf="idInfoResideEnFrance" data-trigger="manual" data-original-title="" title=""><img class="state-passif" alt="Informations supplémentaires sur la résidence de l'usager." src="/icf-ressources-statiques-rwd-web/images/pic_aide_gris.png"><img class="hidden state-actif" alt="Informations supplémentaires sur la résidence de l'usager." src="/icf-ressources-statiques-rwd-web/images/pic_aide_bleu.png"></a> 
+				
+				<img id="imgResidentEnFrance" class="mandatory" alt="Cette question est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">		
+				<span style="display: none;">Cette question est obligatoire</span>
+			</legend>
+			<!-- PopOver aide cmpResideEnFrance -->
+			<div id="idInfoResideEnFrance" class="hidden">
+				<p>Indiquez si vous vivez en France métropolitaine ou dans les DOM.</p>
+				<p><b>Si vous résidez à l'étranger</b>, veuillez <b>sélectionner <span class="text-primary">NON</span></b>.</p>
+			</div>
+			<div class="btn-group btn-block" data-toggle="buttons" id="residentEnFrance">
+				<label for="idResidentEnFranceO" class="btn btn-default radResidentEnFrance active">
+					<input type="radio" name="residentEnFrance" tabindex="0" value="true" title="Oui je réside en France" id="idResidentEnFranceO" style="">OUI
+				</label>			
+				<label for="idResidentEnFranceN" class="btn btn-default radResidentEnFrance">
+					<input type="radio" name="residentEnFrance" tabindex="0" value="false" title="Non je ne réside pas en France" id="idResidentEnFranceN" style="">NON
+				</label> 
+			</div>
+		</fieldset>
+	</div>
+</div>
+
+<!-- Rajouter une balise englobante si on doit appliquer un hideOnLoad sur le ou les composants 
+sinon il y a un effet de bord avec le framework cnaf. La règle est de ne jamais combiner les classes row et hideOnLoad 
+ensemble (pb liée au content-jsp-data-cnaf) -->
+<div class="hideOnLoad" id="cmpCodePostal" data-dynform-input="#codePostal" data-dynform-errors="#cmpErreurCodePostalFormat #cmpErreurCodePostalInexistant" data-dynform-choose="chooseCodePostal()" data-dynform-if-pasdom="#cmpDateNaissance -#cmpRevenuDeSolidarite -.cmpCodePostalErrors" data-dynform-if-dom="#cmpRevenuDeSolidarite -#cmpDateNaissance -.cmpCodePostalErrors" data-dynform-if-videouexclu="-#cmpRevenuDeSolidarite -#cmpDateNaissance -.cmpCodePostalErrors" data-dynform-if-errformat="-#cmpRevenuDeSolidarite -#cmpDateNaissance -#cmpErreurCodePostalInexistant #cmpErreurCodePostalFormat" data-dynform-if-errinexistant="-#cmpRevenuDeSolidarite -#cmpDateNaissance -#cmpErreurCodePostalFormat #cmpErreurCodePostalInexistant" data-dynform-onhide="clearText('#codePostal')" data-dynform-displayed="true" style="">
+	<div class="row">
+		<div class="col-sm-12">
+			<label class="label-form-cnaf control-label" for="codePostal">
+				Code postal
+				<img id="imgCodePostal" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">	
+			</label>
+			<div class="row">
+				<div class="col-sm-4">
+					<input type="text" name="codePostal" maxlength="5" value="" class="form-control" placeholder="Ex : 43250, 77600..." id="codePostal" style="">
+				</div>
+			</div>
+			<div class="hideOnLoad cmpCodePostalErrors" id="cmpErreurCodePostalFormat" data-dynform-onshow="dynformSetError('#cmpCodePostal', true)" data-dynform-onhide="dynformSetError('#cmpCodePostal', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le code postal doit être composé de 5 caractères.</i></span>
+			</div>
+			<div class="hideOnLoad cmpCodePostalErrors" id="cmpErreurCodePostalInexistant" data-dynform-onshow="dynformSetError('#cmpCodePostal', true)" data-dynform-onhide="dynformSetError('#cmpCodePostal', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le code postal n'existe pas, veuillez le modifier.</i></span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="hideOnLoad" id="cmpRevenuDeSolidarite" data-dynform-input=".radRevenuDeSolidarite" data-dynform-choose="!isEmptyRadio('revenuDeSolidarite')" data-dynform-next="#cmpDateNaissance" data-dynform-onhide="clearRadio('revenuDeSolidarite')" data-dynform-displayed="false" style="display: none;">
+	<!-- Ajout dans data-dynform-events du focus pour réagir en cas de changement de date
+	depuis le composant du framework portal -->
+	<div class="row">
+		<div class="col-sm-12">
+			<fieldset>
+				<legend class="label-form-cnaf control-label hide-border">Vous percevez le revenu de solidarité RSO<br>
+				</legend>
+				<div id="revenuDeSolidarite" class="btn-group btn-block" data-toggle="buttons">
+					<label class="btn btn-default radRevenuDeSolidarite">
+						<input type="radio" name="revenuDeSolidarite" value="true" title="Oui, je bénéficie du revenu de solidarité RSO" style="">OUI
+					</label>
+					<label class="btn btn-default radRevenuDeSolidarite">
+						<input type="radio" name="revenuDeSolidarite" value="false" title="Non, je ne bénéficie pas du revenu de solidarité RSO" style="">NON
+					</label>
+				</div>
+			</fieldset>
+		</div>
+	</div>
+</div>
+<div class="hideOnLoad" id="cmpDateNaissance" data-dynform-input="#dateDeNaissance" data-dynform-eventsadd="focus" data-dynform-errors="#cmpErreurDateNaissanceFormat #cmpErreurDateNaissanceInvalide #cmpErreurDateNaissancePosterieur" data-dynform-choose="chooseDateNaissance()" data-dynform-if-majeur="#cmpRevenusPercus -.cmpDateNaissanceErrors" data-dynform-if-mineur="-#cmpRevenusPercus -.cmpDateNaissanceErrors" data-dynform-if-nonrenseigne="-#cmpRevenusPercus -.cmpDateNaissanceErrors" data-dynform-if-errformat="-#cmpRevenusPercus -#cmpErreurDateNaissanceInvalide -#cmpErreurDateNaissancePosterieur #cmpErreurDateNaissanceFormat" data-dynform-if-errinvalide="-#cmpRevenusPercus -#cmpErreurDateNaissanceFormat -#cmpErreurDateNaissancePosterieur #cmpErreurDateNaissanceInvalide" data-dynform-if-errposterieur="-#cmpRevenusPercus -#cmpErreurDateNaissanceFormat -#cmpErreurDateNaissanceInvalide #cmpErreurDateNaissancePosterieur" data-dynform-onhide="clearText('#dateDeNaissance')" data-dynform-displayed="true" style="">
+	<!-- Ajout dans data-dynform-events du focus pour réagir en cas de changement de date
+	depuis le composant du framework portal -->
+	<div class="row">
+		<div class="col-sm-12">
+			<label class="label-form-cnaf control-label" for="dateDeNaissance">
+				Date de naissance <span class="sr-only">format attendu JJ/MM/AAAA</span>
+				<img id="imgDateNaissance" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="form-group input-group">
+						<input type="text" name="dateDeNaissance" maxlength="10" value="" onclick="cnafShowCalendar(this,2008,10,1,'dd/MM/yyyy','ns_Z7_NA6AH3020HOTC0Q39ML1MA1GE6_SbAcces','dateDeNaissance',event,1900,2028);" class="form-control" data-cnafdate="true" placeholder="jj/mm/aaaa" id="dateDeNaissance" style=""> <span class="input-group-btn hidden-xs hidden-sm" style="cursor:pointer;" onclick="cnafShowCalendar(this,2008,10,1,'dd/MM/yyyy','ns_Z7_NA6AH3020HOTC0Q39ML1MA1GE6_SbAcces','dateDeNaissance',event,1900,2028);"><button class="btn btn-cnaf-calendar" type="button"><img border="0" src="/icf-ressources-statiques-rwd-web/images/pic-calendrier_bleu.png" id="FrmwkCalendrier" alt="Ouvrir le dispositif de sélection de date"></button></span>
+					</div>
+				</div>
+			</div>
+			<div class="hideOnLoad cmpDateNaissanceErrors" id="cmpErreurDateNaissanceFormat" data-dynform-onshow="dynformSetError('#cmpDateNaissance', true)" data-dynform-onhide="dynformSetError('#cmpDateNaissance', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>La date de naissance doit être au format JJ/MM/AAAA.</i></span>
+			</div>			
+			<div class="hideOnLoad cmpDateNaissanceErrors" id="cmpErreurDateNaissanceInvalide" data-dynform-onshow="dynformSetError('#cmpDateNaissance', true)" data-dynform-onhide="dynformSetError('#cmpDateNaissance', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>La date de naissance doit se trouver après le 26/10/1926.</i></span>
+			</div>
+			<div class="hideOnLoad cmpDateNaissanceErrors" id="cmpErreurDateNaissancePosterieur" data-dynform-onshow="dynformSetError('#cmpDateNaissance', true)" data-dynform-onhide="dynformSetError('#cmpDateNaissance', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>La date de naissance doit se trouver avant le 26/10/2026.</i></span>
+			</div>				
+		</div>
+	</div>
+</div>
+
+<div class="hideOnLoad" id="cmpRevenusPercus" data-dynform-input=".radRevenusPercus" data-dynform-onhide="clearRadio('revenusPercus')" data-dynform-displayed="false" style="display: none;">
+	<div class="row">
+		<div class="col-sm-12">
+			<fieldset>
+				<legend class="label-form-cnaf control-label hide-border">
+					Des revenus professionnels ont été perçus par vous ou une personne de votre foyer<br>
+					entre le 1<sup>er</sup> juin 2026 et le 31 août 2026
+					<img id="imgRevenusPercus" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">		
+					<span style="display: none;">Ce champ est obligatoire</span>
+				</legend>			
+				
+				<div id="revenusPercus" class="btn-group btn-block" data-toggle="buttons">
+					<label class="btn btn-default radRevenusPercus" for="idRevenusO">
+						<input type="radio" name="revenusPercus" value="true" title="Oui, des revenus professionnels ont été perçus" id="idRevenusO" style="">OUI
+					</label>
+					<label class="btn btn-default radRevenusPercus" for="idRevenusN">
+						<input type="radio" name="revenusPercus" value="false" title="Non, des revenus professionnels n'ont pas étés perçus" id="idRevenusN" style="">NON
+					</label>
+				</div>
+			</fieldset>
+		</div>
+	</div>
+</div>
+ 
+<script type="text/javascript"> function checkCodePostal(param){ gestionCnafAjax(param,'/wps/portal/caffr/simulateurpa/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_RzNHD2MDYwMPPxDnA0CjS19fQx9HQ3dfQ31w1EVBAQEGgAVBPsGmPs4Gxp4GOhHAaUNcABHA6h-PAqiSLIfUwFB-6PQrLB0czIIDLE08fI29jQGKoIqwGNGJNAN5jjd4GqmX5AbGhphkGUKAOTY6uw!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_NA6AH3020HOTC0Q39ML1MA1GE6=CZ6_NA6AH3020HOTC0Q39ML1MA1GM1=NEfrmkForwardName!ajaxValiderCodePostal==/',handleAjaxSuccessCodePostal,handleAjaxFailCodePostal,null,'ns_Z7_NA6AH3020HOTC0Q39ML1MA1GE6_SbAcces');}</script>
+	
+	
+<!-- pour test local 	<script src="/icf-ressources-statiques-rwd-web/jquery/1.11.2/jquery.min.js"></script>  -->
+
+<script lang="javascript">
+	// Récupération de la date du jour depuis le champ du VSB, lui-même initialisé avec la valeur
+	// de CurrentDate.createDate(), qui lit le cookie définit par WRU
+	var dateDuJour = parseDate('26/10/2026');
+
+	/**
+	* Ce compteur permet d'identifier chaque requête ajax. Dans le cas où une réponse
+	* périmée serait reçue, elle est ignorée. Une réponse est périmée si son identifiant
+	* arrive alors que la valeur du compteur est différente : c'est donc qu'une requête
+	* plus récente aura été envoyée entre temps.		
+	*/
+	var ajaxRequestId = 0;
+	
+	function chooseCodePostal() {
+		var zipCode = $('#codePostal').val();
+		
+		// Si le champ CP est vide
+		if (zipCode.length == 0) {
+			return "videOuExclu";
+		}
+		
+		// Si le format est invalide, on affiche un message d'erreur et on masque les composants associés
+		if (!zipCode.match(/^\d{5}$/)) {
+			return "errFormat";
+		}
+		
+		// Envoi d'une requête AJAX pour valider le CP
+		ajaxRequestId++;
+		checkCodePostal("requestId=" + ajaxRequestId + "&codePostal=" + zipCode);
+		return DYNFORM_PAUSE;
+	}
+	
+	
+	function chooseDateNaissance() {
+		var dateNaissance = addSlashesToDate('#dateDeNaissance');
+		
+		if (dateNaissance.length == 0) {
+			return "nonRenseigne";
+		}
+		
+			// Controles le format de la date de naissance format jj/mm/aaaa : cmpErreurDateDeNaissanceFormat			
+			if(!isDate(dateNaissance)) {
+			return "errFormat";
+		}
+		
+		var age = computeAge(dateDuJour, dateNaissance);
+			
+			// La date de naissance ne peut pas être postérieure à la date où l'usager effectue sa simulation.
+			if(age < 0) {
+			return "errPosterieur";
+		}
+		
+		if (age < 18) {
+			return "mineur";
+		}
+		
+		// Controle si la date La date de naissance doit se trouver après le [date du jour -100 ans] : 
+		if(age > 100) {
+			return "errInvalide";				
+		}			
+		
+		// Les contrôles sont passés avec succès donc il a entre 0 et 100 ans.
+		// Si l'usager est mineur, on le laisse valider le formulaire et il
+		// aura un résultat de non-droit particulier.
+		return "majeur";
+	}
+	
+	/**
+	* Vérifie si l'état actuel du formulaire permet l'affichage du bouton
+	* Suivant, et l'affiche le cas échéant.
+	*/ 
+	function showNextButton() {
+		var dateNaissance = $('#dateDeNaissance').val();
+		var codeDateNaissance = chooseDateNaissance();
+		
+		var show = 
+			!dynformHasErrorOnPage()
+			&& (
+				// Si le champ réside en france est renseigné à NON
+				getValueRadio("residentEnFrance") == "false"
+				// Si le champ date de naissance est visible et indique un mineur 
+				|| (dynformIsDisplayed("#cmpDateNaissance") && codeDateNaissance == "mineur")
+				// Si le champ revenus percus est renseigné
+				|| !isEmptyRadio("revenusPercus")
+			);
+		
+		showComponent("[name=BCSuivant]", show);
+	}
+	
+	$(document).ready(function(){
+		// Initialement, on masque le bouton suivant
+		$("[name=BCSuivant]").css("display","none");
+	
+		// Mise en place de DynForm
+		dynformSetup({
+			"rootComponents": "#cmpResideEnFrance",
+			"showMethod": showComponent,
+			"endUpdateListener": showNextButton
+		});
+		 
+		document.title = "Accès - Simulateur prime d'activité - CNAF";
+		
+	});
+	
+	/**
+	* Gestion des échecs d'appel AJAX
+	*/
+	function handleAjaxFailCodePostal(req,formName){
+		log("Erreur lors de l'envoi de la requête AJAX pour le formulaire " + formName + ". req=" + req);
+	}
+
+	/**
+	* Gestion des retours AJAX valides
+	*/
+	function handleAjaxSuccessCodePostal(req,formName){ 
+		try{
+			// Récupération et parsing de la réponse
+			var jsonText = req.responseText;
+			var jsonDecode = JSON.parse(jsonText);
+
+			// Si la réponse arrive après qu'on ait renvoyé une nouvelle requête, on la
+			// considère comme périmée et on ne la traite pas.
+			if (jsonDecode.requestId < ajaxRequestId) {
+				return;
+			}
+
+			// Si on a vérifié le code postal, c'est pour afficher ou non la date de naissance.
+			// On poursuit l'affichage dynamique du formulaire, qui a été mis en pause le temps
+			// de la requête ajax.
+			if(jsonDecode.exists) {
+				dynformResume(jsonDecode.result);
+			}
+			// Sinon le code postal n'éxiste pas.
+			else {
+				dynformResume("errInexistant");
+			}
+			
+		}catch(ex){
+			alert(ex.message);
+		}
+	}
+
+</script>
+ 
+<script src="https://www.caf.fr/sites/default/files/smarttag/smarttag-caffr.js"></script>
+<script type="text/javascript">
+var tag= new ATInternet.Tracker.Tag();
+tag.page.set({
+name:"accueil_simulateur_ppa",
+chapter1:"les_services_en_ligne",
+chapter2:"estimer_vos_droits",
+chapter3:"simulateur_prime_d_activite",
+level2:"2"
+});
+tag.customVars.set({
+site:{
+1:"2",
+2:"21",
+3:"2",
+4:"",
+5:"",
+6:"",
+35:"12345678",
+36:"1234",
+8:""
+}
+});
+tag.dispatch();
+</script>
+
+				<!-- Barre de bouton -->
+				<div class="row row-btn-cnaf">
+					<div class="col-sm-12 form-group">
+						
+
+
+
+<button type="submit" name="BCSuivant" value="Suivant" title="Suivant" class="btn btn-form-cnaf pull-right" style="display: none; pointer-events: all; cursor: pointer;">SUIVANT<span class="btn-next-cnaf picto picto-next-cnaf"></span></button>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<script type="text/javascript">
+			
+		</script>
+	</form><iframe id="CalendarControlIFrame" style="display:none; position:absolute;" src="javascript:false;" frameborder="0" scrolling="no"></iframe><div id="slcalcod" style="display:none;z-index:10; position:absolute;"><script>printCalendar();</script><div id="caltitre" style="z-index:10;display:table"><span style="display:table-row"><span class="CALENDARTITLE" style="display:table-cell"><a href="javascript:void(0)" class="cal_precedent" onclick="cal_before(1);"><img class="cal_center" src="/icf-ressources-statiques-rwd-web/images/cal_precedent.png" alt="mois precedent"></a></span><span class="CALENDARTITLE" style="display:table-cell"><select id="calmois" name="calmois" onchange="cal_chg(1);" style="border:none"><option value="0">...</option><option value="1">JANVIER</option><option value="2">FEVRIER</option><option value="3">MARS</option><option value="4">AVRIL</option><option value="5">MAI</option><option value="6">JUIN</option><option value="7">JUILLET</option><option value="8">AOUT</option><option value="9">SEPTEMBRE</option><option value="10">OCTOBRE</option><option value="11">NOVEMBRE</option><option value="12">DECEMBRE</option></select></span><span class="CALENDARTITLE" style="display:table-cell"><select id="calyear" name="calyear" onchange="cal_chg(1);" style="border:none"></select></span><span class="CALENDARTITLE" style="display:table-cell"><a href="javascript:void(0)" class="cal_suivant" onclick="cal_after(1);"><img class="cal_center" src="/icf-ressources-statiques-rwd-web/images/cal_suivant.png" alt="mois suivant"></a></span><span class="CALENDARTITLE" style="display:table-cell"><a href="javascript:void(0)" class="cal_close" onclick="hideCalendar(1);"><img class="cal_center" src="/icf-ressources-statiques-rwd-web/images/cal_fermeture.png" alt="fermeture calendrier"></a></span></span></div><div id="caljour" style="z-index:10;"></div></div>
+
+</div>
+
+</div></div> 
+</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</main>
+			<!-- FIN CONTENU -->
+				
+		   
+	
+			<!-- DEBUT FOOTER -->
+			<!-- pour le simulateur PA, resté ancienne charte non RSL (propriété icfAngular non présente), il y a header/footer simplifiés ,
+				 cela doit resté comme cela jusqu'à la réécriture de l'appli en RSL -->
+				 
+			    
+
+
+
+
+
+	
+		<footer id="theme-footer-cnaf" role="contentinfo">
+			<div id="theme-footer-copyright">
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-sm-12">
+						   <a href="/redirect/s/Redirect?page=mentionsLegales" target="_blank">Mentions légales</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Javascript CNAF -->
+		<script src="/icf-ressources-statiques-rwd-web/StatiquesCaffr/js/footerCnaf.min.js?id=1792980155991"></script>
+		<!-- Javascript CNAF -->
+		<script>
+			var _iav = {
+              "base_path" : "/chatbotappli/dist/",
+              "debug" : false,
+              "title_text" : "<p> Bonjour, je suis votre conseiller virtuel.</p><p>Je connais déjà beaucoup de réponses à vos questions et j'apprends un peu plus chaque jour.</p>",
+              "display_auto" : false,
+              "inactivity_display_timer" : 0,
+              "service_url" : "/api/basedeconnaissancefront/v1/mon_compte/chatbot",
+              "authentifie" : false,
+              "code_organisme" : "null",
+              "public" : "usager",
+	  			"cnafTokenJwt": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJjYWZmciIsInN1YiI6InByaW1vIiwibmJmIjoxNzkzMDEyNzUzLCJkb21haW4iOiJwcml2YXRlIiwicm9sZXMiOltdLCJzY29wZSI6InB1YmxpYyIsImlzcyI6Imh0dHA6Ly9hdXRoZ2F0ZXdheS5zaS5jbmFmLmluZm86ODg4OCIsImV4cCI6MTc5MzAxMzA2MywiaWF0IjoxNzkzMDEyNzYzLCJkYXRlRW52Q2FmZnIiOiIyMDI2MTAyNiIsImp0aSI6IjZlM2U2MGFkLWQxZGQtNGU2Ny1hYTBiLTc0M2RjYmViN2FjMyJ9.JNaQVs7g7KBxsbB4TP_kgSccjEF_EN2mIOgbqEN0FxuWabO-J4ngFFVGOY8iJ3yfFNEdt-jDax_rFIfD4d_4u_pvVWezXuNOd0yW6-1BD5ZQOKMFQGDBjCIdvscIj8SaoVDNxpURYcAyFtjwJl4eSEvaiO3bsRC0RhKkLkF-CHFjzokKD3YsJFzk8rgph4PUxc5RY6kLpa4B3EUyJnHjHB2NT1PfzsUQjFROnQzl3ZPqxlXhV9eTeF9w7VA4f2je15KSrUep1AkosLWXBvOvDTOnwHufUHe5uw-Us6Y0FG37FyhY6omFZjrwl_rZuTqvH4OFjx-xEyz1n8Q2du7NkQ"
+            };
+		
+			<!-- DEBUT Gestion Chatbot -->
+			var isChatbotLoaded = 0;
+			jQuery.cachedScript = function(url, options) {
+				options = jQuery.extend( options || {}, {
+					dataType: "script",
+					cache: true,
+					url: url
+				});
+				return jQuery.ajax(options);
+			};
+			function afficheChatbot(rubrique) {
+				
+					jQuery("#container-sticky-camille-cnaf").hide();
+					jQuery("#iav").show();
+					if(_iav == null) {
+						console.log("Probleme chargement chatbot");
+						return;
+					}
+			        if(rubrique != undefined){
+			          _iav["rubrique"] = rubrique;
+			        }
+					if(false) {
+						_iav["dialog"] = "ouvertureauthentifie";
+					}
+					if(isChatbotLoaded){
+						return;
+					} else {
+						jQuery.cachedScript("/chatbotappli/dist/av.js?id=1792980155991")
+							.done(function(data, textStatus, jqXHR){isChatbotLoaded = 1;})
+							.fail(function(jqXHR, textStatus, errorThrown){
+								console.log("Chargement fichier av.js KO : "+errorThrown);
+							});
+					}						
+								
+			}
+			function cacheChatbot() {
+				
+					jQuery("#container-sticky-camille-cnaf").show();
+					jQuery("#iav").hide();
+				
+			}
+			<!-- FIN Gestion Chatbot -->
+			<!-- DEBUT Gestion Navigation Privee -->
+			<!-- TEST navigation privee Safari < 11  --> 
+			function storageDisponible(type) {
+				try {
+					var storage = window[type];
+					var x = 'storage_test';
+					storage.setItem(x, x);
+					storage.removeItem(x);
+					return true;
+				} catch(e) {
+					return false;
+				}
+			}
+			
+			function acceptModeDegrade() {
+				var date = new Date();
+				date.setDate(date.getDate() + 100);
+				document.cookie = "cookie-degrade=2; path=/; domain=.caf.fr; expires=" + date.toUTCString();
+				jQuery("#bandeau-accept-degrade").slideUp("slow");
+			}
+			
+			function afficheBandeauModeDegrade() {
+				var statusCookies = getCookie("cookie-degrade");
+				if (statusCookies == "") {
+					jQuery("#bandeau-accept-degrade").slideDown("slow");
+					jQuery("#bandeau-accept-degrade button.agree-button").bind('click', function(){
+						acceptModeDegrade();
+					});
+				}
+			}
+			<!-- FIN TEST navigation privee Safari < 11 -->
+			function getCookie(name) {
+				var re = new RegExp(name + "=([^;]+)");
+				var value = re.exec(document.cookie);
+				return (value != null) ? unescape(value[1]) : "";
+			}
+
+
+	
+
+			$(document).ready(function(){
+				
+			});
+		</script>
+		
+
+			
+            <!-- FIN FOOTER -->
+	       
+			<!--
+			<div id='popin'>
+				<div id="popin-titre"></div>
+				<p id='popin-contenu'> </p>
+				<div class="barre-boutons" >
+					<a class='bouton popin-btn-continuer' href='#' onclick='disablePopin("popin")'>Continuer</a>
+					<a class='bouton popin-btn-annuler' href='#' onclick='disablePopin("popin")'>Annuler</a>
+					<a class='bouton popin-btn-confirmer' href='#' onclick='disablePopin("popin")'>Confirmer</a>
+				</div>
+			</div>
+			<div id='popin-background'>
+			</div>	
+			-->	
+			
+		<script>   
+	       function gestionBoxPopupModaleProfileeTheme(namePropLocalStorage, nid)
+				     {
+					    
+					    if ($('#caseAcocher-' + namePropLocalStorage).hasClass('glyphicon-ok')) 
+					      { 
+						  $('#caseAcocher-' + namePropLocalStorage).removeClass('glyphicon-ok');
+						    // enlever le nid du localstorage
+						    $('#caseAcocher-' + namePropLocalStorage).parent().attr('aria-checked', "false");
+							localStorage.removeItem(namePropLocalStorage);
+						  } 
+						  else 
+						  {
+						    $('#caseAcocher-' + namePropLocalStorage).addClass('glyphicon-ok');
+							// mettre le nid dans le localstorage
+							localStorage.setItem(namePropLocalStorage, nid); 
+							  $('#caseAcocher-' + namePropLocalStorage).parent().attr('aria-checked', "true");
+						   }
+						
+				    }
+				    
+				    
+        function affichePopupModaleProfileeTheme(response,portailVirtuelApplicationMobile,bootstrap5)
+        {
+	          var displayPopupModalVideo = false;
+	          var displayPopupModalImage = false;
+	          var popupTrouve = false;
+	          var typeclient = null;
+	          for (var i = 0; i < response.popup_modale.length; i++) {
+	              typeclient = response.popup_modale[i].type;
+	              if (portailVirtuelApplicationMobile) {
+	                  if (typeclient.toUpperCase() === "MCM") {
+	                      reponse = response.popup_modale[i];
+	                      popupTrouve = true;
+	                      break;
+	                  }
+	
+	              } else if (typeclient.toUpperCase() === "MCW") {
+	                  reponse = response.popup_modale[i];
+	                  popupTrouve = true;
+	                  break;
+	
+	              }
+	          }
+	          if (popupTrouve)
+	          {
+	          var nidPopupModaleProfilee = reponse.id;
+	          var titrePopup = reponse.titre;
+	          var lienVideo = reponse.href_video;
+	          var publication = reponse.publication;
+	          var lienImage = reponse.moyenne_image;
+	          var lienImageMobile = reponse.petite_image;
+	          var texteAlternatif = reponse.texte_alternatif; 
+	          var urlImage = reponse.url_image;
+	          var codes_organismes = reponse.codes_organismes;
+	
+	           if (lienVideo != null) {
+	              // popup_modale vidéo
+	              displayPopupModalVideo = true;
+	          } else {
+	              // popup modale image
+	              displayPopupModalImage = true;
+	          }
+	          //console.log("id : " + nidPopupModaleProfilee)
+	          //console.log("titre : "+titrePopup);
+	          //console.log("lien  : "+lienVideo);
+	          //console.log("groupe : "+publication);
+	          //console.log("grande image : "+lienImage);
+	          //console.log("moyenne image : " +lienImageTablette);
+	          //console.log("petite image : "+lienImageMobile);
+	          //console.log("lien image : "+ urlImage);
+	          //console.log("codes_organismes : " +codes_organismes);
+	          //console.log("type : "+typeclient);
+			  if (urlImage == null)  urlImage = "";	
+	
+	          var nidPopupModaleProfileeInLocalStorage = localStorage.getItem('nidPopupModaleProfilee');
+	          if (nidPopupModaleProfileeInLocalStorage != '' && nidPopupModaleProfilee != nidPopupModaleProfileeInLocalStorage)
+	          {
+	
+	            if (displayPopupModalImage) {
+	            	// Audit labellisation e-accessible
+	               var popupTemplate = '<div id="modal-popup-promo" tabindex="-1" class="modal modal-vertical-align-center fade">'+
+	                                    '  <div class="modal-dialog modal-dialog-popup" role="dialog" aria-labelledby="monTitreModal"> '+
+	                                    '   <div class="modal-content"> '+
+	                                    // Audit labellisation e-accessible
+	                                    '     <div class="modal-header d-flex flex-row-reverse"> '+
+	                                    '       <button type="button" class="close-cnaf" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Fermer la popup"></button>'+
+	                                    '        <div role="heading" aria-level="4" class="texte-medium text-primary" id="monTitreModal">'+ titrePopup + '</div>' +
+	                                    '      </div>'+
+	                                    '      <div class="modal-body">'+
+	                                    '			<div class="text-center">'+
+	                                    (urlImage != "" && !portailVirtuelApplicationMobile ? '       <a href= "'+urlImage +'" target ="blank">' : '')+
+	                                    (urlImage != "" && portailVirtuelApplicationMobile ? '       <a href="javascript:void(0);" onClick="openInNativeBrowser(\''+urlImage +'\')">' : '')+
+	                                    '				<img src="' + lienImage + '" class="lien-image hidden-xs hidden-sm d-none d-md-block" alt="\''+ texteAlternatif +'\'">'+ 
+	                                    '				<img src="' + lienImage + '" onerror="this.onerror=null;this.src=\'' + lienImage + '\'" class="lien-image hidden-xs hidden-md hidden-lg d-none d-sm-block d-md-none" alt="\''+ texteAlternatif +'\'">'+ 
+	                                    '				<img src="' + lienImageMobile + '" onerror="this.onerror=null;this.src=\'' + lienImage + '\'" class="lien-image-mobile hidden-sm hidden-md hidden-lg d-block d-sm-none" alt="\''+ texteAlternatif +'\'">'+ 
+	                                    '				<span class="lien-image-mobile-fullscreen"><span class="glyphicon glyphicon-fullscreen visible-xs d-block d-sm-none text-primary" onclick="$(\'#modal-popup-promo .lien-image-mobile\').click()"></span>'+ 
+	                                    (urlImage != "" ? '       </a>' : '')+
+	                                    '			</div>'+
+	                                    '			<!--/p-->'+
+	                                    '   </div>'+
+	                                    // Audit labellisation e-accessible
+	                                    '   <div class="modal-footer d-flex flex-column align-items-end">'+
+	                                    '       <div>'+
+	                                    '      	  <label class="align-middle-cnaf checkbox-login-cnaf">'+
+	                                    '         <button type=button  aria-labelledby="labelNePlusAfficher" class="pull-left float-start btn btn-default cnaf-checkbox" role="checkbox" aria-checked="false" onClick="gestionBoxPopupModaleProfileeTheme(\'nidPopupModaleProfilee\', ' + nidPopupModaleProfilee + ');">'+
+	                                    '         <span id="caseAcocher-nidPopupModaleProfilee" class="glyphicon" style="width:10px"></span></button>'+
+	                                    ' 			  <span id="labelNePlusAfficher">Ne plus afficher</span>' +
+	                                    ' 	      </label>'+
+	                                    '        </div>'+
+	                                    '        <button type="button" class="btn btn-default" data-dismiss="modal" data-bs-dismiss="modal">Fermer</button>'+
+	                                    '      </div>'+
+	                                    '    </div>'+
+	                                    '  </div>'+
+	                                    '</div>';
+				if (bootstrap5 == "false" || !bootstrap5) {
+	                $(popupTemplate).modal({backdrop: 'static', keyboard: false});
+				}
+				else {
+					var modalElement = new bootstrap.Modal($(popupTemplate), {backdrop: 'static', keyboard: false});
+					modalElement.show();
+				}
+				
+	
+	            	
+	            } else if (displayPopupModalVideo) {
+	
+	
+	                    var popupTemplate = '<div id="modal-popup-promo-video" tabindex="-1" class="modal modal-vertical-align-center fade">'+
+	                                        '  <div class="modal-dialog modal-dialog-popup" role="dialog" aria-labelledby="monTitreModal"> '+
+	                                        '    <div class="modal-content">'+
+	                                        // Audit labellisation e-accessible
+	                                        '      <div class="modal-header d-flex flex-row-reverse"> '+
+		                                    '       <button type="button" class="close-cnaf" data-dismiss="modal" data-bs-dismiss="modal" aria-label="Fermer la popup"></button>'+
+		                                    '        <div role="heading" aria-level="4" class="texte-medium text-primary" id="monTitreModal">'+ titrePopup + '</div>' +
+		                                    '      </div>'+
+	                                        '      <div class="modal-body">'+
+	                                        '        <div class="embed-responsive embed-responsive-16by9">';
+	                                        if (portailVirtuelApplicationMobile) {
+	                        popupTemplate +='           <a class="embed-responsive-item btn btn-form-cnaf" href="javascript:void(0);" onClick="openInNativeBrowser(\''+ lienVideo.replace(".youtube-nocookie.com", ".youtube.com") + '\')">'+
+	                                        '             <span class="glyphicon glyphicon-play-circle text-primary" aria-hidden="true"></span>'+
+	                                        '             <span class="sr-only visually-hidden">Visualiser la vidéo</span>'+
+	                                        '           </a>';
+	                                        } else {
+	                        popupTemplate +='           <iframe class="embed-responsive-item" src="'+ lienVideo + '" frameborder="0"></iframe>';
+	                                        }
+	                         // Audit labellisation e-accessible
+	                        popupTemplate +='        </div>'+
+	                                        '        <span class="visible-xs"></span>'+
+	                                        '      </div>'+
+	                                        '      <div class="modal-footer d-flex flex-column align-items-end">'+
+		                                    '       <div>'+
+		                                    '      	  <label class="align-middle-cnaf checkbox-login-cnaf">'+
+		                                    '         <button type=button  aria-labelledby="labelNePlusAfficher" class="pull-left float-start btn btn-default cnaf-checkbox" role="checkbox" aria-checked="false" onClick="gestionBoxPopupModaleProfileeTheme(\'nidPopupModaleProfilee\', ' + nidPopupModaleProfilee + ');">'+
+		                                    '         <span id="caseAcocher-nidPopupModaleProfilee" class="glyphicon" style="width:10px"></span></button>'+
+		                                    ' 			  <span id="labelNePlusAfficher">Ne plus afficher</span>' +
+		                                    ' 	      </label>'+
+		                                    '        </div>'+
+		                                    '        <button type="button" class="btn btn-default" data-dismiss="modal" data-bs-dismiss="modal">Fermer</button>'+
+	                                        '      </div>'+
+	                                        '    </div>'+
+	                                        '  </div>'+
+	                                        '</div>';
+	                                
+	                    /*$(document).on('shown.bs.modal', '#modal-popup-promo-video', function() {
+	                        popupVideoMinSizeForMobile();
+	                        $(window).on('resize', popupVideoMinSizeForMobile);
+	                    });
+	                    $(document).on('hidden.bs.modal', '#modal-popup-promo-video', function() {
+	                        popupVideoMinSizeForMobile();
+	                        $(window).off('resize', popupVideoMinSizeForMobile);
+	                        $('#modal-popup-promo-video').remove();
+	                    });
+	                    function popupVideoMinSizeForMobile() {
+	                        if ($("#modal-popup-promo-video .modal-body .visible-xs").is(':visible')) {
+	                            var dialogElement = $("#modal-popup-promo-video .modal-dialog");
+	                            dialogElement.css("min-width", $(window).outerWidth(true) - (dialogElement.outerWidth(true) - dialogElement.outerWidth(false)));
+	                        }
+	                    }*/
+	                    if (bootstrap5 == "false" || !bootstrap5) {
+							$(popupTemplate).modal({backdrop: 'static', keyboard: false});
+						}
+						else {
+							var modalElement = new bootstrap.Modal($(popupTemplate), {backdrop: 'static', keyboard: false});
+							modalElement.show();
+						}
+	
+	              }
+	        }
+	      }
+
+
+        }
+
+			$(document).ready(function(){
+				
+			});
+			
+			var timeoutSessionSecondesCnaf = 1200;
+		</script>
+	
+	
+
+</body><!-- FIN BODY --></html>
