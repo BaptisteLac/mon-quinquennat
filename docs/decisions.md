@@ -30,6 +30,9 @@ Toute nouvelle décision s'ajoute ici (date, décision, raison).
 - **Taux d'erreur mesuré** par audit d'échantillon, publié sur la page Méthode.
 - **Confidentialité** : API sans état qui calcule tous les candidats ; profil dans le navigateur ; mesure d'audience sans cookie.
 
+- **Programme en cours de réécriture (2026-10-26)** : quand le site officiel annonce une nouvelle version (cas de Jean-Luc Mélenchon : « L'Avenir en commun est en cours de réactualisation », version 2027 présentée les 6 et 7 novembre), on archive l'état actuel sans l'extraire, et la veille compare les collectes suivantes à cette archive. L'extraction se fait une fois, sur la version publiée. Raison : ne pas publier de mesures d'une version que la campagne a déclarée obsolète.
+- **Périmètre d'un programme (2026-10-26)** : documents publiés par la campagne pour l'élection de 2027 (programme, plans thématiques, documents de chiffrage). Un document d'une autre élection lié depuis le site (ex. programme du Nouveau Front populaire de 2024) n'en fait pas partie.
+
 ## Design
 - Interface Pop BD, illustrations sticker à peau jaune unique — voir `docs/design-system.md`.
 - Avatar petit, par tranche d'âge × genre, bustes uniquement.

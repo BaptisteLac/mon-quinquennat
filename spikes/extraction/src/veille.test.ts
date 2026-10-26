@@ -40,6 +40,13 @@ describe("veille", () => {
     expect(r.changed).toBe(false);
   });
 
+  it("signale un changement de programme même sans mesure publiée (programme pas encore extrait)", () => {
+    const after = PAGES.map((p, i) => (i === 2 ? `${p}\nNouvelle section fictive publiée.` : p));
+    const r = veille(CORPUS, recollect(after), [], VOLATILE);
+    expect(r.changed).toBe(true);
+    expect(r.measuresToReview).toEqual([]);
+  });
+
   it("signale une page modifiée et la mesure dont la citation a disparu", () => {
     const after = PAGES.map((p, i) => (i === 1 ? p.replace("9 %", "8 %") : p));
     const r = veille(CORPUS, recollect(after), [measure("le taux fictif de la tranche test passera à 9 % en 2028")], VOLATILE);

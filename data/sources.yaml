@@ -46,3 +46,26 @@ candidates:
           url: "https://www.unenouvelleenergie.fr/questions/combien-d-adherents-compte-nouvelle-energie/"
         - pattern: "\\d[\\d\\s]* élus"
           url: "https://www.unenouvelleenergie.fr/questions/combien-d-adherents-compte-nouvelle-energie/"
+  - candidateId: c-02
+    displayName: "Jean-Luc Mélenchon"
+    party: "La France insoumise"
+    status: declaree
+    corpusPrefix: france-insoumise
+    # Le site annonce « L'Avenir en commun est en cours de réactualisation » ; nouvelle version
+    # présentée les 6 et 7 novembre 2026. La veille détecte sa publication ; l'extraction attend
+    # cette version (les chapitres 2025 encore en ligne sont archivés, pas extraits).
+    programme:
+      start:
+        - "https://melenchon2027.fr/programme/decouvrir/"
+        - "https://melenchon2027.fr/programme/plans-thematiques/"
+        - "https://melenchon2027.fr/programme/plans-investissement/"
+        - "https://melenchon2027.fr/programme2025/livre/"
+      include:
+        - "https://melenchon2027.fr/programme/"
+        - "https://melenchon2027.fr/programme2025/livre/"
+        # PDF de campagne d'octobre 2026 (« Comment nous allons remettre de l'ordre dans les
+        # comptes publics ») ; pas le programme du Nouveau Front populaire de 2024, lié depuis le menu.
+        - "https://melenchon2027.fr/wp-content/uploads/2026/10/"
+      render: true
+      watch: weekly
+      volatile: []

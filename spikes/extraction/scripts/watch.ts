@@ -44,16 +44,17 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) throw new Error("--date au format AAAA-MM
 
 const sources = Sources.parse(parseYaml(await readFile(resolve(REPO_ROOT, "data/sources.yaml"), "utf8")));
 const published = (await readdir(resolve(REPO_ROOT, "data/measures"))).filter((f) => /^[a-z0-9-]+\.json$/.test(f) && !f.includes(".a-relire"));
+const archived = (await readdir(resolve(REPO_ROOT, "data/archives"))).filter((d) => existsSync(resolve(REPO_ROOT, "data/archives", d, "manifest.json")));
 const changedCorpora: string[] = [];
 
 for (const c of sources.candidates.filter((x) => !args.candidate || x.candidateId === args.candidate)) {
-  const baseline = published
-    .map((f) => f.replace(/\.json$/, ""))
-    .filter((id) => id.startsWith(`${c.corpusPrefix}-`))
-    .sort()
-    .at(-1);
+  const ofCandidate = (ids: string[]) => ids.filter((id) => id.startsWith(`${c.corpusPrefix}-`)).sort().at(-1);
+  // Référence : la dernière collecte exploitée ; à défaut, la dernière collecte archivée (programme
+  // pas encore extrait, ex. en attente de sa version définitive) : on signale alors tout changement.
+  const exploited = ofCandidate(published.map((f) => f.replace(/\.json$/, "")));
+  const baseline = exploited ?? ofCandidate(archived);
   if (!baseline) {
-    console.log(`${c.displayName} : aucune collecte exploitée, rien à comparer.`);
+    console.log(`${c.displayName} : aucune collecte archivée, rien à comparer.`);
     continue;
   }
   const newId = `${c.corpusPrefix}-${date}`;
@@ -67,8 +68,9 @@ for (const c of sources.candidates.filter((x) => !args.candidate || x.candidateI
 
   const oldC = await loadCorpus(resolve(REPO_ROOT, "data/archives", baseline, "manifest.json"));
   const newC = await loadCorpus(resolve(REPO_ROOT, "data/archives", newId, "manifest.json"));
-  const measuresJson = JSON.parse(await readFile(resolve(REPO_ROOT, "data/measures", `${baseline}.json`), "utf8"));
-  const measures = z.object({ measures: z.array(Measure) }).parse(measuresJson).measures;
+  const measures = exploited
+    ? z.object({ measures: z.array(Measure) }).parse(JSON.parse(await readFile(resolve(REPO_ROOT, "data/measures", `${baseline}.json`), "utf8"))).measures
+    : [];
   const report = veille(oldC, newC, measures, compileVolatile(c.programme.volatile));
 
   if (!report.changed) {
