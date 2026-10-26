@@ -13,6 +13,8 @@ import { z } from "zod";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const Request = z.object({
+  /** Numéro de run : le modifier relance l'exploration. */
+  run: z.number().int().optional(),
   targets: z.array(
     z.object({ id: z.string().regex(/^[a-z0-9-]+$/), url: z.string().url(), follow: z.string().optional(), maxFollow: z.number().int().max(10).default(0) }),
   ),
@@ -44,7 +46,17 @@ async function snapshot(page: Page, url: string, dir: string): Promise<{ href: s
   }
   await page.waitForTimeout(1500);
   page.off("request", onRequest);
-  const html = await page.content();
+  // Une page peut encore naviguer (redirection en JavaScript) : on attend qu'elle se stabilise.
+  let html = "";
+  for (let attempt = 0; attempt < 5; attempt++) {
+    try {
+      await page.waitForLoadState("networkidle", { timeout: 15_000 }).catch(() => undefined);
+      html = await page.content();
+      break;
+    } catch {
+      await page.waitForTimeout(2000);
+    }
+  }
   await writeFile(resolve(dir, "page.html"), html);
   await page.screenshot({ path: resolve(dir, "page.png"), fullPage: true }).catch(() => undefined);
   const links = await page.$$eval("a[href]", (as) =>
@@ -79,17 +91,29 @@ const context = await browser.newContext({
   userAgent: "MonQuinquennat-ReleveSimulateurs/0.1 (+https://github.com/BaptisteLac/mon-quinquennat)",
   viewport: { width: 1280, height: 1600 },
 });
+// Une page en échec est notée dans probe/<id>/erreur.txt ; les autres continuent.
+async function safeSnapshot(page: Page, url: string, dir: string): Promise<{ href: string; text: string }[]> {
+  try {
+    return await snapshot(page, url, dir);
+  } catch (e) {
+    await mkdir(dir, { recursive: true });
+    await writeFile(resolve(dir, "erreur.txt"), String(e));
+    console.log(`  échec : ${url} (${String(e).slice(0, 120)})`);
+    return [];
+  }
+}
+
 for (const t of req.targets) {
   const page = await context.newPage();
   const dir = resolve(ROOT, "probe", t.id);
-  const links = await snapshot(page, t.url, dir);
+  const links = await safeSnapshot(page, t.url, dir);
   console.log(`${t.id} : ${page.url()} (${links.length} liens)`);
   if (t.follow && t.maxFollow > 0) {
     const re = new RegExp(t.follow, "i");
     const seen = new Set<string>();
     const next = links.filter((l) => re.test(l.href) || re.test(l.text)).map((l) => l.href.split("#")[0]!).filter((h) => h.startsWith("http") && !seen.has(h) && seen.add(h));
     for (const [i, href] of next.slice(0, t.maxFollow).entries()) {
-      await snapshot(page, href, resolve(dir, `suivi-${i + 1}`));
+      await safeSnapshot(page, href, resolve(dir, `suivi-${i + 1}`));
       console.log(`  suivi ${i + 1} : ${href}`);
     }
   }
