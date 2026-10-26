@@ -1,4 +1,7 @@
+import Link from "next/link";
+import { Avatar } from "@/components/Avatar";
 import { ProgrammeChips } from "@/components/ProgrammeChips";
+import { ResumeSheet } from "@/components/ResumeSheet";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getProgrammes } from "@/lib/data";
 import { formatDate } from "@/lib/format";
@@ -33,28 +36,19 @@ export default function HomePage() {
             <br />
             en <span className={styles.year}>2032</span>
           </h1>
-          <svg className={styles.avatar} width="86" height="86" viewBox="0 0 88 88" aria-hidden="true">
-            <g fill="none" stroke="#111" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-              <rect x="2" y="2" width="84" height="84" rx="14" fill="#fff" />
-              <path d="M18 86 Q24 60 44 58 Q64 60 70 86" fill="#C7B8FF" />
-              <circle cx="44" cy="38" r="16" fill="#FFD23F" />
-              <path d="M28 34 Q30 20 44 20 Q58 20 60 34 Q52 28 44 30 Q36 28 28 34 Z" fill="#111" />
-              <path d="M39 45 Q44 48 49 45" />
-            </g>
-            <g fill="#111">
-              <circle cx="38" cy="38" r="2" />
-              <circle cx="50" cy="38" r="2" />
-            </g>
-          </svg>
+          <Avatar size={86} />
         </div>
         <p className={styles.lead}>
           Au printemps 2027, un·e président·e sera élu·e pour 5 ans. Ses mesures toucheront tes impôts, tes aides, ta
           retraite. <b>Vis ces 5 ans avant de voter.</b>
         </p>
-        <span className={styles.cta} aria-disabled="true">
+        <Link href="/personnage" className={styles.cta}>
           Vivre mon quinquennat
-        </span>
-        <p className={styles.ctaNote}>Parcours en préparation · aucune inscription</p>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M5 12h14M13 6l6 6-6 6" />
+          </svg>
+        </Link>
+        <p className={styles.ctaNote}>4 minutes · aucune inscription</p>
       </header>
 
       <section className={styles.how}>
@@ -121,6 +115,7 @@ export default function HomePage() {
       </section>
 
       <SiteFooter />
+      <ResumeSheet versions={Object.fromEntries(programmes.map((p) => [p.candidate.id, p.corpusId]))} />
     </div>
   );
 }

@@ -19,6 +19,11 @@ jobs:
       - run: npm test
       - name: Build du site
         run: npm run build -w apps/web
+      - name: Parcours dans un navigateur (Playwright)
+        working-directory: apps/web
+        run: |
+          npx playwright install --with-deps chromium
+          npm run e2e
 
   calc:
     runs-on: ubuntu-latest

@@ -4,11 +4,15 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "communes": "tsx scripts/build-communes.mts",
+    "predev": "npm run communes",
     "dev": "next dev",
+    "prebuild": "npm run communes",
     "build": "next build",
     "start": "next start",
     "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",
+    "e2e": "playwright test",
     "tirer-badges": "tsx scripts/draw-badges.mts"
   },
   "dependencies": {
@@ -28,6 +32,8 @@
     "@types/react-dom": "19.3.0",
     "typescript": "^5.9.3",
     "vitest": "^2.1.9",
-    "tsx": "^4.23.15"
+    "tsx": "^4.23.15",
+    "codes-postaux": "4.1.2",
+    "@playwright/test": "1.63.0"
   }
 }

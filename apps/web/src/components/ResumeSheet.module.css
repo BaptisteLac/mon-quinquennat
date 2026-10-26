@@ -1,0 +1,158 @@
+.sheet {
+  position: fixed;
+  inset: auto 0 0 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: var(--page-max);
+  max-height: 92vh;
+  border: none;
+  border-top: var(--stroke) solid var(--ink);
+  border-radius: 24px 24px 0 0;
+  background: var(--white);
+  color: var(--ink);
+  padding: 20px var(--gutter) 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.sheet:not([open]) {
+  display: none;
+}
+.sheet::backdrop {
+  background: rgb(239 238 232 / 0.7);
+}
+.close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 40px;
+  height: 40px;
+  border: var(--stroke-thin) solid var(--ink);
+  border-radius: var(--radius-sm);
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-right: 44px;
+}
+.headText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 1.05;
+}
+.sub {
+  font-size: 14px;
+  color: var(--text-2);
+}
+.progress {
+  border: var(--stroke) solid var(--ink);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.progressHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+.progressLabel {
+  font-size: 13px;
+  font-weight: 700;
+}
+.progressValue {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 18px;
+  text-align: right;
+}
+.bar {
+  position: relative;
+  height: 10px;
+  border: var(--stroke-thin) solid var(--ink);
+  border-radius: 999px;
+  background: var(--cream);
+  overflow: hidden;
+}
+.barFill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  background: var(--ink);
+}
+.summary {
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--text-2);
+}
+.update {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  background: var(--yellow);
+  border: var(--stroke-thin) solid var(--ink);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  font-size: 13px;
+  line-height: 1.45;
+}
+.primary {
+  height: 56px;
+  border: var(--stroke) solid var(--ink);
+  border-radius: var(--radius-lg);
+  background: var(--ink);
+  color: var(--white);
+  box-shadow: var(--shadow-cta);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 18px;
+  text-decoration: none;
+}
+.primary:hover {
+  color: var(--white);
+}
+.secondary {
+  height: 48px;
+  border: var(--stroke-thin) solid var(--ink);
+  border-radius: var(--radius);
+  background: var(--white);
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.foot {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--text-2);
+  text-align: center;
+}
+.linkButton {
+  border: none;
+  background: none;
+  padding: 0;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: inherit;
+}

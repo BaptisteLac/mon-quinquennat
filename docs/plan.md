@@ -29,15 +29,17 @@ Point de départ : les deux tests de faisabilité ont leur feu vert (2026-10-26)
 - Profil : stockage local versionné (`Profile` Zod), lecture tolérante (profil invalide → on repart de zéro).
 - Écrans : Accueil (`E0-accueil`) et Programme en mesures (`PG1-programme`) avec les vraies mesures de Nouvelle Énergie.
 - CI : typecheck, tests, `next build`.
-- Livré : accueil `/` et `/programme/<candidat>` (page statique par programme publié), filtres par thème, badges tirés au sort (`data/badges.json`), profil dans le stockage local (`apps/web/src/lib/profile-store.ts`). Le bouton « Vivre mon quinquennat » reste inactif jusqu'au jalon 1.
+- Livré : accueil `/` et `/programme/<candidat>` (page statique par programme publié), filtres par thème, badges tirés au sort (`data/badges.json`), profil dans le stockage local. Le bouton « Vivre mon quinquennat » reste inactif jusqu'au jalon 1.
 
-### Jalon 1 — Personnage et candidats (en cours)
+### Jalon 1 — Personnage et candidats (livré)
 - `Main` (Toi), `A-perso-2` (Ta vie), `A-affiner` (facultatif), `A-candidats` (jusqu'à 3 + mystère), `E0b-reprise`.
 - Réveil du service de calcul (`/sante`) au premier écran du personnage.
 - Avatars (bustes sticker, 4 tranches d'âge × 3 genres) : à produire d'après `DA-retenue`.
 - Tests Playwright du parcours de saisie.
+- Livré : `/personnage`, `/personnage/vie`, `/personnage/affiner`, `/candidats`, reprise sur l'accueil ; parcours dans le navigateur (`src/lib/journey.ts`), questions conditionnelles du profil, commune par code postal, route `/api/sante` (variable `CALC_URL`), avatars de `DA-retenue`, tests Playwright en CI (dont : aucune requête hors du site).
+- Reste pour plus tard : « Ou vivre la vie d'un Français tiré au hasard » (il faut des profils tirés d'une distribution INSEE sourcée, jalon 5) ; photos des candidats (droits) ; le bouton de `/candidats` mène à la frise au jalon 3, où le mystère est tiré au sort.
 
-### Jalon 2 — Moteur de ticket
+### Jalon 2 — Moteur de ticket (en cours)
 - `calc/` : le service OpenFisca passe du spike au service (image, tests, déploiement Scaleway).
 - `POST /api/ticket` : profil → montants actuels et par candidat (OpenFisca, formules de la liste blanche), effets qualitatifs filtrés par `appliesTo`, solde en fourchette, part « dont certain », cumul sur 5 ans selon les dates d'effet.
 - Tests sur les profils de référence ; aucun chiffre produit hors OpenFisca, formules ou estimations ≈ sourcées.
