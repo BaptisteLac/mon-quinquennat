@@ -44,7 +44,7 @@ def revision_directory(rev: str) -> tuple[str, str]:
 def fetch_directory(directory: str, dest: Path) -> None:
     url = f"{API}/vault/flat/swh:1:dir:{directory}/"
     status = call(url, method="POST")
-    for _ in range(120):
+    for _ in range(160):
         if status["status"] == "done":
             break
         if status["status"] == "failed":
@@ -52,7 +52,7 @@ def fetch_directory(directory: str, dest: Path) -> None:
         time.sleep(15)
         status = call(url)
     else:
-        raise TimeoutError("Archive Software Heritage non prête après 30 minutes.")
+        raise TimeoutError("Archive Software Heritage non prête après 40 minutes.")
     with urllib.request.urlopen(status["fetch_url"], timeout=600) as r:
         data = r.read()
     dest.mkdir(parents=True, exist_ok=True)

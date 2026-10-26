@@ -27,7 +27,7 @@ env:
 jobs:
   run:
     runs-on: ubuntu-22.04
-    timeout-minutes: 60
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
@@ -40,17 +40,35 @@ jobs:
           for u in https://gitlab.adullact.net https://archive.softwareheritage.org/api/1/ https://framagit.org; do
             echo "$u : $(curl -sS -o /dev/null -w '%{http_code}' --max-time 20 "$u" 2>&1 | tail -1)"
           done
+      - name: Révision des sources M attendue par Mlang
+        id: rev
+        run: echo "rev=$(git -C mlang ls-tree HEAD ir-calcul | awk '{print $3}')" >> "$GITHUB_OUTPUT"
+      - name: Sources M en cache
+        id: cache-sources
+        uses: actions/cache@v4
+        with:
+          path: |
+            mlang/ir-calcul
+            mlang/ir-calcul.source
+          key: ir-calcul-${{ steps.rev.outputs.rev }}
       - name: Sources M de la DGFiP
+        if: steps.cache-sources.outputs.cache-hit != 'true'
+        env:
+          REV: ${{ steps.rev.outputs.rev }}
         run: |
-          rev=$(git -C mlang ls-tree HEAD ir-calcul | awk '{print $3}')
+          # 1. Forge actuelle, 2. ancienne forge (framagit), 3. copie archivée par Software Heritage.
           if timeout 90 git -C mlang submodule update --init ir-calcul; then
-            echo "ir-calcul: $rev (gitlab.adullact.net)" > mlang/ir-calcul.source
+            echo "ir-calcul: $REV (gitlab.adullact.net)" > mlang/ir-calcul.source
+          elif rm -rf mlang/ir-calcul && timeout 600 git clone -q https://framagit.org/dgfip/ir-calcul.git mlang/ir-calcul \
+               && git -C mlang/ir-calcul checkout -q "$REV"; then
+            echo "ir-calcul: $REV (framagit.org/dgfip/ir-calcul)" > mlang/ir-calcul.source
           else
-            # Forge injoignable : copie archivée par Software Heritage.
             rm -rf mlang/ir-calcul
-            used=$(python3 spikes/impot-dgfip/swh_fetch.py "$rev" mlang/ir-calcul)
-            echo "ir-calcul: $used (archive.softwareheritage.org, origine gitlab.adullact.net/dgfip/ir-calcul ; révision attendue par Mlang : $rev)" > mlang/ir-calcul.source
+            used=$(python3 spikes/impot-dgfip/swh_fetch.py "$REV" mlang/ir-calcul)
+            echo "ir-calcul: $used (archive.softwareheritage.org, origine gitlab.adullact.net/dgfip/ir-calcul ; révision attendue par Mlang : $REV)" > mlang/ir-calcul.source
           fi
+      - name: Sources utilisées
+        run: |
           cat mlang/ir-calcul.source
           ls mlang/ir-calcul
       - name: Dépendances système
