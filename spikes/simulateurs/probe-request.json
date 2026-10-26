@@ -1,5 +1,5 @@
 {
-  "run": 7,
+  "run": 8,
   "targets": [
     {
       "id": "caf-prime-activite",
@@ -23,7 +23,7 @@
           "wait": 2000
         },
         {
-          "clickCss": "label:has(input[name=revenuDeSolidarite][value=false]), input[name=revenuDeSolidarite][value=false]"
+          "clickCss": "input[name=revenuDeSolidarite][value=false]"
         },
         {
           "fillCss": "#dateDeNaissance",
@@ -37,6 +37,70 @@
         },
         {
           "clickCss": "button[name=BCSuivant]"
+        },
+        {
+          "clickCss": "label[for=idCoupleSeul]"
+        },
+        {
+          "clickCss": "label[for=idFutureParentN]"
+        },
+        {
+          "clickCss": "label[for=idNbEnfant0]"
+        },
+        {
+          "clickCss": "label[for=idProprietaireN]"
+        },
+        {
+          "fillCss": "#allocationLogementMoisMoins3",
+          "value": "0"
+        },
+        {
+          "fillCss": "#allocationLogementMoisMoins2",
+          "value": "0"
+        },
+        {
+          "fillCss": "#allocationLogementMoisMoins1",
+          "value": "0"
+        },
+        {
+          "clickCss": "label[for=idAllocationAahN]"
+        },
+        {
+          "clickCss": "label[for=idSituProf4]"
+        },
+        {
+          "fillCss": "#revenusMoisMoins3",
+          "value": "1450"
+        },
+        {
+          "fillCss": "#revenusMoisMoins2",
+          "value": "1450"
+        },
+        {
+          "fillCss": "#revenusMoisMoins1",
+          "value": "1450"
+        },
+        {
+          "fillCss": "#revenuPlacement",
+          "value": "0"
+        },
+        {
+          "fillCss": "#autresRessourcesMoisMoins3",
+          "value": "0"
+        },
+        {
+          "fillCss": "#autresRessourcesMoisMoins2",
+          "value": "0"
+        },
+        {
+          "fillCss": "#autresRessourcesMoisMoins1",
+          "value": "0"
+        },
+        {
+          "clickCss": "button[name=BCSuivant]"
+        },
+        {
+          "wait": 3000
         }
       ]
     },
@@ -68,13 +132,16 @@
           "wait": 1500
         },
         {
-          "click": "Appartement ou maison"
+          "clickCss": "label[for=lieuResidence_APPARTEMENT_OU_MAISON]"
         },
         {
           "wait": 1500
         },
         {
-          "clickCss": "#btn-suivant"
+          "clickCss": "label[for=typeOccupation_LOCATION]"
+        },
+        {
+          "wait": 1500
         }
       ]
     }
