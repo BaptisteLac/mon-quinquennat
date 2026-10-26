@@ -1,138 +1,19 @@
 {
-  "run": 18,
+  "run": 19,
   "targets": [
     {
-      "id": "al-parent-isole",
-      "url": "https://www.caf.fr/redirect/s/redirect?page=aidesEtServicesSimuLogement",
+      "id": "lfi-programme",
+      "url": "https://melenchon2027.fr/programme/decouvrir/",
+      "waitUntil": "networkidle",
       "continueOnError": true,
-      "actions": [
-        {
-          "click": "Commencer"
-        },
-        {
-          "clickCss": "button:has-text(\"J'ai compris\")"
-        },
-        {
-          "fillCss": "#cpCommune",
-          "value": "36000"
-        },
-        {
-          "wait": 2500
-        },
-        {
-          "press": "ArrowDown"
-        },
-        {
-          "press": "Enter"
-        },
-        {
-          "wait": 1500
-        },
-        {
-          "clickCss": "label[for=lieuResidence_APPARTEMENT_OU_MAISON]"
-        },
-        {
-          "wait": 1500
-        },
-        {
-          "clickCss": "label[for=typeOccupation_LOCATION]"
-        },
-        {
-          "wait": 1500
-        },
-        {
-          "clickCss": "label[for=estMeuble_false]"
-        },
-        {
-          "wait": 2000
-        },
-        {
-          "fillCss": "#mttDeclare",
-          "value": "450"
-        },
-        {
-          "press": "Tab"
-        },
-        {
-          "wait": 2000
-        },
-        {
-          "clickCss": "label[for=situationFamiliale_CEL]"
-        },
-        {
-          "wait": 2000
-        },
-        {
-          "clickCss": "button[title='ajouter un enfant']"
-        },
-        {
-          "wait": 1000
-        },
-        {
-          "clickCss": "button[title='ajouter un enfant']"
-        },
-        {
-          "wait": 1000
-        },
-        {
-          "clickCss": "#SALAIRE_0_checkbox"
-        },
-        {
-          "wait": 2000
-        },
-        {
-          "fillCss": "#SALAIRE_0_montant",
-          "value": "21134"
-        },
-        {
-          "press": "Tab"
-        },
-        {
-          "wait": 1000
-        },
-        {
-          "clickCss": "label[for=sitro_0_SITPRO_ACT_INCONNUE]"
-        },
-        {
-          "wait": 1500
-        },
-        {
-          "clickCss": "#btn-suivant"
-        },
-        {
-          "wait": 4000
-        },
-        {
-          "clickCss": "label[for=QUESTION_AGE_MAX_0_true]"
-        },
-        {
-          "wait": 1000
-        },
-        {
-          "clickCss": "label[for=QUESTION_AGE_MAX_1_true]"
-        },
-        {
-          "wait": 1500
-        },
-        {
-          "clickCss": "label[for=QUESTION_REVENUS_DERNIERSMOIS_0_false]"
-        },
-        {
-          "wait": 1000
-        },
-        {
-          "clickCss": "label[for=QUESTION_REVENUS_DERNIERSMOIS_1_false]"
-        },
-        {
-          "wait": 1000
-        },
-        {
-          "clickCss": "#btn-suivant"
-        },
-        {
-          "wait": 4000
-        }
-      ]
+      "actions": []
+    },
+    {
+      "id": "lfi-accueil",
+      "url": "https://melenchon2027.fr/",
+      "waitUntil": "networkidle",
+      "continueOnError": true,
+      "actions": []
     }
   ]
 }
