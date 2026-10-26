@@ -1,0 +1,10 @@
+{
+  "targets": [
+    { "id": "impots-simulateurs", "url": "https://www.impots.gouv.fr/simulateurs", "follow": "simulateur|calcul_impot|simplifie", "maxFollow": 4 },
+    { "id": "impots-ir-2026", "url": "https://simulateur-ir-ifi.impots.gouv.fr/calcul_impot/2026/simplifie/index.htm" },
+    { "id": "caf-simulation", "url": "https://www.caf.fr/allocataires/mes-services-en-ligne/faire-une-simulation", "follow": "simulation|simulateur|prime|logement", "maxFollow": 6 },
+    { "id": "service-public-af", "url": "https://www.service-public.fr/particuliers/vosdroits/F13213" },
+    { "id": "mesdroitssociaux", "url": "https://www.mesdroitssociaux.gouv.fr/votre-simulateur", "follow": "simul", "maxFollow": 2 },
+    { "id": "legifrance-l161-17-2", "url": "https://www.legifrance.gouv.fr/search/code?tab_selection=code&searchField=NUM_ARTICLE&query=L161-17-2&typePagination=DEFAUT&sortValue=PERTINENCE&pageSize=10&page=1" }
+  ]
+}
