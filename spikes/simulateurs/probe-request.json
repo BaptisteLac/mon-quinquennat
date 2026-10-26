@@ -1,33 +1,37 @@
 {
+  "run": 5,
   "targets": [
     {
-      "id": "impots-simulateurs",
-      "url": "https://www.impots.gouv.fr/simulateurs",
-      "follow": "impot.sur.le.revenu|simulateur-ir|calcul_impot|simplifi",
-      "maxFollow": 5
+      "id": "impots-ir",
+      "url": "https://simulateur-ir-ifi.impots.gouv.fr/calcul_impot/",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 120000,
+      "follow": "2026|simplifi|calcul",
+      "maxFollow": 3
     },
     {
       "id": "caf-prime-activite",
-      "url": "https://www.caf.fr/redirect/s/redirect?page=simulateurPa"
+      "url": "https://www.caf.fr/redirect/s/redirect?page=simulateurPa",
+      "actions": [
+        {
+          "click": "Commencer"
+        }
+      ]
     },
     {
       "id": "caf-logement",
-      "url": "https://www.caf.fr/redirect/s/redirect?page=aidesEtServicesSimuLogement"
+      "url": "https://www.caf.fr/redirect/s/redirect?page=aidesEtServicesSimuLogement",
+      "actions": [
+        {
+          "click": "Commencer"
+        }
+      ]
     },
     {
-      "id": "service-public-af",
-      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13213"
-    },
-    {
-      "id": "mesdroitssociaux",
-      "url": "https://www.mesdroitssociaux.gouv.fr/votre-simulateur/accueil"
-    },
-    {
-      "id": "legifrance-l161-17-2",
-      "url": "https://www.legifrance.gouv.fr/search?fonds=CODE&tab_selection=code&searchField=NUM_ARTICLE&query=L161-17-2&typePagination=DEFAUT&sortValue=PERTINENCE&pageSize=10&page=1",
-      "follow": "LEGIARTI|article_lc",
-      "maxFollow": 3
+      "id": "service-public-retraite-age",
+      "url": "https://www.service-public.gouv.fr/particuliers/recherche?keyword=%C3%A2ge%20l%C3%A9gal%20de%20d%C3%A9part%20%C3%A0%20la%20retraite",
+      "follow": "vosdroits/F",
+      "maxFollow": 4
     }
-  ],
-  "run": 4
+  ]
 }
