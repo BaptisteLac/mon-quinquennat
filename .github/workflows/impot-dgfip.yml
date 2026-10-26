@@ -22,8 +22,10 @@ concurrency:
 env:
   # Version de Mlang : elle fixe aussi la version des sources M (sous-module ir-calcul).
   MLANG_REF: 66f6b37308c0dfeb3bb24c8af7952a522452a1af
-  # Années de revenus que cette version de Mlang sait exécuter (dossiers m_ext/).
-  MLANG_YEARS: "2018,2019,2020,2021,2022,2023,2024,2025"
+  # Années de revenus que cette version de Mlang exécute sur les sources publiques (Makefile :
+  # ir-calcul/sources<année>*). Ses fichiers m_ext/2024 et 2025 visent une version non publiée
+  # des sources (variables absentes des sources2024m publiques).
+  MLANG_YEARS: "2018,2019,2020,2021,2022,2023"
 
 jobs:
   run:
