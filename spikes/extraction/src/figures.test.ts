@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { checkFigures, numbersIn, supportedBy } from "./figures.js";
+import { checkFigures, numbersIn, START_OF_TERM, supportedBy } from "./figures.js";
 import { MeasureDraft, toDraftInput } from "./llm-schema.js";
 import { llmMeasure } from "./fixtures.test-helpers.js";
 
@@ -44,6 +44,17 @@ describe("checkFigures", () => {
     const bad = { ...m, effects: [{ ...e, computation: { ...e.computation, reform: [{ parameter: "impot_revenu_taux_tranche_2" as const, value: 7, from: "2028-01-01" }] } }] };
     const r = checkFigures(MeasureDraft.parse(toDraftInput(bad, { id: "m-1", candidateId: "c-test", locate })));
     expect(r.detail).toContain("7 (paramètre 1)");
+  });
+
+  it("refuse la date par défaut pour une mesure annoncée « le premier jour »", () => {
+    const quote = "Le premier jour : un conseil fictif sera réuni.";
+    const base = { title: "Conseil fictif", summary: { simple: "Un conseil fictif.", normal: "Un conseil fictif serait réuni." }, effects: [] };
+    const late = draft({ ...base, sources: [{ page: 1, quote }], schedule: { effectiveDate: "2028-01-01", dateOrigin: "estimee", estimationRule: "[règle de test]" } });
+    expect(checkFigures(late).detail).toContain("postérieure au début du mandat");
+    const onTime = draft({ ...base, sources: [{ page: 1, quote }], schedule: { effectiveDate: START_OF_TERM, dateOrigin: "estimee", estimationRule: "[règle de test]" } });
+    expect(checkFigures(onTime).passed).toBe(true);
+    const arrival = draft({ ...base, sources: [{ page: 1, quote: "Il s’engage à le faire dès son arrivée au pouvoir." }], schedule: { effectiveDate: "2028-01-01", dateOrigin: "estimee", estimationRule: "[règle de test]" } });
+    expect(checkFigures(arrival).passed).toBe(false);
   });
 
   it("vérifie l'année d'une date annoncée, pas celle d'une date estimée", () => {

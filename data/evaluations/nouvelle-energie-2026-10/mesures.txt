@@ -1,0 +1,796 @@
+===== m-f9f3c376fa79 =====
+{
+ "title": "Réduire le stock de normes via le Conseil national d'évaluation des normes",
+ "summary": {
+  "simple": "Moins de règles et des démarches plus simples.",
+  "normal": "Mise en place d'un processus pour réduire le stock de normes et simplifier les procédures, via le Conseil national d'évaluation des normes. Une équipe placée sous l'autorité directe du président de la République ou du Premier ministre retirerait les normes existantes."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-notre-programme-etre-maitre-de-notre-destin p. 1) : mettre en place un processus pour dégonfler le stock de normes et simplifier les procédures, via le Conseil National d’Evaluation des Normes
+CITATION (nouvelle-energie-2026-10-que-veut-faire-david-lisnard-contre-l-exces-de-normes p. 1) : Le stock, lui, ne disparaît pas tout seul : il propose une équipe placée sous l’autorité directe du président de la République ou du premier ministre pour retirer les normes existantes.
+
+===== m-40b5eb944337 =====
+{
+ "title": "Conditionner les transferts européens de cohésion à l'État de droit",
+ "summary": {
+  "simple": "Les aides européennes aux pays bénéficiaires dépendraient du respect de l'État de droit.",
+  "normal": "Les transferts financiers de la politique européenne de cohésion seraient conditionnés au respect de l'État de droit et des règles anti-corruption par les pays bénéficiaires, et à l'assentiment des citoyens européens."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-notre-programme-etre-maitre-de-notre-destin p. 2) : ces transferts ne sont acceptables qu’à deux conditions : que les pays bénéficiaires respectent l’Etat de droit et les règles anti-corruption, et que cette solidarité entre régions européennes fasse l’objet d’un assentiment par les citoyens européens
+
+===== m-f96b765f9bdc =====
+{
+ "title": "Favoriser l'investissement en capital et la recherche dans les entreprises",
+ "summary": {
+  "simple": "Des mesures pour encourager l'investissement et l'innovation.",
+  "normal": "Dispositions favorisant l'investissement en capital dans les entreprises et stimulant la recherche et l'innovation."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-notre-programme-reussir-une-nouvelle-ambition-francaise p. 1) : D’autres dispositions favoriseront l’investissement en capital dans les entreprises et stimuler la recherche et l’innovation.
+
+===== m-e6821bdf03e1 =====
+{
+ "title": "Créer un compte-épargne aléas climatiques et économiques pour les agriculteurs",
+ "summary": {
+  "simple": "Les agriculteurs mettraient de l'argent de côté les bonnes années pour faire face aux intempéries.",
+  "normal": "Création d'un « compte-épargne aléas climatiques et économiques » dans chaque exploitation, alimenté les années bénéficiaires et mobilisable en cas de crise, plafonné à une année de chiffre d'affaires et défiscalisé à l'entrée comme à la sortie ; extension possible à toute forme d'entreprise."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-notre-programme-reussir-une-nouvelle-ambition-francaise p. 1) : une meilleure protection assurantielle contre les conséquences de plus en plus importantes des intempéries sera recherchée à travers un « compte-épargne aléas climatiques et économiques », alimenté lors des années bénéficiaires et débloqué lors des phénomènes climatiques impactant les cultures
+CITATION (nouvelle-energie-2026-10-media-legacy-2026-06-agriculture p. 3) : Créons un compte épargne aléas climatiques, plafonné à une année de chiffre d'affaires, défiscalisé à l'entrée comme à la sortie.
+CITATION (nouvelle-energie-2026-10-media-legacy-2026-06-agriculture p. 9) : Mettre en place un compte épargne aléas climatiques et économiques, dans chaque exploitation mobilisable en cas de crise, forme d’assurance par capitalisation
+CITATION (nouvelle-energie-2026-10-notre-programme-reussir-une-nouvelle-ambition-francaise p. 1) : Le mécanisme pourrait d’ailleurs être étendu à toute forme d’entreprise.
+
+===== m-51d6769cbf1e =====
+{
+ "title": "Contrat de travail unique fusionnant CDI et CDD",
+ "summary": {
+  "simple": "Un seul contrat de travail pour les nouvelles embauches, à la place du CDI et du CDD.",
+  "normal": "Instauration d'un contrat de travail unique pour les nouveaux emplois, fusionnant CDI et CDD, avec des indemnités de licenciement progressives."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-notre-programme-reussir-une-nouvelle-ambition-francaise p. 1) : Une mesure essentielle sera l’instauration d’un contrat de travail unique pour les nouveaux emplois, fusionnant CDI et CDD avec des indemnités de licenciement qui seraient progressives.
+
+===== m-09baa575a131 =====
+{
+ "title": "Charges patronales négatives pour l'embauche d'allocataires du RSA depuis plus de 2 ans",
+ "summary": {
+  "simple": "Les entreprises seraient aidées pour embaucher des personnes au RSA depuis longtemps.",
+  "normal": "Création d'un système de charges patronales négatives pour les embauches de personnes au RSA depuis plus de 2 ans."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-notre-programme-reussir-une-nouvelle-ambition-francaise p. 1) : Un système de charges patronales négatives pour les embauches de personnes au RSA depuis plus de 2 ans sera créé.
+
+===== m-70b07ad4329d =====
+{
+ "title": "Supprimer l'article 55 de la loi SRU (quota de logements sociaux)",
+ "summary": {
+  "simple": "Les communes n'auraient plus d'obligation d'avoir un pourcentage de logements sociaux.",
+  "normal": "Suppression de l'article 55 de la loi SRU qui oblige les communes à disposer de 20 % (bientôt 25 %) de logements sociaux ; un dispositif transitoire pourrait fixer un objectif sur le flux de constructions, défini entre l'État et les collectivités."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-70b07ad4329d-e1",
+   "ticketLine": "logement",
+   "section": "vie",
+   "appliesTo": {
+    "all": []
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Les communes ne seraient plus obligées d'avoir un quota de logements sociaux.",
+    "normal": "L'obligation pour les communes de disposer de 20 % de logements sociaux (article 55 de la loi SRU) serait supprimée."
+   }
+  }
+ ]
+}
+CITATION (nouvelle-energie-2026-10-notre-programme-reussir-une-nouvelle-ambition-francaise p. 1) : Dans ce domaine une mesure essentielle sera la suppression de l’article 55 de la loi SRU du 13 décembre 2000 obligeant les communes à disposer de 20% et bientôt 25% de logements sociaux.
+CITATION (nouvelle-energie-2026-10-notre-programme-reussir-une-nouvelle-ambition-francaise p. 1) : un nouveau dispositif pourrait remplacer l’objectif sur le stock par un objectif sur le flux des habitations construites, défini par une concertation entre l’Etat et les collectivités concernées et qui serait plafonné
+
+===== m-49b683740def =====
+{
+ "title": "Créer un délit de recel de violation du secret de l'instruction",
+ "summary": {
+  "simple": "Sanctionner davantage les fuites dans les enquêtes judiciaires.",
+  "normal": "Réflexion sur le secret de l'instruction et création envisagée d'un délit spécifique de recel de violation du secret de l'instruction."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-notre-programme-reussir-une-nouvelle-ambition-francaise p. 2) : il faut engager une réflexion sur le secret de l’instruction et envisager, au-delà du délit de droit commun de recel, un délit spécifique de recel de violation du secret de l’instruction
+
+===== m-0eb97d8c06e3 =====
+{
+ "title": "Interdire toute régularisation après une entrée clandestine",
+ "summary": {
+  "simple": "Une personne entrée illégalement ne pourrait plus être régularisée.",
+  "normal": "Suppression de toute possibilité d'être régularisé après être entré clandestinement sur le territoire."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-notre-programme-reussir-une-nouvelle-ambition-francaise p. 2) : supprimer toute possibilité d’être régularisé après être entré clandestinement sur le territoire
+
+===== m-c6c3f98f7a79 =====
+{
+ "title": "Renforcer le contrôle des frontières et réserver l'asile aux situations le justifiant",
+ "summary": {
+  "simple": "Mieux contrôler les frontières et faciliter le retour des déboutés de l'asile.",
+  "normal": "Renforcement des dispositifs nationaux de contrôle des frontières avec Frontex, droit d'asile réservé aux situations le justifiant, retour des déboutés organisé par de meilleures procédures et des accords avec les pays d'origine."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-notre-programme-reussir-une-nouvelle-ambition-francaise p. 2) : Le meilleur contrôle effectif des frontières doit s’appuyer sur le renforcement des dispositifs nationaux avec le concours des nouveaux moyens de Frontex. Le droit d’asile doit être réservé aux situations le justifiant. Le retour des « déboutés » doit être réglé par de meilleures procédures et des accords avec les pays d’origine.
+
+===== m-b598ea3c36da =====
+{
+ "title": "Instaurer le chèque-éducation",
+ "summary": {
+  "simple": "Chaque famille recevrait un crédit pour inscrire ses enfants dans l'école de son choix.",
+  "normal": "Instauration progressive du chèque-éducation : un financement public équivalent, que la famille choisisse l'enseignement public ou privé, sous forme d'un crédit correspondant au coût de chaque élève pour la collectivité ; développement parallèle des bourses sociales et au mérite."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-b598ea3c36da-e1",
+   "ticketLine": "ecole",
+   "section": "vie",
+   "appliesTo": {
+    "field": "enfantsAgeBand",
+    "op": "in",
+    "value": [
+     "3_10",
+     "11_17"
+    ]
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Tu recevrais un chèque-éducation pour inscrire tes enfants dans l'école de ton choix.",
+    "normal": "Chaque famille disposerait d'un crédit égal au coût d'un élève pour la collectivité, utilisable dans l'école ou la filière choisie."
+   }
+  }
+ ]
+}
+CITATION (nouvelle-energie-2026-10-notre-programme-generer-un-renouveau-civique p. 1) : Le libre-choix de l’école par les familles ainsi progressivement établi sera gagé par le développement des bourses sociales et au mérite, et parallèlement l’instauration du chèque-éducation
+CITATION (nouvelle-energie-2026-10-notre-programme-generer-un-renouveau-civique p. 1) : Au regard du montant de la charge pour la collectivité de chaque élève, les familles disposeront d’un crédit de droits correspondant, leur permettant d’inscrire leurs enfants dans les écoles et les filières de leur choix.
+CITATION (nouvelle-energie-2026-10-notre-programme-education p. 1) : Nous proposons un droit réel au libre choix de l’école, garanti par la transparence des résultats et l’instauration progressive d’un chèque-éducation : un financement public équivalent, que la famille choisisse l’enseignement public ou privé.
+CITATION (nouvelle-energie-2026-10-file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 9) : Allocation scolaire mobilisable auprès de l’établissement de son choix, public ou privé sous contrat : le financement public suit l’élève, non l’établissement.
+CITATION (nouvelle-energie-2026-10-questions-quel-candidat-propose-le-cheque-education p. 1) : Il faut que le financement public suive le choix des parents, des établissements, que tous les gamins, que tous les parents puissent mettre l’enfant dans l’école qu’ils veulent.
+
+===== m-fa7e205918eb =====
+{
+ "title": "Initiation au grec, au latin et à la philosophie dès le primaire",
+ "summary": {
+  "simple": "Du grec, du latin et de la philosophie dès l'école primaire.",
+  "normal": "Programmes recentrés sur les disciplines structurantes, avec une initiation au grec, au latin et à la philosophie étendue dès le primaire."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-notre-programme-education p. 1) : Les programmes seront recentrés sur les disciplines structurantes. L’initiation au grec, au latin, et à la philosophie sera étendu, dès le primaire
+
+===== m-6094a1a58b45 =====
+{
+ "title": "Permettre aux communes volontaires d'armer leur police municipale",
+ "summary": {
+  "simple": "Les communes qui le veulent pourraient armer leur police municipale.",
+  "normal": "Les communes volontaires pourraient armer leur police municipale et disposer d'outils : accès aux fichiers, verbalisation renforcée, amendes forfaitaires délictuelles ; sans obligation."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-notre-programme-securite p. 1) : Il faut ainsi permettre aux communes volontaires d’armer leur police municipale et de disposer d’outils réels : accès aux fichiers, possibilité de verbalisation renforcée, procédures d’amendes forfaitaires délictuelles. Mais cela doit rester une liberté, jamais une obligation.
+CITATION (nouvelle-energie-2026-10-propose-de-redonner-des-moyens-aux-forces-de-l-ordre p. 1) : Il se déclare favorable à son armement.
+CITATION (nouvelle-energie-2026-10-sont-les-propositions-de-david-lisnard-sur-la-securite p. 1) : Mais il s’oppose à un seuil qui rendrait l’armement obligatoire : la police municipale est optionnelle, le choix appartient aux habitants et au débat local.
+
+===== m-c41626230e33 =====
+{
+ "title": "Interdire les Frères musulmans et le voile à l'université",
+ "summary": {
+  "simple": "Interdiction des Frères musulmans et du voile à l'université, expulsion des prêcheurs radicaux.",
+  "normal": "Face à l'islamisme : interdiction des Frères musulmans, contrôle des écoles hors contrat, expulsion des prêcheurs radicaux, interdiction du voile à l'université, campagne républicaine de contre-discours."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-notre-programme-securite p. 1) : Face à l’islamisme : désignation claire de l’ennemi idéologique, interdiction des Frères musulmans, contrôle des écoles hors contrat, expulsion des prêcheurs radicaux, interdiction du voile à l’université, campagne républicaine de contre-discours.
+CITATION (nouvelle-energie-2026-10-questions-quel-candidat-defend-la-laicite-face-a-l-islamisme p. 1) : Il veut interdire et démanteler les réseaux salafistes et les Frères musulmans, et sanctionner pénalement les parents qui font pression sur les enseignants pour des raisons religieuses ou politiques.
+
+===== m-a6ba5c8dfd28 =====
+{
+ "title": "Revaloriser les soignants selon leurs responsabilités",
+ "summary": {
+  "simple": "Les soignants seraient payés selon leurs responsabilités, avec des recrutements plus souples.",
+  "normal": "Revalorisation des rémunérations des soignants selon l'expérience et les responsabilités, financée par les économies de débureaucratisation, avec un objectif chiffré de progression salariale sur 5 ans ; recrutements contractuels souples ; compétences paramédicales élargies (prescription, suivi autonome, accès direct)."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-notre-programme-sante p. 1) : Cela suppose une revalorisation salariale fondée sur les responsabilités, non sur les statuts, des recrutements contractuels souples, y compris passerelles public-privé, et la reconnaissance pleine des compétences paramédicales, dans une logique de coopération.
+CITATION (nouvelle-energie-2026-10-media-legacy-2026-05-livret-sante-nouvelle-energie p. 8) : Revaloriser les rémunérations des soignants par les économies issues de la débureaucratisation, en fonction de l’expérience et des responsabilités, avec un objectif chiffré de progression salariale sur 5 ans.
+CITATION (nouvelle-energie-2026-10-media-legacy-2026-05-livret-sante-nouvelle-energie p. 8) : Élargir réellement les compétences des professionnels paramédicaux (prescription, suivi autonome, accès direct) avec un encadrement garantissant la qualité.
+
+===== m-4e01a1d763ea =====
+{
+ "title": "Recentrer la PAC sur la souveraineté alimentaire et la production",
+ "summary": {
+  "simple": "La politique agricole européenne devrait d'abord soutenir la production.",
+  "normal": "La PAC redeviendrait une politique agricole recentrée sur la souveraineté alimentaire, la production et l'investissement, avec des contrats d'objectifs partagés ; elle récompenserait la production et non la mise en jachère."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-notre-programme-agriculture p. 1) : La PAC doit cesser d’être une politique environnementale hors-sol : elle doit redevenir une politique agricole, recentrée sur la souveraineté alimentaire, la production, et l’augmentation de nos capacités exportatrices.
+CITATION (nouvelle-energie-2026-10-media-legacy-2026-06-agriculture p. 3) : Cela implique de réorienter la PAC, qui doit récompenser la production, pas la mise en jachère.
+CITATION (nouvelle-energie-2026-10-media-legacy-2026-06-agriculture p. 8) : Réorienter la PAC vers le soutien à la production et à l’investissement, revenir à une logique de développement durable basée sur des contrats d’objectifs partagés
+
+===== m-011abcc5b73a =====
+{
+ "title": "Transférer une part des charges agricoles vers la valeur ajoutée",
+ "summary": {
+  "simple": "Alléger les charges des agriculteurs et payer leurs services rendus à l'environnement.",
+  "normal": "Réforme de la rémunération agricole : transfert d'une part des charges vers la valeur ajoutée pour améliorer les revenus nets, et rémunération des services environnementaux rendus par les agriculteurs et forestiers (stockage du carbone, entretien des écosystèmes)."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-notre-programme-agriculture p. 1) : Nous proposons une réforme profonde du système de rémunération agricole : transfert d’une part des charges vers la valeur ajoutée pour améliorer les revenus nets et une juste rémunération des services environnementaux rendus par les agriculteurs et forestiers (stockage du carbone, entretien des écosystèmes).
+CITATION (nouvelle-energie-2026-10-media-legacy-2026-06-agriculture p. 3) : Solution : transférer les charges non contributives vers la valeur ajoutée.
+CITATION (nouvelle-energie-2026-10-media-legacy-2026-06-agriculture p. 9) : Transférer les charges fiscales et sociales non contributives vers l’assiette de la valeur ajoutée
+
+===== m-b5ca6e749be8 =====
+{
+ "title": "Agriculture de précision et retenues d'eau (bassines) décidées localement",
+ "summary": {
+  "simple": "Soutenir la technologie agricole et autoriser les bassines quand elles sont justifiées.",
+  "normal": "Soutien à l'agriculture de précision, aux capteurs connectés, à la robotisation et à l'IA ; politique des sols fondée sur la fertilité et la captation du carbone ; gestion de l'eau par subsidiarité, avec des bassines lorsqu'elles sont techniquement justifiées et localement décidées, et une loi sur l'eau simplifiée pour permettre le stockage hivernal et l'irrigation estivale."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-notre-programme-agriculture p. 1) : Cela passe par le soutien à l’agriculture de précision, aux capteurs connectés, à la robotisation, à l’usage de l’intelligence artificielle pour la gestion des cultures, par une politique des sols fondée sur la fertilité et la captation du carbone, et par une gestion de l’eau fondée sur la subsidiarité : oui aux bassines, lorsqu’elles sont techniquement justifiées et localement décidées.
+CITATION (nouvelle-energie-2026-10-media-legacy-2026-06-agriculture p. 8) : Réformer et simplifier la loi sur l’eau pour permettre le stockage hivernal et l’irrigation estivale.
+
+===== m-ae277d4fd290 =====
+{
+ "title": "Plus de centres de rétention et rétention administrative portée à 24 mois",
+ "summary": {
+  "simple": "Plus de centres de rétention, et une rétention possible jusqu'à 24 mois.",
+  "normal": "Construction de centres de rétention administrative supplémentaires et allongement de la durée de rétention administrative à 24 mois."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-notre-programme-immigration p. 1) : Construire plus de centres de rétention administrative et allonger la durée de la rétention administrative à 24 mois
+
+===== m-94d1b6f3e05d =====
+{
+ "title": "Exonérer de cotisations sociales les soignants libéraux en cumul emploi-retraite",
+ "summary": {
+  "simple": "Les soignants retraités qui continuent à exercer ne paieraient plus de cotisations sociales.",
+  "normal": "Rétablissement et pérennisation de l'exonération de cotisations sociales pour l'ensemble des soignants libéraux en cumul emploi-retraite."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-media-legacy-2026-05-livret-sante-nouvelle-energie p. 8) : Rétablir et pérenniser l’exonération de cotisations sociales pour l’ensemble des soignants libéraux en cumul emploi-retraite.
+
+===== m-f18924808b51 =====
+{
+ "title": "Faciliter les contrats passerelles entre la ville et l'hôpital",
+ "summary": {
+  "simple": "Des soignants de ville pourraient venir renforcer ponctuellement l'hôpital.",
+  "normal": "Facilitation des contrats passerelles ville-hôpital pour répondre aux besoins ponctuels et désengorger certains services."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-media-legacy-2026-05-livret-sante-nouvelle-energie p. 8) : Faciliter les contrats passerelles ville-hôpital pour répondre aux besoins ponctuels et désengorger certains services.
+
+===== m-904050b3fe95 =====
+{
+ "title": "Supprimer la moitié des 1 200 agences et opérateurs de l'État",
+ "summary": {
+  "simple": "La moitié des agences de l'État seraient supprimées, dont les ARS et les DREAL.",
+  "normal": "Par ordonnances, suppression de la moitié des 1 200 agences et opérateurs dont le coût et la redondance ne se justifient pas (480 000 agents), dont les ARS, les DREAL, les MRAe et les DREETS."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 24) : Ces ordonnances supprimeront la moitié des 1 200 agences et opérateurs dont le coût et la redondance ne se justifient pas (480 000 agents)
+CITATION (nouvelle-energie-2026-10-file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 24) : Elles supprimeront les ARS, les DREAL, les MRAe, et autres DREETS (Directions Régionales de l’Économie, de l’Emploi, du Travail et des Solidarités).
+CITATION (nouvelle-energie-2026-10-legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026 p. 11) : L’État sera rendu à ses missions régaliennes : la sécurité, la justice, la défense, la diplomatie. Les agences redondantes seront supprimées.
+CITATION (nouvelle-energie-2026-10-economies-david-lisnard-propose-t-il-et-ou-exactement p. 1) : Il vise la strate née de la multiplication récente, et cite nommément les directions régionales de l’environnement, les directions départementales des territoires et de la mer, et les agences régionales de santé.
+CITATION (nouvelle-energie-2026-10-candidat-veut-supprimer-des-normes-et-des-agences-de-l-etat p. 1) : Il annonce également la suppression d’une partie des mille cent cinquante-trois organismes d’État recensés par des sources sénatoriales
+
+===== m-55ecac48c641 =====
+{
+ "title": "Un gouvernement de douze ministres et un moratoire réglementaire dès le premier jour",
+ "summary": {
+  "simple": "Dès le premier jour : douze ministres seulement et gel des nouvelles normes.",
+  "normal": "Le premier jour, nomination d'un gouvernement de douze ministres et signature d'un moratoire réglementaire gelant toutes les normes en cours d'adoption ; les réglementations publiées dans les quatre-vingt-dix jours précédant l'élection seraient suspendues le temps d'une revue d'utilité."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 23) : Le premier jour : le Premier ministre devra nommer un gouvernement composé de douze ministres, pour décider plus vite et assumer davantage.
+CITATION (nouvelle-energie-2026-10-file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 23) : Un moratoire réglementaire sera signé à l’Élysée le jour même : toutes les normes en cours d’adoption seront gelées. Toutes les réglementations publiées dans les quatre-vingt-dix jours précédant l’élection suspendues le temps d’une revue d’utilité pilotée directement par la Présidence.
+
+===== m-411896be731a =====
+{
+ "title": "Répartir par la loi les urgences entre SDIS et SAMU",
+ "summary": {
+  "simple": "Une règle claire pour savoir qui des pompiers ou du SAMU intervient.",
+  "normal": "Clarification par la loi de la répartition SDIS/SAMU sur un critère unique : le type d'urgence désigne immédiatement l'opérateur compétent."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 9) : Clarifier par la loi la répartition SDIS/SAMU sur un critère unique : le type d’urgence désigne immédiatement l’opérateur compétent.
+
+===== m-e84b56e7bbb6 =====
+{
+ "title": "Limiter le bornage obligatoire aux abords du projet",
+ "summary": {
+  "simple": "Plus besoin de borner tout un grand terrain pour une petite construction.",
+  "normal": "Obligation de bornage limitée aux seules parties du périmètre situées à moins de 10 mètres du projet de construction, sauf contestation par un voisin."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 10) : Limiter l’obligation de bornage aux seules parties du périmètre situées à moins de 10 mètres du projet de construction, sauf contestation de limite par un voisin.
+
+===== m-8d80273b1c19 =====
+{
+ "title": "Modification mineure d'un permis réputée conforme",
+ "summary": {
+  "simple": "Un petit changement sur un permis de construire ne bloquerait plus le projet.",
+  "normal": "Procédure de déclaration de modification mineure : toute modification n'affectant aucune règle d'urbanisme serait déclarée dans les trois mois et réputée conforme sauf opposition motivée en trente jours."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 10) : Procédure de déclaration de modification mineure : toute modification n’affectant aucune règle d’urbanisme est déclarée dans les trois mois et réputée conforme sauf opposition motivée en trente jours.
+
+===== m-4e4ad4010dda =====
+{
+ "title": "Silence de l'administration valant accord pour la quasi-totalité des actes",
+ "summary": {
+  "simple": "Sans réponse de l'administration, une demande serait acceptée.",
+  "normal": "Extension du « silence vaut accord » à la quasi-totalité des actes, avec suppression des 1 600 exceptions actuelles ; intérêts moratoires automatiques en cas de retard de remboursement ; pièces manquantes à notifier sous quinze jours, sinon dossier réputé complet ; tri des dossiers urgents par IA."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 16) : Extension du SVA : Faire du silence de l’administration une approbation automatique pour la quasi-totalité des actes.
+CITATION (nouvelle-energie-2026-10-file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 16) : Suppression des 1 600 exceptions actuelles au SVA issues d’une quarantaine de décrets sectoriels.
+CITATION (nouvelle-energie-2026-10-file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 16) : Délais de remboursement stricts : Imposer le paiement d’intérêts moratoires automatiques par l’État à l’usager en cas de retard de remboursement.
+CITATION (nouvelle-energie-2026-10-file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 16) : Délai de quinze jours pour notifier les pièces manquantes : passé ce délai, le dossier est réputé complet et aucune demande ultérieure ne peut plus suspendre ni interrompre le délai d’instruction.
+CITATION (nouvelle-energie-2026-10-file-nouvelle-energie-livre-noir-pages-20-24-inversees p. 16) : Guichet de secours IA : Utiliser l’intelligence artificielle pour trier les dossiers urgents et alerter dès qu’un délai critique est dépassé.
+
+===== m-4f7e1ecc4afc =====
+{
+ "title": "Référendum possible sur tout sujet et révision de la Constitution par référendum",
+ "summary": {
+  "simple": "Tout sujet pourrait être soumis à référendum, y compris pour modifier la Constitution.",
+  "normal": "L'article 11 serait libéré de ses limites thématiques (immigration, école, justice, dépense publique…) ; la Constitution pourrait, à terme, être révisée directement par référendum."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026 p. 9) : L’article 11 sera libéré de ses limites thématiques : tout sujet pourra être soumis au pays - l’immigration, l’école, la justice, la dépense publique. La Constitution doit pouvoir, à terme, être révisée directement par référendum
+
+===== m-680d1cf4f3d7 =====
+{
+ "title": "Recentrer le contrôle de constitutionnalité sur la lettre de la Constitution",
+ "summary": {
+  "simple": "Le Conseil constitutionnel jugerait sur le texte de la Constitution ; une censure fondée sur le préambule pourrait être levée par référendum.",
+  "normal": "Contrôle de constitutionnalité limité à la lettre des articles ; possibilité de passer outre par référendum une censure fondée sur le préambule ; le préambule de 1946 et la charte de l'environnement cesseraient d'être des normes de contrôle."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026 p. 9) : Le contrôle de constitutionnalité devra porter sur la lettre des articles de la Constitution.
+CITATION (nouvelle-energie-2026-10-legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026 p. 9) : Si censure il y a sur la base du préambule, alors il doit être possible de passer outre par la voie du référendum. C’est ce que nous instaurerons. Le préambule de 1946 et la charte de l’environnement cesseront de servir de normes de contrôle
+
+===== m-5d97237ca399 =====
+{
+ "title": "Obtenir une dérogation aux règles européennes d'asile et d'immigration, sur le modèle danois",
+ "summary": {
+  "simple": "La France demanderait, comme le Danemark, à ne pas appliquer les règles européennes sur l'asile et l'immigration.",
+  "normal": "Suivre la voie du Danemark, dispensé des règles communes d'asile et d'immigration de l'Union européenne, pour obtenir la même dérogation."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026 p. 10) : Il nous faudra suivre la voie ouverte par le Danemark qui a obtenu d’être dispensé des règles communes d’asile et d’immigration.
+
+===== m-624215cfb8d3 =====
+{
+ "title": "Baisser la dépense publique de 200 milliards d'euros, objectif 300 milliards",
+ "summary": {
+  "simple": "La dépense publique baisserait de 200 milliards d'euros par an en fin de quinquennat, avec un objectif de 300 milliards.",
+  "normal": "Baisse de la dépense publique de 200 milliards d'euros documentés, soit environ sept points de PIB en fin de quinquennat, avec un objectif de 300 milliards (une publication d'avril 2026 retenait 100 milliards sur le seul train de vie de l'État). Baisse visée de 80 milliards dès la première année. Objectif : dépense publique sous 50 % du PIB en dix ans (57 % aujourd'hui selon le candidat). Sur les 200 milliards : 120 milliards rendus aux actifs en salaire net et 40 milliards de baisse des impôts de production."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-questions-le-programme-de-david-lisnard-est-il-chiffre p. 1) : David Lisnard présente 200 milliards d’euros de baisse de la dépense publique documentés avec Nouvelle Énergie, soit environ sept points de PIB en fin de quinquennat, et vise 300 milliards ; une publication d’avril 2026 retenait 100 milliards sur le seul train de vie de l’État.
+CITATION (nouvelle-energie-2026-10-questions-quel-est-le-projet-de-david-lisnard-pour-la-france p. 1) : la baisse de dépense publique visée dès la première année
+CITATION (nouvelle-energie-2026-10-questions-quel-est-le-projet-de-david-lisnard-pour-la-france p. 1) : 80 milliards d’euros
+CITATION (nouvelle-energie-2026-10-quel-candidat-veut-baisser-les-charges-des-entreprises p. 1) : Il annonce pour cela une revue générale des dépenses publiques et 80 milliards d’euros d’économies dès la première année.
+CITATION (nouvelle-energie-2026-10-questions-quel-candidat-veut-reduire-les-depenses-publiques p. 1) : David Lisnard veut ramener la dépense publique sous 50 % du PIB en dix ans, contre 57 % aujourd’hui selon lui, soit 200 milliards d’euros d’économies par an obtenues par une réorganisation de l’État plutôt que par des coupes aveugles.
+CITATION (nouvelle-energie-2026-10-questions-que-propose-david-lisnard-face-a-la-dette-publique p. 1) : 80 milliards d’euros dès la première année, au moins 200 milliards en trajectoire
+CITATION (nouvelle-energie-2026-10-que-ferait-david-lisnard-des-200-milliards-d-economies p. 1) : 120 milliards d’euros rendus aux actifs en salaire net, 40 milliards en baisse des impôts de production, à commencer par la suppression de la C3S
+
+===== m-6c65b91996c9 =====
+{
+ "title": "Aligner la CSG des actifs sur celle des inactifs",
+ "summary": {
+  "simple": "Les salariés paieraient la même CSG que les retraités et autres inactifs.",
+  "normal": "Alignement de la CSG des actifs sur celle des inactifs (taux cités de mémoire par le candidat : 9,2 % et 6,6 %), financé par la réduction d'un tiers, puis de moitié, des organismes jugés inutiles."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-6c65b91996c9-e1",
+   "ticketLine": "salaire_net",
+   "section": "portefeuille",
+   "appliesTo": {
+    "field": "situationPro",
+    "op": "in",
+    "value": [
+     "salarie_prive",
+     "fonctionnaire",
+     "independant"
+    ]
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Ta CSG serait alignée sur celle des inactifs, cités à 6,6 % contre 9,2 % pour les actifs.",
+    "normal": "La CSG des actifs serait alignée sur celle des inactifs ; le candidat cite de mémoire 9,2 % et 6,6 %. L'effet sur le salaire n'est pas calculé tant que le taux retenu n'est pas fixé."
+   }
+  }
+ ]
+}
+CITATION (nouvelle-energie-2026-10-questions-le-programme-de-david-lisnard-est-il-chiffre p. 1) : L’alignement de la CSG des actifs sur celle des inactifs, qu’il situe de mémoire à 9,2 % et 6,6 %, serait financé par la réduction d’un tiers, puis de moitié, des organismes qu’il juge inutiles.
+CITATION (nouvelle-energie-2026-10-candidat-veut-que-le-travail-paie-plus-que-l-assistanat p. 1) : Il en fait l’une de ses premières mesures, un alignement par la baisse financé par la réduction de moitié, d’abord d’un tiers, d’organismes publics qu’il juge inutiles.
+
+===== m-01ec4bebd625 =====
+{
+ "title": "Taxe « par clic » sur les livraisons à domicile, au profit du commerce de proximité",
+ "summary": {
+  "simple": "Les livraisons à domicile du commerce en ligne seraient taxées pour baisser les impôts locaux des magasins.",
+  "normal": "Taxe forfaitaire « par clic » sur chaque livraison à domicile du commerce à distance (points relais et retrait en magasin exonérés), dont le produit financerait un abattement de fiscalité locale pour les magasins de détail, opération neutre pour les collectivités."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-01ec4bebd625-e1",
+   "ticketLine": "tva",
+   "section": "portefeuille",
+   "appliesTo": {
+    "all": []
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Une taxe forfaitaire s'appliquerait aux livraisons à domicile d'achats en ligne (pas aux points relais).",
+    "normal": "Chaque livraison à domicile d'un achat à distance supporterait une taxe forfaitaire, hors points relais et retrait en magasin."
+   }
+  }
+ ]
+}
+CITATION (nouvelle-energie-2026-10-quel-candidat-defend-les-commercants-et-les-artisans p. 1) : Il propose donc une taxe forfaitaire « par clic » sur chaque livraison à domicile, dont seraient exonérés les points relais et le retrait en magasin, et d’en affecter le produit à un abattement de fiscalité locale pour les magasins de détail, une opération neutre pour les collectivités.
+
+===== m-226d32f41f6d =====
+{
+ "title": "Suspendre l'obligation de facturation électronique",
+ "summary": {
+  "simple": "L'obligation de facturation électronique serait suspendue.",
+  "normal": "Suspension en urgence de l'obligation de facturation électronique, demandée en août 2026 pour protéger les entrepreneurs, notamment les TPE, artisans et commerçants."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-quel-candidat-defend-les-commercants-et-les-artisans p. 1) : En premier lieu, David Lisnard vise la facturation électronique obligatoire. En août 2026, il demande de la suspendre en urgence
+CITATION (nouvelle-energie-2026-10-quel-candidat-defend-les-commercants-et-les-artisans p. 1) : Nous devons protéger les entrepreneurs face à ces risques et suspendre en urgence l'obligation de la facturation électronique au 1er septembre.
+CITATION (nouvelle-energie-2026-10-quel-candidat-defend-les-commercants-et-les-artisans p. 1) : une TPE, un artisan ou un commerçant doivent choisir parmi plus de 140 plateformes privées payantes
+
+===== m-721636d3d499 =====
+{
+ "title": "Rétablir la liberté d'implantation industrielle",
+ "summary": {
+  "simple": "Implanter une usine serait plus libre : des contrôles après coup plutôt que des autorisations préalables.",
+  "normal": "Rétablissement du « principe de liberté d'implantation industrielle », en privilégiant le contrôle a posteriori sur les autorisations préalables."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-quel-candidat-defend-les-entreprises-et-les-independants p. 1) : Il propose de rétablir le « principe de liberté d’implantation industrielle », en privilégiant le contrôle a posteriori sur les autorisations préalables, et de remplacer le principe de précaution par un principe de responsabilité.
+
+===== m-0bf8c2e78a6e =====
+{
+ "title": "Ramener l'impôt sur les sociétés à 20 %, avec une part locale de 0 à 5 %",
+ "summary": {
+  "simple": "Les entreprises paieraient 20 % d'impôt sur les sociétés.",
+  "normal": "Impôt sur les sociétés ramené à 20 %, avec une part variable de 0 à 5 % laissée aux collectivités locales, pour aligner la fiscalité sur celle des voisins européens."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-questions-quel-candidat-veut-baisser-les-impots p. 1) : « Alléger les impôts de production, ramener l’impôt sur les sociétés à 20 % avec une part variable laissée aux collectivités locales entre 0 et 5 % »
+CITATION (nouvelle-energie-2026-10-questions-quel-candidat-veut-baisser-les-impots p. 1) : pour aligner la fiscalité française sur celle des voisins européens et restaurer la compétitivité de l’industrie
+
+===== m-d9cf86b5a249 =====
+{
+ "title": "Allocations chômage dégressives et formation des demandeurs d'emploi",
+ "summary": {
+  "simple": "Les allocations chômage baisseraient avec le temps, avec plus de formation.",
+  "normal": "Dégressivité des allocations chômage, associée à une vraie formation et à un soutien de terrain pour les demandeurs d'emploi en difficulté ; assurance chômage « simple, équitable, efficace »."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-questions-quel-candidat-veut-reformer-l-assurance-chomage p. 1) : David Lisnard est favorable à la dégressivité des allocations chômage, associée à une vraie formation des demandeurs d’emploi en difficulté.
+CITATION (nouvelle-energie-2026-10-questions-quel-candidat-veut-reformer-l-assurance-chomage p. 1) : Dégressivité, et puis parallèlement renforcer la vraie formation des personnes en difficulté et soutenir sur le terrain les personnes qui galèrent.
+
+===== m-a726bacfc511 =====
+{
+ "title": "Ne plus remplacer l'ensemble des départs de fonctionnaires",
+ "summary": {
+  "simple": "Une partie des départs de fonctionnaires ne serait pas remplacée, d'abord dans les fonctions administratives.",
+  "normal": "Non-remplacement d'une partie des cinq cent mille départs annuels de la fonction publique, en commençant par les fonctions administratives."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-quel-candidat-veut-reduire-le-nombre-de-fonctionnaires p. 1) : David Lisnard propose de ne plus remplacer l’ensemble des cinq cent mille départs annuels de la fonction publique, en commençant par les fonctions administratives.
+
+===== m-50b528ea2562 =====
+{
+ "title": "Interdire les signes politico-religieux ostentatoires à l'université, sur les plages et en sortie scolaire",
+ "summary": {
+  "simple": "Pas de signes religieux ostentatoires à l'université, sur les plages ni pour les parents qui accompagnent les sorties scolaires.",
+  "normal": "Interdiction des signes ostentatoires politico-religieux à l'université, sur les plages et pour les parents accompagnateurs de sorties scolaires ; fin des dérogations religieuses pour des examens ou des rendez-vous médicaux."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-questions-quel-candidat-defend-la-laicite-face-a-l-islamisme p. 1) : David Lisnard propose d’interdire les signes ostentatoires politico-religieux à l’université, sur les plages et pour les parents accompagnateurs de sorties scolaires, de mettre fin aux dérogations religieuses pour des examens ou des rendez-vous médicaux, et de faire respecter l’égalité entre les hommes et les femmes.
+CITATION (nouvelle-energie-2026-10-questions-quel-candidat-defend-la-laicite-face-a-l-islamisme p. 1) : veut interdire les signes politico-religieux ostentatoires à l’université et sur les plages.
+
+===== m-55a9cd70c05a =====
+{
+ "title": "Inscrire la subsidiarité ascendante comme principe",
+ "summary": {
+  "simple": "L'échelon le plus proche des habitants déciderait d'abord ; seul ce qu'il ne peut pas faire remonterait.",
+  "normal": "Inscription de la subsidiarité ascendante comme principe : l'échelon le plus proche décide d'abord et ne transfère à l'échelon supérieur que ce qu'il ne peut pas assumer ; péréquation verticale adossée à des objectifs nationaux d'égalité territoriale plutôt qu'horizontale entre collectivités."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (nouvelle-energie-2026-10-quel-candidat-veut-donner-plus-de-pouvoir-aux-maires p. 1) : propose d’inscrire la subsidiarité ascendante comme principe : l’échelon le plus proche décide d’abord, et ne transfère vers le haut que ce qu’il ne peut pas assumer.
+CITATION (nouvelle-energie-2026-10-quel-candidat-veut-donner-plus-de-pouvoir-aux-maires p. 1) : David Lisnard y ajoute la question de la péréquation, qu’il veut verticale et adossée à des objectifs nationaux d’égalité territoriale, plutôt qu’horizontale entre collectivités

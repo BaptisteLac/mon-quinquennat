@@ -12,7 +12,8 @@
     "score": "tsx scripts/score.ts",
     "ingest": "tsx scripts/ingest.ts",
     "veille": "tsx scripts/veille.ts",
-    "watch": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 tsx scripts/watch.ts"
+    "watch": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 tsx scripts/watch.ts",
+    "evaluate": "tsx scripts/evaluate.ts"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^4.0.87",

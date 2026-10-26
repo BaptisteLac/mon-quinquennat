@@ -1,0 +1,31 @@
+{
+  "corpus": "nouvelle-energie-2026-10",
+  "lecteur": "Claude (session Claude Code, 2026-10-26)",
+  "consigne": "Pour chaque engagement non apparié automatiquement (citations trop différentes), chercher une mesure publiée qui porte le même engagement ; ne la retenir que si elle en reprend l'objet, même avec une autre citation.",
+  "couvertures": {
+    "Il demandait à l’État de sortir du « tout-fibre », y compris dans les zones peu denses, au profit d’une constellation satellitaire en orbite basse": {
+      "measureId": "m-723fb1ab4c8c",
+      "note": "Le programme prévoit le déploiement de la fibre « ou/et l’internet par satellite » contre l'enclavement."
+    },
+    "une organisation territoriale simplifiée « sous la seule autorité des préfets de départements »": {
+      "measureId": "m-a353f046b4d7",
+      "note": "Préfet interlocuteur unique déconcentré."
+    },
+    "Il propose de basculer progressivement vers un système composé aux deux tiers de répartition et pour un tiers de capitalisation collective obligatoire, amorcé par un investissement public temporaire": {
+      "measureId": "m-befbb59aa25e",
+      "note": "Même engagement (part de capitalisation obligatoire) ; la page Questions cite une tribune de 2023 (un tiers), le programme retient environ 40 % : le programme prévaut (docs/decisions.md)."
+    },
+    "l’État proposerait des bourses sur critères sociaux et de performance scolaire": {
+      "measureId": "m-b598ea3c36da",
+      "note": "« développement des bourses sociales et au mérite »."
+    },
+    "les écoles disposant en contrepartie d’une plus grande autonomie de gestion": {
+      "measureId": "m-fff4921ab3ad",
+      "note": "Autonomie des chefs d'établissement."
+    },
+    "David Lisnard veut restaurer l’autorité de l’adulte à l’école": {
+      "measureId": "m-d5e266982fbe",
+      "note": "« nous rétablirons l’autorité du professeur »."
+    }
+  }
+}

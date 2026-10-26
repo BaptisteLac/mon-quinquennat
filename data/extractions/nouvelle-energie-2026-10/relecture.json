@@ -182,7 +182,8 @@
   },
   "49b683740def": {
     "verdict": "fidele",
-    "contentSha256": "d9bbf521991cacaf46ad77d55235735c84bbb4f7ef2b79e3da7eed035b0677e3"
+    "contentSha256": "22f8e50449fd893399079f9f353c8d6ab759033d184562b215d91a33fb5806f7",
+    "note": "Titre corrigé le 2026-10-26 (« Envisager » au lieu de « Créer ») : le programme dit « engager une réflexion […] et envisager » ce délit (bilan du test n°1)."
   },
   "3d3522e9ff66": {
     "verdict": "fidele",
@@ -638,7 +639,8 @@
   },
   "55ecac48c641": {
     "verdict": "fidele",
-    "contentSha256": "d5bac024cd41a207ee51c5c30929822172a6056445d1feb86df4c7d333885e2c"
+    "contentSha256": "612e75c77aaa861ad0d03b5de225cc19681a1861fcd12d5def6bfcdd8238791f",
+    "note": "Date corrigée le 2026-10-26 : « Le premier jour » → début du mandat (bilan du test n°1)."
   },
   "b6ef9b7c8e21": {
     "verdict": "fidele",
@@ -1022,7 +1024,8 @@
   },
   "4081facb513f": {
     "verdict": "fidele",
-    "contentSha256": "d28b5499922d805258325919b4d0c2ab17bb890d1c7fe78780917878101084b9"
+    "contentSha256": "d9097d9cf2225e27e416e98aa90ebe600ecd95737df33ded7171b7cd577107c0",
+    "note": "Date corrigée le 2026-10-26 : « dès son arrivée au pouvoir » → début du mandat (contrôle de date ajouté au bilan du test n°1)."
   },
   "7a8ec391aca6": {
     "verdict": "fidele",

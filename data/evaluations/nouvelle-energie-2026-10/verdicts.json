@@ -1,0 +1,171 @@
+{
+  "corpus": "nouvelle-energie-2026-10",
+  "lecteur": "Claude (session Claude Code, 2026-10-26), relecture de chaque fiche contre ses citations et, au besoin, la phrase source",
+  "consigne": "Sens : la fiche (titre, résumés, phrases d'effet) dit ce que dit la citation, sans ajout, omission qui change le sens, ni engagement plus fort ou plus faible. Paramètres : taux, montants, durées, seuils et date d'effet conformes au programme ; « sans_parametre » si la fiche n'en porte aucun.",
+  "verdicts": {
+    "m-f9f3c376fa79": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-40b5eb944337": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-f96b765f9bdc": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-e6821bdf03e1": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-51d6769cbf1e": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-09baa575a131": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-70b07ad4329d": {
+      "sens": "correct",
+      "parametres": "justes",
+      "note": "« dispositif transitoire » : absent de la citation mais présent dans la phrase source (« peut-être de façon transitoire »)."
+    },
+    "m-49b683740def": {
+      "sens": "incorrect",
+      "parametres": "sans_parametre",
+      "note": "Titre « Créer un délit… » alors que le programme dit « engager une réflexion […] et envisager » ce délit ; le résumé, lui, est fidèle."
+    },
+    "m-0eb97d8c06e3": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-c6c3f98f7a79": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-b598ea3c36da": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-fa7e205918eb": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-6094a1a58b45": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-c41626230e33": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-a6ba5c8dfd28": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-4e01a1d763ea": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-011abcc5b73a": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-b5ca6e749be8": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-ae277d4fd290": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-94d1b6f3e05d": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-f18924808b51": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-904050b3fe95": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-55ecac48c641": {
+      "sens": "correct",
+      "parametres": "faux",
+      "note": "Date d'effet par défaut (1er janvier 2028, « date non annoncée ») alors que le programme annonce « Le premier jour » et « le jour même »."
+    },
+    "m-411896be731a": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-e84b56e7bbb6": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-8d80273b1c19": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-4e4ad4010dda": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-4f7e1ecc4afc": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-680d1cf4f3d7": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-5d97237ca399": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-624215cfb8d3": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-6c65b91996c9": {
+      "sens": "correct",
+      "parametres": "justes",
+      "note": "Taux de CSG donnés « de mémoire » par le candidat, signalé dans la fiche."
+    },
+    "m-01ec4bebd625": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-226d32f41f6d": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-721636d3d499": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-0bf8c2e78a6e": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-d9cf86b5a249": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-a726bacfc511": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-50b528ea2562": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-55a9cd70c05a": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    }
+  }
+}
