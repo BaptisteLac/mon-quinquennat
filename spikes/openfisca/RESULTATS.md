@@ -13,7 +13,7 @@
 | Formule TypeScript de la liste blanche | `packages/formulas` (`retraite_age_depart`) | faite et testée ; barème officiel sourcé (service-public.gouv.fr F14043, vérifié le 14 août 2026), chaque ligne citée mot pour mot dans la page archivée |
 | Temps de calcul, 8 candidats × 1 profil | `scripts/bench.py` | **1,85 s** (médiane), 2,02 s (max) |
 | Service HTTP sans état + image Docker | `mq_calc/api.py`, `Dockerfile` | fait, testé en conteneur |
-| 5 profils de référence | `profiles/reference.json`, `scripts/run_reference.py` | calculés ; **montants officiels à relever** |
+| 5 profils de référence | `profiles/reference.json`, `scripts/run_reference.py` | calculés ; 10 montants officiels relevés sur 25 (prime d'activité, allocations familiales) |
 
 Montants produits (€/mois) : impôt sur le revenu (revenus 2025, payé en 2026, ramené au mois), prime d'activité, aides au logement, allocations familiales (octobre 2026).
 
@@ -21,7 +21,7 @@ Montants produits (€/mois) : impôt sur le revenu (revenus 2025, payé en 2026
 
 | Critère | Résultat |
 |---|---|
-| Écart ≤ 2 % ou ≤ 10 €/mois avec les simulateurs officiels | **non mesuré** : les simulateurs officiels (impots.gouv.fr, caf.fr, service-public.fr) ne sont pas joignables depuis l'environnement de travail. Les montants attendus restent `null` / `a_caler_pendant_le_test` ; aucun n'a été estimé à la main. |
+| Écart ≤ 2 % ou ≤ 10 €/mois avec les simulateurs officiels | **oui pour les 10 montants relevés** (prime d'activité ×5, allocations familiales ×5), écart maximal 1,18 €. Restent l'impôt sur le revenu et les aides au logement (ci-dessous). |
 | Réforme paramétrique fonctionnelle et testée | **oui** : baisser de 2 points le taux de la 2e tranche baisse l'impôt d'exactement 2 % de la tranche (à l'euro d'arrondi annuel près) ; réforme neutre sans effet ; paramètre hors liste blanche refusé. |
 | Temps de réponse < 2 s pour tous les candidats d'un profil | **oui, de justesse** sur 1 cœur : 1,85 s en médiane dans le cas défavorable (2 candidats sur 8 touchent la prime d'activité). |
 | Hébergement identifié, avec son coût | besoins mesurés (ci-dessous) ; coût à relever sur les grilles des hébergeurs (non joignables d'ici). |
@@ -91,9 +91,31 @@ Une réforme s'applique sur toutes les années du calcul (« une fois tout appli
 
 Erreur corrigée : « sans plafond » représenté par l'infini donnait un impôt NaN (0 × inf dans OpenFisca) ; un plafond inatteignable le remplace (test).
 
+## Comparaison aux simulateurs officiels
+
+Le simulateur de la CAF n'est pas joignable depuis l'environnement de travail : GitHub Actions le remplit (`spikes/simulateurs`, `probe-request.json`) et commite le texte et la capture de chaque page. Les montants relevés sont dans `profiles/reference.json`, avec leur preuve dans `profiles/preuves/`.
+
+| Profil | Prime d'activité calculée | Officielle (CAF) |
+|---|---|---|
+| Célibataire au SMIC, locataire | 235,18 € | 234 € |
+| Couple, deux enfants, propriétaires | 0 € | 0 € (non éligible) |
+| Parent isolé, deux enfants, HLM | 183,86 € | 183 € |
+| Retraité seul | 0 € | 0 € (non éligible) |
+| Indépendant micro-BNC | 83,94 € | 83 € |
+
+Allocations familiales : 152,24 € calculés pour 152,25 € (service-public.fr, F13213) pour les deux profils avec deux enfants ; 0 pour les autres.
+
+Parent isolé : OpenFisca lui attribue l'allocation de soutien familial (403,57 €/mois pour deux enfants), puisque le profil ne demande pas de pension alimentaire (hypothèse « sans pension alimentaire »). La prime d'activité ne la compte pas en entier mais forfaitisée (215,17 €, article R844-4 du code de la sécurité sociale). Trois saisies sur le site de la CAF le montrent :
+- allocations familiales seules : 393 € ; OpenFisca sans allocation de soutien familial : 399,03 € (dans la tolérance) ;
+- allocations familiales + allocation de soutien familial forfaitisée : 183 € ; OpenFisca : 183,86 € (montant retenu) ;
+- allocations familiales + allocation de soutien familial entière : 0 €. Le simulateur ne forfaitise pas ce qu'on lui saisit ; OpenFisca suit le texte.
+
+Le montant affiché à un parent isolé dépend donc de cette hypothèse (≈ 215 €/mois d'écart) : à afficher dans la fiche « d'où vient ce chiffre », ou à remplacer par une question au profil (voir `docs/decisions.md`, à valider).
+
 ## Reste à faire pour le feu vert
 
-1. Relever les montants officiels des 5 profils (`profiles/reference.json`) : impots.gouv.fr (impôt), caf.fr (prime d'activité, aides au logement), service-public.fr ou caf.fr (allocations familiales). Puis `uv run python scripts/run_reference.py`.
+1. Aides au logement : parcours du simulateur de la CAF en cours (questions posées une à une).
+2. Impôt sur le revenu : le simulateur d'impots.gouv.fr ne répond pas depuis GitHub Actions ; à relever autrement.
 3. Relever le coût de l'hébergement retenu.
 
 ## Commandes
