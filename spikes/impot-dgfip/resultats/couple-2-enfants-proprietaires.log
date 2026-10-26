@@ -6,17 +6,209 @@ LINKING_MODE= dune build --profile dev
 make --no-print-directory -f /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/Makefile -C /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/ ROOT_DIR=/home/runner/work/mon-quinquennat/mon-quinquennat/mlang remise_a_zero_versionnage
 sed -i 's/(version .*)/(version %%VERSION%%)/' dune-project
 git checkout -- *.opam
-OCAMLRUNPARAM=b dune exec /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/_build/default/src/main.exe -- -A iliad --display_time --debug --precision double --income-year=2024 --comparison_error_margin=0.000001 --mpp_function=enchainement_primitif_interpreteur  --run_test=/home/runner/work/mon-quinquennat/mon-quinquennat/spikes/impot-dgfip/cas/couple-2-enfants-proprietaires.irj ir-calcul/sources2024m_3_13/tgvI.m ir-calcul/sources2024m_3_13/errI.m ir-calcul/sources2024m_3_13/chap-1.m
+OCAMLRUNPARAM=b dune exec /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/_build/default/src/main.exe -- -A iliad --display_time --debug --precision double --income-year=2024 --comparison_error_margin=0.000001 --mpp_function=enchainement_primitif_interpreteur  --run_test=/home/runner/work/mon-quinquennat/mon-quinquennat/spikes/impot-dgfip/cas/couple-2-enfants-proprietaires.irj ir-calcul/sources2024m_3_13/tgvI.m ir-calcul/sources2024m_3_13/errI.m ir-calcul/sources2024m_3_13/chap-1.m ir-calcul/sources2024m_3_13/chap-2.m ir-calcul/sources2024m_3_13/chap-3.m ir-calcul/sources2024m_3_13/chap-4.m ir-calcul/sources2024m_3_13/chap-51.m ir-calcul/sources2024m_3_13/chap-52.m ir-calcul/sources2024m_3_13/chap-6.m ir-calcul/sources2024m_3_13/chap-7.m ir-calcul/sources2024m_3_13/chap-81.m ir-calcul/sources2024m_3_13/chap-82.m ir-calcul/sources2024m_3_13/chap-83.m ir-calcul/sources2024m_3_13/chap-84.m ir-calcul/sources2024m_3_13/chap-85.m ir-calcul/sources2024m_3_13/chap-86.m ir-calcul/sources2024m_3_13/chap-87.m ir-calcul/sources2024m_3_13/chap-88.m ir-calcul/sources2024m_3_13/chap-aff.m ir-calcul/sources2024m_3_13/chap-cinr.m ir-calcul/sources2024m_3_13/chap-cmajo.m ir-calcul/sources2024m_3_13/chap-cor.m ir-calcul/sources2024m_3_13/chap-ctl.m ir-calcul/sources2024m_3_13/chap-ini.m ir-calcul/sources2024m_3_13/chap-inr.m ir-calcul/sources2024m_3_13/chap-isf.m ir-calcul/sources2024m_3_13/chap-majo.m ir-calcul/sources2024m_3_13/chap-perp.m ir-calcul/sources2024m_3_13/chap-plaf.m ir-calcul/sources2024m_3_13/chap-taux.m ir-calcul/sources2024m_3_13/chap-teff.m ir-calcul/sources2024m_3_13/chap-thr.m ir-calcul/sources2024m_3_13/chap-tl.m ir-calcul/sources2024m_3_13/coc1.m ir-calcul/sources2024m_3_13/coc2.m ir-calcul/sources2024m_3_13/coc3.m ir-calcul/sources2024m_3_13/coc4.m ir-calcul/sources2024m_3_13/coc5.m ir-calcul/sources2024m_3_13/coc7.m ir-calcul/sources2024m_3_13/coi1.m ir-calcul/sources2024m_3_13/coi2.m ir-calcul/sources2024m_3_13/coi3.m ir-calcul/sources2024m_3_13/horizoc.m ir-calcul/sources2024m_3_13/horizoi.m ir-calcul/sources2024m_3_13/res-ser1.m ir-calcul/sources2024m_3_13/res-ser2.m  /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/m_ext/2024/cibles.m /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/m_ext/2024/codes_1731.m /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/m_ext/2024/commence_par_5.m /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/m_ext/2024/commence_par_7.m /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/m_ext/2024/commence_par_H.m /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/m_ext/2024/correctif.m /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/m_ext/2024/main.m
 [DEBUG] Reading M files...
-[🕛  0.0 s] [🕛  0.1 s] Parsing: ir-calcul/sources2024m_3_13/tgvI.mParsing: ir-calcul/sources2024m_3_13/tgvI.m[🕛  0.1 s] Parsing: ir-calcul/sources2024m_3_13/errI.m[RESULT] Parsing: completed!
-[TIME] 158 ms
-[DEBUG] Elaborating...
-[ERROR] this program has no target
-[ERROR] this program has no target
+[🕛  0.0 s] [🕛  0.1 s] Parsing: ir-calcul/sources2024m_3_13/tgvI.mParsing: ir-calcul/sources2024m_3_13/tgvI.mTag "isf"
+[🕛  0.2 s] Parsing: ir-calcul/sources2024m_3_13/chap-4.mTag "corrective"
+[🕛  0.3 s] Parsing: ir-calcul/sources2024m_3_13/chap-88.mTag "isf"
+Tag "base_HR"
+Tag "corrective"
+Tag "base_inr_r9901"
+Tag "corrective"
+Tag "base_inr_ref"
+Tag "corrective"
+Tag "base_inr_ntl"
+Tag "corrective"
+Tag "base_inr_intertl"
+Tag "corrective"
+Tag "base_ABAT98"
+Tag "corrective"
+Tag "base_inr_ntl22"
+Tag "corrective"
+Tag "base_inr_ntl24"
+Tag "corrective"
+Tag "base_INR"
+Tag "corrective"
+Tag "base_inr_ntl24"
+Tag "corrective"
+Tag "base_ABAT99"
+Tag "corrective"
+Tag "base_inr_tl"
+Tag "corrective"
+Tag "base_inr_tl22"
+Tag "corrective"
+Tag "base_inr_tl24"
+Tag "corrective"
+Tag "base_inr_inter22"
+Tag "corrective"
+Tag "base_stratemajo"
+Tag "corrective"
+Tag "base_stratemajo"
+Tag "corrective"
+Tag "base_stratemajo"
+Tag "corrective"
+Tag "base_stratemajo"
+Tag "corrective"
+Tag "base_stratemajo"
+Tag "corrective"
+Tag "base_stratemajo"
+Tag "corrective"
+Tag "base_stratemajo"
+Tag "corrective"
+Tag "base_MAJO"
+Tag "corrective"
+Tag "base_anterieure"
+Tag "corrective"
+Tag "base_anterieure"
+Tag "corrective"
+Tag "base_INITIAL"
+Tag "corrective"
+Tag "base_INITIAL"
+Tag "corrective"
+Tag "base_anterieure"
+Tag "corrective"
+Tag "base_anterieure"
+Tag "corrective"
+Tag "base_primitive_penalisee"
+Tag "corrective"
+Tag "base_INITIAL"
+Tag "corrective"
+Tag "base_anterieure_cor"
+Tag "corrective"
+Tag "base_premier"
+Tag "corrective"
+Tag "base_tl_init"
+Tag "corrective"
+Tag "base_tl"
+Tag "corrective"
+Tag "base_tl_rect"
+Tag "corrective"
+Tag "irisf"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+[🕐  0.3 s] "corrective"Parsing: ir-calcul/sources2024m_3_13/chap-inr.mTag 
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "isf"
+Tag "corrective"
+Tag "isf"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "isf"
+Tag "corrective"
+Tag "isf"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+Tag "corrective"
+[🕐  0.4 s] Parsing: ir-calcul/sources2024m_3_13/chap-perp.mTag "taux"
+Tag "taux"
+Tag "taux"
+Tag "taux"
+Tag "taux"
+Tag "taux"
+Tag "taux"
+Tag "taux"
+Tag "taux"
+Tag "taux"
+Tag "taux"
+Tag "taux"
+Tag "taux"
+Tag "taux"
+Tag "taux"
+Tag "taux"
+Tag "taux"
+Tag "taux"
+[🕐  0.4 s] Parsing: ir-calcul/sources2024m_3_13/coc5.mTag "isf"
+Tag "isf"
+Tag "isf"
+Tag "corrective"
+Tag "isf"
+Tag "isf"
+Tag "isf"
+[RESULT] [TIME] 493 ms
+[DEBUG] Parsing: completed!
+Elaborating...
+[ERROR] unknown variable
+
+[1;34m  --> /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/m_ext/2024/codes_1731.m
+[1;34m   | [0m
+[1;34m15 | [0msi present(GLOBAL.REPRCM) alors CORR.REPRCM1731 = GLOBAL.REPRCM; finsi
+[1;34m   | [0m[31;1m                                     ^^^^^^^^^^[0m[0m
+
+[ERROR] unknown variable
+
+[1;34m  --> /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/m_ext/2024/codes_1731.m
+[1;34m   | [0m
+[1;34m15 | [0msi present(GLOBAL.REPRCM) alors CORR.REPRCM1731 = GLOBAL.REPRCM; finsi
+[1;34m   | [0m[31;1m                                     ^^^^^^^^^^[0m[0m
+
 Fatal error: exception Utils.Errors.StructuredError(_)
-Raised at Utils__Errors.raise_error in file "src/mlang/utils/errors.ml", line 57, characters 38-77
-Called from M_frontend__Validator.Err.has_no_target in file "src/mlang/m_frontend/validator.ml" (inlined), line 379, characters 25-72
-Called from M_frontend__Validator.proceed in file "src/mlang/m_frontend/validator.ml", line 3473, characters 44-64
+Raised at Utils__Errors.raise_spanned_error in file "src/mlang/utils/errors.ml", line 51, characters 2-59
+Called from M_frontend__Validator.check_variable in file "src/mlang/m_frontend/validator.ml", line 1490, characters 44-69
+Called from M_frontend__Validator.check_instructions.check_m_access in file "src/mlang/m_frontend/validator.ml", line 1639, characters 8-47
+Called from M_frontend__Validator.check_instructions.aux in file "src/mlang/m_frontend/validator.ml", line 1675, characters 27-68
+Called from M_frontend__Validator.check_instructions in file "src/mlang/m_frontend/validator.ml", line 2105, characters 17-37
+Called from M_frontend__Validator.check_instructions.aux in file "src/mlang/m_frontend/validator.ml", line 1699, characters 33-62
+Called from M_frontend__Validator.check_instructions in file "src/mlang/m_frontend/validator.ml", line 2105, characters 17-37
+Called from M_frontend__Validator.check_code in file "src/mlang/m_frontend/validator.ml", line 2422, characters 23-52
+Called from M_frontend__Validator.check_target in file "src/mlang/m_frontend/validator.ml", line 2460, characters 4-98
+Called from Stdlib__List.fold_left in file "list.ml", line 121, characters 24-34
+Called from Stdlib__List.fold_left in file "list.ml", line 121, characters 24-34
+Called from M_frontend__Validator.proceed in file "src/mlang/m_frontend/validator.ml", line 3436, characters 4-1023
 Called from Mlang__Driver.driver in file "src/mlang/driver.ml", line 167, characters 20-68
 Re-raised at Mlang__Driver.driver in file "src/mlang/driver.ml", line 178, characters 4-11
 Called from Mlang__Driver.main in file "src/mlang/driver.ml", line 211, characters 6-12
