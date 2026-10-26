@@ -73,6 +73,24 @@ Chaque candidat ne recalcule que les montants que ses réformes peuvent toucher 
 - Une instance doit rester allumée (démarrage à froid trop long pour une requête). Un processus traite un appel à la fois, ≈ 0,5 appel/s par cœur.
 - Candidats : conteneurs managés avec instance minimale (ex. Scaleway Serverless Containers, Clever Cloud, Fly.io, Google Cloud Run). Le coût est à relever sur leurs grilles tarifaires, non joignables d'ici.
 
+## Mesures branchées sur le calcul (2026-10-26)
+
+Chaîne complète : mesure publiée (citation exacte) → levier de la liste fermée `ReformLever` (schéma) → paramètres OpenFisca (`mq_calc/levers.py`, conversions d'unité dans le code) → réforme du candidat (`scripts/build_candidates.py` → `candidates.json`) → montants par l'API.
+
+Programme Nouvelle Énergie (260 mesures publiées) :
+
+| Nature | Mesures | Détail |
+|---|---|---|
+| Calculée par OpenFisca | 1 | déplafonnement du quotient familial (demi-parts d'enfant) |
+| Calculable, en file d'exceptions | 1 | minimum vieillesse « à hauteur de 1000 euros par mois » : inférieur au montant en vigueur en 2026 (12 523,14 € par an), le calcul littéral afficherait une baisse |
+| Formule de la liste blanche | 1 | âge légal à 65 ans (`retraite_age_depart`) : barème actuel à sourcer |
+| Qualitative (phrase, sans montant) | 41 | effets sans paramètre chiffré exploitable (ex. CSG « de mémoire », gain de 250 à 400 € « selon les interventions ») |
+| Sans effet sur le ticket | 216 | mesures d'organisation de l'État, de procédure, etc. |
+
+Une réforme s'applique sur toutes les années du calcul (« une fois tout appliqué ») ; la date d'effet de la mesure sert à la frise. Exemple : un couple avec deux enfants et 7 000 + 6 000 € nets par mois paie 2 185,75 €/mois d'impôt aujourd'hui, 1 912,25 € avec le quotient familial sans plafond ; le couple de référence (revenus moyens) n'est pas concerné.
+
+Erreur corrigée : « sans plafond » représenté par l'infini donnait un impôt NaN (0 × inf dans OpenFisca) ; un plafond inatteignable le remplace (test).
+
 ## Reste à faire pour le feu vert
 
 1. Relever les montants officiels des 5 profils (`profiles/reference.json`) : impots.gouv.fr (impôt), caf.fr (prime d'activité, aides au logement), service-public.fr ou caf.fr (allocations familiales). Puis `uv run python scripts/run_reference.py`.

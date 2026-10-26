@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { Condition, Measure, Profile, avatarAgeBand, childAgeBand, isPublishable } from "./measure.js";
+import { Computation, Condition, Measure, Profile, avatarAgeBand, childAgeBand, isPublishable } from "./measure.js";
 
 const validMeasure = {
   id: "m-001",
@@ -23,7 +23,7 @@ const validMeasure = {
       computation: {
         kind: "bareme",
         engine: "openfisca",
-        reform: [{ parameter: "a_caler_pendant_le_test", value: 0.09, from: "2028-01-01" }],
+        reform: [{ parameter: "impot_revenu_taux_tranche_2", value: 9, from: "2028-01-01" }],
       },
     },
   ],
@@ -76,6 +76,18 @@ describe("Condition", () => {
 
   it("refuse un champ de profil inconnu", () => {
     expect(Condition.safeParse({ field: "nationalite", op: "eq", value: "x" }).success).toBe(false);
+  });
+});
+
+describe("ReformLever", () => {
+  it("refuse un paramètre hors de la liste des leviers", () => {
+    const m = { kind: "bareme", engine: "openfisca", reform: [{ parameter: "impot_revenu.bareme", value: 9, from: "2028-01-01" }] };
+    expect(Computation.safeParse(m).success).toBe(false);
+  });
+
+  it("accepte un levier sans valeur (suppression)", () => {
+    const m = { kind: "bareme", engine: "openfisca", reform: [{ parameter: "quotient_familial_sans_plafond", value: null, from: "2028-01-01" }] };
+    expect(Computation.safeParse(m).success).toBe(true);
   });
 });
 

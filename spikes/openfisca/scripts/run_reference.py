@@ -16,6 +16,7 @@ LABELS = {
     "prime_activite": "Prime d'activité",
     "aides_logement": "Aides au logement",
     "allocations_familiales": "Allocations familiales",
+    "minimum_vieillesse": "Minimum vieillesse (ASPA)",
 }
 
 
@@ -32,7 +33,7 @@ def main() -> int:
         r = compute(Profile(**case["profile"]))
         for key in AMOUNTS:
             calc = r.amounts[key]
-            ref = case["attendu"][key]["montant"]
+            ref = case["attendu"].get(key, {}).get("montant")
             calc_s = "—" if calc is None else f"{calc:.2f}"
             if ref is None or calc is None:
                 print(f"| {case['id']} | {LABELS[key]} | {calc_s} | à relever | | |")

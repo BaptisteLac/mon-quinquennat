@@ -178,13 +178,27 @@ export const Condition: z.ZodType<Condition> = z.lazy(() =>
 /* ------------------------------------------------------------------ */
 
 /** Sûr : on modifie des paramètres de la législation, OpenFisca calcule l'écart. */
+/**
+ * Leviers de la législation qu'une mesure peut modifier (liste fermée). Le nom est clair ; le service
+ * de calcul le traduit en paramètre OpenFisca et fait les conversions d'unité. La valeur vient
+ * toujours d'une citation ; un levier sans valeur (suppression) prend `value: null`.
+ */
+export const ReformLever = z.enum([
+  /** Minimum vieillesse (ASPA) d'une personne seule, en €/mois. */
+  "minimum_vieillesse_personne_seule_mensuel",
+  /** Suppression du plafond de l'avantage du quotient familial par demi-part pour enfant (sans valeur). */
+  "quotient_familial_sans_plafond",
+  /** Taux de la 2e tranche du barème de l'impôt sur le revenu, en % (ex. 11). */
+  "impot_revenu_taux_tranche_2",
+]);
+
 const BaremeComputation = z.object({
   kind: z.literal("bareme"),
   engine: z.literal("openfisca"),
   reform: z.array(
     z.object({
-      parameter: z.string(), // chemin du paramètre OpenFisca, à caler pendant le test de faisabilité
-      value: z.unknown(),
+      parameter: ReformLever,
+      value: z.number().nullable(),
       from: z.string().date(),
     }),
   ),

@@ -7,7 +7,7 @@
  * Champs laissés au code, jamais au LLM : identifiants, document source, contexte chiffré,
  * chiffrages, liens de financement, vérification (`review`).
  */
-import { Measure, ProfileField, Theme, TicketLine, type Condition } from "@mon-quinquennat/schema";
+import { Measure, ProfileField, ReformLever, Theme, TicketLine, type Condition } from "@mon-quinquennat/schema";
 import { z } from "zod";
 import type { Quoted } from "./match.js";
 
@@ -33,7 +33,7 @@ const LlmCondition = z.union([
 const LlmComputation = z.object({
   kind: z.enum(["bareme", "formule", "estimation", "qualitatif"]),
   /** bareme : paramètres de la législation modifiés, décrits en clair (le chemin OpenFisca est calé par le code). */
-  reform: z.array(z.object({ parameter: z.string(), value: z.number(), from: z.string() })),
+  reform: z.array(z.object({ parameter: ReformLever, value: z.number().nullable(), from: z.string() })),
   formulaId: z
     .enum(["retraite_age_depart", "revalorisation_pension", "smic_mensuel_net", "tva_consommation", "energie_facture"])
     .nullable(),

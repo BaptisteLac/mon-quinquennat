@@ -111,7 +111,7 @@ export function llmMeasure(overrides: Partial<LlmMeasure> = {}): LlmMeasure {
         appliesTo: { all: [{ field: "revenusFoyerMensuels", op: "gte", value: 1 }] },
         computation: {
           kind: "bareme",
-          reform: [{ parameter: "taux fictif de la tranche test", value: 0.09, from: "2028-01-01" }],
+          reform: [{ parameter: "impot_revenu_taux_tranche_2", value: 9, from: "2028-01-01" }],
           formulaId: null,
           params: [],
           hypothesisLabel: null,

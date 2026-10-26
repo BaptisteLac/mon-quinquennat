@@ -27,7 +27,7 @@ TaxBenefitSystem.get_parameters_at_instant = functools.lru_cache(maxsize=None)( 
 
 MONTH = REFERENCE_DATE.strftime("%Y-%m")
 TAX_YEAR = "2025"
-AMOUNTS = ("impot_revenu", "prime_activite", "aides_logement", "allocations_familiales")
+AMOUNTS = ("impot_revenu", "prime_activite", "aides_logement", "allocations_familiales", "minimum_vieillesse")
 
 
 @lru_cache(maxsize=1)
@@ -124,6 +124,8 @@ def compute(
         amounts["impot_revenu"] = round(-float(sim.calculate("impot_revenu_restant_a_payer", TAX_YEAR).sum()) / 12, 2) + 0.0
     if "prime_activite" in want:
         amounts["prime_activite"] = round(float(sim.calculate("ppa", MONTH)[0]), 2)
+    if "minimum_vieillesse" in want:
+        amounts["minimum_vieillesse"] = round(float(sim.calculate("aspa", MONTH)[0]), 2)
     if "allocations_familiales" in want:
         amounts["allocations_familiales"] = round(float(sim.calculate("af", MONTH)[0]), 2)
     if "aides_logement" in want:

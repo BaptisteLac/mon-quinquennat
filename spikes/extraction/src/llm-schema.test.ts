@@ -17,7 +17,7 @@ describe("toDraftInput", () => {
     expect(draft.effects[0]?.computation).toEqual({
       kind: "bareme",
       engine: "openfisca",
-      reform: [{ parameter: "taux fictif de la tranche test", value: 0.09, from: "2028-01-01" }],
+      reform: [{ parameter: "impot_revenu_taux_tranche_2", value: 9, from: "2028-01-01" }],
     });
     const review = {
       status: "en_attente",

@@ -13,6 +13,7 @@ ALLOWED_PREFIXES = (
     "impot_revenu.bareme_ir_depuis_1945.bareme",
     "impot_revenu.calcul_impot_revenu.plaf_qf",
     "prestations_sociales.solidarite_insertion.minima_sociaux.ppa",
+    "prestations_sociales.solidarite_insertion.minimum_vieillesse.aspa",
     "prestations_sociales.prestations_familiales",
 )
 
@@ -36,8 +37,12 @@ _AFFECTS = (
     ("impot_revenu.", frozenset({"impot_revenu"})),
     ("prestations_sociales.solidarite_insertion.minima_sociaux.ppa", frozenset({"prime_activite"})),
     ("prestations_sociales.prestations_familiales", frozenset({"allocations_familiales", "prime_activite"})),
+    (
+        "prestations_sociales.solidarite_insertion.minimum_vieillesse",
+        frozenset({"minimum_vieillesse", "aides_logement", "prime_activite"}),
+    ),
 )
-ALL_OUTPUTS = frozenset({"impot_revenu", "prime_activite", "aides_logement", "allocations_familiales"})
+ALL_OUTPUTS = frozenset({"impot_revenu", "prime_activite", "aides_logement", "allocations_familiales", "minimum_vieillesse"})
 
 
 def affected_outputs(changes: list[ParamChange]) -> frozenset[str]:

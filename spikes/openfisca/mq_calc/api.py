@@ -12,17 +12,11 @@ from pathlib import Path
 from flask import Flask, jsonify, request
 from pydantic import BaseModel, ConfigDict, ValidationError
 
-from .compute import Candidate, baseline, compute_all
+from .candidates import CandidateSpec, load
+from .compute import Candidate, compute_all
 from .profile import Profile
-from .reforms import ParamChange, affected_outputs, make_reform
 
 CANDIDATES_FILE = Path(os.environ.get("MQ_CANDIDATES", Path(__file__).resolve().parents[1] / "candidates.json"))
-
-
-class CandidateSpec(BaseModel):
-    model_config = ConfigDict(extra="forbid", frozen=True)
-    id: str
-    changes: list[ParamChange]
 
 
 class CalculRequest(BaseModel):
@@ -31,8 +25,7 @@ class CalculRequest(BaseModel):
 
 
 def load_candidates(path: Path) -> list[Candidate]:
-    specs = [CandidateSpec(**c) for c in json.loads(path.read_text())["candidates"]]
-    return [Candidate(s.id, make_reform(baseline(), s.changes, s.id), affected_outputs(s.changes)) for s in specs]
+    return load([CandidateSpec(**c) for c in json.loads(path.read_text())["candidates"]])
 
 
 def create_app(candidates: list[Candidate]) -> Flask:
