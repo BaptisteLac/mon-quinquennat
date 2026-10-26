@@ -53,7 +53,8 @@ def declarations(profile: Profile, year: str = TAX_YEAR) -> list[dict]:
     out = []
     for f, (fid, foyer) in enumerate(built.situation["foyers_fiscaux"].items()):
         declarants = foyer["declarants"]
-        cases: dict[str, int] = {}
+        # Année des revenus : sans elle, le code DGFiP ne calcule pas les âges (abattement personnes âgées).
+        cases: dict[str, int] = {"ANREV": int(year)}
         cases["0AM" if len(declarants) == 2 else "0AC"] = 1
         for code, ind in zip(("0DA", "0DB"), declarants):
             cases[code] = births[ind]

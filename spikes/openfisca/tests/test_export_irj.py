@@ -14,6 +14,7 @@ def test_parent_isole_coche_la_case_t_et_declare_ses_enfants():
     p = Profile(**BASE, age=36, situationFamiliale="seul", enfants=[{"anneeNaissance": 2022}, {"anneeNaissance": 2014}],
                 situationPro="salarie_prive", revenusNetsMensuels=1700)
     [d] = declarations(p)
+    assert d["cases"]["ANREV"] == 2025
     assert d["cases"]["0AC"] == 1 and d["cases"]["0BT"] == 1 and d["cases"]["0CF"] == 2
     assert d["cases"]["0DA"] == 1990
     assert d["cases"]["1AJ"] > 12 * 1700  # salaire imposable : net + CSG non déductible
