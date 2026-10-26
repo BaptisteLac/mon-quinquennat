@@ -118,8 +118,9 @@
           "source": "Simulateur prime d'activité de la CAF (wwwd.caf.fr/wps/portal/caffr/simulateurpa), rempli automatiquement depuis GitHub Actions le 2026-10-26 (run 40311752976) : « le montant de votre Prime d'activité est estimé à : 183 € / mois ». Saisie : seule, deux enfants nés en 2022 et 2014, locataire, 155 € d'aide au logement par mois, salariée à 1 700 € net social par mois, 368 € de prestations familiales par mois = allocations familiales (153,01 €) + allocation de soutien familial forfaitisée comme le prévoit l'article R844-4 du code de la sécurité sociale (215,17 €), mêmes ressources que le calcul OpenFisca (hypothèse « sans pension alimentaire »). Preuve : profiles/preuves/parent-isole-2-enfants-hlm-prime-activite-caf.{txt,png}"
         },
         "aides_logement": {
-          "montant": null,
-          "source": "a_caler_pendant_le_test"
+          "montant": 204,
+          "variableOpenFisca": "aide_logement_montant_brut",
+          "source": "Simulateur des aides au logement de la CAF (caf.fr, « Faire une simulation > Le logement »), rempli automatiquement depuis GitHub Actions le 2026-10-26 (run 40315651977) : « Selon les informations fournies, vous pouvez recevoir : 204 € par mois ». Saisie : 36000 Châteauroux, appartement en location non meublée, loyer 450 € hors charges, seule, deux enfants de moins de 21 ans sans revenus, 21 134 € de salaires nets imposables sur les 12 derniers mois (salaire imposable calculé par OpenFisca pour 1 700 € net par mois), « dans une autre situation ». Le simulateur « ne tient pas compte […] de la Réduction de Loyer de Solidarité (RLS) » (page d'accueil du simulateur) : on le compare donc au montant avant RLS (`aide_logement_montant_brut`). Le montant affiché au profil, en HLM, est celui après RLS (`aide_logement`). Preuve : profiles/preuves/parent-isole-2-enfants-hlm-aides-logement-caf.{txt,png}"
         },
         "allocations_familiales": {
           "montant": 152.25,

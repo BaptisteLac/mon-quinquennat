@@ -13,7 +13,7 @@
 | Formule TypeScript de la liste blanche | `packages/formulas` (`retraite_age_depart`) | faite et testée ; barème officiel sourcé (service-public.gouv.fr F14043, vérifié le 14 août 2026), chaque ligne citée mot pour mot dans la page archivée |
 | Temps de calcul, 8 candidats × 1 profil | `scripts/bench.py` | **1,85 s** (médiane), 2,02 s (max) |
 | Service HTTP sans état + image Docker | `mq_calc/api.py`, `Dockerfile` | fait, testé en conteneur |
-| 5 profils de référence | `profiles/reference.json`, `scripts/run_reference.py` | calculés ; 10 montants officiels relevés sur 25 (prime d'activité, allocations familiales) |
+| 5 profils de référence | `profiles/reference.json`, `scripts/run_reference.py` | calculés ; 13 montants officiels relevés sur 25 (prime d'activité, allocations familiales, aides au logement) |
 
 Montants produits (€/mois) : impôt sur le revenu (revenus 2025, payé en 2026, ramené au mois), prime d'activité, aides au logement, allocations familiales (octobre 2026).
 
@@ -21,7 +21,7 @@ Montants produits (€/mois) : impôt sur le revenu (revenus 2025, payé en 2026
 
 | Critère | Résultat |
 |---|---|
-| Écart ≤ 2 % ou ≤ 10 €/mois avec les simulateurs officiels | **oui pour les 10 montants relevés** (prime d'activité ×5, allocations familiales ×5), écart maximal 1,18 €. Restent l'impôt sur le revenu et les aides au logement (ci-dessous). |
+| Écart ≤ 2 % ou ≤ 10 €/mois avec les simulateurs officiels | **oui pour les 13 montants relevés** (prime d'activité ×5, allocations familiales ×5, aides au logement des 3 locataires), écart maximal 1,87 €. Reste l'impôt sur le revenu (ci-dessous). |
 | Réforme paramétrique fonctionnelle et testée | **oui** : baisser de 2 points le taux de la 2e tranche baisse l'impôt d'exactement 2 % de la tranche (à l'euro d'arrondi annuel près) ; réforme neutre sans effet ; paramètre hors liste blanche refusé. |
 | Temps de réponse < 2 s pour tous les candidats d'un profil | **oui, de justesse** sur 1 cœur : 1,85 s en médiane dans le cas défavorable (2 candidats sur 8 touchent la prime d'activité). |
 | Hébergement identifié, avec son coût | besoins mesurés (ci-dessous) ; coût à relever sur les grilles des hébergeurs (non joignables d'ici). |
@@ -112,11 +112,20 @@ Parent isolé : OpenFisca lui attribue l'allocation de soutien familial (403,57 
 
 Le montant affiché à un parent isolé dépend donc de cette hypothèse (≈ 215 €/mois d'écart) : à afficher dans la fiche « d'où vient ce chiffre », ou à remplacer par une question au profil (voir `docs/decisions.md`, à valider).
 
+Aides au logement (simulateur de la CAF, ressources nettes imposables des 12 derniers mois telles que les calcule OpenFisca) :
+
+| Profil | Calculée | Officielle (CAF) |
+|---|---|---|
+| Célibataire au SMIC, Lyon, loyer 550 € | 0 € | 0 € (non éligible) |
+| Parent isolé, Châteauroux, HLM, loyer 450 € | 205,87 € avant RLS, 160,30 € après | 204 € (le simulateur ignore la RLS) |
+| Indépendant, Paris, loyer 800 € | 0 € | 0 € (non éligible) |
+
+Le simulateur de la CAF « ne tient pas compte […] de la Réduction de Loyer de Solidarité (RLS) ». Pour un locataire HLM, la comparaison porte donc sur le montant avant RLS (`variableOpenFisca` dans `reference.json`). Le montant affiché reste celui versé après RLS (160,30 €), le loyer étant lui-même réduit de 45,68 €. Les deux propriétaires ne sont pas relevés : le simulateur ne couvre que les locataires (et l'accession en outre-mer).
+
 ## Reste à faire pour le feu vert
 
-1. Aides au logement : parcours du simulateur de la CAF en cours (questions posées une à une).
-2. Impôt sur le revenu : le simulateur d'impots.gouv.fr ne répond pas depuis GitHub Actions ; à relever autrement.
-3. Relever le coût de l'hébergement retenu.
+1. Impôt sur le revenu : le simulateur d'impots.gouv.fr ne répond pas depuis GitHub Actions ; à relever autrement.
+2. Relever le coût de l'hébergement retenu.
 
 ## Commandes
 
