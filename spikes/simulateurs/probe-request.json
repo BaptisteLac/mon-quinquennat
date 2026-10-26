@@ -1,5 +1,5 @@
 {
-  "run": 11,
+  "run": 12,
   "targets": [
     {
       "id": "pa-couple",
@@ -122,27 +122,31 @@
           "wait": 1000
         },
         {
-          "fillCss": "#revenusTravailleursRevenusMoisMoins3:visible",
+          "fillCss": "#revenusMoisMoins3:visible",
           "value": "1900"
         },
         {
-          "fillCss": "#revenusTravailleursRevenusMoisMoins2:visible",
+          "fillCss": "#revenusMoisMoins2:visible",
           "value": "1900"
         },
         {
-          "fillCss": "#revenusTravailleursRevenusMoisMoins1:visible",
+          "fillCss": "#revenusMoisMoins1:visible",
           "value": "1900"
         },
         {
-          "fillCss": "#revenusTravailleursAutresRessourcesMoisMoins3:visible",
+          "fillCss": "#revenuPlacement:visible",
           "value": "0"
         },
         {
-          "fillCss": "#revenusTravailleursAutresRessourcesMoisMoins2:visible",
+          "fillCss": "#autresRessourcesMoisMoins3:visible",
           "value": "0"
         },
         {
-          "fillCss": "#revenusTravailleursAutresRessourcesMoisMoins1:visible",
+          "fillCss": "#autresRessourcesMoisMoins2:visible",
+          "value": "0"
+        },
+        {
+          "fillCss": "#autresRessourcesMoisMoins1:visible",
           "value": "0"
         },
         {
@@ -189,7 +193,7 @@
       ]
     },
     {
-      "id": "pa-parent-isole",
+      "id": "pa-parent-isole-asf-forfait",
       "url": "https://www.caf.fr/redirect/s/redirect?page=simulateurPa",
       "continueOnError": true,
       "actions": [
@@ -245,15 +249,15 @@
         },
         {
           "fillCss": "#allocationLogementMoisMoins3",
-          "value": "160"
+          "value": "155"
         },
         {
           "fillCss": "#allocationLogementMoisMoins2",
-          "value": "160"
+          "value": "155"
         },
         {
           "fillCss": "#allocationLogementMoisMoins1",
-          "value": "160"
+          "value": "155"
         },
         {
           "clickCss": "label[for=idAllocationAahN]"
@@ -282,15 +286,15 @@
         },
         {
           "fillCss": "#autresRessourcesMoisMoins3",
-          "value": "152"
+          "value": "368"
         },
         {
           "fillCss": "#autresRessourcesMoisMoins2",
-          "value": "152"
+          "value": "368"
         },
         {
           "fillCss": "#autresRessourcesMoisMoins1",
-          "value": "152"
+          "value": "368"
         },
         {
           "clickCss": "button[name=BCSuivant]"
@@ -336,7 +340,7 @@
       ]
     },
     {
-      "id": "pa-independant",
+      "id": "pa-parent-isole-asf-entier",
       "url": "https://www.caf.fr/redirect/s/redirect?page=simulateurPa",
       "continueOnError": true,
       "actions": [
@@ -348,7 +352,7 @@
         },
         {
           "fillCss": "#codePostal",
-          "value": "75011"
+          "value": "36000"
         },
         {
           "press": "Tab"
@@ -358,7 +362,7 @@
         },
         {
           "fillCss": "#dateDeNaissance",
-          "value": "01/10/1991"
+          "value": "01/10/1990"
         },
         {
           "press": "Tab"
@@ -379,7 +383,10 @@
           "clickCss": "label[for=idFutureParentN]"
         },
         {
-          "clickCss": "label[for=idNbEnfant0]"
+          "clickCss": "label[for=idNbEnfant2]"
+        },
+        {
+          "wait": 1000
         },
         {
           "clickCss": "label[for=idProprietaireN]"
@@ -389,54 +396,36 @@
         },
         {
           "fillCss": "#allocationLogementMoisMoins3",
-          "value": "0"
+          "value": "155"
         },
         {
           "fillCss": "#allocationLogementMoisMoins2",
-          "value": "0"
+          "value": "155"
         },
         {
           "fillCss": "#allocationLogementMoisMoins1",
-          "value": "0"
+          "value": "155"
         },
         {
           "clickCss": "label[for=idAllocationAahN]"
         },
         {
-          "clickCss": "label[for=idSituProf2]"
+          "clickCss": "label[for=idSituProf4]"
         },
         {
           "wait": 1000
-        },
-        {
-          "clickCss": "label[for=idSecteurAct1]"
-        },
-        {
-          "wait": 1000
-        },
-        {
-          "fillCss": "#chiffreAffaireMoisMoins3",
-          "value": "3000"
-        },
-        {
-          "fillCss": "#chiffreAffaireMoisMoins2",
-          "value": "3000"
-        },
-        {
-          "fillCss": "#chiffreAffaireMoisMoins1",
-          "value": "3000"
         },
         {
           "fillCss": "#revenusMoisMoins3",
-          "value": "0"
+          "value": "1700"
         },
         {
           "fillCss": "#revenusMoisMoins2",
-          "value": "0"
+          "value": "1700"
         },
         {
           "fillCss": "#revenusMoisMoins1",
-          "value": "0"
+          "value": "1700"
         },
         {
           "fillCss": "#revenuPlacement",
@@ -444,15 +433,15 @@
         },
         {
           "fillCss": "#autresRessourcesMoisMoins3",
-          "value": "0"
+          "value": "557"
         },
         {
           "fillCss": "#autresRessourcesMoisMoins2",
-          "value": "0"
+          "value": "557"
         },
         {
           "fillCss": "#autresRessourcesMoisMoins1",
-          "value": "0"
+          "value": "557"
         },
         {
           "clickCss": "button[name=BCSuivant]"
@@ -461,7 +450,11 @@
           "wait": 2500
         },
         {
-          "click": "Fermer"
+          "fillCss": "#dateNaissance:visible",
+          "value": "01/07/2022"
+        },
+        {
+          "press": "Tab"
         },
         {
           "wait": 1500
@@ -471,6 +464,72 @@
         },
         {
           "wait": 2500
+        },
+        {
+          "fillCss": "#dateNaissance:visible",
+          "value": "01/07/2014"
+        },
+        {
+          "press": "Tab"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "button[name=BCSuivant]:visible"
+        },
+        {
+          "wait": 2500
+        },
+        {
+          "wait": 2000
+        }
+      ]
+    },
+    {
+      "id": "caf-logement",
+      "url": "https://www.caf.fr/redirect/s/redirect?page=aidesEtServicesSimuLogement",
+      "continueOnError": true,
+      "actions": [
+        {
+          "click": "Commencer"
+        },
+        {
+          "clickCss": "button:has-text(\"J'ai compris\")"
+        },
+        {
+          "fillCss": "#cpCommune",
+          "value": "69003"
+        },
+        {
+          "wait": 2500
+        },
+        {
+          "press": "ArrowDown"
+        },
+        {
+          "press": "Enter"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "label[for=lieuResidence_APPARTEMENT_OU_MAISON]"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "label[for=typeOccupation_LOCATION]"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "label[for=estMeuble_false]"
+        },
+        {
+          "wait": 2000
         }
       ]
     }

@@ -192,8 +192,8 @@
           "source": "a_caler_pendant_le_test"
         },
         "prime_activite": {
-          "montant": null,
-          "source": "a_caler_pendant_le_test"
+          "montant": 83,
+          "source": "Simulateur prime d'activité de la CAF (wwwd.caf.fr/wps/portal/caffr/simulateurpa), rempli automatiquement depuis GitHub Actions le 2026-10-26 (run 40310019775) : « le montant de votre Prime d'activité est estimé à : 83 € / mois ». Saisie : seul, sans enfant, locataire, aucune aide au logement (OpenFisca n'en calcule pas pour ce profil), auto-entrepreneur, profession libérale, 3 000 € de chiffre d'affaires brut par mois sur les 3 derniers mois, aucun salaire. Preuve : profiles/preuves/independant-micro-bnc-prime-activite-caf.{txt,png}"
         },
         "aides_logement": {
           "montant": null,
