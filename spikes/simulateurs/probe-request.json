@@ -1,5 +1,5 @@
 {
-  "run": 17,
+  "run": 18,
   "targets": [
     {
       "id": "al-parent-isole",
@@ -113,6 +113,18 @@
         },
         {
           "wait": 1500
+        },
+        {
+          "clickCss": "label[for=QUESTION_REVENUS_DERNIERSMOIS_0_false]"
+        },
+        {
+          "wait": 1000
+        },
+        {
+          "clickCss": "label[for=QUESTION_REVENUS_DERNIERSMOIS_1_false]"
+        },
+        {
+          "wait": 1000
         },
         {
           "clickCss": "#btn-suivant"
