@@ -1,0 +1,463 @@
+{
+  "requested": "https://www.mesdroitssociaux.gouv.fr/votre-simulateur/accueil",
+  "final": "https://www.mesdroitssociaux.gouv.fr/simulateurs",
+  "status": 200,
+  "title": "Simuler vos aides - mes droits sociaux",
+  "iframes": [
+    "https://www.mesdroitssociaux.gouv.fr/simulateurs"
+  ],
+  "links": [
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/dd1pnds-ria/#destination/mentionLegaleFooter",
+      "text": "En savoir plus sur les cookies et les données personnelles"
+    },
+    {
+      "href": "https://www.told.club/fr/legal",
+      "text": "Voir les mentions légales de TOLD"
+    },
+    {
+      "href": "https://legal.dailymotion.com/fr/politique-de-confidentialite/",
+      "text": "Voir la politique de confidentialité de Dailymotion"
+    },
+    {
+      "href": "https://www.piano.io/legal/privacy-policy#cookies-and-similar-technologies",
+      "text": "Voir la politique de confidentialité de Piano Analytics"
+    },
+    {
+      "href": "https://www.transformation.gouv.fr/donnees-personnelles-et-cookies",
+      "text": "Données personnelles et cookies"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/main-appli",
+      "text": "Aller au contenu"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/pnds-footer",
+      "text": "Aller au pied de page"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/accueil/",
+      "text": ""
+    },
+    {
+      "href": "https://franceconnect.gouv.fr/",
+      "text": "Qu’est-ce que FranceConnect ?"
+    },
+    {
+      "href": "https://franceconnect.gouv.fr/",
+      "text": "Qu’est-ce que FranceConnect ?"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/accueil/",
+      "text": "Accueil"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/services",
+      "text": "Vos services"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/evenements-de-vie",
+      "text": "Vos évènements de vie"
+    },
+    {
+      "href": "https://app.franceconnect.gouv.fr/traces",
+      "text": "Historique des connexions"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/api/core/logout",
+      "text": "Se déconnecter"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/dd1pnds-ria/#destination/simu-foyer",
+      "text": "Simuler mes aides"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/votre-simulateur/aide-garde-enfant",
+      "text": "Aide à la garde d'enfant en structure d'accueil (CMG et PSU)"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/simulateurs/aide-logement",
+      "text": "Aide au logement (AL)"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/simulateurs/allocation-adulte-handicape",
+      "text": "Allocation aux Adultes Handicapés (AAH)"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/simulateurs/complementaire-sante-solidaire",
+      "text": "Complémentaire Santé Solidaire (CSS)"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/votre-simulateur/prime-adoption",
+      "text": "Prime à l'adoption"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/votre-simulateur/prime-naissance",
+      "text": "Prime à la naissance"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/simulateurs/rsa-pa",
+      "text": "Revenu de Solidarité Active (RSA) et Prime d'Activité (PA)"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/avvc",
+      "text": "Victime de violence conjugale"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/#",
+      "text": "Haut de page"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/accueil/",
+      "text": ""
+    },
+    {
+      "href": "https://www.legifrance.gouv.fr/",
+      "text": "legifrance.gouv.fr"
+    },
+    {
+      "href": "https://www.info.gouv.fr/",
+      "text": "info.gouv.fr"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/",
+      "text": "service-public.gouv.fr"
+    },
+    {
+      "href": "https://www.data.gouv.fr/",
+      "text": "data.gouv.fr"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/dd1pnds-ria/#destination/foireAuxQuestionsFooter",
+      "text": "Foire aux questions"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/dd1pnds-ria/#destination/contactFooter",
+      "text": "Contact"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/accueil/qui-sommes-nous",
+      "text": "Qui sommes-nous ?"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/dd1pnds-ria/#destination/mentionLegaleFooter",
+      "text": "Mentions légales"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/dd1pnds-ria/#destination/accessibilite",
+      "text": "Accessibilité : partiellement conforme"
+    },
+    {
+      "href": "https://www.mesdroitssociaux.gouv.fr/dd1pnds-ria/#destination/planSiteFooter",
+      "text": "Plan du site"
+    },
+    {
+      "href": "https://github.com/etalab/licence-ouverte/blob/master/LO.md",
+      "text": "licence etalab-2.0"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer la fenêtre"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "acb37444-972f-4ec9-b5c4-399ae8b164b1",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "9e31f7ae-402d-40ff-999e-dddb99963ca6",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer la fenêtre"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "25f69dc9-b29e-487f-9043-1455ffc54736",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer la fenêtre"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "c3f99a58-da46-49eb-aaa5-9d84cd685988",
+      "id": "c3f99a58-da46-49eb-aaa5-9d84cd685988_1",
+      "value": "on",
+      "label": "Tout accepter"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "c3f99a58-da46-49eb-aaa5-9d84cd685988",
+      "id": "c3f99a58-da46-49eb-aaa5-9d84cd685988_2",
+      "value": "on",
+      "label": "Tout refuser"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "f3eb89ab-fa00-4ea8-9ef9-a938ff2065bc",
+      "id": "f3eb89ab-fa00-4ea8-9ef9-a938ff2065bc_1",
+      "value": "on",
+      "label": "Accepter"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "f3eb89ab-fa00-4ea8-9ef9-a938ff2065bc",
+      "id": "f3eb89ab-fa00-4ea8-9ef9-a938ff2065bc_2",
+      "value": "on",
+      "label": "Refuser"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "e77ef75b-f412-444b-9583-32a4f0339f2c",
+      "id": "e77ef75b-f412-444b-9583-32a4f0339f2c_1",
+      "value": "on",
+      "label": "Accepter"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "e77ef75b-f412-444b-9583-32a4f0339f2c",
+      "id": "e77ef75b-f412-444b-9583-32a4f0339f2c_2",
+      "value": "on",
+      "label": "Refuser"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "7f10529f-6ff3-4bea-9832-390d2a18e145",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Autoriser tous les cookies"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Refuser tous les cookies"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Personnaliser les cookies"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer la fenêtre"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "consent-all",
+      "id": "consent-all-accept",
+      "value": "on",
+      "label": "Tout accepter"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "consent-all",
+      "id": "consent-all-refuse",
+      "value": "on",
+      "label": "Tout refuser"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "f8cce2df-e569-469e-abeb-fafbb4a2b466-button-menu",
+      "value": "",
+      "label": "Menu"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer la fenêtre"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "Famille",
+      "value": "",
+      "label": "Sélectionner le filtre Famille"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "Handicap",
+      "value": "",
+      "label": "Sélectionner le filtre Handicap"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "Logement",
+      "value": "",
+      "label": "Sélectionner le filtre Logement"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "Santé",
+      "value": "",
+      "label": "Sélectionner le filtre Santé"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "Solidarité",
+      "value": "",
+      "label": "Sélectionner le filtre Solidarité"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "Urgence",
+      "value": "",
+      "label": "Sélectionner le filtre Urgence"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    }
+  ],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://www.mesdroitssociaux.gouv.fr/votre-simulateur/accueil",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "http://www.mesdroitssociaux.gouv.fr/simulateurs",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.mesdroitssociaux.gouv.fr/simulateurs",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.mesdroitssociaux.gouv.fr/api/core/public/paramsSite",
+      "resourceType": "xhr",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.mesdroitssociaux.gouv.fr/api/core/public/etatConnexion",
+      "resourceType": "xhr",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.mesdroitssociaux.gouv.fr/api/core/public/etatConnexion",
+      "resourceType": "xhr",
+      "postData": null
+    }
+  ]
+}

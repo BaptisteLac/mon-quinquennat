@@ -1,0 +1,3 @@
+TimeoutError: page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://www.legifrance.gouv.fr/search?fonds=CODE&tab_selection=code&searchField=NUM_ARTICLE&query=L161-17-2&typePagination=DEFAUT&sortValue=PERTINENCE&pageSize=10&page=1", waiting until "networkidle"

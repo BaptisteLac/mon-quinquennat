@@ -1,0 +1,41 @@
+{
+  "requested": "https://simulateur-ir-ifi.impots.gouv.fr/calcul_impot/",
+  "final": "chrome-error://chromewebdata/",
+  "status": null,
+  "title": "simulateur-ir-ifi.impots.gouv.fr",
+  "iframes": [
+    "chrome-error://chromewebdata/"
+  ],
+  "links": [
+    {
+      "href": "chrome-error://chromewebdata/#buttons",
+      "text": "Checking the proxy and the firewall"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "reload-button",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "details-button",
+      "value": "",
+      "label": ""
+    }
+  ],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://simulateur-ir-ifi.impots.gouv.fr/calcul_impot/",
+      "resourceType": "document",
+      "postData": null
+    }
+  ]
+}
