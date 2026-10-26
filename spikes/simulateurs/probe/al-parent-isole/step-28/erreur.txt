@@ -1,0 +1,3 @@
+TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('label[for=sitro_0_SITPRO_ACT_INCONNUE]').first()
