@@ -1,0 +1,17 @@
+TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('label:has(input[name=revenuDeSolidarite][value=false]), input[name=revenuDeSolidarite][value=false]').first()
+    - locator resolved to <label class="btn btn-default radRevenuDeSolidarite">…</label>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    29 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
