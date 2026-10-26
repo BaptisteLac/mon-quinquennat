@@ -16,8 +16,8 @@ def test_chaque_levier_du_schema_est_connu_du_calcul():
 
 
 def test_conversions_d_unite():
-    (aspa,) = changes_for("minimum_vieillesse_personne_seule_mensuel", 1000)
-    assert aspa.value == 12000  # €/mois → €/an
+    plafond, maximum = changes_for("minimum_vieillesse_personne_seule_mensuel", 1000)
+    assert plafond.value == maximum.value == 12000  # €/mois → €/an
     (ir,) = changes_for("impot_revenu_taux_tranche_2", 9)
     assert ir.value == pytest.approx(0.09)  # % → fraction
 
@@ -59,3 +59,15 @@ def test_seules_les_mesures_auto_validees_donnent_des_leviers(tmp_path):
     f.write_text(json.dumps({"measures": [measure("m-ok", "auto_validee"), measure("m-attente", "en_attente")]}))
     (spec,) = specs_from_measures([f])
     assert [u.measureId for u in spec.levers] == ["m-ok"]
+
+
+def test_minimum_vieillesse_fixe_par_un_candidat_change_l_aspa_versee():
+    # Erreur corrigée : changer le seul montant maximum n'avait aucun effet (ASPA différentielle).
+    retraitee = Profile(age=72, genre="femme", situationFamiliale="seul", enfants=[], situationPro="retraite", revenusNetsMensuels=0,
+                        pensionMensuelle=400, logement="proprio_sans_credit", lieuDeVie="rural", mobilite="voiture_thermique")
+    (cand,) = load([CandidateSpec(id="c", levers=[LeverUse(lever="minimum_vieillesse_personne_seule_mensuel", value=1000, measureId="m-x")])])
+    inputs = solve_inputs(retraitee)
+    actuel = compute(retraitee, inputs=inputs).amounts["minimum_vieillesse"]
+    reforme = compute(retraitee, cand.tbs, inputs, cand.outputs).amounts["minimum_vieillesse"]
+    assert reforme == pytest.approx(1000 - 400, abs=1)
+    assert reforme < actuel  # 1 000 €/mois est sous le montant en vigueur : la baisse est affichée

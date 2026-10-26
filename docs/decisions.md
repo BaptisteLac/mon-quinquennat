@@ -35,6 +35,9 @@ Toute nouvelle décision s'ajoute ici (date, décision, raison).
 
 - **Référence pour l'impôt sur le revenu (2026-10-26)** : le code de calcul publié par la DGFiP (sources M), exécuté par Mlang dans GitHub Actions, sur la dernière année de revenus publiée et exécutable (2023 aujourd'hui). Raison : le simulateur d'impots.gouv.fr n'est pas joignable depuis GitHub Actions, et aucune saisie manuelle. Le contrôle se relance sans intervention quand une nouvelle année est publiée.
 
+- **Pas de question « pension alimentaire » (2026-10-26)** : le profil ne la demande pas ; le calcul d'un parent isolé suppose qu'aucune pension n'est reçue (allocation de soutien familial versée), et cette hypothèse est écrite dans la fiche « d'où vient ce chiffre » (≈ 215 €/mois d'effet sur la prime d'activité d'un parent de deux enfants, `spikes/openfisca/RESULTATS.md`).
+- **Un engagement chiffré s'applique tel qu'il est écrit, pour tous les candidats (2026-10-26)** : le montant cité est appliqué littéralement, même s'il produit une baisse par rapport au droit actuel (ex. minimum vieillesse « à hauteur de 1000 euros par mois », sous les 12 523,14 € par an en vigueur), sans revalorisation ni correction supposée. La fiche du chiffre indique le montant actuel et l'hypothèse. Raison : le simulateur doit être le plus réaliste possible, et la même règle vaut pour chaque programme. Un écart avec le droit actuel n'est pas un motif de mise en file d'exceptions.
+
 ## Design
 - Interface Pop BD, illustrations sticker à peau jaune unique — voir `docs/design-system.md`.
 - Avatar petit, par tranche d'âge × genre, bustes uniquement.
@@ -55,4 +58,3 @@ Toute nouvelle décision s'ajoute ici (date, décision, raison).
 - **Citation localisée par page web + chemin de section** au lieu d'un numéro de page PDF ; lien vers le site officiel avec la phrase surlignée (`#:~:text=`).
 - **Contrôle des chiffres** : tout nombre d'une mesure doit figurer dans sa citation, sinon la mesure est `floue`.
 - **Évaluation sans saisie manuelle** : vérification ✅/❌ d'un échantillon, couverture calculée automatiquement (deux modèles repèrent les engagements phrase par phrase), rejeu sur les programmes 2022 contre des listes tierces.
-- **Parent isolé et pension alimentaire** : aujourd'hui, le calcul suppose qu'aucune pension n'est reçue, donc l'allocation de soutien familial est versée ; elle pèse ≈ 215 €/mois sur la prime d'activité d'un parent de deux enfants (`spikes/openfisca/RESULTATS.md`). Proposition : une question au profil, posée seulement aux personnes seules avec enfants (« Recevez-vous une pension alimentaire ? » non / oui + montant). À défaut, garder l'hypothèse et l'afficher dans la fiche du chiffre.

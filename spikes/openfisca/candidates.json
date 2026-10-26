@@ -5,6 +5,11 @@
       "id": "c-01",
       "levers": [
         {
+          "lever": "minimum_vieillesse_personne_seule_mensuel",
+          "value": 1000.0,
+          "measureId": "m-9dd1526ae0f6"
+        },
+        {
           "lever": "quotient_familial_sans_plafond",
           "value": null,
           "measureId": "m-342ce4e68e35"

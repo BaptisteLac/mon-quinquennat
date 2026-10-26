@@ -28,8 +28,10 @@ class Lever:
 
 def _aspa_seule(v: float | None) -> list[ParamChange]:
     assert v is not None
-    path = "prestations_sociales.solidarite_insertion.minimum_vieillesse.aspa.montant_maximum_annuel.personnes_seules"
-    return [ParamChange(path, 12 * v, APPLY_FROM)]  # €/mois → €/an
+    # L'ASPA d'une personne seule est différentielle : plafond de ressources moins ressources, dans la
+    # limite du montant maximum. Les deux valent le minimum vieillesse : on change les deux.
+    aspa = "prestations_sociales.solidarite_insertion.minimum_vieillesse.aspa"
+    return [ParamChange(f"{aspa}.{k}.personnes_seules", 12 * v, APPLY_FROM) for k in ("plafond_ressources", "montant_maximum_annuel")]  # €/mois → €/an
 
 
 def _qf_sans_plafond(v: float | None) -> list[ParamChange]:

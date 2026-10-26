@@ -136,9 +136,9 @@
     "contentSha256": "f2bfc7b2b9fa9097b1ecfcae8bfd2b282e14ec6ee47ca9b6b96b5469e215552b"
   },
   "9dd1526ae0f6": {
-    "verdict": "a_revoir",
+    "verdict": "fidele",
     "contentSha256": "97c6a88136039f9247ebede2aca79feab9a43c5413aa733c07c0544119b7ee02",
-    "note": "Le programme fixe le minimum vieillesse « à hauteur de 1000 euros par mois ». Le montant en vigueur en 2026 pour une personne seule est de 12 523,14 € par an (paramètre OpenFisca, circulaire Cnav 2025-29) : appliqué tel quel, le calcul afficherait une baisse. Arbitrage humain : publier le calcul littéral, ou garder la ligne en qualitatif."
+    "note": "Le programme fixe le minimum vieillesse « à hauteur de 1000 euros par mois » ; le montant en vigueur en 2026 pour une personne seule est de 12 523,14 € par an (paramètre OpenFisca, circulaire Cnav 2025-29). Arbitrage du 2026-10-26 : le montant est appliqué tel qu'écrit, sans revalorisation, et le calcul affiche la baisse qui en résulte (docs/decisions.md)."
   },
   "befbb59aa25e": {
     "verdict": "fidele",
