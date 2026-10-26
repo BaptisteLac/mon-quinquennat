@@ -44,3 +44,5 @@ candidates:
         - "(registre des adhésions|base des contacts) de Nouvelle Énergie, \\d{1,2}(er)? \\p{L}+ \\d{4}"
         - pattern: "^\\d[\\d\\s]*$"
           url: "https://www.unenouvelleenergie.fr/questions/combien-d-adherents-compte-nouvelle-energie/"
+        - pattern: "\\d[\\d\\s]* élus"
+          url: "https://www.unenouvelleenergie.fr/questions/combien-d-adherents-compte-nouvelle-energie/"

@@ -150,8 +150,8 @@
           "source": "a_caler_pendant_le_test"
         },
         "prime_activite": {
-          "montant": null,
-          "source": "a_caler_pendant_le_test"
+          "montant": 0,
+          "source": "Simulateur prime d'activité de la CAF, rempli automatiquement depuis GitHub Actions le 2026-10-26 (run 40308340394) : « vous n'auriez pas droit à cette prestation » (pas de revenus d'activité). Preuve : profiles/preuves/retraite-seul-proprietaire-prime-activite-caf.{txt,png}"
         },
         "aides_logement": {
           "montant": null,

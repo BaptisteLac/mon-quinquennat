@@ -1,5 +1,5 @@
 {
-  "run": 9,
+  "run": 10,
   "targets": [
     {
       "id": "pa-couple",
@@ -51,13 +51,56 @@
           "clickCss": "label[for=idNbEnfant2]"
         },
         {
-          "wait": 1500
+          "wait": 1000
         },
         {
           "clickCss": "label[for=idProprietaireO]"
         },
         {
-          "wait": 1500
+          "wait": 1000
+        },
+        {
+          "clickCss": "label[for=idAllocationAahN]"
+        },
+        {
+          "clickCss": "label[for=idSituProf4]"
+        },
+        {
+          "wait": 1000
+        },
+        {
+          "fillCss": "#revenusMoisMoins3",
+          "value": "2400"
+        },
+        {
+          "fillCss": "#revenusMoisMoins2",
+          "value": "2400"
+        },
+        {
+          "fillCss": "#revenusMoisMoins1",
+          "value": "2400"
+        },
+        {
+          "fillCss": "#revenuPlacement",
+          "value": "0"
+        },
+        {
+          "fillCss": "#autresRessourcesMoisMoins3",
+          "value": "152"
+        },
+        {
+          "fillCss": "#autresRessourcesMoisMoins2",
+          "value": "152"
+        },
+        {
+          "fillCss": "#autresRessourcesMoisMoins1",
+          "value": "152"
+        },
+        {
+          "clickCss": "button[name=BCSuivant]"
+        },
+        {
+          "wait": 2500
         }
       ]
     },
@@ -108,52 +151,68 @@
           "clickCss": "label[for=idNbEnfant2]"
         },
         {
-          "wait": 1500
+          "wait": 1000
         },
         {
           "clickCss": "label[for=idProprietaireN]"
         },
         {
-          "wait": 1500
-        }
-      ]
-    },
-    {
-      "id": "pa-retraite",
-      "url": "https://www.caf.fr/redirect/s/redirect?page=simulateurPa",
-      "continueOnError": true,
-      "actions": [
-        {
-          "click": "Commencer"
+          "wait": 1000
         },
         {
-          "clickCss": "label[for=idResidentEnFranceO]"
+          "fillCss": "#allocationLogementMoisMoins3",
+          "value": "160"
         },
         {
-          "fillCss": "#codePostal",
-          "value": "18200"
+          "fillCss": "#allocationLogementMoisMoins2",
+          "value": "160"
         },
         {
-          "press": "Tab"
+          "fillCss": "#allocationLogementMoisMoins1",
+          "value": "160"
         },
         {
-          "wait": 2000
+          "clickCss": "label[for=idAllocationAahN]"
         },
         {
-          "fillCss": "#dateDeNaissance",
-          "value": "01/10/1954"
+          "clickCss": "label[for=idSituProf4]"
         },
         {
-          "press": "Tab"
+          "wait": 1000
         },
         {
-          "clickCss": "label[for=idRevenusN]"
+          "fillCss": "#revenusMoisMoins3",
+          "value": "1700"
+        },
+        {
+          "fillCss": "#revenusMoisMoins2",
+          "value": "1700"
+        },
+        {
+          "fillCss": "#revenusMoisMoins1",
+          "value": "1700"
+        },
+        {
+          "fillCss": "#revenuPlacement",
+          "value": "0"
+        },
+        {
+          "fillCss": "#autresRessourcesMoisMoins3",
+          "value": "152"
+        },
+        {
+          "fillCss": "#autresRessourcesMoisMoins2",
+          "value": "152"
+        },
+        {
+          "fillCss": "#autresRessourcesMoisMoins1",
+          "value": "152"
         },
         {
           "clickCss": "button[name=BCSuivant]"
         },
         {
-          "wait": 2000
+          "wait": 2500
         }
       ]
     },
@@ -207,13 +266,68 @@
           "clickCss": "label[for=idProprietaireN]"
         },
         {
+          "wait": 1000
+        },
+        {
+          "fillCss": "#allocationLogementMoisMoins3",
+          "value": "0"
+        },
+        {
+          "fillCss": "#allocationLogementMoisMoins2",
+          "value": "0"
+        },
+        {
+          "fillCss": "#allocationLogementMoisMoins1",
+          "value": "0"
+        },
+        {
           "clickCss": "label[for=idAllocationAahN]"
         },
         {
           "clickCss": "label[for=idSituProf2]"
         },
         {
-          "wait": 1500
+          "wait": 1000
+        },
+        {
+          "clickCss": "label[for=idSecteurAct1]"
+        },
+        {
+          "wait": 1000
+        },
+        {
+          "fillCss": "#chiffreAffaireMoisMoins3",
+          "value": "3000"
+        },
+        {
+          "fillCss": "#chiffreAffaireMoisMoins2",
+          "value": "3000"
+        },
+        {
+          "fillCss": "#chiffreAffaireMoisMoins1",
+          "value": "3000"
+        },
+        {
+          "fillCss": "#revenuPlacement",
+          "value": "0"
+        },
+        {
+          "fillCss": "#autresRessourcesMoisMoins3",
+          "value": "0"
+        },
+        {
+          "fillCss": "#autresRessourcesMoisMoins2",
+          "value": "0"
+        },
+        {
+          "fillCss": "#autresRessourcesMoisMoins1",
+          "value": "0"
+        },
+        {
+          "clickCss": "button[name=BCSuivant]"
+        },
+        {
+          "wait": 2500
         }
       ]
     }
