@@ -48,4 +48,6 @@ jobs:
             if [ -d "$d" ]; then git add -f -A "$d"; fi
           done
           git commit -m "Simulateurs officiels : résultats du run ${{ github.run_id }}" || echo "Aucun changement"
+          # La branche a pu avancer pendant le run : on rejoue le commit des résultats par-dessus.
+          git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
