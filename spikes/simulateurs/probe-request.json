@@ -1,5 +1,5 @@
 {
-  "run": 13,
+  "run": 14,
   "targets": [
     {
       "id": "caf-logement",
@@ -52,6 +52,12 @@
         },
         {
           "press": "Tab"
+        },
+        {
+          "wait": 2000
+        },
+        {
+          "clickCss": "label[for=situationFamiliale_CEL]"
         },
         {
           "wait": 2000
