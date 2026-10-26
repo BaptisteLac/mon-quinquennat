@@ -24,7 +24,7 @@ Montants produits (€/mois) : impôt sur le revenu (revenus 2025, payé en 2026
 | Écart ≤ 2 % ou ≤ 10 €/mois avec les simulateurs officiels | **oui** : 13 montants relevés sur les simulateurs (prime d'activité ×5, allocations familiales ×5, aides au logement ×3), écart maximal 1,87 € ; impôt sur le revenu identique à l'euro près au code officiel de la DGFiP pour les 5 profils (revenus 2023, dernière année exécutable publiée). |
 | Réforme paramétrique fonctionnelle et testée | **oui** : baisser de 2 points le taux de la 2e tranche baisse l'impôt d'exactement 2 % de la tranche (à l'euro d'arrondi annuel près) ; réforme neutre sans effet ; paramètre hors liste blanche refusé. |
 | Temps de réponse < 2 s pour tous les candidats d'un profil | **oui, de justesse** sur 1 cœur : 1,85 s en médiane dans le cas défavorable (2 candidats sur 8 touchent la prime d'activité). |
-| Hébergement identifié, avec son coût | besoins mesurés (ci-dessous) ; coût à relever sur les grilles des hébergeurs (non joignables d'ici). |
+| Hébergement identifié, avec son coût | **oui** : ≈ 28 € HT/mois chez Scaleway Serverless Containers (Paris) pour une instance toujours allumée, ≈ 2 € par 100 000 appels au-delà ; comparaison Cloud Run et Fly.io ci-dessous, tarifs relevés et archivés. |
 
 ## Correspondance profil → OpenFisca
 
@@ -66,12 +66,27 @@ Mesuré sur 4 vCPU, un seul processus (`scripts/bench.py`, 15 appels sur les 5 p
 
 Chaque candidat ne recalcule que les montants que ses réformes peuvent toucher (`reforms.affected_outputs`) ; le reste est repris de la législation actuelle. Marges si besoin : un processus par cœur pour les candidats (≈ 4 fois plus rapide sur 4 cœurs), ou un cache par profil identique.
 
-## Hébergement : besoins mesurés
+## Hébergement : besoins mesurés et coût
 
 - Image Docker : 660 Mo. Démarrage : ≈ 4 s sans candidat, ≈ 13 s avec 8 candidats (chargement et préchauffage).
 - Mémoire : 224 Mo sans candidat, ≈ 650 Mo avec 8 candidats, par processus.
-- Une instance doit rester allumée (démarrage à froid trop long pour une requête). Un processus traite un appel à la fois, ≈ 0,5 appel/s par cœur.
-- Candidats : conteneurs managés avec instance minimale (ex. Scaleway Serverless Containers, Clever Cloud, Fly.io, Google Cloud Run). Le coût est à relever sur leurs grilles tarifaires, non joignables d'ici.
+- Une instance doit rester allumée (démarrage à froid trop long pour une requête). Un processus traite un appel à la fois, ≈ 0,5 appel/s par cœur, soit ≈ 1,3 million d'appels par mois pour une instance chargée en continu ; les pics passent par des instances supplémentaires, facturées à la seconde.
+- Configuration chiffrée : 1 vCPU, 1 Go, une instance allumée 30 jours (2 592 000 s), plus ≈ 1,85 s d'instance par appel au-delà (cas défavorable, 8 candidats).
+
+Tarifs relevés le 2026-10-26 sur les grilles officielles, capturées depuis GitHub Actions (`hebergement/*.txt|png`) :
+
+| Hébergeur | Tarif relevé | Instance allumée en continu (1 vCPU, 1 Go) | 100 000 appels de plus |
+|---|---|---|---|
+| Scaleway Serverless Containers, Paris | 0,00001 €/vCPU-s et 0,000002 €/GB-s HT, après 200 000 vCPU-s et 400 000 GB-s offerts par mois | **28,30 € HT/mois** (23,92 € de CPU + 4,38 € de mémoire ; 33,49 € avec 2 Go) | ≈ 2,22 € |
+| Google Cloud Run, Paris (europe-west9, tarifs de niveau 1), facturation à l'instance | 0,000018 $/vCPU-s et 0,000002 $/Gio-s, après 240 000 vCPU-s et 450 000 Gio-s offerts | 46,62 $/mois | inclus (instance déjà facturée) |
+| Google Cloud Run, Paris, facturation à la requête avec 1 instance minimale | inactivité : 0,0000025 $/vCPU-s et 0,0000025 $/Gio-s ; activité : 0,000024 $/vCPU-s et 0,0000025 $/Gio-s | 12,96 $/mois d'inactivité (avant la remise du niveau sans frais) | ≈ 4,90 $ |
+| Fly.io | shared-cpu-1x 1 Go : 7,73 $/mois à Francfort ; performance-1x 2 Go : 33 $/mois à Ashburn (prix de Paris non affichés dans la capture) | 7,73 $ (CPU partagé, à valider en charge) à 33 $ | — |
+
+Clever Cloud n'affiche ses prix que dans un simulateur interactif : non relevé.
+
+Ordre de grandeur : **≈ 30 à 40 €/mois** pendant la campagne pour le service de calcul, la part fixe (instance toujours allumée) dominant ; un pic de 10 appels/s pendant une heure coûte ≈ 0,86 € chez Scaleway (20 instances × 3 600 s × 0,000012 €). Hypothèses : une instance minimale est facturée en continu ; trafic sortant négligeable (réponses JSON de quelques Ko).
+
+Recommandation (à valider, `docs/decisions.md`) : Scaleway Serverless Containers à Paris (hébergeur et données en France, facturation à la seconde, coût fixe prévisible). Alternative moins chère à faible trafic : Cloud Run à la requête.
 
 ## Mesures branchées sur le calcul (2026-10-26)
 
@@ -135,7 +150,7 @@ Erreur corrigée : sans l'année des revenus (`ANREV`), le code DGFiP ne calcule
 
 ## Reste à faire pour le feu vert
 
-1. Relever le coût de l'hébergement retenu.
+Rien : les quatre critères sont remplis. Choix de l'hébergeur à valider.
 
 ## Commandes
 
