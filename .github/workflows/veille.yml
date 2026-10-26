@@ -4,6 +4,11 @@
 name: Veille des programmes
 
 on:
+  # Test hors main : modifier spikes/extraction/watch-request.json ; le rapport est commité sur la
+  # branche, sans PR.
+  push:
+    branches-ignore: [main]
+    paths: [spikes/extraction/watch-request.json]
   schedule:
     - cron: "17 5 * * 1" # lundi 05:17 UTC
   workflow_dispatch:
@@ -35,9 +40,23 @@ jobs:
         working-directory: spikes/extraction
         env:
           CHROMIUM_PATH: /usr/bin/google-chrome
-        run: npm run watch -- ${{ inputs.candidate && format('--candidate {0}', inputs.candidate) || '' }}
+        run: |
+          candidate="${{ inputs.candidate }}"
+          if [ "${{ github.event_name }}" = "push" ]; then candidate=$(jq -r .candidate watch-request.json); fi
+          npm run watch -- ${candidate:+--candidate "$candidate"}
+      - name: Test (push hors main) — commiter le rapport sur la branche
+        if: github.event_name == 'push' && steps.watch.outputs.changed == 'true'
+        env:
+          CORPORA: ${{ steps.watch.outputs.corpora }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for c in $CORPORA; do git add -f "data/veille/$c.md" "data/veille/$c.json"; done
+          git commit -m "Veille (test) : rapport pour $CORPORA"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
       - name: Proposer les changements en PR
-        if: steps.watch.outputs.changed == 'true'
+        if: github.event_name != 'push' && steps.watch.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           CORPORA: ${{ steps.watch.outputs.corpora }}
