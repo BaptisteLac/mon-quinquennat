@@ -10,7 +10,7 @@
 | Correspondance `Profile` → variables OpenFisca | `mq_calc/situation.py`, résumée ci-dessous | fait |
 | Profil Python aligné sur le schéma Zod | `tests/test_profile_schema.py` (via `packages/schema/json/profile.schema.json`) | fait |
 | Réforme paramétrique (barème de l'impôt) | `mq_calc/reforms.py`, liste blanche de paramètres | fait, testée |
-| Formule TypeScript de la liste blanche | `packages/formulas` (`retraite_age_depart`) | mécanique faite et testée ; barème réel à sourcer |
+| Formule TypeScript de la liste blanche | `packages/formulas` (`retraite_age_depart`) | faite et testée ; barème officiel sourcé (service-public.gouv.fr F14043, vérifié le 14 août 2026), chaque ligne citée mot pour mot dans la page archivée |
 | Temps de calcul, 8 candidats × 1 profil | `scripts/bench.py` | **1,85 s** (médiane), 2,02 s (max) |
 | Service HTTP sans état + image Docker | `mq_calc/api.py`, `Dockerfile` | fait, testé en conteneur |
 | 5 profils de référence | `profiles/reference.json`, `scripts/run_reference.py` | calculés ; **montants officiels à relever** |
@@ -83,7 +83,7 @@ Programme Nouvelle Énergie (260 mesures publiées) :
 |---|---|---|
 | Calculée par OpenFisca | 1 | déplafonnement du quotient familial (demi-parts d'enfant) |
 | Calculable, en file d'exceptions | 1 | minimum vieillesse « à hauteur de 1000 euros par mois » : inférieur au montant en vigueur en 2026 (12 523,14 € par an), le calcul littéral afficherait une baisse |
-| Formule de la liste blanche | 1 | âge légal à 65 ans (`retraite_age_depart`) : barème actuel à sourcer |
+| Formule de la liste blanche | 1 | âge légal à 65 ans (`retraite_age_depart`) : 12 mois de plus pour une personne de 40 ans (64 ans aujourd'hui) ; barème du régime des salariés (les catégories actives de la fonction publique n'y sont pas) |
 | Qualitative (phrase, sans montant) | 41 | effets sans paramètre chiffré exploitable (ex. CSG « de mémoire », gain de 250 à 400 € « selon les interventions ») |
 | Sans effet sur le ticket | 216 | mesures d'organisation de l'État, de procédure, etc. |
 
@@ -94,7 +94,6 @@ Erreur corrigée : « sans plafond » représenté par l'infini donnait un impô
 ## Reste à faire pour le feu vert
 
 1. Relever les montants officiels des 5 profils (`profiles/reference.json`) : impots.gouv.fr (impôt), caf.fr (prime d'activité, aides au logement), service-public.fr ou caf.fr (allocations familiales). Puis `uv run python scripts/run_reference.py`.
-2. Sourcer le barème de l'âge légal par génération sur Légifrance (`packages/formulas/data/age-legal-actuel.json`), avec citation exacte de chaque ligne.
 3. Relever le coût de l'hébergement retenu.
 
 ## Commandes
