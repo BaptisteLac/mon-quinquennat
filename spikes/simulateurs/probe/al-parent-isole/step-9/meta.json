@@ -1,0 +1,402 @@
+{
+  "requested": null,
+  "final": "https://wwwd.caf.fr/wps/portal/caffr/aidesetdemarches/mesdemarches/faireunesimulation/lelogement#/declaration",
+  "status": null,
+  "title": "CAF - Aides et démarches - Mes démarches - Faire une simulation - Le logement",
+  "iframes": [
+    "https://wwwd.caf.fr/wps/portal/caffr/aidesetdemarches/mesdemarches/faireunesimulation/lelogement#/declaration"
+  ],
+  "links": [
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=mentionsLegales",
+      "text": "en savoir plus"
+    },
+    {
+      "href": "https://wwwd.caf.fr/wps/portal/caffr/aidesetdemarches/mesdemarches/faireunesimulation/lelogement#theme-contenu-content-link-cnaf",
+      "text": "Aller au contenu"
+    },
+    {
+      "href": "https://wwwd.caf.fr/wps/portal/caffr/aidesetdemarches/mesdemarches/faireunesimulation/lelogement#theme-header-menu-caf",
+      "text": "Menu"
+    },
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=accueilCaffr",
+      "text": ""
+    },
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=accueilCaffr",
+      "text": ""
+    },
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=allocataires",
+      "text": "Allocataires"
+    },
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=professionnels",
+      "text": "Professionnels"
+    },
+    {
+      "href": "javascript:void(0)",
+      "text": "Contraste Contraste"
+    },
+    {
+      "href": "https://wwwd.caf.fr/wps/portal/caffr/aidesetdemarches/mesdemarches/faireunesimulation/lelogement#",
+      "text": "Caf"
+    },
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=monCompte",
+      "text": "Mon Compte Mon Compte"
+    },
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=recherche",
+      "text": "Rechercher"
+    },
+    {
+      "href": "https://wwwd.caf.fr/wps/portal/caffr/aidesetdemarches/mesdemarches/faireunesimulation/lelogement#theme-header-menu-block-links-1-caf",
+      "text": "Allocataires"
+    },
+    {
+      "href": "https://www.caf.fr/",
+      "text": "Accueil"
+    },
+    {
+      "href": "https://www.caf.fr/allocataires/actualites",
+      "text": "Actualités"
+    },
+    {
+      "href": "https://www.caf.fr/allocataires/aides-et-demarches",
+      "text": "Aides et démarches"
+    },
+    {
+      "href": "https://www.caf.fr/allocataires/ma-caf",
+      "text": "Ma Caf"
+    },
+    {
+      "href": "https://www.caf.fr/allocataires/vies-de-famille",
+      "text": "Vies de Famille"
+    },
+    {
+      "href": "https://wwwd.caf.fr/wps/portal/caffr/aidesetdemarches/mesdemarches/faireunesimulation/lelogement#theme-header-menu-block-links-2-caf",
+      "text": "Professionnels"
+    },
+    {
+      "href": "https://www.caf.fr/professionnels",
+      "text": "Accueil"
+    },
+    {
+      "href": "https://www.caf.fr/professionnels/actualites",
+      "text": "Actualités"
+    },
+    {
+      "href": "https://www.caf.fr/professionnels/offres-et-services",
+      "text": "Offres et services"
+    },
+    {
+      "href": "https://www.caf.fr/professionnels/etudes-et-international",
+      "text": "Etudes et international"
+    },
+    {
+      "href": "https://www.caf.fr/professionnels/presse",
+      "text": "Presse"
+    },
+    {
+      "href": "https://www.caf.fr/professionnels/nous-connaitre",
+      "text": "Nous connaitre"
+    },
+    {
+      "href": "https://www.caf.fr/professionnels/emplois-et-carrieres",
+      "text": "Emplois et carrières"
+    },
+    {
+      "href": "https://www.caf.fr/professionnels/innovation",
+      "text": "Innovation"
+    },
+    {
+      "href": "https://www.caf.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://www.caf.fr/allocataires/actualites",
+      "text": "Actualités"
+    },
+    {
+      "href": "https://www.caf.fr/allocataires/aides-et-demarches",
+      "text": "Aides et démarches"
+    },
+    {
+      "href": "https://www.caf.fr/allocataires/ma-caf",
+      "text": "Ma Caf"
+    },
+    {
+      "href": "https://www.caf.fr/allocataires/vies-de-famille",
+      "text": "Vies de Famille"
+    },
+    {
+      "href": "javascript:void(0)",
+      "text": "J'indiquerai mon code postal une autre fois"
+    },
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=accueilCaffr",
+      "text": "Accueil"
+    },
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=prestationsMetro",
+      "text": "Aides et démarches"
+    },
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=lesServicesEnligne",
+      "text": "Mes démarches"
+    },
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=lesServicesEnligne",
+      "text": "Faire une simulation"
+    },
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=lesServicesEnligne",
+      "text": "Retour Faire une simulation"
+    },
+    {
+      "href": "javascript:void(0);",
+      "text": "Contenu principal de la page"
+    },
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=facebookCaf&origine=drupal",
+      "text": "Suivez-nous sur Facebook"
+    },
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=maCafContactCaf&origine=drupal",
+      "text": "Nous contacter"
+    },
+    {
+      "href": "https://wwwd.caf.fr/wps/portal/caffr/aidesetdemarches/mesdemarches/faireunesimulation/lelogement#theme-footer-middle-block-links-1-caf",
+      "text": "Espaces"
+    },
+    {
+      "href": "https://www.caf.fr/allocataires",
+      "text": "Allocataires"
+    },
+    {
+      "href": "https://www.caf.fr/professionnels",
+      "text": "Professionnels"
+    },
+    {
+      "href": "https://wwwd.caf.fr/wps/portal/caffr/aidesetdemarches/mesdemarches/faireunesimulation/lelogement#theme-footer-middle-block-links-2-caf",
+      "text": "Informations"
+    },
+    {
+      "href": "https://www.caf.fr/allocataires/accessibilite",
+      "text": "Accessibilité : partiellement conforme"
+    },
+    {
+      "href": "https://www.caf.fr/allocataires/mentions-legales",
+      "text": "Mentions légales"
+    },
+    {
+      "href": "https://www.caf.fr/allocataires/plan-du-site",
+      "text": "Plan du site"
+    },
+    {
+      "href": "https://www.caf.fr/allocataires/informatique-et-libertes",
+      "text": "Données personnelles"
+    },
+    {
+      "href": "https://www.caf.fr/allocataires/securite-et-prevention",
+      "text": "Sécurité et prévention"
+    },
+    {
+      "href": "https://www.caf.fr/csirt",
+      "text": "CSIRT"
+    },
+    {
+      "href": "https://www.caf.fr/allocataires/foire-aux-questions",
+      "text": "Foire aux questions"
+    },
+    {
+      "href": "https://wwwd.caf.fr/wps/portal/caffr/aidesetdemarches/mesdemarches/faireunesimulation/lelogement#theme-footer-middle-block-links-3-caf",
+      "text": "Autres sites"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/",
+      "text": "Service-public.fr"
+    },
+    {
+      "href": "https://monenfant.fr/",
+      "text": "Monenfant.fr"
+    },
+    {
+      "href": "https://pension-alimentaire.caf.fr/",
+      "text": "Pension-alimentaire.caf.fr"
+    },
+    {
+      "href": "http://data.caf.fr/",
+      "text": "Data.caf.fr"
+    },
+    {
+      "href": "http://vacaf.org/",
+      "text": "Vacaf.org"
+    },
+    {
+      "href": "https://lacafavotreecoute.fr/#/",
+      "text": "La Caf à votre écoute"
+    },
+    {
+      "href": "https://www.caf.fr/professionnels/presse",
+      "text": "PRESSE"
+    },
+    {
+      "href": "https://www.caf.fr/professionnels/emplois-et-carrieres",
+      "text": "EMPLOIS ET CARRIÈRES"
+    },
+    {
+      "href": "https://www.caf.fr/professionnels/etudes-et-international",
+      "text": "RECHERCHE ET STATISTIQUES"
+    },
+    {
+      "href": "https://www.caf.fr/professionnels/etudes-et-international",
+      "text": "INTERNATIONAL"
+    },
+    {
+      "href": "https://www.caf.fr/professionnels/nous-connaitre/marches-publics",
+      "text": "MARCHÉS PUBLICS"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer la popup"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "zipcode",
+      "id": "code-postal-caf",
+      "value": "",
+      "label": "Afin de mieux vous accompagner dans vos besoins et de personnaliser les contenus du site, la Caf vous propose d'indiquer votre code postal ou votre ville :"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "",
+      "id": "code-orga-caf",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "",
+      "id": "cpCommune",
+      "value": "36000 CHATEAUROUX",
+      "label": "Code postal du logement concerné"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "ng-cnaf-radio-2",
+      "id": "lieuResidence_APPARTEMENT_OU_MAISON",
+      "value": "APPARTEMENT_OU_MAISON",
+      "label": "Appartement ou maison"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "ng-cnaf-radio-2",
+      "id": "lieuResidence_LOGEMENT_CROUS",
+      "value": "LOGEMENT_CROUS",
+      "label": "Logement CROUS"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "ng-cnaf-radio-2",
+      "id": "lieuResidence_FOYER",
+      "value": "FOYER",
+      "label": "Foyer"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "ng-cnaf-radio-2",
+      "id": "lieuResidence_CHAMBRE",
+      "value": "CHAMBRE",
+      "label": "Chambre"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "ng-cnaf-radio-2",
+      "id": "lieuResidence_RESIDENCE_SOCIALE_FJT",
+      "value": "RESIDENCE_SOCIALE_FJT",
+      "label": "Résidence sociale/FJT"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "ng-cnaf-radio-2",
+      "id": "lieuResidence_MAISON_RETRAITE_EHPAD",
+      "value": "MAISON_RETRAITE_EHPAD",
+      "label": "Maison de retraite/EHPAD"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "ng-cnaf-radio-4",
+      "id": "typeOccupation_LOCATION",
+      "value": "LOCATION",
+      "label": "En location"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "ng-cnaf-radio-4",
+      "id": "typeOccupation_COLOCATION",
+      "value": "COLOCATION",
+      "label": "En colocation"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "BCQuitter",
+      "id": "",
+      "value": "Quitter",
+      "label": "Quitter"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "BCSuivant",
+      "id": "btn-suivant",
+      "value": "Calculer",
+      "label": "Calculer"
+    }
+  ],
+  "calls": []
+}
