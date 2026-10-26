@@ -413,7 +413,10 @@ export const TicketLineResult = z.object({
   value: z.object({ low: z.number(), high: z.number() }).optional(),
   baseline: z.number().optional(), // valeur avec les règles actuelles
   measureIds: z.array(z.string()).min(1), // ouvre la fiche « d'où vient ce chiffre »
+  /** Date à partir de laquelle la ligne s'applique en entier (la plus tardive de ses mesures) : sert à la frise et au cumul. */
+  effectiveDate: z.string().date(),
 });
+export type TicketLineResult = z.infer<typeof TicketLineResult>;
 
 export const Ticket = z.object({
   candidateId: z.string(),
@@ -428,5 +431,9 @@ export const Ticket = z.object({
   /** Cumul mai 2027 → mai 2032, en tenant compte des dates d'application. */
   cumul5ans: z.object({ low: z.number(), high: z.number() }),
   pendingMeasures: z.number().int().min(0), // « 3 mesures encore en vérification »
+  /** Hypothèses du calcul pour ce profil (≈), affichées dans la fiche « d'où vient ce chiffre ». */
+  hypotheses: z.array(z.string()),
+  /** Montants touchés par une mesure mais que le calcul n'a pas pu établir pour ce profil, avec le motif. */
+  uncomputed: z.array(z.object({ ticketLine: TicketLine, reason: z.string(), measureIds: z.array(z.string()).min(1) })),
 });
 export type Ticket = z.infer<typeof Ticket>;

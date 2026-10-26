@@ -44,7 +44,7 @@ Si le rappel est bas mais la précision haute : acceptable pour le MVP (on montr
 
 ---
 
-## Test n°2 — Calcul (`spikes/openfisca/`)
+## Test n°2 — Calcul (`spikes/openfisca/`, devenu `calc/`)
 
 ### Matériau
 - 5 profils de référence variés : célibataire salarié au SMIC locataire ; couple 2 enfants, revenus moyens, propriétaires avec crédit ; parent isolé ; retraité ; indépendant.
@@ -70,4 +70,4 @@ Si le rappel est bas mais la précision haute : acceptable pour le MVP (on montr
 - Un seul → on réduit le périmètre (ex. moins de lignes chiffrées, plus de phrases qualitatives) et on documente le choix dans `docs/cadrage.md`.
 - Aucun → on revoit le concept avant d'investir dans l'interface.
 
-Les résultats (chiffres, coûts, exemples d'erreurs) sont consignés dans `spikes/*/RESULTATS.md`.
+Les résultats (chiffres, coûts, exemples d'erreurs) sont consignés dans `spikes/extraction/RESULTATS.md` et `calc/FAISABILITE.md`.

@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
-import { LegalAgeTable, legalAgeFor, retraiteAgeDepart } from "./retraite-age-depart.js";
+import { LegalAgeTable, legalAgeFor, retraiteAgeDepart } from "./retraite-age-depart.ts";
 
 // Barème FICTIF, pour tester la mécanique : ce ne sont pas les règles en vigueur.
 const cit = { naissance: "[citation exacte…]", age: "[citation exacte…]" };

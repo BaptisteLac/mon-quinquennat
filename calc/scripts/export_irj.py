@@ -20,7 +20,7 @@ from mq_calc.profile import Profile  # noqa: E402
 from mq_calc.situation import YEARS, build  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT.parents[0] / "impot-dgfip" / "cas"
+OUT = ROOT.parents[0] / "spikes" / "impot-dgfip" / "cas"
 
 # Revenus déclarés, par déclarant (index du `cerfa_field` d'OpenFisca).
 INCOME_VARIABLES = ("salaire_imposable", "retraite_imposable", "mbnc_impo", "mbic_imps", "mbic_impv")

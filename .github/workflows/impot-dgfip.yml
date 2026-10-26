@@ -51,7 +51,7 @@ jobs:
           version: "0.11.32"
           enable-cache: true
       - name: Déclarations des profils de référence (OpenFisca)
-        working-directory: spikes/openfisca
+        working-directory: calc
         run: |
           uv sync --frozen
           uv run python scripts/export_irj.py "${{ steps.sources.outputs.year }}"
@@ -94,7 +94,7 @@ jobs:
             grep -hE "^(V_)?$c *:|alias $c *:" "$SRC/tgvI.m" >> "$out/variables.txt" || echo "$c : introuvable" >> "$out/variables.txt"
           done
       - name: Comparer à OpenFisca
-        working-directory: spikes/openfisca
+        working-directory: calc
         run: uv run python scripts/compare_dgfip.py
       - name: Commiter les résultats
         if: always()

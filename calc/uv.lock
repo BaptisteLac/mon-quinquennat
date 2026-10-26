@@ -182,7 +182,7 @@ wheels = [
 ]
 
 [[package]]
-name = "mq-openfisca-spike"
+name = "mq-calc"
 version = "0.0.0"
 source = { virtual = "." }
 dependencies = [

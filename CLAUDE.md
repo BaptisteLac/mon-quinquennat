@@ -38,9 +38,8 @@ Et une règle d'exploitation : **automatisation maximale**. Pas de validation ma
 apps/web/            Next.js : le site (pages statiques + API de ticket)
 packages/schema/     Schéma Zod : profil, sources, mesures, tickets
 pipeline/            Veille, archivage, extraction, 6 contrôles, routage
-calc/                Service OpenFisca + profils de référence
+calc/                Service OpenFisca + profils de référence (issu du test n°2)
 spikes/extraction/   Test de faisabilité n°1
-spikes/openfisca/    Test de faisabilité n°2
 data/sources.yaml    Liste des programmes officiels suivis
 design/maquettes/    Écrans validés (HTML + PNG)
 docs/                Cadrage, décisions, design system, faisabilité

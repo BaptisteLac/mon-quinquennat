@@ -8,7 +8,7 @@ from mq_calc.compute import compute, solve_inputs
 from mq_calc.levers import LEVERS, changes_for
 from mq_calc.profile import Profile
 
-SCHEMA_LEVERS = Path(__file__).resolve().parents[3] / "packages/schema/json/reform-levers.json"
+SCHEMA_LEVERS = Path(__file__).resolve().parents[2] / "packages/schema/json/reform-levers.json"
 
 
 def test_chaque_levier_du_schema_est_connu_du_calcul():
@@ -50,13 +50,13 @@ def test_sans_plafond_du_quotient_familial_l_impot_d_une_famille_aisee_baisse():
     assert compute(q, cand.tbs, qi, cand.outputs).amounts["impot_revenu"] == compute(q, None, qi).amounts["impot_revenu"]
 
 
-def test_seules_les_mesures_auto_validees_donnent_des_leviers(tmp_path):
+def test_seules_les_mesures_publiees_donnent_des_leviers(tmp_path):
     bareme = {"kind": "bareme", "engine": "openfisca", "reform": [{"parameter": "impot_revenu_taux_tranche_2", "value": 9, "from": "2028-01-01"}]}
     measure = lambda mid, status: {  # noqa: E731
         "id": mid, "candidateId": "c-test", "review": {"status": status}, "effects": [{"computation": bareme}],
     }
     f = tmp_path / "corpus.json"
-    f.write_text(json.dumps({"measures": [measure("m-ok", "auto_validee"), measure("m-attente", "en_attente")]}))
+    f.write_text(json.dumps({"corpusId": "corpus", "candidateId": "c-test", "measures": [measure("m-ok", "auto_validee"), measure("m-attente", "en_attente")]}))
     (spec,) = specs_from_measures([f])
     assert [u.measureId for u in spec.levers] == ["m-ok"]
 

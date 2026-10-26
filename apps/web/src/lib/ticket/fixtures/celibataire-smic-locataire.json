@@ -1,0 +1,59 @@
+{
+  "profile": {
+    "age": 30,
+    "genre": "femme",
+    "situationFamiliale": "seul",
+    "enfants": [],
+    "situationPro": "salarie_prive",
+    "tempsPartiel": false,
+    "revenusNetsMensuels": 1450,
+    "logement": "locataire_prive",
+    "lieuDeVie": "grande_ville",
+    "mobilite": "transports",
+    "codeCommune": "69123",
+    "loyerMensuel": 550
+  },
+  "calcul": {
+    "actuel": {
+      "hypotheses": [],
+      "montants": {
+        "aides_logement": 0.0,
+        "allocations_familiales": 0.0,
+        "impot_revenu": 0.0,
+        "minimum_vieillesse": 0.0,
+        "prime_activite": 235.18
+      },
+      "nonCalcules": {}
+    },
+    "candidats": {
+      "c-01": {
+        "hypotheses": [],
+        "mesures": {
+          "aides_logement": [
+            "m-9dd1526ae0f6"
+          ],
+          "impot_revenu": [
+            "m-342ce4e68e35"
+          ],
+          "minimum_vieillesse": [
+            "m-9dd1526ae0f6"
+          ],
+          "prime_activite": [
+            "m-9dd1526ae0f6"
+          ]
+        },
+        "montants": {
+          "aides_logement": 0.0,
+          "allocations_familiales": 0.0,
+          "impot_revenu": 0.0,
+          "minimum_vieillesse": 0.0,
+          "prime_activite": 235.18
+        },
+        "nonCalcules": {}
+      }
+    },
+    "corpus": {
+      "c-01": "nouvelle-energie-2026-10"
+    }
+  }
+}
