@@ -8,6 +8,7 @@ TSHALLOV : saisie revenu classe = 0 priorite = 10 categorie_TL = 20 cotsoc = 5 i
 PRBRV : saisie revenu classe = 0 priorite = 10 categorie_TL = 20 cotsoc = 5 ind_abat = 1 acompte = 1 avfisc = 0 rapcat = 4 sanction = 8 nat_code = 0 modcat = 1 primrest = 0 alias 1AS : "Pensions, retraites, rentes - Declarant 1" ;
 TSHALLOC : saisie revenu classe = 0 priorite = 10 categorie_TL = 20 cotsoc = 5 ind_abat = 1 acompte = 1 avfisc = 0 rapcat = 4 sanction = 8 nat_code = 0 modcat = 1 restituee primrest = 0 alias 1BJ : "Salaires - Declarant 2" ;
 BNCPROV : saisie revenu classe = 0 priorite = 11 categorie_TL = 20 cotsoc = 5 ind_abat = 0 acompte = 1 avfisc = 0 rapcat = 8 sanction = 8 nat_code = 0 modcat = 1 restituee primrest = 1 alias 5HQ : "BNC professionnels regime micro - Revenus imposables - Declarant 1 " ;
+V_ANREV : saisie contexte classe = 0 priorite = 10 categorie_TL = 20 modcat = 1 restituee primrest = 0 alias ANREV : "Annee des revenus" type REEL ;
 IAN : calculee restituee primrest = 0 : "Impot apres imputations non restituables" ;
 IDRS : calculee restituee primrest = 1 : "Montant des droits simples" ;
 IINET : calculee restituee primrest = 1 : "Total de votre imposition" ;

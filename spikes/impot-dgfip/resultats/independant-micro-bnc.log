@@ -8,9 +8,9 @@ sed -i 's/(version .*)/(version %%VERSION%%)/' dune-project
 git checkout -- *.opam
 OCAMLRUNPARAM=b dune exec /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/_build/default/src/main.exe -- -A iliad --display_time --debug --precision double --income-year=2023 --comparison_error_margin=0.000001 --mpp_function=enchainement_primitif_interpreteur  --run_test=/home/runner/work/mon-quinquennat/mon-quinquennat/spikes/impot-dgfip/cas/independant-micro-bnc.irj ir-calcul/sources2023m_8_0/tgvI.m ir-calcul/sources2023m_8_0/errI.m ir-calcul/sources2023m_8_0/chap-1.m ir-calcul/sources2023m_8_0/chap-2.m ir-calcul/sources2023m_8_0/chap-3.m ir-calcul/sources2023m_8_0/chap-4.m ir-calcul/sources2023m_8_0/chap-51.m ir-calcul/sources2023m_8_0/chap-52.m ir-calcul/sources2023m_8_0/chap-6.m ir-calcul/sources2023m_8_0/chap-7.m ir-calcul/sources2023m_8_0/chap-81.m ir-calcul/sources2023m_8_0/chap-82.m ir-calcul/sources2023m_8_0/chap-83.m ir-calcul/sources2023m_8_0/chap-84.m ir-calcul/sources2023m_8_0/chap-85.m ir-calcul/sources2023m_8_0/chap-86.m ir-calcul/sources2023m_8_0/chap-87.m ir-calcul/sources2023m_8_0/chap-88.m ir-calcul/sources2023m_8_0/chap-aff.m ir-calcul/sources2023m_8_0/chap-cinr.m ir-calcul/sources2023m_8_0/chap-cmajo.m ir-calcul/sources2023m_8_0/chap-cor.m ir-calcul/sources2023m_8_0/chap-ctl.m ir-calcul/sources2023m_8_0/chap-ini.m ir-calcul/sources2023m_8_0/chap-inr.m ir-calcul/sources2023m_8_0/chap-isf.m ir-calcul/sources2023m_8_0/chap-majo.m ir-calcul/sources2023m_8_0/chap-perp.m ir-calcul/sources2023m_8_0/chap-plaf.m ir-calcul/sources2023m_8_0/chap-taux.m ir-calcul/sources2023m_8_0/chap-teff.m ir-calcul/sources2023m_8_0/chap-thr.m ir-calcul/sources2023m_8_0/chap-tl.m ir-calcul/sources2023m_8_0/coc1.m ir-calcul/sources2023m_8_0/coc2.m ir-calcul/sources2023m_8_0/coc3.m ir-calcul/sources2023m_8_0/coc4.m ir-calcul/sources2023m_8_0/coc5.m ir-calcul/sources2023m_8_0/coc7.m ir-calcul/sources2023m_8_0/coi1.m ir-calcul/sources2023m_8_0/coi2.m ir-calcul/sources2023m_8_0/coi3.m ir-calcul/sources2023m_8_0/horizoc.m ir-calcul/sources2023m_8_0/horizoi.m ir-calcul/sources2023m_8_0/res-ser1.m ir-calcul/sources2023m_8_0/res-ser2.m  /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/m_ext/2023/cibles.m /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/m_ext/2023/codes_1731.m /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/m_ext/2023/commence_par_5.m /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/m_ext/2023/commence_par_7.m /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/m_ext/2023/commence_par_H.m /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/m_ext/2023/correctif.m /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/m_ext/2023/main.m
 [DEBUG] Reading M files...
-[🕛  0.0 s] [🕛  0.1 s] Parsing: ir-calcul/sources2023m_8_0/tgvI.mParsing: ir-calcul/sources2023m_8_0/tgvI.m[🕛  0.1 s] Parsing: ir-calcul/sources2023m_8_0/errI.mTag "isf"
+[🕛  0.0 s] [🕛  0.1 s] Parsing: ir-calcul/sources2023m_8_0/tgvI.mParsing: ir-calcul/sources2023m_8_0/tgvI.m[🕛  0.2 s] Parsing: ir-calcul/sources2023m_8_0/chap-1.mTag "isf"
 [🕛  0.2 s] Parsing: ir-calcul/sources2023m_8_0/chap-51.mTag "corrective"
-[🕐  0.3 s] Parsing: ir-calcul/sources2023m_8_0/chap-86.mTag "isf"
+[🕐  0.3 s] Parsing: ir-calcul/sources2023m_8_0/chap-87.mTag "isf"
 Tag "base_HR"
 Tag "corrective"
 Tag "base_inr_r9901"
@@ -69,7 +69,7 @@ Tag "base_primitive_penalisee"
 Tag "corrective"
 Tag "base_INITIAL"
 Tag "corrective"
-[🕐  0.3 s] "base_anterieure_cor"Parsing: ir-calcul/sources2023m_8_0/chap-cor.mTag 
+Tag "base_anterieure_cor"
 Tag "corrective"
 Tag "base_premier"
 Tag "corrective"
@@ -80,7 +80,7 @@ Tag "corrective"
 Tag "base_tl_rect"
 Tag "corrective"
 Tag "irisf"
-Tag "corrective"
+[🕐  0.3 s] Parsing: ir-calcul/sources2023m_8_0/chap-inr.mTag "corrective"
 Tag "corrective"
 Tag "corrective"
 Tag "corrective"
@@ -125,7 +125,7 @@ Tag "isf"
 Tag "isf"
 Tag "isf"
 Tag "isf"
-[🕐  0.4 s] "isf"Parsing: ir-calcul/sources2023m_8_0/chap-isf.mTag 
+Tag "isf"
 Tag "isf"
 Tag "isf"
 Tag "isf"
@@ -133,11 +133,11 @@ Tag "isf"
 Tag "isf"
 Tag "corrective"
 Tag "corrective"
-Tag "corrective"
-Tag "isf"
 Tag "corrective"
 Tag "isf"
 Tag "corrective"
+[🕐  0.4 s] "isf"Parsing: ir-calcul/sources2023m_8_0/chap-majo.mTag 
+Tag "corrective"
 Tag "corrective"
 Tag "corrective"
 Tag "isf"
@@ -156,7 +156,6 @@ Tag "taux"
 Tag "taux"
 Tag "taux"
 Tag "taux"
-[🕐  0.4 s] Parsing: ir-calcul/sources2023m_8_0/chap-taux.mTag "taux"
 Tag "taux"
 Tag "taux"
 Tag "taux"
@@ -167,16 +166,17 @@ Tag "taux"
 Tag "taux"
 Tag "taux"
 Tag "taux"
-Tag "isf"
+Tag "taux"
+[🕐  0.4 s] Parsing: ir-calcul/sources2023m_8_0/chap-thr.mTag "isf"
 Tag "isf"
 Tag "isf"
 Tag "corrective"
 Tag "isf"
 Tag "isf"
 Tag "isf"
-[🕐  0.5 s] [RESULT] [TIME] 537 ms
-[DEBUG] Parsing: ir-calcul/sources2023m_8_0/res-ser2.mParsing: completed!
-Elaborating...
+[🕐  0.5 s] Parsing: /home/runner/work/mon-quinquennat/mon-quinquennat/mlang/m_ext/2023/cibles.m[RESULT] Parsing: completed!
+[TIME] 510 ms
+[DEBUG] Elaborating...
 [WARNING] Variable CONDCOMP is defined more than once in the same rule
 
 [1;34m  --> ir-calcul/sources2023m_8_0/chap-1.m
@@ -1515,7 +1515,7 @@ Elaborating...
 [1;34m4215 | [0mSUP_IFI_MAX2 = (IFI_REF - max(0,IFI_R9901)) * positif(IFI_REF - max(0,IFI_R9901))* positif(IFIBASE_INR_A);
 [1;34m     | [0m[31;1m^^^^^^^^^^^^[0m[0m
 
-[TIME] 848 ms
+[TIME] 783 ms
 [DEBUG] warning: auto-cycle in rule 11 with variable RED_A
 [DEBUG] warning: auto-cycle in rule 13023 with variable CODCOX_A
 [DEBUG] warning: auto-cycle in rule 130241 with variable RSE6_TL_24
@@ -1528,7 +1528,7 @@ Elaborating...
 [DEBUG] warning: auto-cycle in rule 236 with variable TIFI4BASE
 [DEBUG] warning: auto-cycle in rule 201060 with variable NRDBASEBIS
 [DEBUG] warning: auto-cycle in rule 201680 with variable TXPASMIN
-[TIME] 1252 ms
+[TIME] 1164 ms
 [DEBUG] Creating combined program suitable for execution...
 [ERROR] KO | IAN attendue: -1. - evaluee: 1118.
 [ERROR] KO | IDRS attendue: -1. - evaluee: 1371.

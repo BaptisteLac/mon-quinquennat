@@ -3,6 +3,7 @@
     "profil": "celibataire-smic-locataire",
     "annee": 2023,
     "cases": {
+      "ANREV": 2023,
       "0AC": 1,
       "0DA": 1996,
       "1AJ": 18026
@@ -13,6 +14,7 @@
     "profil": "couple-2-enfants-proprietaires",
     "annee": 2023,
     "cases": {
+      "ANREV": 2023,
       "0AM": 1,
       "0DA": 1986,
       "0DB": 1986,
@@ -26,6 +28,7 @@
     "profil": "parent-isole-2-enfants-hlm",
     "annee": 2023,
     "cases": {
+      "ANREV": 2023,
       "0AC": 1,
       "0DA": 1990,
       "0CF": 2,
@@ -38,6 +41,7 @@
     "profil": "retraite-seul-proprietaire",
     "annee": 2023,
     "cases": {
+      "ANREV": 2023,
       "0AC": 1,
       "0DA": 1954,
       "1AS": 20063
@@ -48,6 +52,7 @@
     "profil": "independant-micro-bnc",
     "annee": 2023,
     "cases": {
+      "ANREV": 2023,
       "0AC": 1,
       "0DA": 1991,
       "5HQ": 36000
