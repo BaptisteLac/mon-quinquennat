@@ -80,7 +80,8 @@ jobs:
             echo "revenus $YEAR"
           } > "$out/versions.txt"
           # Même ordre que la fonction source_dir_sans_cibles_m des Makefile de Mlang.
-          files="$(find "$SRC" -name tgvI.m) $(find "$SRC" -name errI.m) $(find "$SRC" -name '*.m' ! -name 'err*.m' ! -name 'tgv*.m' ! -name cibles.m | sort)"
+          # Sur une seule ligne : un retour à la ligne couperait la commande dans la recette make.
+          files="$(find "$SRC" -name tgvI.m) $(find "$SRC" -name errI.m) $(find "$SRC" -name '*.m' ! -name 'err*.m' ! -name 'tgv*.m' ! -name cibles.m | sort | tr '\n' ' ')"
           for f in "$GITHUB_WORKSPACE"/spikes/impot-dgfip/cas/*.irj; do
             name=$(basename "$f" .irj)
             opam exec -- make YEAR="$YEAR" SOURCE_FILES="$files" TEST_FILE="$f" test_file > "$out/$name.log" 2>&1 || true
