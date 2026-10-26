@@ -1,0 +1,53 @@
+# Simulateurs officiels (test n°2) depuis GitHub Actions, qui a un accès internet ouvert.
+# Déclenché par une modification d'un fichier de demande de spikes/simulateurs (hors main), ou à la main.
+# Les résultats (pages, captures, montants relevés) sont commités sur la branche qui a déclenché le run.
+name: Simulateurs officiels
+
+on:
+  push:
+    branches-ignore: [main]
+    paths: [spikes/simulateurs/probe-request.json, spikes/simulateurs/releve-request.json]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: simulateurs-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - name: Explorer les simulateurs
+        if: hashFiles('spikes/simulateurs/probe-request.json') != ''
+        working-directory: spikes/simulateurs
+        env:
+          CHROMIUM_PATH: /usr/bin/google-chrome
+        run: rm -rf probe && npm run probe
+      - name: Relever les montants
+        if: hashFiles('spikes/simulateurs/releve-request.json') != ''
+        working-directory: spikes/simulateurs
+        env:
+          CHROMIUM_PATH: /usr/bin/google-chrome
+        run: npm run releve
+      - name: Commiter les résultats
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for d in spikes/simulateurs/probe spikes/simulateurs/releves; do
+            if [ -d "$d" ]; then git add -f -A "$d"; fi
+          done
+          git commit -m "Simulateurs officiels : résultats du run ${{ github.run_id }}" || echo "Aucun changement"
+          # La branche a pu avancer pendant le run : on rejoue le commit des résultats par-dessus.
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push

@@ -14,27 +14,38 @@ import { z } from "zod";
 
 export const ChildAgeBand = z.enum(["0_2", "3_10", "11_17", "18_25"]);
 
+export const SituationPro = z.enum([
+  "salarie_prive",
+  "fonctionnaire",
+  "independant",
+  "chef_entreprise",
+  "demandeur_emploi",
+  "etudiant",
+  "retraite",
+  "sans_activite",
+]);
+
 export const Profile = z.object({
   age: z.number().int().min(18).max(110),
   /** Sert à l'avatar. N'entre dans un calcul que si une mesure en dépend explicitement. */
   genre: z.enum(["femme", "homme", "autre"]),
   situationFamiliale: z.enum(["seul", "marie_pacse", "couple_non_marie"]),
-  enfants: z.array(z.object({ ageBand: ChildAgeBand })),
-  situationPro: z.enum([
-    "salarie_prive",
-    "fonctionnaire",
-    "independant",
-    "chef_entreprise",
-    "demandeur_emploi",
-    "etudiant",
-    "retraite",
-    "sans_activite",
-  ]),
+  /** Année de naissance : la tranche d'âge ne suffit pas (majoration des allocations familiales à 14 ans). */
+  enfants: z.array(z.object({ anneeNaissance: z.number().int().min(1995).max(2032) })),
+  situationPro: SituationPro,
   tempsPartiel: z.boolean().optional(),
   revenusNetsMensuels: z.number().min(0),
   revenusConjointNetsMensuels: z.number().min(0).optional(),
+  situationProConjoint: SituationPro.optional(), // en couple
   logement: z.enum(["locataire_prive", "locataire_hlm", "proprio_credit", "proprio_sans_credit", "heberge"]),
+  /** Hors charges, locataire : sans lui, pas d'aides au logement. */
+  loyerMensuel: z.number().min(0).optional(),
   lieuDeVie: z.enum(["grande_ville", "ville_moyenne", "peripherie", "rural", "outre_mer"]),
+  /** Code INSEE de la commune (choisie à partir du code postal) : zone des aides au logement. */
+  codeCommune: z
+    .string()
+    .regex(/^(\d{5}|2[AB]\d{3})$/)
+    .optional(),
   mobilite: z.enum(["voiture_thermique", "voiture_electrique", "transports", "velo_pied"]),
   // Questions conditionnelles
   ageDepartPrevu: z.number().int().optional(), // 50 ans et plus, en activité
@@ -44,6 +55,9 @@ export const Profile = z.object({
     .object({
       statut: z.enum(["micro", "independant", "societe"]),
       salaries: z.enum(["0", "1_9", "10_49", "50_plus"]),
+      /** Micro-entreprise : le revenu net ne suffit pas au calcul de l'impôt et de la prime d'activité. */
+      chiffreAffairesAnnuel: z.number().min(0).optional(),
+      activite: z.enum(["vente", "services", "liberale"]).optional(),
     })
     .optional(),
   indemnise: z.boolean().optional(), // demandeur d'emploi
@@ -53,6 +67,17 @@ export const Profile = z.object({
   patrimoine: z.enum(["moins_100k", "100k_1m", "plus_1m", "ne_sait_pas"]).optional(),
 });
 export type Profile = z.infer<typeof Profile>;
+
+/** Tranche d'âge d'un enfant à une date (champ `enfantsAgeBand` des conditions) ; null au-delà de 25 ans. */
+export function childAgeBand(anneeNaissance: number, annee: number): z.infer<typeof ChildAgeBand> | null {
+  const age = annee - anneeNaissance;
+  if (age < 0) return null;
+  if (age <= 2) return "0_2";
+  if (age <= 10) return "3_10";
+  if (age <= 17) return "11_17";
+  if (age <= 25) return "18_25";
+  return null;
+}
 
 /** Tranche d'âge de l'avatar : 18–24, 25–44, 45–64, 65 et plus. */
 export type AvatarAgeBand = "18_24" | "25_44" | "45_64" | "65_plus";
@@ -153,13 +178,27 @@ export const Condition: z.ZodType<Condition> = z.lazy(() =>
 /* ------------------------------------------------------------------ */
 
 /** Sûr : on modifie des paramètres de la législation, OpenFisca calcule l'écart. */
+/**
+ * Leviers de la législation qu'une mesure peut modifier (liste fermée). Le nom est clair ; le service
+ * de calcul le traduit en paramètre OpenFisca et fait les conversions d'unité. La valeur vient
+ * toujours d'une citation ; un levier sans valeur (suppression) prend `value: null`.
+ */
+export const ReformLever = z.enum([
+  /** Minimum vieillesse (ASPA) d'une personne seule, en €/mois. */
+  "minimum_vieillesse_personne_seule_mensuel",
+  /** Suppression du plafond de l'avantage du quotient familial par demi-part pour enfant (sans valeur). */
+  "quotient_familial_sans_plafond",
+  /** Taux de la 2e tranche du barème de l'impôt sur le revenu, en % (ex. 11). */
+  "impot_revenu_taux_tranche_2",
+]);
+
 const BaremeComputation = z.object({
   kind: z.literal("bareme"),
   engine: z.literal("openfisca"),
   reform: z.array(
     z.object({
-      parameter: z.string(), // chemin du paramètre OpenFisca, à caler pendant le test de faisabilité
-      value: z.unknown(),
+      parameter: ReformLever,
+      value: z.number().nullable(),
       from: z.string().date(),
     }),
   ),

@@ -41,9 +41,9 @@ describe("checkFigures", () => {
     const m = llmMeasure();
     const e = m.effects[0];
     if (!e) throw new Error("fixture");
-    const bad = { ...m, effects: [{ ...e, computation: { ...e.computation, reform: [{ parameter: "taux fictif", value: 0.07, from: "2028-01-01" }] } }] };
+    const bad = { ...m, effects: [{ ...e, computation: { ...e.computation, reform: [{ parameter: "impot_revenu_taux_tranche_2" as const, value: 7, from: "2028-01-01" }] } }] };
     const r = checkFigures(MeasureDraft.parse(toDraftInput(bad, { id: "m-1", candidateId: "c-test", locate })));
-    expect(r.detail).toContain("0.07 (paramètre 1)");
+    expect(r.detail).toContain("7 (paramètre 1)");
   });
 
   it("vérifie l'année d'une date annoncée, pas celle d'une date estimée", () => {

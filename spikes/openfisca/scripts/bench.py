@@ -13,7 +13,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from mq_calc.compute import Candidate, baseline, compute_all  # noqa: E402
-from mq_calc.profile import ComplementCalcul, Profile  # noqa: E402
+from mq_calc.profile import Profile  # noqa: E402
 from mq_calc.reforms import ParamChange, affected_outputs, make_reform  # noqa: E402
 
 IR = "impot_revenu.bareme_ir_depuis_1945.bareme"
@@ -32,14 +32,14 @@ def main():
     t = time.time()
     cands = candidates()
     data = json.loads((Path(__file__).resolve().parents[1] / "profiles/reference.json").read_text())
-    cases = [(c["id"], Profile(**c["profile"]), ComplementCalcul(**c["complement"])) for c in data["profiles"]]
-    compute_all(cases[0][1], cases[0][2], cands)  # préchauffage
+    cases = [(c["id"], Profile(**c["profile"])) for c in data["profiles"]]
+    compute_all(cases[0][1], cands)  # préchauffage
     print(f"Démarrage (chargement + préchauffage, {len(cands)} candidats) : {time.time() - t:.1f} s")
     times = []
     for _ in range(3):
-        for cid, p, x in cases:
+        for cid, p in cases:
             t = time.time()
-            compute_all(p, x, cands)
+            compute_all(p, cands)
             times.append(time.time() - t)
     print(f"Par appel (1 profil, actuel + {len(cands)} candidats), {len(times)} appels : "
           f"médiane {statistics.median(times):.2f} s, max {max(times):.2f} s")

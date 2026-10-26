@@ -1,4 +1,18 @@
 {
-  "status": "a_caler_pendant_le_test",
-  "rules": []
+  "status": "source",
+  "source": {
+    "titre": "À partir de quel âge un salarié peut-il partir en retraite ? — Service Public",
+    "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14043",
+    "verifieLe": "2026-08-14",
+    "consulteLe": "2026-10-26",
+    "archive": "data/sources/service-public-F14043-2026-10-26.txt"
+  },
+  "rules": [
+    { "naissanceDebut": "1963-01-01", "naissanceFin": "1965-03-31", "age": { "ans": 62, "mois": 9 }, "citation": { "naissance": "Entre le 1er janvier 1963 et le 31 mars 1965", "age": "62 ans et 9 mois" } },
+    { "naissanceDebut": "1965-04-01", "naissanceFin": "1965-12-31", "age": { "ans": 63, "mois": 0 }, "citation": { "naissance": "Entre le 1er avril 1965 et le 31 décembre 1965", "age": "63 ans" } },
+    { "naissanceDebut": "1966-01-01", "naissanceFin": "1966-12-31", "age": { "ans": 63, "mois": 3 }, "citation": { "naissance": "En 1966", "age": "63 ans et 3 mois" } },
+    { "naissanceDebut": "1967-01-01", "naissanceFin": "1967-12-31", "age": { "ans": 63, "mois": 6 }, "citation": { "naissance": "En 1967", "age": "63 ans et 6 mois" } },
+    { "naissanceDebut": "1968-01-01", "naissanceFin": "1968-12-31", "age": { "ans": 63, "mois": 9 }, "citation": { "naissance": "En 1968", "age": "63 ans et 9 mois" } },
+    { "naissanceDebut": "1969-01-01", "naissanceFin": null, "age": { "ans": 64, "mois": 0 }, "citation": { "naissance": "À partir du 1er janvier 1969", "age": "64 ans" } }
+  ]
 }

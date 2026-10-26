@@ -1,0 +1,285 @@
+{
+  "corpusId": "france-insoumise-2026-10",
+  "candidateId": "c-02",
+  "collectedAt": "2026-10-26T14:08:54.087Z",
+  "startUrls": [
+    "https://melenchon2027.fr/programme/decouvrir/",
+    "https://melenchon2027.fr/programme/plans-thematiques/",
+    "https://melenchon2027.fr/programme/plans-investissement/",
+    "https://melenchon2027.fr/programme2025/livre/"
+  ],
+  "include": [
+    "https://melenchon2027.fr/programme/",
+    "https://melenchon2027.fr/programme2025/livre/"
+  ],
+  "rendered": true,
+  "documents": [
+    {
+      "id": "france-insoumise-2026-10-programme-decouvrir",
+      "kind": "html",
+      "officialUrl": "https://melenchon2027.fr/programme/decouvrir/",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Découvrir le programme - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "retrievedAt": "2026-10-26T14:11:06.262Z",
+      "file": "raw/france-insoumise-2026-10-programme-decouvrir.html",
+      "sha256": "f0d3e2a4d0d114290dfc9c48669d8d2825a95acd0c012801ecf4fe326852c026",
+      "textFile": "text/france-insoumise-2026-10-programme-decouvrir.json",
+      "textSha256": "969e74376dbb5b1ac456ae9e31c46463322d4681549635824668ec3a1b8703e5",
+      "pageCount": 1
+    },
+    {
+      "id": "france-insoumise-2026-10-programme-plans-thematiques",
+      "kind": "html",
+      "officialUrl": "https://melenchon2027.fr/programme/plans-thematiques/",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Les plans thématiques - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "retrievedAt": "2026-10-26T14:11:44.561Z",
+      "file": "raw/france-insoumise-2026-10-programme-plans-thematiques.html",
+      "sha256": "0ede62f4e36efba214999de86ed716bf41ca442e16264de3338f3d9dbacbe216",
+      "textFile": "text/france-insoumise-2026-10-programme-plans-thematiques.json",
+      "textSha256": "9234521b4e571bfaff496c1569261fba4c52526181ff6a5c584a2dea525bfe78",
+      "pageCount": 1
+    },
+    {
+      "id": "france-insoumise-2026-10-programme-plans-investissement",
+      "kind": "html",
+      "officialUrl": "https://melenchon2027.fr/programme/plans-investissement/",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Les plans d’investissement - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "retrievedAt": "2026-10-26T14:11:51.945Z",
+      "file": "raw/france-insoumise-2026-10-programme-plans-investissement.html",
+      "sha256": "ef6a35c1940c761f1a5785b3544e7e25e3fadceff7f20e2674e9a0c7baebca80",
+      "textFile": "text/france-insoumise-2026-10-programme-plans-investissement.json",
+      "textSha256": "f8b78a842c9cf26b5837a9080136a97717f21ae513d731d2da9373772c39a335",
+      "pageCount": 1
+    },
+    {
+      "id": "france-insoumise-2026-10-programme2025-livre",
+      "kind": "html",
+      "officialUrl": "https://melenchon2027.fr/programme2025/livre/",
+      "contentType": "text/html; charset=utf-8",
+      "title": "La France Insoumise - L'avenir en commun - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "retrievedAt": "2026-10-26T14:12:29.547Z",
+      "file": "raw/france-insoumise-2026-10-programme2025-livre.html",
+      "sha256": "5eaaea615f1232da7d182a77342942959ec1f66dffddd3269b0bf9affbf42e89",
+      "textFile": "text/france-insoumise-2026-10-programme2025-livre.json",
+      "textSha256": "3026b64d7c50073bb659cf15e0e351e1b660d6e1d1bf790870792f9e293bdad7",
+      "pageCount": 1
+    },
+    {
+      "id": "france-insoumise-2026-10-programme-laec",
+      "kind": "html",
+      "officialUrl": "https://melenchon2027.fr/programme/laec/",
+      "contentType": "text/html; charset=utf-8",
+      "title": "L'avenir en commun - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "retrievedAt": "2026-10-26T14:14:37.882Z",
+      "file": "raw/france-insoumise-2026-10-programme-laec.html",
+      "sha256": "60bae61d70cd2012d3795c0e836b28baa77f2315aef91e857c5aecddf1f64ea6",
+      "textFile": "text/france-insoumise-2026-10-programme-laec.json",
+      "textSha256": "7ca02d48ec671abc70080fa2e707b13ecfe64724e3dbae8fd167cea6e5e6b166",
+      "pageCount": 1
+    },
+    {
+      "id": "france-insoumise-2026-10-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics",
+      "kind": "pdf",
+      "officialUrl": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf",
+      "contentType": "application/pdf",
+      "title": "",
+      "retrievedAt": "2026-10-26T14:14:44.465Z",
+      "file": "raw/france-insoumise-2026-10-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf",
+      "sha256": "796b2e7a7a3d26e6812498c7ad5e0589134fdb0429918e40975dfa22a67563e7",
+      "textFile": "text/france-insoumise-2026-10-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.json",
+      "textSha256": "b130acd233622a4a4137fac897b0ec4da437cc2aaabcfe54eb82b567f7eb98b3",
+      "pageCount": 24
+    },
+    {
+      "id": "france-insoumise-2026-10-programme-plans-thematiques-ruralite",
+      "kind": "html",
+      "officialUrl": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Comment nous allons garantir l'égalité pour des ruralités où il fait bon vivre ? - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "retrievedAt": "2026-10-26T14:14:52.639Z",
+      "file": "raw/france-insoumise-2026-10-programme-plans-thematiques-ruralite.html",
+      "sha256": "1c1a01522366509a39dbfabbc07319503609c9cc6c3d1960b3c9d18a5fa3f336",
+      "textFile": "text/france-insoumise-2026-10-programme-plans-thematiques-ruralite.json",
+      "textSha256": "06ea65eb88451977d18ebccd35c0afa479c11b92ac7b5d8bbc580aebc242ec6b",
+      "pageCount": 3
+    },
+    {
+      "id": "france-insoumise-2026-10-programme-plans-investissement-btp-logement",
+      "kind": "html",
+      "officialUrl": "https://melenchon2027.fr/programme/plans-investissement/btp-logement/",
+      "contentType": "text/html; charset=utf-8",
+      "title": "BTP et logement - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "retrievedAt": "2026-10-26T14:15:30.831Z",
+      "file": "raw/france-insoumise-2026-10-programme-plans-investissement-btp-logement.html",
+      "sha256": "8532a650c218143c838c1395f6bb3234cad381e5b58347deca31043a041a6b32",
+      "textFile": "text/france-insoumise-2026-10-programme-plans-investissement-btp-logement.json",
+      "textSha256": "82840969e914ddc770e831a67a2c8b30d14a276fa1323039866c0db4840c2495",
+      "pageCount": 3
+    },
+    {
+      "id": "france-insoumise-2026-10-programme-plans-investissement-automobile",
+      "kind": "html",
+      "officialUrl": "https://melenchon2027.fr/programme/plans-investissement/automobile/",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Automobile - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "retrievedAt": "2026-10-26T14:16:09.146Z",
+      "file": "raw/france-insoumise-2026-10-programme-plans-investissement-automobile.html",
+      "sha256": "2f9bb8680deaf491a30a8e347d7dfa249b7e80725f7ee14abcf1e367159b7bde",
+      "textFile": "text/france-insoumise-2026-10-programme-plans-investissement-automobile.json",
+      "textSha256": "08efcac83d3e31914779f05f3bf8aefcfe00aabe5ee6b327fa35dd1b50516854",
+      "pageCount": 3
+    },
+    {
+      "id": "france-insoumise-2026-10-wp-content-uploads-2026-10-plan-ruralite-web",
+      "kind": "pdf",
+      "officialUrl": "https://melenchon2027.fr/wp-content/uploads/2026/10/plan_RURALITE_web.pdf",
+      "contentType": "application/pdf",
+      "title": "",
+      "retrievedAt": "2026-10-26T14:19:07.673Z",
+      "file": "raw/france-insoumise-2026-10-wp-content-uploads-2026-10-plan-ruralite-web.pdf",
+      "sha256": "5d386999f86677578f5432d9bb13e25bdaefacfff17b870597234ab230703beb",
+      "textFile": "text/france-insoumise-2026-10-wp-content-uploads-2026-10-plan-ruralite-web.json",
+      "textSha256": "b999c8c86ef79b258b9a78c46adff668940adf4bb0b260fcfae75a11d91b02d6",
+      "pageCount": 32
+    },
+    {
+      "id": "france-insoumise-2026-10-wp-content-uploads-2026-09-m-27-plan-btp-logement",
+      "kind": "pdf",
+      "officialUrl": "https://melenchon2027.fr/wp-content/uploads/2026/09/M-27-PLAN-BTP-LOGEMENT.pdf",
+      "contentType": "application/pdf",
+      "title": "",
+      "retrievedAt": "2026-10-26T14:19:14.713Z",
+      "file": "raw/france-insoumise-2026-10-wp-content-uploads-2026-09-m-27-plan-btp-logement.pdf",
+      "sha256": "39c0f0e8207a9aebc966cdfa9cbac99ed6e0217c987e13f59c24798474fd7874",
+      "textFile": "text/france-insoumise-2026-10-wp-content-uploads-2026-09-m-27-plan-btp-logement.json",
+      "textSha256": "9c515e53766fc58021713424d66ab62dc5a475742cece3a1e4b7f8e7801ab7e2",
+      "pageCount": 20
+    },
+    {
+      "id": "france-insoumise-2026-10-wp-content-uploads-2026-10-plan-auto-vf-st",
+      "kind": "pdf",
+      "officialUrl": "https://melenchon2027.fr/wp-content/uploads/2026/10/PLAN-AUTO_Vf_ST.pdf",
+      "contentType": "application/pdf",
+      "title": "",
+      "retrievedAt": "2026-10-26T14:19:21.781Z",
+      "file": "raw/france-insoumise-2026-10-wp-content-uploads-2026-10-plan-auto-vf-st.pdf",
+      "sha256": "c97c3dbd8a49e04f18a23c73cf04d49fb14b4fd3083563abc6e83aa92177441c",
+      "textFile": "text/france-insoumise-2026-10-wp-content-uploads-2026-10-plan-auto-vf-st.json",
+      "textSha256": "4a2086fbfd95cb7feca001a64131595f2f83cc0b345286a74ff109e4ad9617ad",
+      "pageCount": 26
+    }
+  ],
+  "excludedLinks": [
+    "https://melenchon2027.fr/",
+    "https://melenchon2027.fr/?page_id=13157",
+    "https://melenchon2027.fr/?page_id=1790",
+    "https://melenchon2027.fr/?page_id=18843",
+    "https://melenchon2027.fr/?page_id=2006",
+    "https://melenchon2027.fr/?page_id=22108",
+    "https://melenchon2027.fr/?page_id=22911",
+    "https://melenchon2027.fr/agenda-de-campagne/",
+    "https://melenchon2027.fr/auditions-programmatiques/",
+    "https://melenchon2027.fr/comment-a-ete-concu-le-programme/",
+    "https://melenchon2027.fr/espace-presse/",
+    "https://melenchon2027.fr/mentions-legales/",
+    "https://melenchon2027.fr/synthese-des-contributions/",
+    "https://melenchon2027.fr/wp-content/uploads/2026/04/PROGRAMME-FRONT-POPULAIRE.pdf"
+  ],
+  "externalPdfs": [],
+  "skipped": [
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/introduction",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/faire-la-revolution-citoyenne",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre1",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre2",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre3",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre4",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/l-harmonie-des-etres-humains-entre-eux",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre5",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre6",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre7",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre8",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre9",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre10",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre11",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/l-harmonie-des-etres-humains-avec-la-nature",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre12",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre13",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre14",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre15",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/ordonner-le-monde",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre16",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre17",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre18",
+      "reason": "HTTP 404"
+    }
+  ]
+}

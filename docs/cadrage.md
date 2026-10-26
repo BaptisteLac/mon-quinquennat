@@ -10,8 +10,8 @@ Hypothèse de simulation : l'utilisateur est un électeur français (aucune ques
 | Étape | Écran | Contenu |
 |---|---|---|
 | 0 | Accueil | Accroche, « Commencer », reprise si une partie est en cours (stockage du navigateur) |
-| 1 | Toi | Âge, genre (pour l'avatar), situation familiale, enfants |
-| 2 | Ton quotidien | Travail, revenus, logement, lieu de vie, mobilité + questions conditionnelles |
+| 1 | Toi | Âge, genre (pour l'avatar), situation familiale, enfants (année de naissance) |
+| 2 | Ton quotidien | Travail, revenus, logement (loyer si locataire), commune (par code postal), lieu de vie, mobilité + questions conditionnelles (situation du conjoint, chiffre d'affaires d'un micro-entrepreneur…) |
 | 3 | Affiner (facultatif) | Handicap ou aidant, patrimoine |
 | 4 | Candidats | Jusqu'à 3 candidats + option « mystère » (programme tiré au sort, révélé à la fin) |
 | 5 | Frise | Défilement 2027 → 2032, une case par mesure qui te touche, à sa date d'application |
@@ -53,8 +53,9 @@ Hypothèse de simulation : l'utilisateur est un électeur français (aucune ques
 - Le LLM ne calcule aucun chiffre.
 
 ## Architecture
-- Next.js (front + routes API), Supabase Postgres (mesures publiées, versions, sources), service Python OpenFisca, GitHub Actions (pipeline), images OG pour le partage.
+- Next.js (front + routes API), mesures publiées en JSON statique livré avec le site, Supabase Storage (archives brutes des programmes), service Python OpenFisca, GitHub Actions (pipeline), images OG pour le partage.
 - API sans état : reçoit le profil, renvoie les tickets de **tous** les candidats ; le navigateur affiche ceux choisis.
+- Service de calcul éteint au repos : le front le réveille (`/sante`) dès le début de la création du personnage, pour que les montants soient prêts à l'arrivée sur la frise.
 - Profil, progression et tickets dans le stockage du navigateur. Mesure d'audience sans cookie.
 
 ## Direction artistique

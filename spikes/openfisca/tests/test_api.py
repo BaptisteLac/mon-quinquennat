@@ -1,8 +1,6 @@
 from mq_calc.api import create_app
-from mq_calc.compute import Candidate, baseline
-from mq_calc.reforms import ParamChange, affected_outputs, make_reform
+from mq_calc.candidates import CandidateSpec, LeverUse, load
 
-IR = "impot_revenu.bareme_ir_depuis_1945.bareme"
 PROFILE = {
     "age": 35, "genre": "autre", "situationFamiliale": "seul", "enfants": [], "situationPro": "salarie_prive",
     "revenusNetsMensuels": 2600, "logement": "proprio_sans_credit", "lieuDeVie": "rural", "mobilite": "velo_pied",
@@ -10,9 +8,8 @@ PROFILE = {
 
 
 def client():
-    changes = [ParamChange(IR, 0.10, "2025-01-01", 1, "rate")]
-    cand = Candidate("test", make_reform(baseline(), changes, "test"), affected_outputs(changes))
-    return create_app([cand]).test_client()
+    spec = CandidateSpec(id="test", levers=[LeverUse(lever="impot_revenu_taux_tranche_2", value=10, measureId="m-test")])
+    return create_app(load([spec])).test_client()
 
 
 def test_calcule_actuel_et_chaque_candidat():

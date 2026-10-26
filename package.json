@@ -5,7 +5,8 @@
   "description": "Vis ton quinquennat 2027–2032 selon les programmes officiels des candidats à la présidentielle.",
   "workspaces": [
     "packages/*",
-    "spikes/extraction"
+    "spikes/extraction",
+    "spikes/simulateurs"
   ],
   "scripts": {
     "typecheck": "npm run typecheck --workspaces --if-present",

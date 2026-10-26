@@ -39,6 +39,8 @@ jobs:
           args=(--corpus "$corpus" --candidate "$(jq -r .candidate $req)")
           for u in $(jq -r '.start[]' $req); do args+=(--start "$u"); done
           for u in $(jq -r '.include[]' $req); do args+=(--include "$u"); done
+          for u in $(jq -r '(.exclude // [])[]' $req); do args+=(--exclude "$u"); done
+          delay=$(jq -r '.delayMs // empty' $req); if [ -n "$delay" ]; then args+=(--delay-ms "$delay"); fi
           if [ "$(jq -r .render $req)" = "true" ]; then args+=(--render); fi
           if [ -d "../../data/extractions/$corpus" ]; then
             echo "::error::Le corpus $corpus est déjà exploité : archive immuable, choisir un nouvel identifiant."
@@ -53,4 +55,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -f -A "data/archives/$CORPUS"
           git commit -m "Collecte du corpus $CORPUS" || echo "Aucun changement"
+          # La branche a pu avancer pendant la collecte : on rejoue le commit par-dessus.
+          git pull --rebase origin "${GITHUB_REF_NAME}"
           git push

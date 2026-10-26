@@ -30,18 +30,14 @@
           "items": {
             "type": "object",
             "properties": {
-              "ageBand": {
-                "type": "string",
-                "enum": [
-                  "0_2",
-                  "3_10",
-                  "11_17",
-                  "18_25"
-                ]
+              "anneeNaissance": {
+                "type": "integer",
+                "minimum": 1995,
+                "maximum": 2032
               }
             },
             "required": [
-              "ageBand"
+              "anneeNaissance"
             ],
             "additionalProperties": false
           }
@@ -70,6 +66,19 @@
           "type": "number",
           "minimum": 0
         },
+        "situationProConjoint": {
+          "type": "string",
+          "enum": [
+            "salarie_prive",
+            "fonctionnaire",
+            "independant",
+            "chef_entreprise",
+            "demandeur_emploi",
+            "etudiant",
+            "retraite",
+            "sans_activite"
+          ]
+        },
         "logement": {
           "type": "string",
           "enum": [
@@ -80,6 +89,10 @@
             "heberge"
           ]
         },
+        "loyerMensuel": {
+          "type": "number",
+          "minimum": 0
+        },
         "lieuDeVie": {
           "type": "string",
           "enum": [
@@ -89,6 +102,10 @@
             "rural",
             "outre_mer"
           ]
+        },
+        "codeCommune": {
+          "type": "string",
+          "pattern": "^(\\d{5}|2[AB]\\d{3})$"
         },
         "mobilite": {
           "type": "string",
@@ -127,6 +144,18 @@
                 "1_9",
                 "10_49",
                 "50_plus"
+              ]
+            },
+            "chiffreAffairesAnnuel": {
+              "type": "number",
+              "minimum": 0
+            },
+            "activite": {
+              "type": "string",
+              "enum": [
+                "vente",
+                "services",
+                "liberale"
               ]
             }
           },

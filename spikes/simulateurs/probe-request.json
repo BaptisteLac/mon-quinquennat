@@ -1,0 +1,60 @@
+{
+  "run": 21,
+  "targets": [
+    {
+      "id": "prix-scaleway",
+      "url": "https://www.scaleway.com/fr/tarifs/serverless/",
+      "waitUntil": "networkidle",
+      "continueOnError": true,
+      "actions": [
+        {
+          "wait": 3000
+        }
+      ]
+    },
+    {
+      "id": "prix-scaleway-doc",
+      "url": "https://www.scaleway.com/en/docs/serverless/containers/reference-content/containers-billing/",
+      "waitUntil": "networkidle",
+      "continueOnError": true,
+      "actions": [
+        {
+          "wait": 3000
+        }
+      ]
+    },
+    {
+      "id": "prix-flyio",
+      "url": "https://fly.io/docs/about/pricing/",
+      "waitUntil": "networkidle",
+      "continueOnError": true,
+      "actions": [
+        {
+          "wait": 3000
+        }
+      ]
+    },
+    {
+      "id": "prix-cloudrun",
+      "url": "https://cloud.google.com/run/pricing?hl=fr",
+      "waitUntil": "networkidle",
+      "continueOnError": true,
+      "actions": [
+        {
+          "wait": 3000
+        }
+      ]
+    },
+    {
+      "id": "prix-clevercloud",
+      "url": "https://www.clever.cloud/pricing/",
+      "waitUntil": "networkidle",
+      "continueOnError": true,
+      "actions": [
+        {
+          "wait": 3000
+        }
+      ]
+    }
+  ]
+}

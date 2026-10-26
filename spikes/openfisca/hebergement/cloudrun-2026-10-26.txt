@@ -1,0 +1,661 @@
+Tarifs de Cloud Run
+Remarques sur les tarifs
+Grilles tarifaires
+Services (facturation basée sur les instances)
+Services (facturation basée sur les requêtes)
+Tâches
+Jobs retardés
+Pools de nœuds de calcul
+Instances
+Espace disque éphémère
+Niveaux de prix régionaux
+Temps d'instance facturable
+Exemples de tarification
+Déploiements et fonctions de la source
+Étapes suivantes
+Tarifs de Cloud Run
+
+Dans Cloud Run, vous ne payez que les ressources utilisées, le total étant arrondi à la centaine de millisecondes la plus proche. Votre facture Cloud Run totale correspondra à la somme des ressources utilisées dans le tableau des tarifs après application du niveau sans frais.
+
+Lorsque vous définissez la simultanéité sur une valeur supérieure à une requête à la fois, plusieurs requêtes peuvent partager le processeur et la mémoire alloués d'une instance.
+
+Le transfert de données sortant sur Internet utilise le niveau de service réseau Premium et est facturé selon la tarification des services de mise en réseau de Google Cloud. Un niveau sans frais de 1 Gio de transfert de données en Amérique du Nord par mois est disponible.
+
+Le transfert de données vers les réseaux de cloud privé virtuel est facturé comme un transfert de données depuis une VM, aux tarifs de transfert de données du cloud privé virtuel. Les connecteurs d'accès au VPC sans serveur entraînent également des frais de calcul. Consultez les tarifs de l'accès au VPC sans serveur.
+
+Le transfert de données vers des ressources Google Cloud dans la même région n'est pas facturé (par exemple, pour le trafic d'un service Cloud Run vers un autre service Cloud Run). Les transferts de données vers Media CDN, Cloud CDN et Cloud Load Balancing sont sans frais.
+
+Remarques sur les tarifs
+
+Lorsque vous évaluez les tarifs de Cloud Run, tenez compte des points suivants :
+
+À la demande et paiement à l'utilisation : Cloud Run fournit une capacité à la demande et met automatiquement à l'échelle les instances. Cloud Run ne nécessite pas de provisionner l'infrastructure à l'avance pour faire face aux pics d'utilisation prévus. Les instances de conteneur facturées par Cloud Run sont des instances de conteneur utilisées.
+Coût total de possession : bien que Cloud Run facture les coûts de calcul, il offre une valeur ajoutée supérieure. Par exemple, Cloud Run offre une redondance zonale, nécessite peu d'opérations, car les ingénieurs en fiabilité des sites effectuent de nombreuses tâches en arrière-plan, et vous permet, à vous et à votre équipe, d'être plus productifs grâce à sa simplicité.
+Remises sur engagement d'utilisation : vous pouvez réduire le coût de toute utilisation continue de Cloud Run en souscrivant des remises sur engagement d'utilisation. Par exemple, si votre service Cloud Run comporte toujours au moins une instance active, vous pouvez réduire ses coûts en vous engageant à utiliser au moins ce montant. Les remises sur engagement d'utilisation flexibles pour Compute s'appliquent à GKE, Compute Engine et Cloud Run.
+
+En savoir plus sur l'optimisation des coûts
+
+Simulateur de coût
+
+Vous pouvez utiliser le simulateur de coût Google Cloud pour estimer le coût d'utilisation de Cloud Run.
+
+Grilles tarifaires
+
+Les tableaux de tarification suivants utilisent l'unité GiB-seconde. Un Gio-seconde correspond par exemple à l'exécution d'une instance de 1 gibioctet pendant 1 seconde, ou à l'exécution d'une instance de 256 mébioctets pendant 4 secondes. Le même principe s'applique à l'unité vCPU-seconde. CUD signifie remises sur engagement d'utilisation.
+
+L'utilisation du niveau sans frais est agrégée par projet et par compte de facturation, et elle est réinitialisée chaque mois. Vous n'êtes facturé que pour l'utilisation qui dépasse le niveau sans frais. Le niveau sans frais est appliqué sous forme de remise basée sur les dépenses, en utilisant les tarifs du niveau 1.
+
+Les tarifs de Cloud Run dépendent de la région sélectionnée. Les tarifs des services Cloud Run dépendent également de la configuration de la facturation.
+
+Si vous ne payez pas en USD, les tarifs indiqués dans votre devise sur la page des codes SKU Cloud Platform s'appliquent.
+
+Services (facturation basée sur les instances)
+
+Services avec facturation basée sur les instances
+
+Niveau sans frais (basé sur les tarifs de la région us-central1) :
+
+CPU : 240 000 premières vCPU-seconde sans frais par mois
+RAM : 450 000 premiers Gio-seconde sans frais par mois
+Iowa (us-central1)
+Afficher les options de remise
+
+Ressource
+
+	
+
+Par défaut (USD)
+
+*
+info
+	
+Cloud Run CUD - 1 Year* (USD)
+info
+	
+Cloud Run CUD - 3 Year* (USD)
+info
+	
+Compute Flexible CUD - 1 Year* (USD)
+info
+	
+Compute Flexible CUD - 3 Year* (USD)
+info
+
+
+
+CPU (par vCPU-seconde)
+
+	0,000018 $US	0,00001494 $US	0,00001494 $US	0,00001296 $US	0,00000972 $US
+
+
+Mémoire (par Gio-seconde)
+
+	0,000002 $US	0,00000166 $US	0,00000166 $US	0,00000144 $US	0,00000108 $US
+
+
+Type de GPU NVIDIA L4 (redondance non zonale, par seconde)
+
+	0,0001867 $US	-	-	-	-
+
+
+Type de GPU NVIDIA L4 (redondance zonale, par seconde)
+
+	0,0002909 $US	-	-	-	-
+
+
+Type de GPU NVIDIA RTX PRO 6000 (redondance non zonale, par seconde)
+
+	0,00036522 $US	-	-	-	-
+
+
+Type de GPU NVIDIA RTX PRO 6000 (redondance zonale, par seconde)
+
+	0,00056913 $US	-	-	-	-
+* Chaque modèle de consommation est associé à un identifiant unique. Vous devrez peut-être vous inscrire pour être éligible aux remises sur le modèle de consommation. Cliquez ici pour en savoir plus.
+
+Les remises sur engagement d'utilisation de Cloud Run ne s'appliquent qu'aux ressources Cloud Run. Pour plus de flexibilité, veuillez utiliser les remises sur engagement d'utilisation flexibles de Compute.
+
+Remise sur engagement d'utilisation flexible désigne les remises sur engagement d'utilisation flexible de Compute.
+
+Services (facturation basée sur les requêtes)
+
+Services avec facturation basée sur les requêtes pendant la période d'instance facturée
+
+Niveau sans frais (basé sur les tarifs actifs de la région us-central1) :
+
+CPU : 180 000 premières unités de processeur virtuel-seconde sans frais par mois
+RAM : 360 000 premiers Gio-seconde sans frais par mois
+Requêtes : 2 millions de requêtes sans frais par mois
+Iowa (us-central1)
+Afficher les options de remise
+
+Ressource
+
+	
+
+Type
+
+	
+
+Par défaut (USD)
+
+*
+info
+	
+Cloud Run CUD - 1 Year* (USD)
+info
+	
+Cloud Run CUD - 3 Year* (USD)
+info
+	
+Compute Flexible CUD - 1 Year* (USD)
+info
+	
+Compute Flexible CUD - 3 Year* (USD)
+info
+
+
+
+CPU (par vCPU-seconde)
+
+	
+
+Durée d'activité
+
+
+
+
+	0,000024 $US	0,00001992 $US	0,00001992 $US	0,00001992 $US	0,00001992 $US
+
+
+Temps d'inactivité (instance minimale1)
+
+
+
+
+	0,0000025 $US	0,000002075 $US	0,000002075 $US	0,000002075 $US	0,000002075 $US
+
+
+Mémoire (par Gio-seconde)
+
+	
+
+Durée d'activité
+
+	0,0000025 $US	0,000002075 $US	0,000002075 $US	0,000002075 $US	0,000002075 $US
+
+
+Temps d'inactivité (instance minimale1)
+
+	0,0000025 $US	0,000002075 $US	0,000002075 $US	0,000002075 $US	0,000002075 $US
+
+
+Demandes (pour 1 000 000)
+
+	
+
+N/A
+
+	0,40 $US	0,332 $US	0,332 $US	0,332 $US	0,332 $US
+* Chaque modèle de consommation est associé à un identifiant unique. Vous devrez peut-être vous inscrire pour être éligible aux remises sur le modèle de consommation. Cliquez ici pour en savoir plus.
+
+1 Le temps d'instance minimal inactive correspond au temps facturable inactif pour les instances gardées en attente à l'aide du nombre minimal d'instances. Les instances inactives qui ne sont pas des instances minimales ne sont pas facturées.
+
+Les requêtes ne sont facturées que lorsqu'elles atteignent le conteneur après avoir été authentifiées. Les requêtes refusées par une règle IAM ne sont pas facturées.
+
+Les remises sur engagement d'utilisation de Cloud Run ne s'appliquent qu'aux ressources Cloud Run. Pour plus de flexibilité, veuillez utiliser les remises sur engagement d'utilisation flexibles de Compute.
+
+CUD désigne les remises sur engagement d'utilisation.
+
+Tâches
+
+Niveau sans frais (basé sur les tarifs de la région us-central1) :
+
+CPU : 240 000 premières vCPU-seconde sans frais par mois
+RAM : 450 000 premiers Gio-seconde sans frais par mois
+Iowa (us-central1)
+Afficher les options de remise
+
+Ressource
+
+	
+
+Par défaut (USD)
+
+*
+info
+	
+Cloud Run CUD - 1 Year* (USD)
+info
+	
+Cloud Run CUD - 3 Year* (USD)
+info
+	
+Compute Flexible CUD - 1 Year* (USD)
+info
+	
+Compute Flexible CUD - 3 Year* (USD)
+info
+
+
+
+CPU (par vCPU-seconde)
+
+	0,000018 $US	0,00001494 $US	0,00001494 $US	0,00001296 $US	0,00000972 $US
+
+
+Mémoire (par Gio-seconde)
+
+	0,000002 $US	0,00000166 $US	0,00000166 $US	0,00000144 $US	0,00000108 $US
+
+
+Type de GPU NVIDIA L4 (redondance non zonale, par seconde)
+
+	0,0001867 $US	-	-	-	-
+
+
+Type de GPU NVIDIA RTX PRO 6000 (redondance non zonale, par seconde)
+
+	0,00036522 $US	-	-	-	-
+* Chaque modèle de consommation est associé à un identifiant unique. Vous devrez peut-être vous inscrire pour être éligible aux remises sur le modèle de consommation. Cliquez ici pour en savoir plus.
+
+Les remises sur engagement d'utilisation de Cloud Run ne s'appliquent qu'aux ressources Cloud Run. Pour plus de flexibilité, veuillez utiliser les remises sur engagement d'utilisation flexibles de Compute.
+
+Remise sur engagement d'utilisation flexible désigne les remises sur engagement d'utilisation flexible de Compute.
+
+Jobs retardés
+
+Niveau sans frais (basé sur les tarifs de la région us-central1) :
+
+CPU : 342 857 premières unités de processeur virtuel-seconde sans frais par mois
+RAM : 642 857 premiers Gio-seconde sans frais par mois
+Iowa (us-central1)
+Afficher les options de remise
+
+Ressource
+
+	
+
+Par défaut (USD)*
+
+info
+	
+Compute Flexible CUD - 1 Year* (USD)
+info
+	
+Compute Flexible CUD - 3 Year* (USD)
+info
+
+
+
+CPU (par vCPU-seconde)
+
+	0,0000126 $US	0,000009072 $US	0,000006804 $US
+
+
+Mémoire (par Gio-seconde)
+
+	0,0000014 $US	0,000001008 $US	0,000000756 $US
+
+
+Type de GPU NVIDIA L4 (redondance non zonale, par seconde)
+
+	0,0001867 $US	-	-
+
+
+Type de GPU NVIDIA RTX PRO 6000 (redondance non zonale, par seconde)
+
+	0,00036522 $US	-	-
+* Chaque modèle de consommation est associé à un identifiant unique. Vous devrez peut-être vous inscrire pour être éligible aux remises sur le modèle de consommation. Cliquez ici pour en savoir plus.
+
+Remarque : Les prix des jobs différés sont dynamiques et peuvent varier jusqu'à une fois tous les 30 jours.
+
+Les remises sur engagement d'utilisation de Cloud Run ne s'appliquent qu'aux ressources Cloud Run. Pour plus de flexibilité, veuillez utiliser les remises sur engagement d'utilisation flexibles de Compute.
+
+Remise sur engagement d'utilisation flexible désigne les remises sur engagement d'utilisation flexible de Compute.
+
+Pools de nœuds de calcul
+
+Niveau sans frais (basé sur les tarifs de la région us-central1) :
+
+CPU : 384 204 premières vCPU-seconde sans frais par mois
+RAM : 728 744 premiers Gio-seconde sans frais par mois
+Iowa (us-central1)
+Afficher les options de remise
+
+Ressource
+
+	
+
+Par défaut (USD)
+
+*
+info
+	
+Compute Flexible CUD - 1 Year* (USD)
+info
+	
+Compute Flexible CUD - 3 Year* (USD)
+info
+
+
+
+CPU (par vCPU-seconde)
+
+	0,000011244 $US	0,000008096 $US	0,000006072 $US
+
+
+Mémoire (par Gio-seconde)
+
+	0,000001235 $US	0,000000889 $US	0,000000667 $US
+
+
+Type de GPU NVIDIA L4 (redondance non zonale, par seconde)
+
+	0,0001867 $US	-	-
+
+
+Type de GPU NVIDIA L4 (redondance zonale, par seconde)
+
+	0,0002909 $US	-	-
+
+
+Type de GPU NVIDIA RTX PRO 6000 (redondance non zonale, par seconde)
+
+	0,00036522 $US	-	-
+
+
+Type de GPU NVIDIA RTX PRO 6000 (redondance zonale, par seconde)
+
+	0,00056913 $US	-	-
+* Chaque modèle de consommation est associé à un identifiant unique. Vous devrez peut-être vous inscrire pour être éligible aux remises sur le modèle de consommation. Cliquez ici pour en savoir plus.
+
+Si vous ne payez pas en USD, les tarifs indiqués dans votre devise sur la page des codes SKU Cloud Platform s'appliquent.
+
+Remise sur engagement d'utilisation flexible désigne les remises sur engagement d'utilisation flexible de Compute.
+
+Instances
+
+Iowa (us-central1)
+Afficher les options de remise
+
+Ressource
+
+	
+
+Par défaut (USD)
+
+*
+info
+	
+Compute Flexible CUD - 1 Year* (USD)
+info
+	
+Compute Flexible CUD - 3 Year* (USD)
+info
+
+
+
+CPU (par vCPU-seconde)
+
+	0,00000027 $US	0,000000194 $US	0,000000146 $US
+
+
+Mémoire (par Gio-seconde)
+
+	0,00000193 $US	0,00000139 $US	0,000001042 $US
+* Chaque modèle de consommation est associé à un identifiant unique. Vous devrez peut-être vous inscrire pour être éligible aux remises sur le modèle de consommation. Cliquez ici pour en savoir plus.
+
+Si vous ne payez pas en USD, les tarifs indiqués dans votre devise sur la page des SKU Cloud Platform s'appliquent.
+
+Remise sur engagement d'utilisation flexible désigne les remises sur engagement d'utilisation flexible de Compute.
+
+Espace disque éphémère
+
+Iowa (us-central1)
+Afficher les options de remise
+Toutes les heures
+Tous les mois
+
+Ressource
+
+	
+
+Par défaut (USD)
+
+*
+info
+	
+Compute Flexible CUD - 1 Year* (USD)
+info
+	
+Compute Flexible CUD - 3 Year* (USD)
+info
+
+
+
+Espace disque éphémère
+
+	0,000109589 $US / 1 gibibyte hour	0,000078904 $US / 1 gibibyte hour	0,000059178 $US / 1 gibibyte hour
+* Chaque modèle de consommation est associé à un identifiant unique. Vous devrez peut-être vous inscrire pour être éligible aux remises sur le modèle de consommation. Cliquez ici pour en savoir plus.
+Niveaux de prix régionaux
+
+Soumis aux tarifs de niveau 1
+
+africa-south1 (Johannesburg)
+asia-east1 (Taïwan)
+asia-northeast1 (Tokyo)
+asia-northeast2 (Osaka)
+asia-south1 (Mumbai, Inde)
+asia-southeast3 (Bangkok)
+asia-southeast4 (Kuala Lumpur)
+europe-north1 (Finlande)  Faibles émissions de CO2
+europe-north2 (Stockholm)  Faibles émissions de CO2
+europe-southwest1 (Madrid)  Faibles émissions de CO2
+europe-west1 (Belgique)  Faibles émissions de CO2
+europe-west4 (Pays-Bas)  Faibles émissions de CO2
+europe-west8 (Milan)
+europe-west9 (Paris)  Faibles émissions de CO2
+me-west1 (Tel Aviv)
+northamerica-south1 (Mexique)
+us-central1 (Iowa)  Faibles émissions de CO2
+us-east1 (Caroline du Sud)
+us-east4 (Virginie du Nord)
+us-east5 (Columbus)
+us-south1 (Dallas)  Faibles émissions de CO2
+us-west1 (Oregon)  Faibles émissions de CO2
+us-west8 (Phoenix)
+
+Soumis aux tarifs de niveau 2
+
+asia-east2 (Hong Kong)
+asia-northeast3 (Séoul, Corée du Sud)
+asia-southeast1 (Singapour)
+asia-southeast2 (Jakarta)
+asia-south2 (Delhi, Inde)
+australia-southeast1 (Sydney)
+australia-southeast2 (Melbourne)
+europe-central2 (Varsovie, Pologne)
+europe-west10 (Berlin)  Faibles émissions de CO2
+europe-west12 (Turin)
+europe-west2 (Londres, Royaume-Uni)  Faibles émissions de CO2
+europe-west3 (Francfort, Allemagne)  Faibles émissions de CO2
+europe-west6 (Zurich, Suisse)  Faibles émissions de CO2
+me-central1 (Doha)
+me-central2 (Dammam)
+northamerica-northeast1 (Montréal)  Faibles émissions de CO2
+northamerica-northeast2 (Toronto)  Faibles émissions de CO2
+southamerica-east1 (São Paulo, Brésil)  Faibles émissions de CO2
+southamerica-west1 (Santiago, Chili)  Faibles émissions de CO2
+us-west2 (Los Angeles)
+us-west3 (Salt Lake City)
+us-west4 (Las Vegas)
+Temps d'instance facturable
+
+Le temps facturable agrégé sur l'ensemble des instances Cloud Run est exposé en tant que métrique Cloud Monitoring. Pour en savoir plus, consultez la métrique container/billable_instance_time.
+
+Le temps d'instance facturable est arrondi à la centaine de millisecondes la plus proche et dépend de la configuration de facturation de votre service Cloud Run :
+
+Temps d'instance facturable pour les services avec facturation basée sur les requêtes
+
+Par défaut, Cloud Run ne facture le processeur et la mémoire alloués à une instance que dans les cas suivants :
+
+L'instance est en cours de démarrage.
+L'arrêt progressif de l'instance est en cours  (gestion du signal SIGTERM).
+Au moins une requête est en cours de traitement par l'instance. Le temps d'instance facturable commence au début de la première requête et se termine à la fin de la dernière requête, comme illustré dans le diagramme suivant :
+
+Si vous définissez un nombre minimal d'instances, vous êtes également facturé à un tarif "inactif" différent lorsque ces instances ne traitent pas de requêtes. Consultez le tableau ci-dessus.
+
+Temps d'instance facturable pour les services dont la facturation est basée sur les instances
+
+Lorsque vous choisissez la facturation basée sur les instances, vous êtes facturé pour toute la durée de vie des instances de conteneur Cloud Run : du démarrage à l'arrêt du conteneur, avec un minimum d'une minute.
+
+Temps d'instance facturable pour les jobs Cloud Run
+
+Les jobs Cloud Run sont facturés au tarif de la facturation basée sur les instances, pour toute la durée de vie de chaque instance démarrée, avec un minimum d'une minute.
+
+Exemples de tarification
+
+Exemple 1 : API/site Web publics – Accès aux données d'une application externe
+
+Supposons que vous ayez déployé un service Cloud Run avec une facturation basée sur les requêtes dans la région europe-west1 (Belgique) pour diffuser des sites Web, des applications Web, des API ou des backends mobiles. Votre service reçoit 10 millions de requêtes par mois, avec une latence moyenne par requête de 400 millisecondes. Ce service est configuré avec 1 vCPU, 512 Mio de mémoire et 20 requêtes simultanées maximales par instance. Le modèle de trafic suit un cycle de 24 heures, le volume de requêtes fluctuant sur 12 heures selon une distribution en forme de cloche.
+
+Le coût mensuel estimé pour cette charge de travail est de 13,69 $. Sans le niveau sans frais pour les processeurs virtuels et la mémoire, le coût serait de 18,91 $.
+
+Pour comprendre ces calculs en détail et ajuster les paramètres et les estimations d'utilisation, utilisez le simulateur de coût.
+
+Exemple 2 : Concurrence unique – Application gourmande en ressources CPU/non thread-safe, une requête par instance
+
+Supposons que vous avez déployé un service Cloud Run dans la région europe-west1 (Belgique) avec une facturation basée sur les requêtes pour une application gourmande en ressources CPU, non thread-safe, qui traite une requête à la fois. Votre service reçoit 10 millions de requêtes par mois, avec une latence moyenne par requête de 400 millisecondes. Ce service est configuré avec 1 vCPU et 512 Mio de mémoire.
+
+Le coût mensuel estimé pour cette charge de travail est de 81,72 $. Sans le niveau sans frais pour les vCPU et la mémoire, le coût serait de 86,49 $.
+
+Pour comprendre ces calculs en détail et ajuster les paramètres et les estimations d'utilisation, utilisez le simulateur de coût.
+
+Exemple 3 : Point de terminaison d'inférence d'IA – Diffusion de modèle local avec Ollama
+
+Supposons que vous avez déployé un service Cloud Run dans europe-west1 (Belgique) pour diffuser en temps réel un LLM ou une génération d'images accélérés par GPU. Ce service est configuré avec 4 vCPU, 16 Gio de mémoire et NVIDIA-L4 (sans redondance zonale). Ce service atteint un pic quotidien de deux instances, et le modèle de trafic suit un cycle de 24 heures, avec un volume de requêtes qui fluctue sur 12 heures selon une distribution en forme de cloche.
+
+Le coût mensuel estimé pour cette charge de travail est de 822,40 $. Sans le niveau sans frais pour les processeurs virtuels et la mémoire, le coût serait de 827,62 $.
+
+Pour comprendre ces calculs en détail et ajuster les paramètres et les estimations d'utilisation, utilisez le simulateur de coût.
+
+Exemple 4 : Fonction sans serveur : FaaS léger pour redimensionner les images lors de l'importation
+
+Supposons que vous avez déployé un service Cloud Run avec une facturation basée sur les requêtes dans la région europe-west1 (Belgique) pour exécuter du code déclenché par des événements (par exemple, l'importation de fichiers ou une requête HTTP). Votre service reçoit 10 millions de requêtes par mois, avec une latence moyenne par requête de 200 millisecondes. Ce service est configuré avec 0,167 vCPU, 256 Mio de mémoire et un maximum de requêtes simultanées par instance. 
+
+Le coût mensuel estimé pour cette charge de travail est de 7,25 $. Sans le niveau sans frais pour les vCPU et la mémoire, le coût serait de 12,47 $.
+
+Pour comprendre ces calculs en détail et ajuster les paramètres et les estimations d'utilisation, utilisez le simulateur de coût.
+
+Exemple 5 : Traitement des jobs par lot – Transformations de données planifiées à grande échelle
+
+Supposons que vous ayez déployé un job Cloud Run dans la région europe-west1 (Belgique) pour traiter des transformations de données planifiées à grande échelle (par exemple, des rapports). Votre job est lancé une fois par heure (730 fois par mois), et chaque exécution dure une minute. Ce job est configuré avec 1 vCPU, 512 Mio de mémoire et une tâche par exécution. 
+
+Le coût mensuel estimé pour cette charge de travail est de 0,00 $. Sans le niveau sans frais pour les vCPU et la mémoire, le coût serait de 0,45 $.
+
+Pour comprendre ces calculs en détail et ajuster les paramètres et les estimations d'utilisation, utilisez le simulateur de coût.
+
+Exemple 6 : Worker en arrière-plan – Déchargement asynchrone des opérations intensives
+
+Supposons que vous avez déployé un pool de nœuds de calcul Cloud Run dans europe-west1 (Belgique) pour décharger les tâches de longue durée ou lourdes (par exemple, l'envoi d'e-mails en masse ou le traitement de vidéos) afin de maintenir la réactivité de l'application principale. Votre pool de nœuds de calcul est configuré pour exécuter une seule instance pendant un mois entier. Ce pool de nœuds de calcul est configuré avec 1 vCPU et 512 Mio de mémoire. 
+
+Le coût mensuel estimé pour cette charge de travail est de 11,61 $. Sans le niveau sans frais pour les vCPU et la mémoire, le coût serait de 16,83 $.
+
+Pour comprendre ces calculs en détail et ajuster les paramètres et les estimations d'utilisation, utilisez le simulateur de coût.
+
+Déploiements et fonctions de la source
+
+Les déploiements Cloud Run à partir de la source et les fonctions fonctionnent comme des services Cloud Run et sont facturés en conséquence selon les conditions ci-dessus.
+
+Lorsque vous déployez à partir de la source ou que vous créez une fonction, Cloud Run utilise Cloud Build pour convertir votre code source ou votre fonction en image exécutable. Les images sont créées dans Cloud Build et stockées dans Artifact Registry. Artifact Registry dispose de son propre niveau de stockage sans frais. Si vous déployez votre code source ou votre fonction dans Artifact Registry et que vous dépassez la limite d'utilisation du niveau sans frais d'Artifact Registry, des frais vous seront facturés pour le déploiement de vos fonctions, même si votre utilisation de Cloud Run reste dans les limites du niveau sans frais.
+
+Les tarifs de Cloud Build et d'Artifact Registry ne sont pas inclus dans les tarifs de Cloud Run. Pour consulter les tarifs de ces services, accédez aux pages Tarifs de Cloud Build et Tarifs d'Artifact Registry.
+
+Cloud Run utilise Eventarc pour la diffusion d'événements. Les tarifs d'Eventarc ne sont pas inclus dans les tarifs de Cloud Run ci-dessus. Consultez les tarifs sur la page Tarifs d'Eventarc.
+
+Les tarifs des fonctions Cloud Run (1re génération) ne sont pas inclus dans les tarifs de Cloud Run. Consultez les tarifs de Cloud Run Functions (1re génération).
+
+Étapes suivantes
+Consultez la documentation Cloud Run.
+Lancez-vous avec Cloud Run.
+Essayez le simulateur de coût.
+Découvrez les solutions et cas d'utilisation de Cloud Run.
+Demander un devis personnalisé
+Avec le paiement à l'usage de Google Cloud, vous ne payez que pour les services que vous utilisez. Contactez notre équipe commerciale pour obtenir un devis personnalisé pour votre entreprise.
+Contacter le service commercial
+Présentation
+Solutions
+Produits
+Tarification
+Ressources
+
+Documentation
+Assistance
+Se connecter
+Pourquoi choisir Google
+Choisir Google Cloud
+Confiance et sécurité
+Cloud d'infrastructure moderne
+Multicloud
+Infrastructure mondiale
+Lieux
+Clients et études de cas
+Rapports d'analystes
+Livres blancs
+Blog
+Produits et tarifs
+Tarifs de Google Cloud
+Tarifs de Google Workspace
+Voir tous les produits
+Solutions
+Modernisation de l'infrastructure
+Bases de données
+Modernisation des applications
+Analyses intelligentes
+Intelligence artificielle
+Sécurité
+Productivité et transformation du travail
+Solutions par secteur d'activité
+Solutions DevOps
+Solutions pour les PME
+Voir toutes les solutions
+Ressources
+Programme d'affiliation Google Cloud
+Documentation Google Cloud
+Guides de démarrage rapide Google Cloud
+Google Cloud Marketplace
+En savoir plus sur le cloud computing
+Assistance
+Exemples de code
+Centre d'architecture cloud
+Formations
+Builders Hub
+Certifications
+Google Developers
+Google Cloud for Startups
+État du système
+Notes de version
+Échanger
+Contacter le service commercial
+Trouver un partenaire
+Devenir partenaire
+Événements
+Podcasts
+Developer Center
+Coin Presse
+Google Cloud sur YouTube
+Google Cloud Tech sur YouTube
+Nous suivre sur Twitter
+Participer à des études sur l'expérience utilisateur
+Offres d'emploi Google Cloud
+Communauté Google Cloud
+À propos de Google
+Règles de confidentialité
+Conditions d'utilisation du site
+Conditions d'utilisation de Google Cloud
+Troisième décennie d'action pour le climat : rejoignez-nous
+S'abonner à la newsletter Google Cloud
+S'abonner
+language
+‪Français‬

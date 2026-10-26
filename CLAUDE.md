@@ -26,7 +26,7 @@ Et une règle d'exploitation : **automatisation maximale**. Pas de validation ma
 
 ## Stack
 - Front : Next.js (App Router), React, TypeScript strict
-- Données : Zod (`packages/schema`) comme source de vérité des types ; Supabase Postgres pour les mesures publiées
+- Données : Zod (`packages/schema`) comme source de vérité des types ; mesures publiées en JSON statique livré avec le site ; archives brutes des programmes dans Supabase Storage
 - Extraction : Vercel AI SDK, sorties structurées validées par Zod
 - Calcul : service Python OpenFisca (`calc/`) + formules TypeScript de la liste blanche
 - Pipeline : GitHub Actions (cron hebdo, quotidien les 6 dernières semaines avant le 1er tour)

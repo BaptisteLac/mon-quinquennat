@@ -7,15 +7,17 @@ sur les années utilisées par les ressources des prestations (N-2 à N).
 from dataclasses import dataclass, field
 from datetime import date
 
-from .profile import ComplementCalcul, Profile
+import csv
+import importlib.resources
+from functools import lru_cache
+
+from .profile import Profile
 
 REFERENCE_DATE = date(2026, 10, 1)
 """Mois de calcul des prestations (et 1er jour pour les âges)."""
 YEARS = ("2024", "2025", "2026")
 """Années renseignées : ressources N-2 (CSG des retraites, aides) à N."""
 
-# Milieu de tranche quand l'âge exact n'est pas connu.
-BAND_AGE = {"0_2": 1, "3_10": 6, "11_17": 14, "18_25": 19}
 # Zone APL déduite du lieu de vie, faute de commune.
 ZONE_FROM_LIEU = {
     "grande_ville": "zone_2",
@@ -43,10 +45,27 @@ ACTIVITE = {
 }
 # Cases de la déclaration 2042-C-PRO (régime micro, sans versement libératoire).
 MICRO_CA = {
-    "bic_vente": "mbic_impv",
-    "bic_services": "mbic_imps",
-    "bnc": "mbnc_impo",
+    "vente": "mbic_impv",
+    "services": "mbic_imps",
+    "liberale": "mbnc_impo",
 }
+# Arrondissements municipaux → commune (le zonage ne connaît que la commune).
+ARRONDISSEMENTS = (("751", "75056"), ("6938", "69123"), ("132", "13055"))
+
+
+@lru_cache(maxsize=1)
+def zonage_communes() -> frozenset[str]:
+    """Codes INSEE présents dans le zonage APL embarqué par OpenFisca-France."""
+    path = importlib.resources.files("openfisca_france").joinpath("assets/apl/20110914_zonage.csv")
+    with path.open(encoding="utf-8") as f:
+        return frozenset(row["CODGEO"] for row in csv.DictReader(f))
+
+
+def commune_zonage(code: str) -> str:
+    for prefix, commune in ARRONDISSEMENTS:
+        if code.startswith(prefix) and code != commune:
+            return commune
+    return code
 
 
 @dataclass(frozen=True)
@@ -77,18 +96,28 @@ def gross_variable(situation_pro: str) -> tuple[str, str] | None:
     }.get(situation_pro)
 
 
+def conjoint_situation(profile: Profile) -> str:
+    """Situation du conjoint ; s'il manque, salarié du privé s'il a un revenu (hypothèse signalée)."""
+    if profile.situationProConjoint is not None:
+        return profile.situationProConjoint
+    return "salarie_prive" if (profile.revenusConjointNetsMensuels or 0) > 0 else "sans_activite"
+
+
 def adults_of(profile: Profile) -> list[Adult]:
     net = profile.pensionMensuelle if profile.situationPro == "retraite" and profile.pensionMensuelle is not None else profile.revenusNetsMensuels
     adults = [Adult("demandeur", profile.situationPro, net)]
     if profile.situationFamiliale != "seul":
-        # Le profil ne demande pas la situation du conjoint : salarié du privé s'il a un revenu.
-        conj = profile.revenusConjointNetsMensuels or 0.0
-        adults.append(Adult("conjoint", "salarie_prive" if conj > 0 else "sans_activite", conj))
+        adults.append(Adult("conjoint", conjoint_situation(profile), profile.revenusConjointNetsMensuels or 0.0))
     return adults
 
 
 def birth_date(age: int) -> str:
     return date(REFERENCE_DATE.year - age, REFERENCE_DATE.month, 1).isoformat()
+
+
+def child_birth_date(year: int) -> str:
+    """Seule l'année est demandée : naissance supposée au 1er juillet."""
+    return date(year, 7, 1).isoformat()
 
 
 RFR_INPUT_YEARS = ("2023", "2024")
@@ -99,7 +128,6 @@ OpenFisca, il crée une chaîne N → N-2 → N-4… qui renvoie 0 (boucle déte
 
 def build(
     profile: Profile,
-    extra: ComplementCalcul,
     bruts: dict[str, float],
     rfr: dict[str, float] | None = None,
 ) -> Built:
@@ -122,10 +150,12 @@ def build(
                 ind["categorie_salarie"] = {y: "prive_non_cadre" for y in YEARS}
             if profile.tempsPartiel and a.id == "demandeur":
                 ind["contrat_de_travail"] = {y: "temps_partiel" for y in YEARS}
-        if a.situation_pro == "independant" and a.id == "demandeur":
-            if extra.chiffreAffairesAnnuel is None or extra.activiteMicro is None:
-                raise ValueError("Indépendant : chiffre d'affaires et type d'activité nécessaires (ComplementCalcul).")
-            ind[MICRO_CA[extra.activiteMicro]] = {y: extra.chiffreAffairesAnnuel for y in YEARS}
+        if a.situation_pro == "independant":
+            ent = profile.entreprise if a.id == "demandeur" else None
+            if ent is None or ent.statut != "micro" or ent.chiffreAffairesAnnuel is None or ent.activite is None:
+                who = "Indépendant" if a.id == "demandeur" else "Conjoint indépendant"
+                raise ValueError(f"{who} : seule la micro-entreprise est couverte, avec chiffre d'affaires et type d'activité.")
+            ind[MICRO_CA[ent.activite]] = {y: ent.chiffreAffairesAnnuel for y in YEARS}
         individus[a.id] = ind
     if profile.handicapOuAidant in (None, "non"):
         # Sans handicap déclaré, pas d'allocation aux adultes handicapés : on la fixe à 0 plutôt que
@@ -133,20 +163,17 @@ def build(
         for a in adults:
             individus[a.id]["aah"] = {y: 0.0 for y in YEARS}
     if profile.situationFamiliale != "seul":
-        hyp.append("Conjoint du même âge, salarié du privé s'il a un revenu.")
+        hyp.append("Conjoint du même âge que toi.")
+        if profile.situationProConjoint is None:
+            hyp.append("Situation du conjoint non renseignée : salarié du privé s'il a un revenu.")
 
-    ages = extra.agesEnfants
-    if ages is None:
-        ages = [BAND_AGE[e.ageBand] for e in profile.enfants]
-        if profile.enfants:
-            hyp.append("Âge des enfants pris au milieu de leur tranche (≈).")
-    elif len(ages) != len(profile.enfants):
-        raise ValueError("agesEnfants doit avoir un âge par enfant.")
     enfants = []
-    for i, age in enumerate(ages):
+    for i, e in enumerate(profile.enfants):
         eid = f"enfant{i + 1}"
-        individus[eid] = {"date_naissance": {"ETERNITY": birth_date(age)}}
+        individus[eid] = {"date_naissance": {"ETERNITY": child_birth_date(e.anneeNaissance)}}
         enfants.append(eid)
+    if enfants:
+        hyp.append("Enfants nés le 1er juillet de leur année de naissance (≈).")
 
     parents = [a.id for a in adults]
     if profile.situationFamiliale == "marie_pacse":
@@ -171,20 +198,23 @@ def build(
         if rfr is not None:
             foyer["rfr"] = {y: rfr.get(fid, 0.0) for y in RFR_INPUT_YEARS}
 
-    zone = extra.zoneApl
-    if zone is None:
-        zone = ZONE_FROM_LIEU[profile.lieuDeVie]
-        hyp.append(f"Zone des aides au logement déduite du lieu de vie : {zone} (≈).")
     menage: dict = {
         "personne_de_reference": ["demandeur"],
         "enfants": enfants,
         "statut_occupation_logement": {y: LOGEMENT[profile.logement] for y in YEARS},
-        "zone_apl": {y: zone for y in YEARS},
     }
+    commune = commune_zonage(profile.codeCommune) if profile.codeCommune else None
+    if commune is not None and commune in zonage_communes():
+        menage["depcom"] = {y: commune for y in YEARS}  # OpenFisca en déduit la zone APL
+    else:
+        zone = ZONE_FROM_LIEU[profile.lieuDeVie]
+        menage["zone_apl"] = {y: zone for y in YEARS}
+        reason = "commune absente du zonage d'OpenFisca (2011)" if commune else "commune non renseignée"
+        hyp.append(f"Zone des aides au logement déduite du lieu de vie, {reason} : {zone} (≈).")
     if "conjoint" in parents:
         menage["conjoint"] = ["conjoint"]
-    if profile.logement in ("locataire_prive", "locataire_hlm") and extra.loyerMensuel is not None:
-        menage["loyer"] = {y: 12 * extra.loyerMensuel for y in YEARS}
+    if profile.logement in ("locataire_prive", "locataire_hlm") and profile.loyerMensuel is not None:
+        menage["loyer"] = {y: 12 * profile.loyerMensuel for y in YEARS}
 
     situation = {
         "individus": individus,

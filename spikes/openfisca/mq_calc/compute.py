@@ -14,7 +14,7 @@ from openfisca_core.simulation_builder import SimulationBuilder
 from openfisca_core.taxbenefitsystems import TaxBenefitSystem
 from openfisca_france import FranceTaxBenefitSystem
 
-from .profile import ComplementCalcul, Profile
+from .profile import Profile
 from .situation import REFERENCE_DATE, adults_of, build, gross_variable
 
 # OpenFisca met en cache les paramètres de chaque date avec `functools.lru_cache` (128 entrées),
@@ -27,7 +27,7 @@ TaxBenefitSystem.get_parameters_at_instant = functools.lru_cache(maxsize=None)( 
 
 MONTH = REFERENCE_DATE.strftime("%Y-%m")
 TAX_YEAR = "2025"
-AMOUNTS = ("impot_revenu", "prime_activite", "aides_logement", "allocations_familiales")
+AMOUNTS = ("impot_revenu", "prime_activite", "aides_logement", "allocations_familiales", "minimum_vieillesse")
 
 
 @lru_cache(maxsize=1)
@@ -63,7 +63,7 @@ def _close(a: dict[str, float], b: dict[str, float], tol: float = 0.5) -> bool:
     return a.keys() == b.keys() and all(abs(a[k] - b[k]) <= tol for k in a)
 
 
-def solve_inputs(profile: Profile, extra: ComplementCalcul, max_iterations: int = 20) -> Inputs:
+def solve_inputs(profile: Profile, max_iterations: int = 20) -> Inputs:
     """Point fixe : brut ← brut × net cible / net calculé, et RFR(N-2) ← RFR calculé de 2025.
 
     Près d'un seuil de CSG des revenus de remplacement, il peut n'exister aucun point fixe : le taux
@@ -77,7 +77,7 @@ def solve_inputs(profile: Profile, extra: ComplementCalcul, max_iterations: int 
     frozen = False
     hyp: list[str] = []
     for _ in range(max_iterations):
-        sim = _simulate(baseline(), build(profile, extra, bruts, rfr).situation)
+        sim = _simulate(baseline(), build(profile, bruts, rfr).situation)
         ids = sim.populations["individu"].ids
         done = True
         for k in list(bruts):
@@ -106,15 +106,14 @@ def solve_inputs(profile: Profile, extra: ComplementCalcul, max_iterations: int 
 
 def compute(
     profile: Profile,
-    extra: ComplementCalcul,
     tbs: TaxBenefitSystem | None = None,
     inputs: Inputs | None = None,
     outputs: frozenset[str] | None = None,
 ) -> Result:
     """Montants du profil ; `outputs` limite le calcul à certains montants (les autres valent None)."""
     if inputs is None:
-        inputs = solve_inputs(profile, extra)
-    built = build(profile, extra, inputs.bruts, inputs.rfr)
+        inputs = solve_inputs(profile)
+    built = build(profile, inputs.bruts, inputs.rfr)
     sim = _simulate(tbs or baseline(), built.situation)
     missing: dict[str, str] = {}
 
@@ -125,11 +124,14 @@ def compute(
         amounts["impot_revenu"] = round(-float(sim.calculate("impot_revenu_restant_a_payer", TAX_YEAR).sum()) / 12, 2) + 0.0
     if "prime_activite" in want:
         amounts["prime_activite"] = round(float(sim.calculate("ppa", MONTH)[0]), 2)
+    if "minimum_vieillesse" in want:
+        amounts["minimum_vieillesse"] = round(float(sim.calculate("aspa", MONTH)[0]), 2)
     if "allocations_familiales" in want:
-        amounts["allocations_familiales"] = round(float(sim.calculate("af", MONTH)[0]), 2)
+        # Montant versé : net de CRDS (`crds_af` est négatif), comme sur service-public.fr.
+        amounts["allocations_familiales"] = round(float(sim.calculate("af", MONTH)[0] + sim.calculate("crds_af", MONTH)[0]), 2)
     if "aides_logement" in want:
-        if profile.logement in ("locataire_prive", "locataire_hlm") and extra.loyerMensuel is None:
-            missing["aides_logement"] = "Loyer inconnu : le profil ne le demande pas."
+        if profile.logement in ("locataire_prive", "locataire_hlm") and profile.loyerMensuel is None:
+            missing["aides_logement"] = "Loyer non renseigné."
         else:
             amounts["aides_logement"] = round(float(sim.calculate("aide_logement", MONTH)[0]), 2)
     return Result(amounts, missing, inputs.hypotheses + tuple(built.hypotheses), inputs)
@@ -143,20 +145,20 @@ class Candidate:
     """Montants que ses réformes peuvent modifier (`reforms.affected_outputs`)."""
 
 
-def compute_all(profile: Profile, extra: ComplementCalcul, candidates: list[Candidate]) -> dict[str, Result]:
+def compute_all(profile: Profile, candidates: list[Candidate]) -> dict[str, Result]:
     """Un appel d'API : législation actuelle + tous les candidats, pour un profil.
 
     Chaque candidat ne recalcule que les montants que ses réformes touchent ; les autres sont ceux de
     la législation actuelle.
     """
-    inputs = solve_inputs(profile, extra)
-    base = compute(profile, extra, None, inputs)
+    inputs = solve_inputs(profile)
+    base = compute(profile, None, inputs)
     results = {"actuel": base}
     for c in candidates:
         if not c.outputs:
             results[c.id] = base
             continue
-        r = compute(profile, extra, c.tbs, inputs, c.outputs)
+        r = compute(profile, c.tbs, inputs, c.outputs)
         merged = {k: (r.amounts[k] if k in c.outputs else base.amounts[k]) for k in AMOUNTS}
         results[c.id] = Result(merged, {**base.missing, **r.missing}, base.hypotheses, inputs)
     return results

@@ -337,13 +337,57 @@
           "ticketLine": "pension",
           "section": "portefeuille",
           "appliesTo": {
-            "field": "age",
-            "op": "gte",
-            "value": 65
+            "all": [
+              {
+                "field": "age",
+                "op": "gte",
+                "value": 65
+              },
+              {
+                "field": "situationFamiliale",
+                "op": "eq",
+                "value": "seul"
+              }
+            ]
+          },
+          "computation": {
+            "kind": "bareme",
+            "reform": [
+              {
+                "parameter": "minimum_vieillesse_personne_seule_mensuel",
+                "value": 1000,
+                "from": "2028-01-01"
+              }
+            ]
           },
           "sentence": {
-            "simple": "Une pension de base pour tous dès 65 ans, avec un minimum vieillesse de 1 000 € par mois.",
-            "normal": "Un socle de pension par répartition serait versé sans condition dès 65 ans, complété par un minimum vieillesse de 1 000 € par mois."
+            "simple": "Le minimum vieillesse d'une personne seule serait fixé à 1 000 € par mois.",
+            "normal": "Un socle de pension par répartition serait versé sans condition dès 65 ans, complété par un minimum vieillesse de 1 000 € par mois ; calcul fait pour une personne seule."
+          }
+        },
+        {
+          "ticketLine": "pension",
+          "section": "portefeuille",
+          "appliesTo": {
+            "all": [
+              {
+                "field": "age",
+                "op": "gte",
+                "value": 65
+              },
+              {
+                "field": "situationFamiliale",
+                "op": "in",
+                "value": [
+                  "marie_pacse",
+                  "couple_non_marie"
+                ]
+              }
+            ]
+          },
+          "sentence": {
+            "simple": "Le programme fixe le minimum vieillesse à 1 000 € par mois, sans préciser le montant pour un couple.",
+            "normal": "Un minimum vieillesse de 1 000 € par mois est annoncé ; le montant pour un couple n'est pas précisé, l'effet n'est donc pas calculé."
           }
         }
       ]
@@ -466,6 +510,16 @@
           "sentence": {
             "simple": "Le plafond de l'avantage fiscal lié aux enfants serait supprimé.",
             "normal": "Le quotient familial serait déplafonné : l'avantage d'impôt lié aux enfants ne serait plus limité par un plafond."
+          },
+          "computation": {
+            "kind": "bareme",
+            "reform": [
+              {
+                "parameter": "quotient_familial_sans_plafond",
+                "value": null,
+                "from": "2028-01-01"
+              }
+            ]
           }
         }
       ]

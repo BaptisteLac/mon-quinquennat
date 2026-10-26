@@ -1,5 +1,5 @@
 {
-  "description": "Profils de référence du test n°2. Les profils sont fictifs (choisis pour couvrir des cas variés). Les montants attendus doivent être relevés sur les simulateurs officiels ; tant qu'ils ne le sont pas, ils valent null et la source vaut a_caler_pendant_le_test.",
+  "description": "Profils de référence du test n°2. Les profils sont fictifs (choisis pour couvrir des cas variés). Chaque montant attendu est relevé sur une source officielle (simulateur ou barème publié), avec sa source ; tant qu'il ne l'est pas, il vaut null et la source vaut a_caler_pendant_le_test.",
   "mois": "2026-10",
   "anneeRevenus": "2025",
   "profiles": [
@@ -7,88 +7,203 @@
       "id": "celibataire-smic-locataire",
       "libelle": "Célibataire, salariée à temps plein près du SMIC, locataire du privé",
       "profile": {
-        "age": 30, "genre": "femme", "situationFamiliale": "seul", "enfants": [],
-        "situationPro": "salarie_prive", "tempsPartiel": false, "revenusNetsMensuels": 1450,
-        "logement": "locataire_prive", "lieuDeVie": "grande_ville", "mobilite": "transports"
+        "age": 30,
+        "genre": "femme",
+        "situationFamiliale": "seul",
+        "enfants": [],
+        "situationPro": "salarie_prive",
+        "tempsPartiel": false,
+        "revenusNetsMensuels": 1450,
+        "logement": "locataire_prive",
+        "lieuDeVie": "grande_ville",
+        "mobilite": "transports",
+        "codeCommune": "69123",
+        "loyerMensuel": 550
       },
-      "complement": { "loyerMensuel": 550, "zoneApl": "zone_2" },
-      "commune": "Lyon (69003)",
+      "commune": "Lyon (code INSEE 69123)",
       "attendu": {
-        "impot_revenu": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "prime_activite": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "aides_logement": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "allocations_familiales": { "montant": null, "source": "a_caler_pendant_le_test" }
+        "impot_revenu": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "prime_activite": {
+          "montant": 234,
+          "source": "Simulateur prime d'activité de la CAF (wwwd.caf.fr/wps/portal/caffr/simulateurpa), rempli automatiquement depuis GitHub Actions le 2026-10-26 (run 40307820043) : « le montant de votre Prime d'activité est estimé à : 234 € / mois ». Saisie : seul, sans enfant, locataire, aucune aide au logement, salariée, 1 450 € net social par mois sur les 3 derniers mois. Preuve : profiles/preuves/celibataire-smic-locataire-prime-activite-caf.{txt,png}"
+        },
+        "aides_logement": {
+          "montant": 0,
+          "source": "Simulateur des aides au logement de la CAF (caf.fr, « Faire une simulation > Le logement »), rempli automatiquement depuis GitHub Actions le 2026-10-26 (run 40314324971) : « Selon les informations fournies, vous ne pouvez pas bénéficier de l'aide au logement ». Saisie : 69003 Lyon, appartement en location non meublée, loyer 550 € hors charges, seule, sans enfant, 18 026 € de salaires nets imposables sur les 12 derniers mois (salaire imposable calculé par OpenFisca pour 1 450 € net par mois), « dans une autre situation ». Preuve : profiles/preuves/celibataire-smic-locataire-aides-logement-caf.{txt,png}"
+        },
+        "allocations_familiales": {
+          "montant": 0,
+          "source": "service-public.gouv.fr, fiche F13213 « Allocations familiales (famille de 2 enfants ou plus) », vérifiée le 01 juin 2026 : https://www.service-public.gouv.fr/particuliers/vosdroits/F13213 — « versées aux personnes ayant au moins 2 enfants de moins de 20 ans à charge »"
+        }
       }
     },
     {
       "id": "couple-2-enfants-proprietaires",
       "libelle": "Couple marié, deux enfants de 6 et 9 ans, revenus moyens, propriétaires avec crédit",
       "profile": {
-        "age": 40, "genre": "homme", "situationFamiliale": "marie_pacse",
-        "enfants": [{ "ageBand": "3_10" }, { "ageBand": "3_10" }],
-        "situationPro": "salarie_prive", "revenusNetsMensuels": 2400, "revenusConjointNetsMensuels": 1900,
-        "logement": "proprio_credit", "lieuDeVie": "peripherie", "mobilite": "voiture_thermique"
+        "age": 40,
+        "genre": "homme",
+        "situationFamiliale": "marie_pacse",
+        "enfants": [
+          {
+            "anneeNaissance": 2020
+          },
+          {
+            "anneeNaissance": 2017
+          }
+        ],
+        "situationPro": "salarie_prive",
+        "revenusNetsMensuels": 2400,
+        "revenusConjointNetsMensuels": 1900,
+        "logement": "proprio_credit",
+        "lieuDeVie": "peripherie",
+        "mobilite": "voiture_thermique",
+        "codeCommune": "44143",
+        "situationProConjoint": "salarie_prive"
       },
-      "complement": { "agesEnfants": [6, 9], "zoneApl": "zone_2" },
-      "commune": "Rezé (44400)",
+      "commune": "Rezé (code INSEE 44143)",
       "attendu": {
-        "impot_revenu": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "prime_activite": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "aides_logement": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "allocations_familiales": { "montant": null, "source": "a_caler_pendant_le_test" }
+        "impot_revenu": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "prime_activite": {
+          "montant": 0,
+          "source": "Simulateur prime d'activité de la CAF (wwwd.caf.fr/wps/portal/caffr/simulateurpa), rempli automatiquement depuis GitHub Actions le 2026-10-26 (run 40311752976) : « vous n'auriez pas droit à cette prestation. Les ressources de votre foyer ne vous permettent pas de bénéficier de la Prime d'activité ». Saisie : en couple, deux enfants nés en 2020 et 2017, propriétaires, salarié à 2 400 € net social par mois, conjoint salarié à 1 900 € (né la même année, comme l'hypothèse du calcul), 152 € de prestations familiales par mois. Preuve : profiles/preuves/couple-2-enfants-proprietaires-prime-activite-caf.{txt,png}"
+        },
+        "aides_logement": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "allocations_familiales": {
+          "montant": 152.25,
+          "source": "service-public.gouv.fr, fiche F13213 « Allocations familiales (famille de 2 enfants ou plus) », vérifiée le 01 juin 2026 : https://www.service-public.gouv.fr/particuliers/vosdroits/F13213 — 2 enfants, ressources inférieures ou égales à 79 980 € : « 152,25 € »"
+        }
       }
     },
     {
       "id": "parent-isole-2-enfants-hlm",
       "libelle": "Parent isolé, deux enfants de 4 et 12 ans, salariée, locataire HLM",
       "profile": {
-        "age": 36, "genre": "femme", "situationFamiliale": "seul",
-        "enfants": [{ "ageBand": "3_10" }, { "ageBand": "11_17" }],
-        "situationPro": "salarie_prive", "revenusNetsMensuels": 1700,
-        "logement": "locataire_hlm", "lieuDeVie": "ville_moyenne", "mobilite": "voiture_thermique"
+        "age": 36,
+        "genre": "femme",
+        "situationFamiliale": "seul",
+        "enfants": [
+          {
+            "anneeNaissance": 2022
+          },
+          {
+            "anneeNaissance": 2014
+          }
+        ],
+        "situationPro": "salarie_prive",
+        "revenusNetsMensuels": 1700,
+        "logement": "locataire_hlm",
+        "lieuDeVie": "ville_moyenne",
+        "mobilite": "voiture_thermique",
+        "codeCommune": "36044",
+        "loyerMensuel": 450
       },
-      "complement": { "loyerMensuel": 450, "zoneApl": "zone_3", "agesEnfants": [4, 12] },
-      "commune": "Châteauroux (36000)",
+      "commune": "Châteauroux (code INSEE 36044)",
       "attendu": {
-        "impot_revenu": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "prime_activite": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "aides_logement": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "allocations_familiales": { "montant": null, "source": "a_caler_pendant_le_test" }
+        "impot_revenu": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "prime_activite": {
+          "montant": 183,
+          "source": "Simulateur prime d'activité de la CAF (wwwd.caf.fr/wps/portal/caffr/simulateurpa), rempli automatiquement depuis GitHub Actions le 2026-10-26 (run 40311752976) : « le montant de votre Prime d'activité est estimé à : 183 € / mois ». Saisie : seule, deux enfants nés en 2022 et 2014, locataire, 155 € d'aide au logement par mois, salariée à 1 700 € net social par mois, 368 € de prestations familiales par mois = allocations familiales (153,01 €) + allocation de soutien familial forfaitisée comme le prévoit l'article R844-4 du code de la sécurité sociale (215,17 €), mêmes ressources que le calcul OpenFisca (hypothèse « sans pension alimentaire »). Preuve : profiles/preuves/parent-isole-2-enfants-hlm-prime-activite-caf.{txt,png}"
+        },
+        "aides_logement": {
+          "montant": 204,
+          "variableOpenFisca": "aide_logement_montant_brut",
+          "source": "Simulateur des aides au logement de la CAF (caf.fr, « Faire une simulation > Le logement »), rempli automatiquement depuis GitHub Actions le 2026-10-26 (run 40315651977) : « Selon les informations fournies, vous pouvez recevoir : 204 € par mois ». Saisie : 36000 Châteauroux, appartement en location non meublée, loyer 450 € hors charges, seule, deux enfants de moins de 21 ans sans revenus, 21 134 € de salaires nets imposables sur les 12 derniers mois (salaire imposable calculé par OpenFisca pour 1 700 € net par mois), « dans une autre situation ». Le simulateur « ne tient pas compte […] de la Réduction de Loyer de Solidarité (RLS) » (page d'accueil du simulateur) : on le compare donc au montant avant RLS (`aide_logement_montant_brut`). Le montant affiché au profil, en HLM, est celui après RLS (`aide_logement`). Preuve : profiles/preuves/parent-isole-2-enfants-hlm-aides-logement-caf.{txt,png}"
+        },
+        "allocations_familiales": {
+          "montant": 152.25,
+          "source": "service-public.gouv.fr, fiche F13213 « Allocations familiales (famille de 2 enfants ou plus) », vérifiée le 01 juin 2026 : https://www.service-public.gouv.fr/particuliers/vosdroits/F13213 — 2 enfants, ressources inférieures ou égales à 79 980 € : « 152,25 € »"
+        }
       }
     },
     {
       "id": "retraite-seul-proprietaire",
       "libelle": "Retraité seul, 72 ans, pension nette de 1 600 €, propriétaire sans crédit",
       "profile": {
-        "age": 72, "genre": "homme", "situationFamiliale": "seul", "enfants": [],
-        "situationPro": "retraite", "revenusNetsMensuels": 0, "pensionMensuelle": 1600,
-        "logement": "proprio_sans_credit", "lieuDeVie": "rural", "mobilite": "voiture_thermique"
+        "age": 72,
+        "genre": "homme",
+        "situationFamiliale": "seul",
+        "enfants": [],
+        "situationPro": "retraite",
+        "revenusNetsMensuels": 0,
+        "pensionMensuelle": 1600,
+        "logement": "proprio_sans_credit",
+        "lieuDeVie": "rural",
+        "mobilite": "voiture_thermique",
+        "codeCommune": "18197"
       },
-      "complement": { "zoneApl": "zone_3" },
-      "commune": "Saint-Amand-Montrond (18200)",
+      "commune": "Saint-Amand-Montrond (code INSEE 18197)",
       "attendu": {
-        "impot_revenu": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "prime_activite": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "aides_logement": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "allocations_familiales": { "montant": null, "source": "a_caler_pendant_le_test" }
+        "impot_revenu": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "prime_activite": {
+          "montant": 0,
+          "source": "Simulateur prime d'activité de la CAF, rempli automatiquement depuis GitHub Actions le 2026-10-26 (run 40308340394) : « vous n'auriez pas droit à cette prestation » (pas de revenus d'activité). Preuve : profiles/preuves/retraite-seul-proprietaire-prime-activite-caf.{txt,png}"
+        },
+        "aides_logement": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "allocations_familiales": {
+          "montant": 0,
+          "source": "service-public.gouv.fr, fiche F13213 « Allocations familiales (famille de 2 enfants ou plus) », vérifiée le 01 juin 2026 : https://www.service-public.gouv.fr/particuliers/vosdroits/F13213 — « versées aux personnes ayant au moins 2 enfants de moins de 20 ans à charge »"
+        }
       }
     },
     {
       "id": "independant-micro-bnc",
       "libelle": "Indépendant en micro-entreprise (activité libérale), 36 000 € de recettes par an, locataire",
       "profile": {
-        "age": 35, "genre": "homme", "situationFamiliale": "seul", "enfants": [],
-        "situationPro": "independant", "revenusNetsMensuels": 2000,
-        "entreprise": { "statut": "micro", "salaries": "0" },
-        "logement": "locataire_prive", "lieuDeVie": "grande_ville", "mobilite": "velo_pied"
+        "age": 35,
+        "genre": "homme",
+        "situationFamiliale": "seul",
+        "enfants": [],
+        "situationPro": "independant",
+        "revenusNetsMensuels": 2000,
+        "entreprise": {
+          "statut": "micro",
+          "salaries": "0",
+          "chiffreAffairesAnnuel": 36000,
+          "activite": "liberale"
+        },
+        "logement": "locataire_prive",
+        "lieuDeVie": "grande_ville",
+        "mobilite": "velo_pied",
+        "codeCommune": "75056",
+        "loyerMensuel": 800
       },
-      "complement": { "loyerMensuel": 800, "zoneApl": "zone_1", "chiffreAffairesAnnuel": 36000, "activiteMicro": "bnc" },
-      "commune": "Paris (75011)",
+      "commune": "Paris (code INSEE 75056)",
       "attendu": {
-        "impot_revenu": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "prime_activite": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "aides_logement": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "allocations_familiales": { "montant": null, "source": "a_caler_pendant_le_test" }
+        "impot_revenu": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "prime_activite": {
+          "montant": 83,
+          "source": "Simulateur prime d'activité de la CAF (wwwd.caf.fr/wps/portal/caffr/simulateurpa), rempli automatiquement depuis GitHub Actions le 2026-10-26 (run 40310019775) : « le montant de votre Prime d'activité est estimé à : 83 € / mois ». Saisie : seul, sans enfant, locataire, aucune aide au logement (OpenFisca n'en calcule pas pour ce profil), auto-entrepreneur, profession libérale, 3 000 € de chiffre d'affaires brut par mois sur les 3 derniers mois, aucun salaire. Preuve : profiles/preuves/independant-micro-bnc-prime-activite-caf.{txt,png}"
+        },
+        "aides_logement": {
+          "montant": 0,
+          "source": "Simulateur des aides au logement de la CAF (caf.fr, « Faire une simulation > Le logement »), rempli automatiquement depuis GitHub Actions le 2026-10-26 (run 40314324971) : « Selon les informations fournies, vous ne pouvez pas bénéficier de l'aide au logement ». Saisie : 75011 Paris, appartement en location non meublée, loyer 800 € hors charges, seul, sans enfant, 23 760 € de revenu de travailleur indépendant (36 000 € de chiffre d'affaires moins l'abattement de 34 % des professions libérales, comme le demande le simulateur), « dans une autre situation ». Preuve : profiles/preuves/independant-micro-bnc-aides-logement-caf.{txt,png}"
+        },
+        "allocations_familiales": {
+          "montant": 0,
+          "source": "service-public.gouv.fr, fiche F13213 « Allocations familiales (famille de 2 enfants ou plus) », vérifiée le 01 juin 2026 : https://www.service-public.gouv.fr/particuliers/vosdroits/F13213 — « versées aux personnes ayant au moins 2 enfants de moins de 20 ans à charge »"
+        }
       }
     }
   ]
