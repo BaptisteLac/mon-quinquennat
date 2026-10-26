@@ -1,15 +1,14 @@
-"""Récupère les sources M de la DGFiP (dépôt ir-calcul) depuis l'archive Software Heritage.
+"""Récupère un dossier des sources M de la DGFiP (dépôt ir-calcul) depuis l'archive Software Heritage.
 
-    python3 swh_fetch.py <révision git attendue> <dossier de destination>
+    python3 swh_fetch.py <révision git attendue> <chemin dans le dépôt> <dossier de destination>
 
-Secours quand gitlab.adullact.net ne répond pas (cas depuis GitHub Actions). Prend la révision
+Secours quand gitlab.adullact.net ne répond pas (cas depuis GitHub Actions). Télécharge les fichiers
+un à un par l'API (pas de préparation d'archive, qui peut prendre des heures). Prend la révision
 demandée si elle est archivée, sinon la dernière révision archivée de la branche principale.
 Affiche la révision utilisée. Bibliothèque standard uniquement.
 """
-import io
 import json
 import sys
-import tarfile
 import time
 import urllib.error
 import urllib.request
@@ -19,10 +18,24 @@ API = "https://archive.softwareheritage.org/api/1"
 ORIGIN = "https://gitlab.adullact.net/dgfip/ir-calcul"
 
 
-def call(url: str, method: str = "GET") -> dict:
-    req = urllib.request.Request(url, method=method, headers={"Accept": "application/json"})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        return json.loads(r.read())
+def get(url: str) -> bytes:
+    for _ in range(10):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url), timeout=120) as r:
+                return r.read()
+        except urllib.error.HTTPError as e:
+            if e.code != 429:
+                raise
+            # Limite de requêtes anonymes : attendre la réinitialisation annoncée.
+            reset = int(e.headers.get("X-RateLimit-Reset", time.time() + 60))
+            wait = max(10, min(3600, reset - int(time.time())))
+            print(f"Limite de requêtes Software Heritage : pause de {wait} s.", file=sys.stderr)
+            time.sleep(wait)
+    raise RuntimeError(f"Trop de refus de Software Heritage pour {url}")
+
+
+def call(url: str) -> dict | list:
+    return json.loads(get(url))
 
 
 def revision_directory(rev: str) -> tuple[str, str]:
@@ -41,37 +54,25 @@ def revision_directory(rev: str) -> tuple[str, str]:
     return latest, call(f"{API}/revision/{latest}/")["directory"]
 
 
-def fetch_directory(directory: str, dest: Path) -> None:
-    url = f"{API}/vault/flat/swh:1:dir:{directory}/"
-    status = call(url, method="POST")
-    for _ in range(160):
-        if status["status"] == "done":
-            break
-        if status["status"] == "failed":
-            raise RuntimeError(f"Software Heritage n'a pas pu préparer l'archive : {status.get('progress_message')}")
-        time.sleep(15)
-        status = call(url)
-    else:
-        raise TimeoutError("Archive Software Heritage non prête après 40 minutes.")
-    with urllib.request.urlopen(status["fetch_url"], timeout=600) as r:
-        data = r.read()
+def fetch_tree(directory: str, dest: Path) -> int:
     dest.mkdir(parents=True, exist_ok=True)
-    with tarfile.open(fileobj=io.BytesIO(data), mode="r:gz") as tar:
-        members = tar.getmembers()
-        # L'archive contient un dossier racine (le SWHID) : on le retire.
-        root = members[0].name.split("/")[0]
-        for m in members:
-            parts = m.name.split("/", 1)
-            if parts[0] != root or len(parts) == 1:
-                continue
-            m.name = parts[1]
-            tar.extract(m, dest, filter="data")
+    count = 0
+    for entry in call(f"{API}/directory/{directory}/"):
+        if entry["type"] == "dir":
+            count += fetch_tree(entry["target"], dest / entry["name"])
+        elif entry["type"] == "file":
+            (dest / entry["name"]).write_bytes(get(f"{API}/content/sha1_git:{entry['target']}/raw/"))
+            count += 1
+    return count
 
 
 def main() -> None:
-    rev, dest = sys.argv[1], Path(sys.argv[2])
-    used, directory = revision_directory(rev)
-    fetch_directory(directory, dest)
+    rev, path, dest = sys.argv[1], sys.argv[2].strip("/"), Path(sys.argv[3])
+    used, root = revision_directory(rev)
+    sub = call(f"{API}/directory/{root}/{path}/")
+    target = sub[0]["target"] if isinstance(sub, list) else sub["target"]
+    n = fetch_tree(target, dest / path)
+    print(f"{n} fichiers de {path} récupérés.", file=sys.stderr)
     print(used)
 
 

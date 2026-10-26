@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: impot-dgfip-${{ github.ref }}
+  group: impot-dgfip-v2-${{ github.ref }}
   cancel-in-progress: false
 
 env:
@@ -50,22 +50,19 @@ jobs:
           path: |
             mlang/ir-calcul
             mlang/ir-calcul.source
-          key: ir-calcul-${{ steps.rev.outputs.rev }}
+          key: ir-calcul-${{ steps.rev.outputs.rev }}-${{ env.YEAR }}
       - name: Sources M de la DGFiP
         if: steps.cache-sources.outputs.cache-hit != 'true'
         env:
           REV: ${{ steps.rev.outputs.rev }}
         run: |
-          # 1. Forge actuelle, 2. ancienne forge (framagit), 3. copie archivée par Software Heritage.
+          # Forge actuelle, sinon copie archivée par Software Heritage (seulement les sources de l'année).
           if timeout 90 git -C mlang submodule update --init ir-calcul; then
             echo "ir-calcul: $REV (gitlab.adullact.net)" > mlang/ir-calcul.source
-          elif rm -rf mlang/ir-calcul && timeout 600 git clone -q https://framagit.org/dgfip/ir-calcul.git mlang/ir-calcul \
-               && git -C mlang/ir-calcul checkout -q "$REV"; then
-            echo "ir-calcul: $REV (framagit.org/dgfip/ir-calcul)" > mlang/ir-calcul.source
           else
             rm -rf mlang/ir-calcul
-            used=$(python3 spikes/impot-dgfip/swh_fetch.py "$REV" mlang/ir-calcul)
-            echo "ir-calcul: $used (archive.softwareheritage.org, origine gitlab.adullact.net/dgfip/ir-calcul ; révision attendue par Mlang : $REV)" > mlang/ir-calcul.source
+            used=$(python3 spikes/impot-dgfip/swh_fetch.py "$REV" "M_SVN/$YEAR/code_m" mlang/ir-calcul)
+            echo "ir-calcul: $used, dossier M_SVN/$YEAR/code_m (archive.softwareheritage.org, origine gitlab.adullact.net/dgfip/ir-calcul ; révision attendue par Mlang : $REV)" > mlang/ir-calcul.source
           fi
       - name: Sources utilisées
         run: |
