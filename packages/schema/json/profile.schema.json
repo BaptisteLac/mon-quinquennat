@@ -1,0 +1,178 @@
+{
+  "$ref": "#/definitions/Profile",
+  "definitions": {
+    "Profile": {
+      "type": "object",
+      "properties": {
+        "age": {
+          "type": "integer",
+          "minimum": 18,
+          "maximum": 110
+        },
+        "genre": {
+          "type": "string",
+          "enum": [
+            "femme",
+            "homme",
+            "autre"
+          ]
+        },
+        "situationFamiliale": {
+          "type": "string",
+          "enum": [
+            "seul",
+            "marie_pacse",
+            "couple_non_marie"
+          ]
+        },
+        "enfants": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ageBand": {
+                "type": "string",
+                "enum": [
+                  "0_2",
+                  "3_10",
+                  "11_17",
+                  "18_25"
+                ]
+              }
+            },
+            "required": [
+              "ageBand"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "situationPro": {
+          "type": "string",
+          "enum": [
+            "salarie_prive",
+            "fonctionnaire",
+            "independant",
+            "chef_entreprise",
+            "demandeur_emploi",
+            "etudiant",
+            "retraite",
+            "sans_activite"
+          ]
+        },
+        "tempsPartiel": {
+          "type": "boolean"
+        },
+        "revenusNetsMensuels": {
+          "type": "number",
+          "minimum": 0
+        },
+        "revenusConjointNetsMensuels": {
+          "type": "number",
+          "minimum": 0
+        },
+        "logement": {
+          "type": "string",
+          "enum": [
+            "locataire_prive",
+            "locataire_hlm",
+            "proprio_credit",
+            "proprio_sans_credit",
+            "heberge"
+          ]
+        },
+        "lieuDeVie": {
+          "type": "string",
+          "enum": [
+            "grande_ville",
+            "ville_moyenne",
+            "peripherie",
+            "rural",
+            "outre_mer"
+          ]
+        },
+        "mobilite": {
+          "type": "string",
+          "enum": [
+            "voiture_thermique",
+            "voiture_electrique",
+            "transports",
+            "velo_pied"
+          ]
+        },
+        "ageDepartPrevu": {
+          "type": "integer"
+        },
+        "agePremierEmploi": {
+          "type": "integer"
+        },
+        "pensionMensuelle": {
+          "type": "number",
+          "minimum": 0
+        },
+        "entreprise": {
+          "type": "object",
+          "properties": {
+            "statut": {
+              "type": "string",
+              "enum": [
+                "micro",
+                "independant",
+                "societe"
+              ]
+            },
+            "salaries": {
+              "type": "string",
+              "enum": [
+                "0",
+                "1_9",
+                "10_49",
+                "50_plus"
+              ]
+            }
+          },
+          "required": [
+            "statut",
+            "salaries"
+          ],
+          "additionalProperties": false
+        },
+        "indemnise": {
+          "type": "boolean"
+        },
+        "boursier": {
+          "type": "boolean"
+        },
+        "handicapOuAidant": {
+          "type": "string",
+          "enum": [
+            "non",
+            "moi",
+            "proche"
+          ]
+        },
+        "patrimoine": {
+          "type": "string",
+          "enum": [
+            "moins_100k",
+            "100k_1m",
+            "plus_1m",
+            "ne_sait_pas"
+          ]
+        }
+      },
+      "required": [
+        "age",
+        "genre",
+        "situationFamiliale",
+        "enfants",
+        "situationPro",
+        "revenusNetsMensuels",
+        "logement",
+        "lieuDeVie",
+        "mobilite"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
