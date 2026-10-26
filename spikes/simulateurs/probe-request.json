@@ -1,16 +1,30 @@
 {
-  "run": 19,
+  "run": 20,
   "targets": [
     {
-      "id": "lfi-programme",
-      "url": "https://melenchon2027.fr/programme/decouvrir/",
+      "id": "lfi-laec",
+      "url": "https://melenchon2027.fr/programme/laec/",
       "waitUntil": "networkidle",
       "continueOnError": true,
       "actions": []
     },
     {
-      "id": "lfi-accueil",
-      "url": "https://melenchon2027.fr/",
+      "id": "lfi-plans",
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/",
+      "waitUntil": "networkidle",
+      "continueOnError": true,
+      "actions": []
+    },
+    {
+      "id": "lfi-livre2025",
+      "url": "https://melenchon2027.fr/programme2025/livre/",
+      "waitUntil": "networkidle",
+      "continueOnError": true,
+      "actions": []
+    },
+    {
+      "id": "lfi-invest",
+      "url": "https://melenchon2027.fr/programme/plans-investissement/",
       "waitUntil": "networkidle",
       "continueOnError": true,
       "actions": []
