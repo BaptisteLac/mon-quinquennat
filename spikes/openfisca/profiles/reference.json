@@ -7,88 +7,202 @@
       "id": "celibataire-smic-locataire",
       "libelle": "Célibataire, salariée à temps plein près du SMIC, locataire du privé",
       "profile": {
-        "age": 30, "genre": "femme", "situationFamiliale": "seul", "enfants": [],
-        "situationPro": "salarie_prive", "tempsPartiel": false, "revenusNetsMensuels": 1450,
-        "logement": "locataire_prive", "lieuDeVie": "grande_ville", "mobilite": "transports"
+        "age": 30,
+        "genre": "femme",
+        "situationFamiliale": "seul",
+        "enfants": [],
+        "situationPro": "salarie_prive",
+        "tempsPartiel": false,
+        "revenusNetsMensuels": 1450,
+        "logement": "locataire_prive",
+        "lieuDeVie": "grande_ville",
+        "mobilite": "transports",
+        "codeCommune": "69123",
+        "loyerMensuel": 550
       },
-      "complement": { "loyerMensuel": 550, "zoneApl": "zone_2" },
-      "commune": "Lyon (69003)",
+      "commune": "Lyon (code INSEE 69123)",
       "attendu": {
-        "impot_revenu": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "prime_activite": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "aides_logement": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "allocations_familiales": { "montant": null, "source": "a_caler_pendant_le_test" }
+        "impot_revenu": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "prime_activite": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "aides_logement": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "allocations_familiales": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        }
       }
     },
     {
       "id": "couple-2-enfants-proprietaires",
       "libelle": "Couple marié, deux enfants de 6 et 9 ans, revenus moyens, propriétaires avec crédit",
       "profile": {
-        "age": 40, "genre": "homme", "situationFamiliale": "marie_pacse",
-        "enfants": [{ "ageBand": "3_10" }, { "ageBand": "3_10" }],
-        "situationPro": "salarie_prive", "revenusNetsMensuels": 2400, "revenusConjointNetsMensuels": 1900,
-        "logement": "proprio_credit", "lieuDeVie": "peripherie", "mobilite": "voiture_thermique"
+        "age": 40,
+        "genre": "homme",
+        "situationFamiliale": "marie_pacse",
+        "enfants": [
+          {
+            "anneeNaissance": 2020
+          },
+          {
+            "anneeNaissance": 2017
+          }
+        ],
+        "situationPro": "salarie_prive",
+        "revenusNetsMensuels": 2400,
+        "revenusConjointNetsMensuels": 1900,
+        "logement": "proprio_credit",
+        "lieuDeVie": "peripherie",
+        "mobilite": "voiture_thermique",
+        "codeCommune": "44143",
+        "situationProConjoint": "salarie_prive"
       },
-      "complement": { "agesEnfants": [6, 9], "zoneApl": "zone_2" },
-      "commune": "Rezé (44400)",
+      "commune": "Rezé (code INSEE 44143)",
       "attendu": {
-        "impot_revenu": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "prime_activite": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "aides_logement": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "allocations_familiales": { "montant": null, "source": "a_caler_pendant_le_test" }
+        "impot_revenu": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "prime_activite": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "aides_logement": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "allocations_familiales": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        }
       }
     },
     {
       "id": "parent-isole-2-enfants-hlm",
       "libelle": "Parent isolé, deux enfants de 4 et 12 ans, salariée, locataire HLM",
       "profile": {
-        "age": 36, "genre": "femme", "situationFamiliale": "seul",
-        "enfants": [{ "ageBand": "3_10" }, { "ageBand": "11_17" }],
-        "situationPro": "salarie_prive", "revenusNetsMensuels": 1700,
-        "logement": "locataire_hlm", "lieuDeVie": "ville_moyenne", "mobilite": "voiture_thermique"
+        "age": 36,
+        "genre": "femme",
+        "situationFamiliale": "seul",
+        "enfants": [
+          {
+            "anneeNaissance": 2022
+          },
+          {
+            "anneeNaissance": 2014
+          }
+        ],
+        "situationPro": "salarie_prive",
+        "revenusNetsMensuels": 1700,
+        "logement": "locataire_hlm",
+        "lieuDeVie": "ville_moyenne",
+        "mobilite": "voiture_thermique",
+        "codeCommune": "36044",
+        "loyerMensuel": 450
       },
-      "complement": { "loyerMensuel": 450, "zoneApl": "zone_3", "agesEnfants": [4, 12] },
-      "commune": "Châteauroux (36000)",
+      "commune": "Châteauroux (code INSEE 36044)",
       "attendu": {
-        "impot_revenu": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "prime_activite": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "aides_logement": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "allocations_familiales": { "montant": null, "source": "a_caler_pendant_le_test" }
+        "impot_revenu": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "prime_activite": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "aides_logement": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "allocations_familiales": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        }
       }
     },
     {
       "id": "retraite-seul-proprietaire",
       "libelle": "Retraité seul, 72 ans, pension nette de 1 600 €, propriétaire sans crédit",
       "profile": {
-        "age": 72, "genre": "homme", "situationFamiliale": "seul", "enfants": [],
-        "situationPro": "retraite", "revenusNetsMensuels": 0, "pensionMensuelle": 1600,
-        "logement": "proprio_sans_credit", "lieuDeVie": "rural", "mobilite": "voiture_thermique"
+        "age": 72,
+        "genre": "homme",
+        "situationFamiliale": "seul",
+        "enfants": [],
+        "situationPro": "retraite",
+        "revenusNetsMensuels": 0,
+        "pensionMensuelle": 1600,
+        "logement": "proprio_sans_credit",
+        "lieuDeVie": "rural",
+        "mobilite": "voiture_thermique",
+        "codeCommune": "18197"
       },
-      "complement": { "zoneApl": "zone_3" },
-      "commune": "Saint-Amand-Montrond (18200)",
+      "commune": "Saint-Amand-Montrond (code INSEE 18197)",
       "attendu": {
-        "impot_revenu": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "prime_activite": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "aides_logement": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "allocations_familiales": { "montant": null, "source": "a_caler_pendant_le_test" }
+        "impot_revenu": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "prime_activite": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "aides_logement": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "allocations_familiales": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        }
       }
     },
     {
       "id": "independant-micro-bnc",
       "libelle": "Indépendant en micro-entreprise (activité libérale), 36 000 € de recettes par an, locataire",
       "profile": {
-        "age": 35, "genre": "homme", "situationFamiliale": "seul", "enfants": [],
-        "situationPro": "independant", "revenusNetsMensuels": 2000,
-        "entreprise": { "statut": "micro", "salaries": "0" },
-        "logement": "locataire_prive", "lieuDeVie": "grande_ville", "mobilite": "velo_pied"
+        "age": 35,
+        "genre": "homme",
+        "situationFamiliale": "seul",
+        "enfants": [],
+        "situationPro": "independant",
+        "revenusNetsMensuels": 2000,
+        "entreprise": {
+          "statut": "micro",
+          "salaries": "0",
+          "chiffreAffairesAnnuel": 36000,
+          "activite": "liberale"
+        },
+        "logement": "locataire_prive",
+        "lieuDeVie": "grande_ville",
+        "mobilite": "velo_pied",
+        "codeCommune": "75056",
+        "loyerMensuel": 800
       },
-      "complement": { "loyerMensuel": 800, "zoneApl": "zone_1", "chiffreAffairesAnnuel": 36000, "activiteMicro": "bnc" },
-      "commune": "Paris (75011)",
+      "commune": "Paris (code INSEE 75056)",
       "attendu": {
-        "impot_revenu": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "prime_activite": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "aides_logement": { "montant": null, "source": "a_caler_pendant_le_test" },
-        "allocations_familiales": { "montant": null, "source": "a_caler_pendant_le_test" }
+        "impot_revenu": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "prime_activite": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "aides_logement": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        },
+        "allocations_familiales": {
+          "montant": null,
+          "source": "a_caler_pendant_le_test"
+        }
       }
     }
   ]

@@ -34,21 +34,17 @@ Montants produits (€/mois) : impôt sur le revenu (revenus 2025, payé en 2026
 | `pensionMensuelle` (retraité) | `retraite_brute` | idem ; le taux de CSG dépend du RFR de N-2 (voir erreurs corrigées) |
 | indépendant en micro-entreprise | `mbic_impv`, `mbic_imps`, `mbnc_impo` | le net déclaré ne suffit pas : chiffre d'affaires et type d'activité nécessaires |
 | `situationFamiliale` | foyers fiscaux, famille, ménage | marié/pacsé : un foyer fiscal ; couple non marié : deux foyers, enfants rattachés au demandeur ; seul avec enfants : case T |
-| `enfants[].ageBand` | `date_naissance` | milieu de tranche (≈) si l'âge exact manque |
-| `logement` | `statut_occupation_logement` | + `loyer` si fourni |
-| `lieuDeVie` | `zone_apl` | déduite (≈) faute de commune |
+| `enfants[].anneeNaissance` | `date_naissance` | naissance supposée au 1er juillet (≈) |
+| `logement`, `loyerMensuel` | `statut_occupation_logement`, `loyer` | sans loyer, pas d'aides au logement |
+| `codeCommune` | `depcom` → `zone_apl` | arrondissements ramenés à leur commune ; zonage embarqué par OpenFisca daté de 2011 : commune absente → zone déduite du lieu de vie (≈), signalée |
+| `situationProConjoint` | situation du conjoint | à défaut, salarié s'il a un revenu (≈) |
 | `handicapOuAidant` absent ou « non » | `aah` = 0 | évite de calculer l'AAH (moitié du temps de la prime d'activité) |
 
 Chaque hypothèse (≈) est renvoyée avec le résultat, pour la fiche « d'où vient ce chiffre ».
 
-## Questions à ajouter au profil
+## Questions ajoutées au profil (décision du 2026-10-26)
 
-Sans elles, un montant n'est pas calculé ou devient estimé (proposition ajoutée à `docs/decisions.md`) :
-- **loyer hors charges** : sans lui, pas d'aides au logement ;
-- **code postal** : zone des aides au logement ;
-- **année de naissance des enfants** : la tranche 11–17 ans ne dit pas si la majoration des allocations familiales (14 ans) s'applique ;
-- **indépendant** : chiffre d'affaires annuel et type d'activité (vente, services, libéral) ;
-- **conjoint** : sa situation professionnelle (aujourd'hui supposée salariée).
+Loyer hors charges, commune (code INSEE choisi à partir du code postal), année de naissance des enfants, chiffre d'affaires et type d'activité d'un micro-entrepreneur, situation professionnelle du conjoint. Elles sont dans le schéma Zod `Profile` et dans le profil Python ; le complément de calcul provisoire du test a disparu.
 
 ## Erreurs trouvées et corrigées (chacune devenue un test)
 

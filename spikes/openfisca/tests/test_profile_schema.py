@@ -13,7 +13,7 @@ def _norm(node: dict) -> dict:
     if "anyOf" in node:  # pydantic : X | None
         non_null = [n for n in node["anyOf"] if n.get("type") != "null"]
         return _norm(non_null[0]) if len(non_null) == 1 else {"anyOf": [_norm(n) for n in non_null]}
-    for k in ("type", "enum", "minimum", "maximum"):
+    for k in ("type", "enum", "minimum", "maximum", "pattern"):
         if k in node:
             out[k] = node[k]
     if "const" in node:

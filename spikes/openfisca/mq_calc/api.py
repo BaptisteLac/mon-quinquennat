@@ -13,7 +13,7 @@ from flask import Flask, jsonify, request
 from pydantic import BaseModel, ConfigDict, ValidationError
 
 from .compute import Candidate, baseline, compute_all
-from .profile import ComplementCalcul, Profile
+from .profile import Profile
 from .reforms import ParamChange, affected_outputs, make_reform
 
 CANDIDATES_FILE = Path(os.environ.get("MQ_CANDIDATES", Path(__file__).resolve().parents[1] / "candidates.json"))
@@ -28,7 +28,6 @@ class CandidateSpec(BaseModel):
 class CalculRequest(BaseModel):
     model_config = ConfigDict(extra="forbid", frozen=True)
     profile: Profile
-    complement: ComplementCalcul = ComplementCalcul()
 
 
 def load_candidates(path: Path) -> list[Candidate]:
@@ -46,7 +45,7 @@ def create_app(candidates: list[Candidate]) -> Flask:
         except ValidationError as e:
             return jsonify({"erreur": "profil invalide", "details": e.errors(include_input=False)}), 400
         try:
-            results = compute_all(req.profile, req.complement, candidates)
+            results = compute_all(req.profile, candidates)
         except ValueError as e:
             return jsonify({"erreur": str(e)}), 422
         return jsonify(
@@ -66,8 +65,9 @@ def create_app(candidates: list[Candidate]) -> Flask:
 def warm_up(candidates: list[Candidate]) -> None:
     """Charge et préchauffe chaque système fiscal au démarrage (sinon ~2 s de plus au premier appel)."""
     p = Profile(age=40, genre="autre", situationFamiliale="seul", enfants=[], situationPro="salarie_prive",
-                revenusNetsMensuels=1800, logement="locataire_prive", lieuDeVie="ville_moyenne", mobilite="transports")
-    compute_all(p, ComplementCalcul(loyerMensuel=500, zoneApl="zone_2"), candidates)
+                revenusNetsMensuels=1800, logement="locataire_prive", loyerMensuel=500, lieuDeVie="ville_moyenne",
+                codeCommune="36044", mobilite="transports")
+    compute_all(p, candidates)
 
 
 _candidates = load_candidates(CANDIDATES_FILE)

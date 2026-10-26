@@ -9,7 +9,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from mq_calc.compute import AMOUNTS, compute  # noqa: E402
-from mq_calc.profile import ComplementCalcul, Profile  # noqa: E402
+from mq_calc.profile import Profile  # noqa: E402
 
 LABELS = {
     "impot_revenu": "Impôt sur le revenu",
@@ -29,7 +29,7 @@ def main() -> int:
     print("| Profil | Montant | Calculé (€/mois) | Officiel (€/mois) | Écart | Feu vert |")
     print("|---|---|---|---|---|---|")
     for case in data["profiles"]:
-        r = compute(Profile(**case["profile"]), ComplementCalcul(**case["complement"]))
+        r = compute(Profile(**case["profile"]))
         for key in AMOUNTS:
             calc = r.amounts[key]
             ref = case["attendu"][key]["montant"]
