@@ -29,6 +29,9 @@ Maison de retraite/EHPAD
 Vous êtes
 En location
 En colocation
+Votre location est meublée
+Oui
+Non
 Quitter
 Calculer
 Vous pouvez nous contacter

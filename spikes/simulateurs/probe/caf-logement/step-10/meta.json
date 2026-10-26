@@ -382,6 +382,22 @@
       "label": "En colocation"
     },
     {
+      "tag": "input",
+      "type": "radio",
+      "name": "ng-cnaf-radio-6",
+      "id": "estMeuble_true",
+      "value": "true",
+      "label": "Oui"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "ng-cnaf-radio-6",
+      "id": "estMeuble_false",
+      "value": "false",
+      "label": "Non"
+    },
+    {
       "tag": "button",
       "type": "submit",
       "name": "BCQuitter",

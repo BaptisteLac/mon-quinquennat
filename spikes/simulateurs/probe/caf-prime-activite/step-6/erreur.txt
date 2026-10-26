@@ -1,7 +1,7 @@
 TimeoutError: locator.click: Timeout 15000ms exceeded.
 Call log:
-  - waiting for locator('label:has(input[name=revenuDeSolidarite][value=false]), input[name=revenuDeSolidarite][value=false]').first()
-    - locator resolved to <label class="btn btn-default radRevenuDeSolidarite">…</label>
+  - waiting for locator('input[name=revenuDeSolidarite][value=false]').first()
+    - locator resolved to <input type="radio" value="false" name="revenuDeSolidarite" title="Non, je ne bénéficie pas du revenu de solidarité RSO"/>
   - attempting click action
     2 × waiting for element to be visible, enabled and stable
       - element is not visible
