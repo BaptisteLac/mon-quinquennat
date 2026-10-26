@@ -1,15 +1,16 @@
 {
-  "run": 6,
+  "run": 7,
   "targets": [
     {
       "id": "caf-prime-activite",
       "url": "https://www.caf.fr/redirect/s/redirect?page=simulateurPa",
+      "continueOnError": true,
       "actions": [
         {
           "click": "Commencer"
         },
         {
-          "clickCss": "#idResidentEnFranceO"
+          "clickCss": "label[for=idResidentEnFranceO]"
         },
         {
           "fillCss": "#codePostal",
@@ -22,7 +23,7 @@
           "wait": 2000
         },
         {
-          "clickCss": "input[name=revenuDeSolidarite][value=false]"
+          "clickCss": "label:has(input[name=revenuDeSolidarite][value=false]), input[name=revenuDeSolidarite][value=false]"
         },
         {
           "fillCss": "#dateDeNaissance",
@@ -32,7 +33,7 @@
           "press": "Tab"
         },
         {
-          "clickCss": "#idRevenusO"
+          "clickCss": "label[for=idRevenusO]"
         },
         {
           "clickCss": "button[name=BCSuivant]"
@@ -42,6 +43,7 @@
     {
       "id": "caf-logement",
       "url": "https://www.caf.fr/redirect/s/redirect?page=aidesEtServicesSimuLogement",
+      "continueOnError": true,
       "actions": [
         {
           "click": "Commencer"
@@ -63,15 +65,18 @@
           "press": "Enter"
         },
         {
+          "wait": 1500
+        },
+        {
+          "click": "Appartement ou maison"
+        },
+        {
+          "wait": 1500
+        },
+        {
           "clickCss": "#btn-suivant"
         }
       ]
-    },
-    {
-      "id": "service-public-retraite-age",
-      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14043",
-      "follow": "vosdroits/F",
-      "maxFollow": 3
     }
   ]
 }

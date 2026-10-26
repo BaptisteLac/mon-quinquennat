@@ -40,6 +40,8 @@ const Request = z.object({
       timeoutMs: z.number().int().max(180_000).default(45_000),
       /** Actions enchaînées après le chargement ; une capture après chacune (step-N). */
       actions: z.array(Action).default([]),
+      /** Poursuivre après une action en échec (exploration : les suivantes peuvent réussir). */
+      continueOnError: z.boolean().default(false),
     }),
   ),
 });
@@ -181,6 +183,7 @@ for (const t of req.targets) {
       await writeFile(resolve(stepDir, "erreur.txt"), String(e));
       console.log(`  action ${i + 1} en échec : ${String(e).slice(0, 120)}`);
       await safeSnapshot(page, null, stepDir);
+      if (t.continueOnError) continue;
       break;
     }
     await safeSnapshot(page, null, stepDir);
