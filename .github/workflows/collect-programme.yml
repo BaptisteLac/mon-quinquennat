@@ -49,11 +49,14 @@ jobs:
           rm -rf "../../data/archives/$corpus"   # nouvelle collecte complète, sans fichiers périmés
           npm run collect -- "${args[@]}"
           echo "CORPUS=$corpus" >> "$GITHUB_ENV"
+      # Un candidat qui entre dans l'outil reçoit son badge de forme, tiré au sort une fois pour toutes.
+      - name: Tirer au sort les badges manquants
+        run: npm run tirer-badges -w apps/web
       - name: Commiter le corpus
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f -A "data/archives/$CORPUS"
+          git add -f -A "data/archives/$CORPUS" data/badges.json
           git commit -m "Collecte du corpus $CORPUS" || echo "Aucun changement"
           # La branche a pu avancer pendant la collecte : on rejoue le commit par-dessus.
           git pull --rebase origin "${GITHUB_REF_NAME}"

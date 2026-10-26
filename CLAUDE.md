@@ -9,7 +9,8 @@ Ce dépôt est la seule source de vérité : la conception a eu lieu ailleurs, t
 - `docs/decisions.md` — ce qui est tranché, ce qui est **écarté** (ne pas le reproposer), ce qui reste à valider
 - `docs/design-system.md` — couleurs, typo, illustrations, règles d'affichage des candidats
 - `design/maquettes/` — écrans validés (HTML + captures PNG dans `png/`), index dans `design/README.md`. Pour construire un écran, lire sa capture **et** son HTML.
-- `docs/faisabilite.md` — étape en cours
+- `docs/plan.md` — plan de construction du site, jalon en cours
+- `docs/faisabilite.md` — tests de faisabilité (feu vert le 2026-10-26)
 
 Une décision prise en cours de route s'ajoute à `docs/decisions.md` dans le même commit.
 
@@ -34,7 +35,7 @@ Et une règle d'exploitation : **automatisation maximale**. Pas de validation ma
 
 ## Organisation du dépôt
 ```
-apps/web/            Next.js (à créer après les tests de faisabilité)
+apps/web/            Next.js : le site (pages statiques + API de ticket)
 packages/schema/     Schéma Zod : profil, sources, mesures, tickets
 pipeline/            Veille, archivage, extraction, 6 contrôles, routage
 calc/                Service OpenFisca + profils de référence
@@ -63,4 +64,4 @@ npm test
 ## Façon de travailler
 - Avancer par petites étapes vérifiables ; lancer `npm run typecheck && npm test` avant chaque commit.
 - Toute évolution du schéma : mettre à jour `packages/schema`, ses tests, et `docs/cadrage.md` si une règle change.
-- Ne pas commencer `apps/web` avant le feu vert des deux tests de faisabilité.
+- Le site avance par jalons (`docs/plan.md`) : une PR par jalon, `next build` vert en CI.

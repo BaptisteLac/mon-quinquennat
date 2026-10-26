@@ -1,0 +1,28 @@
+.footer {
+  margin-top: auto;
+  background: var(--ink);
+  color: var(--white);
+  padding: 22px var(--gutter) 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 13px;
+}
+.name {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 18px;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+.links a {
+  color: var(--white);
+}
+.note {
+  margin: 0;
+  color: var(--on-ink-2);
+  line-height: 1.5;
+}

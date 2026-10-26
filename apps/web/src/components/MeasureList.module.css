@@ -1,0 +1,117 @@
+.filters {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  margin: 0 calc(-1 * var(--gutter));
+  padding: 0 var(--gutter) 4px;
+  scrollbar-width: none;
+}
+.filters::-webkit-scrollbar {
+  display: none;
+}
+.filter {
+  height: 40px;
+  padding: 0 14px;
+  border: var(--stroke-thin) solid var(--ink);
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--ink);
+  font-weight: 500;
+  font-size: 13px;
+  white-space: nowrap;
+  flex: none;
+  cursor: pointer;
+}
+.filter[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--white);
+  font-weight: 700;
+}
+.count {
+  font-family: var(--font-mono);
+  font-size: 11px;
+}
+.status {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-2);
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card {
+  background: var(--white);
+  border: var(--stroke-thin) solid var(--ink);
+  border-radius: var(--radius);
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.nature {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  text-align: right;
+}
+.swatch {
+  flex: none;
+  width: 14px;
+  height: 10px;
+}
+.swatch[data-nature="chiffree"] {
+  background: var(--ink);
+}
+.swatch[data-nature="qualitative"] {
+  border: 1.5px solid var(--ink);
+  background: repeating-linear-gradient(45deg, var(--ink) 0 2px, var(--white) 2px 5px);
+}
+.swatch[data-nature="floue"] {
+  border: 1.5px dashed var(--ink);
+}
+.title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.summary {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.quote {
+  margin: 0;
+  font-size: 13px;
+  font-style: italic;
+  color: var(--text-2);
+  line-height: 1.45;
+}
+.quote a {
+  font-style: normal;
+  font-weight: 700;
+  color: var(--text-2);
+}
+.more {
+  height: 48px;
+  border: var(--stroke) solid var(--ink);
+  border-radius: var(--radius-lg);
+  background: var(--white);
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 16px;
+  cursor: pointer;
+}

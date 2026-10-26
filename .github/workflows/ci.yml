@@ -17,6 +17,8 @@ jobs:
       - run: npm ci
       - run: npm run typecheck
       - run: npm test
+      - name: Build du site
+        run: npm run build -w apps/web
 
   calc:
     runs-on: ubuntu-latest
