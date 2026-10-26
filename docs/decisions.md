@@ -43,6 +43,8 @@ Toute nouvelle décision s'ajoute ici (date, décision, raison).
 - **Bilan du test n°1 sans saisie manuelle (2026-10-26)** : rappel mesuré par une lecture indépendante de pages tirées au sort (engagements relevés avant de voir les mesures), précision et paramètres par la relecture d'un échantillon de mesures tiré au sort, coût estimé sur les volumes réels (`npm run evaluate`, `data/evaluations/`). Limite assumée et affichée sur la page Méthode : le bilan est fait par le même modèle que l'extraction. Le bilan est refait pour chaque nouveau programme.
 - **Date d'une mesure annoncée pour l'entrée en fonction (2026-10-26)** : « le premier jour », « dès son arrivée au pouvoir » → début du mandat (14 mai 2027, le mandat en cours s'achevant le 13 mai 2027), date estimée ; le contrôle `chiffres_fideles` bloque la date par défaut dans ce cas.
 
+- **Feu vert des deux tests de faisabilité (2026-10-26)** : test n°1 avec réserve (paramètres justes 92,9 % sur 14 mesures chiffrées, cause corrigée ; bilan refait sur le programme suivant), test n°2 sur ses quatre critères. `apps/web` peut commencer.
+
 ## Design
 - Interface Pop BD, illustrations sticker à peau jaune unique — voir `docs/design-system.md`.
 - Avatar petit, par tranche d'âge × genre, bustes uniquement.

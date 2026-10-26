@@ -44,6 +44,8 @@ Mesures adjudiquées : 6 engagements couverts par une mesure à la citation diff
 - [x] Feu vert avec périmètre réduit : cinq critères sur six atteints ; paramètres justes à 92,9 % sur 14 mesures chiffrées (une erreur de date), cause corrigée et contrôlée. Le bilan sera refait sur le second programme (Jean-Luc Mélenchon, après sa publication du 6 novembre) pour confirmer. À indiquer sur la page Méthode : le bilan est fait par le modèle qui extrait, sans relecture humaine.
 - [ ] Échec
 
+Feu vert donné par le porteur du projet le 2026-10-26.
+
 Cas de test ajoutés à partir des erreurs :
 - `src/figures.test.ts` — « refuse la date par défaut pour une mesure annoncée « le premier jour » » : le contrôle `chiffres_fideles` bloque désormais une date d'effet postérieure au début du mandat (14 mai 2027) quand la citation annonce une mise en œuvre immédiate. Il a trouvé une seconde mesure dans ce cas (m-4081facb513f, suppression des ZFE « dès son arrivée au pouvoir »). Les deux sont corrigées, ainsi que le titre de m-49b683740def ; relecture mise à jour, 260 mesures publiées.
 - `src/evaluation.test.ts` — tirage reproductible, appariement des engagements, intervalle de Wilson.
