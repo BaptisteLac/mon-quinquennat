@@ -51,4 +51,5 @@ jobs:
           echo "Déployé : $image"
       - name: Scaleway non configuré
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && (env.SCW_SECRET_KEY == '' || env.SCW_REGISTRY == '' || env.SCW_CONTAINER_ID == '')
-        run: echo "::notice::Image vérifiée, non déployée : configurer Scaleway (calc/README.md)."
+        run: |
+          echo "::notice::Image vérifiée, non déployée : configurer Scaleway (calc/README.md)."
