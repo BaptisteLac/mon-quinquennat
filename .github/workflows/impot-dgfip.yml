@@ -1,0 +1,82 @@
+# Impôt sur le revenu calculé par le code officiel de la DGFiP (sources M publiées sur
+# gitlab.adullact.net/dgfip/ir-calcul), interprété par Mlang (github.com/MLanguage/mlang).
+# Sert de référence au calcul OpenFisca (test n°2). Déclenché par une modification des
+# déclarations exportées (spikes/impot-dgfip, hors main) ou à la main. Les résultats sont
+# commités sur la branche qui a déclenché le run.
+name: Impôt DGFiP
+
+on:
+  push:
+    branches-ignore: [main]
+    paths: [spikes/impot-dgfip/request.json, spikes/impot-dgfip/cas/**]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: impot-dgfip-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  # Version de Mlang : elle fixe aussi la version des sources M (sous-module ir-calcul).
+  MLANG_REF: 66f6b37308c0dfeb3bb24c8af7952a522452a1af
+  # Année des revenus déclarés.
+  YEAR: "2025"
+
+jobs:
+  run:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: MLanguage/mlang
+          ref: ${{ env.MLANG_REF }}
+          path: mlang
+      - name: Sources M de la DGFiP
+        run: git -C mlang submodule update --init ir-calcul
+      - name: Dépendances système
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y m4 perl python3 clang git build-essential lzip libgmp-dev libmpfr-dev
+      - uses: ocaml/setup-ocaml@v3
+        with:
+          ocaml-compiler: 4.13.1
+      - name: Dépendances OCaml
+        working-directory: mlang
+        run: opam install . --deps-only -y
+      - name: Compiler Mlang
+        working-directory: mlang
+        run: opam exec -- make build
+      - name: Calculer l'impôt des déclarations
+        working-directory: mlang
+        run: |
+          out="$GITHUB_WORKSPACE/spikes/impot-dgfip/resultats"
+          rm -rf "$out" && mkdir -p "$out"
+          {
+            echo "mlang: $MLANG_REF"
+            echo "ir-calcul: $(git -C ir-calcul rev-parse HEAD) ($(git -C ir-calcul log -1 --format=%cd))"
+            echo "annee: $YEAR"
+          } > "$out/versions.txt"
+          for f in "$GITHUB_WORKSPACE"/spikes/impot-dgfip/cas/*.irj; do
+            name=$(basename "$f" .irj)
+            opam exec -- make YEAR="$YEAR" TEST_FILE="$f" test_file > "$out/$name.log" 2>&1 || true
+          done
+          # Définition des variables utilisées (cases saisies et montants restitués), pour vérifier les codes.
+          codes=$(cat "$GITHUB_WORKSPACE"/spikes/impot-dgfip/cas/*.irj | grep -E '^[A-Z0-9_]+/' | cut -d/ -f1 | sort -u)
+          src=$(find ir-calcul -path "*$YEAR*" -name tgvI.m | head -1)
+          echo "source: $src" > "$out/variables.txt"
+          for c in $codes; do
+            grep -E "^(V_)?$c *:|alias $c *:" "$src" >> "$out/variables.txt" || echo "$c : introuvable" >> "$out/variables.txt"
+          done
+      - name: Commiter les résultats
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -d spikes/impot-dgfip/resultats ]; then git add -f -A spikes/impot-dgfip/resultats; fi
+          git commit -m "Impôt DGFiP : résultats du run ${{ github.run_id }}" || echo "Aucun changement"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
