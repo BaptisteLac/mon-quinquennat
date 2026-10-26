@@ -1,3 +1,0 @@
-TimeoutError: locator.click: Timeout 15000ms exceeded.
-Call log:
-  - waiting for locator('button:has-text("J\'ai compris")').first()
