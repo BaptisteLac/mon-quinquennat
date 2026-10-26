@@ -4,6 +4,7 @@
  * Fichiers : data/extractions/<corpus>/*.json ; relecture du sens : data/extractions/<corpus>/relecture.json.
  */
 import { z } from "zod";
+import { START_OF_TERM } from "./figures.js";
 import { LlmMeasure } from "./llm-schema.js";
 
 /** Règle unique pour tous les candidats quand le programme ne donne pas de date. */
@@ -11,6 +12,14 @@ export const DEFAULT_SCHEDULE = {
   effectiveDate: "2028-01-01",
   dateOrigin: "estimee" as const,
   estimationRule: "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)",
+};
+
+/** Mesure annoncée pour l'entrée en fonction (« le premier jour », « dès son arrivée au pouvoir »). */
+export const START_OF_TERM_SCHEDULE = {
+  effectiveDate: START_OF_TERM,
+  dateOrigin: "estimee" as const,
+  estimationRule:
+    "Annoncée dès l'entrée en fonction (« le premier jour », « dès son arrivée au pouvoir ») : début du mandat retenu, le 14 mai 2027 (le mandat en cours s'achève le 13 mai 2027)",
 };
 
 const s = LlmMeasure.shape;

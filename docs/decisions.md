@@ -40,6 +40,9 @@ Toute nouvelle décision s'ajoute ici (date, décision, raison).
 
 - **Hébergement du service de calcul : éteint au repos, réveillé pendant la création du personnage (2026-10-26)** : conteneur serverless (Scaleway Serverless Containers à Paris, hébergeur et données en France) avec 0 instance minimale. Le front appelle `/sante` dès le début de la création du personnage, pour que le démarrage (≈ 13 s mesurées en local) soit fini quand la frise demande les montants. Coût : 0 € dans le quota gratuit (≈ 100 000 calculs par mois), ≈ 2,2 € par 100 000 calculs au-delà. Raison : pas de dépense tant que le trafic ne la justifie pas. Une instance toujours allumée (≈ 28 € HT/mois) ne sera envisagée que si le trafic l'exige (ex. dernières semaines de campagne). Temps de réveil réel à mesurer au déploiement.
 
+- **Bilan du test n°1 sans saisie manuelle (2026-10-26)** : rappel mesuré par une lecture indépendante de pages tirées au sort (engagements relevés avant de voir les mesures), précision et paramètres par la relecture d'un échantillon de mesures tiré au sort, coût estimé sur les volumes réels (`npm run evaluate`, `data/evaluations/`). Limite assumée et affichée sur la page Méthode : le bilan est fait par le même modèle que l'extraction. Le bilan est refait pour chaque nouveau programme.
+- **Date d'une mesure annoncée pour l'entrée en fonction (2026-10-26)** : « le premier jour », « dès son arrivée au pouvoir » → début du mandat (14 mai 2027, le mandat en cours s'achevant le 13 mai 2027), date estimée ; le contrôle `chiffres_fideles` bloque la date par défaut dans ce cas.
+
 ## Design
 - Interface Pop BD, illustrations sticker à peau jaune unique — voir `docs/design-system.md`.
 - Avatar petit, par tranche d'âge × genre, bustes uniquement.
@@ -59,4 +62,3 @@ Toute nouvelle décision s'ajoute ici (date, décision, raison).
 - **Collecte web des programmes** (les partis publient des sites à onglets, pas de PDF) : robot Playwright limité au domaine officiel, clic sur les onglets, extraction du texte avec ses titres, archivage par page (HTML, texte, capture, sha256, Internet Archive), diff par section.
 - **Citation localisée par page web + chemin de section** au lieu d'un numéro de page PDF ; lien vers le site officiel avec la phrase surlignée (`#:~:text=`).
 - **Contrôle des chiffres** : tout nombre d'une mesure doit figurer dans sa citation, sinon la mesure est `floue`.
-- **Évaluation sans saisie manuelle** : vérification ✅/❌ d'un échantillon, couverture calculée automatiquement (deux modèles repèrent les engagements phrase par phrase), rejeu sur les programmes 2022 contre des listes tierces.

@@ -1,0 +1,290 @@
+{
+  "corpus": "nouvelle-energie-2026-10",
+  "lecteur": "Claude (session Claude Code, 2026-10-26), lecture faite avant d'ouvrir la liste des mesures publiées",
+  "consigne": "Relever, page par page, chaque engagement de politique publique (ce que le candidat ferait ou ferait faire une fois élu), avec sa citation exacte. Exclus : constats, chiffres de diagnostic, rappels historiques, bilan de maire, stratégie électorale (primaire, alliances, consignes de vote), soutiens. Un engagement qui regroupe plusieurs actions séparables est découpé.",
+  "pages": [
+    {
+      "documentId": "nouvelle-energie-2026-10-notre-programme-generer-un-renouveau-civique",
+      "page": 2,
+      "engagements": [
+        {
+          "quote": "la France s’engagera dans un programme international de fixation du carbone",
+          "description": "Engager la France dans un programme international de fixation du carbone."
+        },
+        {
+          "quote": "Des filières d’excellence et industrielles de niveau mondial seront développées sur le captage de CO2, l’électrolyse pour la production d’hydrogène",
+          "description": "Développer des filières industrielles sur le captage de CO2 et l'hydrogène."
+        },
+        {
+          "quote": "une action diplomatique tournée vers nos intérêts écologiques et économiques, sur la base recherchée de la réciprocité",
+          "description": "Action diplomatique fondée sur la réciprocité écologique et commerciale."
+        },
+        {
+          "quote": "La voix de la France doit se faire entendre sur ces sujets dans les instances internationales afin que des interventions ciblées sur ces « super-pollueurs »",
+          "description": "Porter dans les instances internationales des interventions ciblées sur les « super-pollueurs »."
+        }
+      ]
+    },
+    {
+      "documentId": "nouvelle-energie-2026-10-file-nouvelle-energie-livre-noir-pages-20-24-inversees",
+      "page": 5,
+      "engagements": []
+    },
+    {
+      "documentId": "nouvelle-energie-2026-10-file-nouvelle-energie-livre-noir-pages-20-24-inversees",
+      "page": 11,
+      "engagements": [
+        {
+          "quote": "Réformer les prescriptions du SPANC en les fondant sur le risque réel du dispositif",
+          "description": "Fonder les prescriptions du SPANC sur le risque réel ; exempter les micro-stations sans méthane."
+        },
+        {
+          "quote": "La déclaration de zone en restriction hydrique vaut dérogation collective automatique, sans démarche individuelle",
+          "description": "Dérogation collective automatique aux cultures intermédiaires en zone de restriction hydrique."
+        },
+        {
+          "quote": "Présomption d’utilité des ouvrages existants à rôle hydraulique avéré",
+          "description": "Présomption d'utilité des ouvrages hydrauliques ; droit des riverains à entretenir seuils et vannes."
+        },
+        {
+          "quote": "Supprimer la visite médicale d’embauche pour les contrats de moins de trois mois sur des postes sans risque particulier",
+          "description": "Supprimer la visite médicale d'embauche des contrats de moins de trois mois sans risque."
+        },
+        {
+          "quote": "Exonération totale pendant les douze premiers mois",
+          "description": "Exonérer de cotisations les douze premiers mois d'une entreprise, puis cotisations sur revenus réels."
+        },
+        {
+          "quote": "Supprimer l’obligation de certificat annuel : le registre d’état civil signale automatiquement tout remariage à la caisse de retraite",
+          "description": "Supprimer le certificat annuel de non-remariage pour la pension de réversion."
+        },
+        {
+          "quote": "Supprimer l’exigence d’attestation de nationalité pour toute démarche présentée par un usager titulaire d’une carte nationale d’identité ou d’un passeport en cours de validité",
+          "description": "Supprimer l'attestation de nationalité pour les titulaires d'une CNI ou d'un passeport valides."
+        },
+        {
+          "quote": "Supprimer l’obligation légale de prise de 12 jours consécutifs avant le 31 octobre",
+          "description": "Supprimer l'obligation de 12 jours de congés consécutifs avant le 31 octobre."
+        },
+        {
+          "quote": "Créer par décret simple un statut de « cabinet de télémédecine »",
+          "description": "Créer un statut de cabinet de télémédecine exempté d'obligations de salle d'attente."
+        }
+      ]
+    },
+    {
+      "documentId": "nouvelle-energie-2026-10-legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026",
+      "page": 3,
+      "engagements": []
+    },
+    {
+      "documentId": "nouvelle-energie-2026-10-legacy-2026-06-discours-de-david-lisnard-a-bayeux-17062026",
+      "page": 13,
+      "engagements": []
+    },
+    {
+      "documentId": "nouvelle-energie-2026-10-david-lisnard-participera-t-il-a-une-primaire-de-la-droite",
+      "page": 1,
+      "engagements": []
+    },
+    {
+      "documentId": "nouvelle-energie-2026-10-david-lisnard-s-alliera-t-il-avec-le-rassemblement-national",
+      "page": 1,
+      "engagements": []
+    },
+    {
+      "documentId": "nouvelle-energie-2026-10-quel-candidat-a-une-vision-sur-l-intelligence-artificielle",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Il veut moins réglementer pour produire davantage",
+          "description": "Moins réglementer l'intelligence artificielle pour en produire davantage."
+        },
+        {
+          "quote": "investir dans le calcul",
+          "description": "Investir dans les infrastructures de calcul."
+        },
+        {
+          "quote": "il confiera à l’IA générative « l'instruction des dossiers, la vérification des pièces, la rédaction des actes »",
+          "description": "Faire de l'administration un utilisateur de l'IA générative."
+        },
+        {
+          "quote": "apprendre aux futurs adultes à exercer leur raison critique et leur créativité, et à « décoder le monde » plutôt qu’à coder",
+          "description": "Apprendre aux élèves à « décoder le monde » plutôt qu'à coder."
+        }
+      ]
+    },
+    {
+      "documentId": "nouvelle-energie-2026-10-questions-qui-soutient-david-lisnard",
+      "page": 1,
+      "engagements": []
+    },
+    {
+      "documentId": "nouvelle-energie-2026-10-questions-david-lisnard-veut-il-baisser-les-impots",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "les cotisations d’abord, pour 120 milliards d’euros rendus en salaire net",
+          "description": "Baisser les cotisations : 120 milliards d'euros rendus en salaire net."
+        },
+        {
+          "quote": "David Lisnard propose de baisser les impôts de production de 40 milliards d’euros, en commençant par la suppression de la C3S",
+          "description": "Baisser les impôts de production de 40 milliards d'euros, en commençant par supprimer la C3S."
+        },
+        {
+          "quote": "David Lisnard refuse la baisse d’impôt financée par la dette",
+          "description": "Pas de baisse d'impôt financée par la dette : baisser la dépense d'abord."
+        }
+      ]
+    },
+    {
+      "documentId": "nouvelle-energie-2026-10-lisnard-compte-t-il-lutter-contre-les-deserts-medicaux",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "ouvrir les vannes de la formation des médecins",
+          "description": "Former beaucoup plus de médecins."
+        },
+        {
+          "quote": "David Lisnard est opposé à la régulation de l’installation des médecins",
+          "description": "Pas de régulation de l'installation des médecins."
+        }
+      ]
+    },
+    {
+      "documentId": "nouvelle-energie-2026-10-veut-ameliorer-l-acces-aux-soins-hors-des-grandes-villes",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Il plaide pour que des campus universitaires soient de nouveau implantés dans des villes moyennes",
+          "description": "Implanter des campus universitaires de santé dans les villes moyennes."
+        },
+        {
+          "quote": "en élargissant les compétences des paramédicaux, en reconnaissant la prescription et le suivi autonome, en organisant un accès direct lorsque la compétence le justifie",
+          "description": "Élargir les compétences des paramédicaux, avec prescription et accès direct."
+        },
+        {
+          "quote": "en construisant une offre graduée de soins de premier recours",
+          "description": "Construire une offre graduée de soins de premier recours."
+        },
+        {
+          "quote": "Il demandait à l’État de sortir du « tout-fibre », y compris dans les zones peu denses, au profit d’une constellation satellitaire en orbite basse",
+          "description": "Très haut débit par constellation satellitaire plutôt que tout-fibre."
+        }
+      ]
+    },
+    {
+      "documentId": "nouvelle-energie-2026-10-candidat-veut-supprimer-les-agences-regionales-de-sante",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "David Lisnard propose de supprimer les agences régionales de santé",
+          "description": "Supprimer les agences régionales de santé."
+        },
+        {
+          "quote": "Il veut rendre aux maires la présidence des conseils d’administration des hôpitaux",
+          "description": "Rendre aux maires la présidence des conseils d'administration des hôpitaux."
+        },
+        {
+          "quote": "confier l’organisation locale aux préfets et aux élus",
+          "description": "Confier l'organisation locale de la santé aux préfets et aux élus."
+        },
+        {
+          "quote": "L’économie réalisée sur leurs effectifs servirait à la fois à réduire la dette et à mieux rémunérer les agents publics mal payés",
+          "description": "Affecter l'économie des ARS à la dette et à la rémunération des agents."
+        },
+        {
+          "quote": "une organisation territoriale simplifiée « sous la seule autorité des préfets de départements »",
+          "description": "Réorganiser l'État local sous l'autorité des préfets de département, en supprimant agences et directions régionales."
+        }
+      ]
+    },
+    {
+      "documentId": "nouvelle-energie-2026-10-questions-quel-candidat-veut-sauver-le-systeme-de-retraites",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Il propose de basculer progressivement vers un système composé aux deux tiers de répartition et pour un tiers de capitalisation collective obligatoire, amorcé par un investissement public temporaire",
+          "description": "Retraites : deux tiers de répartition, un tiers de capitalisation collective obligatoire."
+        }
+      ]
+    },
+    {
+      "documentId": "nouvelle-energie-2026-10-quel-candidat-propose-de-supprimer-l-aide-medicale-d-etat",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "David Lisnard propose de supprimer l’aide médicale d’État",
+          "description": "Supprimer l'aide médicale d'État."
+        },
+        {
+          "quote": "l’arrêt des versements aux personnes installées à l’étranger",
+          "description": "Cesser de verser les prestations non contributives aux personnes parties vivre à l'étranger."
+        },
+        {
+          "quote": "du retrait des aides sociales aux personnes condamnées pour délinquance",
+          "description": "Retirer les aides sociales aux personnes condamnées pour délinquance."
+        },
+        {
+          "quote": "David Lisnard propose de regrouper les aides en une allocation unique plafonnée à un pourcentage du SMIC",
+          "description": "Regrouper les aides en une allocation unique plafonnée à un pourcentage du SMIC."
+        }
+      ]
+    },
+    {
+      "documentId": "nouvelle-energie-2026-10-questions-quel-candidat-propose-le-cheque-education",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "supprimer la carte scolaire, donner aux parents la liberté de choisir l’établissement, et faire en sorte que le financement public suive ce choix",
+          "description": "Supprimer la carte scolaire ; le financement public suit le choix des parents."
+        },
+        {
+          "quote": "l’État proposerait des bourses sur critères sociaux et de performance scolaire",
+          "description": "Bourses sur critères sociaux et de performance scolaire."
+        },
+        {
+          "quote": "Ces connaissances seraient vérifiées par des examens nationaux à l’entrée en sixième, en troisième et à la sortie du lycée",
+          "description": "Examens nationaux en sixième, en troisième et à la sortie du lycée."
+        },
+        {
+          "quote": "les écoles disposant en contrepartie d’une plus grande autonomie de gestion",
+          "description": "Plus d'autonomie de gestion pour les écoles."
+        }
+      ]
+    },
+    {
+      "documentId": "nouvelle-energie-2026-10-questions-quel-candidat-veut-retablir-l-autorite-a-l-ecole",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "David Lisnard veut restaurer l’autorité de l’adulte à l’école",
+          "description": "Restaurer l'autorité de l'adulte à l'école."
+        },
+        {
+          "quote": "David Lisnard demande l’entrée au Panthéon de Samuel Paty",
+          "description": "Faire entrer Samuel Paty au Panthéon."
+        },
+        {
+          "quote": "les fondamentaux enseignés le matin et une éducation artistique et culturelle exigeante l’après-midi",
+          "description": "Fondamentaux le matin, éducation artistique et culturelle l'après-midi."
+        }
+      ]
+    },
+    {
+      "documentId": "nouvelle-energie-2026-10-media-legacy-2026-02-livret-agriculture",
+      "page": 4,
+      "engagements": []
+    },
+    {
+      "documentId": "nouvelle-energie-2026-10-media-legacy-2026-02-livret-agriculture",
+      "page": 10,
+      "engagements": []
+    },
+    {
+      "documentId": "nouvelle-energie-2026-10-media-legacy-2026-02-livret-agriculture",
+      "page": 11,
+      "engagements": []
+    }
+  ]
+}

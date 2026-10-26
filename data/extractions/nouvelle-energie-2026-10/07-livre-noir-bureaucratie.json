@@ -218,7 +218,12 @@
           "quote": "Un moratoire réglementaire sera signé à l’Élysée le jour même : toutes les normes en cours d’adoption seront gelées. Toutes les réglementations publiées dans les quatre-vingt-dix jours précédant l’élection suspendues le temps d’une revue d’utilité pilotée directement par la Présidence."
         }
       ],
-      "precision": "precise"
+      "precision": "precise",
+      "schedule": {
+        "effectiveDate": "2027-05-14",
+        "dateOrigin": "estimee",
+        "estimationRule": "Annoncée dès l'entrée en fonction (« le premier jour », « dès son arrivée au pouvoir ») : début du mandat retenu, le 14 mai 2027 (le mandat en cours s'achève le 13 mai 2027)"
+      }
     },
     {
       "theme": "institutions",

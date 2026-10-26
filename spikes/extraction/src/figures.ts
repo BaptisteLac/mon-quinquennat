@@ -61,14 +61,26 @@ export function claimedFigures(m: FigureFields): { where: string; value: number 
   return out;
 }
 
+/** Début du quinquennat retenu : le mandat en cours s'achève le 13 mai 2027. */
+export const START_OF_TERM = "2027-05-14";
+
+/** Citation qui annonce une mise en œuvre dès l'entrée en fonction. */
+const IMMEDIATE = /(le premier jour|le jour même|dès (son|mon|notre) arrivée au pouvoir|dès (son|mon|notre) élection|dès (l'|son |mon )entrée en fonctions?|dès le début du (quinquennat|mandat))/i;
+
+/** La date d'effet d'une mesure annoncée « le premier jour » ne peut pas être postérieure au début du mandat. */
+export function announcesImmediateStart(m: Pick<FigureFields, "sources" | "rationale" | "subMeasures">): boolean {
+  return allQuotes(m).some((q) => IMMEDIATE.test(q.quote.replace(/’/g, "'")));
+}
+
 export function checkFigures(m: FigureFields): CheckResult {
   const quoted = allQuotes(m).flatMap((q) => numbersIn(q.quote));
   const missing = claimedFigures(m).filter((f) => !supportedBy(f.value, quoted));
-  return missing.length === 0
+  const problems = missing.length ? [`absent des citations : ${missing.map((f) => `${f.value} (${f.where})`).join(", ")}`] : [];
+  // Erreur corrigée : « Le premier jour » publié avec la date par défaut (1er janvier 2028).
+  if (announcesImmediateStart(m) && m.schedule.effectiveDate > START_OF_TERM) {
+    problems.push(`date d'effet ${m.schedule.effectiveDate} postérieure au début du mandat, alors que la citation annonce une mise en œuvre immédiate`);
+  }
+  return problems.length === 0
     ? { id: "chiffres_fideles", passed: true }
-    : {
-        id: "chiffres_fideles",
-        passed: false,
-        detail: `absent des citations : ${missing.map((f) => `${f.value} (${f.where})`).join(", ")}`,
-      };
+    : { id: "chiffres_fideles", passed: false, detail: problems.join(" ; ") };
 }

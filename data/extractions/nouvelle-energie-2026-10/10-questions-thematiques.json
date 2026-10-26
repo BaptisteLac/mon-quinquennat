@@ -437,7 +437,12 @@
             "normal": "Les zones à faibles émissions seraient supprimées : plus de restriction de circulation liée à la vignette Crit'Air dans ces zones."
           }
         }
-      ]
+      ],
+      "schedule": {
+        "effectiveDate": "2027-05-14",
+        "dateOrigin": "estimee",
+        "estimationRule": "Annoncée dès l'entrée en fonction (« le premier jour », « dès son arrivée au pouvoir ») : début du mandat retenu, le 14 mai 2027 (le mandat en cours s'achève le 13 mai 2027)"
+      }
     },
     {
       "theme": "energie",
