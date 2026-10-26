@@ -24,11 +24,18 @@ const SITE: Record<string, { type: string; body: string | Uint8Array }> = {
 
 let server: Server;
 let base = "";
+/** Nombre de refus 403 restant à servir sur /programme/axe-1/ (protection anti-robots simulée). */
+let refusals = 0;
 
 beforeAll(async () => {
   server = createServer((req, res) => {
     const path = new URL(req.url ?? "/", "http://localhost").pathname;
     const page = SITE[path];
+    if (path === "/programme/axe-1/" && refusals > 0) {
+      refusals -= 1;
+      res.writeHead(403).end();
+      return;
+    }
     if (!page) {
       res.writeHead(404).end();
       return;
@@ -68,6 +75,16 @@ describe("crawl", () => {
     const urls = r.pages.map((p) => p.url.replace(base, ""));
     expect(urls).not.toContain("/wp-content/livret.pdf");
     expect(r.excludedLinks.map((u) => u.replace(base, ""))).toContain("/wp-content/livret.pdf");
+  });
+
+  it("réessaie une page refusée temporairement (403)", async () => {
+    refusals = 2;
+    const r = await crawl({ startUrls: [`${base}/programme/`], retryDelaysMs: [1, 1, 1], fetcher: httpFetcher() });
+    expect(r.pages.map((p) => p.url.replace(base, ""))).toContain("/programme/axe-1/");
+    refusals = 5;
+    const r2 = await crawl({ startUrls: [`${base}/programme/`], retryDelaysMs: [1], fetcher: httpFetcher() });
+    expect(r2.skipped).toContainEqual({ url: `${base}/programme/axe-1/`, reason: "HTTP 403" });
+    refusals = 0;
   });
 
   it("suit les préfixes ajoutés et respecte la limite de pages", async () => {

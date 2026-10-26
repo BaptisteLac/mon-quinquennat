@@ -35,6 +35,8 @@ export interface CrawlOptions {
   exclude?: readonly string[];
   maxPages?: number;
   delayMs?: number;
+  /** Refus temporaires (403/429 d'une protection anti-robots) : pause avant chaque nouvel essai. */
+  retryDelaysMs?: readonly number[];
   fetcher: Fetcher;
   now?: () => Date;
   log?: (message: string) => void;
@@ -107,6 +109,12 @@ export async function crawl(options: CrawlOptions): Promise<CrawlResult> {
     let res;
     try {
       res = await options.fetcher.fetch(url);
+      for (const wait of options.retryDelaysMs ?? []) {
+        if (res.status !== 403 && res.status !== 429) break;
+        log(`${res.status} ${url} : nouvel essai dans ${Math.round(wait / 1000)} s`);
+        await sleep(wait);
+        res = await options.fetcher.fetch(url);
+      }
     } catch (e) {
       result.skipped.push({ url, reason: e instanceof Error ? e.message : String(e) });
       continue;

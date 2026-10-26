@@ -32,6 +32,8 @@ const { values: args } = parseArgs({
     render: { type: "boolean", default: false },
     "max-pages": { type: "string", default: "200" },
     "delay-ms": { type: "string", default: "1000" },
+    // Pauses avant de réessayer une page refusée (403/429), en millisecondes.
+    "retry-delays-ms": { type: "string", default: "30000,90000" },
   },
 });
 if (!args.corpus || !/^[a-z0-9-]+$/.test(args.corpus) || !args.candidate || !args.start?.length) {
@@ -49,6 +51,7 @@ try {
     exclude: args.exclude,
     maxPages: Number(args["max-pages"]),
     delayMs: Number(args["delay-ms"]),
+    retryDelaysMs: args["retry-delays-ms"].split(",").filter(Boolean).map(Number),
     fetcher,
     log: (m) => console.log(m),
   });

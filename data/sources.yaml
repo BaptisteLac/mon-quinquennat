@@ -70,5 +70,6 @@ candidates:
       exclude:
         - "https://melenchon2027.fr/wp-content/uploads/2026/04/PROGRAMME-FRONT-POPULAIRE.pdf"
       render: true
+      delayMs: 5000         # le site renvoie des 403 (protection anti-robots) quand on enchaîne les pages
       watch: weekly
       volatile: []
