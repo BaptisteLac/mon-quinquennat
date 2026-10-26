@@ -1,14 +1,15 @@
 # Impôt sur le revenu calculé par le code officiel de la DGFiP (sources M publiées sur
-# gitlab.adullact.net/dgfip/ir-calcul), interprété par Mlang (github.com/MLanguage/mlang).
-# Sert de référence au calcul OpenFisca (test n°2). Déclenché par une modification des
-# déclarations exportées (spikes/impot-dgfip, hors main) ou à la main. Les résultats sont
+# gitlab.adullact.net/dgfip/ir-calcul, copie de Software Heritage), interprété par Mlang
+# (github.com/MLanguage/mlang), sur la dernière année de revenus publiée.
+# Sert de référence au calcul OpenFisca (test n°2) : les profils de référence sont exportés en
+# déclarations de cette année-là. Déclenché par spikes/impot-dgfip/request.json (hors main) ou à la main. Les résultats sont
 # commités sur la branche qui a déclenché le run.
 name: Impôt DGFiP
 
 on:
   push:
     branches-ignore: [main]
-    paths: [spikes/impot-dgfip/request.json, spikes/impot-dgfip/cas/**]
+    paths: [spikes/impot-dgfip/request.json]
   workflow_dispatch:
 
 permissions:
@@ -21,13 +22,13 @@ concurrency:
 env:
   # Version de Mlang : elle fixe aussi la version des sources M (sous-module ir-calcul).
   MLANG_REF: 66f6b37308c0dfeb3bb24c8af7952a522452a1af
-  # Année des revenus déclarés.
-  YEAR: "2025"
+  # Années de revenus que cette version de Mlang sait exécuter (dossiers m_ext/).
+  MLANG_YEARS: "2018,2019,2020,2021,2022,2023,2024,2025"
 
 jobs:
   run:
     runs-on: ubuntu-22.04
-    timeout-minutes: 90
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
@@ -35,39 +36,23 @@ jobs:
           repository: MLanguage/mlang
           ref: ${{ env.MLANG_REF }}
           path: mlang
-      - name: Accès réseau (diagnostic)
+      - name: Sources M de la DGFiP (Software Heritage)
+        id: sources
         run: |
-          for u in https://gitlab.adullact.net https://archive.softwareheritage.org/api/1/ https://framagit.org; do
-            echo "$u : $(curl -sS -o /dev/null -w '%{http_code}' --max-time 20 "$u" 2>&1 | tail -1)"
-          done
-      - name: Révision des sources M attendue par Mlang
-        id: rev
-        run: echo "rev=$(git -C mlang ls-tree HEAD ir-calcul | awk '{print $3}')" >> "$GITHUB_OUTPUT"
-      - name: Sources M en cache
-        id: cache-sources
-        uses: actions/cache@v4
+          # gitlab.adullact.net ne répond pas depuis GitHub Actions : copie archivée par Software Heritage.
+          python3 spikes/impot-dgfip/swh_fetch.py mlang/ir-calcul "$MLANG_YEARS" > sources.json
+          cat sources.json
+          echo "year=$(python3 -c 'import json;print(json.load(open("sources.json"))["annee"])')" >> "$GITHUB_OUTPUT"
+          echo "dir=$(python3 -c 'import json;print(json.load(open("sources.json"))["dossier"])')" >> "$GITHUB_OUTPUT"
+      - uses: astral-sh/setup-uv@v6
         with:
-          path: |
-            mlang/ir-calcul
-            mlang/ir-calcul.source
-          key: ir-calcul-${{ steps.rev.outputs.rev }}-${{ env.YEAR }}
-      - name: Sources M de la DGFiP
-        if: steps.cache-sources.outputs.cache-hit != 'true'
-        env:
-          REV: ${{ steps.rev.outputs.rev }}
+          version: "0.11.32"
+          enable-cache: true
+      - name: Déclarations des profils de référence (OpenFisca)
+        working-directory: spikes/openfisca
         run: |
-          # Forge actuelle, sinon copie archivée par Software Heritage (seulement les sources de l'année).
-          if timeout 90 git -C mlang submodule update --init ir-calcul; then
-            echo "ir-calcul: $REV (gitlab.adullact.net)" > mlang/ir-calcul.source
-          else
-            rm -rf mlang/ir-calcul
-            used=$(python3 spikes/impot-dgfip/swh_fetch.py "$REV" "M_SVN/$YEAR/code_m" mlang/ir-calcul)
-            echo "ir-calcul: $used, dossier M_SVN/$YEAR/code_m (archive.softwareheritage.org, origine gitlab.adullact.net/dgfip/ir-calcul ; révision attendue par Mlang : $REV)" > mlang/ir-calcul.source
-          fi
-      - name: Sources utilisées
-        run: |
-          cat mlang/ir-calcul.source
-          ls mlang/ir-calcul
+          uv sync --frozen
+          uv run python scripts/export_irj.py "${{ steps.sources.outputs.year }}"
       - name: Dépendances système
         run: |
           sudo apt-get update
@@ -83,31 +68,39 @@ jobs:
         run: opam exec -- make build
       - name: Calculer l'impôt des déclarations
         working-directory: mlang
+        env:
+          YEAR: ${{ steps.sources.outputs.year }}
+          SRC: ir-calcul/${{ steps.sources.outputs.dir }}
         run: |
           out="$GITHUB_WORKSPACE/spikes/impot-dgfip/resultats"
           rm -rf "$out" && mkdir -p "$out"
           {
-            echo "mlang: $MLANG_REF"
-            cat ir-calcul.source
-            echo "annee: $YEAR"
+            echo "mlang $MLANG_REF"
+            python3 -c 'import json;d=json.load(open("../sources.json"));print("ir-calcul", d["revision"] + ", dossier", d["dossier"], "(archive.softwareheritage.org, visite du", d["visite"] + ")")'
+            echo "revenus $YEAR"
           } > "$out/versions.txt"
+          # Même ordre que la fonction source_dir_sans_cibles_m des Makefile de Mlang.
+          files="$(find "$SRC" -name tgvI.m) $(find "$SRC" -name errI.m) $(find "$SRC" -name '*.m' ! -name 'err*.m' ! -name 'tgv*.m' ! -name cibles.m | sort)"
           for f in "$GITHUB_WORKSPACE"/spikes/impot-dgfip/cas/*.irj; do
             name=$(basename "$f" .irj)
-            opam exec -- make YEAR="$YEAR" TEST_FILE="$f" test_file > "$out/$name.log" 2>&1 || true
+            opam exec -- make YEAR="$YEAR" SOURCE_FILES="$files" TEST_FILE="$f" test_file > "$out/$name.log" 2>&1 || true
           done
-          # Définition des variables utilisées (cases saisies et montants restitués), pour vérifier les codes.
+          # Définition des cases saisies et des montants restitués, pour vérifier les codes.
           codes=$(cat "$GITHUB_WORKSPACE"/spikes/impot-dgfip/cas/*.irj | grep -E '^[A-Z0-9_]+/' | cut -d/ -f1 | sort -u)
-          src=$(find ir-calcul -path "*$YEAR*" -name tgvI.m | head -1)
-          echo "source: $src" > "$out/variables.txt"
           for c in $codes; do
-            grep -E "^(V_)?$c *:|alias $c *:" "$src" >> "$out/variables.txt" || echo "$c : introuvable" >> "$out/variables.txt"
+            grep -hE "^(V_)?$c *:|alias $c *:" "$SRC/tgvI.m" >> "$out/variables.txt" || echo "$c : introuvable" >> "$out/variables.txt"
           done
+      - name: Comparer à OpenFisca
+        working-directory: spikes/openfisca
+        run: uv run python scripts/compare_dgfip.py
       - name: Commiter les résultats
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -d spikes/impot-dgfip/resultats ]; then git add -f -A spikes/impot-dgfip/resultats; fi
+          for d in spikes/impot-dgfip/resultats spikes/impot-dgfip/cas; do
+            if [ -d "$d" ]; then git add -f -A "$d"; fi
+          done
           git commit -m "Impôt DGFiP : résultats du run ${{ github.run_id }}" || echo "Aucun changement"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push

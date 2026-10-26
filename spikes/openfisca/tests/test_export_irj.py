@@ -31,3 +31,12 @@ def test_format_irj_attend_minus_un_pour_lire_les_montants_calcules():
     text = irj("CAS", {"0AC": 1, "1AJ": 20000})
     assert text.splitlines()[:5] == ["#NOM", "CAS", "#ENTREES-PRIMITIF", "0AC/1", "1AJ/20000"]
     assert "NAPTIR/-1" in text and text.endswith("##\n")
+
+
+def test_annee_anterieure_reprend_les_memes_revenus():
+    p = Profile(**BASE, age=30, situationFamiliale="seul", enfants=[], situationPro="salarie_prive", revenusNetsMensuels=2000)
+    [d2023] = declarations(p, "2023")
+    [d2025] = declarations(p, "2025")
+    assert d2023["cases"]["0DA"] == d2025["cases"]["0DA"]
+    # Même brut ; le salaire imposable ne varie qu'avec les taux de cotisation de l'année.
+    assert abs(d2023["cases"]["1AJ"] - d2025["cases"]["1AJ"]) < 0.03 * d2025["cases"]["1AJ"]

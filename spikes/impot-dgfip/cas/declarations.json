@@ -1,6 +1,7 @@
 {
   "celibataire-smic-locataire": {
     "profil": "celibataire-smic-locataire",
+    "annee": 2023,
     "cases": {
       "0AC": 1,
       "0DA": 1996,
@@ -10,6 +11,7 @@
   },
   "couple-2-enfants-proprietaires": {
     "profil": "couple-2-enfants-proprietaires",
+    "annee": 2023,
     "cases": {
       "0AM": 1,
       "0DA": 1986,
@@ -18,10 +20,11 @@
       "1AJ": 29837,
       "1BJ": 23621
     },
-    "openfisca_impot_annuel": 644.0
+    "openfisca_impot_annuel": 829.0
   },
   "parent-isole-2-enfants-hlm": {
     "profil": "parent-isole-2-enfants-hlm",
+    "annee": 2023,
     "cases": {
       "0AC": 1,
       "0DA": 1990,
@@ -33,20 +36,22 @@
   },
   "retraite-seul-proprietaire": {
     "profil": "retraite-seul-proprietaire",
+    "annee": 2023,
     "cases": {
       "0AC": 1,
       "0DA": 1954,
-      "1AS": 19300
+      "1AS": 20063
     },
     "openfisca_impot_annuel": 0.0
   },
   "independant-micro-bnc": {
     "profil": "independant-micro-bnc",
+    "annee": 2023,
     "cases": {
       "0AC": 1,
       "0DA": 1991,
       "5HQ": 36000
     },
-    "openfisca_impot_annuel": 1046.0
+    "openfisca_impot_annuel": 1118.0
   }
 }
