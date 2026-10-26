@@ -44,6 +44,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f -A spikes/simulateurs/probe spikes/simulateurs/releves 2>/dev/null || true
+          for d in spikes/simulateurs/probe spikes/simulateurs/releves; do
+            if [ -d "$d" ]; then git add -f -A "$d"; fi
+          done
           git commit -m "Simulateurs officiels : résultats du run ${{ github.run_id }}" || echo "Aucun changement"
           git push
