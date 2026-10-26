@@ -13,7 +13,7 @@
 | Formule TypeScript de la liste blanche | `packages/formulas` (`retraite_age_depart`) | faite et testée ; barème officiel sourcé (service-public.gouv.fr F14043, vérifié le 14 août 2026), chaque ligne citée mot pour mot dans la page archivée |
 | Temps de calcul, 8 candidats × 1 profil | `scripts/bench.py` | **1,85 s** (médiane), 2,02 s (max) |
 | Service HTTP sans état + image Docker | `mq_calc/api.py`, `Dockerfile` | fait, testé en conteneur |
-| 5 profils de référence | `profiles/reference.json`, `scripts/run_reference.py` | calculés ; 13 montants officiels relevés sur 25 (prime d'activité, allocations familiales, aides au logement) |
+| 5 profils de référence | `profiles/reference.json`, `scripts/run_reference.py` | calculés ; comparés aux références officielles (13 montants relevés sur les simulateurs, impôt des 5 profils par le code de la DGFiP) |
 
 Montants produits (€/mois) : impôt sur le revenu (revenus 2025, payé en 2026, ramené au mois), prime d'activité, aides au logement, allocations familiales (octobre 2026).
 
@@ -21,7 +21,7 @@ Montants produits (€/mois) : impôt sur le revenu (revenus 2025, payé en 2026
 
 | Critère | Résultat |
 |---|---|
-| Écart ≤ 2 % ou ≤ 10 €/mois avec les simulateurs officiels | **oui pour les 13 montants relevés** (prime d'activité ×5, allocations familiales ×5, aides au logement des 3 locataires), écart maximal 1,87 €. Reste l'impôt sur le revenu (ci-dessous). |
+| Écart ≤ 2 % ou ≤ 10 €/mois avec les simulateurs officiels | **oui** : 13 montants relevés sur les simulateurs (prime d'activité ×5, allocations familiales ×5, aides au logement ×3), écart maximal 1,87 € ; impôt sur le revenu identique à l'euro près au code officiel de la DGFiP pour les 5 profils (revenus 2023, dernière année exécutable publiée). |
 | Réforme paramétrique fonctionnelle et testée | **oui** : baisser de 2 points le taux de la 2e tranche baisse l'impôt d'exactement 2 % de la tranche (à l'euro d'arrondi annuel près) ; réforme neutre sans effet ; paramètre hors liste blanche refusé. |
 | Temps de réponse < 2 s pour tous les candidats d'un profil | **oui, de justesse** sur 1 cœur : 1,85 s en médiane dans le cas défavorable (2 candidats sur 8 touchent la prime d'activité). |
 | Hébergement identifié, avec son coût | besoins mesurés (ci-dessous) ; coût à relever sur les grilles des hébergeurs (non joignables d'ici). |
@@ -122,10 +122,21 @@ Aides au logement (simulateur de la CAF, ressources nettes imposables des 12 der
 
 Le simulateur de la CAF « ne tient pas compte […] de la Réduction de Loyer de Solidarité (RLS) ». Pour un locataire HLM, la comparaison porte donc sur le montant avant RLS (`variableOpenFisca` dans `reference.json`). Le montant affiché reste celui versé après RLS (160,30 €), le loyer étant lui-même réduit de 45,68 €. Les deux propriétaires ne sont pas relevés : le simulateur ne couvre que les locataires (et l'accession en outre-mer).
 
+Impôt sur le revenu (code officiel de la DGFiP, `spikes/impot-dgfip`, workflow `impot-dgfip.yml`) : le simulateur d'impots.gouv.fr ne répond pas depuis GitHub Actions. Le workflow récupère les sources M publiées par la DGFiP (copie de Software Heritage, la forge d'origine ne répondant pas non plus), exporte les profils en déclarations 2042 et les calcule avec Mlang. Les sources publiques exécutables s'arrêtent aux revenus 2023 (les adaptations de Mlang pour 2024 et 2025 visent une version non publiée) : la comparaison porte sur 2023, à déclaration identique, et valide le moteur d'OpenFisca.
+
+| Profil | OpenFisca (€/an) | Code DGFiP (€/an) |
+|---|---|---|
+| Célibataire au SMIC | 0 | 0 |
+| Couple, deux enfants | 829 | 829 |
+| Parent isolé (case T), deux enfants | 0 | 0 |
+| Retraité, 69 ans (abattement personnes âgées) | 0 | 0 |
+| Indépendant micro-BNC | 1 118 | 1 118 |
+
+Erreur corrigée : sans l'année des revenus (`ANREV`), le code DGFiP ne calcule pas les âges et omettait l'abattement du retraité (208 € au lieu de 0) ; l'export la déclare (test).
+
 ## Reste à faire pour le feu vert
 
-1. Impôt sur le revenu : le simulateur d'impots.gouv.fr ne répond pas depuis GitHub Actions ; à relever autrement.
-2. Relever le coût de l'hébergement retenu.
+1. Relever le coût de l'hébergement retenu.
 
 ## Commandes
 

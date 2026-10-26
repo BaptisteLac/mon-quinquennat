@@ -33,6 +33,8 @@ Toute nouvelle décision s'ajoute ici (date, décision, raison).
 - **Programme en cours de réécriture (2026-10-26)** : quand le site officiel annonce une nouvelle version (cas de Jean-Luc Mélenchon : « L'Avenir en commun est en cours de réactualisation », version 2027 présentée les 6 et 7 novembre), on archive l'état actuel sans l'extraire, et la veille compare les collectes suivantes à cette archive. L'extraction se fait une fois, sur la version publiée. Raison : ne pas publier de mesures d'une version que la campagne a déclarée obsolète.
 - **Périmètre d'un programme (2026-10-26)** : documents publiés par la campagne pour l'élection de 2027 (programme, plans thématiques, documents de chiffrage). Un document d'une autre élection lié depuis le site (ex. programme du Nouveau Front populaire de 2024) n'en fait pas partie.
 
+- **Référence pour l'impôt sur le revenu (2026-10-26)** : le code de calcul publié par la DGFiP (sources M), exécuté par Mlang dans GitHub Actions, sur la dernière année de revenus publiée et exécutable (2023 aujourd'hui). Raison : le simulateur d'impots.gouv.fr n'est pas joignable depuis GitHub Actions, et aucune saisie manuelle. Le contrôle se relance sans intervention quand une nouvelle année est publiée.
+
 ## Design
 - Interface Pop BD, illustrations sticker à peau jaune unique — voir `docs/design-system.md`.
 - Avatar petit, par tranche d'âge × genre, bustes uniquement.
