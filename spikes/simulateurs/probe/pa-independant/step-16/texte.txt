@@ -50,34 +50,5 @@ Auto-entrepreneur
 Etudiant(e) salarié(e), stagiaire ou apprenti(e)
 En activité salariée
 Autre
-Votre secteur d'activité 
-Profession libérale
-Artisan
-Commerçant
-Autre
-Votre chiffre d'affaires brut des 3 mois suivants :
-Chiffre d'affaires pour
-JUIN 2026 
-Chiffre d'affaires pour
-JUILLET 2026 
-Chiffre d'affaires pour
-AOÛT 2026 
-Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité/maternité 
-Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour
-JUIN 2026 
-Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour
-JUILLET 2026 
-Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour
-AOÛT 2026 
-Revenus annuels de placement (intérêts, dividendes, plus-values...) ou du patrimoine (revenus fonciers...) 
-Revenus imposables de placement ou du patrimoine pour
-Année 2024 
-Prestations familiales et autres ressources perçues 
-Prestations familiales et autres ressources perçues pour
-JUIN 2026 
-Prestations familiales et autres ressources perçues pour
-JUILLET 2026 
-Prestations familiales et autres ressources perçues pour
-AOÛT 2026 
 PRECEDENT
 Mentions légales

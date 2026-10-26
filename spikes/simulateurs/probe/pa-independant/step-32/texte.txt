@@ -1,0 +1,88 @@
+	
+	
+
+MES SERVICES EN LIGNE
+
+SIMULATEUR PRIME D'ACTIVITE
+
+		
+Contenu principal de la page
+ACCÈS
+	1
+SITUATION
+phase en cours
+	2
+RÉSULTAT
+	
+Situation
+Vous
+en cours de saisie
+ Les champs signalés par un astérisque sont obligatoires
+Vous vivez 
+Seul(e)
+En couple
+Vous attendez un enfant 
+OUI
+NON
+Nombre d'enfant(s) ou de personne(s) à charge  
+0
+1
+2
+3
+4
+5 et +
+Vous (ou votre conjoint) êtes propriétaire de votre logement principal ou êtes logés gratuitement  
+OUI
+NON
+Allocation logement 
+Allocation logement pour
+JUIN 2026 
+Allocation logement pour
+JUILLET 2026 
+Allocation logement pour
+AOÛT 2026 
+Vous avez perçu l'allocation aux adultes handicapés (aah) 
+OUI
+NON
+Vous êtes 
+Travailleur indépendant
+Auto-entrepreneur
+Etudiant(e) salarié(e), stagiaire ou apprenti(e)
+En activité salariée
+Autre
+Votre secteur d'activité 
+Profession libérale
+Artisan
+Commerçant
+Autre
+Votre chiffre d'affaires brut des 3 mois suivants :
+Chiffre d'affaires pour
+JUIN 2026 
+Chiffre d'affaires pour
+JUILLET 2026 
+Chiffre d'affaires pour
+AOÛT 2026 
+Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité/maternité 
+Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour
+JUIN 2026 
+Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour
+JUILLET 2026 
+Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour
+AOÛT 2026 
+Revenus annuels de placement (intérêts, dividendes, plus-values...) ou du patrimoine (revenus fonciers...) 
+Revenus imposables de placement ou du patrimoine pour
+Année 2024 
+Prestations familiales et autres ressources perçues 
+Prestations familiales et autres ressources perçues pour
+JUIN 2026 
+Prestations familiales et autres ressources perçues pour
+JUILLET 2026 
+Prestations familiales et autres ressources perçues pour
+AOÛT 2026 
+Montants non saisis
+
+Vous n'avez saisi aucuns salaires, indemnités maladie et indemnités paternité/maternité. Nous considérons que le montant de chaque mois est égal à 0€.
+
+Fermer
+PRECEDENT SUIVANT
+Mentions légales

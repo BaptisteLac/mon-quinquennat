@@ -1,0 +1,31 @@
+	
+	
+
+MES SERVICES EN LIGNE
+
+SIMULATEUR PRIME D'ACTIVITE
+
+		
+Contenu principal de la page
+ACCÈS
+	1
+SITUATION
+phase en cours
+	2
+RÉSULTAT
+	
+Situation
+Vous
+informations déjà saisies
+	
+Conjoint(e)
+en cours de saisie
+	Personne 1
+à saisir
+	Personne 2
+à saisir
+ Les champs signalés par un astérisque sont obligatoires
+Date de naissance de votre conjoint(e) 
+format attendu JJ/MM/AAAA
+PRECEDENT
+Mentions légales

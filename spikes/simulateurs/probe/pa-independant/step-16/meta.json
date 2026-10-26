@@ -146,7 +146,7 @@
       "type": "text",
       "name": "allocationLogements[0].allocationLogementMoisMoins3",
       "id": "allocationLogementMoisMoins3",
-      "value": "",
+      "value": "0",
       "label": "Allocation logement pour JUIN 2026 Ce champ est obligatoire"
     },
     {
