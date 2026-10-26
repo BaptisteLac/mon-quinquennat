@@ -1,0 +1,1211 @@
+{
+  "requested": "https://www.scaleway.com/fr/tarifs/serverless/",
+  "final": "https://www.scaleway.com/fr/tarifs/serverless/",
+  "status": 200,
+  "title": "Serverless Pricing | Scaleway",
+  "iframes": [
+    "https://www.scaleway.com/fr/tarifs/serverless/"
+  ],
+  "links": [
+    {
+      "href": "https://www.scaleway.com/fr/tarifs/serverless/#navigation",
+      "text": "Aller à la navigation"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/tarifs/serverless/#login",
+      "text": "Aller à la connexion"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/tarifs/serverless/#main",
+      "text": "Aller au contenu principal"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/tarifs/serverless/#footer",
+      "text": "Aller au pied de page"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/product-availability-by-region/",
+      "text": "Focus du jour ! Découvrir les produits disponibles à Milan"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/",
+      "text": "Accueil"
+    },
+    {
+      "href": "https://www.scaleway.com/en/docs/",
+      "text": "Docs"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/blog/",
+      "text": "Blog"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/contact/",
+      "text": "Contact"
+    },
+    {
+      "href": "https://account.scaleway.com/login",
+      "text": "Log in"
+    },
+    {
+      "href": "https://account.scaleway.com/register?service=console",
+      "text": "Créez votre compte"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/contact/",
+      "text": "Contactez-nous"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/gpu-clusters/",
+      "text": "GPU ClustersRéservez une capacité en cluster dédiée pour vous garantir l'accès à des GPU pour les années à venir."
+    },
+    {
+      "href": "https://www.scaleway.com/fr/generative-apis/",
+      "text": "Generative APIs - ServerlessAccès par API aux derniers modèles d'Intelligence Artificielle. Hébergé en Europe"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/inference/",
+      "text": "Generative APIs - Dedicated DeploymentDéployez des modèles d'IA dans une infrastructure dédiée. Bénéficiez d'une sécurité sur mesure"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/model-as-a-service/",
+      "text": "Découvrir Model-as-a-Service"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/l40s-gpu-instance/",
+      "text": "L40S GPU InstanceAccélérez les applications d'IA avec le GPU L40S: plus rapide que le L4, moins cher que le H100 PCIe"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/l4-gpu-instance/",
+      "text": "L4 GPU InstanceOptimisez le potentiel de votre infrastructure d'IA grâce à une instance GPU polyvalente et rentable"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/h100/",
+      "text": "H100 GPU Instance Accélérez le développement des applications d’IA avec les instances GPU H100 SXM et H100 PCIe"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/b300-sxm/",
+      "text": "B300-SXM GPU Instances Repoussez les limites de la performance avec l'architecture Blackwell de NVIDIA"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/choose-the-right-gpu/",
+      "text": "Comparez nos Instances GPUExplorez et comparez toutes vos options"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/gpu-instances/",
+      "text": "Découvrir Instances GPU"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/general-purpose-instances/",
+      "text": "General Purpose InstancesL'équilibre parfait entre performance et coût pour une multitude de charges de travail"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/development-instances/",
+      "text": "Development InstancesIdéal pour créer, tester, et déployer des applications légères"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/compute-optimized-instances/",
+      "text": "Compute Optimized InstancesConçues pour la puissance de calcul brute et les applications intensives en CPU"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/memory-optimized-instances/",
+      "text": "Memory Optimized InstancesPensées pour les charges de travail gourmandes en données et mémoire vive"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/choose-the-right-instance/",
+      "text": "Comparez nos Instances CPUExplorez et comparez toutes vos options"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/virtual-instances/",
+      "text": "Découvrir Instances Virtuelles"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/b300-sxm/",
+      "text": "B300-SXMRepoussez les limites de la performance avec l'architecture Blackwell de NVIDIA"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/h100-sxm/",
+      "text": "H100-SXM GPU InstanceAccélérez le développement d'applications d'IA grâce aux instances GPU H100-SXM."
+    },
+    {
+      "href": "https://www.scaleway.com/fr/h100/",
+      "text": "H100 PCIe GPU InstancePuissance dédiée à l'inférence et au calibrage des modèles IA."
+    },
+    {
+      "href": "https://www.scaleway.com/fr/l4-gpu-instance/",
+      "text": "L4 GPU InstancePolyvalence et rentabilité pour votre infrastructure d'IA"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/l40s-gpu-instance/",
+      "text": "L40S GPU InstanceAccélérez les applications d'IA avec le GPU L40S: plus rapide que le L4, moins cher que le H100 PCIe"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/choose-the-right-gpu/",
+      "text": "Comparez nos Instances GPUExplorez et comparez toutes vos options"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/gpu-instances/",
+      "text": "Découvrir Instances GPU"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/object-storage/",
+      "text": "Object StorageStockage d'objets compatible Amazon S3, résilient Multi-AZ pour haute disponibilité"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/block-storage/",
+      "text": "Block StorageStockage fiable et flexible pour workloads exigeants"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/file-storage/",
+      "text": "File StorageNewFacilitez la collaboration avec un système de fichiers scalable et entièrement managé."
+    },
+    {
+      "href": "https://www.scaleway.com/fr/glacier-cold-storage/",
+      "text": "Glacier Cold StorageStockage de classe Cold Storage pour longue durée, sûr et idéal pour l'archivage"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/container-registry/",
+      "text": "Container RegistrySimplifiez le stockage, la gestion et le déploiement de vos images de conteneur"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/vpc/",
+      "text": "Virtual Private CloudSécurisez vos ressources sur un réseau privé régional résilient"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/vpc-peering/",
+      "text": "VPC PeeringNewCréez des connexions privées entre vos VPC."
+    },
+    {
+      "href": "https://www.scaleway.com/fr/ipam/",
+      "text": "IPAM (IP Address Manager)Centralisez et simplifiez la gestion de vos adresses IP Scaleway"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/public-gateway/",
+      "text": "Public GatewayUn point d’accès unique et sécurisé"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/site-to-site-vpn/",
+      "text": "Site-to-Site VPNÉtablissez des tunnels cryptés entre votre infrastructure et le cloud public Scaleway"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/scaleway-interlink/",
+      "text": "Scaleway InterLinkÉtablir une connexion hébergée de votre infrastructure à votre VPC Scaleway par l'intermédiaire du réseau d'un partenaire"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/edge-services/",
+      "text": "Edge ServicesExposez vos services HTTP sur Internet avec sécurité, fiabilité et efficacité"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/load-balancer/",
+      "text": "Load BalancerMise à l'échelle réseau et croissance assurées"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/waf/",
+      "text": "WAFProtégez vos applications Web en détectant et en bloquant de manière proactive les cybermenaces"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/kubernetes-kapsule/",
+      "text": "Kubernetes KapsuleKubernetes géré facile à utiliser pour les produits Scaleway"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/kubernetes-kosmos/",
+      "text": "Kubernetes KosmosKubernetes multi-cloud pour Scaleway et autres fournisseurs"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/container-registry/",
+      "text": "Container RegistryUn référentiel Docker intuitif"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/containers/",
+      "text": "Découvrir Containers"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/serverless-functions/",
+      "text": "Serverless FunctionsExécutez votre code sur le cloud facilement"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/serverless/",
+      "text": "Découvrir Serverless"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/serverless-containers/",
+      "text": "Serverless ContainersLancez vos conteneurs sur le cloud en une commande"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/serverless-jobs/",
+      "text": "Serverless JobsGérez vos tâches en lots dans le cloud sans soucis"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/managed-database-for-redistm/",
+      "text": "Managed Database for Redis®Bases de données Redis® à la demande"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/managed-postgresql-mysql/",
+      "text": "Managed Database for PostgreSQL and MySQLPour évolutivité et stockage adaptatif"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/managed-mongodb/",
+      "text": "Managed MongoDB®Conduisez votre propre base de données orientée document"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/cloud-database-solutions/",
+      "text": "Découvrir Cloud Databases"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/serverless-sql-database/",
+      "text": "Serverless SQL DatabaseSimplifiez la gestion des bases de données PostgreSQL"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/data-warehouse-for-clickhouser/",
+      "text": "Data Warehouse for ClickHouse®Interrogez de grandes quantités de données sans gérer de serveurs"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/cloud-essentials/",
+      "text": "Découvrir Cloud Essentials"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/data-warehouse-for-clickhouser/",
+      "text": "Data Warehouse pour ClickHouse®Interrogez de grandes quantités de données sans gérer de serveurs"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/data-orchestrator/",
+      "text": "Data OrchestratorAutomatisez, planifiez et gérez les flux de données entre différents systèmes et environnements."
+    },
+    {
+      "href": "https://www.scaleway.com/fr/clusters-pour-apache-sparktm/",
+      "text": "Clusters pour Apache Spark™Accélérez le traitement de très grands volumes de données grâce à une solution Apache Spark™ entièrement gérée"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/clusters-for-apache-kafkar/",
+      "text": "Clusters pour Apache Kafka®Diffusez vos données et événements en temps réel, sans effort, grâce à un service Apache Kafka entièrement géré et évolutif"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/nats/",
+      "text": "NATSCréez des applications client-serveur distribuées et évolutives"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/topics-and-events/",
+      "text": "Topics & EventsSimplifiez l'acheminement et la gestion des événements"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/queues/",
+      "text": "QueuesFacilitez la communication asynchrone entre différents microservices"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/iot-hub/",
+      "text": "IoT HubLe pont parfait entre les équipements connectés et l'infrastructure cloud"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/domain-names/",
+      "text": "Noms de DomaineEnregistrez et gérez facilement vos noms de domaine"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/web-hosting/",
+      "text": "Web HostingHébergement adapté à tous les usages"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/transactional-email-tem/",
+      "text": "Transactional Emails (TEM)Envoi facile d'emails transactionnels, haute délivrabilité"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/cockpit/",
+      "text": "CockpitSurveillance et analyse des performances simplifiées pour toutes vos ressources"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/audit-trail/",
+      "text": "Audit TrailNewAssurez la traçabilité et la sécurité en enregistrant les activités sur l'ensemble de vos ressources"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/iam/",
+      "text": "IAMGérez les accès à votre infrastructure de manière simple et précise"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/secret-manager/",
+      "text": "Secret ManagerCentralisez et protégez vos données sensibles"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/key-manager/",
+      "text": "Key ManagerAutomatisez la gestion de vos clés de chiffrement pour améliorer votre sécurité"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/quantum-as-a-service/",
+      "text": "Quantum as a ServiceLabsAllouez et programmez des Quantum Processing Units sans friction"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/unified-computing-service/",
+      "text": "Unified Computing ServiceLabsUn environnement cloud unifié pour vos calculs hybrides (CPU, GPU, QPU)"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/quantum-adoption-program/",
+      "text": "Quantum Adoption ProgramUne approche pragmatique pour préparer les leaders du secteur à l'ère quantique."
+    },
+    {
+      "href": "https://www.scaleway.com/fr/quantum-builders-program/",
+      "text": "Quantum Builder ProgramNewValidez vos algorithmes, accélérez vos expérimentations, préparez votre passage au quantique"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/cost-manager/",
+      "text": "Cost ManagerSuivez facilement votre consommation dans un outil tout-en-un"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/environmental-footprint-calculator/",
+      "text": "Environmental Footprint CalculatorSuivez avec précision votre impact environnemental et prenez des décisions éclairées"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/all-products/",
+      "text": "Découvrez tous les Produits"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/dedibox/start/",
+      "text": "StartMeilleur rapport prix-performance de tout le marché dès 4,99€/mois"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/dedibox/pro/",
+      "text": "ProLes serveurs de production, pour un équilibre parfait entre le traitement, la mémoire et le stockage"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/dedibox/core/",
+      "text": "CorePour votre infrastructure et vos applicatifs nécessitant beaucoup de ressources"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/dedibox/store/",
+      "text": "StorePour le stockage rapide, la sauvegarde et le streaming"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/dedibox/gpu/",
+      "text": "GPUDes GPU dédiés offrant stabilité et fiabilité des performances"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/dedibox/dedirack/",
+      "text": "DedirackHébergez votre matériel dans nos datacenters français sécurisés"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/dedibox-vps/",
+      "text": "Dedibox VPS60 villes dans le monde, dès 4,99 €/mois"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/dedibox/",
+      "text": "Découvrir Dedibox"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/elastic-metal/aluminium/",
+      "text": "AluminiumServeurs entièrement dédiés avec intégration cloud-native, au meilleur prix"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/elastic-metal/beryllium/",
+      "text": "BerylliumDes serveurs puissants, équilibrés et fiables pour vos applications en production"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/elastic-metal/iridium/",
+      "text": "IridiumServeur dédié puissant conçu pour gérer les applications à forte charge de travail"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/elastic-metal/lithium/",
+      "text": "LithiumUn stockage local maximal"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/elastic-metal/titanium/",
+      "text": "TitaniumPuissance et stabilité des GPU dédiés intégrés dans l'écosystème Scaleway"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/elastic-metal-rv1/",
+      "text": "RISC-VLes premiers serveurs RISC-V disponibles dans le cloud au monde"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/elastic-metal/",
+      "text": "Découvrir Elastic Metal"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/hello-m1/",
+      "text": "Mac Mini M1Profitez de l’expérience Mac mini en toute simplicité"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/mac-mini-m2/",
+      "text": "Mac Mini M2Effectuez vos tâches quotidiennes avec rapidité et fluidité"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/mac-mini-m2-pro/",
+      "text": "Mac Mini M2 ProPassez à la vitesse supérieure avec la puissance Pro"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/mac-mini-m4/",
+      "text": "Mac Mini M4La dernière puce Apple silicon pour les cas d'utilisations les plus intenses"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/mac-mini-m4-pro/",
+      "text": "Mac Mini M4 ProPensé pour l’IA et les workflows les plus complexes"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/apple-mac-mini/",
+      "text": "Découvrir Apple"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/public-sector-solutions/",
+      "text": "Secteur PublicNotre solution cloud est choisie par les gouvernements, les institutions publiques et de recherche, ainsi que les établissements d'enseignement supérieur"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/healthcare-and-life-sciences-solutions/",
+      "text": "Santé et Sciences de la VieDes solutions pilotées par l'IA, conformes au RGPD et certifiées HDS, pour accélérer l'innovation dans le domaine de la santé et des sciences de la vie"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/media-and-entertainment/",
+      "text": "Médias & DivertissementAccélérez votre mise sur le marché grâce à une meilleure évolutivité et fiabilité"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/e-commerce-retail-solutions/",
+      "text": "E-commerce & RetailGérez les pics de trafic, optimisez vos opérations et augmentez vos profits grâce à la prévision basée sur l'IA et à un support 24/7"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/financial-services-solutions/",
+      "text": "Services FinanciersNous répondons aux défis des banques, compagnies d'assurance, sociétés de gestion et startups fintech"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/solutions-for-industries/",
+      "text": "Secteur IndustrielDurable, évolutif et résilient - accélérez la transformation numérique, optimisez les opérations et améliorez l'expérience client"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/tech-solutions/",
+      "text": "Innovation TechnologiqueAccélérez l'innovation tech et vos projets IA avec un cloud évolutif et un bon rapport coût/efficacité"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/gaming-cloud-solutions/",
+      "text": "GamingDéveloppez des jeux avec des performances optimisées, un contrôle des coûts et une innovation sans compromis"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/programme-startup/",
+      "text": "Apply for Startup ProgramBénéficiez d'une prise en charge pouvant atteindre 36 000 € pour vos services cloud, d'un accompagnement gratuit par des architectes solutions et rejoignez les 2400 startups de la communauté Scaleway"
+    },
+    {
+      "href": "https://www.scaleway.com/en/startup-program/founders-program/",
+      "text": "Programme FoundersJusqu'à 1 000 € de crédits cloud utilisables pendant un an sur nos produits multi-cloud"
+    },
+    {
+      "href": "https://www.scaleway.com/en/startup-program/early-stage-program/",
+      "text": "Programme Early StageDestiné aux startups en phase pré-amorçage à amorçage. Pendant six mois, la startup bénéficie de jusqu'à 9 000 € de crédits cloud et d'un accompagnement technique"
+    },
+    {
+      "href": "https://www.scaleway.com/en/startup-program/growth-stage-program/",
+      "text": "Programme Growth StageDu stade seed à la série A, ce programme offre une collaboration limitée à un an. Bénéficiez de jusqu'à 36 000 € de crédits cloud et d'un support technique 24/7"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/data-and-ai-platform/",
+      "text": "Plateforme Data & AIUne expérience unifiée et fluide en matière de données et d'IA"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/ai-solutions/",
+      "text": "Solutions IAAccélérez vos projets d'intelligence artificielle de A à Z"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/cloud-storage-solutions/",
+      "text": "Solutions de Stockage CloudAdaptez performance, sécurité et coût à chacun de vos usages"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/kubernetes-solutions/",
+      "text": "Solutions KubernetesApprenez et développez vos applications conteneurisées avec un Kubernetes géré"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/solutions-scalables-avec-serverless/",
+      "text": "Solutions Scalables avec ServerlessConstruisez et déployez des applications évolutives et rentables"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/managed-web-hosting/",
+      "text": "Hébergement Web ManagéGérez votre présence sur le web en quelques clics pour développer votre activité grâce à une solution d'hébergement web conviviale"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/all-products/",
+      "text": "Tous les Produits"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/product-availability-by-region/",
+      "text": "Disponibilité des Produits par Région"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/product-updates/",
+      "text": "Nouveautés Produits"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/betas/",
+      "text": "Betas"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/scaleway-landing-zone/",
+      "text": "Landing ZoneNew"
+    },
+    {
+      "href": "https://www.scaleway.com/en/docs/changelog/",
+      "text": "Changelog"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/blog/",
+      "text": "Blog"
+    },
+    {
+      "href": "https://slack.scaleway.com/",
+      "text": "Slack Community"
+    },
+    {
+      "href": "https://feature-request.scaleway.com/",
+      "text": "Feature Requests"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/scaleway-learning/",
+      "text": "Scaleway Learning"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/events/",
+      "text": "Events"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/carrieres/",
+      "text": "Carrières"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/a-propos/",
+      "text": "A Propos"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/news/",
+      "text": "News"
+    },
+    {
+      "href": "https://www.scaleway.com/en/marketplace/",
+      "text": "Marketplace"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/temoignages-clients/",
+      "text": "Temoignages Clients"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/leadership-environnemental/",
+      "text": "Leadership Environmental"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/security-and-compliance/",
+      "text": "Sécurité et ConformitéNew"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/partners-program/",
+      "text": "Partners Program"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/trouver-un-partenaire/",
+      "text": "Trouver un Partenaire"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/partner-application/",
+      "text": "Partner Application"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/tarifs/",
+      "text": "Tarifs"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/developer-api/",
+      "text": "Scaleway API"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/cli/",
+      "text": "Scaleway CLI"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/terraform/",
+      "text": "Terraform"
+    },
+    {
+      "href": "https://www.scaleway.com/en/docs/",
+      "text": "Lire la Documentation"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/",
+      "text": "Accueil"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/tarifs/",
+      "text": "Tarifs"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/tarifs/serverless/#serverless-functions",
+      "text": "Serverless Functions"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/tarifs/serverless/#serverless-containers",
+      "text": "Serverless Containers"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/tarifs/serverless/#serverless-jobs",
+      "text": "Serverless Jobs"
+    },
+    {
+      "href": "https://www.scaleway.com/en/docs/serverless-containers/",
+      "text": "Serverless products documentation"
+    },
+    {
+      "href": "https://www.scaleway.com/en/docs/serverless-functions/faq/#how-am-i-billed-for-serverless-functions",
+      "text": "FAQ Billing Functions"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/serverless-functions/",
+      "text": "Consulter la page du produit"
+    },
+    {
+      "href": "https://account.scaleway.com/register/?service=console",
+      "text": "Créez votre compte"
+    },
+    {
+      "href": "https://www.scaleway.com/en/docs/serverless-containers/faq/#how-am-i-billed-for-serverless-containers",
+      "text": "FAQ Billing Containers"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/serverless-containers/",
+      "text": "Consulter la page du produit"
+    },
+    {
+      "href": "https://account.scaleway.com/register/?service=console",
+      "text": "Créez votre compte"
+    },
+    {
+      "href": "https://www.scaleway.com/en/docs/serverless-jobs/faq/#how-am-i-billed-for-serverless-jobs",
+      "text": "FAQ Billing Jobs"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/serverless-jobs/",
+      "text": "Consulter la page du produit"
+    },
+    {
+      "href": "https://account.scaleway.com/register/?service=console",
+      "text": "Créez votre compte"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/all-products/",
+      "text": "All Products"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/betas/",
+      "text": "Betas"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/bare-metal/",
+      "text": "Bare Metal"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/dedibox/",
+      "text": "Dedibox"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/elastic-metal/",
+      "text": "Elastic Metal"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/virtual-instances/",
+      "text": "Instances virtuelles"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/gpu-instances/",
+      "text": "GPU Instances"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/containers/",
+      "text": "Containers"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/object-storage/",
+      "text": "Object Storage"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/block-storage/",
+      "text": "Block Storage"
+    },
+    {
+      "href": "https://www.scaleway.com/en/docs/",
+      "text": "Documentation"
+    },
+    {
+      "href": "https://www.scaleway.com/en/docs/changelog/",
+      "text": "Changelog"
+    },
+    {
+      "href": "https://www.scaleway.com/en/blog/",
+      "text": "Blog"
+    },
+    {
+      "href": "https://feature-request.scaleway.com/",
+      "text": "Feature Requests"
+    },
+    {
+      "href": "https://slack.scaleway.com/",
+      "text": "Slack Community"
+    },
+    {
+      "href": "https://www.scaleway.com/en/product-availability-by-region/",
+      "text": "Disponibilité des produits par région"
+    },
+    {
+      "href": "https://console.scaleway.com/support/create/",
+      "text": "Créer un ticket"
+    },
+    {
+      "href": "https://console.scaleway.com/support/abuses/create/",
+      "text": "Report Abuse"
+    },
+    {
+      "href": "https://status.scaleway.com/",
+      "text": "Status"
+    },
+    {
+      "href": "https://console.online.net/fr/login?ajs_aid=ad98a7d9-93d1-4f5d-b8e2-96cae8b89552",
+      "text": "Dedibox Console online.net"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/support/",
+      "text": "Support"
+    },
+    {
+      "href": "https://ultraviolet.scaleway.com/6dd9b5c45/p/62b4e2-ultraviolet",
+      "text": "Kit de communication"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/a-propos/",
+      "text": "A propos"
+    },
+    {
+      "href": "https://www.scaleway.com/en/marketplace/",
+      "text": "Marketplace"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/events/",
+      "text": "Events"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/leadership-environnemental/",
+      "text": "Leadership environnemental"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/responsabilite-sociale/",
+      "text": "Responsabilité sociale"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/security-and-compliance/",
+      "text": "Sécurité et Conformité"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/modele-de-responsabilite-partage/",
+      "text": "Modèle de responsabilité partagé"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/news/",
+      "text": "News"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/carrieres/",
+      "text": "Carrières"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/scaleway-learning/",
+      "text": "Scaleway Learning"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/temoignages-clients/",
+      "text": "Temoignages clients"
+    },
+    {
+      "href": "https://labs.scaleway.com/fr/",
+      "text": "Labs"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/",
+      "text": ""
+    },
+    {
+      "href": "https://www.linkedin.com/company/scaleway/",
+      "text": "Scaleway sur LinkedIn"
+    },
+    {
+      "href": "https://www.youtube.com/@scaleway-cloud",
+      "text": "Scaleway sur YouTube"
+    },
+    {
+      "href": "https://x.com/Scaleway/",
+      "text": "Scaleway sur X"
+    },
+    {
+      "href": "https://www.instagram.com/scaleway/",
+      "text": "Scaleway sur Instagram"
+    },
+    {
+      "href": "https://slack.scaleway.com/",
+      "text": "Scaleway sur Slack"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/contrats/",
+      "text": "Contrats"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/mentions-legales/",
+      "text": "Mentions Légales"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/politique-confidentialite/",
+      "text": "Politique de Confidentialité"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/cookie/",
+      "text": "Cookies"
+    },
+    {
+      "href": "https://security.scaleway.com/",
+      "text": "Trust Center"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/accessibility/",
+      "text": "Déclaration D'accessibilité"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/conditions/sla/",
+      "text": "Accords de Niveau de Service"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/sitemap/",
+      "text": "Plan du Site"
+    },
+    {
+      "href": "https://www.scaleway.com/fr/politique-confidentialite/",
+      "text": "Politique d’utilisation des cookies"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "locale-switcher-_R_2bp9d6H1_",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "close-sidebar-button",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    }
+  ],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://www.scaleway.com/fr/tarifs/serverless/",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "POST",
+      "url": "https://sentry-par.scaleway.com/api/183/envelope/?sentry_version=7&sentry_key=fb5d4b8f57d022356af94cee9872bec9&sentry_client=sentry.javascript.nextjs%2F10.75.3",
+      "resourceType": "fetch",
+      "postData": "{\"sent_at\":\"2026-10-26T14:51:50.608Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.75.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"1e0f56f4c15d45a19f55960ac9122fb5\",\"init\":true,\"started\":\"2026-10-26T14:51:50.301Z\",\"timestamp\":\"2026-10-26T14:51:50.608Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"v2.47.6.2026.10.261110\",\"environment\":\"production\",\"user_agent\":\"MonQuinquennat-ReleveSimulateurs/0.1 (+https://github.com/BaptisteLac/mon-quinquennat)\"}}"
+    },
+    {
+      "method": "POST",
+      "url": "https://sentry-par.scaleway.com/api/183/envelope/?sentry_version=7&sentry_key=fb5d4b8f57d022356af94cee9872bec9&sentry_client=sentry.javascript.nextjs%2F10.75.3",
+      "resourceType": "fetch",
+      "postData": "{\"sent_at\":\"2026-10-26T14:51:50.609Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.75.3\"}}\n{\"type\":\"session\"}\n{\"sid\":\"4bb74cbf63a04be495d234323f0cd0fb\",\"init\":true,\"started\":\"2026-10-26T14:51:50.608Z\",\"timestamp\":\"2026-10-26T14:51:50.608Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"v2.47.6.2026.10.261110\",\"environment\":\"production\",\"user_agent\":\"MonQuinquennat-ReleveSimulateurs/0.1 (+https://github.com/BaptisteLac/mon-quinquennat)\"}}"
+    },
+    {
+      "method": "GET",
+      "url": "https://nuage02.scaleway.com/sourceConfig/?p=npm&v=3.34.2&build=modern&writeKey=2z2THi96C2UKfQoTFW8YroSbiMF&lockIntegrationsVersion=true&lockPluginsVersion=true",
+      "resourceType": "xhr",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://nuage02.scaleway.com/sourceConfig",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://proxy.ab.scaleway.com/api/features/sdk-akxtu9YUJ9oprLpa",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.scaleway.com/_next/data/My_BUAPDpN9E2vJFd6jOA/fr/product-availability-by-region.json?slug=fr&slug=product-availability-by-region",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.scaleway.com/_next/data/My_BUAPDpN9E2vJFd6jOA/fr.json?slug=fr",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.scaleway.com/_next/data/My_BUAPDpN9E2vJFd6jOA/fr/tarifs.json?slug=fr&slug=tarifs",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.scaleway.com/_next/data/My_BUAPDpN9E2vJFd6jOA/fr.json",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.scaleway.com/_next/data/My_BUAPDpN9E2vJFd6jOA/fr/tarifs.json?slug=tarifs",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.scaleway.com/_next/data/My_BUAPDpN9E2vJFd6jOA/fr/tarifs/serverless.json?slug=tarifs&slug=serverless",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.scaleway.com/_next/data/My_BUAPDpN9E2vJFd6jOA/fr/serverless-functions.json?slug=fr&slug=serverless-functions",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.scaleway.com/_next/data/My_BUAPDpN9E2vJFd6jOA/fr/serverless-containers.json?slug=fr&slug=serverless-containers",
+      "resourceType": "fetch",
+      "postData": null
+    }
+  ]
+}

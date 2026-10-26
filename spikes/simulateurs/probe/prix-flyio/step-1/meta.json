@@ -1,0 +1,916 @@
+{
+  "requested": null,
+  "final": "https://docs.fly.io/about/pricing",
+  "status": null,
+  "title": "Fly.io Resource Pricing - Fly.io",
+  "iframes": [
+    "https://docs.fly.io/about/pricing"
+  ],
+  "links": [
+    {
+      "href": "https://docs.fly.io/llms.txt",
+      "text": "/llms.txt"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#content-area",
+      "text": "Skip to main content"
+    },
+    {
+      "href": "https://docs.fly.io/",
+      "text": "Fly.io home page"
+    },
+    {
+      "href": "https://docs.fly.io/unmanaged-postgres",
+      "text": "Fly Postgres (Unmanaged)"
+    },
+    {
+      "href": "https://docs.fly.io/about/discontinued-plans",
+      "text": "Discontinued Plans"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing",
+      "text": "Fly.io Resource Pricing"
+    },
+    {
+      "href": "https://docs.fly.io/about/billing",
+      "text": "Fly.io Billing"
+    },
+    {
+      "href": "https://docs.fly.io/about/cost-management",
+      "text": "Cost Management on Fly.io"
+    },
+    {
+      "href": "https://docs.fly.io/about/free-trial",
+      "text": "Fly.io Free Trial"
+    },
+    {
+      "href": "https://docs.fly.io/about/support",
+      "text": "Support"
+    },
+    {
+      "href": "https://docs.fly.io/about/healthcare",
+      "text": "Healthcare apps on Fly"
+    },
+    {
+      "href": "https://docs.fly.io/about/extensions",
+      "text": "Fly.io Extensions Program"
+    },
+    {
+      "href": "https://docs.fly.io/reference/extensions_api",
+      "text": "Provisioning Fly.io Extensions"
+    },
+    {
+      "href": "https://docs.fly.io/about/merch",
+      "text": "Fly.io Merchandise"
+    },
+    {
+      "href": "https://docs.fly.io/about/open-source",
+      "text": "Fly.io and Open Source"
+    },
+    {
+      "href": "https://docs.fly.io/about/brand",
+      "text": "Using Our Brand"
+    },
+    {
+      "href": "https://fly.io/pricing/",
+      "text": "Pricing"
+    },
+    {
+      "href": "https://docs.fly.io/about/support",
+      "text": "Support"
+    },
+    {
+      "href": "https://fly.io/app/sign-in/",
+      "text": "Log In"
+    },
+    {
+      "href": "https://fly.io/app/sign-up/?s=docs",
+      "text": "Sign Up"
+    },
+    {
+      "href": "https://docs.fly.io/getting-started",
+      "text": "Fly docs"
+    },
+    {
+      "href": "https://docs.fly.io/api/machines",
+      "text": "Machines API"
+    },
+    {
+      "href": "https://docs.fly.io/sprites",
+      "text": "Sprite docs"
+    },
+    {
+      "href": "https://docs.fly.io/sprites/api/connectors/list-connectors",
+      "text": "Sprites API"
+    },
+    {
+      "href": "https://docs.fly.io/",
+      "text": "Fly.io home page"
+    },
+    {
+      "href": "https://fly.io/pricing/",
+      "text": "Pricing"
+    },
+    {
+      "href": "https://docs.fly.io/about/support",
+      "text": "Support"
+    },
+    {
+      "href": "https://fly.io/app/sign-in/",
+      "text": "Log In"
+    },
+    {
+      "href": "https://fly.io/app/sign-up/?s=docs",
+      "text": "Sign Up"
+    },
+    {
+      "href": "https://fly.io/app/sign-up/?s=docs",
+      "text": "Sign Up"
+    },
+    {
+      "href": "https://docs.fly.io/getting-started",
+      "text": "Fly docs"
+    },
+    {
+      "href": "https://docs.fly.io/api/machines",
+      "text": "Machines API"
+    },
+    {
+      "href": "https://docs.fly.io/sprites",
+      "text": "Sprite docs"
+    },
+    {
+      "href": "https://docs.fly.io/sprites/api/connectors/list-connectors",
+      "text": "Sprites API"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#everything-we-bill-for",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#started-fly-machines",
+      "text": "Started Fly Machines"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#data-transfer-pricing",
+      "text": "data transfer pricing"
+    },
+    {
+      "href": "https://docs.fly.io/postgres#pricing",
+      "text": "Managed Postgres pricing"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#what-does-a-typical-app-cost",
+      "text": "​"
+    },
+    {
+      "href": "https://fly.io/calculator/",
+      "text": "pricing calculator"
+    },
+    {
+      "href": "https://docs.fly.io/launch/autostop-autostart",
+      "text": "auto-stop"
+    },
+    {
+      "href": "https://docs.fly.io/about/cost-management",
+      "text": "Cost Management"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#a-small-web-app-with-managed-postgres",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#a-discord-bot-or-background-worker-running-24/7",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#an-app-running-in-three-regions",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#data-transfer-pricing",
+      "text": "data transfer pricing"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#is-there-a-free-tier",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/about/free-trial",
+      "text": "free trial"
+    },
+    {
+      "href": "https://docs.fly.io/about/discontinued-plans",
+      "text": "Discontinued Plans"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#how-it-works",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/about/billing#unified-billing",
+      "text": "Linked Organizations"
+    },
+    {
+      "href": "https://docs.fly.io/about/billing",
+      "text": "Billing"
+    },
+    {
+      "href": "https://docs.fly.io/about/billing#payment-options",
+      "text": "credit card"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#compute",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/about/billing#machine-billing",
+      "text": "Machine billing"
+    },
+    {
+      "href": "https://docs.fly.io/machines/cpu-performance",
+      "text": "CPU performance"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#started-fly-machines",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/machines",
+      "text": "Fly Machine"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#stopped-fly-machines",
+      "text": "​"
+    },
+    {
+      "href": "https://containerd.io/",
+      "text": "containerd"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#machine-reservation-blocks",
+      "text": "​"
+    },
+    {
+      "href": "https://fly.io/dashboard",
+      "text": "dashboard"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#managed-postgres",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/postgres#pricing",
+      "text": "here"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#persistent-storage-volumes",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#volumes",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/volumes",
+      "text": "Fly Volumes"
+    },
+    {
+      "href": "https://docs.fly.io/about/billing#volume-billing",
+      "text": "Volume billing"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#volume-snapshots",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/about/billing#volume-snapshot-billing",
+      "text": "Volume Snapshot billing"
+    },
+    {
+      "href": "https://docs.fly.io/volumes/snapshots#set-or-change-the-snapshot-retention-period",
+      "text": "adjusted"
+    },
+    {
+      "href": "https://docs.fly.io/volumes/snapshots#disable-automatic-daily-snapshots",
+      "text": "disabled"
+    },
+    {
+      "href": "https://fly.io/dashboard/personal/billing",
+      "text": "dashboard"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#network-prices",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#anycast-ip-addresses",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/networking/services#shared-ipv4",
+      "text": "shared IPv4 address"
+    },
+    {
+      "href": "https://docs.fly.io/networking/services#ipv6",
+      "text": "Anycast IPv6"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#managed-ssl-certificates",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#data-transfer-pricing",
+      "text": "​"
+    },
+    {
+      "href": "https://fly.io/organizations",
+      "text": "Organizations page"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#static-egress-ips-for-machines",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#support",
+      "text": "​"
+    },
+    {
+      "href": "https://community.fly.io/",
+      "text": "Community support"
+    },
+    {
+      "href": "https://docs.fly.io/about/support",
+      "text": "Support at Fly.io"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#fly-kubernetes",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/kubernetes",
+      "text": "Fly Kubernetes"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#compute",
+      "text": "compute"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#persistent-storage-volumes",
+      "text": "Fly volumes"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#extensions",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/tigris",
+      "text": "Tigris Object Storage"
+    },
+    {
+      "href": "https://docs.fly.io/upstash/redis",
+      "text": "Upstash Redis"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#data-transfer-pricing",
+      "text": "data transfer pricing"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#unsupported-products",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#unmanaged-fly-postgres-unsupported",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/unmanaged-postgres",
+      "text": "Fly Postgres"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#compute",
+      "text": "Machine price"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#persistent-storage-volumes",
+      "text": "volume price"
+    },
+    {
+      "href": "https://docs.fly.io/unmanaged-postgres/managing/scaling",
+      "text": "scale your Fly Postgres Machines"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#legacy-plans",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/about/discontinued-plans",
+      "text": "Discontinued Plans"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#related-reading",
+      "text": "​"
+    },
+    {
+      "href": "https://docs.fly.io/about/billing",
+      "text": "Billing for Fly.io"
+    },
+    {
+      "href": "https://docs.fly.io/about/cost-management",
+      "text": "Cost Management"
+    },
+    {
+      "href": "https://docs.fly.io/about/free-trial",
+      "text": "Free Trial"
+    },
+    {
+      "href": "https://docs.fly.io/security/org-roles-permissions",
+      "text": "Organization Roles & Permissions"
+    },
+    {
+      "href": "https://docs.fly.io/apps/fine-tune-apps",
+      "text": "Optimize Compute Costs: Fine‑tune your app"
+    },
+    {
+      "href": "https://docs.fly.io/about/discontinued-plans",
+      "text": "Previous"
+    },
+    {
+      "href": "https://docs.fly.io/about/billing",
+      "text": "Fly.io BillingUnderstand how Fly.io bills each organization monthly: Machine, volume and snapshot charges, invoices, unified billing, payment options, and account deletion.Next"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#everything-we-bill-for",
+      "text": "Everything we bill for"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#what-does-a-typical-app-cost",
+      "text": "What does a typical app cost?"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#a-small-web-app-with-managed-postgres",
+      "text": "A small web app with Managed Postgres"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#a-discord-bot-or-background-worker-running-24%2F7",
+      "text": "A Discord bot or background worker running 24/7"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#an-app-running-in-three-regions",
+      "text": "An app running in three regions"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#is-there-a-free-tier",
+      "text": "Is there a free tier?"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#how-it-works",
+      "text": "How it works"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#compute",
+      "text": "Compute"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#started-fly-machines",
+      "text": "Started Fly Machines"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#stopped-fly-machines",
+      "text": "Stopped Fly Machines"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#machine-reservation-blocks",
+      "text": "Machine reservation blocks"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#managed-postgres",
+      "text": "Managed Postgres"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#persistent-storage-volumes",
+      "text": "Persistent Storage Volumes"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#volumes",
+      "text": "Volumes"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#volume-snapshots",
+      "text": "Volume Snapshots"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#network-prices",
+      "text": "Network prices"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#anycast-ip-addresses",
+      "text": "Anycast IP addresses"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#managed-ssl-certificates",
+      "text": "Managed SSL certificates"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#data-transfer-pricing",
+      "text": "Data transfer pricing"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#static-egress-ips-for-machines",
+      "text": "Static Egress IPs for Machines"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#support",
+      "text": "Support"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#fly-kubernetes",
+      "text": "Fly Kubernetes"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#extensions",
+      "text": "Extensions"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#unsupported-products",
+      "text": "Unsupported Products"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#unmanaged-fly-postgres-unsupported",
+      "text": "Unmanaged Fly Postgres (Unsupported)"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#legacy-plans",
+      "text": "Legacy plans"
+    },
+    {
+      "href": "https://docs.fly.io/about/pricing#related-reading",
+      "text": "Related reading"
+    },
+    {
+      "href": "https://fly.io/app/sign-in/",
+      "text": "Log In"
+    },
+    {
+      "href": "https://fly.io/app/sign-up/?s=docs",
+      "text": "Sign Up"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Switch to system theme"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Switch to light theme"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Switch to dark theme"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "search-bar-entry",
+      "value": "",
+      "label": "Open search"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "assistant-entry",
+      "value": "",
+      "label": "Toggle assistant panel"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "search-bar-entry",
+      "value": "",
+      "label": "Open search"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "assistant-entry",
+      "value": "",
+      "label": "Toggle assistant panel"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "theme-preference-menu-trigger",
+      "value": "",
+      "label": "Change theme preference"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "search-bar-entry-mobile",
+      "value": "",
+      "label": "Open search"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "assistant-entry-mobile",
+      "value": "",
+      "label": "Toggle assistant panel"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "More actions"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Expand image: Illustration by Annie Ruygt of Frankie the hot air balloon demonstrating a pricing chart on a whiteboard"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "",
+      "id": "region-select",
+      "value": [
+        "ams=Amsterdam, Netherlands (ams)",
+        "iad=Ashburn, Virginia (US) (iad)",
+        "ord=Chicago, Illinois (US) (ord)",
+        "dfw=Dallas, Texas (US) (dfw)",
+        "fra=Frankfurt, Germany (fra)",
+        "jnb=Johannesburg, South Africa (jnb)",
+        "lhr=London, United Kingdom (lhr)",
+        "lax=Los Angeles, California (US) (lax)",
+        "cdg=Paris, France (cdg)",
+        "sjc=San Jose, California (US) (sjc)",
+        "gru=São Paulo, Brazil (gru)",
+        "ewr=Secaucus, NJ (US) (ewr)",
+        "sin=Singapore, Singapore (sin)",
+        "arn=Stockholm, Sweden (arn)",
+        "syd=Sydney, Australia (syd)",
+        "nrt=Tokyo, Japan (nrt)",
+        "yyz=Toronto, Canada (yyz)"
+      ],
+      "label": "Region:"
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": "",
+      "id": "chat-assistant-textarea",
+      "value": "",
+      "label": "Ask a question..."
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Send message"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Maximize assistant panel"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Close assistant panel"
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": "",
+      "id": "chat-assistant-textarea",
+      "value": "",
+      "label": "Ask a question..."
+    },
+    {
+      "tag": "input",
+      "type": "file",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Add attachment"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Send message"
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": "",
+      "id": "",
+      "value": "x",
+      "label": ""
+    }
+  ],
+  "calls": []
+}
