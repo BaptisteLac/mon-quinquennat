@@ -1,0 +1,54 @@
+# Veille hebdomadaire des programmes (data/sources.yaml) depuis GitHub Actions.
+# Nouvelle collecte, comparaison avec la dernière collecte exploitée ; si le fond a changé, la
+# collecte et le rapport sont proposés en PR (branche veille/<date>) pour une session d'extraction.
+name: Veille des programmes
+
+on:
+  schedule:
+    - cron: "17 5 * * 1" # lundi 05:17 UTC
+  workflow_dispatch:
+    inputs:
+      candidate:
+        description: "Limiter à un candidat (ex. c-01)"
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: veille
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - id: watch
+        working-directory: spikes/extraction
+        env:
+          CHROMIUM_PATH: /usr/bin/google-chrome
+        run: npm run watch -- ${{ inputs.candidate && format('--candidate {0}', inputs.candidate) || '' }}
+      - name: Proposer les changements en PR
+        if: steps.watch.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CORPORA: ${{ steps.watch.outputs.corpora }}
+        run: |
+          branch="veille/$(date -u +%Y-%m-%d)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          for c in $CORPORA; do git add -f "data/archives/$c" "data/veille/$c.md" "data/veille/$c.json"; done
+          git commit -m "Veille : changements dans $CORPORA"
+          git push -u origin "$branch"
+          body=$(for c in $CORPORA; do cat "data/veille/$c.md"; echo; done)
+          gh pr create --title "Veille : changements dans $CORPORA" --body "$body" --label veille || \
+            gh pr create --title "Veille : changements dans $CORPORA" --body "$body"

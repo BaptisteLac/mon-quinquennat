@@ -11,7 +11,8 @@
     "extract": "tsx scripts/extract.ts",
     "score": "tsx scripts/score.ts",
     "ingest": "tsx scripts/ingest.ts",
-    "veille": "tsx scripts/veille.ts"
+    "veille": "tsx scripts/veille.ts",
+    "watch": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 tsx scripts/watch.ts"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^4.0.87",
