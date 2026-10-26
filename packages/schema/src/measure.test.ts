@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { Computation, Condition, Measure, Profile, avatarAgeBand, childAgeBand, isPublishable } from "./measure.js";
+import { Computation, Condition, Measure, Profile, avatarAgeBand, childAgeBand, isPublishable } from "./measure.ts";
 
 const validMeasure = {
   id: "m-001",

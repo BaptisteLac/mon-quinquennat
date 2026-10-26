@@ -45,6 +45,13 @@ Toute nouvelle décision s'ajoute ici (date, décision, raison).
 
 - **Feu vert des deux tests de faisabilité (2026-10-26)** : test n°1 avec réserve (paramètres justes 92,9 % sur 14 mesures chiffrées, cause corrigée ; bilan refait sur le programme suivant), test n°2 sur ses quatre critères. `apps/web` peut commencer.
 
+- **Plan de construction du site (2026-10-26)** : `docs/plan.md`, jalons 0 à 6, tranche verticale (personnage → candidats → frise → ticket) avant les écrans secondaires.
+- **Socle du site (2026-10-26)** : Next.js 16 (Turbopack), pages statiques générées au build à partir des JSON publiés, validés par Zod (une donnée invalide fait échouer le build). Le paquet `schema` importe ses fichiers avec l'extension `.ts` (`allowImportingTsExtensions`, tous les paquets sont en `noEmit`) : Turbopack ne sait pas résoudre `./x.js` vers `./x.ts`.
+- **Polices auto-hébergées (2026-10-26)** : Bricolage Grotesque, DM Sans et DM Mono servies par le site (`@fontsource`), aucun appel à Google Fonts depuis le navigateur du visiteur.
+- **Badges de forme (2026-10-26)** : tirés au sort une seule fois par candidat (générateur cryptographique, formes libres seulement), écrits dans `data/badges.json` et jamais modifiés ensuite. Le tirage est fait par le workflow de collecte quand un candidat entre dans l'outil ; le build échoue si un candidat publié n'a pas de badge.
+- **Nature d'une mesure (2026-10-26)**, même vocabulaire sur tous les écrans : **Chiffrée** (motif plein, au moins un effet calculé : barème, formule ou estimation), **Qualitative** (motif hachuré, règle sans montant calculable), **Floue** (pointillés, `precision: floue`), suivie de la voie juridique quand elle est connue (« Chiffrée · loi de finances »). La légende « Loi à voter » de la maquette `R6-certitude` devient « Qualitatives ».
+- **Pas d'emplacement fictif à l'écran (2026-10-26)** : une donnée absente masque son bloc (compte à rebours du 1er tour tant que la date n'est pas fixée par décret, compteur de quinquennats vécus tant qu'il n'existe pas), un lien vers un écran pas encore construit n'est pas affiché (« Copie archivée », « Historique », pages Méthode et Mentions légales).
+
 ## Design
 - Interface Pop BD, illustrations sticker à peau jaune unique — voir `docs/design-system.md`.
 - Avatar petit, par tranche d'âge × genre, bustes uniquement.
@@ -61,6 +68,7 @@ Toute nouvelle décision s'ajoute ici (date, décision, raison).
 - Variantes de maquettes B, C, D et « fusion » : seules les versions A sont retenues.
 
 ## Proposé, à valider
+- **Hébergement du site** : Vercel, offre gratuite (Next.js et images OG natifs, aperçu de chaque PR). À confirmer au jalon 6 avec les conditions d'usage de l'offre gratuite.
 - **Collecte web des programmes** (les partis publient des sites à onglets, pas de PDF) : robot Playwright limité au domaine officiel, clic sur les onglets, extraction du texte avec ses titres, archivage par page (HTML, texte, capture, sha256, Internet Archive), diff par section.
 - **Citation localisée par page web + chemin de section** au lieu d'un numéro de page PDF ; lien vers le site officiel avec la phrase surlignée (`#:~:text=`).
 - **Contrôle des chiffres** : tout nombre d'une mesure doit figurer dans sa citation, sinon la mesure est `floue`.

@@ -1,0 +1,71 @@
+/* Jetons du design system (docs/design-system.md). */
+:root {
+  --ink: #111111;
+  --yellow: #ffd23f;
+  --cream: #efeee8;
+  --white: #ffffff;
+  --lavender: #c7b8ff;
+  --mint: #9be3c8;
+  --peach: #ffb38a;
+  --text-2: #3a3a36;
+  --muted: #8a8a84;
+  --on-ink-2: #bdbdb6;
+
+  --font-display: "Bricolage Grotesque", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+  --font-mono: "DM Mono", monospace;
+
+  --stroke: 2.5px;
+  --stroke-thin: 2px;
+  --radius-sm: 12px;
+  --radius: 14px;
+  --radius-lg: 16px;
+  --shadow-cta: 4px 4px 0 var(--yellow);
+  --gutter: 20px;
+  --page-max: 560px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--ink);
+}
+a:hover {
+  color: #444;
+}
+
+:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
