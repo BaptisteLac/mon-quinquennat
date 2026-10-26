@@ -1,5 +1,5 @@
 {
-  "run": 15,
+  "run": 16,
   "targets": [
     {
       "id": "al-celibataire",
@@ -67,6 +67,28 @@
         },
         {
           "wait": 2000
+        },
+        {
+          "fillCss": "#SALAIRE_0_montant",
+          "value": "18026"
+        },
+        {
+          "press": "Tab"
+        },
+        {
+          "wait": 1000
+        },
+        {
+          "clickCss": "label[for=sitro_0_SITPRO_ACT_INCONNUE]"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "#btn-suivant"
+        },
+        {
+          "wait": 4000
         }
       ]
     },
@@ -148,6 +170,28 @@
         },
         {
           "wait": 2000
+        },
+        {
+          "fillCss": "#SALAIRE_0_montant",
+          "value": "21134"
+        },
+        {
+          "press": "Tab"
+        },
+        {
+          "wait": 1000
+        },
+        {
+          "clickCss": "label[for=sitro_0_SITPRO_ACT_INCONNUE]"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "#btn-suivant"
+        },
+        {
+          "wait": 4000
         }
       ]
     },
@@ -217,6 +261,28 @@
         },
         {
           "wait": 2000
+        },
+        {
+          "fillCss": "#REVENU_TRAVAILLEUR_INDEPENDANT_0_montant",
+          "value": "23760"
+        },
+        {
+          "press": "Tab"
+        },
+        {
+          "wait": 1000
+        },
+        {
+          "clickCss": "label[for=sitro_0_SITPRO_ACT_INCONNUE]"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "#btn-suivant"
+        },
+        {
+          "wait": 4000
         }
       ]
     }
