@@ -69,7 +69,18 @@ def fetch_tree(directory: str, dest: Path) -> int:
 def main() -> None:
     rev, path, dest = sys.argv[1], sys.argv[2].strip("/"), Path(sys.argv[3])
     used, root = revision_directory(rev)
-    sub = call(f"{API}/directory/{root}/{path}/")
+    try:
+        sub = call(f"{API}/directory/{root}/{path}/")
+    except urllib.error.HTTPError:
+        # Chemin absent : montrer l'arborescence pour corriger.
+        names = [e["name"] for e in call(f"{API}/directory/{root}/")]
+        print(f"{path} absent de la révision {used}. Racine : {names}", file=sys.stderr)
+        for top in names:
+            if top.startswith("M_SVN") or top.startswith("sources"):
+                sub = call(f"{API}/directory/{root}/{top}/")
+                entries = call(f"{API}/directory/{sub['target']}/") if sub["type"] == "dir" else []
+                print(f"{top}/ : {[e['name'] for e in entries]}", file=sys.stderr)
+        raise
     target = sub[0]["target"] if isinstance(sub, list) else sub["target"]
     n = fetch_tree(target, dest / path)
     print(f"{n} fichiers de {path} récupérés.", file=sys.stderr)
