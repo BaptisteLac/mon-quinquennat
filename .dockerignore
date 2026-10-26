@@ -1,0 +1,7 @@
+# Seule image construite depuis la racine : le service de calcul (calc/Dockerfile).
+*
+!calc/pyproject.toml
+!calc/uv.lock
+!calc/mq_calc
+!data/measures
+**/__pycache__

@@ -19,17 +19,12 @@ jobs:
       - run: npm test
       - name: Build du site
         run: npm run build -w apps/web
-      - name: Parcours dans un navigateur (Playwright)
-        working-directory: apps/web
-        run: |
-          npx playwright install --with-deps chromium
-          npm run e2e
 
   calc:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: spikes/openfisca
+        working-directory: calc
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v6
@@ -39,3 +34,39 @@ jobs:
       - run: uv sync --frozen
       - run: uv run pytest -q
       - run: uv run python scripts/run_reference.py
+
+  # Le site et le vrai service de calcul ensemble : parcours dans un navigateur et route /api/ticket.
+  integration:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.11.32"
+          enable-cache: true
+      - run: npm ci
+      - name: Démarrer le service de calcul
+        working-directory: calc
+        run: |
+          uv sync --frozen
+          # Lancé hors de `uv run` : un processus uv en arrière-plan garderait le verrou du cache,
+          # et le nettoyage de setup-uv en fin de job l'attendrait jusqu'à l'échec.
+          nohup .venv/bin/gunicorn --preload -w 1 --timeout 120 -b 127.0.0.1:8000 mq_calc.api:app > ../calc.log 2>&1 &
+          for i in $(seq 1 90); do curl -sf 127.0.0.1:8000/sante && exit 0; sleep 2; done
+          cat ../calc.log; exit 1
+      - name: Build du site
+        run: npm run build -w apps/web
+      - name: Parcours et tickets (Playwright)
+        working-directory: apps/web
+        env:
+          CALC_URL: http://127.0.0.1:8000
+        run: |
+          npx playwright install --with-deps chromium
+          npm run e2e
+      - name: Arrêter le service de calcul
+        if: always()
+        run: pkill -f 'gunicor[n].*mq_calc' || true  # [n] : le motif ne correspond pas à ce shell

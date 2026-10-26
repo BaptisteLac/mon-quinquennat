@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { Computation, Condition, Measure, Profile, avatarAgeBand, childAgeBand, isPublishable } from "./measure.ts";
+import { Computation, Condition, Measure, Profile, Ticket, avatarAgeBand, childAgeBand, isPublishable } from "./measure.ts";
 
 const validMeasure = {
   id: "m-001",
@@ -165,5 +165,28 @@ describe("avatarAgeBand", () => {
     [65, "65_plus"],
   ])("%i ans → %s", (age, band) => {
     expect(avatarAgeBand(age)).toBe(band);
+  });
+});
+
+describe("Ticket", () => {
+  const ticket = {
+    candidateId: "c-07",
+    baselineRulesYear: 2026,
+    horizonYear: 2032,
+    lines: [],
+    solde: { sureOnly: 0, low: 0, high: 0 },
+    cumul5ans: { low: 0, high: 0 },
+    pendingMeasures: 0,
+    hypotheses: [],
+    uncomputed: [],
+  };
+  it("accepte un ticket vide", () => {
+    expect(Ticket.safeParse(ticket).success).toBe(true);
+  });
+  it("un montant non calculé renvoie à ses mesures, et une ligne à sa date d'effet", () => {
+    expect(Ticket.safeParse({ ...ticket, uncomputed: [{ ticketLine: "apl", reason: "Loyer non renseigné.", measureIds: [] }] }).success).toBe(false);
+    const line = { ticketLine: "impot_revenu", section: "portefeuille", nature: "sur", value: { low: 1, high: 1 }, measureIds: ["m-001"] };
+    expect(Ticket.safeParse({ ...ticket, lines: [line] }).success).toBe(false);
+    expect(Ticket.safeParse({ ...ticket, lines: [{ ...line, effectiveDate: "2028-01-01" }] }).success).toBe(true);
   });
 });

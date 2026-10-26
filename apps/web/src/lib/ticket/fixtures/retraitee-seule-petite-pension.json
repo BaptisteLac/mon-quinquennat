@@ -1,0 +1,61 @@
+{
+  "profile": {
+    "age": 72,
+    "genre": "femme",
+    "situationFamiliale": "seul",
+    "enfants": [],
+    "situationPro": "retraite",
+    "revenusNetsMensuels": 400,
+    "pensionMensuelle": 400,
+    "logement": "proprio_sans_credit",
+    "lieuDeVie": "rural",
+    "mobilite": "voiture_thermique"
+  },
+  "calcul": {
+    "actuel": {
+      "hypotheses": [
+        "Zone des aides au logement déduite du lieu de vie, commune non renseignée : zone_3 (≈)."
+      ],
+      "montants": {
+        "aides_logement": 0.0,
+        "allocations_familiales": 0.0,
+        "impot_revenu": 0.0,
+        "minimum_vieillesse": 643.59,
+        "prime_activite": 0.0
+      },
+      "nonCalcules": {}
+    },
+    "candidats": {
+      "c-01": {
+        "hypotheses": [
+          "Zone des aides au logement déduite du lieu de vie, commune non renseignée : zone_3 (≈)."
+        ],
+        "mesures": {
+          "aides_logement": [
+            "m-9dd1526ae0f6"
+          ],
+          "impot_revenu": [
+            "m-342ce4e68e35"
+          ],
+          "minimum_vieillesse": [
+            "m-9dd1526ae0f6"
+          ],
+          "prime_activite": [
+            "m-9dd1526ae0f6"
+          ]
+        },
+        "montants": {
+          "aides_logement": 0.0,
+          "allocations_familiales": 0.0,
+          "impot_revenu": 0.0,
+          "minimum_vieillesse": 600.0,
+          "prime_activite": 0.0
+        },
+        "nonCalcules": {}
+      }
+    },
+    "corpus": {
+      "c-01": "nouvelle-energie-2026-10"
+    }
+  }
+}

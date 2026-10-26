@@ -4,7 +4,7 @@ from pathlib import Path
 
 from mq_calc.profile import Profile
 
-SCHEMA = Path(__file__).resolve().parents[3] / "packages/schema/json/profile.schema.json"
+SCHEMA = Path(__file__).resolve().parents[2] / "packages/schema/json/profile.schema.json"
 
 
 def _norm(node: dict) -> dict:

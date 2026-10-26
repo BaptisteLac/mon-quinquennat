@@ -155,7 +155,7 @@ Rien : les quatre critères sont remplis. À mesurer au déploiement : temps de 
 ## Commandes
 
 ```bash
-cd spikes/openfisca
+cd calc
 uv sync
 uv run pytest -q
 uv run python scripts/run_reference.py

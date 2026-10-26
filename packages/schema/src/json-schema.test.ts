@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
-import { profileJsonSchema, reformLevers } from "./json-schema.js";
+import { profileJsonSchema, reformLevers } from "./json-schema.ts";
 
 describe("profile.schema.json", () => {
   it("est à jour (sinon : npm run -w packages/schema export-json-schema)", () => {

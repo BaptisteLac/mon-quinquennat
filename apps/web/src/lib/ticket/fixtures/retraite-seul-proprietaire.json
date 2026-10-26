@@ -1,0 +1,58 @@
+{
+  "profile": {
+    "age": 72,
+    "genre": "homme",
+    "situationFamiliale": "seul",
+    "enfants": [],
+    "situationPro": "retraite",
+    "revenusNetsMensuels": 0,
+    "pensionMensuelle": 1600,
+    "logement": "proprio_sans_credit",
+    "lieuDeVie": "rural",
+    "mobilite": "voiture_thermique",
+    "codeCommune": "18197"
+  },
+  "calcul": {
+    "actuel": {
+      "hypotheses": [],
+      "montants": {
+        "aides_logement": 0.0,
+        "allocations_familiales": 0.0,
+        "impot_revenu": 0.0,
+        "minimum_vieillesse": 0.0,
+        "prime_activite": 0.0
+      },
+      "nonCalcules": {}
+    },
+    "candidats": {
+      "c-01": {
+        "hypotheses": [],
+        "mesures": {
+          "aides_logement": [
+            "m-9dd1526ae0f6"
+          ],
+          "impot_revenu": [
+            "m-342ce4e68e35"
+          ],
+          "minimum_vieillesse": [
+            "m-9dd1526ae0f6"
+          ],
+          "prime_activite": [
+            "m-9dd1526ae0f6"
+          ]
+        },
+        "montants": {
+          "aides_logement": 0.0,
+          "allocations_familiales": 0.0,
+          "impot_revenu": 0.0,
+          "minimum_vieillesse": 0.0,
+          "prime_activite": 0.0
+        },
+        "nonCalcules": {}
+      }
+    },
+    "corpus": {
+      "c-01": "nouvelle-energie-2026-10"
+    }
+  }
+}

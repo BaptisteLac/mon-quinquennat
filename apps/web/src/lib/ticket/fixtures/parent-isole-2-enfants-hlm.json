@@ -1,0 +1,71 @@
+{
+  "profile": {
+    "age": 36,
+    "genre": "femme",
+    "situationFamiliale": "seul",
+    "enfants": [
+      {
+        "anneeNaissance": 2022
+      },
+      {
+        "anneeNaissance": 2014
+      }
+    ],
+    "situationPro": "salarie_prive",
+    "revenusNetsMensuels": 1700,
+    "logement": "locataire_hlm",
+    "lieuDeVie": "ville_moyenne",
+    "mobilite": "voiture_thermique",
+    "codeCommune": "36044",
+    "loyerMensuel": 450
+  },
+  "calcul": {
+    "actuel": {
+      "hypotheses": [
+        "Enfants nés le 1er juillet de leur année de naissance (≈).",
+        "Personne seule avec enfants : parent isolé (case T), sans pension alimentaire."
+      ],
+      "montants": {
+        "aides_logement": 160.3,
+        "allocations_familiales": 152.24,
+        "impot_revenu": 0.0,
+        "minimum_vieillesse": 0.0,
+        "prime_activite": 183.86
+      },
+      "nonCalcules": {}
+    },
+    "candidats": {
+      "c-01": {
+        "hypotheses": [
+          "Enfants nés le 1er juillet de leur année de naissance (≈).",
+          "Personne seule avec enfants : parent isolé (case T), sans pension alimentaire."
+        ],
+        "mesures": {
+          "aides_logement": [
+            "m-9dd1526ae0f6"
+          ],
+          "impot_revenu": [
+            "m-342ce4e68e35"
+          ],
+          "minimum_vieillesse": [
+            "m-9dd1526ae0f6"
+          ],
+          "prime_activite": [
+            "m-9dd1526ae0f6"
+          ]
+        },
+        "montants": {
+          "aides_logement": 160.3,
+          "allocations_familiales": 152.24,
+          "impot_revenu": 0.0,
+          "minimum_vieillesse": 0.0,
+          "prime_activite": 183.86
+        },
+        "nonCalcules": {}
+      }
+    },
+    "corpus": {
+      "c-01": "nouvelle-energie-2026-10"
+    }
+  }
+}

@@ -39,12 +39,14 @@ Point de départ : les deux tests de faisabilité ont leur feu vert (2026-10-26)
 - Livré : `/personnage`, `/personnage/vie`, `/personnage/affiner`, `/candidats`, reprise sur l'accueil ; parcours dans le navigateur (`src/lib/journey.ts`), questions conditionnelles du profil, commune par code postal, route `/api/sante` (variable `CALC_URL`), avatars de `DA-retenue`, tests Playwright en CI (dont : aucune requête hors du site).
 - Reste pour plus tard : « Ou vivre la vie d'un Français tiré au hasard » (il faut des profils tirés d'une distribution INSEE sourcée, jalon 5) ; photos des candidats (droits) ; le bouton de `/candidats` mène à la frise au jalon 3, où le mystère est tiré au sort.
 
-### Jalon 2 — Moteur de ticket (en cours)
+### Jalon 2 — Moteur de ticket (livré, déploiement à configurer)
 - `calc/` : le service OpenFisca passe du spike au service (image, tests, déploiement Scaleway).
 - `POST /api/ticket` : profil → montants actuels et par candidat (OpenFisca, formules de la liste blanche), effets qualitatifs filtrés par `appliesTo`, solde en fourchette, part « dont certain », cumul sur 5 ans selon les dates d'effet.
 - Tests sur les profils de référence ; aucun chiffre produit hors OpenFisca, formules ou estimations ≈ sourcées.
+- Livré : `calc/` (lit les mesures publiées, renvoie leur version), `src/lib/ticket/` (conditions, assemblage, client du service), `/api/ticket`, test d'intégration en CI (site + vrai service), workflow `calc-image.yml`.
+- Reste : créer le compte Scaleway et ses réglages GitHub (`calc/README.md`) pour que le déploiement se fasse ; formules `revalorisation_pension`, `smic_mensuel_net` et estimations ≈ quand une mesure publiée en aura besoin.
 
-### Jalon 3 — Frise et sources
+### Jalon 3 — Frise et sources (en cours)
 - `A-couloirs` (frise 2027 → 2032), `S1-source` (d'où vient ce chiffre), `F1-fiche-mesure`, `X1-calcul`, `X2-erreur`, `T0-vide`.
 
 ### Jalon 4 — Récap et partage

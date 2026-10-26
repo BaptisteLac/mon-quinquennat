@@ -1,7 +1,7 @@
 [project]
-name = "mq-openfisca-spike"
+name = "mq-calc"
 version = "0.0.0"
-description = "Test de faisabilité n°2 : calcul des montants d'un profil avec OpenFisca-France"
+description = "Service de calcul : montants d'un profil avec OpenFisca-France, législation actuelle et réformes des candidats"
 requires-python = ">=3.11,<3.14"
 dependencies = [
   "openfisca-france==176.1.3",

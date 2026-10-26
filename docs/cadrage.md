@@ -24,6 +24,8 @@ Hypothèse de simulation : l'utilisateur est un électeur français (aucune ques
 - Solde affiché en fourchette, avec la part « dont certain ».
 - Comparé aux règles actuelles, « une fois toutes les mesures appliquées », plus un cumul sur 5 ans qui tient compte des dates d'application (annoncées ou estimées).
 - Le financement est montré : si une hausse de TVA finance une baisse d'impôt, les deux sont sur le ticket.
+- Une ligne du portefeuille est l'écart, pour le profil, d'un montant calculé par OpenFisca entre les règles actuelles et celles du candidat ; elle renvoie aux mesures dont les leviers touchent ce montant. Le cumul sur 5 ans part de la date d'effet la plus tardive de ces mesures.
+- Un montant touché par une mesure mais impossible à calculer pour ce profil (ex. loyer non renseigné) est signalé avec son motif, jamais estimé en silence.
 - Le genre n'entre dans un calcul que si une mesure en dépend explicitement (ex. trimestres de retraite des mères).
 
 ## Sources et données

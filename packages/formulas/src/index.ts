@@ -1,1 +1,1 @@
-export * from "./retraite-age-depart.js";
+export * from "./retraite-age-depart.ts";

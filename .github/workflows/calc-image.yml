@@ -1,0 +1,55 @@
+name: Service de calcul (image)
+
+# Construit l'image du service de calcul, vérifie qu'elle démarre et calcule, puis, sur main et si
+# Scaleway est configuré (calc/README.md), la publie et la déploie. Les mesures publiées sont dans
+# l'image : toute nouvelle mesure redéploie le service, à la même version que le site.
+on:
+  push:
+    branches: [main]
+    paths: ["calc/**", "data/measures/**", ".dockerignore", ".github/workflows/calc-image.yml"]
+  pull_request:
+    paths: ["calc/**", "data/measures/**", ".dockerignore", ".github/workflows/calc-image.yml"]
+  workflow_dispatch:
+
+concurrency:
+  group: calc-image-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  image:
+    runs-on: ubuntu-latest
+    env:
+      IMAGE: mq-calc:${{ github.sha }}
+      SCW_SECRET_KEY: ${{ secrets.SCW_SECRET_KEY }}
+      SCW_REGISTRY: ${{ vars.SCW_REGISTRY }}
+      SCW_CONTAINER_ID: ${{ vars.SCW_CONTAINER_ID }}
+      SCW_REGION: ${{ vars.SCW_REGION || 'fr-par' }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Construire l'image
+        run: docker build -f calc/Dockerfile -t "$IMAGE" .
+      - name: Vérifier l'image (démarrage, calcul)
+        run: |
+          docker run -d --name calc -p 8080:8080 "$IMAGE"
+          for i in $(seq 1 60); do curl -sf localhost:8080/sante && break; sleep 2; done
+          jq '{profile}' apps/web/src/lib/ticket/fixtures/retraitee-seule-petite-pension.json > req.json
+          curl -sf -X POST localhost:8080/calcul -H 'Content-Type: application/json' --data @req.json > res.json
+          jq -e '.actuel.montants.minimum_vieillesse != null and (.corpus | length > 0)' res.json
+          # Le service ne garde aucune trace des requêtes : rien du profil dans ses journaux.
+          if docker logs calc 2>&1 | grep -q 'POST /calcul'; then echo "::error::Journal d'accès actif"; exit 1; fi
+      - name: Publier et déployer sur Scaleway
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && env.SCW_SECRET_KEY != '' && env.SCW_REGISTRY != '' && env.SCW_CONTAINER_ID != ''
+        run: |
+          echo "$SCW_SECRET_KEY" | docker login "${SCW_REGISTRY%%/*}" -u nologin --password-stdin
+          image="$SCW_REGISTRY/calc:${GITHUB_SHA}"
+          docker tag "$IMAGE" "$image"
+          docker push "$image"
+          api="https://api.scaleway.com/containers/v1beta1/regions/$SCW_REGION/containers/$SCW_CONTAINER_ID"
+          curl -sf -X PATCH "$api" -H "X-Auth-Token: $SCW_SECRET_KEY" -H 'Content-Type: application/json' \
+            --data "{\"registry_image\": \"$image\"}" > /dev/null
+          curl -sf -X POST "$api/deploy" -H "X-Auth-Token: $SCW_SECRET_KEY" -H 'Content-Type: application/json' --data '{}' > /dev/null
+          echo "Déployé : $image"
+      - name: Scaleway non configuré
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && (env.SCW_SECRET_KEY == '' || env.SCW_REGISTRY == '' || env.SCW_CONTAINER_ID == '')
+        run: |
+          echo "::notice::Image vérifiée, non déployée : configurer Scaleway (calc/README.md)."

@@ -10,7 +10,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DGFIP = ROOT.parents[0] / "impot-dgfip"
+DGFIP = ROOT.parents[0] / "spikes" / "impot-dgfip"
 # Ligne écrite par Mlang quand la valeur calculée diffère de l'attendu (-1, voir export_irj.py).
 KO = re.compile(r"KO \| (?P<var>[A-Z0-9_]+) attendue: (?P<exp>\S+) - evaluee: (?P<calc>\S+)")
 AMOUNT = "NAPTIR"
