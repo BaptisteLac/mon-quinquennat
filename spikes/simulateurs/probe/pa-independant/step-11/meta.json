@@ -1,0 +1,417 @@
+{
+  "requested": null,
+  "final": "https://wwwd.caf.fr/wps/portal/caffr/simulateurpa/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_RzNHD2MDYwMPPxDnA0CjS19fQx9HQ3dfQ31w1EVBAQEGgAVBPsGmPs4Gxp4GOhHAaUNcABHA6h-PAqiSLIfUwFB-6PQrLB0czIIDLE08fI29jQGKoIqwGNGJNAN5jjd4GqmX5AbGhphkGUKAOTY6uw!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_NA6AH3020HOTC0Q39ML1MA1GE6=CZ6_NA6AH3020HOTC0Q39ML1MA1GM1=LA0=/",
+  "status": null,
+  "title": "Votre Situation - Simulateur prime d'activité - CNAF",
+  "iframes": [
+    "https://wwwd.caf.fr/wps/portal/caffr/simulateurpa/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_RzNHD2MDYwMPPxDnA0CjS19fQx9HQ3dfQ31w1EVBAQEGgAVBPsGmPs4Gxp4GOhHAaUNcABHA6h-PAqiSLIfUwFB-6PQrLB0czIIDLE08fI29jQGKoIqwGNGJNAN5jjd4GqmX5AbGhphkGUKAOTY6uw!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_NA6AH3020HOTC0Q39ML1MA1GE6=CZ6_NA6AH3020HOTC0Q39ML1MA1GM1=LA0=/"
+  ],
+  "links": [
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=mentionsLegales",
+      "text": "en savoir plus"
+    },
+    {
+      "href": "javascript:void(0);",
+      "text": "Contenu principal de la page"
+    },
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=mentionsLegales",
+      "text": "Mentions légales"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "couple",
+      "id": "idCoupleSeul",
+      "value": "false",
+      "label": "Seul(e)"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "couple",
+      "id": "idCoupleCouple",
+      "value": "true",
+      "label": "En couple"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "futurParent",
+      "id": "idFutureParentO",
+      "value": "true",
+      "label": "OUI"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "futurParent",
+      "id": "idFutureParentN",
+      "value": "false",
+      "label": "NON"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "nbEnfantsDummy",
+      "id": "idNbEnfant0",
+      "value": "0",
+      "label": "0"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "nbEnfantsDummy",
+      "id": "idNbEnfant1",
+      "value": "1",
+      "label": "1"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "nbEnfantsDummy",
+      "id": "idNbEnfant2",
+      "value": "2",
+      "label": "2"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "nbEnfantsDummy",
+      "id": "idNbEnfant3",
+      "value": "3",
+      "label": "3"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "nbEnfantsDummy",
+      "id": "idNbEnfant4",
+      "value": "4",
+      "label": "4"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "nbEnfantsDummy",
+      "id": "idNbEnfant5",
+      "value": "5",
+      "label": "5 et +"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "nbEnfants",
+      "id": "nbEnfants",
+      "value": "",
+      "label": "Préciser le nombre d'enfant(s) ou de personne(s) à charge"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "proprietaire",
+      "id": "idProprietaireO",
+      "value": "true",
+      "label": "OUI"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "proprietaire",
+      "id": "idProprietaireN",
+      "value": "false",
+      "label": "NON"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "allocationLogements[0].allocationLogementMoisMoins3",
+      "id": "allocationLogementMoisMoins3",
+      "value": "",
+      "label": "Allocation logement pour JUIN 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "allocationLogements[0].allocationLogementMoisMoins2",
+      "id": "allocationLogementMoisMoins2",
+      "value": "",
+      "label": "Allocation logement pour JUILLET 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "allocationLogements[0].allocationLogementMoisMoins1",
+      "id": "allocationLogementMoisMoins1",
+      "value": "",
+      "label": "Allocation logement pour AOÛT 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "allocationAah",
+      "id": "idAllocationAahO",
+      "value": "true",
+      "label": "OUI"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "allocationAah",
+      "id": "idAllocationAahN",
+      "value": "false",
+      "label": "NON"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "situationTravailleur",
+      "id": "idSituProf1",
+      "value": "TRAVAILLEUR_INDEPENDANT",
+      "label": "Travailleur indépendant"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "situationTravailleur",
+      "id": "idSituProf2",
+      "value": "AUTO_ENTREPRENEUR",
+      "label": "Auto-entrepreneur"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "situationTravailleur",
+      "id": "idSituProf3",
+      "value": "ETU",
+      "label": "Etudiant(e) salarié(e), stagiaire ou apprenti(e)"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "situationTravailleur",
+      "id": "idSituProf4",
+      "value": "SALARIE",
+      "label": "En activité salariée"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "situationTravailleur",
+      "id": "idSituProf5",
+      "value": "AUTRE",
+      "label": "Autre"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "revenusSocietes[0].secteurActivite",
+      "id": "idSecteurAct1",
+      "value": "PROFESSION_LIBERALE",
+      "label": "Profession libérale"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "revenusSocietes[0].secteurActivite",
+      "id": "idSecteurAct2",
+      "value": "ARTISAN",
+      "label": "Artisan"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "revenusSocietes[0].secteurActivite",
+      "id": "idSecteurAct3",
+      "value": "COMMERCANT",
+      "label": "Commerçant"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "revenusSocietes[0].secteurActivite",
+      "id": "idSecteurAct4",
+      "value": "AUTRE",
+      "label": "Autre"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "revenusSocietes[0].beneficesDeclares",
+      "id": "idBeneficesO",
+      "value": "true",
+      "label": "OUI"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "revenusSocietes[0].beneficesDeclares",
+      "id": "idBeneficesN",
+      "value": "false",
+      "label": "NON"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusSocietes[0].montantBenefice",
+      "id": "montantBenefices",
+      "value": "",
+      "label": "Montant de vos bénéfices en 2024 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusSocietes[0].chiffreAffaireMoisMoins3",
+      "id": "chiffreAffaireMoisMoins3",
+      "value": "",
+      "label": "Chiffre d'affaires pour JUIN 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusSocietes[0].chiffreAffaireMoisMoins2",
+      "id": "chiffreAffaireMoisMoins2",
+      "value": "",
+      "label": "Chiffre d'affaires pour JUILLET 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusSocietes[0].chiffreAffaireMoisMoins1",
+      "id": "chiffreAffaireMoisMoins1",
+      "value": "",
+      "label": "Chiffre d'affaires pour AOÛT 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusTravailleurs[0].revenusMoisMoins3",
+      "id": "revenusMoisMoins3",
+      "value": "",
+      "label": "Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour JUIN 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusTravailleurs[0].revenusMoisMoins2",
+      "id": "revenusMoisMoins2",
+      "value": "",
+      "label": "Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour JUILLET 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusTravailleurs[0].revenusMoisMoins1",
+      "id": "revenusMoisMoins1",
+      "value": "",
+      "label": "Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour AOÛT 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "aahMontants[0].revenusMoisMoins3",
+      "id": "aahMontantMoisMoins3",
+      "value": "",
+      "label": "Allocation aux adultes handicapés pour JUIN 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "aahMontants[0].revenusMoisMoins2",
+      "id": "aahMontantMoisMoins2",
+      "value": "",
+      "label": "Allocation aux adultes handicapés pour JUILLET 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "aahMontants[0].revenusMoisMoins1",
+      "id": "aahMontantMoisMoins1",
+      "value": "",
+      "label": "Allocation aux adultes handicapés pour AOÛT 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenuPlacement",
+      "id": "revenuPlacement",
+      "value": "",
+      "label": "Revenus imposables de placement ou du patrimoine pour Année 2024 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusTravailleurs[0].autresRessourcesMoisMoins3",
+      "id": "autresRessourcesMoisMoins3",
+      "value": "",
+      "label": "Prestations familiales et autres ressources perçues pour JUIN 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusTravailleurs[0].autresRessourcesMoisMoins2",
+      "id": "autresRessourcesMoisMoins2",
+      "value": "",
+      "label": "Prestations familiales et autres ressources perçues pour JUILLET 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusTravailleurs[0].autresRessourcesMoisMoins1",
+      "id": "autresRessourcesMoisMoins1",
+      "value": "",
+      "label": "Prestations familiales et autres ressources perçues pour AOÛT 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer dialog d'avertissement Montants non saisis"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "BCPrecedent",
+      "id": "",
+      "value": "Précédent",
+      "label": "Précédent"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "BCSuivant",
+      "id": "",
+      "value": "Suivant",
+      "label": "Suivant"
+    }
+  ],
+  "calls": [
+    {
+      "method": "POST",
+      "url": "https://wwwd.caf.fr/wps/rb_bf53223bka?type=js3&sn=v_4_srv_5_sn_22A62BC0F0298C44BE3E6EA091034D27_perc_100000_ol_0_mul_1_app-3A3f8f7016b9b1835e_1&svrid=5&flavor=post&vi=DJGOOKWAWMNFPBFJMPRSJFSHCKOLNCEH-0&modifiedSince=1792414650704&bp=3&app=3f8f7016b9b1835e&crc=3753009452&en=3yk59fmt&end=1",
+      "resourceType": "fetch",
+      "postData": "$a=1%7C6%7C_event_%7C1793011023395%7C_wv_%7CAAI%7C1%7CfIS%7C8061%7CfID%7C1$rId=RID_1761279188$rpId=1184897550$domR=1793011016016$tvn=%2Fwps%2Fportal%2Fcaffr%2Fsimulateurpa%2F!ut%2Fp%2Fz1%2F04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_RzNHD2MDYwMPPxDnA0CjS19fQx9HQ3dfQ31w1EVBAQEGgAVBPsGmPs4Gxp4GOhHAaUNcABHA6h-PAqiSLIfUwFB-6PQrLB0czIIDLE08fI29jQGKoIqwGNGJNAN5jjd4GqmX5AbGhphkGUKAOTY6uw!%2Fdz%2Fd5%2FL2dBISEvZ0FBIS9nQSEh%2Fp0%2FIZ7_NA6AH3020HOTC0Q39ML1MA1GE6%3DCZ6_NA6AH3020HOTC0Q39ML1MA1GM1%3DLA0%3D%2F$tvt=1793011015301$tvm=i1%3Bk0%3Bh0$tvtrg=1$w=1280$h=1600$sw=1280$sh=1600$ni=4g|1.45$url=https%3A%2F%2Fwwwd.caf.fr%2Fwps%2Fportal%2Fcaffr%2Fsimulateurpa%2F!ut%2Fp%2Fz1%2F04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_RzNHD2MDYwMPPxDnA0CjS19fQx9HQ3dfQ31w1EVBAQEGgAVBPsGmPs4Gxp4GOhHAaUNcABHA6h-PAqiSLIfUwFB-6PQrLB0czIIDLE08fI29jQGKoIqwGNGJNAN5jjd4GqmX5AbGhphkGUKAOTY6uw!%2Fdz%2Fd5%2FL2dBISEvZ0FBIS9nQSEh%2Fp0%2FIZ7_NA6AH3020HOTC0Q39ML1MA1GE6%3DCZ6_NA6AH3020HOTC0Q39ML1MA1GM1%3DLA0%3D%2F$title=Votre%20Situation%20-%20Simulateur%20prime%20d%27activit%C3%A9%20-%20CNAF$latC=0$app=3f8f7016b9b1835e$vi=DJGOOKWAWMNFPBFJMPRSJFSHCKOLNCEH-0$fId=211015604_504$v=10347260902154543$vID=1793010826323ARLC9CN78AM1BLANJESLJDQ90LRHIVBK$rf=https%3A%2F%2Fwwwd.caf.fr%2Fwps%2Fportal%2Fcaffr%2Fsimulateurpa%2F!ut%2Fp%2Fz1%2F04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_RzNHD2MDYwMPPxDnA0CjS19fQx9HQ3dfQ31w1EVBAQEGgAVBPsGmPs4Gxp4GOhHAaUNcABHA6h-PAqiSLIfUwFB-6PQrLB0czIIDLE08fI29jQGKoIqwGNGJNAN5jjd4GqmX5AbGhphkGUKAOTY6uw!%2Fdz%2Fd5%2FL2dBISEvZ0FBIS9nQSEh%2Fp0%2FIZ7_NA6AH3020HOTC0Q39ML1MA1GE6%3DCZ6_NA6AH3020HOTC0Q39ML1MA1GM1%3DLA0%3D%2F$time=1793011025399"
+    }
+  ]
+}
