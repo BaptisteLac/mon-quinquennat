@@ -44,9 +44,6 @@
   padding: 0 6px;
   border: var(--stroke) solid var(--ink);
 }
-.avatar {
-  flex: none;
-}
 .lead {
   margin: 0;
   font-size: 18px;
@@ -63,15 +60,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
   font-family: var(--font-display);
   font-weight: 800;
   font-size: 20px;
   text-decoration: none;
 }
-.cta[aria-disabled="true"] {
-  opacity: 0.55;
-  box-shadow: none;
-  cursor: not-allowed;
+.cta:hover {
+  color: var(--white);
 }
 .ctaNote {
   margin: -6px 0 0;
