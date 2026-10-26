@@ -1,0 +1,74 @@
+{
+  "requested": null,
+  "final": "https://wwwd.caf.fr/wps/portal/caffr/simulateurpa/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_RzNHD2MDYwMPPxDnA0CjS19fQx9HQ3dfQ31w1EVBAQEGgAVBPsGmPs4Gxp4GOhHAaUNcABHA6h-PAqiSLIfUwFB-6PQrLB0czIIDLE08fI29jQGKoIqwGNGJNAN5jjd4GqmX5AbGhphkGUKAOTY6uw!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_NA6AH3020HOTC0Q39ML1MA1GE6=CZ6_NA6AH3020HOTC0Q39ML1MA1GM1=LA0=/",
+  "status": null,
+  "title": "CAF - Simulateur Prime d'activité",
+  "iframes": [
+    "https://wwwd.caf.fr/wps/portal/caffr/simulateurpa/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_RzNHD2MDYwMPPxDnA0CjS19fQx9HQ3dfQ31w1EVBAQEGgAVBPsGmPs4Gxp4GOhHAaUNcABHA6h-PAqiSLIfUwFB-6PQrLB0czIIDLE08fI29jQGKoIqwGNGJNAN5jjd4GqmX5AbGhphkGUKAOTY6uw!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_NA6AH3020HOTC0Q39ML1MA1GE6=CZ6_NA6AH3020HOTC0Q39ML1MA1GM1=LA0=/"
+  ],
+  "links": [
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=mentionsLegales",
+      "text": "en savoir plus"
+    },
+    {
+      "href": "javascript:void(0);",
+      "text": "Contenu principal de la page"
+    },
+    {
+      "href": "https://wwwd.caf.fr/wps/portal/caffr/simulateurpa/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_RzNHD2MDYwMPPxDnA0CjS19fQx9HQ3dfQ31w1EVBAQEGgAVBPsGmPs4Gxp4GOhHAaUNcABHA6h-PAqiSLIfUwFB-6PQrLB0czIIDLE08fI29jQGKoIqwGNGJNAN5jjd4GqmX5AbGhphkGUKAOTY6uw!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_NA6AH3020HOTC0Q39ML1MA1GE6=CZ6_NA6AH3020HOTC0Q39ML1MA1GM1=MEactionFormCnaf!fr.caf.portlet.PortletSimulateurPAviewQCPSituationBandeau.do=personneIndex!0==/",
+      "text": ""
+    },
+    {
+      "href": "https://wwwd.caf.fr/wpp-simulateur-web/s/AffichagePdf.pdf?id=zN17TymLHcoBu3m1YJcSA5W1793012153120",
+      "text": "TELECHARGER LE RECAPITULATIF"
+    },
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=mentionsLegales",
+      "text": "Mentions légales"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "image",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "BCRecommencer",
+      "id": "",
+      "value": "Recommencer",
+      "label": "Recommencer"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "terminer",
+      "id": "",
+      "value": "terminer",
+      "label": "Terminer"
+    }
+  ],
+  "calls": []
+}

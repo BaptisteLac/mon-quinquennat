@@ -1,0 +1,2086 @@
+<!DOCTYPE html><html lang="fr" class=""><!-- DEBUT HEAD --><head>
+
+	
+	
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="OWNER" content="CNAF">
+	<meta name="AUTHOR" content="CNAF">
+	
+	
+	
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+	
+
+	<title>Situation du conjoint - Simulateur prime d'activité - CNAF</title>
+
+	<script async="" src="https://wwwd.caf.fr/18f5227b-e27b-445a-a53f-f845fbe69b40/stormcaster.js"></script><script type="text/javascript" src="/wps/ruxitagentjs_ICANVfqru_10347260902154543.js" data-dtconfig="app=3f8f7016b9b1835e|srtbv=4|owasp=1|featureHash=ICANVfqru|nsfnv=1|rdnt=1|uxrgce=1|bp=3|cuc=3yk59fmt|mel=100000|dpvc=1|ssv=4|lastModification=1792414650704|rvcl=13|tp=500,50,0|srbbv=3|agentUri=/wps/ruxitagentjs_ICANVfqru_10347260902154543.js|reportUrl=/wps/rb_bf53223bka|rid=RID_1761279188|rpid=1970072900|domain=caf.fr"></script><link href="/wtd-themeresponsivedesign-web/themes/html/ThemeResponsiveDesign/css/styles.css?id=1792980155991" rel="stylesheet">
+	<link href="/wtd-themeresponsivedesign-web/themes/html/ThemeResponsiveDesign/images/favicon.ico" rel="shortcut icon">
+	
+	<link href="/icf-ressources-statiques-rwd-web/fonts-cnaf/roboto_cnaf.css?id=1792980155991" rel="stylesheet">
+	
+	
+		<link href="/icf-ressources-statiques-rwd-web/StatiquesCaffr/css/bootstrap.css?id=1792980155991" rel="stylesheet">
+		<link href="/icf-ressources-statiques-rwd-web/StatiquesCaffr/css/bootstrap-theme.css?id=1792980155991" rel="stylesheet">
+		<link href="/icf-ressources-statiques-rwd-web/StatiquesCaffr/contraste/css/bootstrap.css?id=1792980155991" rel="stylesheet">
+		<link href="/icf-ressources-statiques-rwd-web/StatiquesCaffr/contraste/css/bootstrap-theme.css?id=1792980155991" rel="stylesheet">
+		
+	
+	
+	<script src="/icf-ressources-statiques-rwd-web/jquery/1.11.2/jquery.min.js"></script>
+	<script src="/icf-ressources-statiques-rwd-web/jquery/ui/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="/icf-ressources-statiques-rwd-web/jquery/ui/jquery-ui.min.css"> 
+	
+	<script src="/icf-ressources-statiques-rwd-web/StatiquesCaffr/js/bootstrap.min.js?id=1792980155991"></script>
+	<script src="/icf-ressources-statiques-rwd-web/StatiquesCaffr/js/headerCnaf.min.js?id=1792980155991"></script>
+	<script>
+		// Surcharge maintienSession pour maintenir aussi la session connect.caf.fr
+		var timeLastMaintienSession;
+		function maintienSession(){
+			var newTime = new Date().getTime();
+			// permet de ne pas refaire l'appel au maintien de session s'il a ete fait il y a moins de 2 secondes
+			if (!timeLastMaintienSession || Math.abs((newTime - timeLastMaintienSession) / 1000) > 2) { 
+				timeLastMaintienSession = newTime;
+				$.ajax({
+					type: "GET",
+					url: "/wps/session/RefreshSession.jsp",
+					success: function(){
+						// ok
+					},
+					error: function() {
+						// ko
+					}
+				});
+				$.ajax({
+					type: "GET",
+					url: "/token/usagers?contexteAppel=caffr&sessionOnly=true",
+					success: function(){
+						// ok
+					},
+					error: function() {
+						// ko
+					}
+				});
+				if(false){
+					setExpirationSessionTimeout(10);
+				}
+			}
+		}
+	</script>
+	<script src="/icfstatiquesangularappli/dist/angular/bowser.js?id=1792980155991"></script>
+	
+	
+	
+	<script>
+    	var contexteAffichageAngular = "Simulateur Prime d'activité";
+    	var pageUniqueName = "fr.caf.page.Caffr.SimulateurPA";
+	</script>
+	
+	<!--[if lt IE 9]>
+		<script src="/icf-ressources-statiques-rwd-web/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="/icf-ressources-statiques-rwd-web/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+<script>var __uzdbm_1 = "fb239566-7a8a-47c2-b8ec-728d2eeb55e8";var __uzdbm_2 = "ODQ4N2U2OTItY3B0My00YzJjLWI2MWYtMjcwMTNlMDlkNjYxJDQwLjc2LjEyNy43Mg==";var __uzdbm_3 = "7f9000fb239566-7a8a-47c2-b8ec-728d2eeb55e81-179301161210790516-005de6bd25165b2820970";var __uzdbm_4 = "false";var __uzdbm_5 = "uzmx";var __uzdbm_6 = "7fc0008101ed00-868e-477c-814a-e01ba561efa41-179301161138491239-00b4bfa8cbd426098f576";var __uzdbm_7 = "caf.fr";</script> <script>   (function (w, d, e, u, c, g, a, b) {     w["SSJSConnectorObj"] = w["SSJSConnectorObj"] || {       ss_cid: c,       domain_info: "auto",     };     w[g] = function (i, j) {       w["SSJSConnectorObj"][i] = j;     };     a = d.createElement(e);     a.async = true;     if (       navigator.userAgent.indexOf('MSIE') !== -1 ||       navigator.appVersion.indexOf('Trident/') > -1     ) {       u = u.replace("/advanced/", "/advanced/ie/");     }     a.src = u;     b = d.getElementsByTagName(e)[0];     b.parentNode.insertBefore(a, b);   })(     window, document, "script", "https://wwwd.caf.fr/18f5227b-e27b-445a-a53f-f845fbe69b40/stormcaster.js", "cpt5", "ssConf"   );   ssConf("c1", "https://wwwd.caf.fr");   ssConf("c3", "c99a4269-161c-4242-a3f0-28d44fa6ce24");   ssConf("au", "wwwd.caf.fr");   ssConf("cu", "validate.perfdrive.com, ssc"); </script></head>
+		
+			
+		
+		
+				
+		<!-- FIN HEAD -->		
+		<!-- DEBUT BODY -->
+		
+		
+		<body role="document" class=" ">
+		
+			<script>
+				// suppression du cookie userConnectedCaf
+				document.cookie = "userConnectedCaf=; path=/; domain=.caf.fr; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+			</script>
+		
+		 <!--   affichage carousel onBoarding -->
+	     <!-- DEBUT ONBOARDING -->
+		
+		
+					<!-- FIN HEADER -->		
+		
+			<script>
+				var dateExpireCookie = new Date();
+				dateExpireCookie.setTime(dateExpireCookie.getTime() + (24 * 60 * 60 * 1000));
+				document.cookie = "portailVirtuel=caffr; path=/; domain=.caf.fr; expires=" + dateExpireCookie.toGMTString(); 
+			</script>
+		
+			<!-- DEBUT POPUP COOKIE -->
+			<div id="popup-accept-cookies" class="popup-cookies">
+				<div class="popup-content container">
+					<div class="row">
+						<div class="popup-text col-sm-12">
+							<p>En poursuivant votre navigation, vous acceptez l'utilisation de cookies pour améliorer votre navigation, faciliter votre connexion et recueillir des statistiques. <a title="Utilisation de cookies - En savoir plus (Nouvelle Fenêtre)" href="/redirect/s/Redirect?page=mentionsLegales" target="_blank" class="btn not-accept-cookies">en savoir plus</a></p>
+						</div>
+						<div class="popup-buttons col-sm-12">
+							<button class="pull-right agree-button float-end" type="button">OK</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- FIN POPUP COOKIE -->
+			
+			<!-- DEBUT BANDEAU DEGRADE -->
+			<div id="bandeau-accept-degrade" class="bandeau-degrade">
+				<div class="bandeau-content container">
+					<div class="row">
+						<div class="bandeau-text col-sm-12">
+							<p>Attention la navigation en mode privé pourrait provoquer certains dysfonctionnements, merci de quitter ce mode pour profiter pleinement de l'ensemble des services proposés.</p>
+						</div>
+						<div class="bandeau-buttons col-sm-12">
+							<button class="pull-right agree-button not-accept-cookies float-end" type="button">OK</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- FIN BANDEAU DEGRADE -->	
+		 
+			<!-- DEBUT HEADER -->		
+			<!-- pour le simulateur PA, resté ancienne charte non RSL (propriété icfAngular non présente), il y a header/footer simplifiés ,
+				 cela doit resté comme cela jusqu'à la r��criture de l'appli en RSL -->
+			 
+			
+					
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		<header id="theme-header-cnaf" role="banner">
+			
+			<div id="theme-header-content-cnaf" class="affix-top" style="">
+				<div class="container">
+					<div class="row">
+						<div class="btn-domaine-cnaf">
+							<img alt="Accueil caf.fr" src="/icf-ressources-statiques-rwd-web/images/logo_caf-fr.png">
+						</div>
+						
+						
+						
+						
+						
+						<div>
+							<div class="separator"></div>
+						</div>
+						
+						<div class="titre-cnaf">
+							
+								<p class="sur-titre-cnaf hidden-xs text-uppercase">
+									MES SERVICES EN LIGNE
+								</p>
+							
+							
+								<p class="sous-titre-cnaf text-uppercase">
+										SIMULATEUR PRIME D'ACTIVITE
+								</p>
+							
+						</div>
+						<span class="btn-logo-cnaf hidden-xs">
+							<img alt="Allocations Familiales" src="/icf-ressources-statiques-rwd-web/images/logoCNAF.gif">
+						</span>
+					</div>
+				</div>
+			</div>
+		</header>
+		 
+
+				
+			<!-- FIN HEADER -->		
+		  
+			
+			<!-- TEST obsolesence des navigateurs  -->
+			<script>
+				if ((bowser.msie && bowser.version < 11)
+	          		|| (bowser.chrome && bowser.version < 26)
+	          		|| (bowser.firefox && bowser.version < 1.5)) {
+	 
+	        		window.location.replace("https://www.caf.fr/navigateur-obsolete.html");
+	    		}
+    		</script>
+			
+			
+			<!-- FIN TEST obsolesence des navigateurs  -->
+			<!-- DEBUT CONTENU -->
+			
+
+
+
+
+
+
+
+
+
+
+<main id="theme-contenu-cnaf" class="   " role="main" style="">
+	
+	<div class="container">
+		<div class="row">
+			<div class="" id="theme-contenu-content-wrapper-cnaf" style="">
+				<div id="theme-contenu-content-cnaf">
+					<a id="theme-contenu-content-link-cnaf" class="sr-only visually-hidden" tabindex="-1" href="javascript:void(0);">Contenu principal de la page</a>
+					
+						
+						
+			                
+						
+					
+	                
+					 
+<div class="layoutRow">
+ 
+<div class="layoutColumn"><a name="Z7_NA6AH3020HOTC0Q39ML1MA1GE6"></a><div class="wpsPortletBody">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- DEBUT barre d'etape-->
+
+	
+
+
+
+
+
+
+
+
+
+
+				<div id="barre-etape-teleprocedure-cnaf" class="affix-top">
+					<div class="container">
+						<div class="row">
+							<ul class="barre-etape-cnaf">
+							
+								<li>
+										
+									<span class="etape-indicateur-cnaf picto picto-acces"></span>
+										
+										
+									<span class="etape-nom-cnaf hidden-xs hidden-sm text-uppercase">Accès</span><!-- ajouter class hidden-sm uniquement si plus de 3 éléments -->
+									<span class="etape-nom-cnaf visible-xs visible-sm">&nbsp;</span><!-- ajouter class visible-sm uniquement si plus de 3 éléments -->
+										
+								</li>																				
+									
+								<li class="active">
+										
+									<span class="etape-indicateur-cnaf">1</span>
+										
+										
+									<span class="etape-nom-cnaf hidden-xs hidden-sm text-uppercase">Situation</span><span class="sr-only"> phase en cours</span><!-- ajouter class hidden-sm uniquement si plus de 3 éléments -->
+									<span class="etape-nom-cnaf visible-xs visible-sm">&nbsp;</span><!-- ajouter class visible-sm uniquement si plus de 3 éléments -->
+										
+									<span class="etape-etat-cnaf"></span>	
+										
+								</li>																				
+									
+								<li class="inactive">
+										
+									<span class="etape-indicateur-cnaf">2</span>
+										
+										
+									<span class="etape-nom-cnaf hidden-xs hidden-sm text-uppercase">Résultat</span><!-- ajouter class hidden-sm uniquement si plus de 3 éléments -->
+									<span class="etape-nom-cnaf visible-xs visible-sm">&nbsp;</span><!-- ajouter class visible-sm uniquement si plus de 3 éléments -->
+										
+								</li>																				
+									
+								
+								
+								
+								<li class="barre-etape-information-cnaf hidden-xs invisible">
+									<!-- INFORMATION SIMULATEUR-->
+									
+									<!-- INFORMATION SIMULATEUR-->
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+<!-- FIN barre d'etape-->
+
+<div class="container">
+	<form name="ns_Z7_NA6AH3020HOTC0Q39ML1MA1GE6_SbSituationPersonne" method="post" action="/wps/portal/caffr/simulateurpa/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_RzNHD2MDYwMPPxDnA0CjS19fQx9HQ3dfQ31w1EVBAQEGgAVBPsGmPs4Gxp4GOhHAaUNcABHA6h-PAqiSLIfUwFB-6PQrLB0czIIDLE08fI29jQGKoIqwGNGJNAN5jjd4GqmX5AbGhphkGUKAOTY6uw!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_NA6AH3020HOTC0Q39ML1MA1GE6=CZ6_NA6AH3020HOTC0Q39ML1MA1GM1=LA0=/" class="content-jsp-data-cnaf" data-toggle="validator" role="form" data-cnaftype="bootstrap" novalidate="true"> 
+	
+		<!-- Ligne complete formulaire, barre d'etape-->
+		<div class="row">
+			<!-- Colonne 1 avec le formulaire -->
+			<div class="col-sm-12">
+				
+				<!-- Messages d'erreur -->
+					
+				
+				<!-- Formulaire -->
+				
+					
+				
+
+<!-- Inclusion des styles, notamment pour ICF (l'inclusion est faite de façon statique à la compilation de la JSP) -->
+
+
+
+
+
+
+
+<!-- Styles pour le framework icf : barre de progression, tableau récapitulatif... -->
+<link href="/wpp-simulateur-web/StatiquesCaffr/stylesScreenCaf.css" rel="stylesheet" type="text/css">
+<link href="/wpp-simulateur-web/StatiquesCaffr/stylesGabaritDefault.css" rel="stylesheet" type="text/css">
+ 
+
+
+<link href="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/styles.css" rel="stylesheet" type="text/css">
+
+<!-- Triches pour IE8 -->
+<!--[if lt IE 9]>
+<script src="/wpp-simulateur-web/js/ie8-hacks.js"></script>
+<![endif]-->
+
+<!-- Fichiers utilitaires communs javascript (JS utils) -->
+<script src="/wpp-simulateur-web/js/utils.js"></script>
+<script src="/wpp-simulateur-web/js/logs.js"></script>
+<script src="/wpp-simulateur-web/js/components-utils.js"></script>
+<script src="/wpp-simulateur-web/js/dynform.js"></script>
+
+<!-- Fichier js dédier aux simulateurs, traitement de bouton cnaf:aide en attendant ADAC -->
+
+
+
+
+<!-- Constantes des secteurs d'activité -->
+
+
+
+<!-- Formulaire de saisie des données -->
+<div class="row">
+	<div class="col-sm-12">
+		<h1 class="filet-cnaf">Situation</h1>      
+	</div>  
+</div>
+
+<!-- Bandeau affichant la personne en cours de saisie (l'inclusion est faite de façon dynamique au traitement de la requête) -->
+<!-- Inclusion des styles, notamment pour ICF (l'inclusion est faite de façon statique à la compilation de la JSP) -->
+
+
+
+
+
+
+
+<!-- Styles pour le framework icf : barre de progression, tableau récapitulatif... -->
+<link href="/wpp-simulateur-web/StatiquesCaffr/stylesScreenCaf.css" rel="stylesheet" type="text/css">
+<link href="/wpp-simulateur-web/StatiquesCaffr/stylesGabaritDefault.css" rel="stylesheet" type="text/css">
+ 
+
+
+<link href="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/styles.css" rel="stylesheet" type="text/css">
+
+<!-- Triches pour IE8 -->
+<!--[if lt IE 9]>
+<script src="/wpp-simulateur-web/js/ie8-hacks.js"></script>
+<![endif]-->
+
+<!-- Fichiers utilitaires communs javascript (JS utils) -->
+<script src="/wpp-simulateur-web/js/utils.js"></script>
+<script src="/wpp-simulateur-web/js/logs.js"></script>
+<script src="/wpp-simulateur-web/js/components-utils.js"></script>
+<script src="/wpp-simulateur-web/js/dynform.js"></script>
+
+<!-- Fichier js dédier aux simulateurs, traitement de bouton cnaf:aide en attendant ADAC -->
+
+
+
+
+
+
+
+<div class="row">
+	<div class="col-sm-12">
+		<ul class="barre-progression-cnaf" data-max-item-cnaf="6" data-max-item-cnaf-tablette="4">
+			
+				
+					<!-- Par défaut l'item n'a pas de class, ce qui aura pour effet de le marqué comme
+					ayant déjà été parcouru : texte bleu et gras -->
+					
+					
+					<!-- Si la personne de l'item a son flag rempli à false, alors on marque l'item comme inactif -->
+					
+					
+					<!-- Si l'item a le flag actif à true, alors on le marque comme tel -->
+					
+						
+					<!-- Création de l'item avec la classe CSS adaptée dans un lien si l'item pointe une
+					personne remplie mais pas active-->
+					<li class="thick">
+						
+							
+						
+						
+						
+							
+								Vous
+								<span class="sr-only"> informations déjà saisies</span>
+							
+						
+						<span class="item-etat-cnaf"></span>
+					</li>
+				
+					<!-- Par défaut l'item n'a pas de class, ce qui aura pour effet de le marqué comme
+					ayant déjà été parcouru : texte bleu et gras -->
+					
+					
+					<!-- Si la personne de l'item a son flag rempli à false, alors on marque l'item comme inactif -->
+					
+						
+					
+					
+					<!-- Si l'item a le flag actif à true, alors on le marque comme tel -->
+					
+						
+					
+						
+					<!-- Création de l'item avec la classe CSS adaptée dans un lien si l'item pointe une
+					personne remplie mais pas active-->
+					<li class="active">
+						
+						
+							<h2 class="elementBandeauActif"> 
+								Conjoint(e)
+								<span class="sr-only"> en cours de saisie</span>
+							</h2>
+						
+						
+						<span class="item-etat-cnaf"></span>
+					</li>
+				
+					<!-- Par défaut l'item n'a pas de class, ce qui aura pour effet de le marqué comme
+					ayant déjà été parcouru : texte bleu et gras -->
+					
+					
+					<!-- Si la personne de l'item a son flag rempli à false, alors on marque l'item comme inactif -->
+					
+						
+					
+					
+					<!-- Si l'item a le flag actif à true, alors on le marque comme tel -->
+					
+						
+					<!-- Création de l'item avec la classe CSS adaptée dans un lien si l'item pointe une
+					personne remplie mais pas active-->
+					<li class="inactive">
+						
+							
+								Personne 1
+								<span class="sr-only"> à saisir</span>
+							
+						
+						
+						
+						<span class="item-etat-cnaf"></span>
+					</li>
+				
+					<!-- Par défaut l'item n'a pas de class, ce qui aura pour effet de le marqué comme
+					ayant déjà été parcouru : texte bleu et gras -->
+					
+					
+					<!-- Si la personne de l'item a son flag rempli à false, alors on marque l'item comme inactif -->
+					
+						
+					
+					
+					<!-- Si l'item a le flag actif à true, alors on le marque comme tel -->
+					
+						
+					<!-- Création de l'item avec la classe CSS adaptée dans un lien si l'item pointe une
+					personne remplie mais pas active-->
+					<li class="inactive">
+						
+							
+								Personne 2
+								<span class="sr-only"> à saisir</span>
+							
+						
+						
+						
+						<span class="item-etat-cnaf"></span>
+					</li>
+				
+			
+		</ul>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-sm-12">
+		<div id="caf-mandatory-fields" class="control-item">
+			<span style="float: left;">
+				<img class="mandatory" alt="" style="padding-left:20px" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">
+				Les champs signalés par un astérisque sont obligatoires
+			</span>
+		</div>
+	</div>
+</div>
+
+<!-- Ajout dans data-dynform-events du focus pour réagir en cas de changement de date
+depuis le composant du framework portal -->
+<div class="row" id="cmpDateNaissance" data-dynform-input="#dateNaissance" data-dynform-eventsadd="focus" data-dynform-errors="#cmpErreurDateNaissanceFormat #cmpErreurDateNaissanceInferieur16ans #cmpErreurDateNaissanceInferieurEgale0" data-dynform-choose="chooseDateNaissance()" data-dynform-if-nonrenseigne="-#cmpAllocationAah -#cmpRenteAtmp -#cmpPensionInvalidite -#cmpSituationProfessionnelle -#cmpSituationTravail -.cmpDateNaissanceErrors" data-dynform-if-errformat="-#cmpRenteAtmp -#cmpPensionInvalidite -#cmpSituationProfessionnelle -#cmpSituationTravail  -#cmpErreurDateNaissanceInferieur16ans -#cmpErreurDateNaissanceInferieurEgale0 #cmpErreurDateNaissanceFormat" data-dynform-if-18="#cmpAllocationAah #cmpRenteAtmp #cmpPensionInvalidite #cmpSituationProfessionnelle #cmpRevenuDeSolidarite #cmpRevenusPlacement -#cmpSituationTravail -.cmpDateNaissanceErrors" data-dynform-if-16="#cmpSituationTravail -#cmpSituationProfessionnelle -#cmpRevenuDeSolidarite -#cmpAllocationAah -#cmpRenteAtmp -#cmpPensionInvalidite -#cmpRevenusPlacement -.cmpDateNaissanceErrors" data-dynform-if-inferieur16="-#cmpRevenuDeSolidarite -#cmpAllocationAah -#cmpRenteAtmp -#cmpPensionInvalidite -#cmpSituationProfessionnelle -#cmpSituationTravail -#cmpErreurDateNaissanceFormat -#cmpErreurDateNaissanceInferieurEgale0 #cmpErreurDateNaissanceInferieur16ans" data-dynform-if-inferieuregale0="-#cmpRevenuDeSolidarite -#cmpAllocationAah -#cmpRenteAtmp  -#cmpPensionInvalidite -#cmpSituationProfessionnelle -#cmpSituationTravail -#cmpErreurDateNaissanceFormat -#cmpErreurDateNaissanceInferieur16ans #cmpErreurDateNaissanceInferieurEgale0" data-dynform-displayed="true" style="display: block;">
+	<div class="col-sm-12">
+		<label class="label-form-cnaf " for="dateNaissance">
+			Date de naissance de votre conjoint(e) <span class="sr-only">format attendu JJ/MM/AAAA</span>
+			<img id="imgDateNaissance" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">		
+			<span style="display: none;">Ce champ est obligatoire</span>
+		</label>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="form-group input-group">
+					<input type="text" name="dateNaissance" value="" onclick="cnafShowCalendar(this,2008,10,1,'dd/MM/yyyy','ns_Z7_NA6AH3020HOTC0Q39ML1MA1GE6_SbSituationPersonne','dateNaissance',event,1900,2028);" class="form-control" data-cnafdate="true" placeholder="jj/mm/aaaa" id="dateNaissance" style=""> <span class="input-group-btn hidden-xs hidden-sm" style="cursor:pointer;" onclick="cnafShowCalendar(this,2008,10,1,'dd/MM/yyyy','ns_Z7_NA6AH3020HOTC0Q39ML1MA1GE6_SbSituationPersonne','dateNaissance',event,1900,2028);"><button class="btn btn-cnaf-calendar" type="button"><img border="0" src="/icf-ressources-statiques-rwd-web/images/pic-calendrier_bleu.png" id="FrmwkCalendrier" alt="Ouvrir le dispositif de sélection de date"></button></span>
+				</div>
+			</div>
+		</div>
+		<div class="hideOnLoad cmpDateNaissanceErrors" id="cmpErreurDateNaissanceFormat" data-dynform-onshow="dynformSetError('#cmpDateNaissance', true)" data-dynform-onhide="dynformSetError('#cmpDateNaissance', false)" data-dynform-displayed="false" style="display: none;">
+			<span class="text-danger" tabindex="0"><i>La date de naissance doit être au format JJ/MM/AAAA.</i></span>
+		</div>	
+		<div class="hideOnLoad cmpDateNaissanceErrors" id="cmpErreurDateNaissanceInferieur16ans" data-dynform-onshow="dynformSetError('#cmpDateNaissance', true)" data-dynform-onhide="dynformSetError('#cmpDateNaissance', false)" data-dynform-displayed="false" style="display: none;">
+			<span class="text-danger" tabindex="0"><i>La date de naissance doit se trouver avant le 26/10/2010.</i></span>
+		</div>
+		<div class="hideOnLoad cmpDateNaissanceErrors" id="cmpErreurDateNaissanceInferieurEgale0" data-dynform-onshow="dynformSetError('#cmpDateNaissance', true)" data-dynform-onhide="dynformSetError('#cmpDateNaissance', false)" data-dynform-displayed="false" style="display: none;">
+			<span class="text-danger" tabindex="0"><i>La date de naissance doit se trouver avant le 26/10/2010.</i></span>
+		</div>				
+						
+	</div>
+</div>
+
+
+<!-- Libellé utilisé pour la situation professionnelle (utilisé en commun) -->
+
+
+<!--
+****************************************************
+* Cas de la personne à charge ayant plus de 18 ans *
+****************************************************
+-->
+	
+<div class="hideOnLoad" id="cmpAllocationAah" data-dynform-input=".radAllocAah" data-dynform-choose="getValueRadio('allocationAah')" data-dynform-if-true="#cmpMontantsAllocAAH" data-dynform-if-false="-#cmpMontantsAllocAAH" data-dynform-if-undefined="-#cmpMontantsAllocAAH" data-dynform-onhide="clearRadio('allocationAah')" data-dynform-displayed="true" style="">
+	
+	<div class="row">
+		<div class="col-sm-12">
+			<fieldset>
+				<legend class="label-form-cnaf control-label hide-border">
+					Votre conjoint(e) a perçu l'allocation aux adultes handicapés (aah)
+					<img id="imgDateNaissance" class="mandatory" alt="Cette question est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+					<span style="display: none;">Cette question est obligatoire</span>
+				</legend>
+				<div class="btn-group btn-block" data-toggle="buttons" id="allocAah">
+					<label for="idAllocationAahO" class="btn btn-default radAllocAah">
+						<input type="radio" name="allocationAah" value="true" title="Oui, mon(ma) conjoint a perçu l'allocation aux adultes handicapés" id="idAllocationAahO" style="">OUI
+					</label>
+					<label for="idAllocationAahN" class="btn btn-default radAllocAah active">
+						<input type="radio" name="allocationAah" value="false" title="Non, mon(ma) conjoint n'a pas perçu l'allocation aux adultes handicapés" id="idAllocationAahN" style="">NON
+					</label>
+				</div>
+			</fieldset>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+<!-- 21	Champs de saisie « Autres ressources» -->
+
+ 
+	
+
+
+
+<!-- Libelles pour la situation professionnelle -->
+
+
+
+
+
+<!-- INC0264042 -->
+
+
+
+<!-- Libelles pour le secteur d'activité -->
+
+
+
+
+
+
+<!--
+***************************************************************
+* Cas de la personne à charge ayant plus de 18 ans *
+***************************************************************
+-->
+
+<!-- ATTENTION ! Si ce fichier est inclu de façon statique avec %include dans une JSP, alors
+en cas de modification de ce fichier, il est nécessaire de faire une modification au niveau du
+fichier conteneur afin que la servlet correspondante soit regénérée. -->
+
+<!-- Constantes -->
+
+
+ 
+ <script lang="javascript">
+ 	function chooseSitPro18ansEtPlus() {
+			
+		if (dynformIsDisplayed("#cmpSituationProfessionnelle")) {
+			return getValueRadio('situationTravailleur');
+		}
+		return "undefined";
+	}
+	
+	function chooseBenefDeclare() {
+		if (dynformIsDisplayed("#cmpSituationProfessionnelle")) {
+				var sitPro = getValueRadio('situationTravailleur');
+			var isAutoEntrepreneur = (sitPro == 'AUTO_ENTREPRENEUR');
+			if(isAutoEntrepreneur)
+			return false;
+		}
+		if (dynformIsDisplayed("#cmpBeneficesDeclares")) {
+			return getValueRadio('revenusSocietes[0].beneficesDeclares');
+		}
+		
+		return "undefined";
+	}
+	
+ </script>
+ 
+<!-- Situation professionnelle -->
+<!-- INC0264042 ajout salarié -->
+	
+<div class="hideOnLoad" id="cmpSituationProfessionnelle" data-dynform-input=".radSituationProfessionnelle" data-dynform-choose="chooseSitPro18ansEtPlus()" data-dynform-if-travailleur_independant="#cmpSecteurActivite #cmpBeneficesDeclares #cmpDetailsRessources  -#cmpDetailsCA" data-dynform-if-auto_entrepreneur="#cmpSecteurActivite  #cmpDetailsRessources #cmpDetailsCA -#cmpBeneficesDeclares" data-dynform-if-etu="#cmpDetailsRessources -#cmpSecteurActivite -#cmpBeneficesDeclares -#cmpDetailsCA" data-dynform-if-autre="#cmpDetailsRessources -#cmpSecteurActivite -#cmpBeneficesDeclares -#cmpDetailsCA" data-dynform-if-salarie="#cmpDetailsRessources -#cmpSecteurActivite -#cmpBeneficesDeclares -#cmpDetailsCA" data-dynform-if-undefined="-#cmpSecteurActivite -#cmpBeneficesDeclares -#cmpDetailsCA -#cmpMontantsAllocAAH -#cmpMontantsRenteATMP -#cmpMontantsPensionInvalidite -#cmpRevenusPlacement -#cmpDetailsRessources" data-dynform-onhide="clearRadio('situationTravailleur')" data-dynform-displayed="true" style="">
+	<!-- Secteur d'activité -->
+	<div class="row">
+		<div class="col-sm-12">
+			<fieldset>
+				<legend class="label-form-cnaf control-label hide-border">
+					Votre conjoint(e) est
+					<img id="imgSitProf" class="mandatory" alt="Cette question est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">
+					<span style="display: none;">Cette question est obligatoire</span>
+				</legend>
+				<div data-toggle="buttons" class="btn-group btn-group-justified btn-group-lg-cnaf">
+					<div class="col-sm-4">
+						<label class="btn btn-default btn-block radSituationProfessionnelle" for="idSituProf1">
+							<input type="radio" name="situationTravailleur" value="TRAVAILLEUR_INDEPENDANT" title="Mon(ma) conjoint(e) est travailleur indépendant" id="idSituProf1" style="">Travailleur indépendant
+						</label>
+					</div>
+					<div class="col-sm-4">
+						<label class="btn btn-default btn-block radSituationProfessionnelle" for="idSituProf2">
+							<input type="radio" name="situationTravailleur" value="AUTO_ENTREPRENEUR" title="Mon(ma) conjoint(e) est auto-entrepreneur" id="idSituProf2" style="">Auto-entrepreneur
+						</label>
+					</div>
+					<div class="col-sm-4">
+						<label class="btn btn-default btn-block radSituationProfessionnelle" for="idSituProf3">
+							<input type="radio" name="situationTravailleur" value="ETU" title="Mon(ma) conjoint(e) est étudiant(e) salarié(e), stagiaire ou apprenti(e)" id="idSituProf3" style="">Etudiant(e) salarié(e), stagiaire ou apprenti(e)
+						</label>
+					</div>
+					<div class="col-sm-4">
+				<!-- INC0264042 -->	
+						<label class="btn btn-default btn-block radSituationProfessionnelle active" for="idSituProf4">
+							<input type="radio" name="situationTravailleur" value="SALARIE" title="Mon(ma) conjoint(e) est salarié(e)" id="idSituProf4" style="">En activité salariée
+						</label>
+					</div>
+					<div class="col-sm-4">
+						<label class="btn btn-default btn-block radSituationProfessionnelle" for="idSituProf5">
+							<input type="radio" name="situationTravailleur" value="AUTRE" title="Mon(ma) conjoint(e) a une autre situation professionnelle" id="idSituProf5" style="">Autre
+						</label>
+					</div>
+				</div>
+			</fieldset>
+		</div>
+	</div>
+</div>
+
+<!--
+********************************
+* Cas d'un primo demandeur ETI *
+********************************
+-->
+
+<!-- Cas d'un primo demandeur ETI  -->
+<div class="hideOnLoad" id="cmpSecteurActivite" data-dynform-input=".radSecteurActivite" data-dynform-onhide="clearRadio('revenusSocietes[0].secteurActivite')" data-dynform-displayed="false" style="display: none;">
+	<!-- Secteur d'activité -->
+	<div class="row">
+		<div class="col-sm-12">
+			<fieldset>
+				<legend class="label-form-cnaf control-label hide-border">
+					Votre secteur d'activité
+					<img id="imgSecteurAct" class="mandatory" alt="Cette question est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+					<span style="display: none;">Cette question est obligatoire</span>
+				</legend>
+				<div data-toggle="buttons" class="btn-group btn-group-justified btn-group-lg-cnaf">
+					<div class="col-sm-4">
+						<label class="btn btn-default btn-block radSecteurActivite" for="idSecteurAct1">
+							<input type="radio" name="revenusSocietes[0].secteurActivite" value="PROFESSION_LIBERALE" title="Le secteur d'activité de mon(ma) conjoint(e) est profession libérale" id="idSecteurAct1" style="">Profession libérale
+						</label>
+					</div>
+					<div class="col-sm-4">
+						<label class="btn btn-default btn-block radSecteurActivite" for="idSecteurAct2">
+							<input type="radio" name="revenusSocietes[0].secteurActivite" value="ARTISAN" title="Le secteur d'activité de mon(ma) conjoint(e) est artisan" id="idSecteurAct2" style="">Artisan
+						</label>
+					</div>
+					<div class="col-sm-4">
+						<label class="btn btn-default btn-block radSecteurActivite" for="idSecteurAct3">
+							<input type="radio" name="revenusSocietes[0].secteurActivite" value="COMMERCANT" title="Le secteur d'activité de mon(ma) conjoint(e) est commerçant" id="idSecteurAct3" style="">Commerçant
+						</label>
+					</div>
+					<div class="col-sm-4">
+						<label class="btn btn-default btn-block radSecteurActivite" for="idSecteurAct4">
+							<input type="radio" name="revenusSocietes[0].secteurActivite" value="AUTRE" title="Mon(ma) conjoint(e) est dans un autre secteur d'activité" id="idSecteurAct4" style="">Autre
+						</label>
+					</div>
+				</div>
+			</fieldset>
+		</div>
+	</div>
+</div>
+
+<!-- Bénéfices déclarés -->
+<div class="hideOnLoad" id="cmpBeneficesDeclares" data-dynform-input=".radABenefices" data-dynform-choose="chooseBenefDeclare()" data-dynform-if-true="#cmpMontantBenefices -#cmpDetailsCA" data-dynform-if-false="#cmpDetailsCA -#cmpMontantBenefices" data-dynform-if-undefined="-#cmpDetailsCA -#cmpMontantBenefices" data-dynform-onhide="clearRadio('revenusSocietes[0].beneficesDeclares')" data-dynform-displayed="false" style="display: none;">
+	<div class="row">
+		<div class="col-sm-12">
+			<fieldset>
+				<legend class="label-form-cnaf control-label hide-border">
+					Votre conjoint(e) a déclaré des bénéfices commerciaux ou non commerciaux en 2024
+					<img id="imgBenefDeclare" class="mandatory" alt="Cette question est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+					<span style="display: none;">Cette question est obligatoire</span>
+				</legend>
+				<div id="revenusSocietes[0].beneficesDeclares" class="btn-group btn-block" data-toggle="buttons">
+					<label class="btn btn-default radABenefices" for="idBeneficesO">
+						<input type="radio" name="revenusSocietes[0].beneficesDeclares" value="true" title="Oui, des bénéfices commerciaux ou non commerciaux ont étés déclarés" id="idBeneficesO" style="">OUI
+					</label>
+					<label class="btn btn-default radABenefices" for="idBeneficesN">
+						<input type="radio" name="revenusSocietes[0].beneficesDeclares" value="false" title="Non, pas de bénéfices commerciaux ou non commerciaux déclarés" id="idBeneficesN" style="">NON
+					</label>
+				</div>
+			</fieldset>
+		</div>
+	</div>
+</div>
+
+<!-- Cas d'un primo demandeur ETI ayant déclaré des bénéfices en 2014 -->
+<div id="cmpMontantBenefices" class="hideOnLoad" data-dynform-onhide="clearText('.txtDetailsBenefices')" data-dynform-input="#montantBenefices" data-dynform-errors="#cmpErreurMontantBeneficesInferieur1000000" data-dynform-choose="chooseMontant('#montantBenefices')" data-dynform-if-true="-.cmpMontantBeneficesErrors" data-dynform-if-errtropgrand="#cmpErreurMontantBeneficesInferieur1000000" data-dynform-displayed="false" style="display: none;">
+	<!-- Montant bénéfices -->
+	<div class="row">
+		<div class="col-sm-12">
+			<label class="label-form-cnaf control-label" for="montantBenefices">
+				Montant de ses bénéfices en 2024
+				<img id="imgMontantBenef" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			<div class="form-group input-group has-feedback">
+				<input type="text" name="revenusSocietes[0].montantBenefice" value="" id="montantBenefices" class="form-control txtDetailsBenefices txtMntBenefices" style="">
+				<span class="picto picto-euro form-control-feedback"></span>
+			</div>
+			<div class="hideOnLoad cmpMontantBeneficesErrors" id="cmpErreurMontantBeneficesInferieur1000000" data-dynform-onshow="dynformSetError('#cmpMontantBenefices', true)" data-dynform-onhide="dynformSetError('#cmpMontantBenefices', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le montant doit être entier, positif et inférieur à 1 000 000.</i></span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="cmpDetailsCA" class="hideOnLoad" data-dynform-onhide="clearText('.txtDetailsCA')" data-dynform-displayed="false" style="display: none;">
+	<!-- Chiffre d'affaires -->
+	<div class="row">
+		<div class="col-sm-12">
+			<label class="label-form-cnaf">
+				Son chiffre d'affaires brut des 3 mois suivants :
+			</label>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4" id="cmpChiffreAffaireMoisMoins3" data-dynform-input="#chiffreAffaireMoisMoins3" data-dynform-errors="#cmpErreurChiffreAffaireMoisMoins3Inferieur1000000" data-dynform-choose="chooseMontant('#chiffreAffaireMoisMoins3')" data-dynform-if-true="-.cmpChiffreAffaireMoisMoins3Errors" data-dynform-if-errtropgrand="#cmpErreurChiffreAffaireMoisMoins3Inferieur1000000" data-dynform-displayed="true" style="display: block;">
+			<label for="chiffreAffaireMoisMoins3" class="textmonth">
+				<span class="sr-only">Chiffre d'affaires pour</span>
+				<span class="text-primary">JUIN 2026</span>
+				<img id="imgCAM3" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			
+			<div class="form-group input-group has-feedback">
+				<input type="text" name="revenusSocietes[0].chiffreAffaireMoisMoins3" value="" id="chiffreAffaireMoisMoins3" class="form-control txtDetailsCA" style="">
+				<span class="picto picto-euro form-control-feedback"></span> 
+			</div>
+			<div class="hideOnLoad cmpChiffreAffaireMoisMoins3Errors" id="cmpErreurChiffreAffaireMoisMoins3Inferieur1000000" data-dynform-onshow="dynformSetError('#cmpChiffreAffaireMoisMoins3', true)" data-dynform-onhide="dynformSetError('#cmpChiffreAffaireMoisMoins3', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le montant doit être entier, positif et inférieur à 1 000 000.</i></span>
+			</div>
+		</div>
+		<div class="col-sm-4" id="cmpChiffreAffaireMoisMoins2" data-dynform-input="#chiffreAffaireMoisMoins2" data-dynform-errors="#cmpErreurChiffreAffaireMoisMoins2Inferieur1000000" data-dynform-choose="chooseMontant('#chiffreAffaireMoisMoins2')" data-dynform-if-true="-.cmpChiffreAffaireMoisMoins2Errors" data-dynform-if-errtropgrand="#cmpErreurChiffreAffaireMoisMoins2Inferieur1000000" data-dynform-displayed="true" style="display: block;">
+			<label for="chiffreAffaireMoisMoins2" class="textmonth">
+				<span class="sr-only">Chiffre d'affaires pour </span>
+				<span class="text-primary">JUILLET 2026</span>
+				<img id="imgCAM2" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			<div class="form-group input-group has-feedback">
+				<input type="text" name="revenusSocietes[0].chiffreAffaireMoisMoins2" value="" id="chiffreAffaireMoisMoins2" class="form-control txtDetailsCA" style="">
+				<span class="picto picto-euro form-control-feedback"></span> 
+			</div>
+			<div class="hideOnLoad cmpChiffreAffaireMoisMoins2Errors" id="cmpErreurChiffreAffaireMoisMoins2Inferieur1000000" data-dynform-onshow="dynformSetError('#cmpChiffreAffaireMoisMoins2', true)" data-dynform-onhide="dynformSetError('#cmpChiffreAffaireMoisMoins2', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le montant doit être entier, positif et inférieur à 1 000 000.</i></span>
+			</div>							
+		</div>
+		<div class="col-sm-4" id="cmpChiffreAffaireMoisMoins1" data-dynform-input="#chiffreAffaireMoisMoins1" data-dynform-errors="#cmpErreurChiffreAffaireMoisMoins1Inferieur1000000" data-dynform-choose="chooseMontant('#chiffreAffaireMoisMoins1')" data-dynform-if-true="-.cmpChiffreAffaireMoisMoins1Errors" data-dynform-if-errtropgrand="#cmpErreurChiffreAffaireMoisMoins1Inferieur1000000" data-dynform-displayed="true" style="display: block;">
+			<label for="chiffreAffaireMoisMoins1" class="textmonth">
+				<span class="sr-only">Chiffre d'affaires pour</span>
+				<span class="text-primary">AOÛT 2026</span>
+				<img id="imgCAM1" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			<div class="form-group input-group has-feedback">
+				<input type="text" name="revenusSocietes[0].chiffreAffaireMoisMoins1" value="" id="chiffreAffaireMoisMoins1" class="form-control txtDetailsCA" style="">
+				<span class="picto picto-euro form-control-feedback"></span> 
+			</div>
+			<div class="hideOnLoad cmpChiffreAffaireMoisMoins1Errors" id="cmpErreurChiffreAffaireMoisMoins1Inferieur1000000" data-dynform-onshow="dynformSetError('#cmpChiffreAffaireMoisMoins1', true)" data-dynform-onhide="dynformSetError('#cmpChiffreAffaireMoisMoins1', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le montant doit être entier, positif et inférieur à 1 000 000.</i></span>
+			</div>							
+		</div>
+	</div>
+</div>
+ 
+<!--
+******************************************
+* Affichage du salaire et des ressources *
+******************************************
+-->
+<div class="hideOnLoad" id="cmpDetailsRessources" data-dynform-onhide="clearText('.txtDetailsRessources')" data-dynform-displayed="true" style="">
+	
+	<div class="col-sm-12">
+		
+	</div>
+	<!-- Salaires -->
+	<div class="row">
+		<div class="col-sm-12">
+			
+				<label class="label-form-cnaf">
+						Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité/maternité 
+						<a class="btn btn-info popover-button-cnaf" tabindex="0" role="button" data-toggle="popover" data-container="body" data-id-content-cnaf="divInfoSalaires" data-trigger="manual" data-original-title="" title=""><img class="state-passif" alt="Informations supplémentaires sur les salaires, indemnités maladie et indemnités paternité maternité." src="/icf-ressources-statiques-rwd-web/images/pic_aide_gris.png"><img class="hidden state-actif" alt="Informations supplémentaires sur les salaires, indemnités maladie et indemnités paternité maternité." src="/icf-ressources-statiques-rwd-web/images/pic_aide_bleu.png"></a>
+				</label>
+				<div class="hidden" id="divInfoSalaires">
+					<p>Faire la somme des montants nets sociaux:</p>
+	<ul>
+		<li>des salaires (y compris chômage partiel)</li>
+		<li>des indemnités de sécurité sociale</li>
+		<li>de la rémunération garantie perçue en ESAT (pour les bénéficiaires d'Aah)</li>
+		<li>de l'allocation d'aide au retour à l'emploi formation</li>
+	</ul>
+				</div>
+			
+			
+			
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4" id="cmpRevenusMoisMoins3" data-dynform-input="#revenusMoisMoins3" data-dynform-eventsadd="focus" data-dynform-errors="#cmpErreurRevenusMoisMoins3Inferieur1000000" data-dynform-choose="chooseMontant('#revenusMoisMoins3')" data-dynform-if-true="-.cmpRevenusMoisMoins3Errors" data-dynform-if-errtropgrand="#cmpErreurRevenusMoisMoins3Inferieur1000000" data-dynform-displayed="true" style="display: block;">
+			
+			<label for="revenusMoisMoins3" class="textmonth">
+				<span class="sr-only">Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour </span>
+				<span class="text-primary">JUIN 2026</span>
+				<img id="imgSalairesM3" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			
+			<div class="form-group input-group has-feedback">
+				<input type="text" name="revenusTravailleurs[0].revenusMoisMoins3" value="" id="revenusMoisMoins3" class="form-control txtDetailsRessources txtDetailsRessourcesSalaires" style="">
+				<span class="picto picto-euro form-control-feedback"></span> 
+			</div>
+			<div class="hideOnLoad cmpRevenusMoisMoins3Errors" id="cmpErreurRevenusMoisMoins3Inferieur1000000" data-dynform-onshow="dynformSetError('#cmpRevenusMoisMoins3', true)" data-dynform-onhide="dynformSetError('#cmpRevenusMoisMoins3', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le montant doit être entier, positif et inférieur à 1 000 000.</i></span>
+			</div>					
+		</div>
+		<div class="col-sm-4" id="cmpRevenusMoisMoins2" data-dynform-input="#revenusMoisMoins2" data-dynform-eventsadd="focus" data-dynform-errors="#cmpErreurRevenusMoisMoins2Inferieur1000000" data-dynform-choose="chooseMontant('#revenusMoisMoins2')" data-dynform-if-true="-.cmpRevenusMoisMoins2Errors" data-dynform-if-errtropgrand="#cmpErreurRevenusMoisMoins2Inferieur1000000" data-dynform-displayed="true" style="display: block;">
+			<label for="revenusMoisMoins2" class="textmonth">
+				<span class="sr-only">Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour </span>
+				<span class="text-primary">JUILLET 2026</span>
+				<img id="imgSalairesM2" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			<div class="form-group input-group has-feedback">
+				<input type="text" name="revenusTravailleurs[0].revenusMoisMoins2" value="" id="revenusMoisMoins2" class="form-control txtDetailsRessources txtDetailsRessourcesSalaires" style="">
+				<span class="picto picto-euro form-control-feedback"></span> 
+			</div>
+			<div class="hideOnLoad cmpRevenusMoisMoins2Errors" id="cmpErreurRevenusMoisMoins2Inferieur1000000" data-dynform-onshow="dynformSetError('#cmpRevenusMoisMoins2', true)" data-dynform-onhide="dynformSetError('#cmpRevenusMoisMoins2', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le montant doit être entier, positif et inférieur à 1 000 000.</i></span>
+			</div>				
+		</div>
+		<div class="col-sm-4" id="cmpRevenusMoisMoins1" data-dynform-input="#revenusMoisMoins1" data-dynform-eventsadd="focus" data-dynform-errors="#cmpErreurRevenusMoisMoins1Inferieur1000000" data-dynform-choose="chooseMontant('#revenusMoisMoins1')" data-dynform-if-true="-.cmpRevenusMoisMoins1Errors" data-dynform-if-errtropgrand="#cmpErreurRevenusMoisMoins1Inferieur1000000" data-dynform-displayed="true" style="display: block;">
+			<label for="revenusMoisMoins1" class="textmonth">
+				<span class="sr-only">Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour</span>
+				<span class="text-primary">AOÛT 2026</span>
+				<img id="imgSalairesM1" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			<div class="form-group input-group has-feedback">
+				<input type="text" name="revenusTravailleurs[0].revenusMoisMoins1" value="" id="revenusMoisMoins1" class="form-control txtDetailsRessources txtDetailsRessourcesSalaires" style="">
+				<span class="picto picto-euro form-control-feedback"></span> 
+			</div>
+			<div class="hideOnLoad cmpRevenusMoisMoins1Errors" id="cmpErreurRevenusMoisMoins1Inferieur1000000" data-dynform-onshow="dynformSetError('#cmpRevenusMoisMoins1', true)" data-dynform-onhide="dynformSetError('#cmpRevenusMoisMoins1', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le montant doit être entier, positif et inférieur à 1 000 000.</i></span>
+			</div>
+		</div>
+	</div>
+		
+	
+	
+	<!-- ATTENTION ! Si ce fichier est inclu de façon statique avec %include dans une JSP, alors
+en cas de modification de ce fichier, il est nécessaire de faire une modification au niveau du
+fichier conteneur afin que la servlet correspondante soit regénérée. -->
+
+<!-- Montants des allocations adultes handicapés (AAH) -->
+<div id="cmpMontantsAllocAAH" data-dynform-onhide="clearText('.txtMontantsAAH')" data-dynform-displayed="false" style="display: none;">
+	
+	<div class="row">
+		<div class="col-sm-12">
+			<label class="label-form-cnaf">
+				Allocation aux adultes handicapés
+			</label>
+		</div>
+		
+		<div class="col-sm-4" id="cmpAahMontantMoisMoins3" data-dynform-input="#aahMontantMoisMoins3" data-dynform-errors="#cmpErreurAahMontantMoisMoins3Inferieur1000000" data-dynform-choose="chooseMontant('#aahMontantMoisMoins3')" data-dynform-if-true="-.cmpAahMontantMoisMoins3Errors" data-dynform-if-errtropgrand="#cmpErreurAahMontantMoisMoins3Inferieur1000000" data-dynform-displayed="true" style="display: block;">
+			<label for="aahMontantMoisMoins3" class="textmonth">
+				<span class="sr-only">Allocation aux adultes handicapés pour </span>
+				<span class="text-primary">JUIN 2026</span>
+				<img id="imgMontantAAHMoins3" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			<div class="form-group has-feedback">
+				<input type="text" name="aahMontants[0].revenusMoisMoins3" maxlength="7" size="7" value="" class="form-control txtMontantsAAH" id="aahMontantMoisMoins3" style="">
+				<span class="picto picto-euro form-control-feedback"></span>
+			</div>
+			<div class="hideOnLoad cmpAahMontantMoisMoins3Errors" id="cmpErreurAahMontantMoisMoins3Inferieur1000000" data-dynform-onshow="dynformSetError('#cmpAahMontantMoisMoins3', true)" data-dynform-onhide="dynformSetError('#cmpAahMontantMoisMoins3', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le montant doit être entier, positif et inférieur à 1 000 000.</i></span>
+			</div>	
+		</div>
+		
+		<div class="col-sm-4" id="cmpAahMontantMoisMoins2" data-dynform-input="#aahMontantMoisMoins2" data-dynform-errors="#cmpErreurAahMontantMoisMoins2Inferieur1000000" data-dynform-choose="chooseMontant('#aahMontantMoisMoins2')" data-dynform-if-true="-.cmpAahMontantMoisMoins2Errors" data-dynform-if-errtropgrand="#cmpErreurAahMontantMoisMoins2Inferieur1000000" data-dynform-displayed="true" style="display: block;">
+			<label for="aahMontantMoisMoins2" class="textmonth">
+				<span class="sr-only">Allocation aux adultes handicapés pour </span>
+				<span class="text-primary">JUILLET 2026</span>
+				<img id="imgMontantAAHMoins2" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			<div class="form-group has-feedback">
+				<input type="text" name="aahMontants[0].revenusMoisMoins2" maxlength="7" size="7" value="" class="form-control txtMontantsAAH" id="aahMontantMoisMoins2" style="">
+				<span class="picto picto-euro form-control-feedback"></span>
+			</div>			
+			<div class="hideOnLoad cmpAahMontantMoisMoins2Errors" id="cmpErreurAahMontantMoisMoins2Inferieur1000000" data-dynform-onshow="dynformSetError('#cmpAahMontantMoisMoins2', true)" data-dynform-onhide="dynformSetError('#cmpAahMontantMoisMoins2', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le montant doit être entier, positif et inférieur à 1 000 000.</i></span>
+			</div>	
+		</div>
+		
+		<div class="col-sm-4" id="cmpAahMontantMoisMoins1" data-dynform-input="#aahMontantMoisMoins1" data-dynform-errors="#cmpErreurAahMontantMoisMoins1Inferieur1000000" data-dynform-choose="chooseMontant('#aahMontantMoisMoins1')" data-dynform-if-true="-.cmpAahMontantMoisMoins1Errors" data-dynform-if-errtropgrand="#cmpErreurAahMontantMoisMoins1Inferieur1000000" data-dynform-displayed="true" style="display: block;">
+			<label for="aahMontantMoisMoins1" class="textmonth">
+				<span class="sr-only">Allocation aux adultes handicapés pour </span>
+				<span class="text-primary">AOÛT 2026</span>
+				<img id="imgMontantAAHMoins1" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			<div class="form-group has-feedback">
+				<input type="text" name="aahMontants[0].revenusMoisMoins1" maxlength="7" size="7" value="" class="form-control txtMontantsAAH" id="aahMontantMoisMoins1" style="">
+				<span class="picto picto-euro form-control-feedback"></span>
+			</div>			
+			<div class="hideOnLoad cmpAahMontantMoisMoins1Errors" id="cmpErreurAahMontantMoisMoins1Inferieur1000000" data-dynform-onshow="dynformSetError('#cmpAahMontantMoisMoins1', true)" data-dynform-onhide="dynformSetError('#cmpAahMontantMoisMoins1', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le montant doit être entier, positif et inférieur à 1 000 000.</i></span>
+			</div>	
+		</div>
+	</div>
+</div>
+
+<div id="cmpRevenusPlacement" data-dynform-displayed="true" style="display: block;">
+	<div class="row">
+		<div class="col-sm-12">
+			<label class="label-form-cnaf">
+				Revenus annuels de placement (intérêts, dividendes, plus-values...) ou du patrimoine (revenus fonciers...)
+				<a class="btn btn-info popover-button-cnaf" tabindex="0" role="button" data-toggle="popover" data-container="body" data-id-content-cnaf="divInfoRevenusPlacement" data-trigger="manual" data-original-title="" title=""><img class="state-passif" alt="Informations supplémentaires sur les revenus imposables annuels de placement ou du patrimoine." src="/icf-ressources-statiques-rwd-web/images/pic_aide_gris.png"><img class="hidden state-actif" alt="Informations supplémentaires sur les revenus imposables annuels de placement ou du patrimoine." src="/icf-ressources-statiques-rwd-web/images/pic_aide_bleu.png"></a>
+				
+				
+					<label class="small">Si vous avez déjà déclaré ces revenus pour votre conjoint, ne mettez rien dans cette rubrique
+					</label>
+				
+				
+			</label>
+			<div class="hidden" id="divInfoRevenusPlacement">
+				<p>Reportez vous à votre avis d'imposition des revenus 2024 ou faire la somme de la part imposable :</p>
+				<ul>
+					<li>Des revenus fonciers (revenus de biens immobiliers),micro fonciers (après déduction de l'abattement fiscal forfaitaire)</li>
+					<li>Des contrats épargne handicap souscrits par vous-même et des rentes de survie</li>
+					<li>Revenus des capitaux et des valeurs mobilières (actions, obligations,...)</li>
+					<li>Revenus soumis à prélèvement libératoire sans déduire le montant de l'impôt, y compris les indemnités des élus locaux soumis à prélèvement libératoire</li>
+					<li>Plus-values et gains divers taxés à un taux forfaitaire, y compris les plus-values de cession des professions non salariées</li>
+					<li>Rentes viagères à titre onéreux</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="col-sm-4" id="cmpRevenuPlacement" data-dynform-input="#revenuPlacement" data-dynform-choose="chooseMontant('#revenuPlacement')" data-dynform-displayed="true" style="display: block;">
+			<label for="revenuPlacement" class="textmonth">
+				<span class="sr-only">Revenus imposables de placement ou du patrimoine pour </span>
+				<span class="text-primary">Année 2024</span>
+				<img id="imgMontantPlacement" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			
+			<div class="form-group has-feedback">
+				<input type="text" name="revenuPlacement" maxlength="7" size="7" value="" class="form-control txtRevenuPlacement" id="revenuPlacement" style="">
+				<span class="picto picto-euro form-control-feedback"></span>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	
+
+
+
+	<!-- Autres ressources -->
+	<div class="row">
+		
+		
+			<div class="col-sm-12">
+				<label class="label-form-cnaf">
+					Autres ressources perçues
+					<a class="btn btn-info popover-button-cnaf" tabindex="0" role="button" data-toggle="popover" data-container="body" data-id-content-cnaf="divInfoRessources" data-trigger="manual" data-original-title="" title=""><img class="state-passif" alt="Informations supplémentaires sur les Autres ressources perçues" src="/icf-ressources-statiques-rwd-web/images/pic_aide_gris.png"><img class="hidden state-actif" alt="Informations supplémentaires sur les Autres ressources perçues" src="/icf-ressources-statiques-rwd-web/images/pic_aide_bleu.png"></a>
+				</label>
+				<div class="hidden" id="divInfoRessources">
+					<p>Faire la somme du montant net social des ressources suivantes :</p>
+	<ul>
+		<li>Indemnités chômage</li> 
+		<li>Pensions alimentaires reçues</li>
+		<li>Retraites, allocation veuvage</li>
+		<li>Pensions de réversion, d'invalidité ...</li>
+		<li>Rentes accident du travail (attention les contrats épargne handicap sont à indiquer en "revenus annuels de placement ou du patrimoine")</li>
+	</ul>
+				</div>
+			</div>
+		
+		
+	</div>
+	<div class="row">
+		<div class="col-sm-4" id="cmpAutresRessourcesMoisMoins3" data-dynform-input="#autresRessourcesMoisMoins3" data-dynform-eventsadd="focus" data-dynform-errors="#cmpErreurAutresRessourcesMoisMoins3Inferieur1000000" data-dynform-choose="chooseMontant('#autresRessourcesMoisMoins3')" data-dynform-if-true="-.cmpAutresRessourcesMoisMoins3Errors" data-dynform-if-errtropgrand="#cmpErreurAutresRessourcesMoisMoins3Inferieur1000000" data-dynform-displayed="true" style="display: block;">
+			<label for="autresRessourcesMoisMoins3" class="textmonth">
+				<span class="sr-only">Autres ressources perçues pour </span>
+				<span class="text-primary">JUIN 2026</span>
+				<img id="imgRessourcesM3" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>	
+			<div class="form-group input-group has-feedback">
+				<input type="text" name="revenusTravailleurs[0].autresRessourcesMoisMoins3" value="" id="autresRessourcesMoisMoins3" class="form-control txtDetailsRessources txtDetailsRessourcesAutres" style="">
+				<span class="picto picto-euro form-control-feedback"></span> 
+			</div>
+			<div class="hideOnLoad cmpAutresRessourcesMoisMoins3Errors" id="cmpErreurAutresRessourcesMoisMoins3Inferieur1000000" data-dynform-onshow="dynformSetError('#cmpAutresRessourcesMoisMoins3', true)" data-dynform-onhide="dynformSetError('#cmpAutresRessourcesMoisMoins3', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le montant doit être entier, positif et inférieur à 1 000 000.</i></span>
+			</div>					
+		</div>
+		<div class="col-sm-4" id="cmpAutresRessourcesMoisMoins2" data-dynform-input="#autresRessourcesMoisMoins2" data-dynform-eventsadd="focus" data-dynform-errors="#cmpErreurAutresRessourcesMoisMoins2Inferieur1000000" data-dynform-choose="chooseMontant('#autresRessourcesMoisMoins2')" data-dynform-if-true="-.cmpAutresRessourcesMoisMoins2Errors" data-dynform-if-errtropgrand="#cmpErreurAutresRessourcesMoisMoins2Inferieur1000000" data-dynform-displayed="true" style="display: block;">
+			<label for="autresRessourcesMoisMoins2" class="textmonth">
+				<span class="sr-only">Autres ressources perçues pour </span>
+				<span class="text-primary">JUILLET 2026</span>
+				<img id="imgRessourcesM2" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			<div class="form-group input-group has-feedback">
+				<input type="text" name="revenusTravailleurs[0].autresRessourcesMoisMoins2" value="" id="autresRessourcesMoisMoins2" class="form-control txtDetailsRessources txtDetailsRessourcesAutres" style="">
+				<span class="picto picto-euro form-control-feedback"></span> 
+			</div>
+			<div class="hideOnLoad cmpAutresRessourcesMoisMoins2Errors" id="cmpErreurAutresRessourcesMoisMoins2Inferieur1000000" data-dynform-onshow="dynformSetError('#cmpAutresRessourcesMoisMoins2', true)" data-dynform-onhide="dynformSetError('#cmpAutresRessourcesMoisMoins2', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le montant doit être entier, positif et inférieur à 1 000 000.</i></span>
+			</div>
+		</div>
+		<div class="col-sm-4" id="cmpAutresRessourcesMoisMoins1" data-dynform-input="#autresRessourcesMoisMoins1" data-dynform-eventsadd="focus" data-dynform-errors="#cmpErreurAutresRessourcesMoisMoins1Inferieur1000000" data-dynform-choose="chooseMontant('#autresRessourcesMoisMoins1')" data-dynform-if-true="-.cmpAutresRessourcesMoisMoins1Errors" data-dynform-if-errtropgrand="#cmpErreurAutresRessourcesMoisMoins1Inferieur1000000" data-dynform-displayed="true" style="display: block;">
+			<label for="autresRessourcesMoisMoins1" class="textmonth">
+				<span class="sr-only">Autres ressources perçues pour </span>			
+				<span class="text-primary">AOÛT 2026</span>
+				<img id="imgRessourcesM1" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			<div class="form-group input-group has-feedback">
+				<input type="text" name="revenusTravailleurs[0].autresRessourcesMoisMoins1" value="" id="autresRessourcesMoisMoins1" class="form-control txtDetailsRessources txtDetailsRessourcesAutres" style="">
+				<span class="picto picto-euro form-control-feedback"></span> 
+			</div>
+			<div class="hideOnLoad cmpAutresRessourcesMoisMoins1Errors" id="cmpErreurAutresRessourcesMoisMoins1Inferieur1000000" data-dynform-onshow="dynformSetError('#cmpAutresRessourcesMoisMoins1', true)" data-dynform-onhide="dynformSetError('#cmpAutresRessourcesMoisMoins1', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le montant doit être entier, positif et inférieur à 1 000 000.</i></span>
+			</div>				
+		</div>
+	</div>
+</div>
+
+<!--
+***************************************************************
+* Cas de la personne à charge ayant entre 14 ans et de 18 ans *
+***************************************************************
+-->
+
+<!-- ATTENTION ! Si ce fichier est inclu de façon statique avec %include dans une JSP, alors
+en cas de modification de ce fichier, il est nécessaire de faire une modification au niveau du
+fichier conteneur afin que la servlet correspondante soit regénérée. -->
+
+<!-- Constantes-->
+
+
+<script lang="javascript">
+ 	function chooseSitProMoins18ans() {
+			
+		if (dynformIsDisplayed("#cmpSituationTravail")) {
+			return getValueRadio('situationTravailleur');
+		}
+		
+		return "undefined";
+	}
+ </script>
+
+<div class="hideOnLoad" id="cmpSituationTravail" data-dynform-input=".radSituationTravailleur" data-dynform-choose="chooseSitProMoins18ans()" data-dynform-if-etu="#cmpDetailsRevenus" data-dynform-if-autre="#cmpDetailsRevenus" data-dynform-if-sans_ressources="-#cmpDetailsRevenus" data-dynform-if-undefined="-#cmpDetailsRevenus" data-dynform-onhide="clearRadio('situationTravailleur')" data-dynform-displayed="false" style="display: none;">
+	<div class="row">
+		<div class="col-sm-12 form-group">
+			<fieldset>
+				<legend class="label-form-cnaf hide-border">
+					Votre conjoint(e) est
+					<img id="imgSitTrav" class="mandatory" alt="Cette question est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+					<span style="display: none;">Cette question est obligatoire</span>
+				</legend>
+				<div data-toggle="buttons" class="btn-group btn-group-justified btn-group-lg-cnaf">
+					<div class="col-sm-4">
+						<label class="btn btn-default btn-block radSituationTravailleur" for="idSituProf1">
+							<input type="radio" name="situationTravailleur" value="SANS_RESSOURCES" title="Mon(ma) conjoint(e) est sans ressources" id="idSituProf1" style=""> Sans ressource
+						</label>
+					</div>
+					<div class="col-sm-4">
+						<label class="btn btn-default btn-block radSituationTravailleur" for="idSituProf2">
+							<input type="radio" name="situationTravailleur" value="ETU" title="Mon(ma) conjoint(e) est étudiant(e) salarié(e), stagiaire ou apprenti(e)" id="idSituProf2" style="">Etudiant(e) salarié(e), stagiaire ou apprenti(e)
+						</label>
+					</div>
+					<div class="col-sm-4">
+						<label class="btn btn-default btn-block radSituationTravailleur" for="idSituProf3">
+							<input type="radio" name="situationTravailleur" value="AUTRE" title="Mon(ma) conjoint(e) a une autre situation professionnelle" id="idSituProf4" style="">Autre
+						</label>
+					</div>
+				</div>
+			</fieldset>
+		</div>
+	</div>	
+</div>
+
+<!-- Cas de la personne à charge ayant entre 14 ans et de 18 ans et ETU ou Autre -->
+<div class="hideOnLoad" id="cmpDetailsRevenus" data-dynform-onhide="clearText('.txtDetailsRevenus')" data-dynform-displayed="false" style="display: none;">
+	
+	<div class="col-sm-12">
+		
+	</div>
+	
+	<div class="row">
+		<!-- TODO Pour aligner lee début de la ligne : à voir si on peut faire mieux -->
+		<div class="col-sm-12">
+			
+				<label class="label-form-cnaf">
+					Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité/maternité 
+					<a class="btn btn-info popover-button-cnaf" tabindex="0" role="button" data-toggle="popover" data-container="body" data-id-content-cnaf="divInfoSalaires" data-trigger="manual" data-original-title="" title=""><img class="state-passif" alt="Informations supplémentaires sur les salaires, indemnités maladie et indemnités paternité maternité." src="/icf-ressources-statiques-rwd-web/images/pic_aide_gris.png"><img class="hidden state-actif" alt="Informations supplémentaires sur les salaires, indemnités maladie et indemnités paternité maternité." src="/icf-ressources-statiques-rwd-web/images/pic_aide_bleu.png"></a>
+
+				</label>
+				<div class="hidden" id="divInfoSalaires">
+					<p>Faire la somme des montants nets sociaux:</p>
+	<ul>
+		<li>des salaires (y compris chômage partiel)</li>
+		<li>des indemnités de sécurité sociale</li>
+		<li>de la rémunération garantie perçue en ESAT (pour les bénéficiaires d'Aah)</li>
+		<li>de l'allocation d'aide au retour à l'emploi formation</li>
+	</ul>
+				</div>
+			
+			
+			
+		</div>
+		
+		<div class="col-sm-4" id="cmpRevenusTravailleursRevenusMoisMoins3" data-dynform-input="#revenusTravailleursRevenusMoisMoins3" data-dynform-errors="#cmpErreurRevenusTravailleursRevenusMoisMoins3Inferieur1000000" data-dynform-choose="chooseMontant('#revenusTravailleursRevenusMoisMoins3')" data-dynform-if-true="-.cmpRevenusTravailleursRevenusMoisMoins3Errors" data-dynform-if-errtropgrand="#cmpErreurRevenusTravailleursRevenusMoisMoins3Inferieur1000000" data-dynform-displayed="true" style="display: block;">
+			<label for="revenusTravailleursRevenusMoisMoins3" class="textmonth">
+				<span class="sr-only">Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité/maternité pour </span>
+				<span class="text-primary">JUIN 2026</span>
+				<img id="imgSalairesM3" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			
+			<div class="form-group has-feedback">
+				<input type="text" name="revenusTravailleurs[1].revenusMoisMoins3" maxlength="7" size="7" value="" class="form-control txtDetailsRevenus txtDetailsRevenusETU" id="revenusTravailleursRevenusMoisMoins3" style="">
+				<span class="picto picto-euro form-control-feedback"></span>
+			</div>
+			<div class="hideOnLoad cmpRevenusTravailleursRevenusMoisMoins3Errors" id="cmpErreurRevenusTravailleursRevenusMoisMoins3Inferieur1000000" data-dynform-onshow="dynformSetError('#cmpRevenusTravailleursRevenusMoisMoins3', true)" data-dynform-onhide="dynformSetError('#cmpRevenusTravailleursRevenusMoisMoins3', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le montant doit être entier, positif et inférieur à 1 000 000.</i></span>
+			</div>	
+		</div>
+		<div class="col-sm-4" id="cmpRevenusTravailleursRevenusMoisMoins2" data-dynform-input="#revenusTravailleursRevenusMoisMoins2" data-dynform-errors="#cmpErreurRevenusTravailleursRevenusMoisMoins2Inferieur1000000" data-dynform-choose="chooseMontant('#revenusTravailleursRevenusMoisMoins2')" data-dynform-if-true="-.cmpRevenusTravailleursRevenusMoisMoins2Errors" data-dynform-if-errtropgrand="#cmpErreurRevenusTravailleursRevenusMoisMoins2Inferieur1000000" data-dynform-displayed="true" style="display: block;">
+			<label for="revenusTravailleursRevenusMoisMoins2" class="textmonth">
+				<span class="sr-only">Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité/maternité pour </span>
+				<span class="text-primary">JUILLET 2026</span>
+				<img id="imgSalairesM2" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			
+			<div class="form-group has-feedback">
+				<input type="text" name="revenusTravailleurs[1].revenusMoisMoins2" maxlength="7" size="7" value="" class="form-control txtDetailsRevenus txtDetailsRevenusETU" id="revenusTravailleursRevenusMoisMoins2" style="">
+				<span class="picto picto-euro form-control-feedback"></span>
+			</div>
+			<div class="hideOnLoad cmpRevenusTravailleursRevenusMoisMoins2Errors" id="cmpErreurRevenusTravailleursRevenusMoisMoins2Inferieur1000000" data-dynform-onshow="dynformSetError('#cmpRevenusTravailleursRevenusMoisMoins2', true)" data-dynform-onhide="dynformSetError('#cmpRevenusTravailleursRevenusMoisMoins2', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le montant doit être entier, positif et inférieur à 1 000 000.</i></span>
+			</div>				
+		</div>
+		<div class="col-sm-4" id="cmpRevenusTravailleursRevenusMoisMoins1" data-dynform-input="#revenusTravailleursRevenusMoisMoins1" data-dynform-errors="#cmpErreurRevenusTravailleursRevenusMoisMoins1Inferieur1000000" data-dynform-choose="chooseMontant('#revenusTravailleursRevenusMoisMoins1')" data-dynform-if-true="-.cmpRevenusTravailleursRevenusMoisMoins1Errors" data-dynform-if-errtropgrand="#cmpErreurRevenusTravailleursRevenusMoisMoins1Inferieur1000000" data-dynform-displayed="true" style="display: block;">
+			<label for="revenusTravailleursRevenusMoisMoins1" class="textmonth">
+				<span class="sr-only">Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité/maternité pour </span>
+				<span class="text-primary">AOÛT 2026</span>
+				<img id="imgSalairesM1" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			<div class="form-group has-feedback">
+				<input type="text" name="revenusTravailleurs[1].revenusMoisMoins1" maxlength="7" size="7" value="" class="form-control txtDetailsRevenus txtDetailsRevenusETU" id="revenusTravailleursRevenusMoisMoins1" style="">
+				<span class="picto picto-euro form-control-feedback"></span>
+			</div>
+			<div class="hideOnLoad cmpRevenusTravailleursRevenusMoisMoins1Errors" id="cmpErreurRevenusTravailleursRevenusMoisMoins1Inferieur1000000" data-dynform-onshow="dynformSetError('#cmpRevenusTravailleursRevenusMoisMoins1', true)" data-dynform-onhide="dynformSetError('#cmpRevenusTravailleursRevenusMoisMoins1', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le montant doit être entier, positif et inférieur à 1 000 000.</i></span>
+			</div>				
+		</div>
+	</div>
+
+	
+	<div class="row">
+		<!-- TODO Pour aligner le début de la ligne : à voir si on peut faire mieux -->
+		
+			<div class="col-sm-12">
+				<label class="label-form-cnaf">
+					Autres ressources perçues
+					<a class="btn btn-info popover-button-cnaf" tabindex="0" role="button" data-toggle="popover" data-container="body" data-id-content-cnaf="divInfoRessources" data-trigger="manual" data-original-title="" title=""><img class="state-passif" alt="Informations supplémentaires sur les Autres ressources perçues" src="/icf-ressources-statiques-rwd-web/images/pic_aide_gris.png"><img class="hidden state-actif" alt="Informations supplémentaires sur les Autres ressources perçues" src="/icf-ressources-statiques-rwd-web/images/pic_aide_bleu.png"></a>				
+				</label>
+				<!-- PopOver InfoRessources -->
+				<div id="divInfoRessources" class="hidden">
+					<p>Faire la somme du montant net social des ressources suivantes :</p>
+	<ul>
+		<li>Indemnités chômage</li> 
+		<li>Pensions alimentaires reçues</li>
+		<li>Retraites, allocation veuvage</li>
+		<li>Pensions de réversion, d'invalidité ...</li>
+		<li>Rentes accident du travail (attention les contrats épargne handicap sont à indiquer en "revenus annuels de placement ou du patrimoine")</li>
+	</ul>
+				</div>			
+			</div>		
+		
+		
+			
+		<div class="col-sm-4" id="cmpRevenusTravailleursAutresRessourcesMoisMoins3" data-dynform-input="#revenusTravailleursAutresRessourcesMoisMoins3" data-dynform-errors="#cmpErreurRevenusTravailleursAutresRessourcesMoisMoins3Inferieur1000000" data-dynform-choose="chooseMontant('#revenusTravailleursAutresRessourcesMoisMoins3')" data-dynform-if-true="-.cmpRevenusTravailleursAutresRessourcesMoisMoins3Errors" data-dynform-if-errtropgrand="#cmpErreurRevenusTravailleursAutresRessourcesMoisMoins3Inferieur1000000" data-dynform-displayed="true" style="display: block;">
+			<label for="revenusTravailleursAutresRessourcesMoisMoins3" class="textmonth">
+				<span class="sr-only">Autres ressources perçues pour </span>
+				<span class="text-primary">JUIN 2026</span>
+				<img id="imgRessourcesM3" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			<div class="form-group has-feedback">
+				<input type="text" name="revenusTravailleurs[1].autresRessourcesMoisMoins3" maxlength="7" size="7" value="" class="form-control txtDetailsRevenus txtDetailsRevenusETUAutres" id="revenusTravailleursAutresRessourcesMoisMoins3" style="">
+				<span class="picto picto-euro form-control-feedback"></span>
+			</div>
+			<div class="hideOnLoad cmpRevenusTravailleursAutresRessourcesMoisMoins3Errors" id="cmpErreurRevenusTravailleursAutresRessourcesMoisMoins3Inferieur1000000" data-dynform-onshow="dynformSetError('#cmpRevenusTravailleursAutresRessourcesMoisMoins3', true)" data-dynform-onhide="dynformSetError('#cmpRevenusTravailleursAutresRessourcesMoisMoins3', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le montant doit être entier, positif et inférieur à 1 000 000.</i></span>
+			</div>							
+		</div>
+		<div class="col-sm-4" id="cmpRevenusTravailleursAutresRessourcesMoisMoins2" data-dynform-input="#revenusTravailleursAutresRessourcesMoisMoins2" data-dynform-errors="#cmpErreurRevenusTravailleursAutresRessourcesMoisMoins2Inferieur1000000" data-dynform-choose="chooseMontant('#revenusTravailleursAutresRessourcesMoisMoins2')" data-dynform-if-true="-.cmpRevenusTravailleursAutresRessourcesMoisMoins2Errors" data-dynform-if-errtropgrand="#cmpErreurRevenusTravailleursAutresRessourcesMoisMoins2Inferieur1000000" data-dynform-displayed="true" style="display: block;">
+			<label for="revenusTravailleursAutresRessourcesMoisMoins2" class="textmonth">
+				<span class="sr-only">Autres ressources perçues pour </span>
+				<span class="text-primary">JUILLET 2026</span>
+				<img id="imgRessourcesM2" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			<div class="form-group has-feedback">
+				<input type="text" name="revenusTravailleurs[1].autresRessourcesMoisMoins2" maxlength="7" size="7" value="" class="form-control txtDetailsRevenus txtDetailsRevenusETUAutres" id="revenusTravailleursAutresRessourcesMoisMoins2" style="">
+				<span class="picto picto-euro form-control-feedback"></span>
+			</div>
+			<div class="hideOnLoad cmpRevenusTravailleursAutresRessourcesMoisMoins2Errors" id="cmpErreurRevenusTravailleursAutresRessourcesMoisMoins2Inferieur1000000" data-dynform-onshow="dynformSetError('#cmpRevenusTravailleursAutresRessourcesMoisMoins2', true)" data-dynform-onhide="dynformSetError('#cmpRevenusTravailleursAutresRessourcesMoisMoins2', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le montant doit être entier, positif et inférieur à 1 000 000.</i></span>
+			</div>
+		</div>
+		<div class="col-sm-4" id="cmpRevenusTravailleursAutresRessourcesMoisMoins1" data-dynform-input="#revenusTravailleursAutresRessourcesMoisMoins1" data-dynform-errors="#cmpErreurRevenusTravailleursAutresRessourcesMoisMoins1Inferieur1000000" data-dynform-choose="chooseMontant('#revenusTravailleursAutresRessourcesMoisMoins1')" data-dynform-if-true="-.cmpRevenusTravailleursAutresRessourcesMoisMoins1Errors" data-dynform-if-errtropgrand="#cmpErreurRevenusTravailleursAutresRessourcesMoisMoins1Inferieur1000000" data-dynform-displayed="true" style="display: block;">
+			<label for="revenusTravailleursAutresRessourcesMoisMoins1" class="textmonth">
+				<span class="sr-only">Autres ressources perçues pour </span>	
+				<span class="text-primary">AOÛT 2026</span>
+				<img id="imgRessourcesM1" class="mandatory" alt="Ce champ est obligatoire" style="" src="/wpp-simulateur-web/wpp-simulateur/html/view/default/communs/mandatory.png">			
+				<span style="display: none;">Ce champ est obligatoire</span>
+			</label>
+			<div class="form-group has-feedback">
+				<input type="text" name="revenusTravailleurs[1].autresRessourcesMoisMoins1" maxlength="7" size="7" value="" class="form-control txtDetailsRevenus txtDetailsRevenusETUAutres" id="revenusTravailleursAutresRessourcesMoisMoins1" style="">
+				<span class="picto picto-euro form-control-feedback"></span>
+			</div>
+			<div class="hideOnLoad cmpRevenusTravailleursAutresRessourcesMoisMoins1Errors" id="cmpErreurRevenusTravailleursAutresRessourcesMoisMoins1Inferieur1000000" data-dynform-onshow="dynformSetError('#cmpRevenusTravailleursAutresRessourcesMoisMoins1', true)" data-dynform-onhide="dynformSetError('#cmpRevenusTravailleursAutresRessourcesMoisMoins1', false)" data-dynform-displayed="false" style="display: none;">
+				<span class="text-danger" tabindex="0"><i>Le montant doit être entier, positif et inférieur à 1 000 000.</i></span>
+			</div>							
+		</div>
+	</div>
+</div>
+
+
+<!--
+*************************************************
+* Cas de la personne à charge ayant - de 14 ans *
+*************************************************
+-->
+<!-- Message d'erreur -->
+ 
+<script lang="javascript">
+	// Récupération de la date du jour depuis le champ du VSB, lui-même initialisé avec la valeur
+	// de CurrentDate.createDate(), qui lit le cookie définit par WRU
+	var dateDuJour = parseDate('26/10/2026');
+		var isRSO = "false";
+
+	function chooseDateNaissance() {
+		var value = addSlashesToDate('#dateNaissance');	
+		
+		if (value.length == 0) {
+			return "nonRenseigne";
+		}
+		
+		// Controles le format de la date de naissance format jj/mm/aaaa : cmpErreurDateDeNaissanceFormat			
+		if(!isDate(value)) {
+			return "errFormat";
+		}			
+			
+		var age = computeAge(dateDuJour, value);
+		if (age >= 18) {
+			return 18;
+		}
+		if (age >= 16) {
+			return 16;
+		}
+		if (age < 16 && age > 0) {
+			return "inferieur16";
+		}
+		
+		// l'age est négative ou égale à 0. Pas de possibilité de calculer
+		return "inferieurEgale0";
+	}
+	
+	/**
+	* Vérifie si l'état actuel du formulaire permet l'affichage du bouton
+	* Suivant, et l'affiche le cas échéant.
+	*/
+	function showNextButton() {
+
+		var sitPro = getValueRadio('situationTravailleur');
+ 		var isTravailleurIndependant	= (sitPro == 'TRAVAILLEUR_INDEPENDANT');
+ 		var isAutoEntrepreneur 			= (sitPro == 'AUTO_ENTREPRENEUR');
+ 		var isEtu						= (sitPro == 'ETU');
+ 		var isAutre						= (sitPro == 'AUTRE');
+		var isSansRessources			= (sitPro == 'SANS_RESSOURCES');
+        /** INC0264042 cas salarié*/
+        var isSalarie					= (sitPro == 'SALARIE');
+        
+		var isAge18OuPlus = (chooseDateNaissance() == 18);
+		
+		var testRSO = ((isRSO   && !isEmptyRadio('revenuDeSolidarite')) || isRSO=="false") ;
+		
+ 		var show = 
+			!dynformHasErrorOnPage()
+			&& !isEmptyRadio('situationTravailleur')
+		
+			&& testRSO
+			
+			&& (
+				isAge18OuPlus && !isEmptyRadio('allocationAah')	
+			
+// 			&& !isEmptyRadio('pensionInvalidite')
+// 			&& !isEmptyRadio('renteAtmp') 
+				
+				|| !isAge18OuPlus
+			)
+			
+			&& (
+				// cas ETU ou AUTRE ou sans ressources
+				//INC0264042 ou salarié
+				isEtu || isAutre || isSansRessources || isSalarie
+				
+				// cas Travailleur independant
+				||	(isTravailleurIndependant && !isEmptyRadio('revenusSocietes[0].secteurActivite') && !isEmptyRadio('revenusSocietes[0].beneficesDeclares'))
+				
+				// cas auto entrepreneur
+				|| (isAutoEntrepreneur && !isEmptyRadio('revenusSocietes[0].secteurActivite'))
+				
+			);
+				
+		showComponent("[name=BCSuivant]", show); 		
+	} 	
+	
+	
+
+	$(document).ready(function(){
+		document.title = "Situation du conjoint - Simulateur prime d'activité - CNAF";
+		
+		// Initialement, on masque le bouton suivant
+		$("[name=BCSuivant]").css("display","none");
+		
+		// Mise en place de DynForm
+		dynformSetup({
+			"rootComponents": "#cmpDateNaissance #cmpRenteAtmp #cmpPensionInvalidite",
+			"showMethod": showComponent,
+			"endUpdateListener": showNextButton
+		});
+		
+		$("[name=BCSuivant]").click(function(event) {			 
+						
+			//  Test si les paramètres EtudiantSalarie  est visible pour tester les champs sinon
+			if(dynformIsDisplayed("#cmpDetailsRevenus")) {
+				var resultatRessourcesSalaire = ressourcesVides(".txtDetailsRevenusETU");
+				var resultatRessourcesAutres = ressourcesVides(".txtDetailsRevenusETUAutres");
+								
+				if( resultatRessourcesSalaire || resultatRessourcesAutres ) {
+					// Construit le message :
+					if(resultatRessourcesSalaire && resultatRessourcesAutres) {
+						showComponent("#salaireEtRessourceVideETU", true);
+						showComponents("#salaireVide #ressourceVide", false);
+					} else {
+						showComponent("#salaireEtRessourceVideETU", false);
+						showComponent("#salaireVide", resultatRessourcesSalaire);
+						showComponent("#ressourceVide", resultatRessourcesAutres);
+					}
+					// Affichage de la popup d'avertissement
+			   	  	$('#modalRessourcesETU').modal('show');
+			   	  	 
+					// Annule le déclenchement du submit sur le bouton.
+					 event.preventDefault(); 
+			   	} //if
+			   	
+			   	// Si affichage detailrevenus on met 0 dans les champs vides
+			   	remplirRessourcesVides(".txtDetailsRevenusETU", "0");
+			   	remplirRessourcesVides(".txtDetailsRevenusETUAutres", "0");
+			   	
+			}// if cmpDetailsRevenus 
+			
+			
+			var isMntBenefVide		= dynformIsDisplayed("#cmpMontantBenefices") 	&& ressourcesVides(".txtMntBenefices");
+			var isCA3moisVide		= dynformIsDisplayed("#cmpDetailsCA") 			&& ressourcesVides(".txtDetailsCA");
+			var isSalaireVide		= dynformIsDisplayed("#cmpDetailsRessources") 	&& ressourcesVides(".txtDetailsRessourcesSalaires");
+			var isRessAutresVide	= dynformIsDisplayed("#cmpDetailsRessources") 	&& ressourcesVides(".txtDetailsRessourcesAutres");
+			var isMntAahVide		= dynformIsDisplayed("#cmpAllocationAah") 		&& dynformIsDisplayed("#cmpMontantsAllocAAH")			&& ressourcesVides(".txtMontantsAAH");
+			
+			var isRenteAtmpVide		= false;
+			var isPiVide			= false;
+			var isMntPlacementVide	= dynformIsDisplayed("#cmpRevenusPlacement")	&& ressourcesVides(".txtRevenuPlacement");
+			 																																							
+			var benefN2VideSeul			= isMntBenefVide && !isCA3moisVide && !isSalaireVide && !isRessAutresVide && !isMntAahVide && !isMntPlacementVide && !isRenteAtmpVide && !isPiVide;
+			var chiffreAffairesVideSeul	= isCA3moisVide && !isMntBenefVide && !isSalaireVide && !isRessAutresVide && !isMntAahVide && !isMntPlacementVide && !isRenteAtmpVide && !isPiVide;
+			var salairesVideSeul 		= isSalaireVide && !isCA3moisVide && !isMntBenefVide && !isRessAutresVide && !isMntAahVide && !isMntPlacementVide && !isRenteAtmpVide && !isPiVide;
+			var autresVideSeul 			= isRessAutresVide && !isSalaireVide && !isCA3moisVide && !isMntBenefVide && !isMntAahVide && !isMntPlacementVide && !isRenteAtmpVide && !isPiVide;
+			var aahVideSeul				= isMntAahVide && !isMntPlacementVide && !isMntBenefVide && !isCA3moisVide && !isSalaireVide && !isRessAutresVide && !isRenteAtmpVide && !isPiVide;
+			var renteAtmpVideSeul		= isRenteAtmpVide && !isMntAahVide && !isMntPlacementVide && !isMntBenefVide && !isCA3moisVide && !isSalaireVide && !isRessAutresVide && !isPiVide;
+			var piVideSeul				= isPiVide && !isMntAahVide && !isMntPlacementVide && !isMntBenefVide && !isCA3moisVide && !isSalaireVide && !isRessAutresVide && !isRenteAtmpVide;
+			var placementVideSeul		= isMntPlacementVide && !isMntAahVide && !isMntBenefVide && !isCA3moisVide && !isSalaireVide && !isRessAutresVide && !isRenteAtmpVide && !isPiVide;
+		
+			if (benefN2VideSeul || chiffreAffairesVideSeul || salairesVideSeul || autresVideSeul || aahVideSeul || renteAtmpVideSeul || piVideSeul || placementVideSeul) {
+			
+				showComponent("#salaireEtRessourceVide", false);
+				showComponents("#benefN2LigneVide #dernierCALigneVide #chiffreAffairesLigneVide #salairesLigneVide #autresLigneVide #aahLigneVide #atmpLigneVide #pensionInvaliditeLigneVide #revenuPlacementLigneVide", false);
+				
+				showComponent("#benefN2Vide", benefN2VideSeul);
+				showComponent("#chiffreAffairesVide", chiffreAffairesVideSeul);
+				showComponent("#salairesVide", salairesVideSeul);
+				showComponent("#autresVide", autresVideSeul);
+				showComponent("#aahVide", aahVideSeul);
+				showComponent("#atmpVide", renteAtmpVideSeul);
+				showComponent("#pensionInvaliditeVide", piVideSeul);
+				showComponent("#revenuPlacementVide", placementVideSeul);
+				
+				// Affichage de la popup d'avertissement
+		   	  	$('#modalRessources').modal('show');
+		   	  	// Annule le déclenchement du submit sur le bouton.
+				event.preventDefault(); 
+			}
+			else if (isMntBenefVide || isCA3moisVide || isSalaireVide || isRessAutresVide || isMntAahVide || isRenteAtmpVide || isPiVide || isMntPlacementVide) {
+				
+				showComponent("#salaireEtRessourceVide", true);
+				showComponents("#benefN2Vide #salairesVide #chiffreAffairesVide #autresVide #aahVide #atmpVide #pensionInvaliditeVide #revenuPlacementVide", false);
+				
+				showComponent("#benefN2LigneVide", isMntBenefVide);				
+				showComponent("#chiffreAffairesLigneVide", isCA3moisVide);
+				showComponent("#salairesLigneVide", isSalaireVide);
+				showComponent("#autresLigneVide", isRessAutresVide);
+				showComponent("#aahLigneVide", isMntAahVide);
+				showComponent("#atmpLigneVide", isRenteAtmpVide);
+				showComponent("#pensionInvaliditeLigneVide", isPiVide);
+				showComponent("#revenuPlacementLigneVide", isMntPlacementVide);
+				
+				// Affichage de la popup d'avertissement
+		   	  	$('#modalRessources').modal('show');
+		   	  	// Annule le déclenchement du submit sur le bouton.
+				event.preventDefault(); 
+			}
+			
+			// Test si les paramètres SituationFinanciere est visible pour tester les champs sinon
+			if(dynformIsDisplayed("#cmpDetailsRessources")) {
+				// Si affichage du detail des ressources, on met les champs vides à 0
+		   		remplirRessourcesVides(".txtDetailsRessourcesSalaires", "0");
+		   		remplirRessourcesVides(".txtDetailsRessourcesAutres", "0");
+			}
+			// Gestion des champs liés à cmpDetailsBenefices
+			if(dynformIsDisplayed("#cmpDetailsBenefices")) {
+				remplirRessourcesVides(".txtDetailsBenefices", "0");
+			}
+			
+			if(dynformIsDisplayed("#cmpDetailsCA")) {
+				remplirRessourcesVides(".txtDetailsCA", "0");
+			}
+
+			// Allocation logement
+			if(ressourcesVides(".txtDetailsAllocationLogement")) {
+				remplirRessourcesVides(".txtDetailsAllocationLogement", "0");
+			}
+						
+			if (dynformIsDisplayed("#cmpMontantsAllocAAH")) {
+				remplirRessourcesVides(".txtMontantsAAH", "0");
+			}
+						
+			if (dynformIsDisplayed("#cmpMontantsRenteATMP")) {
+				remplirRessourcesVides(".txtMontantsRenteATMP", "0");
+			}
+			if (dynformIsDisplayed("#cmpMontantsPensionInvalidite")) {
+				remplirRessourcesVides(".txtMontantsPensionInvalidite", "0");
+			}
+			if (dynformIsDisplayed("#cmpRevenusPlacement")) {
+				remplirRessourcesVides(".txtRevenuPlacement", "0");
+			}
+		}); //click Suivant			
+
+		
+	}); //document
+</script>
+
+<!-- Modal -->
+<!-- Cas PAC moins de 18ans -->
+<div class="modal fade" id="modalRessourcesETU" tabindex="-1" role="dialog" aria-labelledby="dialogTitle1" aria-describedby="dialogDesc1">
+	<div class="modal-dialog" role="dialog">
+    	<div class="modal-content">
+      		<div class="modal-header">
+        		<h4 class="modal-title" id="dialogTitle1">Montants non saisis</h4>
+      		</div>
+      		<div class="modal-body" id="dialogDesc1">
+	      		<div class="hideOnLoad modal-body" id="salaireEtRessourceVideETU" data-dynform-displayed="false" style="display: none;">
+					<p>Vous n'avez pas saisi les ressources ci-dessous pour votre conjoint(e). <span class="text-primary">Nous considérons que le montant de chaque mois est égal à 0€.</span></p>
+					<ul>
+						<li>Salaires, indemnités maladie et indemnités paternité/maternité perçues</li>
+						<li>Autres ressources (indemnités chômage, pensions alimentaires, retraites, pensions, rentes et allocations veuvage)</li> 					
+					</ul>						 					
+	      		</div>
+	      		<div class="hideOnLoad modal-body" id="salaireVide" data-dynform-displayed="false" style="display: none;">
+					<p>Vous n'avez saisi aucuns salaires, indemnités maladie et indemnités paternité/maternité pour votre conjoint(e). <span class="text-primary">Nous considérons que le montant de chaque mois est égal à 0€.</span></p>				 					
+	      		</div>
+	      		<div class="hideOnLoad modal-body" id="ressourceVide" data-dynform-displayed="false" style="display: none;">
+					<p>Vous n'avez saisi aucunes autres ressources (indemnités chômage, pensions alimentaires, retraites, pensions, rentes et allocations veuvage) pour votre conjoint(e). <span class="text-primary">Nous considérons que le montant de chaque mois est égal à 0€.</span></p>							 					
+	      		</div>
+	      	</div>
+	      	<div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Fermer">
+		        	<span aria-hidden="true">Fermer</span>
+		        </button>
+		     </div>
+	      	
+    	</div>
+	</div>
+</div>
+
+<!-- Cas supérieur ou égal à 18ans -->
+<div class="modal fade" id="modalRessources" tabindex="-1" role="dialog" aria-labelledby="dialogTitle" aria-describedby="dialogDesc">
+	<div class="modal-dialog" role="dialog">
+    	<div class="modal-content">
+      		<div class="modal-header">
+        		<h4 class="modal-title" id="dialogTitle">Montants non saisis</h4>
+      		</div>
+      		<div class="modal-body" id="dialogDesc">
+	      		<div class="hideOnLoad modal-body" id="salaireEtRessourceVide" data-dynform-displayed="false" style="display: none;">
+					<p>Vous n'avez pas saisi les ressources ci-dessous pour votre conjoint(e). <span class="text-primary">Nous considérons que les montants non saisis sont égaux à 0€.</span></p>	
+					<ul>
+						<li class="hideOnLoad" id="benefN2LigneVide" data-dynform-displayed="false" style="display: none;">Montant des bénéfices en 2024</li>
+						<li class="hideOnLoad" id="chiffreAffairesLigneVide" data-dynform-displayed="false" style="display: none;">Les chiffres d'affaires des 3 mois</li>
+						<li class="hideOnLoad" id="salairesLigneVide" data-dynform-displayed="false" style="display: none;">Salaires, indemnités maladie et indemnités paternité/maternité</li>
+						<li class="hideOnLoad" id="aahLigneVide" data-dynform-displayed="false" style="display: none;">Allocation aux adultes handicapés</li>
+						<li class="hideOnLoad" id="atmpLigneVide" data-dynform-displayed="false" style="display: none;">Rente d'accident de travail ou maladie professionnelle</li>
+						<li class="hideOnLoad" id="pensionInvaliditeLigneVide" data-dynform-displayed="false" style="display: none;">Pension invalidité</li>
+						<li class="hideOnLoad" id="revenuPlacementLigneVide" data-dynform-displayed="false" style="display: none;">Revenus annuels de placement ou du patrimoine</li>
+						<li class="hideOnLoad" id="autresLigneVide" data-dynform-displayed="false" style="display: none;">Autres ressources (indemnités chômage, pensions alimentaires, retraites, pensions, rentes et allocations veuvage)</li>
+					</ul>				 					
+	      		</div>
+	      		<div class="hideOnLoad modal-body" id="benefN2Vide" data-dynform-displayed="false" style="display: none;">
+	      			<p>Vous n'avez pas saisi le montant des bénéfices en 2024 pour votre conjoint(e). <span class="text-primary">Nous considérons que ce montant est égal à 0€.</span></p>
+	      		</div>
+	      		<div class="hideOnLoad modal-body" id="chiffreAffairesVide" data-dynform-displayed="false" style="display: none;">
+	      			<p>Vous n'avez saisi aucun chiffre d'affaires pour votre conjoint(e). <span class="text-primary">Nous considérons que le montant de chaque mois est égal à 0€.</span></p>
+	      		</div>
+	      		<div class="hideOnLoad modal-body" id="salairesVide" data-dynform-displayed="false" style="display: none;">
+					<p>Vous n'avez saisi aucuns salaires, indemnités maladie et indemnités paternité/maternité pour votre conjoint(e). <span class="text-primary">Nous considérons que le montant de chaque mois est égal à 0€.</span></p>				 					
+	      		</div>
+	      		<div class="hideOnLoad modal-body" id="aahVide" data-dynform-displayed="false" style="display: none;">
+					<p>Vous n'avez pas saisi d'allocation aux adultes handicapés. <span class="text-primary">Nous considérons que le montant de chaque mois est égal à 0€.</span></p>
+				</div>
+				<div class="hideOnLoad modal-body" id="atmpVide" data-dynform-displayed="false" style="display: none;">
+					<p>Vous n'avez pas saisi de rente d'accident de travail ou maladie professionnelle. <span class="text-primary">Nous considérons que le montant de chaque mois est égal à 0€.</span></p>
+				</div>
+				<div class="hideOnLoad modal-body" id="pensionInvaliditeVide" data-dynform-displayed="false" style="display: none;">
+					<p>Vous n'avez pas saisi de rente de pension invalidité. <span class="text-primary">Nous considérons que le montant de chaque mois est égal à 0€.</span></p>
+				</div>
+				<div class="hideOnLoad modal-body" id="revenuPlacementVide" data-dynform-displayed="false" style="display: none;">
+					<p>Vous n'avez pas saisi les revenus imposables annuels de placement ou du patrimoine <span class="text-primary">Nous considérons que ce montant est égal à 0€.</span></p>
+				</div>
+	      		<div class="hideOnLoad modal-body" id="autresVide" data-dynform-displayed="false" style="display: none;">
+					<p>Vous n'avez saisi aucunes autres ressources (indemnités chômage, pensions alimentaires, retraites, pensions, rentes et allocations veuvage) pour votre conjoint(e). <span class="text-primary">Nous considérons que le montant de chaque mois est égal à 0€.</span></p>							 					
+	      		</div>
+	      	</div>
+	      	<div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Fermer dialog d'avertissement Montants non saisis">
+		        	<span aria-hidden="true">Fermer</span>
+		        </button>
+		     </div>
+	      	
+    	</div>
+	</div>
+</div>
+
+<script src="https://www.caf.fr/sites/default/files/smarttag/smarttag-caffr.js"></script>
+<script type="text/javascript">
+var tag= new ATInternet.Tracker.Tag();
+tag.page.set({
+name:"situation_conjoint_simulateur_ppa",
+chapter1:"les_services_en_ligne",
+chapter2:"estimer_vos_droits",
+chapter3:"simulateur_prime_d_activite",
+level2:"2"
+});
+tag.customVars.set({
+site:{
+1:"2",
+2:"21",
+3:"2",
+4:"",
+5:"",
+6:"",
+35:"12345678",
+36:"1234",
+8:""
+}
+});
+tag.dispatch();
+</script>
+
+				<!-- Barre de bouton -->
+				<div class="row row-btn-cnaf">
+					<div class="col-sm-12 form-group">
+						
+
+
+
+
+<span class="pull-right">
+	<button type="submit" name="BCPrecedent" value="Précédent" title="Précédent" class="btn btn-form-cnaf" style="pointer-events: all; cursor: pointer;"><span class="btn-prev-cnaf picto picto-prev-cnaf"></span>PRECEDENT</button>
+	<button type="submit" name="BCSuivant" value="Suivant" title="Suivant" class="btn btn-form-cnaf" style="pointer-events: all; cursor: pointer;"><span style="margin: 0 8.4px 0 18.4px;">SUIVANT</span><span class="btn-next-cnaf picto picto-next-cnaf"></span></button>
+</span>
+
+					</div>
+				</div>	
+			</div>
+		</div>
+		<script type="text/javascript">
+			
+		</script>
+	</form><iframe id="CalendarControlIFrame" style="display:none; position:absolute;" src="javascript:false;" frameborder="0" scrolling="no"></iframe><div id="slcalcod" style="display:none;z-index:10; position:absolute;"><script>printCalendar();</script><div id="caltitre" style="z-index:10;display:table"><span style="display:table-row"><span class="CALENDARTITLE" style="display:table-cell"><a href="javascript:void(0)" class="cal_precedent" onclick="cal_before(1);"><img class="cal_center" src="/icf-ressources-statiques-rwd-web/images/cal_precedent.png" alt="mois precedent"></a></span><span class="CALENDARTITLE" style="display:table-cell"><select id="calmois" name="calmois" onchange="cal_chg(1);" style="border:none"><option value="0">...</option><option value="1">JANVIER</option><option value="2">FEVRIER</option><option value="3">MARS</option><option value="4">AVRIL</option><option value="5">MAI</option><option value="6">JUIN</option><option value="7">JUILLET</option><option value="8">AOUT</option><option value="9">SEPTEMBRE</option><option value="10">OCTOBRE</option><option value="11">NOVEMBRE</option><option value="12">DECEMBRE</option></select></span><span class="CALENDARTITLE" style="display:table-cell"><select id="calyear" name="calyear" onchange="cal_chg(1);" style="border:none"></select></span><span class="CALENDARTITLE" style="display:table-cell"><a href="javascript:void(0)" class="cal_suivant" onclick="cal_after(1);"><img class="cal_center" src="/icf-ressources-statiques-rwd-web/images/cal_suivant.png" alt="mois suivant"></a></span><span class="CALENDARTITLE" style="display:table-cell"><a href="javascript:void(0)" class="cal_close" onclick="hideCalendar(1);"><img class="cal_center" src="/icf-ressources-statiques-rwd-web/images/cal_fermeture.png" alt="fermeture calendrier"></a></span></span></div><div id="caljour" style="z-index:10;"></div></div>
+
+</div>
+
+</div></div> 
+</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</main>
+			<!-- FIN CONTENU -->
+				
+		   
+	
+			<!-- DEBUT FOOTER -->
+			<!-- pour le simulateur PA, resté ancienne charte non RSL (propriété icfAngular non présente), il y a header/footer simplifiés ,
+				 cela doit resté comme cela jusqu'à la réécriture de l'appli en RSL -->
+				 
+			    
+
+
+
+
+
+	
+		<footer id="theme-footer-cnaf" role="contentinfo">
+			<div id="theme-footer-copyright">
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-sm-12">
+						   <a href="/redirect/s/Redirect?page=mentionsLegales" target="_blank">Mentions légales</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Javascript CNAF -->
+		<script src="/icf-ressources-statiques-rwd-web/StatiquesCaffr/js/footerCnaf.min.js?id=1792980155991"></script>
+		<!-- Javascript CNAF -->
+		<script>
+			var _iav = {
+              "base_path" : "/chatbotappli/dist/",
+              "debug" : false,
+              "title_text" : "<p> Bonjour, je suis votre conseiller virtuel.</p><p>Je connais déjà beaucoup de réponses à vos questions et j'apprends un peu plus chaque jour.</p>",
+              "display_auto" : false,
+              "inactivity_display_timer" : 0,
+              "service_url" : "/api/basedeconnaissancefront/v1/mon_compte/chatbot",
+              "authentifie" : false,
+              "code_organisme" : "null",
+              "public" : "usager",
+	  			"cnafTokenJwt": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJjYWZmciIsInN1YiI6InByaW1vIiwibmJmIjoxNzkzMDExNjkyLCJkb21haW4iOiJwcml2YXRlIiwicm9sZXMiOltdLCJzY29wZSI6InB1YmxpYyIsImlzcyI6Imh0dHA6Ly9hdXRoZ2F0ZXdheS5zaS5jbmFmLmluZm86ODg4OCIsImV4cCI6MTc5MzAxMjAwMiwiaWF0IjoxNzkzMDExNzAyLCJkYXRlRW52Q2FmZnIiOiIyMDI2MTAyNiIsImp0aSI6IjNiYWQ2ZThiLTk4NjUtNDcxZC1hNjlmLTIzOWFlZTQ0ODQwNCJ9.WB1F-7Hkjmop7u7VM2ENQxA213tulqkE4aGGnOqhWndCz626EsRHS9NUDyIFaQ9lj_izB8W_vilVq-y1moFSFh07fER-8_LF6XX_e07MJyw6FfzfASazxEpEfw3jSS1UA9Jr-kk5DEoTH75hF0MFilihQkpDpWoiMXxDHgJKwdcZkVuvDr6R-tNNJAswdC7i2ruHQxSvPLL61xPGg724SU9pJBp9vw1FxArHl1cTIIsIN_Agv0ldykAtN0nB4g_KBSXmS_lETsk4XxFHPOXA7KXL51-9gcsHSUKunIndNIj28EOt2J9zD0lEd_6ofOHQfwCRQJNao4ZOsAuMPN7oOg"
+            };
+		
+			<!-- DEBUT Gestion Chatbot -->
+			var isChatbotLoaded = 0;
+			jQuery.cachedScript = function(url, options) {
+				options = jQuery.extend( options || {}, {
+					dataType: "script",
+					cache: true,
+					url: url
+				});
+				return jQuery.ajax(options);
+			};
+			function afficheChatbot(rubrique) {
+				
+					jQuery("#container-sticky-camille-cnaf").hide();
+					jQuery("#iav").show();
+					if(_iav == null) {
+						console.log("Probleme chargement chatbot");
+						return;
+					}
+			        if(rubrique != undefined){
+			          _iav["rubrique"] = rubrique;
+			        }
+					if(false) {
+						_iav["dialog"] = "ouvertureauthentifie";
+					}
+					if(isChatbotLoaded){
+						return;
+					} else {
+						jQuery.cachedScript("/chatbotappli/dist/av.js?id=1792980155991")
+							.done(function(data, textStatus, jqXHR){isChatbotLoaded = 1;})
+							.fail(function(jqXHR, textStatus, errorThrown){
+								console.log("Chargement fichier av.js KO : "+errorThrown);
+							});
+					}						
+								
+			}
+			function cacheChatbot() {
+				
+					jQuery("#container-sticky-camille-cnaf").show();
+					jQuery("#iav").hide();
+				
+			}
+			<!-- FIN Gestion Chatbot -->
+			<!-- DEBUT Gestion Navigation Privee -->
+			<!-- TEST navigation privee Safari < 11  --> 
+			function storageDisponible(type) {
+				try {
+					var storage = window[type];
+					var x = 'storage_test';
+					storage.setItem(x, x);
+					storage.removeItem(x);
+					return true;
+				} catch(e) {
+					return false;
+				}
+			}
+			
+			function acceptModeDegrade() {
+				var date = new Date();
+				date.setDate(date.getDate() + 100);
+				document.cookie = "cookie-degrade=2; path=/; domain=.caf.fr; expires=" + date.toUTCString();
+				jQuery("#bandeau-accept-degrade").slideUp("slow");
+			}
+			
+			function afficheBandeauModeDegrade() {
+				var statusCookies = getCookie("cookie-degrade");
+				if (statusCookies == "") {
+					jQuery("#bandeau-accept-degrade").slideDown("slow");
+					jQuery("#bandeau-accept-degrade button.agree-button").bind('click', function(){
+						acceptModeDegrade();
+					});
+				}
+			}
+			<!-- FIN TEST navigation privee Safari < 11 -->
+			function getCookie(name) {
+				var re = new RegExp(name + "=([^;]+)");
+				var value = re.exec(document.cookie);
+				return (value != null) ? unescape(value[1]) : "";
+			}
+
+
+	
+
+			$(document).ready(function(){
+				
+			});
+		</script>
+		
+
+			
+            <!-- FIN FOOTER -->
+	       
+			<!--
+			<div id='popin'>
+				<div id="popin-titre"></div>
+				<p id='popin-contenu'> </p>
+				<div class="barre-boutons" >
+					<a class='bouton popin-btn-continuer' href='#' onclick='disablePopin("popin")'>Continuer</a>
+					<a class='bouton popin-btn-annuler' href='#' onclick='disablePopin("popin")'>Annuler</a>
+					<a class='bouton popin-btn-confirmer' href='#' onclick='disablePopin("popin")'>Confirmer</a>
+				</div>
+			</div>
+			<div id='popin-background'>
+			</div>	
+			-->	
+			
+		<script>   
+	       function gestionBoxPopupModaleProfileeTheme(namePropLocalStorage, nid)
+				     {
+					    
+					    if ($('#caseAcocher-' + namePropLocalStorage).hasClass('glyphicon-ok')) 
+					      { 
+						  $('#caseAcocher-' + namePropLocalStorage).removeClass('glyphicon-ok');
+						    // enlever le nid du localstorage
+						    $('#caseAcocher-' + namePropLocalStorage).parent().attr('aria-checked', "false");
+							localStorage.removeItem(namePropLocalStorage);
+						  } 
+						  else 
+						  {
+						    $('#caseAcocher-' + namePropLocalStorage).addClass('glyphicon-ok');
+							// mettre le nid dans le localstorage
+							localStorage.setItem(namePropLocalStorage, nid); 
+							  $('#caseAcocher-' + namePropLocalStorage).parent().attr('aria-checked', "true");
+						   }
+						
+				    }
+				    
+				    
+        function affichePopupModaleProfileeTheme(response,portailVirtuelApplicationMobile,bootstrap5)
+        {
+	          var displayPopupModalVideo = false;
+	          var displayPopupModalImage = false;
+	          var popupTrouve = false;
+	          var typeclient = null;
+	          for (var i = 0; i < response.popup_modale.length; i++) {
+	              typeclient = response.popup_modale[i].type;
+	              if (portailVirtuelApplicationMobile) {
+	                  if (typeclient.toUpperCase() === "MCM") {
+	                      reponse = response.popup_modale[i];
+	                      popupTrouve = true;
+	                      break;
+	                  }
+	
+	              } else if (typeclient.toUpperCase() === "MCW") {
+	                  reponse = response.popup_modale[i];
+	                  popupTrouve = true;
+	                  break;
+	
+	              }
+	          }
+	          if (popupTrouve)
+	          {
+	          var nidPopupModaleProfilee = reponse.id;
+	          var titrePopup = reponse.titre;
+	          var lienVideo = reponse.href_video;
+	          var publication = reponse.publication;
+	          var lienImage = reponse.moyenne_image;
+	          var lienImageMobile = reponse.petite_image;
+	          var texteAlternatif = reponse.texte_alternatif; 
+	          var urlImage = reponse.url_image;
+	          var codes_organismes = reponse.codes_organismes;
+	
+	           if (lienVideo != null) {
+	              // popup_modale vidéo
+	              displayPopupModalVideo = true;
+	          } else {
+	              // popup modale image
+	              displayPopupModalImage = true;
+	          }
+	          //console.log("id : " + nidPopupModaleProfilee)
+	          //console.log("titre : "+titrePopup);
+	          //console.log("lien  : "+lienVideo);
+	          //console.log("groupe : "+publication);
+	          //console.log("grande image : "+lienImage);
+	          //console.log("moyenne image : " +lienImageTablette);
+	          //console.log("petite image : "+lienImageMobile);
+	          //console.log("lien image : "+ urlImage);
+	          //console.log("codes_organismes : " +codes_organismes);
+	          //console.log("type : "+typeclient);
+			  if (urlImage == null)  urlImage = "";	
+	
+	          var nidPopupModaleProfileeInLocalStorage = localStorage.getItem('nidPopupModaleProfilee');
+	          if (nidPopupModaleProfileeInLocalStorage != '' && nidPopupModaleProfilee != nidPopupModaleProfileeInLocalStorage)
+	          {
+	
+	            if (displayPopupModalImage) {
+	            	// Audit labellisation e-accessible
+	               var popupTemplate = '<div id="modal-popup-promo" tabindex="-1" class="modal modal-vertical-align-center fade">'+
+	                                    '  <div class="modal-dialog modal-dialog-popup" role="dialog" aria-labelledby="monTitreModal"> '+
+	                                    '   <div class="modal-content"> '+
+	                                    // Audit labellisation e-accessible
+	                                    '     <div class="modal-header d-flex flex-row-reverse"> '+
+	                                    '       <button type="button" class="close-cnaf" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Fermer la popup"></button>'+
+	                                    '        <div role="heading" aria-level="4" class="texte-medium text-primary" id="monTitreModal">'+ titrePopup + '</div>' +
+	                                    '      </div>'+
+	                                    '      <div class="modal-body">'+
+	                                    '			<div class="text-center">'+
+	                                    (urlImage != "" && !portailVirtuelApplicationMobile ? '       <a href= "'+urlImage +'" target ="blank">' : '')+
+	                                    (urlImage != "" && portailVirtuelApplicationMobile ? '       <a href="javascript:void(0);" onClick="openInNativeBrowser(\''+urlImage +'\')">' : '')+
+	                                    '				<img src="' + lienImage + '" class="lien-image hidden-xs hidden-sm d-none d-md-block" alt="\''+ texteAlternatif +'\'">'+ 
+	                                    '				<img src="' + lienImage + '" onerror="this.onerror=null;this.src=\'' + lienImage + '\'" class="lien-image hidden-xs hidden-md hidden-lg d-none d-sm-block d-md-none" alt="\''+ texteAlternatif +'\'">'+ 
+	                                    '				<img src="' + lienImageMobile + '" onerror="this.onerror=null;this.src=\'' + lienImage + '\'" class="lien-image-mobile hidden-sm hidden-md hidden-lg d-block d-sm-none" alt="\''+ texteAlternatif +'\'">'+ 
+	                                    '				<span class="lien-image-mobile-fullscreen"><span class="glyphicon glyphicon-fullscreen visible-xs d-block d-sm-none text-primary" onclick="$(\'#modal-popup-promo .lien-image-mobile\').click()"></span>'+ 
+	                                    (urlImage != "" ? '       </a>' : '')+
+	                                    '			</div>'+
+	                                    '			<!--/p-->'+
+	                                    '   </div>'+
+	                                    // Audit labellisation e-accessible
+	                                    '   <div class="modal-footer d-flex flex-column align-items-end">'+
+	                                    '       <div>'+
+	                                    '      	  <label class="align-middle-cnaf checkbox-login-cnaf">'+
+	                                    '         <button type=button  aria-labelledby="labelNePlusAfficher" class="pull-left float-start btn btn-default cnaf-checkbox" role="checkbox" aria-checked="false" onClick="gestionBoxPopupModaleProfileeTheme(\'nidPopupModaleProfilee\', ' + nidPopupModaleProfilee + ');">'+
+	                                    '         <span id="caseAcocher-nidPopupModaleProfilee" class="glyphicon" style="width:10px"></span></button>'+
+	                                    ' 			  <span id="labelNePlusAfficher">Ne plus afficher</span>' +
+	                                    ' 	      </label>'+
+	                                    '        </div>'+
+	                                    '        <button type="button" class="btn btn-default" data-dismiss="modal" data-bs-dismiss="modal">Fermer</button>'+
+	                                    '      </div>'+
+	                                    '    </div>'+
+	                                    '  </div>'+
+	                                    '</div>';
+				if (bootstrap5 == "false" || !bootstrap5) {
+	                $(popupTemplate).modal({backdrop: 'static', keyboard: false});
+				}
+				else {
+					var modalElement = new bootstrap.Modal($(popupTemplate), {backdrop: 'static', keyboard: false});
+					modalElement.show();
+				}
+				
+	
+	            	
+	            } else if (displayPopupModalVideo) {
+	
+	
+	                    var popupTemplate = '<div id="modal-popup-promo-video" tabindex="-1" class="modal modal-vertical-align-center fade">'+
+	                                        '  <div class="modal-dialog modal-dialog-popup" role="dialog" aria-labelledby="monTitreModal"> '+
+	                                        '    <div class="modal-content">'+
+	                                        // Audit labellisation e-accessible
+	                                        '      <div class="modal-header d-flex flex-row-reverse"> '+
+		                                    '       <button type="button" class="close-cnaf" data-dismiss="modal" data-bs-dismiss="modal" aria-label="Fermer la popup"></button>'+
+		                                    '        <div role="heading" aria-level="4" class="texte-medium text-primary" id="monTitreModal">'+ titrePopup + '</div>' +
+		                                    '      </div>'+
+	                                        '      <div class="modal-body">'+
+	                                        '        <div class="embed-responsive embed-responsive-16by9">';
+	                                        if (portailVirtuelApplicationMobile) {
+	                        popupTemplate +='           <a class="embed-responsive-item btn btn-form-cnaf" href="javascript:void(0);" onClick="openInNativeBrowser(\''+ lienVideo.replace(".youtube-nocookie.com", ".youtube.com") + '\')">'+
+	                                        '             <span class="glyphicon glyphicon-play-circle text-primary" aria-hidden="true"></span>'+
+	                                        '             <span class="sr-only visually-hidden">Visualiser la vidéo</span>'+
+	                                        '           </a>';
+	                                        } else {
+	                        popupTemplate +='           <iframe class="embed-responsive-item" src="'+ lienVideo + '" frameborder="0"></iframe>';
+	                                        }
+	                         // Audit labellisation e-accessible
+	                        popupTemplate +='        </div>'+
+	                                        '        <span class="visible-xs"></span>'+
+	                                        '      </div>'+
+	                                        '      <div class="modal-footer d-flex flex-column align-items-end">'+
+		                                    '       <div>'+
+		                                    '      	  <label class="align-middle-cnaf checkbox-login-cnaf">'+
+		                                    '         <button type=button  aria-labelledby="labelNePlusAfficher" class="pull-left float-start btn btn-default cnaf-checkbox" role="checkbox" aria-checked="false" onClick="gestionBoxPopupModaleProfileeTheme(\'nidPopupModaleProfilee\', ' + nidPopupModaleProfilee + ');">'+
+		                                    '         <span id="caseAcocher-nidPopupModaleProfilee" class="glyphicon" style="width:10px"></span></button>'+
+		                                    ' 			  <span id="labelNePlusAfficher">Ne plus afficher</span>' +
+		                                    ' 	      </label>'+
+		                                    '        </div>'+
+		                                    '        <button type="button" class="btn btn-default" data-dismiss="modal" data-bs-dismiss="modal">Fermer</button>'+
+	                                        '      </div>'+
+	                                        '    </div>'+
+	                                        '  </div>'+
+	                                        '</div>';
+	                                
+	                    /*$(document).on('shown.bs.modal', '#modal-popup-promo-video', function() {
+	                        popupVideoMinSizeForMobile();
+	                        $(window).on('resize', popupVideoMinSizeForMobile);
+	                    });
+	                    $(document).on('hidden.bs.modal', '#modal-popup-promo-video', function() {
+	                        popupVideoMinSizeForMobile();
+	                        $(window).off('resize', popupVideoMinSizeForMobile);
+	                        $('#modal-popup-promo-video').remove();
+	                    });
+	                    function popupVideoMinSizeForMobile() {
+	                        if ($("#modal-popup-promo-video .modal-body .visible-xs").is(':visible')) {
+	                            var dialogElement = $("#modal-popup-promo-video .modal-dialog");
+	                            dialogElement.css("min-width", $(window).outerWidth(true) - (dialogElement.outerWidth(true) - dialogElement.outerWidth(false)));
+	                        }
+	                    }*/
+	                    if (bootstrap5 == "false" || !bootstrap5) {
+							$(popupTemplate).modal({backdrop: 'static', keyboard: false});
+						}
+						else {
+							var modalElement = new bootstrap.Modal($(popupTemplate), {backdrop: 'static', keyboard: false});
+							modalElement.show();
+						}
+	
+	              }
+	        }
+	      }
+
+
+        }
+
+			$(document).ready(function(){
+				
+			});
+			
+			var timeoutSessionSecondesCnaf = 1200;
+		</script>
+	
+	
+
+</body><!-- FIN BODY --></html>

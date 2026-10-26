@@ -1,0 +1,412 @@
+{
+  "requested": null,
+  "final": "https://wwwd.caf.fr/wps/portal/caffr/simulateurpa/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_RzNHD2MDYwMPPxDnA0CjS19fQx9HQ3dfQ31w1EVBAQEGgAVBPsGmPs4Gxp4GOhHAaUNcABHA6h-PAqiSLIfUwFB-6PQrLB0czIIDLE08fI29jQGKoIqwGNGJNAN5jjd4GqmX5AbGhphkGUKAOTY6uw!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_NA6AH3020HOTC0Q39ML1MA1GE6=CZ6_NA6AH3020HOTC0Q39ML1MA1GM1=LA0=/",
+  "status": null,
+  "title": "Situation de la personne à charge 2 - Simulateur prime d'activité - CNAF",
+  "iframes": [
+    "https://wwwd.caf.fr/wps/portal/caffr/simulateurpa/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_RzNHD2MDYwMPPxDnA0CjS19fQx9HQ3dfQ31w1EVBAQEGgAVBPsGmPs4Gxp4GOhHAaUNcABHA6h-PAqiSLIfUwFB-6PQrLB0czIIDLE08fI29jQGKoIqwGNGJNAN5jjd4GqmX5AbGhphkGUKAOTY6uw!/dz/d5/L2dBISEvZ0FBIS9nQSEh/p0/IZ7_NA6AH3020HOTC0Q39ML1MA1GE6=CZ6_NA6AH3020HOTC0Q39ML1MA1GM1=LA0=/",
+    ""
+  ],
+  "links": [
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=mentionsLegales",
+      "text": "en savoir plus"
+    },
+    {
+      "href": "javascript:void(0);",
+      "text": "Contenu principal de la page"
+    },
+    {
+      "href": "javascript:void(0)",
+      "text": ""
+    },
+    {
+      "href": "javascript:void(0)",
+      "text": ""
+    },
+    {
+      "href": "javascript:void(0)",
+      "text": ""
+    },
+    {
+      "href": "https://wwwd.caf.fr/redirect/s/Redirect?page=mentionsLegales",
+      "text": "Mentions légales"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "dateNaissance",
+      "id": "dateNaissance",
+      "value": "",
+      "label": "Date de naissance de la personne à charge 2 format attendu JJ/MM/AAAA Ce champ est obligatoire"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "situationTravailleur",
+      "id": "idSituProf1",
+      "value": "TRAVAILLEUR_INDEPENDANT",
+      "label": "Travailleur indépendant"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "situationTravailleur",
+      "id": "idSituProf2",
+      "value": "AUTO_ENTREPRENEUR",
+      "label": "Auto-entrepreneur"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "situationTravailleur",
+      "id": "idSituProf3",
+      "value": "ETU",
+      "label": "Etudiant(e) salarié(e), stagiaire ou apprenti(e)"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "situationTravailleur",
+      "id": "idSituProf4",
+      "value": "SALARIE",
+      "label": "En activité salariée"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "situationTravailleur",
+      "id": "idSituProf5",
+      "value": "AUTRE",
+      "label": "Autre"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "revenusSocietes[0].secteurActivite",
+      "id": "idSecteurAct1",
+      "value": "PROFESSION_LIBERALE",
+      "label": "Profession libérale"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "revenusSocietes[0].secteurActivite",
+      "id": "idSecteurAct2",
+      "value": "ARTISAN",
+      "label": "Artisan"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "revenusSocietes[0].secteurActivite",
+      "id": "idSecteurAct3",
+      "value": "COMMERCANT",
+      "label": "Commerçant"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "revenusSocietes[0].secteurActivite",
+      "id": "idSecteurAct4",
+      "value": "AUTRE",
+      "label": "Autre"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "revenusSocietes[0].beneficesDeclares",
+      "id": "idBeneficesO",
+      "value": "true",
+      "label": "OUI"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "revenusSocietes[0].beneficesDeclares",
+      "id": "idBeneficesN",
+      "value": "false",
+      "label": "NON"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusSocietes[0].montantBenefice",
+      "id": "montantBenefices",
+      "value": "",
+      "label": "Montant de ses bénéfices en 2024 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusSocietes[0].chiffreAffaireMoisMoins3",
+      "id": "chiffreAffaireMoisMoins3",
+      "value": "",
+      "label": "Chiffre d'affaires pour JUIN 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusSocietes[0].chiffreAffaireMoisMoins2",
+      "id": "chiffreAffaireMoisMoins2",
+      "value": "",
+      "label": "Chiffre d'affaires pour JUILLET 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusSocietes[0].chiffreAffaireMoisMoins1",
+      "id": "chiffreAffaireMoisMoins1",
+      "value": "",
+      "label": "Chiffre d'affaires pour AOÛT 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusTravailleurs[0].revenusMoisMoins3",
+      "id": "revenusMoisMoins3",
+      "value": "",
+      "label": "Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour JUIN 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusTravailleurs[0].revenusMoisMoins2",
+      "id": "revenusMoisMoins2",
+      "value": "",
+      "label": "Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour JUILLET 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusTravailleurs[0].revenusMoisMoins1",
+      "id": "revenusMoisMoins1",
+      "value": "",
+      "label": "Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour AOÛT 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "aahMontants[0].revenusMoisMoins3",
+      "id": "aahMontantMoisMoins3",
+      "value": "",
+      "label": "Allocation aux adultes handicapés pour JUIN 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "aahMontants[0].revenusMoisMoins2",
+      "id": "aahMontantMoisMoins2",
+      "value": "",
+      "label": "Allocation aux adultes handicapés pour JUILLET 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "aahMontants[0].revenusMoisMoins1",
+      "id": "aahMontantMoisMoins1",
+      "value": "",
+      "label": "Allocation aux adultes handicapés pour AOÛT 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenuPlacement",
+      "id": "revenuPlacement",
+      "value": "",
+      "label": "Revenus imposables de placement ou du patrimoine pour Année 2024 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusTravailleurs[0].autresRessourcesMoisMoins3",
+      "id": "autresRessourcesMoisMoins3",
+      "value": "",
+      "label": "Indemnités chômage pour JUIN 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusTravailleurs[0].autresRessourcesMoisMoins2",
+      "id": "autresRessourcesMoisMoins2",
+      "value": "",
+      "label": "Indemnités chômage pour JUILLET 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusTravailleurs[0].autresRessourcesMoisMoins1",
+      "id": "autresRessourcesMoisMoins1",
+      "value": "",
+      "label": "Indemnités chômage pour AOÛT 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "situationTravailleur",
+      "id": "idSituProf1",
+      "value": "SANS_RESSOURCES",
+      "label": "Travailleur indépendant"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "situationTravailleur",
+      "id": "idSituProf2",
+      "value": "ETU",
+      "label": "Auto-entrepreneur"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "situationTravailleur",
+      "id": "idSituProf4",
+      "value": "AUTRE",
+      "label": "En activité salariée"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusTravailleurs[1].revenusMoisMoins3",
+      "id": "revenusTravailleursRevenusMoisMoins3",
+      "value": "",
+      "label": "Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité/maternité pour JUIN 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusTravailleurs[1].revenusMoisMoins2",
+      "id": "revenusTravailleursRevenusMoisMoins2",
+      "value": "",
+      "label": "Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité/maternité pour JUILLET 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusTravailleurs[1].revenusMoisMoins1",
+      "id": "revenusTravailleursRevenusMoisMoins1",
+      "value": "",
+      "label": "Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité/maternité pour AOÛT 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusTravailleurs[1].autresRessourcesMoisMoins3",
+      "id": "revenusTravailleursAutresRessourcesMoisMoins3",
+      "value": "",
+      "label": "Indemnités chômage pour JUIN 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusTravailleurs[1].autresRessourcesMoisMoins2",
+      "id": "revenusTravailleursAutresRessourcesMoisMoins2",
+      "value": "",
+      "label": "Indemnités chômage pour JUILLET 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "revenusTravailleurs[1].autresRessourcesMoisMoins1",
+      "id": "revenusTravailleursAutresRessourcesMoisMoins1",
+      "value": "",
+      "label": "Indemnités chômage pour AOÛT 2026 Ce champ est obligatoire"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer dialog d'avertissement Montants non saisis"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer dialog d'avertissement Montant non saisis"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "BCPrecedent",
+      "id": "",
+      "value": "Précédent",
+      "label": "Précédent"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "BCSuivant",
+      "id": "",
+      "value": "Suivant",
+      "label": "Suivant"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "calmois",
+      "id": "calmois",
+      "value": [
+        "0=...",
+        "1=JANVIER",
+        "2=FEVRIER",
+        "3=MARS",
+        "4=AVRIL",
+        "5=MAI",
+        "6=JUIN",
+        "7=JUILLET",
+        "8=AOUT",
+        "9=SEPTEMBRE",
+        "10=OCTOBRE",
+        "11=NOVEMBRE",
+        "12=DECEMBRE"
+      ],
+      "label": ""
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "calyear",
+      "id": "calyear",
+      "value": [],
+      "label": ""
+    }
+  ],
+  "calls": [
+    {
+      "method": "POST",
+      "url": "https://wwwd.caf.fr/wps/rb_bf53223bka?type=js3&sn=v_4_srv_5_sn_4781C3CB21F3B2C9B058FEF87211F127_perc_100000_ol_0_mul_1_app-3A3f8f7016b9b1835e_1&svrid=5&flavor=post&vi=AIPSJFUFHRSSRPEAIBKVFSQBOTPRSKBL-0&modifiedSince=1792414650704&bp=3&app=3f8f7016b9b1835e&crc=1701537034&en=3yk59fmt&end=1",
+      "resourceType": "fetch",
+      "postData": "$tvn=%2Fwps%2Fportal%2Fcaffr%2Fsimulateurpa%2F!ut%2Fp%2Fz1%2F04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_RzNHD2MDYwMPPxDnA0CjS19fQx9HQ3dfQ31w1EVBAQEGgAVBPsGmPs4Gxp4GOhHAaUNcABHA6h-PAqiSLIfUwFB-6PQrLB0czIIDLE08fI29jQGKoIqwGNGJNAN5jjd4GqmX5AbGhphkGUKAOTY6uw!%2Fdz%2Fd5%2FL2dBISEvZ0FBIS9nQSEh%2Fp0%2FIZ7_NA6AH3020HOTC0Q39ML1MA1GE6%3DCZ6_NA6AH3020HOTC0Q39ML1MA1GM1%3DLA0%3D%2F$tvt=1793012013545$tvm=i1%3Bk0%3Bh0$tvtrg=1$w=1280$h=1600$sw=1280$sh=1600$ni=4g|1.55$rt=1-1793012013545%3Bhttps%3A%2F%2Fwwwd.caf.fr%2Fwtd-themeresponsivedesign-web%2Fthemes%2Fhtml%2FThemeResponsiveDesign%2Fcss%2Fstyles.css%3Fid%3D1792980155991%7Cb306e0f0g0h0i0j0k0l0m0v2281w8097X200K1I11M-275166332V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Ffonts-cnaf%2Froboto_5Fcnaf.css%3Fid%3D1792980155991%7Cb306e0f0g0h0i0j0k0l0m0v355w2362X200K1I11M-505140640V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2FStatiquesCaffr%2Fcss%2Fbootstrap.css%3Fid%3D1792980155991%7Cb307e0f0g0h0i0j0k0l0m0v28371w147300X200K1I11M1467469562V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2FStatiquesCaffr%2Fcss%2Fbootstrap-theme.css%3Fid%3D1792980155991%7Cb307e0f0g0h0i0j0k0l0m0v11858w55111X200K1I11M-1050191765V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2FStatiquesCaffr%2Fcontraste%2Fcss%2Fbootstrap.css%3Fid%3D1792980155991%7Cb307e0f0g0h0i0j0k1l131m131u2482v2182w6422X200K1I11%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2FStatiquesCaffr%2Fcontraste%2Fcss%2Fbootstrap-theme.css%3Fid%3D1792980155991%7Cb307e0f0g0h0i0j0k1l122m122u2482v2182w6422X200K1I11%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Fjquery%2F1.11.2%2Fjquery.min.js%7Cb307e0f0g0h0i0j0k0l0m0v38909w95935X200K1I12M-1675582654V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Fjquery%2Fui%2Fjquery-ui.min.js%7Cb307e0f0g0h0i0j0k0l0m0v83498w254916X200K1I12M598948934V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Fjquery%2Fui%2Fjquery-ui.min.css%7Cb307e0f0g0h0i0j0k0l0m0v8795w30801X200K1I11M1803936357V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2FStatiquesCaffr%2Fjs%2Fbootstrap.min.js%3Fid%3D1792980155991%7Cb307e0f0g0h0i0j0k0l0m0v11693w36691X200K1I12M-43234960V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2FStatiquesCaffr%2Fjs%2FheaderCnaf.min.js%3Fid%3D1792980155991%7Cb307e0f0g0h0i0j0k0l0m0v20616w60385X200K1I12M1882135424V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficfstatiquesangularappli%2Fdist%2Fangular%2Fbowser.js%3Fid%3D1792980155991%7Cb307e0f0g0h0i0j0k0l0m0v4891w17728X200K1I12V1%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Fimages%2Flogo_5Fcaf-fr.png%7Cb308e0f0g0h0i0j0k0l0m0v1740w1740X200E1F4032O96P42I7M-1352893919V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Fimages%2FlogoCNAF.gif%7Cb308e0f0g0h0i0j0k0l0m0v29090w29090X200E1F2500O50P50Q602R602I7M-599728990V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Fwpp-simulateur-web%2FStatiquesCaffr%2FstylesScreenCaf.css%7Cb308e0f0g0h0i0j0k0l0m0v24207w117235X200K1I11M-1232732410V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Fwpp-simulateur-web%2FStatiquesCaffr%2FstylesGabaritDefault.css%7Cb308e0f0g0h0i0j0k0l0m0v1862w7039X200K1I11M-1832841417V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Fwpp-simulateur-web%2Fwpp-simulateur%2Fhtml%2Fview%2Fdefault%2Fcommuns%2Fstyles.css%7Cb308e0f0g0h0i0j0k0l0m0v1049w2453X200K1I11M1855495295V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Fwpp-simulateur-web%2Fjs%2Flogs.js%7Cb308e0f0g0h0i0j0k2l121m122u300X200K1I12M-633060184V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Fwpp-simulateur-web%2Fjs%2Futils.js%7Cb308e0f0g0h0i0j0k1l132m133u300X200K1I12M-1331917754V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Fwpp-simulateur-web%2Fjs%2Fcomponents-utils.js%7Cb308e0f0g0h0i0j0k123l285m285u300X200K1I12M-1662649927V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Fwpp-simulateur-web%2Fjs%2Fdynform.js%7Cb308e0f0g0h0i0j0k134l287m287u300X200K1I12M-1878626450V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Fwpp-simulateur-web%2Fwpp-simulateur%2Fhtml%2Fview%2Fdefault%2Fcommuns%2Fmandatory.png%7Cb308e0f0g0h0i0j0k0l0m0v191w191X200E1F135O7P5I7M-1489963157V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Fimages%2Fpic_5Faide_5Fgris.png%7Cb308e0f0g0h0i0j0k0l0m0v1634w1634X200E1F1600O40P40I7M1962577147V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Fimages%2Fpic_5Faide_5Fbleu.png%7Cb308e0f0g0h0i0j0k0l0m0v1686w1686X200N3O40P40I7M-718064047V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Fimages%2Fpic-calendrier_5Fbleu.png%7Cb309e0f0g0h0i0j0k0l0m0v1451w1451X200E1F1600O40P40I7M189395609V0%7Chttps%3A%2F%2Fwww.caf.fr%2Fsites%2Fdefault%2Ffiles%2Fsmarttag%2Fsmarttag-caffr.js%7Cb309e0m0K1I12%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2FStatiquesCaffr%2Fjs%2FfooterCnaf.min.js%3Fid%3D1792980155991%7Cb309e0f0g0h0i0j0k0l0m0v6222w24465X200K1I12M1899116478V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2F18f5227b-e27b-445a-a53f-f845fbe69b40%2Fstormcaster.js%7Cb447e0f0g0h0i0j0k0l0m0v134456w391384X200I12%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Ffonts-cnaf%2Froboto_5Fregular_5Fmacroman%2FRoboto-Regular-webfont.woff%7Cb451e0f0g0h0i0j0k0l0m0v24988w25020X200I9M-1143169108V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Ffonts-cnaf%2Froboto_5Fbold_5Fmacroman%2FRoboto-Bold-webfont.woff%7Cb451e0f0g0h0i0j0k0l0m0v24787w24808X200I9M-1497812241V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Ffonts-cnaf%2Froboto_5Fthin_5Fmacroman%2FRoboto-Thin-webfont.woff%7Cb451e0f0g0h0i0j0k0l0m0v24924w24944X200I9M488947599V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Ffonts-cnaf%2Froboto_5Fmedium_5Fmacroman%2FRoboto-Medium-webfont.woff%7Cb451e0f0g0h0i0j0k0l0m0v25026w25048X200I9M-355088226V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Fimages%2Fpic_5Facces_5Fgris.png%7Cb452e0f0g0h0i0j0k0l0m0v1706w1706X200E1F1600O40P40Q45R45I9M1940293752V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Fc99a4269-161c-4242-a3f0-28d44fa6ce24%3F%7Cb573e0f0g0h0i0j0k1l122m122u610v310w480X200z1I1%7Chttps%3A%2F%2Fwwwd.caf.fr%2Fc99a4269-161c-4242-a3f0-28d44fa6ce24%3F%7Cb576e0f0g0h0i0j0k1l111m112u498v198w198X200z1I1%7Chttps%3A%2F%2Flogs1186.xiti.com%2Fhit.xiti%7Cb603e0m7I7%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Fimages%2Fcal_5Fprecedent.png%7Cb604e0f0g0h0i0j0k0l0m0v1285w1285X200N3O20P20I7M-400929331V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Fimages%2Fcal_5Fsuivant.png%7Cb605e0f0g0h0i0j0k0l0m0v1285w1285X200N3O20P20I7M916226264V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Fimages%2Fcal_5Ffermeture.png%7Cb605e0f0g0h0i0j0k0l0m0v1277w1277X200N3O20P20I7M-760576698V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Fimages%2Fpic-euro_5Fblanc.png%7Cb608e0f0g0h0i0j0k0l0m0v1457w1457X200N3Q40R40I9M-784515905V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Fimages%2Fpic_5FBTannul-bleu.png%7Cb609e0f0g0h0i0j0k0l0m0v1368w1368X200E2F1060O20P53R30I9M-165094055V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Fimages%2Fpic_5FBTnext-bleu.png%7Cb609e0f0g0h0i0j0k0l0m0v396w396X200N3Q20R30I9M1460243226V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Fimages%2Fpic_5Facces_5Fgris.png%7Cb620e0f0g0h0i0j0k0l0m0v1706w1706X200I9M1940293752V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Fimages%2Fpic-euro_5Fblanc.png%7Cb622e0f0g0h0i0j0k0l0m0v1457w1457X200I9M-784515905V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Fimages%2Fpic_5FBTannul-bleu.png%7Cb624e0f0g0h0i0j0k0l0m0v1368w1368X200I9M-165094055V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Ficf-ressources-statiques-rwd-web%2Fimages%2Fpic_5FBTnext-bleu.png%7Cb624e0f0g0h0i0j0k0l0m0v396w396X200I9M1460243226V0%7Chttps%3A%2F%2Fwwwd.caf.fr%2Fwtd-themeresponsivedesign-web%2Fthemes%2Fhtml%2FThemeResponsiveDesign%2Fimages%2Ffavicon.ico%7Cb645e0f0g0h0i0j0k1l1m3v1014w1014X200I22M1404813843V0$url=https%3A%2F%2Fwwwd.caf.fr%2Fwps%2Fportal%2Fcaffr%2Fsimulateurpa%2F!ut%2Fp%2Fz1%2F04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_RzNHD2MDYwMPPxDnA0CjS19fQx9HQ3dfQ31w1EVBAQEGgAVBPsGmPs4Gxp4GOhHAaUNcABHA6h-PAqiSLIfUwFB-6PQrLB0czIIDLE08fI29jQGKoIqwGNGJNAN5jjd4GqmX5AbGhphkGUKAOTY6uw!%2Fdz%2Fd5%2FL2dBISEvZ0FBIS9nQSEh%2Fp0%2FIZ7_NA6AH3020HOTC0Q39ML1MA1GE6%3DCZ6_NA6AH3020HOTC0Q39ML1MA1GM1%3DLA0%3D%2F$title=Situation%20de%20la%20personne%20%C3%A0%20charge%202%20-%20Simulateur%20prime%20d%27activit%C3%A9%20-%20CNAF$latC=0$app=3f8f7016b9b1835e$vi=AIPSJFUFHRSSRPEAIBKVFSQBOTPRSKBL-0$fId=212013860_116$v=10347260902154543$vID=1793011612842DU6HMV26417TJ2QGII3I9LHDFFJ85JKI$rf=https%3A%2F%2Fwwwd.caf.fr%2Fwps%2Fportal%2Fcaffr%2Fsimulateurpa%2F!ut%2Fp%2Fz1%2F04_Sj9CPykssy0xPLMnMz0vMAfIjo8zi_RzNHD2MDYwMPPxDnA0CjS19fQx9HQ3dfQ31w1EVBAQEGgAVBPsGmPs4Gxp4GOhHAaUNcABHA6h-PAqiSLIfUwFB-6PQrLB0czIIDLE08fI29jQGKoIqwGNGJNAN5jjd4GqmX5AbGhphkGUKAOTY6uw!%2Fdz%2Fd5%2FL2dBISEvZ0FBIS9nQSEh%2Fp0%2FIZ7_NA6AH3020HOTC0Q39ML1MA1GE6%3DCZ6_NA6AH3020HOTC0Q39ML1MA1GM1%3DLA0%3D%2F$time=1793012017324"
+    }
+  ]
+}

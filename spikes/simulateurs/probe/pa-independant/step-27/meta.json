@@ -306,7 +306,7 @@
       "type": "text",
       "name": "revenusTravailleurs[0].revenusMoisMoins3",
       "id": "revenusMoisMoins3",
-      "value": "",
+      "value": "0",
       "label": "Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour JUIN 2026 Ce champ est obligatoire"
     },
     {
@@ -354,7 +354,7 @@
       "type": "text",
       "name": "revenuPlacement",
       "id": "revenuPlacement",
-      "value": "0",
+      "value": "",
       "label": "Revenus imposables de placement ou du patrimoine pour Année 2024 Ce champ est obligatoire"
     },
     {

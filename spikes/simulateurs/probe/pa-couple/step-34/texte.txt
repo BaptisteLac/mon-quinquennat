@@ -1,0 +1,57 @@
+	
+	
+
+MES SERVICES EN LIGNE
+
+SIMULATEUR PRIME D'ACTIVITE
+
+		
+Contenu principal de la page
+ACCÈS
+	1
+SITUATION
+phase en cours
+	2
+RÉSULTAT
+	
+Situation
+Vous
+informations déjà saisies
+	
+Conjoint(e)
+en cours de saisie
+	Personne 1
+à saisir
+	Personne 2
+à saisir
+ Les champs signalés par un astérisque sont obligatoires
+Date de naissance de votre conjoint(e) 
+format attendu JJ/MM/AAAA
+Votre conjoint(e) a perçu l'allocation aux adultes handicapés (aah) 
+OUI
+NON
+Votre conjoint(e) est 
+Travailleur indépendant
+Auto-entrepreneur
+Etudiant(e) salarié(e), stagiaire ou apprenti(e)
+En activité salariée
+Autre
+Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité/maternité 
+Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour
+JUIN 2026 
+Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour
+JUILLET 2026 
+Montant net social des salaires (y compris chômage partiel), indemnités maladie et indemnités paternité maternité pour
+AOÛT 2026 
+Revenus annuels de placement (intérêts, dividendes, plus-values...) ou du patrimoine (revenus fonciers...)  Si vous avez déjà déclaré ces revenus pour votre conjoint, ne mettez rien dans cette rubrique
+Revenus imposables de placement ou du patrimoine pour
+Année 2024 
+Autres ressources perçues 
+Autres ressources perçues pour
+JUIN 2026 
+Autres ressources perçues pour
+JUILLET 2026 
+Autres ressources perçues pour
+AOÛT 2026 
+PRECEDENT SUIVANT
+Mentions légales

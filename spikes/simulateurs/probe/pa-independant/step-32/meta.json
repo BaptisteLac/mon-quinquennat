@@ -274,7 +274,7 @@
       "type": "text",
       "name": "revenusSocietes[0].montantBenefice",
       "id": "montantBenefices",
-      "value": "0",
+      "value": "",
       "label": "Montant de vos bénéfices en 2024 Ce champ est obligatoire"
     },
     {
@@ -378,7 +378,7 @@
       "type": "text",
       "name": "revenusTravailleurs[0].autresRessourcesMoisMoins1",
       "id": "autresRessourcesMoisMoins1",
-      "value": "0",
+      "value": "",
       "label": "Prestations familiales et autres ressources perçues pour AOÛT 2026 Ce champ est obligatoire"
     },
     {
