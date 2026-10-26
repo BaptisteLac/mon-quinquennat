@@ -1,26 +1,26 @@
 {
-  "requested": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16225",
-  "final": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16225",
+  "requested": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17556",
+  "final": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17556",
   "status": 200,
-  "title": "Je deviens parent | Service Public",
+  "title": "Je recherche un emploi | Service Public",
   "iframes": [
-    "https://www.service-public.gouv.fr/particuliers/vosdroits/F16225"
+    "https://www.service-public.gouv.fr/particuliers/vosdroits/F17556"
   ],
   "links": [
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16225#main",
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17556#main",
       "text": "Contenu"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16225#header-navigation",
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17556#header-navigation",
       "text": "Menu"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16225#header-search-main",
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17556#header-search-main",
       "text": "Recherche"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16225#footer",
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17556#footer",
       "text": "Pied de page"
     },
     {
@@ -144,7 +144,7 @@
       "text": "Fiches pratiques par événement de vie"
     },
     {
-      "href": "https://www.service-public.gouv.fr/telecharger-pdf?path=aHR0cHM6Ly93d3cuc2VydmljZS1wdWJsaWMuZ291di5mci9wYXJ0aWN1bGllcnMvdm9zZHJvaXRzL0YxNjIyNQ==",
+      "href": "https://www.service-public.gouv.fr/telecharger-pdf?path=aHR0cHM6Ly93d3cuc2VydmljZS1wdWJsaWMuZ291di5mci9wYXJ0aWN1bGllcnMvdm9zZHJvaXRzL0YxNzU1Ng==",
       "text": ""
     },
     {
@@ -152,31 +152,31 @@
       "text": ""
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16225",
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17556",
       "text": "FR - Français"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16225?lang=en",
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17556?lang=en",
       "text": "EN - English"
     },
     {
-      "href": "https://www.facebook.com/sharer/sharer.php?u=https://www.service-public.gouv.fr/particuliers/vosdroits/F16225",
+      "href": "https://www.facebook.com/sharer/sharer.php?u=https://www.service-public.gouv.fr/particuliers/vosdroits/F17556",
       "text": "Facebook"
     },
     {
-      "href": "https://x.com/intent/tweet?text=Je%20deviens%20parent&url=https://www.service-public.gouv.fr/particuliers/vosdroits/F16225",
+      "href": "https://x.com/intent/tweet?text=Je%20recherche%20un%20emploi&url=https://www.service-public.gouv.fr/particuliers/vosdroits/F17556",
       "text": "X"
     },
     {
-      "href": "https://www.linkedin.com/shareArticle?mini=true&url=https://www.service-public.gouv.fr/particuliers/vosdroits/F16225&title=Je%20deviens%20parent",
+      "href": "https://www.linkedin.com/shareArticle?mini=true&url=https://www.service-public.gouv.fr/particuliers/vosdroits/F17556&title=Je%20recherche%20un%20emploi",
       "text": "Linkedin"
     },
     {
-      "href": "mailto:%20?subject=Service%20Public%20-%20Je%20deviens%20parent&body=Bonjour,%0D%0A%0D%0ACette%20information%20de%20Service%20Public%20vous%20est%20conseill%C3%A9e%20:%20%0D%0A%0D%0AJe%20deviens%20parent%0D%0A%0D%0Ahttps%3A%2F%2Fwww.service-public.gouv.fr%2Fparticuliers%2Fvosdroits%2FF16225",
+      "href": "mailto:%20?subject=Service%20Public%20-%20Je%20recherche%20un%20emploi&body=Bonjour,%0D%0A%0D%0ACette%20information%20de%20Service%20Public%20vous%20est%20conseill%C3%A9e%20:%20%0D%0A%0D%0AJe%20recherche%20un%20emploi%0D%0A%0D%0Ahttps%3A%2F%2Fwww.service-public.gouv.fr%2Fparticuliers%2Fvosdroits%2FF17556",
       "text": "Courriel"
     },
     {
-      "href": "https://www.service-public.gouv.fr/compte/se-connecter?targetUrl=/particuliers/vosdroits/F16225/abonnement",
+      "href": "https://www.service-public.gouv.fr/compte/se-connecter?targetUrl=/particuliers/vosdroits/F17556/abonnement",
       "text": "Ajouter à mes favoris"
     },
     {
@@ -184,1300 +184,348 @@
       "text": "mon compte > mes alertes"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N133",
-      "text": "Autre situation : j’adopte"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1636",
+      "text": "demandeur d'emploi"
     },
     {
-      "href": "https://www.ameli.fr/assure/adresses-et-contacts",
-      "text": "Caisse primaire d'assurance maladie (CPAM)"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14926",
+      "text": "contrat d’engagement du demandeur d’emploi"
     },
     {
-      "href": "http://www.caf.fr/allocataires/ma-caf-recherche/",
-      "text": "Caisse d'allocations familiales (Caf)"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1637",
+      "text": "d'actualiser ma situation"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R76002",
-      "text": "Estimer le montant de la prime de naissance"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1638",
+      "text": "d'être radié(e)"
     },
     {
-      "href": "https://www.ameli.fr/sites/default/files/Documents/guide-maternite-2023.pdf",
-      "text": "Ma maternité - Je prépare l’arrivée de mon enfant"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51812",
+      "text": "La bonne boîte"
     },
     {
-      "href": "https://www.ameli.fr/sites/default/files/Documents/4898/document/preparation-consultation-grossesse_assurance-maladie.pdf",
-      "text": "Préparer votre prochaine consultation"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R31528",
+      "text": "France Travail"
     },
     {
-      "href": "https://www.ameli.fr/sites/default/files/Documents/Doudou%20liste_Caf-assurance-maladie.pdf",
-      "text": "La doudou liste"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51809",
+      "text": "Memo"
     },
     {
-      "href": "https://www.1000-premiers-jours.fr/fr",
-      "text": "Site des 1 000 premiers jours"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51410",
+      "text": "Centre d'information et de documentation jeunesse (CIDJ)"
     },
     {
-      "href": "https://www.msa.fr/lfy/web/msa/contact/coordonnees-msa",
-      "text": "Mutualité sociale agricole (MSA)"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R36917",
+      "text": "l'Association pour l'emploi des cadres (Apec)"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R76002",
-      "text": "Estimer le montant de la prime de naissance"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51187",
+      "text": "Choisir le service public"
     },
     {
-      "href": "https://www.1000-premiers-jours.fr/fr",
-      "text": "Site des 1 000 premiers jours"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32476",
+      "text": "rechercher un CCD d'usage ou de recourir à l'intérim"
     },
     {
-      "href": "https://www.ameli.fr/assure/adresses-et-contacts",
-      "text": "Caisse primaire d'assurance maladie (CPAM)"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N443",
+      "text": "contrat d'aide à l'insertion"
     },
     {
-      "href": "http://www.caf.fr/allocataires/ma-caf-recherche/",
-      "text": "Caisse d'allocations familiales (Caf)"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1636",
+      "text": "m'inscrire à France Travail"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R76002",
-      "text": "Estimer le montant de la prime de naissance"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20218",
+      "text": "Revenu de solidarité active (RSA)"
     },
     {
-      "href": "https://www.ameli.fr/sites/default/files/Documents/guide-maternite-2023.pdf",
-      "text": "Ma maternité - Je prépare l’arrivée de mon enfant"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1011",
+      "text": "Aide à la mobilité"
     },
     {
-      "href": "https://www.ameli.fr/sites/default/files/Documents/4898/document/preparation-consultation-grossesse_assurance-maladie.pdf",
-      "text": "Préparer votre prochaine consultation"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12484",
+      "text": "Allocation de solidarité spécifique (ASS)"
     },
     {
-      "href": "https://www.ameli.fr/sites/default/files/Documents/Doudou%20liste_Caf-assurance-maladie.pdf",
-      "text": "La doudou liste"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15252",
+      "text": "Aide à la reprise ou à la création d'entreprise (Arce)"
     },
     {
-      "href": "https://www.1000-premiers-jours.fr/fr",
-      "text": "Site des 1 000 premiers jours"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1814",
+      "text": "Aide à la garde d'enfant"
     },
     {
-      "href": "https://www.msa.fr/lfy/web/msa/contact/coordonnees-msa",
-      "text": "Mutualité sociale agricole (MSA)"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3088",
+      "text": "bilan de compétences"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R76002",
-      "text": "Estimer le montant de la prime de naissance"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51814",
+      "text": "site de France Travail"
     },
     {
-      "href": "https://www.1000-premiers-jours.fr/fr",
-      "text": "Site des 1 000 premiers jours"
+      "href": "http://www.intercariforef.org/formations/recherche-avancee-formations.html",
+      "text": "réseau des CARIF OREF"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F265",
-      "text": "carte Vitale"
+      "href": "http://www.orientation-pour-tous.fr/",
+      "text": "Information et orientation sur les formations et les métiers"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F163",
-      "text": "médecin traitant"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N13271",
+      "text": "volontariat"
     },
     {
-      "href": "https://www.ameli.fr/assure/droits-demarches/difficultes-acces-droits-soins/organisations-coordonnees-territoriales#backToTop",
-      "text": "organisation coordonnée territoriale"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1637",
+      "text": "agence France Travail"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74873",
-      "text": "Connaître les coordonnées des CapParents"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F827",
+      "text": "caisse d'allocations familiales"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74797",
-      "text": "Trouver un centre ressource INTIMAGIR"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1241",
+      "text": "centre de service national"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F968",
-      "text": "déclaration de grossesse"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N31477",
+      "text": "prime d'activité"
     },
     {
-      "href": "https://www.ameli.fr/assure/sante/themes/anemie-carence-fer/symptomes-diagnostic",
-      "text": "anémie par carence en fer"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1636",
+      "text": "demandeur d'emploi"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F167",
-      "text": "tiers payant"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14926",
+      "text": "contrat d’engagement du demandeur d’emploi"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F167",
-      "text": "tiers payant"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1637",
+      "text": "actualiser ma situation"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20314",
-      "text": "complémentaire santé"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1638",
+      "text": "ma radiation"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F167",
-      "text": "tiers payant"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13819",
+      "text": "contrat de sécurisation professionnelle (CSP)"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35876",
-      "text": "hébergement non médicalisé"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51812",
+      "text": "La bonne boîte"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3079",
-      "text": "l'aide médicale de l’État (AME)"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R31528",
+      "text": "France Travail"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3079",
-      "text": ""
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51809",
+      "text": "Memo"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F168",
-      "text": "accord préalable"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R36917",
+      "text": "l'Association pour l'emploi des cadres (Apec)"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F200",
-      "text": "forfait hospitalier"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51187",
+      "text": "Choisir le service public"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2951",
-      "text": "frais de transport"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32476",
+      "text": "rechercher un CCD d'usage ou de recourir à l'intérim"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20314",
-      "text": "mutuelle"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N443",
+      "text": "contrat d'aide à l'insertion"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20314",
-      "text": "mutuelle"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2855",
+      "text": "s'absenter quelques heures pour rechercher un emploi"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F200",
-      "text": "forfait hospitalier"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1636",
+      "text": "m'inscrire à France Travail"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2951",
-      "text": "frais de transport"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N178",
+      "text": "l'allocation d'aide au retour à l'emploi (ARE)"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20314",
-      "text": "mutuelle"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F89",
+      "text": "en cas de démission"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20314",
-      "text": "mutuelle"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17654",
+      "text": "Guide des simulateurs d'allocations et aides de France Travail (anciennement Pôle emploi)"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F963",
-      "text": "examens médicaux"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1636",
+      "text": "m'inscrire à France Travail"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31462",
-      "text": "l'assistance médicale à la procréation (AMP)"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20218",
+      "text": "Revenu de solidarité active (RSA)"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F78",
-      "text": "convention collective"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1011",
+      "text": "Aide à la mobilité"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F311",
-      "text": "usage"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12484",
+      "text": "Allocation de solidarité spécifique (ASS)"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R60805",
-      "text": "Trouver sa convention collective"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15252",
+      "text": "Aide à la reprise ou à la création d'entreprise (Arce)"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F78",
-      "text": "convention collective"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1814",
+      "text": "Aide à la garde d'enfant"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F311",
-      "text": "usage"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N31477",
+      "text": "la prime d'activité"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R60805",
-      "text": "Trouver sa convention collective"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21051",
+      "text": "supplément de loyer de solidarité (SLS)"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R60805",
-      "text": "Trouver sa convention collective"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3088",
+      "text": "bilan de compétences"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13851",
-      "text": "télétravail"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51814",
+      "text": "site de France Travail"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2691",
-      "text": "travaille habituellement de nuit"
+      "href": "http://www.intercariforef.org/formations/recherche-avancee-formations.html",
+      "text": "réseau des CARIF OREF"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2265",
-      "text": "début du congé légal de maternité"
+      "href": "http://www.orientation-pour-tous.fr/",
+      "text": "Information et orientation sur les formations et les métiers"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1305",
-      "text": "certificat"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N13271",
+      "text": "volontariat"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R70715",
-      "text": "simulateur"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2401",
+      "text": "validation des acquis de l'expérience (VAE)"
     },
     {
-      "href": "https://www.ameli.fr/assure/adresses-et-contacts",
-      "text": "Caisse primaire d'assurance maladie (CPAM)"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1637",
+      "text": "agence France Travail"
     },
     {
-      "href": "https://www.msa.fr/lfy/web/msa/contact/coordonnees-msa",
-      "text": "Mutualité sociale agricole (MSA)"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F827",
+      "text": "caisse d'allocations familiales"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39685",
-      "text": "congé supplémentaire de naissance"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1241",
+      "text": "centre de service national"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31462",
-      "text": "assistance médicale à la procréation (AMP)"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21129",
+      "text": "crédit assuré contre la perte d'emploi"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13974",
-      "text": "télétravail"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N31477",
+      "text": "prime d'activité"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12413",
-      "text": "position d'activité, de détachement ou de congé parental"
+      "href": "https://www.francetravail.fr/annuaire/",
+      "text": "France Travail"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1305",
-      "text": "certificat"
+      "href": "https://infojeunesfrance.org/reseau/",
+      "text": "Information jeunesse"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39693",
-      "text": "congé supplémentaire de naissance"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R54933",
+      "text": "Connaître les prestations sociales auxquelles vous pouvez avoir droit"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31462",
-      "text": "assistance médicale à la procréation (AMP)"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17654",
+      "text": "Guide des simulateurs d'allocations et aides de France Travail (anciennement Pôle emploi)"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13974",
-      "text": "télétravail"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R31528",
+      "text": "Rechercher une offre d'emploi sur France Travail"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F517",
-      "text": "congé parental"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51809",
+      "text": "Les outils pratiques de France Travail (anciennement Pôle emploi)"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1305",
-      "text": "certificat"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51812",
+      "text": "La bonne boîte : trouver l'entreprise qui embauche sans passer d'offre d'emploi"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39693",
-      "text": "congé supplémentaire de naissance"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R36917",
+      "text": "Rechercher un emploi avec l'Apec"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2266",
-      "text": "congé de naissance"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R38707",
+      "text": "Rechercher un emploi de cadre à l'international"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R32176",
-      "text": "Demander un congé de paternité et d'accueil de l'enfant"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42833",
+      "text": "Recherche d'un emploi dans le secteur agricole"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21050",
-      "text": "suspension du contrat de travail"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51187",
+      "text": "Consulter les offres d’emploi de la fonction publique"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39685",
-      "text": "congé supplémentaire de naissance"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51410",
+      "text": "Offres d'emploi, jobs et stages sur le site du CIDJ"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F583",
-      "text": "congé de paternité et d'accueil de l'enfant"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51814",
+      "text": "Rechercher une formation avec France Travail (anciennement Pôle emploi)"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39693",
-      "text": "congé supplémentaire de naissance"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31832",
+      "text": "Peut-on percevoir des allocations après sa sortie de prison ?"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35858",
-      "text": "reconnaissance conjointe anticipée"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32846",
+      "text": "Que peut faire un jeune de plus de 16 ans déscolarisé et sans diplôme ?"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12413",
-      "text": "position d'activité ou de détachement"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32476",
+      "text": "Dans quel secteur peut-on recourir au CDD d'usage ou au CDD temporaire (intérim) ?"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13765",
-      "text": "congé de naissance de 3 jours"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N31133",
+      "text": "Chômage : aides à la reprise d’activité"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13765",
-      "text": "congé de naissance de 3 jours"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1190",
+      "text": "Formation des jeunes : établissement pour l’insertion dans l’emploi (Épide)"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R32176",
-      "text": "Demander un congé de paternité et d'accueil de l'enfant"
+      "href": "https://ec.europa.eu/eures/main.jsp?acro=lw&lang=fr&catId=490&parentId=0",
+      "text": "Vivre et travailler en Europe : informations par pays"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R54021",
-      "text": "Demander le report d’un congé de paternité et d'accueil de l’enfant en cas d'hospitalisation de l'enfant"
+      "href": "https://www.francetravail.fr/international/mobilite-internationale.html",
+      "text": "Mobilité internationale"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F461",
-      "text": "traitement indiciaire"
+      "href": "http://www.orientation-pour-tous.fr/",
+      "text": "Information et orientation sur les formations et les métiers"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32511",
-      "text": "l'indemnité de résidence"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1700",
+      "text": "Je souhaite travailler dans l'administration"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32515",
-      "text": "nouvelle bonification indiciaire (NBI)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32513",
-      "text": "supplément familial de traitement (SFT)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F465",
-      "text": "primes et indemnités"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39693",
-      "text": "congé supplémentaire de naissance"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F583",
-      "text": "congé de paternité et d'accueil de l'enfant"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39693",
-      "text": "congé supplémentaire de naissance"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39693",
-      "text": "congé supplémentaire de naissance"
-    },
-    {
-      "href": "http://www.ih2ef.education.fr/fr/ressources-par-type/outils-pour-agir/le-film-annuel-des-personnels-de-direction/detail-d-une-fiche/?a=83&cHash=22a8990068",
-      "text": "accompagnement pédagogique à domicile à l'hôpital ou à l'école (APADHE)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74486",
-      "text": "Trouver un mode d’accueil pour mon enfant (crèche, assistante maternelle, maison d'assistantes maternelles, service de garde à domicile)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R72489",
-      "text": "Estimer son droit au CMG emploi direct"
-    },
-    {
-      "href": "https://www.mesdroitssociaux.gouv.fr/votre-simulateur/complement-mode-de-garde/",
-      "text": "Estimer son droit au CMG structure"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12",
-      "text": "crédit d'impôt"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F8",
-      "text": "crédit d'impôt"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74484",
-      "text": "cerfa n°16295"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F968",
-      "text": "déclaré votre grossesse"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F961",
-      "text": "déclaration de naissance"
-    },
-    {
-      "href": "https://lannuaire.service-public.gouv.fr/navigation/mairie",
-      "text": "Mairie"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10505",
-      "text": "couple hétérosexuel"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F36045",
-      "text": "couple de femmes"
-    },
-    {
-      "href": "https://www.insee.fr/fr/statistiques/3532172",
-      "text": "prénom déjà utilisé"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10505",
-      "text": "nom d'un seul de ses parents"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F961",
-      "text": "déclaration de naissance"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1427",
-      "text": "l'acte de naissance"
-    },
-    {
-      "href": "https://lannuaire.service-public.gouv.fr/navigation/mairie",
-      "text": "Mairie"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1427",
-      "text": "L'acte de naissance"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10505",
-      "text": "Déclaration de choix de nom"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F887",
-      "text": "Acte de reconnaissance"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N31784",
-      "text": "Livret de famille"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F887",
-      "text": "reconnu par son père"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11991",
-      "text": "livret de famille"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35858",
-      "text": "Reconnaissance conjointe anticipée"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F36045",
-      "text": "Déclaration de choix de nom"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N31784",
-      "text": "Livret de famille"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11991",
-      "text": "livret de famille"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F810",
-      "text": "carnet de santé"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R3049",
-      "text": "Ameli en ligne"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F265",
-      "text": ""
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F265",
-      "text": "carte Vitale"
-    },
-    {
-      "href": "https://www.elioz.fr/elioz-connect/annuaire/assurance-maladie-annuaire/",
-      "text": "conseiller par visio-interprétation"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18438",
-      "text": "MSA - Espace particuliers"
-    },
-    {
-      "href": "https://www.msa.fr/lfy/web/msa/contact/coordonnees-msa",
-      "text": "Mutualité sociale agricole (MSA)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R3049",
-      "text": "Ameli en ligne"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F265",
-      "text": ""
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F265",
-      "text": "carte Vitale"
-    },
-    {
-      "href": "https://www.elioz.fr/elioz-connect/annuaire/assurance-maladie-annuaire/",
-      "text": "conseiller par visio-interprétation"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18438",
-      "text": "MSA - Espace particuliers"
-    },
-    {
-      "href": "https://www.msa.fr/lfy/web/msa/contact/coordonnees-msa",
-      "text": "Mutualité sociale agricole (MSA)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R3049",
-      "text": "Ameli en ligne"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16671",
-      "text": "Demande de rattachement des enfants à l'un ou aux deux parents - Assurances maladie et maternité"
-    },
-    {
-      "href": "https://www.ameli.fr/assure/adresses-et-contacts",
-      "text": "Caisse primaire d'assurance maladie (CPAM)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16671",
-      "text": "Demande de rattachement des enfants à l'un ou aux deux parents - Assurances maladie et maternité"
-    },
-    {
-      "href": "https://www.msa.fr/lfy/web/msa/contact/coordonnees-msa",
-      "text": "Mutualité sociale agricole (MSA)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R3049",
-      "text": "Ameli en ligne"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16671",
-      "text": "Demande de rattachement des enfants à l'un ou aux deux parents - Assurances maladie et maternité"
-    },
-    {
-      "href": "https://www.ameli.fr/assure/adresses-et-contacts",
-      "text": "Caisse primaire d'assurance maladie (CPAM)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16671",
-      "text": "Demande de rattachement des enfants à l'un ou aux deux parents - Assurances maladie et maternité"
-    },
-    {
-      "href": "https://www.msa.fr/lfy/web/msa/contact/coordonnees-msa",
-      "text": "Mutualité sociale agricole (MSA)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1165",
-      "text": "Caisse d'allocations familiales (Caf) en ligne"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F163",
-      "text": "médecin traitant"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R10917",
-      "text": "1er certificat de santé"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R33394",
-      "text": "2e certificat de santé"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R33393",
-      "text": "3e certificat de santé"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F810",
-      "text": "carnet de santé de l'enfant"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F724",
-      "text": "Vaccinations"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F810",
-      "text": "carnet de santé de l'enfant"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F36151",
-      "text": "Mon espace santé (dossier médical partagé)"
-    },
-    {
-      "href": "https://vaccination-info-service.fr/La-vaccination-au-cours-de-la-vie/Nourrissons-et-enfants-de-la-naissance-a-13-ans",
-      "text": "site Vaccinations Info Service"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39685",
-      "text": "congé supplémentaire de naissance"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R32169",
-      "text": "Demande initiale de congé parental dans le secteur privé"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2265",
-      "text": "maternité"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2268",
-      "text": "d'adoption"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2360",
-      "text": "conseil de prud'hommes (CPH)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2360",
-      "text": "conseil de prud'hommes (CPH)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21050",
-      "text": "suspendu"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R60805",
-      "text": "Trouver sa convention collective"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32040",
-      "text": "entretien professionnel"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R32169",
-      "text": "Demande initiale de congé parental dans le secteur privé"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2265",
-      "text": "maternité"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2268",
-      "text": "d'adoption,"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2360",
-      "text": "conseil de prud'hommes (CPH)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R60805",
-      "text": "Trouver sa convention collective"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R60805",
-      "text": "Trouver sa convention collective"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R32169",
-      "text": "Demande initiale de congé parental dans le secteur privé"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2265",
-      "text": "maternité"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2268",
-      "text": "d'adoption"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2360",
-      "text": "conseil de prud'hommes (CPH)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2360",
-      "text": "conseil de prud'hommes (CPH)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21050",
-      "text": "suspendu"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R60805",
-      "text": "Trouver sa convention collective"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32040",
-      "text": "entretien professionnel"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R32169",
-      "text": "Demande initiale de congé parental dans le secteur privé"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2265",
-      "text": "maternité"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2268",
-      "text": "d'adoption,"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2360",
-      "text": "conseil de prud'hommes (CPH)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R60805",
-      "text": "Trouver sa convention collective"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R60805",
-      "text": "Trouver sa convention collective"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39693",
-      "text": "congé supplémentaire de naissance"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F517",
-      "text": "congé parental"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F486",
-      "text": "travailler à temps partiel"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39693",
-      "text": "congé supplémentaire de naissance"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F517",
-      "text": "congé parental"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18029",
-      "text": "travailler à temps partiel"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1427",
-      "text": "l'acte de naissance"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35002",
-      "text": "cause d'hospitalisation de l'enfant"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35002",
-      "text": "cause d'hospitalisation de l'enfant"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35002",
-      "text": "cause d'hospitalisation de l'enfant"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35002",
-      "text": "cause d'hospitalisation de l'enfant"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35002",
-      "text": "cause d'hospitalisation de l'enfant"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35002",
-      "text": "cause d'hospitalisation de l'enfant"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35002",
-      "text": "cause d'hospitalisation de l'enfant"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35002",
-      "text": "cause d'hospitalisation de l'enfant"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39685",
-      "text": "congé supplémentaire de naissance"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32040",
-      "text": "entretien"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R60805",
-      "text": "Trouver sa convention collective"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F151",
-      "text": "jours de congé"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1631",
-      "text": "congé de présence parentale"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34158",
-      "text": "congé spécifique"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39693",
-      "text": "congé supplémentaire de naissance"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F459",
-      "text": "priorités de mutation accordées à certains agents"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F565",
-      "text": "congé de présence parentale"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16947",
-      "text": "au sens des prestations familiales"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32513",
-      "text": "SFT dans la fonction publique"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F565",
-      "text": "congé de présence parentale"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16947",
-      "text": "au sens des prestations familiales"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32513",
-      "text": "SFT dans la fonction publique"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F151",
-      "text": "jours de congé"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1631",
-      "text": "congé de présence parentale"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34158",
-      "text": "congé spécifique"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F565",
-      "text": "congé de présence parentale"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16947",
-      "text": "au sens des prestations familiales"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32513",
-      "text": "SFT dans la fonction publique"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F565",
-      "text": "congé de présence parentale"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16947",
-      "text": "au sens des prestations familiales"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32513",
-      "text": "SFT dans la fonction publique"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2552",
-      "text": "l'allocation de base"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2552",
-      "text": "de la prestation d'accueil du jeune enfant (Paje)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32485",
-      "text": "prestation partagée d'éducation de l'enfant (PreParE"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F815",
-      "text": "ne participe plus à l'entretien de l’enfant depuis au moins 1 mois"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F815",
-      "text": "vous verse une pension alimentaire inférieure à"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33645",
-      "text": "pas été reconnu par l'autre parent"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2552",
-      "text": "l'allocation de base"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2552",
-      "text": "de la prestation d'accueil du jeune enfant (Paje)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13213",
-      "text": "allocations familiales"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32485",
-      "text": "prestation partagée d'éducation de l'enfant (PreParE"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2008",
-      "text": ""
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2008",
-      "text": "prime de déménagement"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F815",
-      "text": "ne participe plus à l'entretien de l’enfant depuis au moins 1 mois"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F815",
-      "text": "vous verse une pension alimentaire inférieure à"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33645",
-      "text": "pas été reconnu par l'autre parent"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2552",
-      "text": "l'allocation de base"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2552",
-      "text": "de la prestation d'accueil du jeune enfant (Paje)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32485",
-      "text": "prestation partagée d'éducation de l'enfant (PreParE"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F815",
-      "text": "ne participe plus à l'entretien de l’enfant depuis au moins 1 mois"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F815",
-      "text": "vous verse une pension alimentaire inférieure à"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33645",
-      "text": "pas été reconnu par l'autre parent"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2552",
-      "text": "l'allocation de base"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2552",
-      "text": "de la prestation d'accueil du jeune enfant (Paje)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13213",
-      "text": "allocations familiales"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32485",
-      "text": "prestation partagée d'éducation de l'enfant (PreParE"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2008",
-      "text": ""
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2008",
-      "text": "prime de déménagement"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F815",
-      "text": "ne participe plus à l'entretien de l’enfant depuis au moins 1 mois"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F815",
-      "text": "vous verse une pension alimentaire inférieure à"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33645",
-      "text": "pas été reconnu par l'autre parent"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35575",
-      "text": "fiche PCH « parentalité »"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14809",
-      "text": "fiche AEEH"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R3120",
-      "text": "Impôts : accéder à votre espace Finances publiques"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1342",
-      "text": "carte d’identité"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14930",
-      "text": "passeport"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R3049",
-      "text": "Ameli en ligne"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F265",
-      "text": ""
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F265",
-      "text": "carte Vitale"
-    },
-    {
-      "href": "https://www.elioz.fr/elioz-connect/annuaire/assurance-maladie-annuaire/",
-      "text": "conseiller par visio-interprétation"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1361",
-      "text": "Allocations et prestations familiales - Déclaration de situation (Caf)"
-    },
-    {
-      "href": "http://www.caf.fr/allocataires/ma-caf-recherche/",
-      "text": "Caisse d'allocations familiales (Caf)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18438",
-      "text": "MSA - Espace particuliers"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R3049",
-      "text": "Ameli en ligne"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F265",
-      "text": ""
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F265",
-      "text": "carte Vitale"
-    },
-    {
-      "href": "https://www.elioz.fr/elioz-connect/annuaire/assurance-maladie-annuaire/",
-      "text": "conseiller par visio-interprétation"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1361",
-      "text": "Allocations et prestations familiales - Déclaration de situation (Caf)"
-    },
-    {
-      "href": "http://www.caf.fr/allocataires/ma-caf-recherche/",
-      "text": "Caisse d'allocations familiales (Caf)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18438",
-      "text": "MSA - Espace particuliers"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F23429",
-      "text": "instruction dans la famille"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F767",
-      "text": "vaccinations obligatoires"
-    },
-    {
-      "href": "https://lannuaire.service-public.gouv.fr/navigation/mairie",
-      "text": "Mairie"
-    },
-    {
-      "href": "https://www.education.gouv.fr/les-regions-academiques-academies-et-services-departementaux-de-l-education-nationale-6557#La_carte_des_regions_academiques_et_les_coordonnees_des_rectorats_vice-rectorats_et_services_departementaux_de_l_Education_nationale",
-      "text": "Direction des services départementaux de l'Éducation nationale"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F767",
-      "text": "vaccinations obligatoires"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F767",
-      "text": "les vaccinations obligatoires"
-    },
-    {
-      "href": "https://lannuaire.service-public.gouv.fr/navigation/mairie",
-      "text": "Mairie"
-    },
-    {
-      "href": "https://www.education.gouv.fr/les-regions-academiques-academies-et-services-departementaux-de-l-education-nationale-6557#La_carte_des_regions_academiques_et_les_coordonnees_des_rectorats_vice-rectorats_et_services_departementaux_de_l_Education_nationale",
-      "text": "Direction des services départementaux de l'Éducation nationale"
-    },
-    {
-      "href": "https://lannuaire.service-public.gouv.fr/navigation/mairie",
-      "text": "Mairie"
-    },
-    {
-      "href": "https://www.education.gouv.fr/les-regions-academiques-academies-et-services-departementaux-de-l-education-nationale-6557#La_carte_des_regions_academiques_et_les_coordonnees_des_rectorats_vice-rectorats_et_services_departementaux_de_l_Education_nationale",
-      "text": "Direction des services départementaux de l'Éducation nationale"
-    },
-    {
-      "href": "https://lannuaire.service-public.gouv.fr/navigation/mairie",
-      "text": "Mairie"
-    },
-    {
-      "href": "https://www.education.gouv.fr/les-regions-academiques-academies-et-services-departementaux-de-l-education-nationale-6557#La_carte_des_regions_academiques_et_les_coordonnees_des_rectorats_vice-rectorats_et_services_departementaux_de_l_Education_nationale",
-      "text": "Direction des services départementaux de l'Éducation nationale"
-    },
-    {
-      "href": "https://lannuaire.service-public.gouv.fr/navigation/mairie",
-      "text": "Mairie"
-    },
-    {
-      "href": "https://www.education.gouv.fr/les-regions-academiques-academies-et-services-departementaux-de-l-education-nationale-6557#La_carte_des_regions_academiques_et_les_coordonnees_des_rectorats_vice-rectorats_et_services_departementaux_de_l_Education_nationale",
-      "text": "Direction des services départementaux de l'Éducation nationale"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F767",
-      "text": "être vacciné"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F23429",
-      "text": "instruction dans la famille"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F963",
-      "text": "1er examen prénatal"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F968",
-      "text": "déclaration de grossesse"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F265",
-      "text": "carte Vitale"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F163",
-      "text": "médecin traitant"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F963",
-      "text": "examens prénataux"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F164",
-      "text": "prise en charge"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F601",
-      "text": "modes de garde"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F38243",
-      "text": "aides financières"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74484",
-      "text": "sage-femme référente"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2550",
-      "text": "prime à la naissance"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F887",
-      "text": "reconnaissance"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N151",
-      "text": "nom de famille"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F882",
-      "text": "prénom"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F961",
-      "text": "déclaration de naissance"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F810",
-      "text": "carnet de santé"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F737",
-      "text": "Déclarer la naissance"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F967",
-      "text": "examens médicaux"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N434",
-      "text": "vaccinations"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N156",
-      "text": "prestations familiales"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R3120",
-      "text": "signaler la naissance"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1342",
-      "text": "carte d'identité"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14930",
-      "text": "passeport"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F737",
-      "text": "familiale"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F674",
-      "text": "professionnelle"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1864",
-      "text": "l’inscrire à l'école"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R76002",
-      "text": "Estimer le montant de la prime de naissance"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74486",
-      "text": "Trouver un mode d’accueil pour mon enfant (crèche, assistante maternelle, maison d'assistantes maternelles, service de garde à domicile)"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R72489",
-      "text": "CMG emploi direct : estimer ses droits"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R72845",
-      "text": "CMG emploi structure : estimer ses droits"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R32176",
-      "text": "Demander un congé de paternité et d'accueil de l'enfant"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R32169",
-      "text": "Demande initiale de congé parental dans le secteur privé"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16671",
-      "text": "Carte Vitale : demande de rattachement d’un enfant à l'un ou aux 2 parents"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R3049",
-      "text": "Ameli en ligne"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18438",
-      "text": "MSA - Espace particuliers"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1165",
-      "text": "Caisse d'allocations familiales (Caf) en ligne"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R3120",
-      "text": "Impôts : accéder à votre espace Finances publiques"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74873",
-      "text": "Connaître les coordonnées des CapParents"
-    },
-    {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74797",
-      "text": "Trouver un centre ressource INTIMAGIR"
-    },
-    {
-      "href": "https://www.1000-premiers-jours.fr/fr",
-      "text": "Site des 1 000 premiers jours"
-    },
-    {
-      "href": "https://vaccination-info-service.fr/La-vaccination-au-cours-de-la-vie/Nourrissons-et-enfants-de-la-naissance-a-13-ans",
-      "text": "Vaccinations : nourrissons et enfants (de la naissance à 13 ans)"
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/comment-faire-si",
+      "text": "Voir toutes les situations"
     },
     {
       "href": "https://www.service-public.gouv.fr/particuliers",
@@ -1676,7 +724,7 @@
       "text": "Conditions générales d'utilisation"
     },
     {
-      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16225#",
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17556#",
       "text": "Gestion des cookies"
     },
     {
@@ -1882,7 +930,7 @@
       "type": "hidden",
       "name": "_csrf",
       "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
+      "value": "2bb0c8e5-68ae-4200-b3bf-05b32c682660",
       "label": ""
     },
     {
@@ -1902,10 +950,34 @@
       "label": ""
     },
     {
+      "tag": "input",
+      "type": "hidden",
+      "name": "lang",
+      "id": "lang",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "quest0",
+      "id": "quest0-0",
+      "value": "0",
+      "label": "Un 1er emploi"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "quest0",
+      "id": "quest0-1",
+      "value": "1",
+      "label": "Un emploi alors que j'ai déjà travaillé (avec un contrat de travail)"
+    },
+    {
       "tag": "button",
-      "type": "submit",
+      "type": "button",
       "name": "",
-      "id": "",
+      "id": "effacerSelection0",
       "value": "",
       "label": ""
     },
@@ -1914,6 +986,22 @@
       "type": "submit",
       "name": "",
       "id": "",
+      "value": "",
+      "label": "Fermer"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "quest",
+      "id": "quest",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "display-info",
       "value": "",
       "label": ""
     },
@@ -1921,15 +1009,7 @@
       "tag": "button",
       "type": "button",
       "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "affiche-article",
+      "id": "affiche-article2",
       "value": "",
       "label": ""
     },
@@ -1966,280 +1046,6 @@
       "label": ""
     },
     {
-      "tag": "input",
-      "type": "hidden",
-      "name": "_csrf",
-      "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "idFiche",
-      "id": "",
-      "value": "F16225",
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalList",
-      "id": "",
-      "value": [
-        "cpam=Pivot Local",
-        "caf=Pivot Local"
-      ],
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalServiceEnLigne",
-      "id": "",
-      "value": [
-        "=Pivot local service en ligne."
-      ],
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "search",
-      "name": "searchedCity",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "reset",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Supprimer cette commune"
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Aide pour Vous dépendez du régime agricole"
-    },
-    {
-      "tag": "button",
-      "type": "submit",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "_csrf",
-      "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "idFiche",
-      "id": "",
-      "value": "F16225",
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalList",
-      "id": "",
-      "value": [
-        "msa=Pivot Local"
-      ],
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalServiceEnLigne",
-      "id": "",
-      "value": [
-        "=Pivot local service en ligne."
-      ],
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "search",
-      "name": "searchedCity",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "reset",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Supprimer cette commune"
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Aide pour Vous dépendez du régime agricole"
-    },
-    {
-      "tag": "button",
-      "type": "submit",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "_csrf",
-      "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "idFiche",
-      "id": "",
-      "value": "F16225",
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalList",
-      "id": "",
-      "value": [
-        "cpam=Pivot Local",
-        "caf=Pivot Local"
-      ],
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalServiceEnLigne",
-      "id": "",
-      "value": [
-        "=Pivot local service en ligne."
-      ],
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "search",
-      "name": "searchedCity",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "reset",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Supprimer cette commune"
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Aide pour Vous dépendez du régime agricole"
-    },
-    {
-      "tag": "button",
-      "type": "submit",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "_csrf",
-      "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "idFiche",
-      "id": "",
-      "value": "F16225",
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalList",
-      "id": "",
-      "value": [
-        "msa=Pivot Local"
-      ],
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalServiceEnLigne",
-      "id": "",
-      "value": [
-        "=Pivot local service en ligne."
-      ],
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "search",
-      "name": "searchedCity",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "reset",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Supprimer cette commune"
-    },
-    {
       "tag": "button",
       "type": "button",
       "name": "",
@@ -2273,243 +1079,9 @@
     },
     {
       "tag": "button",
-      "type": "submit",
-      "name": "",
-      "id": "bloc-complement-aria-6-8X3C3",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
       "type": "button",
       "name": "",
       "id": "accordion-chapter-btn-chapitre6-situation1",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre7-situation1",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre8-situation1",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre9-situation1",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "submit",
-      "name": "",
-      "id": "bloc-complement-aria-9-GZX1V",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "submit",
-      "name": "",
-      "id": "bloc-complement-aria-9-MCLRY",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre10-situation1",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre11-situation1",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre12-situation1",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre13-situation1",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre14-situation1",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre15-situation1",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre16-situation1",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre17-situation1",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "onglet-cas-tab-17494911429408934311",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "onglet-cas-tab-17494911429408934312",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre18-situation1",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre19-situation1",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "_csrf",
-      "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "idFiche",
-      "id": "",
-      "value": "F16225",
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalList",
-      "id": "pivotLocalList88313768612323846841",
-      "value": [
-        "mairie=Pivot Local"
-      ],
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalServiceEnLigne",
-      "id": "pivotLocalServiceEnLigne88313768612323846841",
-      "value": [],
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "search",
-      "name": "searchedCity",
-      "id": "searchGeoSearchForm88313768612323846841",
-      "value": "",
-      "label": "Quelle est votre ville ou code postal ? Exemple : Sainte-Cécile-les-Vignes ou 95200"
-    },
-    {
-      "tag": "button",
-      "type": "reset",
-      "name": "",
-      "id": "btn-with-reset-localisation-88313768612323846841",
-      "value": "",
-      "label": "Supprimer cette commune"
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre20-situation1",
       "value": "",
       "label": ""
     },
@@ -2533,104 +1105,6 @@
       "tag": "button",
       "type": "button",
       "name": "",
-      "id": "onglet-cas-tab-70539038973015892941",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "onglet-cas-tab-70539038973015892942",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "_csrf",
-      "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "idFiche",
-      "id": "",
-      "value": "F16225",
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalList",
-      "id": "pivotLocalList85427372094114786681",
-      "value": [
-        "mairie=Pivot Local"
-      ],
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalServiceEnLigne",
-      "id": "pivotLocalServiceEnLigne85427372094114786681",
-      "value": [],
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "search",
-      "name": "searchedCity",
-      "id": "searchGeoSearchForm85427372094114786681",
-      "value": "",
-      "label": "Quelle est votre ville ou code postal ? Exemple : Sainte-Cécile-les-Vignes ou 95200"
-    },
-    {
-      "tag": "button",
-      "type": "reset",
-      "name": "",
-      "id": "btn-with-reset-localisation-85427372094114786681",
-      "value": "",
-      "label": "Supprimer cette commune"
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "onglet-cas-tab-56059284698846805591",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "onglet-cas-tab-56059284698846805592",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
       "id": "accordion-chapter-btn-chapitre2-situation2",
       "value": "",
       "label": ""
@@ -2647,369 +1121,9 @@
       "tag": "button",
       "type": "button",
       "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "_csrf",
-      "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "idFiche",
-      "id": "",
-      "value": "F16225",
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalList",
-      "id": "",
-      "value": [
-        "msa=Pivot Local"
-      ],
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalServiceEnLigne",
-      "id": "",
-      "value": [
-        "=Pivot local service en ligne."
-      ],
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "search",
-      "name": "searchedCity",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "reset",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Supprimer cette commune"
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "_csrf",
-      "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "idFiche",
-      "id": "",
-      "value": "F16225",
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalList",
-      "id": "",
-      "value": [
-        "msa=Pivot Local"
-      ],
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalServiceEnLigne",
-      "id": "",
-      "value": [
-        "=Pivot local service en ligne."
-      ],
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "search",
-      "name": "searchedCity",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "reset",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Supprimer cette commune"
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
       "id": "accordion-chapter-btn-chapitre4-situation2",
       "value": "",
       "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "_csrf",
-      "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "idFiche",
-      "id": "",
-      "value": "F16225",
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalList",
-      "id": "",
-      "value": [
-        "cpam=Pivot Local"
-      ],
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalServiceEnLigne",
-      "id": "",
-      "value": [
-        "=Pivot local service en ligne."
-      ],
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "search",
-      "name": "searchedCity",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "reset",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Supprimer cette commune"
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "_csrf",
-      "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "idFiche",
-      "id": "",
-      "value": "F16225",
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalList",
-      "id": "",
-      "value": [
-        "msa=Pivot Local"
-      ],
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalServiceEnLigne",
-      "id": "",
-      "value": [
-        "=Pivot local service en ligne."
-      ],
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "search",
-      "name": "searchedCity",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "reset",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Supprimer cette commune"
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "_csrf",
-      "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "idFiche",
-      "id": "",
-      "value": "F16225",
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalList",
-      "id": "",
-      "value": [
-        "cpam=Pivot Local"
-      ],
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalServiceEnLigne",
-      "id": "",
-      "value": [
-        "=Pivot local service en ligne."
-      ],
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "search",
-      "name": "searchedCity",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "reset",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Supprimer cette commune"
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "_csrf",
-      "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "idFiche",
-      "id": "",
-      "value": "F16225",
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalList",
-      "id": "",
-      "value": [
-        "msa=Pivot Local"
-      ],
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalServiceEnLigne",
-      "id": "",
-      "value": [
-        "=Pivot local service en ligne."
-      ],
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "search",
-      "name": "searchedCity",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "reset",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Supprimer cette commune"
     },
     {
       "tag": "button",
@@ -3031,223 +1145,7 @@
       "tag": "button",
       "type": "button",
       "name": "",
-      "id": "accordion-chapter-btn-chapitre7-situation2",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre8-situation2",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre9-situation2",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre10-situation2",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre11-situation2",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre12-situation2",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "submit",
-      "name": "",
-      "id": "bloc-complement-aria-2-HITET",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "submit",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "submit",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "submit",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "submit",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre13-situation2",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre14-situation2",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre15-situation2",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre16-situation2",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre17-situation2",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre18-situation2",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre19-situation2",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre20-situation2",
+      "id": "geoSearchFormCollapse",
       "value": "",
       "label": ""
     },
@@ -3256,7 +1154,7 @@
       "type": "hidden",
       "name": "_csrf",
       "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
+      "value": "2bb0c8e5-68ae-4200-b3bf-05b32c682660",
       "label": ""
     },
     {
@@ -3264,16 +1162,17 @@
       "type": "hidden",
       "name": "idFiche",
       "id": "",
-      "value": "F16225",
+      "value": "F17556",
       "label": ""
     },
     {
       "tag": "select",
       "type": "select-multiple",
       "name": "pivotLocalList",
-      "id": "",
+      "id": "pivotLocalList62888200826843098971",
       "value": [
-        "caf=Pivot Local"
+        "cij=Pivot Local",
+        "france_travail=Pivot Local"
       ],
       "label": ""
     },
@@ -3281,175 +1180,7 @@
       "tag": "select",
       "type": "select-multiple",
       "name": "pivotLocalServiceEnLigne",
-      "id": "",
-      "value": [
-        "=Pivot local service en ligne."
-      ],
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "search",
-      "name": "searchedCity",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "reset",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Supprimer cette commune"
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "_csrf",
-      "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "idFiche",
-      "id": "",
-      "value": "F16225",
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalList",
-      "id": "",
-      "value": [
-        "caf=Pivot Local"
-      ],
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalServiceEnLigne",
-      "id": "",
-      "value": [
-        "=Pivot local service en ligne."
-      ],
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "search",
-      "name": "searchedCity",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "reset",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Supprimer cette commune"
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "accordion-chapter-btn-chapitre21-situation2",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "onglet-cas-tab--79228629818039421021",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "onglet-cas-tab--79228629818039421022",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "onglet-cas-tab--79228629818039421023",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "_csrf",
-      "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "idFiche",
-      "id": "",
-      "value": "F16225",
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalList",
-      "id": "pivotLocalList71250302790915175831",
-      "value": [
-        "inspection_academique=Pivot Local"
-      ],
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalServiceEnLigne",
-      "id": "pivotLocalServiceEnLigne71250302790915175831",
+      "id": "pivotLocalServiceEnLigne62888200826843098971",
       "value": [],
       "label": ""
     },
@@ -3457,7 +1188,7 @@
       "tag": "input",
       "type": "search",
       "name": "searchedCity",
-      "id": "searchGeoSearchForm71250302790915175831",
+      "id": "searchGeoSearchForm62888200826843098971",
       "value": "",
       "label": "Quelle est votre ville ou code postal ? Exemple : Sainte-Cécile-les-Vignes ou 95200"
     },
@@ -3465,243 +1196,9 @@
       "tag": "button",
       "type": "reset",
       "name": "",
-      "id": "btn-with-reset-localisation-71250302790915175831",
+      "id": "btn-with-reset-localisation-62888200826843098971",
       "value": "",
       "label": "Supprimer cette commune"
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "_csrf",
-      "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "idFiche",
-      "id": "",
-      "value": "F16225",
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalList",
-      "id": "",
-      "value": [
-        "inspection_academique=Pivot Local"
-      ],
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalServiceEnLigne",
-      "id": "",
-      "value": [],
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "search",
-      "name": "searchedCity",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "reset",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Supprimer cette commune"
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "_csrf",
-      "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "idFiche",
-      "id": "",
-      "value": "F16225",
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalList",
-      "id": "",
-      "value": [
-        "mairie=Pivot Local",
-        "inspection_academique=Pivot Local"
-      ],
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalServiceEnLigne",
-      "id": "",
-      "value": [],
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "search",
-      "name": "searchedCity",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "reset",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Supprimer cette commune"
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "button",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "_csrf",
-      "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "idFiche",
-      "id": "",
-      "value": "F16225",
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalList",
-      "id": "",
-      "value": [
-        "inspection_academique=Pivot Local"
-      ],
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalServiceEnLigne",
-      "id": "",
-      "value": [],
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "search",
-      "name": "searchedCity",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "reset",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Supprimer cette commune"
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "_csrf",
-      "id": "",
-      "value": "c2aa1c8b-b1be-4d04-9403-b945a0ae0bbf",
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "hidden",
-      "name": "idFiche",
-      "id": "",
-      "value": "F16225",
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalList",
-      "id": "",
-      "value": [
-        "mairie=Pivot Local",
-        "inspection_academique=Pivot Local"
-      ],
-      "label": ""
-    },
-    {
-      "tag": "select",
-      "type": "select-multiple",
-      "name": "pivotLocalServiceEnLigne",
-      "id": "",
-      "value": [],
-      "label": ""
-    },
-    {
-      "tag": "input",
-      "type": "search",
-      "name": "searchedCity",
-      "id": "",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "reset",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Supprimer cette commune"
-    },
-    {
-      "tag": "button",
-      "type": "submit",
-      "name": "",
-      "id": "bloc-complement-aria-6-S9BT0",
-      "value": "",
-      "label": ""
-    },
-    {
-      "tag": "button",
-      "type": "submit",
-      "name": "",
-      "id": "",
-      "value": "",
-      "label": "Imprimer - En résumé : les démarches à accomplir et les points à ne pas oublier"
     },
     {
       "tag": "button",
@@ -3904,6 +1401,22 @@
       "label": ""
     },
     {
+      "tag": "input",
+      "type": "hidden",
+      "name": "satelliteQPM",
+      "id": "",
+      "value": "R194",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "satelliteQPM",
+      "id": "",
+      "value": "R11",
+      "label": ""
+    },
+    {
       "tag": "button",
       "type": "submit",
       "name": "",
@@ -3915,31 +1428,19 @@
   "calls": [
     {
       "method": "GET",
-      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16225",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17556",
       "resourceType": "document",
       "postData": null
     },
     {
       "method": "GET",
-      "url": "https://dcinfos-cache.abtasty.com/v1/ua-parser",
-      "resourceType": "fetch",
-      "postData": null
-    },
-    {
-      "method": "GET",
-      "url": "https://dcinfos-cache.abtasty.com/v1/geoip?weather=false",
-      "resourceType": "fetch",
-      "postData": null
-    },
-    {
-      "method": "GET",
-      "url": "https://try.abtasty.com/f2a27ecc441fb1662a47bee9ea97d2ea/1556318.1939358.json?031c61892a3964dcdbcc18bf047a0c43",
-      "resourceType": "fetch",
-      "postData": null
-    },
-    {
-      "method": "GET",
       "url": "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/img/logo/service-public.svg",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/img/situation/icone-travail-administration.svg",
       "resourceType": "fetch",
       "postData": null
     },
@@ -3963,50 +1464,14 @@
     },
     {
       "method": "GET",
-      "url": "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/js/recherche-guidee/templates/publicationTemplate.html",
-      "resourceType": "xhr",
+      "url": "https://dcinfos-cache.abtasty.com/v1/ua-parser",
+      "resourceType": "fetch",
       "postData": null
     },
     {
       "method": "GET",
-      "url": "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/js/recherche-guidee/templates/problematiqueTemplate.html",
-      "resourceType": "xhr",
-      "postData": null
-    },
-    {
-      "method": "GET",
-      "url": "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/js/recherche-guidee/templates/brancheTemplate.html",
-      "resourceType": "xhr",
-      "postData": null
-    },
-    {
-      "method": "GET",
-      "url": "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/js/recherche-guidee/templates/errorTemplate.html",
-      "resourceType": "xhr",
-      "postData": null
-    },
-    {
-      "method": "GET",
-      "url": "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/js/recherche-guidee/templates/seeMoreProblematiqueTemplate.html",
-      "resourceType": "xhr",
-      "postData": null
-    },
-    {
-      "method": "GET",
-      "url": "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/js/recherche-guidee/templates/aideTemplate.html",
-      "resourceType": "xhr",
-      "postData": null
-    },
-    {
-      "method": "GET",
-      "url": "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/js/recherche-guidee/templates/brancheTemplateV2.html",
-      "resourceType": "xhr",
-      "postData": null
-    },
-    {
-      "method": "GET",
-      "url": "https://www.service-public.gouv.fr/coperia/particuliers/recherche-guidee/F39260",
-      "resourceType": "xhr",
+      "url": "https://dcinfos-cache.abtasty.com/v1/geoip?weather=false",
+      "resourceType": "fetch",
       "postData": null
     }
   ]

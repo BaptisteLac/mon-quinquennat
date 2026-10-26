@@ -26,21 +26,43 @@ Annuaire
 de l’administration
 Contacter
 Service Public
-AccueilFiches pratiques par événement de vieJe recherche un emploi
+AccueilFiches pratiques par événement de vieJe déménage en France
 Ajouter à mes favoris
 Focus
 FR
  - Français
-Je recherche un emploi
+Je déménage en France
 
-Vérifié le 01 avril 2026 - Service Public / Direction de l'information légale et administrative (Premier ministre)
+Vérifié le 09 juillet 2024 - Service Public / Direction de l'information légale et administrative (Premier ministre)
 
-Lorsque je suis en recherche d'emploi, je peux dans un premier temps m'inscrire à France Travail (anciennement Pôle emploi). Ensuite, lors de ma recherche d'emploi ou lors de ma reprise d'activité, je dois accomplir différentes démarches.
+J'ai trouvé un nouveau logement et je vais bientôt déménager. Avant, mais aussi après mon déménagement, je dois faire diverses démarches auprès des organismes publics ou privés (Caf, banque et société d'assurance, fournisseur d'électricité, mairie pour voter aux élections...). Les démarches les plus urgentes concernent le logement que je quitte, la scolarité de mes enfants et le transport de tous mes meubles et documents.
 
 Quelle est votre situation ?
-Je recherche
-Un 1er emploi
-Un emploi alors que j'ai déjà travaillé (avec un contrat de travail)
+Quelle est votre situation avant le déménagement ?
+Locataire
+Propriétaire
+Où déménagez-vous ?
+Dans la même commune
+Dans une autre commune
+Quelle est votre nationalité ?
+Français
+Européen (UE)
+Étranger (autre pays)
+Un ou plusieurs enfants sont-ils concernés par le déménagement ?
+Oui
+Non
+Un ou plusieurs animaux domestiques sont-ils concernés par le déménagement ?
+Aide
+Oui
+Non
+Quelle est votre situation professionnelle ?
+Salarié du secteur privé
+Agent public
+Demandeur d'emploi
+Retraité
+Avez-vous une voiture, moto ou mobylette immatriculée ?
+Oui
+Non
 
 Vous avez choisi
 
