@@ -1,5 +1,5 @@
 {
-  "run": 10,
+  "run": 11,
   "targets": [
     {
       "id": "pa-couple",
@@ -101,6 +101,90 @@
         },
         {
           "wait": 2500
+        },
+        {
+          "fillCss": "#dateNaissance:visible",
+          "value": "01/10/1986"
+        },
+        {
+          "press": "Tab"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "label[for=idAllocationAahN]:visible"
+        },
+        {
+          "clickCss": "label[for=idSituProf4]:visible"
+        },
+        {
+          "wait": 1000
+        },
+        {
+          "fillCss": "#revenusTravailleursRevenusMoisMoins3:visible",
+          "value": "1900"
+        },
+        {
+          "fillCss": "#revenusTravailleursRevenusMoisMoins2:visible",
+          "value": "1900"
+        },
+        {
+          "fillCss": "#revenusTravailleursRevenusMoisMoins1:visible",
+          "value": "1900"
+        },
+        {
+          "fillCss": "#revenusTravailleursAutresRessourcesMoisMoins3:visible",
+          "value": "0"
+        },
+        {
+          "fillCss": "#revenusTravailleursAutresRessourcesMoisMoins2:visible",
+          "value": "0"
+        },
+        {
+          "fillCss": "#revenusTravailleursAutresRessourcesMoisMoins1:visible",
+          "value": "0"
+        },
+        {
+          "clickCss": "button[name=BCSuivant]:visible"
+        },
+        {
+          "wait": 2500
+        },
+        {
+          "fillCss": "#dateNaissance:visible",
+          "value": "01/07/2020"
+        },
+        {
+          "press": "Tab"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "button[name=BCSuivant]:visible"
+        },
+        {
+          "wait": 2500
+        },
+        {
+          "fillCss": "#dateNaissance:visible",
+          "value": "01/07/2017"
+        },
+        {
+          "press": "Tab"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "button[name=BCSuivant]:visible"
+        },
+        {
+          "wait": 2500
+        },
+        {
+          "wait": 2000
         }
       ]
     },
@@ -213,6 +297,41 @@
         },
         {
           "wait": 2500
+        },
+        {
+          "fillCss": "#dateNaissance:visible",
+          "value": "01/07/2022"
+        },
+        {
+          "press": "Tab"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "button[name=BCSuivant]:visible"
+        },
+        {
+          "wait": 2500
+        },
+        {
+          "fillCss": "#dateNaissance:visible",
+          "value": "01/07/2014"
+        },
+        {
+          "press": "Tab"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "button[name=BCSuivant]:visible"
+        },
+        {
+          "wait": 2500
+        },
+        {
+          "wait": 2000
         }
       ]
     },
@@ -308,6 +427,18 @@
           "value": "3000"
         },
         {
+          "fillCss": "#revenusMoisMoins3",
+          "value": "0"
+        },
+        {
+          "fillCss": "#revenusMoisMoins2",
+          "value": "0"
+        },
+        {
+          "fillCss": "#revenusMoisMoins1",
+          "value": "0"
+        },
+        {
           "fillCss": "#revenuPlacement",
           "value": "0"
         },
@@ -325,6 +456,18 @@
         },
         {
           "clickCss": "button[name=BCSuivant]"
+        },
+        {
+          "wait": 2500
+        },
+        {
+          "click": "Fermer"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "button[name=BCSuivant]:visible"
         },
         {
           "wait": 2500
