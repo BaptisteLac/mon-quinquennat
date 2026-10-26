@@ -1,97 +1,6 @@
 {
-  "run": 16,
+  "run": 17,
   "targets": [
-    {
-      "id": "al-celibataire",
-      "url": "https://www.caf.fr/redirect/s/redirect?page=aidesEtServicesSimuLogement",
-      "continueOnError": true,
-      "actions": [
-        {
-          "click": "Commencer"
-        },
-        {
-          "clickCss": "button:has-text(\"J'ai compris\")"
-        },
-        {
-          "fillCss": "#cpCommune",
-          "value": "69003"
-        },
-        {
-          "wait": 2500
-        },
-        {
-          "press": "ArrowDown"
-        },
-        {
-          "press": "Enter"
-        },
-        {
-          "wait": 1500
-        },
-        {
-          "clickCss": "label[for=lieuResidence_APPARTEMENT_OU_MAISON]"
-        },
-        {
-          "wait": 1500
-        },
-        {
-          "clickCss": "label[for=typeOccupation_LOCATION]"
-        },
-        {
-          "wait": 1500
-        },
-        {
-          "clickCss": "label[for=estMeuble_false]"
-        },
-        {
-          "wait": 2000
-        },
-        {
-          "fillCss": "#mttDeclare",
-          "value": "550"
-        },
-        {
-          "press": "Tab"
-        },
-        {
-          "wait": 2000
-        },
-        {
-          "clickCss": "label[for=situationFamiliale_CEL]"
-        },
-        {
-          "wait": 2000
-        },
-        {
-          "clickCss": "#SALAIRE_0_checkbox"
-        },
-        {
-          "wait": 2000
-        },
-        {
-          "fillCss": "#SALAIRE_0_montant",
-          "value": "18026"
-        },
-        {
-          "press": "Tab"
-        },
-        {
-          "wait": 1000
-        },
-        {
-          "clickCss": "label[for=sitro_0_SITPRO_ACT_INCONNUE]"
-        },
-        {
-          "wait": 1500
-        },
-        {
-          "clickCss": "#btn-suivant"
-        },
-        {
-          "wait": 4000
-        }
-      ]
-    },
     {
       "id": "al-parent-isole",
       "url": "https://www.caf.fr/redirect/s/redirect?page=aidesEtServicesSimuLogement",
@@ -192,88 +101,15 @@
         },
         {
           "wait": 4000
-        }
-      ]
-    },
-    {
-      "id": "al-independant",
-      "url": "https://www.caf.fr/redirect/s/redirect?page=aidesEtServicesSimuLogement",
-      "continueOnError": true,
-      "actions": [
-        {
-          "click": "Commencer"
         },
         {
-          "clickCss": "button:has-text(\"J'ai compris\")"
-        },
-        {
-          "fillCss": "#cpCommune",
-          "value": "75011"
-        },
-        {
-          "wait": 2500
-        },
-        {
-          "press": "ArrowDown"
-        },
-        {
-          "press": "Enter"
-        },
-        {
-          "wait": 1500
-        },
-        {
-          "clickCss": "label[for=lieuResidence_APPARTEMENT_OU_MAISON]"
-        },
-        {
-          "wait": 1500
-        },
-        {
-          "clickCss": "label[for=typeOccupation_LOCATION]"
-        },
-        {
-          "wait": 1500
-        },
-        {
-          "clickCss": "label[for=estMeuble_false]"
-        },
-        {
-          "wait": 2000
-        },
-        {
-          "fillCss": "#mttDeclare",
-          "value": "800"
-        },
-        {
-          "press": "Tab"
-        },
-        {
-          "wait": 2000
-        },
-        {
-          "clickCss": "label[for=situationFamiliale_CEL]"
-        },
-        {
-          "wait": 2000
-        },
-        {
-          "clickCss": "#REVENU_TRAVAILLEUR_INDEPENDANT_0_checkbox"
-        },
-        {
-          "wait": 2000
-        },
-        {
-          "fillCss": "#REVENU_TRAVAILLEUR_INDEPENDANT_0_montant",
-          "value": "23760"
-        },
-        {
-          "press": "Tab"
+          "clickCss": "label[for=QUESTION_AGE_MAX_0_true]"
         },
         {
           "wait": 1000
         },
         {
-          "clickCss": "label[for=sitro_0_SITPRO_ACT_INCONNUE]"
+          "clickCss": "label[for=QUESTION_AGE_MAX_1_true]"
         },
         {
           "wait": 1500

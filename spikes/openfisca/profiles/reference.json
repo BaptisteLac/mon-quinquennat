@@ -31,8 +31,8 @@
           "source": "Simulateur prime d'activité de la CAF (wwwd.caf.fr/wps/portal/caffr/simulateurpa), rempli automatiquement depuis GitHub Actions le 2026-10-26 (run 40307820043) : « le montant de votre Prime d'activité est estimé à : 234 € / mois ». Saisie : seul, sans enfant, locataire, aucune aide au logement, salariée, 1 450 € net social par mois sur les 3 derniers mois. Preuve : profiles/preuves/celibataire-smic-locataire-prime-activite-caf.{txt,png}"
         },
         "aides_logement": {
-          "montant": null,
-          "source": "a_caler_pendant_le_test"
+          "montant": 0,
+          "source": "Simulateur des aides au logement de la CAF (caf.fr, « Faire une simulation > Le logement »), rempli automatiquement depuis GitHub Actions le 2026-10-26 (run 40314324971) : « Selon les informations fournies, vous ne pouvez pas bénéficier de l'aide au logement ». Saisie : 69003 Lyon, appartement en location non meublée, loyer 550 € hors charges, seule, sans enfant, 18 026 € de salaires nets imposables sur les 12 derniers mois (salaire imposable calculé par OpenFisca pour 1 450 € net par mois), « dans une autre situation ». Preuve : profiles/preuves/celibataire-smic-locataire-aides-logement-caf.{txt,png}"
         },
         "allocations_familiales": {
           "montant": 0,
@@ -196,8 +196,8 @@
           "source": "Simulateur prime d'activité de la CAF (wwwd.caf.fr/wps/portal/caffr/simulateurpa), rempli automatiquement depuis GitHub Actions le 2026-10-26 (run 40310019775) : « le montant de votre Prime d'activité est estimé à : 83 € / mois ». Saisie : seul, sans enfant, locataire, aucune aide au logement (OpenFisca n'en calcule pas pour ce profil), auto-entrepreneur, profession libérale, 3 000 € de chiffre d'affaires brut par mois sur les 3 derniers mois, aucun salaire. Preuve : profiles/preuves/independant-micro-bnc-prime-activite-caf.{txt,png}"
         },
         "aides_logement": {
-          "montant": null,
-          "source": "a_caler_pendant_le_test"
+          "montant": 0,
+          "source": "Simulateur des aides au logement de la CAF (caf.fr, « Faire une simulation > Le logement »), rempli automatiquement depuis GitHub Actions le 2026-10-26 (run 40314324971) : « Selon les informations fournies, vous ne pouvez pas bénéficier de l'aide au logement ». Saisie : 75011 Paris, appartement en location non meublée, loyer 800 € hors charges, seul, sans enfant, 23 760 € de revenu de travailleur indépendant (36 000 € de chiffre d'affaires moins l'abattement de 34 % des professions libérales, comme le demande le simulateur), « dans une autre situation ». Preuve : profiles/preuves/independant-micro-bnc-aides-logement-caf.{txt,png}"
         },
         "allocations_familiales": {
           "montant": 0,
