@@ -1,8 +1,8 @@
 {
-  "run": 14,
+  "run": 15,
   "targets": [
     {
-      "id": "caf-logement",
+      "id": "al-celibataire",
       "url": "https://www.caf.fr/redirect/s/redirect?page=aidesEtServicesSimuLogement",
       "continueOnError": true,
       "actions": [
@@ -58,6 +58,162 @@
         },
         {
           "clickCss": "label[for=situationFamiliale_CEL]"
+        },
+        {
+          "wait": 2000
+        },
+        {
+          "clickCss": "#SALAIRE_0_checkbox"
+        },
+        {
+          "wait": 2000
+        }
+      ]
+    },
+    {
+      "id": "al-parent-isole",
+      "url": "https://www.caf.fr/redirect/s/redirect?page=aidesEtServicesSimuLogement",
+      "continueOnError": true,
+      "actions": [
+        {
+          "click": "Commencer"
+        },
+        {
+          "clickCss": "button:has-text(\"J'ai compris\")"
+        },
+        {
+          "fillCss": "#cpCommune",
+          "value": "36000"
+        },
+        {
+          "wait": 2500
+        },
+        {
+          "press": "ArrowDown"
+        },
+        {
+          "press": "Enter"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "label[for=lieuResidence_APPARTEMENT_OU_MAISON]"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "label[for=typeOccupation_LOCATION]"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "label[for=estMeuble_false]"
+        },
+        {
+          "wait": 2000
+        },
+        {
+          "fillCss": "#mttDeclare",
+          "value": "450"
+        },
+        {
+          "press": "Tab"
+        },
+        {
+          "wait": 2000
+        },
+        {
+          "clickCss": "label[for=situationFamiliale_CEL]"
+        },
+        {
+          "wait": 2000
+        },
+        {
+          "clickCss": "button[title='ajouter un enfant']"
+        },
+        {
+          "wait": 1000
+        },
+        {
+          "clickCss": "button[title='ajouter un enfant']"
+        },
+        {
+          "wait": 1000
+        },
+        {
+          "clickCss": "#SALAIRE_0_checkbox"
+        },
+        {
+          "wait": 2000
+        }
+      ]
+    },
+    {
+      "id": "al-independant",
+      "url": "https://www.caf.fr/redirect/s/redirect?page=aidesEtServicesSimuLogement",
+      "continueOnError": true,
+      "actions": [
+        {
+          "click": "Commencer"
+        },
+        {
+          "clickCss": "button:has-text(\"J'ai compris\")"
+        },
+        {
+          "fillCss": "#cpCommune",
+          "value": "75011"
+        },
+        {
+          "wait": 2500
+        },
+        {
+          "press": "ArrowDown"
+        },
+        {
+          "press": "Enter"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "label[for=lieuResidence_APPARTEMENT_OU_MAISON]"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "label[for=typeOccupation_LOCATION]"
+        },
+        {
+          "wait": 1500
+        },
+        {
+          "clickCss": "label[for=estMeuble_false]"
+        },
+        {
+          "wait": 2000
+        },
+        {
+          "fillCss": "#mttDeclare",
+          "value": "800"
+        },
+        {
+          "press": "Tab"
+        },
+        {
+          "wait": 2000
+        },
+        {
+          "clickCss": "label[for=situationFamiliale_CEL]"
+        },
+        {
+          "wait": 2000
+        },
+        {
+          "clickCss": "#REVENU_TRAVAILLEUR_INDEPENDANT_0_checkbox"
         },
         {
           "wait": 2000
