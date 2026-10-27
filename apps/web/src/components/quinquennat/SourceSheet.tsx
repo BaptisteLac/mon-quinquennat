@@ -153,6 +153,13 @@ export function SourceSheet({ target, catalog, profile, onClose }: { target: She
                         {m.schedule.dateOrigin === "annoncee"
                           ? `Date d'effet annoncée par le programme : ${formatMonth(m.schedule.effectiveDate).toLowerCase()}.`
                           : `Date d'effet estimée (${formatMonth(m.schedule.effectiveDate).toLowerCase()}) : ${m.schedule.estimationRule ?? "date non annoncée"}.`}
+                        {/* Pas de lien pour le mystère : la page de signalement nommerait le candidat. */}
+                        {target.mystery ? null : (
+                          <>
+                            {" "}
+                            <Link href={`/signaler?mesure=${m.id}`}>Signaler une erreur</Link>
+                          </>
+                        )}
                       </span>
                     ))}
                   </div>

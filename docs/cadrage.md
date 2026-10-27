@@ -46,7 +46,7 @@ Hypothèse de simulation : l'utilisateur est un électeur français (aucune ques
    4. relecture du sens : seconde lecture qui compare chaque résumé à sa citation. Le verdict est lié à une empreinte du contenu relu : toute modification ultérieure de la mesure l'annule et la renvoie en relecture. En cas d'écart entre le programme et une autre page officielle, le programme fait foi et l'élément contradictoire est retiré ; si le programme ne tranche pas et que les autres pages se contredisent, seul ce qu'elles ont en commun est publié, sans préciser le point contesté.
    Facultatifs, si le score s'avère insuffisant : relecture croisée par un modèle d'un autre fournisseur, double extraction, vraisemblance sur profils de référence, neutralité.
 5. **Score de confiance et routage** : chaque mesure reçoit un score (part des contrôles passés). Au-dessus du seuil fixé → publication automatique ; en dessous → « en attente » (issue GitHub, traitée par commentaire : `/approuver`, `/rejeter raison`, `/corriger taux=0.09`). Le seuil se fixe sur la répartition réelle des scores.
-6. **Qualité** : audit hebdomadaire d'un échantillon ; le taux d'erreur mesuré est affiché sur la page Méthode. Chaque correction et chaque signalement d'utilisateur devient un cas de test.
+6. **Qualité** : bilan de chaque programme sur des échantillons tirés au sort (`npm run evaluate`, `data/evaluations/<corpus>/bilan.json`, schéma `EvaluationSummary`) ; le taux d'erreur mesuré est affiché sur la page Méthode. Un audit régulier pourra s'y ajouter. Chaque correction et chaque signalement d'utilisateur (issue « signalement ») devient un cas de test.
 
 ## Calcul
 - OpenFisca pour les barèmes (impôt, prestations, cotisations), vérifié sur 20 à 30 profils de référence contrôlés avec les simulateurs officiels.
@@ -69,7 +69,7 @@ Hypothèse de simulation : l'utilisateur est un électeur français (aucune ques
 ## Juridique (à vérifier avant lancement)
 - [ ] Droit de citation : extraits courts, source et lien systématiques
 - [ ] Droits des photos des candidats
-- [ ] Mentions légales et page Méthode (dont limites et taux d'erreur)
+- [ ] Mentions légales et page Méthode (dont limites et taux d'erreur) : pages en place, éditeur et hébergeurs à renseigner
 - [ ] Règles applicables en période électorale (neutralité, pas de sondage)
 - [ ] RGPD : aucune donnée personnelle côté serveur, à documenter
 

@@ -39,9 +39,9 @@ Lecteur : Claude (session Claude Code, 2026-10-26), relecture de chaque fiche co
 - m-55ecac48c641 : sens correct, paramètres faux — Date d'effet par défaut (1er janvier 2028, « date non annoncée ») alors que le programme annonce « Le premier jour » et « le jour même ».
 
 ## Coût d'une extraction par l'API (estimation ≈)
-Volumes réels : corpus 677 737 caractères (203 pages), sorties d'extraction 295 444 caractères, 260 mesures. Hypothèses : ≈ 3 caractères par jeton ; deux extractions indépendantes (A et B), chaque page envoyée avec le prompt `extract-v1` ; relecture croisée de chaque mesure (`crosscheck-v1`, ≈ 200 jetons de sortie) ; tarifs de `src/cost.ts` (USD par million de jetons), sans cache.
+Volumes réels : corpus 677 737 caractères (203 pages), sorties d'extraction 296 075 caractères, 260 mesures. Hypothèses : ≈ 3 caractères par jeton ; deux extractions indépendantes (A et B), chaque page envoyée avec le prompt `extract-v1` ; relecture croisée de chaque mesure (`crosscheck-v1`, ≈ 200 jetons de sortie) ; tarifs de `src/cost.ts` (USD par million de jetons), sans cache.
 
 | Modèle | Coût par programme | Avec l'API Batch (−50 %) |
 |---|---|---|
-| claude-sonnet-5-5 | 5.11 $ | 2.55 $ |
-| claude-opus-5-5 | 10.22 $ | 5.11 $ |
+| claude-sonnet-5-5 | 5.11 $ | 2.56 $ |
+| claude-opus-5-5 | 10.23 $ | 5.11 $ |

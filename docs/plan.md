@@ -56,12 +56,16 @@ Point de départ : les deux tests de faisabilité ont leur feu vert (2026-10-26)
 - Livré : `/recap`, ticket « Ma vie en 2032 » (`src/components/ticket/`), partage par lien signé `/t/<lien>` avec ses images (aperçu, story, carré), mystère à gratter ou à deviner, fin de frise et reprise menant au ticket.
 - Reste : `SHARE_SECRET` et `SITE_URL` à définir chez l'hébergeur (jalon 6) ; QR code et dates des tours quand ils existeront.
 
-### Jalon 5 — Pages autour et contenu (en cours)
+### Jalon 5 — Pages autour et contenu (livré)
 - `M1-methode` (taux d'erreur mesuré, limites, bilan du test n°1), mentions légales, signalement d'erreur.
 - Programmes : chaque nouveau programme passe par collecte → extraction → bilan (`npm run evaluate`).
+- Livré : `/methode` lue dans les données (contrôles réellement passés, bilans `bilan.json`, taux d'erreur avec intervalle de confiance), `/signaler` (issue GitHub par le serveur ou lien pré-rempli), `/mentions-legales`, liens du pied de page, « Effacer ma partie ».
+- Reste : éditeur et hébergeurs dans `data/mentions-legales.json`, `SIGNALEMENT_GITHUB_TOKEN` chez l'hébergeur (jalon 6).
 
 ### Jalon 6 — Mise en ligne
 - Hébergement, domaine, audience sans cookie, accessibilité (contrastes, clavier, lecteurs d'écran), performance mobile.
+- Variables chez l'hébergeur : `CALC_URL`, `SHARE_SECRET`, `SITE_URL`, `SIGNALEMENT_GITHUB_TOKEN` (jeton GitHub limité aux issues du dépôt) ; limitation de débit sur `/api/ticket` et `/api/signalement`.
+- `data/mentions-legales.json` rempli (éditeur, hébergeurs) : sans lui, le site public ne se construit pas.
 - Juridique (`docs/cadrage.md`) : droit de citation, photos des candidats, période électorale, RGPD.
 
 ### Après le 1er tour

@@ -86,6 +86,9 @@ export default function HomePage() {
             <b>Chaque chiffre</b> s&apos;ouvre sur sa source : la citation exacte et la page du programme.
           </li>
         </ul>
+        <Link href="/methode" className={styles.methodLink}>
+          Lire la méthode complète
+        </Link>
       </section>
 
       <section className={styles.sectionTight}>
