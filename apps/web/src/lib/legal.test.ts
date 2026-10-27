@@ -13,6 +13,10 @@ describe("mentions légales", () => {
     expect(() => loadLegalInfo(dataDir())).not.toThrow();
   });
 
+  it("accepte un éditeur particulier sans contact public", () => {
+    expect(missingLegalInfo({ ...complete, editeur: { nom: "Particulier, non professionnel" } })).toEqual([]);
+  });
+
   it("liste ce qui manque", () => {
     expect(missingLegalInfo(empty)).toEqual(["éditeur", "hébergeur"]);
     expect(missingLegalInfo(complete)).toEqual([]);

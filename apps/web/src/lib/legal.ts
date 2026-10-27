@@ -10,10 +10,12 @@ import { z } from "zod";
 export const LegalInfo = z.object({
   editeur: z
     .object({
-      /** Nom de la personne ou de l'organisme, ou mention d'un particulier non professionnel (LCEN, art. 6). */
+      /** Nom de la personne ou de l'organisme, ou « Particulier, non professionnel » (LCEN). */
       nom: z.string().min(1),
-      /** Adresse électronique ou formulaire de contact. */
-      contact: z.string().min(1),
+      /** Précision affichée sous le nom (ex. identité communiquée à l'hébergeur). */
+      mention: z.string().min(1).optional(),
+      /** Adresse électronique ou formulaire de contact ; facultatif pour un particulier non professionnel. */
+      contact: z.string().min(1).optional(),
       directeurPublication: z.string().min(1).optional(),
     })
     .nullable(),

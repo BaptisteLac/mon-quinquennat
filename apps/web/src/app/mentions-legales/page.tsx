@@ -31,8 +31,18 @@ export default function MentionsLegalesPage() {
             <h2 id="editeur">Éditeur</h2>
             <p>
               {info.editeur.nom}
-              <br />
-              Contact : {info.editeur.contact}
+              {info.editeur.mention ? (
+                <>
+                  <br />
+                  {info.editeur.mention}
+                </>
+              ) : null}
+              {info.editeur.contact ? (
+                <>
+                  <br />
+                  Contact : {info.editeur.contact}
+                </>
+              ) : null}
               {info.editeur.directeurPublication ? (
                 <>
                   <br />

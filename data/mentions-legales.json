@@ -1,4 +1,7 @@
 {
-  "editeur": null,
+  "editeur": {
+    "nom": "Particulier, non professionnel",
+    "mention": "Conformément à la loi pour la confiance dans l'économie numérique (LCEN), son identité est communiquée à l'hébergeur du site, dont les coordonnées figurent ci-dessous."
+  },
   "hebergeurs": []
 }
