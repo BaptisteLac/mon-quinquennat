@@ -1,53 +1,35 @@
 {
-  "run": 21,
+  "run": 22,
   "targets": [
     {
-      "id": "prix-scaleway",
-      "url": "https://www.scaleway.com/fr/tarifs/serverless/",
+      "id": "sp-situation-electorale",
+      "url": "https://www.service-public.gouv.fr/particuliers/recherche?keyword=situation%20%C3%A9lectorale",
       "waitUntil": "networkidle",
       "continueOnError": true,
       "actions": [
         {
           "wait": 3000
         }
-      ]
+      ],
+      "follow": "situation [ée]lectorale|bureau de vote|listes [ée]lectorales",
+      "maxFollow": 4
     },
     {
-      "id": "prix-scaleway-doc",
-      "url": "https://www.scaleway.com/en/docs/serverless/containers/reference-content/containers-billing/",
+      "id": "sp-procuration",
+      "url": "https://www.service-public.gouv.fr/particuliers/recherche?keyword=procuration%20vote",
       "waitUntil": "networkidle",
       "continueOnError": true,
       "actions": [
         {
           "wait": 3000
         }
-      ]
+      ],
+      "follow": "procuration",
+      "maxFollow": 3
     },
     {
-      "id": "prix-flyio",
-      "url": "https://fly.io/docs/about/pricing/",
-      "waitUntil": "networkidle",
-      "continueOnError": true,
-      "actions": [
-        {
-          "wait": 3000
-        }
-      ]
-    },
-    {
-      "id": "prix-cloudrun",
-      "url": "https://cloud.google.com/run/pricing?hl=fr",
-      "waitUntil": "networkidle",
-      "continueOnError": true,
-      "actions": [
-        {
-          "wait": 3000
-        }
-      ]
-    },
-    {
-      "id": "prix-clevercloud",
-      "url": "https://www.clever.cloud/pricing/",
+      "id": "maprocuration",
+      "url": "https://www.maprocuration.gouv.fr/",
       "waitUntil": "networkidle",
       "continueOnError": true,
       "actions": [
