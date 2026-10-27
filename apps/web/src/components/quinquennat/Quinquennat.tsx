@@ -12,7 +12,10 @@ import { CalcScreen } from "./CalcScreen";
 import { ErrorScreen } from "./ErrorScreen";
 import { Frise, type LaneView } from "./Frise";
 
-const TicketResponse = z.object({ tickets: z.array(Ticket) });
+const TicketResponse = z.object({
+  tickets: z.array(Ticket),
+  partage: z.object({ tickets: z.record(z.string(), z.string()), profil: z.string(), signatureProfil: z.string() }).optional(),
+});
 const ErrorResponse = z.object({ erreur: z.string(), message: z.string() });
 
 type Phase = { kind: "calcul" } | { kind: "erreur"; type: "reseau" | "hors_champ"; message: string } | { kind: "frise"; tickets: Ticket[] };
@@ -62,8 +65,12 @@ export function Quinquennat({ programmes, measureCount }: { programmes: readonly
           setPhase({ kind: "erreur", type: res.status === 422 ? "hors_champ" : "reseau", message: err.success ? err.data.message : "" });
           return;
         }
-        const { tickets } = TicketResponse.parse(body);
-        update((j) => ({ ...j, resultat: { profileKey: profileKey(profile), versions, tickets, calculeLe: new Date().toISOString() } }));
+        const { tickets, partage } = TicketResponse.parse(body);
+        update((j) => ({
+          ...j,
+          resultat: { profileKey: profileKey(profile), versions, tickets, calculeLe: new Date().toISOString(), ...(partage ? { partage } : {}) },
+          recap: undefined,
+        }));
         setPhase({ kind: "frise", tickets });
       } catch {
         if (!cancelled) setPhase({ kind: "erreur", type: "reseau", message: "" });

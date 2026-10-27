@@ -5,6 +5,7 @@
  */
 import { avatarAgeBand, Profile, Ticket } from "@mon-quinquennat/schema";
 import { z } from "zod";
+import { canonical } from "./canonical";
 
 export const ProfileDraft = Profile.deepPartial();
 export type ProfileDraft = z.infer<typeof ProfileDraft>;
@@ -32,8 +33,17 @@ export const Journey = z.object({
   commune: z.object({ codePostal: z.string().regex(/^\d{5}$/), nom: z.string() }).optional(),
   /** Tickets calculés pour ce profil et ces versions de programmes : pas de nouveau calcul au retour. */
   resultat: z
-    .object({ profileKey: z.string(), versions: z.record(z.string(), z.string()), tickets: z.array(Ticket), calculeLe: z.string().datetime() })
+    .object({
+      profileKey: z.string(),
+      versions: z.record(z.string(), z.string()),
+      tickets: z.array(Ticket),
+      calculeLe: z.string().datetime(),
+      /** Signatures du serveur, nécessaires pour partager un ticket par lien (absentes si le partage n'est pas configuré). */
+      partage: z.object({ tickets: z.record(z.string(), z.string()), profil: z.string(), signatureProfil: z.string() }).optional(),
+    })
     .optional(),
+  /** Récap : mystère révélé, et le candidat deviné s'il y en a eu un. */
+  recap: z.object({ revele: z.boolean(), devine: z.string().nullable() }).optional(),
   /** Mois de la frise où l'utilisateur s'est arrêté (« Tu en étais à septembre 2029 »). */
   frise: z.object({ month: z.string().regex(/^\d{4}-\d{2}$/) }).optional(),
 });
@@ -156,16 +166,6 @@ export function profileKey(p: Profile): string {
   return canonical(p);
 }
 
-/** JSON aux clés triées à tous les niveaux. */
-function canonical(v: unknown): string {
-  if (Array.isArray(v)) return `[${v.map(canonical).join(",")}]`;
-  if (v !== null && typeof v === "object") {
-    const entries = Object.entries(v as Record<string, unknown>).filter(([, x]) => x !== undefined);
-    return `{${entries.sort(([a], [b]) => a.localeCompare(b)).map(([k, x]) => `${JSON.stringify(k)}:${canonical(x)}`).join(",")}}`;
-  }
-  return JSON.stringify(v);
-}
-
 /** Résultat enregistré encore valable pour ce profil et ces versions de programmes. */
 export function freshResult(j: Journey, profile: Profile, versions: Readonly<Record<string, string>>): Ticket[] | null {
   const r = j.resultat;
@@ -245,6 +245,32 @@ export function describeProfile(p: ProfileDraft): string {
     parts.push(inflect(p.genre, m, f, n));
   }
   return parts.join(", ");
+}
+
+const LOGEMENT_WORDS: Record<Profile["logement"], string> = {
+  locataire_prive: "locataire",
+  locataire_hlm: "locataire HLM",
+  proprio_credit: "propriétaire",
+  proprio_sans_credit: "propriétaire",
+  heberge: "hébergé·e",
+};
+const LIEU_WORDS: Record<Profile["lieuDeVie"], string> = {
+  grande_ville: "grande ville",
+  ville_moyenne: "ville moyenne",
+  peripherie: "périphérie",
+  rural: "rural",
+  outre_mer: "outre-mer",
+};
+const MOBILITE_WORDS: Record<Profile["mobilite"], string> = {
+  voiture_thermique: "voiture",
+  voiture_electrique: "voiture électrique",
+  transports: "transports en commun",
+  velo_pied: "vélo ou à pied",
+};
+
+/** Ligne de profil du ticket : « 34 ans · mariée ou pacsée · 2 enfants · salariée · locataire · périphérie · voiture ». */
+export function profileLine(p: Profile): string {
+  return [...describeProfile(p).split(", "), LOGEMENT_WORDS[p.logement], LIEU_WORDS[p.lieuDeVie], MOBILITE_WORDS[p.mobilite]].join(" · ");
 }
 
 export { avatarAgeBand };

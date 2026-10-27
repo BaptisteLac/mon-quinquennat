@@ -10,6 +10,8 @@ const config: NextConfig = {
   outputFileTracingRoot: repoRoot,
   turbopack: { root: repoRoot },
   poweredByHeader: false,
+  // Polices des images de partage, lues à l'exécution.
+  outputFileTracingIncludes: { "/t/[payload]/image": ["./assets/fonts/*.woff"] },
 };
 
 export default config;

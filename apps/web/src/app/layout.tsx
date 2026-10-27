@@ -12,6 +12,8 @@ import "@fontsource/dm-mono/500.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  // Adresse publique du site (images d'aperçu des liens partagés) ; fixée à la mise en ligne.
+  metadataBase: new URL(process.env.SITE_URL ?? "http://localhost:3000"),
   title: { default: "Mon quinquennat · Ma vie en 2032", template: "%s · Mon quinquennat" },
   description:
     "Vis 2027–2032 avec les programmes officiels des candidats à la présidentielle : ce qui change pour toi, chiffre par chiffre, chaque chiffre relié à sa source.",

@@ -93,6 +93,11 @@ export function ResumeSheet({ versions }: { versions: Readonly<Record<string, st
       <Link href={STEP_ROUTES[step]} className={styles.primary}>
         Reprendre où j&apos;en étais
       </Link>
+      {step === "frise" && journey.resultat ? (
+        <Link href="/recap" className={styles.secondary}>
+          Voir mon ticket
+        </Link>
+      ) : null}
       <Link
         href="/personnage"
         className={styles.secondary}
