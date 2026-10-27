@@ -8,6 +8,8 @@
 import { Profile } from "@mon-quinquennat/schema";
 import { z } from "zod";
 import { getProgrammes } from "@/lib/data";
+import { profileLine } from "@/lib/journey";
+import { shareSecret, signProfileLine, signTicket } from "@/lib/share-sign";
 import { buildTicket, corpusMismatch } from "@/lib/ticket/build";
 import { CalcError, fetchCalcul } from "@/lib/ticket/calc-client";
 
@@ -39,5 +41,16 @@ export async function POST(request: Request): Promise<Response> {
   }
 
   const tickets = programmes.map((p) => buildTicket(p, body.data.profile, calc));
-  return Response.json({ tickets }, { headers: NO_STORE });
+  // Signatures pour le partage par lien : le serveur atteste ces tickets sans rien garder.
+  const secret = shareSecret();
+  const corpus = new Map(programmes.map((p) => [p.candidate.id, p.corpusId]));
+  const ligne = profileLine(body.data.profile);
+  const partage = secret
+    ? {
+        tickets: Object.fromEntries(tickets.map((t) => [t.candidateId, signTicket(secret, t, corpus.get(t.candidateId) ?? "")])),
+        profil: ligne,
+        signatureProfil: signProfileLine(secret, ligne),
+      }
+    : undefined;
+  return Response.json({ tickets, partage }, { headers: NO_STORE });
 }

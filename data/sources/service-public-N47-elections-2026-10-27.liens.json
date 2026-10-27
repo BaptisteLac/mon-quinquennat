@@ -1,0 +1,423 @@
+{
+  "page": "https://www.service-public.gouv.fr/particuliers/vosdroits/N47",
+  "titre": "Élections | Service Public",
+  "releveLe": "2026-10-27",
+  "liens": [
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N47#main",
+      "text": "Contenu"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N47#header-navigation",
+      "text": "Menu"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N47#header-search-main",
+      "text": "Recherche"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N47#footer",
+      "text": "Pied de page"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14128",
+      "text": "Je déménage"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17556",
+      "text": "Je cherche un emploi"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16225",
+      "text": "Je deviens parent"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16123",
+      "text": "Je veux obtenir un crédit immobilier"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15913",
+      "text": "J'achète un logement"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17904",
+      "text": "Je prépare ma retraite"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16507",
+      "text": "Un proche est décédé"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/comment-faire-si",
+      "text": "Voir tous les événements de vie"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19810",
+      "text": "Papiers - Citoyenneté - Élections"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19805",
+      "text": "Famille - Scolarité"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19811",
+      "text": "Social - Santé"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19806",
+      "text": "Travail - Formation"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19808",
+      "text": "Logement"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19812",
+      "text": "Transports - Mobilité"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19803",
+      "text": "Argent - Impôts - Consommation"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/theme",
+      "text": "Voir tous les thèmes"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N32475",
+      "text": "Aides financières"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19810",
+      "text": "Papiers - Citoyenneté - Élections"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N47",
+      "text": "FR - Français"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N47?lang=en",
+      "text": "EN - English"
+    },
+    {
+      "href": "https://www.facebook.com/sharer/sharer.php?u=https://www.service-public.gouv.fr/particuliers/vosdroits/N47",
+      "text": "Facebook"
+    },
+    {
+      "href": "https://x.com/intent/tweet?text=%C3%89lections&url=https://www.service-public.gouv.fr/particuliers/vosdroits/N47",
+      "text": "X"
+    },
+    {
+      "href": "https://www.linkedin.com/shareArticle?mini=true&url=https://www.service-public.gouv.fr/particuliers/vosdroits/N47&title=%C3%89lections",
+      "text": "Linkedin"
+    },
+    {
+      "href": "mailto:%20?subject=Service%20Public%20-%20%C3%89lections&body=Bonjour,%0D%0A%0D%0ACette%20information%20de%20Service%20Public%20vous%20est%20conseill%C3%A9e%20:%20%0D%0A%0D%0A%C3%89lections%0D%0A%0D%0Ahttps%3A%2F%2Fwww.service-public.gouv.fr%2Fparticuliers%2Fvosdroits%2FN47",
+      "text": "Courriel"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1961",
+      "text": "Inscription d'office à 18 ans"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1367",
+      "text": "Première inscription"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1372",
+      "text": "En cas de déménagement"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1937",
+      "text": "Inscription d'un citoyen européen"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34778",
+      "text": "Inscription d'une personne devenue française"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1361",
+      "text": "Papiers d'identité pour voter"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1962",
+      "text": "Carte électorale"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16828",
+      "text": "Déroulement du scrutin"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1604",
+      "text": "Vote par procuration"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16904",
+      "text": "Vote d'un Français de l'étranger"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1940",
+      "text": "Présidentielle"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1943",
+      "text": "Législatives"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1944",
+      "text": "Européennes"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1952",
+      "text": "Municipales"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1958",
+      "text": "Départementales - Régionales"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1964",
+      "text": "Referendum"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51788",
+      "text": "Vérifier votre inscription électorale et votre bureau de vote"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R63206",
+      "text": "Nouvelle-Calédonie : vérifier son inscription sur la liste électorale et son bureau de vote"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16396",
+      "text": "Demande d'inscription en ligne sur les listes électorales"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16024",
+      "text": "Demande d'inscription sur les listes électorales"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R12675",
+      "text": "Voter par procuration"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R45584",
+      "text": "Déclaration de situation patrimoniale"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58784",
+      "text": "Déclaration de candidature aux élections départementales - Formulaire à remplir par chaque membre du binôme de candidats"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58785",
+      "text": "Déclaration de candidature aux élections départementales - Formulaire à remplir par chaque remplaçant"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58786",
+      "text": "Déclaration de candidature aux élections régionales - Formulaire à remplir par chaque candidat de la liste"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58787",
+      "text": "Déclaration de candidature aux élections régionales - Formulaire à remplir par le candidat tête de liste ou son mandataire"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R34318",
+      "text": "Déclaration de candidature aux élections municipales et communautaires"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R34320",
+      "text": "Déclaration de candidature de liste aux élections municipales et communautaires"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R54621",
+      "text": "Déclaration de candidature - Conseil de la Métropole de Lyon"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R54622",
+      "text": "Déclaration de candidature - Conseil de la métropole de Lyon - À remplir par le candidat tête de liste"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R55462",
+      "text": "Déclaration de candidature aux élections municipales pour les communes de 1 000 habitants et plus composées de communes associées de la Polynésie française"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R55463",
+      "text": "Déclaration de candidature de liste - Élections municipales pour les communes de 1000 habitants et plus composées de communes associées de la Polynésie française"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74934",
+      "text": "Déclaration de candidature de liste aux élections pour le conseil d'arrondissement ou de secteur à Paris, Lyon et Marseille"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74935",
+      "text": "Déclaration de candidature pour les communes de moins de 1 000 habitants de la Polynésie Française"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74936",
+      "text": "Déclaration de candidature aux élections pour le Conseil d'arrondissement ou de secteur à Paris, Lyon et Marseille"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R55617",
+      "text": "Modèles de déclaration et de retrait de candidature pour l'élection des conseillers des Français de l'étranger et des délégués consulaires"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17596",
+      "text": "Déclaration de candidature aux élections européennes (à remplir par chaque candidat)"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R38133",
+      "text": "Déclaration de candidature aux élections sénatoriales (départements et collectivités élisant leurs sénateurs au scrutin majoritaire) - À remplir par chaque remplaçant"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R38131",
+      "text": "Déclaration de candidature aux élections sénatoriales (départements et collectivités élisant leurs sénateurs au scrutin majoritaire) - À remplir par chaque candidat"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R38127",
+      "text": "Déclaration de candidature aux élections sénatoriales (départements et collectivités élisant leurs sénateurs à la représentation proportionnelle) - À remplir par chaque candidat"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R57071",
+      "text": "Déclaration de candidature aux élections législatives"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R55153",
+      "text": "Liste électorale : saisir le juge en cas de refus d'inscription ou de radiation par le maire"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R55504",
+      "text": "Liste électorale : saisir le juge en cas d'omission ou de radiation par la commission administrative"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R55236",
+      "text": "Contestation de la liste électorale par un tiers"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R55190",
+      "text": "Procuration - Consultation Nouvelle-Calédonie : accès à la pleine souveraineté"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1939",
+      "text": "Quelles sont les dates des prochaines élections ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34687",
+      "text": "Liste électorale, bureau de vote... : comment vérifier son inscription ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34779",
+      "text": "S'inscrire sur les listes électorales : avec quel justificatif d'identité ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1965",
+      "text": "S'inscrire sur la liste électorale en mairie : quel justificatif de domicile ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34780",
+      "text": "S'inscrire sur une liste électorale consulaire : quel justificatif de domicile ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F36433",
+      "text": "Vote d'un citoyen européen aux élections en France : quel justificatif de domicile pour s'inscrire ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35316",
+      "text": "Que doit faire un électeur chargé d'une procuration de vote ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35789",
+      "text": "Moins de 26 ans : dans quel cas faut-il s'inscrire pour voter ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1227",
+      "text": "Une personne détenue en prison a-t-elle le droit de voter ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35790",
+      "text": "Militaire, marinier, forain, gens du voyage, sans domicile fixe : où s'inscrire pour voter ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34240",
+      "text": "Élections : peut-on s'inscrire sur la liste électorale d'une mairie et voter la même année ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35050",
+      "text": "Élections : peut-on s'inscrire sur une liste électorale consulaire et voter la même année ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32888",
+      "text": "Un électeur peut-il demander sa radiation des listes électorales ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15748",
+      "text": "Peut-on voter sans avoir signalé son déménagement ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34809",
+      "text": "Que faire en cas de refus d'inscription ou de radiation de la liste électorale par le maire ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11257",
+      "text": "Peut-on voter par internet ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1963",
+      "text": "Un électeur peut-il consulter les listes électorales ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13277",
+      "text": "Qu'est-ce qu'une cérémonie de citoyenneté et de remise des cartes électorales ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19810",
+      "text": "Papiers - Citoyenneté - Élections"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19805",
+      "text": "Famille - Scolarité"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19811",
+      "text": "Social - Santé"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19806",
+      "text": "Travail - Formation"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19808",
+      "text": "Logement"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19812",
+      "text": "Transports - Mobilité"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19803",
+      "text": "Argent - Impôts - Consommation"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19807",
+      "text": "Justice"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19804",
+      "text": "Étranger - Europe"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19809",
+      "text": "Loisirs - Sports - Culture"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N31931",
+      "text": "Associations, fondations et fonds de dotation"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33683",
+      "text": "Allo Service Public"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N47#",
+      "text": "Gestion des cookies"
+    }
+  ]
+}

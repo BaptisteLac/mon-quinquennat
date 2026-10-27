@@ -51,10 +51,12 @@ Point de départ : les deux tests de faisabilité ont leur feu vert (2026-10-26)
 - Livré : `/quinquennat` (calcul, erreur, frise, fiche source), `/programme/<candidat>/<mesure>` (fiche de chaque mesure), catalogue statique des mesures, tickets gardés sur l'appareil, reprise dans la frise. `T0-vide` (ticket vide) passe au jalon 4 avec le ticket.
 - Reste : étapes de vie dans la frise (rentrée d'un enfant, retraite).
 
-### Jalon 4 — Récap et partage (en cours)
+### Jalon 4 — Récap et partage (livré)
 - `R1` à `R7`, `D-fiche` (tickets), `T0-vide`, `R2b`/`R5` (mystère), `P1-partage`, `OG1` (image OG), `E0c-lien` (arrivée par lien).
+- Livré : `/recap`, ticket « Ma vie en 2032 » (`src/components/ticket/`), partage par lien signé `/t/<lien>` avec ses images (aperçu, story, carré), mystère à gratter ou à deviner, fin de frise et reprise menant au ticket.
+- Reste : `SHARE_SECRET` et `SITE_URL` à définir chez l'hébergeur (jalon 6) ; QR code et dates des tours quand ils existeront.
 
-### Jalon 5 — Pages autour et contenu
+### Jalon 5 — Pages autour et contenu (en cours)
 - `M1-methode` (taux d'erreur mesuré, limites, bilan du test n°1), mentions légales, signalement d'erreur.
 - Programmes : chaque nouveau programme passe par collecte → extraction → bilan (`npm run evaluate`).
 

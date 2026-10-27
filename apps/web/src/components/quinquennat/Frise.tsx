@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Profile, TicketLineResult } from "@mon-quinquennat/schema";
 import { BadgeIcon } from "@/components/BadgeIcon";
@@ -262,10 +263,9 @@ export function Frise({
               ) : null}
               {item.position === "end" ? (
                 <div className={styles.endActions}>
-                  <span className={styles.primary} aria-disabled="true" role="link">
+                  <Link href="/recap" className={styles.primary}>
                     Voir mon ticket
-                  </span>
-                  <p className={styles.muted}>Le ticket « Ma vie en 2032 » et la révélation du mystère arrivent bientôt.</p>
+                  </Link>
                 </div>
               ) : null}
             </li>

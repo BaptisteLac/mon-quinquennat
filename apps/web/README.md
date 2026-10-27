@@ -14,4 +14,6 @@ npm run tirer-badges -w apps/web   # badge de forme des nouveaux candidats (fait
 - Parcours (profil, choix des programmes) gardé dans le navigateur seulement (`src/lib/journey.ts`, `src/lib/journey-store.ts`).
 - Communes : `public/communes/*.json`, générés avant `dev` et `build` depuis le paquet `codes-postaux` (non versionnés).
 - `CALC_URL` (serveur) : adresse du service de calcul, réveillé par `/api/sante`. Sans elle, la route répond `non_configure`.
+- `SHARE_SECRET` (serveur, 32 caractères au moins) : signe les tickets partagés par lien. Sans lui, le partage par lien est désactivé.
+- `SITE_URL` (serveur) : adresse publique du site, pour les images d'aperçu des liens partagés.
 - Ordre des candidats tiré au sort dans le navigateur à chaque visite.

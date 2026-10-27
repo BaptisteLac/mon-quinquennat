@@ -1,0 +1,105 @@
+.page {
+  max-width: var(--page-max);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 20px var(--gutter) 28px;
+  background: var(--yellow);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 17px;
+  text-decoration: none;
+}
+.pill {
+  border: var(--stroke-thin) solid var(--ink);
+  border-radius: 999px;
+  background: var(--white);
+  padding: 4px 12px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+.tilt {
+  transform: rotate(-1deg);
+}
+.lead {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.note {
+  margin: 0;
+  font-size: 13px;
+}
+.sources summary {
+  text-align: center;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.sources {
+  font-size: 14px;
+  line-height: 1.45;
+}
+.cta {
+  margin-top: auto;
+  background: var(--ink);
+  color: var(--white);
+  border-radius: 22px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.cta h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 1;
+}
+.cta p {
+  margin: 0;
+  line-height: 1.5;
+}
+.ctaButton {
+  min-height: 56px;
+  border-radius: var(--radius-lg);
+  background: var(--yellow);
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 19px;
+  text-decoration: none;
+}
+.ctaButton:hover {
+  color: var(--ink);
+}
+.ctaNote {
+  text-align: center;
+  font-size: 13px;
+  color: var(--on-ink-2);
+}
+.about {
+  text-align: center;
+  font-weight: 700;
+}

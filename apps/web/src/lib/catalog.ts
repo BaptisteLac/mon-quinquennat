@@ -5,6 +5,7 @@
  */
 import type { Measure } from "@mon-quinquennat/schema";
 import type { Programme } from "./data";
+import { natureKind, type NatureKind } from "./nature";
 
 export interface CatalogMeasure {
   id: string;
@@ -13,6 +14,8 @@ export interface CatalogMeasure {
   title: string;
   summary: string;
   precision: Measure["precision"];
+  /** Chiffrée, qualitative ou floue (même vocabulaire sur tous les écrans). */
+  nature: NatureKind;
   legalPath: Measure["legalPath"];
   schedule: Measure["schedule"];
   effects: { ticketLine: Measure["effects"][number]["ticketLine"]; sentence: string | null }[];
@@ -49,6 +52,7 @@ export function buildCatalog(programmes: readonly Programme[]): Catalog {
         title: m.title,
         summary: m.summary.simple,
         precision: m.precision,
+        nature: natureKind(m),
         legalPath: m.legalPath,
         schedule: m.schedule,
         effects: m.effects.map((e) => ({ ticketLine: e.ticketLine, sentence: e.sentence?.simple ?? null })),

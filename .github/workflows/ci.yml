@@ -66,7 +66,8 @@ jobs:
           CALC_URL: http://127.0.0.1:8000
         run: |
           npx playwright install --with-deps chromium
-          npm run e2e
+          # Secret de partage propre à ce run (les liens signés sont testés de bout en bout).
+          SHARE_SECRET=$(openssl rand -hex 32) npm run e2e
       - name: Arrêter le service de calcul
         if: always()
         run: pkill -f 'gunicor[n].*mq_calc' || true  # [n] : le motif ne correspond pas à ce shell
