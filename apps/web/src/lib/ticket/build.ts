@@ -12,11 +12,9 @@ import ageLegalActuel from "@mon-quinquennat/formulas/data/age-legal-actuel.json
 import { Ticket, type Measure, type Profile, type TicketLineResult } from "@mon-quinquennat/schema";
 import type { Programme } from "../data";
 import type { CalcOutput, CalculResponse } from "./calc-client";
+import { monthsApplied, START_OF_TERM } from "../term";
 import { matches } from "./conditions";
 
-/** Début et fin du mandat (le mandat en cours s'achève le 13 mai 2027). */
-export const START_OF_TERM = "2027-05-14";
-export const END_OF_TERM = "2032-05-14";
 /** Règles comparées : celles du mois de calcul du service (octobre 2026). */
 export const BASELINE_RULES_YEAR = 2026;
 export const HORIZON_YEAR = 2032;
@@ -41,15 +39,6 @@ const round2 = (n: number) => Math.round(n * 100) / 100 + 0; // + 0 : pas de « 
 
 function latest(dates: readonly string[]): string {
   return [...dates].sort().at(-1) ?? START_OF_TERM;
-}
-
-/** Mois entiers entre la date d'effet (au plus tôt le début du mandat) et la fin du mandat. */
-export function monthsApplied(effectiveDate: string, start = START_OF_TERM, end = END_OF_TERM): number {
-  const from = effectiveDate > start ? effectiveDate : start;
-  if (from >= end) return 0;
-  const [fy, fm, fd] = from.split("-").map(Number) as [number, number, number];
-  const [ey, em, ed] = end.split("-").map(Number) as [number, number, number];
-  return (ey - fy) * 12 + (em - fm) - (ed < fd ? 1 : 0);
 }
 
 interface Built {

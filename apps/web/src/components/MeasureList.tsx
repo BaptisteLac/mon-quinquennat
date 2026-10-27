@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { MeasureCard } from "@/lib/measure-card";
 import { plural } from "@/lib/format";
@@ -56,7 +57,9 @@ export function MeasureList({ measures, themes }: { measures: readonly MeasureCa
                 {m.natureLabel}
               </span>
             </div>
-            <h3 className={styles.title}>{m.title}</h3>
+            <h3 className={styles.title}>
+              <Link href={m.href}>{m.title}</Link>
+            </h3>
             <p className={styles.summary}>{m.summary}</p>
             <p className={styles.quote}>
               « {m.quote} » ·{" "}

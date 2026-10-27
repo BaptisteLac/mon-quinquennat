@@ -3,7 +3,7 @@
  * Tout reste dans le navigateur (règle de confidentialité). Ce module est pur : la lecture et l'écriture
  * du stockage sont dans `journey-store.ts`.
  */
-import { avatarAgeBand, Profile } from "@mon-quinquennat/schema";
+import { avatarAgeBand, Profile, Ticket } from "@mon-quinquennat/schema";
 import { z } from "zod";
 
 export const ProfileDraft = Profile.deepPartial();
@@ -30,6 +30,12 @@ export const Journey = z.object({
   versions: z.record(z.string(), z.string()),
   /** Commune choisie, pour la réafficher (le profil ne garde que son code INSEE). */
   commune: z.object({ codePostal: z.string().regex(/^\d{5}$/), nom: z.string() }).optional(),
+  /** Tickets calculés pour ce profil et ces versions de programmes : pas de nouveau calcul au retour. */
+  resultat: z
+    .object({ profileKey: z.string(), versions: z.record(z.string(), z.string()), tickets: z.array(Ticket), calculeLe: z.string().datetime() })
+    .optional(),
+  /** Mois de la frise où l'utilisateur s'est arrêté (« Tu en étais à septembre 2029 »). */
+  frise: z.object({ month: z.string().regex(/^\d{4}-\d{2}$/) }).optional(),
 });
 export type Journey = z.infer<typeof Journey>;
 
@@ -133,15 +139,39 @@ export function completeProfile(p: ProfileDraft): Profile | null {
   return parsed.success ? parsed.data : null;
 }
 
-export type Step = "toi" | "vie" | "candidats";
-export const STEP_ROUTES: Record<Step, string> = { toi: "/personnage", vie: "/personnage/vie", candidats: "/candidats" };
-export const STEP_LABELS: Record<Step, string> = { toi: "Ton perso", vie: "Ta vie au quotidien", candidats: "Le choix des programmes" };
+export type Step = "toi" | "vie" | "candidats" | "frise";
+export const STEP_ROUTES: Record<Step, string> = { toi: "/personnage", vie: "/personnage/vie", candidats: "/candidats", frise: "/quinquennat" };
+export const STEP_LABELS: Record<Step, string> = { toi: "Ton perso", vie: "Ta vie au quotidien", candidats: "Le choix des programmes", frise: "Ton quinquennat" };
 
-/** Étape où reprendre : la première qui n'est pas complète. */
+/** Étape où reprendre : la première qui n'est pas complète, ou la frise si elle a été commencée. */
 export function resumeStep(j: Journey): Step {
   if (missingStep1(j.profile).length > 0) return "toi";
   if (missingStep2(j.profile).length > 0 || !completeProfile(j.profile)) return "vie";
+  if (j.frise && j.choix.candidats.length > 0) return "frise";
   return "candidats";
+}
+
+/** Clé du profil complet : un résultat enregistré n'est réutilisé que pour exactement ce profil. */
+export function profileKey(p: Profile): string {
+  return canonical(p);
+}
+
+/** JSON aux clés triées à tous les niveaux. */
+function canonical(v: unknown): string {
+  if (Array.isArray(v)) return `[${v.map(canonical).join(",")}]`;
+  if (v !== null && typeof v === "object") {
+    const entries = Object.entries(v as Record<string, unknown>).filter(([, x]) => x !== undefined);
+    return `{${entries.sort(([a], [b]) => a.localeCompare(b)).map(([k, x]) => `${JSON.stringify(k)}:${canonical(x)}`).join(",")}}`;
+  }
+  return JSON.stringify(v);
+}
+
+/** Résultat enregistré encore valable pour ce profil et ces versions de programmes. */
+export function freshResult(j: Journey, profile: Profile, versions: Readonly<Record<string, string>>): Ticket[] | null {
+  const r = j.resultat;
+  if (!r || r.profileKey !== profileKey(profile)) return null;
+  const same = Object.keys(versions).length === Object.keys(r.versions).length && Object.entries(versions).every(([k, v]) => r.versions[k] === v);
+  return same ? r.tickets : null;
 }
 
 export function hasStarted(j: Journey): boolean {
@@ -161,6 +191,11 @@ export function toggleCandidate(choice: Choice, id: string): Choice {
 /** Programmes que le mystère peut tirer : ceux qui ne sont pas déjà choisis. */
 export function mysteryPool(allIds: readonly string[], choice: Pick<Choice, "candidats">): string[] {
   return allIds.filter((id) => !choice.candidats.includes(id));
+}
+
+/** Au départ de la frise : ordre des programmes choisis tiré au sort, mystère tiré parmi les autres. */
+export function startQuinquennat(allIds: readonly string[], choice: Choice, random: () => number, shuffle: <T>(xs: readonly T[], r: () => number) => T[]): Choice {
+  return { ...drawMystery(allIds, choice, random), candidats: shuffle(choice.candidats, random) };
 }
 
 export function drawMystery(allIds: readonly string[], choice: Choice, random: () => number): Choice {

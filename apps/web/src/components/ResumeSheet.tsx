@@ -4,12 +4,15 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { Avatar } from "@/components/Avatar";
 import { plural } from "@/lib/format";
+import { END_MONTH, START_MONTH } from "@/lib/frise";
+import { monthsBetween } from "@/lib/term";
+import { formatMonth } from "@/lib/ticket-labels";
 import { describeProfile, hasStarted, mysteryPool, resumeStep, STEP_LABELS, STEP_ROUTES, updatedProgrammes, type Step } from "@/lib/journey";
 import { clearJourney, loadJourney } from "@/lib/journey-store";
 import type { Journey } from "@/lib/journey";
 import styles from "./ResumeSheet.module.css";
 
-const STEPS: readonly Step[] = ["toi", "vie", "candidats"];
+const STEPS: readonly Step[] = ["toi", "vie", "candidats", "frise"];
 
 /** « Content de te revoir » (maquette E0b-reprise) : proposé quand un parcours est gardé sur l'appareil. */
 export function ResumeSheet({ versions }: { versions: Readonly<Record<string, string>> }) {
@@ -27,6 +30,8 @@ export function ResumeSheet({ versions }: { versions: Readonly<Record<string, st
   if (!journey) return null;
   const step = resumeStep(journey);
   const done = STEPS.indexOf(step);
+  const month = step === "frise" ? journey.frise?.month : undefined;
+  const progress = month ? monthsBetween(START_MONTH, month) / monthsBetween(START_MONTH, END_MONTH) : done / STEPS.length;
   const chosen = journey.choix.candidats.length;
   const mystery = journey.choix.mystere && mysteryPool(Object.keys(versions), journey.choix).length > 0;
   const summary = [
@@ -65,10 +70,10 @@ export function ResumeSheet({ versions }: { versions: Readonly<Record<string, st
       <div className={styles.progress}>
         <div className={styles.progressHead}>
           <span className={styles.progressLabel}>Tu en étais à</span>
-          <span className={styles.progressValue}>{STEP_LABELS[step]}</span>
+          <span className={styles.progressValue}>{month ? formatMonth(month) : STEP_LABELS[step]}</span>
         </div>
-        <div className={styles.bar} role="img" aria-label={`Étape ${done + 1} sur ${STEPS.length}`}>
-          <div className={styles.barFill} style={{ width: `${(done / STEPS.length) * 100}%` }} />
+        <div className={styles.bar} role="img" aria-label={month ? `Progression : ${Math.round(progress * 100)} % du quinquennat` : `Étape ${done + 1} sur ${STEPS.length}`}>
+          <div className={styles.barFill} style={{ width: `${progress * 100}%` }} />
         </div>
         {summary ? <div className={styles.summary}>{summary}</div> : null}
       </div>

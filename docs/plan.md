@@ -46,11 +46,13 @@ Point de départ : les deux tests de faisabilité ont leur feu vert (2026-10-26)
 - Livré : `calc/` (lit les mesures publiées, renvoie leur version), `src/lib/ticket/` (conditions, assemblage, client du service), `/api/ticket`, test d'intégration en CI (site + vrai service), workflow `calc-image.yml`.
 - Reste : créer le compte Scaleway et ses réglages GitHub (`calc/README.md`) pour que le déploiement se fasse ; formules `revalorisation_pension`, `smic_mensuel_net` et estimations ≈ quand une mesure publiée en aura besoin.
 
-### Jalon 3 — Frise et sources (en cours)
+### Jalon 3 — Frise et sources (livré)
 - `A-couloirs` (frise 2027 → 2032), `S1-source` (d'où vient ce chiffre), `F1-fiche-mesure`, `X1-calcul`, `X2-erreur`, `T0-vide`.
+- Livré : `/quinquennat` (calcul, erreur, frise, fiche source), `/programme/<candidat>/<mesure>` (fiche de chaque mesure), catalogue statique des mesures, tickets gardés sur l'appareil, reprise dans la frise. `T0-vide` (ticket vide) passe au jalon 4 avec le ticket.
+- Reste : étapes de vie dans la frise (rentrée d'un enfant, retraite).
 
-### Jalon 4 — Récap et partage
-- `R1` à `R7`, `D-fiche` (tickets), `R2b`/`R5` (mystère), `P1-partage`, `OG1` (image OG), `E0c-lien` (arrivée par lien).
+### Jalon 4 — Récap et partage (en cours)
+- `R1` à `R7`, `D-fiche` (tickets), `T0-vide`, `R2b`/`R5` (mystère), `P1-partage`, `OG1` (image OG), `E0c-lien` (arrivée par lien).
 
 ### Jalon 5 — Pages autour et contenu
 - `M1-methode` (taux d'erreur mesuré, limites, bilan du test n°1), mentions légales, signalement d'erreur.

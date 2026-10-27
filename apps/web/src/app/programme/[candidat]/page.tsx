@@ -42,7 +42,7 @@ export default async function ProgrammePage({ params }: Props) {
   const pdfCount = docs.filter((d) => d.kind === "pdf").length;
   const webCount = docs.length - pdfCount;
   const computable = p.measures.filter((m) => natureKind(m) === "chiffree").length;
-  const cards = p.measures.map((m) => toMeasureCard(m, p.documents));
+  const cards = p.measures.map((m) => toMeasureCard(m, p.documents, p.slug));
   const themes = themesByCount(p.measures).map((t) => ({ theme: t.theme, label: THEME_LABELS[t.theme], count: t.count }));
   const original = p.startUrls[0];
 
