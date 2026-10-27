@@ -1,42 +1,31 @@
 {
-  "run": 23,
+  "run": 24,
   "targets": [
     {
-      "id": "sp-situation-electorale",
-      "url": "https://www.service-public.gouv.fr/particuliers/recherche?keyword=situation%20%C3%A9lectorale",
+      "id": "sp-elections",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19810",
       "waitUntil": "networkidle",
       "continueOnError": true,
       "actions": [
         {
-          "wait": 3000
+          "wait": 2000
         }
       ],
-      "follow": "situation [ée]lectorale|bureau de vote|listes [ée]lectorales",
-      "maxFollow": 4
+      "follow": "[ée]lection|vote|liste [ée]lectorale",
+      "maxFollow": 6
     },
     {
-      "id": "sp-procuration",
-      "url": "https://www.service-public.gouv.fr/particuliers/recherche?keyword=procuration%20vote",
+      "id": "sp-recherche-inscription",
+      "url": "https://www.service-public.gouv.fr/particuliers/recherche?keyword=v%C3%A9rifier%20inscription%20liste%20%C3%A9lectorale",
       "waitUntil": "networkidle",
       "continueOnError": true,
       "actions": [
         {
-          "wait": 3000
+          "wait": 2000
         }
       ],
-      "follow": "procuration",
-      "maxFollow": 3
-    },
-    {
-      "id": "maprocuration",
-      "url": "https://www.maprocuration.gouv.fr/",
-      "waitUntil": "networkidle",
-      "continueOnError": true,
-      "actions": [
-        {
-          "wait": 3000
-        }
-      ]
+      "follow": "situation [ée]lectorale|inscription|bureau de vote",
+      "maxFollow": 6
     }
   ]
 }
