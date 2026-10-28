@@ -1,0 +1,68 @@
+[
+ {
+  "file": "DK-accueil.html",
+  "title": "Desktop · 0 · Accueil",
+  "w": 1440,
+  "h": 1660
+ },
+ {
+  "file": "DK-toi.html",
+  "title": "Desktop · 1 · Personnage · Toi",
+  "w": 1440,
+  "h": 1060
+ },
+ {
+  "file": "DK-vie.html",
+  "title": "Desktop · 2 · Personnage · Ta vie",
+  "w": 1440,
+  "h": 1060
+ },
+ {
+  "file": "DK-affiner.html",
+  "title": "Desktop · 3 · Affiner (facultatif)",
+  "w": 1440,
+  "h": 900
+ },
+ {
+  "file": "DK-candidats.html",
+  "title": "Desktop · 4 · Choix des programmes",
+  "w": 1440,
+  "h": 1000
+ },
+ {
+  "file": "DK-frise.html",
+  "title": "Desktop · 5 · Le quinquennat (frise)",
+  "w": 1440,
+  "h": 1210
+ },
+ {
+  "file": "DK-source.html",
+  "title": "Desktop · Source d'une ligne (panneau latéral)",
+  "w": 1440,
+  "h": 900
+ },
+ {
+  "file": "DK-recap-intro.html",
+  "title": "Desktop · 6.1 · Intro du récap",
+  "w": 1440,
+  "h": 860
+ },
+ {
+  "file": "DK-recap-tickets.html",
+  "title": "Desktop · 6.2 · Les tickets côte à côte",
+  "w": 1440,
+  "h": 980
+ },
+ {
+  "file": "DK-recap-coup-oeil.html",
+  "title": "Desktop · 6.4 · En un coup d'œil",
+  "w": 1440,
+  "h": 900
+ },
+ {
+  "file": "DK-recap-fin.html",
+  "title": "Desktop · 6.7 · À toi de jouer",
+  "w": 1440,
+  "h": 860
+ }
+]

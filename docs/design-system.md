@@ -42,3 +42,15 @@ Référence visuelle : [`design/maquettes/`](../design/maquettes/), en particuli
 - Tutoiement, phrases courtes, concrètes (« Ta première fiche de paie de l'année »).
 - Neutre : aucun adjectif évaluatif sur une mesure.
 - Les estimations sont toujours marquées `≈` avec leur hypothèse.
+
+## Desktop (1024 px et plus)
+Maquettes : [`design/maquettes/desktop/`](../design/maquettes/desktop/). Même parcours, mêmes composants, mêmes couleurs : seule la mise en page change. En dessous de 1024 px, la version mobile reste telle quelle.
+
+- **Gabarit** : contenu centré, 1200 px de large au plus (1280 pour la frise), marges latérales de 40 px. Plus de colonne mobile centrée.
+- **En-tête** (72 px, trait noir en bas) : logo à gauche, les 5 étapes du parcours au centre (faites = coche noire, en cours = pastille jaune, à venir = blanche), « Méthode » à droite. Sur l'accueil : « Les programmes », « Méthode », « Commencer ».
+- **Accueil** : en deux colonnes, titre et bouton à gauche, exemple de ticket à droite ; « Comment ça marche » et « Rien d'inventé » en 3 colonnes.
+- **Personnage (Toi, Ta vie, Affiner)** : deux colonnes. À gauche, la carte « Ton perso » reste fixe pendant le défilement : avatar en grand, enfants à côté, réponses en pastilles qui se remplissent, mention de confidentialité. À droite, les questions en grille de 2 colonnes, les choix sur une ligne (situation : 4 colonnes, logement et lieu de vie : 5). Bouton principal en bas à droite ; Entrée valide.
+- **Choix des programmes** : cartes des candidats en grille à gauche, panneau « Ta sélection » fixe à droite (places choisies, programme mystère, bouton « Vivre … »).
+- **Frise** : trois colonnes. À gauche, la liste des moments par année (clic = aller au moment). Au centre, les moments, avec les programmes **côte à côte** pour chaque moment. À droite, le compteur fixe sur fond noir : mois, progression 2027 → 2032, gains et pertes par programme, « Moment suivant » (ou flèche ↓), « Aller à 2032 ».
+- **Fiche source** : panneau latéral droit de 520 px au lieu de la feuille qui monte du bas ; fond assombri, Échap ferme.
+- **Récap** : on garde les chapitres (barre de progression, fermer) en pleine largeur, avec boutons précédent / suivant et flèches ← →. Les tickets choisis et le ticket mystère s'affichent **côte à côte**, lignes dans le même ordre pour comparer ; le mystère se gratte sur place. « En un coup d'œil » devient un tableau.
