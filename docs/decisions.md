@@ -99,3 +99,4 @@ Toute nouvelle décision s'ajoute ici (date, décision, raison).
 - **Collecte web des programmes** (les partis publient des sites à onglets, pas de PDF) : robot Playwright limité au domaine officiel, clic sur les onglets, extraction du texte avec ses titres, archivage par page (HTML, texte, capture, sha256, Internet Archive), diff par section.
 - **Citation localisée par page web + chemin de section** au lieu d'un numéro de page PDF ; lien vers le site officiel avec la phrase surlignée (`#:~:text=`).
 - **Contrôle des chiffres** : tout nombre d'une mesure doit figurer dans sa citation, sinon la mesure est `floue`.
+- **Mise en page desktop (2026-10-28)** : à partir de 1024 px, même parcours, mêmes composants et même direction artistique, mais une mise en page pensée pour l'écran large au lieu de la colonne mobile centrée. Maquettes : `design/maquettes/desktop/`, règles : `docs/design-system.md` (« Desktop »).
