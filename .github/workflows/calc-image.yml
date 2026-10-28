@@ -50,9 +50,24 @@ jobs:
             code=$(curl -s -o scw.json -w '%{http_code}' -H "X-Auth-Token: $SCW_SECRET_KEY" -H 'Content-Type: application/json' "$@")
             if [ "$code" -ge 300 ]; then echo "::error::Scaleway a répondu $code : $(cat scw.json)"; exit 1; fi
           }
-          scw -X PATCH "$api" --data "{\"registry_image\": \"$image\"}"
-          scw -X POST "$api/deploy" --data '{}'
-          echo "Déployé : $image"
+          # Le conteneur refuse toute modification pendant un déploiement (409 « transient state ») :
+          # on attend qu'il soit stable avant, puis prêt après.
+          wait_stable() {
+            for _ in $(seq 60); do
+              scw "$api"; status=$(jq -r .status scw.json)
+              case "$status" in ready|error|created) return 0 ;; esac
+              sleep 10
+            done
+            echo "::error::Conteneur bloqué dans l'état $status"; exit 1
+          }
+          wait_stable
+          # Modifier l'image redéploie le conteneur (pas d'appel /deploy séparé).
+          scw -X PATCH "$api" --data "{\"registry_image\": \"$image\", \"redeploy\": true}"
+          # Laisser le redéploiement démarrer (l'état « error » de l'ancienne image ne compte pas).
+          for _ in $(seq 6); do sleep 5; scw "$api"; case "$(jq -r .status scw.json)" in ready|error|created) ;; *) break ;; esac; done
+          wait_stable
+          if [ "$status" != "ready" ]; then echo "::error::Déploiement en état $status : $(jq -r '.error_message // empty' scw.json)"; exit 1; fi
+          echo "Déployé : $image ($(jq -r .domain_name scw.json))"
       - name: Scaleway non configuré
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && (env.SCW_SECRET_KEY == '' || env.SCW_REGISTRY == '' || env.SCW_CONTAINER_ID == '')
         run: |
