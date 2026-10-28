@@ -1,0 +1,231 @@
+/* Pages de texte : Méthode (maquette M1-methode) et Mentions légales. */
+.page {
+  max-width: var(--page-max);
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+}
+.main {
+  padding: 18px var(--gutter) 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.home {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 16px;
+  text-decoration: none;
+}
+.updated {
+  font-size: 12px;
+  color: var(--text-2);
+  text-align: right;
+}
+.title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+}
+.brief {
+  background: var(--yellow);
+  border: var(--stroke) solid var(--ink);
+  border-radius: var(--radius-lg);
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.brief b {
+  font-size: 15px;
+}
+.brief ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.brief li::before {
+  content: "· ";
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1.55;
+}
+.section h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 1.15;
+}
+.section p {
+  margin: 0;
+}
+.note {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-2);
+}
+.programmes,
+.quality {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.programmes li {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  color: var(--text-2);
+}
+.programmes a {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ink);
+}
+.kinds {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.kinds dt {
+  display: inline;
+  font-weight: 700;
+}
+.kinds dt::after {
+  content: " : ";
+  font-weight: 400;
+}
+.kinds dd {
+  display: inline;
+  margin: 0;
+}
+.natures {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 13px;
+}
+.swatch {
+  display: inline-block;
+  width: 18px;
+  height: 14px;
+  margin-right: 4px;
+  vertical-align: -2px;
+}
+.swatch[data-nature="chiffree"] {
+  background: var(--ink);
+}
+.swatch[data-nature="qualitative"] {
+  border: 1.5px solid var(--ink);
+  background: repeating-linear-gradient(45deg, var(--ink) 0 2px, var(--white) 2px 5px);
+}
+.swatch[data-nature="floue"] {
+  border: 1.5px dashed var(--ink);
+}
+.checks {
+  margin: 0;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+.rate {
+  border: var(--stroke) solid var(--ink);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.rate span {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+.rate small {
+  font-size: 12px;
+  color: var(--text-2);
+}
+.rate strong {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 28px;
+  white-space: nowrap;
+}
+.quality > li {
+  border: var(--stroke-thin) solid var(--ink);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 13px;
+  line-height: 1.45;
+}
+.quality ul {
+  margin: 0;
+  padding-left: 18px;
+}
+.quality summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.primary,
+.secondary {
+  box-sizing: border-box;
+  border: var(--stroke) solid var(--ink);
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+.primary {
+  height: 52px;
+  background: var(--ink);
+  color: var(--white);
+  font-size: 15px;
+}
+.primary:hover {
+  color: var(--white);
+}
+.secondary {
+  height: 48px;
+  border-width: var(--stroke-thin);
+  border-radius: var(--radius);
+  background: var(--white);
+  color: var(--ink);
+  font-size: 14px;
+}

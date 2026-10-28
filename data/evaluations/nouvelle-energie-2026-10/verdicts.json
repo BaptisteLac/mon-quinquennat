@@ -1,6 +1,7 @@
 {
   "corpus": "nouvelle-energie-2026-10",
   "lecteur": "Claude (session Claude Code, 2026-10-26), relecture de chaque fiche contre ses citations et, au besoin, la phrase source",
+  "date": "2026-10-26",
   "consigne": "Sens : la fiche (titre, résumés, phrases d'effet) dit ce que dit la citation, sans ajout, omission qui change le sens, ni engagement plus fort ou plus faible. Paramètres : taux, montants, durées, seuils et date d'effet conformes au programme ; « sans_parametre » si la fiche n'en porte aucun.",
   "verdicts": {
     "m-f9f3c376fa79": {

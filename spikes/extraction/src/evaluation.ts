@@ -9,6 +9,9 @@ import { z } from "zod";
 import { allQuotes } from "./llm-schema.js";
 import { quoteOverlap, MATCH_THRESHOLD } from "./match.js";
 
+/** Intervalle de Wilson : dans le schéma partagé, la page Méthode s'en sert aussi. */
+export { wilson } from "@mon-quinquennat/schema";
+
 /** Générateur pseudo-aléatoire déterministe (mulberry32). */
 export function prng(seed: number): () => number {
   let a = seed >>> 0;
@@ -46,6 +49,8 @@ export type Engagement = z.infer<typeof Engagement>;
 export const EngagementsFile = z.object({
   corpus: z.string(),
   lecteur: z.string(),
+  /** Jour de la lecture (AAAA-MM-JJ). */
+  date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   consigne: z.string(),
   pages: z.array(
     z.object({
@@ -75,6 +80,8 @@ export const MeasureVerdict = z.object({
 export const VerdictsFile = z.object({
   corpus: z.string(),
   lecteur: z.string(),
+  /** Jour de la relecture (AAAA-MM-JJ). */
+  date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   consigne: z.string(),
   verdicts: z.record(z.string(), MeasureVerdict),
 });
@@ -114,15 +121,4 @@ export function recall(engagements: readonly Engagement[], measures: readonly Qu
     }
   }
   return result;
-}
-
-/** Intervalle de confiance à 95 % d'une proportion (Wilson). */
-export function wilson(successes: number, n: number): { low: number; high: number } {
-  if (n === 0) return { low: 0, high: 1 };
-  const z = 1.96;
-  const p = successes / n;
-  const denom = 1 + (z * z) / n;
-  const center = (p + (z * z) / (2 * n)) / denom;
-  const half = (z * Math.sqrt((p * (1 - p)) / n + (z * z) / (4 * n * n))) / denom;
-  return { low: Math.max(0, center - half), high: Math.min(1, center + half) };
 }

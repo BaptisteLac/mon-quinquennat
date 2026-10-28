@@ -5,13 +5,13 @@
  *     → data/evaluations/<corpus>/echantillon.json, pages.txt (à lire en premier, sans voir les mesures),
  *       mesures.txt (fiches tirées au sort et leurs citations, pour la relecture)
  *   npm run evaluate -- bilan --corpus nouvelle-energie-2026-10
- *     lit engagements.json, couverture.json et verdicts.json du même dossier → rapport.md
+ *     lit engagements.json, couverture.json et verdicts.json du même dossier → rapport.md et bilan.json (page Méthode)
  */
 import { existsSync } from "node:fs";
 import { mkdir, readdir, readFile, stat, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { parseArgs } from "node:util";
-import { Measure } from "@mon-quinquennat/schema";
+import { EvaluationSummary, Measure, proportion } from "@mon-quinquennat/schema";
 import { z } from "zod";
 import { checkCitations } from "../src/checks.js";
 import { loadCorpus, type Corpus } from "../src/corpus.js";
@@ -38,9 +38,10 @@ if (!args.corpus || (command !== "echantillon" && command !== "bilan")) {
 const corpusId = args.corpus;
 const dir = resolve(REPO_ROOT, "data/evaluations", corpusId);
 const corpus = await loadCorpus(resolve(REPO_ROOT, "data/archives", corpusId, "manifest.json"));
-const published = z
-  .object({ measures: z.array(Measure) })
-  .parse(JSON.parse(await readFile(resolve(REPO_ROOT, "data/measures", `${corpusId}.json`), "utf8"))).measures;
+const measuresFile = z
+  .object({ candidateId: z.string(), measures: z.array(Measure) })
+  .parse(JSON.parse(await readFile(resolve(REPO_ROOT, "data/measures", `${corpusId}.json`), "utf8")));
+const published = measuresFile.measures;
 
 const Sample = z.object({
   corpus: z.string(),
@@ -198,5 +199,28 @@ Volumes réels : corpus ${corpusChars.toLocaleString("fr-FR")} caractères (${co
 ${costLines.join("\n")}
 `;
 await writeFile(resolve(dir, "rapport.md"), report);
+
+const errorFree = verdicts.filter((v) => v.sens === "correct" && v.parametres !== "faux").length;
+const summary = EvaluationSummary.parse({
+  corpusId,
+  candidateId: measuresFile.candidateId,
+  manifestSha256: corpus.manifestSha256,
+  seed: sample.seed,
+  readOn: [engagementsFile.date, verdictsFile.date].sort().at(-1),
+  readers: { rappel: engagementsFile.lecteur, precision: verdictsFile.lecteur },
+  checks: {
+    citations: { k: citations.filter(Boolean).length, n: published.length },
+    figures: { k: figures.filter(Boolean).length, n: published.length },
+    autoValidated: { k: autoValidated, n: published.length },
+  },
+  recall: { ...proportion(r.found + adjudicated.length, r.total), pages: sample.pages.length },
+  precision: proportion(correct, verdicts.length),
+  parameters: withParams.length ? proportion(paramsOk, withParams.length) : null,
+  errorFree: proportion(errorFree, verdicts.length),
+  discrepancies: verdicts
+    .filter((v) => v.sens === "incorrect" || v.parametres === "faux")
+    .map((v) => ({ measureId: v.id, sens: v.sens, parametres: v.parametres, ...(v.note ? { note: v.note } : {}) })),
+});
+await writeFile(resolve(dir, "bilan.json"), `${JSON.stringify(summary, null, 2)}\n`);
 console.log(report);
 if (!existsSync(resolve(dir, "rapport.md"))) process.exit(1);

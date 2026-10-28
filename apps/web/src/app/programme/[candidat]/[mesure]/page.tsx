@@ -204,7 +204,8 @@ export default async function MesurePage({ params }: Props) {
           })}
         </ol>
         <p className={styles.note}>
-          Extraite automatiquement le {formatDate(m.review.extractedBy.at)} · {m.review.checks.filter((c) => c.passed).length} contrôles automatiques passés
+          Extraite automatiquement le {formatDate(m.review.extractedBy.at)} · {m.review.checks.filter((c) => c.passed).length} contrôles automatiques passés ·{" "}
+          <Link href={`/signaler?mesure=${m.id}`}>signaler une erreur</Link>
         </p>
       </section>
 

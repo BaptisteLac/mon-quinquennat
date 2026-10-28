@@ -17,7 +17,7 @@ interface ChoiceProps<T extends string> {
   options: readonly Option<T>[];
   value: T | undefined;
   onChange: (value: T) => void;
-  columns?: 2 | 3 | 4;
+  columns?: 1 | 2 | 3 | 4;
   size?: "small";
   shape?: "pill";
   /** Question visuellement intégrée à une ligne (sans titre en capitales). */

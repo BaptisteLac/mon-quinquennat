@@ -1,0 +1,64 @@
+{
+  "corpusId": "nouvelle-energie-2026-10",
+  "candidateId": "c-01",
+  "manifestSha256": "4a534314996dc145392a879ba302394f5b5f7075cc93933ce40ed3bcfc76b863",
+  "seed": 2027,
+  "readOn": "2026-10-26",
+  "readers": {
+    "rappel": "Claude (session Claude Code, 2026-10-26), lecture faite avant d'ouvrir la liste des mesures publiées",
+    "precision": "Claude (session Claude Code, 2026-10-26), relecture de chaque fiche contre ses citations et, au besoin, la phrase source"
+  },
+  "checks": {
+    "citations": {
+      "k": 260,
+      "n": 260
+    },
+    "figures": {
+      "k": 260,
+      "n": 260
+    },
+    "autoValidated": {
+      "k": 260,
+      "n": 260
+    }
+  },
+  "recall": {
+    "k": 39,
+    "n": 43,
+    "low": 0.7839701160146731,
+    "high": 0.9632289548966534,
+    "pages": 20
+  },
+  "precision": {
+    "k": 39,
+    "n": 40,
+    "low": 0.8711834051199223,
+    "high": 0.9955732825922052
+  },
+  "parameters": {
+    "k": 13,
+    "n": 14,
+    "low": 0.6853073044604219,
+    "high": 0.9872781138877085
+  },
+  "errorFree": {
+    "k": 38,
+    "n": 40,
+    "low": 0.834958291820748,
+    "high": 0.9861796228538989
+  },
+  "discrepancies": [
+    {
+      "measureId": "m-49b683740def",
+      "sens": "incorrect",
+      "parametres": "sans_parametre",
+      "note": "Titre « Créer un délit… » alors que le programme dit « engager une réflexion […] et envisager » ce délit ; le résumé, lui, est fidèle."
+    },
+    {
+      "measureId": "m-55ecac48c641",
+      "sens": "correct",
+      "parametres": "faux",
+      "note": "Date d'effet par défaut (1er janvier 2028, « date non annoncée ») alors que le programme annonce « Le premier jour » et « le jour même »."
+    }
+  ]
+}
