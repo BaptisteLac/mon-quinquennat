@@ -45,9 +45,13 @@ jobs:
           docker tag "$IMAGE" "$image"
           docker push "$image"
           api="https://api.scaleway.com/containers/v1beta1/regions/$SCW_REGION/containers/$SCW_CONTAINER_ID"
-          curl -sf -X PATCH "$api" -H "X-Auth-Token: $SCW_SECRET_KEY" -H 'Content-Type: application/json' \
-            --data "{\"registry_image\": \"$image\"}" > /dev/null
-          curl -sf -X POST "$api/deploy" -H "X-Auth-Token: $SCW_SECRET_KEY" -H 'Content-Type: application/json' --data '{}' > /dev/null
+          # Appel à l'API Scaleway ; en cas d'échec, la réponse (sans secret) est affichée pour diagnostic.
+          scw() {
+            code=$(curl -s -o scw.json -w '%{http_code}' -H "X-Auth-Token: $SCW_SECRET_KEY" -H 'Content-Type: application/json' "$@")
+            if [ "$code" -ge 300 ]; then echo "::error::Scaleway a répondu $code : $(cat scw.json)"; exit 1; fi
+          }
+          scw -X PATCH "$api" --data "{\"registry_image\": \"$image\"}"
+          scw -X POST "$api/deploy" --data '{}'
           echo "Déployé : $image"
       - name: Scaleway non configuré
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && (env.SCW_SECRET_KEY == '' || env.SCW_REGISTRY == '' || env.SCW_CONTAINER_ID == '')
