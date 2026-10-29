@@ -1,0 +1,19 @@
+{
+  "requested": "https://gamma-api.polymarket.com/public-search?q=french%20presidential%20election&limit_per_type=10",
+  "final": "https://gamma-api.polymarket.com/public-search?q=french%20presidential%20election&limit_per_type=10",
+  "status": 200,
+  "title": "",
+  "iframes": [
+    "https://gamma-api.polymarket.com/public-search?q=french%20presidential%20election&limit_per_type=10"
+  ],
+  "links": [],
+  "fields": [],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://gamma-api.polymarket.com/public-search?q=french%20presidential%20election&limit_per_type=10",
+      "resourceType": "document",
+      "postData": null
+    }
+  ]
+}

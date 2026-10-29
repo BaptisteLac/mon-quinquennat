@@ -1,0 +1,19 @@
+{
+  "requested": "https://gamma-api.polymarket.com/events?closed=false&limit=20&tag_slug=france",
+  "final": "https://gamma-api.polymarket.com/events?closed=false&limit=20&tag_slug=france",
+  "status": 200,
+  "title": "",
+  "iframes": [
+    "https://gamma-api.polymarket.com/events?closed=false&limit=20&tag_slug=france"
+  ],
+  "links": [],
+  "fields": [],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://gamma-api.polymarket.com/events?closed=false&limit=20&tag_slug=france",
+      "resourceType": "document",
+      "postData": null
+    }
+  ]
+}

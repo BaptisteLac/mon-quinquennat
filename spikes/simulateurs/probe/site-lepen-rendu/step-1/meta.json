@@ -1,0 +1,242 @@
+{
+  "requested": null,
+  "final": "https://marinelepen.com/",
+  "status": null,
+  "title": "Présidentielles 2027 : Marine Le Pen, Site Officiel de Campagne",
+  "iframes": [
+    "https://marinelepen.com/"
+  ],
+  "links": [
+    {
+      "href": "https://www.facebook.com/share/19BqwGkbBw/",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/marine_lepen",
+      "text": ""
+    },
+    {
+      "href": "https://x.com/MLP_officiel",
+      "text": ""
+    },
+    {
+      "href": "https://youtube.com/@marinelepenofficiel",
+      "text": ""
+    },
+    {
+      "href": "https://www.tiktok.com/@mlp.officiel",
+      "text": ""
+    },
+    {
+      "href": "https://marinelepen.com/mentions-legales",
+      "text": "Mentions légales"
+    },
+    {
+      "href": "https://marinelepen.com/politique-de-confidentialite",
+      "text": "Politique de confidentialité"
+    },
+    {
+      "href": "https://marinelepen.com/mentions-legales",
+      "text": "Mentions légales"
+    },
+    {
+      "href": "https://marinelepen.com/politique-de-confidentialite",
+      "text": "Politique de confidentialité"
+    },
+    {
+      "href": "https://marinelepen.com/politique-de-confidentialite",
+      "text": "Politique de confidentialité"
+    },
+    {
+      "href": "https://marinelepen.com/#cookies-policy-customize",
+      "text": "Personnaliser"
+    },
+    {
+      "href": "https://marinelepen.com/#cookies-policy-essentials",
+      "text": "Plus d'informations"
+    },
+    {
+      "href": "https://marinelepen.com/#cookies-policy-analytics",
+      "text": "Plus d'informations"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Partager"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "firstName",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "lastName",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "zipCode",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "email",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "",
+      "id": "",
+      "value": "on",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "",
+      "id": "",
+      "value": "on",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "_token",
+      "id": "",
+      "value": "yuqEd2OO5sLXNlQsqfCBe21VasObGfCh5A6y2sng",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "_token",
+      "id": "",
+      "value": "yuqEd2OO5sLXNlQsqfCBe21VasObGfCh5A6y2sng",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "_token",
+      "id": "",
+      "value": "yuqEd2OO5sLXNlQsqfCBe21VasObGfCh5A6y2sng",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "categories[]",
+      "id": "",
+      "value": "essentials",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "categories[]",
+      "id": "cookies-policy-check-essentials",
+      "value": "essentials",
+      "label": "Essentials"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "categories[]",
+      "id": "cookies-policy-check-analytics",
+      "value": "analytics",
+      "label": "Analytics"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    }
+  ],
+  "calls": []
+}

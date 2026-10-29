@@ -1,0 +1,1141 @@
+{
+  "requested": "https://rassemblementnational.fr/",
+  "final": "https://rassemblementnational.fr/",
+  "status": 200,
+  "title": "Rassemblement National - Accueil",
+  "iframes": [
+    "https://rassemblementnational.fr/",
+    "https://www.youtube.com/embed/3jM21BgsATw?si=Bcv1nYGc2zd2JVJX",
+    "https://www.youtube.com/embed/vgkh4N9OFiM?si=-NEN96dW43Uxti2K"
+  ],
+  "links": [
+    {
+      "href": "https://rassemblementnational.fr/",
+      "text": "RN"
+    },
+    {
+      "href": "https://rassemblementnational.fr/programme-patriotes-pour-leurope",
+      "text": ""
+    },
+    {
+      "href": "https://rassemblementnational.fr/congres2026",
+      "text": ""
+    },
+    {
+      "href": "https://francaisdeletranger.rassemblementnational.fr/",
+      "text": "Les Français de l'étranger"
+    },
+    {
+      "href": "https://rassemblementnational.fr/les-federations-du-rassemblement-national",
+      "text": "Les fédérations métropolitaines"
+    },
+    {
+      "href": "https://rassemblementnational.fr/les-federations-dom-tom-du-rassemblement-national",
+      "text": "Les fédérations d’Outre-mer"
+    },
+    {
+      "href": "https://francaisdeletranger.rassemblementnational.fr/",
+      "text": "Les Français de l’étranger"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/bureau-executif",
+      "text": "Bureau Exécutif"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/bureau-national",
+      "text": "Bureau National"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/commission-nationale-investiture",
+      "text": "Commission Nationale d'Investiture"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/commission-des-conflits",
+      "text": "Commission des Conflits"
+    },
+    {
+      "href": "https://rassemblementnational.fr/conseil-national",
+      "text": "Conseil national"
+    },
+    {
+      "href": "https://rassemblementnational.fr/le-congres",
+      "text": "Le Congrès"
+    },
+    {
+      "href": "https://rassemblementnational.fr/congres2022",
+      "text": "18ème congrès"
+    },
+    {
+      "href": "https://rassemblementnational.fr/les-adherents",
+      "text": "Les adhérents"
+    },
+    {
+      "href": "https://rassemblementnational.fr/assemblee-generale-extraordinaire5nov2022",
+      "text": "Assemblée générale extraordinaire"
+    },
+    {
+      "href": "https://rassemblementnational.fr/communiques",
+      "text": "Communiqués"
+    },
+    {
+      "href": "https://rassemblementnational.fr/tribunes-libres",
+      "text": "Tribunes libres"
+    },
+    {
+      "href": "https://rassemblementnational.fr/lettre-ouverte",
+      "text": "Lettre ouverte"
+    },
+    {
+      "href": "https://rassemblementnational.fr/videos",
+      "text": "Vidéos"
+    },
+    {
+      "href": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+      "text": "Découvrez le programme"
+    },
+    {
+      "href": "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf",
+      "text": "Contre-Budget 2026"
+    },
+    {
+      "href": "https://rassemblementnational.fr/livrets-thematiques",
+      "text": "Livrets thématiques"
+    },
+    {
+      "href": "https://rassemblementnational.fr/22-mesures",
+      "text": "Les 22 mesures"
+    },
+    {
+      "href": "https://twitter.com/RNational_off",
+      "text": ""
+    },
+    {
+      "href": "https://www.facebook.com/RassemblementNational/",
+      "text": ""
+    },
+    {
+      "href": "https://www.youtube.com/user/fnofficiel",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/rassemblementnational_fr/",
+      "text": ""
+    },
+    {
+      "href": "https://t.me/rassemblementnational",
+      "text": ""
+    },
+    {
+      "href": "https://www.tiktok.com/@rnational_off?_t=8jFRT5Fgrpp&_r=1",
+      "text": ""
+    },
+    {
+      "href": "https://rassemblementnational.fr/les-federations-du-rassemblement-national",
+      "text": "Les fédérations métropolitaines"
+    },
+    {
+      "href": "https://rassemblementnational.fr/les-federations-dom-tom-du-rassemblement-national",
+      "text": "Les fédérations d’Outre-mer"
+    },
+    {
+      "href": "https://francaisdeletranger.rassemblementnational.fr/",
+      "text": "Les Français de l’étranger"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/bureau-executif",
+      "text": "Bureau exécutif"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/bureau-national",
+      "text": "Bureau national"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/commission-nationale-investiture",
+      "text": "Commission nationale d'investiture"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/commission-des-conflits",
+      "text": "Commission des conflits"
+    },
+    {
+      "href": "https://rassemblementnational.fr/conseil-national",
+      "text": "Conseil national"
+    },
+    {
+      "href": "https://rassemblementnational.fr/le-congres",
+      "text": "Le Congrès"
+    },
+    {
+      "href": "https://rassemblementnational.fr/congres2022",
+      "text": "18ème congrès"
+    },
+    {
+      "href": "https://rassemblementnational.fr/les-adherents",
+      "text": "Les adhérents"
+    },
+    {
+      "href": "https://rassemblementnational.fr/assemblee-generale-extraordinaire5nov2022",
+      "text": "Assemblée générale extraordinaire"
+    },
+    {
+      "href": "https://rassemblementnational.fr/reglement-interieur-du-rassemblement-national",
+      "text": "Le règlement intérieur"
+    },
+    {
+      "href": "https://rassemblementnational.fr/documents/261026_STATUTS_RN.pdf",
+      "text": "Statuts du Rassemblement National"
+    },
+    {
+      "href": "https://rassemblementnational.fr/videos",
+      "text": "Vidéos"
+    },
+    {
+      "href": "https://rassemblementnational.fr/communiques",
+      "text": "Communiqués"
+    },
+    {
+      "href": "https://rassemblementnational.fr/interventions",
+      "text": "Vie parlementaire"
+    },
+    {
+      "href": "https://rassemblementnational.fr/tribunes-libres",
+      "text": "Tribunes libres"
+    },
+    {
+      "href": "https://rassemblementnational.fr/discours",
+      "text": "Discours"
+    },
+    {
+      "href": "https://rassemblementnational.fr/conferences-de-presse",
+      "text": "Conférences de presse"
+    },
+    {
+      "href": "https://rassemblementnational.fr/lettre-ouverte",
+      "text": "Lettre ouverte"
+    },
+    {
+      "href": "https://rassemblementnational.fr/communiques/frontex-doit-proteger-nos-frontieres-pas-accueillir-limmigration-illegalle",
+      "text": "Frontex doit protéger nos frontières, pas accueillir l’immigration illégale Fabrice Leggeri - 28 octobre 2026"
+    },
+    {
+      "href": "https://rassemblementnational.fr/communiques/communique-de-presse-de-julien-sanchezdirecteur-de-campagne-de-marine-le-pen",
+      "text": "Communiqué de Presse de Julien SANCHEZ, directeur de campagne de Marine LE PEN Julien Sanchez - 27 octobre 2026"
+    },
+    {
+      "href": "https://rassemblementnational.fr/#",
+      "text": "Toute l'actualité →"
+    },
+    {
+      "href": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+      "text": "Législatives 2024 Découvrez le programme."
+    },
+    {
+      "href": "https://rassemblementnational.fr/documents/202411-programme-europeennes.pdf",
+      "text": "Européennes 2024 Découvrez le programme."
+    },
+    {
+      "href": "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf",
+      "text": "Contre-Budget 2026 Découvrez le programme."
+    },
+    {
+      "href": "https://rassemblementnational.fr/documents/WEB-GRN-LIVRET-ENTREPRISE.pdf",
+      "text": "La France entreprend Découvrez le programme."
+    },
+    {
+      "href": "https://rassemblementnational.fr/22-mesures",
+      "text": "Les 22 mesures Retrouvez l’intégralité du programme de Marine Le Pen pour la France."
+    },
+    {
+      "href": "https://rassemblementnational.fr/livrets-thematiques",
+      "text": "Livrets thématiques Retrouvez les livrets thématiques de Marine Le Pen."
+    },
+    {
+      "href": "https://rassemblementnational.fr/tracts",
+      "text": "Militer"
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/?utm_source=SiteRN&utm_medium=SiteRN_blochaut_adherer&utm_campaign=SiteRN_blochaut_adherer",
+      "text": "Adhérer"
+    },
+    {
+      "href": "https://rassemblementnational.fr/congres2026",
+      "text": ""
+    },
+    {
+      "href": "https://rassemblementnational.fr/programme-patriotes-pour-leurope",
+      "text": ""
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/?utm_source=SiteRN&utm_medium=SiteRN_slider_orleans_2026&utm_campaign=SiteRN_slider_orleans_2026",
+      "text": ""
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/?utm_source=SiteRN&utm_medium=SiteRN_slider_orleans_2026&utm_campaign=SiteRN_slider_orleans_2026",
+      "text": "J'adhère !"
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/?utm_source=SiteRN&utm_medium=SiteRN_slider_manif_17_octobre_171026&utm_campaign=SiteRN_slider_manif_17_octobre_171026",
+      "text": ""
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/?utm_source=SiteRN&utm_medium=SiteRN_slider_manif_17_octobre_171026&utm_campaign=SiteRN_slider_manif_17_octobre_171026",
+      "text": "Adhérez !"
+    },
+    {
+      "href": "https://rassemblementnational.fr/petition/face-au-chaos-la-france-en-ordre/?utm_source=SiteRN&utm_medium=SiteRN_slider_petition_FranceOrdre_oct26&utm_campaign=SiteRN_slider_petition_FranceOrdre_oct26",
+      "text": ""
+    },
+    {
+      "href": "https://rassemblementnational.fr/petition/face-au-chaos-la-france-en-ordre/?utm_source=SiteRN&utm_medium=SiteRN_slider_petition_FranceOrdre_oct26&utm_campaign=SiteRN_slider_petition_FranceOrdre_oct26",
+      "text": "Je signe !"
+    },
+    {
+      "href": "https://rassemblementnational.fr/petition/logement-avec-marine-le-pen-appliquons-la-priorite-nationale/?utm_source=SiteRN&utm_medium=SiteRN_slider_petition_PrioriteNationaleLogement_septembre26&utm_campaign=SiteRN_slider_petition_PrioriteNationaleLogement_septembre26",
+      "text": ""
+    },
+    {
+      "href": "https://rassemblementnational.fr/petition/logement-avec-marine-le-pen-appliquons-la-priorite-nationale/?utm_source=SiteRN&utm_medium=SiteRN_slider_petition_PrioriteNationaleLogement_septembre26&utm_campaign=SiteRN_slider_petition_PrioriteNationaleLogement_septembre26",
+      "text": "Je signe !"
+    },
+    {
+      "href": "https://marinelepen.com/",
+      "text": ""
+    },
+    {
+      "href": "https://marinelepen.com/",
+      "text": "Je soutiens Marine Le Pen"
+    },
+    {
+      "href": "https://rassemblementnational.fr/politique-protection-donnees",
+      "text": "Lire notre politique de confidentialité."
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/?utm_source=SiteRN&utm_medium=SiteRN_blocmilieu_adherer&utm_campaign=SiteRN_blocmilieu_adherer",
+      "text": "J’adhère"
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/dons?utm_source=SiteRN&utm_medium=SiteRN_blocmilieu_Je_Donne&utm_campaign=SiteRN_blocmilieu_Je_Donne",
+      "text": "Je donne"
+    },
+    {
+      "href": "https://twitter.com/RNational_off",
+      "text": ""
+    },
+    {
+      "href": "https://www.facebook.com/RassemblementNational/",
+      "text": ""
+    },
+    {
+      "href": "https://www.youtube.com/user/fnofficiel",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/rassemblementnational_fr/",
+      "text": ""
+    },
+    {
+      "href": "https://t.me/rassemblementnational",
+      "text": ""
+    },
+    {
+      "href": "https://www.tiktok.com/@rnational_off?_t=8jFRT5Fgrpp&_r=1",
+      "text": ""
+    },
+    {
+      "href": "https://rassemblementnational.fr/communiques/frontex-doit-proteger-nos-frontieres-pas-accueillir-limmigration-illegalle",
+      "text": "Communiqués Frontex doit protéger nos frontières, pas accueillir l’immigration illégale Fabrice Leggeri 28 octobre 2026"
+    },
+    {
+      "href": "https://rassemblementnational.fr/communiques/communique-de-presse-de-julien-sanchezdirecteur-de-campagne-de-marine-le-pen",
+      "text": "Communiqués Communiqué de Presse de Julien SANCHEZ, directeur de campagne de Marine LE PEN Julien Sanchez 27 octobre 2026"
+    },
+    {
+      "href": "https://rassemblementnational.fr/communiques/le-rassemblement-national-poursuit-en-diffamation-le-journal-le-monde",
+      "text": "Communiqués Le Rassemblement National poursuit en diffamation le journal Le Monde Bruno Bilde 27 octobre 2026"
+    },
+    {
+      "href": "https://rassemblementnational.fr/communiques/communique-de-presse-de-bruno-bilde-vice-president-du-rn-charge-des-affaires-juridiques",
+      "text": "Communiqués Communiqué de presse de Bruno Bilde, vice-président du RN chargé des affaires juridiques Bruno Bilde 26 octobre 2026"
+    },
+    {
+      "href": "https://rassemblementnational.fr/congres2026",
+      "text": ""
+    },
+    {
+      "href": "https://boutique.rassemblementnational.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://marinelepen.com/",
+      "text": ""
+    },
+    {
+      "href": "https://rassemblementnational.fr/petition/face-au-chaos-la-france-en-ordre",
+      "text": ""
+    },
+    {
+      "href": "https://rassemblementnational.fr/petitions",
+      "text": "Toutes nos pétitions"
+    },
+    {
+      "href": "https://rassemblementnational.fr/politique-protection-donnees",
+      "text": "Lire notre politique de confidentialité."
+    },
+    {
+      "href": "https://rassemblementnational.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://rassemblementnational.fr/programme-patriotes-pour-leurope",
+      "text": ""
+    },
+    {
+      "href": "https://twitter.com/RNational_off",
+      "text": ""
+    },
+    {
+      "href": "https://www.facebook.com/RassemblementNational/",
+      "text": ""
+    },
+    {
+      "href": "https://www.youtube.com/user/fnofficiel",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/rassemblementnational_fr/",
+      "text": ""
+    },
+    {
+      "href": "https://t.me/rassemblementnational",
+      "text": ""
+    },
+    {
+      "href": "https://www.tiktok.com/@rnational_off?_t=8jFRT5Fgrpp&_r=1",
+      "text": ""
+    },
+    {
+      "href": "https://deputes-rn.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://rassemblementnational.fr/les-federations-du-rassemblement-national",
+      "text": "Les fédérations métropolitaines"
+    },
+    {
+      "href": "https://rassemblementnational.fr/les-federations-dom-tom-du-rassemblement-national",
+      "text": "Les fédérations d’Outre-mer"
+    },
+    {
+      "href": "https://francaisdeletranger.rassemblementnational.fr/",
+      "text": "Les Français de l’étranger"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/bureau-executif",
+      "text": "Bureau Exécutif"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/bureau-national",
+      "text": "Bureau National"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/commission-nationale-investiture",
+      "text": "Commission Nationale d'Investiture"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/commission-des-conflits",
+      "text": "Commission des Conflits"
+    },
+    {
+      "href": "https://rassemblementnational.fr/le-congres",
+      "text": "Le Congrès"
+    },
+    {
+      "href": "https://rassemblementnational.fr/les-adherents",
+      "text": "Les adhérents"
+    },
+    {
+      "href": "https://rassemblementnational.fr/communiques",
+      "text": "Communiqués"
+    },
+    {
+      "href": "https://rassemblementnational.fr/tribunes-libres",
+      "text": "Tribunes libres"
+    },
+    {
+      "href": "https://rassemblementnational.fr/lettre-ouverte",
+      "text": "Lettre ouverte"
+    },
+    {
+      "href": "https://rassemblementnational.fr/videos",
+      "text": "Vidéos"
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/?utm_source=SiteRN&utm_medium=SiteRN_footer_adherer&utm_campaign=SiteRN_footer_adherer",
+      "text": "J'adhère au RN"
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/dons/?utm_source=SiteRN&utm_medium=SiteRN_footer_donner&utm_campaign=SiteRN_footer_donner",
+      "text": "Je donne au RN"
+    },
+    {
+      "href": "https://rassemblementnational.fr/tracts",
+      "text": "Je m'engage au RN"
+    },
+    {
+      "href": "https://rassemblementnational.fr/formulaire-contact",
+      "text": "Contacter le RN"
+    },
+    {
+      "href": "https://rassemblementnational.fr/formulaire-de-gestion-dexercice-des-droits-rgpd",
+      "text": "Formulaire RGPD"
+    },
+    {
+      "href": "https://rassemblementnational.fr/mentions-legales",
+      "text": "Mentions légales et CGU"
+    },
+    {
+      "href": "https://rassemblementnational.fr/politique-protection-donnees",
+      "text": "Politique de Confidentialité"
+    },
+    {
+      "href": "https://rassemblementnational.fr/politique-de-cookies",
+      "text": "Politique des cookies"
+    },
+    {
+      "href": "https://rassemblementnational.fr/formulaire-contact",
+      "text": "Nous contacter"
+    },
+    {
+      "href": "https://rassemblementnational.fr/formulaire-de-gestion-dexercice-des-droits-rgpd",
+      "text": "Formulaire RGPD"
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/?utm_source=SiteRN&utm_medium=SiteRN_bandeau&utm_campaign=SiteRN_bandeau",
+      "text": "Adhésion"
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/dons?type=ponctuel&amount=50&utm_source=SiteRN&utm_medium=SiteRN_bandeau&utm_campaign=SiteRN_bandeau",
+      "text": "50 €"
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/dons?type=ponctuel&amount=100&utm_source=SiteRN&utm_medium=SiteRN_bandeau&utm_campaign=SiteRN_bandeau",
+      "text": "100 €"
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/dons?type=ponctuel&amount=500&utm_source=SiteRN&utm_medium=SiteRN_bandeau&utm_campaign=SiteRN_bandeau",
+      "text": "500 €"
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/dons?type=ponctuel&amount=1000&utm_source=SiteRN&utm_medium=SiteRN_bandeau&utm_campaign=SiteRN_bandeau",
+      "text": "1 000 €"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "axeptio_cookies_rassemblement national-fr-EU_value",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "axeptio_cookies_rassemblement national-fr-EU_accept",
+      "id": "axeptio_consent_checkbox",
+      "value": "0",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "axeptio_main_button",
+      "value": "",
+      "label": "Gérez vos préférences en matière de cookies et données personnelles"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "search",
+      "id": "search",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "search",
+      "id": "search",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "hp_field",
+      "id": "hp_field",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "email-address",
+      "id": "email-address",
+      "value": "",
+      "label": "Email"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "optin",
+      "id": "banner-optin",
+      "value": "on",
+      "label": "J'accepte de recevoir les newsletters du Rassemblement National. Je pourrai toujours me désinscrire en cliquant sur le lien présent en bas de page de la newsletter. Lire notre politique de confidentialité."
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "hp_field",
+      "id": "hp_field",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "email-address",
+      "id": "email-address",
+      "value": "",
+      "label": "Email"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "rgpd",
+      "id": "rgpd",
+      "value": "on",
+      "label": "Je consens à ce que le Rassemblement National utilise mes données personnelles dans le cadre de mon soutien à cette mesure"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "hp_field",
+      "id": "hp_field",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "email-address",
+      "id": "email-address",
+      "value": "",
+      "label": "Email"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "rgpd",
+      "id": "rgpd",
+      "value": "on",
+      "label": "Je consens à ce que le Rassemblement National utilise mes données personnelles dans le cadre de mon soutien à cette mesure"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "hp_field",
+      "id": "hp_field",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "email-address",
+      "id": "email-address",
+      "value": "",
+      "label": "Email"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "rgpd",
+      "id": "rgpd",
+      "value": "on",
+      "label": "Je consens à ce que le Rassemblement National utilise mes données personnelles dans le cadre de mon soutien à cette mesure"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "hp_field",
+      "id": "hp_field",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "email-address",
+      "id": "email-address",
+      "value": "",
+      "label": "Email"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "rgpd",
+      "id": "rgpd",
+      "value": "on",
+      "label": "Je consens à ce que le Rassemblement National utilise mes données personnelles dans le cadre de mon soutien à cette mesure"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "hp_field",
+      "id": "hp_field",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "email-address",
+      "id": "email-address",
+      "value": "",
+      "label": "Email"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "rgpd",
+      "id": "rgpd",
+      "value": "on",
+      "label": "Je consens à ce que le Rassemblement National utilise mes données personnelles dans le cadre de mon soutien à cette mesure"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "hp_field",
+      "id": "hp_field",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "email-address",
+      "id": "email-address",
+      "value": "",
+      "label": "Email"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "rgpd",
+      "id": "rgpd",
+      "value": "on",
+      "label": "Je consens à ce que le Rassemblement National utilise mes données personnelles dans le cadre de mon soutien à cette mesure"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "hp_field",
+      "id": "hp_field",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "email-address",
+      "id": "email-address",
+      "value": "",
+      "label": "Email"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "rgpd",
+      "id": "rgpd",
+      "value": "on",
+      "label": "Je consens à ce que le Rassemblement National utilise mes données personnelles dans le cadre de mon soutien à cette mesure"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "hp_field",
+      "id": "hp_field",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "email-address",
+      "id": "email-address",
+      "value": "",
+      "label": "Email"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "rgpd",
+      "id": "rgpd",
+      "value": "on",
+      "label": "Je consens à ce que le Rassemblement National utilise mes données personnelles dans le cadre de mon soutien à cette mesure"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "hp_field",
+      "id": "hp_field",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "email-address",
+      "id": "email-address",
+      "value": "",
+      "label": "Email"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "optin",
+      "id": "optin",
+      "value": "on",
+      "label": "J'accepte de recevoir les newsletters du Rassemblement National. Je pourrai toujours me désinscrire en cliquant sur le lien présent en bas de page de la newsletter. Lire notre politique de confidentialité."
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "email-address",
+      "id": "email-address",
+      "value": "",
+      "label": "Email"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    }
+  ],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://rassemblementnational.fr/",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.youtube.com/embed/3jM21BgsATw?si=Bcv1nYGc2zd2JVJX",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.youtube.com/embed/vgkh4N9OFiM?si=-NEN96dW43Uxti2K",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://googleads.g.doubleclick.net/pagead/id",
+      "resourceType": "xhr",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+      "resourceType": "xhr",
+      "postData": null
+    },
+    {
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-YWP3TJZDX0&gtm=45je6ar1h1v9104041226za208zd9104041226xf1&_p=1793269362158&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_ng=1&cid=306787807.1793269363&frm=0&pscdl=noapi&rcb=1&sr=1280x1600&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.47%7CGoogle%2520Chrome%3B156.0.8078.47&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=fr-fr&gaf=2&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120420414~120469145~120469153~121246026~121246034~121328665&sid=1793269362&sct=1&seg=0&dl=https%3A%2F%2Frassemblementnational.fr%2F&dt=Rassemblement%20National%20-%20Accueil&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=766",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://googleads.g.doubleclick.net/pagead/id",
+      "resourceType": "xhr",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://client.axept.io/projectconfigurations/brands/6641e3815d90c1bed01261f0.json?r=0",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+      "resourceType": "xhr",
+      "postData": null
+    },
+    {
+      "method": "POST",
+      "url": "https://mpc-prod-25-s6uit34pua-wl.a.run.app/events?cee=no",
+      "resourceType": "fetch",
+      "postData": "{\"event_name\":\"PageView\",\"event_id\":\"ob3_plugin-set_43f12ee7232b0079be4c244c9a8a2b49d911fe6d0f1f65c63a7131d65d9efd44\",\"fb.pixel_id\":\"816960238434260\",\"website_context\":{\"location\":\"https://rassemblementnational.fr/\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793269362849.29085397613451080\",\"event_meta_info\":{\"cs_est\":true}}"
+    },
+    {
+      "method": "GET",
+      "url": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "POST",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "resourceType": "xhr",
+      "postData": "[\"O43z0dpjhgX20SCx4KAo\",\"$82w5bAhRAAagS3bUgEveiYgX06FpzIanAEABEArZ1MSKiQ9mQpE2LnY4VY1N_WTKkZjAQp9uIofN7Kp0nHNLubhE-ca0CHmw07B5pD3tXF8sPhaRwbSCGw5OngAAAUrOAAAABvQBB-IAVMG69ktw59JuAJLWEOygqeB69OCGl5Y6LuRuE_iK9IoAe5Aq8vT1IEAeDNSnesOtbc9JZhu9No-LNgVDnttGO8nN6vc8MNocMp94kXJID6AO_D2bNQUE7mXvsywjoQd7houssl_bGZoalcAwiAHtbSPcBI1D1zE1rcr095Y2IvizE3wOqOPiMt0EuXmHeSbmH8hHRb4ZDOe0W7EifhbBCdCNOGTdOV7JMB6asL5zJKjl7GaZa6LrflkF0swPKPU9L28q47IHm4AB08HKSFGlRotSjLmNlf58nIpmUZFwlFFYAoYOIBahaB-Vc7kLunfXOn1M7BHHmEpWxJPn1K0Lp5USkaHcRNGe5BLLgz4jChuCmVNnliH4ZapxRgBbYD8GbxqsTCsY3ha02nM9hXsGYJHBE2UoD4ZKQIUnw3ip26o6FajJqZL5tRxL-lDjTh3ez9Tpj06svr2a7HKWQs6LAfyO97i5GnBuwkfulUEdsNwOT5tjPKfFiUhOgPglkMy-5kvK7zSi7MGm_5pdYVynm_SrGnzG3MrrmqGAtT55UnHjmQS1SRdXRQV9vTDSSWui0Xe0N9DGmoFLVBXK0E7Lvho1YOms4eYRpt4TVl2y7kSzJ0D0ly489Ux1YZZ3sfB6UaPqVuSzEP46I3zs9gDH9dJP3WT59x4JSC92WW_AoibwMCBsD3IHvb467Blv3WH9zrxjeVYIGmmXLjTJcDoNLQNNCMkdf1HnMBpdQlw8jPdejOY1prd1MfJKBm_CJ5DZC41hMKAMhLs-vICG9w0T_F-uSWNvgRwCX8qE4iltTv06RZomDpKKKqE5TiSp8QVqxizEV0REaUexEi8ujriE_FmaYfSGKXLwbTxlCxDIE2VUTYj58ArzYXPDnQspPFK-YklsgSBktNkzHMbJWd3bHVpa8PChEHhv2YrGI0osJiyuM2JGThCDc4nt9ki6qngzXErVyJPSU-jdDmJEFic66klFw-H0CUtMgsbHNtvRjVyom73PBylqIW_VwvxWRukQ8T79Xw1OokD5c-9K5umf9JkvWT7aK8p-nJZm8TD02mvnm0wNSIoHrexyRAUss7Fr42yovGKrcV5r2kH7-cDTmWO9utsBnM_DWzRi18jBuvXWMhts_thhHhQXskfPH7p7pJtl-c-ElnKPjtyG_qaZ67rEFhNZSuciIx0xmsuXI4y2R-ImTyYQ3Q79Qc5f-jGCRbXHk3Cw0GjgCWfjdLzBemUifjqMJwG_3BjGWE08q66LU8ISIPKRea_BbkX3CRnalGnYskVB7hUr01WgNoIh4yYsmVZSqiUkqFzDttBkjgDMiupnnNbOLU3ucKmsx7q97ohcRXsXPZos2IuKxr5iLt4__SFt4KdZTvVf3TXnz95G7OO5RmFeG3aXaPZa7ua-R31oBhfEfVvqRjGs-VMOinY1f-iFwNwZp_CtAynkAhkMQisibgJdcgJZQmzAI9akrJmqD2GF-igVjOB_O1wpLET5WY9ARJgIjd6TU3KT4V4bRl_7vEeI7-_8jIM1idQ4i-Rf5R0fZ2bbG7USTbWzRgY2sLF8x1sRB5YDCwTjPBmsaIFM1SMtBoMDspxk5wzLQdHDdh-J4mYM45xM7EZPk9DzymlGvVq3AUhwImRgfWB2EhTN8hYhjJ7ce1hW7oJESFjTUKBeVMVqH_9-Ft3Fvkb_7f7wX-QhYwlwoFetVpf4V_nQ9FJ88eUxMrzOXyBC4APpEORJbA6g9g-xnE6BeQAJylmHgrTkEIaacgr7mRzk1Vrgba9Q_RiDORKCWvqM1Qiw6cef\"]"
+    },
+    {
+      "method": "POST",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "resourceType": "xhr",
+      "postData": "[\"O43z0dpjhgX20SCx4KAo\",\"$OKc5p8NRAAagS3bUgEverCDuFX0I2PanAEABEArZ1ADU1S7ZCfp8GGr2I0omq1q4WZbnRKD64VQu1_fk6kWi1o7gD5vpjPHdQvd-G6isBObBPEAX5Rqf1ekkngAAAPXOAAAABPQBB-IAVDvb8ivqo9SLUvm2B_vvcj4EgcimZn-FZDZFIETaMu1LrajiswuUNu44ivQQjvW3_JaCAlVL_6JC46fmW5OkkV4RiHJw5staIpR7Rbm9foB39HNJjwUFAb0lJmSZNpe3IC5l_q11UHyqJxnqCGkvnEgx1o8j--IkoXWemHttKJv_ykYHwS0BV1nmX2QBi7SfBi5VAS4FISzqEJ2Z3OQknaLtlCMSLUCRBstOOpFRt3WfO78T9RhdLVL9clM08BmFSDj-sbi9coEIG1Ox6-gBGoTFiN-pWst96AhJI0ud4pzNP8CUpGWDn284LKyrNo1P89APjvjIr6qhgtzisGpoDSFL9BqvoBeqLnOOI6TXebvQZJ0z4wH-rTlOx9OxLX-oYF3Km2-1Bg8d2s2MVHprYiqcC4aysEAXVAv4w6cOdBWuk7gFsQpB2EPQVvmeGou40lu1mvmk50JWGHx9XIm3Kz_f1XgwJUhq6A6tg6qcthZPmS1yz45rouHcxoLesBLJFI3-jtxRunnGV1Ktisaghhp-ODC3R43-SkG6vg7WA9X8Vi9NUjntwcsPCu0oolq-byU1ymEPsmUaN6M0RWKI6PxXElKTkUA6KIN2o6VLWFC59Z8Ief1f7z4NTpuW2Cgo8ci13gav9RA17n4Hlt8xr8eTsmDWwq7eizjxxhkGp58OQ-7lTypmav87RcuQ07MNO35J4YSvFmzNhFbfQFGAEDH4fLT8bagDHPzILOxbt-sgFn9U1EDlUsEyZ9sXv3V0p5OlmADZj5oSPjILPGU7BcTxQXXSwBTkBg0Uay-Mlp53Po13znFYbj5WGFbOOMSvzLc9wpglEYdRmneUXC4akx1jnkgvUBnX_v9L4KiDDxS6KcsVST9BRK1KMT88ve3JNo1lTx41I-oiapP4sK8wKpOItIzxwdyyXhEEQ8XnqudIJXhS58ITavc6IySwYpkdUbSdChX5JC0liJvNjurFaEGoGZon6IaEiML0n9mAkga4GSsg9o4iU1d53vapxlt5qdRO7OByIMiwq7CVcsRSoSpKm5C5ax94Ca_HLggT2SM58l7MCA9vu0biIju63lRFkX7JP97ullPqhy5PVrdQLCZ99i3UNRvd6qZjEED09WLn1LeM3_Szojvb6F2ISqPTOVuCZIWUyedcLJMnW1KgEqFtSduFPIEea-Wlnjtc13rf-AOBODJf_9pF67pQlql6D2JZlVG-YrXGGTWFzUhMuPJznYXkrcPbLHqfAbxnweaT5k5jXhvsbYo1fjFLl5gI061BIH39QLQdGOjOZkZh_kDpV_8ETllkPQYKB6GdHxOX_5IqIwV47uT62CzYhUWRr-hdQB36fqhYvJPTjIzYCS0RPlQcNB0A3SjMVIK5VeclnRFyt5MvbdPup_49eUaJxznrk8twhXluGFo4isg3FjKVFThjh3wKe35JLDV2uvc4di5y5xqDKlwh-Wwsv1i38mp88zeJZh8p3VHNgHhvzuFCvKs2uBNHLhQ-5EzlxSea_xlanDl_INSgMJPlzEvPEIVmIAuVLmeojDDGCek0Flc9Str3pELY2hOD6lMTLV-HAFHKgTct3JWAynX-sxgt8wOFhcFBciuAi_P65PDk_v4dP9vfvdLUzKYvJPSNMhra-lmK_naH2tUheDwLNXJm1J5Xqvd2aJ8BKcwaGMAVbNZXmPEA5ppE6X-KgKeV3UjNbUz7MDD-gCvWxImJBe85va04Q4S-N6-4l3L7508oUuREP7OVjCeaYV5LXICKja8jfAO3-IUxubzUtbZ5_H8sP1-k3LBpjiPrvoulpsTYLXUZtACEol6OhQ\"]"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+      "resourceType": "xhr",
+      "postData": "{\"context\":{\"client\":{\"hl\":\"fr\",\"gl\":\"US\",\"clientName\":56,\"clientVersion\":\"2.20261028.01.00\",\"configInfo\":{\"appInstallData\":\"CPK8jNcGEMn2gBMQyvuAExD36NIcEJj-0hwQ1fHSHBDBj9AcEO370hwQ3YrTHBC9tq4FEJzl0hwQ3K3SHBC45M4cENr3zhwQh6zOHBDcirgiENOK0xwQn8-AExDM364FEN68zhwQrvDSHBDw3tEcEIHNzhwQmY2xBRD2q7AFEL6E0RwQ09rSHBChgNMcEPza0hwQ5-vRHBCu3tEcEMCX0xwQpKnRHBDL-9IcEK7WzxwQ6fLSHBD8j9McEPG00BwQkO_SHBC-irAFEJ7QsAUQvKTQHBCl49IcELmH0xwQw-PRHBCv-NEcEImwzhwQ56vSHBCrkdEcEL740hwQy_LSHBDCwNIcEPb30RwQ94q4IhD3-9IcEMT90hwqbENBTVNUUlZPLVpxLURNZVVFcFVDbkE3NUZaNEZwX0lQZ1EwRjFnN1FCTjRHd3dRamVJb0N1cHJwQ3pLcnJBU1R6QU8yNUFia2hSZXN1d1BaMVFYZExKeUxBX1Z6bS1vT1otMmVCdWlVQkIwSDAA\"},\"userAgent\":\"MonQuinquennat-ReleveSimulateurs/0.1 (+https://github.com/BaptisteLac/mon-quinquennat)\",\"connectionType\":\"CONN_CELLULAR_4G\",\"osName\":\"+https://github.com/BaptisteLac/mon-quinquennat\",\"platform\":\"DESKTOP\",\"windowWidthPoints\":628,\"windowHeightPoints\":353},\"thirdParty\":{\"embedUrl\":\"https://rassemblementnational.fr/\"}},\"events\":[{\"eventTimeMs\":1793269362428,\"latencyActionTicked\":{\"tickName\":\"mm_is\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362430,\"latencyActionTicked\":{\"tickName\":\"mm_ie\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362434,\"latencyActionTicked\":{\"tickName\":\"ep_init_cus\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362434,\"latencyActionTicked\":{\"tickName\":\"ep_init_eps\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362435,\"latencyActionTicked\":{\"tickName\":\"ep_init_epe\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362435,\"latencyActionTicked\":{\"tickName\":\"ep_init_cue\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362700,\"latencyActionTicked\":{\"tickName\":\"pe\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362764,\"latencyActionTicked\":{\"tickName\":\"ep_init_wes\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362326,\"latencyActionTicked\":{\"tickName\":\"srt\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362184,\"latencyActionBaselined\":{\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362220,\"latencyActionTicked\":{\"tickName\":\"nreqs\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362326,\"latencyActionTicked\":{\"tickName\":\"nress\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362344,\"latencyActionTicked\":{\"tickName\":\"nrese\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362187,\"latencyActionTicked\":{\"tickName\":\"ndnss\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362194,\"latencyActionTicked\":{\"tickName\":\"ndnse\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362194,\"latencyActionTicked\":{\"tickName\":\"ntcps\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362220,\"latencyActionTicked\":{\"tickName\":\"ntcpe\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362207,\"latencyActionTicked\":{\"tickName\":\"nstcps\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362220,\"latencyActionTicked\":{\"tickName\":\"ntcpe\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362348,\"latencyActionTicked\":{\"tickName\":\"wffs\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362407,\"latencyActionTicked\":{\"tickName\":\"wffe\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362346,\"latencyActionTicked\":{\"tickName\":\"rsf_pj\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362611,\"latencyActionTicked\":{\"tickName\":\"rse_pj\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362345,\"latencyActionTicked\":{\"tickName\":\"rsf_pc\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362370,\"latencyActionTicked\":{\"tickName\":\"rse_pc\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362346,\"latencyActionTicked\":{\"tickName\":\"rsf_ecj\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362399,\"latencyActionTicked\":{\"tickName\":\"rse_ecj\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362345,\"latencyActionTicked\":{\"tickName\":\"rsf_ecc\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362371,\"latencyActionTicked\":{\"tickName\":\"rse_ecc\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362768,\"latencyActionInfo\":{\"isNavigation\":true,\"actionType\":\"LATENCY_ACTION_VIDEO_PREVIEW\",\"httpProtocol\":\"h2\",\"transportProtocol\":\"tcp\",\"isVisible\":true,\"loadType\":\"cold\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362422,\"latencyActionTicked\":{\"tickName\":\"rses_dpj\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362771,\"latencyActionTicked\":{\"tickName\":\"ep_init_wee\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362773,\"latencyActionInfo\":{\"serverTimeMs\":77,\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362803,\"screenCreated\":{\"csn\":\"n7RyapG1FkSuMii4\",\"pageVe\":{\"veType\":16623,\"youtubeData\":{\"servletData\":{\"serializedServletEventId\":\"ch7jatjsDoO_-_sPxNGpyA0\"}}}},\"context\":{\"lastActivityMs\":\"15\"}},{\"eventTimeMs\":1793269362803,\"latencyActionInfo\":{\"clientScreenNonce\":\"n7RyapG1FkSuMii4\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"16\"}},{\"eventTimeMs\":1793269362803,\"screenCreated\":{\"csn\":\"mTXGTUtQkcpRvsJe\",\"pageVe\":{\"veType\":32594},\"implicitGesture\":{\"parentCsn\":\"n7RyapG1FkSuMii4\",\"gesturedVe\":{\"veType\":16623},\"gestureType\":\"INTERACTION_LOGGING_GESTURE_TYPE_AUTOMATED\"}},\"context\":{\"lastActivityMs\":\"16\"}},{\"eventTimeMs\":1793269362803,\"visualElementHidden\":{\"csn\":\"n7RyapG1FkSuMii4\",\"ve\":{\"veType\":16623},\"eventType\":16},\"context\":{\"lastActivityMs\":\"16\"}},{\"eventTimeMs\":1793269362803,\"latencyActionInfo\":{\"clientScreenNonce\":\"mTXGTUtQkcpRvsJe\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"16\"}},{\"eventTimeMs\":1793269362804,\"visualElementAttached\":{\"csn\":\"mTXGTUtQkcpRvsJe\",\"parentVe\":{\"veType\":32594},\"childVes\":[{\"trackingParams\":\"CAAQru4BIhMIh9nN-oDflwMVy5zCAR3npj0wygEEAyRrlw==\"}]},\"context\":{\"lastActivityMs\":\"16\"}},{\"eventTimeMs\":1793269362808,\"latencyActionTicked\":{\"tickName\":\"qoes\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"21\"}},{\"eventTimeMs\":1793269362809,\"latencyActionTicked\":{\"tickName\":\"fs\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"22\"}},{\"eventTimeMs\":1793269362818,\"latencyActionInfo\":{\"clientPlaybackNonce\":\"U4XDpA1_HqfEmdc9\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"31\"}},{\"eventTimeMs\":1793269362819,\"latencyActionTicked\":{\"tickName\":\"ep_init_pr\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"32\"}},{\"eventTimeMs\":1793269362822,\"latencyActionTicked\":{\"tickName\":\"pot_ist\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"35\"}},{\"eventTimeMs\":1793269362866,\"foregroundHeartbeatScreenAssociated\":{\"clientDocumentNonce\":\"Gr5S4dgjAQrUyF82\",\"clientScreenNonce\":\"n7RyapG1FkSuMii4\"},\"context\":{\"lastActivityMs\":\"78\"}},{\"eventTimeMs\":1793269362866,\"foregroundHeartbeatScreenAssociated\":{\"clientDocumentNonce\":\"Gr5S4dgjAQrUyF82\",\"clientScreenNonce\":\"mTXGTUtQkcpRvsJe\"},\"context\":{\"lastActivityMs\":\"79\"}},{\"eventTimeMs\":1793269362930,\"latencyActionTicked\":{\"tickName\":\"ep_init_ijs\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"143\"}},{\"eventTimeMs\":1793269362931,\"latencyActionTicked\":{\"tickName\":\"ep_init_ije\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"144\"}},{\"eventTimeMs\":1793269362931,\"latencyActionTicked\":{\"tickName\":\"ep_init_rs\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"144\"}},{\"eventTimeMs\":1793269362932,\"latencyActionTicked\":{\"tickName\":\"ep_init_re\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"145\"}},{\"eventTimeMs\":1793269362958,\"visualElementAttached\":{\"csn\":\"mTXGTUtQkcpRvsJe\",\"parentVe\":{\"veType\":32594},\"childVes\":[{\"veType\":28572,\"veCounter\":2,\"elementIndex\":0}]},\"context\":{\"lastActivityMs\":\"171\"}},{\"eventTimeMs\":1793269362958,\"visualElementShown\":{\"csn\":\"mTXGTUtQkcpRvsJe\",\"ve\":{\"veType\":28572,\"veCounter\":2,\"elementIndex\":0},\"eventType\":1},\"context\":{\"lastActivityMs\":\"171\"}},{\"eventTimeMs\":1793269362978,\"latencyActionTicked\":{\"tickName\":\"ftr\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"191\"}},{\"eventTimeMs\":1793269362993,\"latencyActionTicked\":{\"tickName\":\"ol\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"206\"}},{\"eventTimeMs\":1793269362993,\"latencyActionTicked\":{\"tickName\":\"ol\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"206\"}},{\"eventTimeMs\":1793269362993,\"visualElementAttached\":{\"csn\":\"mTXGTUtQkcpRvsJe\",\"parentVe\":{\"veType\":32594},\"childVes\":[{\"veType\":23851,\"veCounter\":3,\"elementIndex\":0}]},\"context\":{\"lastActivityMs\":\"206\"}},{\"eventTimeMs\":1793269362993,\"visualElementShown\":{\"csn\":\"mTXGTUtQkcpRvsJe\",\"ve\":{\"veType\":23851,\"veCounter\":3,\"elementIndex\":0},\"eventType\":1},\"context\":{\"lastActivityMs\":\"206\"}},{\"eventTimeMs\":1793269362993,\"visualElementAttached\":{\"csn\":\"mTXGTUtQkcpRvsJe\",\"parentVe\":{\"veType\":32594},\"childVes\":[{\"veType\":36925,\"veCounter\":4,\"elementIndex\":0}]},\"context\":{\"lastActivityMs\":\"206\"}},{\"eventTimeMs\":1793269362993,\"visualElementShown\":{\"csn\":\"mTXGTUtQkcpRvsJe\",\"ve\":{\"veType\":36925,\"veCounter\":4,\"elementIndex\":0},\"eventType\":1},\"context\":{\"lastActivityMs\":\"206\"}},{\"eventTimeMs\":1793269362995,\"visualElementShown\":{\"csn\":\"mTXGTUtQkcpRvsJe\",\"ve\":{\"veType\":28572,\"veCounter\":2,\"elementIndex\":0},\"eventType\":1},\"context\":{\"lastActivityMs\":\"208\"}},{\"eventTimeMs\":1793269362995,\"visualElementShown\":{\"csn\":\"mTXGTUtQkcpRvsJe\",\"ve\":{\"veType\":23851,\"veCounter\":3,\"elementIndex\":0},\"eventType\":1},\"context\":{\"lastActivityMs\":\"208\"}},{\"eventTimeMs\":1793269362995,\"visualElementShown\":{\"csn\":\"mTXGTUtQkcpRvsJe\",\"ve\":{\"veType\":36925,\"veCounter\":4,\"elementIndex\":0},\"eventType\":1},\"context\":{\"lastActivityMs\":\"208\"}},{\"eventTimeMs\":1793269362995,\"visualElementShown\":{\"csn\":\"mTXGTUtQkcpRvsJe\",\"ve\":{\"trackingParams\":\"CAQQ-N8BGAAiEwiH2c36gN-XAxXLnMIBHeemPTA=\"},\"eventType\":1},\"context\":{\"lastActivityMs\":\"208\"}},{\"eventTimeMs\":1793269362995,\"visualElementShown\":{\"csn\":\"mTXGTUtQkcpRvsJe\",\"ve\":{\"trackingParams\":\"CAIQyvMFIhMIh9nN-oDflwMVy5zCAR3npj0w\"},\"eventType\":1},\"context\":{\"lastActivityMs\":\"208\"}},{\"eventTimeMs\":1793269363032,\"latencyActionTicked\":{\"tickName\":\"ftl\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"245\"}},{\"eventTimeMs\":1793269363106,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChUvY2xpZW50X3N0cmVhbXovYmcvZWMSEAoOCghib3RndWFyZBICNTMaAmVuGgJtayIRCgMKAW8KBgoEYUdJZhICCAEiEQoDCgF0CgYKBGFHSWYSAggBIhEKAwoBaAoGCgRhR0lmEgIICQ==\"},\"context\":{\"lastActivityMs\":\"319\"}},{\"eventTimeMs\":1793269363107,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChUvY2xpZW50X3N0cmVhbXovYmcvZWwSEAoOCghib3RndWFyZBICNTMaAmVuGgJtayIYCgMKAWgKBgoEYUdJZhIJEQAAAADgzCZAIhgKAwoBaAoGCgRhR0lmEgkRAAAAAAAAJ0AiGAoDCgFoCgYKBGFHSWYSCREAAAAAAJrxPyIYCgMKAWgKBgoEYUdJZhIJEQAAAAAAzfQ/IhgKAwoBaAoGCgRhR0lmEgkRAAAAAKCZJUAiGAoDCgFoCgYKBGFHSWYSCREAAAAAAAAUQCIYCgMKAWgKBgoEYUdJZhIJEQAAAABAZhJAIhgKAwoBaAoGCgRhR0lmEgkRAAAAACAzJkAiGAoDCgFoCgYKBGFHSWYSCREAAAAAgJkVQCIYCgMKAXQKBgoEYUdJZhIJEQAAAAAAkG9A\"},\"context\":{\"lastActivityMs\":\"320\"}},{\"eventTimeMs\":1793269363191,\"latencyActionTicked\":{\"tickName\":\"pot_if\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"404\"}},{\"eventTimeMs\":1793269363192,\"latencyActionTicked\":{\"tickName\":\"pot_cms\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"404\"}},{\"eventTimeMs\":1793269363192,\"latencyActionTicked\":{\"tickName\":\"pot_cmf\",\"clientActionNonce\":\"vVA31MtDy_dpZI5a\"},\"context\":{\"lastActivityMs\":\"405\"}},{\"eventTimeMs\":1793269364113,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChYvY2xpZW50X3N0cmVhbXovYmcvZnJzEhAKDgoIYm90Z3VhcmQSAjUzGgJtayITCgYKBGFHSWYSCREAAAAAALyeQA==\"},\"context\":{\"lastActivityMs\":\"1326\"}},{\"eventTimeMs\":1793269364113,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChUvY2xpZW50X3N0cmVhbXovYmcvZWMSEAoOCghib3RndWFyZBICNTMaAmVuGgJtayIRCgMKAW4KBgoEYUdJZhICCAEiEQoDCgFtCgYKBGFHSWYSAggB\"},\"context\":{\"lastActivityMs\":\"1326\"}},{\"eventTimeMs\":1793269364113,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChUvY2xpZW50X3N0cmVhbXovYmcvZWwSEAoOCghib3RndWFyZBICNTMaAmVuGgJtayIYCgMKAW4KBgoEYUdJZhIJEQAAZmZmZhJAIhgKAwoBaQoGCgRhR0lmEgkRAACgmZmZ2T8iGAoDCgFvCgYKBGFHSWYSCREAmJmZmeF2QCIYCgMKAWMKBgoEYUdJZhIJEQAAAAAAAAAAIhgKAwoBQwoGCgRhR0lmEgkRAAAgMzMz0z8iGAoDCgF4CgYKBGFHSWYSCREAAACamZm5PyIYCgMKAW0KBgoEYUdJZhIJEQAAAAAAAOA/\"},\"context\":{\"lastActivityMs\":\"1326\"}}],\"serializedClientEventId\":{\"serializedEventId\":\"ch7jatjsDoO_-_sPxNGpyA0\",\"clientCounter\":\"32624\"}}"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+      "resourceType": "xhr",
+      "postData": "{\"context\":{\"client\":{\"hl\":\"fr\",\"gl\":\"US\",\"clientName\":56,\"clientVersion\":\"2.20261028.01.00\",\"configInfo\":{\"appInstallData\":\"CPK8jNcGEMn2gBMQyvuAExD36NIcEJj-0hwQ1fHSHBDBj9AcEOz70hwQ3YrTHBC9tq4FEJzl0hwQ3K3SHBCPoNMcELjkzhwQ2vfOHBCHrM4cENuKuCIQn8-AExDM364FEN68zhwQrvDSHBDw3tEcEIHNzhwQmY2xBRD2q7AFEL6E0RwQ09rSHBChgNMcEPza0hwQ5-vRHBCvg9McEK7e0RwQwJfTHBCkqdEcEMv70hwQrtbPHBDp8tIcEPyP0xwQ8bTQHBCQ79IcEL2KsAUQntCwBRC8pNAcEKXj0hwQuIfTHBCw-NEcELbr0hwQibDOHBCzkdEcEL340hwQy_LSHBDCwNIcEPb30RwQnaLTHBChz88cELm-0hwqYENBTVNSQlZILVpxLURMaVVFcFFDbkE3NUZaNEZwX0lQanczVkR0QUVuUUt2QnBnRzZBUzhtdWtMTXF1c0JKUE1BN2JrQnVTRkY2eTdBOW5WQmQwc25Jc0RpT1VOWngwSDAA\"},\"userAgent\":\"MonQuinquennat-ReleveSimulateurs/0.1 (+https://github.com/BaptisteLac/mon-quinquennat)\",\"connectionType\":\"CONN_CELLULAR_4G\",\"osName\":\"+https://github.com/BaptisteLac/mon-quinquennat\",\"platform\":\"DESKTOP\",\"windowWidthPoints\":628,\"windowHeightPoints\":353},\"thirdParty\":{\"embedUrl\":\"https://rassemblementnational.fr/\"}},\"events\":[{\"eventTimeMs\":1793269362394,\"latencyActionTicked\":{\"tickName\":\"mm_is\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362398,\"latencyActionTicked\":{\"tickName\":\"mm_ie\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362402,\"latencyActionTicked\":{\"tickName\":\"ep_init_cus\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362402,\"latencyActionTicked\":{\"tickName\":\"ep_init_eps\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362403,\"latencyActionTicked\":{\"tickName\":\"ep_init_epe\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362403,\"latencyActionTicked\":{\"tickName\":\"ep_init_cue\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362508,\"latencyActionTicked\":{\"tickName\":\"pe\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362509,\"latencyActionTicked\":{\"tickName\":\"ep_init_wes\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362311,\"latencyActionTicked\":{\"tickName\":\"srt\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362185,\"latencyActionBaselined\":{\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362220,\"latencyActionTicked\":{\"tickName\":\"nreqs\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362311,\"latencyActionTicked\":{\"tickName\":\"nress\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362336,\"latencyActionTicked\":{\"tickName\":\"nrese\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362337,\"latencyActionTicked\":{\"tickName\":\"wffs\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362405,\"latencyActionTicked\":{\"tickName\":\"wffe\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362334,\"latencyActionTicked\":{\"tickName\":\"rsf_pj\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362454,\"latencyActionTicked\":{\"tickName\":\"rse_pj\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362334,\"latencyActionTicked\":{\"tickName\":\"rsf_pc\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362355,\"latencyActionTicked\":{\"tickName\":\"rse_pc\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362334,\"latencyActionTicked\":{\"tickName\":\"rsf_ecj\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362373,\"latencyActionTicked\":{\"tickName\":\"rse_ecj\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362334,\"latencyActionTicked\":{\"tickName\":\"rsf_ecc\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362352,\"latencyActionTicked\":{\"tickName\":\"rse_ecc\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362514,\"latencyActionInfo\":{\"isNavigation\":true,\"actionType\":\"LATENCY_ACTION_VIDEO_PREVIEW\",\"httpProtocol\":\"h2\",\"transportProtocol\":\"tcp\",\"isVisible\":true,\"loadType\":\"cold\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362391,\"latencyActionTicked\":{\"tickName\":\"rses_dpj\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362520,\"latencyActionTicked\":{\"tickName\":\"ep_init_wee\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1793269362551,\"screenCreated\":{\"csn\":\"l2diMM-E41-dKcKn\",\"pageVe\":{\"veType\":16623,\"youtubeData\":{\"servletData\":{\"serializedServletEventId\":\"ch7jarr0Du-WuNwPjeXC-Ak\"}}}},\"context\":{\"lastActivityMs\":\"22\"}},{\"eventTimeMs\":1793269362551,\"latencyActionInfo\":{\"clientScreenNonce\":\"l2diMM-E41-dKcKn\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"22\"}},{\"eventTimeMs\":1793269362552,\"screenCreated\":{\"csn\":\"kWSeBUVKYXN14x7P\",\"pageVe\":{\"veType\":32594},\"implicitGesture\":{\"parentCsn\":\"l2diMM-E41-dKcKn\",\"gesturedVe\":{\"veType\":16623},\"gestureType\":\"INTERACTION_LOGGING_GESTURE_TYPE_AUTOMATED\"}},\"context\":{\"lastActivityMs\":\"23\"}},{\"eventTimeMs\":1793269362552,\"visualElementHidden\":{\"csn\":\"l2diMM-E41-dKcKn\",\"ve\":{\"veType\":16623},\"eventType\":16},\"context\":{\"lastActivityMs\":\"23\"}},{\"eventTimeMs\":1793269362552,\"latencyActionInfo\":{\"clientScreenNonce\":\"kWSeBUVKYXN14x7P\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"23\"}},{\"eventTimeMs\":1793269362554,\"visualElementAttached\":{\"csn\":\"kWSeBUVKYXN14x7P\",\"parentVe\":{\"veType\":32594},\"childVes\":[{\"trackingParams\":\"CAAQru4BIhMIgKrM-oDflwMVjGsSAR1BYSMKygEEs-Gdrg==\"}]},\"context\":{\"lastActivityMs\":\"25\"}},{\"eventTimeMs\":1793269362557,\"latencyActionTicked\":{\"tickName\":\"qoes\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"28\"}},{\"eventTimeMs\":1793269362559,\"latencyActionTicked\":{\"tickName\":\"fs\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"30\"}},{\"eventTimeMs\":1793269362568,\"latencyActionInfo\":{\"clientPlaybackNonce\":\"NW3gMIlixl5vGQHt\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"40\"}},{\"eventTimeMs\":1793269362570,\"latencyActionTicked\":{\"tickName\":\"ep_init_pr\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"41\"}},{\"eventTimeMs\":1793269362578,\"latencyActionTicked\":{\"tickName\":\"pot_ist\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"49\"}},{\"eventTimeMs\":1793269362588,\"latencyActionInfo\":{\"serverTimeMs\":58,\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"59\"}},{\"eventTimeMs\":1793269362667,\"latencyActionTicked\":{\"tickName\":\"ep_init_ijs\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"138\"}},{\"eventTimeMs\":1793269362668,\"latencyActionTicked\":{\"tickName\":\"ep_init_ije\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"139\"}},{\"eventTimeMs\":1793269362668,\"latencyActionTicked\":{\"tickName\":\"ep_init_rs\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"139\"}},{\"eventTimeMs\":1793269362670,\"latencyActionTicked\":{\"tickName\":\"ep_init_re\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"141\"}},{\"eventTimeMs\":1793269362670,\"foregroundHeartbeatScreenAssociated\":{\"clientDocumentNonce\":\"U96C1N4-UVdGCD3f\",\"clientScreenNonce\":\"l2diMM-E41-dKcKn\"},\"context\":{\"lastActivityMs\":\"141\"}},{\"eventTimeMs\":1793269362670,\"foregroundHeartbeatScreenAssociated\":{\"clientDocumentNonce\":\"U96C1N4-UVdGCD3f\",\"clientScreenNonce\":\"kWSeBUVKYXN14x7P\"},\"context\":{\"lastActivityMs\":\"141\"}},{\"eventTimeMs\":1793269362710,\"visualElementAttached\":{\"csn\":\"kWSeBUVKYXN14x7P\",\"parentVe\":{\"veType\":32594},\"childVes\":[{\"veType\":28572,\"veCounter\":2,\"elementIndex\":0}]},\"context\":{\"lastActivityMs\":\"181\"}},{\"eventTimeMs\":1793269362710,\"visualElementShown\":{\"csn\":\"kWSeBUVKYXN14x7P\",\"ve\":{\"veType\":28572,\"veCounter\":2,\"elementIndex\":0},\"eventType\":1},\"context\":{\"lastActivityMs\":\"181\"}},{\"eventTimeMs\":1793269362730,\"latencyActionTicked\":{\"tickName\":\"ftr\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"201\"}},{\"eventTimeMs\":1793269362775,\"visualElementAttached\":{\"csn\":\"kWSeBUVKYXN14x7P\",\"parentVe\":{\"veType\":32594},\"childVes\":[{\"veType\":23851,\"veCounter\":3,\"elementIndex\":0}]},\"context\":{\"lastActivityMs\":\"246\"}},{\"eventTimeMs\":1793269362775,\"visualElementShown\":{\"csn\":\"kWSeBUVKYXN14x7P\",\"ve\":{\"veType\":23851,\"veCounter\":3,\"elementIndex\":0},\"eventType\":1},\"context\":{\"lastActivityMs\":\"246\"}},{\"eventTimeMs\":1793269362776,\"visualElementAttached\":{\"csn\":\"kWSeBUVKYXN14x7P\",\"parentVe\":{\"veType\":32594},\"childVes\":[{\"veType\":36925,\"veCounter\":4,\"elementIndex\":0}]},\"context\":{\"lastActivityMs\":\"247\"}},{\"eventTimeMs\":1793269362776,\"visualElementShown\":{\"csn\":\"kWSeBUVKYXN14x7P\",\"ve\":{\"veType\":36925,\"veCounter\":4,\"elementIndex\":0},\"eventType\":1},\"context\":{\"lastActivityMs\":\"247\"}},{\"eventTimeMs\":1793269362781,\"visualElementShown\":{\"csn\":\"kWSeBUVKYXN14x7P\",\"ve\":{\"veType\":28572,\"veCounter\":2,\"elementIndex\":0},\"eventType\":1},\"context\":{\"lastActivityMs\":\"252\"}},{\"eventTimeMs\":1793269362782,\"visualElementShown\":{\"csn\":\"kWSeBUVKYXN14x7P\",\"ve\":{\"veType\":23851,\"veCounter\":3,\"elementIndex\":0},\"eventType\":1},\"context\":{\"lastActivityMs\":\"253\"}},{\"eventTimeMs\":1793269362782,\"visualElementShown\":{\"csn\":\"kWSeBUVKYXN14x7P\",\"ve\":{\"veType\":36925,\"veCounter\":4,\"elementIndex\":0},\"eventType\":1},\"context\":{\"lastActivityMs\":\"253\"}},{\"eventTimeMs\":1793269362933,\"latencyActionTicked\":{\"tickName\":\"ftl\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"404\"}},{\"eventTimeMs\":1793269362986,\"latencyActionTicked\":{\"tickName\":\"ol\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"457\"}},{\"eventTimeMs\":1793269362986,\"latencyActionTicked\":{\"tickName\":\"ol\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"457\"}},{\"eventTimeMs\":1793269363088,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChUvY2xpZW50X3N0cmVhbXovYmcvZWMSEAoOCghib3RndWFyZBICNTMaAmVuGgJtayIRCgMKAW8KBgoEYUdJZhICCAEiEQoDCgF0CgYKBGFHSWYSAggBIhEKAwoBaAoGCgRhR0lmEgIICg==\"},\"context\":{\"lastActivityMs\":\"103\"}},{\"eventTimeMs\":1793269363089,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChUvY2xpZW50X3N0cmVhbXovYmcvZWwSEAoOCghib3RndWFyZBICNTMaAmVuGgJtayIYCgMKAWgKBgoEYUdJZhIJEQAAAABgZitAIhgKAwoBaAoGCgRhR0lmEgkRAAAAAAAAJkAiGAoDCgFoCgYKBGFHSWYSCREAAAAAoJkgQCIYCgMKAWgKBgoEYUdJZhIJEQAAAAAAAAhAIhgKAwoBaAoGCgRhR0lmEgkRAAAAACAzLEAiGAoDCgFoCgYKBGFHSWYSCREAAAAAAM0EQCIYCgMKAWgKBgoEYUdJZhIJEQAAAADAzBRAIhgKAwoBaAoGCgRhR0lmEgkRAAAAAEAzE0AiGAoDCgFoCgYKBGFHSWYSCREAAAAAAAAmQCIYCgMKAWgKBgoEYUdJZhIJEQAAAACAZgpAIhgKAwoBdAoGCgRhR0lmEgkRADAzMzMrdUA=\"},\"context\":{\"lastActivityMs\":\"103\"}},{\"eventTimeMs\":1793269363193,\"latencyActionTicked\":{\"tickName\":\"pot_if\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"207\"}},{\"eventTimeMs\":1793269363194,\"latencyActionTicked\":{\"tickName\":\"pot_cms\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"208\"}},{\"eventTimeMs\":1793269363194,\"latencyActionTicked\":{\"tickName\":\"pot_cmf\",\"clientActionNonce\":\"jRrWuO8vqJpPwFzr\"},\"context\":{\"lastActivityMs\":\"208\"}},{\"eventTimeMs\":1793269364089,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChYvY2xpZW50X3N0cmVhbXovYmcvZnJzEhAKDgoIYm90Z3VhcmQSAjUzGgJtayITCgYKBGFHSWYSCREAAAAAAFSeQA==\"},\"context\":{\"lastActivityMs\":\"1103\"}},{\"eventTimeMs\":1793269364089,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChUvY2xpZW50X3N0cmVhbXovYmcvZWMSEAoOCghib3RndWFyZBICNTMaAmVuGgJtayIRCgMKAW4KBgoEYUdJZhICCAEiEQoDCgFtCgYKBGFHSWYSAggB\"},\"context\":{\"lastActivityMs\":\"1103\"}},{\"eventTimeMs\":1793269364089,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChUvY2xpZW50X3N0cmVhbXovYmcvZWwSEAoOCghib3RndWFyZBICNTMaAmVuGgJtayIYCgMKAW4KBgoEYUdJZhIJEQAAzMzMzBhAIhgKAwoBaQoGCgRhR0lmEgkRAACgmZmZ2T8iGAoDCgFvCgYKBGFHSWYSCREAmJmZmRmDQCIYCgMKAWMKBgoEYUdJZhIJEQAAAAAAAAAAIhgKAwoBQwoGCgRhR0lmEgkRAADAmZmZyT8iGAoDCgF4CgYKBGFHSWYSCREAAICZmZm5PyIYCgMKAW0KBgoEYUdJZhIJEQAAoJmZmdk/\"},\"context\":{\"lastActivityMs\":\"1103\"}}],\"serializedClientEventId\":{\"serializedEventId\":\"ch7jarr0Du-WuNwPjeXC-Ak\",\"clientCounter\":\"7356\"}}"
+    }
+  ]
+}

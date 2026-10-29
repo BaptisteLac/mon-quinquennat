@@ -1,0 +1,209 @@
+{
+  "requested": "https://debout.fr/",
+  "final": "https://debout.fr/",
+  "status": 200,
+  "title": "Debout!",
+  "iframes": [
+    "https://debout.fr/"
+  ],
+  "links": [
+    {
+      "href": "https://debout.fr/#content",
+      "text": "Aller au contenu"
+    },
+    {
+      "href": "https://debout.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://debout.fr/",
+      "text": "ACCUEIL"
+    },
+    {
+      "href": "https://debout.fr/notre-mouvement/",
+      "text": "NOTRE MOUVEMENT"
+    },
+    {
+      "href": "https://debout.fr/notre-manifeste/",
+      "text": "NOTRE MANIFESTE"
+    },
+    {
+      "href": "https://don.debout.fr/ruffin2027/",
+      "text": "Faire un don"
+    },
+    {
+      "href": "https://nouspresident.fr/",
+      "text": "Rejoignez-nous"
+    },
+    {
+      "href": "https://nouspresident.fr/",
+      "text": "Rejoignez-nous"
+    },
+    {
+      "href": "https://don.debout.fr/ruffin2027/",
+      "text": "Faire un don"
+    },
+    {
+      "href": "https://nouspresident.fr/je-rejoins-la-campagne/",
+      "text": "Devenir militant"
+    },
+    {
+      "href": "https://nouspresident.fr/elu-soutien-ruffin/",
+      "text": "Soutenir comme élu"
+    },
+    {
+      "href": "https://debout.fr/plus-un-rond-pour-macron/",
+      "text": "JE SIGNE LA pétition"
+    },
+    {
+      "href": "https://x.com/debout_fr",
+      "text": "X (Twitter)"
+    },
+    {
+      "href": "https://t.me/deboutfr",
+      "text": "Telegram"
+    },
+    {
+      "href": "https://whatsapp.com/channel/0029Vb6uTdcKAwEbv7a36l1T",
+      "text": "WhatsAPP"
+    },
+    {
+      "href": "https://www.tiktok.com/@debout_fr",
+      "text": "TikTok"
+    },
+    {
+      "href": "https://www.instagram.com/debout_fr",
+      "text": "Instagram"
+    },
+    {
+      "href": "https://www.youtube.com/@Debout_fr",
+      "text": "Youtube"
+    },
+    {
+      "href": "https://www.facebook.com/deboutlemouvement/",
+      "text": "Facebook"
+    },
+    {
+      "href": "https://x.com/jeunes_debout",
+      "text": "X (Twitter)"
+    },
+    {
+      "href": "https://www.tiktok.com/@jeunes_debout",
+      "text": "TikTok"
+    },
+    {
+      "href": "https://www.instagram.com/jeunes_debout/",
+      "text": "Instagram"
+    },
+    {
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLSfzoqZl3NgGWKC0z_8BVQ5Mr9kt78FkkSSA8wy7L1cnR_P9-g/viewform",
+      "text": "Rejoignez-nous"
+    },
+    {
+      "href": "https://debout.fr/notre-mouvement/",
+      "text": "Debout! c’est quoi ?"
+    },
+    {
+      "href": "https://debout.fr/notre-manifeste/",
+      "text": "Notre manifeste"
+    },
+    {
+      "href": "https://debout.fr/mentions-legales/",
+      "text": "Mentions Légales"
+    },
+    {
+      "href": "https://debout.fr/politique-de-confidentialite/",
+      "text": "Politique de Confidentialité"
+    },
+    {
+      "href": "https://www.facebook.com/deboutlemouvement/",
+      "text": "Facebook"
+    },
+    {
+      "href": "https://www.instagram.com/debout_fr",
+      "text": "Instagram"
+    },
+    {
+      "href": "https://x.com/debout_fr",
+      "text": "X"
+    },
+    {
+      "href": "https://www.youtube.com/@Debout_fr",
+      "text": "YouTube"
+    },
+    {
+      "href": "https://www.whatsapp.com/channel/0029VaEhie6CRs1kxmiap10I/",
+      "text": "WhatsApp"
+    },
+    {
+      "href": "https://t.me/deboutfr",
+      "text": "Telegram"
+    },
+    {
+      "href": "https://bsky.app/profile/francoisruffin.fr",
+      "text": "Bluesky"
+    },
+    {
+      "href": "https://www.tiktok.com/@debout_fr",
+      "text": "TikTok"
+    },
+    {
+      "href": "https://debout.fr/#",
+      "text": ""
+    },
+    {
+      "href": "https://debout.fr/",
+      "text": "ACCUEIL"
+    },
+    {
+      "href": "https://debout.fr/notre-mouvement/",
+      "text": "NOTRE MOUVEMENT"
+    },
+    {
+      "href": "https://debout.fr/notre-manifeste/",
+      "text": "NOTRE MANIFESTE"
+    },
+    {
+      "href": "https://don.debout.fr/ruffin2027/",
+      "text": "Faire un don"
+    },
+    {
+      "href": "https://nouspresident.fr/",
+      "text": "Rejoignez-nous"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Menu"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Close Overlay"
+    }
+  ],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://debout.fr/",
+      "resourceType": "document",
+      "postData": null
+    }
+  ]
+}

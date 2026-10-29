@@ -1,0 +1,51 @@
+{
+  "requested": "https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf",
+  "final": "https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf",
+  "status": 200,
+  "title": "",
+  "iframes": [
+    "https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf",
+    "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html",
+    "https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf"
+  ],
+  "links": [],
+  "fields": [],
+  "calls": [
+    {
+      "method": "POST",
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+      "resourceType": "xhr",
+      "postData": "{\"context\":{\"client\":{\"hl\":\"fr\",\"gl\":\"US\",\"clientName\":56,\"clientVersion\":\"2.20261028.01.00\",\"configInfo\":{\"appInstallData\":\"CNa-jNcGEMn2gBMQyvuAExD36NIcEJj-0hwQ1fHSHBDBj9AcEO370hwQ3orTHBC9tq4FEJzl0hwQ3K3SHBC45M4cENr3zhwQh6zOHBDbirgiEJ_PgBMQzN-uBRDevM4cEK_w0hwQ8N7RHBCBzc4cEJmNsQUQ9quwBRC-hNEcENPa0hwQoYDTHBD82tIcEOfr0RwQvv7SHBCu3tEcEMGX0xwQpKnRHBDL-9IcEK7WzxwQ6fLSHBD8j9McEPG00BwQkO_SHBC-irAFEJ7QsAUQmK_SHBC8pNAcEKXj0hwQuIfTHBCc6dIcENHG0RwQr_jRHBC369IcEImwzhwQrZHRHBC9-NIcEMvy0hwQwsDSHBD299EcEJ2i0xwQ683QHBDDjNAcEMT90hwqZENBTVNSeFZFLVpxLURMaVVFcFFDbkE3NUZaNEZwX0lQanczVkR0QUVuUUt2Qm9vQ3VwcnBDektyckFTVHpBTzI1QWJraFJlc3V3UFoxUVhkTEp5TEFfVnpuT29PWi15ZUJoMEgwAA%3D%3D\"},\"userAgent\":\"MonQuinquennat-ReleveSimulateurs/0.1 (+https://github.com/BaptisteLac/mon-quinquennat)\",\"connectionType\":\"CONN_CELLULAR_4G\",\"osName\":\"+https://github.com/BaptisteLac/mon-quinquennat\",\"platform\":\"DESKTOP\",\"windowWidthPoints\":304,\"windowHeightPoints\":171},\"thirdParty\":{\"embedUrl\":\"https://parti-renaissance.fr/\"}},\"events\":[{\"eventTimeMs\":1793269593451,\"finalPayload\":{\"csn\":\"ZkuG0mnlk-1rq9En\"},\"context\":{\"lastActivityMs\":\"2658\"}}],\"serializedClientEventId\":{\"serializedEventId\":\"Vh_javHFDI3X7rcPueDlcA\",\"clientCounter\":\"10984\"}}"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+      "resourceType": "xhr",
+      "postData": "{\"context\":{\"client\":{\"hl\":\"fr\",\"gl\":\"US\",\"clientName\":56,\"clientVersion\":\"2.20261028.01.00\",\"configInfo\":{\"appInstallData\":\"CNa-jNcGEMn2gBMQyvuAExD36NIcEJj-0hwQ1fHSHBDBj9AcEO370hwQ3YrTHBC9tq4FEJzl0hwQ3K3SHBDpjNMcELjkzhwQ2vfOHBCHrM4cENyKuCIQn8-AExDM364FEN68zhwQr_DSHBDw3tEcEIHNzhwQmY2xBRD2q7AFEL6E0RwQ09rSHBChgNMcEPza0hwQ5-vRHBCu3tEcEMCX0xwQpKnRHBDL-9IcEK7WzxwQ6fLSHBD8j9McEPG00BwQkO_SHBDSpNIcEL2KsAUQ8ZywBRCe0LAFEJiv0hwQvKTQHBCl49IcELiH0xwQsPjRHBCJsM4cELKR0RwQvfjSHBDL8tIcEMn40hwQwsDSHBD299EcEIHU0hwQu_zSHCpkQ0FNU1JSVkctWnEtRExpVUVwUUNuQTc1RlowRm1QSVBqdzNWRHRBRW5RS2pCcFlDdXBycEN6S3JyQVNUekFPMjVBYmtoUmVzdXdQWjFRWGRMSnlMQTRfakRnS0hlV2NkQnc9PTAA\"},\"userAgent\":\"MonQuinquennat-ReleveSimulateurs/0.1 (+https://github.com/BaptisteLac/mon-quinquennat)\",\"connectionType\":\"CONN_CELLULAR_4G\",\"osName\":\"+https://github.com/BaptisteLac/mon-quinquennat\",\"platform\":\"DESKTOP\",\"windowWidthPoints\":304,\"windowHeightPoints\":171},\"thirdParty\":{\"embedUrl\":\"https://parti-renaissance.fr/\"}},\"events\":[{\"eventTimeMs\":1793269593461,\"finalPayload\":{\"csn\":\"Dkaf9FtcUaP2fMp7\"},\"context\":{\"lastActivityMs\":\"2706\"}}],\"serializedClientEventId\":{\"serializedEventId\":\"Vh_jaua7C4Sd1MkP-_eb8As\",\"clientCounter\":\"23901\"}}"
+    },
+    {
+      "method": "GET",
+      "url": "https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "POST",
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+      "resourceType": "xhr",
+      "postData": "{\"context\":{\"client\":{\"hl\":\"fr\",\"gl\":\"US\",\"clientName\":56,\"clientVersion\":\"2.20261028.01.00\",\"configInfo\":{\"appInstallData\":\"CNa-jNcGEMn2gBMQyvuAExD36NIcEJj-0hwQ1fHSHBDBj9AcEO370hwQ3YrTHBC9tq4FEJvZ0RwQnOXSHBDbrdIcELjkzhwQ2vfOHBCHrM4cENuKuCIQn8-AExDM364FEN68zhwQr_DSHBDw3tEcEIHNzhwQmY2xBRD2q7AFEL6E0RwQ09rSHBChgNMcEPza0hwQ5-vRHBCvg9McEK7e0RwQwZfTHBCkqdEcEMv70hwQrtbPHBDp8tIcEPyP0xwQ8bTQHBCQ79IcEL2KsAUQntCwBRCWr9IcEJmv0hwQvKTQHBCl49IcEMCQ0xwQuIfTHBCc6dIcELD40RwQibDOHBCxkdEcEL740hwQy_LSHBDCwNIcEPb30RwQ-JXTHBDszdAcEMqp0hwQxP3SHCpoQ0FNU1NoVkItWnEtRE1lVUVwVUNuQTc1Rlo0RnBfSVBqdzNWRHRBRW5RS2pCcFFDdkpycEN6S3JyQVNUekFPMjVBYmtoUmVzdXdQWjFRWGRMSnlMQV9Wem5Pb09aLXllQnJpNUJSMEgwAA%3D%3D\"},\"userAgent\":\"MonQuinquennat-ReleveSimulateurs/0.1 (+https://github.com/BaptisteLac/mon-quinquennat)\",\"connectionType\":\"CONN_CELLULAR_4G\",\"osName\":\"+https://github.com/BaptisteLac/mon-quinquennat\",\"platform\":\"DESKTOP\",\"windowWidthPoints\":304,\"windowHeightPoints\":171},\"thirdParty\":{\"embedUrl\":\"https://parti-renaissance.fr/\"}},\"events\":[{\"eventTimeMs\":1793269593467,\"finalPayload\":{\"csn\":\"qr13ui3WHGpUlIhe\"},\"context\":{\"lastActivityMs\":\"2639\"}}],\"serializedClientEventId\":{\"serializedEventId\":\"Vh_jarbWDNrluNwPuvGUuQQ\",\"clientCounter\":\"12078\"}}"
+    },
+    {
+      "method": "GET",
+      "url": "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf",
+      "resourceType": "document",
+      "postData": null
+    }
+  ]
+}

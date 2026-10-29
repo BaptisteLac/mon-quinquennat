@@ -1,0 +1,32 @@
+{
+  "requested": null,
+  "final": "https://www.fabienroussel2027.fr/",
+  "status": null,
+  "title": "Un instant…",
+  "iframes": [
+    "https://www.fabienroussel2027.fr/",
+    "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/ky6nj/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal?lang=auto",
+    "blob:https://challenges.cloudflare.com/88d20451-6bc9-433f-85f1-212fb220a703"
+  ],
+  "links": [
+    {
+      "href": "https://www.cloudflare.com/?utm_source=challenge&utm_campaign=m",
+      "text": "Cloudflare"
+    },
+    {
+      "href": "https://www.cloudflare.com/fr-fr/privacypolicy/",
+      "text": "Confidentialité"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "cf-turnstile-response",
+      "id": "cf-chl-widget-ky6nj_response",
+      "value": "",
+      "label": ""
+    }
+  ],
+  "calls": []
+}

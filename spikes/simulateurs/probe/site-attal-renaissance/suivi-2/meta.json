@@ -1,0 +1,33 @@
+{
+  "requested": "https://doc.parti.re/conventions/Restitution-Regalien-Une-Republique-ferme-une-France-apaisee.pdf",
+  "final": "https://doc.parti.re/conventions/Restitution-Regalien-Une-Republique-ferme-une-France-apaisee.pdf",
+  "status": 200,
+  "title": "",
+  "iframes": [
+    "https://doc.parti.re/conventions/Restitution-Regalien-Une-Republique-ferme-une-France-apaisee.pdf",
+    "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html",
+    "https://doc.parti.re/conventions/Restitution-Regalien-Une-Republique-ferme-une-France-apaisee.pdf"
+  ],
+  "links": [],
+  "fields": [],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://doc.parti.re/conventions/Restitution-Regalien-Une-Republique-ferme-une-France-apaisee.pdf",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://doc.parti.re/conventions/Restitution-Regalien-Une-Republique-ferme-une-France-apaisee.pdf",
+      "resourceType": "document",
+      "postData": null
+    }
+  ]
+}

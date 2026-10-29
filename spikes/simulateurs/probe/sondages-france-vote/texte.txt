@@ -1,0 +1,757 @@
+🤍 France-Vote est indépendant — sans parti ni publicité politique, financé par vos dons. Soutenir →
+
+✕
+Simulateur
+Comparateur
+Nouveau
+Sondages
+Carte
+Partis
+Candidats
+Actualités
+Vidéos
+Nouveau
+🫶
+Aidez-nous
+Faire le test
+
+SONDAGES · OCTOBRE 2026
+
+Sondages présidentielle 2027 : les intentions de vote
+
+Au 22 octobre 2026, Marine Le Pen arrive en tête des intentions de vote au premier tour de l’élection présidentielle 2027, avec 34,3 %, devant Jean-Luc Mélenchon (16,6 %) et Édouard Philippe (16,4 %). Cette estimation est la moyenne de 32 enquêtes réalisées par 9 instituts sur les 120 derniers jours.
+
+Un sondage isolé ne dit pas grand-chose : il porte sa marge d'erreur et l'empreinte de son institut. La moyenne porte sur les 32 enquêtes de premier tour des 120 derniers jours (3 autres de la période, affichées plus bas, en sont exclues). Au total, 65 enquêtes de premier tour réalisées par 9 instituts sont recensées depuis le 8 juillet 2024; elles servent aux courbes d'évolution.
+
+Données au
+22/10/2026
+Dernière enquête close le 22 octobre 2026 · source vérifiée le 29 octobre 2026, recalcul toutes les six heures.
+
+Où en sont les intentions de vote ?
+
+Marine Le Pen
+
+Rassemblement national · 32 enquêtes · de 30 à 37,5 %
+
+34,3 %+1,7
+
+Jean-Luc Mélenchon
+
+La France insoumise · 32 enquêtes · de 14,2 à 19,7 %
+
+16,6 %+3,5
+
+Édouard Philippe
+
+Horizons · 32 enquêtes · de 11,5 à 20,9 %
+
+16,4 %-2,4
+
+Raphaël Glucksmann
+
+Place publique · 32 enquêtes · de 7,8 à 15,8 %
+
+11,7 %-0,2
+
+Gabriel Attal
+
+Renaissance · 32 enquêtes · de 4 à 17 %
+
+10,5 %-2,6
+
+Bruno Retailleau
+
+Les Républicains · 32 enquêtes · de 6 à 12,3 %
+
+8,0 %-1,7
+
+François Hollande
+
+Parti socialiste · 15 enquêtes · de 4 à 12 %
+
+7,8 %-1,1
+
+David Lisnard
+
+Nouvelle Énergie · 16 enquêtes · de 2 à 12 %
+
+5,4 %
+
+Olivier Faure
+
+Parti socialiste · 5 enquêtes · de 3,5 à 5 %
+
+4,4 %-0,1
+
+Éric Zemmour
+
+Reconquête · 32 enquêtes · de 2 à 5,5 %
+
+3,9 %-0,6
+
+Marine Tondelier
+
+Les Écologistes · 31 enquêtes · de 1 à 5,8 %
+
+3,3 %-0,9
+
+François Ruffin
+
+Debout ! · 9 enquêtes · de 1,8 à 6 %
+
+3,3 %-2,2
+
+Fabien Roussel
+
+Parti communiste français · 32 enquêtes · de 1 à 3,5 %
+
+2,3 %-0,8
+
+Dominique de Villepin
+
+La France humaniste · 11 enquêtes · de 1 à 3,6 %
+
+2,2 %-1,6
+
+Nicolas Dupont-Aignan
+
+Debout la France · 29 enquêtes · de 1 à 3,6 %
+
+2,1 %+0,1
+
+Nathalie Arthaud
+
+Lutte ouvrière · 31 enquêtes · de 0,2 à 1,6 %
+
+0,8 %-0,1
+
+Karim Bouamrane
+
+Parti socialiste · 3 enquêtes · de 0,5 à 0,8 %
+
+0,6 %
+
+Moyenne de 32 enquêtes, du 7 juillet 2026 au 22 octobre 2026. Les personnalités testées par moins de 3 enquêtes sur la période ne sont pas affichées. Le chiffre en couleur compare la fenêtre courante aux 120 jours précédents. Données : Mieux Voter (github.com/MieuxVoter/presidentielle2027).
+
+Comment les rapports de force ont évolué
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+oct. 24
+janv. 25
+avr. 25
+juil. 25
+oct. 25
+janv. 26
+avr. 26
+juil. 26
+oct. 26
+Le Pen 34.3
+Mélenchon 16.6
+Philippe 16.4
+Glucksmann 11.7
+Attal 10.5
+Retailleau 8
+Hollande 7.8
+Lisnard 5.4
+Moyenne glissante sur 120 jours des intentions de vote au premier tour, en pourcentage des suffrages exprimés. Une enquête compte pour une observation, quel que soit le nombre d'hypothèses de candidatures qu'elle teste.
+
+Moyenne glissante sur 120 jours, un point par enquête retenue. Données : Mieux Voter (github.com/MieuxVoter/presidentielle2027).
+
+Les 35 enquêtes des 120 derniers jours
+
+Pour chaque enquête : l'institut, le commanditaire, les dates de terrain, l'échantillon, la méthode et la marge d'erreur, avec le lien vers la notice déposée auprès de la Commission des sondages. Les enquêtes commandées par un acteur politique, portant sur une population spécifique ou posant une autre question qu'une intention de vote sont signalées et exclues de la moyenne.
+
+OpinionWay pour CNews
+1 hypothèse
+Terrain
+du 21 octobre au 22 octobre 2026
+Échantillon
+973 inscrits sur les listes, sur 1 033 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,4 à ±3,1 points (978 personnes, effectif du tableau de la notice), ±1,6 à ±3,7 (731 certains d’aller voter), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+Ipsos BVA pour Le Parisien
+4 hypothèses
+Terrain
+du 21 octobre au 22 octobre 2026
+Échantillon
+1 500 inscrits sur les listes, sur 1 500 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±0,7 à ±2,5 points (pour 1 500 personnes), ±0,8 à ±3 (1 069, base intentions de vote), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+Cluster17 pour Politico
+3 hypothèses
+Terrain
+du 19 octobre au 22 octobre 2026
+Échantillon
+2 817 inscrits sur les listes, sur 3 000 personnes interrogées
+Méthode
+En ligne, quotas, redressement sociodémographique et politique
+Marge
+±0,8 à ±1,9 points (2 817 inscrits), ±1 à ±2,2 (1 920, effectif utile du premier scénario), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+Harris Interactive pour M6, RTL
+5 hypothèses
+Terrain
+du 19 octobre au 21 octobre 2026
+Échantillon
+2 094 inscrits sur les listes, sur 2 500 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,4 à ±3,1 points, selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+IFOP pour LCI, Le Figaro, Sud Radio
+8 hypothèses
+Terrain
+du 17 octobre au 19 octobre 2026
+Échantillon
+1 928 inscrits sur les listes, sur 2 081 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1 à ±2,2 points (tableau de la notice, pour 2 000 personnes), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+ELABE pour BFMTV, La Tribune Dimanche
+6 hypothèses
+Terrain
+du 14 octobre au 16 octobre 2026
+Échantillon
+1 553 inscrits sur les listes, sur 1 701 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,2 à ±2,8 points, selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+YouGov pour Le HuffPost
+5 hypothèses
+Terrain
+du 12 octobre au 15 octobre 2026
+Échantillon
+976 inscrits sur les listes, sur 1 094 personnes interrogées
+Méthode
+En ligne, panel propriétaire, pondération
+Marge
+±1,4 à ±3,1 points, selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+Cluster17 pour Le Point
+5 hypothèses
+Terrain
+du 14 octobre au 15 octobre 2026
+Échantillon
+1 187 inscrits sur les listes, sur 1 263 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,2 à ±2,8 points (pour 1 187 inscrits), ±1,5 à ±3,4 (813 à 852 personnes, effectifs utiles des scénarios), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+IFOP pour LCI, Sud Radio
+4 hypothèses
+Terrain
+du 12 octobre au 14 octobre 2026
+Échantillon
+1 390 inscrits sur les listes, sur 1 525 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,1 à ±2,6 points (tableau de la notice, pour 1 400 personnes), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+OpinionWay pour CNews
+1 hypothèse
+Terrain
+du 13 octobre au 14 octobre 2026
+Échantillon
+978 inscrits sur les listes, sur 1 043 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,4 à ±3,1 points (978 inscrits), ±1,6 à ±3,7 (731 certains d’aller voter), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+Harris Interactive pour M6, RTL
+5 hypothèses
+Terrain
+du 5 octobre au 8 octobre 2026
+Échantillon
+2 004 inscrits sur les listes, sur 2 348 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,4 à ±3,1 points, selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+ODOXA pour Backbone, Public Sénat, La Presse Régionale, Le Nouvel Obs
+2 hypothèses
+Terrain
+du 24 septembre au 7 octobre 2026
+Échantillon
+11 103 inscrits sur les listes, sur 12 005 personnes interrogées
+Méthode
+quotas par région, pondération au poids réel et redressement
+Marge
+±0,6 à ±1,1 point (intentions de vote, 7 374 à 7 599 répondants selon l’hypothèse), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+IFOP pour LCI, Le Figaro, Sud Radio
+10 hypothèses
+Terrain
+du 25 septembre au 29 septembre 2026
+Échantillon
+1 393 inscrits sur les listes, sur 1 527 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,1 à ±2,6 points (tableau de la notice, pour 1 400 personnes), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+Harris Interactive pour M6, RTL
+5 hypothèses
+Terrain
+du 22 septembre au 24 septembre 2026
+Échantillon
+1 974 inscrits sur les listes, sur 2 334 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,4 à ±3,1 points, selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+YouGov pour Le HuffPost
+6 hypothèses
+Terrain
+du 17 septembre au 21 septembre 2026
+Échantillon
+1 008 inscrits sur les listes, sur 1 103 personnes interrogées
+Méthode
+En ligne, panel propriétaire, pondération
+Marge
+±1,4 à ±3,1 points, selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+Cluster17 pour Politico
+3 hypothèses
+Terrain
+du 15 septembre au 16 septembre 2026
+Échantillon
+1 943 inscrits sur les listes, sur 2 045 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1 à ±2,2 points (pour 1 943 personnes, davantage sur les effectifs utiles), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+IFOP pour Parti du vote blanc
+1 hypothèse
+
+⚑
+Commanditaire politique
+· commandée par un parti politique, le Parti du vote blanc · exclue de la moyenne
+
+Terrain
+du 9 septembre au 11 septembre 2026
+Échantillon
+1 443 inscrits sur les listes, sur 1 548 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,1 à ±2,6 points (tableau de la notice, pour 1 400 personnes), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+OpinionWay pour CNews
+3 hypothèses
+Terrain
+du 9 septembre au 10 septembre 2026
+Échantillon
+935 inscrits sur les listes, sur 1 001 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,4 à ±3,2 points (935 inscrits), ±1,6 à ±3,7 (690 certains d’aller voter), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+Harris Interactive pour M6, RTL
+5 hypothèses
+Terrain
+du 8 septembre au 10 septembre 2026
+Échantillon
+2 052 inscrits sur les listes, sur 2 358 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,4 à ±3,1 points, selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+OpinionWay pour Les Echos, Radio Classique
+3 hypothèses
+Terrain
+du 8 septembre au 9 septembre 2026
+Échantillon
+948 inscrits sur les listes, sur 1 001 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,4 à ±3,2 points (950 inscrits), ±1,6 à ±3,7 (700 certains d’aller voter), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+Ipsos BVA pour CEVIPOF, Le Monde, Fondation Jean Jaurès, Institut Montaigne
+6 hypothèses
+Terrain
+du 3 septembre au 9 septembre 2026
+Échantillon
+13 060 inscrits sur les listes, sur 13 060 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±0,3 à ±1,0 points sur la base des intentions de vote (9 445 personnes), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+OpinionWay pour Sébastien Bonnal
+1 hypothèse
+
+⚑
+Commanditaire politique
+· commandée par un candidat déclaré, Sébastien Bonnal, et portant sur sa candidature · exclue de la moyenne
+
+Terrain
+du 2 septembre au 4 septembre 2026
+Échantillon
+951 inscrits sur les listes, sur 1 034 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,4 à ±3,2 points (951 inscrits), ±1,6 à ±3,8 (700 certains d’aller voter), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+OpinionWay pour JDD
+3 hypothèses
+Terrain
+du 2 septembre au 3 septembre 2026
+Échantillon
+929 inscrits sur les listes, sur 1 003 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,4 à ±3,2 points (930 inscrits), ±1,6 à ±3,8 (680 certains d’aller voter), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+Ipsos BVA pour Le Parisien
+6 hypothèses
+Terrain
+du 31 août au 2 septembre 2026
+Échantillon
+1 500 inscrits sur les listes, sur 1 500 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±0,9 à ±3,1 points (pour 1 020 personnes), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+Cluster17 pour Le Point
+3 hypothèses
+Terrain
+du 31 août au 1 septembre 2026
+Échantillon
+1 628 inscrits sur les listes, sur 1 711 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,1 à ±2,5 points (pour 1 628 personnes, davantage sur les effectifs utiles), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+ELABE pour BFMTV, La Tribune Dimanche
+6 hypothèses
+Terrain
+du 26 août au 28 août 2026
+Échantillon
+1 378 inscrits sur les listes, sur 1 501 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,4 à ±3,1 points, selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+IFOP pour LCI, Le Figaro, Sud Radio
+7 hypothèses
+Terrain
+du 24 août au 25 août 2026
+Échantillon
+1 598 inscrits sur les listes, sur 1 800 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,1 à ±2,5 points (tableau de la notice, pour 1 500 personnes), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+Harris Interactive pour M6, RTL
+5 hypothèses
+Terrain
+du 18 août au 19 août 2026
+Échantillon
+1 764 inscrits sur les listes, sur 2 114 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,4 à ±3,1 points, selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+Cluster17 pour Le Grand Continent
+2 hypothèses
+Terrain
+du 22 juillet au 24 juillet 2026
+Échantillon
+1 404 inscrits sur les listes, sur 1 506 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,1 à ±2,6 points (pour 1 404 personnes, davantage sur les effectifs utiles), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+ELABE pour BFMTV, La Tribune Dimanche
+6 hypothèses
+Terrain
+du 9 juillet au 10 juillet 2026
+Échantillon
+1 390 inscrits sur les listes, sur 1 503 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,4 à ±3,1 points, selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+Verian pour L'Hémicycle
+1 hypothèse
+Terrain
+du 8 juillet au 10 juillet 2026
+Échantillon
+987 inscrits sur les listes, sur 1 047 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,5 à ±3,4 points sur la base des intentions de vote (818 personnes), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+Cluster17 pour Le Point
+1 hypothèse
+
+⚑
+Autre question
+· souhait de victoire (« laquelle souhaitez-vous voir gagner l'élection présidentielle ? »), et non intention de vote · exclue de la moyenne
+
+Terrain
+du 8 juillet au 9 juillet 2026
+Échantillon
+1 837 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1 à ±2,3 points (pour 1 837 personnes), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+OpinionWay pour Les Echos, Radio Classique
+3 hypothèses
+Terrain
+du 8 juillet au 9 juillet 2026
+Échantillon
+963 inscrits sur les listes, sur 1 042 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,4 à ±3,2 points (960 inscrits), ±1,6 à ±3,7 (700 certains d’aller voter), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+IFOP pour LCI, Le Figaro
+2 hypothèses
+Terrain
+du 7 juillet au 8 juillet 2026
+Échantillon
+984 inscrits sur les listes, sur 1 075 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,4 à ±3,1 points (tableau de la notice, pour 1 000 personnes), selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+Harris Interactive pour M6, RTL
+5 hypothèses
+Terrain
+du 7 juillet au 8 juillet 2026
+Échantillon
+1 592 inscrits sur les listes, sur 1 837 personnes interrogées
+Méthode
+En ligne, quotas et redressement
+Marge
+±1,4 à ±3,1 points, selon la notice
+
+Notice de la Commission des sondages
+Données : Mieux Voter
+
+Données : Mieux Voter (github.com/MieuxVoter/presidentielle2027).Nombre d'inscrits, mode de recueil et méthode relevés dans les notices de la Commission des sondages.
+
+Comment nous calculons
+Seules les intentions de vote au premier tour sont retenues.
+Un institut interroge un échantillon une fois, puis lui soumet plusieurs hypothèses de candidatures. C'est une seule enquête : elle compte pour une observation, et non pour autant d'observations que d'hypothèses.
+Une personnalité n'étant pas testée dans toutes les hypothèses, sa valeur pour une enquête est la moyenne des hypothèses où elle figure. On lit donc « lorsqu'elle est testée, elle obtient tant ».
+La moyenne affichée porte sur les 120derniers jours, sans pondération par institut ni par taille d'échantillon.
+Source des enquêtes : compilation Mieux Voter des notices déposées auprès de la Commission des sondages. 10 enquêtes déposées et pas encore intégrées à cette compilation : chiffres relevés par France-Vote dans les notices, lien vers chacune dans la liste des enquêtes. Données au 22/10/2026, source vérifiée le 29/10/2026.
+Les enquêtes commandées par un parti, un candidat ou son équipe, celles qui portent sur une population spécifique et celles dont la question n'est pas une intention de vote sont affichées mais exclues de la moyenne.
+Ce qu'un sondage ne dit pas
+
+Une enquête d'opinion mesure un rapport de force à un instant donné auprès d'un échantillon, pas un résultat futur. Elle porte une marge d'erreur, généralement de deux à trois points sur les scores élevés, et dépend étroitement de l'hypothèse de candidatures testée.
+
+À plus d'un an du scrutin, les candidatures ne sont pas arrêtées et les intentions se déplacent. Agréger plusieurs enquêtes réduit le bruit propre à chacune, sans supprimer cette incertitude de fond.
+
+Voir les candidats
+Comparer leurs programmes
+Questions fréquentes sur les sondages 2027
+Qui est favori pour la présidentielle 2027 ?
+Au 22 octobre 2026, Marine Le Pen est en tête de la moyenne des sondages de premier tour avec 34,3 %, devant Jean-Luc Mélenchon (16,6 %) et Édouard Philippe (16,4 %). Un favori dans les sondages n'est pas un résultat : la campagne n'a pas commencé et les candidatures ne sont pas déposées.
+Que disent les sondages du premier tour de 2027 ?
+Notre estimation est la moyenne de 32 enquêtes d'intentions de vote réalisées par 9 instituts sur une fenêtre glissante de 120 jours, parmi 65 enquêtes de premier tour recensées depuis 8 juillet 2024. La dernière enquête date du 22 octobre 2026. Les enquêtes commandées par un acteur politique, portant sur une population spécifique ou ne mesurant pas une intention de vote sont affichées mais exclues de la moyenne.
+Quels sont les derniers sondages de la présidentielle 2027 ?
+Les enquêtes les plus récentes intégrées à notre moyenne émanent de Cluster17, Ipsos BVA, OpinionWay, Harris Interactive et d'autres instituts. La plus récente a été close le 22 octobre 2026. Chaque nouveau sondage de premier tour est ajouté dès sa parution ; la moyenne et les courbes se mettent alors à jour automatiquement.
+Comment cette estimation est-elle calculée ?
+Chaque enquête compte pour une observation, quel que soit le nombre d'hypothèses testées : une même enquête peut proposer plusieurs configurations de candidats, et les compter séparément gonflerait artificiellement les effectifs. Une personnalité n'est moyennée que sur les hypothèses où elle est effectivement testée.
+À quelle fréquence les sondages sont-ils mis à jour ?
+Les données sont rechargées automatiquement toutes les six heures depuis le jeu de données ouvert de Mieux Voter (presidentielle2027), alimenté par les notices déposées auprès de la Commission des sondages. Dernière vérification à la source : 29 octobre 2026.
+
+France-Vote ne réalise aucun sondage : cette page agrège des enquêtes publiées par des instituts tiers, dont les notices sont consultables auprès de la Commission des sondages. Les résultats du simulateur France-Vote ne sont pas des sondages et n'entrent pas dans ce calcul.
+
+DATES DES DONNÉES
+Positions : 28 octobre 2026
+Sondages : 22 octobre 2026
+Dernier article : 29 octobre 2026
+
+LA LETTRE FRANCE-VOTE
+
+La présidentielle, décryptée chaque semaine
+
+Les nouveaux articles, les mouvements dans les sondages et les positions révisées — l'essentiel, sans bruit. Gratuit, jamais de consigne de vote.
+
+Votre adresse e-mail
+S'inscrire
+J'accepte de recevoir la lettre de France-Vote par e-mail et j'ai lu la politique de confidentialité. Désinscription en un clic, à tout moment.
+france-vote.fr
+
+Média indépendant de décryptage de l'élection présidentielle française 2027 : simulateur, carte électorale et programmes.
+
+SUIVEZ-NOUS
+
+EXPLORER
+
+Simulateur de vote
+Carte électorale
+Partis politiques
+Candidats & programmes
+Comparateur de candidats
+Moyenne des sondages
+Calendrier électoral 2027
+Données ouvertes
+Vidéos
+Actualités
+
+INFORMATIONS
+
+À propos
+Méthodologie
+Mentions légales
+Confidentialité (RGPD)
+Aidez-nous
+Partenariats & annonceurs
+Nous contacter
+
+© 2026 France-Vote. Tous droits réservés.
+
+Le simulateur est un outil pédagogique et ludique. Il ne constitue pas un sondage au sens de la loi du 19 juillet 1977.
+
+Mesure d'audience maison, avec cookies internes — aucune donnée n'est vendue ni partagée, et vos réponses au simulateur restent anonymes. Le site affiche par ailleurs des annonces Google, qui déposent leurs propres cookies et vous demandent votre accord. En savoir plus.
+
+J'ai compris

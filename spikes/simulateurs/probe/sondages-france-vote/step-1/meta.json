@@ -1,0 +1,609 @@
+{
+  "requested": null,
+  "final": "https://www.france-vote.fr/sondages",
+  "status": null,
+  "title": "Sondages présidentielle 2027 — octobre 2026 · France-Vote",
+  "iframes": [
+    "https://www.france-vote.fr/sondages",
+    "https://googleads.g.doubleclick.net/pagead/html/r20261028/r20190131/zrt_lookup.html",
+    "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-4813575283211356&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1793268718&plat=1%3A16777216%2C3%3A16%2C4%3A16%2C9%3A32768%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32%2C44%3A32&format=0x0&url=https%3A%2F%2Fwww.france-vote.fr%2Fsondages&pra=5&aiof=14&asro=0&aimartd=4&aieuf=1&aicrs=1&uach=WyJXaW5kb3dzIiwiIiwieDg2IiwiIiwiMTU2LjAuODA3OC40NyIsbnVsbCwwLG51bGwsIjY0IixbWyJOb3Q6QS1CcmFuZCIsIjguMC4wLjAiXSxbIkNocm9taXVtIiwiMTU2LjAuODA3OC40NyJdLFsiR29vZ2xlIENocm9tZSIsIjE1Ni4wLjgwNzguNDciXV0sMF0.&dt=1793268718626&bpp=3&bdt=281&idt=60&shv=r20261028&mjsv=m202610260101&ptt=9&saldr=aa&abxe=1&cookie_enabled=1&eoidce=1&nras=1&correlator=6628816435876&frm=20&pv=2&u_tz=0&u_his=2&u_h=1600&u_w=1280&u_ah=1600&u_aw=1280&u_cd=24&u_sd=1&dmc=16&adx=-12245933&ady=-12245933&biw=1280&bih=1600&scr_x=0&scr_y=0&eid=95400480%2C95404664%2C95405491%2C95405781%2C95406274&oid=2&pvsid=3744639080546085&tmod=1384578086&uas=0&nvt=1&fsapi=1&fc=1920&brdim=10%2C10%2C10%2C10%2C1280%2C0%2C1280%2C1600%2C1280%2C1600&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&bz=1&pgls=CAk.&ifi=1&uci=a!1&fsb=1&dtd=168",
+    "https://www.google.com/recaptcha/api2/aframe"
+  ],
+  "links": [
+    {
+      "href": "https://buymeacoffee.com/francevote",
+      "text": "Soutenir →"
+    },
+    {
+      "href": "https://www.france-vote.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://www.france-vote.fr/simulateur",
+      "text": "Simulateur"
+    },
+    {
+      "href": "https://www.france-vote.fr/comparateur",
+      "text": "ComparateurNouveau"
+    },
+    {
+      "href": "https://www.france-vote.fr/sondages",
+      "text": "Sondages"
+    },
+    {
+      "href": "https://www.france-vote.fr/carte",
+      "text": "Carte"
+    },
+    {
+      "href": "https://www.france-vote.fr/partis",
+      "text": "Partis"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats",
+      "text": "Candidats"
+    },
+    {
+      "href": "https://www.france-vote.fr/actualites",
+      "text": "Actualités"
+    },
+    {
+      "href": "https://www.france-vote.fr/videos",
+      "text": "VidéosNouveau"
+    },
+    {
+      "href": "https://buymeacoffee.com/francevote",
+      "text": "🫶Aidez-nous"
+    },
+    {
+      "href": "https://www.france-vote.fr/simulateur/rapide",
+      "text": "Faire le test"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats/marine-le-pen",
+      "text": "Marine Le Pen"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats/jean-luc-melenchon",
+      "text": "Jean-Luc Mélenchon"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats/edouard-philippe",
+      "text": "Édouard Philippe"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats/raphael-glucksmann",
+      "text": "Raphaël Glucksmann"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats/gabriel-attal",
+      "text": "Gabriel Attal"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats/bruno-retailleau",
+      "text": "Bruno Retailleau"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats/francois-hollande",
+      "text": "François Hollande"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats/david-lisnard",
+      "text": "David Lisnard"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats/olivier-faure",
+      "text": "Olivier Faure"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats/eric-zemmour",
+      "text": "Éric Zemmour"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats/marine-tondelier",
+      "text": "Marine Tondelier"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats/francois-ruffin",
+      "text": "François Ruffin"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats/fabien-roussel",
+      "text": "Fabien Roussel"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats/dominique-de-villepin",
+      "text": "Dominique de Villepin"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats/nicolas-dupont-aignan",
+      "text": "Nicolas Dupont-Aignan"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats/nathalie-arthaud",
+      "text": "Nathalie Arthaud"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats/karim-bouamrane",
+      "text": "Karim Bouamrane"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.france-vote.fr/methodologie#sondages",
+      "text": "exclues de la moyenne"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10333-pres-iv-opinionway-cnews-22-octobre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10338-pres-iv-ipsos-bva-le-parisien-24-octobre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10339-pres-iv-cluster17-politico-26-octobre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10332-pres-iv-toluna-harris-interactive-23-octobre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10327-pres-barometre-election-v7-ifop-20-octobre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10324-pres-iv-elabe-17-octobre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10323-pres-iv-yougov-le-huffpost-18-octobre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10325-pres-focus-droite-et-centre-cluster17-le-point-18-octobre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10314-pres-climat-politique-post-primaire-ps-pp-ifop-lci-14-octobre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10319-pres-iv-opinionway-cnews-15-octobre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10305-pres-iv-toluna-harris-interactive-12-octobre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10310-pres-iv-odoxa-14-octobre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10284-pres-barometre-election-presidentielle-v6-ifop-le-figaro-30-septembre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10277-pres-toluna-harris-interactive-rtl-28-septembre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10270-pres-iv-yougov-huffpost-23-septembre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10273-pres-iv-cluster17-politico-24-septembre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10292-pres-vote-blanc-ifop-6-octobre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10260-pres-iv-opinionway-cnews-11-septembre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10263-pres-iv-toluna-harris-interactive-rtl-14-septembre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10259-pres-presitrack-v2-opinionway-les-echos-10-septembre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10262-pres-enquete-electorale-ipsos-bva-le-monde-13-septembre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10264-pres-opinionway-facebook-15-septembre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10252-pres-iv-opinionway-jdd-7-septembre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10250-pres-iv-ipsos-bva-le-parisien-5-septembre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/septembre/10251-pres-iv-cluster-17-le-point-5-septembre.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/aout/10245-pres-iv-elabe-29-aout.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/aout/10242-pres-barometre-election-pres-iv-v5-ifop-26-aout.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/aout/10239-pres-toluna-harris-interactive-rtl-24-aout.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/aout/10246-pres-cluster17-le-grand-continent-31-aout.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/juillet/10226-pres-elabe-11-juillet.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/juillet/10225-pres-iv-1er-tour-verian-lhemicycle-10-juillet.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/juillet/10228-pres-barometre-cluster17-le-point-14-juillet.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/juillet/10224-pres-presitrack-opinionway-les-echos-9-juillet.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/juillet/10222-pres-ifop-le-figaro-8-juillet.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/notices/files/notices/2026/juillet/10223-pres-iv-toluna-harris-interactive-rtl-8-juillet.pdf",
+      "text": "Notice de la Commission des sondages"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "Mieux Voter"
+    },
+    {
+      "href": "https://github.com/MieuxVoter/presidentielle2027",
+      "text": "compilation Mieux Voter"
+    },
+    {
+      "href": "https://www.commission-des-sondages.fr/",
+      "text": "Commission des sondages"
+    },
+    {
+      "href": "https://www.france-vote.fr/methodologie#sondages",
+      "text": "exclues de la moyenne"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats",
+      "text": "Voir les candidats"
+    },
+    {
+      "href": "https://www.france-vote.fr/comparateur",
+      "text": "Comparer leurs programmes"
+    },
+    {
+      "href": "https://www.france-vote.fr/simulateur",
+      "text": "simulateur France-Vote"
+    },
+    {
+      "href": "https://www.france-vote.fr/donnees",
+      "text": "Positions : 28 octobre 2026"
+    },
+    {
+      "href": "https://www.france-vote.fr/sondages",
+      "text": "Sondages : 22 octobre 2026"
+    },
+    {
+      "href": "https://www.france-vote.fr/actualites",
+      "text": "Dernier article : 29 octobre 2026"
+    },
+    {
+      "href": "https://www.france-vote.fr/confidentialite",
+      "text": "politique de confidentialité"
+    },
+    {
+      "href": "https://www.youtube.com/@France-vote",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/francevote",
+      "text": ""
+    },
+    {
+      "href": "https://www.facebook.com/profile.php?id=61592181273310",
+      "text": ""
+    },
+    {
+      "href": "https://www.france-vote.fr/simulateur",
+      "text": "Simulateur de vote"
+    },
+    {
+      "href": "https://www.france-vote.fr/carte",
+      "text": "Carte électorale"
+    },
+    {
+      "href": "https://www.france-vote.fr/partis",
+      "text": "Partis politiques"
+    },
+    {
+      "href": "https://www.france-vote.fr/candidats",
+      "text": "Candidats & programmes"
+    },
+    {
+      "href": "https://www.france-vote.fr/comparateur",
+      "text": "Comparateur de candidats"
+    },
+    {
+      "href": "https://www.france-vote.fr/sondages",
+      "text": "Moyenne des sondages"
+    },
+    {
+      "href": "https://www.france-vote.fr/calendrier",
+      "text": "Calendrier électoral 2027"
+    },
+    {
+      "href": "https://www.france-vote.fr/donnees",
+      "text": "Données ouvertes"
+    },
+    {
+      "href": "https://www.france-vote.fr/videos",
+      "text": "Vidéos"
+    },
+    {
+      "href": "https://www.france-vote.fr/actualites",
+      "text": "Actualités"
+    },
+    {
+      "href": "https://www.france-vote.fr/a-propos",
+      "text": "À propos"
+    },
+    {
+      "href": "https://www.france-vote.fr/methodologie",
+      "text": "Méthodologie"
+    },
+    {
+      "href": "https://www.france-vote.fr/mentions-legales",
+      "text": "Mentions légales"
+    },
+    {
+      "href": "https://www.france-vote.fr/confidentialite",
+      "text": "Confidentialité (RGPD)"
+    },
+    {
+      "href": "https://buymeacoffee.com/francevote",
+      "text": "Aidez-nous"
+    },
+    {
+      "href": "https://www.france-vote.fr/partenariats",
+      "text": "Partenariats & annonceurs"
+    },
+    {
+      "href": "https://www.france-vote.fr/contact",
+      "text": "Nous contacter"
+    },
+    {
+      "href": "https://www.france-vote.fr/confidentialite",
+      "text": "En savoir plus"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer ce bandeau"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Ouvrir le menu"
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "",
+      "id": "_R_1db_-e",
+      "value": "",
+      "label": "Votre adresse e-mail"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "",
+      "id": "",
+      "value": "on",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    }
+  ],
+  "calls": []
+}
