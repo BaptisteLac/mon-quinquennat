@@ -1,240 +1,276 @@
 {
-  "run": 26,
+  "run": 27,
   "targets": [
     {
-      "id": "ddg-nathalie-arthaud",
-      "url": "https://html.duckduckgo.com/html/?q=%22Nathalie%20Arthaud%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "id": "site-kazib",
+      "url": "https://anasse2027.fr/",
+      "waitUntil": "load",
+      "timeoutMs": 45000,
+      "continueOnError": true,
+      "follow": "programme|projet|propositions|mesures|nos id|engagements|plan",
+      "maxFollow": 3
+    },
+    {
+      "id": "site-mikolajczak",
+      "url": "https://parti-equinoxe.fr/",
+      "waitUntil": "load",
+      "timeoutMs": 45000,
+      "continueOnError": true,
+      "follow": "programme|projet|propositions|mesures|nos id|engagements|plan",
+      "maxFollow": 3
+    },
+    {
+      "id": "site-collovati",
+      "url": "https://www.lepeuplefrançais2027.fr/",
+      "waitUntil": "load",
+      "timeoutMs": 45000,
+      "continueOnError": true,
+      "follow": "programme|projet|propositions|mesures|nos id|engagements|plan",
+      "maxFollow": 3
+    },
+    {
+      "id": "site-lisnard",
+      "url": "https://www.lisnard2027.fr/",
+      "waitUntil": "load",
+      "timeoutMs": 45000,
+      "continueOnError": true,
+      "follow": "programme|projet|propositions|mesures|nos id|engagements|plan",
+      "maxFollow": 3
+    },
+    {
+      "id": "site-philippe",
+      "url": "https://www.edouardphilippe.fr/",
+      "waitUntil": "load",
+      "timeoutMs": 45000,
+      "continueOnError": true,
+      "follow": "programme|projet|propositions|mesures|nos id|engagements|plan",
+      "maxFollow": 3
+    },
+    {
+      "id": "site-retailleau",
+      "url": "https://www.avecretailleau.fr/",
+      "waitUntil": "load",
+      "timeoutMs": 45000,
+      "continueOnError": true,
+      "follow": "programme|projet|propositions|mesures|nos id|engagements|plan",
+      "maxFollow": 3
+    },
+    {
+      "id": "site-rohou",
+      "url": "https://www.les-ecologistes-mei.org/",
+      "waitUntil": "load",
+      "timeoutMs": 45000,
+      "continueOnError": true,
+      "follow": "programme|projet|propositions|mesures|nos id|engagements|plan",
+      "maxFollow": 3
+    },
+    {
+      "id": "site-lalanne",
+      "url": "https://dieudolalanne2027.com/",
+      "waitUntil": "load",
+      "timeoutMs": 45000,
+      "continueOnError": true,
+      "follow": "programme|projet|propositions|mesures|nos id|engagements|plan",
+      "maxFollow": 3
+    },
+    {
+      "id": "site-attal",
+      "url": "https://gabrielattal.fr/",
+      "waitUntil": "load",
+      "timeoutMs": 45000,
+      "continueOnError": true,
+      "follow": "programme|projet|propositions|mesures|nos id|engagements|plan",
+      "maxFollow": 3
+    },
+    {
+      "id": "site-melenchon",
+      "url": "https://melenchon2027.fr/programme/decouvrir/",
+      "waitUntil": "load",
+      "timeoutMs": 45000,
+      "continueOnError": true,
+      "follow": "programme|projet|propositions|mesures|nos id|engagements|plan",
+      "maxFollow": 3
+    },
+    {
+      "id": "site-bouamrane",
+      "url": "https://www.karimbouamrane2027.org/index.html",
+      "waitUntil": "load",
+      "timeoutMs": 45000,
+      "continueOnError": true,
+      "follow": "programme|projet|propositions|mesures|nos id|engagements|plan",
+      "maxFollow": 3
+    },
+    {
+      "id": "site-mlekuz",
+      "url": "https://trajectoire2027.fr/",
+      "waitUntil": "load",
+      "timeoutMs": 45000,
+      "continueOnError": true,
+      "follow": "programme|projet|propositions|mesures|nos id|engagements|plan",
+      "maxFollow": 3
+    },
+    {
+      "id": "site-lepen",
+      "url": "https://marinelepen.com/",
+      "waitUntil": "load",
+      "timeoutMs": 45000,
+      "continueOnError": true,
+      "follow": "programme|projet|propositions|mesures|nos id|engagements|plan",
+      "maxFollow": 3
+    },
+    {
+      "id": "site-markovic",
+      "url": "https://parti-animaliste.fr/mira-markovic-2027",
+      "waitUntil": "load",
+      "timeoutMs": 45000,
+      "continueOnError": true,
+      "follow": "programme|projet|propositions|mesures|nos id|engagements|plan",
+      "maxFollow": 3
+    },
+    {
+      "id": "site-polony",
+      "url": "http://www.natachapolony2027.fr/",
+      "waitUntil": "load",
+      "timeoutMs": 45000,
+      "continueOnError": true,
+      "follow": "programme|projet|propositions|mesures|nos id|engagements|plan",
+      "maxFollow": 3
+    },
+    {
+      "id": "site-arthaud",
+      "url": "https://www.nathalie-arthaud.info/",
+      "waitUntil": "load",
+      "timeoutMs": 45000,
+      "continueOnError": true,
+      "follow": "programme|projet|propositions|mesures|nos id|engagements|plan",
+      "maxFollow": 3
+    },
+    {
+      "id": "site-becht",
+      "url": "https://becht2027.fr/",
+      "waitUntil": "load",
+      "timeoutMs": 45000,
+      "continueOnError": true,
+      "follow": "programme|projet|propositions|mesures|nos id|engagements|plan",
+      "maxFollow": 3
+    },
+    {
+      "id": "site-glucksmann",
+      "url": "https://raphaelglucksmann.eu/programme.html",
+      "waitUntil": "load",
+      "timeoutMs": 45000,
+      "continueOnError": true,
+      "follow": "programme|projet|propositions|mesures|nos id|engagements|plan",
+      "maxFollow": 3
+    },
+    {
+      "id": "ddg2-francois-asselineau",
+      "url": "https://html.duckduckgo.com/html/?q=Fran%C3%A7ois%20Asselineau%20UPR%20candidat%202027%20programme%20site",
       "waitUntil": "domcontentloaded",
       "timeoutMs": 30000,
       "continueOnError": true
     },
     {
-      "id": "ddg-francois-asselineau",
-      "url": "https://html.duckduckgo.com/html/?q=%22Fran%C3%A7ois%20Asselineau%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "id": "ddg2-delphine-batho",
+      "url": "https://html.duckduckgo.com/html/?q=Delphine%20Batho%20G%C3%A9n%C3%A9ration%20%C3%A9cologie%20candidat%202027%20programme%20site",
       "waitUntil": "domcontentloaded",
       "timeoutMs": 30000,
       "continueOnError": true
     },
     {
-      "id": "ddg-gabriel-attal",
-      "url": "https://html.duckduckgo.com/html/?q=%22Gabriel%20Attal%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "id": "ddg2-augustin-billetdoux",
+      "url": "https://html.duckduckgo.com/html/?q=Augustin%20Billetdoux%20%20candidat%202027%20programme%20site",
       "waitUntil": "domcontentloaded",
       "timeoutMs": 30000,
       "continueOnError": true
     },
     {
-      "id": "ddg-delphine-batho",
-      "url": "https://html.duckduckgo.com/html/?q=%22Delphine%20Batho%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "id": "ddg2-benoit-mathieu",
+      "url": "https://html.duckduckgo.com/html/?q=Beno%C3%AEt%20Mathieu%20v%C3%A9lo%20parrainages%20candidat%202027%20programme%20site",
       "waitUntil": "domcontentloaded",
       "timeoutMs": 30000,
       "continueOnError": true
     },
     {
-      "id": "ddg-olivier-becht",
-      "url": "https://html.duckduckgo.com/html/?q=%22Olivier%20Becht%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "id": "ddg2-clara-egger",
+      "url": "https://html.duckduckgo.com/html/?q=Clara%20Egger%20Solution%20d%C3%A9mocratique%20candidat%202027%20programme%20site",
       "waitUntil": "domcontentloaded",
       "timeoutMs": 30000,
       "continueOnError": true
     },
     {
-      "id": "ddg-augustin-billetdoux",
-      "url": "https://html.duckduckgo.com/html/?q=%22Augustin%20Billetdoux%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "id": "ddg2-nicolas-dupont-aignan",
+      "url": "https://html.duckduckgo.com/html/?q=Nicolas%20Dupont-Aignan%20Debout%20la%20France%20candidat%202027%20programme%20site",
       "waitUntil": "domcontentloaded",
       "timeoutMs": 30000,
       "continueOnError": true
     },
     {
-      "id": "ddg-karim-bouamrane",
-      "url": "https://html.duckduckgo.com/html/?q=%22Karim%20Bouamrane%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "id": "ddg2-florian-philippot",
+      "url": "https://html.duckduckgo.com/html/?q=Florian%20Philippot%20Les%20Patriotes%20candidat%202027%20programme%20site",
       "waitUntil": "domcontentloaded",
       "timeoutMs": 30000,
       "continueOnError": true
     },
     {
-      "id": "ddg-juan-branco",
-      "url": "https://html.duckduckgo.com/html/?q=%22Juan%20Branco%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "id": "ddg2-gilles-platret",
+      "url": "https://html.duckduckgo.com/html/?q=Gilles%20Platret%20Chalon%20candidat%202027%20programme%20site",
       "waitUntil": "domcontentloaded",
       "timeoutMs": 30000,
       "continueOnError": true
     },
     {
-      "id": "ddg-christian-collovati",
-      "url": "https://html.duckduckgo.com/html/?q=%22Christian%20Collovati%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "id": "ddg2-jean-lassalle",
+      "url": "https://html.duckduckgo.com/html/?q=Jean%20Lassalle%20R%C3%A9sistons%20candidat%202027%20programme%20site",
       "waitUntil": "domcontentloaded",
       "timeoutMs": 30000,
       "continueOnError": true
     },
     {
-      "id": "ddg-nicolas-dupont-aignan",
-      "url": "https://html.duckduckgo.com/html/?q=%22Nicolas%20Dupont-Aignan%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "id": "ddg2-selma-labib",
+      "url": "https://html.duckduckgo.com/html/?q=Selma%20Labib%20NPA-R%C3%A9volutionnaires%20candidat%202027%20programme%20site",
       "waitUntil": "domcontentloaded",
       "timeoutMs": 30000,
       "continueOnError": true
     },
     {
-      "id": "ddg-sylvain-pierre-durif",
-      "url": "https://html.duckduckgo.com/html/?q=%22Sylvain%20Pierre%20Durif%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "id": "ddg2-fabien-roussel",
+      "url": "https://html.duckduckgo.com/html/?q=Fabien%20Roussel%20PCF%20candidat%202027%20programme%20site",
       "waitUntil": "domcontentloaded",
       "timeoutMs": 30000,
       "continueOnError": true
     },
     {
-      "id": "ddg-clara-egger",
-      "url": "https://html.duckduckgo.com/html/?q=%22Clara%20Egger%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "id": "ddg2-francois-ruffin",
+      "url": "https://html.duckduckgo.com/html/?q=Fran%C3%A7ois%20Ruffin%20Debout%20%21%20candidat%202027%20programme%20site",
       "waitUntil": "domcontentloaded",
       "timeoutMs": 30000,
       "continueOnError": true
     },
     {
-      "id": "ddg-raphael-glucksmann",
-      "url": "https://html.duckduckgo.com/html/?q=%22Rapha%C3%ABl%20Glucksmann%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "id": "ddg2-marine-tondelier",
+      "url": "https://html.duckduckgo.com/html/?q=Marine%20Tondelier%20Les%20%C3%89cologistes%20candidat%202027%20programme%20site",
       "waitUntil": "domcontentloaded",
       "timeoutMs": 30000,
       "continueOnError": true
     },
     {
-      "id": "ddg-anasse-kazib",
-      "url": "https://html.duckduckgo.com/html/?q=%22Anasse%20Kazib%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "id": "ddg2-jean-francois-legendre",
+      "url": "https://html.duckduckgo.com/html/?q=Jean-Fran%C3%A7ois%20Legendre%20A%20nous%20maintenant%20candidat%202027%20programme%20site",
       "waitUntil": "domcontentloaded",
       "timeoutMs": 30000,
       "continueOnError": true
     },
     {
-      "id": "ddg-selma-labib",
-      "url": "https://html.duckduckgo.com/html/?q=%22Selma%20Labib%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "id": "ddg2-juan-branco",
+      "url": "https://html.duckduckgo.com/html/?q=Juan%20Branco%20Les%20Ruches%20candidat%202027%20programme%20site",
       "waitUntil": "domcontentloaded",
       "timeoutMs": 30000,
       "continueOnError": true
     },
     {
-      "id": "ddg-francis-lalanne",
-      "url": "https://html.duckduckgo.com/html/?q=%22Francis%20Lalanne%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
-      "waitUntil": "domcontentloaded",
-      "timeoutMs": 30000,
-      "continueOnError": true
-    },
-    {
-      "id": "ddg-jean-lassalle",
-      "url": "https://html.duckduckgo.com/html/?q=%22Jean%20Lassalle%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
-      "waitUntil": "domcontentloaded",
-      "timeoutMs": 30000,
-      "continueOnError": true
-    },
-    {
-      "id": "ddg-marine-le-pen",
-      "url": "https://html.duckduckgo.com/html/?q=%22Marine%20Le%20Pen%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
-      "waitUntil": "domcontentloaded",
-      "timeoutMs": 30000,
-      "continueOnError": true
-    },
-    {
-      "id": "ddg-jean-francois-legendre",
-      "url": "https://html.duckduckgo.com/html/?q=%22Jean-Fran%C3%A7ois%20Legendre%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
-      "waitUntil": "domcontentloaded",
-      "timeoutMs": 30000,
-      "continueOnError": true
-    },
-    {
-      "id": "ddg-david-lisnard",
-      "url": "https://html.duckduckgo.com/html/?q=%22David%20Lisnard%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
-      "waitUntil": "domcontentloaded",
-      "timeoutMs": 30000,
-      "continueOnError": true
-    },
-    {
-      "id": "ddg-mira-markovic",
-      "url": "https://html.duckduckgo.com/html/?q=%22Mira%20Markovic%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
-      "waitUntil": "domcontentloaded",
-      "timeoutMs": 30000,
-      "continueOnError": true
-    },
-    {
-      "id": "ddg-benoit-mathieu",
-      "url": "https://html.duckduckgo.com/html/?q=%22Beno%C3%AEt%20Mathieu%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
-      "waitUntil": "domcontentloaded",
-      "timeoutMs": 30000,
-      "continueOnError": true
-    },
-    {
-      "id": "ddg-jean-luc-melenchon",
-      "url": "https://html.duckduckgo.com/html/?q=%22Jean-Luc%20M%C3%A9lenchon%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
-      "waitUntil": "domcontentloaded",
-      "timeoutMs": 30000,
-      "continueOnError": true
-    },
-    {
-      "id": "ddg-antoine-mikolajczak",
-      "url": "https://html.duckduckgo.com/html/?q=%22Antoine%20Mikolajczak%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
-      "waitUntil": "domcontentloaded",
-      "timeoutMs": 30000,
-      "continueOnError": true
-    },
-    {
-      "id": "ddg-manolo-mlekuz",
-      "url": "https://html.duckduckgo.com/html/?q=%22Manolo%20Mlekuz%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
-      "waitUntil": "domcontentloaded",
-      "timeoutMs": 30000,
-      "continueOnError": true
-    },
-    {
-      "id": "ddg-edouard-philippe",
-      "url": "https://html.duckduckgo.com/html/?q=%22%C3%89douard%20Philippe%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
-      "waitUntil": "domcontentloaded",
-      "timeoutMs": 30000,
-      "continueOnError": true
-    },
-    {
-      "id": "ddg-florian-philippot",
-      "url": "https://html.duckduckgo.com/html/?q=%22Florian%20Philippot%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
-      "waitUntil": "domcontentloaded",
-      "timeoutMs": 30000,
-      "continueOnError": true
-    },
-    {
-      "id": "ddg-gilles-platret",
-      "url": "https://html.duckduckgo.com/html/?q=%22Gilles%20Platret%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
-      "waitUntil": "domcontentloaded",
-      "timeoutMs": 30000,
-      "continueOnError": true
-    },
-    {
-      "id": "ddg-natacha-polony",
-      "url": "https://html.duckduckgo.com/html/?q=%22Natacha%20Polony%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
-      "waitUntil": "domcontentloaded",
-      "timeoutMs": 30000,
-      "continueOnError": true
-    },
-    {
-      "id": "ddg-bruno-retailleau",
-      "url": "https://html.duckduckgo.com/html/?q=%22Bruno%20Retailleau%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
-      "waitUntil": "domcontentloaded",
-      "timeoutMs": 30000,
-      "continueOnError": true
-    },
-    {
-      "id": "ddg-erwan-rohou",
-      "url": "https://html.duckduckgo.com/html/?q=%22Erwan%20Rohou%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
-      "waitUntil": "domcontentloaded",
-      "timeoutMs": 30000,
-      "continueOnError": true
-    },
-    {
-      "id": "ddg-fabien-roussel",
-      "url": "https://html.duckduckgo.com/html/?q=%22Fabien%20Roussel%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
-      "waitUntil": "domcontentloaded",
-      "timeoutMs": 30000,
-      "continueOnError": true
-    },
-    {
-      "id": "ddg-francois-ruffin",
-      "url": "https://html.duckduckgo.com/html/?q=%22Fran%C3%A7ois%20Ruffin%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
-      "waitUntil": "domcontentloaded",
-      "timeoutMs": 30000,
-      "continueOnError": true
-    },
-    {
-      "id": "ddg-marine-tondelier",
-      "url": "https://html.duckduckgo.com/html/?q=%22Marine%20Tondelier%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "id": "ddg2-sylvain-pierre-durif",
+      "url": "https://html.duckduckgo.com/html/?q=Sylvain%20Pierre%20Durif%20%20candidat%202027%20programme%20site",
       "waitUntil": "domcontentloaded",
       "timeoutMs": 30000,
       "continueOnError": true
