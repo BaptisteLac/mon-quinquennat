@@ -1,0 +1,1203 @@
+<!DOCTYPE html><html lang="fr"><head><style type="text/css">.uploadcare--jcrop-handle{background:transparent;box-sizing:border-box;height:45px;padding:12.5px;width:45px;z-index:2147483621}.uploadcare--jcrop-handle:before{background:#fff;border-radius:50%;box-shadow:inset 0 0 0 1px rgba(0,0,0,.2);content:"";display:block;height:20px;width:20px}@media (min-width:760px){.uploadcare--jcrop-handle:before{height:15px;width:15px}}.uploadcare--jcrop-handle.ord-nw{left:0;margin-left:-22.5px;margin-top:-22.5px;top:0}@media (min-width:760px){.uploadcare--jcrop-handle.ord-nw{margin-left:-17.5px;margin-top:-17.5px}}.uploadcare--jcrop-handle.ord-ne{margin-right:-22.5px;margin-top:-22.5px;right:0;top:0}@media (min-width:760px){.uploadcare--jcrop-handle.ord-ne{margin-right:-17.5px;margin-top:-17.5px}}.uploadcare--jcrop-handle.ord-se{bottom:0;margin-bottom:-22.5px;margin-right:-22.5px;right:0}@media (min-width:760px){.uploadcare--jcrop-handle.ord-se{margin-bottom:-17.5px;margin-right:-17.5px}}.uploadcare--jcrop-handle.ord-sw{bottom:0;left:0;margin-bottom:-22.5px;margin-left:-22.5px}@media (min-width:760px){.uploadcare--jcrop-handle.ord-sw{margin-bottom:-17.5px;margin-left:-17.5px}.uploadcare--jcrop-handle{height:35px;padding:10px;width:35px}}.uploadcare--jcrop-hline{background-color:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.2);height:1px!important;width:100%;z-index:2147483620}.uploadcare--jcrop-hline.bottom{bottom:0}.uploadcare--jcrop-vline{background-color:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.2);height:100%;width:1px!important;z-index:2147483620}.uploadcare--jcrop-vline.right{right:0}.uploadcare--jcrop-tracker{-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none;height:100%;-webkit-user-select:none;-ms-user-select:none;user-select:none;width:100%}.uploadcare--jcrop-holder img{max-height:none;max-width:none}.uploadcare--text{font-size:17.5px;line-height:25px;margin:0 0 10px;padding:0}.uploadcare--text:empty{display:none}.uploadcare--text_muted{color:#a4a2a1}.uploadcare--text_pre{background:#e3e1e1;box-sizing:border-box;font-family:monospace;max-width:100%;overflow-x:auto;padding:20px;text-align:left;white-space:pre}.uploadcare--text_size_small{font-size:15px;line-height:20px}.uploadcare--text_size_medium{font-size:20px;font-weight:700;line-height:25px}.uploadcare--text_size_large{font-size:22px;font-weight:700;line-height:25px}.uploadcare--text_size_extra-large{font-size:35px;line-height:45px}@media (min-width:760px){.uploadcare--text_size_extra-large{font-size:42.5px;line-height:50px}}.uploadcare--icon{fill:currentColor;all:initial;color:inherit;cursor:inherit;height:32px;margin:0;max-width:100%;padding:0;width:32px}.uploadcare--link,.uploadcare--link:link,.uploadcare--link:visited{color:#157cfc;cursor:pointer;text-decoration:underline}.uploadcare--link:focus,.uploadcare--link:hover{color:#3891ff;text-decoration:none}.uploadcare--link:focus{outline:2px solid rgba(21,124,252,.5);outline-offset:1px}.uploadcare--link:active{color:#0969ee}.uploadcare--button{-ms-flex-negative:0;all:initial;background:transparent;border:1px solid #157cfc;border-radius:6px;box-shadow:none;box-sizing:border-box;color:#157cfc;cursor:default;display:inline-block;flex-shrink:0;font-family:inherit;font-size:15px;font-style:normal;font-weight:400;height:auto;line-height:20px;margin:0;min-height:0;min-width:100px;overflow:hidden;padding:10px;text-align:center;text-overflow:ellipsis;text-shadow:none;transition:background .3s,color .3s,border .3s;white-space:nowrap;width:auto}.uploadcare--button svg{pointer-events:none}.uploadcare--button:focus,.uploadcare--button:hover{background:transparent;border-color:#3891ff;box-shadow:none;color:#3891ff;font-style:normal;font-weight:400;text-shadow:none}.uploadcare--button:focus{outline:2px solid rgba(21,124,252,.5);outline-offset:1px}.uploadcare--button:active{border-color:#0969ee;color:#0969ee}.uploadcare--button:disabled,.uploadcare--button[aria-disabled=true]{background:transparent!important;border-color:#d4d2d2!important;color:#d4d2d2!important;cursor:not-allowed}@media (min-width:760px){.uploadcare--button{font-size:17.5px;line-height:25px;padding:10px 20px}}.uploadcare--button_icon{height:60px;min-width:0;padding:14px;width:60px}.uploadcare--button_muted{border-color:transparent!important;border-radius:0;color:#a4a2a1}.uploadcare--button_muted:focus,.uploadcare--button_muted:hover{color:#157cfc}.uploadcare--button_muted:disabled,.uploadcare--button_muted[aria-disabled=true]{border-color:transparent!important}.uploadcare--button_overlay{background:rgba(53,53,53,.5);border-color:transparent;color:#fff}.uploadcare--button_overlay:focus,.uploadcare--button_overlay:hover{background:hsla(0,0%,40%,.5);border-color:transparent;color:#fff}.uploadcare--button_overlay:active{background:rgba(33,33,33,.5)}.uploadcare--button_primary{background:#157cfc;border-color:#157cfc;color:#fff}.uploadcare--button_primary:focus,.uploadcare--button_primary:hover{background:#3891ff;border-color:#3891ff;color:#fff}.uploadcare--button_primary:active{background:#0969ee;border-color:#0969ee}.uploadcare--button_primary:disabled,.uploadcare--button_primary[aria-disabled=true]{background:#d4d2d2!important;border-color:#d4d2d2!important;color:#fff!important}.uploadcare--button_size_big{font-size:20px;line-height:30px;padding:10px 25px}.uploadcare--button_size_small{font-size:15px;line-height:20px;min-width:80px;padding:5px 10px}.uploadcare--input{-ms-flex-negative:0;-webkit-appearance:none;appearance:none;background:#fff;border:1px solid #a4a2a1;border-radius:2px;box-shadow:none;box-sizing:border-box;color:#353535;display:block;flex-shrink:0;font-size:17.5px;line-height:25px;margin:5px 0 15px;padding:10px 15px;width:100%}.uploadcare--input:focus{outline:2px solid rgba(21,124,252,.5);outline-offset:1px}.uploadcare--input:-ms-input-placeholder{color:#a4a2a1}.uploadcare--input::placeholder{color:#a4a2a1}.uploadcare--form{-ms-flex-align:center;align-items:center;box-sizing:border-box;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;max-width:400px;width:100%}.uploadcare--error{color:#e66a6a}.uploadcare--powered-by{-ms-flex-pack:center;-ms-flex-align:center;align-items:center;color:#fff;display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;font-size:12.5px;justify-content:center;line-height:15px;padding:7.5px 0;text-align:center}.uploadcare--powered-by__link{color:inherit!important;display:-ms-inline-flexbox;display:inline-flex;text-decoration:none!important}.uploadcare--powered-by__logo{display:-ms-inline-flexbox;display:inline-flex;height:15px;vertical-align:text-bottom;width:20px}.uploadcare--progress__canvas{height:100%;width:100%}.uploadcare--progress__text{display:table-cell;font-size:60%;line-height:1;text-align:center;vertical-align:middle}.uploadcare--progress__text-container{display:table;height:100%;white-space:normal;width:100%}.uploadcare--progress_type_canvas{border-color:#e3e1e1;color:#ffd800;height:32px;padding:2px;width:32px}.uploadcare--progressbar{background:#e3e1e1;border-radius:6px;height:100%;overflow:hidden;width:100%}.uploadcare--progressbar__value{background:#ffd800;height:100%;width:0}.uploadcare--menu{-ms-flex-negative:0;flex-shrink:0;height:100%;max-width:100%;overflow:hidden;width:100%;width:100vw}@media (max-width:759px){.uploadcare--menu{height:60px}}@media (min-width:760px){.uploadcare--menu{width:60px}}.uploadcare--menu__icon{-ms-flex-negative:0;flex-shrink:0;margin:14px}@media (max-width:759px){.uploadcare--menu:not(.uploadcare--menu_opened) .uploadcare--menu__item_current:not(.uploadcare--menu__item_tab_file) .uploadcare--menu__icon{left:50%;margin-left:0;position:absolute;top:0;transform:translateX(-50%)}}.uploadcare--menu__item{-ms-flex-negative:0;-ms-flex-align:center;align-items:center;background:#e3e1e1;color:#666;cursor:default;display:-ms-flexbox;display:flex;flex-shrink:0;height:60px;overflow:hidden;transition:background .3s,color .3s;width:100vw}.uploadcare--menu__item:focus,.uploadcare--menu__item:hover{color:#157cfc}.uploadcare--menu__item:active{background-color:#fff;color:#0969ee}.uploadcare--menu__item:focus{box-shadow:inset 0 0 0 2px rgba(21,124,252,.5);outline:none}.uploadcare--menu__item[aria-disabled=true]{background:#e3e1e1!important;color:#666!important;cursor:not-allowed}@media (min-width:760px){.uploadcare--menu__item{width:60px}}.uploadcare--menu__item:after{-ms-flex-negative:0;content:attr(title);display:-ms-flexbox;display:flex;flex-shrink:0;font-size:17px;height:30px;line-height:30px;white-space:nowrap}@media (min-width:760px){.uploadcare--menu__item:after{max-width:170px;overflow:hidden;text-overflow:ellipsis}}.uploadcare--menu__item_current,.uploadcare--menu__item_current:active,.uploadcare--menu__item_current:focus,.uploadcare--menu__item_current:hover{background-color:#fff;color:#353535}.uploadcare--menu__item_hidden{display:none}.uploadcare--menu__items{background:#e3e1e1;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;height:100%;overflow-x:hidden;overflow-y:auto;padding-right:100vw;width:100%}.uploadcare--menu__toggle{height:60px;transition:none;width:60px}.uploadcare--menu__toggle:focus{outline-offset:-2px}@media (min-width:760px){.uploadcare--menu__toggle{display:none}}@media (max-width:759px){.uploadcare--menu:not(.uploadcare--menu_opened) .uploadcare--menu__toggle-icon_back{display:none}.uploadcare--menu_opened{height:100%;position:relative;z-index:1000}.uploadcare--menu_opened .uploadcare--menu__toggle{-ms-flex-pack:start;background:#e3e1e1;justify-content:flex-start;text-align:left;width:100%}.uploadcare--menu_opened .uploadcare--menu__toggle-icon_menu{display:none}.uploadcare--menu_opened .uploadcare--menu__items{height:calc(100% - 60px)}}.uploadcare--footer{-ms-flex-negative:0;-ms-flex-pack:justify;-ms-flex-align:center;align-items:center;box-sizing:border-box;display:-ms-flexbox;display:flex;flex-shrink:0;justify-content:space-between;margin-top:10px;padding:5px 20px 15px;width:100%}@media (max-width:759px) and (orientation:portrait){.uploadcare--footer{display:block}}.uploadcare--footer:empty{display:none}.uploadcare--footer__additions{-ms-flex-positive:1;-ms-flex-order:1;-ms-flex-pack:center;-ms-flex-align:center;align-items:center;box-sizing:border-box;display:-ms-flexbox;display:flex;flex-grow:1;justify-content:center;order:1;padding:0 0 15px;text-align:center}@media (max-width:759px) and (orientation:landscape){.uploadcare--footer__additions{padding:0 20px}}@media (max-width:500px) and (orientation:landscape){.uploadcare--footer__additions{display:none}}@media (min-width:760px){.uploadcare--footer__additions{padding:0 20px}}.uploadcare--footer__additions:empty{padding:0;visibility:hidden}.uploadcare--footer__button{margin-bottom:5px;margin-top:5px}.uploadcare--footer__button:first-of-type{-ms-flex-order:0;order:0}.uploadcare--footer__button:nth-of-type(2){-ms-flex-order:2;order:2}@media (max-width:759px){.uploadcare--footer__button{max-width:calc(50% - 20px)}}@media (max-width:759px) and (orientation:portrait){.uploadcare--footer__button:first-of-type{float:left}.uploadcare--footer__button:nth-of-type(2){float:right}}.uploadcare--dragging .uploadcare--draganddrop{background:#e3e1e1;border:2px dashed;border-radius:20px;color:#a4a2a1;margin:20px}.uploadcare--draganddrop.uploadcare--dragging{color:#157cfc!important}@media (max-width:759px){.uploadcare--draganddrop__title{display:none}}.uploadcare--draganddrop:not(.uploadcare--draganddrop_supported) .uploadcare--draganddrop__supported,.uploadcare--draganddrop_supported .uploadcare--draganddrop__not-supported,.uploadcare--dragging .uploadcare--dialog__close,.uploadcare--dragging__show{display:none}.uploadcare--dragging .uploadcare--dragging__show{display:block}.uploadcare--dragging .uploadcare--dragging__hide{display:none}.uploadcare--file{-ms-flex-align:stretch;-ms-flex-pack:justify;align-items:stretch;box-sizing:border-box;color:#353535;cursor:default;display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;justify-content:space-between;padding:5px 0 5px 20px}.uploadcare--file:hover{background:rgba(21,124,252,.1)}.uploadcare--file__description{-ms-flex-positive:1;flex-grow:1;min-width:0;padding-right:20px;text-align:left}.uploadcare--file__description:focus,.uploadcare--file__description:focus .uploadcare--file__preview,.uploadcare--file__description:hover,.uploadcare--file__description:hover .uploadcare--file__preview{color:#157cfc}.uploadcare--file__description:active,.uploadcare--file__description:active .uploadcare--file__preview{color:#0969ee}.uploadcare--file__description:focus{outline:2px solid rgba(21,124,252,.5);outline-offset:2px}.uploadcare--file__icon{max-height:100%;max-width:100%}.uploadcare--file__name{line-height:25px;margin:0;max-width:calc(100vw - 200px);overflow:hidden;text-overflow:ellipsis;transition:color .3s;white-space:nowrap}@media (min-width:760px){.uploadcare--file__name{max-width:350px}}.uploadcare--file__preview{-ms-flex-negative:0;-ms-flex-align:center;-ms-flex-pack:center;align-items:center;background:transparent;border:1px solid;border-radius:6px;box-sizing:border-box;color:#e3e1e1;display:-ms-flexbox;display:flex;flex-shrink:0;float:left;height:60px;justify-content:center;margin-right:10px;overflow:hidden;padding:2px;transition:border .3s;width:60px}.uploadcare--file__progressbar{-ms-flex-negative:0;-ms-flex-item-align:center;align-self:center;flex-shrink:0;height:10px;margin:0 10px;width:60px}.uploadcare--file__size{color:#a4a2a1;font-size:12.5px}.uploadcare--file_status_error,.uploadcare--file_status_error .uploadcare--file__description,.uploadcare--file_status_error .uploadcare--file__preview{color:#e66a6a!important}.uploadcare--file_status_error .uploadcare--file__name{color:hsla(0,71%,66%,.5)!important}.uploadcare--file_status_error .uploadcare--file__progressbar,.uploadcare--file_status_error .uploadcare--file__size,.uploadcare--file_status_uploaded .uploadcare--file__progressbar{display:none}.uploadcare--file_status_uploading,.uploadcare--file_status_uploading .uploadcare--file__description{color:#353535!important}.uploadcare--file_status_uploading .uploadcare--file__name{max-width:calc(100vw - 280px)}@media (min-width:760px){.uploadcare--file_status_uploading .uploadcare--file__name{max-width:270px}}.uploadcare--file_status_uploading .uploadcare--file__preview{background:#ffd800;color:#ffd800!important}.uploadcare--files{-ms-flex-positive:1;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;flex-grow:1;height:100%;overflow:auto;width:100%}.uploadcare--files__item{-ms-flex-negative:0;flex-shrink:0}.uploadcare--crop-sizes{-ms-flex-positive:1;-ms-flex-pack:distribute;display:-ms-flexbox;display:flex;flex-grow:1;justify-content:space-around}.uploadcare--crop-sizes__item{-ms-flex-pack:end;-ms-flex-align:center;align-items:center;background:transparent;border-color:transparent;color:#353535;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;height:65px;justify-content:flex-end;padding:0}.uploadcare--crop-sizes__item:focus,.uploadcare--crop-sizes__item:hover{background:transparent;border-color:transparent;color:#157cfc}.uploadcare--crop-sizes__item:active{background:transparent;border-color:transparent;color:#0969ee}.uploadcare--crop-sizes__item:disabled,.uploadcare--crop-sizes__item[aria-disabled=true]{border-color:transparent!important}.uploadcare--crop-sizes__item:after{content:attr(data-caption);display:block;font-size:14px;line-height:25px;text-transform:uppercase}@media (max-width:400px),(max-width:600px) and (orientation:landscape){.uploadcare--crop-sizes__item:after{font-size:12px}}.uploadcare--crop-sizes__item:before{-ms-flex-order:1;background:transparent;border-radius:50%;content:"";display:block;height:6px;margin:1px 0;order:1;width:6px}.uploadcare--crop-sizes__item_current:active,.uploadcare--crop-sizes__item_current:focus,.uploadcare--crop-sizes__item_current:hover{color:#353535}.uploadcare--crop-sizes__item_current:before{background:#157cfc}.uploadcare--crop-sizes__icon{border:2px solid;border-radius:2px;box-sizing:border-box;color:inherit;height:30px;transform:scale(.666);width:30px}.uploadcare--crop-sizes__icon_free{border:none;border-radius:0;transform:none}.uploadcare--file-source{background:#e3e1e1;border-color:#e3e1e1;color:#353535;margin:10px}.uploadcare--file-source_all{-ms-flex-order:1;background:transparent;border-color:currentColor;color:#157cfc;order:1}.uploadcare--file-sources{-ms-flex-negative:0;-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;flex-shrink:0;width:100%}@media (max-width:759px) and (max-height:450px),(min-width:760px){.uploadcare--file-sources{display:none}}.uploadcare--file-sources__caption{margin:15px 0 5px}@media (max-width:759px) and (max-height:550px){.uploadcare--file-sources__item:nth-child(4),.uploadcare--file-sources__item:nth-child(5),.uploadcare--file-sources__item:nth-child(6){display:none}}.uploadcare--file-sources__items{-ms-flex-pack:center;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;justify-content:center;max-width:300px}.uploadcare--file-sources__items:empty,.uploadcare--file-sources__items:not(.uploadcare--file-sources__items_many) .uploadcare--file-source__all{display:none}.uploadcare--media{-ms-flex-positive:1;-ms-flex-pack:center;-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;flex-grow:1;justify-content:center;position:relative;width:100%}.uploadcare--media__image{left:50%;max-height:100%;max-width:100%;position:absolute;top:50%;transform:translateX(-50%) translateY(-50%)}.uploadcare--media__video{all:initial;height:auto;max-height:100%;max-width:100%;min-height:100px;width:auto}@media (max-width:759px) and (max-height:379px){.uploadcare--media__video{max-height:120px}}@media (max-width:759px) and (min-height:380px) and (max-height:499px){.uploadcare--media__video{max-height:160px}}@media (max-width:759px) and (min-height:500px),(min-width:760px){.uploadcare--media__video{max-height:300px}}.uploadcare--camera__button{margin:5px 10px}.uploadcare--camera__button_type_mirror{left:50%;margin:0;position:absolute;top:15px;transform:translateX(-50%)}.uploadcare--camera__video{transition:transform .8s cubic-bezier(.23,1,.32,1)}.uploadcare--camera__video_mirrored{transform:scaleX(-1)}.uploadcare--camera__video-container{-ms-flex-positive:0;flex-grow:0;margin-bottom:10px;position:relative}.uploadcare--camera_status_denied .uploadcare--camera__button_type_cancel-record,.uploadcare--camera_status_denied .uploadcare--camera__button_type_capture,.uploadcare--camera_status_denied .uploadcare--camera__button_type_mirror,.uploadcare--camera_status_denied .uploadcare--camera__button_type_start-record,.uploadcare--camera_status_denied .uploadcare--camera__button_type_stop-record,.uploadcare--camera_status_denied .uploadcare--camera__controls,.uploadcare--camera_status_denied .uploadcare--camera__not-found,.uploadcare--camera_status_denied .uploadcare--camera__please-allow,.uploadcare--camera_status_denied .uploadcare--camera__video-container,.uploadcare--camera_status_not-founded .uploadcare--camera__button_type_cancel-record,.uploadcare--camera_status_not-founded .uploadcare--camera__button_type_capture,.uploadcare--camera_status_not-founded .uploadcare--camera__button_type_mirror,.uploadcare--camera_status_not-founded .uploadcare--camera__button_type_retry,.uploadcare--camera_status_not-founded .uploadcare--camera__button_type_start-record,.uploadcare--camera_status_not-founded .uploadcare--camera__button_type_stop-record,.uploadcare--camera_status_not-founded .uploadcare--camera__controls,.uploadcare--camera_status_not-founded .uploadcare--camera__please-allow,.uploadcare--camera_status_not-founded .uploadcare--camera__video-container,.uploadcare--camera_status_ready .uploadcare--camera__button_type_cancel-record,.uploadcare--camera_status_ready .uploadcare--camera__button_type_retry,.uploadcare--camera_status_ready .uploadcare--camera__button_type_stop-record,.uploadcare--camera_status_ready .uploadcare--camera__not-found,.uploadcare--camera_status_ready .uploadcare--camera__please-allow,.uploadcare--camera_status_recording .uploadcare--camera__button_type_capture,.uploadcare--camera_status_recording .uploadcare--camera__button_type_mirror,.uploadcare--camera_status_recording .uploadcare--camera__button_type_retry,.uploadcare--camera_status_recording .uploadcare--camera__button_type_start-record,.uploadcare--camera_status_recording .uploadcare--camera__device-select,.uploadcare--camera_status_recording .uploadcare--camera__not-found,.uploadcare--camera_status_recording .uploadcare--camera__please-allow,.uploadcare--camera_status_requested .uploadcare--camera__button_type_cancel-record,.uploadcare--camera_status_requested .uploadcare--camera__button_type_capture,.uploadcare--camera_status_requested .uploadcare--camera__button_type_mirror,.uploadcare--camera_status_requested .uploadcare--camera__button_type_retry,.uploadcare--camera_status_requested .uploadcare--camera__button_type_start-record,.uploadcare--camera_status_requested .uploadcare--camera__button_type_stop-record,.uploadcare--camera_status_requested .uploadcare--camera__controls,.uploadcare--camera_status_requested .uploadcare--camera__device-select,.uploadcare--camera_status_requested .uploadcare--camera__not-found,.uploadcare--camera_status_requested .uploadcare--camera__video-container{display:none}.uploadcare--camera__device-select{-ms-flex-negative:0;all:initial;background-image:linear-gradient(45deg,transparent 50%,#3891ff 0),linear-gradient(135deg,#3891ff 50%,transparent 0),linear-gradient(90deg,#ccc,#ccc);background-position:calc(100% - 20px) calc(1em + 2px),calc(100% - 15px) calc(1em + 2px),calc(100% - 2.5em) .5em;background-repeat:no-repeat;background-size:5px 5px,5px 5px,1px 1.5em;border:1px solid #157cfc;border-radius:6px;box-shadow:none;box-sizing:border-box;color:#157cfc;cursor:default;display:none;flex-shrink:0;font-family:inherit;font-size:15px;font-style:normal;font-weight:400;height:auto;line-height:20px;margin:5px 10px 15px;max-width:500px;min-height:0;min-width:100px;overflow:hidden;padding:10px 60px 10px 10px;text-align:center;text-overflow:ellipsis;text-shadow:none;transition:background .3s,color .3s,border .3s;white-space:nowrap;width:auto}.uploadcare--camera__device-select svg{pointer-events:none}.uploadcare--camera__device-select:focus,.uploadcare--camera__device-select:hover{border-color:#3891ff;box-shadow:none;color:#3891ff;font-style:normal;font-weight:400;text-shadow:none}.uploadcare--camera__device-select:focus{outline:2px solid rgba(21,124,252,.5);outline-offset:1px}.uploadcare--camera__device-select:active{border-color:#0969ee;color:#0969ee}@media (min-width:760px){.uploadcare--camera__device-select{font-size:17.5px;line-height:25px;padding:10px 60px 10px 20px}}.uploadcare--camera__device-select.uploadcare--camera__device-select_has-options{display:block}.uploadcare--crop-widget>.uploadcare--preview__image{filter:brightness(60%);transform:none}.uploadcare--tab{-ms-flex-align:stretch;align-items:stretch;overflow:hidden;text-align:center}.uploadcare--tab,.uploadcare--tab__content{-ms-flex-positive:1;-ms-flex-pack:center;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;flex-grow:1;justify-content:center}.uploadcare--tab__content{-ms-flex-negative:1;-ms-flex-align:center;align-items:center;flex-shrink:1;overflow-y:auto;padding:0 20px}.uploadcare--tab__header{-ms-flex-negative:0;flex-shrink:0;overflow:hidden;padding:0 20px}@media (min-width:760px){.uploadcare--tab__header{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;height:60px;padding-right:60px}}.uploadcare--tab__iframe{-ms-flex-positive:1;border:0;flex-grow:1;height:100%;opacity:0;width:100%}.uploadcare--tab__title{margin-bottom:10px;margin-top:10px}.uploadcare--tab:not(.uploadcare--tab_current),.uploadcare--tab_name_preview.uploadcare--tab_current~.uploadcare--panel__footer{display:none}.uploadcare--tab_remote.uploadcare--tab_current~.uploadcare--panel__footer{margin-top:0}.uploadcare--panel{-ms-flex-negative:0;background:#fff;border:1px solid #a4a2a1;border-radius:6px;box-sizing:border-box;color:#353535;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;flex-shrink:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Arial,sans-serif;font-size:15px;font-weight:400;height:500px;line-height:20px;overflow:hidden;position:relative;width:100%}@media (min-width:760px){.uploadcare--panel{-ms-flex-direction:row;flex-direction:row}}.uploadcare--panel>.uploadcare--icons{position:absolute}.uploadcare--panel__content{-ms-flex-positive:1;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;flex-grow:1;overflow:hidden}.uploadcare--panel__file-counter{display:inline}.uploadcare--panel__footer{background:#fff9d8;padding-top:15px}.uploadcare--panel__icon{box-sizing:border-box;padding:3px}.uploadcare--panel__menu_hidden{display:none}.uploadcare--panel__message_hidden{color:#d4d2d2}.uploadcare--panel__powered-by{background:#353535;color:hsla(0,0%,100%,.5)}@media (min-width:760px){.uploadcare--panel__powered-by{display:none}}.uploadcare--tab:not(:nth-child(2)).uploadcare--tab_current~.uploadcare--panel__powered-by{display:none}@media (max-width:759px){.uploadcare--panel_menu-hidden .uploadcare--tab__header{min-height:60px;padding:6px 60px 0}}.uploadcare--panel:not(.uploadcare--panel_multiple) .uploadcare--panel__footer{display:none}.uploadcare--panel_multiple .uploadcare--panel__content{position:relative}.uploadcare--panel_multiple .uploadcare--tab_name_preview{height:100%;left:0;position:absolute;top:0;width:100%}.uploadcare--panel_multiple .uploadcare--tab_name_preview .uploadcare--tab__content{padding-left:0;padding-right:0}.uploadcare--panel_multiple .uploadcare--tab_name_preview .uploadcare--tab__footer{margin-top:0;padding-top:15px;position:relative}.uploadcare--panel_multiple .uploadcare--tab_name_preview .uploadcare--tab__footer:before{background:#e3e1e1;content:"";height:1px;left:20px;position:absolute;top:0;width:calc(100% - 40px)}.uploadcare--preview__content{overflow:hidden}.uploadcare--preview__content_crop{padding:10px 20px}.uploadcare--dialog{-ms-flex-pack:start;-ms-flex-align:stretch;align-items:stretch;background:#fff;box-sizing:border-box;color:#353535;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Arial,sans-serif;font-size:15px;font-weight:400;height:100%;justify-content:flex-start;left:0;line-height:20px;opacity:0;overflow:hidden;position:fixed;top:0;-ms-touch-action:none;touch-action:none;transition:opacity .33s cubic-bezier(.05,.7,.25,1);width:100%;z-index:2147483647}@media (min-width:760px){.uploadcare--dialog{-ms-flex-align:center;align-items:center;background:rgba(0,0,0,.5);overflow-y:auto}}@media (min-width:760px) and (max-height:559px){.uploadcare--dialog{padding-top:30px}}@media (min-width:760px) and (min-height:560px){.uploadcare--dialog{-ms-flex-pack:center;justify-content:center}}.uploadcare--dialog__close{position:absolute;right:0;top:0;z-index:49}.uploadcare--dialog__close:focus{outline-offset:-2px}.uploadcare--dialog__container{display:-ms-flexbox;display:flex;overflow:hidden;position:relative}@media (max-width:759px){.uploadcare--dialog__container{-ms-flex-positive:1;flex-grow:1;height:100%}}@media (min-width:760px){.uploadcare--dialog__container{border-radius:6px;height:calc(100% - 60px);-webkit-mask-image:-webkit-radial-gradient(#fff,#000);max-height:660px;max-width:900px;min-height:500px;width:calc(100% - 60px)}}@media (min-width:1210px){.uploadcare--dialog__container{max-width:1050px}}.uploadcare--dialog__panel{border:none;border-radius:0;height:100%}@media (min-width:1210px){.uploadcare--dialog__panel .uploadcare--menu,.uploadcare--dialog__panel .uploadcare--menu__item{width:250px}}.uploadcare--dialog__powered-by{-ms-flex-negative:0;flex-shrink:0}@media (max-width:759px){.uploadcare--dialog__powered-by{display:none}}.uploadcare--dialog_status_active{opacity:1}.uploadcare--widget{display:inline-block;vertical-align:baseline}.uploadcare--dragging .uploadcare--widget,.uploadcare--widget.uploadcare--dragging{position:relative}.uploadcare--widget__button{all:initial;background:#c3c3c3;border:none;border-radius:6px;box-shadow:none;box-sizing:border-box;color:#fff;cursor:default;display:inline-block;font:inherit;height:auto;line-height:inherit;margin:0;min-height:0;min-width:0;padding:.4em 1em;text-align:center;text-shadow:inherit;transition:background .3s;white-space:nowrap;width:auto}.uploadcare--widget__button:focus,.uploadcare--widget__button:hover{background:#b3b3b3;box-shadow:none;color:#fff;font:inherit;text-shadow:inherit}.uploadcare--widget__button:focus{outline:2px solid rgba(21,124,252,.5);outline-offset:1px}.uploadcare--widget__button:active{background:#b3b3b3}.uploadcare--widget__button:disabled{background:#c3c3c3;color:#fff;cursor:not-allowed}.uploadcare--widget__button_type_open{background:#157cfc;color:#fff}.uploadcare--widget__button_type_open:focus,.uploadcare--widget__button_type_open:hover{background:#3891ff}.uploadcare--widget__button_type_open:active{background:#0969ee}.uploadcare--widget__button_type_open:disabled{background:#c3c3c3}.uploadcare--widget__dragndrop-area{background:#e3e1e1;border:1.5px dashed;border-radius:6px;box-sizing:border-box;color:#a4a2a1;display:none;font:inherit;left:0;line-height:inherit;margin:0;min-height:100%;min-width:100%;padding:calc(.4em - 1.5px) 1em;position:absolute;text-align:center;top:0;transition:color .3s;white-space:nowrap}.uploadcare--dragging .uploadcare--widget__dragndrop-area{display:block}.uploadcare--widget.uploadcare--dragging .uploadcare--widget__dragndrop-area{color:#157cfc}.uploadcare--widget__file-name,.uploadcare--widget__file-size{display:inline}.uploadcare--widget__progress{display:inline-block;height:1.8em;line-height:0;margin:0 .2em 0 0;padding:0;vertical-align:middle;width:1.8em}.uploadcare--widget__text{box-sizing:border-box;display:inline-block;margin-right:.2em;padding:.4em 0;white-space:nowrap}.uploadcare--widget:not(.uploadcare--widget_option_clearable).uploadcare--widget_status_error .uploadcare--widget__button_type_remove,.uploadcare--widget:not(.uploadcare--widget_option_clearable).uploadcare--widget_status_loaded .uploadcare--widget__button_type_remove,.uploadcare--widget_option_clearable.uploadcare--widget_status_error .uploadcare--widget__button_type_open,.uploadcare--widget_status_error .uploadcare--widget__button_type_cancel,.uploadcare--widget_status_error .uploadcare--widget__progress,.uploadcare--widget_status_loaded .uploadcare--widget__button_type_cancel,.uploadcare--widget_status_loaded .uploadcare--widget__button_type_open,.uploadcare--widget_status_loaded .uploadcare--widget__progress,.uploadcare--widget_status_ready .uploadcare--widget__button_type_cancel,.uploadcare--widget_status_ready .uploadcare--widget__button_type_remove,.uploadcare--widget_status_ready .uploadcare--widget__progress,.uploadcare--widget_status_ready .uploadcare--widget__text,.uploadcare--widget_status_started .uploadcare--widget__button_type_open,.uploadcare--widget_status_started .uploadcare--widget__button_type_remove{display:none}.uploadcare--page{height:auto;max-height:100%;max-width:100%;min-height:0;min-width:0;overflow:hidden;width:auto}.uploadcare--mouse-focused:focus{outline:none}</style><style type="text/css">.turbo-progress-bar {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #0076ff;
+  z-index: 2147483647;
+  transition:
+    width 300ms ease-out,
+    opacity 150ms 150ms ease-in;
+  transform: translate3d(0, 0, 0);
+}
+</style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="turbo-cache-control" content="no-cache">
+
+    <title>Les Écologistes</title>
+
+    <link href="https://fonts.citipo.com/Barlow%20Condensed/fontface.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://fonts.citipo.com/Barlow/fontface.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="/build/385.ac97de96.css" integrity="sha384-ypw/fbOGOBxB23WOC5OyXtcK3PlmABi0Zjwt1mLrbpmjUnJPdN5MAkN52zMLiP7K"><link rel="stylesheet" href="/build/vendor.98616598.css" integrity="sha384-H/m2l1w/K3/bQjttu61dDjG4UtCwwPJzZZP2+yT/gytJXDG+R+8hY1J1DeRXr4e3">
+    <link rel="stylesheet" href="/build/app.1b83dc2a.css" integrity="sha384-kbK/dM8azsPNFiNGDuzDBBauzOV9z2NCJ3oQB3eD47YcJ92qdJitzOm3we5N6feo">
+    <link rel="stylesheet" href="/icons/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">
+
+    <script async="" src="https://matomo.datack.fr/matomo.js"></script><script src="/build/runtime.7c334b9a.js" defer="" integrity="sha384-hIjJexWo/SR01fmRZ/zv0JQfhDjbvzeivclLOuqPSZEo9+ChDQOsHBSNx5N96hoO"></script><script src="/build/vendor.5832c9f2.js" defer="" integrity="sha384-nmjYNtJiyySel/HJJc4yrwu4FQGsvjgf9aZ1nQ6LSgP1ejD2wLtnlHUnAJ5Y1aHG"></script>
+    <script src="/build/285.eee0a658.js" defer="" integrity="sha384-VGX+ySlT095e/4HBBwFu/HRTmNttu/Xd3CQEMWSntX1WuSVULfYoEUVfHmKv+Ntk"></script><script src="/build/app.1115edab.js" defer="" integrity="sha384-J4LmgNZ+ZfI0MV1tXX5j/pyUg8Iyv9uLMkFtP7idGib8bYV19Waz/dFa1+NfwV73"></script>
+    <script defer="" src="https://administrer.lesecologistes.fr/projects/bundle.6dda8eb8.js" data-project="5VzD7aOAVIfHyBkqhI91qZ" data-stats-api="https://administrer.lesecologistes.fr/projects/event"></script>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="referrer" content="origin">
+    
+    <link rel="canonical" href="http://lesecologistes.fr/">
+    <meta name="description" content="Rejoignez Les Écologistes et passez à l'action ☘️">
+
+            <link rel="apple-touch-icon" sizes="256x256" href="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/project-icon/7aecc164-0916-4e17-aa75-cc60d762f90d.png">
+        <link rel="icon" type="image/png" sizes="256x256" href="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/project-icon/7aecc164-0916-4e17-aa75-cc60d762f90d.png">
+    
+    <meta name="msapplication-TileColor" content="#0F345C">
+    <meta name="theme-color" content="#0F345C">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://lesecologistes.fr/">
+    <meta property="og:title" content="Les Écologistes">
+    <meta property="og:description" content="Rejoignez Les Écologistes et passez à l'action ☘️">
+    <meta property="og:image" content="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/project-sharer/35fc244b-c854-48c7-ae93-aa0e1bd06f25.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Les Écologistes">
+    <meta name="twitter:description" content="Rejoignez Les Écologistes et passez à l'action ☘️">
+    <meta name="twitter:image" content="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/project-sharer/35fc244b-c854-48c7-ae93-aa0e1bd06f25.png">
+
+    <link rel="alternate" type="application/rss+xml" title="Actualités" href="http://lesecologistes.fr/rss.xml">
+
+    <script>
+        UPLOADCARE_LOCALE = document.documentElement.lang;
+        UPLOADCARE_SYSTEM_DIALOG = true;
+        UPLOADCARE_CLEARABLE = true;
+        UPLOADCARE_DO_NOT_STORE = false;
+    </script>
+        <script defer="" src="https://administrer.lesecologistes.fr/theme/b53c650c-b545-4cdf-a7f2-044c095c4337.js?v=fc83e04e98ebaaa88c23ba61ffde79cc" data-project="5VzD7aOAVIfHyBkqhI91qZ"></script>
+
+    <!-- Matomo -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+      _paq.push(["setCookieDomain", "*.lesecologistes.fr"]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://matomo.datack.fr/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '31']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
+<style>.swal2-popup.swal2-toast{box-sizing:border-box;grid-column:1/4 !important;grid-row:1/4 !important;grid-template-columns:min-content auto min-content;padding:1em;overflow-y:hidden;background:#fff;box-shadow:0 0 1px rgba(0,0,0,.075),0 1px 2px rgba(0,0,0,.075),1px 2px 4px rgba(0,0,0,.075),1px 3px 8px rgba(0,0,0,.075),2px 4px 16px rgba(0,0,0,.075);pointer-events:all}.swal2-popup.swal2-toast>*{grid-column:2}.swal2-popup.swal2-toast .swal2-title{margin:.5em 1em;padding:0;font-size:1em;text-align:initial}.swal2-popup.swal2-toast .swal2-loading{justify-content:center}.swal2-popup.swal2-toast .swal2-input{height:2em;margin:.5em;font-size:1em}.swal2-popup.swal2-toast .swal2-validation-message{font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{grid-column:3/3;grid-row:1/99;align-self:center;width:.8em;height:.8em;margin:0;font-size:2em}.swal2-popup.swal2-toast .swal2-html-container{margin:.5em 1em;padding:0;overflow:initial;font-size:1em;text-align:initial}.swal2-popup.swal2-toast .swal2-html-container:empty{padding:0}.swal2-popup.swal2-toast .swal2-loader{grid-column:1;grid-row:1/99;align-self:center;width:2em;height:2em;margin:.25em}.swal2-popup.swal2-toast .swal2-icon{grid-column:1;grid-row:1/99;align-self:center;width:2em;min-width:2em;height:2em;margin:0 .5em 0 0}.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:1.8em;font-weight:bold}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{justify-content:flex-start;height:auto;margin:0;margin-top:.5em;padding:0 .5em}.swal2-popup.swal2-toast .swal2-styled{margin:.25em .5em;padding:.4em .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:1.6em;height:3em;transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-0.8em;left:-0.5em;transform:rotate(-45deg);transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-0.25em;left:.9375em;transform-origin:0 1.5em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-tip{animation:swal2-toast-animate-success-line-tip .75s}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-long{animation:swal2-toast-animate-success-line-long .75s}.swal2-popup.swal2-toast.swal2-show{animation:swal2-toast-show .5s}.swal2-popup.swal2-toast.swal2-hide{animation:swal2-toast-hide .1s forwards}div:where(.swal2-container){display:grid;position:fixed;z-index:1060;inset:0;box-sizing:border-box;grid-template-areas:"top-start     top            top-end" "center-start  center         center-end" "bottom-start  bottom-center  bottom-end";grid-template-rows:minmax(min-content, auto) minmax(min-content, auto) minmax(min-content, auto);height:100%;padding:.625em;overflow-x:hidden;transition:background-color .1s;-webkit-overflow-scrolling:touch}div:where(.swal2-container).swal2-backdrop-show,div:where(.swal2-container).swal2-noanimation{background:rgba(0,0,0,.4)}div:where(.swal2-container).swal2-backdrop-hide{background:rgba(0,0,0,0) !important}div:where(.swal2-container).swal2-top-start,div:where(.swal2-container).swal2-center-start,div:where(.swal2-container).swal2-bottom-start{grid-template-columns:minmax(0, 1fr) auto auto}div:where(.swal2-container).swal2-top,div:where(.swal2-container).swal2-center,div:where(.swal2-container).swal2-bottom{grid-template-columns:auto minmax(0, 1fr) auto}div:where(.swal2-container).swal2-top-end,div:where(.swal2-container).swal2-center-end,div:where(.swal2-container).swal2-bottom-end{grid-template-columns:auto auto minmax(0, 1fr)}div:where(.swal2-container).swal2-top-start>.swal2-popup{align-self:start}div:where(.swal2-container).swal2-top>.swal2-popup{grid-column:2;place-self:start center}div:where(.swal2-container).swal2-top-end>.swal2-popup,div:where(.swal2-container).swal2-top-right>.swal2-popup{grid-column:3;place-self:start end}div:where(.swal2-container).swal2-center-start>.swal2-popup,div:where(.swal2-container).swal2-center-left>.swal2-popup{grid-row:2;align-self:center}div:where(.swal2-container).swal2-center>.swal2-popup{grid-column:2;grid-row:2;place-self:center center}div:where(.swal2-container).swal2-center-end>.swal2-popup,div:where(.swal2-container).swal2-center-right>.swal2-popup{grid-column:3;grid-row:2;place-self:center end}div:where(.swal2-container).swal2-bottom-start>.swal2-popup,div:where(.swal2-container).swal2-bottom-left>.swal2-popup{grid-column:1;grid-row:3;align-self:end}div:where(.swal2-container).swal2-bottom>.swal2-popup{grid-column:2;grid-row:3;place-self:end center}div:where(.swal2-container).swal2-bottom-end>.swal2-popup,div:where(.swal2-container).swal2-bottom-right>.swal2-popup{grid-column:3;grid-row:3;place-self:end end}div:where(.swal2-container).swal2-grow-row>.swal2-popup,div:where(.swal2-container).swal2-grow-fullscreen>.swal2-popup{grid-column:1/4;width:100%}div:where(.swal2-container).swal2-grow-column>.swal2-popup,div:where(.swal2-container).swal2-grow-fullscreen>.swal2-popup{grid-row:1/4;align-self:stretch}div:where(.swal2-container).swal2-no-transition{transition:none !important}div:where(.swal2-container) div:where(.swal2-popup){display:none;position:relative;box-sizing:border-box;grid-template-columns:minmax(0, 100%);width:32em;max-width:100%;padding:0 0 1.25em;border:none;border-radius:5px;background:#fff;color:#545454;font-family:inherit;font-size:1rem}div:where(.swal2-container) div:where(.swal2-popup):focus{outline:none}div:where(.swal2-container) div:where(.swal2-popup).swal2-loading{overflow-y:hidden}div:where(.swal2-container) h2:where(.swal2-title){position:relative;max-width:100%;margin:0;padding:.8em 1em 0;color:inherit;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}div:where(.swal2-container) div:where(.swal2-actions){display:flex;z-index:1;box-sizing:border-box;flex-wrap:wrap;align-items:center;justify-content:center;width:auto;margin:1.25em auto 0;padding:0}div:where(.swal2-container) div:where(.swal2-actions):not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}div:where(.swal2-container) div:where(.swal2-actions):not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1))}div:where(.swal2-container) div:where(.swal2-actions):not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))}div:where(.swal2-container) div:where(.swal2-loader){display:none;align-items:center;justify-content:center;width:2.2em;height:2.2em;margin:0 1.875em;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border-width:.25em;border-style:solid;border-radius:100%;border-color:#2778c4 rgba(0,0,0,0) #2778c4 rgba(0,0,0,0)}div:where(.swal2-container) button:where(.swal2-styled){margin:.3125em;padding:.625em 1.1em;transition:box-shadow .1s;box-shadow:0 0 0 3px rgba(0,0,0,0);font-weight:500}div:where(.swal2-container) button:where(.swal2-styled):not([disabled]){cursor:pointer}div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#7066e0;color:#fff;font-size:1em}div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm:focus{box-shadow:0 0 0 3px rgba(112,102,224,.5)}div:where(.swal2-container) button:where(.swal2-styled).swal2-deny{border:0;border-radius:.25em;background:initial;background-color:#dc3741;color:#fff;font-size:1em}div:where(.swal2-container) button:where(.swal2-styled).swal2-deny:focus{box-shadow:0 0 0 3px rgba(220,55,65,.5)}div:where(.swal2-container) button:where(.swal2-styled).swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#6e7881;color:#fff;font-size:1em}div:where(.swal2-container) button:where(.swal2-styled).swal2-cancel:focus{box-shadow:0 0 0 3px rgba(110,120,129,.5)}div:where(.swal2-container) button:where(.swal2-styled).swal2-default-outline:focus{box-shadow:0 0 0 3px rgba(100,150,200,.5)}div:where(.swal2-container) button:where(.swal2-styled):focus{outline:none}div:where(.swal2-container) button:where(.swal2-styled)::-moz-focus-inner{border:0}div:where(.swal2-container) div:where(.swal2-footer){margin:1em 0 0;padding:1em 1em 0;border-top:1px solid #eee;color:inherit;font-size:1em;text-align:center}div:where(.swal2-container) .swal2-timer-progress-bar-container{position:absolute;right:0;bottom:0;left:0;grid-column:auto !important;overflow:hidden;border-bottom-right-radius:5px;border-bottom-left-radius:5px}div:where(.swal2-container) div:where(.swal2-timer-progress-bar){width:100%;height:.25em;background:rgba(0,0,0,.2)}div:where(.swal2-container) img:where(.swal2-image){max-width:100%;margin:2em auto 1em}div:where(.swal2-container) button:where(.swal2-close){z-index:2;align-items:center;justify-content:center;width:1.2em;height:1.2em;margin-top:0;margin-right:0;margin-bottom:-1.2em;padding:0;overflow:hidden;transition:color .1s,box-shadow .1s;border:none;border-radius:5px;background:rgba(0,0,0,0);color:#ccc;font-family:monospace;font-size:2.5em;cursor:pointer;justify-self:end}div:where(.swal2-container) button:where(.swal2-close):hover{transform:none;background:rgba(0,0,0,0);color:#f27474}div:where(.swal2-container) button:where(.swal2-close):focus{outline:none;box-shadow:inset 0 0 0 3px rgba(100,150,200,.5)}div:where(.swal2-container) button:where(.swal2-close)::-moz-focus-inner{border:0}div:where(.swal2-container) .swal2-html-container{z-index:1;justify-content:center;margin:1em 1.6em .3em;padding:0;overflow:auto;color:inherit;font-size:1.125em;font-weight:normal;line-height:normal;text-align:center;word-wrap:break-word;word-break:break-word}div:where(.swal2-container) input:where(.swal2-input),div:where(.swal2-container) input:where(.swal2-file),div:where(.swal2-container) textarea:where(.swal2-textarea),div:where(.swal2-container) select:where(.swal2-select),div:where(.swal2-container) div:where(.swal2-radio),div:where(.swal2-container) label:where(.swal2-checkbox){margin:1em 2em 3px}div:where(.swal2-container) input:where(.swal2-input),div:where(.swal2-container) input:where(.swal2-file),div:where(.swal2-container) textarea:where(.swal2-textarea){box-sizing:border-box;width:auto;transition:border-color .1s,box-shadow .1s;border:1px solid #d9d9d9;border-radius:.1875em;background:rgba(0,0,0,0);box-shadow:inset 0 1px 1px rgba(0,0,0,.06),0 0 0 3px rgba(0,0,0,0);color:inherit;font-size:1.125em}div:where(.swal2-container) input:where(.swal2-input).swal2-inputerror,div:where(.swal2-container) input:where(.swal2-file).swal2-inputerror,div:where(.swal2-container) textarea:where(.swal2-textarea).swal2-inputerror{border-color:#f27474 !important;box-shadow:0 0 2px #f27474 !important}div:where(.swal2-container) input:where(.swal2-input):focus,div:where(.swal2-container) input:where(.swal2-file):focus,div:where(.swal2-container) textarea:where(.swal2-textarea):focus{border:1px solid #b4dbed;outline:none;box-shadow:inset 0 1px 1px rgba(0,0,0,.06),0 0 0 3px rgba(100,150,200,.5)}div:where(.swal2-container) input:where(.swal2-input)::placeholder,div:where(.swal2-container) input:where(.swal2-file)::placeholder,div:where(.swal2-container) textarea:where(.swal2-textarea)::placeholder{color:#ccc}div:where(.swal2-container) .swal2-range{margin:1em 2em 3px;background:#fff}div:where(.swal2-container) .swal2-range input{width:80%}div:where(.swal2-container) .swal2-range output{width:20%;color:inherit;font-weight:600;text-align:center}div:where(.swal2-container) .swal2-range input,div:where(.swal2-container) .swal2-range output{height:2.625em;padding:0;font-size:1.125em;line-height:2.625em}div:where(.swal2-container) .swal2-input{height:2.625em;padding:0 .75em}div:where(.swal2-container) .swal2-file{width:75%;margin-right:auto;margin-left:auto;background:rgba(0,0,0,0);font-size:1.125em}div:where(.swal2-container) .swal2-textarea{height:6.75em;padding:.75em}div:where(.swal2-container) .swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;background:rgba(0,0,0,0);color:inherit;font-size:1.125em}div:where(.swal2-container) .swal2-radio,div:where(.swal2-container) .swal2-checkbox{align-items:center;justify-content:center;background:#fff;color:inherit}div:where(.swal2-container) .swal2-radio label,div:where(.swal2-container) .swal2-checkbox label{margin:0 .6em;font-size:1.125em}div:where(.swal2-container) .swal2-radio input,div:where(.swal2-container) .swal2-checkbox input{flex-shrink:0;margin:0 .4em}div:where(.swal2-container) label:where(.swal2-input-label){display:flex;justify-content:center;margin:1em auto 0}div:where(.swal2-container) div:where(.swal2-validation-message){align-items:center;justify-content:center;margin:1em 0 0;padding:.625em;overflow:hidden;background:#f0f0f0;color:#666;font-size:1em;font-weight:300}div:where(.swal2-container) div:where(.swal2-validation-message)::before{content:"!";display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center}div:where(.swal2-container) .swal2-progress-steps{flex-wrap:wrap;align-items:center;max-width:100%;margin:1.25em auto;padding:0;background:rgba(0,0,0,0);font-weight:600}div:where(.swal2-container) .swal2-progress-steps li{display:inline-block;position:relative}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step{z-index:20;flex-shrink:0;width:2em;height:2em;border-radius:2em;background:#2778c4;color:#fff;line-height:2em;text-align:center}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step{background:#2778c4}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step{background:#add8e6;color:#fff}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step-line{background:#add8e6}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step-line{z-index:10;flex-shrink:0;width:2.5em;height:.4em;margin:0 -1px;background:#2778c4}div:where(.swal2-icon){position:relative;box-sizing:content-box;justify-content:center;width:5em;height:5em;margin:2.5em auto .6em;border:0.25em solid rgba(0,0,0,0);border-radius:50%;border-color:#000;font-family:inherit;line-height:5em;cursor:default;user-select:none}div:where(.swal2-icon) .swal2-icon-content{display:flex;align-items:center;font-size:3.75em}div:where(.swal2-icon).swal2-error{border-color:#f27474;color:#f27474}div:where(.swal2-icon).swal2-error .swal2-x-mark{position:relative;flex-grow:1}div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;transform:rotate(45deg)}div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;transform:rotate(-45deg)}div:where(.swal2-icon).swal2-error.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-error.swal2-icon-show .swal2-x-mark{animation:swal2-animate-error-x-mark .5s}div:where(.swal2-icon).swal2-warning{border-color:#facea8;color:#f8bb86}div:where(.swal2-icon).swal2-warning.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-warning.swal2-icon-show .swal2-icon-content{animation:swal2-animate-i-mark .5s}div:where(.swal2-icon).swal2-info{border-color:#9de0f6;color:#3fc3ee}div:where(.swal2-icon).swal2-info.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-info.swal2-icon-show .swal2-icon-content{animation:swal2-animate-i-mark .8s}div:where(.swal2-icon).swal2-question{border-color:#c9dae1;color:#87adbd}div:where(.swal2-icon).swal2-question.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-question.swal2-icon-show .swal2-icon-content{animation:swal2-animate-question-mark .8s}div:where(.swal2-icon).swal2-success{border-color:#a5dc86;color:#a5dc86}div:where(.swal2-icon).swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;transform:rotate(45deg);border-radius:50%}div:where(.swal2-icon).swal2-success [class^=swal2-success-circular-line][class$=left]{top:-0.4375em;left:-2.0635em;transform:rotate(-45deg);transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}div:where(.swal2-icon).swal2-success [class^=swal2-success-circular-line][class$=right]{top:-0.6875em;left:1.875em;transform:rotate(-45deg);transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}div:where(.swal2-icon).swal2-success .swal2-success-ring{position:absolute;z-index:2;top:-0.25em;left:-0.25em;box-sizing:content-box;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%}div:where(.swal2-icon).swal2-success .swal2-success-fix{position:absolute;z-index:1;top:.5em;left:1.625em;width:.4375em;height:5.625em;transform:rotate(-45deg)}div:where(.swal2-icon).swal2-success [class^=swal2-success-line]{display:block;position:absolute;z-index:2;height:.3125em;border-radius:.125em;background-color:#a5dc86}div:where(.swal2-icon).swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.8125em;width:1.5625em;transform:rotate(45deg)}div:where(.swal2-icon).swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;transform:rotate(-45deg)}div:where(.swal2-icon).swal2-success.swal2-icon-show .swal2-success-line-tip{animation:swal2-animate-success-line-tip .75s}div:where(.swal2-icon).swal2-success.swal2-icon-show .swal2-success-line-long{animation:swal2-animate-success-line-long .75s}div:where(.swal2-icon).swal2-success.swal2-icon-show .swal2-success-circular-line-right{animation:swal2-rotate-success-circular-line 4.25s ease-in}[class^=swal2]{-webkit-tap-highlight-color:rgba(0,0,0,0)}.swal2-show{animation:swal2-show .3s}.swal2-hide{animation:swal2-hide .15s forwards}.swal2-noanimation{transition:none}.swal2-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.swal2-rtl .swal2-close{margin-right:initial;margin-left:0}.swal2-rtl .swal2-timer-progress-bar{right:0;left:auto}@keyframes swal2-toast-show{0%{transform:translateY(-0.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(0.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0deg)}}@keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-0.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes swal2-show{0%{transform:scale(0.7)}45%{transform:scale(1.05)}80%{transform:scale(0.95)}100%{transform:scale(1)}}@keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(0.5);opacity:0}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-0.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(0.4);opacity:0}50%{margin-top:1.625em;transform:scale(0.4);opacity:0}80%{margin-top:-0.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0deg);opacity:1}}@keyframes swal2-rotate-loading{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes swal2-animate-question-mark{0%{transform:rotateY(-360deg)}100%{transform:rotateY(0)}}@keyframes swal2-animate-i-mark{0%{transform:rotateZ(45deg);opacity:0}25%{transform:rotateZ(-25deg);opacity:.4}50%{transform:rotateZ(15deg);opacity:.8}75%{transform:rotateZ(-5deg);opacity:1}100%{transform:rotateX(0);opacity:1}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto !important}body.swal2-no-backdrop .swal2-container{background-color:rgba(0,0,0,0) !important;pointer-events:none}body.swal2-no-backdrop .swal2-container .swal2-popup{pointer-events:all}body.swal2-no-backdrop .swal2-container .swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll !important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:static !important}}body.swal2-toast-shown .swal2-container{box-sizing:border-box;width:360px;max-width:100%;background-color:rgba(0,0,0,0);pointer-events:none}body.swal2-toast-shown .swal2-container.swal2-top{inset:0 auto auto 50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{inset:0 0 auto auto}body.swal2-toast-shown .swal2-container.swal2-top-start,body.swal2-toast-shown .swal2-container.swal2-top-left{inset:0 auto auto 0}body.swal2-toast-shown .swal2-container.swal2-center-start,body.swal2-toast-shown .swal2-container.swal2-center-left{inset:50% auto auto 0;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{inset:50% auto auto 50%;transform:translate(-50%, -50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{inset:50% 0 auto auto;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-start,body.swal2-toast-shown .swal2-container.swal2-bottom-left{inset:auto auto 0 0}body.swal2-toast-shown .swal2-container.swal2-bottom{inset:auto auto 0 50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{inset:auto 0 0 auto}</style><style data-emotion="css" data-s=""></style></head>
+<body class="body-home-index body-national " data-current-url="http://lesecologistes.fr/" data-controller="newsletter-top">
+
+
+<script>
+    console.log("Current Project ID:", "5VzD7aOAVIfHyBkqhI91qZ");
+</script>
+
+                        <button type="button" style="display: none" data-newsletter-top-target="button"></button>
+                            <header class="header" data-newsletter-top-target="header" data-controller="mobile-menu">
+                                    <a class="logo-european-greens" target="_blank" href="https://europeangreens.eu/">
+                        <img src="/res/european-greens.png">
+                    </a>
+                    <style type="text/css">
+                            .logo-european-greens {
+                                    position: absolute;
+                                    right: 0;
+                                    z-index: 99;
+                                    top: 0;
+                            }
+                            .logo-european-greens:hover {
+                                text-decoration: none;
+                            }
+                            .logo-european-greens img {
+                                width: 158px;
+                                transition: all 0.3s;
+                                height: auto;
+                            }
+                            .logo-european-greens img:hover {
+                                opacity: 0.8;
+                            }
+                            @media (max-width: 1300px) {
+                                .logo-european-greens img {
+                                    width: 100px;
+                                    transition: all 0.3s;
+                                    height: auto;
+                                }
+                            }                             
+                            @media (max-width: 992px) {
+                                .logo-european-greens {
+                                    display: none ! important;
+                                }
+                            }                            
+                    </style>
+                                <div class="row g-0">
+                    <div class="col-auto">
+                        <a href="http://lesecologistes.fr/">
+                            <img src="/res/logo-lesecologistes.svg" class="header-logo header-logo-dark">
+                        </a>
+                    </div>
+                    <div class="col-auto ms-auto header-menu header-menu-natio">
+                        <nav>
+                            <ul>
+                                                                    <li class="header-menu-link">
+                                        <div class="header-menu-label">
+                                            <a href="/pages/5TRvjIUe0F36vhcVDHdboB/notre-mouvement" class="">
+                                                Le mouvement
+                                            </a>
+
+                                                                                    </div>
+
+                                                                            </li>
+
+
+
+                                                                    <li class="header-menu-link">
+                                        <div class="header-menu-label">
+                                            <a href="https://lesecologistes.fr/share/page/6ImK65GKUnvibm33WGkjkj/projet" class="">
+                                                Programme
+                                            </a>
+
+                                                                                            <i class="fal fa-angle-down"></i>
+                                                                                    </div>
+
+                                                                                    <div class="header-menu-submenu">
+                                                <ul>
+                                                                                                            <li>
+                                                            <a href="https://lesecologistes.fr/share/page/6ImK65GKUnvibm33WGkjkj/projet">
+                                                                Projet 2027
+                                                            </a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a href="https://lesecologistes.fr/posts?c=IXH0VWDgtXhNnC8KuIyC1">
+                                                                Carnets de doctrine
+                                                            </a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a href="https://lesecologistes.fr/posts?c=5ofDommuELv8l8RE5My8Zs">
+                                                                Livrets thématiques
+                                                            </a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a href="https://lesecologistes.fr/posts?c=3WGyOKYivnNxJmyOmKHJoQ">
+                                                                Dossiers d'actu
+                                                            </a>
+                                                        </li>
+                                                                                                    </ul>
+                                            </div>
+                                                                            </li>
+
+
+
+                                                                    <li class="header-menu-link">
+                                        <div class="header-menu-label">
+                                            <a href="/posts" class="">
+                                                Actus
+                                            </a>
+
+                                                                                    </div>
+
+                                                                            </li>
+
+
+
+                                
+                                
+                                    <li class="more" style="display: none;">
+                                      Plus <i class="fal fa-angle-down"></i>
+
+                                      <div class="header-menu-submenu more-dropdown">
+        
+                                      </div>
+                                      
+                                    </li>
+
+                                    <style type="text/css">
+                                        .header-menu-natio {
+                                            margin-right: 191px;
+                                        }
+                                        @media (max-width: 1300px) {
+                                            .header-menu-natio {
+                                                margin-right: 115px;
+                                            }
+                                        }     
+                                        .more {
+                                            display: none; /* cache tout : aucun espace */
+                                            position: relative;
+                                            color: #166a5d;
+                                            text-decoration: none;
+                                            font-size: 16px;
+                                            font-weight: 500;
+                                            transition: all 0.3s;
+                                            margin-right: 20px;
+                                            padding: 5px;
+                                        }
+                                        .more:hover {
+                                            border-radius: 5px;
+                                            background: #E6E9EC;
+                                        }
+                                        .more .fa-angle-down {
+                                            padding-left: 5px;
+                                        }
+                                        .more-dropdown {
+                                          display: none;
+                                          position: absolute;
+                                          background: white;
+                                        }
+                                        .more:hover .more-dropdown {
+                                          display: block;
+                                        }
+  
+                                    </style>
+                                    <script type="text/javascript">
+                                      function manageMenu() {
+                                        const header = document.querySelector('header');
+                                        const logo = document.querySelector('.header-logo');
+                                        const nav = document.querySelector('.header-menu nav ul');
+                                        const more = nav?.querySelector('.more');
+                                        const dropdown = more?.querySelector('.more-dropdown');
+                                        const ctaButtons = document.querySelectorAll('.header-menu-cta');
+
+                                        if (!header || !logo || !nav || !more || !dropdown) return;
+
+                                        // Remettre tous les éléments du dropdown dans le nav principal
+                                        while (dropdown.children.length > 0) {
+                                          nav.insertBefore(dropdown.children[0], more);
+                                        }
+
+                                        // Filtrer les <li> (hors .more et .header-menu-cta)
+                                        const allNavItems = Array.from(nav.children).filter(
+                                          li => !li.classList.contains('more') && !li.classList.contains('header-menu-cta')
+                                        );
+
+                                        // Calcul largeur
+                                        const headerWidth = header.offsetWidth;
+                                        const logoWidth = logo.offsetWidth;
+                                        let ctaWidth = 0;
+                                        ctaButtons.forEach(cta => ctaWidth += cta.offsetWidth);
+
+                                        const basePadding = 40;
+                                        const extraAllowance = 250;
+                                        const availableWidth = headerWidth - logoWidth - ctaWidth - basePadding + extraAllowance;
+
+                                        // Si ça déborde, on déplace
+                                        while (nav.scrollWidth > availableWidth && allNavItems.length > 0) {
+                                          const lastItem = allNavItems.pop();
+                                          dropdown.prepend(lastItem);
+                                        }
+
+                                        // Affichage du bouton "Plus"
+                                        more.style.display = dropdown.children.length > 0 ? 'inline-block' : 'none';
+                                      }
+
+                                      // Lancement dans tous les cas utiles
+                                      window.addEventListener('load', manageMenu);
+                                      window.addEventListener('resize', manageMenu);
+                                      document.addEventListener('DOMContentLoaded', manageMenu);
+                                      document.addEventListener('turbo:load', manageMenu); // ← essentiel pour ton cas
+                                    </script>
+
+                                                                    <li class="header-menu-cta header-menu-cta-twolines">
+                                                                                <a href="https://agir.lesecologistes.fr/adhesion" class="btn btn-primary btn-lg btn-adh-menu">
+                                            Adhérer
+                                        </a>
+                                                                            </li>
+                                    <li class="header-menu-cta header-menu-cta-twolines me-0">
+                                        <a href="https://agir.lesecologistes.fr/don" class="btn btn-third btn-lg btn-donner-menu" target="_blank">
+                                            Donner
+                                        </a>
+                                    </li>
+                                                                    <li class="header-menu-cta me-0">
+                                        <a href="https://action.lesecologistes.fr/espace-adherent/connexion" class="btn btn-secondary btn-lg btn-connexion-menu" target="_blank">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <g clip-path="url(#clip0_4730_2366)">
+                                                <path d="M12 15C15.3137 15 18 12.3137 18 9C18 5.68629 15.3137 3 12 3C8.68629 3 6 5.68629 6 9C6 12.3137 8.68629 15 12 15Z" stroke="white" stroke-width="1.24138" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                <path d="M3 20.25C4.81594 17.1122 8.11406 15 12 15C15.8859 15 19.1841 17.1122 21 20.25" stroke="white" stroke-width="1.24138" stroke-linecap="round" stroke-linejoin="round"></path>
+                                              </g>
+                                              <defs>
+                                                <clipPath id="clip0_4730_2366">
+                                                  <rect width="24" height="24" fill="white"></rect>
+                                                </clipPath>
+                                              </defs>
+                                            </svg>
+                                        </a>
+                                    </li>                                
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-auto ms-auto header-mobile-menu-button">
+                        <button type="button" class="btn btn-primary btn-lg px-3" data-mobile-menu-target="button">
+                            <i class="fal fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <nav class="header-mobile-menu" data-mobile-menu-target="menu">
+                    <ul>
+                                                    <li class="header-mobile-menu-link">
+                                <div class="header-mobile-menu-label">
+                                    <a href="/pages/5TRvjIUe0F36vhcVDHdboB/notre-mouvement">
+                                        Le mouvement
+                                    </a>
+
+                                                                    </div>
+
+                                                            </li>
+                                                    <li class="header-mobile-menu-link">
+                                <div class="header-mobile-menu-label">
+                                    <a href="https://lesecologistes.fr/share/page/6ImK65GKUnvibm33WGkjkj/projet">
+                                        Programme
+                                    </a>
+
+                                                                            <i class="fal fa-angle-down"></i>
+                                                                    </div>
+
+                                                                    <div class="header-mobile-menu-submenu">
+                                        <ul>
+                                                                                            <li>
+                                                    <a href="https://lesecologistes.fr/share/page/6ImK65GKUnvibm33WGkjkj/projet">
+                                                        Projet 2027
+                                                    </a>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="https://lesecologistes.fr/posts?c=IXH0VWDgtXhNnC8KuIyC1">
+                                                        Carnets de doctrine
+                                                    </a>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="https://lesecologistes.fr/posts?c=5ofDommuELv8l8RE5My8Zs">
+                                                        Livrets thématiques
+                                                    </a>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="https://lesecologistes.fr/posts?c=3WGyOKYivnNxJmyOmKHJoQ">
+                                                        Dossiers d'actu
+                                                    </a>
+                                                </li>
+                                                                                    </ul>
+                                    </div>
+                                                            </li>
+                                                    <li class="header-mobile-menu-link">
+                                <div class="header-mobile-menu-label">
+                                    <a href="/posts">
+                                        Actus
+                                    </a>
+
+                                                                    </div>
+
+                                                            </li>
+                                            </ul>
+
+                    <div class="d-grid g-0">
+                                                    <a href="https://agir.lesecologistes.fr/adhesion" class="btn btn-block btn-primary btn-lg btn-adh-menu">
+                                Adhérer
+                            </a>
+                            <a href="https://agir.lesecologistes.fr/don" class="btn btn-block btn-third btn-lg btn-donner-menu" target="_blank">
+                                Donner
+                            </a>
+                                                    <a href="https://action.lesecologistes.fr/espace-adherent/connexion" class="btn btn-secondary btn-lg btn-connexion-menu" target="_blank">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <g clip-path="url(#clip0_4730_2366)">
+                                    <path d="M12 15C15.3137 15 18 12.3137 18 9C18 5.68629 15.3137 3 12 3C8.68629 3 6 5.68629 6 9C6 12.3137 8.68629 15 12 15Z" stroke="white" stroke-width="1.24138" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M3 20.25C4.81594 17.1122 8.11406 15 12 15C15.8859 15 19.1841 17.1122 21 20.25" stroke="white" stroke-width="1.24138" stroke-linecap="round" stroke-linejoin="round"></path>
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_4730_2366">
+                                      <rect width="24" height="24" fill="white"></rect>
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <span>Se connecter</span>
+                            </a>    
+                    </div>
+                                            <div class="logo-european-greens-mobile">
+                            <a class="" target="_blank" href="https://europeangreens.eu/">
+                                <img src="/res/european-greens.png">
+                            </a>                                
+                        </div>
+                        <style type="text/css">
+                            .logo-european-greens-mobile {
+                                padding-top: 20px;
+                            }
+                            .logo-european-greens-mobile img {
+                                width: 158px;
+                                height: auto;
+                            }
+                        </style>
+                                    </nav>
+            </header>
+            
+    <main class="main" data-newsletter-top-target="main">
+            
+    
+                                            <div class="home">
+
+        <div class="home-jumbo home-jumbo-national" style="background-image: url('/res/home-intro-national.jpg');">
+
+            <div class="home-jumbo-overlay home-jumbo-overlay-national">
+                <div class="home-jumbo-container">
+                                        <div class="home-jumbo-intro">
+                                            <div class="home-jumbo-intro-view">
+                            <h1>
+                                                                    Nous sommes Les Écologistes
+                                                            </h1>
+
+                            <div class="home-jumbo-intro-text">
+                                                                    Rejoignez-nous, organisons-nous partout en France pour gagner
+                                    les batailles à venir et construire un avenir meilleur.
+                                                            </div>
+
+                                                            <div class="home-blocks-block home-blocks-block-cta">
+                                    <a href="/pages/5sDBuWHwwK5nqXyeW6Rq6U/nous-rejoindre" class="home-blocks-block-cta-button home-blocks-block-cta-primary btn btn-light" data-controller="citipo-customevent" data-citipo-customevent-event-value="home-cta-primary-click" data-action="citipo-customevent#trigger">
+                                        Nous rejoindre
+                                    </a>
+
+                                    <a href="https://action.lesecologistes.fr" class="home-blocks-block-cta-button home-blocks-block-cta-secondary btn btn-lg btn-link" data-controller="citipo-customevent" data-citipo-customevent-event-value="home-cta-secondary-click" data-action="citipo-customevent#trigger" target="_blank">
+                                        Passer à l'action
+                                    </a>
+                                </div>
+
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-blocks">
+                                                
+                        <div class="home-blocks-section home-blocks-section-0 home-blocks-section-national-0">
+                            <div class="home-blocks-container">
+                                
+                            </div>
+                        </div>
+      
+                                                                                    
+                        <div class="home-blocks-section home-blocks-section-1 home-blocks-section-national-1">
+                            <div class="home-blocks-container">
+                                
+<div class="home-blocks-block home-blocks-block-custom-content user-content home-blocks-block-custom-content-campaign-block">
+            <div class="home-blocks-block-custom-content-campaign">
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                <circle cx="5" cy="5" r="5" fill="#EA591E"></circle>
+            </svg>
+            <span>
+                Campagne en cours
+            </span>
+        </div>
+        <div class="row"><div class="col-md-6"><p><br></p><h1><span style=" font-size: 2rem; letter-spacing: 0px;">Pour l'écologie, pour l'union !</span></h1><p class="isSelectedEnd"></p>La France peut basculer et avec elle l’Europe, alors qu’elle est la dernière puissance capable de faire le poids face aux impérialismes menaçants. Les politiques alors menées en France mettraient en danger, bien plus encore qu’aujourd’hui, nombre de nos concitoyen·nes. Voilà pourquoi beaucoup craignent le résultat de cette échéance.&nbsp;<p>Nous partageons ces craintes. Nous les comprenons.</p><p>En tant qu’Écologistes nous sommes inquiet·es mais aussi déterminé·es. Nous ferons partie de la solution. Venez nous aider à la construire !</p><p></p><span><a href="https://lesecologistes.fr/posts/6WqnAhu481XRoqhiU6l3re/campagne-pour-l-ecologie-et-pour-l-union" class="btn btn-primary btn-lg" title="">Je découvre la campagne</a></span></div><div class="col-md-6"><a href="https://lesecologistes.fr/posts/6WqnAhu481XRoqhiU6l3re/campagne-pour-l-ecologie-et-pour-l-union" title=""><img src="https://lesecologistes.fr/document/189dyB7KebMNOmEqGZyo2d/ecologie-union.jpg" alt="" data-filename="ecologie-union.jpg"></a></div></div><div class="row"><div class="col-md-12" data-noedit=""></div></div>
+</div>
+
+                            </div>
+                        </div>
+      
+                                                                                    
+                        <div class="home-blocks-section home-blocks-section-2 home-blocks-section-national-2">
+                            <div class="home-blocks-container">
+                                
+<div class="home-blocks-block home-blocks-block-custom-content user-content home-blocks-block-custom-content-campaign-block">
+            <div class="home-blocks-block-custom-content-campaign">
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                <circle cx="5" cy="5" r="5" fill="#EA591E"></circle>
+            </svg>
+            <span>
+                Campagne en cours
+            </span>
+        </div>
+        <div class="row"><div class="col-md-12" data-noedit="" data-html="%3Cdiv%20class%3D%22row%22%3E%3Cdiv%20class%3D%22col-md-6%22%3E%3Cp%3E%3Cbr%3E%3C%2Fp%3E%3Ch1%3E%3Cspan%20style%3D%22%20font-size%3A%202rem%3B%20letter-spacing%3A%200px%3B%22%3EPour%20une%20prosp%C3%A9rit%C3%A9%20%C3%A9cologique%3C%2Fspan%3E%3C%2Fh1%3E%3Cp%20class%3D%22isSelectedEnd%22%3E%3C%2Fp%3ED%C3%A9couvrez%20le%20nouveau%20programme%20des%20%C3%89cologistes%20pour%20mieux%20vivre%20aujourd%E2%80%99hui%20et%20pr%C3%A9parer%20l%E2%80%99avenir.%26nbsp%3B%3Cp%3EUn%20projet%20concret%20pour%20changer%20la%20vie%20%3A%20un%20salaire%20minimum%20%C3%A0%20%3Cb%3E2%20000%3C%2Fb%3E%20euros%20brut%2C%20%3Cb%3Eun%20million%3C%2Fb%3E%20de%20voitures%20%C3%A9lectriques%20en%20location%20sociale%2C%20%3Cb%3E500%20000%3C%2Fb%3E%20r%C3%A9novations%20performantes%20par%20an%2C%20%3Cb%3E2%20000%3C%2Fb%3E%20nouveaux%20centres%20de%20sant%C3%A9%2C%20%3Cb%3Ecinq%3C%2Fb%3E%20jours%20de%20cong%C3%A9%20climatique...%3C%2Fp%3E%3Cp%3EAvec%20la%20prosp%C3%A9rit%C3%A9%20%C3%A9cologique%2C%20nous%20prot%C3%A9geons%20chacune%20et%20chacun%20face%20aux%20crises%20et%20construisons%20une%20soci%C3%A9t%C3%A9%20plus%20juste%2C%20plus%20solidaire%20et%20plus%20d%C3%A9mocratique.%3C%2Fp%3E%3Cp%3E%3C%2Fp%3E%3Cspan%3E%3Ca%20href%3D%22https%3A%2F%2Flesecologistes.fr%2Fshare%2Fpage%2F6ImK65GKUnvibm33WGkjkj%2Fprojet%22%20class%3D%22btn%20btn-primary%20btn-lg%22%20title%3D%22%22%3EJe%20d%C3%A9couvre%20le%20programme%3C%2Fa%3E%3C%2Fspan%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22col-md-6%22%3E%3Ca%20href%3D%22https%3A%2F%2Flesecologistes.fr%2Fshare%2Fpage%2F6ImK65GKUnvibm33WGkjkj%2Fprojet%22%20title%3D%22%22%3E%3Cimg%20src%3D%22https%3A%2F%2Fadministrer.lesecologistes.fr%2Fserve%2Fb53c650c-b545-4cdf-a7f2-044c095c4337%2Fwebsite-content%2F574ae21d-c2a2-4985-a5db-33f59a6e961b.webp%22%20alt%3D%22%22%20data-filename%3D%22projet.jpeg%22%3E%3C%2Fa%3E%3C%2Fdiv%3E%3C%2Fdiv%3E"><div class="row"><div class="col-md-6"><p><br></p><h1><span style=" font-size: 2rem; letter-spacing: 0px;">Pour une prospérité écologique</span></h1><p class="isSelectedEnd"></p>Découvrez le nouveau programme des Écologistes pour mieux vivre aujourd’hui et préparer l’avenir.&nbsp;<p>Un projet concret pour changer la vie : un salaire minimum à <b>2 000</b> euros brut, <b>un million</b> de voitures électriques en location sociale, <b>500 000</b> rénovations performantes par an, <b>2 000</b> nouveaux centres de santé, <b>cinq</b> jours de congé climatique...</p><p>Avec la prospérité écologique, nous protégeons chacune et chacun face aux crises et construisons une société plus juste, plus solidaire et plus démocratique.</p><p></p><span><a href="https://lesecologistes.fr/share/page/6ImK65GKUnvibm33WGkjkj/projet" class="btn btn-primary btn-lg" title="">Je découvre le programme</a></span></div><div class="col-md-6"><a href="https://lesecologistes.fr/share/page/6ImK65GKUnvibm33WGkjkj/projet" title=""><img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-content/574ae21d-c2a2-4985-a5db-33f59a6e961b.webp" alt="" data-filename="projet.jpeg"></a></div></div></div></div>
+</div>
+
+                            </div>
+                        </div>
+      
+                                                                                    
+                        <div class="home-blocks-section home-blocks-section-3 home-blocks-section-national-3">
+                            <div class="home-blocks-container">
+                                
+        
+        
+                                
+    
+                                
+        
+        
+    
+            
+        
+                                
+    
+            
+        
+                                
+    
+            
+        
+                                
+    
+            
+        
+        
+    
+            
+        
+                    
+    
+            
+                    
+                                
+    
+            
+        
+                    
+    
+            
+        
+                    
+    
+            
+        
+                    
+    
+            
+        
+                    
+    
+    
+<div class="home-blocks-block home-blocks-block-posts">
+    <div class="row align-items-end home-blocks-block-posts-head">
+        <div class="col-lg-auto">
+            <h3 class="home-blocks-block-title">
+                                Actualités
+                            </h3>
+
+            <div class="home-blocks-block-subtitle">
+                
+            </div>
+        </div>
+        <div class="col-lg-auto ms-auto">
+            <a href="/posts" class="home-blocks-block-posts-more">
+                Voir toutes les actualités
+            </a>
+        </div>
+    </div>
+
+                                        <div class="list-items-row list-items-row-0">
+                                            <div class="list-items-col">
+                            <div class="list-items-item">
+                                <div class="list-items-item-thumbnail">
+                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-content-main/59f07f65-120e-4fb2-a6a4-886ff2619db3.webp" class="list-items-item-image" width="1700" height="1080">
+                                                <div class="list-items-item-categorie">
+                                                                                                        
+                                                </div>                                         
+                                </div>
+
+                                <div class="list-items-item-text">
+                                    <!-- <div class="list-items-item-description">
+                                                                                                                                    <div class="list-items-item-description-author">
+                                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-trombinoscope/fc4b6c59-bbf4-49dc-a4a3-dbef342586f4.webp" style="width: 24px; height: 24px" />
+                                                    <a href="/trombinoscope/Y2zhGo6wCnoMRZS6ZFqOR/aminata-niakate" class="text-white">                 
+                                                        Aminata Niakaté
+                                                    </a>
+                                                    <span>•</span>
+                                                </div>
+                                                                                            <div class="list-items-item-description-author">
+                                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-trombinoscope/9899d10a-43b7-45bd-9db3-87602a5ddacf.webp" style="width: 24px; height: 24px" />
+                                                    <a href="/trombinoscope/40O9sRn3lK9nBzLPoSaehn/amine-kessaci" class="text-white">                 
+                                                        Amine Kessaci
+                                                    </a>
+                                                    <span>•</span>
+                                                </div>
+                                                                                                                        </div> -->
+                                    <div class="list-items-item-description">
+                                                                                                                                    <div class="list-items-item-description-author">
+                                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-trombinoscope/fc4b6c59-bbf4-49dc-a4a3-dbef342586f4.webp" style="width: 24px; height: 24px">
+                                                </div>
+                                                                                            <div class="list-items-item-description-author">
+                                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-trombinoscope/9899d10a-43b7-45bd-9db3-87602a5ddacf.webp" style="width: 24px; height: 24px">
+                                                </div>
+                                                                                                                                                                        <div class="list-items-item-description-author list-items-item-description-author-content">
+                                                                                            
+                                                    <a href="/trombinoscope/Y2zhGo6wCnoMRZS6ZFqOR/aminata-niakate" class="text-white">                 
+                                                        Aminata Niakaté
+                                                    </a>
+                                                
+                                                                                            
+                                                    <a href="/trombinoscope/40O9sRn3lK9nBzLPoSaehn/amine-kessaci" class="text-white">                 
+                                                        Amine Kessaci
+                                                    </a>
+                                                
+                                                                                        </div>
+                                                                            </div>
+                                    <a href="/posts/5M6yhArgCKTJjvPNACI2U9/prix-sakharov-2026-a-la-cpi-defendre-la-justice-internationale-c-est-refuser-l-impunite-des-puissants" class="stretched-link list-items-item-link">
+                                        <h5 class="list-items-item-title">
+                                            <span>Prix Sakharov 2026 à la CPI : défendre la justice internationale, c’est refuser l’impunité des puissants</span>
+                                        </h5>
+                                    </a>
+                                    <div class="list-items-item-date">
+                                        28 oct. 2026
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="list-items-col">
+                            <div class="list-items-item">
+                                <div class="list-items-item-thumbnail">
+                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-content-main/c3b30b95-25f8-4d1d-904e-8b2c1a959d0f.webp" class="list-items-item-image" width="1700" height="1080">
+                                                <div class="list-items-item-categorie">
+                                                                                                        
+                                                </div>                                         
+                                </div>
+
+                                <div class="list-items-item-text">
+                                    <!-- <div class="list-items-item-description">
+                                                                            </div> -->
+                                    <div class="list-items-item-description">
+                                                                                                                    </div>
+                                    <a href="/posts/6hvpUzQWojEgWzwm59GNCi/et-si-manger-sain-coutait-enfin-moins-cher" class="stretched-link list-items-item-link">
+                                        <h5 class="list-items-item-title">
+                                            <span>Et si manger sain coûtait enfin moins cher ?</span>
+                                        </h5>
+                                    </a>
+                                    <div class="list-items-item-date">
+                                        27 oct. 2026
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="list-items-col">
+                            <div class="list-items-item">
+                                <div class="list-items-item-thumbnail">
+                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-content-main/e4159991-de0d-4757-ab70-fbb381cf1537.webp" class="list-items-item-image" width="1700" height="1080">
+                                                <div class="list-items-item-categorie">
+                                                                                                        
+                                                </div>                                         
+                                </div>
+
+                                <div class="list-items-item-text">
+                                    <!-- <div class="list-items-item-description">
+                                                                                                                                    <div class="list-items-item-description-author">
+                                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-trombinoscope/fc4b6c59-bbf4-49dc-a4a3-dbef342586f4.webp" style="width: 24px; height: 24px" />
+                                                    <a href="/trombinoscope/Y2zhGo6wCnoMRZS6ZFqOR/aminata-niakate" class="text-white">                 
+                                                        Aminata Niakaté
+                                                    </a>
+                                                    <span>•</span>
+                                                </div>
+                                                                                            <div class="list-items-item-description-author">
+                                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-trombinoscope/9899d10a-43b7-45bd-9db3-87602a5ddacf.webp" style="width: 24px; height: 24px" />
+                                                    <a href="/trombinoscope/40O9sRn3lK9nBzLPoSaehn/amine-kessaci" class="text-white">                 
+                                                        Amine Kessaci
+                                                    </a>
+                                                    <span>•</span>
+                                                </div>
+                                                                                                                        </div> -->
+                                    <div class="list-items-item-description">
+                                                                                                                                    <div class="list-items-item-description-author">
+                                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-trombinoscope/fc4b6c59-bbf4-49dc-a4a3-dbef342586f4.webp" style="width: 24px; height: 24px">
+                                                </div>
+                                                                                            <div class="list-items-item-description-author">
+                                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-trombinoscope/9899d10a-43b7-45bd-9db3-87602a5ddacf.webp" style="width: 24px; height: 24px">
+                                                </div>
+                                                                                                                                                                        <div class="list-items-item-description-author list-items-item-description-author-content">
+                                                                                            
+                                                    <a href="/trombinoscope/Y2zhGo6wCnoMRZS6ZFqOR/aminata-niakate" class="text-white">                 
+                                                        Aminata Niakaté
+                                                    </a>
+                                                
+                                                                                            
+                                                    <a href="/trombinoscope/40O9sRn3lK9nBzLPoSaehn/amine-kessaci" class="text-white">                 
+                                                        Amine Kessaci
+                                                    </a>
+                                                
+                                                                                        </div>
+                                                                            </div>
+                                    <a href="/posts/6O7rfX1iD5yn5miLhhAWO7/les-ecologistes-demandent-la-cessation-des-discussions-migratoires-entre-le-gouvernement-francais-et-les-talibans" class="stretched-link list-items-item-link">
+                                        <h5 class="list-items-item-title">
+                                            <span>Les Écologistes demandent la cessation des discussions migratoires entre le gouvernement français et les talibans</span>
+                                        </h5>
+                                    </a>
+                                    <div class="list-items-item-date">
+                                        26 oct. 2026
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+                                                <div class="list-items-row list-items-row-1">
+                                            <div class="list-items-col">
+                            <div class="list-items-item">
+                                <div class="list-items-item-thumbnail">
+                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-content-main/e388bbdf-ac93-44be-b6e4-80e4ba3f1ded.webp" class="list-items-item-image" width="1700" height="1080">
+                                                <div class="list-items-item-categorie">
+                                                                                                        
+                                                </div>                                         
+                                </div>
+
+                                <div class="list-items-item-text">
+                                    <!-- <div class="list-items-item-description">
+                                                                                                                                    <div class="list-items-item-description-author">
+                                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-trombinoscope/fc4b6c59-bbf4-49dc-a4a3-dbef342586f4.webp" style="width: 24px; height: 24px" />
+                                                    <a href="/trombinoscope/Y2zhGo6wCnoMRZS6ZFqOR/aminata-niakate" class="text-white">                 
+                                                        Aminata Niakaté
+                                                    </a>
+                                                    <span>•</span>
+                                                </div>
+                                                                                            <div class="list-items-item-description-author">
+                                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-trombinoscope/9899d10a-43b7-45bd-9db3-87602a5ddacf.webp" style="width: 24px; height: 24px" />
+                                                    <a href="/trombinoscope/40O9sRn3lK9nBzLPoSaehn/amine-kessaci" class="text-white">                 
+                                                        Amine Kessaci
+                                                    </a>
+                                                    <span>•</span>
+                                                </div>
+                                                                                                                        </div> -->
+                                    <div class="list-items-item-description">
+                                                                                                                                    <div class="list-items-item-description-author">
+                                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-trombinoscope/fc4b6c59-bbf4-49dc-a4a3-dbef342586f4.webp" style="width: 24px; height: 24px">
+                                                </div>
+                                                                                            <div class="list-items-item-description-author">
+                                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-trombinoscope/9899d10a-43b7-45bd-9db3-87602a5ddacf.webp" style="width: 24px; height: 24px">
+                                                </div>
+                                                                                                                                                                        <div class="list-items-item-description-author list-items-item-description-author-content">
+                                                                                            
+                                                    <a href="/trombinoscope/Y2zhGo6wCnoMRZS6ZFqOR/aminata-niakate" class="text-white">                 
+                                                        Aminata Niakaté
+                                                    </a>
+                                                
+                                                                                            
+                                                    <a href="/trombinoscope/40O9sRn3lK9nBzLPoSaehn/amine-kessaci" class="text-white">                 
+                                                        Amine Kessaci
+                                                    </a>
+                                                
+                                                                                        </div>
+                                                                            </div>
+                                    <a href="/posts/7TnMDbSjCC6LqibN8xPOD5/bresil-la-reelection-de-lula-un-signal-d-espoir-pour-la-democratie-et-l-ecologie-a-travers-le-monde" class="stretched-link list-items-item-link">
+                                        <h5 class="list-items-item-title">
+                                            <span>Brésil : la réélection de Lula, un signal d'espoir pour la démocratie et l'écologie à travers le monde</span>
+                                        </h5>
+                                    </a>
+                                    <div class="list-items-item-date">
+                                        26 oct. 2026
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="list-items-col">
+                            <div class="list-items-item">
+                                <div class="list-items-item-thumbnail">
+                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-content-main/8d795791-fcb8-469f-94f8-18fe58562630.webp" class="list-items-item-image" width="1700" height="1080">
+                                                <div class="list-items-item-categorie">
+                                                                                                        
+                                                </div>                                         
+                                </div>
+
+                                <div class="list-items-item-text">
+                                    <!-- <div class="list-items-item-description">
+                                                                                                                                    <div class="list-items-item-description-author">
+                                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-trombinoscope/fc4b6c59-bbf4-49dc-a4a3-dbef342586f4.webp" style="width: 24px; height: 24px" />
+                                                    <a href="/trombinoscope/Y2zhGo6wCnoMRZS6ZFqOR/aminata-niakate" class="text-white">                 
+                                                        Aminata Niakaté
+                                                    </a>
+                                                    <span>•</span>
+                                                </div>
+                                                                                            <div class="list-items-item-description-author">
+                                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-trombinoscope/9899d10a-43b7-45bd-9db3-87602a5ddacf.webp" style="width: 24px; height: 24px" />
+                                                    <a href="/trombinoscope/40O9sRn3lK9nBzLPoSaehn/amine-kessaci" class="text-white">                 
+                                                        Amine Kessaci
+                                                    </a>
+                                                    <span>•</span>
+                                                </div>
+                                                                                                                        </div> -->
+                                    <div class="list-items-item-description">
+                                                                                                                                    <div class="list-items-item-description-author">
+                                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-trombinoscope/fc4b6c59-bbf4-49dc-a4a3-dbef342586f4.webp" style="width: 24px; height: 24px">
+                                                </div>
+                                                                                            <div class="list-items-item-description-author">
+                                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-trombinoscope/9899d10a-43b7-45bd-9db3-87602a5ddacf.webp" style="width: 24px; height: 24px">
+                                                </div>
+                                                                                                                                                                        <div class="list-items-item-description-author list-items-item-description-author-content">
+                                                                                            
+                                                    <a href="/trombinoscope/Y2zhGo6wCnoMRZS6ZFqOR/aminata-niakate" class="text-white">                 
+                                                        Aminata Niakaté
+                                                    </a>
+                                                
+                                                                                            
+                                                    <a href="/trombinoscope/40O9sRn3lK9nBzLPoSaehn/amine-kessaci" class="text-white">                 
+                                                        Amine Kessaci
+                                                    </a>
+                                                
+                                                                                        </div>
+                                                                            </div>
+                                    <a href="/posts/5YVCJXC0hbYF5pqfqKa7Ex/objectifs-2030-de-restauration-de-la-nature-le-gouvernement-assume-l-immobilisme-malgre-la-degradation-acceleree-de-la-biodiversite" class="stretched-link list-items-item-link">
+                                        <h5 class="list-items-item-title">
+                                            <span>Objectifs 2030 de restauration de la nature : le gouvernement assume l’immobilisme malgré la dégradation accélérée de la biodiversité</span>
+                                        </h5>
+                                    </a>
+                                    <div class="list-items-item-date">
+                                        26 oct. 2026
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="list-items-col">
+                            <div class="list-items-item">
+                                <div class="list-items-item-thumbnail">
+                                    <img src="https://administrer.lesecologistes.fr/serve/b53c650c-b545-4cdf-a7f2-044c095c4337/website-content-main/cee5eca4-a704-4463-a7d4-a5545aae61b6.webp" class="list-items-item-image" width="1700" height="1080">
+                                                <div class="list-items-item-categorie">
+                                                                                                        
+                                                </div>                                         
+                                </div>
+
+                                <div class="list-items-item-text">
+                                    <!-- <div class="list-items-item-description">
+                                                                            </div> -->
+                                    <div class="list-items-item-description">
+                                                                                                                    </div>
+                                    <a href="/posts/52a3fobKHDiH16GoGtCoV0/amine-kessaci-elu-co-porte-parole-des-ecologistes" class="stretched-link list-items-item-link">
+                                        <h5 class="list-items-item-title">
+                                            <span>Amine Kessaci, élu co porte-parole des Écologistes</span>
+                                        </h5>
+                                    </a>
+                                    <div class="list-items-item-date">
+                                        26 oct. 2026
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+                                                                </div>
+
+                            </div>
+                        </div>
+      
+                                                                                    
+                        <div class="home-blocks-section home-blocks-section-4 home-blocks-section-national-4">
+                            <div class="home-blocks-container">
+                                <div class="home-blocks-block home-blocks-block-cta">
+    
+    </div>
+
+                            </div>
+                        </div>
+      
+                                                                                    
+                        <div class="home-blocks-section home-blocks-section-5 home-blocks-section-national-5">
+                            <div class="home-blocks-container">
+                                
+                            </div>
+                        </div>
+      
+                                                
+            
+        
+
+                                            <div class="home-blocks-action">
+                    <div class="home-blocks-action-map">
+                        <div class="home-blocks-container">
+                            <h4 class="home-blocks-action-map-title">
+                                Rejoignez Les Écologistes près de chez vous
+                            </h4>
+
+                            <div class="home-blocks-action-map-description">
+                                Retrouvez vos Régions et Groupes Locaux sur la carte des écologistes !
+                            </div>
+
+                            <a href="https://carte.lesecologistes.fr" class="link-plateforme-carte-hp" target="_blank">
+                                Ouvrir la carte des Écologistes
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                        
+            <div class="home-blocks-container">
+                <div class="home-blocks-container-newsletter" style="background-image: url('../res/back-newsletter.jpg') ! important;">
+                    <h2>INSCRIVEZ-VOUS À LA <br>NEWSLETTER LES <br>ÉCOLOGISTES</h2>
+                    
+
+                    <form name="subscribe_newsletter" method="post" action="/newsletter" data-turbo="false">
+
+                    <div class="row g-0">
+                        <div class="col-lg-4">
+                            <input type="email" id="subscribe_newsletter_email" name="subscribe_newsletter[email]" required="required" class="form-control form-control-lg form-control" placeholder="Email">
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="text" id="subscribe_newsletter_zipCode" name="subscribe_newsletter[zipCode]" required="required" class="form-control form-control-lg form-control" placeholder="Code postal">
+                        </div>
+                        <div class="col-1" style="display:none;">
+                            <div><div class=" css-b62m3t-container"><span id="react-select-2-live-region" class="css-7pg0cj-a11yText"></span><span aria-live="polite" aria-atomic="false" aria-relevant="additions text" class="css-7pg0cj-a11yText"></span><div class=" css-1laqj3q-control"><div class=" css-hlgwow"><div class=" css-1dimb5e-singleValue"><span class="mr-1 fi fi-us"></span> US</div><div class=" css-19bb58m" data-value=""><input class="" autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-2-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" aria-expanded="false" aria-haspopup="true" role="combobox" value="" style="color: inherit; background: 0px center; opacity: 1; width: 100%; grid-area: 1 / 2; font: inherit; min-width: 2px; border: 0px; margin: 0px; outline: 0px; padding: 0px;"></div></div><div class=" css-1wy0on6"><span class=" css-1u9des2-indicatorSeparator"></span><div class=" css-ogl6pu-indicatorContainer" aria-hidden="true"><svg height="20" width="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="css-8mmkcg"><path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path></svg></div></div></div></div><input type="hidden" name="subscribe_newsletter[country]" value="US"></div>
+                        </div>
+                        <div class="col-lg-3">
+                            <button type="submit" class="btn btn-submt-newsletter">
+                                Je m'abonne
+                            </button>
+                        </div>
+                    </div>
+                    <div class="rgpd-newsletter">
+                        <div class="form-check"><input type="checkbox" id="subscribe_newsletter_acceptPolicy" name="subscribe_newsletter[acceptPolicy]" required="required" class="form-check-input form-check-input" value="1">
+        <label class="form-check-label required" for="subscribe_newsletter_acceptPolicy">J’accepte de recevoir les informations des Écologistes par email</label></div>                       
+                    </div>
+
+
+                    </form>
+
+                </div>
+            </div>
+            <div class="home-blocks-container hideimp">
+                <div class="home-blocks-block home-blocks-block-socials">
+                    <h4 class="home-blocks-block-title">
+                        Restez informé.es, suivez-nous !
+                    </h4>
+
+                    <div class="home-blocks-block-socials-links">
+                        <a href="http://lesecologistes.fr/newsletter" target="_blank" rel="noopener noreferrer" title="S'abonner à notre newsletter" class="btn btn-lg btn-light home-blocks-block-socials-links-newsletter me-2">
+                            Newsletter
+                        </a>
+
+                        
+                                                    
+                                                            
+                                <a href="https://www.facebook.com/eelv.fr" target="_blank" rel="noopener noreferrer" title="Facebook" class="btn btn-lg btn-light home-blocks-block-socials-links-facebook me-2">
+                                    Facebook
+                                </a>
+                                                                                
+                                                            
+                                <a href="https://twitter.com/eelv/" target="_blank" rel="noopener noreferrer" title="X" class="btn btn-lg btn-light home-blocks-block-socials-links-twitter me-2">
+                                    X
+                                </a>
+                                                                                
+                                                            
+                                <a href="https://www.instagram.com/eelvfr/" target="_blank" rel="noopener noreferrer" title="Instagram" class="btn btn-lg btn-light home-blocks-block-socials-links-instagram me-2">
+                                    Instagram
+                                </a>
+                                                                                
+                                                                                
+                                                            
+                                <a href="https://www.youtube.com/@LesEcologistesFR" target="_blank" rel="noopener noreferrer" title="YouTube" class="btn btn-lg btn-light home-blocks-block-socials-links-youtube me-2">
+                                    YouTube
+                                </a>
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                            
+                                <a href="https://bsky.app/profile/lesecologistes.fr" target="_blank" rel="noopener noreferrer" title="Bluesky" class="btn btn-lg btn-light home-blocks-block-socials-links-bluesky me-2">
+                                    Bluesky
+                                </a>
+                                                                                
+                                                            
+                                <a href="https://mamot.fr/@eelv" target="_blank" rel="noopener noreferrer" title="Mastodon" class="btn btn-lg btn-light home-blocks-block-socials-links-mastodon me-2">
+                                    Mastodon
+                                </a>
+                                                                        </div>
+                </div>
+            </div>
+                    </div>
+    </div>
+    </main>
+
+        <footer class="footer">
+        <div class="footer-big-logo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-auto">
+                        <a href="http://lesecologistes.fr/">
+                            <img src="/res/logo-les-ecologistes-footer.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-new-menu footer-new-menu-ordi">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-new-menu-flex">
+                            <div class="footer-new-menu-flex-flex">
+                                <a href="https://action.lesecologistes.fr/espace-adherent/connexion" class="btn btn-block btn-primary btn-lg btn-adh-menu" target="_blank">
+                                    Espace&nbsp; membre
+                                </a> 
+
+                                 
+                                        <a href="https://agir.lesecologistes.fr/don" class="btn btn-third btn-lg btn-connexion-menu" target="_blank">
+                                            Donner
+                                        </a>
+
+                                  
+                            </div>        
+                            
+                                                            <div class="">
+                                                                            <a href="https://lesecologistes.fr/pages/2jdtEpBEURZRWyFj585QQh/pole-regulation" class="footer-menu-link">
+                                            Faire un signalement
+                                        </a>
+                                                                            <a href="https://lc.cx/politique-de-confidentialite-les-ecologistes" class="footer-menu-link">
+                                            Politique de confidentialité
+                                        </a>
+                                                                    </div>
+                                                            <div class="">
+                                                                            <a href="/pages/6sLocRwtcLWssy4DWDknIS/les-statuts-et-le-reglement-interieur" class="footer-menu-link">
+                                            Statuts et Règlement intérieur
+                                        </a>
+                                                                            <a href="https://lesecologistes.fr/pages/5WWUsLz1GuEBtDRuwmytnh/appui-juridique-des-militant-es" class="footer-menu-link">
+                                            Solliciter un appui juridique
+                                        </a>
+                                                                    </div>
+                                                            <div class="">
+                                                                            <a href="https://lesecologistes.fr/pages/7m9XhLZ8eaiUhI3nQ1ao25/espace-presse" class="footer-menu-link" target="_blank" rel="noopener noreferrer">
+                                            Espace Presse
+                                        </a>
+                                                                            <a href="https://marinetondelier.fr" class="footer-menu-link">
+                                            Le site marinetondelier.fr
+                                        </a>
+                                                                    </div>
+                                 
+                        </div>                   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-logo-europe">
+            <div class="container">
+                <div class="row">
+                    <div class="">
+                        <a target="_blank" href="https://europeangreens.eu/">
+                            <img src="/res/europeans-greens.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-credits">
+            <div class="container text-center text-lg-start">
+                <div class="row">
+                    <div class="col-lg-auto mb-2 legalities-ordi">
+                                                <a href="https://lesecologistes.fr/pages/5r6YHoF9Uy6sQM3fxPvsaU/mentions-legales">
+                            Mentions légales
+                        </a>
+                                            </div>
+                                        <div class="col-lg-auto ms-auto mb-2">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="mx-1">
+                                <div style="margin-bottom: 7px;">
+                                    Abonnez-vous !
+                                </div>
+                            </div>
+                            <div class="mx-1">
+                                <a href="/rss.xml" class="footer-credits-social">
+                                    <i class="ph ph-rss"></i>
+                                </a>
+                            </div>
+
+                            
+                                                            
+                                                                    
+                                    <div class="mx-1">
+                                        <a href="https://www.facebook.com/eelv.fr" target="_blank" rel="noopener noreferrer" title="Facebook" class="footer-credits-social">
+                                            <span class="sr-only">Facebook</span>
+                                                                                            <i class="ph ph-facebook-logo"></i>
+                                                                                    </a>
+                                    </div>
+                                                                                            
+                                                                    
+                                    <div class="mx-1">
+                                        <a href="https://twitter.com/eelv/" target="_blank" rel="noopener noreferrer" title="Twitter" class="footer-credits-social">
+                                            <span class="sr-only">Twitter</span>
+                                                                                            <i class="ph ph-x-logo"></i>
+                                                                                    </a>
+                                    </div>
+                                                                                            
+                                                                    
+                                    <div class="mx-1">
+                                        <a href="https://www.instagram.com/eelvfr/" target="_blank" rel="noopener noreferrer" title="Instagram" class="footer-credits-social">
+                                            <span class="sr-only">Instagram</span>
+                                                                                            <i class="ph ph-instagram-logo"></i>
+                                                                                    </a>
+                                    </div>
+                                                                                            
+                                                                                            
+                                                                    
+                                    <div class="mx-1">
+                                        <a href="https://www.youtube.com/@LesEcologistesFR" target="_blank" rel="noopener noreferrer" title="YouTube" class="footer-credits-social">
+                                            <span class="sr-only">YouTube</span>
+                                                                                            <i class="ph ph-youtube-logo"></i>
+                                                                                    </a>
+                                    </div>
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                    
+                                    <div class="mx-1">
+                                        <a href="https://bsky.app/profile/lesecologistes.fr" target="_blank" rel="noopener noreferrer" title="Bluesky" class="footer-credits-social">
+                                            <span class="sr-only">Bluesky</span>
+                                                                                            <svg viewBox="0 0 16 16" fill="#fff" xmlns="http://www.w3.org/2000/svg" id="Bluesky-Line--Streamline-Remix" height="21" width="21"><desc>Bluesky Line Streamline Icon: https://streamlinehq.com</desc><path d="M3.271513333333333 2.29286c0.4724466666666667 0.08053333333333333 1.0219266666666666 0.3347333333333333 1.7171666666666667 0.8317066666666666C6.186513333333332 3.980793333333333 7.179133333333334 5.15938 8 6.37574c0.8208666666666666 -1.2163599999999999 1.8134666666666668 -2.394946666666667 3.0113333333333334 -3.251173333333333 0.6951999999999999 -0.4969733333333333 1.2447333333333332 -0.7511733333333332 1.7171333333333332 -0.8317066666666666 0.5118666666666667 -0.08726 0.8598666666666667 0.042859999999999995 1.077 0.13334666666666667C14.477733333333333 2.7063733333333335 14.666666666666666 3.4833866666666666 14.666666666666666 4.143073333333334c0 0.13458666666666666 -0.05706666666666666 0.8679933333333333 -0.12346666666666667 1.5736466666666664 -0.03426666666666667 0.3638666666666666 -0.07273333333333333 0.7386533333333333 -0.11079999999999998 1.0509466666666665 -0.034866666666666664 0.2859333333333333 -0.0766 0.5870666666666666 -0.1266 0.7555999999999999 -0.2284 0.7697333333333334 -0.7081333333333333 1.3179333333333334 -1.3004666666666667 1.6781333333333333 0.6248666666666667 0.47139999999999993 0.8516 1.2374666666666667 0.6185999999999999 1.9889999999999999 -0.3977333333333333 1.2829333333333333 -1.8245333333333333 2.9318 -3.2236 3.078733333333333 -1.1816 0.12406666666666666 -1.9562 -0.8828666666666667 -2.400333333333333 -1.8392 -0.4441333333333333 0.9563333333333334 -1.2187333333333332 1.9632666666666667 -2.4003066666666664 1.8392 -1.39906 -0.14693333333333333 -2.825893333333333 -1.7958 -3.22364 -3.078733333333333 -0.23300666666666664 -0.7515333333333333 -0.006279999999999999 -1.5176 0.6185933333333333 -1.9889999999999999 -0.5923466666666666 -0.36019999999999996 -1.07202 -0.9084 -1.3004333333333333 -1.6781333333333333 -0.05000666666666666 -0.16853333333333334 -0.09176666666666666 -0.4696666666666667 -0.12661999999999998 -0.7555999999999999 -0.038066666666666665 -0.3122933333333333 -0.07654 -0.68708 -0.11078666666666666 -1.0509466666666665C1.3903933333333331 5.011066666666666 1.3333333333333333 4.277659999999999 1.3333333333333333 4.143073333333334c0 -0.6596866666666666 0.18895333333333333 -1.4367 0.8612133333333333 -1.7168666666666665 0.21714 -0.09048666666666666 0.5651133333333334 -0.22060666666666665 1.0769666666666666 -0.13334666666666667Zm-0.5721066666666667 2.318533333333333c0.04279999999999999 0.54518 0.11985333333333333 1.40532 0.19172 1.9949199999999998 0.021719999999999996 0.17815333333333333 0.03696666666666666 0.3627533333333333 0.08129333333333333 0.53742 0.26515999999999995 0.8936 1.2861066666666665 1.3881333333333332 2.45762 1.2582666666666666 0.36119999999999997 -0.04006666666666667 0.6879266666666666 0.2165333333333333 0.7346066666666666 0.5769333333333333 0.04667333333333333 0.36039999999999994 -0.20389333333333332 0.6918 -0.5633733333333333 0.7450666666666665 -0.5038866666666666 0.07473333333333333 -2.210233333333333 0.23766666666666664 -1.9516866666666666 1.0715999999999999 0.23788 0.7672666666666667 1.2318266666666666 2.0574666666666666 2.08936 2.1474666666666664 0.6184266666666667 0.065 0.9999866666666667 -0.9289999999999999 1.17712 -1.3632666666666666 0.18319999999999997 -0.4492666666666667 0.32539999999999997 -0.9196 0.4450666666666666 -1.3208 0.08426666666666667 -0.28246666666666664 0.34406666666666663 -0.47606666666666664 0.6388666666666667 -0.47606666666666664 0.29479999999999995 0 0.5546 0.1936 0.6388666666666667 0.47606666666666664 0.11966666666666666 0.4012 0.26186666666666664 0.8715333333333333 0.4450666666666666 1.3208 0.1771333333333333 0.43426666666666663 0.5586666666666666 1.4282666666666666 1.1771333333333334 1.3632666666666666 0.8575333333333333 -0.09 1.8514666666666666 -1.3801999999999999 2.0893333333333333 -2.1474666666666664 0.2585333333333333 -0.8339333333333332 -1.4478 -0.9968666666666667 -1.9516666666666667 -1.0715999999999999 -0.35946666666666666 -0.053266666666666664 -0.6100666666666666 -0.3846666666666666 -0.5633999999999999 -0.7450666666666665 0.04673333333333333 -0.36039999999999994 0.3734 -0.617 0.7346 -0.5769333333333333 1.1715333333333333 0.12986666666666666 2.1924666666666663 -0.3644666666666666 2.4576 -1.2580666666666667 0.045799999999999993 -0.17726666666666668 0.05913333333333333 -0.3572666666666667 0.08133333333333333 -0.5376133333333333 0.07186666666666666 -0.5896066666666666 0.1489333333333333 -1.4497466666666665 0.19173333333333334 -1.9949266666666665 0.024466666666666668 -0.3119133333333333 0.16506666666666664 -1.0916333333333332 -0.34806666666666664 -1.0041666666666667 -0.1906 0.0325 -0.5486 0.16080666666666665 -1.1658666666666666 0.6020466666666666 -1.2950666666666666 0.9257399999999999 -2.4700666666666664 2.341833333333333 -3.1926666666666663 3.7600599999999997 -0.11379999999999998 0.22333333333333333 -0.3433333333333333 0.364 -0.594 0.364s-0.4802 -0.14066666666666666 -0.594 -0.364c-0.7226 -1.4182266666666665 -1.8976133333333334 -2.83432 -3.1926799999999997 -3.7600599999999997 -0.6172799999999999 -0.44123999999999997 -0.9752333333333333 -0.5695466666666666 -1.1658733333333333 -0.6020466666666666 -0.5225133333333333 -0.08906666666666666 -0.3727466666666666 0.6894666666666667 -0.34803999999999996 1.0041666666666667Z" stroke-width="0.6667"></path></svg>
+                                                                                    </a>
+                                    </div>
+                                                                                            
+                                                                    
+                                    <div class="mx-1">
+                                        <a href="https://mamot.fr/@eelv" target="_blank" rel="noopener noreferrer" title="Mastodon" class="footer-credits-social">
+                                            <span class="sr-only">Mastodon</span>
+                                                                                            <i class="ph ph-mastodon-logo"></i>
+                                                                                    </a>
+                                    </div>
+                                                                                                                </div>
+                    </div>
+                </div>
+
+                <div class="footer-logo">
+                    <img src="/res/logo-les-ecologistes-footer.svg">
+                </div>
+                <div class="footer-new-menu footer-new-menu-mobile">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="footer-new-menu-flex">
+                                    <div class="footer-new-menu-flex-flex">
+                                        <a href="https://action.lesecologistes.fr/espace-adherent/connexion" class="btn btn-block btn-primary btn-lg btn-adh-menu" target="_blank">
+                                            Espace&nbsp; membre
+                                        </a> 
+
+                                         
+                                                <a href="https://agir.lesecologistes.fr/don" class="btn btn-third btn-lg btn-connexion-menu" target="_blank">
+                                                    Donner
+                                                </a>
+
+                                          
+                                    </div>        
+                                    
+                                                                            <div class="">
+                                                                                            <a href="https://lesecologistes.fr/pages/2jdtEpBEURZRWyFj585QQh/pole-regulation" class="footer-menu-link">
+                                                    Faire un signalement
+                                                </a>
+                                                                                            <a href="https://lc.cx/politique-de-confidentialite-les-ecologistes" class="footer-menu-link">
+                                                    Politique de confidentialité
+                                                </a>
+                                                                                    </div>
+                                                                            <div class="">
+                                                                                            <a href="/pages/6sLocRwtcLWssy4DWDknIS/les-statuts-et-le-reglement-interieur" class="footer-menu-link">
+                                                    Statuts et Règlement intérieur
+                                                </a>
+                                                                                            <a href="https://lesecologistes.fr/pages/5WWUsLz1GuEBtDRuwmytnh/appui-juridique-des-militant-es" class="footer-menu-link">
+                                                    Solliciter un appui juridique
+                                                </a>
+                                                                                    </div>
+                                                                            <div class="">
+                                                                                            <a href="https://lesecologistes.fr/pages/7m9XhLZ8eaiUhI3nQ1ao25/espace-presse" class="footer-menu-link" target="_blank" rel="noopener noreferrer">
+                                                    Espace Presse
+                                                </a>
+                                                                                            <a href="https://marinetondelier.fr" class="footer-menu-link">
+                                                    Le site marinetondelier.fr
+                                                </a>
+                                                                                    </div>
+                                         
+                                </div>                   
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="footer-europe-mobile">
+                    <a target="_blank" href="https://europeangreens.eu/">
+                        <img src="/res/europeans-greens.png">
+                    </a>
+                </div>
+                                <a class="legalities-mobile" href="https://lesecologistes.fr/pages/5r6YHoF9Uy6sQM3fxPvsaU/mentions-legales">
+                    Mentions légales
+                </a>
+                            </div>
+        </div>
+    </footer>
+    <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a52179da8ca86c7c',t:'MTc5MzI2OTUyMw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; visibility: hidden;"></iframe>
+
+</body></html>

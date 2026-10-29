@@ -34,7 +34,7 @@ export function GlanceSlide({ lanes }: { lanes: readonly RecapLane[] }) {
   return (
     <>
       <h1 className={styles.h1}>
-        {lanes.length > 1 ? `Tes ${lanes.length} programmes,` : "Ton programme,"}
+        {lanes.length > 1 ? `Tes ${lanes.length} programmes,` : "Ton programme,"}{" "}
         <br />
         en un coup d&apos;œil
       </h1>
@@ -90,7 +90,7 @@ export function ThemesSlide({ lanes }: { lanes: readonly RecapLane[] }) {
   return (
     <>
       <h1 className={styles.h1}>
-        Ce qui bouge
+        Ce qui bouge{" "}
         <br />
         le plus pour toi
       </h1>
@@ -151,7 +151,7 @@ export function CertaintySlide({ lanes, catalog }: { lanes: readonly RecapLane[]
   return (
     <>
       <h1 className={styles.h1}>
-        Ton résultat
+        Ton résultat{" "}
         <br />
         est-il solide ?
       </h1>

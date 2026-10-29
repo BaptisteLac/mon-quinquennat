@@ -3,6 +3,8 @@
 import { useEffect } from "react";
 import type { Profile } from "@mon-quinquennat/schema";
 import { Avatar } from "@/components/Avatar";
+import { DeskHeader } from "@/components/flow/DeskHeader";
+import { PersoCard } from "@/components/flow/PersoCard";
 import { Choice, FlowTop, formStyles as styles, NextAction, NumberStepper, YesNo, type Option } from "@/components/form/fields";
 import { asksBusiness, asksCareerEnd, asksPartTime, missingStep1, type ProfileDraft } from "@/lib/journey";
 import { useJourney } from "@/lib/use-journey";
@@ -77,11 +79,16 @@ export function StepToi() {
 
   return (
     <main className={styles.page}>
+      <DeskHeader current={1} />
       <FlowTop back={null} pill="Étape 1 / 2" />
+      <div className={styles.layout}>
+      <PersoCard profile={p} />
+      <div className={styles.form}>
       <div className={styles.intro}>
         <div className={styles.introText}>
+          <div className={styles.deskKicker}>Étape 1 sur 2</div>
           <h1 className={styles.title}>
-            Qui es-tu
+            Qui es-tu{" "}
             <br />
             en 2027 ?
           </h1>
@@ -129,8 +136,8 @@ export function StepToi() {
         ) : null}
       </div>
 
-      <div className={styles.field}>
-        <Choice legend="Ta situation" options={SITUATIONS} value={p.situationPro} onChange={(situationPro) => set({ situationPro })} columns={2} />
+      <div className={`${styles.field} ${styles.full}`}>
+        <Choice legend="Ta situation" options={SITUATIONS} value={p.situationPro} onChange={(situationPro) => set({ situationPro })} columns={2} deskColumns={4} />
         {asksPartTime(p) ? (
           <Choice
             legend="Et tu travailles"
@@ -177,10 +184,12 @@ export function StepToi() {
         ) : null}
       </div>
 
-      <div className={styles.actions}>
+      <div className={`${styles.actions} ${styles.full}`}>
         <NextAction href="/personnage/vie" missing={missingStep1(p)}>
           Continuer
         </NextAction>
+      </div>
+      </div>
       </div>
     </main>
   );

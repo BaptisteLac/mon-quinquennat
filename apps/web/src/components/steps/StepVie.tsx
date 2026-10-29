@@ -6,7 +6,9 @@ import { useEffect } from "react";
 import type { Profile } from "@mon-quinquennat/schema";
 import { Avatar } from "@/components/Avatar";
 import { CommunePicker } from "@/components/CommunePicker";
-import { Choice, FlowTop, formStyles as styles, MoneyField, NextAction, type Option } from "@/components/form/fields";
+import { DeskHeader } from "@/components/flow/DeskHeader";
+import { PersoCard } from "@/components/flow/PersoCard";
+import { Choice, DeskBack, FlowTop, formStyles as styles, MoneyField, NextAction, type Option } from "@/components/form/fields";
 import { isCouple, isTenant, missingStep1, missingStep2, type ProfileDraft } from "@/lib/journey";
 import { useJourney } from "@/lib/use-journey";
 import { SITUATIONS } from "./StepToi";
@@ -48,13 +50,21 @@ export function StepVie() {
 
   return (
     <main className={styles.page}>
+      <DeskHeader current={2} />
       <FlowTop back="/personnage" pill="Étape 2 / 2" />
+      <div className={styles.layout}>
+      <PersoCard profile={p} />
+      <div className={styles.form}>
       <div className={styles.intro}>
-        <h1 className={styles.title} style={{ flex: 1 }}>
-          Ta vie au
-          <br />
-          quotidien
-        </h1>
+        <div className={styles.introText}>
+          <div className={styles.deskKicker}>Étape 2 sur 2</div>
+          <h1 className={styles.title}>
+            Ta vie au{" "}
+            <br />
+            quotidien
+          </h1>
+        </div>
+        <DeskBack href="/personnage" />
         <Avatar genre={p.genre} age={p.age} enfants={p.enfants?.length ?? 0} size={64} />
       </div>
 
@@ -82,6 +92,7 @@ export function StepVie() {
             inlineLegend
             size="small"
             columns={2}
+            deskColumns={4}
             options={SITUATIONS}
             value={p.situationProConjoint}
             onChange={(situationProConjoint) => set({ situationProConjoint })}
@@ -94,8 +105,8 @@ export function StepVie() {
         </div>
       ) : null}
 
-      <div className={styles.field}>
-        <Choice legend="Logement" options={LOGEMENTS} value={p.logement} onChange={(logement) => set({ logement })} />
+      <div className={`${styles.field} ${styles.full}`}>
+        <Choice legend="Logement" options={LOGEMENTS} value={p.logement} onChange={(logement) => set({ logement })} deskColumns={5} />
         {isTenant(p) ? (
           <div className={styles.subBox}>
             <MoneyField
@@ -130,16 +141,22 @@ export function StepVie() {
         }
       />
 
-      <Choice legend="Tu vis" options={LIEUX} value={p.lieuDeVie} onChange={(lieuDeVie) => set({ lieuDeVie })} />
-      <Choice legend="Tu te déplaces surtout" options={MOBILITES} value={p.mobilite} onChange={(mobilite) => set({ mobilite })} columns={2} />
+      <div className={styles.full}>
+        <Choice legend="Tu vis" options={LIEUX} value={p.lieuDeVie} onChange={(lieuDeVie) => set({ lieuDeVie })} deskColumns={5} />
+      </div>
+      <div className={styles.full}>
+        <Choice legend="Tu te déplaces surtout" options={MOBILITES} value={p.mobilite} onChange={(mobilite) => set({ mobilite })} columns={2} deskColumns={4} />
+      </div>
 
-      <div className={styles.actions}>
+      <div className={`${styles.actions} ${styles.full}`}>
         <NextAction href="/candidats" missing={missingStep2(p)}>
           Vivre mon quinquennat
         </NextAction>
         <Link href="/personnage/affiner" className={styles.secondaryLink}>
           Affiner mon profil (facultatif, 2 questions)
         </Link>
+      </div>
+      </div>
       </div>
     </main>
   );

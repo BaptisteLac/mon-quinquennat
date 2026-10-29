@@ -52,5 +52,24 @@ Le design system est décrit dans [`../docs/design-system.md`](../docs/design-sy
 | DA retenue : sticker, peau jaune, avatars par âge et genre | `DA-retenue` |
 | Représentation des candidats | `DA-candidats` |
 
+## Desktop (1024 px et plus)
+Dans [`maquettes/desktop/`](maquettes/desktop/), pages de 1440 px de large, captures dans `desktop/png/`. Règles de mise en page : `docs/design-system.md`, section « Desktop ».
+
+| Écran | Fichiers |
+|---|---|
+| 0 · Accueil | `DK-accueil` |
+| 1 · Personnage · Toi | `DK-toi` |
+| 2 · Personnage · Ta vie | `DK-vie` |
+| 3 · Affiner (facultatif) | `DK-affiner` |
+| 4 · Choix des programmes | `DK-candidats` |
+| 5 · Le quinquennat (frise) | `DK-frise` |
+| Source d'une ligne (panneau latéral) | `DK-source` |
+| 6.1 · Intro du récap | `DK-recap-intro` |
+| 6.2 · Les tickets côte à côte | `DK-recap-tickets` |
+| 6.4 · En un coup d'œil | `DK-recap-coup-oeil` |
+| 6.7 · À toi de jouer | `DK-recap-fin` |
+
+Les autres chapitres du récap (6.3, 6.5, 6.6) suivent le même gabarit que 6.4.
+
 ## Ouvrir une maquette
 Ouvrir le fichier `.html` dans un navigateur (les polices viennent de Google Fonts). `index.json` liste les écrans avec leurs dimensions.

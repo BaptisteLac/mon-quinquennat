@@ -13,8 +13,13 @@
   text-align: center;
   padding: 8px 12px;
 }
+.topNav {
+  display: none;
+}
 .hero {
   padding: 24px var(--gutter) 28px;
+}
+.heroText {
   display: flex;
   flex-direction: column;
   gap: 18px;
@@ -194,4 +199,186 @@
 .methodLink {
   font-size: 14px;
   font-weight: 700;
+}
+
+/* Desktop (DK-accueil) : en-tête, héros en deux colonnes, sections en colonnes. */
+@media (min-width: 1024px) {
+  .page {
+    max-width: none;
+  }
+  .banner {
+    font-size: 13px;
+  }
+  .topNav,
+  .hero,
+  .how,
+  .section,
+  .sectionTight {
+    padding-inline: var(--desk-pad);
+  }
+  .topNav {
+    height: 72px;
+    border-bottom: var(--stroke) solid var(--ink);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .brand {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+  }
+  .topLinks {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .topLinks a {
+    text-decoration: none;
+  }
+  .topLinks .topCta {
+    height: 44px;
+    padding: 0 20px;
+    border: var(--stroke) solid var(--ink);
+    border-radius: 12px;
+    background: var(--white);
+    box-shadow: 3px 3px 0 var(--ink);
+    display: flex;
+    align-items: center;
+    font-family: var(--font-display);
+    font-weight: 800;
+  }
+  .hero {
+    padding-block: 80px 96px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 64px;
+    align-items: center;
+  }
+  .heroText {
+    gap: 28px;
+  }
+  .kicker {
+    font-size: 13px;
+    letter-spacing: 0.1em;
+  }
+  .titleRow > :last-child {
+    display: none;
+  }
+  .title {
+    font-size: 120px;
+    line-height: 0.88;
+  }
+  .year {
+    display: inline-block;
+    padding: 0 10px;
+    border-width: 3px;
+  }
+  .lead {
+    max-width: 520px;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .cta {
+    align-self: flex-start;
+    height: 64px;
+    padding: 0 32px;
+    border-radius: 18px;
+    box-shadow: 5px 5px 0 var(--yellow);
+    font-size: 21px;
+  }
+  .ctaNote {
+    margin: -12px 0 0;
+    text-align: left;
+    font-size: 15px;
+  }
+  .how {
+    padding-block: 72px;
+    gap: 36px;
+  }
+  .h2 {
+    font-size: 44px;
+    letter-spacing: -0.03em;
+  }
+  .h2Small {
+    font-size: 32px;
+  }
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+  }
+  .step {
+    flex-direction: column;
+    gap: 12px;
+    border: var(--stroke) solid var(--ink);
+    border-radius: 20px;
+    padding: 28px;
+    background: var(--cream);
+  }
+  .stepNumber {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    font-size: 20px;
+  }
+  .stepText {
+    gap: 12px;
+  }
+  .stepText b {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 24px;
+  }
+  .stepText span {
+    font-size: 16px;
+    line-height: 1.45;
+  }
+  .section {
+    padding-block: 72px;
+    gap: 32px;
+  }
+  .bullets {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 40px;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  .bullets li {
+    padding-left: 0;
+  }
+  .bullets li::before {
+    content: none;
+  }
+  .methodLink {
+    align-self: flex-start;
+    font-size: 16px;
+    text-underline-offset: 4px;
+  }
+  .sectionTight {
+    padding-block: 0 72px;
+    gap: 24px;
+  }
+  .guarantees {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+  }
+  .guarantee {
+    padding: 20px;
+    border-radius: var(--radius-lg);
+    font-size: 17px;
+    gap: 8px;
+  }
+  .guarantee span {
+    font-size: 15px;
+  }
+  .note {
+    font-size: 15px;
+  }
 }

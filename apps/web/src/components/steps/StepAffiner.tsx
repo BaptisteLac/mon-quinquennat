@@ -4,7 +4,9 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 import type { Profile } from "@mon-quinquennat/schema";
-import { Choice, FlowTop, formStyles as styles, NextAction, type Option } from "@/components/form/fields";
+import { Choice, DeskBack, FlowTop, formStyles as styles, NextAction, type Option } from "@/components/form/fields";
+import { DeskHeader } from "@/components/flow/DeskHeader";
+import { PersoCard } from "@/components/flow/PersoCard";
 import { completeProfile } from "@/lib/journey";
 import { useJourney } from "@/lib/use-journey";
 import card from "./StepAffiner.module.css";
@@ -35,14 +37,22 @@ export function StepAffiner() {
 
   return (
     <main className={styles.page}>
+      <DeskHeader current={2} />
       <FlowTop back="/personnage/vie" pill="Facultatif" />
-      <div className={styles.introText}>
-        <h1 className={styles.title}>
-          Affiner
-          <br />
-          mon profil
-        </h1>
-        <p className={styles.lead}>Ces questions changent le résultat pour certaines personnes. Réponds seulement si tu veux.</p>
+      <div className={styles.layout}>
+      <PersoCard profile={p} />
+      <div className={styles.form}>
+      <div className={styles.intro}>
+        <div className={styles.introText}>
+          <div className={styles.deskKicker}>Facultatif</div>
+          <h1 className={styles.title}>
+            Affiner{" "}
+            <br />
+            mon profil
+          </h1>
+          <p className={styles.lead}>Ces questions changent le résultat pour certaines personnes. Réponds seulement si tu veux.</p>
+        </div>
+        <DeskBack href="/personnage/vie" />
       </div>
 
       <section className={card.card}>
@@ -71,7 +81,7 @@ export function StepAffiner() {
         />
       </section>
 
-      <p className={styles.note}>
+      <p className={`${styles.note} ${styles.mobileOnly}`}>
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#111" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" style={{ flex: "none" }}>
           <rect x="5" y="11" width="14" height="10" rx="2" />
           <path d="M8 11V8a4 4 0 0 1 8 0v3" />
@@ -79,13 +89,15 @@ export function StepAffiner() {
         Tes réponses servent au calcul puis sont oubliées : rien n&apos;est enregistré sur nos serveurs.
       </p>
 
-      <div className={styles.actions}>
+      <div className={`${styles.actions} ${styles.full}`}>
         <NextAction href="/candidats" missing={[]}>
           Vivre mon quinquennat
         </NextAction>
         <Link href="/candidats" className={styles.secondaryLink}>
           Passer ces questions
         </Link>
+      </div>
+      </div>
       </div>
     </main>
   );

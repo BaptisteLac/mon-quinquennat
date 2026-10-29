@@ -23,6 +23,9 @@
   --shadow-cta: 4px 4px 0 var(--yellow);
   --gutter: 20px;
   --page-max: 560px;
+  /* Desktop (≥ 1024 px) : contenu de 1120 px au plus, marges de 40 px au moins (docs/design-system.md). */
+  --desk-content: 1120px;
+  --desk-pad: max(40px, calc((100% - var(--desk-content)) / 2));
 }
 
 *,

@@ -1,31 +1,15 @@
 {
-  "run": 24,
+  "run": 29,
   "targets": [
-    {
-      "id": "sp-elections",
-      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19810",
-      "waitUntil": "networkidle",
-      "continueOnError": true,
-      "actions": [
-        {
-          "wait": 2000
-        }
-      ],
-      "follow": "[ée]lection|vote|liste [ée]lectorale",
-      "maxFollow": 6
-    },
-    {
-      "id": "sp-recherche-inscription",
-      "url": "https://www.service-public.gouv.fr/particuliers/recherche?keyword=v%C3%A9rifier%20inscription%20liste%20%C3%A9lectorale",
-      "waitUntil": "networkidle",
-      "continueOnError": true,
-      "actions": [
-        {
-          "wait": 2000
-        }
-      ],
-      "follow": "situation [ée]lectorale|inscription|bureau de vote",
-      "maxFollow": 6
-    }
+    { "id": "sondages-france-vote", "url": "https://www.france-vote.fr/sondages", "waitUntil": "load", "continueOnError": true, "actions": [{ "wait": 3000 }] },
+    { "id": "sondages-wikipedia-en", "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2027_French_presidential_election", "waitUntil": "domcontentloaded", "continueOnError": true },
+    { "id": "polymarket-recherche", "url": "https://gamma-api.polymarket.com/public-search?q=french%20presidential%20election&limit_per_type=10", "waitUntil": "load", "continueOnError": true },
+    { "id": "polymarket-events", "url": "https://gamma-api.polymarket.com/events?closed=false&limit=20&tag_slug=france", "waitUntil": "load", "continueOnError": true },
+    { "id": "site-lepen-rendu", "url": "https://marinelepen.com/", "waitUntil": "networkidle", "timeoutMs": 90000, "continueOnError": true, "actions": [{ "wait": 8000 }], "follow": "programme|projet|propositions|mesures|engagements", "maxFollow": 3 },
+    { "id": "site-rn", "url": "https://rassemblementnational.fr/", "waitUntil": "load", "continueOnError": true, "actions": [{ "wait": 3000 }], "follow": "programme|projet|propositions|2027", "maxFollow": 3 },
+    { "id": "site-roussel", "url": "https://www.fabienroussel2027.fr/", "waitUntil": "networkidle", "timeoutMs": 90000, "continueOnError": true, "actions": [{ "wait": 10000 }], "follow": "programme|projet|propositions|mesures", "maxFollow": 3 },
+    { "id": "site-ruffin", "url": "https://debout.fr/", "waitUntil": "load", "continueOnError": true, "follow": "programme|projet|propositions|mesures", "maxFollow": 3 },
+    { "id": "site-tondelier", "url": "https://lesecologistes.fr/", "waitUntil": "load", "continueOnError": true, "follow": "programme|projet|propositions|2027", "maxFollow": 3 },
+    { "id": "site-attal-renaissance", "url": "https://parti-renaissance.fr/", "waitUntil": "load", "continueOnError": true, "follow": "programme|projet|propositions|2027", "maxFollow": 3 }
   ]
 }

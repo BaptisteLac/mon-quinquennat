@@ -26,3 +26,32 @@
   color: var(--on-ink-2);
   line-height: 1.5;
 }
+
+/* Desktop : une seule ligne sous un trait (DK-accueil). */
+@media (min-width: 1024px) {
+  .footer {
+    background: transparent;
+    color: var(--ink);
+    border-top: var(--stroke) solid var(--ink);
+    padding: 28px var(--desk-pad);
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px 24px;
+    font-size: 14px;
+  }
+  .name {
+    font-size: 16px;
+  }
+  .links {
+    gap: 24px;
+  }
+  .links a {
+    color: var(--ink);
+  }
+  .note {
+    flex-basis: 100%;
+    color: var(--text-2);
+  }
+}

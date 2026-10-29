@@ -1,19 +1,14 @@
 {
-  "corpus": "france-insoumise-2026-10",
-  "candidate": "c-02",
+  "corpus": "horizons-2026-10",
+  "candidate": "c-04",
   "start": [
-    "https://melenchon2027.fr/programme/decouvrir/",
-    "https://melenchon2027.fr/programme/plans-thematiques/",
-    "https://melenchon2027.fr/programme/plans-investissement/",
-    "https://melenchon2027.fr/programme2025/livre/"
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants",
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
   ],
-  "include": [
-    "https://melenchon2027.fr/programme/",
-    "https://melenchon2027.fr/programme2025/livre/"
-  ],
-  "exclude": [
-    "https://melenchon2027.fr/wp-content/uploads/2026/04/PROGRAMME-FRONT-POPULAIRE.pdf"
-  ],
+  "include": ["https://www.edouardphilippe.fr/priorites/"],
+  "exclude": [],
   "render": true,
-  "delayMs": 5000
+  "delayMs": 1500
 }

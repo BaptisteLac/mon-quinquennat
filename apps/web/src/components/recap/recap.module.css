@@ -470,3 +470,152 @@
   font-size: 14px;
   line-height: 1.45;
 }
+
+/* Éléments desktop du récap, masqués sur mobile. */
+.deskNav,
+.ticketsRow {
+  display: none;
+}
+
+/* Desktop (DK-recap-*) : chapitres en pleine largeur, tickets côte à côte, navigation précédent / suivant. */
+@media (min-width: 1024px) {
+  .top,
+  .slide {
+    max-width: none;
+    padding-inline: var(--desk-pad);
+  }
+  .top {
+    padding-top: 24px;
+  }
+  .topTitle {
+    font-size: 30px;
+    letter-spacing: -0.02em;
+  }
+  .close {
+    width: 44px;
+    height: 44px;
+    border: var(--stroke-thin) solid currentColor;
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+  }
+  .slide {
+    padding-block: 28px 32px;
+    gap: 24px;
+  }
+  .giant {
+    font-size: 110px;
+  }
+  .h1 {
+    font-size: 56px;
+  }
+  .h1 br,
+  .giant br {
+    display: none;
+  }
+  .lead {
+    max-width: 720px;
+    font-size: 19px;
+  }
+  .actions {
+    margin-top: 0;
+    max-width: 520px;
+  }
+  .ticketsRow {
+    display: grid;
+    gap: 24px;
+    align-items: start;
+  }
+  .ticketCol {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .mysteryCol {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .mysteryCol .actions {
+    grid-template-columns: 1fr 1fr;
+  }
+  .mysteryCol .primaryYellow {
+    background: var(--ink);
+    color: var(--white);
+  }
+  .mysteryCol .secondaryInk {
+    background: var(--white);
+    color: var(--ink);
+    border-color: var(--ink);
+  }
+  .mysteryCol .noteInk {
+    color: var(--text-2);
+  }
+  .table {
+    padding: 0;
+    border-radius: 22px;
+    box-shadow: 6px 6px 0 var(--ink);
+    overflow: hidden;
+  }
+  .tr {
+    padding: 14px 24px;
+    gap: 16px;
+  }
+  .th {
+    font-size: 16px;
+  }
+  .rh {
+    font-size: 15px;
+  }
+  .td {
+    font-family: var(--font-mono);
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .cellBar {
+    font-size: 22px;
+  }
+  .deskNav {
+    width: 100%;
+    padding: 0 var(--desk-pad) 32px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 14px;
+  }
+  .keys {
+    font-size: 13px;
+  }
+  .keys kbd {
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    padding: 0 5px;
+    font-family: inherit;
+  }
+  .navPrev,
+  .navNext {
+    height: 52px;
+    border: var(--stroke) solid var(--ink);
+    border-radius: var(--radius);
+    background: var(--white);
+    color: var(--ink);
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .navPrev {
+    width: 52px;
+    font-size: 26px;
+  }
+  .navNext {
+    padding: 0 24px;
+  }
+  .navPrev:disabled,
+  .navNext:disabled {
+    opacity: 0.4;
+    cursor: default;
+  }
+}

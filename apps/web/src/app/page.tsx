@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Avatar } from "@/components/Avatar";
 import { ProgrammeChips } from "@/components/ProgrammeChips";
 import { ResumeSheet } from "@/components/ResumeSheet";
+import { TicketTeaser } from "@/components/TicketTeaser";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getProgrammes } from "@/lib/data";
 import { formatDate } from "@/lib/format";
@@ -28,7 +29,22 @@ export default function HomePage() {
     <div className={styles.page}>
       <div className={styles.banner}>Outil citoyen indépendant · sans pub · sans compte</div>
 
+      {/* En-tête desktop (DK-accueil) ; sur mobile, l'accueil n'a pas de barre de navigation. */}
+      <nav className={styles.topNav} aria-label="Navigation principale">
+        <Link href="/" className={styles.brand}>
+          Mon quinquennat
+        </Link>
+        <div className={styles.topLinks}>
+          <Link href="#programmes">Les programmes</Link>
+          <Link href="/methode">Méthode</Link>
+          <Link href="/personnage" className={styles.topCta}>
+            Commencer
+          </Link>
+        </div>
+      </nav>
+
       <header className={styles.hero}>
+        <div className={styles.heroText}>
         <div className={styles.kicker}>Présidentielle 2027</div>
         <div className={styles.titleRow}>
           <h1 className={styles.title}>
@@ -49,6 +65,8 @@ export default function HomePage() {
           </svg>
         </Link>
         <p className={styles.ctaNote}>4 minutes · aucune inscription</p>
+        </div>
+        <TicketTeaser />
       </header>
 
       <section className={styles.how}>

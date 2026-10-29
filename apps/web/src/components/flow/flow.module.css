@@ -1,0 +1,131 @@
+/* Éléments desktop du parcours (≥ 1024 px) : en-tête à étapes, carte « Ton perso ». Masqués sur mobile. */
+.deskHeader,
+.persoCard {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .deskHeader {
+    height: 72px;
+    padding-inline: var(--desk-pad);
+    border-bottom: var(--stroke) solid var(--ink);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .deskBrand {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+  }
+  .deskSteps {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: var(--text-2);
+  }
+  .deskSteps li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .deskSteps li + li::before {
+    content: "";
+    width: 20px;
+    border-top: var(--stroke-thin) solid var(--ink);
+    margin-right: 2px;
+  }
+  .deskSteps li[data-state="current"] {
+    color: var(--ink);
+    font-weight: 700;
+  }
+  .deskDot {
+    width: 28px;
+    height: 28px;
+    border: var(--stroke-thin) solid var(--ink);
+    border-radius: 50%;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--ink);
+  }
+  [data-state="current"] .deskDot {
+    background: var(--yellow);
+  }
+  [data-state="done"] .deskDot {
+    background: var(--ink);
+    color: var(--white);
+  }
+  .deskMethod {
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .persoCard {
+    position: sticky;
+    top: 24px;
+    align-self: start;
+    background: var(--white);
+    border: var(--stroke) solid var(--ink);
+    border-radius: 22px;
+    box-shadow: 6px 6px 0 var(--ink);
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .persoCard > figure {
+    align-self: center;
+  }
+  .persoTitle {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: -0.02em;
+  }
+  .chips {
+    margin: 0;
+    padding: 0 0 18px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    border-bottom: var(--stroke-thin) dashed var(--ink);
+  }
+  .chips li {
+    border: var(--stroke-thin) solid var(--ink);
+    border-radius: 999px;
+    padding: 3px 12px;
+    font-size: 13px;
+    font-weight: 700;
+    background: var(--yellow);
+  }
+  .chips li[data-filled="false"] {
+    border-style: dashed;
+    background: var(--white);
+    font-weight: 500;
+    color: var(--text-2);
+  }
+  .privacy {
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--text-2);
+  }
+  .privacy svg {
+    flex: none;
+    margin-top: 2px;
+  }
+}
