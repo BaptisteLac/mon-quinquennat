@@ -1,8 +1,13 @@
 {
-  "corpus": "les-republicains-2026-10",
-  "candidate": "c-03",
-  "start": ["https://www.avecretailleau.fr/projet"],
-  "include": ["https://www.avecretailleau.fr/projet"],
+  "corpus": "horizons-2026-10",
+  "candidate": "c-04",
+  "start": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants",
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+  ],
+  "include": ["https://www.edouardphilippe.fr/priorites/"],
   "exclude": [],
   "render": true,
   "delayMs": 1500
