@@ -1,31 +1,19 @@
 {
-  "run": 24,
+  "run": 25,
   "targets": [
     {
-      "id": "sp-elections",
-      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19810",
+      "id": "franceinfo-candidats-2027",
+      "url": "https://www.franceinfo.fr/elections/presidentielle/portraits-qui-sont-les-candidats-declares-a-l-election-presidentielle-de-2027_8208032.html",
       "waitUntil": "networkidle",
       "continueOnError": true,
-      "actions": [
-        {
-          "wait": 2000
-        }
-      ],
-      "follow": "[ée]lection|vote|liste [ée]lectorale",
-      "maxFollow": 6
+      "actions": [{ "wait": 3000 }]
     },
     {
-      "id": "sp-recherche-inscription",
-      "url": "https://www.service-public.gouv.fr/particuliers/recherche?keyword=v%C3%A9rifier%20inscription%20liste%20%C3%A9lectorale",
-      "waitUntil": "networkidle",
+      "id": "wikipedia-candidatures-2027",
+      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "waitUntil": "domcontentloaded",
       "continueOnError": true,
-      "actions": [
-        {
-          "wait": 2000
-        }
-      ],
-      "follow": "situation [ée]lectorale|inscription|bureau de vote",
-      "maxFollow": 6
+      "actions": [{ "wait": 1000 }]
     }
   ]
 }
