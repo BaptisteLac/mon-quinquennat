@@ -45,6 +45,8 @@
   letter-spacing: -0.05em;
 }
 .year {
+  display: inline-block;
+  margin-top: 6px;
   background: var(--yellow);
   padding: 0 6px;
   border: var(--stroke) solid var(--ink);

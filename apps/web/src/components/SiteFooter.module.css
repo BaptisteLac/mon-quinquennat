@@ -16,10 +16,14 @@
 .links {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 16px;
+  gap: 4px 16px;
 }
 .links a {
   color: var(--white);
+  /* Cible d'au moins 24 px de haut (WCAG 2.2, 2.5.8). */
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
 }
 .note {
   margin: 0;

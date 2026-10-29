@@ -159,6 +159,7 @@ export function Frise({
     <>
     <DeskHeader current={4} />
     <div className={styles.frisePage}>
+      <h1 className="visually-hidden">Ton quinquennat</h1>
       <nav className={styles.momentNav} aria-label="Moments du quinquennat">
         <b>Ton quinquennat</b>
         {YEARS.map((y) => {
