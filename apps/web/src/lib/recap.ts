@@ -4,6 +4,7 @@
  */
 import type { Ticket, TicketLineResult } from "@mon-quinquennat/schema";
 import type { Catalog } from "./catalog";
+import { plural } from "./format";
 import type { NatureKind } from "./nature";
 import { effectSentence } from "./catalog";
 import { LINE_LABELS } from "./ticket-labels";
@@ -95,4 +96,9 @@ export function biggestChange(t: Ticket, catalog: Catalog): { text: string; line
   const m = line.measureIds.map((id) => catalog.measures[id]).find((x) => x !== undefined);
   if (!m) return null;
   return { text: line.nature === "qualitatif" ? effectSentence(m, line.ticketLine) : m.title, line };
+}
+
+/** « 1 chiffrée · 27 qualitatives · 1 floue » : la légende se lit sans renvoi. */
+export function certaintyLabel(c: Record<NatureKind, number>): string {
+  return [plural(c.chiffree, "chiffrée"), plural(c.qualitative, "qualitative"), plural(c.floue, "floue")].join(" · ");
 }

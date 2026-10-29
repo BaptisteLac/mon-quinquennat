@@ -3,7 +3,7 @@ import { describe, expect, it } from "vitest";
 import { Profile } from "@mon-quinquennat/schema";
 import { buildCatalog } from "./catalog";
 import { dataDir, loadProgrammes } from "./data";
-import { biggestChange, certainty, glance, themes } from "./recap";
+import { biggestChange, certainty, certaintyLabel, glance, themes } from "./recap";
 import { buildTicket } from "./ticket/build";
 import { CalculResponse } from "./ticket/calc-client";
 
@@ -63,5 +63,12 @@ describe("liens officiels de la fin du récap", () => {
       const u = new URL(link.url);
       expect(archived.includes(link.url) || archived.includes(u.hostname)).toBe(true);
     }
+  });
+});
+
+describe("certaintyLabel", () => {
+  it("écrit la légende en toutes lettres, avec les accords", () => {
+    expect(certaintyLabel({ chiffree: 1, qualitative: 27, floue: 1 })).toBe("1 chiffrée · 27 qualitatives · 1 floue");
+    expect(certaintyLabel({ chiffree: 0, qualitative: 2, floue: 3 })).toBe("0 chiffrée · 2 qualitatives · 3 floues");
   });
 });

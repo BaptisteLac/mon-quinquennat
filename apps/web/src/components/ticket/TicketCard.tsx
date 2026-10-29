@@ -69,7 +69,11 @@ export function TicketCard({
           <p className={styles.mono}>
             {head.candidate ? (
               <>
-                si <BadgeIcon badge={head.candidate.badge} size={11} /> {head.candidate.displayName} passe
+                si{" "}
+                <span className={styles.nowrap}>
+                  <BadgeIcon badge={head.candidate.badge} size={11} /> {head.candidate.displayName}
+                </span>{" "}
+                passe
               </>
             ) : (
               "si… ce programme passe :"

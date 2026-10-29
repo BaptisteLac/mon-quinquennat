@@ -4,7 +4,7 @@ import type { ReactNode } from "react";
 import { BadgeIcon } from "@/components/BadgeIcon";
 import type { Badge } from "@/lib/badges";
 import type { Catalog } from "@/lib/catalog";
-import { certainty, glance, themes, type ThemeRow } from "@/lib/recap";
+import { certainty, certaintyLabel, glance, themes, type ThemeRow } from "@/lib/recap";
 import { formatDuration, formatMoney } from "@/lib/ticket-labels";
 import type { Ticket } from "@mon-quinquennat/schema";
 import styles from "./recap.module.css";
@@ -128,7 +128,9 @@ function ThemeScale({ row, lanes }: { row: ThemeRow; lanes: readonly RecapLane[]
           {row.label}
         </b>
         <span>
-          de {fmt(Math.min(...row.values))} à {fmt(Math.max(...row.values))}
+          {Math.min(...row.values) === Math.max(...row.values)
+            ? fmt(row.values[0] ?? 0)
+            : `de ${fmt(Math.min(...row.values))} à ${fmt(Math.max(...row.values))}`}
         </span>
       </div>
       <div className={styles.scale} data-estimated={row.estimated}>
@@ -177,10 +179,10 @@ export function CertaintySlide({ lanes, catalog }: { lanes: readonly RecapLane[]
                 <LaneMark lane={l} /> {l.label}
               </b>
               <span>
-                {c.chiffree} · {c.qualitative} · {c.floue}
+                {certaintyLabel(c)}
               </span>
             </div>
-            <div className={styles.certBar} role="img" aria-label={`${c.chiffree} chiffrées, ${c.qualitative} qualitatives, ${c.floue} floues`}>
+            <div className={styles.certBar} role="img" aria-label={certaintyLabel(c)}>
               {(["chiffree", "qualitative", "floue"] as const).map((k) =>
                 c[k] > 0 ? <i key={k} className={styles.swatch} data-nature={k} style={{ flexGrow: c[k] / total }} /> : null,
               )}
@@ -200,3 +202,4 @@ export function Slide({ tone, children }: { tone: "ink" | "yellow" | "cream"; ch
     </section>
   );
 }
+

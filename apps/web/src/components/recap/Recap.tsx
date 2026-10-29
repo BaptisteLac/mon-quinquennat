@@ -118,7 +118,12 @@ export function Recap({ programmes }: { programmes: readonly ProgrammeSummary[] 
           ))}
         </div>
         <div className={styles.topRow}>
-          <span className={styles.topTitle}>{title}</span>
+          {/* Les écrans de tickets n'ont pas de grand titre : le titre de l'en-tête en tient lieu. */}
+          {current.kind === "tickets" || current.kind === "ticket" || current.kind === "mystere" ? (
+            <h1 className={styles.topTitle}>{title}</h1>
+          ) : (
+            <span className={styles.topTitle}>{title}</span>
+          )}
           <Link href="/quinquennat" className={styles.close} aria-label="Fermer le récap">
             ×
           </Link>
@@ -139,7 +144,7 @@ export function Recap({ programmes }: { programmes: readonly ProgrammeSummary[] 
             Avec {lanes.length > 1 ? `les ${lanes.length} programmes que tu as choisis` : "le programme que tu as choisi"}
             {mystery ? ", et un autre tiré au hasard" : ""}. Voici ce que ça a changé pour toi.
           </p>
-          <button type="button" className={styles.primaryYellow} onClick={next}>
+          <button type="button" className={`${styles.primaryYellow} ${styles.mobileNext}`} onClick={next}>
             Voir mon récap →
           </button>
         </Slide>
@@ -255,7 +260,7 @@ export function Recap({ programmes }: { programmes: readonly ProgrammeSummary[] 
                 <Link href={`/programme/${mp.slug}`} className={styles.secondaryInk}>
                   Voir son programme
                 </Link>
-                <button type="button" className={styles.primaryYellow} onClick={next}>
+                <button type="button" className={`${styles.primaryYellow} ${styles.mobileNext}`} onClick={next}>
                   Suivant
                 </button>
               </div>
@@ -361,7 +366,7 @@ function NextBar({ onNext, onShare }: { onNext: () => void; onShare: () => void 
       <button type="button" className={styles.primary} onClick={onShare}>
         Partager
       </button>
-      <button type="button" className={styles.secondary} onClick={onNext}>
+      <button type="button" className={`${styles.secondary} ${styles.mobileNext}`} onClick={onNext}>
         Suivant
       </button>
     </div>

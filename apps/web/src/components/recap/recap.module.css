@@ -55,6 +55,7 @@
   font-family: var(--font-display);
   font-weight: 800;
   font-size: 17px;
+  margin: 0;
 }
 .close {
   font-size: 30px;
@@ -576,6 +577,10 @@
   }
   .cellBar {
     font-size: 22px;
+  }
+  /* La barre « ← / Suivant › » remplace les boutons « suivant » de chaque écran. */
+  .mobileNext {
+    display: none;
   }
   .deskNav {
     width: 100%;
