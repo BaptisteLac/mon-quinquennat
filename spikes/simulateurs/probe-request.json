@@ -1,19 +1,243 @@
 {
-  "run": 25,
+  "run": 26,
   "targets": [
     {
-      "id": "franceinfo-candidats-2027",
-      "url": "https://www.franceinfo.fr/elections/presidentielle/portraits-qui-sont-les-candidats-declares-a-l-election-presidentielle-de-2027_8208032.html",
-      "waitUntil": "networkidle",
-      "continueOnError": true,
-      "actions": [{ "wait": 3000 }]
+      "id": "ddg-nathalie-arthaud",
+      "url": "https://html.duckduckgo.com/html/?q=%22Nathalie%20Arthaud%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
     },
     {
-      "id": "wikipedia-candidatures-2027",
-      "url": "https://fr.wikipedia.org/wiki/Candidatures_%C3%A0_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+      "id": "ddg-francois-asselineau",
+      "url": "https://html.duckduckgo.com/html/?q=%22Fran%C3%A7ois%20Asselineau%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
       "waitUntil": "domcontentloaded",
-      "continueOnError": true,
-      "actions": [{ "wait": 1000 }]
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-gabriel-attal",
+      "url": "https://html.duckduckgo.com/html/?q=%22Gabriel%20Attal%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-delphine-batho",
+      "url": "https://html.duckduckgo.com/html/?q=%22Delphine%20Batho%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-olivier-becht",
+      "url": "https://html.duckduckgo.com/html/?q=%22Olivier%20Becht%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-augustin-billetdoux",
+      "url": "https://html.duckduckgo.com/html/?q=%22Augustin%20Billetdoux%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-karim-bouamrane",
+      "url": "https://html.duckduckgo.com/html/?q=%22Karim%20Bouamrane%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-juan-branco",
+      "url": "https://html.duckduckgo.com/html/?q=%22Juan%20Branco%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-christian-collovati",
+      "url": "https://html.duckduckgo.com/html/?q=%22Christian%20Collovati%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-nicolas-dupont-aignan",
+      "url": "https://html.duckduckgo.com/html/?q=%22Nicolas%20Dupont-Aignan%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-sylvain-pierre-durif",
+      "url": "https://html.duckduckgo.com/html/?q=%22Sylvain%20Pierre%20Durif%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-clara-egger",
+      "url": "https://html.duckduckgo.com/html/?q=%22Clara%20Egger%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-raphael-glucksmann",
+      "url": "https://html.duckduckgo.com/html/?q=%22Rapha%C3%ABl%20Glucksmann%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-anasse-kazib",
+      "url": "https://html.duckduckgo.com/html/?q=%22Anasse%20Kazib%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-selma-labib",
+      "url": "https://html.duckduckgo.com/html/?q=%22Selma%20Labib%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-francis-lalanne",
+      "url": "https://html.duckduckgo.com/html/?q=%22Francis%20Lalanne%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-jean-lassalle",
+      "url": "https://html.duckduckgo.com/html/?q=%22Jean%20Lassalle%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-marine-le-pen",
+      "url": "https://html.duckduckgo.com/html/?q=%22Marine%20Le%20Pen%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-jean-francois-legendre",
+      "url": "https://html.duckduckgo.com/html/?q=%22Jean-Fran%C3%A7ois%20Legendre%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-david-lisnard",
+      "url": "https://html.duckduckgo.com/html/?q=%22David%20Lisnard%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-mira-markovic",
+      "url": "https://html.duckduckgo.com/html/?q=%22Mira%20Markovic%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-benoit-mathieu",
+      "url": "https://html.duckduckgo.com/html/?q=%22Beno%C3%AEt%20Mathieu%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-jean-luc-melenchon",
+      "url": "https://html.duckduckgo.com/html/?q=%22Jean-Luc%20M%C3%A9lenchon%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-antoine-mikolajczak",
+      "url": "https://html.duckduckgo.com/html/?q=%22Antoine%20Mikolajczak%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-manolo-mlekuz",
+      "url": "https://html.duckduckgo.com/html/?q=%22Manolo%20Mlekuz%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-edouard-philippe",
+      "url": "https://html.duckduckgo.com/html/?q=%22%C3%89douard%20Philippe%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-florian-philippot",
+      "url": "https://html.duckduckgo.com/html/?q=%22Florian%20Philippot%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-gilles-platret",
+      "url": "https://html.duckduckgo.com/html/?q=%22Gilles%20Platret%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-natacha-polony",
+      "url": "https://html.duckduckgo.com/html/?q=%22Natacha%20Polony%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-bruno-retailleau",
+      "url": "https://html.duckduckgo.com/html/?q=%22Bruno%20Retailleau%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-erwan-rohou",
+      "url": "https://html.duckduckgo.com/html/?q=%22Erwan%20Rohou%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-fabien-roussel",
+      "url": "https://html.duckduckgo.com/html/?q=%22Fabien%20Roussel%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-francois-ruffin",
+      "url": "https://html.duckduckgo.com/html/?q=%22Fran%C3%A7ois%20Ruffin%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
+    },
+    {
+      "id": "ddg-marine-tondelier",
+      "url": "https://html.duckduckgo.com/html/?q=%22Marine%20Tondelier%22%20pr%C3%A9sidentielle%202027%20site%20officiel%20programme",
+      "waitUntil": "domcontentloaded",
+      "timeoutMs": 30000,
+      "continueOnError": true
     }
   ]
 }
