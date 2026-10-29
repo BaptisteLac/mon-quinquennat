@@ -1,19 +1,9 @@
 {
-  "corpus": "france-insoumise-2026-10",
-  "candidate": "c-02",
-  "start": [
-    "https://melenchon2027.fr/programme/decouvrir/",
-    "https://melenchon2027.fr/programme/plans-thematiques/",
-    "https://melenchon2027.fr/programme/plans-investissement/",
-    "https://melenchon2027.fr/programme2025/livre/"
-  ],
-  "include": [
-    "https://melenchon2027.fr/programme/",
-    "https://melenchon2027.fr/programme2025/livre/"
-  ],
-  "exclude": [
-    "https://melenchon2027.fr/wp-content/uploads/2026/04/PROGRAMME-FRONT-POPULAIRE.pdf"
-  ],
+  "corpus": "les-republicains-2026-10",
+  "candidate": "c-03",
+  "start": ["https://www.avecretailleau.fr/projet"],
+  "include": ["https://www.avecretailleau.fr/projet"],
+  "exclude": [],
   "render": true,
-  "delayMs": 5000
+  "delayMs": 1500
 }

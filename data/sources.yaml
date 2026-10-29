@@ -73,3 +73,34 @@ candidates:
       delayMs: 5000         # le site renvoie des 403 (protection anti-robots) quand on enchaîne les pages
       watch: weekly
       volatile: []
+  - candidateId: c-03
+    displayName: "Bruno Retailleau"
+    party: "Les Républicains"
+    status: declaree
+    corpusPrefix: les-republicains
+    # « Mon projet pour la France » : une page par thème et par mesure (recensement du 2026-10-29).
+    programme:
+      start:
+        - "https://www.avecretailleau.fr/projet"
+      include:
+        - "https://www.avecretailleau.fr/projet"
+      render: true
+      watch: weekly
+      volatile: []
+  - candidateId: c-04
+    displayName: "Édouard Philippe"
+    party: "Horizons"
+    status: declaree
+    corpusPrefix: horizons
+    # Quatre priorités détaillées (recensement du 2026-10-29).
+    programme:
+      start:
+        - "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+        - "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
+        - "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+        - "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+      include:
+        - "https://www.edouardphilippe.fr/priorites/"
+      render: true
+      watch: weekly
+      volatile: []
