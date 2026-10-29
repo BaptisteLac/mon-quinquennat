@@ -1,0 +1,167 @@
+{
+  "requested": "https://trajectoire2027.fr/",
+  "final": "https://trajectoire2027.fr/",
+  "status": 200,
+  "title": "Trajectoire — Rectifions la trajectoire",
+  "iframes": [
+    "https://trajectoire2027.fr/"
+  ],
+  "links": [
+    {
+      "href": "https://trajectoire2027.fr/#contenu",
+      "text": "Aller au contenu"
+    },
+    {
+      "href": "https://trajectoire2027.fr/#top",
+      "text": ""
+    },
+    {
+      "href": "https://trajectoire2027.fr/#projet",
+      "text": "Le projet"
+    },
+    {
+      "href": "https://trajectoire2027.fr/programme",
+      "text": "Programme"
+    },
+    {
+      "href": "https://trajectoire2027.fr/le-tour-de-france",
+      "text": "Le tour de France"
+    },
+    {
+      "href": "https://trajectoire2027.fr/equipe",
+      "text": "L'équipe"
+    },
+    {
+      "href": "https://trajectoire2027.fr/presse",
+      "text": "Presse"
+    },
+    {
+      "href": "https://trajectoire2027.fr/faq",
+      "text": "FAQ"
+    },
+    {
+      "href": "https://trajectoire2027.fr/soutenir",
+      "text": "Soutenir"
+    },
+    {
+      "href": "https://trajectoire2027.fr/#projet",
+      "text": "Découvrir le projet"
+    },
+    {
+      "href": "https://trajectoire2027.fr/soutenir",
+      "text": "Soutenir le mouvement"
+    },
+    {
+      "href": "https://trajectoire2027.fr/#projet",
+      "text": "Défiler pour lire"
+    },
+    {
+      "href": "https://www.instagram.com/trajectoire.2027/",
+      "text": "Instagram@trajectoire.2027"
+    },
+    {
+      "href": "https://www.tiktok.com/@trajectoire2027",
+      "text": "TikTok@trajectoire2027"
+    },
+    {
+      "href": "https://www.facebook.com/people/Trajectoire/61589428632350/",
+      "text": "FacebookTrajectoire"
+    },
+    {
+      "href": "https://trajectoire2027.fr/programme",
+      "text": "Découvrir le programme"
+    },
+    {
+      "href": "mailto:trajectoire2027@gmail.com",
+      "text": "Nous écriretrajectoire2027@gmail.com"
+    },
+    {
+      "href": "https://trajectoire2027.fr/#projet",
+      "text": "Le projet"
+    },
+    {
+      "href": "https://trajectoire2027.fr/programme",
+      "text": "Programme"
+    },
+    {
+      "href": "https://trajectoire2027.fr/le-tour-de-france",
+      "text": "Le tour de France"
+    },
+    {
+      "href": "https://trajectoire2027.fr/equipe",
+      "text": "L'équipe"
+    },
+    {
+      "href": "https://trajectoire2027.fr/presse",
+      "text": "Presse"
+    },
+    {
+      "href": "https://trajectoire2027.fr/faq",
+      "text": "FAQ"
+    },
+    {
+      "href": "https://trajectoire2027.fr/soutenir",
+      "text": "Soutenir"
+    },
+    {
+      "href": "https://www.instagram.com/trajectoire.2027/",
+      "text": "Instagram"
+    },
+    {
+      "href": "https://www.tiktok.com/@trajectoire2027",
+      "text": "TikTok"
+    },
+    {
+      "href": "https://www.facebook.com/people/Trajectoire/61589428632350/",
+      "text": "Facebook"
+    },
+    {
+      "href": "https://trajectoire2027.fr/#top",
+      "text": ""
+    },
+    {
+      "href": "https://trajectoire2027.fr/mentions-legales",
+      "text": "Mentions légales"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Ouvrir le menu"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Écouter l'extrait"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    }
+  ],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://trajectoire2027.fr/",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://trajectoire2027.fr/data/maires.json",
+      "resourceType": "fetch",
+      "postData": null
+    }
+  ]
+}

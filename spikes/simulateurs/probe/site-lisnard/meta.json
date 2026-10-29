@@ -1,0 +1,28 @@
+{
+  "requested": "https://www.lisnard2027.fr/",
+  "final": "https://www.lisnard2027.fr/",
+  "status": 200,
+  "title": "David Lisnard 2027 — site officiel du candidat à l'élection présidentielle",
+  "iframes": [
+    "https://www.lisnard2027.fr/"
+  ],
+  "links": [
+    {
+      "href": "https://www.unenouvelleenergie.fr/",
+      "text": "unenouvelleenergie.fr"
+    },
+    {
+      "href": "https://www.unenouvelleenergie.fr/",
+      "text": ""
+    }
+  ],
+  "fields": [],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://www.lisnard2027.fr/",
+      "resourceType": "document",
+      "postData": null
+    }
+  ]
+}

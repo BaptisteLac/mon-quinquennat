@@ -1,0 +1,115 @@
+{
+  "requested": "https://gabrielattal.fr/",
+  "final": "https://gabrielattal.fr/",
+  "status": 200,
+  "title": "Gabriel Attal",
+  "iframes": [
+    "https://gabrielattal.fr/"
+  ],
+  "links": [
+    {
+      "href": "https://gabrielattal.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://gabrielattal.fr/pages/4sLrLmrA5PXW3Zr9bm1GO0/faire-un-don",
+      "text": "Donner"
+    },
+    {
+      "href": "https://gabrielattal.fr/pages/6ebYYU0kzJin59q6gufWHB/pas-la-le-30-juin-et-ou-le-7-juillet",
+      "text": "Faire procuration"
+    },
+    {
+      "href": "https://gabrielattal.fr/pages/3KDlNCFDaDoVqwiX4Q2vuS/profession-de-foi",
+      "text": "Profession de foi"
+    },
+    {
+      "href": "https://gabrielattal.fr/pages/1FEfzGXN5ynz28wiZ1970b/programme",
+      "text": "Programme"
+    },
+    {
+      "href": "https://gabrielattal.fr/pages/4sLrLmrA5PXW3Zr9bm1GO0/faire-un-don",
+      "text": "Donner"
+    },
+    {
+      "href": "https://gabrielattal.fr/pages/6ebYYU0kzJin59q6gufWHB/pas-la-le-30-juin-et-ou-le-7-juillet",
+      "text": "Faire procuration"
+    },
+    {
+      "href": "https://gabrielattal.fr/pages/3KDlNCFDaDoVqwiX4Q2vuS/profession-de-foi",
+      "text": "Profession de foi"
+    },
+    {
+      "href": "https://gabrielattal.fr/pages/1FEfzGXN5ynz28wiZ1970b/programme",
+      "text": "Programme"
+    },
+    {
+      "href": "https://gabrielattal.fr/pages/4sLrLmrA5PXW3Zr9bm1GO0/faire-un-don",
+      "text": "Donner"
+    },
+    {
+      "href": "https://gabrielattal.fr/pages/6ebYYU0kzJin59q6gufWHB/pas-la-le-30-juin-et-ou-le-7-juillet",
+      "text": "Faire procuration"
+    },
+    {
+      "href": "https://gabrielattal.fr/pages/79jRK22SyxCR2YYnPtGuuw/appel-a-voter",
+      "text": "Lire l'appel à voter"
+    },
+    {
+      "href": "https://gabrielattal.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://gabrielattal.fr/rss.xml",
+      "text": "Flux RSS"
+    },
+    {
+      "href": "https://www.facebook.com/GabrielAttal/?locale=fr_FR",
+      "text": "Nous retrouver sur Facebook"
+    },
+    {
+      "href": "https://x.com/GabrielAttal",
+      "text": "Nous retrouver sur X"
+    },
+    {
+      "href": "https://www.instagram.com/gabrielattal/",
+      "text": "Nous retrouver sur Instagram"
+    },
+    {
+      "href": "https://gabrielattal.fr/legal",
+      "text": "Mentions légales"
+    },
+    {
+      "href": "https://gabrielattal.fr/pages/3QpteGUz1tHfETQopSGYdh/donnees-personnelles",
+      "text": "Données personnelles"
+    },
+    {
+      "href": "https://gabrielattal.fr/pages/1deoiNAgTj7Fk252Nv7BfE/conditions-d-utilisation",
+      "text": "Conditions d'utilisation"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    }
+  ],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://gabrielattal.fr/",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "POST",
+      "url": "https://gabrielattal.fr/cdn-cgi/rum?",
+      "resourceType": "xhr",
+      "postData": "{\"startTime\":1793264004978,\"pageloadId\":\"5489a6b6-8ecb-4769-9add-3172a9c30427\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://gabrielattal.fr/\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.10.1\",\"timings\":2},\"memory\":{\"totalJSHeapSize\":7734116,\"usedJSHeapSize\":5916120,\"jsHeapSizeLimit\":4395630592},\"firstPaint\":1448,\"firstContentfulPaint\":1448,\"timingsV2\":{\"nextHopProtocol\":\"h3\",\"domainLookupStart\":3,\"domainLookupEnd\":144,\"connectStart\":144,\"connectEnd\":159,\"secureConnectionStart\":145,\"requestStart\":159,\"responseStart\":710,\"responseEnd\":711,\"domInteractive\":1420,\"domComplete\":2576,\"loadEventStart\":2576,\"loadEventEnd\":2576,\"finalResponseHeadersStart\":710,\"firstInterimResponseStart\":0,\"transferSize\":4842,\"decodedBodySize\":20007},\"siteToken\":\"634e2be00514403ebe364a4edf183969\",\"st\":2}"
+    }
+  ]
+}
