@@ -1,8 +1,0 @@
-melenchon2027.fr
-Vérification de sécurité en cours
-
-Ce site utilise un service de sécurité pour se protéger contre les bots malveillants. Cette page s’affiche pendant que le site vérifie que vous n’êtes pas un bot.
-
-Ray ID: a520f66fcd0e780a
-Performances et sécurité par Cloudflare
-Confidentialité

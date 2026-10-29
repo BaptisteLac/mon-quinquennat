@@ -1,0 +1,40 @@
+{
+  "requested": "https://durif2027.com/candidature-2027",
+  "final": "https://durif2027.com/candidature-2027",
+  "status": 200,
+  "title": "Candidature 2027 — Programme, vision Elvita et dates clés",
+  "iframes": [
+    "https://durif2027.com/candidature-2027"
+  ],
+  "links": [
+    {
+      "href": "https://www.instagram.com/cringe_gouv/",
+      "text": "Suivre sur Instagram"
+    },
+    {
+      "href": "https://ministereducringe.com/",
+      "text": "Se rendre sur ministereducringe.com"
+    }
+  ],
+  "fields": [],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://durif2027.com/candidature-2027",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "POST",
+      "url": "https://durif2027.com/__l5e/trackevents",
+      "resourceType": "fetch",
+      "postData": "{\"envelope_schema_version\":1,\"batch_id\":\"1bf29818-0c4b-4260-aa96-04753c5f736b\",\"sent_at\":\"2026-10-29T09:05:30.187Z\",\"sdk\":{\"name\":\"lovable-user-app-events\",\"version\":\"0.3.0-automated-flag\"},\"automated\":true,\"artifact\":{\"kind\":\"dwl_content_hash\",\"id\":\"2747d7625e1113b96d90ea5e78c57a2bfdd55aca3d324b5c2d3860abdee1801d\",\"commit_sha\":\"da10c06f6818588541a0622a11902d1d495517fa\",\"context_token\":\"v1.eyJwcm9qZWN0X2lkIjoibG92cF8zMTFudmJqM3J0OWRydDVqNWZnNW0wOHRqeiIsImFydGlmYWN0X2tpbmQiOiJkd2xfY29udGVudF9oYXNoIiwiYXJ0aWZhY3RfaWQiOiIyNzQ3ZDc2MjVlMTExM2I5NmQ5MGVhNWU3OGM1N2EyYmZkZDU1YWNhM2QzMjRiNWMyZDM4NjBhYmRlZTE4MDFkIiwiY29tbWl0X3NoYSI6ImRhMTBjMDZmNjgxODU4ODU0MWEwNjIyYTExOTAyZDFkNDk1NTE3ZmEiLCJleHAiOjE3OTU4NTY3Mjl9.REJXTeWu8IGPhiIIA-QIT3518zwrRJTvd1iKmUlbk4Q\"},\"events\":[{\"event_id\":\"20463b46-72be-4fc0-a077-acbfaf95bb79\",\"event_name\":\"lovable.web_vital\",\"event_schema_version\":1,\"event_time\":\"2026-10-29T09:05:29.936Z\",\"session_id\":\"9bf39c89-4128-4f41-8fa1-c1c869073c8f\",\"page_view_id\":\"aa725a4b-e04c-4b0e-97df-963c9f2bd6e9\",\"trace_id\":\"49d86a775d869e5e8a581e6b94b3879b\",\"span_id\":\"3e0016992f5518ab\",\"parent_span_id\":\"ec70efd38fb05f91\",\"properties\":{\"url_path\":\"/candidature-2027\",\"metric\":\"TTFB\",\"value\":1242.1000000000058,\"unit\":\"millisecond\",\"delta\":1242.1000000000058,\"rating\":\"needs-improvement\",\"id\":\"774ebffb-c2fb-4a19-b4f7-9c3a6f85711d\",\"navigation_type\":\"initial_load\"}},{\"event_id\":\"444092d6-0e91-4d58-bc05-a64629288933\",\"event_name\":\"lovable.session_started\",\"event_schema_version\":1,\"event_time\":\"2026-10-29T09:05:29.937Z\",\"session_id\":\"9bf39c89-4128-4f41-8fa1-c1c869073c8f\",\"page_view_id\":\"aa725a4b-e04c-4b0e-97df-963c9f2bd6e9\",\"trace_id\":\"49d86a775d869e5e8a581e6b94b3879b\",\"span_id\":\"aae362980f7f2e7b\",\"parent_span_id\":\"ec70efd38fb05f91\",\"properties\":{\"reason\":\"new_session\"}},{\"event_id\":\"4a87f681-230d-4928-9e0a-1d80ba59685e\",\"event_name\":\"lovable.page_viewed\",\"event_schema_version\":1,\"event_time\":\"2026-10-29T09:05:29.937Z\",\"session_id\":\"9bf39c89-4128-4f41-8fa1-c1c869073c8f\",\"page_view_id\":\"aa725a4b-e04c-4b0e-97df-963c9f2bd6e9\",\"trace_id\":\"49d86a775d869e5e8a581e6b94b3879b\",\"span_id\":\"ec70efd38fb05f91\",\"properties\":{\"url_path\":\"/candidature-2027\",\"navigation_type\":\"initial_load\"}},{\"event_id\":\"70992f83-1e7f-4e52-9e30-9b6b6831c435\",\"event_name\":\"lovable.web_vital\",\"event_schema_version\":1,\"event_time\":\"2026-10-29T09:05:29.990Z\",\"session_id\":\"9bf39c89-4128-4f41-8fa1-c1c869073c8f\",\"page_view_id\":\"aa725a4b-e04c-4b0e-97df-963c9f2bd6e9\",\"trace_id\":\"49d86a775d869e5e8a581e6b94b3879b\",\"span_id\":\"8b45b94024205da1\",\"parent_span_id\":\"ec70efd38fb05f91\",\"properties\":{\"url_path\":\"/candidature-2027\",\"metric\":\"FCP\",\"value\":1780,\"unit\":\"millisecond\",\"delta\":1780,\"rating\":\"good\",\"id\":\"0a9e9bc8-9019-46f5-bded-3910db7cf19b\",\"navigation_type\":\"initial_load\"}}]}"
+    },
+    {
+      "method": "POST",
+      "url": "https://wjoxbgtrgepevhozywvp.supabase.co/rest/v1/page_views",
+      "resourceType": "fetch",
+      "postData": "{\"path\":\"/candidature-2027\",\"referrer\":null}"
+    }
+  ]
+}

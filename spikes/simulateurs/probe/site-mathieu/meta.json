@@ -1,0 +1,104 @@
+{
+  "requested": "https://www.benoitmathieu2027.fr/programme",
+  "final": "https://www.benoitmathieu2027.fr/programme",
+  "status": 200,
+  "title": "Programme 2027 — tirage au sort, RIC, nouvelle Constitution · Cap 500 signatures",
+  "iframes": [
+    "https://www.benoitmathieu2027.fr/programme"
+  ],
+  "links": [
+    {
+      "href": "https://www.benoitmathieu2027.fr/",
+      "text": "Cap 500 signaturesBenoit Mathieu"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/",
+      "text": "Accueil"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/le-candidat",
+      "text": "Le candidat"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/programme",
+      "text": "Programme"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/itineraire",
+      "text": "Itinéraire"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/presse",
+      "text": "Presse"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/contact",
+      "text": "Contact"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/",
+      "text": "Accueil"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/le-candidat",
+      "text": "Le candidat"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/programme",
+      "text": "Programme"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/itineraire",
+      "text": "Itinéraire"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/presse",
+      "text": "Presse"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/contact",
+      "text": "Contact"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/le-candidat",
+      "text": "Le candidat"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/contact",
+      "text": "Me contacter"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/le-candidat",
+      "text": "Le candidat"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/programme",
+      "text": "Programme"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/itineraire",
+      "text": "Itinéraire"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/presse",
+      "text": "Revue de presse"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/contact",
+      "text": "Contact & parrainage"
+    },
+    {
+      "href": "https://www.benoitmathieu2027.fr/mentions-legales",
+      "text": "Mentions légales"
+    }
+  ],
+  "fields": [],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://www.benoitmathieu2027.fr/programme",
+      "resourceType": "document",
+      "postData": null
+    }
+  ]
+}

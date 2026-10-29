@@ -1,0 +1,181 @@
+{
+  "requested": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
+  "final": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
+  "status": 200,
+  "title": "Pour une France plus prospère — Avec Édouard 2027",
+  "iframes": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+  ],
+  "links": [
+    {
+      "href": "https://www.edouardphilippe.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/#engager",
+      "text": "Prendre part"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/#priorites",
+      "text": "Les priorités"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/don",
+      "text": "Donner"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/rejoindre",
+      "text": "RejoindreRejoindre→"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/#engager",
+      "text": "Prendre part"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/#priorites",
+      "text": "Les priorités"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/don",
+      "text": "Donner"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/rejoindre",
+      "text": "RejoindreRejoindre→"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/#priorites",
+      "text": "→ Retour"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+      "text": "Pour une France plus sûre Lire le détail →"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants",
+      "text": "Pour une France plus attentive à ses enfants Lire le détail →"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante",
+      "text": "Pour une France plus conquérante Lire le détail →"
+    },
+    {
+      "href": "https://www.facebook.com/edouardphilippelh",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/edouardphilippelh/",
+      "text": ""
+    },
+    {
+      "href": "https://x.com/EPhilippe_LH",
+      "text": ""
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/#engager",
+      "text": "Prendre part"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/#priorites",
+      "text": "Les priorités"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/pages/mentions-legales",
+      "text": "Mentions légales"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/contact",
+      "text": "Contact"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/pages/politique-de-confidentialite",
+      "text": "Données personnelles"
+    },
+    {
+      "href": "https://www.facebook.com/edouardphilippelh",
+      "text": "Facebook"
+    },
+    {
+      "href": "https://www.instagram.com/edouardphilippelh/",
+      "text": "Instagram"
+    },
+    {
+      "href": "https://x.com/EPhilippe_LH",
+      "text": "X / Twitter"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "axeptio_cookies_edouard-philippe-base_value",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "axeptio_cookies_edouard-philippe-base_accept",
+      "id": "axeptio_consent_checkbox",
+      "value": "0",
+      "label": "Axeptio consent"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "axeptio_main_button",
+      "value": "",
+      "label": "Gérez vos préférences en matière de cookies et données personnelles"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "menu-open",
+      "value": "",
+      "label": "Ouvrir le menu"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "menu-close",
+      "value": "",
+      "label": "Fermer le menu"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "open-axeptio",
+      "value": "",
+      "label": ""
+    }
+  ],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://client.axept.io/projectconfigurations/brands/606722fe6ac944450ffeb559.json?r=0",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4FNJBCSNBB&gtm=45je6ar1v877959061za208zd877959061xf1&_p=1793264761754&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dNGFkYj&_eu=AAAAACAC&cid=938833081.1793264762&frm=0&ibt=1&ngs=1&pscdl=denied&rcb=0&sr=1280x1600&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.47%7CGoogle%2520Chrome%3B156.0.8078.47&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385422~120412528~120469145~120469153~121246026~121246034&sid=1793264761&sct=1&seg=0&dl=https%3A%2F%2Fwww.edouardphilippe.fr%2Fpriorites%2Fpour-une-france-plus-prospere&dt=Pour%20une%20France%20plus%20prosp%C3%A8re%20%E2%80%94%20Avec%20%C3%89douard%202027&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1625",
+      "resourceType": "fetch",
+      "postData": null
+    }
+  ]
+}

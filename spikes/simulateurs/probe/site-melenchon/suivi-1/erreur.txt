@@ -1,3 +1,0 @@
-TimeoutError: page.goto: Timeout 45000ms exceeded.
-Call log:
-  - navigating to "https://melenchon2027.fr/programme/decouvrir/", waiting until "networkidle"
