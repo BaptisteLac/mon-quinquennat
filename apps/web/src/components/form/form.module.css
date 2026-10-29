@@ -407,3 +407,124 @@
   font-weight: 500;
   line-height: 1.4;
 }
+
+/* Grille du personnage : sur mobile, les conteneurs s'effacent (une seule colonne). */
+.layout,
+.form {
+  display: contents;
+}
+.deskKicker,
+.deskBack {
+  display: none;
+}
+
+/* Desktop (DK-toi, DK-vie, DK-affiner) : carte « Ton perso » à gauche, questions en grille à droite. */
+@media (min-width: 1024px) {
+  .page {
+    max-width: none;
+    padding: 0 0 64px;
+    gap: 0;
+  }
+  .top {
+    display: none;
+  }
+  .layout {
+    padding: 48px var(--desk-pad) 0;
+    display: grid;
+    grid-template-columns: 340px minmax(0, 1fr);
+    gap: 64px;
+    align-items: start;
+  }
+  .form {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px 56px;
+    align-items: start;
+  }
+  .form > .intro,
+  .form > .full,
+  .form > .subBox {
+    grid-column: 1 / -1;
+  }
+  .intro > figure {
+    display: none;
+  }
+  .intro {
+    align-items: flex-end;
+  }
+  .mobileOnly {
+    display: none;
+  }
+  .deskBack {
+    flex: none;
+    height: 44px;
+    padding: 0 16px;
+    border: var(--stroke-thin) solid var(--ink);
+    border-radius: var(--radius-sm);
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .actions .secondaryLink {
+    text-align: left;
+  }
+  .deskKicker {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .introText {
+    gap: 10px;
+  }
+  .title {
+    font-size: 64px;
+    letter-spacing: -0.04em;
+  }
+  .title br {
+    display: none;
+  }
+  .lead {
+    font-size: 18px;
+  }
+  .options[data-desk-columns="3"] {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .options[data-desk-columns="4"] {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .options[data-desk-columns="5"] {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+  .option {
+    min-height: 52px;
+    font-size: 15px;
+  }
+  .options[data-size="small"] .option {
+    min-height: 48px;
+    padding: 6px 14px;
+    font-size: 14px;
+  }
+  .actions {
+    margin-top: 8px;
+    padding-top: 28px;
+    border-top: var(--stroke) solid var(--ink);
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .actions .primary {
+    min-width: 220px;
+  }
+  .actions .missing {
+    text-align: left;
+  }
+}

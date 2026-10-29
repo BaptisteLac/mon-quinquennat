@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Profile, TicketLineResult } from "@mon-quinquennat/schema";
 import { BadgeIcon } from "@/components/BadgeIcon";
+import { DeskHeader } from "@/components/flow/DeskHeader";
 import { effectSentence, type Catalog } from "@/lib/catalog";
 import { buildTimeline, cumulAt, END_MONTH, spread, START_MONTH, type Lane, type TimelineItem } from "@/lib/frise";
 import { plural } from "@/lib/format";
@@ -30,6 +31,16 @@ function headline(m: Moment): string {
   if (lines.some((l) => l.section === "portefeuille")) return "Ce qui change sur ton budget.";
   if (lines.some((l) => l.section === "temps")) return "Ce qui change pour ta retraite.";
   return "Ce qui change autour de toi.";
+}
+
+/** Libellé court du moment dans la liste latérale (desktop). */
+function shortLabel(m: Moment): string {
+  if (m.position === "start") return "Élection";
+  if (m.position === "end") return "Fin du mandat";
+  const lines = m.entries.flatMap((e) => e.lines);
+  if (lines.some((l) => l.section === "portefeuille")) return "Ton budget";
+  if (lines.some((l) => l.section === "temps")) return "Ta retraite";
+  return "Autour de toi";
 }
 
 function chip(m: Moment): string {
@@ -127,11 +138,46 @@ export function Frise({
 
   const index = Math.max(0, moments.findIndex((m) => m.month === current));
   const next = moments[index + 1];
+  const goTo = (month: string) => refs.current.get(month)?.scrollIntoView({ behavior: "smooth", block: "start" });
+
+  // Desktop : la flèche ↓ passe au moment suivant (DK-frise), sauf dans un champ ou la fiche source.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== "ArrowDown" || sheet || !window.matchMedia("(min-width: 1024px)").matches) return;
+      if (e.target instanceof HTMLElement && e.target.closest("input, select, textarea, dialog")) return;
+      if (!next) return;
+      e.preventDefault();
+      goTo(next.month);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  });
   const progress = Math.min(1, Math.max(0, monthsBetween(START_MONTH, current) / TOTAL_MONTHS));
   const gapNow = spread(lanes, current);
 
   return (
+    <>
+    <DeskHeader current={4} />
     <div className={styles.frisePage}>
+      <nav className={styles.momentNav} aria-label="Moments du quinquennat">
+        <b>Ton quinquennat</b>
+        {YEARS.map((y) => {
+          const inYear = moments.filter((m) => m.month.startsWith(String(y)));
+          if (inYear.length === 0) return null;
+          return (
+            <div key={y} className={styles.navYear}>
+              <span>{y}</span>
+              {inYear.map((m) => (
+                <button key={m.month} type="button" aria-current={m.month === current ? "step" : undefined} onClick={() => goTo(m.month)}>
+                  {formatMonth(m.month).replace(/ \d{4}$/, "")} · {shortLabel(m)}
+                </button>
+              ))}
+            </div>
+          );
+        })}
+      </nav>
+
+      <aside className={styles.counter}>
       <header className={styles.friseHeader}>
         <div className={styles.friseTop}>
           <span className={styles.brandOnInk}>Mon quinquennat</span>
@@ -164,6 +210,22 @@ export function Frise({
         </div>
       </header>
 
+      {next ? (
+        <footer className={styles.friseFooter}>
+          <span className={styles.remaining}>
+            Plus que {plural(moments.length - index - 1, "moment")}
+          </span>
+          <button type="button" className={styles.next} onClick={() => goTo(next.month)}>
+            <span className={styles.nextMobile}>Suite ↓</span>
+            <span className={styles.nextDesk}>Moment suivant ↓</span>
+          </button>
+          <span className={styles.keyHint}>
+            ou touche <kbd>↓</kbd>
+          </span>
+        </footer>
+      ) : null}
+      </aside>
+
       <ol className={styles.timeline}>
         {items.map((item) => {
           if (item.kind === "gap") {
@@ -192,7 +254,7 @@ export function Frise({
               <span className={styles.dot} aria-hidden="true" />
               <span className={styles.momentChip}>{chip(item)}</span>
               <h2 className={styles.momentTitle}>
-                {formatMonth(item.month)}.
+                {formatMonth(item.month)}.{" "}
                 <br />
                 {headline(item)}
               </h2>
@@ -273,18 +335,8 @@ export function Frise({
         })}
       </ol>
 
-      {next ? (
-        <footer className={styles.friseFooter}>
-          <span className={styles.remaining}>
-            Plus que {plural(moments.length - index - 1, "moment")}
-          </span>
-          <button type="button" className={styles.next} onClick={() => refs.current.get(next.month)?.scrollIntoView({ behavior: "smooth", block: "start" })}>
-            Suite ↓
-          </button>
-        </footer>
-      ) : null}
-
       <SourceSheet target={sheet} catalog={catalog} profile={profile} onClose={() => setSheet(null)} />
     </div>
+    </>
   );
 }

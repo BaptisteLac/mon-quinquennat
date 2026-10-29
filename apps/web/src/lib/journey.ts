@@ -273,4 +273,42 @@ export function profileLine(p: Profile): string {
   return [...describeProfile(p).split(", "), LOGEMENT_WORDS[p.logement], LIEU_WORDS[p.lieuDeVie], MOBILITE_WORDS[p.mobilite]].join(" · ");
 }
 
+const GENRE_WORDS: Record<Profile["genre"], string> = { femme: "Femme", homme: "Homme", autre: "Genre non précisé" };
+const MONEY = new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 0 });
+
+export interface ProfileChip {
+  label: string;
+  /** Réponse donnée (pastille pleine) ou attendue (pointillés, « Logement ? »). */
+  filled: boolean;
+}
+
+/** Réponses en pastilles pour la carte « Ton perso » (desktop) : ce qui est rempli, puis ce qui reste. */
+export function profileChips(p: ProfileDraft): ProfileChip[] {
+  const capital = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+  const chip = (value: string | undefined, missing: string): ProfileChip =>
+    value === undefined ? { label: missing, filled: false } : { label: capital(value), filled: true };
+  const famille =
+    p.situationFamiliale === "marie_pacse"
+      ? inflect(p.genre, "marié", "mariée", "marié·e")
+      : p.situationFamiliale === "couple_non_marie"
+        ? "en couple"
+        : p.situationFamiliale === "seul"
+          ? inflect(p.genre, "seul", "seule", "seul·e")
+          : undefined;
+  const enfants = p.enfants === undefined ? undefined : p.enfants.length === 0 ? "sans enfant" : p.enfants.length === 1 ? "1 enfant" : `${p.enfants.length} enfants`;
+  const situation = p.situationPro ? inflect(p.genre, ...SITUATION_WORDS[p.situationPro]) : undefined;
+  return [
+    chip(p.age === undefined ? undefined : `${p.age} ans`, "Âge ?"),
+    chip(p.genre ? GENRE_WORDS[p.genre] : undefined, "Genre ?"),
+    chip(famille, "Famille ?"),
+    chip(enfants, "Enfants ?"),
+    chip(situation, "Situation ?"),
+    chip(p.logement ? LOGEMENT_WORDS[p.logement] : undefined, "Logement ?"),
+    chip(p.revenusNetsMensuels === undefined ? undefined : `${MONEY.format(p.revenusNetsMensuels)} €/mois`, "Revenus ?"),
+    // Lieu de vie et mobilité : affichés une fois répondus seulement (étape « Ta vie »).
+    ...(p.lieuDeVie ? [chip(LIEU_WORDS[p.lieuDeVie], "")] : []),
+    ...(p.mobilite ? [chip(MOBILITE_WORDS[p.mobilite], "")] : []),
+  ];
+}
+
 export { avatarAgeBand };

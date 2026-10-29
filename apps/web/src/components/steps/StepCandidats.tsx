@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+import { DeskHeader } from "@/components/flow/DeskHeader";
 import { BadgeIcon } from "@/components/BadgeIcon";
 import { FlowTop, formStyles as styles } from "@/components/form/fields";
 import { plural } from "@/lib/format";
@@ -47,10 +48,13 @@ export function StepCandidats({ programmes }: { programmes: readonly ProgrammeSu
 
   return (
     <main className={styles.page}>
+      <DeskHeader current={3} />
       <FlowTop back="/personnage/vie" pill={`${chosen.length} / ${MAX_CANDIDATES} choisis`} />
+      <div className={own.layout}>
+      <div className={own.main}>
       <div className={styles.introText}>
         <h1 className={styles.title}>
-          Quels programmes
+          Quels programmes{" "}
           <br />
           veux-tu vivre ?
         </h1>
@@ -93,6 +97,35 @@ export function StepCandidats({ programmes }: { programmes: readonly ProgrammeSu
           Voir {hidden === 1 ? "l'autre candidat" : `les ${hidden} autres candidats`}
         </button>
       ) : null}
+      </div>
+
+      {/* Sur desktop, panneau « Ta sélection » fixe à droite (DK-candidats) ; sur mobile, la suite du flux. */}
+      <aside className={own.panel} aria-label="Ta sélection">
+        <div className={own.panelHead}>
+          <b>Ta sélection</b>
+          <span>
+            {chosen.length} / {MAX_CANDIDATES}
+          </span>
+        </div>
+        <ul className={own.picked}>
+          {chosen.map((id) => {
+            const c = programmes.find((x) => x.id === id);
+            if (!c) return null;
+            return (
+              <li key={id}>
+                <BadgeIcon badge={c.badge} size={12} />
+                <span className={own.text}>
+                  <b>{c.displayName}</b>
+                  <span>{c.party}</span>
+                </span>
+                <button type="button" className={own.remove} onClick={() => toggle(c)} aria-label={`Retirer ${c.displayName}`}>
+                  ×
+                </button>
+              </li>
+            );
+          })}
+          {chosen.length < MAX_CANDIDATES ? <li className={own.slot}>{chosen.length === 0 ? "Choisis un premier programme" : "Encore une place (facultatif)"}</li> : null}
+        </ul>
 
       <button
         type="button"
@@ -116,7 +149,7 @@ export function StepCandidats({ programmes }: { programmes: readonly ProgrammeSu
         <span className={own.switch} aria-hidden="true" />
       </button>
 
-      <div className={styles.actions}>
+      <div className={`${styles.actions} ${own.panelActions}`}>
         <button
           type="button"
           className={styles.primary}
@@ -130,6 +163,9 @@ export function StepCandidats({ programmes }: { programmes: readonly ProgrammeSu
         >
           {label}
         </button>
+      </div>
+      <p className={own.serverNote}>Le serveur calcule tous les programmes : il ne sait jamais lesquels tu as choisis.</p>
+      </aside>
       </div>
     </main>
   );

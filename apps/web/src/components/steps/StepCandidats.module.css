@@ -145,3 +145,147 @@
 .mystery:disabled .switch {
   opacity: 0.4;
 }
+
+/* Mise en page : sur mobile, les conteneurs s'effacent (flux d'une colonne). */
+.layout,
+.main,
+.panel {
+  display: contents;
+}
+.panelHead,
+.picked,
+.serverNote {
+  display: none;
+}
+
+/* Desktop (DK-candidats) : cartes en grille à gauche, « Ta sélection » fixe à droite. */
+@media (min-width: 1024px) {
+  .layout {
+    padding: 48px var(--desk-pad) 64px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 340px;
+    gap: 48px;
+    align-items: start;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .main h1 br {
+    display: none;
+  }
+  .list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+  }
+  .card {
+    height: 100%;
+    min-height: 210px;
+    border-width: var(--stroke);
+    border-radius: 20px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    position: relative;
+  }
+  .card > svg {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .photo {
+    width: 88px;
+    height: 88px;
+    border-width: var(--stroke);
+    border-radius: 16px;
+  }
+  .badge {
+    width: 30px;
+    height: 30px;
+  }
+  .card .name {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 22px;
+  }
+  .panel {
+    position: sticky;
+    top: 24px;
+    background: var(--white);
+    border: var(--stroke) solid var(--ink);
+    border-radius: 22px;
+    box-shadow: 6px 6px 0 var(--ink);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .panelHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .panelHead b {
+    font-family: var(--font-display);
+    font-size: 24px;
+  }
+  .picked {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .picked li {
+    border: var(--stroke-thin) solid var(--ink);
+    border-radius: var(--radius-sm);
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 13px;
+  }
+  .picked .text b {
+    font-size: 14px;
+  }
+  .picked .text span {
+    color: var(--text-2);
+  }
+  .picked .slot {
+    min-height: 54px;
+    border-style: dashed;
+    color: var(--text-2);
+  }
+  .remove {
+    width: 32px;
+    height: 32px;
+    border: 0;
+    background: none;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .panel .panelActions {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    flex-direction: column;
+  }
+  .panel .panelActions > * {
+    min-width: 0;
+    width: 100%;
+    font-size: 17px;
+  }
+  .serverNote {
+    display: block;
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--text-2);
+  }
+}

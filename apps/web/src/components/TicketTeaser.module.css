@@ -1,0 +1,103 @@
+/* Illustration de l'accueil desktop (DK-accueil), masquée sur mobile. */
+.teaser {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .teaser {
+    position: relative;
+    margin: 0;
+    padding: 40px 0 0 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    font-size: 14px;
+    color: var(--text-2);
+  }
+}
+.avatar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  transform: rotate(-5deg);
+  filter: drop-shadow(5px 5px 0 var(--ink));
+}
+.ticket {
+  width: 400px;
+  background: var(--white);
+  border: var(--stroke) solid var(--ink);
+  border-radius: 4px;
+  box-shadow: 8px 8px 0 var(--ink);
+  transform: rotate(2deg);
+  padding: 28px 26px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--ink);
+}
+.ticket hr {
+  width: 100%;
+  margin: 0;
+  border: 0;
+  border-top: 1.5px dashed var(--ink);
+}
+.head {
+  padding-left: 92px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.head b {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.head span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--ink);
+}
+.profile {
+  padding-left: 92px;
+  font-size: 12px;
+  color: var(--text-2);
+  line-height: 1.5;
+}
+.line,
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.line[data-estimate="true"] {
+  color: var(--text-2);
+}
+.bar {
+  display: inline-block;
+  height: 12px;
+  border-radius: 3px;
+  background: var(--cream);
+  border: 1.5px solid var(--ink);
+}
+.bar[data-w="s"] {
+  width: 52px;
+}
+.bar[data-w="m"] {
+  width: 110px;
+}
+.bar[data-w="l"] {
+  width: 130px;
+  height: 24px;
+  background: var(--yellow);
+}

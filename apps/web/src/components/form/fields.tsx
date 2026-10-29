@@ -18,6 +18,8 @@ interface ChoiceProps<T extends string> {
   value: T | undefined;
   onChange: (value: T) => void;
   columns?: 1 | 2 | 3 | 4;
+  /** Colonnes sur desktop (≥ 1024 px), quand elles diffèrent du mobile (« Ta situation » : 4). */
+  deskColumns?: 3 | 4 | 5;
   size?: "small";
   shape?: "pill";
   /** Question visuellement intégrée à une ligne (sans titre en capitales). */
@@ -25,7 +27,7 @@ interface ChoiceProps<T extends string> {
 }
 
 /** Une question à choix unique : boutons radio natifs (clavier et lecteurs d'écran), stylés en boutons. */
-export function Choice<T extends string>({ legend, hint, options, value, onChange, columns, size, shape, inlineLegend }: ChoiceProps<T>) {
+export function Choice<T extends string>({ legend, hint, options, value, onChange, columns, deskColumns, size, shape, inlineLegend }: ChoiceProps<T>) {
   const name = useId();
   return (
     <fieldset className={styles.field}>
@@ -33,7 +35,7 @@ export function Choice<T extends string>({ legend, hint, options, value, onChang
         <span>{legend}</span>
         {hint ? <span className={styles.labelHint}>{hint}</span> : null}
       </legend>
-      <div className={styles.options} data-columns={columns} data-size={size} data-shape={shape}>
+      <div className={styles.options} data-columns={columns} data-desk-columns={deskColumns} data-size={size} data-shape={shape}>
         {options.map((o) => (
           <label key={o.value} className={styles.option}>
             <input type="radio" name={name} value={o.value} checked={value === o.value} onChange={() => onChange(o.value)} />
@@ -211,6 +213,18 @@ export function NextAction({ href, children, missing }: { href: string; children
         Il manque {missing.join(", ")}.
       </p>
     </>
+  );
+}
+
+/** « Retour » à côté du titre, sur desktop seulement (sur mobile, la flèche de `FlowTop`). */
+export function DeskBack({ href }: { href: string }) {
+  return (
+    <Link href={href} className={styles.deskBack}>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d="M15 6l-6 6 6 6" />
+      </svg>
+      Retour
+    </Link>
   );
 }
 
