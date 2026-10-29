@@ -1,0 +1,79 @@
+{
+  "corpusId": "horizons-2026-10",
+  "candidateId": "c-04",
+  "collectedAt": "2026-10-29T14:12:41.288Z",
+  "startUrls": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants",
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+  ],
+  "include": [
+    "https://www.edouardphilippe.fr/priorites/"
+  ],
+  "rendered": true,
+  "documents": [
+    {
+      "id": "horizons-2026-10-priorites-pour-une-france-plus-sure",
+      "kind": "html",
+      "officialUrl": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Pour une France plus sûre — Avec Édouard 2027",
+      "retrievedAt": "2026-10-29T14:12:45.915Z",
+      "file": "raw/horizons-2026-10-priorites-pour-une-france-plus-sure.html",
+      "sha256": "fa85f555f638eafb337f148f4b3da3c3765d76eb3ed9278c1519063177e360bd",
+      "textFile": "text/horizons-2026-10-priorites-pour-une-france-plus-sure.json",
+      "textSha256": "32a3c7f390a03baea9e982d69a5293af258fe355f3973ce9f3d2c36326859a43",
+      "pageCount": 1
+    },
+    {
+      "id": "horizons-2026-10-priorites-pour-une-france-plus-attentive-a-ses-enfants",
+      "kind": "html",
+      "officialUrl": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Pour une France plus attentive à ses enfants — Avec Édouard 2027",
+      "retrievedAt": "2026-10-29T14:12:49.942Z",
+      "file": "raw/horizons-2026-10-priorites-pour-une-france-plus-attentive-a-ses-enfants.html",
+      "sha256": "4ef11f741f834cdcaadc3536c56e41a9d58fdf0798db8576ef234ea11d37bcb5",
+      "textFile": "text/horizons-2026-10-priorites-pour-une-france-plus-attentive-a-ses-enfants.json",
+      "textSha256": "0a1546e2f3476ac6269799d6fbb0c2e3b387e54019242b4fae069a25588a0707",
+      "pageCount": 1
+    },
+    {
+      "id": "horizons-2026-10-priorites-pour-une-france-plus-prospere",
+      "kind": "html",
+      "officialUrl": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Pour une France plus prospère — Avec Édouard 2027",
+      "retrievedAt": "2026-10-29T14:12:53.583Z",
+      "file": "raw/horizons-2026-10-priorites-pour-une-france-plus-prospere.html",
+      "sha256": "a06d4ddbdbbbdf68f295953f7ce52a476e9e8ebcf1cb89b4005722f68c8368f0",
+      "textFile": "text/horizons-2026-10-priorites-pour-une-france-plus-prospere.json",
+      "textSha256": "98996fb7bc9c59c592c4eb4f4d9de39684f9fe3a6fc7637afa48e872fda7a114",
+      "pageCount": 1
+    },
+    {
+      "id": "horizons-2026-10-priorites-pour-une-france-plus-conquerante",
+      "kind": "html",
+      "officialUrl": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Pour une France plus conquérante — Avec Édouard 2027",
+      "retrievedAt": "2026-10-29T14:12:57.256Z",
+      "file": "raw/horizons-2026-10-priorites-pour-une-france-plus-conquerante.html",
+      "sha256": "3c037f02e1445eaba4bf946324023e32eb0a7f161cd979d0c12e2c79089d0990",
+      "textFile": "text/horizons-2026-10-priorites-pour-une-france-plus-conquerante.json",
+      "textSha256": "6cdf64ff6998d44f190f804a4a2dbbdb7f548dc6c31236fa1e0aa601e3ed8005",
+      "pageCount": 1
+    }
+  ],
+  "excludedLinks": [
+    "https://www.edouardphilippe.fr/",
+    "https://www.edouardphilippe.fr/contact",
+    "https://www.edouardphilippe.fr/don",
+    "https://www.edouardphilippe.fr/pages/mentions-legales",
+    "https://www.edouardphilippe.fr/pages/politique-de-confidentialite",
+    "https://www.edouardphilippe.fr/rejoindre"
+  ],
+  "externalPdfs": [],
+  "skipped": []
+}
