@@ -16,11 +16,12 @@ import { completeProfile, freshResult, mysteryPool, profileLine } from "@/lib/jo
 import type { ProgrammeSummary } from "@/lib/programme-summary";
 import { biggestChange } from "@/lib/recap";
 import { formatMoney } from "@/lib/ticket-labels";
+import { useIsDesktop } from "@/lib/use-desktop";
 import { useJourney } from "@/lib/use-journey";
 import { CertaintySlide, GlanceSlide, Slide, ThemesSlide, type RecapLane } from "./slides";
 import styles from "./recap.module.css";
 
-type SlideId = { kind: "intro" } | { kind: "ticket"; lane: RecapLane; index: number } | { kind: "mystere" } | { kind: "revelation" } | { kind: "coup-oeil" } | { kind: "themes" } | { kind: "certitude" } | { kind: "fin" };
+type SlideId = { kind: "intro" } | { kind: "ticket"; lane: RecapLane; index: number } | { kind: "tickets" } | { kind: "mystere" } | { kind: "revelation" } | { kind: "coup-oeil" } | { kind: "themes" } | { kind: "certitude" } | { kind: "fin" };
 
 export function Recap({ programmes }: { programmes: readonly ProgrammeSummary[] }) {
   const router = useRouter();
@@ -32,6 +33,19 @@ export function Recap({ programmes }: { programmes: readonly ProgrammeSummary[] 
   const versions = useMemo(() => Object.fromEntries(programmes.map((p) => [p.id, p.corpusId])), [programmes]);
   const profile = journey ? completeProfile(journey.profile) : null;
   const tickets = journey && profile ? freshResult(journey, profile, versions) : null;
+  // Desktop : tickets côte à côte sur un seul écran, flèches ← → pour passer d'un chapitre à l'autre (DK-recap).
+  const desktop = useIsDesktop();
+  const nav = useRef({ prev: () => {}, next: () => {} });
+  useEffect(() => {
+    if (!desktop) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.target instanceof HTMLElement && e.target.closest("input, select, textarea, dialog")) return;
+      if (e.key === "ArrowRight") nav.current.next();
+      if (e.key === "ArrowLeft") nav.current.prev();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [desktop]);
 
   useEffect(() => {
     if (journey && !tickets) router.replace("/quinquennat");
@@ -64,8 +78,9 @@ export function Recap({ programmes }: { programmes: readonly ProgrammeSummary[] 
 
   const slides: SlideId[] = [
     { kind: "intro" },
-    ...lanes.map((lane, i) => ({ kind: "ticket" as const, lane, index: i })),
-    ...(mystery ? [{ kind: "mystere" as const }, { kind: "revelation" as const }] : []),
+    ...(desktop
+      ? [{ kind: "tickets" as const }, ...(mystery ? [{ kind: "revelation" as const }] : [])]
+      : [...lanes.map((lane, i) => ({ kind: "ticket" as const, lane, index: i })), ...(mystery ? [{ kind: "mystere" as const }, { kind: "revelation" as const }] : [])]),
     { kind: "coup-oeil" },
     { kind: "themes" },
     { kind: "certitude" },
@@ -73,6 +88,8 @@ export function Recap({ programmes }: { programmes: readonly ProgrammeSummary[] 
   ];
   const current = slides[Math.min(index, slides.length - 1)] ?? { kind: "intro" };
   const next = () => setIndex((i) => Math.min(slides.length - 1, i + 1));
+  const prev = () => setIndex((i) => Math.max(0, i - 1));
+  nav.current = { prev, next };
   const reveal = (devine: string | null) => {
     update((j) => ({ ...j, recap: { revele: true, devine } }));
     setIndex(slides.findIndex((s) => s.kind === "revelation"));
@@ -82,9 +99,11 @@ export function Recap({ programmes }: { programmes: readonly ProgrammeSummary[] 
   const openLine = (lane: RecapLane) => (line: TicketLineResult) =>
     setSheet({ laneLabel: lane.label, candidateId: lane.candidateId, mystery: lane.mystery && !revealed, lines: [line], ticket: lane.ticket });
 
-  const tone = current.kind === "ticket" || current.kind === "fin" ? "yellow" : current.kind === "intro" || current.kind === "mystere" || current.kind === "revelation" ? "ink" : "cream";
+  const tone = current.kind === "ticket" || current.kind === "tickets" || current.kind === "fin" ? "yellow" : current.kind === "intro" || current.kind === "mystere" || current.kind === "revelation" ? "ink" : "cream";
   const title =
-    current.kind === "ticket"
+    current.kind === "tickets"
+      ? `Tes tickets · ${plural(lanes.length, "programme")}${mystery ? " + 1 mystère" : ""}`
+      : current.kind === "ticket"
       ? `Ton ticket · ${current.index + 1} sur ${ticketCount}`
       : current.kind === "mystere"
         ? `Ton ticket · ${ticketCount} sur ${ticketCount} · mystère`
@@ -110,9 +129,9 @@ export function Recap({ programmes }: { programmes: readonly ProgrammeSummary[] 
         <Slide tone="ink">
           <p className={styles.years}>2027 → 2032</p>
           <h1 className={styles.giant}>
-            Tu viens
+            Tu viens{" "}
             <br />
-            de vivre
+            de vivre{" "}
             <br />5 ans.
           </h1>
           <Avatar genre={profile.genre} age={profile.age} enfants={profile.enfants.length} size={150} />
@@ -148,6 +167,40 @@ export function Recap({ programmes }: { programmes: readonly ProgrammeSummary[] 
         </Slide>
       ) : null}
 
+      {current.kind === "tickets" ? (
+        <Slide tone="yellow">
+          <div className={styles.ticketsRow} style={{ gridTemplateColumns: `repeat(${ticketCount}, minmax(0, 1fr))` }}>
+            {lanes.map((lane) => (
+              <div key={lane.key} className={styles.ticketCol}>
+                <TicketCard
+                  ticket={lane.ticket}
+                  catalog={catalog}
+                  head={{ candidate: lane.badge ? { displayName: lane.label, badge: lane.badge } : null, profileLine: profileLine(profile), avatar }}
+                  onLine={openLine(lane)}
+                />
+                <button type="button" className={styles.primary} onClick={() => setShare(lane)}>
+                  Partager ce ticket
+                </button>
+              </div>
+            ))}
+            {mystery ? (
+              <div className={styles.ticketCol}>
+                <MysterySlide
+                  bare
+                  lane={mystery}
+                  catalog={catalog}
+                  profileText={profileLine(profile)}
+                  revealed={revealed}
+                  pool={mysteryPool(programmes.map((p) => p.id), journey.choix).map((id) => byId.get(id)).filter((p): p is ProgrammeSummary => p !== undefined)}
+                  onReveal={reveal}
+                  onNext={next}
+                />
+              </div>
+            ) : null}
+          </div>
+        </Slide>
+      ) : null}
+
       {current.kind === "mystere" && mystery ? (
         <MysterySlide
           lane={mystery}
@@ -163,7 +216,7 @@ export function Recap({ programmes }: { programmes: readonly ProgrammeSummary[] 
       {current.kind === "revelation" && mystery && mp ? (
         <Slide tone="ink">
           <h1 className={styles.h1}>
-            Ton {ticketCount === 1 ? "1er" : `${ticketCount}e`} ticket,
+            Ton {ticketCount === 1 ? "1er" : `${ticketCount}e`} ticket,{" "}
             <br />
             c&apos;était…
           </h1>
@@ -237,7 +290,7 @@ export function Recap({ programmes }: { programmes: readonly ProgrammeSummary[] 
       {current.kind === "fin" ? (
         <Slide tone="yellow">
           <h1 className={styles.giant}>
-            À toi
+            À toi{" "}
             <br />
             de jouer.
           </h1>
@@ -275,6 +328,18 @@ export function Recap({ programmes }: { programmes: readonly ProgrammeSummary[] 
         </Slide>
       ) : null}
 
+      <nav className={styles.deskNav} aria-label="Chapitres du récap">
+        <span className={styles.keys}>
+          ou <kbd>←</kbd> <kbd>→</kbd>
+        </span>
+        <button type="button" className={styles.navPrev} onClick={prev} disabled={index === 0} aria-label="Écran précédent">
+          ←
+        </button>
+        <button type="button" className={styles.navNext} onClick={next} disabled={index >= slides.length - 1}>
+          Suivant ›
+        </button>
+      </nav>
+
       <SourceSheet target={sheet} catalog={catalog} profile={profile} onClose={() => setSheet(null)} />
       <ShareSheet
         lane={share}
@@ -305,6 +370,7 @@ function NextBar({ onNext, onShare }: { onNext: () => void; onShare: () => void 
 
 /** R2b : ticket mystère, candidat caché sous une zone à gratter. */
 function MysterySlide({
+  bare = false,
   lane,
   catalog,
   profileText,
@@ -313,6 +379,8 @@ function MysterySlide({
   onReveal,
   onNext,
 }: {
+  /** Sans l'écran autour : colonne du ticket mystère dans les tickets côte à côte (desktop). */
+  bare?: boolean;
   lane: RecapLane;
   catalog: Catalog;
   profileText: string;
@@ -329,8 +397,8 @@ function MysterySlide({
     if (scratched >= 1 && !revealed) onReveal(null);
   }, [scratched, revealed, onReveal]);
 
-  return (
-    <Slide tone="ink">
+  const content = (
+    <>
       <TicketCard ticket={lane.ticket} catalog={catalog} head={{ candidate: null, profileLine: profileText, avatar: null }}>
         {!revealed ? (
           <div
@@ -387,6 +455,7 @@ function MysterySlide({
         </div>
       )}
       <p className={styles.noteInk}>{plural(pool.length, "programme possible", "programmes possibles")}</p>
-    </Slide>
+    </>
   );
+  return bare ? <div className={styles.mysteryCol}>{content}</div> : <Slide tone="ink">{content}</Slide>;
 }

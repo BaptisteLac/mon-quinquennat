@@ -738,6 +738,10 @@ div.card {
     gap: 10px;
   }
   .friseTop {
+    order: 9;
+    justify-content: flex-end;
+  }
+  .brandOnInk {
     display: none;
   }
   .friseMonth {

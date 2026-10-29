@@ -100,3 +100,7 @@ Toute nouvelle décision s'ajoute ici (date, décision, raison).
 - **Citation localisée par page web + chemin de section** au lieu d'un numéro de page PDF ; lien vers le site officiel avec la phrase surlignée (`#:~:text=`).
 - **Contrôle des chiffres** : tout nombre d'une mesure doit figurer dans sa citation, sinon la mesure est `floue`.
 - **Mise en page desktop (2026-10-28)** : à partir de 1024 px, même parcours, mêmes composants et même direction artistique, mais une mise en page pensée pour l'écran large au lieu de la colonne mobile centrée. Maquettes : `design/maquettes/desktop/`, règles : `docs/design-system.md` (« Desktop »).
+  - Réalisation (2026-10-29) : media queries `min-width: 1024px` sur les composants existants, sans dupliquer les écrans ; le flux mobile reste inchangé (vérifié par les tests e2e à 390 px, plus un test e2e à 1440 px).
+  - Illustration du ticket sur l'accueil : les montants et le nom sont des barres grises, pas des chiffres d'exemple (rien d'inventé à l'écran) ; légende « Exemple. Ton ticket dépend de ton profil. ».
+  - Récap desktop : les tickets s'affichent côte à côte sur un seul écran (un par programme, plus le mystère) au lieu d'un écran par ticket ; navigation au clavier ← / →. La frise se parcourt avec ↓, et la fiche « d'où vient ce chiffre » s'ouvre en panneau latéral.
+  - La carte « Ton perso » accompagne aussi l'étape facultative « Affiner ».
