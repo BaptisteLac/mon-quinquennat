@@ -60,8 +60,8 @@ test("parcours complet : personnage, vie, choix, puis reprise", async ({ page, b
   const sheet = page.getByRole("dialog", { name: "Content de te revoir" });
   await expect(sheet).toBeVisible();
   await expect(sheet.getByText("Le choix des programmes")).toBeVisible();
-  // Un seul programme publié et il est choisi : pas de mystère possible, le résumé ne l'annonce pas.
-  await expect(sheet.getByText("1 programme · profil : 34 ans, mariée ou pacsée, 2 enfants, salariée")).toBeVisible();
+  // Un programme choisi, et le mystère tiré parmi les autres programmes publiés.
+  await expect(sheet.getByText("1 programme + 1 mystère · profil : 34 ans, mariée ou pacsée, 2 enfants, salariée")).toBeVisible();
   await sheet.getByRole("link", { name: "Reprendre où j'en étais" }).click();
   await expect(page).toHaveURL(/\/candidats$/);
   await expect(page.getByRole("button", { name: /David Lisnard/ })).toHaveAttribute("aria-pressed", "true");
