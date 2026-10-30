@@ -1,0 +1,171 @@
+{
+  "measures": [
+    {
+      "theme": "institutions",
+      "title": "Soumettre la révision constitutionnelle au référendum à la rentrée 2027, puis un référendum législatif à l'été 2028",
+      "summary": {
+        "simple": "La révision de la Constitution serait soumise au référendum dès la rentrée 2027, puis un référendum sur l'immigration et les prestations sociales aurait lieu à l'été 2028.",
+        "normal": "Référendum sur la révision constitutionnelle dès la rentrée 2027 ; référendum législatif à l'été 2028 sur l'expulsion des étrangers condamnés, les quotas de visas et de titres de séjour et les conditions d'accès aux prestations sociales ; le candidat annonce qu'il partirait en cas de désaveu."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Je soumettrai cette révision au peuple par référendum dès la rentrée 2027. Le référendum législatif de l'été 2028 portera ainsi sur l'expulsion des étrangers condamnés, sur les quotas de visas et de titres de séjour, et sur les conditions d'accès aux prestations sociales. Si le peuple me désavoue, je partirai."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "referendum",
+      "schedule": { "effectiveDate": "2027-09-01", "dateOrigin": "annoncee", "estimationRule": null }
+    },
+    {
+      "theme": "institutions",
+      "title": "Faire rendre compte publiquement chaque ministre, chaque trimestre, de l'application des mesures",
+      "summary": {
+        "simple": "Chaque ministre rendrait compte publiquement, tous les trois mois, de l'avancement de chaque mesure.",
+        "normal": "Lois-cadres votées dès la première année ; mandats d'exécution publics : chaque ministre rendrait compte chaque trimestre de l'application des mesures, mesure par mesure."
+      },
+      "sources": [
+        {
+          "page": 16,
+          "quote": "des lois cadres votées dès la première année, un référendum pour verrouiller ce que les blocages institutionnels empêchent, et des mandats d'exécution publics : chaque ministre rend compte chaque trimestre de l'application des mesures, mesure par mesure, ref par ref."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "securite",
+      "title": "Convoquer le Parlement sur une loi-cadre sécurité et lancer le référendum sur l'immigration dès l'entrée en fonction",
+      "summary": {
+        "simple": "Dès son arrivée, le Parlement serait convoqué sur une loi-cadre sécurité et le référendum sur l'immigration serait lancé.",
+        "normal": "Trois actes immédiats annoncés : convocation du Parlement sur une loi-cadre sécurité, lancement du référendum sur la maîtrise de l'immigration, et premier budget comprenant la baisse des charges sur le travail et la relance des six EPR2."
+      },
+      "sources": [
+        {
+          "page": 16,
+          "quote": "Trois actes immédiats : convocation du Parlement sur la loi cadre sécurité, lancement du référendum sur la maîtrise de l'immigration, et engagement du premier budget : baisse des charges sur le travail et relance des six EPR2."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "loi",
+      "schedule": {
+        "effectiveDate": "2027-05-14",
+        "dateOrigin": "estimee",
+        "estimationRule": "Annoncée dès l'entrée en fonction (« le premier jour », « dès son arrivée au pouvoir ») : début du mandat retenu, le 14 mai 2027 (le mandat en cours s'achève le 13 mai 2027)"
+      }
+    },
+    {
+      "theme": "education",
+      "title": "Consacrer la moitié du temps du primaire au français et aux mathématiques et généraliser l'uniforme au collège",
+      "summary": {
+        "simple": "À l'école primaire, la moitié du temps irait au français et aux mathématiques, et l'uniforme serait généralisé au collège.",
+        "normal": "La moitié du temps du primaire consacrée au français et aux mathématiques ; autorité du maître rétablie ; uniforme généralisé au collège ; voie professionnelle traitée comme une voie d'excellence avec les entreprises."
+      },
+      "sources": [
+        {
+          "page": 16,
+          "quote": "Une école qui transmet : la moitié du temps du primaire consacrée au français et aux mathématiques, l'autorité du maître rétablie et soutenue par sa hiérarchie, l'uniforme généralisé au collège, et une voie professionnelle enfin traitée comme une voie d'excellence avec les entreprises."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": { "field": "enfantsAgeBand", "op": "in", "value": ["3_10", "11_17"] },
+          "sentence": {
+            "simple": "Au collège, tes enfants porteraient un uniforme ; en primaire, la moitié du temps irait au français et aux mathématiques.",
+            "normal": "L'uniforme serait généralisé au collège et la moitié du temps du primaire consacrée au français et aux mathématiques."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "sante",
+      "title": "Réguler l'installation des médecins là où l'offre manque et soutenir les maisons de santé",
+      "summary": {
+        "simple": "L'installation des médecins serait régulée dans les zones qui en manquent, et les maisons de santé seraient soutenues.",
+        "normal": "Régulation de l'installation des médecins là où l'offre manque, revalorisation des carrières hospitalières et soutien aux maisons de santé pluriprofessionnelles ; objectif : aucun territoire sans médecin."
+      },
+      "sources": [
+        {
+          "page": 16,
+          "quote": "Aucun territoire ne doit rester sans médecin. Le projet mise sur la régulation de l'installation là où l'offre manque, la revalorisation des carrières hospitalières et le soutien aux maisons de santé pluriprofessionnelles."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "sante",
+          "section": "vie",
+          "appliesTo": { "all": [] },
+          "sentence": {
+            "simple": "L'installation des médecins serait régulée là où ils manquent, et les maisons de santé seraient soutenues.",
+            "normal": "Le programme prévoit une régulation de l'installation des médecins dans les zones sous-dotées, la revalorisation des carrières hospitalières et le soutien aux maisons de santé ; les modalités ne sont pas précisées."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "energie",
+      "title": "Investir dans les petits réacteurs nucléaires modulaires",
+      "summary": {
+        "simple": "L'État investirait dans les petits réacteurs nucléaires modulaires, en plus des EPR2 et de la prolongation du parc.",
+        "normal": "Souveraineté énergétique fondée sur le nucléaire : relance des six EPR2, prolongation du parc existant et investissement dans les petits réacteurs modulaires ; renouvelables en complément quand ils sont pilotables et acceptés localement."
+      },
+      "sources": [
+        {
+          "page": 16,
+          "quote": "La souveraineté énergétique passe d'abord par le nucléaire : relance des six EPR2, prolongation du parc existant, investissement dans les petits réacteurs modulaires."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Baisser les charges sur la première embauche et faire respecter les délais de paiement",
+      "summary": {
+        "simple": "Embaucher un premier salarié coûterait moins cher, et les délais de paiement entre entreprises seraient enfin respectés.",
+        "normal": "Pour les PME et artisans : baisse des charges sur la première embauche, choc de simplification des normes, délais de paiement respectés et transmission d'entreprise facilitée."
+      },
+      "sources": [
+        {
+          "page": 16,
+          "quote": "Libérer plutôt que subventionner : baisse des charges sur la première embauche, choc de simplification des normes, délais de paiement enfin respectés, transmission d'entreprise facilitée."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "fiscalite",
+      "title": "Alléger la fiscalité des successions pour les classes moyennes",
+      "summary": {
+        "simple": "Les droits de succession baisseraient pour les classes moyennes.",
+        "normal": "Allègement de la fiscalité des successions pour les classes moyennes, aux côtés de la désocialisation et de la défiscalisation des heures supplémentaires et de la baisse des charges sur les salaires ; montants non précisés."
+      },
+      "sources": [
+        {
+          "page": 16,
+          "quote": "La priorité, c'est que le travail paie davantage : désocialisation et défiscalisation des heures supplémentaires, baisse des charges qui pèsent sur les salaires, allègement de la fiscalité des successions pour les classes moyennes."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "succession",
+          "section": "portefeuille",
+          "appliesTo": { "field": "patrimoine", "op": "in", "value": ["moins_100k", "100k_1m"] },
+          "sentence": {
+            "simple": "Les droits de succession baisseraient pour les classes moyennes ; le montant n'est pas précisé.",
+            "normal": "Le programme annonce un allègement de la fiscalité des successions pour les classes moyennes, sans en préciser le barème ni les seuils."
+          }
+        }
+      ]
+    }
+  ]
+}

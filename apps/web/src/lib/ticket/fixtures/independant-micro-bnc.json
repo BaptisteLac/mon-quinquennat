@@ -55,10 +55,23 @@
           "prime_activite": 83.94
         },
         "nonCalcules": {}
+      },
+      "c-03": {
+        "hypotheses": [],
+        "mesures": {},
+        "montants": {
+          "aides_logement": 0.0,
+          "allocations_familiales": 0.0,
+          "impot_revenu": 87.17,
+          "minimum_vieillesse": 0.0,
+          "prime_activite": 83.94
+        },
+        "nonCalcules": {}
       }
     },
     "corpus": {
-      "c-01": "nouvelle-energie-2026-10"
+      "c-01": "nouvelle-energie-2026-10",
+      "c-03": "les-republicains-2026-10"
     }
   }
 }

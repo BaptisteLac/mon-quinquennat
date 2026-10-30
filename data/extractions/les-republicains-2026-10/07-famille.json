@@ -1,0 +1,178 @@
+{
+  "measures": [
+    {
+      "theme": "famille",
+      "title": "Créer un Revenu familial de 240 € par mois et par enfant, remplaçant allocations familiales et quotient familial",
+      "summary": {
+        "simple": "Chaque famille recevrait 240 € par mois et par enfant mineur, dès le premier, à la place des allocations familiales et du quotient familial.",
+        "normal": "Fusion de douze dispositifs (dont allocations familiales, majoration pour âge, complément familial et quotient familial) en un Revenu familial de 240 € par enfant et par mois, de la naissance à dix-huit ans, dès le premier enfant ; versé en déduction de l'impôt prélevé à la source ou par virement ; conditionné à une résidence régulière et à cinq ans d'activité professionnelle ; aides pour les moins de trois ans, parents seuls, logement et handicap conservées."
+      },
+      "sources": [
+        {
+          "page": 91,
+          "quote": "Fusionner douze dispositifs en un Revenu familial de 240 euros par enfant, versé chaque mois à tous, dès le premier enfant, de la naissance à dix-huit ans. Le conditionner à une résidence régulière en France et à l'exercice d'une activité professionnelle depuis au moins cinq ans."
+        },
+        {
+          "page": 91,
+          "quote": "Conserver les aides spécifiques pour les moins de trois ans, les parents seuls, le logement et le handicap."
+        },
+        {
+          "page": 91,
+          "quote": "Les dispositifs supprimés, allocations familiales, majoration pour âge, complément familial et quotient familial, représentent 41 milliards d'euros, pour un coût du Revenu familial de 40,3 milliards hors bonification du troisième enfant."
+        },
+        {
+          "page": 91,
+          "quote": "Chaque mois, pour chaque enfant mineur, les 240 euros seront automatiquement déduits de l'impôt portant sur le salaire ou les autres revenus déclarés. À défaut d'impôt suffisant, la DGFiP effectuera un virement direct sur le compte des parents."
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Suspension temporaire possible par décision de justice en cas de défaillance éducative.",
+          "source": {
+            "page": 91,
+            "quote": "En permettre la suspension temporaire par décision de justice en cas de défaillance éducative."
+          }
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "allocations_familiales",
+          "section": "portefeuille",
+          "appliesTo": { "field": "enfantsAgeBand", "op": "in", "value": ["0_2", "3_10", "11_17"] },
+          "sentence": {
+            "simple": "Tu recevrais 240 € par mois pour chaque enfant mineur, mais tu perdrais les allocations familiales, le complément familial et l'avantage fiscal du quotient familial.",
+            "normal": "Le Revenu familial de 240 € par enfant mineur et par mois remplacerait allocations familiales, majoration pour âge, complément familial et quotient familial ; il serait réservé aux parents en activité depuis au moins cinq ans. Gain net non encore calculé pour ton profil."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "famille",
+      "title": "Doubler le Revenu familial pour le troisième enfant mineur",
+      "summary": {
+        "simple": "Le troisième enfant ouvrirait droit à 480 € par mois : 960 € au total pour trois enfants.",
+        "normal": "Revenu familial doublé automatiquement pour le troisième enfant mineur : 240 € pour chacun des deux premiers et 480 € pour le troisième, soit 960 € par mois ; 1 200 € pour quatre enfants (240 € pour le quatrième)."
+      },
+      "sources": [
+        {
+          "page": 92,
+          "quote": "Doubler automatiquement le Revenu familial pour le troisième enfant mineur à charge. Les parents de trois enfants percevront 240 euros pour chacun des deux premiers et 480 euros pour le troisième, soit 960 euros par mois. Les parents de quatre enfants percevront 1 200 euros par mois, avec 240 euros pour le quatrième enfant."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "allocations_familiales",
+          "section": "portefeuille",
+          "appliesTo": { "field": "nbEnfants", "op": "gte", "value": 3 },
+          "sentence": {
+            "simple": "Avec trois enfants mineurs, le Revenu familial atteindrait 960 € par mois.",
+            "normal": "Le Revenu familial serait doublé pour le troisième enfant mineur : 960 € par mois pour trois enfants, 1 200 € pour quatre."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "famille",
+      "title": "Étendre le congé de naissance jusqu'aux six mois de l'enfant, indemnisé à 70 % du salaire",
+      "summary": {
+        "simple": "Après le congé maternité, l'un des parents pourrait prolonger son congé jusqu'aux six mois de l'enfant, payé 70 % de son salaire.",
+        "normal": "Congé de naissance étendu jusqu'aux six mois de l'enfant à l'issue du congé maternité, ouvert à l'un ou l'autre parent et facultatif, indemnisé à 70 % de la rémunération antérieure dans la limite du plafond de la Sécurité sociale, avec retour garanti au poste."
+      },
+      "sources": [
+        {
+          "page": 95,
+          "quote": "Étendre le congé de naissance jusqu'aux six mois de l'enfant, à l'issue du congé maternité qui reste organisé selon les règles actuelles. Ce congé sera ouvert à l'un ou l'autre parent, selon leur choix, et restera facultatif."
+        },
+        {
+          "page": 95,
+          "quote": "Le parent qui y recourt sera indemnisé à 70 % de sa rémunération antérieure, dans la limite du plafond de la Sécurité sociale, conservera son contrat de travail et retrouvera à son retour son poste ou un emploi équivalent."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "temps_travail",
+          "section": "temps",
+          "appliesTo": {
+            "all": [
+              { "field": "enfantsAgeBand", "op": "eq", "value": "0_2" },
+              { "field": "situationPro", "op": "in", "value": ["salarie_prive", "fonctionnaire"] }
+            ]
+          },
+          "sentence": {
+            "simple": "À la naissance d'un enfant, l'un des parents pourrait rester en congé jusqu'à ses six mois, payé 70 % de son salaire.",
+            "normal": "Après le congé maternité, un congé facultatif jusqu'aux six mois de l'enfant serait ouvert à l'un ou l'autre parent, indemnisé à 70 % du salaire dans la limite du plafond de la Sécurité sociale."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "famille",
+      "title": "Assouplir le régime des micro-crèches et imposer leur autorisation en entreprise en moins de six mois",
+      "summary": {
+        "simple": "Ouvrir une micro-crèche serait plus simple, et une crèche d'entreprise serait autorisée en moins de six mois.",
+        "normal": "Régime des micro-crèches aligné sur celui des maisons d'assistantes maternelles ; la PMI devrait autoriser une micro-crèche en entreprise en moins de six mois ; professionnels de la petite enfance revalorisés et prioritaires pour le logement social près de leur travail."
+      },
+      "sources": [
+        {
+          "page": 96,
+          "quote": "Aligner le régime des micro-crèches sur celui des maisons d'assistantes maternelles, dont la souplesse a fait la preuve de son efficacité, et imposer à la protection maternelle et infantile d'autoriser l'ouverture d'une micro-crèche en entreprise en moins de six mois."
+        },
+        {
+          "page": 96,
+          "quote": "Les professionnels de la petite enfance seront par ailleurs revalorisés, et un accès prioritaire au logement social à proximité de leur lieu de travail leur sera ouvert"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": { "field": "enfantsAgeBand", "op": "eq", "value": "0_2" },
+          "sentence": {
+            "simple": "Les micro-crèches, y compris en entreprise, pourraient ouvrir plus facilement.",
+            "normal": "Les micro-crèches suivraient le régime plus souple des maisons d'assistantes maternelles, et une crèche d'entreprise serait autorisée en moins de six mois."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "famille",
+      "title": "Porter à 7 000 € par an l'aide de l'employeur à la garde d'enfant exonérée de cotisations et d'impôt",
+      "summary": {
+        "simple": "Un employeur pourrait payer jusqu'à 7 000 € par an de frais de garde à un salarié, sans impôt ni cotisation.",
+        "normal": "Suppression du plafond de 500 000 € du crédit d'impôt famille ; plafond d'exonération de cotisations sociales et d'impôt sur le revenu de l'aide de l'employeur à la garde d'enfant porté de 2 421 à 7 000 € par an et par salarié, y compris dans les PME et TPE."
+      },
+      "sources": [
+        {
+          "page": 97,
+          "quote": "Supprimer le plafond de 500 000 euros du crédit d'impôt famille. Porter de 2 421 à 7 000 euros par an et par salarié le plafond d'exonération de cotisations sociales et d'impôt sur le revenu applicable à l'aide versée par l'employeur pour la garde d'enfant."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "salaire_net",
+          "section": "portefeuille",
+          "appliesTo": {
+            "all": [
+              { "field": "enfantsAgeBand", "op": "in", "value": ["0_2", "3_10"] },
+              { "field": "situationPro", "op": "eq", "value": "salarie_prive" }
+            ]
+          },
+          "sentence": {
+            "simple": "Ton employeur pourrait te verser jusqu'à 7 000 € par an pour faire garder tes enfants, sans impôt ni cotisation, s'il le décide.",
+            "normal": "L'aide de l'employeur à la garde d'enfant serait exonérée de cotisations et d'impôt jusqu'à 7 000 € par an et par salarié (2 421 € aujourd'hui) ; elle reste au choix de l'employeur."
+          }
+        }
+      ]
+    }
+  ]
+}

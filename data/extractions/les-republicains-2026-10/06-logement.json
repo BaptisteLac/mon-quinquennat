@@ -1,0 +1,528 @@
+{
+  "measures": [
+    {
+      "theme": "logement",
+      "title": "Diviser par deux les délais de construction par une loi d'urgence et limiter les recours abusifs",
+      "summary": {
+        "simple": "Une loi d'urgence diviserait par deux les délais pour construire, avec un guichet unique où le silence vaut accord.",
+        "normal": "Contrôle a posteriori renforcé plutôt que contrôle préalable systématique ; plan local d'urbanisme simplifié ; loi d'urgence dès les premiers mois pour diviser les délais par deux, avec guichet unique où le silence vaut accord ; fin des recours abusifs (intérêt à agir limité, consignation financière, délais de jugement contraints)."
+      },
+      "sources": [
+        {
+          "page": 75,
+          "quote": "Adopter dès les premiers mois une loi d'urgence, dans l'esprit de la loi Notre-Dame, pour diviser les délais par deux, avec une instruction en guichet unique où le silence vaut accord. Mettre fin aux recours abusifs."
+        },
+        {
+          "page": 75,
+          "quote": "Quatre leviers mettront fin aux recours abusifs : l'intérêt à agir strictement limité aux personnes justifiant d'un impact direct et significatif, une consignation financière exigée dès l'introduction du recours et restituée s'il n'est pas jugé abusif, une procédure prioritaire avec des délais de jugement contraints, et une purge juridique des permis raccourcie."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "logement",
+      "title": "Verser 9 000 € de TVA à la commune pour chaque logement neuf construit",
+      "summary": {
+        "simple": "Chaque commune recevrait 9 000 € de l'État pour chaque logement neuf construit sur son territoire.",
+        "normal": "Versement automatique à la commune d'une fraction forfaitaire de TVA de 9 000 € par logement neuf, pour financer écoles, voirie et réseaux ; préfet pivot de la politique de construction par des contrats territoriaux par bassin de vie."
+      },
+      "sources": [
+        {
+          "page": 76,
+          "quote": "Verser automatiquement à la commune une fraction forfaitaire de TVA de 9 000 euros pour chaque logement neuf, afin de financer les équipements publics nécessaires : écoles, voirie, réseaux."
+        },
+        {
+          "page": 76,
+          "quote": "Faire du préfet le pivot de la politique de construction, par des contrats territoriaux conclus à l'échelle des bassins de vie, qui remplaceront les objectifs tombés d'en haut."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "logement",
+      "title": "Geler pendant dix ans les normes de construction de logements",
+      "summary": {
+        "simple": "Aucune nouvelle norme de construction de logements pendant dix ans, et la RE2020 ne serait plus durcie.",
+        "normal": "Moratoire de dix ans sur les règles de construction de logements ; RE2020 maintenue sans les paliers de 2028 et 2031 et revue pour le confort d'été ; interdiction par loi organique d'exigences supérieures au droit européen ; freins à la construction hors site levés."
+      },
+      "sources": [
+        {
+          "page": 77,
+          "quote": "Instaurer un moratoire normatif de dix ans sur les règles applicables à la construction de logements. La RE2020 est maintenue mais stabilisée, sans les paliers de durcissement prévus en 2028 et 2031."
+        },
+        {
+          "page": 77,
+          "quote": "Interdire par loi organique d'imposer à la construction des exigences supérieures à celles prévues par le droit de l'Union européenne. Lever les freins à la construction hors site."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "logement",
+      "title": "Transformer les bureaux vides en logements sur simple déclaration en mairie",
+      "summary": {
+        "simple": "Transformer un bureau ou un bâtiment existant en logements ne demanderait plus qu'une déclaration en mairie.",
+        "normal": "Suspension temporaire de l'autorisation préalable de changement de destination des bâtiments existants, remplacée par un régime déclaratif en mairie ; transformation de friches reconnue d'intérêt public majeur ; densification douce facilitée en zones détendues ; normes du logement contrôlées a posteriori."
+      },
+      "sources": [
+        {
+          "page": 78,
+          "quote": "Suspendre temporairement l'autorisation préalable de changement de destination pour les bâtiments existants : la transformation en logements relèvera d'un simple régime déclaratif à la mairie."
+        },
+        {
+          "page": 78,
+          "quote": "Faciliter la densification douce dans les seules zones détendues, lorsque le PLU le permet et sous l'appréciation du maire."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "logement",
+      "title": "Ouvrir le prêt à taux zéro à tous les primo-accédants, dans le neuf comme l'ancien, sans zonage",
+      "summary": {
+        "simple": "Tout primo-accédant aurait droit à un prêt à taux zéro, où qu'il habite et quel que soit le logement acheté.",
+        "normal": "Prêt à taux zéro réservé aux primo-accédants, ouvert au neuf et à l'ancien, aux appartements et aux maisons, sans zonage ; intérêts pris en charge par la Caisse des dépôts ; développement du bail réel solidaire et du prêt social location-accession."
+      },
+      "sources": [
+        {
+          "page": 79,
+          "quote": "Refonder le prêt à taux zéro : réservé aux primo-accédants, ouvert sans distinction au neuf et à l'ancien, aux appartements comme aux maisons, et débarrassé de tout zonage."
+        },
+        {
+          "page": 79,
+          "quote": "Le prêt à taux zéro sera financé par la prise en charge des intérêts par la Caisse des dépôts, et non plus par un crédit d'impôt pesant sur le budget de l'État."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "field": "logement",
+            "op": "in",
+            "value": [
+              "locataire_prive",
+              "locataire_hlm",
+              "heberge"
+            ]
+          },
+          "sentence": {
+            "simple": "Pour acheter ton premier logement, tu aurais droit à un prêt à taux zéro, partout en France, dans le neuf comme dans l'ancien.",
+            "normal": "Le prêt à taux zéro serait ouvert à tous les primo-accédants, sans zonage, pour le neuf comme l'ancien ; son montant n'est pas précisé."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Vendre 10 % des pavillons HLM à leurs locataires, avec une décote de 20 % après dix ans",
+      "summary": {
+        "simple": "Les locataires d'une maison HLM pourraient l'acheter, avec une réduction de 20 % après dix ans d'occupation.",
+        "normal": "Programme d'accession pour les locataires du parc social : objectif de vente de 10 % des pavillons HLM, près de 86 000 logements ; décote de 20 % après dix ans d'occupation ; chaque logement vendu remplacé par un logement neuf."
+      },
+      "sources": [
+        {
+          "page": 80,
+          "quote": "Engager un programme d'accession pour les locataires du parc social, avec un objectif de vente de 10 % des pavillons HLM, soit près de 86 000 logements."
+        },
+        {
+          "page": 80,
+          "quote": "Un fonds de mutualisation compensera une partie des décotes de 20 % accordées aux locataires après dix ans d'occupation."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "field": "logement",
+            "op": "eq",
+            "value": "locataire_hlm"
+          },
+          "sentence": {
+            "simple": "Si tu loues une maison HLM, tu pourrais l'acheter, avec 20 % de réduction après dix ans d'occupation.",
+            "normal": "10 % des pavillons HLM seraient proposés à la vente à leurs locataires, avec une décote de 20 % après dix ans d'occupation."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Rendre déductibles les intérêts d'emprunt de la résidence principale selon le nombre d'enfants",
+      "summary": {
+        "simple": "Les familles pourraient déduire de leurs impôts une partie des intérêts de leur crédit immobilier : 50 % avec un enfant, 100 % à partir de trois.",
+        "normal": "Intérêts d'emprunt de la résidence principale déductibles à 50 % avec un enfant mineur à charge, 75 % avec deux, 100 % à partir de trois, dans la limite du meilleur taux du marché ; réduction d'impôt plafonnée à 400 € par an plus 400 € par enfant mineur ; prêts immobiliers transférables en cas de déménagement."
+      },
+      "sources": [
+        {
+          "page": 81,
+          "quote": "Rendre les intérêts d'emprunt déductibles pour la résidence principale : 50 % avec un enfant mineur à charge, 75 % avec deux, 100 % à partir de trois. Instaurer la transférabilité des prêts immobiliers, pour qu'un ménage qui déménage conserve les conditions de son prêt initial."
+        },
+        {
+          "page": 81,
+          "quote": "les intérêts pris en compte seront plafonnés au taux d'emprunt le plus favorable constaté sur le marché, publié chaque année par l'administration fiscale."
+        },
+        {
+          "page": 94,
+          "quote": "La réduction d'impôt annuelle est plafonnée à 400 euros, majorés de 400 euros par enfant mineur à charge."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "impot_revenu",
+          "section": "portefeuille",
+          "appliesTo": {
+            "all": [
+              {
+                "field": "logement",
+                "op": "eq",
+                "value": "proprio_credit"
+              },
+              {
+                "field": "nbEnfants",
+                "op": "gte",
+                "value": 1
+              }
+            ]
+          },
+          "sentence": {
+            "simple": "Tu pourrais déduire de ton impôt une partie des intérêts de ton crédit immobilier : 50 % avec un enfant, 75 % avec deux, 100 % à partir de trois.",
+            "normal": "Les intérêts d'emprunt de ta résidence principale deviendraient déductibles (50 %, 75 % ou 100 % selon le nombre d'enfants mineurs), avec une réduction d'impôt plafonnée à 400 € par an plus 400 € par enfant. Montant non calculé : le profil ne contient pas tes intérêts d'emprunt."
+          }
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Déduction applicable à l'achat d'un terrain, d'un logement ou à des travaux de construction et d'agrandissement de la résidence principale.",
+          "source": {
+            "page": 94,
+            "quote": "La déduction s'appliquera à l'achat d'un terrain, d'un logement ou à des travaux de construction et d'agrandissement, pour la seule résidence principale."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "fiscalite",
+      "title": "Exonérer pendant trois ans les dons familiaux jusqu'à 150 000 € avant 30 ans et 100 000 € avant 40 ans",
+      "summary": {
+        "simple": "Pendant trois ans, on pourrait donner sans impôt jusqu'à 150 000 € à un enfant ou petit-enfant de moins de 30 ans.",
+        "normal": "Pendant trois ans, don familial exonéré jusqu'à 150 000 € par donateur pour un bénéficiaire de moins de 30 ans et 100 000 € pour un bénéficiaire de moins de 40 ans, en argent comme en immobilier (contre 31 865 € aujourd'hui pour les dons de sommes d'argent selon le programme)."
+      },
+      "sources": [
+        {
+          "page": 82,
+          "quote": "Instaurer un choc de transmission patrimoniale, pendant trois ans : don familial exonéré jusqu'à 150 000 euros par donateur pour un bénéficiaire de moins de 30 ans, et 100 000 euros pour un bénéficiaire de moins de 40 ans. Ces règles s'appliqueront aux dons de sommes d'argent comme aux donations immobilières."
+        },
+        {
+          "page": 98,
+          "quote": "Le don familial sera exonéré jusqu'à 150 000 euros par donateur pour un bénéficiaire de moins de 30 ans, et 100 000 euros pour un bénéficiaire de moins de 40 ans. Ces règles s'appliqueront aux dons de sommes d'argent comme aux donations et successions portant sur le patrimoine immobilier."
+        },
+        {
+          "page": 82,
+          "quote": "qui limite à 31 865 euros les dons familiaux de somme d'argent exonérés"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "succession",
+          "section": "portefeuille",
+          "appliesTo": {
+            "any": [
+              {
+                "field": "patrimoine",
+                "op": "in",
+                "value": [
+                  "100k_1m",
+                  "plus_1m"
+                ]
+              },
+              {
+                "field": "age",
+                "op": "lte",
+                "value": 39
+              }
+            ]
+          },
+          "sentence": {
+            "simple": "Pendant trois ans, un don familial serait exonéré jusqu'à 150 000 € pour un bénéficiaire de moins de 30 ans, 100 000 € de moins de 40 ans.",
+            "normal": "Pendant trois ans, chaque donateur pourrait transmettre sans impôt jusqu'à 150 000 € à un proche de moins de 30 ans et 100 000 € à un proche de moins de 40 ans, en argent ou en immobilier."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Ne plus interdire la location des logements classés F ou G au DPE",
+      "summary": {
+        "simple": "Le diagnostic énergétique resterait obligatoire mais ne pourrait plus interdire de louer un logement.",
+        "normal": "Le diagnostic de performance énergétique resterait obligatoire et informatif mais ne pourrait plus fonder une interdiction de louer ; selon le programme, environ 450 000 logements préservés ou remis sur le marché."
+      },
+      "sources": [
+        {
+          "page": 83,
+          "quote": "Le DPE restera obligatoire et informatif pour les locataires comme pour les acquéreurs, mais il ne pourra plus fonder une interdiction administrative de louer."
+        },
+        {
+          "page": 83,
+          "quote": "soit environ 450 000 logements préservés ou remis à disposition, sans construire un mètre carré ni verser une subvention."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "field": "logement",
+            "op": "in",
+            "value": [
+              "locataire_prive",
+              "proprio_credit",
+              "proprio_sans_credit"
+            ]
+          },
+          "sentence": {
+            "simple": "Un logement mal classé au diagnostic énergétique pourrait de nouveau être loué.",
+            "normal": "Le DPE resterait obligatoire mais n'interdirait plus de louer les logements classés G, F puis E."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Supprimer l'encadrement des loyers",
+      "summary": {
+        "simple": "Les loyers ne seraient plus plafonnés : propriétaire et locataire fixeraient librement le loyer à la signature du bail.",
+        "normal": "Suppression de l'encadrement des loyers issu de la loi ELAN et des mécanismes de plafonnement de la loi de 1989 ; loyer fixé librement à la signature du bail."
+      },
+      "sources": [
+        {
+          "page": 84,
+          "quote": "Supprimer les dispositifs d'encadrement des loyers issus de la loi ELAN, abroger les mécanismes de plafonnement prévus par la loi de 1989, et laisser le loyer librement fixé entre le bailleur et le locataire lors de la signature du bail, comme dans la majorité des marchés européens."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "field": "logement",
+            "op": "eq",
+            "value": "locataire_prive"
+          },
+          "sentence": {
+            "simple": "Le loyer d'un nouveau bail serait fixé librement entre toi et ton propriétaire, sans plafond.",
+            "normal": "L'encadrement des loyers (loi ELAN) et les plafonnements de la loi de 1989 seraient supprimés : le loyer serait libre à la signature du bail."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Créer un statut du bailleur privé avec un amortissement du bâti de 4 % par an",
+      "summary": {
+        "simple": "Les propriétaires qui louent pourraient amortir leur bien de 4 % par an, en location vide comme meublée.",
+        "normal": "Statut du bailleur privé pour tous les revenus locatifs, nu comme meublé : amortissement du bâti à 4 % par an, taux bonifié pour les loyers modérés ; option pour le prélèvement forfaitaire unique à 30 % pour les patrimoines déjà amortis ; cadre stable dix ans ; permis de diviser obligatoire en zone tendue."
+      },
+      "sources": [
+        {
+          "page": 85,
+          "quote": "Créer un statut du bailleur privé applicable à l'ensemble des revenus locatifs, nu comme meublé, ancien comme neuf, s'inspirant du rapport Daubresse-Cosson en allant plus loin : amortissement de la valeur du bâti à 4 % par an, taux bonifié pour les bailleurs pratiquant des loyers modérés, taux harmonisés entre neuf et ancien."
+        },
+        {
+          "page": 85,
+          "quote": "Pour les patrimoines anciens déjà amortis, ouvrir sur option l'accès au prélèvement forfaitaire unique à 30 %, en contrepartie de l'absence d'amortissement. Garantir un cadre stable pour dix ans, sans zonage ni conditionnalité administrative."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "logement",
+      "title": "Expulser les squatteurs sous dix jours et exécuter les expulsions judiciaires sous trente jours",
+      "summary": {
+        "simple": "Un squatteur serait expulsé en dix jours maximum, et l'État indemniserait le propriétaire s'il n'exécute pas une expulsion en trente jours.",
+        "normal": "Squat : procédure dès le constat, expulsion sous dix jours, suspension possible de l'eau et de l'électricité ; impayés avérés : contravention de cinquième classe et expulsion en référé ; décisions d'expulsion exécutées sous trente jours, sinon indemnisation automatique du propriétaire."
+      },
+      "sources": [
+        {
+          "page": 86,
+          "quote": "En cas de squat, engager la procédure dès le constat des forces de l'ordre ou d'un commissaire de justice, avec expulsion sous dix jours maximum, et permettre au propriétaire de suspendre les contrats d'eau et d'électricité du logement occupé illégalement."
+        },
+        {
+          "page": 86,
+          "quote": "Pour les impayés avérés, ouvrir la voie à une contravention de cinquième classe et à un titre exécutoire permettant une expulsion en référé. Faire exécuter les décisions judiciaires d'expulsion sous trente jours."
+        },
+        {
+          "page": 86,
+          "quote": "Si l'État n'exécute pas la décision dans le délai de trente jours, une indemnisation automatique équivalente au loyer sera versée au propriétaire jusqu'à la restitution effective du logement."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "logement",
+      "title": "Remplacer les quotas SRU de logements sociaux par des objectifs locaux négociés",
+      "summary": {
+        "simple": "Les communes n'auraient plus de quota de 20 ou 25 % de logements sociaux : les objectifs seraient fixés selon les besoins locaux.",
+        "normal": "Fin du quota SRU uniforme : objectifs de production fixés par contrat entre le préfet et chaque intercommunalité ; aucun objectif en zone non tendue, objectifs en volume en zone tendue ; plus d'aides publiques pour de nouvelles opérations dans les territoires dépassant 30 % de logements sociaux."
+      },
+      "sources": [
+        {
+          "page": 87,
+          "quote": "Définir désormais les objectifs de production dans le cadre des contrats territoriaux conclus entre le préfet et chaque intercommunalité, calibrés sur les besoins réels du territoire et non sur un ratio imposé, la répartition entre communes étant arrêtée par la conférence des maires."
+        },
+        {
+          "page": 87,
+          "quote": "Aucun objectif ne sera imposé dans les zones non tendues ; dans les zones tendues, les objectifs seront maintenus en volume et non plus en quota. Plafonner la concentration du logement social."
+        },
+        {
+          "page": 87,
+          "quote": "Les territoires dépassant 30 % de logements sociaux ne bénéficieront plus d'aides publiques ni d'avantages fiscaux pour de nouvelles opérations"
+        },
+        {
+          "page": 87,
+          "quote": "imposé à chaque commune -20 % ou 25 % du parc, sous peine de sanctions et de mise sous tutelle"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "logement",
+      "title": "Réserver d'abord le logement social aux actifs et aux familles et réexaminer chaque locataire tous les cinq ans",
+      "summary": {
+        "simple": "Le logement social irait d'abord aux personnes qui travaillent, en priorité les familles, et la situation de chaque locataire serait revue tous les cinq ans.",
+        "normal": "Attributions recentrées sur les actifs qui ne peuvent se loger dans le privé, avec priorité renforcée aux familles, et accès limité aux ménages dont les ressources sont inférieures au cinquième décile ; parc Action Logement rendu aux salariés (contingent préfectoral ramené à 5 %) ; réexamen de chaque locataire tous les cinq ans ; loyer au mètre carré garanti en cas de passage à un logement plus petit ; refus d'une solution adaptée entraînant la sortie du DALO."
+      },
+      "sources": [
+        {
+          "page": 88,
+          "quote": "Refonder les règles d'attribution autour d'un principe : le logement social est d'abord destiné à ceux qui travaillent et ne peuvent pas se loger dans le parc privé, les familles avec enfants bénéficiant, parmi ces ménages actifs, d'une priorité renforcée."
+        },
+        {
+          "page": 88,
+          "quote": "Restituer le parc Action Logement aux salariés et à leurs familles, et rétablir la rotation dans le parc par un réexamen de la situation de chaque locataire tous les cinq ans, en tenant compte de sa situation de famille."
+        },
+        {
+          "page": 88,
+          "quote": "Le contingent préfectoral sur le parc Action Logement sera ramené à 5 %, correspondant aux seuls agents de l'État"
+        },
+        {
+          "page": 93,
+          "quote": "Refonder les règles d'attribution autour d'un principe : le logement social est d'abord destiné à ceux qui travaillent et ne peuvent pas se loger dans le parc privé, les familles avec enfants bénéficiant d'une priorité renforcée parmi ces ménages actifs."
+        },
+        {
+          "page": 10,
+          "quote": "Je recentrerai le logement social sur les personnes exerçant une activité professionnelle et les familles avec enfants, en limitant l'accès aux ménages dont les ressources sont inférieures au cinquième décile."
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Loyer au mètre carré d'origine garanti au locataire qui accepte un logement plus adapté à sa famille.",
+          "source": {
+            "page": 88,
+            "quote": "la mobilité descendante sera encouragée en garantissant le loyer au mètre carré d'origine à tout locataire acceptant un logement plus adapté à sa situation familiale."
+          }
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "field": "logement",
+            "op": "eq",
+            "value": "locataire_hlm"
+          },
+          "sentence": {
+            "simple": "Ta situation de locataire HLM serait réexaminée tous les cinq ans.",
+            "normal": "Chaque locataire du parc social verrait sa situation réexaminée tous les cinq ans ; le logement social irait d'abord aux actifs, en priorité aux familles."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Supprimer l'exonération d'impôt sur les sociétés des bailleurs sociaux au profit de ceux qui construisent",
+      "summary": {
+        "simple": "Les organismes HLM perdraient leur exonération d'impôt ; les 350 millions d'euros iraient aux bailleurs qui construisent et rénovent.",
+        "normal": "Suppression progressive sur cinq ans de l'exonération d'impôt sur les sociétés des bailleurs sociaux, redistribuée en aides à la pierre aux bailleurs qui construisent et rénovent ; vente à perte du logement social interdite dans les opérations mixtes ; rénovation urbaine non renouvelée après 2030 ; aides personnelles au logement recentrées, notamment pour certains étudiants."
+      },
+      "sources": [
+        {
+          "page": 89,
+          "quote": "Supprimer progressivement sur cinq ans l'exonération d'impôt sur les sociétés des bailleurs sociaux, et en redistribuer intégralement le produit aux bailleurs qui construisent et qui rénovent, sous forme d'aides à la pierre versées par le Fonds national des aides à la pierre."
+        },
+        {
+          "page": 89,
+          "quote": "Le programme de rénovation urbaine ne sera pas renouvelé après le NPNRU en 2030, tous les engagements pris étant honorés. Les aides personnelles au logement seront recentrées."
+        },
+        {
+          "page": 89,
+          "quote": "350 millions d'euros par an au titre de l'exonération d'IS, intégralement redistribués."
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Économies sur les APL des étudiants étrangers hors Union européenne non boursiers et des étudiants des familles les plus aisées.",
+          "source": {
+            "page": 89,
+            "quote": "200 millions sur les APL des étudiants étrangers hors Union européenne non boursiers, et 200 à 300 millions sur celles des étudiants issus des familles les plus aisées."
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "apl",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "eq",
+            "value": "etudiant"
+          },
+          "sentence": {
+            "simple": "Les aides au logement seraient recentrées, avec des économies sur les APL de certains étudiants.",
+            "normal": "Les APL seraient réduites pour les étudiants étrangers hors Union européenne non boursiers et pour les étudiants des familles les plus aisées ; les critères précis ne sont pas donnés."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Abroger le zéro artificialisation nette (ZAN)",
+      "summary": {
+        "simple": "La règle du zéro artificialisation nette serait abrogée ; chaque territoire fixerait ses objectifs avec l'État.",
+        "normal": "Abrogation du ZAN ; objectifs de sobriété foncière définis par contrat entre le préfet et chaque intercommunalité ; bâtiments agricoles et terrains industriels exclus définitivement."
+      },
+      "sources": [
+        {
+          "page": 90,
+          "quote": "Abroger le ZAN et rendre aux collectivités la capacité de planifier leur développement. Les objectifs de sobriété foncière seront désormais définis dans le cadre des contrats territoriaux conclus entre le préfet et chaque intercommunalité, à la mesure des besoins réels du territoire."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    }
+  ]
+}

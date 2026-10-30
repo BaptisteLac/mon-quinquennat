@@ -1,0 +1,251 @@
+{
+  "measures": [
+    {
+      "theme": "energie",
+      "title": "Fixer d'emblée un horizon de 80 ans aux centrales nucléaires",
+      "summary": {
+        "simple": "Les centrales nucléaires seraient prévues pour fonctionner 80 ans, les contrôles tous les dix ans étant maintenus.",
+        "normal": "Horizon de fonctionnement de 80 ans fixé d'emblée pour les centrales ; les contrôles décennaux de l'autorité de sûreté vérifieraient la trajectoire ; mise en œuvre conditionnée aux conclusions de l'ASNR sur le fonctionnement au-delà de 60 ans."
+      },
+      "sources": [
+        {
+          "page": 99,
+          "quote": "Fixer d'emblée un horizon de 80 ans. Les contrôles décennaux de l'autorité de sûreté ne disparaissent pas, mais leur rôle change : au lieu de décider si la centrale peut survivre dix ans de plus, ils vérifient qu'elle reste sur la trajectoire prévue."
+        },
+        {
+          "page": 99,
+          "quote": "La mise en œuvre est conditionnée aux conclusions de l'ASNR sur le fonctionnement au-delà de 60 ans, attendues en novembre 2026."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "energie",
+      "title": "Suivre la construction de six EPR2 et en commander huit de plus si le chantier avance bien",
+      "summary": {
+        "simple": "Les six réacteurs EPR2 prévus seraient construits, et huit autres commandés dans les deux premières années si les délais sont tenus.",
+        "normal": "Suivi des six EPR2 prévus, le premier mis en service d'ici 2038 ; filière nucléaire européenne fondée sur des composants modulaires ; commande de huit EPR2 supplémentaires dans les deux premières années du mandat si l'avancement des six premiers est satisfaisant ; prêt de l'État couvrant 60 % du coût."
+      },
+      "sources": [
+        {
+          "page": 100,
+          "quote": "Veiller à l'avancement des six EPR2, dont le premier doit être mis en service d'ici 2038, et construire une filière nucléaire européenne fondée sur la modularité des composants et la stabilisation de leur conception"
+        },
+        {
+          "page": 100,
+          "quote": "Si l'avancement des six premiers est satisfaisant, confirmer la commande de huit EPR2 supplémentaires dès les deux premières années du mandat."
+        },
+        {
+          "page": 100,
+          "quote": "Un prêt de l'État à taux avantageux couvre 60 % du coût, adossé à l'épargne gérée par la Caisse des dépôts."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "energie",
+      "title": "Remplacer les concessions hydroélectriques par des autorisations de 70 ans et ajouter 4 GW",
+      "summary": {
+        "simple": "Les barrages ne seraient plus mis en concurrence : les exploitants actuels obtiendraient 70 ans d'exploitation, et la puissance augmenterait de 4 GW.",
+        "normal": "Régime d'autorisation remplaçant les concessions, avec un droit d'exploitation de 70 ans pour les opérateurs actuels et au moins 40 % des capacités ouvertes à des tiers par enchères de production virtuelle ; modernisation pour ajouter 4 GW, dont 2 GW dès 2035 ; projet de STEP de Redenat remis à l'étude ; déploiement accéléré des micro-STEP fabriquées en France."
+      },
+      "sources": [
+        {
+          "page": 101,
+          "quote": "Remplacer le régime des concessions par un régime d'autorisation, avec un droit d'exploitation de 70 ans pour les opérateurs actuels et l'ouverture d'au moins 40 % des capacités à des tiers, sous forme de droits de production virtuels mis aux enchères."
+        },
+        {
+          "page": 101,
+          "quote": "Moderniser les installations existantes : EDF estime pouvoir ajouter 4 GW, soit 20 % de plus, dont 2 GW dès 2035. Remettre à l'étude le projet de STEP de Redenat, abandonné depuis 1982."
+        },
+        {
+          "page": 12,
+          "quote": "Nous remettrons à l'étude le projet de station de transfert d'énergie par pompage de Redenat en Corrèze, abandonné depuis 1982, et accélérerons le déploiement des Micro-STEP, fabriquées intégralement en France."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "energie",
+      "title": "Abroger le volet électricité de la PPE 3 et cesser de subventionner les nouvelles installations solaires et éoliennes",
+      "summary": {
+        "simple": "Plus d'argent public pour les nouveaux projets éoliens et solaires, et abandon du volet électricité de la programmation énergétique.",
+        "normal": "Abrogation immédiate du volet électricité de la PPE 3 ; appels d'offres non attribués en photovoltaïque et éolien en mer déclarés infructueux ; suppression des avantages fiscaux et tarifaires pour toute installation photovoltaïque mise en service après la loi ; investissements de RTE et d'Enedis ramenés aux besoins ; engagements existants tenus et outre-mer préservé."
+      },
+      "sources": [
+        {
+          "page": 102,
+          "quote": "Abroger immédiatement le volet électricité de la PPE 3. Déclarer infructueux les appels d'offres non attribués en photovoltaïque et en éolien en mer, et n'en plus lancer tant que la demande n'augmentera pas nettement."
+        },
+        {
+          "page": 102,
+          "quote": "Supprimer les avantages fiscaux et tarifaires pour toute installation photovoltaïque mise en service après la promulgation de la loi. Ramener les trajectoires d'investissement de RTE et d'Enedis à la mesure des besoins réels."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "energie",
+      "title": "Interdire l'arrêt d'un réacteur faute de demande et élargir les heures creuses",
+      "summary": {
+        "simple": "Aucun réacteur ne serait arrêté faute de demande, et les heures creuses seraient élargies avec un écart de prix plus incitatif.",
+        "normal": "Inscription dans la loi qu'aucun réacteur en service ne peut être arrêté faute de demande, avec priorité automatique au nucléaire ; plages d'heures creuses élargies et écart de prix rendu incitatif ; obligations d'achat d'électricité renouvelable transférées d'EDF aux gestionnaires de réseaux."
+      },
+      "sources": [
+        {
+          "page": 103,
+          "quote": "Inscrire dans la loi qu'aucun réacteur en service ne peut être forcé à l'arrêt faute de demande. RTE calculera en temps réel le niveau de production minimum et déclenchera automatiquement une priorité de production en faveur du nucléaire. Élargir significativement les plages d'heures creuses et rendre l'écart de prix réellement incitatif."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "energie",
+          "section": "portefeuille",
+          "appliesTo": {
+            "all": []
+          },
+          "sentence": {
+            "simple": "Les heures creuses de ton contrat d'électricité seraient élargies, avec un écart de prix plus marqué.",
+            "normal": "Les plages d'heures creuses seraient élargies et l'écart de prix rendu plus incitatif, pour décaler chauffe-eau, chauffage ou recharge de voiture ; l'ampleur n'est pas chiffrée."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "energie",
+      "title": "Instaurer un contrat pour différence entre EDF et les fournisseurs pour stabiliser le prix de l'électricité",
+      "summary": {
+        "simple": "Le prix de l'électricité serait indexé sur les coûts du nucléaire français, avec un objectif de baisse de la facture de 5 à 10 % à partir de 2030.",
+        "normal": "Contrat pour différence bidirectionnel entre EDF et les fournisseurs, pour les particuliers et les entreprises : au-dessus d'un prix de référence fixé par la CRE, les excédents reviennent aux consommateurs, en dessous EDF est compensée ; 100 à 130 TWh couverts ; objectif de baisse de la facture de 5 à 10 % à partir de 2030."
+      },
+      "sources": [
+        {
+          "page": 104,
+          "quote": "Pour les entreprises et les particuliers, instaurer un contrat pour différence bidirectionnel entre EDF et les fournisseurs : quand les prix de marché dépassent le prix de référence fixé par la CRE, les excédents sont reversés aux consommateurs ; quand ils sont inférieurs, EDF reçoit une compensation."
+        },
+        {
+          "page": 104,
+          "quote": "Combinée à l'arrêt du subventionnement des renouvelables et à la protection du parc nucléaire, cette réforme permet de viser une baisse de la facture de 5 à 10 % à partir de 2030."
+        },
+        {
+          "page": 104,
+          "quote": "Les volumes couverts, 100 à 130 TWh, seront alloués proportionnellement à la production nucléaire réelle, heure par heure."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "energie",
+          "section": "portefeuille",
+          "appliesTo": {
+            "all": []
+          },
+          "sentence": {
+            "simple": "Ta facture d'électricité baisserait de 5 à 10 % à partir de 2030, selon l'objectif du candidat.",
+            "normal": "Le prix de l'électricité serait indexé sur les coûts du parc nucléaire ; le programme vise une baisse de la facture de 5 à 10 % à partir de 2030. Montant non calculé pour ton foyer."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "energie",
+      "title": "Sortir l'électricité des certificats d'économies d'énergie et abaisser le coefficient d'énergie primaire du DPE à 1,2",
+      "summary": {
+        "simple": "La facture d'électricité baisserait de 5 % en retirant l'électricité des certificats d'économies d'énergie, et le chauffage électrique serait mieux classé au DPE.",
+        "normal": "Électricité sortie du périmètre des certificats d'économies d'énergie, sans transfert de charge vers les autres énergies, soit selon le programme une baisse directe des factures de 5 % ; coefficient d'énergie primaire du DPE abaissé de 1,9 à 1,2."
+      },
+      "sources": [
+        {
+          "page": 105,
+          "quote": "Sortir l'électricité du périmètre des certificats d'économies d'énergie et réduire d'autant le volume des obligations nationales, sans transfert de charge vers les autres énergies, en concentrant l'effort sur les opérations de sortie des fossiles les plus efficaces à l'euro investi."
+        },
+        {
+          "page": 105,
+          "quote": "La sortie de l'électricité des certificats produit une baisse directe des factures de 5 %"
+        },
+        {
+          "page": 105,
+          "quote": "Abaisser immédiatement le coefficient d'énergie primaire du DPE (redevenu simple outil d'information)de 1,9 à 1,2, niveau déjà retenu par la Finlande."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "energie",
+          "section": "portefeuille",
+          "appliesTo": {
+            "all": []
+          },
+          "sentence": {
+            "simple": "Ta facture d'électricité baisserait de 5 % selon le candidat, en retirant l'électricité des certificats d'économies d'énergie.",
+            "normal": "L'électricité sortirait du dispositif des certificats d'économies d'énergie ; le programme chiffre l'effet à une baisse directe des factures de 5 %. Montant non calculé pour ton foyer : il dépend de ta consommation."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "energie",
+      "title": "Relancer la recherche sur les réacteurs de quatrième génération et viser un premier réacteur en 2045",
+      "summary": {
+        "simple": "La France relancerait la recherche sur les réacteurs nucléaires à neutrons rapides, avec un premier réacteur visé en 2045.",
+        "normal": "Accélération du calendrier du Conseil de politique nucléaire du 12 mars 2026 : relance immédiate des programmes de recherche expérimentale sur un démonstrateur, et mise en service visée d'un premier réacteur de puissance de quatrième génération en 2045, avec ses usines de combustible."
+      },
+      "sources": [
+        {
+          "page": 106,
+          "quote": "Accélérer le calendrier arrêté par le Conseil de politique nucléaire du 12 mars 2026 en relançant immédiatement, en complément des études d'ingénierie, les programmes de recherche expérimentale sur un démonstrateur. Viser la mise en service d'un premier réacteur de puissance en 2045, avec ses usines de fabrication et de retraitement des combustibles."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "international",
+      "title": "S'opposer à l'European Grid Package et défendre la souveraineté de la France sur son mix électrique",
+      "summary": {
+        "simple": "La France s'opposerait au plan européen d'interconnexions électriques et déciderait seule de sa production d'électricité.",
+        "normal": "Opposition totale à l'European Grid Package ; coalition d'États favorables au nucléaire pour imposer la neutralité technologique ; saisine de la Cour de justice de l'Union quand la Commission excède ses compétences ; accords bilatéraux proposés aux voisins."
+      },
+      "sources": [
+        {
+          "page": 107,
+          "quote": "S'opposer totalement à l'European Grid Package et exiger le respect strict des traités, qui reconnaissent à chaque État le droit souverain de déterminer son mix énergétique."
+        },
+        {
+          "page": 107,
+          "quote": "Constituer une coalition d'États favorables au nucléaire pour imposer la neutralité technologique, s'opposer au Conseil européen à tout projet portant atteinte à notre souveraineté énergétique, et saisir la Cour de justice de l'Union lorsque la Commission excédera ses compétences."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "energie",
+      "title": "Porter les stocks d'uranium à cinq ans de consommation et sécuriser le réseau contre les onduleurs pilotables à distance",
+      "summary": {
+        "simple": "La France stockerait cinq ans d'uranium et protégerait le réseau électrique contre le pilotage à distance d'équipements étrangers.",
+        "normal": "Stocks stratégiques d'uranium naturel portés à cinq ans de consommation ; programme industriel européen sur les batteries avec préférence d'achat européenne ; neutralisation des vulnérabilités cyber du réseau, à commencer par les onduleurs photovoltaïques pilotables à distance."
+      },
+      "sources": [
+        {
+          "page": 108,
+          "quote": "Porter les stocks stratégiques d'uranium naturel à cinq ans de consommation."
+        },
+        {
+          "page": 108,
+          "quote": "Neutraliser les vulnérabilités cyber du réseau, à commencer par les onduleurs photovoltaïques pilotables à distance."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    }
+  ]
+}

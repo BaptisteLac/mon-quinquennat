@@ -1,0 +1,169 @@
+{
+  "corpus": "les-republicains-2026-10",
+  "lecteur": "Claude (session Claude Code, 2026-10-30), relecture de chaque fiche tirée contre ses citations et la page source ; même modèle que l'extraction",
+  "date": "2026-10-30",
+  "consigne": "Sens : la fiche (titre, résumés, phrases d'effet) dit ce que dit la citation, sans ajout, omission qui change le sens, ni engagement plus fort ou plus faible. Paramètres : taux, montants, durées, seuils et date d'effet conformes au programme ; « sans_parametre » si la fiche n'en porte aucun.",
+  "verdicts": {
+    "m-d85e5adef490": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-a2956a0971a9": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-183078f6f9d7": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-bc8a2581483e": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-86124cd9f3f1": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-4c33a97511b4": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-c3b3e20e9e00": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-669fa240031a": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-15e928b77096": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-bef66b460c8c": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-b6e6ece99a3e": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-20196212d1da": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-73e8831c29b1": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-97e3f5e7fa75": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-2628cb64ef2e": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-339e9d42394d": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-54d65a3da87b": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-1d5b96e5a0b2": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-cfacda3391d7": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-76d6fdd8f8b1": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-86161dce5b30": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-3bafb803f69a": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-b1d28e758f60": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-7026724140fe": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-948ffac79d16": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-bad658baf663": {
+      "sens": "correct",
+      "parametres": "justes",
+      "note": "Le résumé simple écrit « si les délais sont tenus » pour « si l'avancement des six premiers est satisfaisant » : même condition, formulée plus étroitement ; jugé correct."
+    },
+    "m-a3dbf671eb56": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-79ca09f1cbfc": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-bf16e1f67bb1": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-a753afab8fa1": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-d0cac1645a6c": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-8d7c0bec75e6": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-64cb42fba719": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-4c41c197e6bf": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-30e06531fa32": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-5746dab62e85": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-5512df2000e1": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-b033fae2abf0": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-ef0844750160": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-72b9607c6677": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    }
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "measures": [
+    {
+      "theme": "education",
+      "title": "Supprimer la carte scolaire et la règle du « 80-20 » entre public et privé sous contrat",
+      "summary": {
+        "simple": "Les parents choisiraient librement l'école de leurs enfants : la carte scolaire serait supprimée.",
+        "normal": "Suppression de la carte scolaire et de la règle non écrite qui attribue quatre professeurs sur cinq au public et un au privé sous contrat ; liberté d'instruction en famille jusqu'à six ans ; pas de fermeture de classe rurale sans consultation du conseil municipal."
+      },
+      "sources": [
+        {
+          "page": 29,
+          "quote": "Supprimer la carte scolaire et mettre fin à la règle non écrite du 80-20, qui bride depuis quarante ans un enseignement de plus en plus demandé."
+        },
+        {
+          "page": 29,
+          "quote": "Rendre aux parents qui le souhaitent la liberté d'instruire leur enfant en famille jusqu'à six ans."
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Aucune fermeture de classe en commune rurale sans consultation obligatoire du conseil municipal ; carte des implantations du primaire pluriannuelle.",
+          "source": {
+            "page": 29,
+            "quote": "Dans les communes rurales, aucune classe ne fermera sans consultation obligatoire du conseil municipal, et la carte des implantations du primaire deviendra pluriannuelle, négociée avec les communes au lieu d'être subie."
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": { "field": "enfantsAgeBand", "op": "in", "value": ["3_10", "11_17"] },
+          "sentence": {
+            "simple": "Tu pourrais choisir l'école de tes enfants : la carte scolaire serait supprimée.",
+            "normal": "La carte scolaire serait supprimée : l'école de tes enfants ne dépendrait plus de ton adresse."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Créer 1 000 établissements publics autonomes d'ici 2032 et supprimer le Conseil supérieur des programmes",
+      "summary": {
+        "simple": "Mille écoles, collèges et lycées publics choisiraient librement leurs professeurs et leurs méthodes d'ici 2032.",
+        "normal": "Création de 1 000 établissements publics innovants d'ici 2032, sous contrat de cinq ans, libres de recruter leurs professeurs et de déroger aux programmes, évalués tous les trois ans ; suppression du Conseil supérieur des programmes ; une instance nationale évaluerait et certifierait publiquement chaque établissement."
+      },
+      "sources": [
+        {
+          "page": 30,
+          "quote": "Créer 1 000 établissements publics innovants d'ici 2032, écoles, collèges et lycées, dans les villes comme dans les campagnes et les quartiers."
+        },
+        {
+          "page": 30,
+          "quote": "Évalués tous les trois ans, ils perdront ce statut s'ils échouent. Pour tous les autres, l'autonomie devient la règle : le Conseil supérieur des programmes est supprimé, les programmes ne fixent plus que de grandes orientations."
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Une instance nationale d'évaluation, sur le modèle de l'Ofsted britannique, évaluerait et certifierait publiquement chaque établissement public et privé sous contrat.",
+          "source": {
+            "page": 30,
+            "quote": "Une instance nationale d'évaluation, sur le modèle de l'Ofsted britannique, évaluera et certifiera publiquement chaque établissement, public comme privé sous contrat, et remplacera le Conseil national d'évaluation de l'école, supprimé."
+          }
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "schedule": {
+        "effectiveDate": "2028-01-01",
+        "dateOrigin": "estimee",
+        "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+      }
+    },
+    {
+      "theme": "education",
+      "title": "Augmenter le traitement des professeurs de 135 € nets par mois en début de carrière et d'environ 300 € en milieu",
+      "summary": {
+        "simple": "Les professeurs gagneraient 135 € nets de plus par mois en début de carrière et environ 300 € en milieu de carrière.",
+        "normal": "Alignement du début de carrière des professeurs sur la moyenne européenne (135 € nets de plus par mois) et réduction de moitié de l'écart en milieu de carrière (environ 300 € nets), sur le traitement et non sur les primes ; contrats de mission de cinq ans mieux rémunérés pour les postes difficiles."
+      },
+      "sources": [
+        {
+          "page": 31,
+          "quote": "Aligner intégralement le début de carrière sur la moyenne européenne, soit 135 euros nets de plus chaque mois, et combler au moins la moitié de l'écart au cœur de la carrière, soit environ 300 euros nets supplémentaires. Sur le traitement, pas sur les primes."
+        },
+        {
+          "page": 31,
+          "quote": "Ouvrir des contrats de mission de cinq ans, mieux rémunérés, pour affecter les meilleurs professeurs là où la tâche est la plus rude"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "education",
+      "title": "Relever l'exigence en mathématiques au lycée et confier la voie professionnelle aux Régions",
+      "summary": {
+        "simple": "Deux niveaux de mathématiques dès la seconde, et une voie professionnelle confiée aux Régions avec l'apprentissage dès quatorze ans.",
+        "normal": "Deux niveaux de mathématiques dès la seconde avec passerelle, enseignement de l'économie dès la seconde, réhabilitation des classes préparatoires ; voie professionnelle confiée aux Régions et rapprochée des CFA, avec apprentissage dès la quatrième et objectif de 100 % d'alternance."
+      },
+      "sources": [
+        {
+          "page": 32,
+          "quote": "Relever l'exigence mathématique au lycée, réhabiliter les classes préparatoires et grandes écoles, et faire de la voie professionnelle une voie d'excellence confiée aux Régions avec apprentissage dès quatorze ans."
+        },
+        {
+          "page": 32,
+          "quote": "Dès la seconde, deux niveaux de mathématiques seront proposés avec passerelle possible"
+        },
+        {
+          "page": 32,
+          "quote": "La voie professionnelle sera confiée aux Régions et rapprochée des CFA, avec apprentissage dès la quatrième et visée de 100% d'alternance, et les référentiels professionnels réécrits avec les branches."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": { "field": "enfantsAgeBand", "op": "eq", "value": "11_17" },
+          "sentence": {
+            "simple": "Au lycée, tes enfants auraient deux niveaux de mathématiques dès la seconde.",
+            "normal": "Deux niveaux de mathématiques seraient proposés dès la seconde ; la voie professionnelle passerait aux Régions, avec l'apprentissage possible dès la quatrième."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Instaurer un examen d'entrée en sixième et des groupes de niveau au collège",
+      "summary": {
+        "simple": "Un examen à l'entrée en sixième placerait chaque élève dans un groupe de niveau, revu régulièrement.",
+        "normal": "Examen d'entrée en sixième déterminant l'affectation dans des groupes de niveau, révisés régulièrement avec des passerelles de la sixième à la troisième ; regroupement des écoles autour de leur collège en « écoles du socle »."
+      },
+      "sources": [
+        {
+          "page": 33,
+          "quote": "Instaurer un examen d'entrée en sixième qui déterminera l'affectation du collégien dans des groupes de niveau, pour y acquérir vraiment, consolider ou approfondir les acquis du primaire."
+        },
+        {
+          "page": 33,
+          "quote": "Regrouper plusieurs écoles autour de leur collège en écoles du socle, pour supprimer la rupture brutale entre l'école et le collège."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": { "field": "enfantsAgeBand", "op": "in", "value": ["3_10", "11_17"] },
+          "sentence": {
+            "simple": "Tes enfants passeraient un examen d'entrée en sixième, puis seraient répartis en groupes de niveau.",
+            "normal": "Un examen d'entrée en sixième déciderait du groupe de niveau de chaque collégien ; les groupes seraient revus régulièrement."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Recentrer le primaire sur lire, écrire, compter et réduire les vacances scolaires à quatorze semaines",
+      "summary": {
+        "simple": "L'école primaire se concentrerait sur le français, le calcul, l'anglais et l'histoire, et les vacances passeraient de seize à quatorze semaines.",
+        "normal": "Programmes du primaire recentrés sur lire, écrire, compter, l'histoire et la géographie de la France ; heures des « éducations à » rendues au français, au calcul et à l'anglais ; quinze minutes de lecture par jour du primaire au collège ; vacances ramenées de seize à quatorze semaines."
+      },
+      "sources": [
+        {
+          "page": 34,
+          "quote": "Recentrer les programmes du primaire sur le lire, écrire, compter, ainsi que sur l'histoire et la géographie de la France."
+        },
+        {
+          "page": 34,
+          "quote": "Consacrer chaque jour quinze minutes à la lecture, à hauteur de chaque âge, du primaire au collège."
+        },
+        {
+          "page": 34,
+          "quote": "Le temps scolaire sera par ailleurs étendu en ramenant les vacances de seize à quatorze semaines, à la moyenne des pays européens."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": { "field": "enfantsAgeBand", "op": "in", "value": ["3_10", "11_17"] },
+          "sentence": {
+            "simple": "Les vacances scolaires de tes enfants passeraient de seize à quatorze semaines par an.",
+            "normal": "Les vacances scolaires seraient ramenées de seize à quatorze semaines, et chaque jour quinze minutes seraient consacrées à la lecture, du primaire au collège."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Rétablir la note chiffrée et faire du brevet une condition d'entrée au lycée",
+      "summary": {
+        "simple": "Retour des notes chiffrées, fin du passage automatique, et un brevet qui conditionnerait l'entrée au lycée.",
+        "normal": "Rétablissement de la note chiffrée ; remise à niveau plutôt que passage automatique ; redoublement et orientation décidés par les seuls conseils de classe ; brevet conditionnant l'entrée au lycée ; niveau du baccalauréat relevé ; sélection à l'université par un Parcoursup refondé."
+      },
+      "sources": [
+        {
+          "page": 35,
+          "quote": "Rétablir la note chiffrée, claire et lisible. Répondre à chaque difficulté détectée par une remise à niveau et une remédiation, jamais par un passage automatique."
+        },
+        {
+          "page": 35,
+          "quote": "Faire du brevet un véritable palier d'orientation, conditionnant l'entrée au lycée dans la voie générale, technologique ou professionnelle. Relever substantiellement le niveau du baccalauréat."
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Autoriser les universités à choisir leurs étudiants par un Parcoursup refondé intégrant les résultats du baccalauréat.",
+          "source": {
+            "page": 35,
+            "quote": "Les universités, enfin, seront autorisées à choisir leurs étudiants sur des critères transparents, par un Parcoursup refondé en outil d'information et de sélection, intégrant les résultats du baccalauréat qu'il ignore aujourd'hui."
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": { "field": "enfantsAgeBand", "op": "in", "value": ["3_10", "11_17"] },
+          "sentence": {
+            "simple": "Tes enfants auraient de nouveau des notes chiffrées, et le brevet conditionnerait l'entrée au lycée.",
+            "normal": "La note chiffrée serait rétablie, il n'y aurait plus de passage automatique et le brevet conditionnerait l'entrée au lycée."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Créer au moins un internat disciplinaire par académie",
+      "summary": {
+        "simple": "Les élèves exclus à plusieurs reprises iraient dans un internat disciplinaire, même sans l'accord des parents.",
+        "normal": "Réseau d'internats disciplinaires, au moins un par académie, avec encadrement renforcé ; affectation décidée par l'autorité académique après des exclusions répétées, sans que le refus des parents puisse s'y opposer ; classes de dix à douze élèves."
+      },
+      "sources": [
+        {
+          "page": 36,
+          "quote": "Créer un réseau d'internats disciplinaires, au moins un par académie : scolarité complète, internat, encadrement renforcé par des professeurs volontaires et mieux rémunérés, éducateurs, lien permanent avec la protection judiciaire de la jeunesse."
+        },
+        {
+          "page": 36,
+          "quote": "L'affectation sera décidée par l'autorité académique après des exclusions répétées, sans que le refus des parents puisse y faire obstacle."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "education",
+      "title": "Reconnaître le professeur dépositaire de l'autorité publique et étendre la neutralité aux accompagnateurs de sorties",
+      "summary": {
+        "simple": "Agresser un professeur serait puni plus sévèrement, et les parents accompagnant une sortie scolaire devraient être neutres.",
+        "normal": "Professeur reconnu dépositaire de l'autorité publique, avec peines aggravées et poursuites systématiques des agressions ; service de protection juridique dans chaque rectorat ; neutralité de la loi de 2004 étendue aux accompagnateurs des sorties scolaires ; contrat d'engagement signé par chaque famille."
+      },
+      "sources": [
+        {
+          "page": 37,
+          "quote": "Reconnaître le professeur dépositaire de l'autorité publique : il bénéficiera des mêmes peines aggravées que ceux qui font respecter la loi dans la rue ou au tribunal, et les parquets recevront instruction de poursuivre systématiquement ces agressions."
+        },
+        {
+          "page": 37,
+          "quote": "Étendre la neutralité de la loi de 2004 aux accompagnateurs des sorties scolaires."
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Un contrat d'engagement signé par chaque famille sur le respect des programmes, de la laïcité et de l'autorité des professeurs.",
+          "source": {
+            "page": 37,
+            "quote": "Une alliance éducative prendra la forme d'un contrat d'engagement signé par chaque famille, portant sur le respect des programmes, de la laïcité et de l'autorité des professeurs."
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": { "field": "enfantsAgeBand", "op": "in", "value": ["3_10", "11_17"] },
+          "sentence": {
+            "simple": "Tu signerais un contrat d'engagement avec l'école, et tu devrais rester neutre en accompagnant une sortie scolaire.",
+            "normal": "Chaque famille signerait un contrat d'engagement (programmes, laïcité, autorité des professeurs) ; la neutralité religieuse s'appliquerait aux parents accompagnant les sorties scolaires."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Contrôler tous les adultes au contact d'enfants et donner la priorité aux femmes dans le périscolaire en maternelle",
+      "summary": {
+        "simple": "Tout adulte travaillant avec des enfants serait contrôlé avant et pendant son poste, et les femmes seraient prioritaires pour l'animation en maternelle.",
+        "normal": "Vérification avant la prise de poste puis surveillance permanente de tout adulte au contact d'enfants, sur le modèle britannique ; interdiction définitive d'exercer après une condamnation pour violence sexuelle sur mineur ; à candidature équivalente, priorité aux femmes dans l'animation périscolaire en maternelle."
+      },
+      "sources": [
+        {
+          "page": 38,
+          "quote": "Aucun adulte n'approchera un enfant sans avoir été contrôlé : enseignant, animateur, vacataire, accompagnateur, bénévole."
+        },
+        {
+          "page": 38,
+          "quote": "Donner la priorité au recrutement de femmes dans l'animation périscolaire auprès des enfants de maternelle, là où des adultes se retrouvent seuls avec des tout-petits. Toute condamnation pour violence sexuelle sur mineur entraînera l'interdiction définitive d'exercer au contact d'enfants."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": { "field": "enfantsAgeBand", "op": "in", "value": ["0_2", "3_10", "11_17"] },
+          "sentence": {
+            "simple": "Tout adulte encadrant tes enfants, même bénévole, serait contrôlé avant et pendant sa mission.",
+            "normal": "Tout adulte au contact d'enfants (école, périscolaire, club de sport, colonie) serait vérifié avant sa prise de poste puis surveillé en continu."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Créer une Réserve nationale des sciences dans chaque académie",
+      "summary": {
+        "simple": "Des ingénieurs, chercheurs et médecins volontaires interviendraient dans les classes avec les professeurs.",
+        "normal": "Création, sur le modèle de la réserve opérationnelle des armées, d'une Réserve nationale des sciences : dans chaque académie, des volontaires en activité ou retraités interviendraient en classe sous l'autorité du professeur ; ouverture progressive à d'autres disciplines."
+      },
+      "sources": [
+        {
+          "page": 39,
+          "quote": "Créer, sur le modèle de la réserve opérationnelle de nos armées, une Réserve nationale des sciences."
+        },
+        {
+          "page": 39,
+          "quote": "Dans chaque académie, elle rassemblera des ingénieurs, des chercheurs, des techniciens et des médecins volontaires, en activité ou à la retraite, qui interviendront dans les classes sous l'autorité du professeur"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    }
+  ]
+}

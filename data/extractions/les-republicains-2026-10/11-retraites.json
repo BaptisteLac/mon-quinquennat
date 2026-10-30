@@ -1,0 +1,292 @@
+{
+  "measures": [
+    {
+      "theme": "retraite",
+      "title": "Permettre le départ à la retraite dès 63 ans et garantir le taux plein à 65 ans",
+      "summary": {
+        "simple": "On pourrait partir à la retraite dès 63 ans, avec environ 7 % de pension en moins par année avant 65 ans ; à 65 ans, la pension serait à taux plein pour tous.",
+        "normal": "Départ possible dès 63 ans, avec une pension réduite d'environ 7 % par année avant 65 ans (86 % à 63 ans, 93 % à 64 ans) ; taux plein garanti à 65 ans quels que soient les trimestres ; mêmes âges pour le privé et le public, puis indexés sur l'espérance de vie ; droit actuel pour un départ en 2027, écart avec l'ancien système plafonné à 3 % en 2028, 6 % en 2029 et 12 % en 2030."
+      },
+      "sources": [
+        {
+          "page": 130,
+          "quote": "Partir dès 63 ans sera un droit, et chacun connaîtra à l'avance le montant de sa pension selon l'âge qu'il choisit. À 65 ans, le taux plein sera garanti à tous, quels que soient les trimestres cotisés ou validés. Ces deux âges seront les mêmes pour les salariés du privé et pour les agents publics. Ils évolueront ensuite avec l'espérance de vie, selon une formule inscrite dans la loi."
+        },
+        {
+          "page": 130,
+          "quote": "Chaque année de départ avant 65 ans réduit la pension d'environ 7 %, pour la retraite de base comme pour la complémentaire. Un départ à 63 ans donne ainsi droit à 86 % de la pension, un départ à 64 ans à 93 %, un départ à 65 ans ou plus à 100 %."
+        },
+        {
+          "page": 130,
+          "quote": "Pour un départ en 2027, le droit actuel s'applique. Ensuite, l'écart entre la pension calculée selon l'ancien système et celle calculée selon le nouveau est plafonné, dans un sens comme dans l'autre, à 3 % en 2028, 6 % en 2029 et 12 % en 2030, avant le plein régime en 2031."
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Pension proportionnelle à la durée de cotisation conservée (41 années sur 43 donnent 41/43e de la pension).",
+          "source": {
+            "page": 130,
+            "quote": "Avec 41 années cotisées sur 43, on touche 41/43e de sa pension, et cette règle de justice contributive est conservée."
+          }
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "age_depart_retraite",
+          "section": "temps",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "in",
+            "value": [
+              "salarie_prive",
+              "fonctionnaire",
+              "independant",
+              "chef_entreprise",
+              "demandeur_emploi",
+              "sans_activite"
+            ]
+          },
+          "computation": {
+            "kind": "formule",
+            "formulaId": "retraite_age_depart",
+            "params": [
+              {
+                "name": "ageLegal",
+                "value": 63
+              }
+            ]
+          }
+        },
+        {
+          "ticketLine": "pension",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "in",
+            "value": [
+              "salarie_prive",
+              "fonctionnaire",
+              "independant",
+              "chef_entreprise",
+              "demandeur_emploi",
+              "sans_activite"
+            ]
+          },
+          "sentence": {
+            "simple": "Partir à 63 ans donnerait 86 % de ta pension, à 64 ans 93 %, et 100 % à partir de 65 ans.",
+            "normal": "Chaque année de départ avant 65 ans réduirait la pension d'environ 7 % ; le taux plein serait garanti à 65 ans quelle que soit la durée de cotisation. Montant non calculé pour ton profil."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "retraite",
+      "title": "Ramener de 67 à 65 ans l'âge d'annulation de la décote",
+      "summary": {
+        "simple": "Ceux qui n'ont pas tous leurs trimestres pourraient partir sans décote à 65 ans au lieu de 67 ans.",
+        "normal": "Âge d'annulation de la décote ramené de 67 à 65 ans : départ au taux plein à 65 ans quelle que soit la durée de cotisation ; mesure destinée d'abord aux carrières hachées, majoritairement celles de femmes."
+      },
+      "sources": [
+        {
+          "page": 131,
+          "quote": "Deux années de retraite seront rendues à ceux qui n'ont pas tous leurs trimestres. L'âge d'annulation de la décote sera ramené de 67 à 65 ans, et chacun partira au taux plein à 65 ans, quelle que soit sa durée de cotisation."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "pension",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "in",
+            "value": [
+              "salarie_prive",
+              "fonctionnaire",
+              "independant",
+              "chef_entreprise",
+              "demandeur_emploi",
+              "sans_activite"
+            ]
+          },
+          "sentence": {
+            "simple": "Si tu n'as pas tous tes trimestres, tu pourrais partir sans décote à 65 ans au lieu de 67.",
+            "normal": "L'âge d'annulation de la décote passerait de 67 à 65 ans : le taux plein serait atteint à 65 ans quelle que soit la durée de cotisation."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "retraite",
+      "title": "Exonérer de cotisations retraite et chômage ceux qui ont leur carrière complète avant 63 ans",
+      "summary": {
+        "simple": "Ceux qui ont commencé tôt et ont 43 années cotisées avant 63 ans ne paieraient plus de cotisations retraite et chômage, et auraient le taux plein dès 63 ans.",
+        "normal": "Pour une carrière complète (43 années cotisées) avant 63 ans : plus de cotisations retraite ni chômage sur le salaire, soit environ 14 % de salaire net en plus selon le programme, et taux plein garanti dès 63 ans par dérogation au barème ; surcote et cumul emploi-retraite ouverts à partir de 65 ans."
+      },
+      "sources": [
+        {
+          "page": 132,
+          "quote": "Celui qui a commencé tôt et réunit sa carrière complète avant 63 ans, soit 43 années cotisées, gagnera environ 14 % de salaire net en plus s'il continue de travailler. Son salaire ne paiera plus de cotisations retraite ni chômage, ce qui allège aussi le coût de son travail pour l'employeur."
+        },
+        {
+          "page": 132,
+          "quote": "Sa carrière complète sera reconnue, puisque le taux plein lui sera garanti dès 63 ans, par dérogation au barème."
+        },
+        {
+          "page": 132,
+          "quote": "La surcote et le cumul emploi-retraite rénové s'ouvrent, eux, à partir de 65 ans, selon le droit commun."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "salaire_net",
+          "section": "portefeuille",
+          "appliesTo": {
+            "all": [
+              {
+                "field": "age",
+                "op": "gte",
+                "value": 55
+              },
+              {
+                "field": "situationPro",
+                "op": "eq",
+                "value": "salarie_prive"
+              }
+            ]
+          },
+          "sentence": {
+            "simple": "Si tu as 43 années cotisées avant 63 ans, ton salaire ne paierait plus de cotisations retraite et chômage : environ 14 % de net en plus selon le candidat.",
+            "normal": "Avec une carrière complète avant 63 ans, les cotisations retraite et chômage seraient supprimées sur ton salaire (environ 14 % de net en plus selon le programme) et le taux plein serait garanti dès 63 ans. Montant non calculé : le profil ne dit pas combien d'années tu as cotisé."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "retraite",
+      "title": "Majorer la pension de 5 % par année travaillée après 65 ans et ouvrir un cumul emploi-retraite sans cotisations",
+      "summary": {
+        "simple": "Après 65 ans, chaque année travaillée augmenterait la pension de 5 %, ou l'on pourrait cumuler pension et salaire sans cotisations jusqu'à 24 heures par semaine.",
+        "normal": "Après 65 ans avec une carrière complète : pension majorée de 5 % par année travaillée à plein temps sans liquidation ; ou cumul pension et salaire jusqu'à 24 heures par semaine, sans cotisations sociales (hors CSG-CRDS) ni délai de carence, la pension étant réduite de 30 % du salaire pendant le cumul."
+      },
+      "sources": [
+        {
+          "page": 133,
+          "quote": "Celui qui continue à plein temps sans liquider sa retraite verra sa pension majorée de 5 % par année travaillée, pour toute sa retraite. Celui qui veut lever le pied pourra cumuler sa pension et un salaire, jusqu'à 24 heures par semaine, sans cotisations sociales et sans délai de carence."
+        },
+        {
+          "page": 133,
+          "quote": "La pension est simplement ajustée d'un montant égal à 30 % du salaire pendant le cumul, et retrouve son montant plein dès que l'on s'arrête."
+        },
+        {
+          "page": 133,
+          "quote": "Après 65 ans, dès que la carrière est complète, chaque mois travaillé enrichira, et chacun choisira comment."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "pension",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "age",
+            "op": "gte",
+            "value": 60
+          },
+          "sentence": {
+            "simple": "Après 65 ans, chaque année de travail en plus augmenterait ta pension de 5 % à vie, ou tu pourrais cumuler pension et salaire sans cotisations.",
+            "normal": "Après 65 ans avec une carrière complète : surcote de 5 % par année travaillée à plein temps, ou cumul emploi-retraite jusqu'à 24 heures par semaine sans cotisations sociales, la pension étant réduite de 30 % du salaire perçu."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "retraite",
+      "title": "Confier la pénibilité aux branches professionnelles, métier par métier",
+      "summary": {
+        "simple": "Les partenaires sociaux de chaque branche décideraient des aménagements de fin de carrière pour les métiers pénibles, à la place du dispositif carrières longues.",
+        "normal": "Pénibilité traitée par les partenaires sociaux branche par branche : chaque branche finance les aménagements de fin de carrière à partir de 63 ans (temps partiel, adaptation, reconversion, rachat de décote) avec l'enveloppe actuelle des carrières longues ; départ à taux plein à 62 ans maintenu pour les inaptes et invalides, et dès 55 ans pour les travailleurs handicapés."
+      },
+      "sources": [
+        {
+          "page": 134,
+          "quote": "La pénibilité sera traitée branche par branche, métier par métier, par les partenaires sociaux, qui savent qui s'use vraiment au travail. Chaque branche financera les aménagements de fin de carrière à partir de 63 ans, qu'il s'agisse de temps partiel, d'adaptation des postes, de reconversion ou de rachats de décote pour partir plus tôt dans les métiers usants."
+        },
+        {
+          "page": 134,
+          "quote": "Les assurés inaptes ou invalides gardent un départ à taux plein à 62 ans, et la retraite anticipée des travailleurs handicapés dès 55 ans est intégralement maintenue."
+        },
+        {
+          "page": 134,
+          "quote": "La totalité de l'enveloppe aujourd'hui consacrée aux carrières longues sera confiée aux partenaires sociaux."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "retraite",
+      "title": "Créer pour chaque salarié un compte de retraite par capitalisation alimenté par 1 % du salaire",
+      "summary": {
+        "simple": "Chaque salarié aurait un compte retraite à son nom, alimenté par 1 % de son salaire, moitié par lui, moitié par son employeur.",
+        "normal": "Compte individuel de retraite par capitalisation pour chaque salarié du privé et du public, bloqué jusqu'au départ et protégé par la Constitution ; alimenté par 1 % du salaire dans la limite du plafond de la Sécurité sociale, moitié salarié, moitié employeur ; cotisation additionnelle sur les primes des fonctionnaires doublée ; gestion par les partenaires sociaux ; retraités actuels non concernés."
+      },
+      "sources": [
+        {
+          "page": 135,
+          "quote": "Chaque salarié, du privé comme du public, aura un capital à son nom pour sa retraite, sur un compte individuel bloqué jusqu'à son départ et protégé par la Constitution."
+        },
+        {
+          "page": 135,
+          "quote": "Le compte est alimenté par une cotisation de 1 % du salaire, dans la limite du plafond de la Sécurité sociale, versée pour moitié par le salarié et pour moitié par l'employeur, soit 6 milliards d'euros à l'horizon 2032."
+        },
+        {
+          "page": 135,
+          "quote": "Dans la fonction publique, la cotisation de retraite additionnelle sur les primes sera doublée et versée sur le compte."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "revision_constitutionnelle",
+      "effects": [
+        {
+          "ticketLine": "pension",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "in",
+            "value": [
+              "salarie_prive",
+              "fonctionnaire"
+            ]
+          },
+          "sentence": {
+            "simple": "1 % de ton salaire, payé moitié par toi et moitié par ton employeur, irait sur un compte retraite à ton nom.",
+            "normal": "Un compte individuel de retraite par capitalisation serait alimenté par 1 % du salaire (dans la limite du plafond de la Sécurité sociale), moitié salarié, moitié employeur ; la répartition reste le socle."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "retraite",
+      "title": "Déduction des versements PER portée à 50 000 € par an et crédit d'impôt de 30 % pour les non-imposables",
+      "summary": {
+        "simple": "Épargner pour sa retraite serait encouragé même sans payer d'impôt, avec un crédit d'impôt de 30 %.",
+        "normal": "Aucun produit d'épargne retraite fermé ; déduction des versements volontaires sur un PER portée à 50 000 € par an ; crédit d'impôt de 30 % pour les non-imposables ; participation et intéressement versés par défaut sur le compte individuel de retraite ; rente défiscalisée à hauteur de 25 %."
+      },
+      "sources": [
+        {
+          "page": 136,
+          "quote": "Les versements volontaires garderont l'avantage fiscal du PER, avec une déduction portée à 50 000 euros par an et un crédit d'impôt de 30 % pour les non-imposables. La participation et l'intéressement iront par défaut sur le compte individuel de retraite, et la rente sera défiscalisée à hauteur de 25 %."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    }
+  ]
+}

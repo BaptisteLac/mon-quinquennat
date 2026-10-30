@@ -1,0 +1,109 @@
+{
+  "measures": [
+    {
+      "theme": "finances_publiques",
+      "title": "Soumettre au référendum la « règle d'or » de 2011 et imposer des lois-cadres pluriannuelles des finances publiques",
+      "summary": {
+        "simple": "Le projet de « règle d'or » budgétaire de 2011 serait soumis au référendum dans les cent jours, et aucun budget ne pourrait être voté sans loi-cadre pluriannuelle.",
+        "normal": "Référendum, dans les cent jours, sur le projet de loi constitutionnelle relatif à l'équilibre des finances publiques adopté par les deux assemblées le 13 juillet 2011 ; lois-cadres sur au moins trois ans couvrant État, Sécurité sociale et collectivités, avec plafond de dépenses annuel s'imposant aux lois de finances ; pas de loi-cadre, pas de budget."
+      },
+      "sources": [
+        {
+          "page": 109,
+          "quote": "Demander au Président de la République de soumettre immédiatement au référendum, par l'article 89 de la Constitution, le projet de loi constitutionnelle relatif à l'équilibre des finances publiques adopté dans les mêmes termes par l'Assemblée nationale et le Sénat le 13 juillet 2011 ; élus, nous le ferions dans les cent jours"
+        },
+        {
+          "page": 109,
+          "quote": "Des lois-cadres fixant une trajectoire des finances publiques sur au moins trois ans, couvrant l'État, la Sécurité sociale et les collectivités ; chaque année un plafond de dépenses et un minimum de mesures nouvelles en recettes qui s'imposent aux lois de finances et de financement ; pas de loi-cadre, pas de budget"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "referendum",
+      "schedule": {
+        "effectiveDate": "2027-08-22",
+        "dateOrigin": "estimee",
+        "estimationRule": "Annoncée « dans les cent jours » : cent jours après le début du mandat (14 mai 2027)"
+      }
+    },
+    {
+      "theme": "finances_publiques",
+      "title": "Réaliser 197 milliards d'euros d'économies en 2032, dont 146 milliards pour réduire le déficit",
+      "summary": {
+        "simple": "L'État ferait 197 milliards d'euros d'économies par an en 2032, pour ramener le déficit sous 3 % en 2031.",
+        "normal": "197 milliards d'euros d'économies en 2032 : 146 milliards affectés à la réduction du déficit et 51 milliards rendus ; déficit sous 3 % en 2031 (2,8 %) et à 2,2 % en 2032 ; excédent primaire dès 2030, la dette atteignant son point haut en 2030."
+      },
+      "sources": [
+        {
+          "page": 110,
+          "quote": "197 Md€ d'économies en 2032, dont 146 Md€ pour le déficit et 51 Md€ rendus, pour un déficit sous 3 % en 2031 et 2,2 % en 2032, excédent primaire dès 2030"
+        },
+        {
+          "page": 111,
+          "quote": "Sur 197 Md€ d'économies en 2032, 146 Md€ vont à la réduction du déficit ; le déficit repasse sous 3 % en 2031 (2,8 %) et atteint 2,2 % en 2032, dès 2030 la France dégage un excédent hors intérêts de la dette, la dette atteint son point haut en 2030 puis recule"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "finances_publiques",
+      "title": "Ne pas remplacer 400 000 départs en retraite de fonctionnaires et supprimer ou rapatrier les 1 153 agences de l'État",
+      "summary": {
+        "simple": "400 000 fonctionnaires partant en retraite ne seraient pas remplacés, sans licenciement, et les agences de l'État seraient supprimées ou rapatriées.",
+        "normal": "400 000 départs en retraite non remplacés sur le quinquennat, sans licenciement ; suppression ou rapatriement des 1 153 agences et opérateurs ; budgets d'intervention en base zéro, suppression des programmes de plus de 500 millions d'euros évalués négativement sauf vote du Parlement ; 56 milliards d'euros au total, dont 25 pour les départs non remplacés."
+      },
+      "sources": [
+        {
+          "page": 112,
+          "quote": "400 000 départs en retraite non remplacés sur le quinquennat sans licenciement, suppression ou rapatriement des 1 153 agences et opérateurs, budgets en base zéro sur les interventions avec suppression des programmes de plus de 500 M€ évalués négativement sauf vote du Parlement"
+        },
+        {
+          "page": 112,
+          "quote": "56 Md€ au total, détaillés en six mesures dont 25 Md€ pour les départs en retraite non remplacés"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "finances_publiques",
+      "title": "Économiser 32 milliards d'euros en confiant des missions au privé et en supprimant des dispositifs",
+      "summary": {
+        "simple": "L'État confierait certaines missions au privé et supprimerait des dispositifs jugés inefficaces, pour 32 milliards d'euros d'économies.",
+        "normal": "Trois gisements : missions confiées au privé (5 milliards), trois politiques passées au tamis (13 milliards), dispositifs sans résultat démontré supprimés (14 milliards) ; 32 milliards au total, répartis notamment entre immobilier et achats, formation, énergies intermittentes, immigration, coopération, culture et médias, emploi et jeunesse."
+      },
+      "sources": [
+        {
+          "page": 113,
+          "quote": "Trois gisements : confier au privé ce qu'il fait mieux (5 Md€), passer trois politiques au tamis (13 Md€), supprimer les dispositifs sans résultat démontré (14 Md€)"
+        },
+        {
+          "page": 113,
+          "quote": "32 Md€ au total, répartis entre immobilier et achats, formation, énergies intermittentes, immigration, coopération, culture et médias, transition, emploi et jeunesse, autres niches"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "finances_publiques",
+      "title": "Récupérer 8 milliards d'euros sur la fraude fiscale et sociale et les abus de subventions associatives",
+      "summary": {
+        "simple": "La lutte contre la fraude et le retrait de subventions à certaines associations rapporteraient 8 milliards d'euros.",
+        "normal": "Gel administratif des avoirs étendu aux grands montages fiscaux, intelligence artificielle anti-fraude et croisement des fichiers, amendes indexées sur le profit ou le chiffre d'affaires ; retrait et remboursement des subventions aux associations qui contestent la loi dans l'illégalité ou entravent des chantiers autorisés ; 8 milliards au total, dont 5 de fraude et 3 d'abus des associations."
+      },
+      "sources": [
+        {
+          "page": 114,
+          "quote": "Gel administratif des avoirs étendu au fiscal pour les grands montages, programme IA anti-fraude et croisement des fichiers, amendes indexées sur le profit ou le chiffre d'affaires, aides publiques sécurisées dès leur conception ; retrait et remboursement des subventions aux associations qui contestent la loi dans l'illégalité ou entravent des chantiers autorisés"
+        },
+        {
+          "page": 114,
+          "quote": "8 Md€ au total, dont 5 Md€ de fraude fiscale et aux aides publiques et 3 Md€ d'abus des associations"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "measures": [
+    {
+      "theme": "numerique",
+      "title": "Héberger les applications d'IA sensibles sous juridiction européenne et créer des espaces de données souverains",
+      "summary": {
+        "simple": "Les applications d'IA de l'État et des infrastructures critiques devraient être hébergées en Europe, sur des offres sécurisées.",
+        "normal": "Applications d'IA liées aux fonctions régaliennes, aux opérateurs d'importance vitale et aux infrastructures critiques hébergées sur des offres de type SecNumCloud, sous juridiction européenne ; création d'espaces de données sectoriels souverains, consolidés au niveau européen sous la marque EuroDatas."
+      },
+      "sources": [
+        {
+          "page": 115,
+          "quote": "Sanctuariser l'hébergement des usages sensibles : toutes les applications d'IA liées aux fonctions régaliennes, aux fonctions sensibles des opérateurs d'importance vitale et aux infrastructures critiques devront être hébergées sur des offres de type SecNumCloud, intégralement sous juridiction européenne."
+        },
+        {
+          "page": 115,
+          "quote": "Créer, sous autorité publique, de grands espaces de données sectoriels souverains dans les domaines stratégiques, consolidés au niveau européen sous une marque unifiée, EuroDatas."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "numerique",
+      "title": "Former plusieurs millions d'actifs à l'IA en deux ans, avec un socle de vingt heures",
+      "summary": {
+        "simple": "Plusieurs millions de salariés et d'agents publics seraient formés à l'intelligence artificielle en deux ans, au moins vingt heures chacun.",
+        "normal": "Formation en deux ans de plusieurs millions d'actifs à l'IA, avec un socle de vingt heures, dans le privé comme dans le public : plan de développement des compétences, CPF rénové cofinancé à 20 % par l'employeur et abondement ciblé pour ceux sans employeur ; doublement du nombre d'ingénieurs spécialisés ; suspension des indemnités en cas de refus d'une offre correspondant aux qualifications acquises."
+      },
+      "sources": [
+        {
+          "page": 116,
+          "quote": "Former en deux ans plusieurs millions d'actifs à l'intelligence artificielle, avec un socle minimum de vingt heures, dans le privé comme dans le public."
+        },
+        {
+          "page": 116,
+          "quote": "L'effort reposera sur trois étages : le plan de développement des compétences pour les entreprises, un compte personnel de formation rénové et cofinancé par l'employeur à hauteur de 20 %, et un abondement ciblé du CPF pour ceux qui n'ont pas d'employeur en mesure de cofinancer."
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Doubler le nombre d'ingénieurs spécialisés en IA, informatique, robotique et mathématiques appliquées.",
+          "source": {
+            "page": 116,
+            "quote": "Le nombre d'ingénieurs spécialisés en IA, informatique, robotique, mathématiques appliquées et infrastructures numériques sera doublé"
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu",
+      "effects": [
+        {
+          "ticketLine": "temps_travail",
+          "section": "temps",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "in",
+            "value": [
+              "salarie_prive",
+              "fonctionnaire",
+              "demandeur_emploi"
+            ]
+          },
+          "sentence": {
+            "simple": "Tu pourrais suivre au moins vingt heures de formation à l'intelligence artificielle.",
+            "normal": "Plusieurs millions d'actifs seraient formés à l'IA en deux ans, avec un socle de vingt heures, par l'employeur ou un CPF cofinancé."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "numerique",
+      "title": "Lancer un programme « Retour au pays » avec cinq ans d'exonération d'impôt pour les talents de la tech",
+      "summary": {
+        "simple": "Les meilleurs Français de la tech revenant de l'étranger ne paieraient pas d'impôt sur le revenu pendant cinq ans, et un visa Talents Tech serait créé.",
+        "normal": "Programme « Retour au pays » pour les meilleurs Français de la tech installés à l'étranger : exonération totale d'impôt sur le revenu pendant cinq ans, missions dans l'État ou les grandes entreprises, capital d'amorçage, chaires académiques ; visa Talents Tech délivré en quelques semaines."
+      },
+      "sources": [
+        {
+          "page": 117,
+          "quote": "Lancer un programme « Retour au pays » ciblé sur les meilleurs Français de la tech installés à l'étranger : exonération totale d'impôt sur le revenu pendant cinq ans, missions d'envergure dans l'État ou au sein de nos champions industriels, capital amorçage pour entrepreneurs, chaires académiques pour chercheurs. Créer un visa Talents Tech délivré en quelques semaines."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "fiscalite",
+      "title": "Supprimer la contribution patronale sur l'actionnariat salarié et imposer le gain comme une plus-value",
+      "summary": {
+        "simple": "Les entreprises ne paieraient plus de contribution en attribuant des actions à leurs salariés, et le gain serait imposé comme une plus-value.",
+        "normal": "Suppression totale de la contribution patronale sur tous les dispositifs d'actionnariat salarié ; gain d'un salarié ou dirigeant qui prend un risque sur son capital imposé comme une plus-value et non comme un salaire, sécurisé par un rescrit rapide."
+      },
+      "sources": [
+        {
+          "page": 118,
+          "quote": "Supprimer totalement la contribution patronale sur tous les dispositifs d'actionnariat salarié. Poser que lorsqu'un salarié ou un dirigeant prend un risque réel sur son capital et conserve ses titres, son gain est imposé comme une plus-value et non requalifié en salaire déguisé."
+        },
+        {
+          "page": 118,
+          "quote": "Sécuriser ce traitement par un rescrit rapide, fondé sur le rapport de l'expert-comptable, validant le multiple de performance retenu."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "numerique",
+      "title": "Recentrer la CNIL et permettre des dérogations de trois ans au RGPD et à l'AI Act pour l'innovation",
+      "summary": {
+        "simple": "Certains projets d'innovation stratégiques pourraient déroger pendant trois ans aux règles européennes sur les données et l'IA, et la CNIL serait recentrée.",
+        "normal": "Aucune exigence nationale au-delà du droit européen ; CNIL recentrée, après audit, sur la protection des mineurs, des familles, des publics vulnérables et les abus des grandes plateformes ; régime expérimental de dérogation de trois ans au RGPD et à l'AI Act pour des projets de recherche ou d'innovation à fort enjeu stratégique, sur déclaration préalable."
+      },
+      "sources": [
+        {
+          "page": 119,
+          "quote": "Recentrer la CNIL sur ses missions essentielles, après un audit complet de son action, en concentrant ses moyens sur la protection des mineurs, des familles, des publics vulnérables et sur les abus manifestes des grandes plateformes."
+        },
+        {
+          "page": 119,
+          "quote": "Instaurer un régime expérimental de dérogation de trois ans au RGPD et à l'AI Act lorsqu'ils entravent directement des projets de recherche, de test ou d’innovation à fort enjeu stratégique."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "numerique",
+      "title": "Créer un compartiment IA à la BPI et demander des exceptions européennes au droit de la concurrence",
+      "summary": {
+        "simple": "La BPI aurait un fonds dédié à l'IA, et la France demanderait à l'Europe d'autoriser des rapprochements d'entreprises dans le numérique.",
+        "normal": "Exceptions ciblées au droit européen de la concurrence pour les rapprochements dans le cloud, les logiciels critiques, les data centers et le calcul ; compartiment IA de la BPI organisé en fonds de fonds pour les levées intermédiaires."
+      },
+      "sources": [
+        {
+          "page": 120,
+          "quote": "Demander au niveau européen des exceptions ciblées au droit de la concurrence pour permettre les rapprochements industriels nécessaires dans le cloud, les logiciels critiques, les data centers et les infrastructures de calcul. Dédier à l'IA un compartiment de la BPI, organisé en fonds de fonds."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "numerique",
+      "title": "Porter la capacité de data centers souverains à 1 gigawatt d'ici 2030 et raccorder en dix-huit mois",
+      "summary": {
+        "simple": "La France disposerait d'un gigawatt de centres de données souverains d'ici 2030, avec un raccordement électrique en dix-huit mois.",
+        "normal": "Capacité réellement souveraine portée à environ 1 gigawatt d'ici 2030, puis environ 4 gigawatts dédiés à l'IA vers 2035-2038 ; trois cercles de souveraineté (régalien, industriel français, partenarial européen) ; délai de raccordement électrique ramené à dix-huit mois dans un guichet unique."
+      },
+      "sources": [
+        {
+          "page": 121,
+          "quote": "Porter la capacité réellement souveraine à environ 1 gigawatt d'ici 2030, puis engager la trajectoire vers environ 4 gigawatts dédiés à l'IA à l'horizon 2035-2038."
+        },
+        {
+          "page": 121,
+          "quote": "Ramener le délai de raccordement électrique à dix-huit mois au sein d'un guichet unique."
+        },
+        {
+          "page": 120,
+          "quote": "Accélérer l'installation de data centers souverains : porter la capacité réellement souveraine à environ 1 gigawatt d'ici 2030, puis engager la trajectoire vers environ 4 gigawatts dédiés à l'IA à l'horizon 2035-2038."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Lancer un « Starter Pack IA » pour les ETI et grandes PME et appliquer le suramortissement aux investissements en IA",
+      "summary": {
+        "simple": "Les entreprises industrielles seraient aidées à s'équiper en intelligence artificielle, avec un avantage fiscal sur ces investissements.",
+        "normal": "Programme national d'équipement des ETI et grandes PME, le Starter Pack IA, opéré avec des intégrateurs français et les régions ; investissements en IA, robotique et calcul éligibles au suramortissement de 100 % sur trois ans des investissements productifs."
+      },
+      "sources": [
+        {
+          "page": 122,
+          "quote": "Lancer un programme national d'équipement des ETI et des grandes PME, le Starter Pack IA, opéré avec des intégrateurs et des ESN français sélectionnés, capables de déployer des solutions de proximité sur tout le territoire, en lien avec les régions."
+        },
+        {
+          "page": 122,
+          "quote": "Faire bénéficier pleinement les entreprises qui investissent dans l'IA, la robotique et les capacités de calcul du suramortissement de 100 % sur trois ans des investissements productifs, sans empiler un nouveau régime dérogatoire."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "travail",
+      "title": "Proposer un statut d'indépendant aux salariés payés plus de 100 000 € bruts par an",
+      "summary": {
+        "simple": "Les salariés gagnant plus de 100 000 € bruts par an pourraient choisir un statut d'indépendant, avec plus de liberté et moins de protections du code du travail.",
+        "normal": "Statut d'indépendant en quasi-EURL proposé aux salariés rémunérés au-delà de 100 000 € bruts annuels (650 000 à 700 000 personnes selon le programme) : organisation libre, accès facilité aux stock-options, assurance chômage d'indépendant portable ; protection organisée par contrat ; choix laissé au salarié."
+      },
+      "sources": [
+        {
+          "page": 123,
+          "quote": "Proposer aux salariés rémunérés au-delà de 100 000 euros bruts annuels, environ 3 % des salariés du privé soit de l'ordre de 650 000 à 700 000 personnes, un statut d'indépendant en quasi-EURL"
+        },
+        {
+          "page": 123,
+          "quote": "La protection sera organisée par le contrat dans le cadre de ce statut. Le choix appartiendra au salarié."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "finances_publiques",
+      "title": "Rendre aux services publics l'équivalent de 250 000 emplois grâce à l'IA, sans licenciement",
+      "summary": {
+        "simple": "L'intelligence artificielle libérerait l'équivalent de 250 000 emplois publics d'ici 2032 : la moitié redéployée vers le contact, l'autre moitié non remplacée.",
+        "normal": "Gain de temps équivalent à 250 000 emplois à temps plein dans les services publics à l'horizon 2032 : 125 000 agents redéployés vers le contact, le soin, l'enquête et le contrôle, 125 000 départs en retraite non remplacés, aucun licenciement ; assistant IA sécurisé pour chaque agent ; ministère de plein exercice chargé de l'IA."
+      },
+      "sources": [
+        {
+          "page": 124,
+          "quote": "Rendre aux services publics, grâce à l'intelligence artificielle, l'équivalent de 250 000 emplois à temps plein de temps de travail à l'horizon 2032. Ce gain sera partagé à parts égales : 125 000 agents redéployés du back-office vers le contact, le soin, l'enquête et le contrôle, et 125 000 départs à la retraite non remplacés. Aucun licenciement."
+        },
+        {
+          "page": 124,
+          "quote": "Chaque agent sera doté d'un assistant IA sécurisé, et un ministère de plein exercice chargé de l'intelligence artificielle, appuyé sur un directeur technologique de l'État, en assurera le pilotage."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "numerique",
+      "title": "Créer Marianne, un assistant administratif numérique gratuit pour chaque Français",
+      "summary": {
+        "simple": "Chaque Français aurait un assistant numérique gratuit, Marianne, pour connaître ses droits et préremplir ses démarches.",
+        "normal": "Assistant administratif numérique Marianne : comprend une demande en langage courant, indique les droits, préremplit les démarches avec les informations déjà détenues par l'administration et suit leur avancement ; gratuit, hébergé sous juridiction française, sans supprimer guichet, téléphone ni courrier ; ne décide rien."
+      },
+      "sources": [
+        {
+          "page": 125,
+          "quote": "Créer pour chaque Français un assistant administratif numérique, Marianne, capable de comprendre une demande formulée en langage courant, d'indiquer les droits auxquels la personne peut prétendre, de préremplir les démarches à partir des informations que l'administration détient déjà, et de suivre leur avancement."
+        },
+        {
+          "page": 125,
+          "quote": "Le service sera gratuit, hébergé sous juridiction française et n'exclura aucun autre canal : le guichet, le téléphone et le courrier resteront accessibles."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "numerique",
+      "title": "Appliquer le « Buy European First » aux achats numériques critiques de l'État",
+      "summary": {
+        "simple": "L'État achèterait en priorité des outils numériques français et européens pour ses fonctions sensibles.",
+        "normal": "Principe de Buy European First pour l'IA et le numérique, ciblé sur les fonctions régaliennes et les couches critiques ; liste dès le début du mandat des solutions extra-européennes à remplacer, avec calendrier ; pourcentage de souveraineté public, avec seuil minimal pour les fonctions critiques et critère d'attribution des marchés."
+      },
+      "sources": [
+        {
+          "page": 126,
+          "quote": "Appliquer à l'IA et au numérique le principe de Buy European First, en le ciblant sur les fonctions régaliennes et les couches critiques. Publier dès le début du mandat une liste des solutions critiques extra-européennes à remplacer en priorité sur le périmètre régalien, assortie d'un calendrier de substitution."
+        },
+        {
+          "page": 126,
+          "quote": "Instaurer un pourcentage de souveraineté applicable à tout logiciel ou équipement, avec un seuil minimal exigé pour les fonctions critiques, un score rendu public et tenu à jour, et ce score devenant un critère d'attribution des marchés."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu",
+      "schedule": {
+        "effectiveDate": "2027-05-14",
+        "dateOrigin": "estimee",
+        "estimationRule": "Annoncée dès l'entrée en fonction (« le premier jour », « dès son arrivée au pouvoir ») : début du mandat retenu, le 14 mai 2027 (le mandat en cours s'achève le 13 mai 2027)"
+      }
+    },
+    {
+      "theme": "securite",
+      "title": "Multiplier par cinq les moyens de l'IA de défense, jusqu'à 650 millions d'euros par an",
+      "summary": {
+        "simple": "Les moyens consacrés à l'intelligence artificielle militaire seraient multipliés par cinq, avec priorité aux entreprises françaises et européennes.",
+        "normal": "Commandes prioritaires aux entreprises françaises et européennes pour les briques critiques de défense fondées sur l'IA ; moyens de l'IA de défense multipliés par cinq sur le quinquennat, de 130 à 650 millions d'euros par an, centrés sur la cybersécurité, les drones, la robotisation et le calcul quantique."
+      },
+      "sources": [
+        {
+          "page": 127,
+          "quote": "Multiplier progressivement par cinq, sur le quinquennat, les moyens consacrés à l'IA de défense, en concentrant l'effort sur quatre priorités : la cybersécurité, les drones et systèmes autonomes, la robotisation et le calcul quantique."
+        },
+        {
+          "page": 127,
+          "quote": "À partir d'une base de 130 millions d'euros par an en 2024, l'objectif est d'atteindre progressivement 650 millions d'euros par an sur le quinquennat."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "securite",
+      "title": "Lancer un plan Vauban numérique de cybersécurité sous pilotage de l'ANSSI",
+      "summary": {
+        "simple": "Un plan de 2,3 milliards d'euros protégerait l'État, les hôpitaux et les entreprises contre les cyberattaques.",
+        "normal": "Plan Vauban numérique sous pilotage de l'ANSSI : bascule des hébergements sensibles vers le cloud souverain, cartographie des dépendances critiques, stress tests ; inspection générale du numérique rattachée au Premier ministre ; capacité de coupure maîtrisée des réseaux compromis ; 2,3 milliards d'euros sur le quinquennat."
+      },
+      "sources": [
+        {
+          "page": 128,
+          "quote": "Lancer un plan Vauban numérique sous pilotage de l'ANSSI : bascule accélérée des hébergements sensibles vers le cloud souverain, cartographie de toutes les dépendances critiques, stress tests technologiques réguliers. Créer au sein de l'ANSSI une inspection générale du numérique rapportant directement au Premier ministre."
+        },
+        {
+          "page": 128,
+          "quote": "Un investissement nouveau de 2,3 milliards d'euros sur le quinquennat est prévu pour le plan Vauban numérique, le renforcement de l'ANSSI et de l'AMIAD, l'inspection générale du numérique et le recrutement cyber."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "securite",
+      "title": "Renforcer VIGINUM, riposter aux ingérences par des faits et encadrer la vision par ordinateur",
+      "summary": {
+        "simple": "La France riposterait aux campagnes d'ingérence étrangères avec des faits, et la reconnaissance faciale en temps réel dans l'espace public resterait interdite.",
+        "normal": "VIGINUM renforcé pour une détection continue ; riposte informationnelle aux campagnes d'ingérence, uniquement par des faits étayés ; usage légal et contrôlé de la vision par ordinateur pour la sécurité intérieure, avec interdiction expresse de la reconnaissance faciale en temps réel à des fins de surveillance de masse."
+      },
+      "sources": [
+        {
+          "page": 129,
+          "quote": "Renforcer VIGINUM et lui donner les moyens d'une détection continue, en lien avec nos partenaires européens. Assumer la riposte informationnelle face aux campagnes d'ingérence, à une condition absolue : jamais de fausses nouvelles, jamais de mensonges, uniquement des faits étayés."
+        },
+        {
+          "page": 129,
+          "quote": "Autoriser dans un cadre légal et contrôlé l'usage de la vision par ordinateur pour la sécurité intérieure, avec interdiction expresse de la reconnaissance faciale en temps réel dans l'espace public à des fins de surveillance de masse."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    }
+  ]
+}

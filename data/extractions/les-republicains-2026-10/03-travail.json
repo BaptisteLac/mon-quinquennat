@@ -1,0 +1,248 @@
+{
+  "measures": [
+    {
+      "theme": "travail",
+      "title": "Baisser les cotisations de 30 milliards d'euros par an, moitié pour les salariés, moitié pour les entreprises",
+      "summary": {
+        "simple": "Les cotisations baisseraient : un salarié au salaire médian gagnerait environ 500 € nets de plus par an, selon le programme.",
+        "normal": "Baisse des cotisations de 30 milliards d'euros par an : la moitié pour les salariés, soit environ 500 euros nets par an au salaire médian selon le programme, l'autre moitié en baisse du coût du travail dès la première heure. Financement annoncé : assurance chômage, compte social unique et lutte contre la fraude, impôt sur les sociétés, revenu d'incitation à l'activité."
+      },
+      "sources": [
+        {
+          "page": 40,
+          "quote": "Baisser les cotisations de 30 milliards d'euros par an. La moitié revient directement aux salariés, soit environ 500 euros nets par an au salaire médian, sans qu'ils aient rien à changer à leur organisation."
+        },
+        {
+          "page": 40,
+          "quote": "L'autre moitié revient aux entreprises, en baisse durable du coût du travail dès la première heure travaillée, pour restaurer leur compétitivité."
+        },
+        {
+          "page": 40,
+          "quote": "Réforme de l'assurance chômage, 12,5 à 15,7 milliards. Compte social unique et lutte contre la fraude, 10 milliards. Hausse mécanique des recettes d'impôt sur les sociétés, 4 milliards. Revenu d'incitation à l'activité, 2 milliards."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "salaire_net",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "eq",
+            "value": "salarie_prive"
+          },
+          "sentence": {
+            "simple": "Ton salaire net augmenterait grâce à la baisse des cotisations ; le candidat annonce environ 500 € par an au salaire médian.",
+            "normal": "La moitié d'une baisse de 30 milliards d'euros de cotisations par an reviendrait aux salariés ; le programme chiffre le gain à environ 500 € nets par an au salaire médian, sans préciser le barème. Montant non calculé pour ton profil."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "travail",
+      "title": "Exonérer de toute cotisation sociale les heures travaillées au-delà de 1 623 heures par an",
+      "summary": {
+        "simple": "Au-delà de 1 623 heures de travail par an, plus aucune cotisation sociale : le salarié garderait plus de 90 % du brut.",
+        "normal": "Seuil « zéro cotisation » fixé à 1 623 heures par an au lieu de 1 607 : au-delà, plus de cotisations salariales ni patronales, seules la CSG et la CRDS restent dues ; l'exonération d'impôt sur les heures supplémentaires est maintenue et le temps de travail annualisé."
+      },
+      "sources": [
+        {
+          "page": 41,
+          "quote": "Instaurer un seuil « zéro cotisation » à partir de 1 623 heures par an, au lieu de 1 607. Au-delà, plus aucune cotisation sociale, ni salariale ni patronale : le salarié garde plus de 90 % du brut, seules la CSG et la CRDS restent dues, et l'exonération d'impôt sur les heures supplémentaires est maintenue."
+        },
+        {
+          "page": 41,
+          "quote": "Le temps de travail est annualisé."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "temps_travail",
+          "section": "temps",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "eq",
+            "value": "salarie_prive"
+          },
+          "sentence": {
+            "simple": "Les heures travaillées au-delà de 1 623 heures par an ne supporteraient plus aucune cotisation sociale.",
+            "normal": "Au-delà de 1 623 heures par an (au lieu de 1 607), plus de cotisations salariales ni patronales ; le temps de travail serait annualisé. Gain non calculé : il dépend de tes heures supplémentaires."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "prestations",
+      "title": "Remplacer le RSA, la prime d'activité et l'ASS par un Revenu d'incitation à l'activité",
+      "summary": {
+        "simple": "Un nouveau revenu remplacerait le RSA, la prime d'activité et l'ASS : 300 € par mois sans activité, plus 250 € avec une recherche d'emploi.",
+        "normal": "Revenu d'incitation à l'activité remplaçant le RSA, la prime d'activité et l'allocation de solidarité spécifique : 300 € par mois sans activité ni revenu, complétés de 250 € dès quinze heures de formation ou de recherche d'emploi ; en emploi, complément diminué de 30 % du salaire, nul au-delà de 1 833 € de revenus d'activité mensuels ; indépendant de la situation familiale."
+      },
+      "sources": [
+        {
+          "page": 42,
+          "quote": "Créer un Revenu d'incitation à l'activité en remplacement du RSA, de la prime d'activité et de l'allocation de solidarité spécifique. Sans activité ni revenu : 300 euros par mois, complétés par 250 euros dès quinze heures de formation ou de recherche d'emploi."
+        },
+        {
+          "page": 42,
+          "quote": "Dès la reprise d'un emploi, l'allocation devient un complément diminué de 30 % du salaire."
+        },
+        {
+          "page": 42,
+          "quote": "Contrairement au RSA et à la prime d'activité, le RIA ne dépend pas de la situation familiale et n'interfère ni avec les allocations familiales ni avec les aides au logement. L'allocation s'annule au-delà de 1 833 euros de revenus d'activité mensuels."
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Supprimer, sauf accord collectif, le minimum légal de 24 heures hebdomadaires pour le temps partiel.",
+          "source": {
+            "page": 42,
+            "quote": "En complément, l'obligation d'un minimum légal de 24 heures hebdomadaires pour le temps partiel est supprimée, sauf accord collectif"
+          }
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "prime_activite",
+          "section": "portefeuille",
+          "appliesTo": {
+            "any": [
+              {
+                "field": "situationPro",
+                "op": "in",
+                "value": [
+                  "demandeur_emploi",
+                  "sans_activite"
+                ]
+              },
+              {
+                "field": "revenusFoyerMensuels",
+                "op": "lte",
+                "value": 1833
+              }
+            ]
+          },
+          "sentence": {
+            "simple": "Le RSA et la prime d'activité seraient remplacés par un Revenu d'incitation à l'activité : 300 € par mois sans activité, plus 250 € avec quinze heures de formation ou de recherche d'emploi.",
+            "normal": "Le Revenu d'incitation à l'activité remplacerait RSA, prime d'activité et ASS : 300 € sans activité, complétés de 250 € dès quinze heures de formation ou de recherche d'emploi, puis un complément réduit de 30 % du salaire, nul au-delà de 1 833 € de revenus d'activité par mois. Montant non encore calculé pour ton profil."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "retraite",
+      "title": "Exonérer de cotisations les seniors ayant tous leurs trimestres et fusionner surcote et cumul emploi-retraite",
+      "summary": {
+        "simple": "Un salarié ayant tous ses trimestres ne paierait plus de cotisations retraite et chômage avant l'âge légal ; après, il cumulerait plus facilement emploi et retraite.",
+        "normal": "Avant l'âge légal, exonération totale de cotisations retraite et chômage pour les salariés ayant tous leurs trimestres ; après l'âge légal, un dispositif unique remplacerait surcote et cumul emploi-retraite : plus de cotisations hors CSG et CRDS, cumul partiel pension et salaire, suppression du délai de carence de six mois."
+      },
+      "sources": [
+        {
+          "page": 43,
+          "quote": "Avant l'âge légal, un seuil « zéro cotisation senior anticipé » exonère totalement de cotisations retraite et chômage les salariés ayant tous leurs trimestres."
+        },
+        {
+          "page": 43,
+          "quote": "Après l'âge légal, un dispositif unique remplace la surcote et le cumul emploi-retraite : plus aucune cotisation hors CSG et CRDS, cumul partiel de la pension et du revenu d'activité, et suppression du délai de carence de six mois."
+        },
+        {
+          "page": 43,
+          "quote": "Pour le salarié, près de 3 400 euros nets par an."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "salaire_net",
+          "section": "portefeuille",
+          "appliesTo": {
+            "all": [
+              {
+                "field": "age",
+                "op": "gte",
+                "value": 60
+              },
+              {
+                "field": "situationPro",
+                "op": "eq",
+                "value": "salarie_prive"
+              }
+            ]
+          },
+          "sentence": {
+            "simple": "Si tu as tous tes trimestres avant l'âge légal, tu ne paierais plus de cotisations retraite et chômage ; le candidat annonce près de 3 400 € nets de plus par an.",
+            "normal": "Avec tous tes trimestres avant l'âge légal, tes cotisations retraite et chômage seraient supprimées ; le programme chiffre le gain à près de 3 400 € nets par an. Montant non calculé : le profil ne dit pas si tu as tous tes trimestres."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "prestations",
+      "title": "Plafonner le total des aides non contributives à 70 % du SMIC net par adulte, via un compte social unique",
+      "summary": {
+        "simple": "Le total des aides sociales d'un adulte ne pourrait pas dépasser 70 % du SMIC net, hors handicap, dépendance et vieillesse.",
+        "normal": "Création d'un compte social unique retraçant toutes les aides non contributives de chaque adulte ; leur total serait plafonné à 70 % du SMIC net par adulte, hors handicap, dépendance et vieillesse ; retraite et chômage hors du calcul ; registre national des versements obligatoire."
+      },
+      "sources": [
+        {
+          "page": 44,
+          "quote": "Créer un Compte social unique, sur le modèle du compte fiscal : chaque adulte disposera d'un compte retraçant toutes les aides non contributives qu'il perçoit, quelle qu'en soit l'origine."
+        },
+        {
+          "page": 44,
+          "quote": "Un plafond national s'appliquera ensuite : le total ne pourra pas dépasser 70 % du SMIC net par adulte, hors handicap, dépendance et vieillesse. Ni la retraite ni le chômage n'entrent dans ce calcul."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "apl",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "in",
+            "value": [
+              "demandeur_emploi",
+              "sans_activite"
+            ]
+          },
+          "sentence": {
+            "simple": "Le total de tes aides sociales (logement, famille, minima, tarifs sociaux) serait plafonné à 70 % du SMIC net par adulte.",
+            "normal": "Toutes les aides non contributives seraient additionnées dans un compte social unique et plafonnées à 70 % du SMIC net par adulte, hors handicap, dépendance et vieillesse. Effet non calculé pour ton profil."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "travail",
+      "title": "Durcir l'assurance chômage : fin après trois offres refusées, ruptures conventionnelles limitées à six mois",
+      "summary": {
+        "simple": "Refuser une troisième offre d'emploi raisonnable mettrait fin aux allocations chômage, et l'indemnisation après une rupture conventionnelle serait limitée à six mois.",
+        "normal": "Application des règles de juin 2024 ; fin de l'indemnisation après le refus d'une troisième offre raisonnable ; indemnisation des ruptures conventionnelles limitée à six mois et plafonnée ; allocation des frontaliers calculée sur un salaire français ; plafonnement et dégressivité accélérée au-dessus de 3 000 € nets ; rechargement des droits après neuf ou douze mois."
+      },
+      "sources": [
+        {
+          "page": 45,
+          "quote": "Appliquer les règles de juin 2024, votées et jamais mises en œuvre, et les compléter : le refus d'une troisième offre raisonnable met fin à l'indemnisation. Limiter à six mois et plafonner l'indemnisation des ruptures conventionnelles."
+        },
+        {
+          "page": 45,
+          "quote": "Calculer l'allocation des frontaliers sur un salaire de référence français. Et mettre fin à l'alternance organisée entre emploi et chômage, par le plafonnement de l'allocation et une dégressivité accélérée au-dessus de 3 000 euros nets."
+        },
+        {
+          "page": 45,
+          "quote": "La période minimale de rechargement des droits sera portée à neuf ou douze mois"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    }
+  ]
+}

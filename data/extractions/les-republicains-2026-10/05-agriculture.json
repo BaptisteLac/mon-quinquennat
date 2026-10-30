@@ -1,0 +1,258 @@
+{
+  "measures": [
+    {
+      "theme": "agriculture",
+      "title": "Inscrire l'agriculture parmi les « intérêts supérieurs de la Nation » dans la Constitution",
+      "summary": {
+        "simple": "La Constitution protégerait l'agriculture comme un intérêt supérieur de la Nation, que le juge devrait prendre en compte face à l'environnement.",
+        "normal": "Réforme constitutionnelle créant la notion d'intérêts supérieurs de la Nation, une loi organique y incluant l'agriculture ; le juge devrait en tenir compte aux côtés des exigences environnementales ; nouvelles techniques génomiques intégrées à la stratégie agricole."
+      },
+      "sources": [
+        {
+          "page": 63,
+          "quote": "Engager une réforme constitutionnelle inscrivant la notion d'intérêts supérieurs de la Nation, une loi organique précisant que l'agriculture en fait pleinement partie."
+        },
+        {
+          "page": 63,
+          "quote": "Le juge devra en tenir compte aux côtés des exigences environnementales, sans que celles-ci puissent être érigées en principe supérieur ou exclusif."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Abandonner l'objectif Ecophyto de 50 % de pesticides en moins au profit d'autorisations au cas par cas",
+      "summary": {
+        "simple": "L'objectif de réduire de moitié les pesticides serait abandonné : chaque produit serait autorisé ou non au cas par cas.",
+        "normal": "Suppression du principe de précaution par une révision constitutionnelle soumise au référendum ; abandon de l'objectif uniforme de réduction de 50 % des produits phytosanitaires fixé par Ecophyto 2030, au profit d'autorisations au cas par cas fondées sur l'analyse des risques et des bénéfices."
+      },
+      "sources": [
+        {
+          "page": 64,
+          "quote": "Supprimer le principe de précaution tel qu'il figure dans la Charte de l'environnement, par une révision constitutionnelle soumise au référendum."
+        },
+        {
+          "page": 64,
+          "quote": "Abandonner sur les produits phytosanitaires les trajectoires arbitraires, à commencer par l'objectif uniforme de réduction de 50 % fixé par Ecophyto 2030, au profit d'une logique d'autorisation au cas par cas, fondée sur l'analyse scientifique des risques et des bénéfices."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "decret"
+    },
+    {
+      "theme": "environnement",
+      "title": "Supprimer l'Office français de la biodiversité et confier la police de l'environnement à la gendarmerie",
+      "summary": {
+        "simple": "L'Office français de la biodiversité serait supprimé et la gendarmerie reprendrait la police de l'environnement hors chasse.",
+        "normal": "Suppression de l'OFB et retour à l'organisation antérieure (Agence française pour la biodiversité, Office national de la chasse et de la faune sauvage), la police de l'environnement hors chasse revenant à la gendarmerie ; présomption de bonne foi des agriculteurs, sanctions recentrées sur les fraudes intentionnelles."
+      },
+      "sources": [
+        {
+          "page": 65,
+          "quote": "Supprimer l'Office français de la biodiversité et revenir à l'organisation antérieure entre l'Agence française pour la biodiversité et l'Office national de la chasse et de la faune sauvage, la police de l'environnement hors chasse revenant à la gendarmerie nationale."
+        },
+        {
+          "page": 65,
+          "quote": "Établir explicitement une présomption de bonne foi : les contrôles seront ciblés et proportionnés, les sanctions recentrées sur les fraudes caractérisées et intentionnelles, non sur des erreurs formelles."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Reconnaître automatiquement les produits autorisés ailleurs en Europe et réautoriser l'acétamipride",
+      "summary": {
+        "simple": "Un produit agricole autorisé chez plusieurs voisins européens serait autorisé en France sans nouvelle évaluation, dont certains néonicotinoïdes.",
+        "normal": "Reconnaissance mutuelle automatique : l'ANSES ne réévaluerait plus un produit autorisé par des autorités équivalentes dans plusieurs États membres ; réautorisation de certains néonicotinoïdes, dont l'acétamipride, autorisés dans le marché unique ; clause de sauvegarde maintenue."
+      },
+      "sources": [
+        {
+          "page": 66,
+          "quote": "Appliquer strictement et automatiquement le principe de reconnaissance mutuelle : lorsqu'un produit a été autorisé par des autorités sanitaires équivalentes dans plusieurs États membres, l'ANSES n'a pas à recommencer l'évaluation."
+        },
+        {
+          "page": 66,
+          "quote": "Autoriser de nouveau l'usage de certains néonicotinoïdes, dont l'acétamipride, dès lors qu'ils sont autorisés dans le marché unique européen."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Interdire la sur-transposition des directives, réviser les seuils ICPE des élevages et supprimer le ZAN",
+      "summary": {
+        "simple": "La France n'ajouterait plus de règles agricoles au-delà de l'Europe, et le zéro artificialisation nette serait supprimé.",
+        "normal": "Loi organique interdisant toute sur-transposition des directives sauf nécessité impérieuse justifiée devant le Parlement ; révision par ordonnance, dès le début du quinquennat, des seuils ICPE applicables aux élevages ; suppression du zéro artificialisation nette, dont sortiraient les bâtiments agricoles."
+      },
+      "sources": [
+        {
+          "page": 67,
+          "quote": "Imposer par loi organique l'interdiction de toute sur-transposition des directives européennes, sauf nécessité impérieuse justifiée et assumée devant le Parlement, sur le modèle italien. Réviser par ordonnance, dès le début du quinquennat, les seuils ICPE applicables aux élevages."
+        },
+        {
+          "page": 67,
+          "quote": "Supprimer le zéro artificialisation nette, dont sortiront définitivement les bâtiments agricoles et leurs extensions."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "schedule": {
+        "effectiveDate": "2027-05-14",
+        "dateOrigin": "estimee",
+        "estimationRule": "Annoncée dès l'entrée en fonction (« le premier jour », « dès son arrivée au pouvoir ») : début du mandat retenu, le 14 mai 2027 (le mandat en cours s'achève le 13 mai 2027)"
+      }
+    },
+    {
+      "theme": "agriculture",
+      "title": "Reconnaître le stockage d'eau agricole d'intérêt général majeur et accélérer les autorisations",
+      "summary": {
+        "simple": "Les retenues d'eau agricoles seraient reconnues d'intérêt général majeur et autorisées plus vite.",
+        "normal": "Projets de stockage d'eau agricole reconnus d'intérêt général majeur ; Projets de territoire pour la gestion de l'eau remplacés par une planification opposable par bassin ; délais d'instruction stricts sous l'autorité du préfet, le silence valant acceptation ; représentation des usagers rééquilibrée dans les agences de l'eau."
+      },
+      "sources": [
+        {
+          "page": 68,
+          "quote": "Reconnaître les projets de stockage d'eau à usage agricole comme relevant de l'intérêt général majeur. Supprimer les Projets de territoire pour la gestion de l'eau et les remplacer par une planification opposable, bassin par bassin, issue d'une simplification du SDAGE."
+        },
+        {
+          "page": 68,
+          "quote": "Appliquer des délais d'instruction stricts et opposables sous l'autorité du préfet, le silence valant acceptation à leur expiration."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Réorienter jusqu'à 700 millions d'euros d'aides vers la modernisation des fermes",
+      "summary": {
+        "simple": "Les aides agricoles financeraient en priorité les équipements modernes, jusqu'à 700 millions d'euros à partir de 2028.",
+        "normal": "Financements redéployés, y compris une partie de la PAC, vers l'investissement productif (précision, robotisation, réduction des intrants, bâtiments), jusqu'à 700 millions d'euros à partir de 2028 ; usage des drones agricoles autorisé et encadré ; assouplissement du plafond européen d'incorporation des biocarburants défendu."
+      },
+      "sources": [
+        {
+          "page": 69,
+          "quote": "Réorienter les financements dispersés vers l'investissement productif : équipements de précision, robotisation, automatisation des tâches pénibles, réduction des intrants, modernisation des bâtiments."
+        },
+        {
+          "page": 69,
+          "quote": "Les dispositifs existants seront redéployés, y compris une partie des crédits de la PAC."
+        },
+        {
+          "page": 69,
+          "quote": "Il Autorisera et encadrera l'usage des drones agricoles."
+        },
+        {
+          "page": 69,
+          "quote": "700 millions d'euros à partir de 2028."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Différer les droits de transmission d'une exploitation agricole jusqu'à sa cession",
+      "summary": {
+        "simple": "Le repreneur d'une ferme ne paierait les droits de succession qu'en cas de vente, et pourrait reprendre l'exploitation sans acheter la terre.",
+        "normal": "À côté du régime Dutreil, différé automatique des droits de transmission d'une exploitation jusqu'à sa cession ou sa liquidation, à un taux forfaitaire unique ; dissociation du foncier et de l'outil de production pour que le repreneur n'achète pas la terre ; hausse des formations de vétérinaires (+75 %) et d'ingénieurs agronomes (+30 %)."
+      },
+      "sources": [
+        {
+          "page": 70,
+          "quote": "Ouvrir, à côté du régime Dutreil qui demeure, une voie nouvelle fondée sur le différé automatique des droits de transmission : ils ne deviendront exigibles qu'à la cession ou à la liquidation de l'exploitation."
+        },
+        {
+          "page": 70,
+          "quote": "Généraliser en complément un mécanisme de dissociation entre le foncier et l'outil de production, sur le modèle des baux réels solidaires, pour que le repreneur achète l'exploitation sans avoir à acheter la terre."
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "+75 % de vétérinaires et +30 % d'ingénieurs agronomes formés par rapport à 2017.",
+          "source": {
+            "page": 70,
+            "quote": "+75 % de vétérinaires et +30 % d'ingénieurs agronomes par rapport à 2017, soit plus de 360 vétérinaires et 780 ingénieurs formés chaque année jusqu'en 2030"
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Supprimer les financements publics des associations organisant l'entrave aux agriculteurs",
+      "summary": {
+        "simple": "Les associations qui organisent des entraves ou des violences contre les agriculteurs ne recevraient plus d'argent public.",
+        "normal": "Aucun financement public à une structure qui organise l'agribashing, soutient des actions d'entrave ou recourt à la violence ; agrément associatif rendu strict et réversible ; délais de recours raccourcis contre les autorisations agricoles ; origine des financements, notamment étrangers, rendue publique."
+      },
+      "sources": [
+        {
+          "page": 71,
+          "quote": "Aucun financement public, national ou local, ne sera plus accordé à une structure qui organise l'agribashing, soutient des actions d'entrave ou recourt à la violence."
+        },
+        {
+          "page": 71,
+          "quote": "Raccourcir les délais de recours contre les autorisations agricoles et rendre publique l'origine des financements, notamment étrangers."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Ouvrir la commande publique alimentaire aux producteurs agricoles",
+      "summary": {
+        "simple": "Les cantines et achats publics seraient découpés en petits lots pour que les agriculteurs puissent y répondre directement.",
+        "normal": "Acheteurs publics incités à valoriser fraîcheur, saisonnalité et traçabilité ; marchés alimentaires divisés en lots ; délit de favoritisme limité aux comportements frauduleux intentionnels, en revenant sur la loi Sapin 2."
+      },
+      "sources": [
+        {
+          "page": 72,
+          "quote": "Diviser les marchés alimentaires en lots pour permettre aux agriculteurs, PME et ETI de répondre directement. Revenir sur la loi Sapin 2 pour que le délit de favoritisme ne soit retenu qu'en cas de comportement frauduleux intentionnel."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "agriculture",
+      "title": "PAC garantie sur sept ans, seuil de dégressivité à 100 hectares et forfait petit agriculteur à 3 000 €",
+      "summary": {
+        "simple": "La France défendrait un budget agricole européen garanti sur sept ans et plus d'aides pour les petites exploitations.",
+        "normal": "PAC pleinement européenne et pluriannuelle, avec plafonds nationaux garantis sur sept ans ; seuil de dégressivité relevé de 52 à 100 hectares ; forfait petit agriculteur porté de 1 250 à 3 000 € ; objectifs mesurables par filière dans le plan stratégique national."
+      },
+      "sources": [
+        {
+          "page": 73,
+          "quote": "Veiller à ce que la PAC demeure pleinement européenne et pluriannuelle, avec des enveloppes agricoles dédiées sous forme de plafonds nationaux garantis sur sept ans. Relever le seuil de dégressivité de 52 à 100 hectares et porter le forfait petit agriculteur de 1 250 à 3 000 euros."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "agriculture",
+      "title": "Clore les négociations commerciales au 31 décembre et rendre les enseignes responsables de leurs centrales d'achat",
+      "summary": {
+        "simple": "Les négociations entre agriculteurs et supermarchés devraient se terminer au 31 décembre, et les enseignes répondraient de leurs centrales d'achat à l'étranger.",
+        "normal": "Part non négociable liée aux matières premières sanctuarisée ; contractualisation écrite renforcée ; date butoir au 31 décembre ; enseignes responsables des pratiques de leurs centrales d'achat européennes ou internationales ; opposition à l'intégration de l'Ukraine au marché agricole européen."
+      },
+      "sources": [
+        {
+          "page": 74,
+          "quote": "Sanctuariser la part non négociable liée aux matières premières, renforcer la contractualisation écrite et fixer une date butoir au 31 décembre pour clore les négociations. Rendre les enseignes opérant en France responsables des pratiques de leurs centrales d'achat européennes ou internationales."
+        },
+        {
+          "page": 74,
+          "quote": "S'opposer à l'intégration de l'Ukraine au marché agricole européen."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    }
+  ]
+}
