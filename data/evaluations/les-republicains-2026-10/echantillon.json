@@ -1,0 +1,149 @@
+{
+  "corpus": "les-republicains-2026-10",
+  "manifestSha256": "41c66ea0bbafdb5494dd661097345677d5b89a2c6eb0fd6602f46e1a3208aa9d",
+  "seed": 2027,
+  "pages": [
+    {
+      "documentId": "les-republicains-2026-10-projet",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet"
+    },
+    {
+      "documentId": "les-republicains-2026-10-projet-c249c1",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet?niveau=synthese"
+    },
+    {
+      "documentId": "les-republicains-2026-10-instaurer-une-veritable-gestion-des-ressources-humaines-et",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet/mesure/instaurer-une-veritable-gestion-des-ressources-humaines-et"
+    },
+    {
+      "documentId": "les-republicains-2026-10-evaluer-et-certifier-chaque-etablissement-decentraliser-et",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet/mesure/evaluer-et-certifier-chaque-etablissement-decentraliser-et"
+    },
+    {
+      "documentId": "les-republicains-2026-10-limiter-le-cout-des-nouvelles-regles-pour-les-entreprises",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet/mesure/limiter-le-cout-des-nouvelles-regles-pour-les-entreprises"
+    },
+    {
+      "documentId": "les-republicains-2026-10-confier-la-voie-professionnelle-aux-regions-et-aux-branches",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet/mesure/confier-la-voie-professionnelle-aux-regions-et-aux-branches"
+    },
+    {
+      "documentId": "les-republicains-2026-10-concentrer-la-recherche-sur-sept-priorites-industrielles",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet/mesure/concentrer-la-recherche-sur-sept-priorites-industrielles"
+    },
+    {
+      "documentId": "les-republicains-2026-10-projet-mesure-reconquerir-les-friches-industrielles",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet/mesure/reconquerir-les-friches-industrielles"
+    },
+    {
+      "documentId": "les-republicains-2026-10-projet-mesure-proteger-l-agriculture-dans-la-constitution",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet/mesure/proteger-l-agriculture-dans-la-constitution"
+    },
+    {
+      "documentId": "les-republicains-2026-10-raccourcir-les-recours-et-renforcer-l-etiquetage-agricole",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet/mesure/raccourcir-les-recours-et-renforcer-l-etiquetage-agricole"
+    },
+    {
+      "documentId": "les-republicains-2026-10-projet-mesure-verser-240-euros-par-mois-par-enfant-mineur",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet/mesure/verser-240-euros-par-mois-par-enfant-mineur"
+    },
+    {
+      "documentId": "les-republicains-2026-10-mesure-doubler-le-revenu-familial-pour-le-troisieme-enfant",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet/mesure/doubler-le-revenu-familial-pour-le-troisieme-enfant"
+    },
+    {
+      "documentId": "les-republicains-2026-10-mesure-baisser-le-cout-du-credit-immobilier-des-familles",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet/mesure/baisser-le-cout-du-credit-immobilier-des-familles"
+    },
+    {
+      "documentId": "les-republicains-2026-10-mesure-prolonger-le-conge-jusqu-aux-six-mois-de-l-enfant",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet/mesure/prolonger-le-conge-jusqu-aux-six-mois-de-l-enfant"
+    },
+    {
+      "documentId": "les-republicains-2026-10-mesure-prolonger-les-centrales-nucleaires-jusqu-a-80-ans",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet/mesure/prolonger-les-centrales-nucleaires-jusqu-a-80-ans"
+    },
+    {
+      "documentId": "les-republicains-2026-10-faire-mieux-le-fonctionnement-de-l-etat-revu-ses-agences",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet/mesure/faire-mieux-le-fonctionnement-de-l-etat-revu-ses-agences"
+    },
+    {
+      "documentId": "les-republicains-2026-10-mesure-equiper-les-entreprises-francaises-en-intelligence",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet/mesure/equiper-les-entreprises-francaises-en-intelligence"
+    },
+    {
+      "documentId": "les-republicains-2026-10-permettre-aux-cadres-de-devenir-independants-au-dela-de-100",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet/mesure/permettre-aux-cadres-de-devenir-independants-au-dela-de-100"
+    },
+    {
+      "documentId": "les-republicains-2026-10-projet-mesure-supprimer-le-couperet-des-67-ans",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet/mesure/supprimer-le-couperet-des-67-ans"
+    },
+    {
+      "documentId": "les-republicains-2026-10-mesure-donner-a-chaque-francais-un-capital-pour-sa-retraite",
+      "page": 1,
+      "url": "https://www.avecretailleau.fr/projet/mesure/donner-a-chaque-francais-un-capital-pour-sa-retraite"
+    }
+  ],
+  "mesures": [
+    "m-d85e5adef490",
+    "m-a2956a0971a9",
+    "m-183078f6f9d7",
+    "m-bc8a2581483e",
+    "m-86124cd9f3f1",
+    "m-4c33a97511b4",
+    "m-c3b3e20e9e00",
+    "m-669fa240031a",
+    "m-15e928b77096",
+    "m-bef66b460c8c",
+    "m-b6e6ece99a3e",
+    "m-20196212d1da",
+    "m-73e8831c29b1",
+    "m-97e3f5e7fa75",
+    "m-2628cb64ef2e",
+    "m-339e9d42394d",
+    "m-54d65a3da87b",
+    "m-1d5b96e5a0b2",
+    "m-cfacda3391d7",
+    "m-76d6fdd8f8b1",
+    "m-86161dce5b30",
+    "m-3bafb803f69a",
+    "m-b1d28e758f60",
+    "m-7026724140fe",
+    "m-948ffac79d16",
+    "m-bad658baf663",
+    "m-a3dbf671eb56",
+    "m-79ca09f1cbfc",
+    "m-bf16e1f67bb1",
+    "m-a753afab8fa1",
+    "m-d0cac1645a6c",
+    "m-8d7c0bec75e6",
+    "m-64cb42fba719",
+    "m-4c41c197e6bf",
+    "m-30e06531fa32",
+    "m-5746dab62e85",
+    "m-5512df2000e1",
+    "m-b033fae2abf0",
+    "m-ef0844750160",
+    "m-72b9607c6677"
+  ]
+}

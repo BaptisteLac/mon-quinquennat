@@ -1,0 +1,51 @@
+{
+  "corpusId": "les-republicains-2026-10",
+  "candidateId": "c-03",
+  "manifestSha256": "41c66ea0bbafdb5494dd661097345677d5b89a2c6eb0fd6602f46e1a3208aa9d",
+  "seed": 2027,
+  "readOn": "2026-10-30",
+  "readers": {
+    "rappel": "Claude (session Claude Code, 2026-10-30), lecture des pages tirées au sort pour relever chaque engagement, y compris secondaire ; même modèle que l'extraction",
+    "precision": "Claude (session Claude Code, 2026-10-30), relecture de chaque fiche tirée contre ses citations et la page source ; même modèle que l'extraction"
+  },
+  "checks": {
+    "citations": {
+      "k": 124,
+      "n": 124
+    },
+    "figures": {
+      "k": 124,
+      "n": 124
+    },
+    "autoValidated": {
+      "k": 124,
+      "n": 124
+    }
+  },
+  "recall": {
+    "k": 56,
+    "n": 65,
+    "low": 0.7573167852534054,
+    "high": 0.9254099381231576,
+    "pages": 20
+  },
+  "precision": {
+    "k": 40,
+    "n": 40,
+    "low": 0.9123754607496077,
+    "high": 1
+  },
+  "parameters": {
+    "k": 25,
+    "n": 25,
+    "low": 0.8668035060468213,
+    "high": 1
+  },
+  "errorFree": {
+    "k": 40,
+    "n": 40,
+    "low": 0.9123754607496077,
+    "high": 1
+  },
+  "discrepancies": []
+}

@@ -1,0 +1,254 @@
+{
+  "measures": [
+    {
+      "theme": "institutions",
+      "title": "Ouvrir le référendum législatif à tous les sujets",
+      "summary": {
+        "simple": "Les Français pourraient être consultés par référendum sur n'importe quel sujet de loi, sans exception.",
+        "normal": "Le référendum législatif serait ouvert à tout sujet, sans exception ; seule la révision constitutionnelle resterait soumise à l'article 89. Une loi adoptée par référendum ne pourrait être remise en cause par aucun juge."
+      },
+      "sources": [
+        {
+          "page": 17,
+          "quote": "Ouvrir le référendum législatif à tout sujet, sans exception. Seule la révision constitutionnelle restera hors de sa portée et continuera de suivre la procédure de l'article 89."
+        },
+        {
+          "page": 17,
+          "quote": "La loi adoptée par référendum sera à l'abri de toute remise en cause par un juge, quel qu'il soit, sur le fondement de tout texte, quel qu'il soit."
+        }
+      ],
+      "rationale": {
+        "page": 17,
+        "quote": "Ce que le Parlement peut faire, le peuple doit pouvoir le faire aussi."
+      },
+      "precision": "precise",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Permettre au peuple ou au Congrès de passer outre une censure du Conseil constitutionnel",
+      "summary": {
+        "simple": "Quand le Conseil constitutionnel censurerait une loi, le Président pourrait demander au peuple ou au Congrès de la valider quand même.",
+        "normal": "Une procédure de « dernier mot démocratique » serait inscrite à l'article 62 de la Constitution : après une censure, le Président pourrait saisir le peuple ou le Congrès pour autoriser la promulgation ; par le Congrès, il faudrait les trois cinquièmes des suffrages exprimés."
+      },
+      "sources": [
+        {
+          "page": 18,
+          "quote": "Introduire à l'article 62 de la Constitution une procédure de « dernier mot démocratique » : lorsque le Conseil constitutionnel censurera une loi, le Président de la République pourra en appeler au peuple, ou au Congrès, pour désavouer cette décision et l'autoriser à promulguer la loi"
+        },
+        {
+          "page": 18,
+          "quote": "Lorsque la voie du Congrès sera choisie, l'autorisation ne sera acquise qu'à la majorité des trois cinquièmes des suffrages exprimés, une majorité plus exigeante que celle qui a voté la loi."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Inscrire une clause de sauvegarde nationale face aux interprétations des traités",
+      "summary": {
+        "simple": "Le peuple ou le Parlement pourrait faire passer une loi française avant l'interprétation d'un traité international par un juge.",
+        "normal": "Une clause de sauvegarde nationale serait inscrite dans la Constitution : quand l'interprétation d'un traité par un juge bloquerait une loi, le peuple par référendum ou le Parlement par une loi organique pourrait faire primer la loi française. Le droit de l'Union relèverait d'un mécanisme distinct."
+      },
+      "sources": [
+        {
+          "page": 19,
+          "quote": "Introduire dans la Constitution une clause de sauvegarde nationale. Lorsqu'une interprétation jurisprudentielle d'un traité international fera obstacle à une loi que les Français ont souhaitée, le peuple par référendum, ou le Parlement par une loi organique, pourra faire primer la loi française sur cette interprétation."
+        },
+        {
+          "page": 19,
+          "quote": "Elle visera les traités et accords internationaux, le droit de l'Union européenne relevant d'un mécanisme distinct."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Ne plus appliquer le droit européen contraire à la Constitution ou hors des compétences de l'Union",
+      "summary": {
+        "simple": "Les règles européennes contraires à la Constitution ou hors des compétences de l'Union ne seraient plus appliquées en France.",
+        "normal": "Parlement, juridictions et administrations auraient interdiction d'appliquer règlements, directives et jurisprudences de la Cour de justice de l'Union quand ils sont contraires à la Constitution ou sortent des compétences de l'Union ; le Conseil constitutionnel serait compétent pour le vérifier."
+      },
+      "sources": [
+        {
+          "page": 20,
+          "quote": "Faire interdiction au Parlement, aux juridictions et à toute administration d'appliquer les règlements, les directives et les jurisprudences de la Cour de justice de l'Union dans deux cas seulement : lorsqu'ils sont contraires à la Constitution, et lorsqu'ils sortent du champ de compétences que les traités reconnaissent à l'Union."
+        },
+        {
+          "page": 20,
+          "quote": "Poser sans ambiguïté que le Conseil constitutionnel est compétent pour vérifier que les institutions européennes respectent les limites fixées par les traités."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "immigration",
+      "title": "Supprimer le droit du sol simple",
+      "summary": {
+        "simple": "Naître en France ne suffirait plus pour devenir français : il faudrait un parent français ou une assimilation vérifiée.",
+        "normal": "La suppression du droit du sol simple serait inscrite dans la Constitution, au sein d'une charte de l'ordre républicain : la nationalité s'obtiendrait par filiation ou par assimilation vérifiée. La réforme serait soumise au référendum."
+      },
+      "sources": [
+        {
+          "page": 21,
+          "quote": "Inscrire dans la Constitution, au sein de la charte de l'ordre républicain, la suppression du droit du sol simple. On ne deviendra français que par filiation ou par assimilation vérifiée."
+        },
+        {
+          "page": 21,
+          "quote": "Cette réforme des conditions d'acquisition de la nationalité fait partie de celles qui ne sont possibles qu'après la révision constitutionnelle, et elle sera soumise au référendum."
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "L'assimilation vérifiée supposerait la maîtrise de la langue, la connaissance de l'histoire et des institutions, le respect des lois et l'absence de condamnation.",
+          "source": {
+            "page": 21,
+            "quote": "Elle suppose la maîtrise de la langue, la connaissance de l'histoire et des institutions, le respect effectif des lois de la République, et l'absence de condamnation."
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "referendum"
+    },
+    {
+      "theme": "institutions",
+      "title": "Définir la laïcité dans la Constitution et y reconnaître les racines judéo-chrétiennes",
+      "summary": {
+        "simple": "La Constitution préciserait que personne ne peut invoquer sa religion pour échapper à la règle commune.",
+        "normal": "La portée de la laïcité serait définie dans la Constitution : nul ne pourrait invoquer son origine ou ses convictions religieuses pour s'exonérer de la règle commune. La loi pourrait ensuite étendre la neutralité du service public aux usagers et sécuriser les événements festifs de tradition judéo-chrétienne."
+      },
+      "sources": [
+        {
+          "page": 22,
+          "quote": "Expliciter dans la Constitution la portée du principe de laïcité, en posant que nul ne peut invoquer son origine ou ses convictions religieuses pour s'exonérer de la règle commune."
+        },
+        {
+          "page": 22,
+          "quote": "Cette définition constitutionnelle permettra d'étendre par la loi la neutralité du service public aux usagers, et de sécuriser la possibilité d'organiser des événements festifs s'inscrivant dans la tradition judéo-chrétienne de la France."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "securite",
+      "title": "Inscrire le droit à la sécurité dans la Constitution",
+      "summary": {
+        "simple": "Le droit à la sécurité deviendrait un principe de la Constitution, au même rang que les libertés.",
+        "normal": "Le droit à la sécurité serait inscrit dans la Constitution, à égalité avec les libertés fondamentales. Selon le programme, cela rendrait possibles des peines minimales obligatoires, la majorité pénale à quinze ans et la rétention de sûreté des terroristes en fin de peine."
+      },
+      "sources": [
+        {
+          "page": 23,
+          "quote": "Inscrire dans la Constitution le droit à la sécurité, à égalité avec les libertés fondamentales."
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Rendre possibles des peines minimales obligatoires, l'abaissement de la majorité pénale à quinze ans et la rétention de sûreté des terroristes en fin de peine.",
+          "source": {
+            "page": 23,
+            "quote": "les peines minimales que les juges devront obligatoirement prononcer pour les infractions les plus graves, l'abaissement de la majorité pénale à quinze ans, la rétention de sûreté pour les terroristes en fin de peine"
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "immigration",
+      "title": "Rendre obligatoire l'expulsion de tout étranger condamné ou menaçant l'ordre public",
+      "summary": {
+        "simple": "Tout étranger condamné ou dangereux devrait être expulsé, et le mariage serait réservé aux étrangers en séjour régulier.",
+        "normal": "L'expulsion de tout étranger condamné pénalement ou menaçant l'ordre public deviendrait obligatoire, principe inscrit dans la Constitution ; le mariage serait subordonné à la régularité du séjour."
+      },
+      "sources": [
+        {
+          "page": 24,
+          "quote": "Rendre obligatoire l'expulsion de tout étranger condamné pénalement ou menaçant l'ordre public, sans qu'aucune norme puisse y faire obstacle."
+        },
+        {
+          "page": 24,
+          "quote": "Ce principe sera inscrit dans la Constitution et emportera la levée des verrous à l'éloignement, à commencer par la subordination du mariage à la régularité du séjour."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "immigration",
+      "title": "Fixer par la loi des quotas de visas et de titres de séjour",
+      "summary": {
+        "simple": "Le Parlement voterait chaque année des quotas de visas et de titres de séjour.",
+        "normal": "Des quotas de visas et de titres de séjour seraient votés chaque année par le Parlement, puis répartis par le Gouvernement selon la capacité d'intégration et la coopération des États d'origine ; les contrôles aux frontières intérieures seraient permis sans limite de temps."
+      },
+      "sources": [
+        {
+          "page": 25,
+          "quote": "Faire fixer par la loi des quotas de visas et de titres de séjour, déclinés ensuite par le Gouvernement selon deux critères explicites : la capacité d'intégration des demandeurs et la coopération des États d'origine."
+        },
+        {
+          "page": 25,
+          "quote": "Cette maîtrise de l'entrée sur le territoire s'accompagnera de contrôles aux frontières intérieures sans limitation de temps."
+        },
+        {
+          "page": 16,
+          "quote": "Reprendre le contrôle : quotas migratoires votés chaque année par le Parlement, conditions durcies pour l'accès aux prestations sociales, exécution effective des mesures d'éloignement."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Réserver les prestations sociales des étrangers à cinq ans de séjour régulier et de travail",
+      "summary": {
+        "simple": "Un étranger devrait avoir vécu et travaillé cinq ans en France avant de toucher des prestations sociales.",
+        "normal": "L'accès des étrangers aux prestations sociales serait conditionné à cinq ans de séjour régulier et de travail en France, et l'aide sociale à la régularité du séjour ; le principe serait inscrit dans la Constitution."
+      },
+      "sources": [
+        {
+          "page": 26,
+          "quote": "Conditionner l'accès des étrangers aux prestations sociales à cinq ans de séjour régulier et de travail en France, et subordonner l'aide sociale à la régularité du séjour. Ce principe sera inscrit dans la Constitution, faute de quoi il sera censuré comme il l'a déjà été."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "environnement",
+      "title": "Remplacer le principe de précaution par un principe de responsabilité et d'innovation",
+      "summary": {
+        "simple": "Le principe de précaution serait retiré de la Constitution par référendum.",
+        "normal": "Le principe de précaution de la Charte de l'environnement serait supprimé et remplacé par un principe de responsabilité et d'innovation, dans la révision constitutionnelle soumise au référendum."
+      },
+      "sources": [
+        {
+          "page": 27,
+          "quote": "Supprimer le principe de précaution inscrit dans la Charte de l'environnement et lui substituer un principe de responsabilité et d'innovation. Cette suppression figurera dans la révision constitutionnelle soumise au référendum."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "referendum"
+    },
+    {
+      "theme": "institutions",
+      "title": "Abaisser à environ 2,5 millions de signatures le seuil du référendum d'initiative partagée",
+      "summary": {
+        "simple": "Il faudrait un vingtième des électeurs, environ 2,5 millions de signatures, au lieu d'un dixième, pour lancer un référendum d'initiative partagée.",
+        "normal": "Le seuil populaire du référendum d'initiative partagée passerait d'un dixième à un vingtième du corps électoral, soit environ 2,5 millions de citoyens, et ce référendum serait ouvert à tout sujet."
+      },
+      "sources": [
+        {
+          "page": 28,
+          "quote": "Abaisser le seuil populaire du référendum d'initiative partagée d'un dixième à un vingtième du corps électoral, soit environ 2,5 millions de citoyens, et l'ouvrir lui aussi à tout sujet."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "revision_constitutionnelle"
+    }
+  ]
+}

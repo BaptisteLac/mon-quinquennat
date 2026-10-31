@@ -1,0 +1,386 @@
+{
+  "corpus": "les-republicains-2026-10",
+  "lecteur": "Claude (session Claude Code, 2026-10-30), lecture des pages tirées au sort pour relever chaque engagement, y compris secondaire ; même modèle que l'extraction",
+  "date": "2026-10-30",
+  "consigne": "Relever, page par page, chaque engagement de politique publique (ce que le candidat ferait ou ferait faire une fois élu), avec sa citation exacte. Exclus : constats, chiffres de diagnostic, rappels historiques, chiffrages de financement, slogans de thème sans action identifiable. Un engagement qui regroupe plusieurs actions séparables est découpé.",
+  "pages": [
+    {
+      "documentId": "les-republicains-2026-10-projet",
+      "page": 1,
+      "engagements": []
+    },
+    {
+      "documentId": "les-republicains-2026-10-projet-c249c1",
+      "page": 1,
+      "engagements": []
+    },
+    {
+      "documentId": "les-republicains-2026-10-instaurer-une-veritable-gestion-des-ressources-humaines-et",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Supprimer la carte scolaire et mettre fin à la règle non écrite du 80-20",
+          "description": "Supprimer la carte scolaire et la règle du 80-20."
+        },
+        {
+          "quote": "Réaffirmer la liberté de choisir comme la liberté constitutionnelle qu'elle est.",
+          "description": "Réaffirmer la liberté de choix de l'école comme liberté constitutionnelle."
+        },
+        {
+          "quote": "Rendre aux parents qui le souhaitent la liberté d'instruire leur enfant en famille jusqu'à six ans.",
+          "description": "Liberté d'instruction en famille jusqu'à six ans."
+        },
+        {
+          "quote": "Dans les communes rurales, aucune classe ne fermera sans consultation obligatoire du conseil municipal",
+          "description": "Aucune fermeture de classe rurale sans consultation du conseil municipal."
+        },
+        {
+          "quote": "la carte des implantations du primaire deviendra pluriannuelle, négociée avec les communes au lieu d'être subie",
+          "description": "Carte des implantations du primaire pluriannuelle, négociée avec les communes."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-10-evaluer-et-certifier-chaque-etablissement-decentraliser-et",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Rétablir la note chiffrée, claire et lisible.",
+          "description": "Rétablir la note chiffrée."
+        },
+        {
+          "quote": "Répondre à chaque difficulté détectée par une remise à niveau et une remédiation, jamais par un passage automatique.",
+          "description": "Remise à niveau au lieu du passage automatique."
+        },
+        {
+          "quote": "Rendre le redoublement et l'orientation à la seule souveraineté des conseils de classe.",
+          "description": "Redoublement et orientation décidés par les conseils de classe."
+        },
+        {
+          "quote": "Faire du brevet un véritable palier d'orientation, conditionnant l'entrée au lycée dans la voie générale, technologique ou professionnelle.",
+          "description": "Brevet conditionnant l'entrée au lycée."
+        },
+        {
+          "quote": "Relever substantiellement le niveau du baccalauréat.",
+          "description": "Relever le niveau du baccalauréat."
+        },
+        {
+          "quote": "La distribution des prix sera rétablie au collège et au lycée, un programme national de détection des talents sera lancé",
+          "description": "Rétablir la distribution des prix et lancer un programme de détection des talents."
+        },
+        {
+          "quote": "le brevet comme le baccalauréat seront remis chaque année le 14 juillet",
+          "description": "Remettre brevet et baccalauréat le 14 juillet."
+        },
+        {
+          "quote": "Les universités, enfin, seront autorisées à choisir leurs étudiants sur des critères transparents, par un Parcoursup refondé en outil d'information et de sélection",
+          "description": "Sélection à l'université par un Parcoursup refondé."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-10-limiter-le-cout-des-nouvelles-regles-pour-les-entreprises",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Soumettre toute règle nouvelle ayant un impact économique à une évaluation préalable opposable",
+          "description": "Évaluation préalable opposable des règles nouvelles."
+        },
+        {
+          "quote": "Appliquer strictement la règle du un pour un en valeur.",
+          "description": "Règle du un pour un en valeur."
+        },
+        {
+          "quote": "Créer une autorité indépendante de contrôle préalable dotée d'un pouvoir de veto.",
+          "description": "Autorité indépendante de contrôle avec veto."
+        },
+        {
+          "quote": "Installer à Bruxelles une cellule de veille réglementaire chargée d'identifier les textes en préparation dès l'amont",
+          "description": "Cellule de veille réglementaire à Bruxelles."
+        },
+        {
+          "quote": "la France n'imposera jamais plus que ce que l'Europe exige, ni davantage, ni autrement",
+          "description": "Aucune sur-transposition."
+        },
+        {
+          "quote": "La loi, y compris existante, sera recentrée sur les principes essentiels ; le reste relèvera du règlement, plus aisément modifiable.",
+          "description": "Recentrer la loi sur les principes, le reste au règlement."
+        },
+        {
+          "quote": "des adaptations locales pourront être décidées sous l'autorité de l'État",
+          "description": "Adaptations locales des règles nationales sous l'autorité de l'État."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-10-confier-la-voie-professionnelle-aux-regions-et-aux-branches",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Retirer la voie professionnelle du giron de l'Éducation nationale.",
+          "description": "Retirer la voie professionnelle à l'Éducation nationale."
+        },
+        {
+          "quote": "Les régions planifient la carte des formations par bassin d'emploi, financent les plateaux techniques et organisent les lycées professionnels.",
+          "description": "Les régions organisent les lycées professionnels."
+        },
+        {
+          "quote": "Les branches professionnelles définissent les référentiels de diplômes et les compétences attendues, et peuvent adapter jusqu'à 25 % des contenus aux besoins locaux.",
+          "description": "Les branches définissent les référentiels."
+        },
+        {
+          "quote": "Les lycées professionnels convergeront vers le modèle des CFA d'ici 2032, sous la forme de Campus Métiers régionaux autonomes",
+          "description": "Campus Métiers régionaux d'ici 2032."
+        },
+        {
+          "quote": "La modernisation des plateaux techniques sera soutenue par un sur-amortissement fiscal incitant les entreprises à équiper les établissements qui forment leurs futurs salariés.",
+          "description": "Sur-amortissement fiscal pour équiper les plateaux techniques."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-10-concentrer-la-recherche-sur-sept-priorites-industrielles",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Concentrer les financements publics de recherche sur sept secteurs stratégiques",
+          "description": "Concentrer la recherche publique sur sept secteurs."
+        },
+        {
+          "quote": "Le Commissariat au Plan en structurera la feuille de route, secteur par secteur, avec des jalons et des résultats mesurables.",
+          "description": "Feuille de route du Commissariat au Plan."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-10-projet-mesure-reconquerir-les-friches-industrielles",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Créer un Répertoire national des friches, établi par arrêté préfectoral dans les deux ans",
+          "description": "Répertoire national des friches."
+        },
+        {
+          "quote": "une loi reconnaissant la réutilisation des friches comme raison impérative d'intérêt public majeur",
+          "description": "Réutilisation des friches reconnue d'intérêt public majeur."
+        },
+        {
+          "quote": "un malus fiscal pour le propriétaire qui laisse le terrain en l'état, et un crédit d'impôt de 30 % pour celui qui le dépollue",
+          "description": "Malus fiscal et crédit d'impôt de 30 %."
+        },
+        {
+          "quote": "Les subventions directes de l'État seront supprimées.",
+          "description": "Supprimer les subventions directes."
+        },
+        {
+          "quote": "un préfet interlocuteur unique, un délai d'instruction opposable de neuf mois au-delà duquel le silence vaut acceptation",
+          "description": "Préfet interlocuteur unique et délai d'instruction de neuf mois."
+        },
+        {
+          "quote": "des sociétés foncières publiques porteront le foncier : des SEM régionales pour les surfaces inférieures à deux hectares, et une Société foncière pour l'industrie chargée de maintenir en permanence 1 000 hectares immédiatement disponibles pour les grands projets",
+          "description": "Sociétés foncières publiques, dont 1 000 hectares disponibles en permanence."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-10-projet-mesure-proteger-l-agriculture-dans-la-constitution",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Engager une réforme constitutionnelle inscrivant la notion d'intérêts supérieurs de la Nation, une loi organique précisant que l'agriculture en fait pleinement partie.",
+          "description": "Agriculture parmi les intérêts supérieurs de la Nation."
+        },
+        {
+          "quote": "les nouvelles techniques génomiques seront pleinement intégrées à la stratégie agricole française",
+          "description": "Intégrer les nouvelles techniques génomiques."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-10-raccourcir-les-recours-et-renforcer-l-etiquetage-agricole",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Aucun financement public, national ou local, ne sera plus accordé à une structure qui organise l'agribashing, soutient des actions d'entrave ou recourt à la violence.",
+          "description": "Plus de financement public des structures d'agribashing."
+        },
+        {
+          "quote": "Réécrire l'article L. 141-2 du code de l'environnement pour faire de l'agrément associatif un statut strict, sélectif et réversible",
+          "description": "Agrément associatif strict et réversible."
+        },
+        {
+          "quote": "Raccourcir les délais de recours contre les autorisations agricoles",
+          "description": "Raccourcir les délais de recours."
+        },
+        {
+          "quote": "rendre publique l'origine des financements, notamment étrangers",
+          "description": "Publier l'origine des financements."
+        },
+        {
+          "quote": "les campagnes de dénigrement fondées sur des données fausses appelleront une réponse publique et factuelle",
+          "description": "Réponse publique de l'État aux campagnes de dénigrement."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-10-projet-mesure-verser-240-euros-par-mois-par-enfant-mineur",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Fusionner douze dispositifs en un Revenu familial de 240 euros par enfant, versé chaque mois à tous, dès le premier enfant, de la naissance à dix-huit ans.",
+          "description": "Revenu familial de 240 € par enfant."
+        },
+        {
+          "quote": "Le conditionner à une résidence régulière en France et à l'exercice d'une activité professionnelle depuis au moins cinq ans.",
+          "description": "Conditions de résidence et d'activité."
+        },
+        {
+          "quote": "En permettre la suspension temporaire par décision de justice en cas de défaillance éducative.",
+          "description": "Suspension judiciaire possible."
+        },
+        {
+          "quote": "Conserver les aides spécifiques pour les moins de trois ans, les parents seuls, le logement et le handicap.",
+          "description": "Aides spécifiques conservées."
+        },
+        {
+          "quote": "Chaque mois, pour chaque enfant mineur, les 240 euros seront automatiquement déduits de l'impôt portant sur le salaire ou les autres revenus déclarés.",
+          "description": "Versement par l'impôt prélevé à la source."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-10-mesure-doubler-le-revenu-familial-pour-le-troisieme-enfant",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Doubler automatiquement le Revenu familial pour le troisième enfant mineur à charge.",
+          "description": "Doubler le Revenu familial pour le troisième enfant."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-10-mesure-baisser-le-cout-du-credit-immobilier-des-familles",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Permettre aux familles ayant des enfants mineurs à charge de déduire une partie des intérêts de leur emprunt immobilier de leur impôt sur le revenu : 50 % pour un enfant, 75 % pour deux, 100 % à partir de trois.",
+          "description": "Intérêts d'emprunt déductibles selon le nombre d'enfants."
+        },
+        {
+          "quote": "Imposer aux banques commerciales de permettre le transfert des prêts immobiliers d'un bien sur l'autre.",
+          "description": "Transférabilité des prêts immobiliers."
+        },
+        {
+          "quote": "La réduction d'impôt annuelle est plafonnée à 400 euros, majorés de 400 euros par enfant mineur à charge.",
+          "description": "Plafond de la réduction d'impôt."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-10-mesure-prolonger-le-conge-jusqu-aux-six-mois-de-l-enfant",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Étendre le congé de naissance jusqu'aux six mois de l'enfant, à l'issue du congé maternité qui reste organisé selon les règles actuelles.",
+          "description": "Congé de naissance jusqu'aux six mois."
+        },
+        {
+          "quote": "Le parent qui y recourt sera indemnisé à 70 % de sa rémunération antérieure, dans la limite du plafond de la Sécurité sociale",
+          "description": "Indemnisation à 70 %."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-10-mesure-prolonger-les-centrales-nucleaires-jusqu-a-80-ans",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Fixer d'emblée un horizon de 80 ans.",
+          "description": "Horizon de 80 ans pour les centrales."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-10-faire-mieux-le-fonctionnement-de-l-etat-revu-ses-agences",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "400 000 départs en retraite non remplacés sur le quinquennat sans licenciement",
+          "description": "400 000 départs non remplacés."
+        },
+        {
+          "quote": "suppression ou rapatriement des 1 153 agences et opérateurs",
+          "description": "Supprimer ou rapatrier les agences."
+        },
+        {
+          "quote": "budgets en base zéro sur les interventions avec suppression des programmes de plus de 500 M€ évalués négativement sauf vote du Parlement",
+          "description": "Budgets en base zéro."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-10-mesure-equiper-les-entreprises-francaises-en-intelligence",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Lancer un programme national d'équipement des ETI et des grandes PME, le Starter Pack IA",
+          "description": "Starter Pack IA."
+        },
+        {
+          "quote": "Faire bénéficier pleinement les entreprises qui investissent dans l'IA, la robotique et les capacités de calcul du suramortissement de 100 % sur trois ans des investissements productifs",
+          "description": "Suramortissement des investissements en IA."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-10-permettre-aux-cadres-de-devenir-independants-au-dela-de-100",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Proposer aux salariés rémunérés au-delà de 100 000 euros bruts annuels, environ 3 % des salariés du privé soit de l'ordre de 650 000 à 700 000 personnes, un statut d'indépendant en quasi-EURL",
+          "description": "Statut d'indépendant pour les cadres au-delà de 100 000 €."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-10-projet-mesure-supprimer-le-couperet-des-67-ans",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "L'âge d'annulation de la décote sera ramené de 67 à 65 ans, et chacun partira au taux plein à 65 ans, quelle que soit sa durée de cotisation.",
+          "description": "Annulation de la décote à 65 ans."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-10-mesure-donner-a-chaque-francais-un-capital-pour-sa-retraite",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Chaque salarié, du privé comme du public, aura un capital à son nom pour sa retraite, sur un compte individuel bloqué jusqu'à son départ et protégé par la Constitution.",
+          "description": "Compte individuel de retraite pour chaque salarié."
+        },
+        {
+          "quote": "Le compte est alimenté par une cotisation de 1 % du salaire, dans la limite du plafond de la Sécurité sociale, versée pour moitié par le salarié et pour moitié par l'employeur",
+          "description": "Cotisation de 1 % du salaire."
+        },
+        {
+          "quote": "Dans la fonction publique, la cotisation de retraite additionnelle sur les primes sera doublée et versée sur le compte.",
+          "description": "Doubler la cotisation sur les primes des fonctionnaires."
+        },
+        {
+          "quote": "La gestion est confiée aux partenaires sociaux, sur le modèle de l'Agirc-Arrco, avec des gestionnaires choisis par appel d'offres.",
+          "description": "Gestion par les partenaires sociaux."
+        },
+        {
+          "quote": "Avec la participation et l'intéressement, versés par défaut sur le compte à raison de 1 000 euros par an",
+          "description": "Participation et intéressement versés par défaut sur le compte."
+        },
+        {
+          "quote": "À la retraite, chacun choisira de sortir son épargne en capital ou en rente.",
+          "description": "Sortie en capital ou en rente au choix."
+        }
+      ]
+    }
+  ]
+}

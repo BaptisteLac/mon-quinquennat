@@ -1,0 +1,505 @@
+{
+  "measures": [
+    {
+      "theme": "entreprise",
+      "title": "Supprimer dès l'élection les cent règles qui pénalisent le plus la production",
+      "summary": {
+        "simple": "Cent règles jugées pénalisantes pour les entreprises seraient supprimées ou allégées juste après l'élection, notamment le seuil de 50 salariés relevé à 100.",
+        "normal": "Suppression ou recentrage, dès le lendemain de l'élection, des cent règles qui pénalisent le plus la production, par ordonnances après une loi d'habilitation votée à l'été 2027 ; exemples : seuil de 50 salariés relevé à 100 pour toutes les obligations, BDESE supprimée sous 250 salariés, erreur non intentionnelle ne constituant plus une faute."
+      },
+      "sources": [
+        {
+          "page": 46,
+          "quote": "Supprimer ou recentrer strictement, dès le lendemain de l'élection, les cent règles qui pénalisent le plus la production. Deux exemples : le seuil de 50 salariés sera relevé à 100 pour toutes les obligations, et le principe de précaution sera remplacé par un principe de responsabilité, par une révision constitutionnelle soumise au référendum."
+        },
+        {
+          "page": 46,
+          "quote": "Une loi d'habilitation votée dès l'été 2027 permettra de procéder par ordonnances, seule voie compatible avec l'engagement d'agir dès le lendemain de l'élection."
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Seuil du CSE relevé à 50 salariés, sauf accord d'entreprise.",
+          "source": {
+            "page": 46,
+            "quote": "Seuil du CSE relevé à 50 salariés, sauf accord d'entreprise"
+          }
+        },
+        {
+          "text": "Base de données économiques, sociales et environnementales (BDESE) supprimée sous 250 salariés.",
+          "source": {
+            "page": 46,
+            "quote": "BDESE supprimée en dessous de 250 salariés"
+          }
+        },
+        {
+          "text": "Obligation de sécurité de résultat transformée en obligation de moyens.",
+          "source": {
+            "page": 46,
+            "quote": "Obligation de sécurité de résultat transformée en obligation de moyens"
+          }
+        },
+        {
+          "text": "Toute nouvelle norme automobile appliquée aux seuls modèles nouveaux.",
+          "source": {
+            "page": 46,
+            "quote": "Application de toute nouvelle norme automobile aux seuls modèles nouveaux"
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "schedule": {
+        "effectiveDate": "2027-05-14",
+        "dateOrigin": "estimee",
+        "estimationRule": "Annoncée dès l'entrée en fonction (« le premier jour », « dès son arrivée au pouvoir ») : début du mandat retenu, le 14 mai 2027 (le mandat en cours s'achève le 13 mai 2027)"
+      }
+    },
+    {
+      "theme": "travail",
+      "title": "Réduire le code du travail à un socle de 50 principes et donner la priorité aux accords collectifs",
+      "summary": {
+        "simple": "Le code du travail garderait 50 principes intangibles ; le reste serait fixé par accord dans l'entreprise ou la branche.",
+        "normal": "Socle de 50 principes fondamentaux indépassable ; le reste du code du travail ne s'appliquerait qu'à défaut d'accord collectif, l'accord d'entreprise primant sur celui de branche ; accords possibles par syndicats majoritaires, CSE ou référendum à l'initiative de l'employeur ; fin de l'extension automatique des accords de branche sauf sur les minima."
+      },
+      "sources": [
+        {
+          "page": 47,
+          "quote": "Refonder le droit du travail autour de la subsidiarité sociale : un socle de 50 principes fondamentaux rendu indépassable, et pour le reste un code devenu supplétif, qui ne s'applique qu'en l'absence d'accord collectif."
+        },
+        {
+          "page": 47,
+          "quote": "Il pourra être conclu par des syndicats majoritaires, par le CSE ou par référendum à l'initiative de l'employeur, avec une voie adaptée aux entreprises sans délégué syndical."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "temps_travail",
+          "section": "temps",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "eq",
+            "value": "salarie_prive"
+          },
+          "sentence": {
+            "simple": "Au-delà de 50 principes fixés par la loi, tes règles de travail seraient fixées par accord dans ton entreprise ou ta branche.",
+            "normal": "Le code du travail deviendrait supplétif : hors d'un socle de 50 principes, l'accord d'entreprise (ou de branche) fixerait la règle, y compris par référendum à l'initiative de l'employeur."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "entreprise",
+      "title": "Soumettre toute nouvelle règle économique à une évaluation opposable et à la règle du « un pour un »",
+      "summary": {
+        "simple": "Chaque nouvelle règle pour les entreprises devrait être chiffrée, et compensée par la suppression d'une règle de même coût.",
+        "normal": "Évaluation préalable opposable de toute règle nouvelle à impact économique (étude d'impact indépendante, test PME, coût chiffré), règle du un pour un en valeur, autorité indépendante de contrôle dotée d'un veto, cellule de veille à Bruxelles, et aucune sur-transposition du droit européen."
+      },
+      "sources": [
+        {
+          "page": 48,
+          "quote": "Soumettre toute règle nouvelle ayant un impact économique à une évaluation préalable opposable : étude d'impact indépendante, test PME systématique, coût chiffré pour les entreprises. Appliquer strictement la règle du un pour un en valeur. Créer une autorité indépendante de contrôle préalable dotée d'un pouvoir de veto."
+        },
+        {
+          "page": 48,
+          "quote": "Et poser un principe intangible : la France n'imposera jamais plus que ce que l'Europe exige, ni davantage, ni autrement."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Différer les droits de succession sur une entreprise tant que son activité se poursuit",
+      "summary": {
+        "simple": "L'héritier d'une entreprise ou d'une exploitation ne paierait les droits de succession qu'en cas de vente.",
+        "normal": "Exigibilité des droits de mutation différée automatiquement tant que l'activité se poursuit, la taxe n'étant due qu'à la cession ou à la liquidation ; droits calculés à la date de transmission ; réservé aux activités productives réelles, sans démarche ni agrément."
+      },
+      "sources": [
+        {
+          "page": 49,
+          "quote": "Différer automatiquement l'exigibilité des droits de mutation tant que l'activité se poursuit : la taxe ne tombe qu'à la cession. Les droits restent calculés à la date de la transmission, entreprises individuelles comme titres de sociétés."
+        },
+        {
+          "page": 49,
+          "quote": "Le dispositif sera strictement réservé aux activités productives réelles, les holdings n'étant éligibles qu'à proportion de leurs participations dans des sociétés opérationnelles."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "succession",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "in",
+            "value": [
+              "chef_entreprise",
+              "independant"
+            ]
+          },
+          "sentence": {
+            "simple": "Tes héritiers ne paieraient les droits de succession sur ton entreprise qu'au moment de la vendre.",
+            "normal": "Les droits de mutation sur une entreprise transmise seraient différés tant que l'activité continue, calculés à la date de transmission et dus à la cession ou à la liquidation."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "entreprise",
+      "title": "Alléger de 40 milliards d'euros le coût du travail et les impôts de production",
+      "summary": {
+        "simple": "Les entreprises paieraient 40 milliards d'euros de moins en cotisations et impôts de production, dont la suppression de la C3S et de la CVAE.",
+        "normal": "Plus de 25 milliards d'euros d'allègements sur le coût du travail (seuil « zéro cotisation » et baisse des cotisations patronales non contributives) et près de 15 milliards sur les impôts de production : suppression de la C3S (5,3 Md€) et de la CVAE (4,3 Md€), refonte du forfait social (2,8 Md€), exonération de la part industrielle de la CFE (1,9 Md€) ; crédit d'impôt recherche sanctuarisé."
+      },
+      "sources": [
+        {
+          "page": 50,
+          "quote": "Engager plus de 25 milliards d'euros d'allègements sur le coût du travail, en combinant le seuil « zéro cotisation » et une baisse directe des cotisations patronales non contributives."
+        },
+        {
+          "page": 50,
+          "quote": "Y ajouter près de 15 milliards sur la fiscalité de production, concentrés sur les impôts les plus pénalisants pour l'industrie : suppression intégrale de la C3S (5,3 milliards), suppression définitive de la CVAE (4,3 milliards), refonte du forfait social (2,8 milliards), exonération de la part industrielle de la CFE (1,9 milliard)."
+        },
+        {
+          "page": 50,
+          "quote": "Le crédit d'impôt recherche sera sanctuarisé, et la lutte contre ses dérives renforcée."
+        },
+        {
+          "page": 50,
+          "quote": "Le handicap fiscal total, aides comprises, sera réduit de 40 milliards, soit une baisse de 60 %."
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Forfait social maintenu à 20 % sur la participation légale, mais intéressement, part supra-légale et épargne retraite individuelle exonérés.",
+          "source": {
+            "page": 50,
+            "quote": "Le forfait social resterait à 20 % sur la participation légale obligatoire, mais l'intéressement, la part supra-légale et l'épargne retraite individuelle en seraient exonérés."
+          }
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "education",
+      "title": "Confier la voie professionnelle aux régions et aux branches professionnelles",
+      "summary": {
+        "simple": "Les lycées professionnels quitteraient l'Éducation nationale : les régions organiseraient les formations et les branches définiraient les diplômes.",
+        "normal": "Voie professionnelle retirée à l'Éducation nationale : les régions planifient la carte des formations et organisent les lycées professionnels, les branches définissent les référentiels et peuvent adapter jusqu'à 25 % des contenus ; convergence vers le modèle des CFA d'ici 2032 en Campus Métiers régionaux."
+      },
+      "sources": [
+        {
+          "page": 51,
+          "quote": "Retirer la voie professionnelle du giron de l'Éducation nationale. Les régions planifient la carte des formations par bassin d'emploi, financent les plateaux techniques et organisent les lycées professionnels."
+        },
+        {
+          "page": 51,
+          "quote": "Les branches professionnelles définissent les référentiels de diplômes et les compétences attendues, et peuvent adapter jusqu'à 25 % des contenus aux besoins locaux. Les lycées professionnels convergeront vers le modèle des CFA d'ici 2032, sous la forme de Campus Métiers régionaux autonomes, cofinancés par les régions et les branches."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "education",
+      "title": "Recentrer les aides à l'apprentissage sur les niveaux jusqu'à Bac+2 et sur l'industrie",
+      "summary": {
+        "simple": "Les aides à l'apprentissage seraient réduites dans le supérieur tertiaire et renforcées jusqu'à Bac+2 et dans l'industrie.",
+        "normal": "Extinction progressive des aides à l'embauche et des prises en charge dans les filières tertiaires du supérieur ; industrie et technologie sanctuarisées jusqu'au master ; financement des formations jusqu'à Bac+2 revalorisé de 10 à 15 % ; aide à l'embauche en TPE-PME portée de 5 000 à 6 000 €."
+      },
+      "sources": [
+        {
+          "page": 52,
+          "quote": "Éteindre progressivement les aides à l'embauche et les niveaux de prise en charge dans les filières tertiaires du supérieur, où elles financent des recrutements qui auraient eu lieu sans elles."
+        },
+        {
+          "page": 52,
+          "quote": "Revaloriser de 10 à 15 % le financement des formations jusqu'à Bac+2 et porter l'aide à l'embauche en TPE-PME de 5 000 à 6 000 euros."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "education",
+      "title": "Rendre obligatoire un pré-apprentissage pour les jeunes décrocheurs, avec un revenu de 500 € conditionné à l'assiduité",
+      "summary": {
+        "simple": "Les jeunes sans emploi ni formation suivraient un pré-apprentissage de six à douze mois, avec 500 € par mois s'ils sont assidus ; plus d'aide avant 25 ans sans activité.",
+        "normal": "Pré-apprentissage obligatoire de six à douze mois pour les décrocheurs, ouvrant droit à un revenu d'engagement et de formation de 500 € conditionné à l'assiduité ; aucun jeune plus de 45 jours sans solution après le brevet ; prime à l'embauche de 7 000 € à la sortie ; aucune prestation versée aux moins de 25 ans sans activité."
+      },
+      "sources": [
+        {
+          "page": 53,
+          "quote": "Instaurer un pré-apprentissage obligatoire de six à douze mois pour les décrocheurs : remise à niveau, cadre collectif, immersion progressive en entreprise, avec des internats d'insertion pour les plus fragiles. L'entrée dans ce parcours ouvre droit au revenu d'engagement et de formation, 500 euros strictement conditionnés à l'assiduité."
+        },
+        {
+          "page": 53,
+          "quote": "Un dossier numérique unique garantit qu'aucun jeune ne reste plus de 45 jours sans solution après le brevet."
+        },
+        {
+          "page": 53,
+          "quote": "L'ensemble est intégralement financé par le recentrage des aides versées aux moins de 25 ans, 5 milliards d'euros, dès lors qu'aucune prestation n'est plus versée sans activité."
+        },
+        {
+          "page": 53,
+          "quote": "la prime à l'embauche de 7 000 euros versée à la sortie du parcours"
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Aucun visa de travail sans que le poste ait d'abord été proposé aux jeunes de ces parcours.",
+          "source": {
+            "page": 53,
+            "quote": "Aucun visa de travail, saisonnier ou durable, ne sera délivré sans que le poste ait d'abord été proposé aux jeunes de ces parcours."
+          }
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "any": [
+              {
+                "field": "enfantsAgeBand",
+                "op": "in",
+                "value": [
+                  "11_17",
+                  "18_25"
+                ]
+              },
+              {
+                "field": "age",
+                "op": "lte",
+                "value": 25
+              }
+            ]
+          },
+          "sentence": {
+            "simple": "Un jeune sans emploi ni formation suivrait un pré-apprentissage de six à douze mois, avec 500 € par mois s'il est assidu.",
+            "normal": "Avant 25 ans, aucune aide ne serait versée sans travail, formation ou service ; les décrocheurs suivraient un pré-apprentissage obligatoire ouvrant droit à 500 € conditionnés à l'assiduité."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Financer les centres de formation selon leurs résultats d'insertion",
+      "summary": {
+        "simple": "Les centres de formation seraient payés en partie selon le taux d'emploi de leurs apprentis, et fermés en cas d'échec répété.",
+        "normal": "Référentiel national des coûts par diplôme (dépassement limité à 10 %) ; 10 à 20 % du financement modulé selon l'insertion, avec bonus au-delà de 70 %, malus en deçà et perte d'habilitation après deux années ; carte régionale opposable des besoins, hors de laquelle aucun financement public."
+      },
+      "sources": [
+        {
+          "page": 54,
+          "quote": "Fixer un référentiel national des coûts par diplôme, avec interdiction de tout dépassement au-delà de 10 %. Moduler 10 à 20 % du financement des centres de formation sur l'insertion, la certification et les ruptures de contrat : bonus au-delà de 70 % d'insertion, malus en deçà, perte de l'habilitation après deux années consécutives."
+        },
+        {
+          "page": 54,
+          "quote": "Les régions publieront tous les deux ans une carte opposable des besoins : hors de cette carte, aucun financement public."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "energie",
+      "title": "Remplacer le Versement nucléaire universel par des contrats de long terme pour l'industrie",
+      "summary": {
+        "simple": "L'industrie achèterait l'électricité nucléaire par contrats de quinze ans, avec un objectif de baisse de prix jusqu'à 10 %.",
+        "normal": "Dispositif contractuel de long terme entre EDF et fournisseurs alternatifs remplaçant le Versement nucléaire universel : jusqu'à 30 TWh par an sur quinze ans à un prix indexé sur les coûts ; production du parc portée vers 400 TWh ; objectif de baisse jusqu'à 10 % du prix pour l'industrie et de 5 à 10 % du tarif d'acheminement ; fin des soutiens publics aux nouvelles capacités solaires et éoliennes."
+      },
+      "sources": [
+        {
+          "page": 55,
+          "quote": "Substituer au Versement Nucléaire Universel un dispositif contractuel de long terme inspiré d'Exeltium, conclu entre EDF et les fournisseurs alternatifs volontaires, sécurisant sur quinze ans jusqu'à 30 TWh annuels d'électricité nucléaire à un prix indexé sur les coûts réels du parc rénové."
+        },
+        {
+          "page": 55,
+          "quote": "L'objectif est une baisse pouvant atteindre 10 % du prix moyen de fourniture pour l'industrie, et une baisse du tarif d'acheminement de 5 à 10 % à moyen terme, obtenue par une discipline budgétaire renforcée imposée aux gestionnaires de réseaux."
+        },
+        {
+          "page": 55,
+          "quote": "Exiger en parallèle une performance accrue du parc existant, avec une production portée vers 400 TWh, et briser la spirale haussière du tarif d'acheminement."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Ne plus sanctionner l'erreur non intentionnelle des entreprises et inverser la charge de la preuve",
+      "summary": {
+        "simple": "Une entreprise de bonne foi qui se trompe ne serait plus sanctionnée : seule la fraude intentionnelle le serait.",
+        "normal": "L'erreur non intentionnelle ne constituerait plus une faute, sauf pour un socle limité de règles ; contrôles concentrés sur la fraude ; charge de la preuve reportée sur l'administration ; responsabilité personnelle des dirigeants limitée aux fautes caractérisées."
+      },
+      "sources": [
+        {
+          "page": 56,
+          "quote": "L'erreur non intentionnelle ne constituera plus une faute, sauf pour un socle de règles strictement limité : seule l'intention frauduleuse justifiera la sanction."
+        },
+        {
+          "page": 56,
+          "quote": "La charge de la preuve reposera sur les administrations et non plus sur les entreprises, et la responsabilité personnelle des dirigeants sera limitée aux fautes caractérisées."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "international",
+      "title": "Exiger la réciprocité commerciale et concentrer au moins la moitié des contrôles sur les produits importés",
+      "summary": {
+        "simple": "Au moins la moitié des contrôles de conformité porterait sur les produits importés, et les accords commerciaux exigeraient la réciprocité.",
+        "normal": "Clauses de réciprocité défendues dans tous les accords commerciaux européens ; contrôles prioritairement au point de vente, avec responsabilité de l'importateur ; au moins la moitié des contrôles sur les produits importés, à effectifs constants ; mécanisme d'ajustement carbone aux frontières étendu aux produits transformés."
+      },
+      "sources": [
+        {
+          "page": 57,
+          "quote": "Porter au niveau européen l'imposition systématique de clauses de réciprocité dans tous les accords commerciaux."
+        },
+        {
+          "page": 57,
+          "quote": "À effectifs constants, au moins la moitié des contrôles portera sur les produits importés. Renforcer le mécanisme d'ajustement carbone aux frontières et l'étendre aux produits transformés."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Concentrer les financements publics de recherche sur sept secteurs stratégiques",
+      "summary": {
+        "simple": "L'argent public de la recherche irait en priorité à sept secteurs, dont l'intelligence artificielle, le quantique et les biotechnologies.",
+        "normal": "Financements publics de recherche concentrés sur sept secteurs : énergies du futur dont le nucléaire, intelligence artificielle, biotechnologies, matériaux avancés et batteries, micro et nanoélectronique, cybersécurité, informatique quantique ; feuille de route par le Commissariat au Plan."
+      },
+      "sources": [
+        {
+          "page": 58,
+          "quote": "Concentrer les financements publics de recherche sur sept secteurs stratégiques, de l'intelligence artificielle au quantique, des énergies du futur aux biotechnologies."
+        },
+        {
+          "page": 58,
+          "quote": "Le Commissariat au Plan en structurera la feuille de route, secteur par secteur, avec des jalons et des résultats mesurables."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Conditionner les financements publics de recherche à un débouché industriel",
+      "summary": {
+        "simple": "La recherche publique ne serait financée que si elle peut déboucher sur une production ; le crédit d'impôt recherche serait conservé.",
+        "normal": "Tout financement public de recherche conditionné à un débouché industriel identifié ; crédit d'impôt recherche sanctuarisé avec lutte contre ses dérives ; jusqu'à 2 000 emplois de chercheurs redéployés vers les sciences et technologies ; circulation facilitée entre laboratoires et entreprises."
+      },
+      "sources": [
+        {
+          "page": 59,
+          "quote": "Conditionner tout financement public à un continuum clair entre recherche, innovation et production : un débouché industriel identifié, même lointain, et une trajectoire crédible vers le marché."
+        },
+        {
+          "page": 59,
+          "quote": "Rééquilibrer l'effort national au profit des sciences et technologies, avec jusqu'à 2 000 emplois de chercheurs redéployés."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Créer un Fonds France Production de 600 millions d'euros par an pour moderniser les usines",
+      "summary": {
+        "simple": "Un fonds de 600 millions d'euros par an aiderait les usines à se moderniser.",
+        "normal": "Fonds France Production de 600 millions d'euros par an (200 M€ de l'État, 200 M€ des régions, 200 M€ européens), piloté par les régions, dédié à la modernisation de l'outil industriel ; sur-amortissement fiscal des équipements productifs ; registre national des friches sous l'autorité des préfets."
+      },
+      "sources": [
+        {
+          "page": 60,
+          "quote": "Créer un Fonds France Production, intégralement financé, doté de 600 millions d'euros par an, exclusivement dédié à la modernisation de l'outil industriel, piloté par les régions et cofinancé par l'État et les fonds européens. Y ajouter un sur-amortissement fiscal des équipements productifs."
+        },
+        {
+          "page": 60,
+          "quote": "200 M€ par l'Etat ; 200 M€ par les régions ; 200 M€ par les fondes européens."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Taxer les friches industrielles laissées en l'état et créer un crédit d'impôt de 30 % pour leur dépollution",
+      "summary": {
+        "simple": "Un propriétaire de friche industrielle paierait un malus s'il la laisse en l'état et aurait un crédit d'impôt de 30 % pour la dépolluer.",
+        "normal": "Répertoire national des friches établi dans les deux ans ; réutilisation des friches reconnue d'intérêt public majeur ; malus fiscal de 3 000 € par hectare la première année, croissant avec la vacance ; crédit d'impôt de 30 % pour la dépollution ; suppression des subventions directes de l'État ; objectif de 15 000 hectares réhabilités en dix ans."
+      },
+      "sources": [
+        {
+          "page": 61,
+          "quote": "Créer un Répertoire national des friches, établi par arrêté préfectoral dans les deux ans, recensant chaque parcelle, son niveau de pollution et sa destination."
+        },
+        {
+          "page": 61,
+          "quote": "Elle déclenchera aussi un malus fiscal pour le propriétaire qui laisse le terrain en l'état, et un crédit d'impôt de 30 % pour celui qui le dépollue. Les subventions directes de l'État seront supprimées."
+        },
+        {
+          "page": 61,
+          "quote": "Le malus, 3 000 euros par hectare la première année et croissant avec la vacance, rapporte 50 à 100 millions d'euros par an, affectés à la dépollution des friches sans maître."
+        },
+        {
+          "page": 61,
+          "quote": "Reconquérir 15 000 hectares de friches sur dix ans représente moins d'un tiers du gisement déjà recensé."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "retraite",
+      "title": "Ouvrir un compte d'épargne retraite volontaire pour chaque actif et orienter l'épargne vers les entreprises",
+      "summary": {
+        "simple": "Chaque actif aurait un compte d'épargne retraite volontaire, en plus de la retraite par répartition.",
+        "normal": "Réforme des produits d'épargne (simplification, fiscalité orientée vers l'investissement productif de long terme) ; étage de retraite par épargne individuel, complémentaire et volontaire, avec un compte ouvert pour chaque actif, alimenté par intéressement, participation et épargne volontaire, sans cotisation nouvelle."
+      },
+      "sources": [
+        {
+          "page": 62,
+          "quote": "Créer un étage de retraite par épargne, individuel, complémentaire et volontaire, avec un compte d'épargne retraite ouvert pour chaque actif."
+        },
+        {
+          "page": 62,
+          "quote": "Le compte d'épargne retraite sera alimenté par le redéploiement de flux existants : intéressement, participation, épargne volontaire. Il ne crée aucune cotisation nouvelle et ne pèse pas sur les finances publiques."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "pension",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "in",
+            "value": [
+              "salarie_prive",
+              "fonctionnaire",
+              "independant",
+              "chef_entreprise"
+            ]
+          },
+          "sentence": {
+            "simple": "Tu aurais un compte d'épargne retraite, facultatif, en plus de ta retraite par répartition.",
+            "normal": "Un compte d'épargne retraite volontaire serait ouvert pour chaque actif, alimenté par intéressement, participation et épargne volontaire, sans changer les cotisations ni les pensions par répartition."
+          }
+        }
+      ]
+    }
+  ]
+}

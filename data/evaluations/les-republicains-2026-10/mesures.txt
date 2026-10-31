@@ -1,0 +1,1085 @@
+===== m-d85e5adef490 =====
+{
+ "title": "Ouvrir le référendum législatif à tous les sujets",
+ "summary": {
+  "simple": "Les Français pourraient être consultés par référendum sur n'importe quel sujet de loi, sans exception.",
+  "normal": "Le référendum législatif serait ouvert à tout sujet, sans exception ; seule la révision constitutionnelle resterait soumise à l'article 89. Une loi adoptée par référendum ne pourrait être remise en cause par aucun juge."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-elargir-le-referendum-a-toute-la-matiere-legislative-et p. 1) : Ouvrir le référendum législatif à tout sujet, sans exception. Seule la révision constitutionnelle restera hors de sa portée et continuera de suivre la procédure de l'article 89.
+CITATION (les-republicains-2026-10-elargir-le-referendum-a-toute-la-matiere-legislative-et p. 1) : La loi adoptée par référendum sera à l'abri de toute remise en cause par un juge, quel qu'il soit, sur le fondement de tout texte, quel qu'il soit.
+
+===== m-a2956a0971a9 =====
+{
+ "title": "Permettre au peuple ou au Congrès de passer outre une censure du Conseil constitutionnel",
+ "summary": {
+  "simple": "Quand le Conseil constitutionnel censurerait une loi, le Président pourrait demander au peuple ou au Congrès de la valider quand même.",
+  "normal": "Une procédure de « dernier mot démocratique » serait inscrite à l'article 62 de la Constitution : après une censure, le Président pourrait saisir le peuple ou le Congrès pour autoriser la promulgation ; par le Congrès, il faudrait les trois cinquièmes des suffrages exprimés."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-mesure-lorsque-le-conseil-constitutionnel-censure-une-loi p. 1) : Introduire à l'article 62 de la Constitution une procédure de « dernier mot démocratique » : lorsque le Conseil constitutionnel censurera une loi, le Président de la République pourra en appeler au peuple, ou au Congrès, pour désavouer cette décision et l'autoriser à promulguer la loi
+CITATION (les-republicains-2026-10-mesure-lorsque-le-conseil-constitutionnel-censure-une-loi p. 1) : Lorsque la voie du Congrès sera choisie, l'autorisation ne sera acquise qu'à la majorité des trois cinquièmes des suffrages exprimés, une majorité plus exigeante que celle qui a voté la loi.
+
+===== m-183078f6f9d7 =====
+{
+ "title": "Ne plus appliquer le droit européen contraire à la Constitution ou hors des compétences de l'Union",
+ "summary": {
+  "simple": "Les règles européennes contraires à la Constitution ou hors des compétences de l'Union ne seraient plus appliquées en France.",
+  "normal": "Parlement, juridictions et administrations auraient interdiction d'appliquer règlements, directives et jurisprudences de la Cour de justice de l'Union quand ils sont contraires à la Constitution ou sortent des compétences de l'Union ; le Conseil constitutionnel serait compétent pour le vérifier."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-investir-toutes-les-autorites-publiques-francaises-du p. 1) : Faire interdiction au Parlement, aux juridictions et à toute administration d'appliquer les règlements, les directives et les jurisprudences de la Cour de justice de l'Union dans deux cas seulement : lorsqu'ils sont contraires à la Constitution, et lorsqu'ils sortent du champ de compétences que les traités reconnaissent à l'Union.
+CITATION (les-republicains-2026-10-investir-toutes-les-autorites-publiques-francaises-du p. 1) : Poser sans ambiguïté que le Conseil constitutionnel est compétent pour vérifier que les institutions européennes respectent les limites fixées par les traités.
+
+===== m-bc8a2581483e =====
+{
+ "title": "Inscrire le droit à la sécurité dans la Constitution",
+ "summary": {
+  "simple": "Le droit à la sécurité deviendrait un principe de la Constitution, au même rang que les libertés.",
+  "normal": "Le droit à la sécurité serait inscrit dans la Constitution, à égalité avec les libertés fondamentales. Selon le programme, cela rendrait possibles des peines minimales obligatoires, la majorité pénale à quinze ans et la rétention de sûreté des terroristes en fin de peine."
+ },
+ "subMeasures": [
+  {
+   "text": "Rendre possibles des peines minimales obligatoires, l'abaissement de la majorité pénale à quinze ans et la rétention de sûreté des terroristes en fin de peine.",
+   "source": {
+    "documentId": "les-republicains-2026-10-mesure-inscrire-le-droit-a-la-securite-dans-la-constitution",
+    "page": 1,
+    "quote": "les peines minimales que les juges devront obligatoirement prononcer pour les infractions les plus graves, l'abaissement de la majorité pénale à quinze ans, la rétention de sûreté pour les terroristes en fin de peine"
+   }
+  }
+ ],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-mesure-inscrire-le-droit-a-la-securite-dans-la-constitution p. 1) : Inscrire dans la Constitution le droit à la sécurité, à égalité avec les libertés fondamentales.
+CITATION (les-republicains-2026-10-mesure-inscrire-le-droit-a-la-securite-dans-la-constitution p. 1) : les peines minimales que les juges devront obligatoirement prononcer pour les infractions les plus graves, l'abaissement de la majorité pénale à quinze ans, la rétention de sûreté pour les terroristes en fin de peine
+
+===== m-86124cd9f3f1 =====
+{
+ "title": "Rendre obligatoire l'expulsion de tout étranger condamné ou menaçant l'ordre public",
+ "summary": {
+  "simple": "Tout étranger condamné ou dangereux devrait être expulsé, et le mariage serait réservé aux étrangers en séjour régulier.",
+  "normal": "L'expulsion de tout étranger condamné pénalement ou menaçant l'ordre public deviendrait obligatoire, principe inscrit dans la Constitution ; le mariage serait subordonné à la régularité du séjour."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-mesure-rendre-a-la-france-la-maitrise-de-son-immigration p. 1) : Rendre obligatoire l'expulsion de tout étranger condamné pénalement ou menaçant l'ordre public, sans qu'aucune norme puisse y faire obstacle.
+CITATION (les-republicains-2026-10-mesure-rendre-a-la-france-la-maitrise-de-son-immigration p. 1) : Ce principe sera inscrit dans la Constitution et emportera la levée des verrous à l'éloignement, à commencer par la subordination du mariage à la régularité du séjour.
+
+===== m-4c33a97511b4 =====
+{
+ "title": "Remplacer le principe de précaution par un principe de responsabilité et d'innovation",
+ "summary": {
+  "simple": "Le principe de précaution serait retiré de la Constitution par référendum.",
+  "normal": "Le principe de précaution de la Charte de l'environnement serait supprimé et remplacé par un principe de responsabilité et d'innovation, dans la révision constitutionnelle soumise au référendum."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-suppression-du-principe-de-precaution-inscrit-dans-la p. 1) : Supprimer le principe de précaution inscrit dans la Charte de l'environnement et lui substituer un principe de responsabilité et d'innovation. Cette suppression figurera dans la révision constitutionnelle soumise au référendum.
+
+===== m-c3b3e20e9e00 =====
+{
+ "title": "Abaisser à environ 2,5 millions de signatures le seuil du référendum d'initiative partagée",
+ "summary": {
+  "simple": "Il faudrait un vingtième des électeurs, environ 2,5 millions de signatures, au lieu d'un dixième, pour lancer un référendum d'initiative partagée.",
+  "normal": "Le seuil populaire du référendum d'initiative partagée passerait d'un dixième à un vingtième du corps électoral, soit environ 2,5 millions de citoyens, et ce référendum serait ouvert à tout sujet."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-abaisser-le-seuil-du-referendum-d-initiative-partagee p. 1) : Abaisser le seuil populaire du référendum d'initiative partagée d'un dixième à un vingtième du corps électoral, soit environ 2,5 millions de citoyens, et l'ouvrir lui aussi à tout sujet.
+
+===== m-669fa240031a =====
+{
+ "title": "Augmenter le traitement des professeurs de 135 € nets par mois en début de carrière et d'environ 300 € en milieu",
+ "summary": {
+  "simple": "Les professeurs gagneraient 135 € nets de plus par mois en début de carrière et environ 300 € en milieu de carrière.",
+  "normal": "Alignement du début de carrière des professeurs sur la moyenne européenne (135 € nets de plus par mois) et réduction de moitié de l'écart en milieu de carrière (environ 300 € nets), sur le traitement et non sur les primes ; contrats de mission de cinq ans mieux rémunérés pour les postes difficiles."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-mesure-concentrer-le-primaire-et-le-college-sur-les-savoirs p. 1) : Aligner intégralement le début de carrière sur la moyenne européenne, soit 135 euros nets de plus chaque mois, et combler au moins la moitié de l'écart au cœur de la carrière, soit environ 300 euros nets supplémentaires. Sur le traitement, pas sur les primes.
+CITATION (les-republicains-2026-10-mesure-concentrer-le-primaire-et-le-college-sur-les-savoirs p. 1) : Ouvrir des contrats de mission de cinq ans, mieux rémunérés, pour affecter les meilleurs professeurs là où la tâche est la plus rude
+
+===== m-15e928b77096 =====
+{
+ "title": "Instaurer un examen d'entrée en sixième et des groupes de niveau au collège",
+ "summary": {
+  "simple": "Un examen à l'entrée en sixième placerait chaque élève dans un groupe de niveau, revu régulièrement.",
+  "normal": "Examen d'entrée en sixième déterminant l'affectation dans des groupes de niveau, révisés régulièrement avec des passerelles de la sixième à la troisième ; regroupement des écoles autour de leur collège en « écoles du socle »."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-15e928b77096-e1",
+   "ticketLine": "ecole",
+   "section": "vie",
+   "appliesTo": {
+    "field": "enfantsAgeBand",
+    "op": "in",
+    "value": [
+     "3_10",
+     "11_17"
+    ]
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Tes enfants passeraient un examen d'entrée en sixième, puis seraient répartis en groupes de niveau.",
+    "normal": "Un examen d'entrée en sixième déciderait du groupe de niveau de chaque collégien ; les groupes seraient revus régulièrement."
+   }
+  }
+ ]
+}
+CITATION (les-republicains-2026-10-mesure-mettre-l-intelligence-artificielle-au-service-des p. 1) : Instaurer un examen d'entrée en sixième qui déterminera l'affectation du collégien dans des groupes de niveau, pour y acquérir vraiment, consolider ou approfondir les acquis du primaire.
+CITATION (les-republicains-2026-10-mesure-mettre-l-intelligence-artificielle-au-service-des p. 1) : Regrouper plusieurs écoles autour de leur collège en écoles du socle, pour supprimer la rupture brutale entre l'école et le collège.
+
+===== m-bef66b460c8c =====
+{
+ "title": "Rétablir la note chiffrée et faire du brevet une condition d'entrée au lycée",
+ "summary": {
+  "simple": "Retour des notes chiffrées, fin du passage automatique, et un brevet qui conditionnerait l'entrée au lycée.",
+  "normal": "Rétablissement de la note chiffrée ; remise à niveau plutôt que passage automatique ; redoublement et orientation décidés par les seuls conseils de classe ; brevet conditionnant l'entrée au lycée ; niveau du baccalauréat relevé ; sélection à l'université par un Parcoursup refondé."
+ },
+ "subMeasures": [
+  {
+   "text": "Autoriser les universités à choisir leurs étudiants par un Parcoursup refondé intégrant les résultats du baccalauréat.",
+   "source": {
+    "documentId": "les-republicains-2026-10-evaluer-et-certifier-chaque-etablissement-decentraliser-et",
+    "page": 1,
+    "quote": "Les universités, enfin, seront autorisées à choisir leurs étudiants sur des critères transparents, par un Parcoursup refondé en outil d'information et de sélection, intégrant les résultats du baccalauréat qu'il ignore aujourd'hui."
+   }
+  }
+ ],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-bef66b460c8c-e1",
+   "ticketLine": "ecole",
+   "section": "vie",
+   "appliesTo": {
+    "field": "enfantsAgeBand",
+    "op": "in",
+    "value": [
+     "3_10",
+     "11_17"
+    ]
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Tes enfants auraient de nouveau des notes chiffrées, et le brevet conditionnerait l'entrée au lycée.",
+    "normal": "La note chiffrée serait rétablie, il n'y aurait plus de passage automatique et le brevet conditionnerait l'entrée au lycée."
+   }
+  }
+ ]
+}
+CITATION (les-republicains-2026-10-evaluer-et-certifier-chaque-etablissement-decentraliser-et p. 1) : Rétablir la note chiffrée, claire et lisible. Répondre à chaque difficulté détectée par une remise à niveau et une remédiation, jamais par un passage automatique.
+CITATION (les-republicains-2026-10-evaluer-et-certifier-chaque-etablissement-decentraliser-et p. 1) : Faire du brevet un véritable palier d'orientation, conditionnant l'entrée au lycée dans la voie générale, technologique ou professionnelle. Relever substantiellement le niveau du baccalauréat.
+CITATION (les-republicains-2026-10-evaluer-et-certifier-chaque-etablissement-decentraliser-et p. 1) : Les universités, enfin, seront autorisées à choisir leurs étudiants sur des critères transparents, par un Parcoursup refondé en outil d'information et de sélection, intégrant les résultats du baccalauréat qu'il ignore aujourd'hui.
+
+===== m-b6e6ece99a3e =====
+{
+ "title": "Créer une Réserve nationale des sciences dans chaque académie",
+ "summary": {
+  "simple": "Des ingénieurs, chercheurs et médecins volontaires interviendraient dans les classes avec les professeurs.",
+  "normal": "Création, sur le modèle de la réserve opérationnelle des armées, d'une Réserve nationale des sciences : dans chaque académie, des volontaires en activité ou retraités interviendraient en classe sous l'autorité du professeur ; ouverture progressive à d'autres disciplines."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-projet-mesure-creer-une-reserve-nationale-des-sciences p. 1) : Créer, sur le modèle de la réserve opérationnelle de nos armées, une Réserve nationale des sciences.
+CITATION (les-republicains-2026-10-projet-mesure-creer-une-reserve-nationale-des-sciences p. 1) : Dans chaque académie, elle rassemblera des ingénieurs, des chercheurs, des techniciens et des médecins volontaires, en activité ou à la retraite, qui interviendront dans les classes sous l'autorité du professeur
+
+===== m-20196212d1da =====
+{
+ "title": "Plafonner le total des aides non contributives à 70 % du SMIC net par adulte, via un compte social unique",
+ "summary": {
+  "simple": "Le total des aides sociales d'un adulte ne pourrait pas dépasser 70 % du SMIC net, hors handicap, dépendance et vieillesse.",
+  "normal": "Création d'un compte social unique retraçant toutes les aides non contributives de chaque adulte ; leur total serait plafonné à 70 % du SMIC net par adulte, hors handicap, dépendance et vieillesse ; retraite et chômage hors du calcul ; registre national des versements obligatoire."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-20196212d1da-e1",
+   "ticketLine": "apl",
+   "section": "portefeuille",
+   "appliesTo": {
+    "field": "situationPro",
+    "op": "in",
+    "value": [
+     "demandeur_emploi",
+     "sans_activite"
+    ]
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Le total de tes aides sociales (logement, famille, minima, tarifs sociaux) serait plafonné à 70 % du SMIC net par adulte.",
+    "normal": "Toutes les aides non contributives seraient additionnées dans un compte social unique et plafonnées à 70 % du SMIC net par adulte, hors handicap, dépendance et vieillesse. Effet non calculé pour ton profil."
+   }
+  }
+ ]
+}
+CITATION (les-republicains-2026-10-projet-mesure-plafonner-les-aides-sociales-a-70-du-smic p. 1) : Créer un Compte social unique, sur le modèle du compte fiscal : chaque adulte disposera d'un compte retraçant toutes les aides non contributives qu'il perçoit, quelle qu'en soit l'origine.
+CITATION (les-republicains-2026-10-projet-mesure-plafonner-les-aides-sociales-a-70-du-smic p. 1) : Un plafond national s'appliquera ensuite : le total ne pourra pas dépasser 70 % du SMIC net par adulte, hors handicap, dépendance et vieillesse. Ni la retraite ni le chômage n'entrent dans ce calcul.
+
+===== m-73e8831c29b1 =====
+{
+ "title": "Durcir l'assurance chômage : fin après trois offres refusées, ruptures conventionnelles limitées à six mois",
+ "summary": {
+  "simple": "Refuser une troisième offre d'emploi raisonnable mettrait fin aux allocations chômage, et l'indemnisation après une rupture conventionnelle serait limitée à six mois.",
+  "normal": "Application des règles de juin 2024 ; fin de l'indemnisation après le refus d'une troisième offre raisonnable ; indemnisation des ruptures conventionnelles limitée à six mois et plafonnée ; allocation des frontaliers calculée sur un salaire français ; plafonnement et dégressivité accélérée au-dessus de 3 000 € nets ; rechargement des droits après neuf ou douze mois."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-reduire-les-durees-et-plafonner-les-allocations-chomage p. 1) : Appliquer les règles de juin 2024, votées et jamais mises en œuvre, et les compléter : le refus d'une troisième offre raisonnable met fin à l'indemnisation. Limiter à six mois et plafonner l'indemnisation des ruptures conventionnelles.
+CITATION (les-republicains-2026-10-reduire-les-durees-et-plafonner-les-allocations-chomage p. 1) : Calculer l'allocation des frontaliers sur un salaire de référence français. Et mettre fin à l'alternance organisée entre emploi et chômage, par le plafonnement de l'allocation et une dégressivité accélérée au-dessus de 3 000 euros nets.
+CITATION (les-republicains-2026-10-reduire-les-durees-et-plafonner-les-allocations-chomage p. 1) : La période minimale de rechargement des droits sera portée à neuf ou douze mois
+
+===== m-97e3f5e7fa75 =====
+{
+ "title": "Réduire le code du travail à un socle de 50 principes et donner la priorité aux accords collectifs",
+ "summary": {
+  "simple": "Le code du travail garderait 50 principes intangibles ; le reste serait fixé par accord dans l'entreprise ou la branche.",
+  "normal": "Socle de 50 principes fondamentaux indépassable ; le reste du code du travail ne s'appliquerait qu'à défaut d'accord collectif, l'accord d'entreprise primant sur celui de branche ; accords possibles par syndicats majoritaires, CSE ou référendum à l'initiative de l'employeur ; fin de l'extension automatique des accords de branche sauf sur les minima."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-97e3f5e7fa75-e1",
+   "ticketLine": "temps_travail",
+   "section": "temps",
+   "appliesTo": {
+    "field": "situationPro",
+    "op": "eq",
+    "value": "salarie_prive"
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Au-delà de 50 principes fixés par la loi, tes règles de travail seraient fixées par accord dans ton entreprise ou ta branche.",
+    "normal": "Le code du travail deviendrait supplétif : hors d'un socle de 50 principes, l'accord d'entreprise (ou de branche) fixerait la règle, y compris par référendum à l'initiative de l'employeur."
+   }
+  }
+ ]
+}
+CITATION (les-republicains-2026-10-refonder-le-code-du-travail-sur-50-principes-rendre-le p. 1) : Refonder le droit du travail autour de la subsidiarité sociale : un socle de 50 principes fondamentaux rendu indépassable, et pour le reste un code devenu supplétif, qui ne s'applique qu'en l'absence d'accord collectif.
+CITATION (les-republicains-2026-10-refonder-le-code-du-travail-sur-50-principes-rendre-le p. 1) : Il pourra être conclu par des syndicats majoritaires, par le CSE ou par référendum à l'initiative de l'employeur, avec une voie adaptée aux entreprises sans délégué syndical.
+
+===== m-2628cb64ef2e =====
+{
+ "title": "Alléger de 40 milliards d'euros le coût du travail et les impôts de production",
+ "summary": {
+  "simple": "Les entreprises paieraient 40 milliards d'euros de moins en cotisations et impôts de production, dont la suppression de la C3S et de la CVAE.",
+  "normal": "Plus de 25 milliards d'euros d'allègements sur le coût du travail (seuil « zéro cotisation » et baisse des cotisations patronales non contributives) et près de 15 milliards sur les impôts de production : suppression de la C3S (5,3 Md€) et de la CVAE (4,3 Md€), refonte du forfait social (2,8 Md€), exonération de la part industrielle de la CFE (1,9 Md€) ; crédit d'impôt recherche sanctuarisé."
+ },
+ "subMeasures": [
+  {
+   "text": "Forfait social maintenu à 20 % sur la participation légale, mais intéressement, part supra-légale et épargne retraite individuelle exonérés.",
+   "source": {
+    "documentId": "les-republicains-2026-10-reduire-de-60-le-handicap-fiscal-de-nos-entreprises-par",
+    "page": 1,
+    "quote": "Le forfait social resterait à 20 % sur la participation légale obligatoire, mais l'intéressement, la part supra-légale et l'épargne retraite individuelle en seraient exonérés."
+   }
+  }
+ ],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-reduire-de-60-le-handicap-fiscal-de-nos-entreprises-par p. 1) : Engager plus de 25 milliards d'euros d'allègements sur le coût du travail, en combinant le seuil « zéro cotisation » et une baisse directe des cotisations patronales non contributives.
+CITATION (les-republicains-2026-10-reduire-de-60-le-handicap-fiscal-de-nos-entreprises-par p. 1) : Y ajouter près de 15 milliards sur la fiscalité de production, concentrés sur les impôts les plus pénalisants pour l'industrie : suppression intégrale de la C3S (5,3 milliards), suppression définitive de la CVAE (4,3 milliards), refonte du forfait social (2,8 milliards), exonération de la part industrielle de la CFE (1,9 milliard).
+CITATION (les-republicains-2026-10-reduire-de-60-le-handicap-fiscal-de-nos-entreprises-par p. 1) : Le crédit d'impôt recherche sera sanctuarisé, et la lutte contre ses dérives renforcée.
+CITATION (les-republicains-2026-10-reduire-de-60-le-handicap-fiscal-de-nos-entreprises-par p. 1) : Le handicap fiscal total, aides comprises, sera réduit de 40 milliards, soit une baisse de 60 %.
+CITATION (les-republicains-2026-10-reduire-de-60-le-handicap-fiscal-de-nos-entreprises-par p. 1) : Le forfait social resterait à 20 % sur la participation légale obligatoire, mais l'intéressement, la part supra-légale et l'épargne retraite individuelle en seraient exonérés.
+
+===== m-339e9d42394d =====
+{
+ "title": "Exiger la réciprocité commerciale et concentrer au moins la moitié des contrôles sur les produits importés",
+ "summary": {
+  "simple": "Au moins la moitié des contrôles de conformité porterait sur les produits importés, et les accords commerciaux exigeraient la réciprocité.",
+  "normal": "Clauses de réciprocité défendues dans tous les accords commerciaux européens ; contrôles prioritairement au point de vente, avec responsabilité de l'importateur ; au moins la moitié des contrôles sur les produits importés, à effectifs constants ; mécanisme d'ajustement carbone aux frontières étendu aux produits transformés."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-mesure-controler-davantage-les-importations-et-exiger-la p. 1) : Porter au niveau européen l'imposition systématique de clauses de réciprocité dans tous les accords commerciaux.
+CITATION (les-republicains-2026-10-mesure-controler-davantage-les-importations-et-exiger-la p. 1) : À effectifs constants, au moins la moitié des contrôles portera sur les produits importés. Renforcer le mécanisme d'ajustement carbone aux frontières et l'étendre aux produits transformés.
+
+===== m-54d65a3da87b =====
+{
+ "title": "Ouvrir un compte d'épargne retraite volontaire pour chaque actif et orienter l'épargne vers les entreprises",
+ "summary": {
+  "simple": "Chaque actif aurait un compte d'épargne retraite volontaire, en plus de la retraite par répartition.",
+  "normal": "Réforme des produits d'épargne (simplification, fiscalité orientée vers l'investissement productif de long terme) ; étage de retraite par épargne individuel, complémentaire et volontaire, avec un compte ouvert pour chaque actif, alimenté par intéressement, participation et épargne volontaire, sans cotisation nouvelle."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-54d65a3da87b-e1",
+   "ticketLine": "pension",
+   "section": "portefeuille",
+   "appliesTo": {
+    "field": "situationPro",
+    "op": "in",
+    "value": [
+     "salarie_prive",
+     "fonctionnaire",
+     "independant",
+     "chef_entreprise"
+    ]
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Tu aurais un compte d'épargne retraite, facultatif, en plus de ta retraite par répartition.",
+    "normal": "Un compte d'épargne retraite volontaire serait ouvert pour chaque actif, alimenté par intéressement, participation et épargne volontaire, sans changer les cotisations ni les pensions par répartition."
+   }
+  }
+ ]
+}
+CITATION (les-republicains-2026-10-financer-les-entreprises-avec-l-epargne-et-preparer-la p. 1) : Créer un étage de retraite par épargne, individuel, complémentaire et volontaire, avec un compte d'épargne retraite ouvert pour chaque actif.
+CITATION (les-republicains-2026-10-financer-les-entreprises-avec-l-epargne-et-preparer-la p. 1) : Le compte d'épargne retraite sera alimenté par le redéploiement de flux existants : intéressement, participation, épargne volontaire. Il ne crée aucune cotisation nouvelle et ne pèse pas sur les finances publiques.
+
+===== m-1d5b96e5a0b2 =====
+{
+ "title": "Reconnaître automatiquement les produits autorisés ailleurs en Europe et réautoriser l'acétamipride",
+ "summary": {
+  "simple": "Un produit agricole autorisé chez plusieurs voisins européens serait autorisé en France sans nouvelle évaluation, dont certains néonicotinoïdes.",
+  "normal": "Reconnaissance mutuelle automatique : l'ANSES ne réévaluerait plus un produit autorisé par des autorités équivalentes dans plusieurs États membres ; réautorisation de certains néonicotinoïdes, dont l'acétamipride, autorisés dans le marché unique ; clause de sauvegarde maintenue."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-mesure-ne-plus-jamais-evaluer-deux-fois-ce-qui-l-a-deja-ete p. 1) : Appliquer strictement et automatiquement le principe de reconnaissance mutuelle : lorsqu'un produit a été autorisé par des autorités sanitaires équivalentes dans plusieurs États membres, l'ANSES n'a pas à recommencer l'évaluation.
+CITATION (les-republicains-2026-10-mesure-ne-plus-jamais-evaluer-deux-fois-ce-qui-l-a-deja-ete p. 1) : Autoriser de nouveau l'usage de certains néonicotinoïdes, dont l'acétamipride, dès lors qu'ils sont autorisés dans le marché unique européen.
+
+===== m-cfacda3391d7 =====
+{
+ "title": "Ouvrir la commande publique alimentaire aux producteurs agricoles",
+ "summary": {
+  "simple": "Les cantines et achats publics seraient découpés en petits lots pour que les agriculteurs puissent y répondre directement.",
+  "normal": "Acheteurs publics incités à valoriser fraîcheur, saisonnalité et traçabilité ; marchés alimentaires divisés en lots ; délit de favoritisme limité aux comportements frauduleux intentionnels, en revenant sur la loi Sapin 2."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-mesure-ouvrir-les-marches-publics-aux-producteurs-agricoles p. 1) : Diviser les marchés alimentaires en lots pour permettre aux agriculteurs, PME et ETI de répondre directement. Revenir sur la loi Sapin 2 pour que le délit de favoritisme ne soit retenu qu'en cas de comportement frauduleux intentionnel.
+
+===== m-76d6fdd8f8b1 =====
+{
+ "title": "Clore les négociations commerciales au 31 décembre et rendre les enseignes responsables de leurs centrales d'achat",
+ "summary": {
+  "simple": "Les négociations entre agriculteurs et supermarchés devraient se terminer au 31 décembre, et les enseignes répondraient de leurs centrales d'achat à l'étranger.",
+  "normal": "Part non négociable liée aux matières premières sanctuarisée ; contractualisation écrite renforcée ; date butoir au 31 décembre ; enseignes responsables des pratiques de leurs centrales d'achat européennes ou internationales ; opposition à l'intégration de l'Ukraine au marché agricole européen."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-encadrer-les-negociations-et-controler-les-importations p. 1) : Sanctuariser la part non négociable liée aux matières premières, renforcer la contractualisation écrite et fixer une date butoir au 31 décembre pour clore les négociations. Rendre les enseignes opérant en France responsables des pratiques de leurs centrales d'achat européennes ou internationales.
+CITATION (les-republicains-2026-10-encadrer-les-negociations-et-controler-les-importations p. 1) : S'opposer à l'intégration de l'Ukraine au marché agricole européen.
+
+===== m-86161dce5b30 =====
+{
+ "title": "Verser 9 000 € de TVA à la commune pour chaque logement neuf construit",
+ "summary": {
+  "simple": "Chaque commune recevrait 9 000 € de l'État pour chaque logement neuf construit sur son territoire.",
+  "normal": "Versement automatique à la commune d'une fraction forfaitaire de TVA de 9 000 € par logement neuf, pour financer écoles, voirie et réseaux ; préfet pivot de la politique de construction par des contrats territoriaux par bassin de vie."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-verser-9-000-euros-aux-communes-par-logement-neuf-construit p. 1) : Verser automatiquement à la commune une fraction forfaitaire de TVA de 9 000 euros pour chaque logement neuf, afin de financer les équipements publics nécessaires : écoles, voirie, réseaux.
+CITATION (les-republicains-2026-10-verser-9-000-euros-aux-communes-par-logement-neuf-construit p. 1) : Faire du préfet le pivot de la politique de construction, par des contrats territoriaux conclus à l'échelle des bassins de vie, qui remplaceront les objectifs tombés d'en haut.
+
+===== m-3bafb803f69a =====
+{
+ "title": "Vendre 10 % des pavillons HLM à leurs locataires, avec une décote de 20 % après dix ans",
+ "summary": {
+  "simple": "Les locataires d'une maison HLM pourraient l'acheter, avec une réduction de 20 % après dix ans d'occupation.",
+  "normal": "Programme d'accession pour les locataires du parc social : objectif de vente de 10 % des pavillons HLM, près de 86 000 logements ; décote de 20 % après dix ans d'occupation ; chaque logement vendu remplacé par un logement neuf."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-3bafb803f69a-e1",
+   "ticketLine": "logement",
+   "section": "vie",
+   "appliesTo": {
+    "field": "logement",
+    "op": "eq",
+    "value": "locataire_hlm"
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Si tu loues une maison HLM, tu pourrais l'acheter, avec 20 % de réduction après dix ans d'occupation.",
+    "normal": "10 % des pavillons HLM seraient proposés à la vente à leurs locataires, avec une décote de 20 % après dix ans d'occupation."
+   }
+  }
+ ]
+}
+CITATION (les-republicains-2026-10-vendre-leur-logement-aux-locataires-hlm-qui-le-souhaitent p. 1) : Engager un programme d'accession pour les locataires du parc social, avec un objectif de vente de 10 % des pavillons HLM, soit près de 86 000 logements.
+CITATION (les-republicains-2026-10-vendre-leur-logement-aux-locataires-hlm-qui-le-souhaitent p. 1) : Un fonds de mutualisation compensera une partie des décotes de 20 % accordées aux locataires après dix ans d'occupation.
+
+===== m-b1d28e758f60 =====
+{
+ "title": "Rendre déductibles les intérêts d'emprunt de la résidence principale selon le nombre d'enfants",
+ "summary": {
+  "simple": "Les familles pourraient déduire de leurs impôts une partie des intérêts de leur crédit immobilier : 50 % avec un enfant, 100 % à partir de trois.",
+  "normal": "Intérêts d'emprunt de la résidence principale déductibles à 50 % avec un enfant mineur à charge, 75 % avec deux, 100 % à partir de trois, dans la limite du meilleur taux du marché ; réduction d'impôt plafonnée à 400 € par an plus 400 € par enfant mineur ; prêts immobiliers transférables en cas de déménagement."
+ },
+ "subMeasures": [
+  {
+   "text": "Déduction applicable à l'achat d'un terrain, d'un logement ou à des travaux de construction et d'agrandissement de la résidence principale.",
+   "source": {
+    "documentId": "les-republicains-2026-10-mesure-baisser-le-cout-du-credit-immobilier-des-familles",
+    "page": 1,
+    "quote": "La déduction s'appliquera à l'achat d'un terrain, d'un logement ou à des travaux de construction et d'agrandissement, pour la seule résidence principale."
+   }
+  }
+ ],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-b1d28e758f60-e1",
+   "ticketLine": "impot_revenu",
+   "section": "portefeuille",
+   "appliesTo": {
+    "all": [
+     {
+      "field": "logement",
+      "op": "eq",
+      "value": "proprio_credit"
+     },
+     {
+      "field": "nbEnfants",
+      "op": "gte",
+      "value": 1
+     }
+    ]
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Tu pourrais déduire de ton impôt une partie des intérêts de ton crédit immobilier : 50 % avec un enfant, 75 % avec deux, 100 % à partir de trois.",
+    "normal": "Les intérêts d'emprunt de ta résidence principale deviendraient déductibles (50 %, 75 % ou 100 % selon le nombre d'enfants mineurs), avec une réduction d'impôt plafonnée à 400 € par an plus 400 € par enfant. Montant non calculé : le profil ne contient pas tes intérêts d'emprunt."
+   }
+  }
+ ]
+}
+CITATION (les-republicains-2026-10-projet-mesure-reduire-le-cout-du-credit-des-familles p. 1) : Rendre les intérêts d'emprunt déductibles pour la résidence principale : 50 % avec un enfant mineur à charge, 75 % avec deux, 100 % à partir de trois. Instaurer la transférabilité des prêts immobiliers, pour qu'un ménage qui déménage conserve les conditions de son prêt initial.
+CITATION (les-republicains-2026-10-projet-mesure-reduire-le-cout-du-credit-des-familles p. 1) : les intérêts pris en compte seront plafonnés au taux d'emprunt le plus favorable constaté sur le marché, publié chaque année par l'administration fiscale.
+CITATION (les-republicains-2026-10-mesure-baisser-le-cout-du-credit-immobilier-des-familles p. 1) : La réduction d'impôt annuelle est plafonnée à 400 euros, majorés de 400 euros par enfant mineur à charge.
+CITATION (les-republicains-2026-10-mesure-baisser-le-cout-du-credit-immobilier-des-familles p. 1) : La déduction s'appliquera à l'achat d'un terrain, d'un logement ou à des travaux de construction et d'agrandissement, pour la seule résidence principale.
+
+===== m-7026724140fe =====
+{
+ "title": "Ne plus interdire la location des logements classés F ou G au DPE",
+ "summary": {
+  "simple": "Le diagnostic énergétique resterait obligatoire mais ne pourrait plus interdire de louer un logement.",
+  "normal": "Le diagnostic de performance énergétique resterait obligatoire et informatif mais ne pourrait plus fonder une interdiction de louer ; selon le programme, environ 450 000 logements préservés ou remis sur le marché."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-7026724140fe-e1",
+   "ticketLine": "logement",
+   "section": "vie",
+   "appliesTo": {
+    "field": "logement",
+    "op": "in",
+    "value": [
+     "locataire_prive",
+     "proprio_credit",
+     "proprio_sans_credit"
+    ]
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Un logement mal classé au diagnostic énergétique pourrait de nouveau être loué.",
+    "normal": "Le DPE resterait obligatoire mais n'interdirait plus de louer les logements classés G, F puis E."
+   }
+  }
+ ]
+}
+CITATION (les-republicains-2026-10-projet-mesure-lever-les-interdictions-de-louer-liees-au-dpe p. 1) : Le DPE restera obligatoire et informatif pour les locataires comme pour les acquéreurs, mais il ne pourra plus fonder une interdiction administrative de louer.
+CITATION (les-republicains-2026-10-projet-mesure-lever-les-interdictions-de-louer-liees-au-dpe p. 1) : soit environ 450 000 logements préservés ou remis à disposition, sans construire un mètre carré ni verser une subvention.
+
+===== m-948ffac79d16 =====
+{
+ "title": "Doubler le Revenu familial pour le troisième enfant mineur",
+ "summary": {
+  "simple": "Le troisième enfant ouvrirait droit à 480 € par mois : 960 € au total pour trois enfants.",
+  "normal": "Revenu familial doublé automatiquement pour le troisième enfant mineur : 240 € pour chacun des deux premiers et 480 € pour le troisième, soit 960 € par mois ; 1 200 € pour quatre enfants (240 € pour le quatrième)."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-948ffac79d16-e1",
+   "ticketLine": "allocations_familiales",
+   "section": "portefeuille",
+   "appliesTo": {
+    "field": "nbEnfants",
+    "op": "gte",
+    "value": 3
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Avec trois enfants mineurs, le Revenu familial atteindrait 960 € par mois.",
+    "normal": "Le Revenu familial serait doublé pour le troisième enfant mineur : 960 € par mois pour trois enfants, 1 200 € pour quatre."
+   }
+  }
+ ]
+}
+CITATION (les-republicains-2026-10-mesure-doubler-le-revenu-familial-pour-le-troisieme-enfant p. 1) : Doubler automatiquement le Revenu familial pour le troisième enfant mineur à charge. Les parents de trois enfants percevront 240 euros pour chacun des deux premiers et 480 euros pour le troisième, soit 960 euros par mois. Les parents de quatre enfants percevront 1 200 euros par mois, avec 240 euros pour le quatrième enfant.
+
+===== m-bad658baf663 =====
+{
+ "title": "Suivre la construction de six EPR2 et en commander huit de plus si le chantier avance bien",
+ "summary": {
+  "simple": "Les six réacteurs EPR2 prévus seraient construits, et huit autres commandés dans les deux premières années si les délais sont tenus.",
+  "normal": "Suivi des six EPR2 prévus, le premier mis en service d'ici 2038 ; filière nucléaire européenne fondée sur des composants modulaires ; commande de huit EPR2 supplémentaires dans les deux premières années du mandat si l'avancement des six premiers est satisfaisant ; prêt de l'État couvrant 60 % du coût."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-mesure-construire-les-epr2-dans-les-couts-et-delais-prevus p. 1) : Veiller à l'avancement des six EPR2, dont le premier doit être mis en service d'ici 2038, et construire une filière nucléaire européenne fondée sur la modularité des composants et la stabilisation de leur conception
+CITATION (les-republicains-2026-10-mesure-construire-les-epr2-dans-les-couts-et-delais-prevus p. 1) : Si l'avancement des six premiers est satisfaisant, confirmer la commande de huit EPR2 supplémentaires dès les deux premières années du mandat.
+CITATION (les-republicains-2026-10-mesure-construire-les-epr2-dans-les-couts-et-delais-prevus p. 1) : Un prêt de l'État à taux avantageux couvre 60 % du coût, adossé à l'épargne gérée par la Caisse des dépôts.
+
+===== m-a3dbf671eb56 =====
+{
+ "title": "Réaliser 197 milliards d'euros d'économies en 2032, dont 146 milliards pour réduire le déficit",
+ "summary": {
+  "simple": "L'État ferait 197 milliards d'euros d'économies par an en 2032, pour ramener le déficit sous 3 % en 2031.",
+  "normal": "197 milliards d'euros d'économies en 2032 : 146 milliards affectés à la réduction du déficit et 51 milliards rendus ; déficit sous 3 % en 2031 (2,8 %) et à 2,2 % en 2032 ; excédent primaire dès 2030, la dette atteignant son point haut en 2030."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-la-trajectoire-financiere-du-projet-197-md-dont-146-md-pour p. 1) : 197 Md€ d'économies en 2032, dont 146 Md€ pour le déficit et 51 Md€ rendus, pour un déficit sous 3 % en 2031 et 2,2 % en 2032, excédent primaire dès 2030
+CITATION (les-republicains-2026-10-reduire-le-deficit-pour-retrouver-notre-souverainete-146-md p. 1) : Sur 197 Md€ d'économies en 2032, 146 Md€ vont à la réduction du déficit ; le déficit repasse sous 3 % en 2031 (2,8 %) et atteint 2,2 % en 2032, dès 2030 la France dégage un excédent hors intérêts de la dette, la dette atteint son point haut en 2030 puis recule
+
+===== m-79ca09f1cbfc =====
+{
+ "title": "Former plusieurs millions d'actifs à l'IA en deux ans, avec un socle de vingt heures",
+ "summary": {
+  "simple": "Plusieurs millions de salariés et d'agents publics seraient formés à l'intelligence artificielle en deux ans, au moins vingt heures chacun.",
+  "normal": "Formation en deux ans de plusieurs millions d'actifs à l'IA, avec un socle de vingt heures, dans le privé comme dans le public : plan de développement des compétences, CPF rénové cofinancé à 20 % par l'employeur et abondement ciblé pour ceux sans employeur ; doublement du nombre d'ingénieurs spécialisés ; suspension des indemnités en cas de refus d'une offre correspondant aux qualifications acquises."
+ },
+ "subMeasures": [
+  {
+   "text": "Doubler le nombre d'ingénieurs spécialisés en IA, informatique, robotique et mathématiques appliquées.",
+   "source": {
+    "documentId": "les-republicains-2026-10-mesure-former-des-millions-d-actifs-a-l-ia-en-deux-ans",
+    "page": 1,
+    "quote": "Le nombre d'ingénieurs spécialisés en IA, informatique, robotique, mathématiques appliquées et infrastructures numériques sera doublé"
+   }
+  }
+ ],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-79ca09f1cbfc-e1",
+   "ticketLine": "temps_travail",
+   "section": "temps",
+   "appliesTo": {
+    "field": "situationPro",
+    "op": "in",
+    "value": [
+     "salarie_prive",
+     "fonctionnaire",
+     "demandeur_emploi"
+    ]
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Tu pourrais suivre au moins vingt heures de formation à l'intelligence artificielle.",
+    "normal": "Plusieurs millions d'actifs seraient formés à l'IA en deux ans, avec un socle de vingt heures, par l'employeur ou un CPF cofinancé."
+   }
+  }
+ ]
+}
+CITATION (les-republicains-2026-10-mesure-former-des-millions-d-actifs-a-l-ia-en-deux-ans p. 1) : Former en deux ans plusieurs millions d'actifs à l'intelligence artificielle, avec un socle minimum de vingt heures, dans le privé comme dans le public.
+CITATION (les-republicains-2026-10-mesure-former-des-millions-d-actifs-a-l-ia-en-deux-ans p. 1) : L'effort reposera sur trois étages : le plan de développement des compétences pour les entreprises, un compte personnel de formation rénové et cofinancé par l'employeur à hauteur de 20 %, et un abondement ciblé du CPF pour ceux qui n'ont pas d'employeur en mesure de cofinancer.
+CITATION (les-republicains-2026-10-mesure-former-des-millions-d-actifs-a-l-ia-en-deux-ans p. 1) : Le nombre d'ingénieurs spécialisés en IA, informatique, robotique, mathématiques appliquées et infrastructures numériques sera doublé
+
+===== m-bf16e1f67bb1 =====
+{
+ "title": "Lancer un programme « Retour au pays » avec cinq ans d'exonération d'impôt pour les talents de la tech",
+ "summary": {
+  "simple": "Les meilleurs Français de la tech revenant de l'étranger ne paieraient pas d'impôt sur le revenu pendant cinq ans, et un visa Talents Tech serait créé.",
+  "normal": "Programme « Retour au pays » pour les meilleurs Français de la tech installés à l'étranger : exonération totale d'impôt sur le revenu pendant cinq ans, missions dans l'État ou les grandes entreprises, capital d'amorçage, chaires académiques ; visa Talents Tech délivré en quelques semaines."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-faire-revenir-les-talents-francais-et-attirer-les-experts p. 1) : Lancer un programme « Retour au pays » ciblé sur les meilleurs Français de la tech installés à l'étranger : exonération totale d'impôt sur le revenu pendant cinq ans, missions d'envergure dans l'État ou au sein de nos champions industriels, capital amorçage pour entrepreneurs, chaires académiques pour chercheurs. Créer un visa Talents Tech délivré en quelques semaines.
+
+===== m-a753afab8fa1 =====
+{
+ "title": "Lancer un « Starter Pack IA » pour les ETI et grandes PME et appliquer le suramortissement aux investissements en IA",
+ "summary": {
+  "simple": "Les entreprises industrielles seraient aidées à s'équiper en intelligence artificielle, avec un avantage fiscal sur ces investissements.",
+  "normal": "Programme national d'équipement des ETI et grandes PME, le Starter Pack IA, opéré avec des intégrateurs français et les régions ; investissements en IA, robotique et calcul éligibles au suramortissement de 100 % sur trois ans des investissements productifs."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-mesure-equiper-les-entreprises-francaises-en-intelligence p. 1) : Lancer un programme national d'équipement des ETI et des grandes PME, le Starter Pack IA, opéré avec des intégrateurs et des ESN français sélectionnés, capables de déployer des solutions de proximité sur tout le territoire, en lien avec les régions.
+CITATION (les-republicains-2026-10-mesure-equiper-les-entreprises-francaises-en-intelligence p. 1) : Faire bénéficier pleinement les entreprises qui investissent dans l'IA, la robotique et les capacités de calcul du suramortissement de 100 % sur trois ans des investissements productifs, sans empiler un nouveau régime dérogatoire.
+
+===== m-d0cac1645a6c =====
+{
+ "title": "Rendre aux services publics l'équivalent de 250 000 emplois grâce à l'IA, sans licenciement",
+ "summary": {
+  "simple": "L'intelligence artificielle libérerait l'équivalent de 250 000 emplois publics d'ici 2032 : la moitié redéployée vers le contact, l'autre moitié non remplacée.",
+  "normal": "Gain de temps équivalent à 250 000 emplois à temps plein dans les services publics à l'horizon 2032 : 125 000 agents redéployés vers le contact, le soin, l'enquête et le contrôle, 125 000 départs en retraite non remplacés, aucun licenciement ; assistant IA sécurisé pour chaque agent ; ministère de plein exercice chargé de l'IA."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-projet-mesure-simplifier-les-demarches-et-reduire-les-taches p. 1) : Rendre aux services publics, grâce à l'intelligence artificielle, l'équivalent de 250 000 emplois à temps plein de temps de travail à l'horizon 2032. Ce gain sera partagé à parts égales : 125 000 agents redéployés du back-office vers le contact, le soin, l'enquête et le contrôle, et 125 000 départs à la retraite non remplacés. Aucun licenciement.
+CITATION (les-republicains-2026-10-projet-mesure-simplifier-les-demarches-et-reduire-les-taches p. 1) : Chaque agent sera doté d'un assistant IA sécurisé, et un ministère de plein exercice chargé de l'intelligence artificielle, appuyé sur un directeur technologique de l'État, en assurera le pilotage.
+
+===== m-8d7c0bec75e6 =====
+{
+ "title": "Créer Marianne, un assistant administratif numérique gratuit pour chaque Français",
+ "summary": {
+  "simple": "Chaque Français aurait un assistant numérique gratuit, Marianne, pour connaître ses droits et préremplir ses démarches.",
+  "normal": "Assistant administratif numérique Marianne : comprend une demande en langage courant, indique les droits, préremplit les démarches avec les informations déjà détenues par l'administration et suit leur avancement ; gratuit, hébergé sous juridiction française, sans supprimer guichet, téléphone ni courrier ; ne décide rien."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-creer-marianne-l-assistant-administratif-de-chaque-francais p. 1) : Créer pour chaque Français un assistant administratif numérique, Marianne, capable de comprendre une demande formulée en langage courant, d'indiquer les droits auxquels la personne peut prétendre, de préremplir les démarches à partir des informations que l'administration détient déjà, et de suivre leur avancement.
+CITATION (les-republicains-2026-10-creer-marianne-l-assistant-administratif-de-chaque-francais p. 1) : Le service sera gratuit, hébergé sous juridiction française et n'exclura aucun autre canal : le guichet, le téléphone et le courrier resteront accessibles.
+
+===== m-64cb42fba719 =====
+{
+ "title": "Multiplier par cinq les moyens de l'IA de défense, jusqu'à 650 millions d'euros par an",
+ "summary": {
+  "simple": "Les moyens consacrés à l'intelligence artificielle militaire seraient multipliés par cinq, avec priorité aux entreprises françaises et européennes.",
+  "normal": "Commandes prioritaires aux entreprises françaises et européennes pour les briques critiques de défense fondées sur l'IA ; moyens de l'IA de défense multipliés par cinq sur le quinquennat, de 130 à 650 millions d'euros par an, centrés sur la cybersécurité, les drones, la robotisation et le calcul quantique."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-mesure-multiplier-par-cinq-les-moyens-de-l-ia-de-defense p. 1) : Multiplier progressivement par cinq, sur le quinquennat, les moyens consacrés à l'IA de défense, en concentrant l'effort sur quatre priorités : la cybersécurité, les drones et systèmes autonomes, la robotisation et le calcul quantique.
+CITATION (les-republicains-2026-10-mesure-multiplier-par-cinq-les-moyens-de-l-ia-de-defense p. 1) : À partir d'une base de 130 millions d'euros par an en 2024, l'objectif est d'atteindre progressivement 650 millions d'euros par an sur le quinquennat.
+
+===== m-4c41c197e6bf =====
+{
+ "title": "Lancer un plan Vauban numérique de cybersécurité sous pilotage de l'ANSSI",
+ "summary": {
+  "simple": "Un plan de 2,3 milliards d'euros protégerait l'État, les hôpitaux et les entreprises contre les cyberattaques.",
+  "normal": "Plan Vauban numérique sous pilotage de l'ANSSI : bascule des hébergements sensibles vers le cloud souverain, cartographie des dépendances critiques, stress tests ; inspection générale du numérique rattachée au Premier ministre ; capacité de coupure maîtrisée des réseaux compromis ; 2,3 milliards d'euros sur le quinquennat."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-proteger-les-services-publics-et-les-entreprises-contre-les p. 1) : Lancer un plan Vauban numérique sous pilotage de l'ANSSI : bascule accélérée des hébergements sensibles vers le cloud souverain, cartographie de toutes les dépendances critiques, stress tests technologiques réguliers. Créer au sein de l'ANSSI une inspection générale du numérique rapportant directement au Premier ministre.
+CITATION (les-republicains-2026-10-proteger-les-services-publics-et-les-entreprises-contre-les p. 1) : Un investissement nouveau de 2,3 milliards d'euros sur le quinquennat est prévu pour le plan Vauban numérique, le renforcement de l'ANSSI et de l'AMIAD, l'inspection générale du numérique et le recrutement cyber.
+
+===== m-30e06531fa32 =====
+{
+ "title": "Renforcer VIGINUM, riposter aux ingérences par des faits et encadrer la vision par ordinateur",
+ "summary": {
+  "simple": "La France riposterait aux campagnes d'ingérence étrangères avec des faits, et la reconnaissance faciale en temps réel dans l'espace public resterait interdite.",
+  "normal": "VIGINUM renforcé pour une détection continue ; riposte informationnelle aux campagnes d'ingérence, uniquement par des faits étayés ; usage légal et contrôlé de la vision par ordinateur pour la sécurité intérieure, avec interdiction expresse de la reconnaissance faciale en temps réel à des fins de surveillance de masse."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (les-republicains-2026-10-projet-mesure-repondre-a-la-guerre-informationnelle p. 1) : Renforcer VIGINUM et lui donner les moyens d'une détection continue, en lien avec nos partenaires européens. Assumer la riposte informationnelle face aux campagnes d'ingérence, à une condition absolue : jamais de fausses nouvelles, jamais de mensonges, uniquement des faits étayés.
+CITATION (les-republicains-2026-10-projet-mesure-repondre-a-la-guerre-informationnelle p. 1) : Autoriser dans un cadre légal et contrôlé l'usage de la vision par ordinateur pour la sécurité intérieure, avec interdiction expresse de la reconnaissance faciale en temps réel dans l'espace public à des fins de surveillance de masse.
+
+===== m-5746dab62e85 =====
+{
+ "title": "Ramener de 67 à 65 ans l'âge d'annulation de la décote",
+ "summary": {
+  "simple": "Ceux qui n'ont pas tous leurs trimestres pourraient partir sans décote à 65 ans au lieu de 67 ans.",
+  "normal": "Âge d'annulation de la décote ramené de 67 à 65 ans : départ au taux plein à 65 ans quelle que soit la durée de cotisation ; mesure destinée d'abord aux carrières hachées, majoritairement celles de femmes."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-5746dab62e85-e1",
+   "ticketLine": "pension",
+   "section": "portefeuille",
+   "appliesTo": {
+    "field": "situationPro",
+    "op": "in",
+    "value": [
+     "salarie_prive",
+     "fonctionnaire",
+     "independant",
+     "chef_entreprise",
+     "demandeur_emploi",
+     "sans_activite"
+    ]
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Si tu n'as pas tous tes trimestres, tu pourrais partir sans décote à 65 ans au lieu de 67.",
+    "normal": "L'âge d'annulation de la décote passerait de 67 à 65 ans : le taux plein serait atteint à 65 ans quelle que soit la durée de cotisation."
+   }
+  }
+ ]
+}
+CITATION (les-republicains-2026-10-projet-mesure-supprimer-le-couperet-des-67-ans p. 1) : Deux années de retraite seront rendues à ceux qui n'ont pas tous leurs trimestres. L'âge d'annulation de la décote sera ramené de 67 à 65 ans, et chacun partira au taux plein à 65 ans, quelle que soit sa durée de cotisation.
+
+===== m-5512df2000e1 =====
+{
+ "title": "Exonérer de cotisations retraite et chômage ceux qui ont leur carrière complète avant 63 ans",
+ "summary": {
+  "simple": "Ceux qui ont commencé tôt et ont 43 années cotisées avant 63 ans ne paieraient plus de cotisations retraite et chômage, et auraient le taux plein dès 63 ans.",
+  "normal": "Pour une carrière complète (43 années cotisées) avant 63 ans : plus de cotisations retraite ni chômage sur le salaire, soit environ 14 % de salaire net en plus selon le programme, et taux plein garanti dès 63 ans par dérogation au barème ; surcote et cumul emploi-retraite ouverts à partir de 65 ans."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-5512df2000e1-e1",
+   "ticketLine": "salaire_net",
+   "section": "portefeuille",
+   "appliesTo": {
+    "all": [
+     {
+      "field": "age",
+      "op": "gte",
+      "value": 55
+     },
+     {
+      "field": "situationPro",
+      "op": "eq",
+      "value": "salarie_prive"
+     }
+    ]
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Si tu as 43 années cotisées avant 63 ans, ton salaire ne paierait plus de cotisations retraite et chômage : environ 14 % de net en plus selon le candidat.",
+    "normal": "Avec une carrière complète avant 63 ans, les cotisations retraite et chômage seraient supprimées sur ton salaire (environ 14 % de net en plus selon le programme) et le taux plein serait garanti dès 63 ans. Montant non calculé : le profil ne dit pas combien d'années tu as cotisé."
+   }
+  }
+ ]
+}
+CITATION (les-republicains-2026-10-mesure-rendre-le-travail-toujours-gagnant-pour-ceux-qui-ont p. 1) : Celui qui a commencé tôt et réunit sa carrière complète avant 63 ans, soit 43 années cotisées, gagnera environ 14 % de salaire net en plus s'il continue de travailler. Son salaire ne paiera plus de cotisations retraite ni chômage, ce qui allège aussi le coût de son travail pour l'employeur.
+CITATION (les-republicains-2026-10-mesure-rendre-le-travail-toujours-gagnant-pour-ceux-qui-ont p. 1) : Sa carrière complète sera reconnue, puisque le taux plein lui sera garanti dès 63 ans, par dérogation au barème.
+CITATION (les-republicains-2026-10-mesure-rendre-le-travail-toujours-gagnant-pour-ceux-qui-ont p. 1) : La surcote et le cumul emploi-retraite rénové s'ouvrent, eux, à partir de 65 ans, selon le droit commun.
+
+===== m-b033fae2abf0 =====
+{
+ "title": "Majorer la pension de 5 % par année travaillée après 65 ans et ouvrir un cumul emploi-retraite sans cotisations",
+ "summary": {
+  "simple": "Après 65 ans, chaque année travaillée augmenterait la pension de 5 %, ou l'on pourrait cumuler pension et salaire sans cotisations jusqu'à 24 heures par semaine.",
+  "normal": "Après 65 ans avec une carrière complète : pension majorée de 5 % par année travaillée à plein temps sans liquidation ; ou cumul pension et salaire jusqu'à 24 heures par semaine, sans cotisations sociales (hors CSG-CRDS) ni délai de carence, la pension étant réduite de 30 % du salaire pendant le cumul."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-b033fae2abf0-e1",
+   "ticketLine": "pension",
+   "section": "portefeuille",
+   "appliesTo": {
+    "field": "age",
+    "op": "gte",
+    "value": 60
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Après 65 ans, chaque année de travail en plus augmenterait ta pension de 5 % à vie, ou tu pourrais cumuler pension et salaire sans cotisations.",
+    "normal": "Après 65 ans avec une carrière complète : surcote de 5 % par année travaillée à plein temps, ou cumul emploi-retraite jusqu'à 24 heures par semaine sans cotisations sociales, la pension étant réduite de 30 % du salaire perçu."
+   }
+  }
+ ]
+}
+CITATION (les-republicains-2026-10-mesure-rendre-le-travail-toujours-gagnant-apres-65-ans p. 1) : Celui qui continue à plein temps sans liquider sa retraite verra sa pension majorée de 5 % par année travaillée, pour toute sa retraite. Celui qui veut lever le pied pourra cumuler sa pension et un salaire, jusqu'à 24 heures par semaine, sans cotisations sociales et sans délai de carence.
+CITATION (les-republicains-2026-10-mesure-rendre-le-travail-toujours-gagnant-apres-65-ans p. 1) : La pension est simplement ajustée d'un montant égal à 30 % du salaire pendant le cumul, et retrouve son montant plein dès que l'on s'arrête.
+CITATION (les-republicains-2026-10-mesure-rendre-le-travail-toujours-gagnant-apres-65-ans p. 1) : Après 65 ans, dès que la carrière est complète, chaque mois travaillé enrichira, et chacun choisira comment.
+
+===== m-ef0844750160 =====
+{
+ "title": "Consacrer la moitié du temps du primaire au français et aux mathématiques et généraliser l'uniforme au collège",
+ "summary": {
+  "simple": "À l'école primaire, la moitié du temps irait au français et aux mathématiques, et l'uniforme serait généralisé au collège.",
+  "normal": "La moitié du temps du primaire consacrée au français et aux mathématiques ; autorité du maître rétablie ; uniforme généralisé au collège ; voie professionnelle traitée comme une voie d'excellence avec les entreprises."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-ef0844750160-e1",
+   "ticketLine": "ecole",
+   "section": "vie",
+   "appliesTo": {
+    "field": "enfantsAgeBand",
+    "op": "in",
+    "value": [
+     "3_10",
+     "11_17"
+    ]
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Au collège, tes enfants porteraient un uniforme ; en primaire, la moitié du temps irait au français et aux mathématiques.",
+    "normal": "L'uniforme serait généralisé au collège et la moitié du temps du primaire consacrée au français et aux mathématiques."
+   }
+  }
+ ]
+}
+CITATION (les-republicains-2026-10-projet-faq p. 1) : Une école qui transmet : la moitié du temps du primaire consacrée au français et aux mathématiques, l'autorité du maître rétablie et soutenue par sa hiérarchie, l'uniforme généralisé au collège, et une voie professionnelle enfin traitée comme une voie d'excellence avec les entreprises.
+
+===== m-72b9607c6677 =====
+{
+ "title": "Réguler l'installation des médecins là où l'offre manque et soutenir les maisons de santé",
+ "summary": {
+  "simple": "L'installation des médecins serait régulée dans les zones qui en manquent, et les maisons de santé seraient soutenues.",
+  "normal": "Régulation de l'installation des médecins là où l'offre manque, revalorisation des carrières hospitalières et soutien aux maisons de santé pluriprofessionnelles ; objectif : aucun territoire sans médecin."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-72b9607c6677-e1",
+   "ticketLine": "sante",
+   "section": "vie",
+   "appliesTo": {
+    "all": []
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "L'installation des médecins serait régulée là où ils manquent, et les maisons de santé seraient soutenues.",
+    "normal": "Le programme prévoit une régulation de l'installation des médecins dans les zones sous-dotées, la revalorisation des carrières hospitalières et le soutien aux maisons de santé ; les modalités ne sont pas précisées."
+   }
+  }
+ ]
+}
+CITATION (les-republicains-2026-10-projet-faq p. 1) : Aucun territoire ne doit rester sans médecin. Le projet mise sur la régulation de l'installation là où l'offre manque, la revalorisation des carrières hospitalières et le soutien aux maisons de santé pluriprofessionnelles.

@@ -1,0 +1,43 @@
+{
+  "corpus": "les-republicains-2026-10",
+  "lecteur": "Claude (session Claude Code, 2026-10-30)",
+  "consigne": "Pour chaque engagement non apparié automatiquement (citations trop différentes), chercher une mesure publiée qui porte le même engagement ; ne la retenir que si elle en reprend l'objet, même avec une autre citation.",
+  "couvertures": {
+    "Réaffirmer la liberté de choisir comme la liberté constitutionnelle qu'elle est.": {
+      "measureId": "m-815fafefe403",
+      "note": "La mesure supprime la carte scolaire pour rendre aux familles le choix de l'école : même objet (liberté de choisir l'école)."
+    },
+    "Rendre le redoublement et l'orientation à la seule souveraineté des conseils de classe.": {
+      "measureId": "m-bef66b460c8c",
+      "note": "Le résumé de la mesure reprend « redoublement et orientation décidés par les seuls conseils de classe »."
+    },
+    "Installer à Bruxelles une cellule de veille réglementaire chargée d'identifier les textes en préparation dès l'amont": {
+      "measureId": "m-81d4f12ce59c",
+      "note": "Le résumé de la mesure mentionne la cellule de veille à Bruxelles."
+    },
+    "une loi reconnaissant la réutilisation des friches comme raison impérative d'intérêt public majeur": {
+      "measureId": "m-1ef52c92fedf",
+      "note": "Le résumé de la mesure mentionne la réutilisation des friches reconnue d'intérêt public majeur."
+    },
+    "les nouvelles techniques génomiques seront pleinement intégrées à la stratégie agricole française": {
+      "measureId": "m-8a7257a34de6",
+      "note": "Le résumé de la mesure mentionne l'intégration des nouvelles techniques génomiques."
+    },
+    "Réécrire l'article L. 141-2 du code de l'environnement pour faire de l'agrément associatif un statut strict, sélectif et réversible": {
+      "measureId": "m-91e2040e3ef0",
+      "note": "Le résumé de la mesure mentionne l'agrément associatif rendu strict et réversible."
+    },
+    "Permettre aux familles ayant des enfants mineurs à charge de déduire une partie des intérêts de leur emprunt immobilier de leur impôt sur le revenu : 50 % pour un enfant, 75 % pour deux, 100 % à partir de trois.": {
+      "measureId": "m-b1d28e758f60",
+      "note": "Même engagement que la page Logement, fusionné dans une seule mesure (mêmes taux 50 %, 75 %, 100 %)."
+    },
+    "Imposer aux banques commerciales de permettre le transfert des prêts immobiliers d'un bien sur l'autre.": {
+      "measureId": "m-b1d28e758f60",
+      "note": "La mesure porte la transférabilité des prêts immobiliers."
+    },
+    "La gestion est confiée aux partenaires sociaux, sur le modèle de l'Agirc-Arrco, avec des gestionnaires choisis par appel d'offres.": {
+      "measureId": "m-9a2c937727f1",
+      "note": "Le résumé de la mesure mentionne la gestion par les partenaires sociaux."
+    }
+  }
+}

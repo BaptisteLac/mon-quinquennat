@@ -62,10 +62,26 @@
           "prime_activite": 183.86
         },
         "nonCalcules": {}
+      },
+      "c-03": {
+        "hypotheses": [
+          "Enfants nés le 1er juillet de leur année de naissance (≈).",
+          "Personne seule avec enfants : parent isolé (case T), sans pension alimentaire."
+        ],
+        "mesures": {},
+        "montants": {
+          "aides_logement": 160.3,
+          "allocations_familiales": 152.24,
+          "impot_revenu": 0.0,
+          "minimum_vieillesse": 0.0,
+          "prime_activite": 183.86
+        },
+        "nonCalcules": {}
       }
     },
     "corpus": {
-      "c-01": "nouvelle-energie-2026-10"
+      "c-01": "nouvelle-energie-2026-10",
+      "c-03": "les-republicains-2026-10"
     }
   }
 }
