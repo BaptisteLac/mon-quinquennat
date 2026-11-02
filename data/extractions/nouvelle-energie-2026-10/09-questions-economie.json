@@ -164,6 +164,16 @@
           "sentence": {
             "simple": "Ta CSG serait alignée sur celle des inactifs, cités à 6,6 % contre 9,2 % pour les actifs.",
             "normal": "La CSG des actifs serait alignée sur celle des inactifs ; le candidat cite de mémoire 9,2 % et 6,6 %. L'effet sur le salaire n'est pas calculé tant que le taux retenu n'est pas fixé."
+          },
+          "computation": {
+            "kind": "bareme",
+            "reform": [
+              {
+                "parameter": "csg_activite_taux_global",
+                "value": 6.6,
+                "from": "2028-01-01"
+              }
+            ]
           }
         }
       ]

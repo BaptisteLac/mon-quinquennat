@@ -83,6 +83,13 @@ Toute nouvelle décision s'ajoute ici (date, décision, raison).
 - **Candidats intégrés (2026-10-30)** : les candidats déclarés (liste franceinfo archivée dans `data/sources/`), pris dans l'ordre de la moyenne des sondages, dès que leur site officiel publie un programme ; les petits candidats viendront ensuite si nécessaire. Recensement du 29 octobre : `data/sources/recensement-programmes-2026-10-29.md`. Ordre d'affichage toujours tiré au sort.
 - **Programme publié sur plusieurs pages (2026-10-30)** : la FAQ et les pages de thème du site officiel font partie du programme et sont extraites comme les pages de mesures. Un même engagement répété sur deux pages (cas de Bruno Retailleau : Logement et Famille) donne une seule mesure qui cite les deux pages, pour ne pas compter deux fois la même ligne sur le ticket.
 
+- **Calculer tout ce qu'un programme chiffre (2026-10-31)** : dès qu'une mesure touche l'argent ou le temps d'un foyer, elle a une ligne chiffrée, à défaut d'une phrase. Trois natures, toujours affichées :
+  - **Sûr** : la règle est dans le programme (montant, taux, seuil) ; OpenFisca ou une formule de la liste blanche l'applique au profil.
+  - **≈ Estimé, à partir du chiffre du candidat** : le programme donne un montant pour un cas (« environ 500 € par an au salaire médian ») mais pas de règle ; on l'adapte au profil avec une hypothèse écrite et sourcée (ex. baisse proportionnelle au salaire, calée sur le salaire médian INSEE), affichée dans la fiche « d'où vient ce chiffre ».
+  - **≈ Estimé, cas type** : la mesure dépend d'une donnée que le profil ne demande pas (intérêts d'emprunt, heures supplémentaires, trimestres) ; on calcule pour un cas type sourcé (moyenne publique), sans ajouter de question au parcours.
+  Aucune hypothèse sans source ; le chiffre brut du candidat reste cité. Tous les programmes ne chiffrent pas autant : un programme qui ne donne aucun chiffre garde des phrases.
+- **Réformes structurelles (2026-10-31)** : quand un programme crée une prestation (Revenu familial, Revenu d'incitation à l'activité), le service de calcul remplace la formule de la prestation OpenFisca par la règle décrite, en code testé (`calc/mq_calc/structural.py`) ; les montants viennent des leviers des mesures publiées. Les conditions que le profil ne connaît pas (cinq ans d'activité, quinze heures de recherche d'emploi) sont supposées remplies, et l'hypothèse est affichée. Le RSA et la prime d'activité partagent une ligne du ticket, « RSA et prime d'activité ».
+
 ## Design
 - Interface Pop BD, illustrations sticker à peau jaune unique — voir `docs/design-system.md`.
 - Avatar petit, par tranche d'âge × genre, bustes uniquement.

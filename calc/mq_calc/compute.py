@@ -27,7 +27,7 @@ TaxBenefitSystem.get_parameters_at_instant = functools.lru_cache(maxsize=None)( 
 
 MONTH = REFERENCE_DATE.strftime("%Y-%m")
 TAX_YEAR = "2025"
-AMOUNTS = ("impot_revenu", "prime_activite", "aides_logement", "allocations_familiales", "minimum_vieillesse")
+AMOUNTS = ("impot_revenu", "prime_activite", "rsa", "aides_logement", "allocations_familiales", "minimum_vieillesse", "salaire_net")
 
 
 @lru_cache(maxsize=1)
@@ -124,6 +124,11 @@ def compute(
         amounts["impot_revenu"] = round(-float(sim.calculate("impot_revenu_restant_a_payer", TAX_YEAR).sum()) / 12, 2) + 0.0
     if "prime_activite" in want:
         amounts["prime_activite"] = round(float(sim.calculate("ppa", MONTH)[0]), 2)
+    if "rsa" in want:
+        amounts["rsa"] = round(float(sim.calculate("rsa", MONTH)[0]), 2)
+    if "salaire_net" in want:
+        # Salaires nets des adultes (le brut reste fixe d'une réforme à l'autre : seul le prélèvement change).
+        amounts["salaire_net"] = round(float(sim.calculate("salaire_net", MONTH).sum()), 2)
     if "minimum_vieillesse" in want:
         amounts["minimum_vieillesse"] = round(float(sim.calculate("aspa", MONTH)[0]), 2)
     if "allocations_familiales" in want:
@@ -143,6 +148,8 @@ class Candidate:
     tbs: TaxBenefitSystem
     outputs: frozenset[str]
     """Montants que ses réformes peuvent modifier (`reforms.affected_outputs`)."""
+    hypotheses: tuple[str, ...] = ()
+    """Hypothèses propres à ses réformes, affichées avec ses montants."""
 
 
 def compute_all(profile: Profile, candidates: list[Candidate]) -> dict[str, Result]:
@@ -160,5 +167,5 @@ def compute_all(profile: Profile, candidates: list[Candidate]) -> dict[str, Resu
             continue
         r = compute(profile, c.tbs, inputs, c.outputs)
         merged = {k: (r.amounts[k] if k in c.outputs else base.amounts[k]) for k in AMOUNTS}
-        results[c.id] = Result(merged, {**base.missing, **r.missing}, base.hypotheses, inputs)
+        results[c.id] = Result(merged, {**base.missing, **r.missing}, base.hypotheses + c.hypotheses, inputs)
     return results

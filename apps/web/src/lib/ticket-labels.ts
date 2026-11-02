@@ -5,7 +5,7 @@ type TicketLine = TicketLineResult["ticketLine"];
 /** Libellé d'une ligne du ticket. */
 export const LINE_LABELS: Record<TicketLine, string> = {
   impot_revenu: "Impôt sur le revenu",
-  prime_activite: "Prime d'activité",
+  prime_activite: "RSA et prime d'activité",
   allocations_familiales: "Allocations familiales",
   apl: "Aides au logement",
   salaire_net: "Salaire net",

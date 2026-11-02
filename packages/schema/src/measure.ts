@@ -190,6 +190,21 @@ export const ReformLever = z.enum([
   "quotient_familial_sans_plafond",
   /** Taux de la 2e tranche du barème de l'impôt sur le revenu, en % (ex. 11). */
   "impot_revenu_taux_tranche_2",
+  /**
+   * Revenu familial : montant par enfant mineur à charge, en €/mois. Remplace allocations familiales
+   * (majoration pour âge comprise), complément familial et avantage du quotient familial pour enfant.
+   */
+  "revenu_familial_par_enfant_mensuel",
+  /** Revenu familial : montant pour le troisième enfant mineur, en €/mois (avec le levier précédent). */
+  "revenu_familial_troisieme_enfant_mensuel",
+  /** Revenu d'incitation à l'activité : montant sans activité ni revenu, en €/mois. Remplace RSA et prime d'activité. */
+  "revenu_incitation_activite_base_mensuel",
+  /** Revenu d'incitation à l'activité : complément pour une recherche d'emploi ou une formation, en €/mois. */
+  "revenu_incitation_activite_complement_mensuel",
+  /** Revenu d'incitation à l'activité : part du revenu d'activité déduite de l'allocation, en % (ex. 30). */
+  "revenu_incitation_activite_taux_degressivite",
+  /** Taux global de CSG sur les revenus d'activité, en % (ex. 6,6). */
+  "csg_activite_taux_global",
 ]);
 
 const BaremeComputation = z.object({

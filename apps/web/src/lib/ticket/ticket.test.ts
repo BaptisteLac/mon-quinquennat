@@ -73,7 +73,12 @@ describe("ticket d'un candidat", () => {
   it("pas de ligne quand le montant ne change pas ; effets qualitatifs filtrés par profil", () => {
     const { profile, calc } = fixture("couple-2-enfants-proprietaires");
     const t = buildTicket(lisnard, profile, calc);
-    expect(t.lines.filter((l) => l.section === "portefeuille" && l.nature === "sur")).toEqual([]);
+    // Seules les lignes dont le montant change : la CSG des actifs (salaire net, et impôt par la CSG
+    // déductible) ; les allocations familiales, inchangées, n'ont pas de ligne.
+    expect(t.lines.filter((l) => l.section === "portefeuille" && l.nature === "sur").map((l) => l.ticketLine).sort()).toEqual([
+      "impot_revenu",
+      "salaire_net",
+    ]);
     const qualitative = t.lines.filter((l) => l.nature === "qualitatif");
     expect(qualitative.length).toBeGreaterThan(0);
     const byId = new Map(lisnard.measures.map((m) => [m.id, m]));
@@ -97,7 +102,7 @@ describe("ticket d'un candidat", () => {
     });
     const t = buildTicket(lisnard, profile, without);
     expect(t.lines.some((l) => l.ticketLine === "apl" && l.nature === "sur")).toBe(false);
-    expect(t.uncomputed).toContainEqual({ ticketLine: "apl", reason, measureIds: ["m-9dd1526ae0f6"] });
+    expect(t.uncomputed).toContainEqual({ ticketLine: "apl", reason, measureIds: ["m-9dd1526ae0f6", "m-6c65b91996c9"] });
   });
 
   it("hypothèses du calcul reprises sur le ticket", () => {
@@ -135,5 +140,32 @@ describe("client du service de calcul", () => {
     expect(await fetchCalcul(profile, "http://calc.invalid", fetcher)).toEqual(calc);
     const broken = (async () => Response.json({ corpus: {} })) as unknown as typeof fetch;
     await expect(fetchCalcul(profile, "http://calc.invalid", broken)).rejects.toThrow();
+  });
+});
+
+describe("leviers structurels (Revenu familial, RIA)", () => {
+  const retailleau = programmes.find((p) => p.candidate.id === "c-03");
+  if (!retailleau) throw new Error("programme c-03 absent");
+
+  it("Revenu familial : ligne des allocations familiales et ligne de l'impôt (quotient familial)", () => {
+    const { profile, calc } = fixture("couple-2-enfants-proprietaires");
+    const t = buildTicket(retailleau, profile, calc);
+    const af = t.lines.find((l) => l.ticketLine === "allocations_familiales" && l.nature === "sur");
+    const ir = t.lines.find((l) => l.ticketLine === "impot_revenu" && l.nature === "sur");
+    const c = calc.candidats["c-03"];
+    expect(af?.value?.low).toBeCloseTo((c?.montants.allocations_familiales ?? 0) - (calc.actuel.montants.allocations_familiales ?? 0), 2);
+    expect(ir?.value?.low).toBeLessThan(0); // plus d'impôt : perte pour le portefeuille
+    expect(t.hypotheses.some((h) => h.includes("Revenu familial"))).toBe(true);
+  });
+
+  it("RIA : RSA et prime d'activité additionnés sur une seule ligne", () => {
+    const { profile, calc } = fixture("celibataire-smic-locataire");
+    const t = buildTicket(retailleau, profile, calc);
+    const lines = t.lines.filter((l) => l.ticketLine === "prime_activite" && l.nature === "sur");
+    expect(lines).toHaveLength(1);
+    const c = calc.candidats["c-03"]!.montants;
+    const a = calc.actuel.montants;
+    const expected = (c.prime_activite ?? 0) + (c.rsa ?? 0) - (a.prime_activite ?? 0) - (a.rsa ?? 0);
+    expect(lines[0]?.value?.low).toBeCloseTo(expected, 2);
   });
 });

@@ -98,7 +98,7 @@ class TestReforme:
 
     def test_un_parametre_hors_liste_blanche_est_refuse(self):
         with pytest.raises(ValueError, match="liste blanche"):
-            make_reform(baseline(), [ParamChange("prelevements_sociaux.contributions_sociales.csg.activite.deductible.taux", 0.0, "2025-01-01")], "x")
+            make_reform(baseline(), [ParamChange("prelevements_sociaux.contributions_sociales.crds.activite.taux", 0.0, "2025-01-01")], "x")
 
 
 def test_un_independant_sans_chiffre_d_affaires_est_refuse():

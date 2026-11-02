@@ -25,9 +25,11 @@ type TicketLine = TicketLineResult["ticketLine"];
 const OUTPUT_LINES: Record<CalcOutput, { ticketLine: TicketLine; sign: 1 | -1 }> = {
   impot_revenu: { ticketLine: "impot_revenu", sign: -1 },
   prime_activite: { ticketLine: "prime_activite", sign: 1 },
+  rsa: { ticketLine: "prime_activite", sign: 1 },
   aides_logement: { ticketLine: "apl", sign: 1 },
   allocations_familiales: { ticketLine: "allocations_familiales", sign: 1 },
   minimum_vieillesse: { ticketLine: "pension", sign: 1 },
+  salaire_net: { ticketLine: "salaire_net", sign: 1 },
 };
 
 /** En dessous, l'écart est un arrondi de calcul, pas un effet. */
@@ -50,26 +52,38 @@ function walletLines(programme: Programme, calc: CalculResponse, byId: ReadonlyM
   const out: Built = { lines: [], uncomputed: [] };
   const cand = calc.candidats[programme.candidate.id];
   if (!cand) return out;
+  // Plusieurs montants peuvent tenir sur une ligne (RSA et prime d'activité) : on les additionne.
+  const byLine = new Map<TicketLine, { base: number; after: number; measures: Measure[]; missing: string | null }>();
   for (const [output, ids] of Object.entries(cand.mesures) as [CalcOutput, string[]][]) {
     const measures = ids.flatMap((id) => byId.get(id) ?? []);
     if (measures.length === 0) continue;
-    const measureIds = measures.map((m) => m.id);
     const { ticketLine, sign } = OUTPUT_LINES[output];
+    const entry = byLine.get(ticketLine) ?? { base: 0, after: 0, measures: [], missing: null };
+    for (const m of measures) if (!entry.measures.includes(m)) entry.measures.push(m);
     const base = calc.actuel.montants[output];
     const after = cand.montants[output];
     if (base === null || after === null) {
-      const reason = cand.nonCalcules[output] ?? calc.actuel.nonCalcules[output] ?? "Montant non calculable pour ce profil.";
-      out.uncomputed.push({ ticketLine, reason, measureIds });
+      entry.missing ??= cand.nonCalcules[output] ?? calc.actuel.nonCalcules[output] ?? "Montant non calculable pour ce profil.";
+    } else {
+      entry.base += sign * base;
+      entry.after += sign * after;
+    }
+    byLine.set(ticketLine, entry);
+  }
+  for (const [ticketLine, { base, after, measures, missing }] of byLine) {
+    const measureIds = measures.map((m) => m.id);
+    if (missing !== null) {
+      out.uncomputed.push({ ticketLine, reason: missing, measureIds });
       continue;
     }
-    const delta = round2(sign * (after - base));
+    const delta = round2(after - base);
     if (Math.abs(delta) < MIN_DELTA) continue;
     out.lines.push({
       ticketLine,
       section: "portefeuille",
       nature: "sur",
       value: { low: delta, high: delta },
-      baseline: base,
+      baseline: round2(Math.abs(base)),
       measureIds,
       effectiveDate: latest(measures.map((m) => m.schedule.effectiveDate)),
     });
