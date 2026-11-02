@@ -125,24 +125,23 @@
  },
  "723fb1ab4c8c": {
   "verdict": "fidele",
-  "contentSha256": "68cd327bcde677329c3390d5325eb4d3180bc77b6595fd493c51987dc6cfb180"
+  "contentSha256": "3b9fd5f0cfd74edc2c085f7ce854282d5f801ca3014209b75806877e9b38a35f"
  },
  "70b07ad4329d": {
   "verdict": "fidele",
-  "contentSha256": "01860a223b0ac19cfb86e3d87c3d8c347dc89ea9b9ce06da3d439e8c934c7e13"
+  "contentSha256": "421956faac66cf300e0717fec534814c2e42fa240820d60afbc12d3f40cd0300"
  },
  "292afd3ae0d2": {
   "verdict": "fidele",
-  "contentSha256": "f2bfc7b2b9fa9097b1ecfcae8bfd2b282e14ec6ee47ca9b6b96b5469e215552b"
+  "contentSha256": "c327f60f8ba8d8b341939ebda6a3d2399e862e1c3d400c78b80b53e5e552797f"
  },
  "9dd1526ae0f6": {
   "verdict": "fidele",
-  "contentSha256": "97c6a88136039f9247ebede2aca79feab9a43c5413aa733c07c0544119b7ee02",
-  "note": "Le programme fixe le minimum vieillesse « à hauteur de 1000 euros par mois » ; le montant en vigueur en 2026 pour une personne seule est de 12 523,14 € par an (paramètre OpenFisca, circulaire Cnav 2025-29). Arbitrage du 2026-10-26 : le montant est appliqué tel qu'écrit, sans revalorisation, et le calcul affiche la baisse qui en résulte (docs/decisions.md)."
+  "contentSha256": "1913265302b7dbf39b655aef1b3a43783a65a12b5b785d9b8a347b4f5595384c"
  },
  "befbb59aa25e": {
   "verdict": "fidele",
-  "contentSha256": "99e260b2456eab8d10abe91cf00a9ee28f975c4022a2189083d63ff65f0e93aa"
+  "contentSha256": "017075f0ecd1bbbb11a2a9dc0a917dcdb8fdb0ab8257d2cfdf2146f8dc07ceb5"
  },
  "e40d2bc4b629": {
   "verdict": "fidele",
@@ -154,7 +153,7 @@
  },
  "342ce4e68e35": {
   "verdict": "fidele",
-  "contentSha256": "1d9fd7c23e3f620612231d9894671ec4c877018e1a86f5f08b9dd6887472ebf9"
+  "contentSha256": "1de17c467cfa1cf0dd912580fb34e0188759a398e2e659d293be72b3daf40f87"
  },
  "1beee1dba200": {
   "verdict": "fidele",
@@ -219,7 +218,7 @@
  },
  "095719b062a5": {
   "verdict": "fidele",
-  "contentSha256": "a3645e8ccda750e3b35293951dd42878bb7b913c40a32f9024ce6eae4ab6dd75"
+  "contentSha256": "e6c5644b0fb308e2f75773c06ed604d90d08cd23d9a044961ca6cdaa35554088"
  },
  "49402038b0fc": {
   "verdict": "fidele",
@@ -231,7 +230,7 @@
  },
  "b598ea3c36da": {
   "verdict": "fidele",
-  "contentSha256": "35f45f5f203b2b884feb926c610607818c4713d4eb76938b1c021b3d43064be4"
+  "contentSha256": "fd5c3b3054bcd656dabd2bd8354d3d1b7a17881b82391eb877bbd5585bc6c121"
  },
  "b6ecc4e9c30e": {
   "verdict": "fidele",
@@ -247,7 +246,7 @@
  },
  "7f4a009cd49a": {
   "verdict": "fidele",
-  "contentSha256": "7cf1fb979f346eba17ca98ac6e306727213de03a368be33982d77770c19c7c41"
+  "contentSha256": "9626c059786cbc4b5c1648b7d1a815278d19d11e038fc539da66a6c3921a2c72"
  },
  "0904873220c8": {
   "verdict": "fidele",
@@ -283,7 +282,7 @@
  },
  "4ffe2553768f": {
   "verdict": "fidele",
-  "contentSha256": "47229c2494607be33a8eb0e11c93b1da8aae698b7c5de9119bfe3875b4ff694e"
+  "contentSha256": "8ddde79cbff995a00477e57d4dcb6349922bee66657c4c89d38e71c00ab1df1d"
  },
  "fa7e205918eb": {
   "verdict": "fidele",
@@ -303,7 +302,7 @@
  },
  "a965a1afbc1d": {
   "verdict": "fidele",
-  "contentSha256": "f21f01469086299bcd234a9d8f1c781c4a197cb639e44444a8fb113ae46f6629"
+  "contentSha256": "4dd80e054bfa890dec3db7631faa54840541890a17754a0362ba1842b919f268"
  },
  "16a8679cdbb5": {
   "verdict": "fidele",
@@ -339,11 +338,11 @@
  },
  "7224b54a574e": {
   "verdict": "fidele",
-  "contentSha256": "695eab4c02ad9cdba6502a052789b0d9baf337a65b4c05691e46653a1d2eecbc"
+  "contentSha256": "3200c799dd938693c1a9a1a3816233cee2c999612005231364541278b848696f"
  },
  "9ef15e983e53": {
   "verdict": "fidele",
-  "contentSha256": "e76b799205b361735f24b27d7ecbe4470af4b33500e5335ba19dd57b7e15274e"
+  "contentSha256": "1d4959b581dc7a5dccae3c13158071b72016e51e6ef94b8cef58df3c5a82fd4e"
  },
  "b0131b69914a": {
   "verdict": "fidele",
@@ -355,7 +354,7 @@
  },
  "2c40cde716d1": {
   "verdict": "fidele",
-  "contentSha256": "2ac585238ff56c1b9f74a313fe188038da6e07c850c0d19eef2c0d7801d0443b"
+  "contentSha256": "e4b0d5ea4ca6372a6d4d39affe4298bc814b85ae5199c3fad7336f8f63b68017"
  },
  "7cd60ac9f7e6": {
   "verdict": "fidele",
@@ -523,7 +522,7 @@
  },
  "02c702203a21": {
   "verdict": "fidele",
-  "contentSha256": "a6e34b0a69788e803374f9f5caaa5e4d55891915399286511d1542a358afc802"
+  "contentSha256": "2c09e8b2c858b145fb3824e641cba303a960db2a285999ae65cfb0dde33868db"
  },
  "db77ce879a95": {
   "verdict": "fidele",
@@ -535,11 +534,11 @@
  },
  "b3c7ad7cfbb7": {
   "verdict": "fidele",
-  "contentSha256": "8da2a2db439f28543df8114335c68fbd59537b9203979085b18528d59b1e1f19"
+  "contentSha256": "71df9e40af19a4da275c4fbf25c9079b4f680f911718214f57f54ef5e2def95c"
  },
  "fa57bdafdba4": {
   "verdict": "fidele",
-  "contentSha256": "239a2611c382d2dee711a3aab126085c799350d89d44727bd573d38b6151ba85"
+  "contentSha256": "9fc4f4923e0c295cf22b9931e497d4906c946e11dcb39c8b78b98377c1d14cd1"
  },
  "320b7928d632": {
   "verdict": "fidele",
@@ -547,7 +546,7 @@
  },
  "fad8aaffbfe6": {
   "verdict": "fidele",
-  "contentSha256": "4a005ad6aef14e8470263580ce45ec93495f5c5ad25c2f686ba50bba97433add"
+  "contentSha256": "fa6045011aa99b3ba2065bf4ff0a162c2c9ffade44f59fc8f11610db1233d2c9"
  },
  "bad48e24fb74": {
   "verdict": "fidele",
@@ -567,7 +566,7 @@
  },
  "e8f6ddf03382": {
   "verdict": "fidele",
-  "contentSha256": "7869925643a7c4758511cfc51a31c8721ab7c02a4b984377a184f7244eed0589"
+  "contentSha256": "9a9ee0afa5f2e731b8c421e1ec9da3a3c097fb3b46e63befa971cf62b3dd4942"
  },
  "653b719b0661": {
   "verdict": "fidele",
@@ -583,7 +582,7 @@
  },
  "52a3a51db715": {
   "verdict": "fidele",
-  "contentSha256": "d78a553943fd7aa522721ad91da2e243a7fde84520c7a70c82f298ca99a56d1a"
+  "contentSha256": "703076b67abe9a7780633876458f0cd3a3c1a9bcc6aee52940d72e83296b137f"
  },
  "cf1da76c5832": {
   "verdict": "fidele",
@@ -660,7 +659,7 @@
  },
  "808f0eb4b2f4": {
   "verdict": "fidele",
-  "contentSha256": "4de591c22d2afb4f463e21aae000aa8e174d5befbca548b13d879700827eb2f0"
+  "contentSha256": "62e1b771ba1b34a8cc46ec548842d1077f06cf49523ca685e2c7dbd15affca5b"
  },
  "7fba4bd1732b": {
   "verdict": "fidele",
@@ -688,7 +687,7 @@
  },
  "5f7520dcaf89": {
   "verdict": "fidele",
-  "contentSha256": "dca6249684bb3a269c5eba795e7b5ab34bad8d306ba71aee711d5bfc51246a2f"
+  "contentSha256": "14cb22ff911df86394516f357706ba1d464f1af6d4e8c0d4181f2e07d03182a7"
  },
  "78f9ca2e5930": {
   "verdict": "fidele",
@@ -700,15 +699,15 @@
  },
  "ba72de6449ae": {
   "verdict": "fidele",
-  "contentSha256": "bc12ef090e7ca6b3a95b10d12cf8222a79b682af9bd74fa2a5c37f2992424ce5"
+  "contentSha256": "7aa99c56785d1add5536943d93393ad9a30289066482657aa71614cec61f80b3"
  },
  "d1c27ce1cc33": {
   "verdict": "fidele",
-  "contentSha256": "a0d164fb2afbcb59ecc10db6830c156bf88afb2092706191cee8951ae67ff13b"
+  "contentSha256": "e3c368da20bc7a087a595d44332f197493be4ca7711259e30c0d2f886e8466e3"
  },
  "880bdbe625de": {
   "verdict": "fidele",
-  "contentSha256": "749e56fff79af7476e2dac2fd5fc4238eeca865554186de09e70c46601c2db6f"
+  "contentSha256": "e6c2b9d4e4a84a221ac7e182760c0bbf5dd22987aa2d9ca7a7315810e48639c2"
  },
  "d031d33bbb43": {
   "verdict": "fidele",
@@ -720,7 +719,7 @@
  },
  "0c4872c1cfc8": {
   "verdict": "fidele",
-  "contentSha256": "8d544bb009082a0387515f5c18fdd5c3ee3caed04fc497c24ce9c0ced11bd353"
+  "contentSha256": "98b6da9334606ca71848422cdcba498e4e403298f4c020a9d787f88584ec005d"
  },
  "edd1afcc1104": {
   "verdict": "fidele",
@@ -744,7 +743,7 @@
  },
  "752823d0d396": {
   "verdict": "fidele",
-  "contentSha256": "2fb0a9715cd8dff68ce8c1725d5ce92dd6b48354938628721468e11d66c3625a"
+  "contentSha256": "806483aa4ab262df7869bf06f203abb0bc874245fd359fb1b95ce8b7b098e437"
  },
  "411896be731a": {
   "verdict": "fidele",
@@ -756,11 +755,11 @@
  },
  "cb0108bbcbfd": {
   "verdict": "fidele",
-  "contentSha256": "5ea04a7585f6371e8f9c784cba8bcd135814b97420565c64aeb7c926794d7f8f"
+  "contentSha256": "56b840841c32ce272630e789d80f4ea73dc024fe4b1588293530bf2f98644197"
  },
  "49ffaf30d56f": {
   "verdict": "fidele",
-  "contentSha256": "07a6cc1131a29a2df329e9f0bfec0ff02120efa317e4b3eabc2639fc38e94dd7"
+  "contentSha256": "c7d96c0ba2601ae2af8e85ba99fecf5ea40f28243789e73a9073e380f97c09ce"
  },
  "e84b56e7bbb6": {
   "verdict": "fidele",
@@ -796,7 +795,7 @@
  },
  "676c179e9899": {
   "verdict": "fidele",
-  "contentSha256": "e1a82acc4ed1f44d960a88d2b74159cd72091ff061253eae4dc887c2a0eb8bd2"
+  "contentSha256": "ddbae311b419189b45add37456257133e9d1e008d5bf177e8558fd66a212c95c"
  },
  "ec474b66ccbc": {
   "verdict": "fidele",
@@ -808,7 +807,7 @@
  },
  "332fbeb505c8": {
   "verdict": "fidele",
-  "contentSha256": "9fda2baa35efdaa295a0de058c5ef5758d1e3e8fa2f91e97bf87021e27d4ac7f"
+  "contentSha256": "61812e70a3d22f0f88376efb56c46617802760945cb3ef1ebf85ece602ac0413"
  },
  "9f008a134241": {
   "verdict": "fidele",
@@ -816,7 +815,7 @@
  },
  "97cfa5983a28": {
   "verdict": "fidele",
-  "contentSha256": "2c6473c17cdefb4abad4d0bb9e2daee008a2865a225331ce5c2c018c790a0e94"
+  "contentSha256": "afd2239cabaed2b0567eabe32aea6637bd837f366195e395587a9598b4a99d86"
  },
  "4e4ad4010dda": {
   "verdict": "fidele",
@@ -828,11 +827,11 @@
  },
  "0a5f69b923c0": {
   "verdict": "fidele",
-  "contentSha256": "34c78cc315802b571636813e838df3aeb3419a2ca952fee91388a682808f991c"
+  "contentSha256": "8a7523b05ee043db42468bb62b14c1f9d52327c8eddfd1655e759e489d84be41"
  },
  "6077776578ac": {
   "verdict": "fidele",
-  "contentSha256": "bf5c30c99bc8acfdac8997da2085b669565b338329f204e0fed30ccc951941d8"
+  "contentSha256": "b043d8bc3d666c987cf53e5f0521b3943d231f42c0b9d44e5a8809ef61572675"
  },
  "70e3618e2e9c": {
   "verdict": "fidele",
@@ -884,15 +883,15 @@
  },
  "df42fc65cb36": {
   "verdict": "fidele",
-  "contentSha256": "fd9428c9d863410ef3d8d9bfab5b7003bd49325af56a6357fa6476403b722c5c"
+  "contentSha256": "dbcaef9bb8c9919af8373b9adef616c42c30ad7e661b5c833a9a4880124ad6a7"
  },
  "6c65b91996c9": {
   "verdict": "fidele",
-  "contentSha256": "bc63d3cc845548e063a8ab47210793e2e2f837b75622f5375a4ac20dcfbd1c9b"
+  "contentSha256": "147c0658b450b632adc8f541b6e49b100f6d0b1eebc94fa33b438fd83d2a9597"
  },
  "01ec4bebd625": {
   "verdict": "fidele",
-  "contentSha256": "ce60f533f969c4cd21d5f64865427d754be86ba3e6e5d9997637228a7637c497"
+  "contentSha256": "3eb7cbb7f3eaa359b56d509b419a11869e67ce0e7f03ce6f92613c4b768e4c69"
  },
  "226d32f41f6d": {
   "verdict": "fidele",
@@ -900,7 +899,7 @@
  },
  "9f6015380a2e": {
   "verdict": "fidele",
-  "contentSha256": "80dc17523415dfd73f652af4054543476cc5e182bb62086f0ee977402a4ec12d"
+  "contentSha256": "59e64b082b6ecba3d20a1554a193919b35224bb33c3f6d0823e9f95d960c3805"
  },
  "721636d3d499": {
   "verdict": "fidele",
@@ -908,7 +907,7 @@
  },
  "875fd4a279ed": {
   "verdict": "fidele",
-  "contentSha256": "a803807af86f27a8fc419586d87071e9f79abde564263e1bf52c1fa8a8f9feac"
+  "contentSha256": "c343b2802fec4a267b8fa620ab9376ee6669c6a7a259991210298c12e5e11d39"
  },
  "0bf8c2e78a6e": {
   "verdict": "fidele",
@@ -916,7 +915,7 @@
  },
  "97db7d2bbb68": {
   "verdict": "fidele",
-  "contentSha256": "09dba1a82ff6216c1113113b790a2c5072a4c8a4ab7cfa4ff35d7c009f835ede"
+  "contentSha256": "cf3133ea7ceee8e686a62f2fde70358fa647bf0344369ad4612c917bc170b1ee"
  },
  "d9cf86b5a249": {
   "verdict": "fidele",
@@ -928,7 +927,7 @@
  },
  "33aef47bd21a": {
   "verdict": "fidele",
-  "contentSha256": "0f9d5a93887e86807d3633c8f904f7ae5c9d07ab452bf0e7e453663dd06103f2"
+  "contentSha256": "ef737fd35bd23c72c81deed0f35a42bd664f9b1b1bc430ddb52a3830dc9676e9"
  },
  "02a4274f91cb": {
   "verdict": "fidele",
@@ -948,7 +947,7 @@
  },
  "5a55900462f4": {
   "verdict": "fidele",
-  "contentSha256": "755cb4eeb456ab7e9ab0de7aa50ac1c8a621002598c905baa474b04915e423d6"
+  "contentSha256": "7ab8ba3f2a2ad4b104abdf6094e36fa5544b8818318393e8f9c17ca8941b2ff1"
  },
  "3e21d4f885cd": {
   "verdict": "fidele",
@@ -1024,8 +1023,7 @@
  },
  "4081facb513f": {
   "verdict": "fidele",
-  "contentSha256": "d9097d9cf2225e27e416e98aa90ebe600ecd95737df33ded7171b7cd577107c0",
-  "note": "Date corrigée le 2026-10-26 : « dès son arrivée au pouvoir » → début du mandat (contrôle de date ajouté au bilan du test n°1)."
+  "contentSha256": "0c77a68fe49b2a82f7de5c27c91a3b7400616fd2db0973e5cfc8760330e83b8e"
  },
  "7a8ec391aca6": {
   "verdict": "fidele",
@@ -1041,6 +1039,6 @@
  },
  "cf53edec4641": {
   "verdict": "fidele",
-  "contentSha256": "a389bb4ad4f998ed18b992550b8e7b8c81f263394f8f063332f2c693e5ab8062"
+  "contentSha256": "c4b4204590696231f3b7671d521fe5765cf944dcbeea2aa0e82f9400473dd35c"
  }
 }

@@ -81,7 +81,23 @@
           },
           "sentence": {
             "simple": "Ton salaire net augmenterait grâce à la baisse des cotisations ; le candidat annonce de 250 à 400 € par mois selon ses interventions.",
-            "normal": "La baisse des cotisations rendrait 120 milliards d'euros en salaire net aux actifs ; le gain annoncé par le candidat va de 250 à 400 euros net par mois selon les interventions. Ce montant n'est pas calculé par l'outil."
+            "normal": "La baisse des cotisations rendrait 120 milliards d'euros en salaire net aux actifs ; le gain annoncé par le candidat va de 250 à 400 euros net par mois selon les interventions, repris tel quel."
+          },
+          "computation": {
+            "kind": "estimation",
+            "formulaId": "baisse_cotisations_salaire",
+            "params": [
+              {
+                "name": "gainMensuelBas",
+                "value": 250
+              },
+              {
+                "name": "gainMensuelHaut",
+                "value": 400
+              }
+            ],
+            "hypothesisLabel": "Estimation : fourchette de gain annoncée par le candidat (250 à 400 € nets par mois), reprise telle quelle pour chaque salarié du foyer, le programme ne donnant pas de barème.",
+            "hypothesisSourceId": "programme"
           }
         }
       ]

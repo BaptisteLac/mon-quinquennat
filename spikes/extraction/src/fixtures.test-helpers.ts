@@ -115,6 +115,7 @@ export function llmMeasure(overrides: Partial<LlmMeasure> = {}): LlmMeasure {
           formulaId: null,
           params: [],
           hypothesisLabel: null,
+          hypothesisSourceId: null,
         },
         sentence: null,
       },

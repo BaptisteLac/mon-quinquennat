@@ -35,10 +35,20 @@ const LlmComputation = z.object({
   /** bareme : paramètres de la législation modifiés, décrits en clair (le chemin OpenFisca est calé par le code). */
   reform: z.array(z.object({ parameter: ReformLever, value: z.number().nullable(), from: z.string() })),
   formulaId: z
-    .enum(["retraite_age_depart", "revalorisation_pension", "smic_mensuel_net", "tva_consommation", "energie_facture"])
+    .enum([
+      "retraite_age_depart",
+      "revalorisation_pension",
+      "smic_mensuel_net",
+      "tva_consommation",
+      "energie_facture",
+      "baisse_cotisations_salaire",
+      "deduction_interets_emprunt",
+    ])
     .nullable(),
   params: z.array(z.object({ name: z.string(), value: z.number() })),
   hypothesisLabel: z.string().nullable(),
+  /** Donnée publique de l'hypothèse ; null pour le LLM (choisie par un humain ou par la session de relecture). */
+  hypothesisSourceId: z.string().nullable(),
 });
 
 const LlmTwoLevels = z.object({ simple: z.string(), normal: z.string() });
@@ -93,7 +103,7 @@ function toComputation(c: LlmComputation): unknown {
         kind: "estimation",
         formulaId: c.formulaId,
         params,
-        hypothesis: { label: c.hypothesisLabel ?? "", dataSourceId: HYPOTHESIS_SOURCE_PLACEHOLDER },
+        hypothesis: { label: c.hypothesisLabel ?? "", dataSourceId: c.hypothesisSourceId ?? HYPOTHESIS_SOURCE_PLACEHOLDER },
       };
     case "qualitatif":
       return { kind: "qualitatif" };

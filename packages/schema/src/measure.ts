@@ -229,10 +229,11 @@ const FormulaComputation = z.object({
 /** Estimé (≈) : dépend d'une hypothèse de consommation moyenne, affichée à l'utilisateur. */
 const EstimateComputation = z.object({
   kind: z.literal("estimation"),
-  formulaId: z.enum(["tva_consommation", "energie_facture"]),
+  formulaId: z.enum(["tva_consommation", "energie_facture", "baisse_cotisations_salaire", "deduction_interets_emprunt"]),
   params: z.record(z.string(), z.number()),
   hypothesis: z.object({
     label: z.string(), // « Consommation d'électricité moyenne d'un foyer de 4 personnes »
+    /** Donnée publique de `packages/formulas/data/donnees-publiques.json`, ou « programme » si le cas type vient d'une citation de la mesure. */
     dataSourceId: z.string(),
   }),
 });

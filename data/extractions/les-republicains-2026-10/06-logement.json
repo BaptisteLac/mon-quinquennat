@@ -173,6 +173,10 @@
         {
           "page": 94,
           "quote": "La réduction d'impôt annuelle est plafonnée à 400 euros, majorés de 400 euros par enfant mineur à charge."
+        },
+        {
+          "page": 94,
+          "quote": "Une famille avec deux enfants ayant emprunté 100 000 euros à 3,3 % sur vingt ans, et payant 3 300 euros d'intérêts dans l'année, bénéficiera d'une réduction d'impôt de 1 200 euros, soit environ 36 % des intérêts payés cette année-là."
         }
       ],
       "precision": "precise",
@@ -197,7 +201,39 @@
           },
           "sentence": {
             "simple": "Tu pourrais déduire de ton impôt une partie des intérêts de ton crédit immobilier : 50 % avec un enfant, 75 % avec deux, 100 % à partir de trois.",
-            "normal": "Les intérêts d'emprunt de ta résidence principale deviendraient déductibles (50 %, 75 % ou 100 % selon le nombre d'enfants mineurs), avec une réduction d'impôt plafonnée à 400 € par an plus 400 € par enfant. Montant non calculé : le profil ne contient pas tes intérêts d'emprunt."
+            "normal": "Les intérêts d'emprunt de ta résidence principale deviendraient déductibles (50 %, 75 % ou 100 % selon le nombre d'enfants mineurs), avec une réduction plafonnée à 400 € par an plus 400 € par enfant ; estimation faite sur le cas type du programme."
+          },
+          "computation": {
+            "kind": "estimation",
+            "formulaId": "deduction_interets_emprunt",
+            "params": [
+              {
+                "name": "interetsAnnuels",
+                "value": 3300
+              },
+              {
+                "name": "partUnEnfant",
+                "value": 50
+              },
+              {
+                "name": "partDeuxEnfants",
+                "value": 75
+              },
+              {
+                "name": "partTroisEnfants",
+                "value": 100
+              },
+              {
+                "name": "plafondBase",
+                "value": 400
+              },
+              {
+                "name": "plafondParEnfant",
+                "value": 400
+              }
+            ],
+            "hypothesisLabel": "Estimation sur le cas type du programme : 3 300 € d'intérêts dans l'année (emprunt de 100 000 € à 3,3 % sur vingt ans), ton profil ne précisant pas tes intérêts ; réduction limitée à ton impôt actuel.",
+            "hypothesisSourceId": "programme"
           }
         }
       ],

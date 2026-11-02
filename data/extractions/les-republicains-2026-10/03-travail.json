@@ -34,7 +34,19 @@
           },
           "sentence": {
             "simple": "Ton salaire net augmenterait grâce à la baisse des cotisations ; le candidat annonce environ 500 € par an au salaire médian.",
-            "normal": "La moitié d'une baisse de 30 milliards d'euros de cotisations par an reviendrait aux salariés ; le programme chiffre le gain à environ 500 € nets par an au salaire médian, sans préciser le barème. Montant non calculé pour ton profil."
+            "normal": "La moitié d'une baisse de 30 milliards d'euros de cotisations par an reviendrait aux salariés ; le programme chiffre le gain à environ 500 € nets par an au salaire médian, adapté ici à ton salaire."
+          },
+          "computation": {
+            "kind": "estimation",
+            "formulaId": "baisse_cotisations_salaire",
+            "params": [
+              {
+                "name": "gainAnnuelReference",
+                "value": 500
+              }
+            ],
+            "hypothesisLabel": "Estimation : baisse proportionnelle à ton salaire, calée sur environ 500 € nets par an au salaire médian du secteur privé, montant annoncé par le candidat.",
+            "hypothesisSourceId": "insee-salaire-median-prive-2024"
           }
         }
       ]

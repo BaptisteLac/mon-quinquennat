@@ -4,7 +4,7 @@ import { Profile, type Condition } from "@mon-quinquennat/schema";
 import { dataDir, loadProgrammes, type Programme } from "../data";
 import { CalculResponse, fetchCalcul } from "./calc-client";
 import { monthsApplied } from "../term";
-import { buildTicket, corpusMismatch } from "./build";
+import { buildTicket, corpusMismatch, publicDatum } from "./build";
 import { matches } from "./conditions";
 
 // Réponses réelles du service de calcul (calc/scripts/record_web_fixtures.py) : aucun montant écrit à la main.
@@ -167,5 +167,32 @@ describe("leviers structurels (Revenu familial, RIA)", () => {
     const a = calc.actuel.montants;
     const expected = (c.prime_activite ?? 0) + (c.rsa ?? 0) - (a.prime_activite ?? 0) - (a.rsa ?? 0);
     expect(lines[0]?.value?.low).toBeCloseTo(expected, 2);
+  });
+});
+
+describe("estimations (≈)", () => {
+  const retailleau = programmes.find((p) => p.candidate.id === "c-03");
+  if (!retailleau) throw new Error("programme c-03 absent");
+
+  it("chaque hypothèse d'estimation renvoie à une donnée publique archivée ou au programme", () => {
+    const ids = programmes.flatMap((p) =>
+      p.measures.flatMap((m) => m.effects.flatMap((e) => (e.computation.kind === "estimation" ? [e.computation.hypothesis.dataSourceId] : []))),
+    );
+    expect(ids.length).toBeGreaterThan(0);
+    for (const id of ids) expect(() => publicDatum(id)).not.toThrow();
+  });
+
+  it("lignes ≈ marquées estimées, avec leur hypothèse et sa source sur le ticket", () => {
+    const { profile, calc } = fixture("couple-2-enfants-proprietaires");
+    const t = buildTicket(retailleau, profile, calc);
+    const estimated = t.lines.filter((l) => l.nature === "estime");
+    expect(estimated.map((l) => l.ticketLine)).toEqual(expect.arrayContaining(["salaire_net", "energie"]));
+    expect(t.hypotheses.some((h) => h.includes("INSEE"))).toBe(true);
+    // Intérêts d'emprunt (cas type du programme, deux enfants : 1 200 € par an), plafonnés à l'impôt dû
+    // après les autres réformes du programme et non à l'impôt actuel (erreur corrigée).
+    const interets = estimated.find((l) => l.ticketLine === "impot_revenu");
+    expect(interets?.value?.low).toBeCloseTo(100, 2);
+    // Le solde sûr n'additionne pas les estimations.
+    expect(t.solde.sureOnly).not.toBe(t.solde.low);
   });
 });

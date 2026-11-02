@@ -1,0 +1,28 @@
+[
+  {
+    "id": "insee-salaire-median-prive-2024",
+    "publisher": "INSEE",
+    "title": "Les salaires dans le secteur privé en 2024 (Insee Première n° 2079)",
+    "docType": "statistique_publique",
+    "url": "https://www.insee.fr/fr/statistiques/8657156",
+    "year": 2024,
+    "retrievedAt": "2026-11-02T08:00:00Z",
+    "valeur": 2190,
+    "unite": "€ net par mois en équivalent temps plein, secteur privé",
+    "citation": "La moitié des salariés du secteur privé perçoit moins de 2 190 euros net par mois en EQTP.",
+    "archive": "data/sources/insee-salaires-prive-2024-2026-11-02.txt"
+  },
+  {
+    "id": "cre-facture-electricite-moyenne-2026",
+    "publisher": "Commission de régulation de l'énergie",
+    "title": "La CRE propose une évolution du niveau moyen des tarifs réglementés de vente de l’électricité de + 2,5 % TTC au 1er août 2026",
+    "docType": "bareme_officiel",
+    "url": "https://www.cre.fr/actualites/toute-lactualite/la-cre-propose-une-evolution-du-niveau-moyen-des-tarifs-reglementes-de-vente-de-lelectricite-de-25-ttc-au-1er-aout-2026.html",
+    "year": 2026,
+    "retrievedAt": "2026-11-02T08:00:00Z",
+    "valeur": 1072,
+    "unite": "€ TTC par an, consommation moyenne de 4,5 MWh",
+    "citation": "pour une consommation moyenne de 4,5 MWh par an, la facture TTC passe donc de 1 046 €TTC à 1 072 €TTC",
+    "archive": "data/sources/cre-trve-aout-2026-2026-11-02.txt"
+  }
+]
