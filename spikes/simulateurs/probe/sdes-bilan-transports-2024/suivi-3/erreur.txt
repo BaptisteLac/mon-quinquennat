@@ -1,0 +1,3 @@
+Error: page.goto: Download is starting
+Call log:
+  - navigating to "https://www.statistiques.developpement-durable.gouv.fr/media/8867/download?inline", waiting until "networkidle"
