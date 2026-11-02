@@ -20,6 +20,8 @@ LABELS = {
     "aides_logement": "Aides au logement",
     "allocations_familiales": "Allocations familiales",
     "minimum_vieillesse": "Minimum vieillesse (ASPA)",
+    "rsa": "RSA",
+    "salaire_net": "Salaire net",
 }
 
 
