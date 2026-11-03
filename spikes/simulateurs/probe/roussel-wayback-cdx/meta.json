@@ -1,0 +1,32 @@
+{
+  "requested": "https://web.archive.org/cdx/search/cdx?url=fabienroussel2027.fr*&output=txt&limit=200&from=2026",
+  "final": "https://web.archive.org/cdx/search/cdx?url=fabienroussel2027.fr*&output=txt&limit=200&from=2026",
+  "status": 503,
+  "title": "Internet Archive: Temporarily Offline",
+  "iframes": [
+    "https://web.archive.org/cdx/search/cdx?url=fabienroussel2027.fr*&output=txt&limit=200&from=2026"
+  ],
+  "links": [
+    {
+      "href": "https://twitter.com/internetarchive/",
+      "text": "Twitter/X"
+    },
+    {
+      "href": "https://bsky.app/profile/did:plc:73dpznbu4wqwtcyurwbiulov",
+      "text": "Bluesky"
+    },
+    {
+      "href": "https://mastodon.archive.org/deck/@internetarchive",
+      "text": "Mastodon"
+    }
+  ],
+  "fields": [],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://web.archive.org/cdx/search/cdx?url=fabienroussel2027.fr*&output=txt&limit=200&from=2026",
+      "resourceType": "document",
+      "postData": null
+    }
+  ]
+}
