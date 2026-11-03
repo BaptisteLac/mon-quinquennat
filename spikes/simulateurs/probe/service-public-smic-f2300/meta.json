@@ -1,0 +1,1121 @@
+{
+  "requested": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300",
+  "final": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300",
+  "status": 200,
+  "title": "Smic (salaire minimum interprofessionnel de croissance) | Service Public",
+  "iframes": [
+    "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300"
+  ],
+  "links": [
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300#main",
+      "text": "Contenu"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300#header-navigation",
+      "text": "Menu"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300#header-search-main",
+      "text": "Recherche"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300#footer",
+      "text": "Pied de page"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/compte/se-connecter",
+      "text": "Se connecter"
+    },
+    {
+      "href": "https://entreprendre.service-public.gouv.fr/",
+      "text": "Accéder au site pour les entreprises"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/compte/se-connecter",
+      "text": "Se connecter"
+    },
+    {
+      "href": "https://entreprendre.service-public.gouv.fr/",
+      "text": "Accéder au site pour les entreprises"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers",
+      "text": "Accueil"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/actualites",
+      "text": "Actualité de vos droits et démarches"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14128",
+      "text": "Je déménage"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17556",
+      "text": "Je cherche un emploi"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16225",
+      "text": "Je deviens parent"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16123",
+      "text": "Je veux obtenir un crédit immobilier"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15913",
+      "text": "J'achète un logement"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17904",
+      "text": "Je prépare ma retraite"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16507",
+      "text": "Un proche est décédé"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/comment-faire-si",
+      "text": "Voir tous les événements de vie"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19810",
+      "text": "Papiers - Citoyenneté - Élections"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19805",
+      "text": "Famille - Scolarité"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19811",
+      "text": "Social - Santé"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19806",
+      "text": "Travail - Formation"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19808",
+      "text": "Logement"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19812",
+      "text": "Transports - Mobilité"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19803",
+      "text": "Argent - Impôts - Consommation"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/theme",
+      "text": "Voir tous les thèmes"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N32475",
+      "text": "Aides financières"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/recherche?rubricFilter=serviceEnLigne&rubricTypeFilter=",
+      "text": "Démarches, cerfas, modèles de lettres et simulateurs"
+    },
+    {
+      "href": "https://lannuaire.service-public.gouv.fr/",
+      "text": "Annuaire de l’administration"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/contact/accueil",
+      "text": "Contacter Service Public"
+    },
+    {
+      "href": "https://entreprendre.service-public.gouv.fr/",
+      "text": "Accéder au site pour les entreprises"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers",
+      "text": "Accueil"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19806",
+      "text": "Travail - Formation"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N474",
+      "text": "Rémunération dans le secteur privé"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/telecharger-pdf?path=aHR0cHM6Ly93d3cuc2VydmljZS1wdWJsaWMuZ291di5mci9wYXJ0aWN1bGllcnMvdm9zZHJvaXRzL0YyMzAw",
+      "text": ""
+    },
+    {
+      "href": "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=12082&lang=fr_fr&voice=Roxane&readclass=sp-container&url=",
+      "text": ""
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300",
+      "text": "FR - Français"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300?lang=en",
+      "text": "EN - English"
+    },
+    {
+      "href": "https://www.facebook.com/sharer/sharer.php?u=https://www.service-public.gouv.fr/particuliers/vosdroits/F2300",
+      "text": "Facebook"
+    },
+    {
+      "href": "https://x.com/intent/tweet?text=Smic%20(salaire%20minimum%20interprofessionnel%20de%20croissance)&url=https://www.service-public.gouv.fr/particuliers/vosdroits/F2300",
+      "text": "X"
+    },
+    {
+      "href": "https://www.linkedin.com/shareArticle?mini=true&url=https://www.service-public.gouv.fr/particuliers/vosdroits/F2300&title=Smic%20(salaire%20minimum%20interprofessionnel%20de%20croissance)",
+      "text": "Linkedin"
+    },
+    {
+      "href": "mailto:%20?subject=Service%20Public%20-%20Smic%20(salaire%20minimum%20interprofessionnel%20de%20croissance)&body=Bonjour,%0D%0A%0D%0ACette%20information%20de%20Service%20Public%20vous%20est%20conseill%C3%A9e%20:%20%0D%0A%0D%0ASmic%20(salaire%20minimum%20interprofessionnel%20de%20croissance)%0D%0A%0D%0Ahttps%3A%2F%2Fwww.service-public.gouv.fr%2Fparticuliers%2Fvosdroits%2FF2300",
+      "text": "Courriel"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/compte/se-connecter?targetUrl=/particuliers/vosdroits/F2300/abonnement",
+      "text": "Ajouter à mes favoris"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/compte/mes-alertes",
+      "text": "mon compte > mes alertes"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15478",
+      "text": "contrat de professionnalisation"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N11240",
+      "text": "contrat d'apprentissage"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R60805",
+      "text": "convention collective"
+    },
+    {
+      "href": "https://code.travail.gouv.fr/contribution/quel-est-le-salaire-minimum?src_url=https://www.service-public.gouv.fr/particuliers/vosdroits/F2300",
+      "text": "Connaître le montant du salaire minimum en fonction de la convention collective de l’entreprise"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/serie/011814056",
+      "text": "l'indice des prix à la consommation"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/serie/011814056",
+      "text": "l'indice des prix à la consommation"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R60805",
+      "text": "convention collective"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/serie/011814056",
+      "text": "l'indice des prix à la consommation"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/serie/011814056",
+      "text": "l'indice des prix à la consommation"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/allo-sp/c2c?context=R43364&idFiche=F2300&audience=Particuliers",
+      "text": "Être rappelé(e)"
+    },
+    {
+      "href": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006189663",
+      "text": "Code du travail : articles L3231-2 à L3231-3"
+    },
+    {
+      "href": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018487177",
+      "text": "Code du travail : articles R3231-1 à D3231-3"
+    },
+    {
+      "href": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000018533880",
+      "text": "Code du travail : articles R3231-4 à D3231-6"
+    },
+    {
+      "href": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054126589",
+      "text": "Arrêté du 22 mai 2026 relatif au relèvement du salaire minimum de croissance"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/R73393",
+      "text": "Connaître le montant du salaire minimum en fonction de la convention collective de l’entreprise"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F36444",
+      "text": "Un ressortissant européen salarié en France a-t-il les mêmes droits qu'un salarié français ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2302",
+      "text": "Cotisations salariales - Salarié du secteur privé"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/1375188",
+      "text": "Évolution du Smic : données annuelles de 1980 à 2026"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers",
+      "text": "Je vais sur la page d’accueil"
+    },
+    {
+      "href": "https://www.service-public.fr/P10001",
+      "text": "données personnelles et sécurité"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/actualites/lettresp/abonnement",
+      "text": "S’abonner"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/actualites/lettresp/archives/",
+      "text": "Lire la dernière lettre"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/actualites/lettresp/archives",
+      "text": "Voir toutes les lettres"
+    },
+    {
+      "href": "https://www.facebook.com/ServicePublicFr",
+      "text": "Facebook"
+    },
+    {
+      "href": "https://www.tiktok.com/@service.public_gouv",
+      "text": "TikTok"
+    },
+    {
+      "href": "https://www.linkedin.com/company/service-public-fr",
+      "text": "LinkedIn"
+    },
+    {
+      "href": "https://www.instagram.com/servicepublic/",
+      "text": "Instagram"
+    },
+    {
+      "href": "https://www.youtube.com/ServicePublicFrance",
+      "text": "YouTube"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19810",
+      "text": "Papiers - Citoyenneté - Élections"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19805",
+      "text": "Famille - Scolarité"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19811",
+      "text": "Social - Santé"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19806",
+      "text": "Travail - Formation"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19808",
+      "text": "Logement"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19812",
+      "text": "Transports - Mobilité"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19803",
+      "text": "Argent - Impôts - Consommation"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19807",
+      "text": "Justice"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19804",
+      "text": "Étranger - Europe"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19809",
+      "text": "Loisirs - Sports - Culture"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/N31931",
+      "text": "Associations, fondations et fonds de dotation"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/recherche?rubricFilter=serviceEnLigne&rubricTypeFilter=teleservice",
+      "text": "Démarches en ligne"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/recherche?rubricFilter=serviceEnLigne&rubricTypeFilter=formulaire",
+      "text": "Formulaires administratifs (cerfas)"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/recherche?rubricFilter=serviceEnLigne&rubricTypeFilter=simulateur",
+      "text": "Simulateurs"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/recherche?rubricFilter=serviceEnLigne&rubricTypeFilter=modeleLettre",
+      "text": "Modèles de lettres"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/recherche?rubricFilter=serviceEnLigne&rubricTypeFilter=outilrecherche",
+      "text": "Outils de recherche"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33683",
+      "text": "Allo Service Public"
+    },
+    {
+      "href": "https://lannuaire.service-public.gouv.fr/",
+      "text": "Annuaire de l'administration"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/D10002",
+      "text": "Chiffres"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/P10004",
+      "text": "Mise à disposition des données"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/P10002",
+      "text": "Missions et valeurs"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/D10003",
+      "text": "Aide"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/D10000",
+      "text": "Vous êtes une administration ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/P10026",
+      "text": "Vous êtes journaliste ?"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/P10017",
+      "text": "Contacter Service Public"
+    },
+    {
+      "href": "https://www.dila.premier-ministre.gouv.fr/",
+      "text": "Direction de l’information légale et administrative"
+    },
+    {
+      "href": "https://www.legifrance.gouv.fr/",
+      "text": "legifrance.gouv.fr"
+    },
+    {
+      "href": "https://www.info.gouv.fr/",
+      "text": "info.gouv.fr"
+    },
+    {
+      "href": "https://www.data.gouv.fr/",
+      "text": "data.gouv.fr"
+    },
+    {
+      "href": "https://europa.eu/youreurope/index.htm#en",
+      "text": ""
+    },
+    {
+      "href": "https://www.vie-publique.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://entreprendre.service-public.gouv.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://www.plus.transformation.gouv.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/P10003",
+      "text": "Plan du site"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/P10000",
+      "text": "Accessibilité : totalement conforme"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/P10125",
+      "text": "Accessibilité des services en ligne"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/P10025",
+      "text": "Mentions légales"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/P10001",
+      "text": "Données personnelles et sécurité"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/P10050",
+      "text": "Conditions générales d'utilisation"
+    },
+    {
+      "href": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300#",
+      "text": "Gestion des cookies"
+    },
+    {
+      "href": "https://github.com/etalab/licence-ouverte/blob/master/LO.md",
+      "text": "licence etalab-2.0"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Accepter les cookies"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "fr-btn-header-search-mobile",
+      "value": "",
+      "label": "Ouvrir la recherche"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "fr-btn-menu-mobile-3",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer la recherche"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "name": "keyword",
+      "id": "header-search-input",
+      "value": "",
+      "label": "Recherche"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Rechercher sur le site"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer le menu"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "sp-btn-abonnement",
+      "value": "",
+      "label": "Ajouter à mes favoris"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "imprimer",
+      "value": "",
+      "label": "Imprimer la page"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "simple-btn-share-mobile",
+      "value": "",
+      "label": "Partager la page"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "sp-btn-shareLinks",
+      "value": "",
+      "label": "Partager la page"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "sp-btn-readspeakerFR",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "select-language",
+      "value": "",
+      "label": "FR - Français - Sélectionner une langue"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer :Partager la page"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Partager - copier le lien"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer : ajouter à mes favoris"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer : ce sujet a été ajouté à vos favoris"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer la notification"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "_csrf",
+      "id": "",
+      "value": "3e770d69-0058-434c-99aa-b7798f2adf62",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "abonnementFicheUrl",
+      "id": "",
+      "value": "https://www.service-public.gouv.fr/particuliers/vosdroits//abonnement",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "tab-button-situation1",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "tab-button-situation2",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "accordion-chapter-btn-chapitre1-situation1",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "accordion-chapter-btn-chapitre2-situation1",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "onglet-cas-tab-14322124922972765461",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "onglet-cas-tab-14322124922972765462",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "accordion-chapter-btn-chapitre3-situation1",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "accordion-chapter-btn-chapitre4-situation1",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "accordion-chapter-btn-chapitre1-situation2",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "accordion-chapter-btn-chapitre2-situation2",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "accordion-chapter-btn-chapitre3-situation2",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "accordion-chapter-btn-chapitre4-situation2",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "geoSearchFormCollapse",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "fiche-item-annexe-ref-aria",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "fiche-item-annexe-slf-aria",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "fiche-item-annexe-voirAussi-aria",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "remove-notation-success",
+      "value": "",
+      "label": "Masquer le message"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "make-remark",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "comprehension",
+      "id": "understand_1",
+      "value": "0",
+      "label": "Pas du tout"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "comprehension",
+      "id": "understand_2",
+      "value": "1",
+      "label": "Moyen"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "comprehension",
+      "id": "understand_3",
+      "value": "2",
+      "label": "Parfait !"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "utilite",
+      "id": "usefull_1",
+      "value": "0",
+      "label": "Pas du tout"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "utilite",
+      "id": "usefull_2",
+      "value": "1",
+      "label": "Moyen"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "utilite",
+      "id": "usefull_3",
+      "value": "2",
+      "label": "Parfait !"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "idNotationDifficulty",
+      "id": "difficulty_2",
+      "value": "on",
+      "label": "Non"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "idNotationDifficulty",
+      "id": "difficulty_6",
+      "value": "on",
+      "label": "Je ne suis pas satisfait(e) de cette réglementation"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "idNotationDifficulty",
+      "id": "difficulty_5",
+      "value": "on",
+      "label": "Cette page ne correspond pas à ma situation"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "idNotationDifficulty",
+      "id": "difficulty_1",
+      "value": "on",
+      "label": "Il manque des informations (préciser lesquelles)"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "idNotationDifficulty",
+      "id": "difficulty_3",
+      "value": "on",
+      "label": "Les informations ne sont pas claires (préciser lesquelles)"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "idNotationDifficulty",
+      "id": "difficulty_4",
+      "value": "on",
+      "label": "Il y a une erreur dans la page (préciser laquelle)"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "souhaiteEcrire",
+      "id": "suggest_1",
+      "value": "on",
+      "label": "Je suggère une modification à une rédactrice ou un rédacteur Service PublicSaisie complémentaire requise – affichage automatique"
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": "message",
+      "id": "message",
+      "value": "",
+      "label": "Votre suggestion Ne mentionnez pas de données personnelles (nom, adresse, numéros de téléphone, numéro de sécurité sociale, numéro fiscal, lieu et date de naissance...) à l'exception, bien sûr, de votre adresse de messagerie."
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "email",
+      "id": "email",
+      "value": "",
+      "label": "Votre adresse électronique Exemple : nom@exemple.com"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "note",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "satelliteQPM",
+      "id": "",
+      "value": "R43364",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "submitNotationFeedbackForm",
+      "value": "",
+      "label": ""
+    }
+  ],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://dcinfos-cache.abtasty.com/v1/ua-parser",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://dcinfos-cache.abtasty.com/v1/geoip?weather=false",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/img/ico-sp.svg",
+      "resourceType": "xhr",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/img/logo/service-public.svg",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/js/choice-tree/choiceTreeTemplate.html",
+      "resourceType": "xhr",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.service-public.gouv.fr/resources/v-6215e1551d/assets/js/choice-tree/choiceTreeAideTemplate.html",
+      "resourceType": "xhr",
+      "postData": null
+    }
+  ]
+}
