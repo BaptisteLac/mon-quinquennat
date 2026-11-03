@@ -1,0 +1,879 @@
+{
+  "measures": [
+    {
+      "theme": "justice",
+      "title": "Créer un principe de précaution pénal : une mesure de protection immédiate pour chaque plainte liée aux enfants",
+      "summary": {
+        "simple": "Chaque plainte concernant un enfant entraînerait une mesure de protection immédiate de la victime potentielle.",
+        "normal": "Principe de précaution pénal : pour chaque plainte liée aux enfants, mise en place d'une mesure de protection immédiate de la victime potentielle."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Créer un principe de précaution pénal afin que, pour chaque plainte liée aux enfants, une mesure de protection immédiate soit mise en place pour protéger la victime potentielle."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "0_2",
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Pour toute plainte concernant un enfant, une mesure de protection serait prise immédiatement.",
+            "normal": "Principe de précaution pénal : chaque plainte liée à un enfant entraînerait une protection immédiate de la victime potentielle."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "justice",
+      "title": "Instituer un « droit de savoir » pour vérifier les antécédents d'une personne en contact avec son enfant",
+      "summary": {
+        "simple": "Les parents pourraient demander à la police de vérifier qu'une personne en contact avec leur enfant n'a pas d'antécédents.",
+        "normal": "« Droit de savoir » inspiré de la Sarah's law britannique : les parents pourraient saisir la police pour vérifier l'absence d'antécédents d'une personne entrant en contact avec leur enfant."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Instituer un « droit de savoir » inspiré de la Sarah's law britannique qui permet aux parents de saisir la police pour faire vérifier l'absence d'antécédents d'une personne entrant en contact avec leur enfant."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "0_2",
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Tu pourrais demander à la police de vérifier les antécédents d'une personne en contact avec ton enfant.",
+            "normal": "Droit de savoir : les parents pourraient faire vérifier par la police l'absence d'antécédents d'un adulte entrant en contact avec leur enfant."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "securite",
+      "title": "Faire fermer les sites qui laissent prospérer le proxénétisme en ligne",
+      "summary": {
+        "simple": "Les sites internet qui laissent prospérer le proxénétisme seraient fermés.",
+        "normal": "Lutte contre le proxénétisme en ligne par la fermeture des sites qui le laissent prospérer."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Lutter contre le proxénétisme en ligne en faisant fermer les sites qui le laissent prospérer en toute impunité."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Rendre imprescriptibles les crimes sur mineur",
+      "summary": {
+        "simple": "Les crimes commis sur des mineurs pourraient être poursuivis sans limite de temps.",
+        "normal": "Imprescriptibilité des crimes sur mineur."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Mettre en place l'imprescriptibilité pour les crimes sur mineur afin de faire savoir aux auteurs qu'ils ne seront jamais ni sereins, ni à l'abri."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "education",
+      "title": "Déployer les certificats d'honorabilité dans tout le périscolaire et former ses intervenants",
+      "summary": {
+        "simple": "Tous les intervenants du périscolaire devraient avoir un certificat d'honorabilité et seraient formés.",
+        "normal": "Réforme du périscolaire : certificats d'honorabilité déployés partout et choc de formation."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Réformer le périscolaire en déployant les certificats d'honorabilité partout et un choc de formation."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Les adultes qui encadrent tes enfants au périscolaire devraient tous avoir un certificat d'honorabilité.",
+            "normal": "Certificat d'honorabilité généralisé pour les intervenants du périscolaire, avec un plan de formation."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Créer une Inspection nationale de l'enfance qui contrôle les lieux accueillant des mineurs tous les trois ans",
+      "summary": {
+        "simple": "Une Inspection nationale de l'enfance contrôlerait tous les lieux accueillant des enfants au moins tous les trois ans, contre dix aujourd'hui, et pourrait les fermer.",
+        "normal": "Création d'une Inspection nationale de l'enfance qui contrôlera tous les lieux accueillant des mineurs au moins tous les trois ans (contre dix aujourd'hui) et pourra fermer des établissements."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Créer une Inspection nationale de l'enfance, qui contrôlera tous les lieux accueillant des mineurs au moins tous les trois ans, contre dix aujourd'hui, et pourra fermer des établissements."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "0_2",
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Les lieux qui accueillent tes enfants seraient contrôlés au moins tous les trois ans, contre dix aujourd'hui.",
+            "normal": "Une Inspection nationale de l'enfance contrôlerait tous les lieux accueillant des mineurs au moins tous les trois ans (dix aujourd'hui) et pourrait les fermer."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Imposer un responsable formé à la protection des enfants pendant chaque temps périscolaire",
+      "summary": {
+        "simple": "Un responsable formé à la protection des enfants serait présent pendant chaque temps périscolaire.",
+        "normal": "Présence obligatoire, pendant chaque temps périscolaire, d'un responsable formé à la protection des enfants."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Rendre obligatoire, pendant chaque temps périscolaire, la présence d'un responsable formé à la protection des enfants."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Pendant le périscolaire, un responsable formé à la protection des enfants serait toujours présent.",
+            "normal": "Présence obligatoire d'un responsable formé à la protection de l'enfance pendant chaque temps périscolaire."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Publier les parcours des éducateurs du périscolaire",
+      "summary": {
+        "simple": "Le parcours des éducateurs du périscolaire serait rendu public.",
+        "normal": "Publication des parcours des éducateurs du périscolaire."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Publier les parcours des éducateurs du périscolaire."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "education",
+      "title": "Laisser les chefs d'établissement fixer méthodes, horaires, uniforme, discipline, et participer au recrutement",
+      "summary": {
+        "simple": "Chaque chef d'établissement pourrait adapter méthodes et horaires, imposer l'uniforme, fixer la discipline et participer au recrutement de ses équipes.",
+        "normal": "Chefs d'établissement « véritables patrons de l'école » : liberté d'adapter les méthodes et les horaires, d'imposer l'uniforme, de fixer les règles de discipline, de participer au recrutement et à l'évaluation de leur équipe."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Faire des chefs d'établissements les véritables patrons de l'école : liberté d'adapter les méthodes et les horaires, d'imposer l'uniforme, de fixer les règles de discipline, de participer au recrutement et à l’évaluation de leur équipe."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "L'école de tes enfants pourrait fixer ses horaires et ses règles, et imposer l'uniforme.",
+            "normal": "Les chefs d'établissement pourraient adapter méthodes et horaires, imposer l'uniforme, fixer la discipline et participer au recrutement des enseignants."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Concentrer l'école primaire sur lire, écrire, compter",
+      "summary": {
+        "simple": "L'école primaire se concentrerait sur la lecture, l'écriture et le calcul.",
+        "normal": "Enseignement primaire concentré sur les savoirs fondamentaux : lire, écrire, compter."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Concentrer l'enseignement primaire sur les savoirs fondamentaux : lire, écrire, compter, socle sans lequel aucun autre apprentissage n'est possible."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10"
+            ]
+          },
+          "sentence": {
+            "simple": "À l'école primaire, tes enfants travailleraient d'abord la lecture, l'écriture et le calcul.",
+            "normal": "Le primaire serait recentré sur les savoirs fondamentaux : lire, écrire, compter."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Créer un service public universel du soutien scolaire, avec assistant IA et anciens professeurs",
+      "summary": {
+        "simple": "Tous les élèves auraient accès à un soutien scolaire public, avec un assistant d'intelligence artificielle et des anciens professeurs ou étudiants bénévoles.",
+        "normal": "Service public universel du soutien scolaire combinant un assistant IA personnalisé et des brigades d'anciens professeurs et d'étudiants volontaires."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Créer un service public universel du soutien scolaire, combinant assistant IA personnalisé et brigades d'anciens professeurs et d'étudiants volontaires."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Tes enfants auraient accès à un soutien scolaire public, avec un assistant IA et des anciens professeurs.",
+            "normal": "Service public universel du soutien scolaire : assistant IA personnalisé et brigades d'anciens professeurs et d'étudiants volontaires."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Refonder l'orientation en fin de collège et au lycée",
+      "summary": {
+        "simple": "Les collégiens et lycéens seraient mieux informés sur les formations possibles et les prérequis, au-delà du professeur principal.",
+        "normal": "Refonte de l'orientation en fin de collège et au lycée pour éclairer les élèves sur les prérequis et les formations, au-delà du seul accompagnement par les professeurs principaux."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Refonder l'orientation en fin de collège et au lycée, pour éclairer les élèves sur les prérequis et les formations possibles au-delà du seul accompagnement par les professeurs principaux."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "eq",
+            "value": "11_17"
+          },
+          "sentence": {
+            "simple": "Au collège et au lycée, tes enfants seraient davantage informés sur les formations possibles.",
+            "normal": "Orientation refondée en fin de collège et au lycée, au-delà du seul accompagnement par les professeurs principaux."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "sante",
+      "title": "Renforcer la santé à l'école, notamment la santé mentale des élèves",
+      "summary": {
+        "simple": "Les élèves auraient accès à des tiers de confiance et à un repérage en matière de santé mentale.",
+        "normal": "Renforcement de la santé à l'école : accès des élèves à des tiers de confiance, à des conseils et à la détection en matière de santé mentale."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Renforcer la santé à l'école, en donnant aux élèves accès à des tiers de confiance, à des conseils et à la détection en matière de santé mentale."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "À l'école, tes enfants auraient accès à des adultes de confiance et à un repérage en santé mentale.",
+            "normal": "Santé à l'école renforcée : tiers de confiance, conseils et détection en matière de santé mentale."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Augmenter de 20 % la rémunération moyenne des enseignants sur le quinquennat",
+      "summary": {
+        "simple": "Les enseignants seraient payés 20 % de plus en moyenne à la fin du mandat, surtout en milieu de carrière.",
+        "normal": "Hausse de 20 % de la rémunération moyenne des enseignants sur le quinquennat, pour atteindre au moins la moyenne européenne, notamment en milieu de carrière."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Augmenter de 20 % la rémunération moyenne des enseignants sur le quinquennat, pour la porter au moins au niveau de la moyenne européenne, notamment en milieu de carrière."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "education",
+      "title": "Recréer des écoles normales pour la formation initiale des professeurs",
+      "summary": {
+        "simple": "Les futurs professeurs seraient formés dans des écoles normales recréées.",
+        "normal": "Recréation d'écoles normales, plus exigeantes sur les savoirs fondamentaux, pour la formation initiale des professeurs."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Recréer des écoles normales, plus exigeantes sur les savoirs fondamentaux, pour la formation initiale des professeurs."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "education",
+      "title": "Réformer la carrière des enseignants, avec des évolutions dans ou hors de l'Éducation nationale",
+      "summary": {
+        "simple": "Les enseignants pourraient évoluer dans ou hors de l'Éducation nationale, et enseigner autrement en fin de carrière.",
+        "normal": "Réforme de la carrière des enseignants : évolutions possibles dans ou hors de l'Éducation nationale, autres façons d'enseigner en fin de carrière."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Réformer la carrière des enseignants : évolutions possibles dans ou hors de l'Éducation nationale, autres façons d'enseigner en fin de carrière."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "education",
+      "title": "Réduire les effectifs par classe en maternelle et en primaire",
+      "summary": {
+        "simple": "Les classes de maternelle et de primaire compteraient moins d'élèves.",
+        "normal": "Réduction des effectifs d'élèves par classe en maternelle et en primaire."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Réduire les effectifs d'élèves en classe, en maternelle et en primaire."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "0_2",
+              "3_10"
+            ]
+          },
+          "sentence": {
+            "simple": "En maternelle et en primaire, tes enfants seraient dans des classes moins chargées.",
+            "normal": "Effectifs réduits en maternelle et en primaire ; le nombre d'élèves visé n'est pas précisé."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Permettre d'avancer la rentrée d'une à deux semaines et réorganiser la fin d'année",
+      "summary": {
+        "simple": "Les établissements volontaires pourraient faire rentrer plus tôt les élèves qui en ont besoin, et le mois de juin ne serait plus occupé par les examens.",
+        "normal": "Possibilité pour les établissements d'avancer la rentrée d'une à deux semaines pour les élèves qui en ont besoin ; fin d'année réorganisée pour que juin ne soit plus « empêché » par les examens."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Permettre aux établissements qui le souhaitent d'avancer la rentrée d'une à deux semaines pour les élèves qui en ont besoin, et réorganiser la fin d'année pour que le mois de juin ne soit plus empêché par les examens."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "La rentrée de tes enfants pourrait être avancée d'une à deux semaines s'ils en ont besoin, selon leur établissement.",
+            "normal": "Rentrée avancée d'une à deux semaines possible pour les élèves qui en ont besoin, et mois de juin libéré des examens."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Créer une « amende de responsabilisation scolaire » pour les parents d'enfants harceleurs, perturbateurs ou absentéistes",
+      "summary": {
+        "simple": "Les parents d'enfants harceleurs, perturbateurs ou absentéistes, et les parents violents, pourraient recevoir une amende.",
+        "normal": "« Amende de responsabilisation scolaire », inspirée du modèle britannique, pour les parents d'enfants harceleurs, perturbateurs ou absentéistes et les parents violents."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Créer une « amende de responsabilisation scolaire », inspirée du modèle britannique, pour les parents d'enfants harceleurs, perturbateurs ou absentéistes et les parents violents."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Si ton enfant harcèle, perturbe la classe ou manque l'école, tu pourrais recevoir une amende.",
+            "normal": "Amende de responsabilisation scolaire pour les parents d'enfants harceleurs, perturbateurs ou absentéistes, et pour les parents violents ; montant non précisé."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Rendre publiques les évaluations de performance des établissements scolaires",
+      "summary": {
+        "simple": "Les parents et les élus pourraient consulter les résultats des évaluations de chaque école, collège ou lycée.",
+        "normal": "Publication auprès des parents et des élus locaux des évaluations de performance des établissements scolaires."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Rendre publiques auprès des parents et des élus locaux les évaluations de performance des établissements scolaires."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Tu pourrais consulter les évaluations de l'établissement de tes enfants.",
+            "normal": "Les évaluations de performance des établissements seraient rendues publiques auprès des parents et des élus locaux."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Interdire les téléphones portables à l'école primaire et au collège, avec confiscation immédiate",
+      "summary": {
+        "simple": "Les téléphones seraient interdits à l'école et au collège ; un téléphone utilisé serait confisqué et rendu aux parents.",
+        "normal": "Interdiction stricte des téléphones portables à l'école primaire et au collège, avec confiscation immédiate en cas d'usage et restitution aux parents."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Interdire strictement les téléphones portables à l'école primaire et au collège, avec confiscation immédiate en cas d'usage et restitution aux parents."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Le téléphone de tes enfants serait interdit à l'école et au collège, confisqué en cas d'usage et rendu à toi.",
+            "normal": "Interdiction stricte du téléphone portable à l'école primaire et au collège ; confiscation immédiate et restitution aux parents."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Former les enseignants à l'usage de l'intelligence artificielle",
+      "summary": {
+        "simple": "Les enseignants seraient formés à utiliser l'intelligence artificielle pour préparer leurs cours et corriger les devoirs.",
+        "normal": "Formation des enseignants à l'usage de l'intelligence artificielle pour préparer leurs cours et corriger les devoirs."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Former les enseignants à l'usage de l'intelligence artificielle pour préparer leurs cours et corriger les devoirs."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "education",
+      "title": "Relancer le plan « Aisance aquatique » dès l'école maternelle",
+      "summary": {
+        "simple": "Les enfants apprendraient à nager dès l'école maternelle.",
+        "normal": "Relance du plan « Aisance aquatique » pour apprendre la natation aux enfants dès l'école maternelle."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Relancer le plan « Aisance aquatique » pour apprendre la natation aux enfants dès l'école maternelle."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "0_2",
+              "3_10"
+            ]
+          },
+          "sentence": {
+            "simple": "Tes enfants apprendraient à nager dès la maternelle.",
+            "normal": "Relance du plan « Aisance aquatique » dès l'école maternelle."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Accueillir les enfants en situation de handicap à l'école dans de bonnes conditions",
+      "summary": {
+        "simple": "L'accueil à l'école des enfants en situation de handicap serait organisé avec tous les acteurs de l'éducation.",
+        "normal": "Accueil des enfants en situation de handicap dans de bonnes conditions, avec des solutions construites avec l'ensemble des acteurs de l'éducation."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Assurer l'accueil des enfants en situation de handicap dans de bonnes conditions, avec des solutions construites avec l'ensemble des acteurs de l'éducation."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "all": [
+              {
+                "field": "enfantsAgeBand",
+                "op": "in",
+                "value": [
+                  "3_10",
+                  "11_17"
+                ]
+              },
+              {
+                "field": "handicapOuAidant",
+                "op": "in",
+                "value": [
+                  "moi",
+                  "proche"
+                ]
+              }
+            ]
+          },
+          "sentence": {
+            "simple": "L'accueil à l'école des enfants en situation de handicap serait organisé avec tous les acteurs de l'éducation.",
+            "normal": "Accueil des enfants en situation de handicap avec des solutions construites avec l'ensemble des acteurs de l'éducation ; moyens non précisés."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "famille",
+      "title": "Créer une allocation familiale unique de 350 € dès le premier enfant, dégressive avec le revenu",
+      "summary": {
+        "simple": "Une allocation familiale unique de 350 € serait versée dès le premier enfant, à la place des aides existantes ; elle baisserait quand le revenu augmente.",
+        "normal": "Allocation familiale unique dès le premier enfant, « à hauteur de 350 € », fusionnant les dispositifs existants, dégressive avec le revenu ; le barème de dégressivité n'est pas publié."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Créer une allocation familiale unique dès le premier enfant, à hauteur de 350€, en fusionnant les dispositifs existants trop complexes et trop éparpillés, dégressive avec le revenu."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "allocations_familiales",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "0_2",
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Tes aides familiales seraient remplacées par une allocation unique de 350 €, dégressive avec ton revenu.",
+            "normal": "Allocation familiale unique dès le premier enfant, à hauteur de 350 €, dégressive avec le revenu. Montant non calculé : le barème de dégressivité n'est pas publié."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "fiscalite",
+      "title": "Supprimer l'impôt sur le revenu des classes moyennes pendant les trois premières années de l'enfant",
+      "summary": {
+        "simple": "Pendant les trois premières années d'un enfant, les familles des classes moyennes ne paieraient pas d'impôt sur le revenu, et les familles plus aisées qui travaillent auraient 3 000 € de réduction par an.",
+        "normal": "Suppression de l'impôt sur le revenu pendant les trois premières années de l'enfant pour les classes moyennes (4e à 6e déciles, début du 7e) ; réduction d'impôt de 3 000 € par an sur la même période pour les familles plus aisées qui travaillent."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Supprimer l'impôt sur le revenu pendant les trois premières années de l'enfant pour les classes moyennes (4e à 6e déciles, début du 7e), et accorder une réduction d'impôt de 3 000 € par an sur la même période aux familles plus aisées qui travaillent."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "impot_revenu",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "eq",
+            "value": "0_2"
+          },
+          "sentence": {
+            "simple": "Avec un enfant de moins de trois ans, tu pourrais ne plus payer d'impôt sur le revenu, ou avoir 3 000 € de réduction par an si tes revenus sont plus élevés.",
+            "normal": "Impôt sur le revenu supprimé pendant les trois premières années de l'enfant pour les 4e à 6e déciles (et le début du 7e) ; réduction de 3 000 € par an pour les familles plus aisées qui travaillent. Montant non calculé : les seuils de revenu ne sont pas publiés."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Accorder un prêt à taux zéro à chaque naissance pour faciliter le déménagement",
+      "summary": {
+        "simple": "Chaque naissance ouvrirait droit à un prêt à taux zéro pour aider la famille à déménager.",
+        "normal": "Prêt à taux zéro pour chaque naissance, afin de faciliter le déménagement des familles qui s'agrandissent ; montant non précisé."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Faciliter le déménagement des familles qui s'agrandissent grâce à un prêt à taux zéro pour chaque naissance."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "field": "age",
+            "op": "lte",
+            "value": 45
+          },
+          "sentence": {
+            "simple": "À chaque naissance, tu pourrais obtenir un prêt à taux zéro pour déménager.",
+            "normal": "Prêt à taux zéro à chaque naissance pour les familles qui s'agrandissent et déménagent ; montant et conditions non précisés."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "famille",
+      "title": "Créer un temps partiel parental : 80 % du temps payé 100 % pendant 2 mois après les congés parentaux",
+      "summary": {
+        "simple": "Après un congé parental, un parent pourrait travailler à 80 % en étant payé 100 % pendant deux mois.",
+        "normal": "Temps partiel parental : 80 % du temps de travail payé 100 % pendant 2 mois, pour faciliter la reprise après les congés parentaux."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Créer le temps partiel parental : passer à 80% payés 100% pendant 2 mois pour faciliter la reprise du travail des parents après les congés parentaux."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "temps_travail",
+          "section": "temps",
+          "appliesTo": {
+            "all": [
+              {
+                "field": "enfantsAgeBand",
+                "op": "eq",
+                "value": "0_2"
+              },
+              {
+                "field": "situationPro",
+                "op": "in",
+                "value": [
+                  "salarie_prive",
+                  "fonctionnaire"
+                ]
+              }
+            ]
+          },
+          "sentence": {
+            "simple": "Après ton congé parental, tu pourrais travailler à 80 % payé 100 % pendant deux mois.",
+            "normal": "Temps partiel parental : reprise à 80 % payée 100 % pendant 2 mois après les congés parentaux."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "fiscalite",
+      "title": "Augmenter les plafonds de donation aux enfants et petits-enfants pendant trois ans",
+      "summary": {
+        "simple": "Pendant les trois premières années du mandat, on pourrait donner beaucoup plus à ses enfants et petits-enfants sans impôt.",
+        "normal": "Plafonds de donation du vivant aux enfants et petits-enfants « massivement » augmentés pendant les trois premières années du quinquennat ; nouveaux plafonds non précisés."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Augmenter massivement les plafonds de donation du vivant aux enfants et petits-enfants pendant les trois premières années du quinquennat."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "succession",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "patrimoine",
+            "op": "in",
+            "value": [
+              "100k_1m",
+              "plus_1m"
+            ]
+          },
+          "sentence": {
+            "simple": "Pendant trois ans, tu pourrais donner davantage à tes enfants et petits-enfants sans impôt.",
+            "normal": "Plafonds de donation aux enfants et petits-enfants augmentés pendant les trois premières années du quinquennat ; les nouveaux plafonds ne sont pas publiés."
+          }
+        }
+      ]
+    }
+  ]
+}

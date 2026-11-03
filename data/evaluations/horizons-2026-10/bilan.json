@@ -1,0 +1,51 @@
+{
+  "corpusId": "horizons-2026-10",
+  "candidateId": "c-04",
+  "manifestSha256": "e3cb0228b6e141337309f1985833acd8162fa79c222bedda8466cd2cf3a5c9fe",
+  "seed": 2027,
+  "readOn": "2026-11-03",
+  "readers": {
+    "rappel": "Claude (session Claude Code, 2026-11-03), lecture des quatre pages pour relever chaque engagement, y compris secondaire ; même modèle que l'extraction",
+    "precision": "Claude (session Claude Code, 2026-11-03), relecture de chaque fiche tirée contre ses citations et la page source ; même modèle que l'extraction"
+  },
+  "checks": {
+    "citations": {
+      "k": 116,
+      "n": 116
+    },
+    "figures": {
+      "k": 116,
+      "n": 116
+    },
+    "autoValidated": {
+      "k": 116,
+      "n": 116
+    }
+  },
+  "recall": {
+    "k": 137,
+    "n": 137,
+    "low": 0.9727239679185695,
+    "high": 1,
+    "pages": 4
+  },
+  "precision": {
+    "k": 40,
+    "n": 40,
+    "low": 0.9123754607496077,
+    "high": 1
+  },
+  "parameters": {
+    "k": 11,
+    "n": 11,
+    "low": 0.7411599827511859,
+    "high": 1
+  },
+  "errorFree": {
+    "k": 40,
+    "n": 40,
+    "low": 0.9123754607496077,
+    "high": 1
+  },
+  "discrepancies": []
+}

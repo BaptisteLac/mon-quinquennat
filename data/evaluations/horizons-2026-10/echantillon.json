@@ -1,0 +1,69 @@
+{
+  "corpus": "horizons-2026-10",
+  "manifestSha256": "e3cb0228b6e141337309f1985833acd8162fa79c222bedda8466cd2cf3a5c9fe",
+  "seed": 2027,
+  "pages": [
+    {
+      "documentId": "horizons-2026-10-priorites-pour-une-france-plus-sure",
+      "page": 1,
+      "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+    },
+    {
+      "documentId": "horizons-2026-10-priorites-pour-une-france-plus-attentive-a-ses-enfants",
+      "page": 1,
+      "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
+    },
+    {
+      "documentId": "horizons-2026-10-priorites-pour-une-france-plus-prospere",
+      "page": 1,
+      "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+    },
+    {
+      "documentId": "horizons-2026-10-priorites-pour-une-france-plus-conquerante",
+      "page": 1,
+      "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+    }
+  ],
+  "mesures": [
+    "m-8e6cdf49a4d0",
+    "m-395945dde7bb",
+    "m-45393a5b3441",
+    "m-0e9dcc4c80ad",
+    "m-a3e3bac4b42f",
+    "m-b1ae6f5fc512",
+    "m-7a681aa562c1",
+    "m-9cba9b8f5728",
+    "m-8985b65c9e2c",
+    "m-be6fbfc7f71c",
+    "m-d50ddc3a156a",
+    "m-53d0036d930b",
+    "m-9428e926f53a",
+    "m-b6769c53f681",
+    "m-abdf9c150f8a",
+    "m-e5924e712475",
+    "m-f01fdee1aa34",
+    "m-b2cde34f8d41",
+    "m-160e8cd56001",
+    "m-122ef59bfd59",
+    "m-d3a1b8fec5a8",
+    "m-7c133d448b17",
+    "m-8c037d307df6",
+    "m-4cc5ff3ecfda",
+    "m-cda41aed13d0",
+    "m-15c79d0ed697",
+    "m-4018fedf16d6",
+    "m-3ef28f02bcec",
+    "m-87dcd981eef9",
+    "m-b5eadef6debf",
+    "m-9aee9a2b0aaf",
+    "m-eed96340f2e4",
+    "m-14da3f2b3d57",
+    "m-8507b62f84b7",
+    "m-9b85ff963f19",
+    "m-85282490572f",
+    "m-3485b6c55b90",
+    "m-90946a0a200f",
+    "m-a865eef61ca7",
+    "m-b4f6bb2cdef4"
+  ]
+}
