@@ -1,0 +1,33 @@
+{
+  "requested": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+  "final": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+  "status": 200,
+  "title": "",
+  "iframes": [
+    "https://rassemblementnational.fr/documents/202406-programme.pdf",
+    "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html",
+    "https://rassemblementnational.fr/documents/202406-programme.pdf"
+  ],
+  "links": [],
+  "fields": [],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+      "resourceType": "document",
+      "postData": null
+    }
+  ]
+}
