@@ -1,0 +1,696 @@
+{
+  "measures": [
+    {
+      "theme": "justice",
+      "title": "Instaurer des courtes peines dès la première infraction, sur le modèle des pays du Nord",
+      "summary": {
+        "simple": "Une première infraction pourrait être punie d'une peine de prison courte, plutôt que d'attendre pour condamner plus lourdement.",
+        "normal": "Mise en place de courtes peines dès la première infraction, inspirées des pays du Nord, à la place d'incarcérations plus tardives et plus longues."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Mettre en place des courtes peines, en s'inspirant des pays du Nord qui condamnent dès la première infraction à une peine courte et dissuasive plutôt que d'enfermer trop tard et trop longtemps."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Peines planchers pour les infractions les plus graves, notamment contre l'autorité publique et les professeurs",
+      "summary": {
+        "simple": "Les infractions les plus graves auraient une peine minimale, en particulier les violences contre les personnes dépositaires de l'autorité publique et les professeurs.",
+        "normal": "Peines planchers pour les infractions les plus graves, en particulier les atteintes à l'intégrité physique des personnes dépositaires de l'autorité publique et des professeurs."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Mettre en place des peines planchers pour les infractions les plus graves, en particulier lorsqu'elles portent atteinte à l'intégrité physique des personnes dépositaires de l'autorité publique et des professeurs."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Supprimer le juge d'application des peines",
+      "summary": {
+        "simple": "Le juge d'application des peines serait supprimé : une peine décidée par un juge ne pourrait plus être modifiée par un autre.",
+        "normal": "Suppression du juge d'application des peines, afin que la décision d'un juge ne soit pas défaite par un autre."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Supprimer le juge d'application des peines afin de garantir que ce qu'un juge a décidé ne soit pas défait par un autre que lui."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Recruter davantage de magistrats venus d'autres métiers du droit et revoir leur formation",
+      "summary": {
+        "simple": "Plus de magistrats seraient recrutés parmi des personnes ayant déjà travaillé dans d'autres métiers du droit, et leur formation serait revue.",
+        "normal": "Révision de la formation et de la sélection des magistrats, avec davantage de recrutements de personnes ayant exercé dans d'autres secteurs du droit."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Réviser les modalités de formation et de sélection des magistrats, en développant le recrutement d'individus ayant eu une vie professionnelle dans d'autres secteurs du droit."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Réviser la composition du CSM et créer un « devoir de redevabilité » des juges envers les victimes",
+      "summary": {
+        "simple": "La composition du Conseil supérieur de la magistrature serait revue et les juges auraient un « devoir de redevabilité » envers les victimes.",
+        "normal": "Révision de la composition du Conseil supérieur de la magistrature (CSM) et instauration d'un « devoir de redevabilité » des juges à l'égard des victimes."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Renforcer la responsabilité des juges, avec une révision de la composition du CSM et l'instauration d'un « devoir de redevabilité » à l'égard des victimes."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "justice",
+      "title": "Permettre au garde des Sceaux d'adresser des instructions individuelles aux procureurs",
+      "summary": {
+        "simple": "Le ministre de la Justice pourrait donner des instructions sur des affaires précises aux procureurs.",
+        "normal": "Autorité du garde des Sceaux renforcée sur le parquet, notamment par la possibilité d'adresser des instructions individuelles aux procureurs."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Renforcer l'autorité du Garde des Sceaux sur le parquet, notamment par la possibilité d'adresser des instructions individuelles aux procureurs."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Donner aux maires un pouvoir de sanction pénale pour réprimer les petites infractions",
+      "summary": {
+        "simple": "Les maires pourraient sanctionner eux-mêmes les petites infractions et incivilités.",
+        "normal": "Attribution aux maires d'un pouvoir de sanction pénale pour réprimer les petites infractions et incivilités."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Donner un pouvoir de sanction pénale aux maires afin qu'ils puissent réprimer les petites infractions, ces incivilités qui pourrissent la vie de millions de Français."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Créer un « état d'urgence narco » limité dans le temps et l'espace, jusqu'à la reconnaissance faciale ciblée",
+      "summary": {
+        "simple": "Un « état d'urgence narco » donnerait des pouvoirs exceptionnels, limités dans le temps et dans l'espace, jusqu'à l'usage ciblé de la reconnaissance faciale.",
+        "normal": "Création d'un « état d'urgence narco » : moyens juridiques d'exception limités dans le temps et dans l'espace, allant jusqu'à l'utilisation ciblée de la reconnaissance faciale."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Créer un « état d'urgence narco » avec des moyens juridiques d'exception limités dans le temps et dans l'espace, allant jusqu'à l'utilisation ciblée de la reconnaissance faciale."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Créer une « fiche S financière » : un profil bancaire spécifique pour les personnes condamnées pour narcotrafic",
+      "summary": {
+        "simple": "Les personnes condamnées pour narcotrafic auraient un profil bancaire spécifique, une « fiche S financière ».",
+        "normal": "Constitution d'une « fiche S financière » : profil bancaire spécifique pour les personnes condamnées pour narcotrafic."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Constituer une « fiche S financière » : création d'un profil bancaire spécifique pour les personnes condamnées pour narcotrafic."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Lever l'excuse de minorité et créer la comparution immédiate des mineurs pour le narcotrafic",
+      "summary": {
+        "simple": "Pour le trafic de drogue, les mineurs ne bénéficieraient plus de l'excuse de minorité et pourraient être jugés en comparution immédiate.",
+        "normal": "Levée de l'excuse de minorité pour les faits liés au narcotrafic et création de la comparution immédiate des mineurs pour ces infractions."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Lever l'excuse de minorité pour les faits en lien avec le narcotrafic et créer la comparution immédiate des mineurs pour ces infractions."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Créer des établissements de réinsertion et de soin pour les mineurs condamnés pour narcotrafic",
+      "summary": {
+        "simple": "Des établissements de réinsertion et de soin accueilleraient les mineurs condamnés pour trafic de drogue.",
+        "normal": "Création d'établissements de réinsertion et de soin pour les mineurs condamnés pour narcotrafic."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Créer des établissements de réinsertion et de soin pour les mineurs condamnés pour narcotrafic."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "justice",
+      "title": "Permettre le recouvrement forcé des amendes sur les prestations sociales",
+      "summary": {
+        "simple": "Les amendes non payées pourraient être prélevées directement sur les prestations sociales.",
+        "normal": "Recouvrement forcé des amendes non recouvrées sur les prestations sociales, y compris pour les consommateurs de stupéfiants."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Lutter contre le scandale des amendes non recouvrées : permettre le recouvrement forcé des amendes sur les prestations sociales."
+        },
+        {
+          "page": 1,
+          "quote": "recouvrement forcé des amendes, y compris sur les prestations sociales"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Aligner l'application des peines des grands narcotrafiquants sur celle des terroristes",
+      "summary": {
+        "simple": "Les grands trafiquants de drogue purgeraient leur peine selon les mêmes règles que les terroristes.",
+        "normal": "Alignement du régime de l'application des peines des grands narcotrafiquants sur celui des terroristes."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Un choc de fermeté pénale : alignement du régime de l'application des peines des grands narcotrafiquants sur celui des terroristes."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Mobiliser la DGSI sur le narcotrafic et réformer le renseignement financier pour saisir les avoirs",
+      "summary": {
+        "simple": "Le renseignement intérieur serait mobilisé contre le trafic de drogue, et le renseignement financier réformé pour saisir les avoirs, y compris en cryptomonnaies.",
+        "normal": "DGSI mobilisée sur le narcotrafic et réforme du renseignement économique et financier pour tracer les fonds et saisir les avoirs physiques et numériques (cryptomonnaies)."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Une modernisation du renseignement : DGSI mobilisée sur le narcotrafic et grande réforme du renseignement économique et financier pour mieux tracer les fonds et saisir les avoirs, physiques et numériques (cryptomonnaies)."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "securite",
+      "title": "Cribler systématiquement les fonctions publiques sensibles et réformer les habilitations contre la corruption",
+      "summary": {
+        "simple": "Les agents publics occupant des fonctions sensibles (greffiers, agents fiscaux, préfectures…) seraient systématiquement contrôlés.",
+        "normal": "Plan anticorruption des fonctionnaires : criblage systématique de toutes les fonctions sensibles (greffiers, agents fiscaux, préfectures…) et réforme des habilitations."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Un grand plan anticorruption des fonctionnaires : criblage systématique de toutes les fonctions sensibles (greffiers, agents fiscaux, préfectures…) et réforme des habilitations."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "securite",
+      "title": "Informer l'employeur public quand un agent chargé de mission de service public est poursuivi pour usage de stupéfiants",
+      "summary": {
+        "simple": "Un employeur public serait informé quand un de ses agents est poursuivi pour usage de drogue.",
+        "normal": "Information systématique des employeurs publics lorsqu'une personne chargée de mission de service public est poursuivie pour usage de stupéfiants."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "La transparence pour les missions de service public : information systématique des employeurs publics lorsqu'une personne chargée de mission de service public est poursuivie pour usage de stupéfiant."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Mener des opérations « place nette » dans les boîtes de nuit et festivals contre les consommateurs de drogue",
+      "summary": {
+        "simple": "Des opérations de police « place nette » viseraient les consommateurs de drogue dans les boîtes de nuit et les festivals.",
+        "normal": "Opérations « place nette » dans les boîtes de nuit et festivals pour viser les consommateurs de stupéfiants."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Être intraitable avec les consommateurs : opérations « place nette » dans les boîtes de nuit et festivals"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "international",
+      "title": "Établir une liste noire européenne des pays non coopératifs contre le narcotrafic",
+      "summary": {
+        "simple": "L'Union européenne tiendrait une liste noire des pays qui ne coopèrent pas contre le trafic de drogue.",
+        "normal": "« Diplomatie narco » : liste noire européenne des pays non coopératifs."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Pour une « diplomatie narco » : liste noire européenne des pays non coopératifs."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "immigration",
+      "title": "Diviser par deux l'immigration",
+      "summary": {
+        "simple": "L'objectif serait de diviser par deux l'immigration en France.",
+        "normal": "Objectif de division par deux de l'immigration."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Un objectif clair : diviser par deux l’immigration dans notre pays."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "immigration",
+      "title": "Dénoncer l'accord de 1968 avec l'Algérie",
+      "summary": {
+        "simple": "L'accord de 1968 qui encadre l'immigration algérienne en France serait dénoncé.",
+        "normal": "Dénonciation de l'accord franco-algérien de 1968 pour reprendre le contrôle des flux migratoires."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Dénoncer l'accord de 1968 avec l'Algérie pour reprendre le contrôle des flux migratoires."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "immigration",
+      "title": "Faire voter chaque année par le Parlement la liste des pays sûrs et mettre fin à l'asile à vie",
+      "summary": {
+        "simple": "Le Parlement voterait chaque année la liste des pays sûrs, et le statut de réfugié ne serait plus accordé à vie.",
+        "normal": "Vote annuel par le Parlement d'une liste de pays sûrs et fin de l'asile à vie."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Mettre fin au dévoiement de l'asile en faisant voter chaque année par le Parlement une liste de pays sûrs et en mettant fin à l’asile à vie."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Suspendre le regroupement familial pendant le quinquennat",
+      "summary": {
+        "simple": "Le regroupement familial serait suspendu pendant les cinq ans du mandat.",
+        "normal": "Suspension du regroupement familial pour la durée du quinquennat."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Suspendre le regroupement familial pour la durée du quinquennat."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Instaurer des quotas pour l'immigration économique",
+      "summary": {
+        "simple": "Des quotas fixeraient le nombre d'immigrés admis pour travailler.",
+        "normal": "Politique de quotas migratoires pour choisir l'immigration économique."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Mettre en place une politique de quotas migratoires permettant de choisir notre immigration économique."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Vérifier les moyens des étudiants étrangers et appliquer la hausse des droits d'inscription des extra-européens",
+      "summary": {
+        "simple": "Les étudiants étrangers devraient prouver qu'ils peuvent financer leurs études, et les frais d'inscription plus élevés pour les étudiants hors Europe seraient appliqués.",
+        "normal": "Contrôle de l'immigration étudiante : vérification des moyens des étudiants étrangers et application de la hausse des droits d'inscription des étudiants extra-européens."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Contrôler l'immigration étudiante : vérifier que les étudiants étrangers ont les moyens de leurs études et appliquer réellement la hausse des droits d'inscription des étudiants extra-européens."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "decret"
+    },
+    {
+      "theme": "immigration",
+      "title": "Expulser immédiatement les étrangers délinquants et supprimer leurs aides sociales",
+      "summary": {
+        "simple": "Les étrangers délinquants seraient expulsés immédiatement et privés d'aides sociales.",
+        "normal": "Expulsion immédiate des étrangers délinquants et fin de leurs aides sociales."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Être intraitable avec les étrangers délinquants : expulsion immédiate et fin des aides sociales."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Utiliser les centres de retour prévus par le règlement européen retour",
+      "summary": {
+        "simple": "La France utiliserait les centres de retour prévus par le règlement européen.",
+        "normal": "Utilisation des centres de retour prévus par le règlement européen retour."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Utiliser les centres de retour prévus par le règlement européen retour."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "immigration",
+      "title": "Conduire une politique d'intégration par la langue, le travail et les valeurs républicaines",
+      "summary": {
+        "simple": "L'intégration des étrangers passerait par la langue, le travail et les valeurs républicaines.",
+        "normal": "Politique d'intégration par la langue, le travail et les valeurs républicaines."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Mettre en place une véritable politique d'intégration par la langue, le travail et les valeurs républicaines."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "securite",
+      "title": "Combattre l'islamisme et les organisations affiliées aux Frères musulmans",
+      "summary": {
+        "simple": "L'État combattrait l'islamisme et les organisations liées aux Frères musulmans.",
+        "normal": "Lutte contre l'islamisme et les organisations affiliées aux Frères musulmans."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Combattre sans concession l'islamisme et les organisations affiliées aux Frères musulmans, qui veulent imposer des règles religieuses à la République."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "immigration",
+      "title": "Aligner les aides sociales versées aux étrangers sur la moyenne européenne",
+      "summary": {
+        "simple": "Les aides sociales versées aux étrangers seraient ramenées à la moyenne des pays européens.",
+        "normal": "Alignement des aides sociales versées aux étrangers sur la moyenne européenne."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Aligner les aides sociales versées aux étrangers sur la moyenne européenne, pour qu'ils choisissent la France pour y travailler et s'y intégrer, pas pour ses aides."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Instaurer un « verrou Schengen » contre les régularisations massives décidées par un seul État",
+      "summary": {
+        "simple": "Aucun pays européen ne pourrait régulariser massivement des étrangers au-delà d'un seuil commun sans l'accord des autres.",
+        "normal": "« Verrou Schengen » : aucune régularisation massive au-delà d'un seuil défini collectivement sans accord préalable des partenaires européens."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Instaurer un « verrou Schengen » : aucun État européen ne doit pouvoir engager seul une régularisation massive au-delà d'un seuil défini collectivement, sans accord préalable de ses partenaires."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "immigration",
+      "title": "Créer un régime européen d'urgence pour suspendre les nouvelles demandes d'asile en cas d'attaque hybride",
+      "summary": {
+        "simple": "En cas d'afflux organisé à une frontière, l'Union européenne pourrait suspendre l'enregistrement des nouvelles demandes d'asile.",
+        "normal": "Dispositif anti-chantage migratoire : régime européen d'urgence permettant de suspendre l'enregistrement de nouvelles demandes d'asile face à une attaque hybride sur une frontière."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Créer un dispositif anti-chantage migratoire : un régime européen d'urgence permettant de suspendre l'enregistrement de nouvelles demandes d'asile face à une attaque hybride sur une frontière."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "immigration",
+      "title": "Créer un régime européen de sanctions contre les passeurs",
+      "summary": {
+        "simple": "Les passeurs feraient l'objet de sanctions européennes : gel des avoirs et interdiction de territoire.",
+        "normal": "Régime européen de sanctions contre les passeurs : gel des avoirs, interdiction de territoire, sanctions contre les réseaux."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Créer un régime européen de sanctions contre les passeurs : gel des avoirs, interdiction de territoire, sanctions contre les réseaux."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "immigration",
+      "title": "Suspendre l'enregistrement des demandes d'asile à Mayotte et en Guyane pendant le quinquennat",
+      "summary": {
+        "simple": "Les nouvelles demandes d'asile ne seraient plus enregistrées à Mayotte et en Guyane pendant cinq ans.",
+        "normal": "Suspension, pour la durée du quinquennat, de l'enregistrement des demandes d'asile dans les départements d'outre-mer en état de saturation migratoire, à Mayotte et en Guyane."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Suspendre, pour la durée du quinquennat, l'enregistrement des demandes d'asile dans les départements d'outre-mer en état de saturation migratoire, à Mayotte et en Guyane."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Suspendre le droit du sol à Mayotte",
+      "summary": {
+        "simple": "Naître à Mayotte ne permettrait plus d'obtenir la nationalité française par le droit du sol.",
+        "normal": "Suspension du droit du sol à Mayotte."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Suspendre le droit du sol à Mayotte."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Porter les réservistes de 45 000 à 250 000 et le service militaire volontaire de 3 000 à 50 000 places par an",
+      "summary": {
+        "simple": "L'armée compterait 250 000 réservistes au lieu de 45 000, et le service militaire volontaire passerait de 3 000 à 50 000 places par an.",
+        "normal": "Nombre de réservistes porté de 45 000 à 250 000 et service militaire volontaire de 3 000 à 50 000 places par an."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Porter le nombre de réservistes de 45 000 à 250 000 et le service militaire volontaire de 3 000 à 50 000 places par an."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Massifier la production et les achats de drones tactiques",
+      "summary": {
+        "simple": "L'armée produirait et achèterait des drones tactiques en grand nombre, sur le modèle américain.",
+        "normal": "Massification de la production et des achats de drones tactiques, sur le modèle du programme américain de 300 000 drones."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Massifier notre production et nos achats de drones tactiques, sur le modèle du programme américain de 300 000 drones."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Lancer un plan munitions pour dépasser 100 000 obus par an et viser l'échelle allemande de 700 000",
+      "summary": {
+        "simple": "La production d'obus dépasserait les 100 000 par an prévus aujourd'hui, pour s'approcher des 700 000 produits par l'Allemagne.",
+        "normal": "Grand plan munitions pour dépasser l'objectif actuel de 100 000 obus par an et atteindre l'échelle des 700 000 produits par l'Allemagne."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Lancer un grand plan munitions pour dépasser l'objectif actuel de 100 000 obus par an et atteindre l'échelle des 700 000 produits par l'Allemagne."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Renforcer la flotte navale, en doublant les navires aux Antilles",
+      "summary": {
+        "simple": "La marine aurait deux fois plus de navires aux Antilles, notamment contre le trafic de drogue.",
+        "normal": "Renforcement de la flotte navale, notamment en doublant le nombre de navires aux Antilles pour lutter contre le narcotrafic et sécuriser les outre-mer."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Renforcer notre flotte navale, notamment en doublant le nombre de navires aux Antilles pour lutter contre le narcotrafic et sécuriser nos outre-mer."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Voter une nouvelle loi de programmation militaire de la massification",
+      "summary": {
+        "simple": "Une nouvelle loi de programmation militaire viserait à agrandir les armées.",
+        "normal": "Nouvelle loi de programmation militaire (LPM) de la massification, au-delà de la LPM actuelle qui « épaissit les armées sans les étendre »."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Lancer une nouvelle LPM (Loi de programmation militaire) de la massification, au-delà de la LPM actuelle qui épaissit les armées sans les étendre."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Construire en France des avions bombardiers d'eau, des « Canadairs français »",
+      "summary": {
+        "simple": "Des avions bombardiers d'eau seraient construits en France pour lutter contre les incendies.",
+        "normal": "Construction en France de « Canadairs français » pour lutter contre les incendies."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Construire en France des « Canadairs français », pour lutter contre les incendies."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "securite",
+      "title": "Développer les réserves communales de sécurité civile",
+      "summary": {
+        "simple": "Les communes auraient des réserves de citoyens volontaires formés à la sécurité civile, plusieurs dizaines de milliers à terme.",
+        "normal": "Développement des réserves communales de sécurité civile, rassemblant à terme plusieurs dizaines de milliers de citoyens volontaires, formés et organisés."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Développer les réserves communales de sécurité civile, pour rassembler à terme plusieurs dizaines de milliers de citoyens volontaires, formés et organisés."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "securite",
+      "title": "Instaurer une journée nationale d'alerte, sur le modèle allemand",
+      "summary": {
+        "simple": "Une journée nationale servirait à tester les dispositifs d'alerte auprès des pouvoirs publics, des collectivités et des citoyens.",
+        "normal": "Journée nationale d'alerte, sur le modèle allemand, pour tester les dispositifs d'alerte auprès des pouvoirs publics, des collectivités et des citoyens."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Instaurer une journée nationale d'alerte, sur le modèle allemand, pour tester le fonctionnement des dispositifs d'alerte auprès des pouvoirs publics, des collectivités et des citoyens."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "decret"
+    },
+    {
+      "theme": "sante",
+      "title": "Former tous les Français aux premiers secours",
+      "summary": {
+        "simple": "Tous les Français seraient formés aux premiers secours.",
+        "normal": "Formation de tous les Français aux premiers secours."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Former tous les Français aux premiers secours."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    }
+  ]
+}

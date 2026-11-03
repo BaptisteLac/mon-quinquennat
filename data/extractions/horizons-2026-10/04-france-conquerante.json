@@ -1,0 +1,388 @@
+{
+  "measures": [
+    {
+      "theme": "numerique",
+      "title": "Développer une infrastructure européenne d'intelligence artificielle et doubler la capacité de calcul en cinq ans",
+      "summary": {
+        "simple": "L'Europe aurait sa propre infrastructure d'intelligence artificielle, avec une capacité de calcul doublée en cinq ans.",
+        "normal": "Infrastructure d'intelligence artificielle européenne souveraine, soutien aux champions et doublement de la capacité de calcul en cinq ans."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Développer une infrastructure d'intelligence artificielle européenne souveraine, en soutenant nos champions et en doublant notre capacité de calcul en cinq ans."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "numerique",
+      "title": "Adopter un « Buy European Tech Act » et grouper les achats technologiques entre États européens",
+      "summary": {
+        "simple": "Les États européens achèteraient ensemble leurs technologies et privilégieraient les entreprises européennes.",
+        "normal": "« Buy European Tech Act » et achats technologiques groupés entre États membres."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Peser à l'échelle européenne avec un « Buy European Tech Act » et des achats technologiques groupés entre États membres."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "energie",
+      "title": "Ouvrir un accès préférentiel à l'énergie décarbonée pour les acteurs européens, sur le modèle des AI Growth Zones",
+      "summary": {
+        "simple": "Les entreprises françaises et européennes auraient un accès prioritaire à l'électricité décarbonée, avec des règles de raccordement inspirées du Royaume-Uni.",
+        "normal": "Accès préférentiel à l'énergie décarbonée pour les acteurs nationaux et européens, avec des règles de raccordement inspirées des AI Growth Zones britanniques."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Ouvrir un accès préférentiel à notre énergie décarbonée pour les acteurs nationaux et européens, avec des règles de raccordement inspirées des AI Growth Zones britanniques."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "numerique",
+      "title": "Simplifier le cadre juridique européen de l'IA, en gardant une régulation éthique et protectrice des enfants",
+      "summary": {
+        "simple": "Les règles européennes sur l'intelligence artificielle seraient simplifiées, tout en restant protectrices des enfants.",
+        "normal": "Simplification du cadre juridique européen applicable à l'IA, sans renoncer à une régulation éthique et protectrice des enfants."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Simplifier le cadre juridique européen applicable à l'IA, sans renoncer à une régulation éthique et protectrice des enfants."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Créer un « livret capital France » et utiliser la capitalisation retraite pour financer les champions technologiques",
+      "summary": {
+        "simple": "Un « livret capital France » permettrait d'investir l'épargne des Français dans les entreprises, et la capitalisation retraite financerait les champions technologiques.",
+        "normal": "Création d'un « livret capital France » pour mobiliser l'épargne dormante, et utilisation de la capitalisation retraite pour financer les champions technologiques."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Créer un « livret capital France » pour mobiliser l'épargne dormante des Français, et utiliser la capitalisation retraite pour financer nos champions technologiques."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "travail",
+      "title": "Adapter la formation à l'IA et créer un droit à la reconversion pour les métiers menacés",
+      "summary": {
+        "simple": "Les personnes dont le métier est menacé par l'intelligence artificielle auraient un droit à la reconversion.",
+        "normal": "Enseignement, recrutement et formation continue adaptés à l'IA, avec un droit à la reconversion pour les métiers menacés."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Adapter l'enseignement, le recrutement et la formation continue à l'IA, en instaurant un droit à la reconversion pour les métiers menacés."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "education",
+      "title": "Former 100 000 ingénieurs par an d'ici cinq ans, contre 40 000",
+      "summary": {
+        "simple": "La France formerait 100 000 ingénieurs par an d'ici cinq ans, contre 40 000.",
+        "normal": "Massification de la production d'ingénieurs, de 40 000 à 100 000 par an en cinq ans."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Massifier la production d'ingénieurs, de 40 000 à 100 000 par an en cinq ans."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "energie",
+      "title": "Lancer 8 EPR en plus des 6 prévus, développer les renouvelables et électrifier les usages",
+      "summary": {
+        "simple": "Huit réacteurs nucléaires EPR seraient lancés en plus des six déjà prévus, avec plus d'énergies renouvelables et d'électricité dans les usages.",
+        "normal": "Relance du nucléaire (lancement de 8 EPR supplémentaires en plus des 6 déjà prévus), développement des renouvelables et électrification massive des usages."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Assurer notre souveraineté énergétique en relançant le nucléaire (lancement de 8 EPR supplémentaires en plus des 6 déjà prévus), en développant les renouvelables et en électrifiant massivement nos usages."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "environnement",
+      "title": "Concentrer l'action climatique sur le fret, la rénovation et la grande industrie",
+      "summary": {
+        "simple": "La politique climatique se concentrerait sur le transport de marchandises, la rénovation et la grande industrie.",
+        "normal": "Action climatique concentrée sur le fret de marchandises, la rénovation et la grande industrie."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Concentrer l'action climatique sur ce qui réduit vraiment les émissions et crée de la croissance : fret de marchandises, rénovation, grande industrie."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "environnement",
+      "title": "Instaurer un prix du carbone aux frontières européennes",
+      "summary": {
+        "simple": "Les produits importés en Europe paieraient un prix du carbone, pour protéger les industries qui réduisent leurs émissions.",
+        "normal": "Prix du carbone aux frontières européennes pour protéger les industries qui décarbonent face à la concurrence."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Instaurer un prix du carbone aux frontières européennes pour protéger nos industries qui décarbonent face à une concurrence déloyale."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "environnement",
+      "title": "Investir massivement dans la capture de carbone",
+      "summary": {
+        "simple": "L'État investirait massivement dans la capture du carbone et accélérerait la décarbonation.",
+        "normal": "Accélération de la décarbonation et investissements massifs dans la capture de carbone."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Accélérer la décarbonation du pays et investir massivement dans la capture de carbone pour limiter l'ampleur du réchauffement."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "environnement",
+      "title": "Climatiser les lieux accueillant des personnes fragiles",
+      "summary": {
+        "simple": "Les lieux accueillant des personnes fragiles seraient climatisés.",
+        "normal": "Climatisation massive des lieux accueillant des personnes fragiles."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Climatiser massivement les lieux accueillant des personnes fragiles."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "logement",
+      "title": "Étendre le fonds chaleur aux réseaux de froid pour rafraîchir les logements sociaux et les EHPAD",
+      "summary": {
+        "simple": "Les réseaux de froid seraient financés pour rafraîchir notamment les logements sociaux et les EHPAD.",
+        "normal": "Soutien du fonds chaleur étendu aux réseaux de froid, notamment pour rafraîchir les logements sociaux et les EHPAD."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Étendre considérablement le soutien du fonds chaleur aux réseaux de froid, pour rafraîchir notamment les logements sociaux et les EHPAD."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "field": "logement",
+            "op": "eq",
+            "value": "locataire_hlm"
+          },
+          "sentence": {
+            "simple": "Ton logement social pourrait être raccordé à un réseau de froid pour être rafraîchi l'été.",
+            "normal": "Le fonds chaleur financerait des réseaux de froid, notamment pour rafraîchir les logements sociaux ; calendrier et logements concernés non précisés."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "environnement",
+      "title": "Lancer un plan baignade pour rendre toutes les rivières baignables et rénover les piscines",
+      "summary": {
+        "simple": "Toutes les rivières seraient rendues baignables et les piscines rénovées.",
+        "normal": "Plan baignade national pour rendre baignables toutes les rivières et rénover les piscines."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Rendre aux Français l'accès à l'eau en lançant un plan baignade national pour rendre baignables toutes nos rivières et rénover nos piscines."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "environnement",
+      "title": "Planter des arbres en ville et lever les règles d'urbanisme qui freinent l'adaptation",
+      "summary": {
+        "simple": "Davantage d'arbres seraient plantés en ville et des règles d'urbanisme seraient assouplies pour adapter espaces publics et logements à la chaleur.",
+        "normal": "Multiplication des plantations d'arbres et levée des règles d'urbanisme qui freinent l'adaptation des espaces publics et des logements."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Donner de l'ombre à nos villes en multipliant les plantations d'arbres et en levant les règles d'urbanisme qui freinent l'adaptation des espaces publics et des logements."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "environnement",
+      "title": "Créer une DATAR 2.0, opérateur unique de l'adaptation au changement climatique",
+      "summary": {
+        "simple": "Quatre agences seraient fusionnées en un seul organisme chargé de l'adaptation au changement climatique.",
+        "normal": "Création d'une DATAR 2.0, opérateur unique de l'adaptation qui fusionnera les quatre agences existantes et mobilisera ingénieurs, agronomes et urbanistes dans les territoires."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Réorganiser l'État pour s'adapter, en créant une DATAR 2.0, opérateur unique de l'adaptation au changement climatique qui fusionnera les quatre agences existantes et en mobilisant ingénieurs, agronomes, urbanistes au service de l'adaptation dans les territoires."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "environnement",
+      "title": "Créer un fonds unique d'adaptation de 2 milliards d'euros par an, réunissant le fonds Barnier et le Fonds vert",
+      "summary": {
+        "simple": "Un fonds de 2 milliards d'euros par an, issu de la fusion du fonds Barnier et du Fonds vert, financerait l'adaptation au climat.",
+        "normal": "Fonds unique d'adaptation au changement climatique réunissant le fonds Barnier et le Fonds vert, doté de 2 milliards d'euros par an."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Créer un fonds unique d'adaptation au changement climatique, réunissant le fonds Barnier et le Fonds vert, doté de 2 milliards d'euros par an pour des investissements à impact mesurable."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "logement",
+      "title": "Revoir l'assurance du risque climatique : zones inassurables, argiles, érosion du littoral",
+      "summary": {
+        "simple": "L'assurance des risques climatiques serait revue, notamment pour les zones devenues inassurables, les fissures liées aux argiles et l'érosion du littoral.",
+        "normal": "Révision du système d'assurance du risque climatique : zones devenues inassurables, retrait-gonflement des argiles, érosion du littoral."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Revoir le système d'assurance du risque climatique : zones devenues inassurables, retrait-gonflement des argiles, érosion du littoral."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "field": "logement",
+            "op": "in",
+            "value": [
+              "proprio_credit",
+              "proprio_sans_credit"
+            ]
+          },
+          "sentence": {
+            "simple": "L'assurance de ton logement contre les risques climatiques (argiles, érosion du littoral) serait revue.",
+            "normal": "Révision de l'assurance du risque climatique : zones devenues inassurables, retrait-gonflement des argiles, érosion du littoral ; modalités non précisées."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "agriculture",
+      "title": "Accélérer le stockage de l'eau agricole et viser 10 % de réutilisation des eaux usées traitées",
+      "summary": {
+        "simple": "Le stockage de l'eau pour l'agriculture serait accéléré, et 10 % des eaux usées traitées seraient réutilisées, contre moins de 1 % aujourd'hui.",
+        "normal": "Accélération du stockage de l'eau agricole (« la protection avant la procédure ») et objectif de 10 % de réutilisation des eaux usées traitées pour les usages non potables, contre moins de 1 % aujourd'hui."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Accélérer le stockage de l'eau agricole en plaçant « la protection avant la procédure », et atteindre 10 % de réutilisation des eaux usées traitées pour les usages non potables, contre moins de 1 % aujourd'hui."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "environnement",
+      "title": "Ajouter un volet environnemental au futur service national",
+      "summary": {
+        "simple": "Les jeunes du service national pourraient participer à des missions pour l'environnement, comme l'entretien des forêts.",
+        "normal": "Volet environnemental du futur service national : missions de préservation de l'environnement (débroussaillement, entretien des forêts, sensibilisation du public)."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Intégrer un volet environnemental au futur service national : les jeunes appelés pourraient participer à des missions de préservation de l'environnement (débroussaillement, entretien des forêts, sensibilisation du public)."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "transport",
+      "title": "Verser les mêmes aides pour un véhicule électrique d'occasion que pour un neuf",
+      "summary": {
+        "simple": "Acheter une voiture électrique d'occasion donnerait droit aux mêmes aides qu'une voiture électrique neuve.",
+        "normal": "Aides à l'achat d'un véhicule électrique d'occasion alignées sur celles versées pour un véhicule électrique neuf."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Verser les mêmes aides pour l’achat d’un véhicule électrique d’occasion qu’on verse pour l’achat d’un véhicule électrique neuf."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "transport",
+          "section": "vie",
+          "appliesTo": {
+            "field": "mobilite",
+            "op": "eq",
+            "value": "voiture_thermique"
+          },
+          "sentence": {
+            "simple": "Si tu achètes une voiture électrique d'occasion, tu aurais les mêmes aides que pour une neuve.",
+            "normal": "Les aides à l'achat d'un véhicule électrique d'occasion seraient alignées sur celles du neuf."
+          }
+        }
+      ]
+    }
+  ]
+}

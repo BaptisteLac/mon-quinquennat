@@ -133,11 +133,29 @@
           "salaire_net": 1700.0
         },
         "nonCalcules": {}
+      },
+      "c-04": {
+        "hypotheses": [
+          "Enfants nés le 1er juillet de leur année de naissance (≈).",
+          "Personne seule avec enfants : parent isolé (case T), sans pension alimentaire."
+        ],
+        "mesures": {},
+        "montants": {
+          "aides_logement": 160.3,
+          "allocations_familiales": 152.24,
+          "impot_revenu": 0.0,
+          "minimum_vieillesse": 0.0,
+          "prime_activite": 183.86,
+          "rsa": 0.0,
+          "salaire_net": 1700.0
+        },
+        "nonCalcules": {}
       }
     },
     "corpus": {
       "c-01": "nouvelle-energie-2026-10",
-      "c-03": "les-republicains-2026-10"
+      "c-03": "les-republicains-2026-10",
+      "c-04": "horizons-2026-10"
     }
   }
 }

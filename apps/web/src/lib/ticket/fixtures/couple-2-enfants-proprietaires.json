@@ -134,11 +134,29 @@
           "salaire_net": 4300.0
         },
         "nonCalcules": {}
+      },
+      "c-04": {
+        "hypotheses": [
+          "Conjoint du même âge que toi.",
+          "Enfants nés le 1er juillet de leur année de naissance (≈)."
+        ],
+        "mesures": {},
+        "montants": {
+          "aides_logement": 0.0,
+          "allocations_familiales": 152.24,
+          "impot_revenu": 53.67,
+          "minimum_vieillesse": 0.0,
+          "prime_activite": 0.0,
+          "rsa": 0.0,
+          "salaire_net": 4300.0
+        },
+        "nonCalcules": {}
       }
     },
     "corpus": {
       "c-01": "nouvelle-energie-2026-10",
-      "c-03": "les-republicains-2026-10"
+      "c-03": "les-republicains-2026-10",
+      "c-04": "horizons-2026-10"
     }
   }
 }

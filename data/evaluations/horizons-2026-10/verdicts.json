@@ -1,0 +1,171 @@
+{
+  "corpus": "horizons-2026-10",
+  "lecteur": "Claude (session Claude Code, 2026-11-03), relecture de chaque fiche tirée contre ses citations et la page source ; même modèle que l'extraction",
+  "date": "2026-11-03",
+  "consigne": "Sens : la fiche (titre, résumés, phrases d'effet) dit ce que dit la citation, sans ajout, omission qui change le sens, ni engagement plus fort ou plus faible. Paramètres : taux, montants, durées, seuils et date d'effet conformes au programme ; « sans_parametre » si la fiche n'en porte aucun.",
+  "verdicts": {
+    "m-8e6cdf49a4d0": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-395945dde7bb": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-45393a5b3441": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-0e9dcc4c80ad": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-a3e3bac4b42f": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-b1ae6f5fc512": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-7a681aa562c1": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-9cba9b8f5728": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-8985b65c9e2c": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-be6fbfc7f71c": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-d50ddc3a156a": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-53d0036d930b": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-9428e926f53a": {
+      "sens": "correct",
+      "parametres": "sans_parametre",
+      "note": "Le résumé simple rend « attaque hybride sur une frontière » par « afflux organisé à une frontière » : interprétation courante en matière migratoire, la fiche normale garde le terme exact ; jugé correct."
+    },
+    "m-b6769c53f681": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-abdf9c150f8a": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-e5924e712475": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-f01fdee1aa34": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-b2cde34f8d41": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-160e8cd56001": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-122ef59bfd59": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-d3a1b8fec5a8": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-7c133d448b17": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-8c037d307df6": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-4cc5ff3ecfda": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-cda41aed13d0": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-15c79d0ed697": {
+      "sens": "correct",
+      "parametres": "justes",
+      "note": "Le résumé simple rend « zéro surtransposition agricole » par « les règles européennes ne seraient plus durcies » : même sens (pas de règle nationale ajoutée aux règles européennes) ; jugé correct."
+    },
+    "m-4018fedf16d6": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-3ef28f02bcec": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-87dcd981eef9": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-b5eadef6debf": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-9aee9a2b0aaf": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-eed96340f2e4": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-14da3f2b3d57": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-8507b62f84b7": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-9b85ff963f19": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-85282490572f": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-3485b6c55b90": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-90946a0a200f": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-a865eef61ca7": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-b4f6bb2cdef4": {
+      "sens": "correct",
+      "parametres": "justes",
+      "note": "Le résumé simple omet « pour les usages non potables », repris dans la fiche normale ; sens inchangé."
+    }
+  }
+}

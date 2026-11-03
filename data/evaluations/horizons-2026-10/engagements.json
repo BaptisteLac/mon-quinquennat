@@ -1,0 +1,580 @@
+{
+  "corpus": "horizons-2026-10",
+  "lecteur": "Claude (session Claude Code, 2026-11-03), lecture des quatre pages pour relever chaque engagement, y compris secondaire ; même modèle que l'extraction",
+  "date": "2026-11-03",
+  "consigne": "Relever, page par page, chaque engagement de politique publique (ce que le candidat ferait ou ferait faire une fois élu), avec sa citation exacte. Exclus : constats, chiffres de diagnostic, rappels historiques, chiffrages de financement, slogans de thème sans action identifiable. Un engagement qui regroupe plusieurs actions séparables est découpé.",
+  "pages": [
+    {
+      "documentId": "horizons-2026-10-priorites-pour-une-france-plus-sure",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Mettre en place des courtes peines, en s'inspirant des pays du Nord qui condamnent dès la première infraction à une peine courte et dissuasive plutôt que d'enfermer trop tard et trop longtemps.",
+          "description": "Mettre en place des courtes peines, en s'inspirant des pays du Nord qui condamnent dès la première infraction à une peine courte et dissuasive plutôt que d'enfermer trop tard et trop longtemps"
+        },
+        {
+          "quote": "Mettre en place des peines planchers pour les infractions les plus graves, en particulier lorsqu'elles portent atteinte à l'intégrité physique des personnes dépositaires de l'autorité publique et des professeurs.",
+          "description": "Mettre en place des peines planchers pour les infractions les plus graves, en particulier lorsqu'elles portent atteinte à l'intégrité physique des personnes dépositaires de l'autorité publique et des "
+        },
+        {
+          "quote": "Supprimer le juge d'application des peines afin de garantir que ce qu'un juge a décidé ne soit pas défait par un autre que lui.",
+          "description": "Supprimer le juge d'application des peines afin de garantir que ce qu'un juge a décidé ne soit pas défait par un autre que lui"
+        },
+        {
+          "quote": "Réviser les modalités de formation et de sélection des magistrats, en développant le recrutement d'individus ayant eu une vie professionnelle dans d'autres secteurs du droit.",
+          "description": "Réviser les modalités de formation et de sélection des magistrats, en développant le recrutement d'individus ayant eu une vie professionnelle dans d'autres secteurs du droit"
+        },
+        {
+          "quote": "Renforcer la responsabilité des juges, avec une révision de la composition du CSM et l'instauration d'un « devoir de redevabilité » à l'égard des victimes.",
+          "description": "Renforcer la responsabilité des juges, avec une révision de la composition du CSM et l'instauration d'un « devoir de redevabilité » à l'égard des victimes"
+        },
+        {
+          "quote": "Renforcer l'autorité du Garde des Sceaux sur le parquet, notamment par la possibilité d'adresser des instructions individuelles aux procureurs.",
+          "description": "Renforcer l'autorité du Garde des Sceaux sur le parquet, notamment par la possibilité d'adresser des instructions individuelles aux procureurs"
+        },
+        {
+          "quote": "Donner un pouvoir de sanction pénale aux maires afin qu'ils puissent réprimer les petites infractions, ces incivilités qui pourrissent la vie de millions de Français.",
+          "description": "Donner un pouvoir de sanction pénale aux maires afin qu'ils puissent réprimer les petites infractions, ces incivilités qui pourrissent la vie de millions de Français"
+        },
+        {
+          "quote": "Créer un « état d'urgence narco » avec des moyens juridiques d'exception limités dans le temps et dans l'espace, allant jusqu'à l'utilisation ciblée de la reconnaissance faciale.",
+          "description": "Créer un « état d'urgence narco » avec des moyens juridiques d'exception limités dans le temps et dans l'espace, allant jusqu'à l'utilisation ciblée de la reconnaissance faciale"
+        },
+        {
+          "quote": "Constituer une « fiche S financière » : création d'un profil bancaire spécifique pour les personnes condamnées pour narcotrafic.",
+          "description": "Constituer une « fiche S financière » : création d'un profil bancaire spécifique pour les personnes condamnées pour narcotrafic"
+        },
+        {
+          "quote": "Lever l'excuse de minorité pour les faits en lien avec le narcotrafic et créer la comparution immédiate des mineurs pour ces infractions.",
+          "description": "Lever l'excuse de minorité pour les faits en lien avec le narcotrafic et créer la comparution immédiate des mineurs pour ces infractions"
+        },
+        {
+          "quote": "Créer des établissements de réinsertion et de soin pour les mineurs condamnés pour narcotrafic.",
+          "description": "Créer des établissements de réinsertion et de soin pour les mineurs condamnés pour narcotrafic"
+        },
+        {
+          "quote": "Lutter contre le scandale des amendes non recouvrées : permettre le recouvrement forcé des amendes sur les prestations sociales.",
+          "description": "Lutter contre le scandale des amendes non recouvrées : permettre le recouvrement forcé des amendes sur les prestations sociales"
+        },
+        {
+          "quote": "Un choc de fermeté pénale : alignement du régime de l'application des peines des grands narcotrafiquants sur celui des terroristes.",
+          "description": "Un choc de fermeté pénale : alignement du régime de l'application des peines des grands narcotrafiquants sur celui des terroristes"
+        },
+        {
+          "quote": "Une modernisation du renseignement : DGSI mobilisée sur le narcotrafic",
+          "description": "Une modernisation du renseignement : DGSI mobilisée sur le narcotrafic"
+        },
+        {
+          "quote": "grande réforme du renseignement économique et financier pour mieux tracer les fonds et saisir les avoirs, physiques et numériques (cryptomonnaies)",
+          "description": "Grande réforme du renseignement économique et financier pour mieux tracer les fonds et saisir les avoirs, physiques et numériques (cryptomonnaies)"
+        },
+        {
+          "quote": "Un grand plan anticorruption des fonctionnaires : criblage systématique de toutes les fonctions sensibles (greffiers, agents fiscaux, préfectures…) et réforme des habilitations.",
+          "description": "Un grand plan anticorruption des fonctionnaires : criblage systématique de toutes les fonctions sensibles (greffiers, agents fiscaux, préfectures…) et réforme des habilitations"
+        },
+        {
+          "quote": "La transparence pour les missions de service public : information systématique des employeurs publics lorsqu'une personne chargée de mission de service public est poursuivie pour usage de stupéfiant.",
+          "description": "La transparence pour les missions de service public : information systématique des employeurs publics lorsqu'une personne chargée de mission de service public est poursuivie pour usage de stupéfiant"
+        },
+        {
+          "quote": "Être intraitable avec les consommateurs : opérations « place nette » dans les boîtes de nuit et festivals",
+          "description": "Être intraitable avec les consommateurs : opérations « place nette » dans les boîtes de nuit et festivals"
+        },
+        {
+          "quote": "recouvrement forcé des amendes, y compris sur les prestations sociales",
+          "description": "Recouvrement forcé des amendes, y compris sur les prestations sociales"
+        },
+        {
+          "quote": "Pour une « diplomatie narco » : liste noire européenne des pays non coopératifs.",
+          "description": "Pour une « diplomatie narco » : liste noire européenne des pays non coopératifs"
+        },
+        {
+          "quote": "Un objectif clair : diviser par deux l’immigration dans notre pays.",
+          "description": "Un objectif clair : diviser par deux l’immigration dans notre pays"
+        },
+        {
+          "quote": "Dénoncer l'accord de 1968 avec l'Algérie pour reprendre le contrôle des flux migratoires.",
+          "description": "Dénoncer l'accord de 1968 avec l'Algérie pour reprendre le contrôle des flux migratoires"
+        },
+        {
+          "quote": "en faisant voter chaque année par le Parlement une liste de pays sûrs",
+          "description": "En faisant voter chaque année par le Parlement une liste de pays sûrs"
+        },
+        {
+          "quote": "en mettant fin à l’asile à vie",
+          "description": "En mettant fin à l’asile à vie"
+        },
+        {
+          "quote": "Suspendre le regroupement familial pour la durée du quinquennat.",
+          "description": "Suspendre le regroupement familial pour la durée du quinquennat"
+        },
+        {
+          "quote": "Mettre en place une politique de quotas migratoires permettant de choisir notre immigration économique.",
+          "description": "Mettre en place une politique de quotas migratoires permettant de choisir notre immigration économique"
+        },
+        {
+          "quote": "vérifier que les étudiants étrangers ont les moyens de leurs études",
+          "description": "Vérifier que les étudiants étrangers ont les moyens de leurs études"
+        },
+        {
+          "quote": "appliquer réellement la hausse des droits d'inscription des étudiants extra-européens",
+          "description": "Appliquer réellement la hausse des droits d'inscription des étudiants extra-européens"
+        },
+        {
+          "quote": "Être intraitable avec les étrangers délinquants : expulsion immédiate et fin des aides sociales.",
+          "description": "Être intraitable avec les étrangers délinquants : expulsion immédiate et fin des aides sociales"
+        },
+        {
+          "quote": "Utiliser les centres de retour prévus par le règlement européen retour.",
+          "description": "Utiliser les centres de retour prévus par le règlement européen retour"
+        },
+        {
+          "quote": "Mettre en place une véritable politique d'intégration par la langue, le travail et les valeurs républicaines.",
+          "description": "Mettre en place une véritable politique d'intégration par la langue, le travail et les valeurs républicaines"
+        },
+        {
+          "quote": "Combattre sans concession l'islamisme et les organisations affiliées aux Frères musulmans, qui veulent imposer des règles religieuses à la République.",
+          "description": "Combattre sans concession l'islamisme et les organisations affiliées aux Frères musulmans, qui veulent imposer des règles religieuses à la République"
+        },
+        {
+          "quote": "Aligner les aides sociales versées aux étrangers sur la moyenne européenne, pour qu'ils choisissent la France pour y travailler et s'y intégrer, pas pour ses aides.",
+          "description": "Aligner les aides sociales versées aux étrangers sur la moyenne européenne, pour qu'ils choisissent la France pour y travailler et s'y intégrer, pas pour ses aides"
+        },
+        {
+          "quote": "Instaurer un « verrou Schengen » : aucun État européen ne doit pouvoir engager seul une régularisation massive au-delà d'un seuil défini collectivement, sans accord préalable de ses partenaires.",
+          "description": "Instaurer un « verrou Schengen » : aucun État européen ne doit pouvoir engager seul une régularisation massive au-delà d'un seuil défini collectivement, sans accord préalable de ses partenaires"
+        },
+        {
+          "quote": "Créer un dispositif anti-chantage migratoire : un régime européen d'urgence permettant de suspendre l'enregistrement de nouvelles demandes d'asile face à une attaque hybride sur une frontière.",
+          "description": "Créer un dispositif anti-chantage migratoire : un régime européen d'urgence permettant de suspendre l'enregistrement de nouvelles demandes d'asile face à une attaque hybride sur une frontière"
+        },
+        {
+          "quote": "Créer un régime européen de sanctions contre les passeurs : gel des avoirs, interdiction de territoire, sanctions contre les réseaux.",
+          "description": "Créer un régime européen de sanctions contre les passeurs : gel des avoirs, interdiction de territoire, sanctions contre les réseaux"
+        },
+        {
+          "quote": "Suspendre, pour la durée du quinquennat, l'enregistrement des demandes d'asile dans les départements d'outre-mer en état de saturation migratoire, à Mayotte et en Guyane.",
+          "description": "Suspendre, pour la durée du quinquennat, l'enregistrement des demandes d'asile dans les départements d'outre-mer en état de saturation migratoire, à Mayotte et en Guyane"
+        },
+        {
+          "quote": "Suspendre le droit du sol à Mayotte.",
+          "description": "Suspendre le droit du sol à Mayotte"
+        },
+        {
+          "quote": "Porter le nombre de réservistes de 45 000 à 250 000",
+          "description": "Porter le nombre de réservistes de 45 000 à 250 000"
+        },
+        {
+          "quote": "le service militaire volontaire de 3 000 à 50 000 places par an",
+          "description": "Le service militaire volontaire de 3 000 à 50 000 places par an"
+        },
+        {
+          "quote": "Massifier notre production et nos achats de drones tactiques, sur le modèle du programme américain de 300 000 drones.",
+          "description": "Massifier notre production et nos achats de drones tactiques, sur le modèle du programme américain de 300 000 drones"
+        },
+        {
+          "quote": "Lancer un grand plan munitions pour dépasser l'objectif actuel de 100 000 obus par an et atteindre l'échelle des 700 000 produits par l'Allemagne.",
+          "description": "Lancer un grand plan munitions pour dépasser l'objectif actuel de 100 000 obus par an et atteindre l'échelle des 700 000 produits par l'Allemagne"
+        },
+        {
+          "quote": "Renforcer notre flotte navale, notamment en doublant le nombre de navires aux Antilles pour lutter contre le narcotrafic et sécuriser nos outre-mer.",
+          "description": "Renforcer notre flotte navale, notamment en doublant le nombre de navires aux Antilles pour lutter contre le narcotrafic et sécuriser nos outre-mer"
+        },
+        {
+          "quote": "Lancer une nouvelle LPM (Loi de programmation militaire) de la massification, au-delà de la LPM actuelle qui épaissit les armées sans les étendre.",
+          "description": "Lancer une nouvelle LPM (Loi de programmation militaire) de la massification, au-delà de la LPM actuelle qui épaissit les armées sans les étendre"
+        },
+        {
+          "quote": "Construire en France des « Canadairs français », pour lutter contre les incendies.",
+          "description": "Construire en France des « Canadairs français », pour lutter contre les incendies"
+        },
+        {
+          "quote": "Développer les réserves communales de sécurité civile, pour rassembler à terme plusieurs dizaines de milliers de citoyens volontaires, formés et organisés.",
+          "description": "Développer les réserves communales de sécurité civile, pour rassembler à terme plusieurs dizaines de milliers de citoyens volontaires, formés et organisés"
+        },
+        {
+          "quote": "Instaurer une journée nationale d'alerte, sur le modèle allemand, pour tester le fonctionnement des dispositifs d'alerte auprès des pouvoirs publics, des collectivités et des citoyens.",
+          "description": "Instaurer une journée nationale d'alerte, sur le modèle allemand, pour tester le fonctionnement des dispositifs d'alerte auprès des pouvoirs publics, des collectivités et des citoyens"
+        },
+        {
+          "quote": "Former tous les Français aux premiers secours.",
+          "description": "Former tous les Français aux premiers secours"
+        }
+      ]
+    },
+    {
+      "documentId": "horizons-2026-10-priorites-pour-une-france-plus-attentive-a-ses-enfants",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Créer un principe de précaution pénal afin que, pour chaque plainte liée aux enfants, une mesure de protection immédiate soit mise en place pour protéger la victime potentielle.",
+          "description": "Créer un principe de précaution pénal afin que, pour chaque plainte liée aux enfants, une mesure de protection immédiate soit mise en place pour protéger la victime potentielle"
+        },
+        {
+          "quote": "Instituer un « droit de savoir » inspiré de la Sarah's law britannique qui permet aux parents de saisir la police pour faire vérifier l'absence d'antécédents d'une personne entrant en contact avec leur enfant.",
+          "description": "Instituer un « droit de savoir » inspiré de la Sarah's law britannique qui permet aux parents de saisir la police pour faire vérifier l'absence d'antécédents d'une personne entrant en contact avec leu"
+        },
+        {
+          "quote": "Lutter contre le proxénétisme en ligne en faisant fermer les sites qui le laissent prospérer en toute impunité.",
+          "description": "Lutter contre le proxénétisme en ligne en faisant fermer les sites qui le laissent prospérer en toute impunité"
+        },
+        {
+          "quote": "Mettre en place l'imprescriptibilité pour les crimes sur mineur afin de faire savoir aux auteurs qu'ils ne seront jamais ni sereins, ni à l'abri.",
+          "description": "Mettre en place l'imprescriptibilité pour les crimes sur mineur afin de faire savoir aux auteurs qu'ils ne seront jamais ni sereins, ni à l'abri"
+        },
+        {
+          "quote": "Réformer le périscolaire en déployant les certificats d'honorabilité partout et un choc de formation.",
+          "description": "Réformer le périscolaire en déployant les certificats d'honorabilité partout et un choc de formation"
+        },
+        {
+          "quote": "Créer une Inspection nationale de l'enfance, qui contrôlera tous les lieux accueillant des mineurs au moins tous les trois ans, contre dix aujourd'hui, et pourra fermer des établissements.",
+          "description": "Créer une Inspection nationale de l'enfance, qui contrôlera tous les lieux accueillant des mineurs au moins tous les trois ans, contre dix aujourd'hui, et pourra fermer des établissements"
+        },
+        {
+          "quote": "Rendre obligatoire, pendant chaque temps périscolaire, la présence d'un responsable formé à la protection des enfants.",
+          "description": "Rendre obligatoire, pendant chaque temps périscolaire, la présence d'un responsable formé à la protection des enfants"
+        },
+        {
+          "quote": "Publier les parcours des éducateurs du périscolaire.",
+          "description": "Publier les parcours des éducateurs du périscolaire"
+        },
+        {
+          "quote": "Faire des chefs d'établissements les véritables patrons de l'école : liberté d'adapter les méthodes et les horaires, d'imposer l'uniforme, de fixer les règles de discipline, de participer au recrutement et à l’évaluation de leur équipe.",
+          "description": "Faire des chefs d'établissements les véritables patrons de l'école : liberté d'adapter les méthodes et les horaires, d'imposer l'uniforme, de fixer les règles de discipline, de participer au recruteme"
+        },
+        {
+          "quote": "Concentrer l'enseignement primaire sur les savoirs fondamentaux : lire, écrire, compter, socle sans lequel aucun autre apprentissage n'est possible.",
+          "description": "Concentrer l'enseignement primaire sur les savoirs fondamentaux : lire, écrire, compter, socle sans lequel aucun autre apprentissage n'est possible"
+        },
+        {
+          "quote": "Créer un service public universel du soutien scolaire, combinant assistant IA personnalisé et brigades d'anciens professeurs et d'étudiants volontaires.",
+          "description": "Créer un service public universel du soutien scolaire, combinant assistant IA personnalisé et brigades d'anciens professeurs et d'étudiants volontaires"
+        },
+        {
+          "quote": "Refonder l'orientation en fin de collège et au lycée, pour éclairer les élèves sur les prérequis et les formations possibles au-delà du seul accompagnement par les professeurs principaux.",
+          "description": "Refonder l'orientation en fin de collège et au lycée, pour éclairer les élèves sur les prérequis et les formations possibles au-delà du seul accompagnement par les professeurs principaux"
+        },
+        {
+          "quote": "Renforcer la santé à l'école, en donnant aux élèves accès à des tiers de confiance, à des conseils et à la détection en matière de santé mentale.",
+          "description": "Renforcer la santé à l'école, en donnant aux élèves accès à des tiers de confiance, à des conseils et à la détection en matière de santé mentale"
+        },
+        {
+          "quote": "Augmenter de 20 % la rémunération moyenne des enseignants sur le quinquennat, pour la porter au moins au niveau de la moyenne européenne, notamment en milieu de carrière.",
+          "description": "Augmenter de 20 % la rémunération moyenne des enseignants sur le quinquennat, pour la porter au moins au niveau de la moyenne européenne, notamment en milieu de carrière"
+        },
+        {
+          "quote": "Recréer des écoles normales, plus exigeantes sur les savoirs fondamentaux, pour la formation initiale des professeurs.",
+          "description": "Recréer des écoles normales, plus exigeantes sur les savoirs fondamentaux, pour la formation initiale des professeurs"
+        },
+        {
+          "quote": "Réformer la carrière des enseignants : évolutions possibles dans ou hors de l'Éducation nationale, autres façons d'enseigner en fin de carrière.",
+          "description": "Réformer la carrière des enseignants : évolutions possibles dans ou hors de l'Éducation nationale, autres façons d'enseigner en fin de carrière"
+        },
+        {
+          "quote": "Réduire les effectifs d'élèves en classe, en maternelle et en primaire.",
+          "description": "Réduire les effectifs d'élèves en classe, en maternelle et en primaire"
+        },
+        {
+          "quote": "Permettre aux établissements qui le souhaitent d'avancer la rentrée d'une à deux semaines pour les élèves qui en ont besoin, et réorganiser la fin d'année pour que le mois de juin ne soit plus empêché par les examens.",
+          "description": "Permettre aux établissements qui le souhaitent d'avancer la rentrée d'une à deux semaines pour les élèves qui en ont besoin, et réorganiser la fin d'année pour que le mois de juin ne soit plus empêché"
+        },
+        {
+          "quote": "Créer une « amende de responsabilisation scolaire », inspirée du modèle britannique, pour les parents d'enfants harceleurs, perturbateurs ou absentéistes et les parents violents.",
+          "description": "Créer une « amende de responsabilisation scolaire », inspirée du modèle britannique, pour les parents d'enfants harceleurs, perturbateurs ou absentéistes et les parents violents"
+        },
+        {
+          "quote": "Rendre publiques auprès des parents et des élus locaux les évaluations de performance des établissements scolaires.",
+          "description": "Rendre publiques auprès des parents et des élus locaux les évaluations de performance des établissements scolaires"
+        },
+        {
+          "quote": "Interdire strictement les téléphones portables à l'école primaire et au collège, avec confiscation immédiate en cas d'usage et restitution aux parents.",
+          "description": "Interdire strictement les téléphones portables à l'école primaire et au collège, avec confiscation immédiate en cas d'usage et restitution aux parents"
+        },
+        {
+          "quote": "Former les enseignants à l'usage de l'intelligence artificielle pour préparer leurs cours et corriger les devoirs.",
+          "description": "Former les enseignants à l'usage de l'intelligence artificielle pour préparer leurs cours et corriger les devoirs"
+        },
+        {
+          "quote": "Relancer le plan « Aisance aquatique » pour apprendre la natation aux enfants dès l'école maternelle.",
+          "description": "Relancer le plan « Aisance aquatique » pour apprendre la natation aux enfants dès l'école maternelle"
+        },
+        {
+          "quote": "Assurer l'accueil des enfants en situation de handicap dans de bonnes conditions, avec des solutions construites avec l'ensemble des acteurs de l'éducation.",
+          "description": "Assurer l'accueil des enfants en situation de handicap dans de bonnes conditions, avec des solutions construites avec l'ensemble des acteurs de l'éducation"
+        },
+        {
+          "quote": "Créer une allocation familiale unique dès le premier enfant, à hauteur de 350€, en fusionnant les dispositifs existants trop complexes et trop éparpillés, dégressive avec le revenu.",
+          "description": "Créer une allocation familiale unique dès le premier enfant, à hauteur de 350€, en fusionnant les dispositifs existants trop complexes et trop éparpillés, dégressive avec le revenu"
+        },
+        {
+          "quote": "Supprimer l'impôt sur le revenu pendant les trois premières années de l'enfant pour les classes moyennes (4e à 6e déciles, début du 7e)",
+          "description": "Supprimer l'impôt sur le revenu pendant les trois premières années de l'enfant pour les classes moyennes (4e à 6e déciles, début du 7e)"
+        },
+        {
+          "quote": "accorder une réduction d'impôt de 3 000 € par an sur la même période aux familles plus aisées qui travaillent",
+          "description": "Accorder une réduction d'impôt de 3 000 € par an sur la même période aux familles plus aisées qui travaillent"
+        },
+        {
+          "quote": "Faciliter le déménagement des familles qui s'agrandissent grâce à un prêt à taux zéro pour chaque naissance.",
+          "description": "Faciliter le déménagement des familles qui s'agrandissent grâce à un prêt à taux zéro pour chaque naissance"
+        },
+        {
+          "quote": "Créer le temps partiel parental : passer à 80% payés 100% pendant 2 mois pour faciliter la reprise du travail des parents après les congés parentaux.",
+          "description": "Créer le temps partiel parental : passer à 80% payés 100% pendant 2 mois pour faciliter la reprise du travail des parents après les congés parentaux"
+        },
+        {
+          "quote": "Augmenter massivement les plafonds de donation du vivant aux enfants et petits-enfants pendant les trois premières années du quinquennat.",
+          "description": "Augmenter massivement les plafonds de donation du vivant aux enfants et petits-enfants pendant les trois premières années du quinquennat"
+        }
+      ]
+    },
+    {
+      "documentId": "horizons-2026-10-priorites-pour-une-france-plus-prospere",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Conclure un pacte fiscal inédit avec les entreprises : 50 Md€ de baisses d'impôts de production contre 50 Md€ d'aides publiques improductives en moins, le plus grand choc de compétitivité jamais réalisé.",
+          "description": "Conclure un pacte fiscal inédit avec les entreprises : 50 Md€ de baisses d'impôts de production contre 50 Md€ d'aides publiques improductives en moins, le plus grand choc de compétitivité jamais réali"
+        },
+        {
+          "quote": "Permettre aux entreprises de fixer librement le temps de travail pour sortir des 35h",
+          "description": "Permettre aux entreprises de fixer librement le temps de travail pour sortir des 35h"
+        },
+        {
+          "quote": "avec zéro cotisation patronale au-delà de la 37ème heure",
+          "description": "Avec zéro cotisation patronale au-delà de la 37ème heure"
+        },
+        {
+          "quote": "Réorganiser massivement l'État en regroupant ou privatisant les agences et opérateurs enchevêtrés, et en simplifiant drastiquement les procédures.",
+          "description": "Réorganiser massivement l'État en regroupant ou privatisant les agences et opérateurs enchevêtrés, et en simplifiant drastiquement les procédures"
+        },
+        {
+          "quote": "Sceller un moratoire normatif et fiscal : pas de nouvelle norme et de nouvel impôt sur le quinquennat.",
+          "description": "Sceller un moratoire normatif et fiscal : pas de nouvelle norme et de nouvel impôt sur le quinquennat"
+        },
+        {
+          "quote": "zéro surtransposition agricole",
+          "description": "Zéro surtransposition agricole"
+        },
+        {
+          "quote": "grand plan de transmission et de modernisation",
+          "description": "Grand plan de transmission et de modernisation"
+        },
+        {
+          "quote": "création de 100 territoires de souveraineté alimentaire",
+          "description": "Création de 100 territoires de souveraineté alimentaire"
+        },
+        {
+          "quote": "inscription du développement agricole dans la Charte de l'environnement",
+          "description": "Inscription du développement agricole dans la Charte de l'environnement"
+        },
+        {
+          "quote": "Supprimer le code français de la commande publique dès l'entrée en vigueur du futur règlement européen sur les marchés publics, sans transposition ni ajout de règles nationales.",
+          "description": "Supprimer le code français de la commande publique dès l'entrée en vigueur du futur règlement européen sur les marchés publics, sans transposition ni ajout de règles nationales"
+        },
+        {
+          "quote": "Défendre le maintien du pacte Dutreil pour la transmission des entreprises familiales.",
+          "description": "Défendre le maintien du pacte Dutreil pour la transmission des entreprises familiales"
+        },
+        {
+          "quote": "Inscrire dans la Constitution une règle d'or de maîtrise des déficits via un référendum",
+          "description": "Inscrire dans la Constitution une règle d'or de maîtrise des déficits via un référendum"
+        },
+        {
+          "quote": "ramener le déficit de plus de 5% à 2% du PIB à la fin du quinquennat",
+          "description": "Ramener le déficit de plus de 5% à 2% du PIB à la fin du quinquennat"
+        },
+        {
+          "quote": "Stabiliser les dépenses de santé en dépensant mieux, en misant sur la prévention et les transformations technologiques plutôt que sur la seule hausse des moyens.",
+          "description": "Stabiliser les dépenses de santé en dépensant mieux, en misant sur la prévention et les transformations technologiques plutôt que sur la seule hausse des moyens"
+        },
+        {
+          "quote": "Mettre en place une stratégie de sauvetage des dépenses publiques avec 50 % de l'effort sur les dépenses sociales et un quart sur l'État et les collectivités et un quart grâce à la croissance.",
+          "description": "Mettre en place une stratégie de sauvetage des dépenses publiques avec 50 % de l'effort sur les dépenses sociales et un quart sur l'État et les collectivités et un quart grâce à la croissance"
+        },
+        {
+          "quote": "Supprimer un tiers des fonctionnaires partant à la retraite, soit plus de 250 000 postes sur le quinquennat.",
+          "description": "Supprimer un tiers des fonctionnaires partant à la retraite, soit plus de 250 000 postes sur le quinquennat"
+        },
+        {
+          "quote": "Rééquilibrer le financement du modèle social pour qu'il ne repose plus uniquement sur le travail et augmenter le salaire net des actifs.",
+          "description": "Rééquilibrer le financement du modèle social pour qu'il ne repose plus uniquement sur le travail et augmenter le salaire net des actifs"
+        },
+        {
+          "quote": "Faire que le travail supplémentaire paie : lorsqu'une entreprise décide, après discussion interne, de travailler plus longtemps, exonérer ces heures de cotisations sociales et d'impôt sur le revenu, soit environ 1 000 € de plus par an au SMIC pour deux heures de plus par semaine.",
+          "description": "Faire que le travail supplémentaire paie : lorsqu'une entreprise décide, après discussion interne, de travailler plus longtemps, exonérer ces heures de cotisations sociales et d'impôt sur le revenu, s"
+        },
+        {
+          "quote": "porter progressivement l'âge de départ à 65 ans",
+          "description": "Porter progressivement l'âge de départ à 65 ans"
+        },
+        {
+          "quote": "la durée de cotisation à 45 ans en moins de dix ans",
+          "description": "La durée de cotisation à 45 ans en moins de dix ans"
+        },
+        {
+          "quote": "maintenir l'âge de départ des personnes en mauvaise santé (55 ans en situation de handicap, 60 ans en incapacité permanente, 62 ans en invalidité)",
+          "description": "Maintenir l'âge de départ des personnes en mauvaise santé (55 ans en situation de handicap, 60 ans en incapacité permanente, 62 ans en invalidité)"
+        },
+        {
+          "quote": "les départs anticipés pour carrières longues",
+          "description": "Les départs anticipés pour carrières longues"
+        },
+        {
+          "quote": "négocier la pénibilité avec les partenaires sociaux",
+          "description": "Négocier la pénibilité avec les partenaires sociaux"
+        },
+        {
+          "quote": "Généraliser à tous les salariés la retraite par capitalisation collective",
+          "description": "Généraliser à tous les salariés la retraite par capitalisation collective"
+        },
+        {
+          "quote": "ouvrir un plan d'épargne retraite à chaque Français, avec un premier versement de l'État de 500€ dès le premier emploi",
+          "description": "Ouvrir un plan d'épargne retraite à chaque Français, avec un premier versement de l'État de 500€ dès le premier emploi"
+        },
+        {
+          "quote": "Développer la retraite progressive et le cumul emploi-retraite",
+          "description": "Développer la retraite progressive et le cumul emploi-retraite"
+        },
+        {
+          "quote": "former, recruter et accompagner les salariés après 50 ans",
+          "description": "Former, recruter et accompagner les salariés après 50 ans"
+        },
+        {
+          "quote": "Réduire à 12 mois maximum la durée d'indemnisation chômage pour les moins de 50 ans, contre 18 mois aujourd'hui, sur le modèle allemand.",
+          "description": "Réduire à 12 mois maximum la durée d'indemnisation chômage pour les moins de 50 ans, contre 18 mois aujourd'hui, sur le modèle allemand"
+        },
+        {
+          "quote": "Lutter contre l’open bar des arrêts maladies : 3 jours de carence pour tout le monde, dans le privé comme le public.",
+          "description": "Lutter contre l’open bar des arrêts maladies : 3 jours de carence pour tout le monde, dans le privé comme le public"
+        },
+        {
+          "quote": "Créer une période incompressible de 3 à 6 mois entre un arrêt maladie et une rupture conventionnelle pour éviter le chantage à l’arrêt maladie.",
+          "description": "Créer une période incompressible de 3 à 6 mois entre un arrêt maladie et une rupture conventionnelle pour éviter le chantage à l’arrêt maladie"
+        },
+        {
+          "quote": "en imposant transferts de technologie, quotas de production et joint-ventures dans les secteurs stratégiques",
+          "description": "En imposant transferts de technologie, quotas de production et joint-ventures dans les secteurs stratégiques"
+        },
+        {
+          "quote": "Achever le marché unique européen en supprimant les spécifications nationales qui agissent comme des droits de douane, pour permettre aux entreprises françaises d'opérer sur un marché de 450 millions de consommateurs.",
+          "description": "Achever le marché unique européen en supprimant les spécifications nationales qui agissent comme des droits de douane, pour permettre aux entreprises françaises d'opérer sur un marché de 450 millions "
+        },
+        {
+          "quote": "Construire une union européenne des marchés de capitaux pour financer l’innovation et la prospérité européenne.",
+          "description": "Construire une union européenne des marchés de capitaux pour financer l’innovation et la prospérité européenne"
+        }
+      ]
+    },
+    {
+      "documentId": "horizons-2026-10-priorites-pour-une-france-plus-conquerante",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Développer une infrastructure d'intelligence artificielle européenne souveraine, en soutenant nos champions et en doublant notre capacité de calcul en cinq ans.",
+          "description": "Développer une infrastructure d'intelligence artificielle européenne souveraine, en soutenant nos champions et en doublant notre capacité de calcul en cinq ans"
+        },
+        {
+          "quote": "Peser à l'échelle européenne avec un « Buy European Tech Act » et des achats technologiques groupés entre États membres.",
+          "description": "Peser à l'échelle européenne avec un « Buy European Tech Act » et des achats technologiques groupés entre États membres"
+        },
+        {
+          "quote": "Ouvrir un accès préférentiel à notre énergie décarbonée pour les acteurs nationaux et européens, avec des règles de raccordement inspirées des AI Growth Zones britanniques.",
+          "description": "Ouvrir un accès préférentiel à notre énergie décarbonée pour les acteurs nationaux et européens, avec des règles de raccordement inspirées des AI Growth Zones britanniques"
+        },
+        {
+          "quote": "Simplifier le cadre juridique européen applicable à l'IA, sans renoncer à une régulation éthique et protectrice des enfants.",
+          "description": "Simplifier le cadre juridique européen applicable à l'IA, sans renoncer à une régulation éthique et protectrice des enfants"
+        },
+        {
+          "quote": "Créer un « livret capital France » pour mobiliser l'épargne dormante des Français",
+          "description": "Créer un « livret capital France » pour mobiliser l'épargne dormante des Français"
+        },
+        {
+          "quote": "utiliser la capitalisation retraite pour financer nos champions technologiques",
+          "description": "Utiliser la capitalisation retraite pour financer nos champions technologiques"
+        },
+        {
+          "quote": "Adapter l'enseignement, le recrutement et la formation continue à l'IA",
+          "description": "Adapter l'enseignement, le recrutement et la formation continue à l'IA"
+        },
+        {
+          "quote": "en instaurant un droit à la reconversion pour les métiers menacés",
+          "description": "En instaurant un droit à la reconversion pour les métiers menacés"
+        },
+        {
+          "quote": "Massifier la production d'ingénieurs, de 40 000 à 100 000 par an en cinq ans.",
+          "description": "Massifier la production d'ingénieurs, de 40 000 à 100 000 par an en cinq ans"
+        },
+        {
+          "quote": "lancement de 8 EPR supplémentaires en plus des 6 déjà prévus",
+          "description": "Lancement de 8 EPR supplémentaires en plus des 6 déjà prévus"
+        },
+        {
+          "quote": "en développant les renouvelables",
+          "description": "En développant les renouvelables"
+        },
+        {
+          "quote": "en électrifiant massivement nos usages",
+          "description": "En électrifiant massivement nos usages"
+        },
+        {
+          "quote": "Concentrer l'action climatique sur ce qui réduit vraiment les émissions et crée de la croissance : fret de marchandises, rénovation, grande industrie.",
+          "description": "Concentrer l'action climatique sur ce qui réduit vraiment les émissions et crée de la croissance : fret de marchandises, rénovation, grande industrie"
+        },
+        {
+          "quote": "Instaurer un prix du carbone aux frontières européennes pour protéger nos industries qui décarbonent face à une concurrence déloyale.",
+          "description": "Instaurer un prix du carbone aux frontières européennes pour protéger nos industries qui décarbonent face à une concurrence déloyale"
+        },
+        {
+          "quote": "Accélérer la décarbonation du pays et investir massivement dans la capture de carbone pour limiter l'ampleur du réchauffement.",
+          "description": "Accélérer la décarbonation du pays et investir massivement dans la capture de carbone pour limiter l'ampleur du réchauffement"
+        },
+        {
+          "quote": "Climatiser massivement les lieux accueillant des personnes fragiles.",
+          "description": "Climatiser massivement les lieux accueillant des personnes fragiles"
+        },
+        {
+          "quote": "Étendre considérablement le soutien du fonds chaleur aux réseaux de froid, pour rafraîchir notamment les logements sociaux et les EHPAD.",
+          "description": "Étendre considérablement le soutien du fonds chaleur aux réseaux de froid, pour rafraîchir notamment les logements sociaux et les EHPAD"
+        },
+        {
+          "quote": "Rendre aux Français l'accès à l'eau en lançant un plan baignade national pour rendre baignables toutes nos rivières et rénover nos piscines.",
+          "description": "Rendre aux Français l'accès à l'eau en lançant un plan baignade national pour rendre baignables toutes nos rivières et rénover nos piscines"
+        },
+        {
+          "quote": "Donner de l'ombre à nos villes en multipliant les plantations d'arbres et en levant les règles d'urbanisme qui freinent l'adaptation des espaces publics et des logements.",
+          "description": "Donner de l'ombre à nos villes en multipliant les plantations d'arbres et en levant les règles d'urbanisme qui freinent l'adaptation des espaces publics et des logements"
+        },
+        {
+          "quote": "Réorganiser l'État pour s'adapter, en créant une DATAR 2.0, opérateur unique de l'adaptation au changement climatique qui fusionnera les quatre agences existantes et en mobilisant ingénieurs, agronomes, urbanistes au service de l'adaptation dans les territoires.",
+          "description": "Réorganiser l'État pour s'adapter, en créant une DATAR 2.0, opérateur unique de l'adaptation au changement climatique qui fusionnera les quatre agences existantes et en mobilisant ingénieurs, agronome"
+        },
+        {
+          "quote": "Créer un fonds unique d'adaptation au changement climatique, réunissant le fonds Barnier et le Fonds vert, doté de 2 milliards d'euros par an pour des investissements à impact mesurable.",
+          "description": "Créer un fonds unique d'adaptation au changement climatique, réunissant le fonds Barnier et le Fonds vert, doté de 2 milliards d'euros par an pour des investissements à impact mesurable"
+        },
+        {
+          "quote": "Revoir le système d'assurance du risque climatique : zones devenues inassurables, retrait-gonflement des argiles, érosion du littoral.",
+          "description": "Revoir le système d'assurance du risque climatique : zones devenues inassurables, retrait-gonflement des argiles, érosion du littoral"
+        },
+        {
+          "quote": "Accélérer le stockage de l'eau agricole",
+          "description": "Accélérer le stockage de l'eau agricole"
+        },
+        {
+          "quote": "atteindre 10 % de réutilisation des eaux usées traitées pour les usages non potables",
+          "description": "Atteindre 10 % de réutilisation des eaux usées traitées pour les usages non potables"
+        },
+        {
+          "quote": "Intégrer un volet environnemental au futur service national : les jeunes appelés pourraient participer à des missions de préservation de l'environnement (débroussaillement, entretien des forêts, sensibilisation du public).",
+          "description": "Intégrer un volet environnemental au futur service national : les jeunes appelés pourraient participer à des missions de préservation de l'environnement (débroussaillement, entretien des forêts, sensi"
+        },
+        {
+          "quote": "Verser les mêmes aides pour l’achat d’un véhicule électrique d’occasion qu’on verse pour l’achat d’un véhicule électrique neuf.",
+          "description": "Verser les mêmes aides pour l’achat d’un véhicule électrique d’occasion qu’on verse pour l’achat d’un véhicule électrique neuf"
+        }
+      ]
+    }
+  ]
+}
