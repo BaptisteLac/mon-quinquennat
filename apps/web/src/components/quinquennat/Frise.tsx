@@ -78,6 +78,7 @@ function LineText({ line, catalog }: { line: TicketLineResult; catalog: Catalog 
         <span className={styles.moneyLabel}>
           {LINE_LABELS[line.ticketLine]} · dès {formatMonth(line.effectiveDate, true).toLowerCase()}
           {line.nature === "estime" ? " · estimé" : ""}
+          {line.condition ? ` · ${line.condition}` : ""}
         </span>
       </span>
     );

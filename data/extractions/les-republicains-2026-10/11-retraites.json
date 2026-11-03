@@ -162,7 +162,20 @@
           },
           "sentence": {
             "simple": "Si tu as 43 années cotisées avant 63 ans, ton salaire ne paierait plus de cotisations retraite et chômage : environ 14 % de net en plus selon le candidat.",
-            "normal": "Avec une carrière complète avant 63 ans, les cotisations retraite et chômage seraient supprimées sur ton salaire (environ 14 % de net en plus selon le programme) et le taux plein serait garanti dès 63 ans. Montant non calculé : le profil ne dit pas combien d'années tu as cotisé."
+            "normal": "Avec une carrière complète avant 63 ans, les cotisations retraite et chômage seraient supprimées sur ton salaire (environ 14 % de net en plus selon le programme) et le taux plein serait garanti dès 63 ans. Le montant est calculé pour ce cas type et n'entre pas dans ton solde : le profil ne dit pas combien d'années tu as cotisé."
+          },
+          "computation": {
+            "kind": "estimation",
+            "formulaId": "gain_pourcent_salaire_net",
+            "params": [
+              {
+                "name": "gainPourcentNet",
+                "value": 14
+              }
+            ],
+            "hypothesisLabel": "Cas type : environ 14 % de salaire net en plus, chiffre annoncé par le candidat pour une carrière complète (43 années cotisées) réunie avant 63 ans, appliqué à ton salaire net.",
+            "hypothesisSourceId": "programme",
+            "hypothesisCondition": "si tu as 43 années cotisées avant 63 ans"
           }
         }
       ]

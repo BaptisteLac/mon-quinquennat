@@ -18,7 +18,7 @@ const round = (n: number) => Math.round(n * 100) / 100 + 0;
 function sumAnnual(t: Ticket, lines: readonly TicketLine[] | null): number {
   return round(
     t.lines
-      .filter((l) => l.section === "portefeuille" && l.value && (lines === null || lines.includes(l.ticketLine)))
+      .filter((l) => l.section === "portefeuille" && l.value && !l.condition && (lines === null || lines.includes(l.ticketLine)))
       .reduce((s, l) => s + mid(l.value as { low: number; high: number }) * 12, 0),
   );
 }
@@ -89,7 +89,7 @@ export function certainty(t: Ticket, catalog: Catalog): Record<NatureKind, numbe
 /** Ce qui change le plus pour toi dans un programme : le plus grand montant, sinon la première phrase. */
 export function biggestChange(t: Ticket, catalog: Catalog): { text: string; line: TicketLineResult } | null {
   const money = t.lines
-    .filter((l) => l.section === "portefeuille" && l.value)
+    .filter((l) => l.section === "portefeuille" && l.value && !l.condition)
     .sort((a, b) => Math.abs(mid(b.value as { low: number; high: number })) - Math.abs(mid(a.value as { low: number; high: number })))[0];
   const line = money ?? t.lines.find((l) => l.value) ?? t.lines[0];
   if (!line) return null;

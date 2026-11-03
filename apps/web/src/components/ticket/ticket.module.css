@@ -96,15 +96,18 @@
 }
 .solde {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
-  gap: 8px;
+  gap: 4px 8px;
 }
 .solde > span {
   display: flex;
   flex-direction: column;
+  flex: 0 0 auto; /* le montant passe à la ligne plutôt que d'écraser le libellé */
 }
 .soldeValue {
+  margin-left: auto;
   font-family: var(--font-display);
   font-weight: 800;
   font-size: 28px;
@@ -126,6 +129,14 @@
 .empty b {
   font-family: var(--font-display);
   font-size: 26px;
+}
+.ifCase {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dotted var(--text-2);
 }
 .uncomputed {
   margin: 0;

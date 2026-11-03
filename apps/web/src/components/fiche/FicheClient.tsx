@@ -44,7 +44,7 @@ export function ForYou({ measureId, candidateId, versions }: { measureId: string
     const time = lines.find((l) => l.section === "temps" && l.value);
     if (money?.value) {
       setState("valeur");
-      setText(`${formatMoney(money.value)} / mois`);
+      setText(`${formatMoney(money.value)} / mois${money.condition ? `, ${money.condition}` : ""}`);
     } else if (time) {
       setState("valeur");
       setText(describeTime(time));

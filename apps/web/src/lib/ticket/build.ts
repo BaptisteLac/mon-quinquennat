@@ -11,6 +11,7 @@ import {
   baisseCotisationsSalaire,
   deductionInteretsEmprunt,
   energieFacture,
+  gainPourcentSalaireNet,
   LegalAgeTable,
   PublicData,
   retraiteAgeDepart,
@@ -84,6 +85,9 @@ function estimate(
     case "energie_facture":
       if (!datum) throw new Error("La facture d'électricité moyenne doit venir d'une donnée publique.");
       return energieFacture(params, datum.valeur);
+    case "gain_pourcent_salaire_net":
+      // Condition personnelle (carrière, trimestres…) : le salaire est celui de la personne, pas du conjoint.
+      return gainPourcentSalaireNet(profile.situationPro === "salarie_prive" ? profile.revenusNetsMensuels : null, params);
     case "deduction_interets_emprunt":
       // Une réduction ne dépasse pas l'impôt dû une fois les autres réformes du programme appliquées.
       return deductionInteretsEmprunt(
@@ -197,6 +201,7 @@ function effectLines(programme: Programme, profile: Profile, calc: CalculRespons
             value: v,
             measureIds: [m.id],
             effectiveDate: m.schedule.effectiveDate,
+            ...(c.hypothesis.condition ? { condition: c.hypothesis.condition } : {}),
           });
           out.hypotheses.push(hypothesisText(c.hypothesis.label, c.hypothesis.dataSourceId));
           continue;
@@ -224,7 +229,8 @@ export function buildTicket(programme: Programme, profile: Profile, calc: Calcul
   const effects = effectLines(programme, profile, calc);
   const lines = [...wallet.lines, ...effects.lines];
 
-  const money = lines.filter((l) => l.section === "portefeuille" && l.value);
+  // Un cas type conditionnel (« si tu as 43 années cotisées ») est affiché à part : hors solde et hors cumul.
+  const money = lines.filter((l) => l.section === "portefeuille" && l.value && !l.condition);
   const sum = (f: (l: TicketLineResult) => number) => round2(money.reduce((s, l) => s + f(l), 0));
   const cumul = money.map((l) => {
     const months = monthsApplied(l.effectiveDate);

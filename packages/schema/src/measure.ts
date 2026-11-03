@@ -229,12 +229,23 @@ const FormulaComputation = z.object({
 /** Estimé (≈) : dépend d'une hypothèse de consommation moyenne, affichée à l'utilisateur. */
 const EstimateComputation = z.object({
   kind: z.literal("estimation"),
-  formulaId: z.enum(["tva_consommation", "energie_facture", "baisse_cotisations_salaire", "deduction_interets_emprunt"]),
+  formulaId: z.enum([
+    "tva_consommation",
+    "energie_facture",
+    "baisse_cotisations_salaire",
+    "deduction_interets_emprunt",
+    "gain_pourcent_salaire_net",
+  ]),
   params: z.record(z.string(), z.number()),
   hypothesis: z.object({
     label: z.string(), // « Consommation d'électricité moyenne d'un foyer de 4 personnes »
     /** Donnée publique de `packages/formulas/data/donnees-publiques.json`, ou « programme » si le cas type vient d'une citation de la mesure. */
     dataSourceId: z.string(),
+    /**
+     * Cas type conditionnel : condition que le profil ne connaît pas (« si tu as 43 années cotisées avant 63 ans »).
+     * La ligne est affichée avec sa condition et n'entre pas dans le solde.
+     */
+    condition: z.string().min(1).optional(),
   }),
 });
 
@@ -431,6 +442,8 @@ export const TicketLineResult = z.object({
   measureIds: z.array(z.string()).min(1), // ouvre la fiche « d'où vient ce chiffre »
   /** Date à partir de laquelle la ligne s'applique en entier (la plus tardive de ses mesures) : sert à la frise et au cumul. */
   effectiveDate: z.string().date(),
+  /** Cas type conditionnel (« si tu as 43 années cotisées avant 63 ans ») : affiché à part, hors solde et hors cumul. */
+  condition: z.string().min(1).optional(),
 });
 export type TicketLineResult = z.infer<typeof TicketLineResult>;
 
