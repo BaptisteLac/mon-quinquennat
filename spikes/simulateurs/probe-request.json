@@ -1,8 +1,7 @@
 {
-  "run": 34,
+  "run": 35,
   "targets": [
-    { "id": "roussel-accueil-attente", "url": "https://www.fabienroussel2027.fr/", "waitUntil": "load", "timeoutMs": 120000, "continueOnError": true, "actions": [{ "wait": 20000 }], "follow": "programme|projet|mesure|propos", "maxFollow": 8 },
-    { "id": "rn-programme", "url": "https://rassemblementnational.fr/", "waitUntil": "load", "timeoutMs": 90000, "continueOnError": true, "actions": [{ "wait": 5000 }], "follow": "programme|projet|2027", "maxFollow": 8 },
-    { "id": "pcf-accueil", "url": "https://www.pcf.fr/", "waitUntil": "load", "timeoutMs": 90000, "continueOnError": true, "actions": [{ "wait": 5000 }], "follow": "programme|2027|roussel|projet", "maxFollow": 8 }
+    { "id": "roussel-wayback", "url": "https://web.archive.org/web/2026/https://www.fabienroussel2027.fr/", "waitUntil": "load", "timeoutMs": 120000, "continueOnError": true, "follow": "programme|projet|mesure|propos", "maxFollow": 6 },
+    { "id": "roussel-wayback-cdx", "url": "https://web.archive.org/cdx/search/cdx?url=fabienroussel2027.fr*&output=txt&limit=200&from=2026", "waitUntil": "load", "timeoutMs": 60000, "continueOnError": true }
   ]
 }
