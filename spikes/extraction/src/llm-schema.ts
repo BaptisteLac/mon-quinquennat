@@ -43,12 +43,15 @@ const LlmComputation = z.object({
       "energie_facture",
       "baisse_cotisations_salaire",
       "deduction_interets_emprunt",
+      "gain_pourcent_salaire_net",
     ])
     .nullable(),
   params: z.array(z.object({ name: z.string(), value: z.number() })),
   hypothesisLabel: z.string().nullable(),
   /** Donnée publique de l'hypothèse ; null pour le LLM (choisie par un humain ou par la session de relecture). */
   hypothesisSourceId: z.string().nullable(),
+  /** Cas type conditionnel : condition que le profil ne connaît pas (« si tu as 43 années cotisées avant 63 ans »). */
+  hypothesisCondition: z.string().nullable(),
 });
 
 const LlmTwoLevels = z.object({ simple: z.string(), normal: z.string() });
@@ -103,7 +106,11 @@ function toComputation(c: LlmComputation): unknown {
         kind: "estimation",
         formulaId: c.formulaId,
         params,
-        hypothesis: { label: c.hypothesisLabel ?? "", dataSourceId: c.hypothesisSourceId ?? HYPOTHESIS_SOURCE_PLACEHOLDER },
+        hypothesis: {
+          label: c.hypothesisLabel ?? "",
+          dataSourceId: c.hypothesisSourceId ?? HYPOTHESIS_SOURCE_PLACEHOLDER,
+          ...(c.hypothesisCondition ? { condition: c.hypothesisCondition } : {}),
+        },
       };
     case "qualitatif":
       return { kind: "qualitatif" };

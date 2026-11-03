@@ -33,6 +33,7 @@ const AuthoredComputation = z.object({
   params: computation.params.default([]),
   hypothesisLabel: computation.hypothesisLabel.default(null),
   hypothesisSourceId: computation.hypothesisSourceId.default(null),
+  hypothesisCondition: computation.hypothesisCondition.default(null),
 });
 
 const AuthoredEffect = z.object({

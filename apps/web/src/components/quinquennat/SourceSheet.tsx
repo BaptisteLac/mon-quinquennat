@@ -34,7 +34,7 @@ function household(p: Profile): string {
 }
 
 function lineTitle(l: TicketLineResult): string {
-  if (l.section === "portefeuille" && l.value) return `${LINE_LABELS[l.ticketLine]} : ${formatMoney(l.value)} / mois`;
+  if (l.section === "portefeuille" && l.value) return `${LINE_LABELS[l.ticketLine]} : ${formatMoney(l.value)} / mois${l.condition ? `, ${l.condition}` : ""}`;
   if (l.section === "temps") return describeTime(l);
   return LINE_LABELS[l.ticketLine];
 }
@@ -108,6 +108,9 @@ export function SourceSheet({ target, catalog, profile, onClose }: { target: She
                   <span className={styles.stepNum}>2</span>
                   <div>
                     <b>{l.nature === "qualitatif" ? "Pourquoi cette ligne te concerne" : "Le calcul pour ton profil"}</b>
+                    {l.condition ? (
+                      <p className={styles.muted}>Seulement {l.condition} : ce montant n&apos;est pas compté dans ton solde.</p>
+                    ) : null}
                     {l.section === "portefeuille" && l.value ? (
                       <>
                         <div className={styles.calcBox}>

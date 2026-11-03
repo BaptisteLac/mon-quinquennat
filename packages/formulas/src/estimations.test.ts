@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import donnees from "../data/donnees-publiques.json" with { type: "json" };
-import { baisseCotisationsSalaire, deductionInteretsEmprunt, energieFacture, PublicData } from "./estimations.ts";
+import { baisseCotisationsSalaire, deductionInteretsEmprunt, energieFacture, gainPourcentSalaireNet, PublicData } from "./estimations.ts";
 
 const spaces = (s: string) => s.replace(/[  ]/g, " ").replace(/\s+/g, " ");
 
@@ -41,5 +41,15 @@ describe("intérêts d'emprunt", () => {
   it("ne dépasse pas l'impôt dû, et rien sans enfant", () => {
     expect(deductionInteretsEmprunt(3, params, 50).low).toBe(50);
     expect(deductionInteretsEmprunt(0, params, 500).low).toBe(0);
+  });
+});
+
+describe("gain en pourcentage du salaire net", () => {
+  it("applique le pourcentage annoncé au salaire net de la personne", () => {
+    expect(gainPourcentSalaireNet(2000, { gainPourcentNet: 14 })).toEqual({ low: 280, high: 280 });
+  });
+  it("rien sans salaire, erreur sans paramètre", () => {
+    expect(gainPourcentSalaireNet(null, { gainPourcentNet: 14 })).toEqual({ low: 0, high: 0 });
+    expect(() => gainPourcentSalaireNet(2000, {})).toThrow();
   });
 });

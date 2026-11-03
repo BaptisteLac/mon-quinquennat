@@ -54,7 +54,8 @@ export async function GET(request: Request, { params }: { params: Promise<{ payl
   }
 
   const t = shared.ticket;
-  const money = t.lines.filter((l) => l.section === "portefeuille" && l.value).slice(0, 5);
+  // Les cas types conditionnels (« si tu as… ») restent sur le ticket détaillé, pas sur l'image.
+  const money = t.lines.filter((l) => l.section === "portefeuille" && l.value && !l.condition).slice(0, 5);
   const time = t.lines.find((l) => l.section === "temps" && l.value);
   const scale = format === "og" ? 1 : 1.5;
   const ticket = (

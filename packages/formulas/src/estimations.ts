@@ -88,3 +88,16 @@ export function deductionInteretsEmprunt(
   const mensuel = Math.min(annuel / 12, Math.max(impotMensuelActuel ?? Infinity, 0));
   return { low: round2(mensuel), high: round2(mensuel) };
 }
+
+/**
+ * Gain annoncé en pourcentage du salaire net (« environ 14 % de salaire net en plus »), appliqué au
+ * salaire net de la personne. Cas type conditionnel : la condition (carrière complète…) n'est pas
+ * connue du profil ; la ligne est affichée avec elle, hors solde.
+ */
+export function gainPourcentSalaireNet(salaireNet: number | null, params: Readonly<Record<string, number>>): Range {
+  const pourcent = params.gainPourcentNet;
+  if (pourcent === undefined) throw new Error("Paramètre gainPourcentNet manquant.");
+  if (salaireNet === null || salaireNet <= 0) return { low: 0, high: 0 };
+  const v = round2((salaireNet * pourcent) / 100);
+  return { low: v, high: v };
+}

@@ -195,4 +195,20 @@ describe("estimations (≈)", () => {
     // Le solde sûr n'additionne pas les estimations.
     expect(t.solde.sureOnly).not.toBe(t.solde.low);
   });
+  it("cas type conditionnel : ligne affichée avec sa condition, hors solde et hors cumul", () => {
+    const { profile: base, calc } = fixture("couple-2-enfants-proprietaires");
+    const young = buildTicket(retailleau, base, calc);
+    expect(young.lines.some((l) => l.condition)).toBe(false);
+    const profile = { ...base, age: 60 };
+    const t = buildTicket(retailleau, profile, calc);
+    const carriere = t.lines.find((l) => l.condition);
+    expect(carriere?.ticketLine).toBe("salaire_net");
+    expect(carriere?.nature).toBe("estime");
+    expect(carriere?.condition).toBe("si tu as 43 années cotisées avant 63 ans");
+    // Environ 14 % du salaire net de la personne (2 400 €), pas de celui du conjoint.
+    expect(carriere?.value?.low).toBeCloseTo(336, 2);
+    // Solde et cumul identiques : la condition n'est pas connue du profil.
+    expect(t.solde).toEqual(young.solde);
+    expect(t.cumul5ans).toEqual(young.cumul5ans);
+  });
 });

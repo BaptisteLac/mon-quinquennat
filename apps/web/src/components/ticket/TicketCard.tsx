@@ -34,8 +34,10 @@ export function TicketCard({
   maxFacts?: number;
   children?: React.ReactNode;
 }) {
-  const money = ticket.lines.filter((l) => l.section === "portefeuille" && l.value);
+  const money = ticket.lines.filter((l) => l.section === "portefeuille" && l.value && !l.condition);
+  const ifCase = ticket.lines.filter((l) => l.section === "portefeuille" && l.value && l.condition);
   const time = ticket.lines.filter((l) => l.section === "temps" && l.value);
+  const numbered = money.length + ifCase.length + time.length;
   const facts = ticket.lines.filter((l) => l.nature === "qualitatif");
   const sentences = facts.flatMap((l) =>
     l.measureIds.flatMap((id) => {
@@ -120,6 +122,19 @@ export function TicketCard({
           <p className={styles.muted}>Sur les 5 ans du mandat : {formatMoney(ticket.cumul5ans)}</p>
         </>
       )}
+      {ifCase.length > 0 ? (
+        <div className={styles.ifCase}>
+          <span className={styles.muted}>Selon ta situation, hors solde :</span>
+          {ifCase.map((l, i) => (
+            <div key={`${l.ticketLine}-if-${i}`} className={styles.row}>
+              <Line line={l} i={money.length + i}>
+                ≈ {LINE_LABELS[l.ticketLine]}, {l.condition}
+              </Line>
+              <span className={styles.amount}>{l.value ? formatMoney(l.value) : ""}</span>
+            </div>
+          ))}
+        </div>
+      ) : null}
       {ticket.uncomputed.length > 0 ? (
         <ul className={styles.uncomputed}>
           {ticket.uncomputed.map((u, i) => (
@@ -139,7 +154,7 @@ export function TicketCard({
       ) : (
         time.map((l, i) => (
           <div key={`${l.ticketLine}-${i}`} className={styles.row}>
-            <Line line={l} i={money.length + i}>
+            <Line line={l} i={money.length + ifCase.length + i}>
               {describeTime(l)}
             </Line>
           </div>
@@ -177,8 +192,8 @@ export function TicketCard({
 
       <div className={styles.rule} />
       <p className={styles.foot}>
-        {onLine && money.length + time.length > 1 ? `${CIRCLED[0]} à ${CIRCLED[money.length + time.length - 1] ?? ""} : touche une ligne pour voir sa source. ` : ""}
-        {onLine && money.length + time.length === 1 ? `${CIRCLED[0]} : touche la ligne pour voir sa source. ` : ""}
+        {onLine && numbered > 1 ? `${CIRCLED[0]} à ${CIRCLED[numbered - 1] ?? ""} : touche une ligne pour voir sa source. ` : ""}
+        {onLine && numbered === 1 ? `${CIRCLED[0]} : touche la ligne pour voir sa source. ` : ""}
         Chiffres pour un foyer comme le tien. Et toi, ça donne quoi ?
       </p>
       {children}
