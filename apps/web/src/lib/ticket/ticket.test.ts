@@ -212,3 +212,34 @@ describe("estimations (≈)", () => {
     expect(t.cumul5ans).toEqual(young.cumul5ans);
   });
 });
+
+describe("cas types d'Édouard Philippe", () => {
+  const philippe = programmes.find((p) => p.candidate.id === "c-04");
+  if (!philippe) throw new Error("programme c-04 absent");
+
+  it("impôt supprimé les trois premières années de l'enfant : déciles INSEE, hors solde", () => {
+    const { profile: base, calc } = fixture("couple-2-enfants-proprietaires");
+    // 4 300 € nets par mois, deux adultes, enfants de 2 et 10 ans : 2,1 unités de consommation,
+    // niveau de vie ≈ 24 571 € par an, entre le 3e (20 980 €) et le 6e décile (29 880 €) : tout l'impôt.
+    const profile = { ...base, enfants: [{ anneeNaissance: 2025 }, { anneeNaissance: 2017 }] };
+    const t = buildTicket(philippe, profile, calc);
+    const ir = t.lines.find((l) => l.ticketLine === "impot_revenu" && l.condition);
+    const impot = calc.candidats["c-04"]?.montants.impot_revenu ?? 0;
+    expect(impot).toBeGreaterThan(0);
+    expect(ir?.value).toEqual({ low: impot, high: impot });
+    expect(ir?.condition).toBe("pendant les trois premières années de ton enfant");
+    expect(t.hypotheses.some((h) => h.includes("D6") && h.includes("29 880"))).toBe(true);
+    expect(t.hypotheses.some((h) => h.includes("0,3 UC"))).toBe(true);
+    // Sans enfant de moins de trois ans : pas de ligne.
+    expect(buildTicket(philippe, base, calc).lines.some((l) => l.ticketLine === "impot_revenu" && l.condition)).toBe(false);
+  });
+
+  it("heures en plus : 1 000 € par an au SMIC, en proportion du salaire de la personne, hors solde", () => {
+    const { profile, calc } = fixture("couple-2-enfants-proprietaires");
+    const t = buildTicket(philippe, profile, calc);
+    const hs = t.lines.find((l) => l.ticketLine === "salaire_net" && l.condition);
+    expect(hs?.value?.low).toBeCloseTo(((1000 / 12) * 2400) / 1477.93, 2);
+    expect(t.solde.low).toBe(t.solde.sureOnly); // aucun cas type dans le solde
+  });
+});
+

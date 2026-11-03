@@ -255,7 +255,20 @@
           },
           "sentence": {
             "simple": "Si ton entreprise décide de travailler plus longtemps, ces heures seraient sans cotisations ni impôt : environ 1 000 € de plus par an au SMIC pour deux heures par semaine, selon le candidat.",
-            "normal": "Heures travaillées en plus, sur décision de l'entreprise, exonérées de cotisations et d'impôt sur le revenu ; environ 1 000 € de plus par an au SMIC pour deux heures de plus par semaine, selon le programme."
+            "normal": "Heures travaillées en plus, sur décision de l'entreprise, exonérées de cotisations et d'impôt sur le revenu ; environ 1 000 € de plus par an au SMIC pour deux heures de plus par semaine, selon le programme. Le montant est calculé pour ce cas type, hors solde : il dépend de la décision de ton entreprise."
+          },
+          "computation": {
+            "kind": "estimation",
+            "formulaId": "gain_salaire_reference_personne",
+            "params": [
+              {
+                "name": "gainAnnuelReference",
+                "value": 1000
+              }
+            ],
+            "hypothesisLabel": "Cas type : environ 1 000 € de plus par an au SMIC pour deux heures de plus par semaine, chiffre annoncé par le candidat, adapté à ton salaire net en proportion du SMIC net.",
+            "hypothesisSourceId": "service-public-smic-net-2026",
+            "hypothesisCondition": "si ton entreprise allonge ton temps de travail de deux heures par semaine"
           }
         }
       ]

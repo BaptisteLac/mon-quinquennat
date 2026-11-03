@@ -30,9 +30,9 @@ Lecteur : Claude (session Claude Code, 2026-11-03), relecture de chaque fiche ti
 - aucun
 
 ## Coût d'une extraction par l'API (estimation ≈)
-Volumes réels : corpus 19 824 caractères (4 pages), sorties d'extraction 112 132 caractères, 116 mesures. Hypothèses : ≈ 3 caractères par jeton ; deux extractions indépendantes (A et B), chaque page envoyée avec le prompt `extract-v1` ; relecture croisée de chaque mesure (`crosscheck-v1`, ≈ 200 jetons de sortie) ; tarifs de `src/cost.ts` (USD par million de jetons), sans cache.
+Volumes réels : corpus 19 824 caractères (4 pages), sorties d'extraction 114 165 caractères, 116 mesures. Hypothèses : ≈ 3 caractères par jeton ; deux extractions indépendantes (A et B), chaque page envoyée avec le prompt `extract-v1` ; relecture croisée de chaque mesure (`crosscheck-v1`, ≈ 200 jetons de sortie) ; tarifs de `src/cost.ts` (USD par million de jetons), sans cache.
 
 | Modèle | Coût par programme | Avec l'API Batch (−50 %) |
 |---|---|---|
-| claude-sonnet-5-5 | 1.23 $ | 0.62 $ |
-| claude-opus-5-5 | 2.46 $ | 1.23 $ |
+| claude-sonnet-5-5 | 1.25 $ | 0.62 $ |
+| claude-opus-5-5 | 2.49 $ | 1.25 $ |

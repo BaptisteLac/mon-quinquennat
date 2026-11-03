@@ -235,6 +235,8 @@ const EstimateComputation = z.object({
     "baisse_cotisations_salaire",
     "deduction_interets_emprunt",
     "gain_pourcent_salaire_net",
+    "gain_salaire_reference_personne",
+    "impot_supprime_decile",
   ]),
   params: z.record(z.string(), z.number()),
   hypothesis: z.object({

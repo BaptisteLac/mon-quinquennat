@@ -1,0 +1,389 @@
+Distribution des niveaux de vie | Insee
+false
+Aller au contenu
+Aide
+Thèmes
+Recherche
+English
+Presse
+Menu
+Menu
+Blog
+Presse
+Aide
+English
+Lancer la recherche sur le site
+Thèmes
+Statistiques et études
+Cherchez vos statistiques par…
+Thèmes
+Économie - conjoncture - comptes nationaux
+Démographie
+Entreprises
+Plus de thèmes…
+Niveaux géographiques
+France
+Toutes les régions ou tous les départements
+Toutes les communes
+Plus de niveaux géographiques…
+Catégories
+Données
+Publications
+Plus de Catégories…
+Collections
+Insee Première
+Notes et points de conjoncture
+Plus de collections…
+Définitions, méthodes et qualitéDéfinitions
+Sources statistiques et indicateursListe des sources statistiques
+Liste des indicateurs
+Documentation complémentaire sur le recensement
+La qualité dans le Service statistique public (SSP)Le cadre de référence
+La gouvernance
+La politique et la stratégie qualité du SSP
+Les engagements européens
+NomenclaturesNomenclature d’activités française
+Nomenclature agrégée - NA, 2008
+Classification des produits française
+Classification des fonctions de consommation des ménages
+Catégories juridiques
+Nomenclatures des professions et catégories socioprofessionnelles
+Géographie administrative et d'étudeRecherche sur une zone géographique
+Téléchargement de fichiers
+Historique des communes
+Modèles, méthodes et outils statistiquesLes modèles statistiques
+Les outils statistiques
+Méthodologie statistique
+Courrier des statistiques
+Offre de données ouvertesLe catalogue des données de l'Insee
+Le catalogue des API de l'Insee
+L'offre de données au travers de nos produits de diffusion
+Les formats de mise à disposition des données
+Nos données disponibles sur d'autres plateformes
+ServicesRéviser une pension, un loyer, bail ou contratRéviser une pension alimentaire
+Réviser un loyer d'habitation
+Réviser un bail commercial ou professionnel
+Indexer un contrat
+Convertisseur franc-euro : pouvoir d'achat de l'euro et du franc
+Consulter les indices et séries chronologiquesActualités des indices et séries chronologiques
+Accès des séries et indices chronologiques par thème
+Recherche par identifiant ou par mot-clé
+SDMX service web
+Tables de passage
+SireneObtenir un avis de situation au répertoire Sirene
+Demander la modification de son statut de diffusion
+Demander la modification du code APE
+Immatriculation, cessation ou modification des données au répertoire Sirene
+Obtenir sa catégorie d'entreprise
+Consulter et télécharger la base Sirene
+Identifiant unique des intervenants sur les marchés financiers (LEI)
+Réponses à vos questions sur le répertoire Sirene
+Découvrir, apprendre, enseignerPour commencer...
+Visualiser les données
+La Compétition européenne de statistiques
+Pour approfondir...
+Répondre à une enquête de l'InseeEnquêtes auprès des particuliers
+Enquêtes auprès des entreprises
+Vrai ou faux enquêteur de l’Insee, fraude, malveillance : comment vérifier ?
+S’informer sur l’actualité de notre diffusionAgenda de diffusion des indicateurs économiques
+Dernières publications de l’Insee
+Dernières publications des Services statistiques ministériels
+Évènements annoncés à la Une du site
+Thèmes d'actualité
+Gérer les répertoires des personnes physiquesRecueil des données d'état civil
+Le Répertoire électoral unique
+Dématérialisation des échanges de données
+Nombre de décès quotidiens par département
+Fichiers des personnes décédées depuis 1970
+Bibliothèque de l’Insee Alain DesrosièresPortail documentaire et catalogue
+La Bibliothèque numérique de la statistique publique
+Commander une prestation, acheter une publicationDiffusion sur mesure
+Acheter nos publications
+Nous suivreLettres d'information
+Abonnements aux lettres d'information et aux avis de parution
+Abonnement aux flux RSS
+L'Insee sur les médias sociaux
+Insee Mobile
+Aide et contactsRéponses à vos questions
+Obtenir des informations par téléphone
+Espace presseÉvénements presse
+Calendrier des publications
+Communiqués de presse nationaux
+Communiqués de presse régionaux
+Nominations
+L'Insee et la statistique publiqueL'InseeConnaître l'Insee
+L’Insee en toute confiance
+Travailler à l'Insee
+Événements et colloques
+Un peu d'histoire
+Rapports d'activité
+Les activités de l'InseeSuivre l’économie française
+Connaître les entreprises
+Observer l'évolution de la société
+Réaliser le recensement de la population
+Décrire et analyser les régions et les territoires
+Gérer des grands répertoires
+Diffuser et valoriser ses productions
+Perfectionner ses méthodes et évaluer la qualité
+Contribuer à la construction de la statistique européenne et internationale
+La statistique publiqueCadre juridique et institutionnel
+Le service statistique public
+Secret statistique
+Protection des données personnelles
+Règles de diffusion du SSP
+Accès aux documents administratifs
+La construction de la statistique européenneLes producteurs de statistiques européennes en France
+Textes juridiques de la gouvernance statistique européenne
+Les règlements cadres et sectoriels
+Mesure de la qualité de serviceLes indicateurs de qualité du programme Transparence
+Résultats des enquêtes de satisfaction
+Services Publics+ : un service public plus proche, plus simple, plus efficace
+Accueil
+Statistiques et études
+Distribution des niveaux de vie
+Distribution des niveaux de vie Données annuelles de 1996 à 2024
+Chiffres-clés
+Paru le : Paru le 09/07/2026
+Imprimer
+Données
+(xlsx, 16 Ko)
+-
+Juillet 2026
+Graphique
+Tableau
+Affichage de l’onglet contenant le tableau ou de l’onglet contenant le graphique
+Graphique
+Tableau
+tableauDistribution des niveaux de vie
+en euros 2024 constants
+Distribution des niveaux de vie (en euros 2024 constants)
+Indicateur
+2020¹ ²
+2021
+2022
+2023
+2024
+1er décile (D1)
+14 140
+13 830
+13 870
+13 730
+13 970
+2e décile (D2)
+17 860
+17 510
+17 490
+17 330
+17 700
+3e décile (D3)
+20 820
+20 670
+20 650
+20 610
+20 980
+4e décile (D4)
+23 430
+23 410
+23 320
+23 490
+23 880
+Médiane (D5)
+26 160
+26 070
+26 030
+26 280
+26 740
+6e décile (D6)
+29 030
+29 090
+29 040
+29 230
+29 880
+7e décile (D7)
+32 310
+32 540
+32 670
+32 920
+33 680
+8e décile (D8)
+37 030
+37 650
+37 760
+38 170
+38 780
+9e décile (D9)
+46 620
+47 140
+46 900
+47 900
+48 580
+95e centile (C95)
+57 140
+59 680
+58 450
+60 050
+61 220
+Rapport interdécile³ (D9/D1)
+3,30
+3,41
+3,38
+3,49
+3,48
+Distribution des niveaux de vie (en euros 2024 constants)
+Indicateur | 2020¹ ²2021202220232024
+1er décile (D1)
+14 140
+13 830
+13 870
+13 730
+13 970
+2e décile (D2)
+17 860
+17 510
+17 490
+17 330
+17 700
+3e décile (D3)
+20 820
+20 670
+20 650
+20 610
+20 980
+4e décile (D4)
+23 430
+23 410
+23 320
+23 490
+23 880
+Médiane (D5)
+26 160
+26 070
+26 030
+26 280
+26 740
+6e décile (D6)
+29 030
+29 090
+29 040
+29 230
+29 880
+7e décile (D7)
+32 310
+32 540
+32 670
+32 920
+33 680
+8e décile (D8)
+37 030
+37 650
+37 760
+38 170
+38 780
+9e décile (D9)
+46 620
+47 140
+46 900
+47 900
+48 580
+95e centile (C95)
+57 140
+59 680
+58 450
+60 050
+61 220
+Rapport interdécile³ (D9/D1)
+3,30
+3,41
+3,38
+3,49
+3,48
+1. Le point 2020 présente des fragilités liées aux difficultés de production en 2020.
+2. À partir de 2020, cette série est calculée avec une chaîne de production de l’ERFS
+rénovée s’appuyant sur la nouvelle Enquête Emploi.
+3. Indicateur appartenant à la liste des indicateurs d'inégalité préconisés par le
+groupe de travail « Niveaux de vie et inégalités sociales » du Conseil national de
+l'information statistique (Cnis).
+Note : les données antérieures à 2020 ne sont pas identiques à celles figurant dans
+l'Insee Première « Niveau de vie et pauvreté en 2024 » qui ont été rétropolées pour
+permettre une comparaison temporelle.
+Lecture : en 2024, les 10 % d’individus les plus modestes (1er décile) ont un niveau de vie inférieur à 13 970 euros.
+Champ : France métropolitaine, individus vivant dans un ménage (en logement ordinaire) dont le revenu déclaré est positif ou nul et dont la personne de référence n'est pas étudiante.
+Sources : Insee-DGFiP-Cnaf-Cnav-CCMSA, enquêtes Revenus fiscaux et sociaux 2020 à 2024.
+graphiqueMédiane des niveaux de vie
+Created with Highcharts 12.3.0en euros 2024 constantsOptions du graphique19961998200020022004200620082010¹2012¹2014201620182020¹2022202402 0004 0006 0008 00010 00012 00014 00016 00018 00020 00022 00024 00026 00028 000
+1. Il faut tenir compte des ruptures de séries en 2010, 2012 et 2020 pour étudier
+l’évolution de l’indicateur sur la période 1996-2024.
+Note : le point 2020 présente des fragilités liées aux difficultés de production en
+2020. À partir de 2020, cette série est calculée avec une chaîne de production de
+l’ERFS rénovée s’appuyant sur la nouvelle Enquête Emploi. Les données antérieures
+à 2020 ne sont pas identiques à celles figurant dans l'Insee Première « Niveau de
+vie et pauvreté en 2024 » qui ont été rétropolées pour permettre une comparaison temporelle.
+Lecture : en 2024, le niveau de vie médian des individus s’élève à 26 740 euros annuels.
+Champ : France métropolitaine, individus vivant dans un ménage (en logement ordinaire) dont le revenu déclaré est positif ou nul et dont la personne de référence n'est pas étudiante.
+Sources : Insee-DGI, enquêtes Revenus fiscaux et sociaux rétropolées de 1996 à 2004 ;
+Insee-DGFiP-Cnaf-Cnav-CCMSA, enquêtes Revenus fiscaux et sociaux 2005 à 2024.
+Pour en savoir plus
+Insee Première : Niveau de vie et pauvreté en 2024
+Insee Méthodes : Impact de la rénovation de l’enquête Revenus fiscaux et sociaux en
+2021 sur la mesure des niveaux de vie, des indicateurs d’inégalités et de pauvreté
+page Bluesky de l'Insee
+page Instagram de l'Insee
+page LinkedIn de l'Insee
+page X de l'Insee
+chaîne Youtube de l'Insee
+blog de l'Insee
+flux RSS de l'Insee
+Nos sites partenaires
+Système Statistique Européen
+Réseau Quetelet
+Centre d'Accès Sécurisé Distant aux données (CASD)
+site data.gouv
+Services Publics +
+Abonnez-vous
+Avis de parution
+Nous suivre
+page Bluesky de l'Insee
+page Instagram de l'Insee
+page LinkedIn de l'Insee
+page X de l'Insee
+chaîne Youtube de l'Insee
+blog de l'Insee
+flux RSS de l'Insee
+Contact
+Aide et contact
+Statistiques et études
+Définitions, méthodes et qualité
+Définitions
+Sources statistiques et indicateurs
+La qualité dans le Service statistique public (SSP)
+Nomenclatures
+Géographie administrative et d'étude
+Modèles, méthodes et outils statistiques
+Courrier des statistiques
+Offre de données ouvertes
+Services
+Réviser une pension, un loyer, bail ou contrat
+Consulter les indices et séries chronologiques
+Sirene
+Découvrir, apprendre, enseigner
+Répondre à une enquête de l'Insee
+S’informer sur l’actualité de notre diffusion
+Gérer les répertoires des personnes physiques
+Bibliothèque de l’Insee Alain Desrosières
+Commander une prestation, acheter une publication
+Nous suivre
+Aide et contacts
+Espace presse
+L'Insee et la statistique publique
+L'Insee
+Les activités de l'Insee
+La statistique publique
+La construction de la statistique européenne
+Mesure de la qualité de service
+Services Publics+ : un service public plus proche, plus simple, plus efficace
+Mentions légales et crédits
+Accessibilité : partiellement conforme
+Accès sourds et malentendants
+Sécurité
+Plan du site
+Haut de page

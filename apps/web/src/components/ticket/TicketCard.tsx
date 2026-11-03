@@ -36,9 +36,11 @@ export function TicketCard({
 }) {
   const money = ticket.lines.filter((l) => l.section === "portefeuille" && l.value && !l.condition);
   const ifCase = ticket.lines.filter((l) => l.section === "portefeuille" && l.value && l.condition);
+  // Mesures sur ton budget annoncées sans de quoi les chiffrer pour ce profil : listées dans le portefeuille.
+  const announced = ticket.lines.filter((l) => l.section === "portefeuille" && l.nature === "qualitatif");
   const time = ticket.lines.filter((l) => l.section === "temps" && l.value);
-  const numbered = money.length + ifCase.length + time.length;
-  const facts = ticket.lines.filter((l) => l.nature === "qualitatif");
+  const numbered = money.length + ifCase.length + announced.length + time.length;
+  const facts = ticket.lines.filter((l) => l.nature === "qualitatif" && l.section !== "portefeuille");
   const sentences = facts.flatMap((l) =>
     l.measureIds.flatMap((id) => {
       const m = catalog?.measures[id];
@@ -93,7 +95,17 @@ export function TicketCard({
         <span>TON PORTEFEUILLE</span>
         <span className={styles.unit}>par mois · + = pour toi</span>
       </div>
-      {money.length === 0 ? (
+      {money.length === 0 && ifCase.length > 0 ? (
+        <p className={styles.muted}>Aucun montant certain pour ton profil : les montants ci-dessous dépendent de ta situation.</p>
+      ) : money.length === 0 && announced.length > 0 ? (
+        <div className={styles.empty}>
+          <b>Pas encore chiffré</b>
+          <span>
+            Ce programme annonce des mesures sur ton budget sans donner de quoi les calculer pour ton profil, d&apos;après sa version actuelle. Elles
+            sont listées ci-dessous.
+          </span>
+        </div>
+      ) : money.length === 0 ? (
         <div className={styles.empty}>
           <b>= 0 €</b>
           <span>Aucune mesure chiffrée de ce programme ne change ton portefeuille, d&apos;après sa version actuelle.</span>
@@ -135,6 +147,20 @@ export function TicketCard({
           ))}
         </div>
       ) : null}
+      {announced.length > 0 ? (
+        <div className={styles.ifCase}>
+          <span className={styles.muted}>Annoncé, pas encore chiffré :</span>
+          {announced.map((l, i) => (
+            <div key={`${l.ticketLine}-announced-${i}`} className={styles.row}>
+              <Line line={l} i={money.length + ifCase.length + i}>
+                {LINE_LABELS[l.ticketLine]}
+                {[...money, ...ifCase].some((m) => m.ticketLine === l.ticketLine) ? ", autres mesures" : ""}
+              </Line>
+              <span className={styles.amount}>non chiffré</span>
+            </div>
+          ))}
+        </div>
+      ) : null}
       {ticket.uncomputed.length > 0 ? (
         <ul className={styles.uncomputed}>
           {ticket.uncomputed.map((u, i) => (
@@ -154,7 +180,7 @@ export function TicketCard({
       ) : (
         time.map((l, i) => (
           <div key={`${l.ticketLine}-${i}`} className={styles.row}>
-            <Line line={l} i={money.length + ifCase.length + i}>
+            <Line line={l} i={money.length + ifCase.length + announced.length + i}>
               {describeTime(l)}
             </Line>
           </div>
