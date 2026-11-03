@@ -1,0 +1,35 @@
+{
+  "corpusId": "place-publique-2026-11",
+  "candidateId": "c-05",
+  "collectedAt": "2026-11-03T14:48:36.860Z",
+  "startUrls": [
+    "https://raphaelglucksmann.eu/programme.html"
+  ],
+  "include": [
+    "https://raphaelglucksmann.eu/programme.html"
+  ],
+  "rendered": true,
+  "documents": [
+    {
+      "id": "place-publique-2026-11-programme",
+      "kind": "html",
+      "officialUrl": "https://raphaelglucksmann.eu/programme.html",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Le programme — Raphaël Glucksmann 2027",
+      "retrievedAt": "2026-11-03T14:48:46.633Z",
+      "file": "raw/place-publique-2026-11-programme.html",
+      "sha256": "0c5fed74a2e77661715a16766eef6353c46b82232e683f5da1b6dabfe7338395",
+      "textFile": "text/place-publique-2026-11-programme.json",
+      "textSha256": "9f2633ea29df05b08342a7fe4496e854b6d1e4f82296e77166580784c5c7df0b",
+      "pageCount": 1
+    }
+  ],
+  "excludedLinks": [
+    "https://raphaelglucksmann.eu/",
+    "https://raphaelglucksmann.eu/actualites.html",
+    "https://raphaelglucksmann.eu/mentions-legales.html",
+    "https://raphaelglucksmann.eu/parcours.html"
+  ],
+  "externalPdfs": [],
+  "skipped": []
+}
