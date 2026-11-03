@@ -1,0 +1,1135 @@
+{
+  "requested": null,
+  "final": "https://www.insee.fr/fr/statistiques/2416808",
+  "status": null,
+  "title": "Distribution des niveaux de vie | Insee",
+  "iframes": [
+    "https://www.insee.fr/fr/statistiques/2416808"
+  ],
+  "links": [
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#contenu",
+      "text": "Aller au contenu"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2411108",
+      "text": "Aide"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/5894637",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/8491408",
+      "text": "Thèmes"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": "Recherche"
+    },
+    {
+      "href": "https://www.insee.fr/fr/accueil",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/langue/en",
+      "text": "English"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2008400",
+      "text": "Presse"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": "Menu"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#menu",
+      "text": "Menu"
+    },
+    {
+      "href": "https://blog.insee.fr/",
+      "text": "Blog"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2008400",
+      "text": "Presse"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2411108",
+      "text": "Aide"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/5894637",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/langue/en",
+      "text": "English"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/8491408",
+      "text": "Thèmes"
+    },
+    {
+      "href": "https://www.insee.fr/fr/accueil",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques",
+      "text": "Statistiques et études"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques?idfacette=1",
+      "text": "Thèmes"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques?theme=27",
+      "text": "Économie - conjoncture - comptes nationaux"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques?theme=0",
+      "text": "Démographie"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques?theme=37",
+      "text": "Entreprises"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques?idfacette=1",
+      "text": "Plus de thèmes…"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques?idfacette=3",
+      "text": "Niveaux géographiques"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques?debut=0&geo=FRANCE-1&idfacette=3",
+      "text": "France"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques?debut=0&geo=COMPRD-1&idfacette=3",
+      "text": "Toutes les régions ou tous les départements"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques?debut=0&geo=TOUTES_COMMUNE-1",
+      "text": "Toutes les communes"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques?idfacette=3",
+      "text": "Plus de niveaux géographiques…"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques?idfacette=4",
+      "text": "Catégories"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques?categorie=1",
+      "text": "Données"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques?categorie=2",
+      "text": "Publications"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques?idfacette=4",
+      "text": "Plus de Catégories…"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques?idfacette=5",
+      "text": "Collections"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques?collection=116",
+      "text": "Insee Première"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques?collection=119",
+      "text": "Notes et points de conjoncture"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques?idfacette=5",
+      "text": "Plus de collections…"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2016815",
+      "text": "Définitions, méthodes et qualité"
+    },
+    {
+      "href": "https://www.insee.fr/fr/metadonnees/definitions",
+      "text": "Définitions"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2407637",
+      "text": "Sources statistiques et indicateurs"
+    },
+    {
+      "href": "https://www.insee.fr/fr/metadonnees/sources",
+      "text": "Liste des sources statistiques"
+    },
+    {
+      "href": "https://www.insee.fr/fr/metadonnees/indicateurs",
+      "text": "Liste des indicateurs"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2383410",
+      "text": "Documentation complémentaire sur le recensement"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/4138839",
+      "text": "La qualité dans le Service statistique public (SSP)"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/4137822",
+      "text": "Le cadre de référence"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/4137865",
+      "text": "La gouvernance"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/6688640",
+      "text": "La politique et la stratégie qualité du SSP"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/4138814",
+      "text": "Les engagements européens"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2016811",
+      "text": "Nomenclatures"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2406147",
+      "text": "Nomenclature d’activités française"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2493969",
+      "text": "Nomenclature agrégée - NA, 2008"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2493496",
+      "text": "Classification des produits française"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2493507",
+      "text": "Classification des fonctions de consommation des ménages"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2028129",
+      "text": "Catégories juridiques"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2406153",
+      "text": "Nomenclatures des professions et catégories socioprofessionnelles"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/8391822",
+      "text": "Géographie administrative et d'étude"
+    },
+    {
+      "href": "https://www.insee.fr/fr/recherche/recherche-geographique",
+      "text": "Recherche sur une zone géographique"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/7672015",
+      "text": "Téléchargement de fichiers"
+    },
+    {
+      "href": "https://www.insee.fr/fr/metadonnees/historique-commune",
+      "text": "Historique des communes"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2022002",
+      "text": "Modèles, méthodes et outils statistiques"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2021959",
+      "text": "Les modèles statistiques"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2021908",
+      "text": "Les outils statistiques"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2414816",
+      "text": "Méthodologie statistique"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/3622502",
+      "text": "Courrier des statistiques"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2410988",
+      "text": "Offre de données ouvertes"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/8184173",
+      "text": "Le catalogue des données de l'Insee"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/8184146",
+      "text": "Le catalogue des API de l'Insee"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/8184150",
+      "text": "L'offre de données au travers de nos produits de diffusion"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2410909",
+      "text": "Les formats de mise à disposition des données"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/8184148",
+      "text": "Nos données disponibles sur d'autres plateformes"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302181",
+      "text": "Services"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302157",
+      "text": "Réviser une pension, un loyer, bail ou contrat"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1300608",
+      "text": "Réviser une pension alimentaire"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1300612",
+      "text": "Réviser un loyer d'habitation"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1300602",
+      "text": "Réviser un bail commercial ou professionnel"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1300606",
+      "text": "Indexer un contrat"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2417794",
+      "text": "Convertisseur franc-euro : pouvoir d'achat de l'euro et du franc"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2411675",
+      "text": "Consulter les indices et séries chronologiques"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2862832",
+      "text": "Actualités des indices et séries chronologiques"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2860802",
+      "text": "Accès des séries et indices chronologiques par thème"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/3128533",
+      "text": "Recherche par identifiant ou par mot-clé"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2862759",
+      "text": "SDMX service web"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2862863",
+      "text": "Tables de passage"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/6675111",
+      "text": "Sirene"
+    },
+    {
+      "href": "https://avis-situation-sirene.insee.fr/",
+      "text": "Obtenir un avis de situation au répertoire Sirene"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/7456564",
+      "text": "Demander la modification de son statut de diffusion"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/7614104",
+      "text": "Demander la modification du code APE"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1401387",
+      "text": "Immatriculation, cessation ou modification des données au répertoire Sirene"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1730869",
+      "text": "Obtenir sa catégorie d'entreprise"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/3591226",
+      "text": "Consulter et télécharger la base Sirene"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1730867",
+      "text": "Identifiant unique des intervenants sur les marchés financiers (LEI)"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/6790269",
+      "text": "Réponses à vos questions sur le répertoire Sirene"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2021852",
+      "text": "Découvrir, apprendre, enseigner"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/7745315",
+      "text": "Pour commencer..."
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/7743494",
+      "text": "Visualiser les données"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/4495976",
+      "text": "La Compétition européenne de statistiques"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/7747175",
+      "text": "Pour approfondir..."
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302175",
+      "text": "Répondre à une enquête de l'Insee"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2387311",
+      "text": "Enquêtes auprès des particuliers"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1401986",
+      "text": "Enquêtes auprès des entreprises"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2008477",
+      "text": "Vrai ou faux enquêteur de l’Insee, fraude, malveillance : comment vérifier ?"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302152",
+      "text": "S’informer sur l’actualité de notre diffusion"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1405540",
+      "text": "Agenda de diffusion des indicateurs économiques"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2416834",
+      "text": "Dernières publications de l’Insee"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/7752988",
+      "text": "Dernières publications des Services statistiques ministériels"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2544197",
+      "text": "Évènements annoncés à la Une du site"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/7702293",
+      "text": "Thèmes d'actualité"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302179",
+      "text": "Gérer les répertoires des personnes physiques"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1303477",
+      "text": "Recueil des données d'état civil"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/3539086",
+      "text": "Le Répertoire électoral unique"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1303515",
+      "text": "Dématérialisation des échanges de données"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/4470857",
+      "text": "Nombre de décès quotidiens par département"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/4190491",
+      "text": "Fichiers des personnes décédées depuis 1970"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302154",
+      "text": "Bibliothèque de l’Insee Alain Desrosières"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1303573",
+      "text": "Portail documentaire et catalogue"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1303569",
+      "text": "La Bibliothèque numérique de la statistique publique"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302171",
+      "text": "Commander une prestation, acheter une publication"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1303438",
+      "text": "Diffusion sur mesure"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2537715",
+      "text": "Acheter nos publications"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302177",
+      "text": "Nous suivre"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1405553",
+      "text": "Lettres d'information"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1405555",
+      "text": "Abonnements aux lettres d'information et aux avis de parution"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2381941",
+      "text": "Abonnement aux flux RSS"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/3127332",
+      "text": "L'Insee sur les médias sociaux"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/5407494",
+      "text": "Insee Mobile"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2411108",
+      "text": "Aide et contacts"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302169",
+      "text": "Réponses à vos questions"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/8390985",
+      "text": "Obtenir des informations par téléphone"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2008400",
+      "text": "Espace presse"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/5234985",
+      "text": "Événements presse"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/5235017",
+      "text": "Calendrier des publications"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2117832?debut=0&region=FRANCE1&familleId=1010&facetteReg=false",
+      "text": "Communiqués de presse nationaux"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2117832?debut=0&region=REG84+REG27+REG53+REG24+REG94+REG44+REG01+REG32+REG11+REG03+REG76+REG52+REG75+REG93+REG06+REG28+REG02+REG04",
+      "text": "Communiqués de presse régionaux"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/8618264",
+      "text": "Nominations"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302230",
+      "text": "L'Insee et la statistique publique"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302198",
+      "text": "L'Insee"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1300620",
+      "text": "Connaître l'Insee"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/9010344",
+      "text": "L’Insee en toute confiance"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1300628",
+      "text": "Travailler à l'Insee"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1892983",
+      "text": "Événements et colloques"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1300622",
+      "text": "Un peu d'histoire"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/4130132",
+      "text": "Rapports d'activité"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302194",
+      "text": "Les activités de l'Insee"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1303532",
+      "text": "Suivre l’économie française"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1303536",
+      "text": "Connaître les entreprises"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1303538",
+      "text": "Observer l'évolution de la société"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1303540",
+      "text": "Réaliser le recensement de la population"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1303542",
+      "text": "Décrire et analyser les régions et les territoires"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1303544",
+      "text": "Gérer des grands répertoires"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1303546",
+      "text": "Diffuser et valoriser ses productions"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1303548",
+      "text": "Perfectionner ses méthodes et évaluer la qualité"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/4246608",
+      "text": "Contribuer à la construction de la statistique européenne et internationale"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302208",
+      "text": "La statistique publique"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1300616",
+      "text": "Cadre juridique et institutionnel"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302192",
+      "text": "Le service statistique public"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1300624",
+      "text": "Secret statistique"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/3719162",
+      "text": "Protection des données personnelles"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1300614",
+      "text": "Règles de diffusion du SSP"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/5209792",
+      "text": "Accès aux documents administratifs"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302196",
+      "text": "La construction de la statistique européenne"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/4246567",
+      "text": "Les producteurs de statistiques européennes en France"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2046339",
+      "text": "Textes juridiques de la gouvernance statistique européenne"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/4246551",
+      "text": "Les règlements cadres et sectoriels"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/4248413",
+      "text": "Mesure de la qualité de service"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/4248405",
+      "text": "Les indicateurs de qualité du programme Transparence"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2129030",
+      "text": "Résultats des enquêtes de satisfaction"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/5413276",
+      "text": "Services Publics+ : un service public plus proche, plus simple, plus efficace"
+    },
+    {
+      "href": "https://www.insee.fr/fr/accueil",
+      "text": "Accueil"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques",
+      "text": "Statistiques et études"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": "Imprimer"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/fichier/2416808/reve-niv-vie-decile-individu.xlsx",
+      "text": "Données (xlsx, 16 Ko)"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#graphique-figure1",
+      "text": "Graphique"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#tableau-figure1",
+      "text": "Tableau"
+    },
+    {
+      "href": "https://www.insee.fr/fr/metadonnees/source/serie/s1231",
+      "text": "enquêtes Revenus fiscaux et sociaux"
+    },
+    {
+      "href": "https://www.insee.fr/fr/metadonnees/source/serie/s1231",
+      "text": "enquêtes Revenus fiscaux et sociaux"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/9019316",
+      "text": "Insee Première : Niveau de vie et pauvreté en 2024"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/7713943",
+      "text": "Insee Méthodes : Impact de la rénovation de l’enquête Revenus fiscaux et sociaux en 2021 sur la mesure des niveaux de vie, des indicateurs d’inégalités et de pauvreté"
+    },
+    {
+      "href": "https://bsky.app/profile/insee.fr",
+      "text": "page Bluesky de l'Insee"
+    },
+    {
+      "href": "https://www.instagram.com/insee_fr/",
+      "text": "page Instagram de l'Insee"
+    },
+    {
+      "href": "https://www.linkedin.com/company/insee",
+      "text": "page LinkedIn de l'Insee"
+    },
+    {
+      "href": "https://x.com/InseeFr",
+      "text": "page X de l'Insee"
+    },
+    {
+      "href": "https://www.youtube.com/@Insee_Fr",
+      "text": "chaîne Youtube de l'Insee"
+    },
+    {
+      "href": "https://blog.insee.fr/",
+      "text": "blog de l'Insee"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2381941",
+      "text": "flux RSS de l'Insee"
+    },
+    {
+      "href": "http://ec.europa.eu/eurostat/web/european-statistical-system/overview?locale=fr",
+      "text": "Système Statistique Européen"
+    },
+    {
+      "href": "http://www.reseau-quetelet.cnrs.fr/spip/",
+      "text": "Réseau Quetelet"
+    },
+    {
+      "href": "https://casd.eu/",
+      "text": "Centre d'Accès Sécurisé Distant aux données (CASD)"
+    },
+    {
+      "href": "http://www.data.gouv.fr/fr/",
+      "text": "site data.gouv"
+    },
+    {
+      "href": "https://www.plus.transformation.gouv.fr/",
+      "text": "Services Publics +"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1405555",
+      "text": "Avis de parution"
+    },
+    {
+      "href": "https://bsky.app/profile/insee.fr",
+      "text": "page Bluesky de l'Insee"
+    },
+    {
+      "href": "https://www.instagram.com/insee_fr/",
+      "text": "page Instagram de l'Insee"
+    },
+    {
+      "href": "https://www.linkedin.com/company/insee",
+      "text": "page LinkedIn de l'Insee"
+    },
+    {
+      "href": "https://x.com/InseeFr",
+      "text": "page X de l'Insee"
+    },
+    {
+      "href": "https://www.youtube.com/@Insee_Fr",
+      "text": "chaîne Youtube de l'Insee"
+    },
+    {
+      "href": "https://blog.insee.fr/",
+      "text": "blog de l'Insee"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2381941",
+      "text": "flux RSS de l'Insee"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2411108",
+      "text": "Aide et contact"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques",
+      "text": "Statistiques et études"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2016815",
+      "text": "Définitions, méthodes et qualité"
+    },
+    {
+      "href": "https://www.insee.fr/fr/metadonnees/definitions",
+      "text": "Définitions"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2407637",
+      "text": "Sources statistiques et indicateurs"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/4138839",
+      "text": "La qualité dans le Service statistique public (SSP)"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2016811",
+      "text": "Nomenclatures"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/8391822",
+      "text": "Géographie administrative et d'étude"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2022002",
+      "text": "Modèles, méthodes et outils statistiques"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/3622502",
+      "text": "Courrier des statistiques"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2410988",
+      "text": "Offre de données ouvertes"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302181",
+      "text": "Services"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302157",
+      "text": "Réviser une pension, un loyer, bail ou contrat"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2411675",
+      "text": "Consulter les indices et séries chronologiques"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/6675111",
+      "text": "Sirene"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2021852",
+      "text": "Découvrir, apprendre, enseigner"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302175",
+      "text": "Répondre à une enquête de l'Insee"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302152",
+      "text": "S’informer sur l’actualité de notre diffusion"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302179",
+      "text": "Gérer les répertoires des personnes physiques"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302154",
+      "text": "Bibliothèque de l’Insee Alain Desrosières"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302171",
+      "text": "Commander une prestation, acheter une publication"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302177",
+      "text": "Nous suivre"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2411108",
+      "text": "Aide et contacts"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2008400",
+      "text": "Espace presse"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302230",
+      "text": "L'Insee et la statistique publique"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302198",
+      "text": "L'Insee"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302194",
+      "text": "Les activités de l'Insee"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302208",
+      "text": "La statistique publique"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/1302196",
+      "text": "La construction de la statistique européenne"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/4248413",
+      "text": "Mesure de la qualité de service"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/5413276",
+      "text": "Services Publics+ : un service public plus proche, plus simple, plus efficace"
+    },
+    {
+      "href": "http://ec.europa.eu/eurostat/web/european-statistical-system/overview?locale=fr",
+      "text": ""
+    },
+    {
+      "href": "http://www.reseau-quetelet.cnrs.fr/spip/",
+      "text": ""
+    },
+    {
+      "href": "https://casd.eu/",
+      "text": ""
+    },
+    {
+      "href": "http://www.data.gouv.fr/fr/",
+      "text": ""
+    },
+    {
+      "href": "https://www.plus.transformation.gouv.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2008466",
+      "text": "Mentions légales et crédits"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2386135",
+      "text": "Accessibilité : partiellement conforme"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/5894637",
+      "text": "Accès sourds et malentendants"
+    },
+    {
+      "href": "https://www.insee.fr/fr/information/2381939",
+      "text": "Sécurité"
+    },
+    {
+      "href": "https://www.insee.fr/fr/plan-du-site",
+      "text": "Plan du site"
+    },
+    {
+      "href": "https://www.insee.fr/fr/statistiques/2416808#",
+      "text": "Haut de page"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "input",
+      "type": "search",
+      "name": "",
+      "id": "barre-recherche",
+      "value": "",
+      "label": "Rechercher sur le site"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "bouton-recherche",
+      "value": "",
+      "label": "Rechercher"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "",
+      "id": "choix-onglet-figure-figure1",
+      "value": [
+        "graphique-figure1=Graphique",
+        "tableau-figure1=Tableau"
+      ],
+      "label": "Affichage de l’onglet contenant le tableau ou de l’onglet contenant le graphique"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "",
+      "id": "",
+      "value": [
+        "1=2020¹ ²",
+        "2=2021",
+        "3=2022",
+        "4=2023",
+        "5=2024"
+      ],
+      "label": "Sélection d’une colonne du tableau"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Options du graphique"
+    }
+  ],
+  "calls": []
+}
