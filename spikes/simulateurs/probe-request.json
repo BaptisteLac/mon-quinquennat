@@ -1,8 +1,8 @@
 {
-  "run": 31,
+  "run": 32,
   "targets": [
-    { "id": "insee-distribution-niveaux-de-vie", "url": "https://www.insee.fr/fr/statistiques/2416808", "waitUntil": "load", "continueOnError": true },
-    { "id": "service-public-smic-f2300", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300", "waitUntil": "load", "continueOnError": true },
-    { "id": "service-public-smic-juin-2026", "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18916", "waitUntil": "load", "continueOnError": true }
+    { "id": "insee-distribution-niveaux-de-vie-tableau", "url": "https://www.insee.fr/fr/statistiques/2416808", "waitUntil": "load", "continueOnError": true, "actions": [{ "click": "TABLEAU" }, { "wait": 2000 }] },
+    { "id": "insee-niveau-de-vie-pauvrete-2024", "url": "https://www.insee.fr/fr/statistiques/9019316", "waitUntil": "load", "continueOnError": true },
+    { "id": "insee-revenu-niveau-de-vie-2023", "url": "https://www.insee.fr/fr/statistiques/8731855", "waitUntil": "load", "continueOnError": true }
   ]
 }
