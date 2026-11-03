@@ -43,3 +43,12 @@ Une adresse n'est retenue que si la page visitée est le site du candidat ou de 
 | Florian Philippot | non trouvé | À vérifier |
 | Jean Lassalle | non trouvé | À vérifier |
 | Gilles Platret | non trouvé | À vérifier |
+
+## Mise à jour du 3 novembre 2026 (captures dans `spikes/simulateurs/probe/`, runs 41656116565, 41656719240, 41657464034)
+
+| Candidat | Constat | Suite |
+|---|---|---|
+| Marine Le Pen | marinelepen.com : page d'accueil « Pour la France — La renaissance », sans programme. rassemblementnational.fr : « 22 mesures pour 2022 », programmes 2024 et contre-budget 2026 | Pas de programme 2027 : non intégrée |
+| Raphaël Glucksmann | raphaelglucksmann.eu/programme.html : six axes d'orientations, chiffrage « publié progressivement » | Intégré (`place-publique-2026-11`) |
+| Gabriel Attal | gabrielattal.fr : page « Programme » des législatives de 2024 | Pas de programme 2027 : non intégré |
+| Fabien Roussel | fabienroussel2027.fr et pcf.fr : protection anti-robot (403), y compris la copie d'Internet Archive | Illisible : non intégré |

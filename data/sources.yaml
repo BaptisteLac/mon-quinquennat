@@ -104,3 +104,18 @@ candidates:
       render: true
       watch: weekly
       volatile: []
+  - candidateId: c-05
+    displayName: "Raphaël Glucksmann"
+    party: "Place publique"
+    status: declaree
+    corpusPrefix: place-publique
+    # Six axes et leurs orientations ; « le détail des mesures et leur chiffrage seront publiés
+    # progressivement » (recensement du 2026-10-29, vérifié le 2026-11-03).
+    programme:
+      start:
+        - "https://raphaelglucksmann.eu/programme.html"
+      include:
+        - "https://raphaelglucksmann.eu/programme.html"
+      render: true
+      watch: weekly
+      volatile: []

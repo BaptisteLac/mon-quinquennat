@@ -1,0 +1,432 @@
+===== m-88ba5df64609 =====
+{
+ "title": "Faire de l'Europe une puissance qui protège ses citoyens",
+ "summary": {
+  "simple": "L'Europe devrait peser dans le monde et défendre les intérêts communs des Européens.",
+  "normal": "Orientation : faire de l'Europe une puissance qui protège ses citoyens, pèse dans le monde et défend les intérêts communs face aux empires ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Faire de l'Europe une puissance qui protège ses citoyens
+CITATION (place-publique-2026-11-programme p. 1) : Peser dans le monde et défendre nos intérêts communs face aux empires.
+
+===== m-891e6e798b15 =====
+{
+ "title": "Renforcer la souveraineté industrielle et énergétique",
+ "summary": {
+  "simple": "La France et l'Europe reprendraient la main sur l'industrie, l'énergie et la défense.",
+  "normal": "Orientation : renforcer la souveraineté industrielle et énergétique, en matière d'industrie, d'énergie et de défense ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Renforcer notre souveraineté industrielle et énergétique
+CITATION (place-publique-2026-11-programme p. 1) : Reprendre en main notre destin en matière d'industrie, d'énergie et de défense.
+
+===== m-bd43f5edbfac =====
+{
+ "title": "Défendre l'État de droit et la démocratie face aux ingérences étrangères",
+ "summary": {
+  "simple": "L'État de droit et la démocratie seraient défendus face aux ingérences étrangères et aux tentations autoritaires.",
+  "normal": "Orientation : défendre l'État de droit et la démocratie, faire front face aux ingérences étrangères et aux tentations autoritaires ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Défendre l'État de droit et la démocratie
+CITATION (place-publique-2026-11-programme p. 1) : Faire front face aux ingérences étrangères et aux tentations autoritaires.
+
+===== m-cbc446b1314f =====
+{
+ "title": "Rapprocher l'Europe des citoyens : une Union plus démocratique et plus transparente",
+ "summary": {
+  "simple": "L'Union européenne serait rendue plus démocratique, plus transparente et plus lisible.",
+  "normal": "Orientation : porter une Union plus démocratique, plus transparente et plus lisible ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Rapprocher l'Europe des citoyens
+CITATION (place-publique-2026-11-programme p. 1) : Porter une Union plus démocratique, plus transparente et plus lisible.
+
+===== m-720e7afd26ca =====
+{
+ "title": "Garantir que le travail permette de vivre dignement",
+ "summary": {
+  "simple": "Le travail devrait permettre de vivre dignement, avec une meilleure reconnaissance des métiers essentiels.",
+  "normal": "Orientation : garantir que le travail permette de vivre dignement et mieux reconnaître les métiers essentiels ; le programme indique qu'un objectif chiffré reste à préciser. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-720e7afd26ca-e1",
+   "ticketLine": "salaire_net",
+   "section": "portefeuille",
+   "appliesTo": {
+    "field": "situationPro",
+    "op": "in",
+    "value": [
+     "salarie_prive",
+     "fonctionnaire"
+    ]
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Le candidat veut que le travail permette de vivre dignement ; l'objectif chiffré n'est pas encore publié.",
+    "normal": "Orientation sur la rémunération du travail et la reconnaissance des métiers essentiels. Montant non calculé : l'objectif chiffré est annoncé « à préciser »."
+   }
+  }
+ ]
+}
+CITATION (place-publique-2026-11-programme p. 1) : Garantir que le travail permette de vivre dignement
+CITATION (place-publique-2026-11-programme p. 1) : Mieux reconnaître les métiers essentiels et l'effort de chacun.
+
+===== m-ed1f73bf6457 =====
+{
+ "title": "Renforcer les services publics de santé, d'école et de transports dans les territoires",
+ "summary": {
+  "simple": "L'accès à la santé, à l'école et aux transports serait garanti partout de façon équitable.",
+  "normal": "Orientation : renforcer les services publics au plus près des territoires (santé, école, transports) pour un accès équitable ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Renforcer les services publics au plus près des territoires
+CITATION (place-publique-2026-11-programme p. 1) : Santé, école, transports : garantir un accès équitable partout.
+
+===== m-76fe53453155 =====
+{
+ "title": "Faire de la justice fiscale un levier de cohésion",
+ "summary": {
+  "simple": "Le système fiscal serait rendu plus juste, au service de la redistribution et de la solidarité.",
+  "normal": "Orientation : un système fiscal plus juste, au service de la redistribution et de la solidarité ; ni impôt ni barème précisés. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-76fe53453155-e1",
+   "ticketLine": "impot_revenu",
+   "section": "portefeuille",
+   "appliesTo": {
+    "all": []
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Le candidat veut un système fiscal plus redistributif ; les impôts concernés ne sont pas encore précisés.",
+    "normal": "Orientation de justice fiscale au service de la redistribution. Montant non calculé : aucun impôt ni barème n'est encore précisé."
+   }
+  }
+ ]
+}
+CITATION (place-publique-2026-11-programme p. 1) : Faire de la justice fiscale un levier de cohésion
+CITATION (place-publique-2026-11-programme p. 1) : Un système plus juste, au service de la redistribution et de la solidarité.
+
+===== m-c2b4c7ff3950 =====
+{
+ "title": "Protéger le pouvoir d'achat des ménages les plus modestes face aux dépenses contraintes",
+ "summary": {
+  "simple": "Le candidat veut agir sur les dépenses contraintes des ménages les plus modestes.",
+  "normal": "Orientation : protéger le pouvoir d'achat des ménages les plus modestes en agissant sur les dépenses contraintes ; le programme indique qu'un objectif chiffré reste à préciser. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Protéger le pouvoir d'achat des ménages les plus modestes
+CITATION (place-publique-2026-11-programme p. 1) : Agir sur les dépenses contraintes qui pèsent sur le quotidien.
+
+===== m-8d1fd180d349 =====
+{
+ "title": "Réduire les inégalités entre territoires et générations, et entre femmes et hommes",
+ "summary": {
+  "simple": "Les inégalités entre territoires, entre générations et entre femmes et hommes seraient réduites.",
+  "normal": "Orientation : réduire les inégalités entre territoires et générations, et faire progresser l'égalité réelle entre les femmes et les hommes ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Réduire les inégalités entre territoires et générations
+CITATION (place-publique-2026-11-programme p. 1) : Et faire progresser l'égalité réelle entre les femmes et les hommes.
+
+===== m-661c0a05a356 =====
+{
+ "title": "Faire de la transition écologique une transition juste pour les ménages fragiles",
+ "summary": {
+  "simple": "La transition écologique devrait protéger les ménages les plus fragiles à chaque étape.",
+  "normal": "Orientation : une transition écologique juste, qui protège les ménages les plus fragiles à chaque étape ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Faire de la transition écologique une transition juste
+CITATION (place-publique-2026-11-programme p. 1) : Protéger les ménages les plus fragiles à chaque étape du changement.
+
+===== m-063f33ad1d8e =====
+{
+ "title": "Investir dans les emplois et les industries de demain",
+ "summary": {
+  "simple": "Les compétences nouvelles et les filières d'avenir seraient soutenues.",
+  "normal": "Orientation : investir dans les emplois et industries de demain, former aux compétences nouvelles et soutenir les filières d'avenir ; le programme indique qu'un objectif chiffré reste à préciser. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Investir dans les emplois et les industries de demain
+CITATION (place-publique-2026-11-programme p. 1) : Former aux compétences nouvelles et soutenir les filières d'avenir.
+
+===== m-9c8be8580e09 =====
+{
+ "title": "Accompagner ménages et entreprises dans la transition",
+ "summary": {
+  "simple": "Les ménages et les entreprises seraient accompagnés concrètement dans la transformation écologique.",
+  "normal": "Orientation : accompagner concrètement ménages et entreprises pour rendre la transformation « possible et désirable » ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Accompagner concrètement ménages et entreprises
+CITATION (place-publique-2026-11-programme p. 1) : Rendre la transformation possible et désirable, plutôt que subie.
+
+===== m-880d171a3a05 =====
+{
+ "title": "Préserver la biodiversité, l'eau et les ressources",
+ "summary": {
+  "simple": "La biodiversité, l'eau et les ressources seraient traitées comme des biens communs à transmettre.",
+  "normal": "Orientation : préserver la biodiversité, l'eau et les ressources, traitées comme des biens communs ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Préserver la biodiversité, l'eau et les ressources
+CITATION (place-publique-2026-11-programme p. 1) : Traiter les biens communs comme un héritage à transmettre.
+
+===== m-0663d96097cd =====
+{
+ "title": "Faire de la France une puissance de paix, ferme face aux régimes autoritaires",
+ "summary": {
+  "simple": "La France serait ferme face aux régimes autoritaires et défendrait les droits humains.",
+  "normal": "Orientation : une France puissance de paix, ferme face aux régimes autoritaires et fidèle à la défense des droits humains ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Faire de la France une puissance de paix
+CITATION (place-publique-2026-11-programme p. 1) : Ferme face aux régimes autoritaires, fidèle à la défense des droits humains.
+
+===== m-1e1717298f43 =====
+{
+ "title": "Soutenir les peuples qui luttent pour leur liberté",
+ "summary": {
+  "simple": "La France soutiendrait les peuples qui luttent pour leur liberté.",
+  "normal": "Orientation : soutenir les peuples qui luttent pour leur liberté et refuser la loi du plus fort ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Soutenir les peuples qui luttent pour leur liberté
+CITATION (place-publique-2026-11-programme p. 1) : Refuser la loi du plus fort, partout où elle s'impose.
+
+===== m-957400065202 =====
+{
+ "title": "Renforcer la confiance et la participation démocratiques",
+ "summary": {
+  "simple": "Les citoyens devraient avoir davantage le sentiment d'être entendus.",
+  "normal": "Orientation : renforcer la confiance et la participation démocratiques ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Renforcer la confiance et la participation démocratiques
+CITATION (place-publique-2026-11-programme p. 1) : Redonner aux citoyens le sentiment d'être entendus.
+
+===== m-dfd053dc8254 =====
+{
+ "title": "Garantir la transparence de la vie publique et l'indépendance des contre-pouvoirs",
+ "summary": {
+  "simple": "La vie publique serait plus transparente et l'indépendance de la justice et des contre-pouvoirs protégée.",
+  "normal": "Orientation : garantir la transparence de la vie publique et protéger l'indépendance des contre-pouvoirs et de la justice ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Garantir la transparence de la vie publique
+CITATION (place-publique-2026-11-programme p. 1) : Protéger l'indépendance des contre-pouvoirs et de la justice.
+
+===== m-07022ad05946 =====
+{
+ "title": "Rénover les institutions pour les rendre plus lisibles, stables et responsables",
+ "summary": {
+  "simple": "Les institutions seraient rénovées pour être plus lisibles, plus stables et plus responsables.",
+  "normal": "Orientation : rénover les institutions, plus lisibles, plus stables et plus responsables devant le pays ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Rénover nos institutions
+CITATION (place-publique-2026-11-programme p. 1) : Les rendre plus lisibles, plus stables et plus responsables devant le pays.
+
+===== m-85d39c2b0b90 =====
+{
+ "title": "Investir dans l'école, la recherche et la formation tout au long de la vie",
+ "summary": {
+  "simple": "L'école, la recherche et la formation recevraient davantage d'investissements.",
+  "normal": "Orientation : investir dans l'école, la recherche et la formation, et soutenir l'apprentissage tout au long de la vie ; le programme indique qu'un objectif chiffré reste à préciser. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Investir dans l'école, la recherche et la formation
+CITATION (place-publique-2026-11-programme p. 1) : Soutenir l'apprentissage tout au long de la vie.
+
+===== m-73ed759d4f67 =====
+{
+ "title": "Faire de la jeunesse une priorité : conditions de vie et d'études",
+ "summary": {
+  "simple": "Les conditions de vie et d'études des jeunes seraient améliorées.",
+  "normal": "Orientation : faire de la jeunesse une priorité et améliorer ses conditions de vie et d'études ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Faire de la jeunesse une priorité
+CITATION (place-publique-2026-11-programme p. 1) : Améliorer les conditions de vie et d'études des jeunes générations.
+
+===== m-93b1278173ee =====
+{
+ "title": "Garantir un accès large à la culture et à la création partout",
+ "summary": {
+  "simple": "L'accès à la culture et à la création serait garanti partout et pour toutes les générations.",
+  "normal": "Orientation : un accès large à la culture et à la création, partout sur le territoire et pour toutes les générations ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Garantir un accès large à la culture et à la création
+CITATION (place-publique-2026-11-programme p. 1) : Partout sur le territoire, et pour toutes les générations.
+
+===== m-901c9ebba853 =====
+{
+ "title": "Soutenir l'émancipation par le savoir et l'esprit critique",
+ "summary": {
+  "simple": "L'esprit critique et la citoyenneté seraient développés par le savoir.",
+  "normal": "Orientation : soutenir l'émancipation par le savoir, développer l'esprit critique et la citoyenneté ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (place-publique-2026-11-programme p. 1) : Soutenir l'émancipation par le savoir
+CITATION (place-publique-2026-11-programme p. 1) : Développer l'esprit critique et la citoyenneté comme boussoles communes.

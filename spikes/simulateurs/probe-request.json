@@ -1,8 +1,7 @@
 {
-  "run": 32,
+  "run": 35,
   "targets": [
-    { "id": "insee-distribution-niveaux-de-vie-tableau", "url": "https://www.insee.fr/fr/statistiques/2416808", "waitUntil": "load", "continueOnError": true, "actions": [{ "click": "TABLEAU" }, { "wait": 2000 }] },
-    { "id": "insee-niveau-de-vie-pauvrete-2024", "url": "https://www.insee.fr/fr/statistiques/9019316", "waitUntil": "load", "continueOnError": true },
-    { "id": "insee-revenu-niveau-de-vie-2023", "url": "https://www.insee.fr/fr/statistiques/8731855", "waitUntil": "load", "continueOnError": true }
+    { "id": "roussel-wayback", "url": "https://web.archive.org/web/2026/https://www.fabienroussel2027.fr/", "waitUntil": "load", "timeoutMs": 120000, "continueOnError": true, "follow": "programme|projet|mesure|propos", "maxFollow": 6 },
+    { "id": "roussel-wayback-cdx", "url": "https://web.archive.org/cdx/search/cdx?url=fabienroussel2027.fr*&output=txt&limit=200&from=2026", "waitUntil": "load", "timeoutMs": 60000, "continueOnError": true }
   ]
 }
