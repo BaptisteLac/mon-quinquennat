@@ -7,8 +7,17 @@
  * - Qualitatif : effets dont la condition « à qui s'applique » est vraie pour le profil.
  * Aucun montant n'est produit ici autrement que par une soustraction de montants calculés.
  */
-import { LegalAgeTable, retraiteAgeDepart } from "@mon-quinquennat/formulas";
+import {
+  baisseCotisationsSalaire,
+  deductionInteretsEmprunt,
+  energieFacture,
+  LegalAgeTable,
+  PublicData,
+  retraiteAgeDepart,
+  type Range,
+} from "@mon-quinquennat/formulas";
 import ageLegalActuel from "@mon-quinquennat/formulas/data/age-legal-actuel.json";
+import donneesPubliques from "@mon-quinquennat/formulas/data/donnees-publiques.json";
 import { Ticket, type Measure, type Profile, type TicketLineResult } from "@mon-quinquennat/schema";
 import type { Programme } from "../data";
 import type { CalcOutput, CalculResponse } from "./calc-client";
@@ -25,15 +34,73 @@ type TicketLine = TicketLineResult["ticketLine"];
 const OUTPUT_LINES: Record<CalcOutput, { ticketLine: TicketLine; sign: 1 | -1 }> = {
   impot_revenu: { ticketLine: "impot_revenu", sign: -1 },
   prime_activite: { ticketLine: "prime_activite", sign: 1 },
+  rsa: { ticketLine: "prime_activite", sign: 1 },
   aides_logement: { ticketLine: "apl", sign: 1 },
   allocations_familiales: { ticketLine: "allocations_familiales", sign: 1 },
   minimum_vieillesse: { ticketLine: "pension", sign: 1 },
+  salaire_net: { ticketLine: "salaire_net", sign: 1 },
 };
 
 /** En dessous, l'écart est un arrondi de calcul, pas un effet. */
 const MIN_DELTA = 0.5;
 
 const AGE_TABLE = LegalAgeTable.parse(ageLegalActuel);
+const PUBLIC_DATA = new Map(PublicData.parse(donneesPubliques).map((d) => [d.id, d]));
+
+/** Donnée publique d'une hypothèse ; « programme » : le cas type vient d'une citation de la mesure. */
+export function publicDatum(id: string) {
+  if (id === "programme") return null;
+  const d = PUBLIC_DATA.get(id);
+  if (!d) throw new Error(`Donnée publique inconnue : ${id}`);
+  return d;
+}
+
+/** Salaires nets mensuels des salariés du foyer (adulte et conjoint). */
+function salaires(profile: Profile): number[] {
+  const out: number[] = [];
+  if (profile.situationPro === "salarie_prive") out.push(profile.revenusNetsMensuels);
+  if (profile.situationProConjoint === "salarie_prive") out.push(profile.revenusConjointNetsMensuels ?? 0);
+  return out;
+}
+
+function enfantsMineurs(profile: Profile): number {
+  const year = Number(START_OF_TERM.slice(0, 4));
+  return profile.enfants.filter((e) => year - e.anneeNaissance < 18).length;
+}
+
+/** Montant d'une estimation de la liste blanche, ou null si la formule ne s'applique pas encore. */
+function estimate(
+  formulaId: string,
+  params: Record<string, number>,
+  dataSourceId: string,
+  profile: Profile,
+  calc: CalculResponse,
+  candidateId: string,
+): Range | null {
+  const datum = publicDatum(dataSourceId);
+  switch (formulaId) {
+    case "baisse_cotisations_salaire":
+      return baisseCotisationsSalaire(salaires(profile), params, datum?.valeur ?? null);
+    case "energie_facture":
+      if (!datum) throw new Error("La facture d'électricité moyenne doit venir d'une donnée publique.");
+      return energieFacture(params, datum.valeur);
+    case "deduction_interets_emprunt":
+      // Une réduction ne dépasse pas l'impôt dû une fois les autres réformes du programme appliquées.
+      return deductionInteretsEmprunt(
+        enfantsMineurs(profile),
+        params,
+        calc.candidats[candidateId]?.montants.impot_revenu ?? calc.actuel.montants.impot_revenu,
+      );
+    default:
+      return null;
+  }
+}
+
+/** Texte de l'hypothèse affichée : libellé de la mesure et donnée publique citée. */
+export function hypothesisText(label: string, dataSourceId: string): string {
+  const d = publicDatum(dataSourceId);
+  return d ? `${label} Source : ${d.publisher}, « ${d.citation} ».` : label;
+}
 
 const round2 = (n: number) => Math.round(n * 100) / 100 + 0; // + 0 : pas de « -0 »
 
@@ -50,26 +117,38 @@ function walletLines(programme: Programme, calc: CalculResponse, byId: ReadonlyM
   const out: Built = { lines: [], uncomputed: [] };
   const cand = calc.candidats[programme.candidate.id];
   if (!cand) return out;
+  // Plusieurs montants peuvent tenir sur une ligne (RSA et prime d'activité) : on les additionne.
+  const byLine = new Map<TicketLine, { base: number; after: number; measures: Measure[]; missing: string | null }>();
   for (const [output, ids] of Object.entries(cand.mesures) as [CalcOutput, string[]][]) {
     const measures = ids.flatMap((id) => byId.get(id) ?? []);
     if (measures.length === 0) continue;
-    const measureIds = measures.map((m) => m.id);
     const { ticketLine, sign } = OUTPUT_LINES[output];
+    const entry = byLine.get(ticketLine) ?? { base: 0, after: 0, measures: [], missing: null };
+    for (const m of measures) if (!entry.measures.includes(m)) entry.measures.push(m);
     const base = calc.actuel.montants[output];
     const after = cand.montants[output];
     if (base === null || after === null) {
-      const reason = cand.nonCalcules[output] ?? calc.actuel.nonCalcules[output] ?? "Montant non calculable pour ce profil.";
-      out.uncomputed.push({ ticketLine, reason, measureIds });
+      entry.missing ??= cand.nonCalcules[output] ?? calc.actuel.nonCalcules[output] ?? "Montant non calculable pour ce profil.";
+    } else {
+      entry.base += sign * base;
+      entry.after += sign * after;
+    }
+    byLine.set(ticketLine, entry);
+  }
+  for (const [ticketLine, { base, after, measures, missing }] of byLine) {
+    const measureIds = measures.map((m) => m.id);
+    if (missing !== null) {
+      out.uncomputed.push({ ticketLine, reason: missing, measureIds });
       continue;
     }
-    const delta = round2(sign * (after - base));
+    const delta = round2(after - base);
     if (Math.abs(delta) < MIN_DELTA) continue;
     out.lines.push({
       ticketLine,
       section: "portefeuille",
       nature: "sur",
       value: { low: delta, high: delta },
-      baseline: base,
+      baseline: round2(Math.abs(base)),
       measureIds,
       effectiveDate: latest(measures.map((m) => m.schedule.effectiveDate)),
     });
@@ -77,8 +156,8 @@ function walletLines(programme: Programme, calc: CalculResponse, byId: ReadonlyM
   return out;
 }
 
-function effectLines(programme: Programme, profile: Profile): Built {
-  const out: Built = { lines: [], uncomputed: [] };
+function effectLines(programme: Programme, profile: Profile, calc: CalculResponse): Built & { hypotheses: string[] } {
+  const out: Built & { hypotheses: string[] } = { lines: [], uncomputed: [], hypotheses: [] };
   const qualitative = new Map<TicketLine, { section: TicketLineResult["section"]; measures: Measure[] }>();
   for (const m of programme.measures) {
     for (const e of m.effects) {
@@ -107,6 +186,22 @@ function effectLines(programme: Programme, profile: Profile): Built {
         });
         continue;
       }
+      if (c.kind === "estimation") {
+        const v = estimate(c.formulaId, c.params, c.hypothesis.dataSourceId, profile, calc, programme.candidate.id);
+        if (v !== null) {
+          if (Math.abs(v.low) < MIN_DELTA && Math.abs(v.high) < MIN_DELTA) continue;
+          out.lines.push({
+            ticketLine: e.ticketLine,
+            section: e.section,
+            nature: "estime",
+            value: v,
+            measureIds: [m.id],
+            effectiveDate: m.schedule.effectiveDate,
+          });
+          out.hypotheses.push(hypothesisText(c.hypothesis.label, c.hypothesis.dataSourceId));
+          continue;
+        }
+      }
       // Formule ou estimation pas encore écrite : signalée, jamais remplacée par un chiffre approché.
       out.uncomputed.push({ ticketLine: e.ticketLine, reason: "Calcul pas encore disponible pour cette mesure.", measureIds: [m.id] });
     }
@@ -126,7 +221,7 @@ function effectLines(programme: Programme, profile: Profile): Built {
 export function buildTicket(programme: Programme, profile: Profile, calc: CalculResponse): Ticket {
   const byId = new Map(programme.measures.map((m) => [m.id, m]));
   const wallet = walletLines(programme, calc, byId);
-  const effects = effectLines(programme, profile);
+  const effects = effectLines(programme, profile, calc);
   const lines = [...wallet.lines, ...effects.lines];
 
   const money = lines.filter((l) => l.section === "portefeuille" && l.value);
@@ -135,7 +230,9 @@ export function buildTicket(programme: Programme, profile: Profile, calc: Calcul
     const months = monthsApplied(l.effectiveDate);
     return { low: (l.value?.low ?? 0) * months, high: (l.value?.high ?? 0) * months };
   });
-  const hypotheses = [...new Set([...calc.actuel.hypotheses, ...(calc.candidats[programme.candidate.id]?.hypotheses ?? [])])];
+  const hypotheses = [
+    ...new Set([...calc.actuel.hypotheses, ...(calc.candidats[programme.candidate.id]?.hypotheses ?? []), ...effects.hypotheses]),
+  ];
 
   return Ticket.parse({
     candidateId: programme.candidate.id,

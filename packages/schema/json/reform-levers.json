@@ -1,5 +1,11 @@
 [
   "minimum_vieillesse_personne_seule_mensuel",
   "quotient_familial_sans_plafond",
-  "impot_revenu_taux_tranche_2"
+  "impot_revenu_taux_tranche_2",
+  "revenu_familial_par_enfant_mensuel",
+  "revenu_familial_troisieme_enfant_mensuel",
+  "revenu_incitation_activite_base_mensuel",
+  "revenu_incitation_activite_complement_mensuel",
+  "revenu_incitation_activite_taux_degressivite",
+  "csg_activite_taux_global"
 ]

@@ -40,10 +40,28 @@
         {
           "ticketLine": "allocations_familiales",
           "section": "portefeuille",
-          "appliesTo": { "field": "enfantsAgeBand", "op": "in", "value": ["0_2", "3_10", "11_17"] },
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "0_2",
+              "3_10",
+              "11_17"
+            ]
+          },
           "sentence": {
-            "simple": "Tu recevrais 240 € par mois pour chaque enfant mineur, mais tu perdrais les allocations familiales, le complément familial et l'avantage fiscal du quotient familial.",
-            "normal": "Le Revenu familial de 240 € par enfant mineur et par mois remplacerait allocations familiales, majoration pour âge, complément familial et quotient familial ; il serait réservé aux parents en activité depuis au moins cinq ans. Gain net non encore calculé pour ton profil."
+            "simple": "Tu recevrais 240 € par mois pour chaque enfant mineur, à la place des allocations familiales et de l'avantage fiscal du quotient familial.",
+            "normal": "Le Revenu familial de 240 € par enfant mineur et par mois remplacerait allocations familiales, majoration pour âge, complément familial et quotient familial ; calcul fait en supposant remplies les conditions de résidence et de cinq ans d'activité."
+          },
+          "computation": {
+            "kind": "bareme",
+            "reform": [
+              {
+                "parameter": "revenu_familial_par_enfant_mensuel",
+                "value": 240,
+                "from": "2028-01-01"
+              }
+            ]
           }
         }
       ]
@@ -67,10 +85,24 @@
         {
           "ticketLine": "allocations_familiales",
           "section": "portefeuille",
-          "appliesTo": { "field": "nbEnfants", "op": "gte", "value": 3 },
+          "appliesTo": {
+            "field": "nbEnfants",
+            "op": "gte",
+            "value": 3
+          },
           "sentence": {
             "simple": "Avec trois enfants mineurs, le Revenu familial atteindrait 960 € par mois.",
             "normal": "Le Revenu familial serait doublé pour le troisième enfant mineur : 960 € par mois pour trois enfants, 1 200 € pour quatre."
+          },
+          "computation": {
+            "kind": "bareme",
+            "reform": [
+              {
+                "parameter": "revenu_familial_troisieme_enfant_mensuel",
+                "value": 480,
+                "from": "2028-01-01"
+              }
+            ]
           }
         }
       ]
@@ -100,8 +132,19 @@
           "section": "temps",
           "appliesTo": {
             "all": [
-              { "field": "enfantsAgeBand", "op": "eq", "value": "0_2" },
-              { "field": "situationPro", "op": "in", "value": ["salarie_prive", "fonctionnaire"] }
+              {
+                "field": "enfantsAgeBand",
+                "op": "eq",
+                "value": "0_2"
+              },
+              {
+                "field": "situationPro",
+                "op": "in",
+                "value": [
+                  "salarie_prive",
+                  "fonctionnaire"
+                ]
+              }
             ]
           },
           "sentence": {
@@ -134,7 +177,11 @@
         {
           "ticketLine": "ecole",
           "section": "vie",
-          "appliesTo": { "field": "enfantsAgeBand", "op": "eq", "value": "0_2" },
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "eq",
+            "value": "0_2"
+          },
           "sentence": {
             "simple": "Les micro-crèches, y compris en entreprise, pourraient ouvrir plus facilement.",
             "normal": "Les micro-crèches suivraient le régime plus souple des maisons d'assistantes maternelles, et une crèche d'entreprise serait autorisée en moins de six mois."
@@ -163,8 +210,19 @@
           "section": "portefeuille",
           "appliesTo": {
             "all": [
-              { "field": "enfantsAgeBand", "op": "in", "value": ["0_2", "3_10"] },
-              { "field": "situationPro", "op": "eq", "value": "salarie_prive" }
+              {
+                "field": "enfantsAgeBand",
+                "op": "in",
+                "value": [
+                  "0_2",
+                  "3_10"
+                ]
+              },
+              {
+                "field": "situationPro",
+                "op": "eq",
+                "value": "salarie_prive"
+              }
             ]
           },
           "sentence": {

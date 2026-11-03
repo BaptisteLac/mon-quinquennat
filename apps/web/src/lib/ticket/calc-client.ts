@@ -5,11 +5,22 @@
 import type { Profile } from "@mon-quinquennat/schema";
 import { z } from "zod";
 
-export const CALC_OUTPUTS = ["impot_revenu", "prime_activite", "aides_logement", "allocations_familiales", "minimum_vieillesse"] as const;
+export const CALC_OUTPUTS = [
+  "impot_revenu",
+  "prime_activite",
+  "rsa",
+  "aides_logement",
+  "allocations_familiales",
+  "minimum_vieillesse",
+  "salaire_net",
+] as const;
 export const CalcOutput = z.enum(CALC_OUTPUTS);
 export type CalcOutput = z.infer<typeof CalcOutput>;
 
-const Amounts = z.object(Object.fromEntries(CALC_OUTPUTS.map((k) => [k, z.number().nullable()])) as Record<CalcOutput, z.ZodNullable<z.ZodNumber>>);
+// Un montant absent (service d'une version antérieure, le temps d'un déploiement) vaut « non calculé ».
+const Amounts = z.object(
+  Object.fromEntries(CALC_OUTPUTS.map((k) => [k, z.number().nullable().default(null)])) as Record<CalcOutput, z.ZodDefault<z.ZodNullable<z.ZodNumber>>>,
+);
 
 const CalcResult = z.object({
   /** €/mois ; null si non calculable pour ce profil (motif dans `nonCalcules`). */

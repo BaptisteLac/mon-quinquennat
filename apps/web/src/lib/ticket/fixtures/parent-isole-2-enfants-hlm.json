@@ -30,7 +30,9 @@
         "allocations_familiales": 152.24,
         "impot_revenu": 0.0,
         "minimum_vieillesse": 0.0,
-        "prime_activite": 183.86
+        "prime_activite": 183.86,
+        "rsa": 0.0,
+        "salaire_net": 1700.0
       },
       "nonCalcules": {}
     },
@@ -38,43 +40,97 @@
       "c-01": {
         "hypotheses": [
           "Enfants nés le 1er juillet de leur année de naissance (≈).",
-          "Personne seule avec enfants : parent isolé (case T), sans pension alimentaire."
+          "Personne seule avec enfants : parent isolé (case T), sans pension alimentaire.",
+          "CSG sur les revenus d'activité : la part imposable (2,4 %) est gardée, la baisse porte sur la part déductible."
         ],
         "mesures": {
           "aides_logement": [
-            "m-9dd1526ae0f6"
+            "m-9dd1526ae0f6",
+            "m-6c65b91996c9"
           ],
           "impot_revenu": [
-            "m-342ce4e68e35"
+            "m-342ce4e68e35",
+            "m-6c65b91996c9"
           ],
           "minimum_vieillesse": [
             "m-9dd1526ae0f6"
           ],
           "prime_activite": [
-            "m-9dd1526ae0f6"
+            "m-9dd1526ae0f6",
+            "m-6c65b91996c9"
+          ],
+          "rsa": [
+            "m-6c65b91996c9"
+          ],
+          "salaire_net": [
+            "m-6c65b91996c9"
           ]
         },
         "montants": {
-          "aides_logement": 160.3,
+          "aides_logement": 189.12,
           "allocations_familiales": 152.24,
           "impot_revenu": 0.0,
           "minimum_vieillesse": 0.0,
-          "prime_activite": 183.86
+          "prime_activite": 133.01,
+          "rsa": 0.0,
+          "salaire_net": 1754.86
         },
         "nonCalcules": {}
       },
       "c-03": {
         "hypotheses": [
           "Enfants nés le 1er juillet de leur année de naissance (≈).",
-          "Personne seule avec enfants : parent isolé (case T), sans pension alimentaire."
+          "Personne seule avec enfants : parent isolé (case T), sans pension alimentaire.",
+          "Revenu d'incitation à l'activité : calculé pour chaque adulte, montant de base plus complément moins la part du revenu d'activité, sans descendre sous zéro.",
+          "Revenu d'incitation à l'activité : un demandeur d'emploi est supposé faire au moins quinze heures de recherche ou de formation ; ni les retraités, ni les étudiants, ni les moins de 25 ans sans activité n'y ont droit ; l'ASS n'est pas modélisée.",
+          "Revenu familial : conditions de résidence régulière et de cinq ans d'activité professionnelle supposées remplies.",
+          "Revenu familial : versé jusqu'aux 18 ans de l'enfant ; le complément familial et l'avantage du quotient familial pour enfant disparaissent ; la demi-part d'un parent isolé est gardée."
         ],
-        "mesures": {},
+        "mesures": {
+          "aides_logement": [
+            "m-88eed64006b3",
+            "m-f533d5da8646",
+            "m-948ffac79d16"
+          ],
+          "allocations_familiales": [
+            "m-88eed64006b3",
+            "m-f533d5da8646",
+            "m-948ffac79d16"
+          ],
+          "impot_revenu": [
+            "m-88eed64006b3",
+            "m-f533d5da8646",
+            "m-948ffac79d16"
+          ],
+          "minimum_vieillesse": [
+            "m-88eed64006b3",
+            "m-f533d5da8646",
+            "m-948ffac79d16"
+          ],
+          "prime_activite": [
+            "m-88eed64006b3",
+            "m-f533d5da8646",
+            "m-948ffac79d16"
+          ],
+          "rsa": [
+            "m-88eed64006b3",
+            "m-f533d5da8646",
+            "m-948ffac79d16"
+          ],
+          "salaire_net": [
+            "m-88eed64006b3",
+            "m-f533d5da8646",
+            "m-948ffac79d16"
+          ]
+        },
         "montants": {
           "aides_logement": 160.3,
-          "allocations_familiales": 152.24,
+          "allocations_familiales": 480.0,
           "impot_revenu": 0.0,
           "minimum_vieillesse": 0.0,
-          "prime_activite": 183.86
+          "prime_activite": 40.0,
+          "rsa": 0.0,
+          "salaire_net": 1700.0
         },
         "nonCalcules": {}
       }

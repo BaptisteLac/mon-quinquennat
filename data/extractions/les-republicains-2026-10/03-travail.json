@@ -34,7 +34,19 @@
           },
           "sentence": {
             "simple": "Ton salaire net augmenterait grâce à la baisse des cotisations ; le candidat annonce environ 500 € par an au salaire médian.",
-            "normal": "La moitié d'une baisse de 30 milliards d'euros de cotisations par an reviendrait aux salariés ; le programme chiffre le gain à environ 500 € nets par an au salaire médian, sans préciser le barème. Montant non calculé pour ton profil."
+            "normal": "La moitié d'une baisse de 30 milliards d'euros de cotisations par an reviendrait aux salariés ; le programme chiffre le gain à environ 500 € nets par an au salaire médian, adapté ici à ton salaire."
+          },
+          "computation": {
+            "kind": "estimation",
+            "formulaId": "baisse_cotisations_salaire",
+            "params": [
+              {
+                "name": "gainAnnuelReference",
+                "value": 500
+              }
+            ],
+            "hypothesisLabel": "Estimation : baisse proportionnelle à ton salaire, calée sur environ 500 € nets par an au salaire médian du secteur privé, montant annoncé par le candidat.",
+            "hypothesisSourceId": "insee-salaire-median-prive-2024"
           }
         }
       ]
@@ -128,8 +140,28 @@
             ]
           },
           "sentence": {
-            "simple": "Le RSA et la prime d'activité seraient remplacés par un Revenu d'incitation à l'activité : 300 € par mois sans activité, plus 250 € avec quinze heures de formation ou de recherche d'emploi.",
-            "normal": "Le Revenu d'incitation à l'activité remplacerait RSA, prime d'activité et ASS : 300 € sans activité, complétés de 250 € dès quinze heures de formation ou de recherche d'emploi, puis un complément réduit de 30 % du salaire, nul au-delà de 1 833 € de revenus d'activité par mois. Montant non encore calculé pour ton profil."
+            "simple": "Le RSA et la prime d'activité seraient remplacés par un Revenu d'incitation à l'activité : 300 € sans activité, plus 250 € avec une recherche d'emploi, moins 30 % de ton salaire.",
+            "normal": "Le Revenu d'incitation à l'activité remplacerait RSA, prime d'activité et ASS : 300 € sans activité, complétés de 250 € dès quinze heures de formation ou de recherche d'emploi, puis diminués de 30 % du revenu d'activité, nul au-delà de 1 833 € par mois."
+          },
+          "computation": {
+            "kind": "bareme",
+            "reform": [
+              {
+                "parameter": "revenu_incitation_activite_base_mensuel",
+                "value": 300,
+                "from": "2028-01-01"
+              },
+              {
+                "parameter": "revenu_incitation_activite_complement_mensuel",
+                "value": 250,
+                "from": "2028-01-01"
+              },
+              {
+                "parameter": "revenu_incitation_activite_taux_degressivite",
+                "value": 30,
+                "from": "2028-01-01"
+              }
+            ]
           }
         }
       ]

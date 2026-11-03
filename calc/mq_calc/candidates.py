@@ -9,7 +9,7 @@ from pathlib import Path
 from pydantic import BaseModel, ConfigDict
 
 from .compute import Candidate, baseline
-from .levers import LEVERS, changes_for
+from .levers import LEVERS, changes_for, structural_settings
 from .reforms import make_reform
 
 PUBLISHED = ("auto_validee", "validee_humain")
@@ -71,5 +71,7 @@ def load(specs: list[CandidateSpec]) -> list[Candidate]:
     for s in specs:
         changes = [ch for u in s.levers for ch in changes_for(u.lever, u.value)]
         outputs = frozenset().union(*(LEVERS[u.lever].outputs for u in s.levers)) if s.levers else frozenset()
-        out.append(Candidate(s.id, make_reform(baseline(), changes, s.id), outputs))
+        structural = structural_settings([(u.lever, u.value) for u in s.levers])
+        hypotheses = tuple(dict.fromkeys(h for u in s.levers for h in LEVERS[u.lever].hypotheses))
+        out.append(Candidate(s.id, make_reform(baseline(), changes, s.id, structural), outputs, hypotheses))
     return out

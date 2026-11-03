@@ -190,6 +190,21 @@ export const ReformLever = z.enum([
   "quotient_familial_sans_plafond",
   /** Taux de la 2e tranche du barème de l'impôt sur le revenu, en % (ex. 11). */
   "impot_revenu_taux_tranche_2",
+  /**
+   * Revenu familial : montant par enfant mineur à charge, en €/mois. Remplace allocations familiales
+   * (majoration pour âge comprise), complément familial et avantage du quotient familial pour enfant.
+   */
+  "revenu_familial_par_enfant_mensuel",
+  /** Revenu familial : montant pour le troisième enfant mineur, en €/mois (avec le levier précédent). */
+  "revenu_familial_troisieme_enfant_mensuel",
+  /** Revenu d'incitation à l'activité : montant sans activité ni revenu, en €/mois. Remplace RSA et prime d'activité. */
+  "revenu_incitation_activite_base_mensuel",
+  /** Revenu d'incitation à l'activité : complément pour une recherche d'emploi ou une formation, en €/mois. */
+  "revenu_incitation_activite_complement_mensuel",
+  /** Revenu d'incitation à l'activité : part du revenu d'activité déduite de l'allocation, en % (ex. 30). */
+  "revenu_incitation_activite_taux_degressivite",
+  /** Taux global de CSG sur les revenus d'activité, en % (ex. 6,6). */
+  "csg_activite_taux_global",
 ]);
 
 const BaremeComputation = z.object({
@@ -214,10 +229,11 @@ const FormulaComputation = z.object({
 /** Estimé (≈) : dépend d'une hypothèse de consommation moyenne, affichée à l'utilisateur. */
 const EstimateComputation = z.object({
   kind: z.literal("estimation"),
-  formulaId: z.enum(["tva_consommation", "energie_facture"]),
+  formulaId: z.enum(["tva_consommation", "energie_facture", "baisse_cotisations_salaire", "deduction_interets_emprunt"]),
   params: z.record(z.string(), z.number()),
   hypothesis: z.object({
     label: z.string(), // « Consommation d'électricité moyenne d'un foyer de 4 personnes »
+    /** Donnée publique de `packages/formulas/data/donnees-publiques.json`, ou « programme » si le cas type vient d'une citation de la mesure. */
     dataSourceId: z.string(),
   }),
 });

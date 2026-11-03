@@ -1,0 +1,337 @@
+{
+  "requested": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/partie7-bilan-de-la-circulation",
+  "final": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/partie7-bilan-de-la-circulation",
+  "status": 200,
+  "title": "Bilan de la circulation | Chiffres clés des transports 2026",
+  "iframes": [
+    "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/partie7-bilan-de-la-circulation"
+  ],
+  "links": [
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/index.php",
+      "text": ""
+    },
+    {
+      "href": "javascript:void(0);",
+      "text": "Accessibilité"
+    },
+    {
+      "href": "javascript:void(0);",
+      "text": ""
+    },
+    {
+      "href": "javascript:void(0);",
+      "text": ""
+    },
+    {
+      "href": "javascript:void(0);",
+      "text": ""
+    },
+    {
+      "href": "javascript:void(0);",
+      "text": ""
+    },
+    {
+      "href": "javascript:void(0);",
+      "text": ""
+    },
+    {
+      "href": "javascript:void(0);",
+      "text": ""
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/avant-propos.php",
+      "text": "Web"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/livre",
+      "text": "Livre"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/pdf/chiffres-cles-des-transports-2026.pdf",
+      "text": "PDF"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/",
+      "text": "Accueil"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/avant-propos",
+      "text": "Avant-propos"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/donnees-cles",
+      "text": "Données clés"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/infrastructures-de-transport",
+      "text": "Infrastructures de transport"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/partie1-transport-et-activite-economique",
+      "text": "Transport et activité économique"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/3-depenses-de-transport-",
+      "text": "Dépenses de transport"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/4-production-de-transport-",
+      "text": "Production de transport"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/5-depenses-des-menages-en-transport",
+      "text": "Dépenses des ménages en transport"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/6-recettes-et-depenses-publiques-liees",
+      "text": "Recettes et dépenses publiques liées au transport"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/partie2-entreprises-francaises-de-transport",
+      "text": "Entreprises françaises de transport"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/7-demographie-des-entreprises-de-transport",
+      "text": "Démographie des entreprises de transport"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/8-entreprises-de-transport-routier",
+      "text": "Entreprises de transport routier"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/9-entreprises-de-transport-collectif-urbain",
+      "text": "Entreprises de transport collectif urbain"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/10-entreprises-de-transport-ferroviaire",
+      "text": "Entreprises de transport ferroviaire"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/11-entreprises-de-transport-fluvial-et",
+      "text": "Entreprises de transport fluvial et maritime"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/12-entreprises-de-transport-aerien",
+      "text": "Entreprises de transport aérien"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/13-comptes-des-entreprises-de-transport",
+      "text": "Comptes des entreprises de transport"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/partie3-emploi-et-marche-du-travail",
+      "text": "Emploi et marché du travail"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/14-emploi-salarie-",
+      "text": "Emploi salarié"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/15-profil-des-salaries-des-transports",
+      "text": "Profil des salariés des transports et de l’entreposage"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/16-salaires-dans-le-secteur-des",
+      "text": "Salaires dans le secteur des transports et de l’entreposage"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/partie4-enjeux-des-transports-pour-environnement-et-sante",
+      "text": "Enjeux des transports pour l’environnement et la santé"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/17-consommation-denergie-des-transports-",
+      "text": "Consommation d’énergie des transports"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/18-emissions-de-gaz-a-effet",
+      "text": "Émissions de gaz à effet de serre du transport"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/19-emissions-de-polluants-atmospheriques-du",
+      "text": "Émissions de polluants atmosphériques du transport routier"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/20-accidents-dans-les-transports",
+      "text": "Accidents dans les transports"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/partie5-transport-de-marchandises",
+      "text": "Transport de marchandises"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/21-transport-terrestre-de-marchandises-",
+      "text": "Transport terrestre de marchandises"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/22-transport-routier-de-marchandises-",
+      "text": "Transport routier de marchandises"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/23-transport-ferroviaire-de-marchandises-",
+      "text": "Transport ferroviaire de marchandises"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/24-transport-fluvial-de-marchandises-",
+      "text": "Transport fluvial de marchandises"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/25-transport-maritime-de-marchandises-",
+      "text": "Transport maritime de marchandises"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/26-transport-aerien-de-marchandises-",
+      "text": "Transport aérien de marchandises"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/27-entrepots-et-plateformes-logistiques-",
+      "text": "Entrepôts et plateformes logistiques"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/partie6-transport-de-voyageurs",
+      "text": "Transport de voyageurs"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/28-transport-interieur-de-voyageurs",
+      "text": "Transport intérieur de voyageurs"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/29-transport-routier-de-voyageurs",
+      "text": "Transport routier de voyageurs"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/30-transport-collectif-urbain-de-voyageurs",
+      "text": "Transport collectif urbain de voyageurs"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/31-transport-ferroviaire-et-aerien-de",
+      "text": "Transport ferroviaire et aérien de voyageurs"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/32-transport-maritime-de-voyageurs",
+      "text": "Transport maritime de voyageurs"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/partie7-bilan-de-la-circulation",
+      "text": "Bilan de la circulation"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/33-materiel-de-transport",
+      "text": "Matériel de transport"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/annexes",
+      "text": "Annexes"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/34-sigles-et-liens-utiles",
+      "text": "Sigles et liens utiles"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/35-glossaire",
+      "text": "Glossaire"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/credits",
+      "text": "Crédits"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/media/9267/download?inline",
+      "text": "Données associées à la publication"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/chiffres-cles-des-transports-edition-2026",
+      "text": "Accéder à l'article sur le site du SDES"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/33-materiel-de-transport",
+      "text": "Matériel de transport"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/32-transport-maritime-de-voyageurs",
+      "text": ""
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/33-materiel-de-transport",
+      "text": ""
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/livre.php?page=65",
+      "text": "Retour mode livre"
+    },
+    {
+      "href": "javascript:void(0);",
+      "text": "Partager"
+    },
+    {
+      "href": "http://www.facebook.com/share.php?u=https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/2026/chiffres-cles-transports/fr/partie7-bilan-de-la-circulation&title=Bilan%20de%20la%20circulation%20|%20Chiffres%20cl%C3%A9s%20des%20transports%202026",
+      "text": ""
+    },
+    {
+      "href": "https://twitter.com/intent/tweet?url=https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/2026/chiffres-cles-transports/fr/partie7-bilan-de-la-circulation&status=partie7-bilan-de-la-circulation+https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/2026/chiffres-cles-transports/fr/partie7-bilan-de-la-circulation",
+      "text": ""
+    },
+    {
+      "href": "http://www.linkedin.com/shareArticle?mini=true&url=https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/2026/chiffres-cles-transports/fr/partie7-bilan-de-la-circulation&title=Bilan%20de%20la%20circulation%20|%20Chiffres%20cl%C3%A9s%20des%20transports%202026&source=https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/2026/chiffres-cles-transports/fr/partie7-bilan-de-la-circulation",
+      "text": ""
+    },
+    {
+      "href": "https://www.facebook.com/EcologieTerritoireTransportsVilleLogement.Gouv/",
+      "text": ""
+    },
+    {
+      "href": "https://twitter.com/Ecologie_Gouv",
+      "text": ""
+    },
+    {
+      "href": "https://www.linkedin.com/showcase/cgdd-commissariat-general-au-developpement-durable/",
+      "text": ""
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/mentions-legales",
+      "text": "Mentions légales"
+    },
+    {
+      "href": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/credits.php",
+      "text": "Crédits"
+    },
+    {
+      "href": "https://www.efil.fr/",
+      "text": "efil.fr"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "input",
+      "type": "search",
+      "name": "",
+      "id": "txtSearch",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "sentenceSearch",
+      "id": "sentenceSearch",
+      "value": "on",
+      "label": "Chercher l'expression exacte"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "nav-icon",
+      "value": "",
+      "label": ""
+    }
+  ],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/partie7-bilan-de-la-circulation",
+      "resourceType": "document",
+      "postData": null
+    }
+  ]
+}

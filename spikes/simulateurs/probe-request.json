@@ -1,15 +1,9 @@
 {
-  "run": 29,
+  "run": 30,
   "targets": [
-    { "id": "sondages-france-vote", "url": "https://www.france-vote.fr/sondages", "waitUntil": "load", "continueOnError": true, "actions": [{ "wait": 3000 }] },
-    { "id": "sondages-wikipedia-en", "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2027_French_presidential_election", "waitUntil": "domcontentloaded", "continueOnError": true },
-    { "id": "polymarket-recherche", "url": "https://gamma-api.polymarket.com/public-search?q=french%20presidential%20election&limit_per_type=10", "waitUntil": "load", "continueOnError": true },
-    { "id": "polymarket-events", "url": "https://gamma-api.polymarket.com/events?closed=false&limit=20&tag_slug=france", "waitUntil": "load", "continueOnError": true },
-    { "id": "site-lepen-rendu", "url": "https://marinelepen.com/", "waitUntil": "networkidle", "timeoutMs": 90000, "continueOnError": true, "actions": [{ "wait": 8000 }], "follow": "programme|projet|propositions|mesures|engagements", "maxFollow": 3 },
-    { "id": "site-rn", "url": "https://rassemblementnational.fr/", "waitUntil": "load", "continueOnError": true, "actions": [{ "wait": 3000 }], "follow": "programme|projet|propositions|2027", "maxFollow": 3 },
-    { "id": "site-roussel", "url": "https://www.fabienroussel2027.fr/", "waitUntil": "networkidle", "timeoutMs": 90000, "continueOnError": true, "actions": [{ "wait": 10000 }], "follow": "programme|projet|propositions|mesures", "maxFollow": 3 },
-    { "id": "site-ruffin", "url": "https://debout.fr/", "waitUntil": "load", "continueOnError": true, "follow": "programme|projet|propositions|mesures", "maxFollow": 3 },
-    { "id": "site-tondelier", "url": "https://lesecologistes.fr/", "waitUntil": "load", "continueOnError": true, "follow": "programme|projet|propositions|2027", "maxFollow": 3 },
-    { "id": "site-attal-renaissance", "url": "https://parti-renaissance.fr/", "waitUntil": "load", "continueOnError": true, "follow": "programme|projet|propositions|2027", "maxFollow": 3 }
+    { "id": "insee-salaires-prive-2024", "url": "https://www.insee.fr/fr/statistiques/8657156", "waitUntil": "load", "continueOnError": true },
+    { "id": "cre-trve-aout-2026", "url": "https://www.cre.fr/actualites/toute-lactualite/la-cre-propose-une-evolution-du-niveau-moyen-des-tarifs-reglementes-de-vente-de-lelectricite-de-25-ttc-au-1er-aout-2026.html", "waitUntil": "load", "continueOnError": true },
+    { "id": "sdes-bilan-transports-2024", "url": "https://www.statistiques.developpement-durable.gouv.fr/bilan-annuel-des-transports-en-2024", "waitUntil": "load", "continueOnError": true, "follow": "circulation|G1|voitures", "maxFollow": 3 },
+    { "id": "sdes-chiffres-cles-circulation", "url": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/partie7-bilan-de-la-circulation", "waitUntil": "load", "continueOnError": true }
   ]
 }

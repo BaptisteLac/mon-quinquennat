@@ -20,7 +20,7 @@ const gamma = (age: number): LlmMeasure =>
         ticketLine: "age_depart_retraite",
         section: "temps",
         appliesTo: { all: [] },
-        computation: { kind: "formule", reform: [], formulaId: "retraite_age_depart", params: [{ name: "age", value: age }], hypothesisLabel: null },
+        computation: { kind: "formule", reform: [], formulaId: "retraite_age_depart", params: [{ name: "age", value: age }], hypothesisLabel: null, hypothesisSourceId: null },
         sentence: null,
       },
     ],

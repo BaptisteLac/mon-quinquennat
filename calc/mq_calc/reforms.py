@@ -9,12 +9,15 @@ from openfisca_core.periods import period as make_period
 from openfisca_core.reforms import Reform
 from openfisca_core.taxbenefitsystems import TaxBenefitSystem
 
+from .structural import STRUCTURAL, Settings
+
 ALLOWED_PREFIXES = (
     "impot_revenu.bareme_ir_depuis_1945.bareme",
     "impot_revenu.calcul_impot_revenu.plaf_qf",
     "prestations_sociales.solidarite_insertion.minima_sociaux.ppa",
     "prestations_sociales.solidarite_insertion.minimum_vieillesse.aspa",
     "prestations_sociales.prestations_familiales",
+    "prelevements_sociaux.contributions_sociales.csg.activite",
 )
 
 
@@ -38,11 +41,15 @@ _AFFECTS = (
     ("prestations_sociales.solidarite_insertion.minima_sociaux.ppa", frozenset({"prime_activite"})),
     ("prestations_sociales.prestations_familiales", frozenset({"allocations_familiales", "prime_activite"})),
     (
+        "prelevements_sociaux.contributions_sociales.csg.activite",
+        frozenset({"salaire_net", "impot_revenu", "prime_activite", "rsa", "aides_logement"}),
+    ),
+    (
         "prestations_sociales.solidarite_insertion.minimum_vieillesse",
         frozenset({"minimum_vieillesse", "aides_logement", "prime_activite"}),
     ),
 )
-ALL_OUTPUTS = frozenset({"impot_revenu", "prime_activite", "aides_logement", "allocations_familiales", "minimum_vieillesse"})
+ALL_OUTPUTS = frozenset({"impot_revenu", "prime_activite", "rsa", "aides_logement", "allocations_familiales", "minimum_vieillesse", "salaire_net"})
 
 
 def affected_outputs(changes: list[ParamChange]) -> frozenset[str]:
@@ -61,7 +68,13 @@ def _node(parameters, path: str):
     return node
 
 
-def make_reform(base: TaxBenefitSystem, changes: list[ParamChange], name: str) -> TaxBenefitSystem:
+def make_reform(
+    base: TaxBenefitSystem, changes: list[ParamChange], name: str, structural: dict[str, Settings] | None = None
+) -> TaxBenefitSystem:
+    structural = structural or {}
+    for kind in structural:
+        if kind not in STRUCTURAL:
+            raise ValueError(f"Réforme structurelle inconnue : {kind}")
     for c in changes:
         if not c.path.startswith(ALLOWED_PREFIXES):
             raise ValueError(f"Paramètre hors liste blanche : {c.path}")
@@ -77,6 +90,8 @@ def make_reform(base: TaxBenefitSystem, changes: list[ParamChange], name: str) -
     class _R(Reform):
         def apply(self):
             self.modify_parameters(modifier_function=modify)
+            for kind, settings in structural.items():
+                STRUCTURAL[kind](self, settings)
 
     _R.__name__ = name
     return _R(base)

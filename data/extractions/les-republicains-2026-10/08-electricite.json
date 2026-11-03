@@ -149,10 +149,31 @@
           },
           "sentence": {
             "simple": "Ta facture d'électricité baisserait de 5 à 10 % à partir de 2030, selon l'objectif du candidat.",
-            "normal": "Le prix de l'électricité serait indexé sur les coûts du parc nucléaire ; le programme vise une baisse de la facture de 5 à 10 % à partir de 2030. Montant non calculé pour ton foyer."
+            "normal": "Le prix de l'électricité serait indexé sur les coûts du parc nucléaire ; le programme vise une baisse de la facture de 5 à 10 % à partir de 2030, appliquée ici à la facture moyenne d'un foyer."
+          },
+          "computation": {
+            "kind": "estimation",
+            "formulaId": "energie_facture",
+            "params": [
+              {
+                "name": "baissePourcentBas",
+                "value": 5
+              },
+              {
+                "name": "baissePourcentHaut",
+                "value": 10
+              }
+            ],
+            "hypothesisLabel": "Estimation : baisse appliquée à la facture moyenne d'un foyer consommant 4,5 MWh d'électricité par an.",
+            "hypothesisSourceId": "cre-facture-electricite-moyenne-2026"
           }
         }
-      ]
+      ],
+      "schedule": {
+        "effectiveDate": "2030-01-01",
+        "dateOrigin": "annoncee",
+        "estimationRule": null
+      }
     },
     {
       "theme": "energie",
@@ -186,7 +207,19 @@
           },
           "sentence": {
             "simple": "Ta facture d'électricité baisserait de 5 % selon le candidat, en retirant l'électricité des certificats d'économies d'énergie.",
-            "normal": "L'électricité sortirait du dispositif des certificats d'économies d'énergie ; le programme chiffre l'effet à une baisse directe des factures de 5 %. Montant non calculé pour ton foyer : il dépend de ta consommation."
+            "normal": "L'électricité sortirait du dispositif des certificats d'économies d'énergie ; le programme chiffre l'effet à une baisse directe des factures de 5 %, appliquée ici à la facture moyenne d'un foyer."
+          },
+          "computation": {
+            "kind": "estimation",
+            "formulaId": "energie_facture",
+            "params": [
+              {
+                "name": "baissePourcentBas",
+                "value": 5
+              }
+            ],
+            "hypothesisLabel": "Estimation : baisse appliquée à la facture moyenne d'un foyer consommant 4,5 MWh d'électricité par an.",
+            "hypothesisSourceId": "cre-facture-electricite-moyenne-2026"
           }
         }
       ]
