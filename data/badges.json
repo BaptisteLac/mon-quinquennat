@@ -2,5 +2,6 @@
   "c-01": "hexagone",
   "c-02": "rond",
   "c-03": "anneau",
-  "c-04": "triangle"
+  "c-04": "triangle",
+  "c-05": "pentagone"
 }

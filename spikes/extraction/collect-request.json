@@ -1,13 +1,8 @@
 {
-  "corpus": "horizons-2026-10",
-  "candidate": "c-04",
-  "start": [
-    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
-    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants",
-    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
-    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
-  ],
-  "include": ["https://www.edouardphilippe.fr/priorites/"],
+  "corpus": "place-publique-2026-11",
+  "candidate": "c-05",
+  "start": ["https://raphaelglucksmann.eu/programme.html"],
+  "include": ["https://raphaelglucksmann.eu/programme.html"],
   "exclude": [],
   "render": true,
   "delayMs": 1500
