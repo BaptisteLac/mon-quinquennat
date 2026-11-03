@@ -1,9 +1,8 @@
 {
-  "run": 30,
+  "run": 31,
   "targets": [
-    { "id": "insee-salaires-prive-2024", "url": "https://www.insee.fr/fr/statistiques/8657156", "waitUntil": "load", "continueOnError": true },
-    { "id": "cre-trve-aout-2026", "url": "https://www.cre.fr/actualites/toute-lactualite/la-cre-propose-une-evolution-du-niveau-moyen-des-tarifs-reglementes-de-vente-de-lelectricite-de-25-ttc-au-1er-aout-2026.html", "waitUntil": "load", "continueOnError": true },
-    { "id": "sdes-bilan-transports-2024", "url": "https://www.statistiques.developpement-durable.gouv.fr/bilan-annuel-des-transports-en-2024", "waitUntil": "load", "continueOnError": true, "follow": "circulation|G1|voitures", "maxFollow": 3 },
-    { "id": "sdes-chiffres-cles-circulation", "url": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/partie7-bilan-de-la-circulation", "waitUntil": "load", "continueOnError": true }
+    { "id": "insee-distribution-niveaux-de-vie", "url": "https://www.insee.fr/fr/statistiques/2416808", "waitUntil": "load", "continueOnError": true },
+    { "id": "service-public-smic-f2300", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300", "waitUntil": "load", "continueOnError": true },
+    { "id": "service-public-smic-juin-2026", "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18916", "waitUntil": "load", "continueOnError": true }
   ]
 }
