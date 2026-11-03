@@ -1,8 +1,9 @@
 {
-  "run": 32,
+  "run": 33,
   "targets": [
-    { "id": "insee-distribution-niveaux-de-vie-tableau", "url": "https://www.insee.fr/fr/statistiques/2416808", "waitUntil": "load", "continueOnError": true, "actions": [{ "click": "TABLEAU" }, { "wait": 2000 }] },
-    { "id": "insee-niveau-de-vie-pauvrete-2024", "url": "https://www.insee.fr/fr/statistiques/9019316", "waitUntil": "load", "continueOnError": true },
-    { "id": "insee-revenu-niveau-de-vie-2023", "url": "https://www.insee.fr/fr/statistiques/8731855", "waitUntil": "load", "continueOnError": true }
+    { "id": "glucksmann-programme", "url": "https://raphaelglucksmann.eu/programme.html", "waitUntil": "networkidle", "continueOnError": true, "follow": "programme|mesure|projet|orientation", "maxFollow": 8 },
+    { "id": "marinelepen-accueil", "url": "https://www.marinelepen.com/", "waitUntil": "networkidle", "timeoutMs": 90000, "continueOnError": true, "follow": "programme|projet|mesure|engagement", "maxFollow": 8 },
+    { "id": "roussel-accueil", "url": "https://www.fabienroussel2027.fr/", "waitUntil": "networkidle", "timeoutMs": 90000, "continueOnError": true, "follow": "programme|projet|mesure|propos", "maxFollow": 8 },
+    { "id": "attal-accueil", "url": "https://www.gabrielattal.fr/", "waitUntil": "networkidle", "timeoutMs": 90000, "continueOnError": true, "follow": "programme|projet|mesure|propos", "maxFollow": 8 }
   ]
 }
