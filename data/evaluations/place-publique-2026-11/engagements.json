@@ -1,0 +1,102 @@
+{
+  "corpus": "place-publique-2026-11",
+  "lecteur": "Claude (session Claude Code, 2026-11-03), lecture de la page programme pour relever chaque engagement, y compris secondaire ; même modèle que l'extraction",
+  "date": "2026-11-03",
+  "consigne": "Relever, page par page, chaque engagement de politique publique (ce que le candidat ferait ou ferait faire une fois élu), avec sa citation exacte. Exclus : constats, chiffres de diagnostic, rappels historiques, chiffrages de financement, slogans de thème sans action identifiable. Un engagement qui regroupe plusieurs actions séparables est découpé. Les quatre orientations de l'axe « Rassembler la gauche » portent sur la conduite de la campagne, pas sur l'action une fois élu : elles ne sont pas relevées.",
+  "pages": [
+    {
+      "documentId": "place-publique-2026-11-programme",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Faire de l'Europe une puissance qui protège ses citoyens",
+          "description": "Faire de l'Europe une puissance qui protège ses citoyens"
+        },
+        {
+          "quote": "Renforcer notre souveraineté industrielle et énergétique",
+          "description": "Renforcer notre souveraineté industrielle et énergétique"
+        },
+        {
+          "quote": "Défendre l'État de droit et la démocratie",
+          "description": "Défendre l'État de droit et la démocratie"
+        },
+        {
+          "quote": "Rapprocher l'Europe des citoyens",
+          "description": "Rapprocher l'Europe des citoyens"
+        },
+        {
+          "quote": "Garantir que le travail permette de vivre dignement",
+          "description": "Garantir que le travail permette de vivre dignement"
+        },
+        {
+          "quote": "Renforcer les services publics au plus près des territoires",
+          "description": "Renforcer les services publics au plus près des territoires"
+        },
+        {
+          "quote": "Faire de la justice fiscale un levier de cohésion",
+          "description": "Faire de la justice fiscale un levier de cohésion"
+        },
+        {
+          "quote": "Protéger le pouvoir d'achat des ménages les plus modestes",
+          "description": "Protéger le pouvoir d'achat des ménages les plus modestes"
+        },
+        {
+          "quote": "Réduire les inégalités entre territoires et générations",
+          "description": "Réduire les inégalités entre territoires et générations"
+        },
+        {
+          "quote": "Faire de la transition écologique une transition juste",
+          "description": "Faire de la transition écologique une transition juste"
+        },
+        {
+          "quote": "Investir dans les emplois et les industries de demain",
+          "description": "Investir dans les emplois et les industries de demain"
+        },
+        {
+          "quote": "Accompagner concrètement ménages et entreprises",
+          "description": "Accompagner concrètement ménages et entreprises"
+        },
+        {
+          "quote": "Préserver la biodiversité, l'eau et les ressources",
+          "description": "Préserver la biodiversité, l'eau et les ressources"
+        },
+        {
+          "quote": "Faire de la France une puissance de paix",
+          "description": "Faire de la France une puissance de paix"
+        },
+        {
+          "quote": "Soutenir les peuples qui luttent pour leur liberté",
+          "description": "Soutenir les peuples qui luttent pour leur liberté"
+        },
+        {
+          "quote": "Renforcer la confiance et la participation démocratiques",
+          "description": "Renforcer la confiance et la participation démocratiques"
+        },
+        {
+          "quote": "Garantir la transparence de la vie publique",
+          "description": "Garantir la transparence de la vie publique"
+        },
+        {
+          "quote": "Rénover nos institutions",
+          "description": "Rénover nos institutions"
+        },
+        {
+          "quote": "Investir dans l'école, la recherche et la formation",
+          "description": "Investir dans l'école, la recherche et la formation"
+        },
+        {
+          "quote": "Faire de la jeunesse une priorité",
+          "description": "Faire de la jeunesse une priorité"
+        },
+        {
+          "quote": "Garantir un accès large à la culture et à la création",
+          "description": "Garantir un accès large à la culture et à la création"
+        },
+        {
+          "quote": "Soutenir l'émancipation par le savoir",
+          "description": "Soutenir l'émancipation par le savoir"
+        }
+      ]
+    }
+  ]
+}

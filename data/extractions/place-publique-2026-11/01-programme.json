@@ -1,0 +1,475 @@
+{
+  "measures": [
+    {
+      "theme": "international",
+      "title": "Faire de l'Europe une puissance qui protège ses citoyens",
+      "summary": {
+        "simple": "L'Europe devrait peser dans le monde et défendre les intérêts communs des Européens.",
+        "normal": "Orientation : faire de l'Europe une puissance qui protège ses citoyens, pèse dans le monde et défend les intérêts communs face aux empires ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Faire de l'Europe une puissance qui protège ses citoyens"
+        },
+        {
+          "page": 1,
+          "quote": "Peser dans le monde et défendre nos intérêts communs face aux empires."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Renforcer la souveraineté industrielle et énergétique",
+      "summary": {
+        "simple": "La France et l'Europe reprendraient la main sur l'industrie, l'énergie et la défense.",
+        "normal": "Orientation : renforcer la souveraineté industrielle et énergétique, en matière d'industrie, d'énergie et de défense ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Renforcer notre souveraineté industrielle et énergétique"
+        },
+        {
+          "page": 1,
+          "quote": "Reprendre en main notre destin en matière d'industrie, d'énergie et de défense."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "institutions",
+      "title": "Défendre l'État de droit et la démocratie face aux ingérences étrangères",
+      "summary": {
+        "simple": "L'État de droit et la démocratie seraient défendus face aux ingérences étrangères et aux tentations autoritaires.",
+        "normal": "Orientation : défendre l'État de droit et la démocratie, faire front face aux ingérences étrangères et aux tentations autoritaires ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Défendre l'État de droit et la démocratie"
+        },
+        {
+          "page": 1,
+          "quote": "Faire front face aux ingérences étrangères et aux tentations autoritaires."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "international",
+      "title": "Rapprocher l'Europe des citoyens : une Union plus démocratique et plus transparente",
+      "summary": {
+        "simple": "L'Union européenne serait rendue plus démocratique, plus transparente et plus lisible.",
+        "normal": "Orientation : porter une Union plus démocratique, plus transparente et plus lisible ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Rapprocher l'Europe des citoyens"
+        },
+        {
+          "page": 1,
+          "quote": "Porter une Union plus démocratique, plus transparente et plus lisible."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "travail",
+      "title": "Garantir que le travail permette de vivre dignement",
+      "summary": {
+        "simple": "Le travail devrait permettre de vivre dignement, avec une meilleure reconnaissance des métiers essentiels.",
+        "normal": "Orientation : garantir que le travail permette de vivre dignement et mieux reconnaître les métiers essentiels ; le programme indique qu'un objectif chiffré reste à préciser. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Garantir que le travail permette de vivre dignement"
+        },
+        {
+          "page": 1,
+          "quote": "Mieux reconnaître les métiers essentiels et l'effort de chacun."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu",
+      "effects": [
+        {
+          "ticketLine": "salaire_net",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "situationPro",
+            "op": "in",
+            "value": [
+              "salarie_prive",
+              "fonctionnaire"
+            ]
+          },
+          "sentence": {
+            "simple": "Le candidat veut que le travail permette de vivre dignement ; l'objectif chiffré n'est pas encore publié.",
+            "normal": "Orientation sur la rémunération du travail et la reconnaissance des métiers essentiels. Montant non calculé : l'objectif chiffré est annoncé « à préciser »."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "prestations",
+      "title": "Renforcer les services publics de santé, d'école et de transports dans les territoires",
+      "summary": {
+        "simple": "L'accès à la santé, à l'école et aux transports serait garanti partout de façon équitable.",
+        "normal": "Orientation : renforcer les services publics au plus près des territoires (santé, école, transports) pour un accès équitable ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Renforcer les services publics au plus près des territoires"
+        },
+        {
+          "page": 1,
+          "quote": "Santé, école, transports : garantir un accès équitable partout."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "fiscalite",
+      "title": "Faire de la justice fiscale un levier de cohésion",
+      "summary": {
+        "simple": "Le système fiscal serait rendu plus juste, au service de la redistribution et de la solidarité.",
+        "normal": "Orientation : un système fiscal plus juste, au service de la redistribution et de la solidarité ; ni impôt ni barème précisés. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Faire de la justice fiscale un levier de cohésion"
+        },
+        {
+          "page": 1,
+          "quote": "Un système plus juste, au service de la redistribution et de la solidarité."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu",
+      "effects": [
+        {
+          "ticketLine": "impot_revenu",
+          "section": "portefeuille",
+          "appliesTo": {
+            "all": []
+          },
+          "sentence": {
+            "simple": "Le candidat veut un système fiscal plus redistributif ; les impôts concernés ne sont pas encore précisés.",
+            "normal": "Orientation de justice fiscale au service de la redistribution. Montant non calculé : aucun impôt ni barème n'est encore précisé."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "prestations",
+      "title": "Protéger le pouvoir d'achat des ménages les plus modestes face aux dépenses contraintes",
+      "summary": {
+        "simple": "Le candidat veut agir sur les dépenses contraintes des ménages les plus modestes.",
+        "normal": "Orientation : protéger le pouvoir d'achat des ménages les plus modestes en agissant sur les dépenses contraintes ; le programme indique qu'un objectif chiffré reste à préciser. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Protéger le pouvoir d'achat des ménages les plus modestes"
+        },
+        {
+          "page": 1,
+          "quote": "Agir sur les dépenses contraintes qui pèsent sur le quotidien."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "prestations",
+      "title": "Réduire les inégalités entre territoires et générations, et entre femmes et hommes",
+      "summary": {
+        "simple": "Les inégalités entre territoires, entre générations et entre femmes et hommes seraient réduites.",
+        "normal": "Orientation : réduire les inégalités entre territoires et générations, et faire progresser l'égalité réelle entre les femmes et les hommes ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Réduire les inégalités entre territoires et générations"
+        },
+        {
+          "page": 1,
+          "quote": "Et faire progresser l'égalité réelle entre les femmes et les hommes."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "environnement",
+      "title": "Faire de la transition écologique une transition juste pour les ménages fragiles",
+      "summary": {
+        "simple": "La transition écologique devrait protéger les ménages les plus fragiles à chaque étape.",
+        "normal": "Orientation : une transition écologique juste, qui protège les ménages les plus fragiles à chaque étape ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Faire de la transition écologique une transition juste"
+        },
+        {
+          "page": 1,
+          "quote": "Protéger les ménages les plus fragiles à chaque étape du changement."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Investir dans les emplois et les industries de demain",
+      "summary": {
+        "simple": "Les compétences nouvelles et les filières d'avenir seraient soutenues.",
+        "normal": "Orientation : investir dans les emplois et industries de demain, former aux compétences nouvelles et soutenir les filières d'avenir ; le programme indique qu'un objectif chiffré reste à préciser. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Investir dans les emplois et les industries de demain"
+        },
+        {
+          "page": 1,
+          "quote": "Former aux compétences nouvelles et soutenir les filières d'avenir."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "environnement",
+      "title": "Accompagner ménages et entreprises dans la transition",
+      "summary": {
+        "simple": "Les ménages et les entreprises seraient accompagnés concrètement dans la transformation écologique.",
+        "normal": "Orientation : accompagner concrètement ménages et entreprises pour rendre la transformation « possible et désirable » ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Accompagner concrètement ménages et entreprises"
+        },
+        {
+          "page": 1,
+          "quote": "Rendre la transformation possible et désirable, plutôt que subie."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "environnement",
+      "title": "Préserver la biodiversité, l'eau et les ressources",
+      "summary": {
+        "simple": "La biodiversité, l'eau et les ressources seraient traitées comme des biens communs à transmettre.",
+        "normal": "Orientation : préserver la biodiversité, l'eau et les ressources, traitées comme des biens communs ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Préserver la biodiversité, l'eau et les ressources"
+        },
+        {
+          "page": 1,
+          "quote": "Traiter les biens communs comme un héritage à transmettre."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "international",
+      "title": "Faire de la France une puissance de paix, ferme face aux régimes autoritaires",
+      "summary": {
+        "simple": "La France serait ferme face aux régimes autoritaires et défendrait les droits humains.",
+        "normal": "Orientation : une France puissance de paix, ferme face aux régimes autoritaires et fidèle à la défense des droits humains ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Faire de la France une puissance de paix"
+        },
+        {
+          "page": 1,
+          "quote": "Ferme face aux régimes autoritaires, fidèle à la défense des droits humains."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "international",
+      "title": "Soutenir les peuples qui luttent pour leur liberté",
+      "summary": {
+        "simple": "La France soutiendrait les peuples qui luttent pour leur liberté.",
+        "normal": "Orientation : soutenir les peuples qui luttent pour leur liberté et refuser la loi du plus fort ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Soutenir les peuples qui luttent pour leur liberté"
+        },
+        {
+          "page": 1,
+          "quote": "Refuser la loi du plus fort, partout où elle s'impose."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "institutions",
+      "title": "Renforcer la confiance et la participation démocratiques",
+      "summary": {
+        "simple": "Les citoyens devraient avoir davantage le sentiment d'être entendus.",
+        "normal": "Orientation : renforcer la confiance et la participation démocratiques ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Renforcer la confiance et la participation démocratiques"
+        },
+        {
+          "page": 1,
+          "quote": "Redonner aux citoyens le sentiment d'être entendus."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "institutions",
+      "title": "Garantir la transparence de la vie publique et l'indépendance des contre-pouvoirs",
+      "summary": {
+        "simple": "La vie publique serait plus transparente et l'indépendance de la justice et des contre-pouvoirs protégée.",
+        "normal": "Orientation : garantir la transparence de la vie publique et protéger l'indépendance des contre-pouvoirs et de la justice ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Garantir la transparence de la vie publique"
+        },
+        {
+          "page": 1,
+          "quote": "Protéger l'indépendance des contre-pouvoirs et de la justice."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "institutions",
+      "title": "Rénover les institutions pour les rendre plus lisibles, stables et responsables",
+      "summary": {
+        "simple": "Les institutions seraient rénovées pour être plus lisibles, plus stables et plus responsables.",
+        "normal": "Orientation : rénover les institutions, plus lisibles, plus stables et plus responsables devant le pays ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Rénover nos institutions"
+        },
+        {
+          "page": 1,
+          "quote": "Les rendre plus lisibles, plus stables et plus responsables devant le pays."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "education",
+      "title": "Investir dans l'école, la recherche et la formation tout au long de la vie",
+      "summary": {
+        "simple": "L'école, la recherche et la formation recevraient davantage d'investissements.",
+        "normal": "Orientation : investir dans l'école, la recherche et la formation, et soutenir l'apprentissage tout au long de la vie ; le programme indique qu'un objectif chiffré reste à préciser. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Investir dans l'école, la recherche et la formation"
+        },
+        {
+          "page": 1,
+          "quote": "Soutenir l'apprentissage tout au long de la vie."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "education",
+      "title": "Faire de la jeunesse une priorité : conditions de vie et d'études",
+      "summary": {
+        "simple": "Les conditions de vie et d'études des jeunes seraient améliorées.",
+        "normal": "Orientation : faire de la jeunesse une priorité et améliorer ses conditions de vie et d'études ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Faire de la jeunesse une priorité"
+        },
+        {
+          "page": 1,
+          "quote": "Améliorer les conditions de vie et d'études des jeunes générations."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "education",
+      "title": "Garantir un accès large à la culture et à la création partout",
+      "summary": {
+        "simple": "L'accès à la culture et à la création serait garanti partout et pour toutes les générations.",
+        "normal": "Orientation : un accès large à la culture et à la création, partout sur le territoire et pour toutes les générations ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Garantir un accès large à la culture et à la création"
+        },
+        {
+          "page": 1,
+          "quote": "Partout sur le territoire, et pour toutes les générations."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "education",
+      "title": "Soutenir l'émancipation par le savoir et l'esprit critique",
+      "summary": {
+        "simple": "L'esprit critique et la citoyenneté seraient développés par le savoir.",
+        "normal": "Orientation : soutenir l'émancipation par le savoir, développer l'esprit critique et la citoyenneté ; pas de mesure précisée. Le programme annonce que le détail des mesures et leur chiffrage seront publiés progressivement."
+      },
+      "sources": [
+        {
+          "page": 1,
+          "quote": "Soutenir l'émancipation par le savoir"
+        },
+        {
+          "page": 1,
+          "quote": "Développer l'esprit critique et la citoyenneté comme boussoles communes."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    }
+  ]
+}

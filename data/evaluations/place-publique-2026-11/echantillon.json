@@ -1,0 +1,36 @@
+{
+  "corpus": "place-publique-2026-11",
+  "manifestSha256": "67ea097cca920a06e334a7451fac45366a6378ed3d3ea79d2f43a1bd330e3712",
+  "seed": 2027,
+  "pages": [
+    {
+      "documentId": "place-publique-2026-11-programme",
+      "page": 1,
+      "url": "https://raphaelglucksmann.eu/programme.html"
+    }
+  ],
+  "mesures": [
+    "m-88ba5df64609",
+    "m-891e6e798b15",
+    "m-bd43f5edbfac",
+    "m-cbc446b1314f",
+    "m-720e7afd26ca",
+    "m-ed1f73bf6457",
+    "m-76fe53453155",
+    "m-c2b4c7ff3950",
+    "m-8d1fd180d349",
+    "m-661c0a05a356",
+    "m-063f33ad1d8e",
+    "m-9c8be8580e09",
+    "m-880d171a3a05",
+    "m-0663d96097cd",
+    "m-1e1717298f43",
+    "m-957400065202",
+    "m-dfd053dc8254",
+    "m-07022ad05946",
+    "m-85d39c2b0b90",
+    "m-73ed759d4f67",
+    "m-93b1278173ee",
+    "m-901c9ebba853"
+  ]
+}

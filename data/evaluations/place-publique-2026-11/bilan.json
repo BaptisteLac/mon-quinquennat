@@ -1,0 +1,46 @@
+{
+  "corpusId": "place-publique-2026-11",
+  "candidateId": "c-05",
+  "manifestSha256": "67ea097cca920a06e334a7451fac45366a6378ed3d3ea79d2f43a1bd330e3712",
+  "seed": 2027,
+  "readOn": "2026-11-03",
+  "readers": {
+    "rappel": "Claude (session Claude Code, 2026-11-03), lecture de la page programme pour relever chaque engagement, y compris secondaire ; même modèle que l'extraction",
+    "precision": "Claude (session Claude Code, 2026-11-03), relecture de chaque fiche tirée contre ses citations et la page source ; même modèle que l'extraction"
+  },
+  "checks": {
+    "citations": {
+      "k": 22,
+      "n": 22
+    },
+    "figures": {
+      "k": 22,
+      "n": 22
+    },
+    "autoValidated": {
+      "k": 22,
+      "n": 22
+    }
+  },
+  "recall": {
+    "k": 22,
+    "n": 22,
+    "low": 0.8513404742740388,
+    "high": 1,
+    "pages": 1
+  },
+  "precision": {
+    "k": 22,
+    "n": 22,
+    "low": 0.8513404742740388,
+    "high": 1
+  },
+  "parameters": null,
+  "errorFree": {
+    "k": 22,
+    "n": 22,
+    "low": 0.8513404742740388,
+    "high": 1
+  },
+  "discrepancies": []
+}
