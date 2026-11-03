@@ -29,10 +29,11 @@ test("récap, ticket, partage par lien signé, lien falsifié refusé", async ({
   await expect(page.getByRole("heading", { name: /Tu viens/ })).toBeVisible();
   await page.getByRole("button", { name: /Voir mon récap/ }).click();
   await expect(page.getByRole("heading", { name: "MA VIE EN 2032" })).toBeVisible();
-  await expect(page.getByText("Pension et minimum vieillesse")).toBeVisible();
+  // Ligne chiffrée ; la même ligne peut aussi figurer dans « Annoncé, pas encore chiffré » (autres mesures).
+  await expect(page.getByText("Pension et minimum vieillesse").first()).toBeVisible();
 
   // Fiche source d'une ligne
-  await page.getByRole("button", { name: /Pension et minimum vieillesse/ }).click();
+  await page.getByRole("button", { name: /Pension et minimum vieillesse/ }).first().click();
   await expect(page.getByRole("dialog").getByText("D'où vient ce chiffre ?")).toBeVisible();
   await page.keyboard.press("Escape");
 

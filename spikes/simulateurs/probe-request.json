@@ -1,9 +1,8 @@
 {
-  "run": 30,
+  "run": 32,
   "targets": [
-    { "id": "insee-salaires-prive-2024", "url": "https://www.insee.fr/fr/statistiques/8657156", "waitUntil": "load", "continueOnError": true },
-    { "id": "cre-trve-aout-2026", "url": "https://www.cre.fr/actualites/toute-lactualite/la-cre-propose-une-evolution-du-niveau-moyen-des-tarifs-reglementes-de-vente-de-lelectricite-de-25-ttc-au-1er-aout-2026.html", "waitUntil": "load", "continueOnError": true },
-    { "id": "sdes-bilan-transports-2024", "url": "https://www.statistiques.developpement-durable.gouv.fr/bilan-annuel-des-transports-en-2024", "waitUntil": "load", "continueOnError": true, "follow": "circulation|G1|voitures", "maxFollow": 3 },
-    { "id": "sdes-chiffres-cles-circulation", "url": "https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-transports/fr/partie7-bilan-de-la-circulation", "waitUntil": "load", "continueOnError": true }
+    { "id": "insee-distribution-niveaux-de-vie-tableau", "url": "https://www.insee.fr/fr/statistiques/2416808", "waitUntil": "load", "continueOnError": true, "actions": [{ "click": "TABLEAU" }, { "wait": 2000 }] },
+    { "id": "insee-niveau-de-vie-pauvrete-2024", "url": "https://www.insee.fr/fr/statistiques/9019316", "waitUntil": "load", "continueOnError": true },
+    { "id": "insee-revenu-niveau-de-vie-2023", "url": "https://www.insee.fr/fr/statistiques/8731855", "waitUntil": "load", "continueOnError": true }
   ]
 }

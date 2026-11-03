@@ -12,9 +12,11 @@ import {
   deductionInteretsEmprunt,
   energieFacture,
   gainPourcentSalaireNet,
+  impotSupprimeParDecile,
   LegalAgeTable,
   PublicData,
   retraiteAgeDepart,
+  unitesDeConsommation,
   type Range,
 } from "@mon-quinquennat/formulas";
 import ageLegalActuel from "@mon-quinquennat/formulas/data/age-legal-actuel.json";
@@ -64,6 +66,30 @@ function salaires(profile: Profile): number[] {
   return out;
 }
 
+const ACTIFS: readonly Profile["situationPro"][] = ["salarie_prive", "fonctionnaire", "independant", "chef_entreprise"];
+
+/** Âge des enfants au début du mandat. */
+function agesEnfants(profile: Profile): number[] {
+  const year = Number(START_OF_TERM.slice(0, 4));
+  return profile.enfants.map((e) => year - e.anneeNaissance);
+}
+
+/** Série de seuils de déciles : même identifiant, numéro de décile remplacé (`…-d3-2024` → `…-d6-2024`). */
+const decileId = (dataSourceId: string, n: number) => dataSourceId.replace(/-d\d+-/, `-d${n}-`);
+
+/**
+ * Données publiques lues par une estimation en plus de `dataSourceId`, citées dans les hypothèses.
+ */
+function extraData(formulaId: string, params: Record<string, number>, dataSourceId: string): string[] {
+  if (formulaId !== "impot_supprime_decile") return [];
+  const { decileFin, decileSuivant } = params;
+  return [
+    decileId(dataSourceId, decileFin ?? 0),
+    ...(decileSuivant === undefined ? [] : [decileId(dataSourceId, decileSuivant)]),
+    "insee-unites-de-consommation",
+  ];
+}
+
 function enfantsMineurs(profile: Profile): number {
   const year = Number(START_OF_TERM.slice(0, 4));
   return profile.enfants.filter((e) => year - e.anneeNaissance < 18).length;
@@ -88,6 +114,25 @@ function estimate(
     case "gain_pourcent_salaire_net":
       // Condition personnelle (carrière, trimestres…) : le salaire est celui de la personne, pas du conjoint.
       return gainPourcentSalaireNet(profile.situationPro === "salarie_prive" ? profile.revenusNetsMensuels : null, params);
+    case "gain_salaire_reference_personne":
+      // Cas type personnel (« si ton entreprise… ») : le salaire de la personne, pas celui du conjoint.
+      if (!datum) throw new Error("Le salaire de référence doit venir d'une donnée publique.");
+      return baisseCotisationsSalaire(profile.situationPro === "salarie_prive" ? [profile.revenusNetsMensuels] : [], params, datum.valeur);
+    case "impot_supprime_decile": {
+      if (!datum) throw new Error("Les seuils de déciles doivent venir de données publiques.");
+      const { decileDebut, decileFin, decileSuivant } = params;
+      if (decileDebut === undefined || decileFin === undefined) throw new Error("Paramètres decileDebut et decileFin manquants.");
+      if (datum.id !== decileId(datum.id, decileDebut - 1)) throw new Error(`${datum.id} n'est pas le seuil du décile ${decileDebut - 1}.`);
+      const valeur = (n: number) => publicDatum(decileId(datum.id, n))?.valeur ?? 0;
+      const seuils = { bas: datum.valeur, haut: valeur(decileFin), suivant: decileSuivant === undefined ? null : valeur(decileSuivant) };
+      // Hypothèse affichée : niveau de vie estimé par les revenus nets du foyer, sans prestations ni impôt.
+      const adultes = profile.situationFamiliale === "seul" ? 1 : 2;
+      const revenus = profile.revenusNetsMensuels + (adultes === 2 ? (profile.revenusConjointNetsMensuels ?? 0) : 0);
+      const niveauDeVie = (12 * revenus) / unitesDeConsommation(adultes, agesEnfants(profile));
+      const travaille = ACTIFS.includes(profile.situationPro) || (profile.situationProConjoint !== undefined && ACTIFS.includes(profile.situationProConjoint));
+      const impot = calc.candidats[candidateId]?.montants.impot_revenu ?? calc.actuel.montants.impot_revenu ?? 0;
+      return impotSupprimeParDecile(niveauDeVie, travaille, impot, params, seuils);
+    }
     case "deduction_interets_emprunt":
       // Une réduction ne dépasse pas l'impôt dû une fois les autres réformes du programme appliquées.
       return deductionInteretsEmprunt(
@@ -204,6 +249,7 @@ function effectLines(programme: Programme, profile: Profile, calc: CalculRespons
             ...(c.hypothesis.condition ? { condition: c.hypothesis.condition } : {}),
           });
           out.hypotheses.push(hypothesisText(c.hypothesis.label, c.hypothesis.dataSourceId));
+          for (const id of extraData(c.formulaId, c.params, c.hypothesis.dataSourceId)) out.hypotheses.push(hypothesisText("", id).trim());
           continue;
         }
       }

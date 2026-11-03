@@ -1,0 +1,607 @@
+Revenu, niveau de vie et pauvreté en 2023 - Insee Résultats
+false
+Aller au contenu
+Aide
+Thèmes
+Recherche
+English
+Presse
+Menu
+Menu
+Blog
+Presse
+Aide
+English
+Lancer la recherche sur le site
+Thèmes
+Statistiques et études
+Cherchez vos statistiques par…
+Thèmes
+Économie - conjoncture - comptes nationaux
+Démographie
+Entreprises
+Plus de thèmes…
+Niveaux géographiques
+France
+Toutes les régions ou tous les départements
+Toutes les communes
+Plus de niveaux géographiques…
+Catégories
+Données
+Publications
+Plus de Catégories…
+Collections
+Insee Première
+Notes et points de conjoncture
+Plus de collections…
+Définitions, méthodes et qualitéDéfinitions
+Sources statistiques et indicateursListe des sources statistiques
+Liste des indicateurs
+Documentation complémentaire sur le recensement
+La qualité dans le Service statistique public (SSP)Le cadre de référence
+La gouvernance
+La politique et la stratégie qualité du SSP
+Les engagements européens
+NomenclaturesNomenclature d’activités française
+Nomenclature agrégée - NA, 2008
+Classification des produits française
+Classification des fonctions de consommation des ménages
+Catégories juridiques
+Nomenclatures des professions et catégories socioprofessionnelles
+Géographie administrative et d'étudeRecherche sur une zone géographique
+Téléchargement de fichiers
+Historique des communes
+Modèles, méthodes et outils statistiquesLes modèles statistiques
+Les outils statistiques
+Méthodologie statistique
+Courrier des statistiques
+Offre de données ouvertesLe catalogue des données de l'Insee
+Le catalogue des API de l'Insee
+L'offre de données au travers de nos produits de diffusion
+Les formats de mise à disposition des données
+Nos données disponibles sur d'autres plateformes
+ServicesRéviser une pension, un loyer, bail ou contratRéviser une pension alimentaire
+Réviser un loyer d'habitation
+Réviser un bail commercial ou professionnel
+Indexer un contrat
+Convertisseur franc-euro : pouvoir d'achat de l'euro et du franc
+Consulter les indices et séries chronologiquesActualités des indices et séries chronologiques
+Accès des séries et indices chronologiques par thème
+Recherche par identifiant ou par mot-clé
+SDMX service web
+Tables de passage
+SireneObtenir un avis de situation au répertoire Sirene
+Demander la modification de son statut de diffusion
+Demander la modification du code APE
+Immatriculation, cessation ou modification des données au répertoire Sirene
+Obtenir sa catégorie d'entreprise
+Consulter et télécharger la base Sirene
+Identifiant unique des intervenants sur les marchés financiers (LEI)
+Réponses à vos questions sur le répertoire Sirene
+Découvrir, apprendre, enseignerPour commencer...
+Visualiser les données
+La Compétition européenne de statistiques
+Pour approfondir...
+Répondre à une enquête de l'InseeEnquêtes auprès des particuliers
+Enquêtes auprès des entreprises
+Vrai ou faux enquêteur de l’Insee, fraude, malveillance : comment vérifier ?
+S’informer sur l’actualité de notre diffusionAgenda de diffusion des indicateurs économiques
+Dernières publications de l’Insee
+Dernières publications des Services statistiques ministériels
+Évènements annoncés à la Une du site
+Thèmes d'actualité
+Gérer les répertoires des personnes physiquesRecueil des données d'état civil
+Le Répertoire électoral unique
+Dématérialisation des échanges de données
+Nombre de décès quotidiens par département
+Fichiers des personnes décédées depuis 1970
+Bibliothèque de l’Insee Alain DesrosièresPortail documentaire et catalogue
+La Bibliothèque numérique de la statistique publique
+Commander une prestation, acheter une publicationDiffusion sur mesure
+Acheter nos publications
+Nous suivreLettres d'information
+Abonnements aux lettres d'information et aux avis de parution
+Abonnement aux flux RSS
+L'Insee sur les médias sociaux
+Insee Mobile
+Aide et contactsRéponses à vos questions
+Obtenir des informations par téléphone
+Espace presseÉvénements presse
+Calendrier des publications
+Communiqués de presse nationaux
+Communiqués de presse régionaux
+Nominations
+L'Insee et la statistique publiqueL'InseeConnaître l'Insee
+L’Insee en toute confiance
+Travailler à l'Insee
+Événements et colloques
+Un peu d'histoire
+Rapports d'activité
+Les activités de l'InseeSuivre l’économie française
+Connaître les entreprises
+Observer l'évolution de la société
+Réaliser le recensement de la population
+Décrire et analyser les régions et les territoires
+Gérer des grands répertoires
+Diffuser et valoriser ses productions
+Perfectionner ses méthodes et évaluer la qualité
+Contribuer à la construction de la statistique européenne et internationale
+La statistique publiqueCadre juridique et institutionnel
+Le service statistique public
+Secret statistique
+Protection des données personnelles
+Règles de diffusion du SSP
+Accès aux documents administratifs
+La construction de la statistique européenneLes producteurs de statistiques européennes en France
+Textes juridiques de la gouvernance statistique européenne
+Les règlements cadres et sectoriels
+Mesure de la qualité de serviceLes indicateurs de qualité du programme Transparence
+Résultats des enquêtes de satisfaction
+Services Publics+ : un service public plus proche, plus simple, plus efficace
+Accueil
+Statistiques et études
+Revenu, niveau de vie et pauvreté en 2023
+Revenu, niveau de vie et pauvreté en 2023 Enquête Revenus fiscaux et sociaux (ERFS) - Insee Résultats
+Chiffres détaillés
+Insee Résultats
+Paru le : Paru le 17/02/2026
+Imprimer
+Découvrir la collection
+Insee Résultats-
+Février 2026
+L’enquête sur les Revenus fiscaux et sociaux (ERFS) a connu plusieurs refontes. Les
+tableaux de l’Insee Résultats présentent des séries avec des doubles points chaque
+année de rupture : les niveaux des indicateurs ne sont donc pas directement comparables
+avant et après une année de rupture. Un travail spécifique de correction des niveaux
+de certains
+indicateurs depuis 1996 a été effectué afin de pouvoir proposer des séries historiques
+cohérentes
+dans l’Insee Première n° 2063.
+Présentation
+Documentation
+Consultation de la
+publication ou de la documentation qui lui est associée
+Consulter
+Documentation
+Sommaire
+false
+Publication
+En 2023, taux de pauvreté et inégalités s'accroissent fortement
+I - Revenu, niveau de vie et pauvreté monétaire de 1996 à 2023
+A - Niveau de vie et revenu disponible
+B - Pauvreté
+II - Revenu, niveau de vie et pauvreté monétaire de 1970 à 2023 (sur champ constant
+mais incomplet)
+III - Revenu et niveau de vie des ménages en 2023
+A - Répartition des ménages, leurs revenus et niveaux de vie moyen et médian
+B - Niveau de vie des individus et revenu des ménages correspondants
+IV - Revenu, niveau de vie et pauvreté monétaire des individus en 2023
+A - Niveau de vie et revenu annuel des individus
+B - Pauvreté des individus
+Sources
+Enquête Revenus fiscaux et sociaux (ERFS)
+Une présentation générale de l'enquête Revenus fiscaux et sociaux / ERFS est accessible dans la rubrique « Définitions, Méthodes et Qualité » du site
+insee.fr.
+Une présentation générale du dispositif sur les revenus localisés sociaux et fiscaux (Filosofi) et des Revenus fiscaux localisés (RFL) est accessible dans la rubrique « Définitions, Méthodes et Qualité » du site
+insee.fr. Ces sources interviennent uniquement dans la partie séries longues / Niveau
+de vie et revenu disponible, tableau 7 - Très hauts revenus.
+Historique des changements méthodologiques
+À l'origine quadriennales, les enquêtes « revenus fiscaux » sont, depuis 1996, reconduites
+chaque année grâce à un processus d'appariement mis en place entre les données de
+l'enquête emploi et celles des fichiers fiscaux.
+Depuis lors, l'enquête a été améliorée à plusieurs reprises. La première de ces améliorations,
+courant à partir de 2002 (année de revenu), a consisté à adapter l'enquête « revenus fiscaux » (ERF) à l'enquête
+emploi devenue trimestrielle.
+La seconde, opérée à partir de l'année de revenu 2005 et qui a donné lieu à une nouvelle dénomination « enquête revenus fiscaux et sociaux
+» (ERFS), porte sur l'intégration des prestations sociales réelles (auparavant estimées
+sur barème) et la prise en compte plus complète des revenus du patrimoine. Les enquêtes
+revenus fiscaux 1996 à 2004 ont été rétropolées afin de constituer une nouvelle série
+d'enquêtes Revenus fiscaux et sociaux (ERFS) sans rupture.
+Par ailleurs, pour le millésime 2011, la méthode d'imputation des revenus financiers absents de la déclaration fiscale
+a été revue et s'appuie désormais sur l'enquête Patrimoine 2010. Auparavant, dans
+les ERFS de 2005 à 2010, ces revenus étaient imputés à partir de l'enquête Patrimoine
+2004. Une nouvelle version de l'ERFS 2010 a également été produite avec l'enquête
+Patrimoine 2010, afin de pouvoir apprécier les évolutions entre 2010 et 2011 à méthode
+constante, notamment dans les tableaux de séries longues.
+À partir de l'ERFS 2013, un changement méthodologique a été introduit sur l'impôt qui intervient dans le
+calcul du revenu disponible : c'est l'impôt payé en N sur les revenus de l'année N-1
+qui est pris en compte dans le calcul du revenu disponible de l'année N (et non plus
+l'impôt payé l'année suivante sur les revenus de l'année en cours).
+Dans l'ERFS 2013, outre ce changement de millésime d'impôts, d'autres améliorations
+importantes ont été introduites.
+La première a été la prise en compte des évolutions introduites dans l'enquête Emploi
+en continu de 2013 (qui constitue le socle de l'ERFS), visant notamment à mieux cerner
+certaines populations difficiles à appréhender par l'enquête, comme les étudiants.
+Deux changements fiscaux importants ont été introduits à compter de 2013 :
+D'une part, les majorations de pensions de retraite pour avoir élevé trois enfants
+ou plus sont désormais prises en compte dans le revenu déclaré à l'administration
+fiscale.
+D'autre part, l'avantage en nature constitué par la participation des employeurs aux
+contrats collectifs de complémentaire santé est maintenant intégré dans les salaires
+déclarés à l'administration.
+Ces ressources sont désormais comptabilisées dans le revenu disponible calculé dans
+l'ERFS.
+A partir de l’ERFS 2015, l'imputation s'appuie sur l'enquête Patrimoine 2014-15, dont les informations plus
+récentes permettent une meilleure cohérence avec les portefeuilles actuels de produits
+financiers détenus par les ménages. La méthode d'imputation a été revue afin d'intégrer
+les améliorations de l'enquête Patrimoine. Notamment, les montants d'actifs déclarés
+par les ménages sont plus fiables, désormais recueillis directement et non plus sous
+forme d'intervalles. Cela engendre une estimation des revenus financiers plus proche
+de la réalité, en particulier pour l'assurance vie.
+Une nouvelle version des ERFS 2012, 2013 et 2014 a été produite avec l'enquête Patrimoine
+2014-15, afin de pouvoir apprécier les évolutions depuis 2012 à méthode constante.
+Dans l’ERFS 2019, les revenus issus de la prime exceptionnelle de pouvoir d’achat
+et de l’exonération des heures supplémentaires, qui sont exonérés d’impôt sur le revenu
+et sont non ou mal couverts par les déclarations fiscales des ménages, ont été estimés
+par le biais d’imputations statistiques.
+Dans l’ERFS 2020, plusieurs dispositifs exceptionnels mis en place durant la crise
+sanitaire, non mesurés par les sources fiscales et sociales servant à constituer l’ERFS,
+ont été imputés : le Fonds de solidarité des entreprises (FSE), les primes versées
+dans le secteur de la santé, et l’aide exceptionnelle de solidarité versée aux ménages
+modestes. Compte tenu des difficultés de production cette année-là, les données présentent
+toutefois des fragilités.
+Dans l’ERFS 2021, les imputations de la prime exceptionnelle de pouvoir d’achat, du
+fonds de solidarité et des primes versées dans le secteur de la santé ont été reconduites.
+L’indemnité inflation a également été imputée. Par ailleurs, l’ERFS a connu une refonte
+importante pour s’adapter à la nouvelle EEC en 2021.
+L’ERFS a ainsi repris à son compte les évolutions des règles de rattachement
+(notamment concernant les étudiants) et de définition du concept de personne de référence
+introduites dans l’EEC.
+Cette refonte a également été l’occasion d’intégrer l’amélioration des méthodes
+de correction de la non-réponse de l’EEC et de conserver les individus de l’EEC non
+appariés avec les sources administratives dans le champ de l’ERFS (excepté pour les
+individus de 90 et plus pour lesquels les imputations sont trop fragiles).
+Enfin, depuis 2021, les marges de population intègrent les évolutions du
+questionnaire de l’enquête annuelle de recensement qui visent à mieux mesurer les
+situations de multi-résidence.
+La double production de l’ERFS en 2020, à partir de l’ancienne et de la nouvelle
+EEC, a permis de mesurer l’impact de cette refonte (Insee Méthode n° 145) : les niveaux de vie sont rehaussés et les indicateurs de pauvreté et d’inégalités
+diminuent (excepté le rapport interdéciles qui demeure stable).
+Dans l’Insee Première n° 2004, certains indicateurs ont été rétropolés jusqu’en 1996 pour pouvoir apprécier les
+évolutions sur la période 1996-2022.
+Indicateurs sur la période 1970-2023
+De nouvelles séries ont été ajoutées pour permettre d’apprécier l'évolution du niveau
+de vie, de leurs inégalités et de la pauvreté monétaire depuis 1970.
+Pour assurer la comparabilité temporelle, le périmètre de revenu retenu pour ces séries
+est constant sur 1975-2023, mais incomplet par rapport à celui des ERFS sur 1996-2023.
+En effet, certains revenus ne pouvaient être pris en compte : les revenus financiers,
+dont le contour a évolué au cours du temps dans les sources fiscales, l’allocation
+aux adultes handicapés (AAH) et certaines prestations familiales (la prestation d’accueil
+du jeune enfant, l’allocation d’éducation de l’enfant handicapé et l’allocation de
+soutien familial) qui n’ont pu être imputées avant 1996.
+En 1970, le périmètre de revenus est plus restreint que sur la période 1975-2023 car l’ERF de
+1970 ne contient pas de données relatives à la taxe d’habitation (intitulée alors
+« contribution mobilière ») et à l’allocation de logement familiale (ALF).
+Pour rendre comparables les indicateurs présentés sur la totalité de la période 1975-2023,
+une rétropolation sur les niveaux de vie, les inégalités et la pauvreté a été réalisée.
+Les montants en euros (quantiles de niveaux de vie, masses de niveaux de vie, seuils
+de pauvreté) ont été chaînés à partir de leurs taux d’évolution entre deux ERF et
+deux ERFS successives et comparables. Les taux de pauvreté et l’indice de Gini ont
+été rétropolés selon une méthode similaire à partir des variations en points.
+Les séries publiées ici diffèrent donc de toutes les statistiques publiées sur les
+années 1996 à 2023 sur un champ plus complet, que ce soit dans les Chiffres-clés, dans cet Insee résultats ou dans l’Insee Première
+sur les niveaux de vie (qui comporte des séries rétropolées sur 1996-2023).
+Elles s’écartent des données fournies dans les Chiffres-clés, qui sont estimées sur le même périmètre de revenus mais ne sont pas rétropolées.
+Définitions
+Activité BIT :
+Il s'agit de l'activité au sens du BIT selon l'interprétation communautaire, telle
+qu'elle est définie dans l'enquête Emploi de l'Insee. Dans tous les tableaux, la variable
+d'activité présentée a pour modalités : « Salarié », « Indépendant », « Chômeur »,
+« Retraité », « Autre inactif ».
+Cette variable a été recalculée dans l'ERFS en mobilisant également le statut (issu
+de l'enquête Emploi) et la catégorie socioprofessionnelle (également recalculée dans
+l'ERFS, voir plus bas).
+Cependant, la variable activité au sens du BIT de l'enquête Emploi est impactée par
+le changement de périodicité de l'enquête en 2002 (passage d'une enquête annuelle
+à une enquête en continu). En outre, cette variable a connu d'autres modifications,
+notamment en 2007, destinées à rapprocher sa construction de la définition retenue
+dans l'interprétation communautaire. Ces deux éléments expliquent la présence de certaines
+ruptures observées à ces dates dans les séries longues.
+Nomenclature agrégée 2008 / NA 2008 :
+Avec le passage à la NAF rév. 2 (nomenclature d'activités française révisée au 1er
+janvier 2008), la nomenclature économique de synthèse (NES) associée à la NAF rév.
+1 disparaît en tant que telle. En effet, cette nomenclature strictement française
+ne permettait pas de comparaisons internationales car elle ne s'emboîtait pas dans
+l'arborescence de la CITI et de la NACE.
+La NAF rév. 2 contient deux niveaux agrégés « standard » : les sections et divisions
+en, respectivement, 21 et 88 postes. Ces niveaux sont communs à la nomenclature internationale
+d'activités CITI rév. 4, à la nomenclature européenne d'activités NACE rév. 2 et à
+la NAF rév. 2.
+Il était toutefois nécessaire de disposer de niveaux de regroupements supplémentaires
+pour répondre aux besoins de l'analyse économique et de la diffusion en matière de
+données de synthèse.
+Sept niveaux d'agrégation sont ainsi associés à la NAF rév. 2, dénommés « A xx » où
+xx représente le nombre de postes du niveau. Ils constituent la nomenclature agrégée
+(NA) :
+· A 10 : niveau international, regroupement de sections ;
+· A 17 : niveau français intermédiaire entre les niveaux A 10 et A 38.
+Au niveau des sections (A 21), l'industrie manufacturière est détaillée en cinq postes
+et, inversement, certaines activités de services sont regroupées.
+· A 21 : sections, niveau standard de l'arborescence de la NAF rév. 2 ;
+· A 38 : niveau international, intermédiaire entre sections et divisions ;
+· A 64 : niveau européen, intermédiaire entre les niveaux A 38 et divisions (A 88),
+provisoire ;
+· A 88 : divisions, niveau standard de l'arborescence de la NAF rév. 2 ;
+· A 129 : niveau français intermédiaire entre les niveaux divisions (A 88) et groupes.
+Bureau international du travail / BIT :
+Le Bureau international du travail (BIT) est un organisme rattaché à l’ONU et chargé
+des questions générales liées au travail dans le monde. Il réside à Genève. Il harmonise
+les concepts et définitions relatifs au travail, à l’emploi et au chômage.
+Catégorie socioprofessionnelle :
+Il s'agit de la variable de catégorie socioprofessionnelle telle qu'elle est définir
+dans l'enquête Emploi.
+Certaines catégories sont cependant recalculées en fonction de la part de certains
+revenus dans l'ensemble des revenus d'activité et de remplacement perçus. Au sein
+des inactifs, cela impacte en particulier la répartition entre les "Retraités" et
+les "Autres inactifs".
+Chômeur (au sens du Bureau International du Travail (BIT)) / Personne au chômage (au
+sens du Bureau International du Travail (BIT)) :
+Un chômeur au sens du BIT est une personne âgée de 15 ans ou plus qui répond simultanément
+à trois conditions : être sans emploi durant une semaine donnée ; être disponible
+pour prendre un emploi dans les deux semaines ; avoir cherché activement un emploi
+au cours des quatre dernières semaines ou en avoir trouvé un qui commence dans moins
+de trois mois.
+Les démarches actives considérées sont variées : étudier des annonces d’offres d’emploi,
+se rendre à un salon professionnel, mobiliser son réseau social ou prendre des conseils
+auprès de France Travail, etc.
+Déciles :
+Si on ordonne une distribution de salaires, de revenus, de chiffres d'affaires, etc.,
+les déciles sont les valeurs qui partagent cette distribution en dix parties d’effectifs
+égaux.
+Ainsi, pour une distribution de salaires :
+le premier décile (noté généralement D1) est le salaire au-dessous duquel se situent
+10 % des salaires ;
+le neuvième décile (noté généralement D9) est le salaire au-dessous duquel se situent
+90 % des salaires.
+Le premier décile est, de manière équivalente, le salaire au-dessus duquel se situent
+90 % des salaires ; le neuvième décile est le salaire au-dessus duquel se situent
+10 % des salaires.
+Population active (au sens du Bureau International du Travail (BIT)) / Actifs (au
+sens du Bureau International du Travail (BIT)), personnes actives (au sens du Bureau
+International du Travail (BIT)) :
+La population active au sens du Bureau International du Travail (BIT) comprend les
+personnes en emploi au sens du BIT et les chômeurs au sens du BIT.
+Remarque :
+Définition internationale, adoptée en 1982 par une résolution du Bureau international
+du travail (BIT).
+Impôts directs :
+Impôt sur le revenu, taxe d'habitation, contribution sociale généralisée (CSG), contribution
+à la réduction de la dette sociale (CRDS), prélèvement libératoire sur valeurs mobilières
+et autres prélèvements sociaux sur les revenus du patrimoine.
+Inactifs :
+Les inactifs sont les personnes âgées de 15 ans ou plus qui ne sont ni en emploi ni
+au chômage.
+Indice de Gini / Coefficient de Gini :
+L'indice (ou coefficient) de Gini est un indicateur synthétique permettant de rendre
+compte du niveau d'inégalité pour une variable et sur une population donnée. Il varie
+entre 0 (égalité parfaite) et 1 (inégalité extrême). Entre 0 et 1, l'inégalité est
+d'autant plus forte que l'indice de Gini est élevé.
+Il est égal à 0 dans une situation d'égalité parfaite où la variable prend une valeur
+identique sur l’ensemble de la population. À l'autre extrême, il est égal à 1 dans
+la situation la plus inégalitaire possible, où la variable vaut 0 sur toute la population
+à l’exception d’un seul individu.
+Les inégalités ainsi mesurées peuvent porter sur des variables de revenus, de salaires,
+de niveau de vie, etc.
+Intensité de la pauvreté :
+L'intensité de la pauvreté permet d'apprécier à quel point le niveau de vie de la
+population pauvre est éloigné du seuil de pauvreté. Comme Eurostat, l'Insee mesure
+cet indicateur comme l'écart relatif entre le niveau de vie médian de la population
+pauvre et le seuil de pauvreté. Plus cet indicateur est élevé et plus la pauvreté
+est dite intense, au sens où le niveau de vie des plus pauvres est très inférieur
+au seuil de pauvreté.
+Formellement, il est calculé de la manière suivante : (seuil de pauvreté - niveau
+de vie médian de la population pauvre) / seuil de pauvreté.
+Loyer imputé brut :
+Estimation de l'équivalent monétaire de l'avantage que procure au ménage la propriété
+de sa résidence principale, net de la taxe foncière.
+Minima sociaux :
+Les minima sociaux visent à assurer un revenu minimal à une personne (ou à sa famille)
+en situation de précarité. Ces prestations sont non contributives, c'est-à-dire versées
+sans contrepartie de cotisations.
+Le revenu de solidarité active (RSA), l'allocation aux adultes handicapés (AAH), l'allocation
+spécifique de solidarité (ASS) et l'allocation spécifique aux personnes âgées (Aspa)
+sont les principaux minima sociaux.
+Remarque :
+Ce type de prestations est versé sous conditions de ressources et permettent aux bénéficiaires
+de parvenir au niveau du minimum concerné.
+Niveau de vie :
+Le niveau de vie est égal au revenu disponible du ménage divisé par le nombre d'unités
+de consommation (UC). Le niveau de vie est donc le même pour tous les individus d'un
+même ménage.
+Le niveau de vie correspond à ce qu’Eurostat nomme « revenu disponible équivalent
+».
+Les unités de consommation sont généralement calculées selon l'échelle d'équivalence
+dite de l'OCDE modifiée qui attribue 1 UC au premier adulte du ménage, 0,5 UC aux
+autres personnes de 14 ans ou plus et 0,3 UC aux enfants de moins de 14 ans.
+Nombre d'enfants dans le logement :
+Nombre d'enfants célibataires dans le logement sans limite d'âge.
+Nombre d'enfants fiscalement à charge :
+Un enfant fiscalement à charge est un enfant de la personne de référence ou de son
+conjoint dans l’enquête emploi retrouvé à charge dans une déclaration fiscale du ménage.
+Pauvreté monétaire / Seuil de pauvreté :
+Un ménage et les individus qui le composent sont considérés comme pauvres lorsque
+le niveau de vie du ménage est inférieur au seuil de pauvreté. En France et en Europe,
+le seuil est le plus souvent fixé à 60 % du niveau de vie médian.
+L'Insee, comme Eurostat et les autres pays européens, mesure en effet la pauvreté
+monétaire de manière relative alors que d'autres pays (comme les États-Unis ou le
+Canada) ont une approche absolue.
+Dans l'approche en termes relatifs, le seuil de pauvreté est déterminé par rapport
+à la distribution des niveaux de vie de l'ensemble de la population. Eurostat et les
+pays européens utilisent en général un seuil à 60 % de la médiane des niveaux de vie.
+La France privilégie également ce seuil, mais publie des taux de pauvreté selon d'autres
+seuils (40 %, 50 % ou 70 %), conformément aux recommandations du rapport du Cnis sur
+la mesure des inégalités.
+Pensions, retraites et rentes :
+Les pensions et retraites comprennent les retraites au sens strict, les pensions alimentaires
+et les rentes viagères ainsi que les pensions d’invalidité.
+Prestations sociales (ou Transferts sociaux) :
+Les prestations sociales (ou transferts sociaux) sont des transferts versés (en espèces
+ou en nature) à des individus ou à des familles afin de réduire la charge financière
+que représente la protection contre divers risques.
+Elles sont associées à six grandes catégories de risques :
+La vieillesse et la survie (pensions de retraite, pensions de réversion, prise en
+charge de la dépendance).
+La santé (prise en charge totale ou partielle de frais liés à la maladie, à l'invalidité,
+aux accidents du travail et aux maladies professionnelles).
+La maternité-famille (prestations familiales : prestations liées à la maternité, allocations
+familiales, aides pour la garde d'enfants).
+La perte d'emploi (indemnisation du chômage) et les difficultés d'insertion ou de
+réinsertion professionnelle.
+Les difficultés de logement (aides au logement).
+La pauvreté et l'exclusion sociale (minima sociaux : revenu minimum d'insertion- RSA,
+minimum vieillesse, etc.).
+Rapport inter-décile des revenus :
+Les rapports interdéciles des revenus sont utilisés pour mettre en évidence les disparités
+(ou écarts) entre les plus riches et les plus pauvres.
+Revenus d'activité :
+Les revenus d'activité comprennent les salaires (y compris, depuis 2019, la prime
+exceptionnelle de pouvoir d’achat (prime de partage de la valeur à partir de 2022)
+et les revenus d’heures supplémentaires exonérées), les bénéfices agricoles,
+les bénéfices industriels et
+commerciaux, les bénéfices non commerciaux et les indemnités de chômage.
+Revenu déclaré :
+Le revenu déclaré (ou revenu fiscal) du ménage (au sens fiscal) est constitué des
+ressources mentionnées sur la déclaration des revenus n°2042.
+Il comprend donc les revenus d'activité salariée ou non salariée, les indemnités de
+chômage, de maladie, les pensions d'invalidité ou de retraite ainsi qu'une partie
+des revenus du patrimoine.
+Les pensions alimentaires versées sont exclues ainsi que les revenus exceptionnels
+et les revenus du patrimoine exonérés d'impôt (épargne logement, etc.). En revanche,
+les revenus portés sur la déclaration n°2042 et soumis à prélèvement forfaitaire sont
+inclus (par exemple, les revenus d'obligations).
+Il s'agit du revenu avant déductions et abattements accordés par la législation fiscale.
+Ces revenus sont nets de cotisations sociales et de la contribution sociale généralisée
+(CSG) déductible. En sont exclus les revenus exceptionnels (plus-values notamment).
+Revenu disponible :
+Le revenu disponible est le revenu à la disposition du ménage pour consommer et épargner.
+Il comprend les revenus d’activité nets des cotisations sociales, les indemnités de
+chômage, les retraites et pensions, les revenus du patrimoine (fonciers et financiers)
+et les autres prestations sociales perçues, nets des impôts directs.
+Ces derniers incluent l’impôt sur le revenu, la taxe d’habitation, la contribution
+sociale généralisée – CSG –, contribution à la réduction de la dette sociale – CRDS
+– et les prélèvements sociaux sur les revenus du patrimoine. Il comprend une partie
+du solde des transferts inter ménages.
+Revenu initial :
+Le revenu initial est le revenu perçu avant paiement des impôts directs (impôts sur
+le revenu, taxe d’habitation, CSG et CRDS) et perception des prestations sociales
+non contributives. Il s’agit de l’ensemble des revenus d’activité, de remplacement
+et du patrimoine, nets de cotisations sociales. En sont exclus les revenus exceptionnels.
+Il peut aussi être appelé « revenu avant redistribution ».
+Revenu perçu annuel moyen du ménage :
+C'est le revenu effectivement encaissé.
+C'est le revenu déclaré augmenté des revenus financiers imputés (non déclarés) et
+diminué :
+de la part de CSG non déductible (ou imposable) et de la CRDS (toujours non déductible),
+sur les revenus d'activité et de remplacement (qui sont précomptées par l'employeur)
+;
+des contributions sociales (CSG, CRDS et prélèvements sociaux) sur les revenus financiers
+soumis au prélèvement forfaitaire libératoire (déclarés ou imputés) ;
+de l'impôt prélevé à la source sur les produits de placements à revenus fixes (prélèvement
+libératoire).
+Revenu du patrimoine :
+Revenus fonciers et revenus de valeurs et de capitaux mobiliers, hors plus values.
+Les revenus du patrimoine ne sont que partiellement couverts dans la déclaration fiscale :
+plusieurs types de revenus du patrimoine sont exonérés d'impôts (épargne réglementée
+notamment) ou en partie seulement appréhendés dans les déclarations. Ils sont complétés,
+à partir de 2005, dans la nouvelle série sur les revenus fiscaux et sociaux par des
+revenus imputés (produits d'assurance-vie, livrets jeune, PEA, LEP, CEL, PEL, autres
+livrets exonérés).
+Statut d'occupation du logement :
+1 : Accédant à la propriété (le ménage doit encore effectuer au moins un remboursement
+d'un prêt contracté pour l'achat de son logement)
+2 : Propriétaire (non accédant) du logement, ou de la maison où se trouve le logement
+y compris en indivision
+3 : Locataire d'un logement HLM
+4 : Locataire ou sous-locataire d'un logement loué vide non-HLM
+5 : Locataire ou sous-locataire d'un logement loué meublé ou d'une chambre d'hôtel
+6 : Logé gratuitement par des parents, des amis ou l'employeur (y compris le cas des
+personnes occupant un logement qu'elles ont vendu en viager, etc.) ; usufruitier (sans
+nue-propriété), y compris en viager
+Taux de pauvreté monétaire :
+Le taux de pauvreté monétaire correspond à la proportion d'individus (ou de ménages)
+étant en situation de pauvreté monétaire.
+Type de ménage :
+Dans le cadre de la diffusion des résultats de l'Enquête Revenus fiscaux et sociaux,
+la variable « type de ménage » est recalculée pour être conforme au concept de « ménage
+» dans le recensement de la population.
+En effet, les familles monoparentales et les couples avec enfant(s), mais sans enfant
+célibataire, sont considérés comme des ménages complexes.
+Personne de référence :
+Dans l’Enquête sur les revenus fiscaux et sociaux, la personne de référence du ménage
+est, comme dans l’enquête Emploi en continu,
+déterminée à partir de la structure familiale du ménage et des caractéristiques
+des personnes qui le composent. Il s’agit le plus souvent, jusqu’en 2020,
+de l’homme le plus âgé, en donnant la priorité à l’actif le plus âgé.
+La personne de référence d’une famille est l’homme du couple, si la famille
+comprend un couple de personnes de sexe différent, ou le parent de la famille monoparentale.
+Depuis la refonte de l’ERFS en 2021 (et pour le deuxième point 2020), la définition
+de la personne de référence a été revue comme dans l’enquête Emploi en continu pour
+s’aligner sur la définition du Recensement de la Population, soit « la personne,
+en couple, active, la plus âgée ».
+Pour en savoir plus
+Insee, Chiffres-clés, sous-thèmes « Revenus - Niveaux de vie - Pouvoir d'achat »
+et « Pauvreté - Précarité », Chiffres-clés, novembre 2025
+Abdouni S., Buresi G., Delmas F., Dumont G., Ramuzat L., Tapin J. « Les mesures sociofiscales de 2023 : la non-reconduction des mesures exceptionnelles
+de 2022 diminue le revenu disponible des ménages modestes », in France, portrait social, coll. « Insee Références », édition 2024.
+Insee Références coll. « Les revenus et le patrimoine des ménages », édition 2024.
+page Bluesky de l'Insee
+page Instagram de l'Insee
+page LinkedIn de l'Insee
+page X de l'Insee
+chaîne Youtube de l'Insee
+blog de l'Insee
+flux RSS de l'Insee
+Nos sites partenaires
+Système Statistique Européen
+Réseau Quetelet
+Centre d'Accès Sécurisé Distant aux données (CASD)
+site data.gouv
+Services Publics +
+Abonnez-vous
+Avis de parution
+Nous suivre
+page Bluesky de l'Insee
+page Instagram de l'Insee
+page LinkedIn de l'Insee
+page X de l'Insee
+chaîne Youtube de l'Insee
+blog de l'Insee
+flux RSS de l'Insee
+Contact
+Aide et contact
+Statistiques et études
+Définitions, méthodes et qualité
+Définitions
+Sources statistiques et indicateurs
+La qualité dans le Service statistique public (SSP)
+Nomenclatures
+Géographie administrative et d'étude
+Modèles, méthodes et outils statistiques
+Courrier des statistiques
+Offre de données ouvertes
+Services
+Réviser une pension, un loyer, bail ou contrat
+Consulter les indices et séries chronologiques
+Sirene
+Découvrir, apprendre, enseigner
+Répondre à une enquête de l'Insee
+S’informer sur l’actualité de notre diffusion
+Gérer les répertoires des personnes physiques
+Bibliothèque de l’Insee Alain Desrosières
+Commander une prestation, acheter une publication
+Nous suivre
+Aide et contacts
+Espace presse
+L'Insee et la statistique publique
+L'Insee
+Les activités de l'Insee
+La statistique publique
+La construction de la statistique européenne
+Mesure de la qualité de service
+Services Publics+ : un service public plus proche, plus simple, plus efficace
+Mentions légales et crédits
+Accessibilité : partiellement conforme
+Accès sourds et malentendants
+Sécurité
+Plan du site
+Haut de page

@@ -44,6 +44,8 @@ const LlmComputation = z.object({
       "baisse_cotisations_salaire",
       "deduction_interets_emprunt",
       "gain_pourcent_salaire_net",
+      "gain_salaire_reference_personne",
+      "impot_supprime_decile",
     ])
     .nullable(),
   params: z.array(z.object({ name: z.string(), value: z.number() })),

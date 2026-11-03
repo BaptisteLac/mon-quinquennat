@@ -101,3 +101,45 @@ export function gainPourcentSalaireNet(salaireNet: number | null, params: Readon
   const v = round2((salaireNet * pourcent) / 100);
   return { low: v, high: v };
 }
+
+/**
+ * Unités de consommation du foyer, échelle de l'OCDE modifiée utilisée par l'INSEE (donnée publique
+ * `insee-unites-de-consommation`) : 1 pour le premier adulte, 0,5 pour chaque autre personne de 14 ans
+ * ou plus, 0,3 pour chaque enfant de moins de 14 ans.
+ */
+export function unitesDeConsommation(adultes: number, agesEnfants: readonly number[]): number {
+  if (adultes < 1) throw new Error("Au moins un adulte.");
+  return 1 + 0.5 * (adultes - 1) + agesEnfants.reduce((s, a) => s + (a >= 14 ? 0.5 : 0.3), 0);
+}
+
+export interface SeuilsDeciles {
+  /** Plafond du décile qui précède le premier décile visé (ex. D3 pour « 4e à 6e déciles »). */
+  bas: number;
+  /** Plafond du dernier décile visé (ex. D6). */
+  haut: number;
+  /** Plafond du décile suivant, dont seul le « début » est visé (ex. D7) ; null si le programme n'en parle pas. */
+  suivant: number | null;
+}
+
+/**
+ * Impôt sur le revenu supprimé pour les foyers dont le niveau de vie est dans les déciles visés, et
+ * réduction d'impôt annuelle (`reductionAnnuelle`) pour les foyers plus aisés qui travaillent. Entre
+ * `haut` et `suivant` (« début du 7e décile »), la limite n'est pas publiée : fourchette entre la
+ * réduction et la suppression. Jamais plus que l'impôt dû. €/mois.
+ */
+export function impotSupprimeParDecile(
+  niveauDeVieAnnuel: number,
+  travaille: boolean,
+  impotMensuel: number,
+  params: Readonly<Record<string, number>>,
+  seuils: SeuilsDeciles,
+): Range {
+  const reduction = params.reductionAnnuelle;
+  if (reduction === undefined) throw new Error("Paramètre reductionAnnuelle manquant.");
+  const impot = Math.max(impotMensuel, 0);
+  const reductionMensuelle = travaille ? Math.min(reduction / 12, impot) : 0;
+  if (niveauDeVieAnnuel < seuils.bas) return { low: 0, high: 0 };
+  if (niveauDeVieAnnuel < seuils.haut) return { low: round2(impot), high: round2(impot) };
+  if (seuils.suivant !== null && niveauDeVieAnnuel < seuils.suivant) return { low: round2(reductionMensuelle), high: round2(impot) };
+  return { low: round2(reductionMensuelle), high: round2(reductionMensuelle) };
+}

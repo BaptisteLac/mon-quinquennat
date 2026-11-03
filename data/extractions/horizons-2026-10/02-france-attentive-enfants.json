@@ -762,7 +762,32 @@
           },
           "sentence": {
             "simple": "Avec un enfant de moins de trois ans, tu pourrais ne plus payer d'impôt sur le revenu, ou avoir 3 000 € de réduction par an si tes revenus sont plus élevés.",
-            "normal": "Impôt sur le revenu supprimé pendant les trois premières années de l'enfant pour les 4e à 6e déciles (et le début du 7e) ; réduction de 3 000 € par an pour les familles plus aisées qui travaillent. Montant non calculé : les seuils de revenu ne sont pas publiés."
+            "normal": "Impôt sur le revenu supprimé pendant les trois premières années de l'enfant pour les 4e à 6e déciles (et le début du 7e) ; réduction de 3 000 € par an pour les familles plus aisées qui travaillent. Le montant est calculé pour ce cas type, hors solde : l'avantage ne dure que les trois premières années de chaque enfant."
+          },
+          "computation": {
+            "kind": "estimation",
+            "formulaId": "impot_supprime_decile",
+            "params": [
+              {
+                "name": "decileDebut",
+                "value": 4
+              },
+              {
+                "name": "decileFin",
+                "value": 6
+              },
+              {
+                "name": "decileSuivant",
+                "value": 7
+              },
+              {
+                "name": "reductionAnnuelle",
+                "value": 3000
+              }
+            ],
+            "hypothesisLabel": "Cas type : ton niveau de vie est estimé par les revenus nets du foyer divisés par ses unités de consommation (sans prestations ni impôt), puis situé dans les déciles de l'INSEE. Entre le 4e et le 6e décile, tout l'impôt est supprimé ; au début du 7e décile, dont la limite n'est pas publiée, fourchette entre la suppression et la réduction ; au-delà, réduction de 3 000 € par an si le foyer travaille, sans dépasser l'impôt dû.",
+            "hypothesisSourceId": "insee-niveau-de-vie-d3-2024",
+            "hypothesisCondition": "pendant les trois premières années de ton enfant"
           }
         }
       ]

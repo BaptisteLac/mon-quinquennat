@@ -1,7 +1,15 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import donnees from "../data/donnees-publiques.json" with { type: "json" };
-import { baisseCotisationsSalaire, deductionInteretsEmprunt, energieFacture, gainPourcentSalaireNet, PublicData } from "./estimations.ts";
+import {
+  baisseCotisationsSalaire,
+  deductionInteretsEmprunt,
+  energieFacture,
+  gainPourcentSalaireNet,
+  impotSupprimeParDecile,
+  PublicData,
+  unitesDeConsommation,
+} from "./estimations.ts";
 
 const spaces = (s: string) => s.replace(/[  ]/g, " ").replace(/\s+/g, " ");
 
@@ -10,7 +18,8 @@ describe("données publiques des hypothèses", () => {
   it.each(data.map((d) => [d.id, d] as const))("%s : citation archivée mot pour mot, avec la valeur", (_id, d) => {
     const archive = readFileSync(new URL(`../${d.archive}`, import.meta.url), "utf8");
     expect(spaces(archive)).toContain(spaces(d.citation));
-    expect(spaces(d.citation).replace(/ /g, "")).toContain(String(d.valeur));
+    // Valeur écrite à la française dans la citation (« 1 477,93 ») : virgule décimale, espaces retirés.
+    expect(spaces(d.citation).replace(/ /g, "")).toContain(String(d.valeur).replace(".", ","));
   });
 });
 
@@ -51,5 +60,24 @@ describe("gain en pourcentage du salaire net", () => {
   it("rien sans salaire, erreur sans paramètre", () => {
     expect(gainPourcentSalaireNet(null, { gainPourcentNet: 14 })).toEqual({ low: 0, high: 0 });
     expect(() => gainPourcentSalaireNet(2000, {})).toThrow();
+  });
+});
+
+describe("impôt supprimé selon le décile de niveau de vie", () => {
+  const seuils = { bas: 20000, haut: 30000, suivant: 34000 };
+  const p = { reductionAnnuelle: 3000 };
+  it("unités de consommation : échelle de l'OCDE modifiée", () => {
+    expect(unitesDeConsommation(2, [9, 6])).toBeCloseTo(2.1, 10);
+    expect(unitesDeConsommation(1, [15])).toBeCloseTo(1.5, 10);
+  });
+  it("déciles visés : tout l'impôt ; en dessous : rien", () => {
+    expect(impotSupprimeParDecile(25000, true, 120, p, seuils)).toEqual({ low: 120, high: 120 });
+    expect(impotSupprimeParDecile(15000, true, 120, p, seuils)).toEqual({ low: 0, high: 0 });
+  });
+  it("début du décile suivant : fourchette ; au-delà : réduction plafonnée à l'impôt, si le foyer travaille", () => {
+    expect(impotSupprimeParDecile(32000, true, 400, p, seuils)).toEqual({ low: 250, high: 400 });
+    expect(impotSupprimeParDecile(50000, true, 400, p, seuils)).toEqual({ low: 250, high: 250 });
+    expect(impotSupprimeParDecile(50000, true, 100, p, seuils)).toEqual({ low: 100, high: 100 });
+    expect(impotSupprimeParDecile(50000, false, 400, p, seuils)).toEqual({ low: 0, high: 0 });
   });
 });

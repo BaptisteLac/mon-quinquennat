@@ -1,0 +1,3 @@
+TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: 'TABLEAU' }).or(getByRole('link', { name: 'TABLEAU' })).or(getByText('TABLEAU', { exact: true })).first()

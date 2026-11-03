@@ -24,5 +24,70 @@
     "unite": "€ TTC par an, consommation moyenne de 4,5 MWh",
     "citation": "pour une consommation moyenne de 4,5 MWh par an, la facture TTC passe donc de 1 046 €TTC à 1 072 €TTC",
     "archive": "data/sources/cre-trve-aout-2026-2026-11-02.txt"
+  },
+  {
+    "id": "service-public-smic-net-2026",
+    "publisher": "Service-Public.fr (Dila)",
+    "title": "Le Smic va augmenter au 1er juin (actualité du 18 mai 2026)",
+    "docType": "bareme_officiel",
+    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18916",
+    "year": 2026,
+    "retrievedAt": "2026-11-03T14:27:32Z",
+    "valeur": 1477.93,
+    "unite": "€ net par mois, temps plein",
+    "citation": "le Smic mensuel net pour un temps plein s’élèvera à 1 477,93 €, contre 1 443,11 € actuellement (soit une hausse de 34,82 € net par mois).",
+    "archive": "data/sources/service-public-smic-juin-2026-2026-11-03.txt"
+  },
+  {
+    "id": "insee-niveau-de-vie-d3-2024",
+    "publisher": "INSEE",
+    "title": "Distribution des niveaux de vie (chiffres-clés, juillet 2026), tableau en euros 2024 constants, colonnes 2020 à 2024",
+    "docType": "statistique_publique",
+    "url": "https://www.insee.fr/fr/statistiques/2416808",
+    "year": 2024,
+    "retrievedAt": "2026-11-03T14:40:00Z",
+    "valeur": 20980,
+    "unite": "€ par an et par unité de consommation : plafond du 3e décile de niveau de vie en 2024 (dernière colonne)",
+    "citation": "3e décile (D3) 20 820 20 670 20 650 20 610 20 980",
+    "archive": "data/sources/insee-distribution-niveaux-de-vie-2026-11-03.txt"
+  },
+  {
+    "id": "insee-niveau-de-vie-d6-2024",
+    "publisher": "INSEE",
+    "title": "Distribution des niveaux de vie (chiffres-clés, juillet 2026), tableau en euros 2024 constants, colonnes 2020 à 2024",
+    "docType": "statistique_publique",
+    "url": "https://www.insee.fr/fr/statistiques/2416808",
+    "year": 2024,
+    "retrievedAt": "2026-11-03T14:40:00Z",
+    "valeur": 29880,
+    "unite": "€ par an et par unité de consommation : plafond du 6e décile de niveau de vie en 2024 (dernière colonne)",
+    "citation": "6e décile (D6) 29 030 29 090 29 040 29 230 29 880",
+    "archive": "data/sources/insee-distribution-niveaux-de-vie-2026-11-03.txt"
+  },
+  {
+    "id": "insee-niveau-de-vie-d7-2024",
+    "publisher": "INSEE",
+    "title": "Distribution des niveaux de vie (chiffres-clés, juillet 2026), tableau en euros 2024 constants, colonnes 2020 à 2024",
+    "docType": "statistique_publique",
+    "url": "https://www.insee.fr/fr/statistiques/2416808",
+    "year": 2024,
+    "retrievedAt": "2026-11-03T14:40:00Z",
+    "valeur": 33680,
+    "unite": "€ par an et par unité de consommation : plafond du 7e décile de niveau de vie en 2024 (dernière colonne)",
+    "citation": "7e décile (D7) 32 310 32 540 32 670 32 920 33 680",
+    "archive": "data/sources/insee-distribution-niveaux-de-vie-2026-11-03.txt"
+  },
+  {
+    "id": "insee-unites-de-consommation",
+    "publisher": "INSEE",
+    "title": "Revenu, niveau de vie et pauvreté en 2023 (Insee Résultats), définitions",
+    "docType": "statistique_publique",
+    "url": "https://www.insee.fr/fr/statistiques/8731855",
+    "year": 2023,
+    "retrievedAt": "2026-11-03T14:40:00Z",
+    "valeur": 0.3,
+    "unite": "unité de consommation par enfant de moins de 14 ans (1 pour le premier adulte, 0,5 pour les autres personnes de 14 ans ou plus)",
+    "citation": "Les unités de consommation sont généralement calculées selon l'échelle d'équivalence dite de l'OCDE modifiée qui attribue 1 UC au premier adulte du ménage, 0,5 UC aux autres personnes de 14 ans ou plus et 0,3 UC aux enfants de moins de 14 ans.",
+    "archive": "data/sources/insee-revenu-niveau-de-vie-2023-2026-11-03.txt"
   }
 ]

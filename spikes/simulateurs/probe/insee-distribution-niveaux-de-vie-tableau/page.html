@@ -1,0 +1,1142 @@
+<!DOCTYPE html><html lang="fr" moznomarginboxes="" mozdisallowselectionprint="" class="default"><head>
+    
+
+
+
+
+
+
+    <script async="" src="https://cdn.matomo.cloud/insee.matomo.cloud/container_j86K86K5.js"></script><script>
+        var _mtm = window._mtm || [];
+        var _paq = window._paq || [];
+        _mtm.push({ 'mtm.startTime': (new Date().getTime()), event: 'mtm.Start' });
+        _paq.push(['setCustomDimension', 1, 'WEB4G']);
+        _paq.push(['HeatmapSessionRecording::disable']);
+        (function() {
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.async=true; g.src='https://cdn.matomo.cloud/insee.matomo.cloud/container_j86K86K5.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+
+
+    
+        
+            
+            
+            
+                <title>Distribution des niveaux de vie | Insee</title>
+            
+        
+    
+
+    
+
+    
+        
+            
+            
+                <meta name="description" content="Données annuelles de 1996 à 2024 ">
+            
+        
+    
+
+    
+    <link rel="stylesheet" type="text/css" href="/static/css/application.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/featherlight/featherlight.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/swiper/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/dateTimePicker/jquery.datetimepicker.css">
+    <script type="text/javascript">
+        var contextPath="";
+        var langue="fr";
+        var numOnglet="1";
+    </script>
+
+    <script type="text/javascript" charset="UTF-8" defer="defer" src="
+
+
+/static/js/svg/graphsvg.js
+"></script>
+    <script type="text/javascript" charset="UTF-8" defer="defer" src="
+
+
+/static/js/application-lib.min.js
+"></script>
+    <script src="/static/build/highcharts.js"></script>
+    <script src="/static/build/highcharts-insee.js"></script>
+    <script charset="UTF-8" defer="defer" src="
+
+
+/static/build/application.js
+"></script>
+    <script>
+        var contextPath="";
+        var langue="fr";
+        var numOnglet="1";
+    </script>
+    <!--[if lte IE 8]>
+        <script type="text/javascript" charset="UTF-8" defer="defer" src="
+
+
+/static/js/polyfills/css3-mediaqueries.min.js
+"></script>
+        <![endif]-->
+    <script type="text/javascript">
+var inseeConfig = {
+
+        
+    };
+</script>
+
+    <script type="text/javascript">
+var features = {
+'rmesSource': 'true',
+};
+</script>
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <link rel="icon" type="image/png" href="
+
+
+/static/img/favicon-96x96.png
+" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="
+
+
+/static/img/favicon.svg
+">
+    <link rel="shortcut icon" href="
+
+
+/static/img/favicon.ico
+">
+    <link rel="apple-touch-icon" sizes="180x180" href="
+
+
+/static/img/apple-touch-icon.png
+">
+
+    <script async="" src="/static/build/htmx.min.js"></script>
+<style>      .htmx-indicator{opacity:0}      .htmx-request .htmx-indicator{opacity:1; transition: opacity 200ms ease-in;}      .htmx-request.htmx-indicator{opacity:1; transition: opacity 200ms ease-in;}      </style></head>
+
+<body>
+<!-- Lightbox -->
+<span id="isLightbox" class="hide">false</span>
+
+<span class="controller-param hidden" id="urlAlternative" aria-hidden="true"></span>
+<span class="controller-param hidden" id="urlCible" aria-hidden="true"></span>
+<span class="controller-param hidden" id="urlCibleAlternative" aria-hidden="true"></span>
+
+
+
+
+
+
+<div id="wait" class="wait-off"><img src="
+
+
+/static/img/preloader.gif
+" alt="Veuillez-patienter...">
+</div>
+<div id="fond-transparent-body" class="fond-transparent-off"></div>
+
+<header class="header" role="banner">
+    <span style="height: 0;display: inline-block;">&nbsp;</span>
+    <a class="evitement" href="#contenu" data-i18n="header.evitement.contenu">Aller au contenu</a>
+    
+        
+        
+            
+
+
+
+
+
+<div id="banniere" class="banniere">
+	<div class="bandeau">
+		<div class="liens-aide-responsive">
+			<a id="lien-aide-responsive" data-i18n="header.recherche.aide-du-haut-court" href="
+
+
+/fr/information/2411108
+">Aide</a>
+			
+				<a id="lien-acceo-responsive" href="
+
+
+/fr/information/5894637
+" title="Accès sourds et malentendants"><img id="picto-acceo-responsive" alt="Accès sourds et malentendants" src="/static/img/pictooreille.svg" height="20px"></a>
+			
+		</div>
+		<div class="liens-themes-responsive">
+			
+				
+				
+					<a href="
+
+
+/fr/information/8491408
+" data-i18n="header.recherche.themes" class="liens-themes-responsive">Thèmes</a>
+				
+			
+		</div>
+		<div class="loupe" tabindex="-1">
+			<a href="#" id="afficher-recherche" tabindex="-1">
+				<span class="loupe-span">
+					<br>
+					<span data-i18n="header.responsive.recherche-loupe" class="style">Recherche</span>
+				</span>
+			</a>
+		</div>
+		
+		
+
+
+
+
+
+
+
+
+	
+	
+		<a href="
+
+
+/fr/accueil
+" id="logo">
+			<img class="logo logo-accueil lien-logo" src="/static/img/logoInseeFr.svg" height="75px" data-i18n="[alt]header.logo.alt" alt="Insee - Institut national de la statistique et des études économiques - Mesurer pour comprendre - Accueil">
+			<img class="logo logo-accueil lien-logo-responsive" src="/static/img/logoInseeFr.svg" height="75px" data-i18n="[alt]header.logo.alt" alt="Insee - Institut national de la statistique et des études économiques - Mesurer pour comprendre - Accueil">
+		</a>
+	
+
+
+		<div class="langue-responsive">
+			
+				
+				
+					<a id="lien-changement-langue-responsive" href="/langue/en" lang="en">English</a>
+				
+			
+		</div>
+		<div class="presse-responsive">
+			<a id="lien-presse-responsive" data-i18n="header.recherche.espace-presse" href="
+
+
+/fr/information/2008400
+">Presse</a>
+		</div>
+		<div class="hamburger">
+			<a href="#" id="afficher-menu" tabindex="-1">
+				<span class="hamburger-menu">
+					<br>
+					<span data-i18n="header.responsive.menu-hamburger" class="style">Menu</span>
+				</span>
+			</a>
+		</div>
+	
+		
+		<div id="recherche-header" class="recherche-header recherche">
+			<div id="liens-acces">
+				<ul class="liste-lien-acces">
+					
+						<li class="lien-evitement"><a data-i18n="header.recherche.menu" href="#menu">Menu</a></li>
+						<li><a href="https://blog.insee.fr/" target="_blank" rel="noopener noreferrer">Blog</a></li>
+						<li><a data-i18n="header.recherche.espace-presse" href="
+
+
+/fr/information/2008400
+">Presse</a></li>
+						<li><a data-i18n="header.recherche.aide-du-haut" href="
+
+
+/fr/information/2411108
+">Aide</a></li>
+						
+							<li><a href="
+
+
+/fr/information/5894637
+" title="Accès sourds et malentendants"><img id="picto-acceo" alt="Accès sourds et malentendants" src="/static/img/pictooreille.svg" height="20px"></a></li>
+ 						
+ 						
+							
+							
+								<li><a id="lien-changement-langue" href="/langue/en" lang="en">English</a></li>
+							
+						
+				</ul>
+			</div>
+			<div id="searchbar-header" class="searchbar-header" role="combobox" aria-autocomplete="list">
+				<span id="search-waiting" class="waiting-off"><img alt="Veuillez-patienter..." src="/static/img/preloader.gif"></span>
+				<input data-i18n="[placeholder]header.recherche.barre-recherche-placeholder;[title]header.recherche.barre-recherche-title" type="search" class="ui-autocomplete-input" id="barre-recherche" autocomplete="off" tabindex="0" title="Rechercher sur le site" placeholder="Rechercher" role="textbox">
+				<button data-i18n="[title]header.recherche.loupe-title" id="bouton-recherche" class="searchbar-icon" tabindex="0" title="Rechercher">
+					<span class="hidden-accessibilite" data-i18n="[title]header.recherche.loupe-title-icon" title="Lancer la recherche sur le site">Lancer la recherche sur le site</span>
+				</button>
+				
+					
+					
+						<a href="
+
+
+/fr/information/8491408
+" data-i18n="header.recherche.themes" class="searchbar-theme" tabindex="0">Thèmes</a>
+					
+				
+				<span id="start-terms" class="hidden"></span>
+			</div>
+		</div>
+	
+</div>
+	<!-- Attention : les commentaires en fin de ligne ont un rôle important ! -->
+	<nav id="menu" role="navigation" aria-hidden="false">
+		<ul class="menu" role="menu">
+			<li role="menuitem"><a class="lien maison" href="
+
+
+/fr/accueil
+" title="accueil" aria-current="false"></a></li><!--
+			--><li class="menu-actif-parent" role="menuitem"><a data-i18n="[html]menu.statistiques.titre" class="lien menu-actif fleche" href="
+
+
+/fr/statistiques
+" aria-current="true">Statistiques et études</a>
+				<div class="menu-deroulant">
+					<div data-i18n="[html]menu.statistiques.en-tete" class="menu-deroulant-en-tete">Cherchez vos statistiques par…</div>
+					<ul role="menu">
+						<li role="menuitem">
+							<a class="deroulement" href="#"></a><a data-i18n="menu.statistiques.themes" class="lien titre-categorie" href="
+
+
+/fr/statistiques?idfacette=1
+">Thèmes</a>
+							<ul role="menu">
+								<li role="menuitem"><a data-i18n="menu.statistiques.economie" class="lien" href="
+
+
+/fr/statistiques?theme=27
+">Économie - conjoncture - comptes nationaux</a></li>
+								<li role="menuitem"><a data-i18n="menu.statistiques.demographie" class="lien" href="
+
+
+/fr/statistiques?theme=0
+">Démographie</a></li>
+								<li role="menuitem"><a data-i18n="menu.statistiques.entreprises" class="lien" href="
+
+
+/fr/statistiques?theme=37
+">Entreprises</a></li>
+								<li role="menuitem"><a data-i18n="[html]menu.statistiques.plus-de-themes" class="lien plusDe" href="
+
+
+/fr/statistiques?idfacette=1
+">Plus de thèmes…</a></li>
+							</ul>
+						</li>
+						<li role="menuitem">
+							<a class="deroulement" href="#"></a><a data-i18n="menu.statistiques.niveau-geographique" class="lien titre-categorie" href="
+
+
+/fr/statistiques?idfacette=3
+">Niveaux géographiques</a>
+							<ul role="menu">
+								<li role="menuitem"><a class="lien" href="
+
+
+/fr/statistiques?debut=0&amp;geo=FRANCE-1&amp;idfacette=3
+">France</a></li>
+								<li role="menuitem"><a data-i18n="menu.statistiques.comparaisons-reg-dep" class="lien" href="
+
+
+/fr/statistiques?debut=0&amp;geo=COMPRD-1&amp;idfacette=3
+">Toutes les régions ou tous les départements</a></li>
+								<li role="menuitem"><a data-i18n="menu.statistiques.toutes-communes" class="lien" href="
+
+
+/fr/statistiques?debut=0&amp;geo=TOUTES_COMMUNE-1
+">Toutes les communes</a></li>
+								<li role="menuitem"><a data-i18n="[html]menu.statistiques.plus-de-niveau-geographique" class="lien plusDe" href="
+
+
+/fr/statistiques?idfacette=3
+">Plus de niveaux géographiques…</a></li>
+							</ul>
+						</li>
+						<li role="menuitem">
+							<a class="deroulement" href="#"></a><a data-i18n="menu.statistiques.categorie-produit" class="lien titre-categorie" href="
+
+
+/fr/statistiques?idfacette=4
+">Catégories</a>
+							<ul role="menu">
+								<li role="menuitem"><a data-i18n="menu.statistiques.donnees" class="lien" href="
+
+
+/fr/statistiques?categorie=1
+">Données</a></li>
+								<li role="menuitem"><a data-i18n="menu.statistiques.publications" class="lien" href="
+
+
+/fr/statistiques?categorie=2
+">Publications</a></li>
+								<li role="menuitem"><a data-i18n="[html]menu.statistiques.plus-de-categories" class="lien plusDe" href="
+
+
+/fr/statistiques?idfacette=4
+">Plus de Catégories…</a></li>
+							</ul>
+						</li>
+						<li role="menuitem">
+							<a class="deroulement" href="#"></a><a data-i18n="menu.statistiques.collections" class="lien titre-categorie" href="
+
+
+/fr/statistiques?idfacette=5
+">Collections</a>
+							<ul role="menu">
+								<li role="menuitem"><a class="lien" href="
+
+
+/fr/statistiques?collection=116
+">Insee Première</a></li>
+								<li role="menuitem"><a class="lien" href="
+
+
+/fr/statistiques?collection=119
+">Notes et points de conjoncture</a></li>
+								<li role="menuitem"><a data-i18n="[html]menu.statistiques.plus-de-collections" class="lien plusDe" href="
+
+
+/fr/statistiques?idfacette=5
+">Plus de collections…</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</li><!--
+			--><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien" href="/fr/information/2016815" aria-current="false">Définitions, méthodes et&nbsp;qualité</a><div class="menu-deroulant"><ul role="menu"><li role="menuitem"><a class="lien titre-categorie" href="/fr/metadonnees/definitions">Définitions</a><ul role="menu"></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/2407637">Sources statistiques et&nbsp;indicateurs</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/metadonnees/sources">Liste des sources statistiques</a></li><li role="menuitem"><a class="lien" href="/fr/metadonnees/indicateurs">Liste des indicateurs</a></li><li role="menuitem"><a class="lien" href="/fr/information/2383410">Documentation complémentaire sur&nbsp;le&nbsp;recensement</a></li></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/4138839">La qualité dans le Service statistique public (SSP)</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/4137822">Le cadre de référence</a></li><li role="menuitem"><a class="lien" href="/fr/information/4137865">La gouvernance</a></li><li role="menuitem"><a class="lien" href="/fr/information/6688640">La politique et la stratégie qualité du SSP</a></li><li role="menuitem"><a class="lien" href="/fr/information/4138814">Les engagements européens</a></li></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/2016811">Nomenclatures</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/2406147">Nomenclature d’activités française</a></li><li role="menuitem"><a class="lien" href="/fr/information/2493969">Nomenclature agrégée - NA,&nbsp;2008</a></li><li role="menuitem"><a class="lien" href="/fr/information/2493496">Classification des produits française</a></li><li role="menuitem"><a class="lien" href="/fr/information/2493507">Classification des fonctions de consommation des ménages</a></li><li role="menuitem"><a class="lien" href="/fr/information/2028129">Catégories juridiques</a></li><li role="menuitem"><a class="lien" href="/fr/information/2406153">Nomenclatures des professions et catégories socioprofessionnelles</a></li></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/8391822">Géographie administrative et d'étude</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/recherche/recherche-geographique">Recherche sur une zone géographique</a></li><li role="menuitem"><a class="lien" href="/fr/information/7672015">Téléchargement de fichiers</a></li><li role="menuitem"><a class="lien" href="/fr/metadonnees/historique-commune">Historique des communes</a></li></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/2022002">Modèles, méthodes et outils statistiques</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/2021959">Les modèles statistiques</a></li><li role="menuitem"><a class="lien" href="/fr/information/2021908">Les outils statistiques</a></li><li role="menuitem"><a class="lien" href="/fr/information/2414816">Méthodologie statistique</a></li></ul></li><li role="menuitem"><a class="lien titre-categorie" href="/fr/information/3622502">Courrier des statistiques</a><ul role="menu"></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/2410988">Offre de données ouvertes</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/8184173">Le catalogue des données de l'Insee</a></li><li role="menuitem"><a class="lien" href="/fr/information/8184146">Le catalogue des API de l'Insee</a></li><li role="menuitem"><a class="lien" href="/fr/information/8184150">L'offre de données au travers de nos produits de diffusion</a></li><li role="menuitem"><a class="lien" href="/fr/information/2410909">Les formats de mise à disposition des données</a></li><li role="menuitem"><a class="lien" href="/fr/information/8184148">Nos données disponibles sur d'autres plateformes</a></li></ul></li></ul></div></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien" href="/fr/information/1302181" aria-current="false">Services</a><div class="menu-deroulant"><ul role="menu"><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302157">Réviser une pension, un loyer, bail ou contrat</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/1300608">Réviser une pension alimentaire</a></li><li role="menuitem"><a class="lien" href="/fr/information/1300612">Réviser un loyer d'habitation</a></li><li role="menuitem"><a class="lien" href="/fr/information/1300602">Réviser un bail commercial ou&nbsp;professionnel</a></li><li role="menuitem"><a class="lien" href="/fr/information/1300606">Indexer un contrat</a></li><li role="menuitem"><a class="lien" href="/fr/information/2417794">Convertisseur franc-euro : pouvoir d'achat de l'euro et du franc</a></li></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/2411675">Consulter les indices et&nbsp;séries&nbsp;chronologiques</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/2862832">Actualités des indices et séries chronologiques</a></li><li role="menuitem"><a class="lien" href="/fr/information/2860802">Accès des séries et indices chronologiques par thème</a></li><li role="menuitem"><a class="lien" href="/fr/information/3128533">Recherche par identifiant ou par mot-clé</a></li><li role="menuitem"><a class="lien" href="/fr/information/2862759">SDMX service web</a></li><li role="menuitem"><a class="lien" href="/fr/information/2862863">Tables de passage</a></li></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/6675111">Sirene</a><ul role="menu"><li role="menuitem"><a class="lien" href="https://avis-situation-sirene.insee.fr/">Obtenir un avis de situation au répertoire Sirene</a></li><li role="menuitem"><a class="lien" href="/fr/information/7456564">Demander la modification de son statut de diffusion</a></li><li role="menuitem"><a class="lien" href="/fr/information/7614104">Demander la modification du code APE</a></li><li role="menuitem"><a class="lien" href="/fr/information/1401387">Immatriculation, cessation ou modification des données au répertoire Sirene </a></li><li role="menuitem"><a class="lien" href="/fr/information/1730869">Obtenir sa catégorie d'entreprise</a></li><li role="menuitem"><a class="lien" href="/fr/information/3591226">Consulter et télécharger la base  Sirene</a></li><li role="menuitem"><a class="lien" href="/fr/information/1730867">Identifiant unique des&nbsp;intervenants sur&nbsp;les&nbsp;marchés financiers&nbsp;(LEI)</a></li><li role="menuitem"><a class="lien" href="/fr/information/6790269">Réponses à vos questions sur le répertoire Sirene</a></li></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/2021852">Découvrir, apprendre, enseigner</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/7745315">Pour commencer...</a></li><li role="menuitem"><a class="lien" href="/fr/information/7743494">Visualiser les données</a></li><li role="menuitem"><a class="lien" href="/fr/information/4495976">La Compétition européenne de&nbsp;statistiques</a></li><li role="menuitem"><a class="lien" href="/fr/information/7747175">Pour approfondir...</a></li></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302175">Répondre à une enquête de&nbsp;l'Insee</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/2387311">Enquêtes auprès des&nbsp;particuliers</a></li><li role="menuitem"><a class="lien" href="/fr/information/1401986">Enquêtes auprès des&nbsp;entreprises</a></li><li role="menuitem"><a class="lien" href="/fr/information/2008477">Vrai ou faux enquêteur de l’Insee, fraude, malveillance : comment vérifier ?</a></li></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302152">S’informer sur l’actualité de notre diffusion</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/1405540">Agenda de diffusion des indicateurs économiques </a></li><li role="menuitem"><a class="lien" href="/fr/information/2416834">Dernières publications de l’Insee</a></li><li role="menuitem"><a class="lien" href="/fr/information/7752988">Dernières publications des Services statistiques ministériels</a></li><li role="menuitem"><a class="lien" href="/fr/information/2544197">Évènements annoncés à&nbsp;la&nbsp;Une&nbsp;du&nbsp;site</a></li><li role="menuitem"><a class="lien" href="/fr/information/7702293">Thèmes d'actualité</a></li></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302179">Gérer les répertoires des personnes physiques</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/1303477">Recueil des données d'état&nbsp;civil</a></li><li role="menuitem"><a class="lien" href="/fr/information/3539086">Le Répertoire électoral unique</a></li><li role="menuitem"><a class="lien" href="/fr/information/1303515">Dématérialisation des échanges de données</a></li><li role="menuitem"><a class="lien" href="/fr/information/4470857">Nombre de décès quotidiens par département</a></li><li role="menuitem"><a class="lien" href="/fr/information/4190491">Fichiers des personnes décédées depuis 1970</a></li></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302154">Bibliothèque de l’Insee Alain&nbsp;Desrosières</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/1303573">Portail documentaire et catalogue</a></li><li role="menuitem"><a class="lien" href="/fr/information/1303569">La Bibliothèque numérique de la statistique publique</a></li></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302171">Commander une prestation, acheter une publication</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/1303438">Diffusion sur mesure</a></li><li role="menuitem"><a class="lien" href="/fr/information/2537715">Acheter nos publications</a></li></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302177">Nous suivre</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/1405553">Lettres d'information</a></li><li role="menuitem"><a class="lien" href="/fr/information/1405555">Abonnements aux lettres d'information et aux avis de&nbsp;parution</a></li><li role="menuitem"><a class="lien" href="/fr/information/2381941">Abonnement aux flux RSS</a></li><li role="menuitem"><a class="lien" href="/fr/information/3127332">L'Insee sur les médias sociaux</a></li><li role="menuitem"><a class="lien" href="/fr/information/5407494">Insee Mobile</a></li></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/2411108">Aide et contacts</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/1302169">Réponses à vos questions</a></li><li role="menuitem"><a class="lien" href="/fr/information/8390985">Obtenir des informations par téléphone</a></li></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/2008400">Espace presse</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/5234985">Événements presse</a></li><li role="menuitem"><a class="lien" href="/fr/information/5235017">Calendrier des publications</a></li><li role="menuitem"><a class="lien" href="/fr/information/2117832?debut=0&amp;region=FRANCE1&amp;familleId=1010&amp;facetteReg=false">Communiqués de presse nationaux</a></li><li role="menuitem"><a class="lien" href="/fr/information/2117832?debut=0&amp;region=REG84+REG27+REG53+REG24+REG94+REG44+REG01+REG32+REG11+REG03+REG76+REG52+REG75+REG93+REG06+REG28+REG02+REG04">Communiqués de presse régionaux</a></li><li role="menuitem"><a class="lien" href="/fr/information/8618264">Nominations</a></li></ul></li></ul></div></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien" href="/fr/information/1302230" aria-current="false">L'Insee et la statistique publique</a><div class="menu-deroulant"><ul role="menu"><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302198">L'Insee</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/1300620">Connaître l'Insee</a></li><li role="menuitem"><a class="lien" href="/fr/information/9010344">L’Insee en toute confiance</a></li><li role="menuitem"><a class="lien" href="/fr/information/1300628">Travailler à l'Insee</a></li><li role="menuitem"><a class="lien" href="/fr/information/1892983">Événements et colloques</a></li><li role="menuitem"><a class="lien" href="/fr/information/1300622">Un peu d'histoire</a></li><li role="menuitem"><a class="lien" href="/fr/information/4130132">Rapports d'activité</a></li></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302194">Les activités de l'Insee</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/1303532">Suivre l’économie française</a></li><li role="menuitem"><a class="lien" href="/fr/information/1303536">Connaître les entreprises</a></li><li role="menuitem"><a class="lien" href="/fr/information/1303538">Observer l'évolution de&nbsp;la&nbsp;société</a></li><li role="menuitem"><a class="lien" href="/fr/information/1303540">Réaliser le recensement de&nbsp;la&nbsp;population</a></li><li role="menuitem"><a class="lien" href="/fr/information/1303542">Décrire et analyser les régions et les territoires</a></li><li role="menuitem"><a class="lien" href="/fr/information/1303544">Gérer des grands répertoires</a></li><li role="menuitem"><a class="lien" href="/fr/information/1303546">Diffuser et valoriser ses productions</a></li><li role="menuitem"><a class="lien" href="/fr/information/1303548">Perfectionner ses méthodes et évaluer la qualité</a></li><li role="menuitem"><a class="lien" href="/fr/information/4246608">Contribuer à la construction de la statistique européenne et internationale</a></li></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302208">La statistique publique</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/1300616">Cadre juridique et&nbsp;institutionnel</a></li><li role="menuitem"><a class="lien" href="/fr/information/1302192">Le service statistique public</a></li><li role="menuitem"><a class="lien" href="/fr/information/1300624">Secret statistique</a></li><li role="menuitem"><a class="lien" href="/fr/information/3719162">Protection des données personnelles</a></li><li role="menuitem"><a class="lien" href="/fr/information/1300614">Règles de diffusion du SSP</a></li><li role="menuitem"><a class="lien" href="/fr/information/5209792">Accès aux documents administratifs</a></li></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/1302196">La construction de la statistique européenne</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/4246567">Les producteurs de&nbsp;statistiques européennes en&nbsp;France</a></li><li role="menuitem"><a class="lien" href="/fr/information/2046339">Textes juridiques de&nbsp;la&nbsp;gouvernance statistique&nbsp;européenne</a></li><li role="menuitem"><a class="lien" href="/fr/information/4246551">Les règlements cadres et&nbsp;sectoriels</a></li></ul></li><li role="menuitem"><a class="deroulement" href="#"></a><a class="lien titre-categorie" href="/fr/information/4248413">Mesure de la qualité de service</a><ul role="menu"><li role="menuitem"><a class="lien" href="/fr/information/4248405">Les indicateurs de qualité du&nbsp;programme Transparence</a></li><li role="menuitem"><a class="lien" href="/fr/information/2129030">Résultats des enquêtes de&nbsp;satisfaction</a></li></ul></li><li role="menuitem"><a class="lien titre-categorie" href="/fr/information/5413276">Services Publics+ : un service public plus proche, plus simple, plus efficace</a><ul role="menu"></ul></li></ul></div></li>
+		</ul>
+	</nav>
+</div>
+<div class="clear"></div>
+        
+    
+</header>
+
+<main id="contenu" class="main" role="main">
+    
+    
+<nav class="breadcrum">
+   <div class="container">
+      <ol class="fil-ariane">
+         <li><a data-i18n="breadcrum.accueil" href="/fr/accueil">Accueil</a></li>
+         <li><a data-i18n="breadcrum.statistiques" href="/fr/statistiques">Statistiques et études</a></li>
+         <li>Distribution des niveaux de vie</li>
+      </ol>
+   </div>
+</nav><section>
+   <div class="titre-page publication   ">
+      <div class="titre">
+         <h1 class="titre-principal                                  "><span class="titre-titre">Distribution des niveaux de vie</span><span class="no-print">&nbsp;</span><span class="sous-titre div-in-h test">Données annuelles de 1996 à 2024</span></h1>
+         <p class="auteurs hidden-template-impression"></p>
+         <div class="chapeau"></div>
+      </div>
+      <div class="details hidden-template-impression">
+         <div>
+            <div class="categorie">Chiffres-clés</div>
+            <div class="famille-numero"></div>
+            <div class="date-diffusion hidden-impression-information-rapide"><span id="libelle-details" class="hidden-template-impression"><span data-i18n="[html]produit.bandeau-bleu.paru-le">Paru le&nbsp;: </span></span><span id="libelle-details" class="impression-seulement hidden-impression-information-rapide"><span data-i18n="[html]produit.bandeau-bleu.paru-le-impression">Paru le </span></span>09/07/2026</div>
+            <div class="lien-details"><a data-i18n="produit.bandeau-bleu.imprimer" href="#" class="bouton-imprimante">Imprimer</a></div>
+         </div>
+         <div class="donnees-telechargeables"><a href="/fr/statistiques/fichier/2416808/reve-niv-vie-decile-individu.xlsx">
+               <div class="donnee-telechargeable donnees-complementaires">
+                  <div class="libelle-taille">
+                     <div data-i18n="produit.bandeau-bleu.donnees-complementaires" class="libelle">Données</div>
+                     <div class="taille">(xlsx, 16 Ko)</div>
+                  </div>
+                  <div class="bouton-telecharger bouton-telecharger-default bouton-telecharger-court"></div>
+               </div></a></div>
+      </div>
+      <div class="auteurs hidden-impression-information-rapide impression-seulement"></div>
+      <div class="date-diffusion hidden-impression-information-rapide impression-seulement"><span>-
+            Juillet 2026</span></div>
+   </div>
+   <div class="contenu min-impression" id="contenu">
+      <div id="consulter" class="courant publication" tabindex="0">
+         <div class="corps-publication">
+            <div id="figure1" class="bloc figure" data-id-graph-parent="">
+               <ul class="onglets" role="tablist">
+                  <li data-i18n="[title]produit.contenu.graphique-title" title="Afficher le graphique" class="onglet onglet-v2 courant" aria-label="Graphique - Médiane des niveaux de vie" role="tab" tabindex="0" aria-selected="true" aria-controls="graphique-figure1"><a data-i18n="produit.contenu.graphique" href="#graphique-figure1" aria-label="Graphique - Médiane des niveaux de vie" role="tab" aria-selected="true" aria-controls="graphique-figure1" tabindex="-1">Graphique</a></li>
+                  <li data-i18n="[title]produit.contenu.tableau-title" title="Afficher le tableau" class="onglet onglet-v2" aria-label="Tableau - Distribution des niveaux de vie" role="tab" tabindex="-1" aria-selected="false" aria-controls="tableau-figure1"><a data-i18n="produit.contenu.tableau" href="#tableau-figure1" aria-label="Tableau - Distribution des niveaux de vie" role="tab" aria-selected="false" aria-controls="tableau-figure1" tabindex="-1">Tableau</a></li>
+               </ul>
+               <div class="onglets-clear"></div>
+               <div class="select-onglets" data-i18n="[title]choix-onglet.figure" title="Affichage de l’onglet contenant le tableau ou de l’onglet contenant le graphique" role="tablist"><label for="choix-onglet-figure-figure1"><span class="hidden-accessibilite" data-i18n="choix-onglet.figure">Affichage de l’onglet contenant le tableau ou de l’onglet contenant le graphique</span></label><select id="choix-onglet-figure-figure1">
+                     <option data-i18n="produit.contenu.graphique" value="graphique-figure1" selected="" role="tab" aria-selected="true" aria-controls="graphique-figure1">Graphique</option>
+                     <option data-i18n="produit.contenu.tableau" value="tableau-figure1" role="tab" aria-selected="false" aria-controls="tableau-figure1">Tableau</option></select></div><span class="ancre avec-onglet" id="ancre-figure1"></span><div role="tabpanel" id="tableau-figure1" tabindex="0" class="panneau panneau-v2">
+                  <figure role="group" aria-labelledby="figcaption-tableau-figure1">
+                     <h3 class="titre-figure titreGraphiqueImpression" id="titre-tableau-figure1"><span class="hidden">tableau</span>Distribution des niveaux de vie</h3>
+                     <div class="tableau ">
+                        <div class="unite">en euros 2024 constants</div>
+                        <div class="responsive-table-container"><table id="produit-tableau-figure1" class="tableau-produit" style="display: table;">
+                           <caption>Distribution des niveaux de vie (en euros 2024 constants)</caption>
+                           <thead>
+                              <tr class="">
+                                 <th class="" scope="col">Indicateur</th>
+                                 <th class="" scope="col">2020¹&nbsp;²</th>
+                                 <th class="" scope="col">2021</th>
+                                 <th class="" scope="col">2022</th>
+                                 <th class="" scope="col">2023</th>
+                                 <th class="" scope="col">2024</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr class="">
+                                 <th class="ligne " scope="row">1<sup>er</sup>&nbsp;décile (D1)</th>
+                                 <td class="nombre ">14&nbsp;140</td>
+                                 <td class="nombre ">13&nbsp;830</td>
+                                 <td class="nombre ">13&nbsp;870</td>
+                                 <td class="nombre ">13&nbsp;730</td>
+                                 <td class="nombre ">13&nbsp;970</td>
+                              </tr>
+                              <tr class="">
+                                 <th class="ligne " scope="row">2<sup>e</sup>&nbsp;décile (D2)</th>
+                                 <td class="nombre ">17&nbsp;860</td>
+                                 <td class="nombre ">17&nbsp;510</td>
+                                 <td class="nombre ">17&nbsp;490</td>
+                                 <td class="nombre ">17&nbsp;330</td>
+                                 <td class="nombre ">17&nbsp;700</td>
+                              </tr>
+                              <tr class="">
+                                 <th class="ligne " scope="row">3<sup>e</sup>&nbsp;décile (D3)</th>
+                                 <td class="nombre ">20&nbsp;820</td>
+                                 <td class="nombre ">20&nbsp;670</td>
+                                 <td class="nombre ">20&nbsp;650</td>
+                                 <td class="nombre ">20&nbsp;610</td>
+                                 <td class="nombre ">20&nbsp;980</td>
+                              </tr>
+                              <tr class="">
+                                 <th class="ligne " scope="row">4<sup>e</sup>&nbsp;décile (D4)</th>
+                                 <td class="nombre ">23&nbsp;430</td>
+                                 <td class="nombre ">23&nbsp;410</td>
+                                 <td class="nombre ">23&nbsp;320</td>
+                                 <td class="nombre ">23&nbsp;490</td>
+                                 <td class="nombre ">23&nbsp;880</td>
+                              </tr>
+                              <tr class="">
+                                 <th class="ligne total " scope="row">
+                                    <span class="infobulle-accessible rmes-definition" role="button" tabindex="0" aria-controls="accessible-c1376" aria-label="Médiane (définition)" aria-expanded="false" data-court="true" data-ref="c1376">Médiane</span> (D5)</th>
+                                 <td class="nombre total ">26&nbsp;160</td>
+                                 <td class="nombre total ">26&nbsp;070</td>
+                                 <td class="nombre total ">26&nbsp;030</td>
+                                 <td class="nombre total ">26&nbsp;280</td>
+                                 <td class="nombre total ">26&nbsp;740</td>
+                              </tr>
+                              <tr class="">
+                                 <th class="ligne " scope="row">6<sup>e</sup>&nbsp;décile (D6)</th>
+                                 <td class="nombre ">29&nbsp;030</td>
+                                 <td class="nombre ">29&nbsp;090</td>
+                                 <td class="nombre ">29&nbsp;040</td>
+                                 <td class="nombre ">29&nbsp;230</td>
+                                 <td class="nombre ">29&nbsp;880</td>
+                              </tr>
+                              <tr class="">
+                                 <th class="ligne " scope="row">7<sup>e</sup>&nbsp;décile (D7)</th>
+                                 <td class="nombre ">32&nbsp;310</td>
+                                 <td class="nombre ">32&nbsp;540</td>
+                                 <td class="nombre ">32&nbsp;670</td>
+                                 <td class="nombre ">32&nbsp;920</td>
+                                 <td class="nombre ">33&nbsp;680</td>
+                              </tr>
+                              <tr class="">
+                                 <th class="ligne " scope="row">8<sup>e</sup>&nbsp;décile (D8)</th>
+                                 <td class="nombre ">37&nbsp;030</td>
+                                 <td class="nombre ">37&nbsp;650</td>
+                                 <td class="nombre ">37&nbsp;760</td>
+                                 <td class="nombre ">38&nbsp;170</td>
+                                 <td class="nombre ">38&nbsp;780</td>
+                              </tr>
+                              <tr class="">
+                                 <th class="ligne " scope="row">9<sup>e</sup>&nbsp;décile (D9)</th>
+                                 <td class="nombre ">46&nbsp;620</td>
+                                 <td class="nombre ">47&nbsp;140</td>
+                                 <td class="nombre ">46&nbsp;900</td>
+                                 <td class="nombre ">47&nbsp;900</td>
+                                 <td class="nombre ">48&nbsp;580</td>
+                              </tr>
+                              <tr class="">
+                                 <th class="ligne " scope="row">95<sup>e</sup>&nbsp;centile (C95)</th>
+                                 <td class="nombre ">57&nbsp;140</td>
+                                 <td class="nombre ">59&nbsp;680</td>
+                                 <td class="nombre ">58&nbsp;450</td>
+                                 <td class="nombre ">60&nbsp;050</td>
+                                 <td class="nombre ">61&nbsp;220</td>
+                              </tr>
+                              <tr class="">
+                                 <th class="ligne " scope="row">
+                                    <span class="infobulle-accessible rmes-definition" role="button" tabindex="0" aria-controls="accessible-c1488" aria-label="Rapport interdécile (définition)" aria-expanded="false" data-court="true" data-ref="c1488">Rapport interdécile</span>³ (D9/D1)</th>
+                                 <td class="nombre ">3,30</td>
+                                 <td class="nombre ">3,41</td>
+                                 <td class="nombre ">3,38</td>
+                                 <td class="nombre ">3,49</td>
+                                 <td class="nombre ">3,48</td>
+                              </tr>
+                           </tbody>
+                        </table><table class="responsive-table-container tableau-produit" style="display: none;"><caption>Distribution des niveaux de vie (en euros 2024 constants)</caption><thead><tr><th class="" scope="col">Indicateur</th><th scope="col"><select class="column-select" data-i18n="[title]choix-onglet.en-tete-tableau" title="Sélection d’une colonne du tableau"><option value="1">2020¹&nbsp;²</option><option value="2">2021</option><option value="3">2022</option><option value="4">2023</option><option value="5" selected="selected">2024</option></select></th></tr></thead><tbody><tr class="">
+                                 <th class="ligne " scope="row">1<sup>er</sup>&nbsp;décile (D1)</th>
+                                 <td class="nombre " style="display: none; width: 0%;">14&nbsp;140</td>
+                                 <td class="nombre " style="display: none; width: 0%;">13&nbsp;830</td>
+                                 <td class="nombre " style="display: none; width: 0%;">13&nbsp;870</td>
+                                 <td class="nombre " style="display: none; width: 0%;">13&nbsp;730</td>
+                                 <td class="nombre " style="width: 60%;">13&nbsp;970</td>
+                              </tr><tr class="">
+                                 <th class="ligne " scope="row">2<sup>e</sup>&nbsp;décile (D2)</th>
+                                 <td class="nombre " style="display: none; width: 0%;">17&nbsp;860</td>
+                                 <td class="nombre " style="display: none; width: 0%;">17&nbsp;510</td>
+                                 <td class="nombre " style="display: none; width: 0%;">17&nbsp;490</td>
+                                 <td class="nombre " style="display: none; width: 0%;">17&nbsp;330</td>
+                                 <td class="nombre " style="width: 60%;">17&nbsp;700</td>
+                              </tr><tr class="">
+                                 <th class="ligne " scope="row">3<sup>e</sup>&nbsp;décile (D3)</th>
+                                 <td class="nombre " style="display: none; width: 0%;">20&nbsp;820</td>
+                                 <td class="nombre " style="display: none; width: 0%;">20&nbsp;670</td>
+                                 <td class="nombre " style="display: none; width: 0%;">20&nbsp;650</td>
+                                 <td class="nombre " style="display: none; width: 0%;">20&nbsp;610</td>
+                                 <td class="nombre " style="width: 60%;">20&nbsp;980</td>
+                              </tr><tr class="">
+                                 <th class="ligne " scope="row">4<sup>e</sup>&nbsp;décile (D4)</th>
+                                 <td class="nombre " style="display: none; width: 0%;">23&nbsp;430</td>
+                                 <td class="nombre " style="display: none; width: 0%;">23&nbsp;410</td>
+                                 <td class="nombre " style="display: none; width: 0%;">23&nbsp;320</td>
+                                 <td class="nombre " style="display: none; width: 0%;">23&nbsp;490</td>
+                                 <td class="nombre " style="width: 60%;">23&nbsp;880</td>
+                              </tr><tr class="">
+                                 <th class="ligne total " scope="row">
+                                    <span class="infobulle-accessible rmes-definition" role="button" tabindex="0" aria-controls="accessible-c1376" aria-label="Médiane (définition)" aria-expanded="false" data-court="true" data-ref="c1376">Médiane</span> (D5)</th>
+                                 <td class="nombre total " style="display: none; width: 0%;">26&nbsp;160</td>
+                                 <td class="nombre total " style="display: none; width: 0%;">26&nbsp;070</td>
+                                 <td class="nombre total " style="display: none; width: 0%;">26&nbsp;030</td>
+                                 <td class="nombre total " style="display: none; width: 0%;">26&nbsp;280</td>
+                                 <td class="nombre total " style="width: 60%;">26&nbsp;740</td>
+                              </tr><tr class="">
+                                 <th class="ligne " scope="row">6<sup>e</sup>&nbsp;décile (D6)</th>
+                                 <td class="nombre " style="display: none; width: 0%;">29&nbsp;030</td>
+                                 <td class="nombre " style="display: none; width: 0%;">29&nbsp;090</td>
+                                 <td class="nombre " style="display: none; width: 0%;">29&nbsp;040</td>
+                                 <td class="nombre " style="display: none; width: 0%;">29&nbsp;230</td>
+                                 <td class="nombre " style="width: 60%;">29&nbsp;880</td>
+                              </tr><tr class="">
+                                 <th class="ligne " scope="row">7<sup>e</sup>&nbsp;décile (D7)</th>
+                                 <td class="nombre " style="display: none; width: 0%;">32&nbsp;310</td>
+                                 <td class="nombre " style="display: none; width: 0%;">32&nbsp;540</td>
+                                 <td class="nombre " style="display: none; width: 0%;">32&nbsp;670</td>
+                                 <td class="nombre " style="display: none; width: 0%;">32&nbsp;920</td>
+                                 <td class="nombre " style="width: 60%;">33&nbsp;680</td>
+                              </tr><tr class="">
+                                 <th class="ligne " scope="row">8<sup>e</sup>&nbsp;décile (D8)</th>
+                                 <td class="nombre " style="display: none; width: 0%;">37&nbsp;030</td>
+                                 <td class="nombre " style="display: none; width: 0%;">37&nbsp;650</td>
+                                 <td class="nombre " style="display: none; width: 0%;">37&nbsp;760</td>
+                                 <td class="nombre " style="display: none; width: 0%;">38&nbsp;170</td>
+                                 <td class="nombre " style="width: 60%;">38&nbsp;780</td>
+                              </tr><tr class="">
+                                 <th class="ligne " scope="row">9<sup>e</sup>&nbsp;décile (D9)</th>
+                                 <td class="nombre " style="display: none; width: 0%;">46&nbsp;620</td>
+                                 <td class="nombre " style="display: none; width: 0%;">47&nbsp;140</td>
+                                 <td class="nombre " style="display: none; width: 0%;">46&nbsp;900</td>
+                                 <td class="nombre " style="display: none; width: 0%;">47&nbsp;900</td>
+                                 <td class="nombre " style="width: 60%;">48&nbsp;580</td>
+                              </tr><tr class="">
+                                 <th class="ligne " scope="row">95<sup>e</sup>&nbsp;centile (C95)</th>
+                                 <td class="nombre " style="display: none; width: 0%;">57&nbsp;140</td>
+                                 <td class="nombre " style="display: none; width: 0%;">59&nbsp;680</td>
+                                 <td class="nombre " style="display: none; width: 0%;">58&nbsp;450</td>
+                                 <td class="nombre " style="display: none; width: 0%;">60&nbsp;050</td>
+                                 <td class="nombre " style="width: 60%;">61&nbsp;220</td>
+                              </tr><tr class="">
+                                 <th class="ligne " scope="row">
+                                    <span class="infobulle-accessible rmes-definition" role="button" tabindex="0" aria-controls="accessible-c1488" aria-label="Rapport interdécile (définition)" aria-expanded="false" data-court="true" data-ref="c1488">Rapport interdécile</span>³ (D9/D1)</th>
+                                 <td class="nombre " style="display: none; width: 0%;">3,30</td>
+                                 <td class="nombre " style="display: none; width: 0%;">3,41</td>
+                                 <td class="nombre " style="display: none; width: 0%;">3,38</td>
+                                 <td class="nombre " style="display: none; width: 0%;">3,49</td>
+                                 <td class="nombre " style="width: 60%;">3,48</td>
+                              </tr></tbody></table></div>
+                     </div>
+                     <figcaption id="figcaption-tableau-figure1">
+                        <ul class="notes">
+                           <li>1.&nbsp;Le point 2020 présente des fragilités liées aux difficultés de production en 2020.</li>
+                           <li>2.&nbsp;À partir de 2020, cette série est calculée avec une chaîne de production de l’ERFS
+                              rénovée s’appuyant sur la nouvelle Enquête Emploi.</li>
+                           <li>3.&nbsp;Indicateur appartenant à la liste des indicateurs d'inégalité préconisés par le
+                              groupe de travail «&nbsp;Niveaux de vie et inégalités sociales&nbsp;» du Conseil national de
+                              l'information statistique (Cnis). </li>
+                           <li>Note&nbsp;: les données antérieures à 2020 ne sont pas identiques à celles figurant dans
+                              l'Insee Première «&nbsp;Niveau de vie et pauvreté en&nbsp;2024&nbsp;» qui ont été rétropolées pour
+                              permettre une comparaison temporelle.</li>
+                           <li>Lecture&nbsp;: en&nbsp;2024, les 10&nbsp;% d’individus les plus modestes (1<sup>er</sup>&nbsp;<span class="infobulle-accessible rmes-definition" role="button" tabindex="0" aria-controls="accessible-c1265" aria-label="décile (définition)" aria-expanded="false" data-court="false" data-ref="c1265">décile</span>) ont un <span class="infobulle-accessible rmes-definition" role="button" tabindex="0" aria-controls="accessible-c1890" aria-label="niveau de vie (définition)" aria-expanded="false" data-court="true" data-ref="c1890">niveau de vie</span> inférieur à 13&nbsp;970&nbsp;euros.</li>
+                           <li>Champ&nbsp;: France métropolitaine, individus vivant dans un <span class="infobulle-accessible rmes-definition" role="button" tabindex="0" aria-controls="accessible-c1879" aria-label="ménage (définition)" aria-expanded="false" data-court="true" data-ref="c1879">ménage</span> (en <span class="infobulle-accessible rmes-definition" role="button" tabindex="0" aria-controls="accessible-c1702" aria-label="logement ordinaire (définition)" aria-expanded="false" data-court="true" data-ref="c1702">logement ordinaire</span>) dont le revenu déclaré est positif ou nul et dont la <span class="infobulle-accessible rmes-definition" role="button" tabindex="0" aria-controls="accessible-c1192" aria-label="personne de référence (définition)" aria-expanded="false" data-court="false" data-ref="c1192">personne de référence</span> n'est pas étudiante.</li>
+                           <li>Sources&nbsp;: Insee-DGFiP-Cnaf-Cnav-CCMSA, <a href="https://www.insee.fr/fr/metadonnees/source/serie/s1231" class="renvoi">enquêtes Revenus fiscaux et sociaux</a> 2020 à 2024.</li>
+                        </ul>
+                     </figcaption>
+                  </figure>
+               </div>
+               <div id="graphique-figure1" role="tabpanel" tabindex="0" class="graphique panneau courant panneau-v2">
+                  <h3 class="titre-figure titreGraphiqueImpression" id="titre-graphique-figure1"><span class="hidden">graphique</span>Médiane des niveaux de vie</h3>
+                  <figure role="group" aria-labelledby="figcaption-graphique-figure1">
+                     <div class="graphique-container librairie bloc" id="highchart-figure1" data-graphique="/fr/graphique/xml/2416808/figure1" data-alt="altgraphique.tableau" data-desc="" data-librairie="" data-highcharts-chart="0" aria-hidden="false" role="region" aria-label="Les données du graphique sont disponibles dans l'onglet tableau" style="overflow: hidden;"><div aria-hidden="false" class="highcharts-announcer-container" style="position: relative;"><div aria-hidden="false" aria-live="polite" aria-atomic="true" style="position: absolute; width: 1px; height: 1px; overflow: hidden; white-space: nowrap; clip: rect(1px, 1px, 1px, 1px); margin-top: -3px; opacity: 0.01;"></div><div aria-hidden="false" aria-live="assertive" aria-atomic="true" style="position: absolute; width: 1px; height: 1px; overflow: hidden; white-space: nowrap; clip: rect(1px, 1px, 1px, 1px); margin-top: -3px; opacity: 0.01;"></div><div aria-hidden="false" aria-live="polite" aria-atomic="true" style="position: absolute; width: 1px; height: 1px; overflow: hidden; white-space: nowrap; clip: rect(1px, 1px, 1px, 1px); margin-top: -3px; opacity: 0.01;"></div><div aria-hidden="false" aria-live="polite" aria-atomic="true" style="position: absolute; width: 1px; height: 1px; overflow: hidden; white-space: nowrap; clip: rect(1px, 1px, 1px, 1px); margin-top: -3px; opacity: 0.01;"></div></div><div id="highcharts-0krhac0-0" dir="ltr" style="position: relative; overflow: hidden; width: 698px; height: 700px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); user-select: none; touch-action: manipulation; outline: none; padding: 0px; font-size: 18px; font-family: &quot;Open Sans&quot;; color: black;" class="highcharts-container " aria-hidden="false" tabindex="0"><div aria-hidden="false" class="highcharts-a11y-proxy-container-before" style="top: 0px; left: 0px; white-space: nowrap; position: absolute;"></div><svg version="1.1" class="highcharts-root" style="font-family: &quot;Open Sans&quot;; font-size: 18px; fill: black;" xmlns="http://www.w3.org/2000/svg" width="698" height="700" viewBox="0 0 698 700" aria-hidden="false" aria-label="Interactive chart"><desc aria-hidden="true">Created with Highcharts 12.3.0</desc><defs aria-hidden="true"><filter id="highcharts-drop-shadow-0"><feDropShadow dx="1" dy="1" flood-color="#000000" flood-opacity="0.75" stdDeviation="2.5"></feDropShadow></filter><clipPath id="highcharts-0krhac0-13-"><rect x="1" y="0" width="558" height="562" fill="none"></rect></clipPath><clipPath id="highcharts-0krhac0-28-"><rect x="70" y="78" width="558" height="562" fill="none"></rect></clipPath></defs><rect fill="#ffffff" class="highcharts-background" filter="none" x="0" y="0" width="698" height="700" rx="0" ry="0" aria-hidden="true"></rect><rect fill="none" class="highcharts-plot-background" x="70" y="78" width="558" height="562" filter="none" aria-hidden="true"></rect><g class="highcharts-pane-group" data-z-index="0" aria-hidden="true"></g><g class="highcharts-grid highcharts-xaxis-grid" data-z-index="1" aria-hidden="true"><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 70.25 78 L 70.25 640" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 110.25 78 L 110.25 640" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 149.25 78 L 149.25 640" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 189.25 78 L 189.25 640" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 229.25 78 L 229.25 640" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 269.25 78 L 269.25 640" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 309.25 78 L 309.25 640" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 349.25 78 L 349.25 640" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 389.25 78 L 389.25 640" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 428.25 78 L 428.25 640" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 468.25 78 L 468.25 640" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 508.25 78 L 508.25 640" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 548.25 78 L 548.25 640" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 588.25 78 L 588.25 640" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 628.25 78 L 628.25 640" opacity="1"></path></g><rect fill="none" class="highcharts-plot-border" data-z-index="1" stroke="transparent" stroke-width="0" x="70" y="78" width="558" height="562" aria-hidden="true"></rect><g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1" aria-hidden="true"><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 70 640.25 L 628 640.25" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 70 600.25 L 628 600.25" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 70 559.25 L 628 559.25" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 70 519.25 L 628 519.25" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 70 479.25 L 628 479.25" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 70 439.25 L 628 439.25" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 70 399.25 L 628 399.25" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 70 359.25 L 628 359.25" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 70 319.25 L 628 319.25" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 70 278.25 L 628 278.25" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 70 238.25 L 628 238.25" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 70 198.25 L 628 198.25" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 70 158.25 L 628 158.25" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 70 118.25 L 628 118.25" opacity="1"></path><path fill="none" stroke="gray" stroke-width="0.5" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 70 78.25 L 628 78.25" opacity="1"></path></g><g class="highcharts-axis highcharts-xaxis" data-z-index="2" aria-hidden="true"><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 70.25 640 L 70.25 645" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 110.25 640 L 110.25 645" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 149.25 640 L 149.25 645" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 189.25 640 L 189.25 645" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 229.25 640 L 229.25 645" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 269.25 640 L 269.25 645" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 309.25 640 L 309.25 645" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 349.25 640 L 349.25 645" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 389.25 640 L 389.25 645" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 428.25 640 L 428.25 645" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 468.25 640 L 468.25 645" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 508.25 640 L 508.25 645" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 548.25 640 L 548.25 645" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 588.25 640 L 588.25 645" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 628.25 640 L 628.25 645" opacity="1"></path><path fill="none" class="highcharts-axis-line" stroke="#333333" stroke-width="1" data-z-index="7" d="M 70 640.5 L 628 640.5"></path></g><g class="highcharts-axis highcharts-yaxis" data-z-index="2" aria-hidden="true"><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 70 640.25 L 65 640.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 70 600.25 L 65 600.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 70 559.25 L 65 559.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 70 519.25 L 65 519.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 70 479.25 L 65 479.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 70 439.25 L 65 439.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 70 399.25 L 65 399.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 70 359.25 L 65 359.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 70 319.25 L 65 319.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 70 278.25 L 65 278.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 70 238.25 L 65 238.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 70 198.25 L 65 198.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 70 158.25 L 65 158.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 70 118.25 L 65 118.25" opacity="1"></path><path fill="none" class="highcharts-tick" stroke="#666666" stroke-width="0.5" d="M 70 78.25 L 65 78.25" opacity="1"></path><text x="22.53125" data-z-index="7" text-anchor="start" transform="translate(0,0)" class="highcharts-axis-title" style="font-size: 0.722222em; fill: rgb(102, 102, 102);" y="65">en euros 2024 constants</text><path fill="none" class="highcharts-axis-line" stroke="#333333" stroke-width="1" data-z-index="7" d="M 70.5 78 L 70.5 640"></path></g><g class="highcharts-series-group" data-z-index="3" filter="none" aria-hidden="false"><g class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-0" data-z-index="0.1" transform="translate(70,78) scale(1 1)" clip-path="url(#highcharts-0krhac0-13-)" aria-hidden="true"><path fill="none" d="M 0 147.12357142857 L 19.928571428571 146.52142857143 L 39.857142857143 137.89071428571 L 59.785714285714 131.66857142857 L 79.714285714286 123.84071428571 L 99.642857142857 113.00214285714 L 119.57142857143 101.16 L 139.5 102.36428571429 L 159.42857142857 104.77285714286 L 179.35714285714 96.543571428571 L 199.28571428571 89.92 L 219.21428571429 80.085 L 239.14285714286 71.855714285714 L 259.07142857143 70.450714285714 L 279 72.658571428571" class="highcharts-graph" data-z-index="1" stroke="#174695" stroke-width="3" stroke-dasharray="none" filter="none"><rect x="298.92857142857" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2011, No value. Médiane." style="outline: none;"></rect><rect x="318.85714285714" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2012¹, No value. Médiane." style="outline: none;"></rect><rect x="338.78571428571" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2013, No value. Médiane." style="outline: none;"></rect><rect x="358.71428571429" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2014, No value. Médiane." style="outline: none;"></rect><rect x="378.64285714286" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2015, No value. Médiane." style="outline: none;"></rect><rect x="398.57142857143" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2016, No value. Médiane." style="outline: none;"></rect><rect x="418.5" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2017, No value. Médiane." style="outline: none;"></rect><rect x="438.42857142857" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2018, No value. Médiane." style="outline: none;"></rect><rect x="458.35714285714" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2019, No value. Médiane." style="outline: none;"></rect><rect x="478.28571428571" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2020¹, No value. Médiane." style="outline: none;"></rect><rect x="498.21428571429" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2021, No value. Médiane." style="outline: none;"></rect><rect x="518.14285714286" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2022, No value. Médiane." style="outline: none;"></rect><rect x="538.07142857143" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2023, No value. Médiane." style="outline: none;"></rect><rect x="558" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2024, No value. Médiane." style="outline: none;"></rect></path><path fill="none" d="M 0 147.12357142857 L 19.928571428571 146.52142857143 L 39.857142857143 137.89071428571 L 59.785714285714 131.66857142857 L 79.714285714286 123.84071428571 L 99.642857142857 113.00214285714 L 119.57142857143 101.16 L 139.5 102.36428571429 L 159.42857142857 104.77285714286 L 179.35714285714 96.543571428571 L 199.28571428571 89.92 L 219.21428571429 80.085 L 239.14285714286 71.855714285714 L 259.07142857143 70.450714285714 L 279 72.658571428571" data-z-index="2" class="highcharts-tracker-line" stroke-linecap="round" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="23"></path></g><g class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-0 highcharts-tracker" data-z-index="0.1" transform="translate(70,78) scale(1 1)" clip-path="none" aria-hidden="false" role="region" tabindex="-1" aria-label="Médiane, line 1 of 4 with 29 data points." style="outline: none;"><path fill="#174695" d="M 0.5000000000000002 150.12357142857 A 3 3 0 1 1 0.5001999999998541 150.12357142190334 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-0" tabindex="-1" role="img" aria-label="1996, 20,670. Médiane." style="outline: none;"></path><path fill="#174695" d="M 19.5 149.52142857143 A 3 3 0 1 1 19.500199999999854 149.52142856476334 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-0" tabindex="-1" role="img" aria-label="1997, 20,700. Médiane." style="outline: none;"></path><path fill="#174695" d="M 39.5 140.89071428571 A 3 3 0 1 1 39.50019999999986 140.89071427904335 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-0" tabindex="-1" role="img" aria-label="1998, 21,130. Médiane." style="outline: none;"></path><path fill="#174695" d="M 59.5 134.66857142857 A 3 3 0 1 1 59.50019999999986 134.66857142190335 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-0" tabindex="-1" role="img" aria-label="1999, 21,440. Médiane." style="outline: none;"></path><path fill="#174695" d="M 79.5 126.84071428571 A 3 3 0 1 1 79.50019999999985 126.84071427904334 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-0" tabindex="-1" role="img" aria-label="2000, 21,830. Médiane." style="outline: none;"></path><path fill="#174695" d="M 99.5 116.00214285714 A 3 3 0 1 1 99.50019999999985 116.00214285047333 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-0" tabindex="-1" role="img" aria-label="2001, 22,370. Médiane." style="outline: none;"></path><path fill="#174695" d="M 119.5 104.16 A 3 3 0 1 1 119.50019999999985 104.15999999333333 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-0" tabindex="-1" role="img" aria-label="2002, 22,960. Médiane." style="outline: none;"></path><path fill="#174695" d="M 139.5 105.36428571429 A 3 3 0 1 1 139.50019999999986 105.36428570762334 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-0" tabindex="-1" role="img" aria-label="2003, 22,900. Médiane." style="outline: none;"></path><path fill="#174695" d="M 159.5 107.77285714286 A 3 3 0 1 1 159.50019999999986 107.77285713619334 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-0" tabindex="-1" role="img" aria-label="2004, 22,780. Médiane." style="outline: none;"></path><path fill="#174695" d="M 179.5 99.543571428571 A 3 3 0 1 1 179.50019999999986 99.54357142190433 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-0" tabindex="-1" role="img" aria-label="2005, 23,190. Médiane." style="outline: none;"></path><path fill="#174695" d="M 199.5 92.92 A 3 3 0 1 1 199.50019999999986 92.91999999333333 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-0" tabindex="-1" role="img" aria-label="2006, 23,520. Médiane." style="outline: none;"></path><path fill="#174695" d="M 219.5 83.085 A 3 3 0 1 1 219.50019999999986 83.08499999333333 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-0" tabindex="-1" role="img" aria-label="2007, 24,010. Médiane." style="outline: none;"></path><path fill="#174695" d="M 239.5 74.855714285714 A 3 3 0 1 1 239.50019999999986 74.85571427904733 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-0" tabindex="-1" role="img" aria-label="2008, 24,420. Médiane." style="outline: none;"></path><path fill="#174695" d="M 259.5 73.450714285714 A 3 3 0 1 1 259.50019999999984 73.45071427904733 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-0" tabindex="-1" role="img" aria-label="2009, 24,490. Médiane." style="outline: none;"></path><path fill="#174695" d="M 279.5 75.658571428571 A 3 3 0 1 1 279.50019999999984 75.65857142190433 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-0" tabindex="-1" role="img" aria-label="2010¹, 24,380. Médiane." style="outline: none;"></path></g><g class="highcharts-series highcharts-series-1 highcharts-line-series highcharts-color-1" data-z-index="0.1" transform="translate(70,78) scale(1 1)" clip-path="url(#highcharts-0krhac0-13-)" aria-hidden="true"><path fill="none" d="M 279 75.87 L 298.92857142857 75.87 L 318.85714285714 80.687142857143" class="highcharts-graph" data-z-index="1" stroke="#174695" stroke-width="3" stroke-dasharray="3,3" filter="none"><rect x="338.78571428571" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2013, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="358.71428571429" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2014, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="378.64285714286" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2015, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="398.57142857143" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2016, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="418.5" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2017, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="438.42857142857" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2018, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="458.35714285714" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2019, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="478.28571428571" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2020¹, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="498.21428571429" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2021, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="518.14285714286" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2022, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="538.07142857143" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2023, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="558" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2024, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect></path><path fill="none" d="M 279 75.87 L 298.92857142857 75.87 L 318.85714285714 80.687142857143" data-z-index="2" class="highcharts-tracker-line" stroke-linecap="round" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="23"></path></g><g class="highcharts-markers highcharts-series-1 highcharts-line-series highcharts-color-1 highcharts-tracker" data-z-index="0.1" transform="translate(70,78) scale(1 1)" clip-path="none" aria-hidden="false" role="region" tabindex="-1" aria-label="Médiane (rupture de série en 2010), line 2 of 4 with 29 data points." style="outline: none;"><rect x="0" y="75.87" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="1996, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="19.928571428571" y="75.87" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="1997, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="39.857142857143" y="75.87" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="1998, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="59.785714285714" y="75.87" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="1999, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="79.714285714286" y="75.87" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2000, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="99.642857142857" y="75.87" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2001, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="119.57142857143" y="75.87" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2002, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="139.5" y="75.87" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2003, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="159.42857142857" y="75.87" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2004, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="179.35714285714" y="75.87" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2005, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="199.28571428571" y="75.87" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2006, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="219.21428571429" y="75.87" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2007, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="239.14285714286" y="75.87" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2008, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><rect x="259.07142857143" y="75.87" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2009, No value. Médiane (rupture de série en 2010)." style="outline: none;"></rect><path fill="#174695" d="M 279.5 78.87 A 3 3 0 1 1 279.50019999999984 78.86999999333334 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-1" tabindex="-1" role="img" aria-label="2010¹, 24,220. Médiane (rupture de série en 2010)." style="outline: none;"></path><path fill="#174695" d="M 298.5 78.87 A 3 3 0 1 1 298.50019999999984 78.86999999333334 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-1" tabindex="-1" role="img" aria-label="2011, 24,220. Médiane (rupture de série en 2010)." style="outline: none;"></path><path fill="#174695" d="M 318.5 83.687142857143 A 3 3 0 1 1 318.50019999999984 83.68714285047633 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-1" tabindex="-1" role="img" aria-label="2012¹, 23,980. Médiane (rupture de série en 2010)." style="outline: none;"></path></g><g class="highcharts-series highcharts-series-2 highcharts-line-series highcharts-color-2" data-z-index="0.1" transform="translate(70,78) scale(1 1)" clip-path="url(#highcharts-0krhac0-13-)" aria-hidden="true"><path fill="none" d="M 318.85714285714 76.271428571429 L 338.78571428571 76.672857142857 L 358.71428571429 75.669285714286 L 378.64285714286 73.862857142857 L 398.57142857143 69.246428571429 L 418.5 67.239285714286 L 438.42857142857 66.436428571429 L 458.35714285714 53.39 L 478.28571428571 43.755714285714" class="highcharts-graph" data-z-index="1" stroke="#174695" stroke-width="3" stroke-dasharray="9,3" filter="none"><rect x="498.21428571429" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2021, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect><rect x="518.14285714286" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2022, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect><rect x="538.07142857143" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2023, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect><rect x="558" y="0" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2024, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect></path><path fill="none" d="M 318.85714285714 76.271428571429 L 338.78571428571 76.672857142857 L 358.71428571429 75.669285714286 L 378.64285714286 73.862857142857 L 398.57142857143 69.246428571429 L 418.5 67.239285714286 L 438.42857142857 66.436428571429 L 458.35714285714 53.39 L 478.28571428571 43.755714285714" data-z-index="2" class="highcharts-tracker-line" stroke-linecap="round" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="23"></path></g><g class="highcharts-markers highcharts-series-2 highcharts-line-series highcharts-color-2 highcharts-tracker" data-z-index="0.1" transform="translate(70,78) scale(1 1)" clip-path="none" aria-hidden="false" role="region" tabindex="-1" aria-label="Médiane (rupture de série en 2012), line 3 of 4 with 29 data points." style="outline: none;"><rect x="0" y="76.271428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="1996, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect><rect x="19.928571428571" y="76.271428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="1997, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect><rect x="39.857142857143" y="76.271428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="1998, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect><rect x="59.785714285714" y="76.271428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="1999, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect><rect x="79.714285714286" y="76.271428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2000, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect><rect x="99.642857142857" y="76.271428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2001, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect><rect x="119.57142857143" y="76.271428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2002, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect><rect x="139.5" y="76.271428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2003, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect><rect x="159.42857142857" y="76.271428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2004, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect><rect x="179.35714285714" y="76.271428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2005, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect><rect x="199.28571428571" y="76.271428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2006, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect><rect x="219.21428571429" y="76.271428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2007, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect><rect x="239.14285714286" y="76.271428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2008, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect><rect x="259.07142857143" y="76.271428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2009, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect><rect x="279" y="76.271428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2010¹, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect><rect x="298.92857142857" y="76.271428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2011, No value. Médiane (rupture de série en 2012)." style="outline: none;"></rect><path fill="#174695" d="M 318.5 79.271428571429 A 3 3 0 1 1 318.50019999999984 79.27142856476233 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-2" tabindex="-1" role="img" aria-label="2012¹, 24,200. Médiane (rupture de série en 2012)." style="outline: none;"></path><path fill="#174695" d="M 338.5 79.672857142857 A 3 3 0 1 1 338.50019999999984 79.67285713619033 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-2" tabindex="-1" role="img" aria-label="2013, 24,180. Médiane (rupture de série en 2012)." style="outline: none;"></path><path fill="#174695" d="M 358.5 78.669285714286 A 3 3 0 1 1 358.50019999999984 78.66928570761934 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-2" tabindex="-1" role="img" aria-label="2014, 24,230. Médiane (rupture de série en 2012)." style="outline: none;"></path><path fill="#174695" d="M 378.5 76.862857142857 A 3 3 0 1 1 378.50019999999984 76.86285713619033 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-2" tabindex="-1" role="img" aria-label="2015, 24,320. Médiane (rupture de série en 2012)." style="outline: none;"></path><path fill="#174695" d="M 398.5 72.246428571429 A 3 3 0 1 1 398.50019999999984 72.24642856476234 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-2" tabindex="-1" role="img" aria-label="2016, 24,550. Médiane (rupture de série en 2012)." style="outline: none;"></path><path fill="#174695" d="M 418.5 70.239285714286 A 3 3 0 1 1 418.50019999999984 70.23928570761933 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-2" tabindex="-1" role="img" aria-label="2017, 24,650. Médiane (rupture de série en 2012)." style="outline: none;"></path><path fill="#174695" d="M 438.5 69.436428571429 A 3 3 0 1 1 438.50019999999984 69.43642856476234 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-2" tabindex="-1" role="img" aria-label="2018, 24,690. Médiane (rupture de série en 2012)." style="outline: none;"></path><path fill="#174695" d="M 458.5 56.39 A 3 3 0 1 1 458.50019999999984 56.38999999333333 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-2" tabindex="-1" role="img" aria-label="2019, 25,340. Médiane (rupture de série en 2012)." style="outline: none;"></path><path fill="#174695" d="M 478.5 46.755714285714 A 3 3 0 1 1 478.50019999999984 46.75571427904733 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-2" tabindex="-1" role="img" aria-label="2020¹, 25,820. Médiane (rupture de série en 2012)." style="outline: none;"></path></g><g class="highcharts-series highcharts-series-3 highcharts-line-series highcharts-color-3" data-z-index="0.1" transform="translate(70,78) scale(1 1)" clip-path="url(#highcharts-0krhac0-13-)" aria-hidden="true"><path fill="none" d="M 478.28571428571 36.931428571429 L 498.21428571429 38.737857142857 L 518.14285714286 39.540714285714 L 538.07142857143 34.522857142857 L 558 25.29" class="highcharts-graph" data-z-index="1" stroke="#174695" stroke-width="3" stroke-dasharray="none" filter="none"></path><path fill="none" d="M 478.28571428571 36.931428571429 L 498.21428571429 38.737857142857 L 518.14285714286 39.540714285714 L 538.07142857143 34.522857142857 L 558 25.29" data-z-index="2" class="highcharts-tracker-line" stroke-linecap="round" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="23"></path></g><g class="highcharts-markers highcharts-series-3 highcharts-line-series highcharts-color-3 highcharts-tracker" data-z-index="0.1" transform="translate(70,78) scale(1 1)" clip-path="none" aria-hidden="false" role="region" tabindex="-1" aria-label="Médiane (rupture de série en 2020), line 4 of 4 with 29 data points." style="outline: none;"><rect x="0" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="1996, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="19.928571428571" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="1997, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="39.857142857143" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="1998, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="59.785714285714" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="1999, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="79.714285714286" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2000, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="99.642857142857" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2001, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="119.57142857143" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2002, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="139.5" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2003, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="159.42857142857" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2004, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="179.35714285714" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2005, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="199.28571428571" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2006, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="219.21428571429" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2007, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="239.14285714286" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2008, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="259.07142857143" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2009, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="279" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2010¹, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="298.92857142857" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2011, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="318.85714285714" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2012¹, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="338.78571428571" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2013, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="358.71428571429" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2014, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="378.64285714286" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2015, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="398.57142857143" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2016, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="418.5" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2017, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="438.42857142857" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2018, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><rect x="458.35714285714" y="36.931428571429" width="1" height="1" fill="none" class="highcharts-a11y-mock-point" opacity="0" fill-opacity="0" stroke-opacity="0" tabindex="-1" role="img" aria-label="2019, No value. Médiane (rupture de série en 2020)." style="outline: none;"></rect><path fill="#174695" d="M 478.5 39.931428571429 A 3 3 0 1 1 478.50019999999984 39.931428564762335 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-3" tabindex="-1" role="img" aria-label="2020¹, 26,160. Médiane (rupture de série en 2020)." style="outline: none;"></path><path fill="#174695" d="M 498.5 41.737857142857 A 3 3 0 1 1 498.50019999999984 41.737857136190335 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-3" tabindex="-1" role="img" aria-label="2021, 26,070. Médiane (rupture de série en 2020)." style="outline: none;"></path><path fill="#174695" d="M 518.5 42.540714285714 A 3 3 0 1 1 518.5001999999998 42.540714279047336 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-3" tabindex="-1" role="img" aria-label="2022, 26,030. Médiane (rupture de série en 2020)." style="outline: none;"></path><path fill="#174695" d="M 538.5 37.522857142857 A 3 3 0 1 1 538.5001999999998 37.52285713619033 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-3" tabindex="-1" role="img" aria-label="2023, 26,280. Médiane (rupture de série en 2020)." style="outline: none;"></path><path fill="#174695" d="M 558.5 28.29 A 3 3 0 1 1 558.5001999999998 28.289999993333332 Z" stroke="#174695" stroke-width="1" opacity="0" class="highcharts-point highcharts-color-3" tabindex="-1" role="img" aria-label="2024, 26,740. Médiane (rupture de série en 2020)." style="outline: none;"></path></g></g><g class="highcharts-exporting-group" data-z-index="3" aria-hidden="true"><g class="highcharts-no-tooltip highcharts-button highcharts-contextbutton" stroke-linecap="round" style="cursor: pointer;" transform="translate(665,24)"><title>Options du graphique</title><rect fill="#ffffff" class="highcharts-button-box" x="0.5" y="0.5" width="28" height="28" rx="2" ry="2" stroke="none" stroke-width="1"></rect><path fill="#666666" d="M 8 9.5 L 22 9.5 M 8 14.5 L 22 14.5 M 8 19.5 L 22 19.5" class="highcharts-button-symbol" data-z-index="1" stroke="#666666" stroke-width="3"></path><text x="28" data-z-index="1" y="19.5" text-anchor="end" style="font-size: 0.8em; font-weight: normal; fill: rgb(51, 51, 51);"></text></g></g><text x="5" text-anchor="start" class="highcharts-title" data-z-index="4" style="font-size: 1em; font-weight: bold; fill: rgb(51, 51, 51);" text-align="left" y="43" transform-origin="5 21" transform="translate(0,0) scale(1 1)" aria-hidden="true"></text><text x="5" text-anchor="start" class="highcharts-subtitle" data-z-index="4" style="font-size: 0.666667em; fill: rgb(102, 102, 102);" text-align="left" y="34" transform-origin="5 15" transform="translate(0,0) scale(1 1)" aria-hidden="true"></text><text x="5" text-anchor="start" class="highcharts-caption" data-z-index="4" style="font-size: 0.8em; fill: rgb(102, 102, 102);" text-align="left" y="704" transform-origin="5 17" transform="translate(0,0) scale(1 1)" aria-hidden="true"></text><g class="highcharts-datalabels-group" data-z-index="6" aria-hidden="true"></g><g class="highcharts-annotation" opacity="1" data-z-index="6" style="cursor: move;" aria-hidden="true"><g class="highcharts-annotation-shapes" clip-path="url(#highcharts-0krhac0-28-)"></g><g class="highcharts-annotation-labels" transform="translate(0,0)"></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels" data-z-index="7" aria-hidden="true"><text x="72.1426253656218" text-anchor="end" transform="translate(0,0) rotate(-40 72.1426253656218 663)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="663" opacity="1">1996</text><text x="111.9997682227618" text-anchor="end" transform="translate(0,0) rotate(-40 111.9997682227618 663)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="663" opacity="1">1998</text><text x="151.8569110799118" text-anchor="end" transform="translate(0,0) rotate(-40 151.8569110799118 663)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="663" opacity="1">2000</text><text x="191.7140539370518" text-anchor="end" transform="translate(0,0) rotate(-40 191.7140539370518 663)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="663" opacity="1">2002</text><text x="231.5711967941918" text-anchor="end" transform="translate(0,0) rotate(-40 231.5711967941918 663)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="663" opacity="1">2004</text><text x="271.42833965133184" text-anchor="end" transform="translate(0,0) rotate(-40 271.42833965133184 663)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="663" opacity="1">2006</text><text x="311.28548250848183" text-anchor="end" transform="translate(0,0) rotate(-40 311.28548250848183 663)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="663" opacity="1">2008</text><text x="351.1426253656218" text-anchor="end" transform="translate(0,0) rotate(-40 351.1426253656218 663)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="663" opacity="1">2010¹</text><text x="390.9997682227618" text-anchor="end" transform="translate(0,0) rotate(-40 390.9997682227618 663)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="663" opacity="1">2012¹</text><text x="430.8569110799118" text-anchor="end" transform="translate(0,0) rotate(-40 430.8569110799118 663)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="663" opacity="1">2014</text><text x="470.7140539370518" text-anchor="end" transform="translate(0,0) rotate(-40 470.7140539370518 663)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="663" opacity="1">2016</text><text x="510.57119679419185" text-anchor="end" transform="translate(0,0) rotate(-40 510.57119679419185 663)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="663" opacity="1">2018</text><text x="550.4283396513318" text-anchor="end" transform="translate(0,0) rotate(-40 550.4283396513318 663)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="663" opacity="1">2020¹</text><text x="590.2854825084818" text-anchor="end" transform="translate(0,0) rotate(-40 590.2854825084818 663)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="663" opacity="1">2022</text><text x="630.1426253656218" text-anchor="end" transform="translate(0,0) rotate(-40 630.1426253656218 663)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="663" opacity="1">2024</text></g><g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7" aria-hidden="true"><text x="55" text-anchor="end" transform="translate(0,0)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="643" opacity="1">0</text><text x="55" text-anchor="end" transform="translate(0,0)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="603" opacity="1">2&nbsp;000</text><text x="55" text-anchor="end" transform="translate(0,0)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="563" opacity="1">4&nbsp;000</text><text x="55" text-anchor="end" transform="translate(0,0)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="523" opacity="1">6&nbsp;000</text><text x="55" text-anchor="end" transform="translate(0,0)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="482" opacity="1">8&nbsp;000</text><text x="55" text-anchor="end" transform="translate(0,0)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="442" opacity="1">10&nbsp;000</text><text x="55" text-anchor="end" transform="translate(0,0)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="402" opacity="1">12&nbsp;000</text><text x="55" text-anchor="end" transform="translate(0,0)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="362" opacity="1">14&nbsp;000</text><text x="55" text-anchor="end" transform="translate(0,0)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="322" opacity="1">16&nbsp;000</text><text x="55" text-anchor="end" transform="translate(0,0)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="282" opacity="1">18&nbsp;000</text><text x="55" text-anchor="end" transform="translate(0,0)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="242" opacity="1">20&nbsp;000</text><text x="55" text-anchor="end" transform="translate(0,0)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="201" opacity="1">22&nbsp;000</text><text x="55" text-anchor="end" transform="translate(0,0)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="161" opacity="1">24&nbsp;000</text><text x="55" text-anchor="end" transform="translate(0,0)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="121" opacity="1">26&nbsp;000</text><text x="55" text-anchor="end" transform="translate(0,0)" style="cursor: default; font-size: 0.555556em; fill: rgb(102, 102, 102);" y="81" opacity="1">28&nbsp;000</text></g><g class="highcharts-control-points" data-z-index="99" clip-path="url(#highcharts-0krhac0-28-)" aria-hidden="true"></g></svg><div aria-hidden="false" class="highcharts-a11y-proxy-container-after" style="top: 0px; left: 0px; white-space: nowrap; position: absolute;"><div class="highcharts-a11y-proxy-group highcharts-a11y-proxy-group-zoom"></div><div class="highcharts-a11y-proxy-group highcharts-a11y-proxy-group-chartMenu"><button class="highcharts-a11y-proxy-element highcharts-no-tooltip" aria-label="Options du graphique" aria-expanded="false" title="Options du graphique" style="border-width: 0px; background-color: transparent; cursor: pointer; outline: none; opacity: 0.001; z-index: 999; overflow: hidden; padding: 0px; margin: 0px; display: block; position: absolute; width: 28px; height: 28px; left: 666px; top: 25px;"></button></div></div></div><div class="highcharts-exit-anchor" tabindex="0" aria-hidden="false" style=""></div></div>
+                     <figcaption id="figcaption-graphique-figure1">
+                        <ul class="notes">
+                           <li>1.&nbsp;Il faut tenir compte des ruptures de séries en 2010, 2012 et 2020 pour étudier
+                              l’évolution de l’indicateur sur la période 1996-2024.</li>
+                           <li>Note&nbsp;: le point 2020 présente des fragilités liées aux difficultés de production en
+                              2020. À partir de 2020, cette série est calculée avec une chaîne de production de
+                              l’ERFS rénovée s’appuyant sur la nouvelle Enquête Emploi. Les données antérieures
+                              à 2020 ne sont pas identiques à celles figurant dans l'Insee Première «&nbsp;Niveau de
+                              vie et pauvreté en&nbsp;2024&nbsp;» qui ont été rétropolées pour permettre une comparaison temporelle.</li>
+                           <li>Lecture&nbsp;: en 2024, le <span class="infobulle-accessible rmes-definition" role="button" tabindex="0" aria-controls="accessible-c1890" aria-label="niveau de vie (définition)" aria-expanded="false" data-court="true" data-ref="c1890">niveau de vie</span> <span class="infobulle-accessible rmes-definition" role="button" tabindex="0" aria-controls="accessible-c1376" aria-label="médian (définition)" aria-expanded="false" data-court="true" data-ref="c1376">médian</span> des individus s’élève à 26&nbsp;740&nbsp;euros annuels.</li>
+                           <li>Champ&nbsp;: France métropolitaine, individus vivant dans un <span class="infobulle-accessible rmes-definition" role="button" tabindex="0" aria-controls="accessible-c1879" aria-label="ménage (définition)" aria-expanded="false" data-court="true" data-ref="c1879">ménage</span> (en <span class="infobulle-accessible rmes-definition" role="button" tabindex="0" aria-controls="accessible-c1702" aria-label="logement ordinaire (définition)" aria-expanded="false" data-court="true" data-ref="c1702">logement ordinaire</span>) dont le revenu déclaré est positif ou nul et dont la <span class="infobulle-accessible rmes-definition" role="button" tabindex="0" aria-controls="accessible-c1192" aria-label="personne de référence (définition)" aria-expanded="false" data-court="false" data-ref="c1192">personne de référence</span> n'est pas étudiante. </li>
+                           <li>Sources&nbsp;: Insee-DGI, enquêtes Revenus fiscaux et sociaux rétropolées de 1996 à 2004&nbsp;;
+                              Insee-DGFiP-Cnaf-Cnav-CCMSA, <a href="https://www.insee.fr/fr/metadonnees/source/serie/s1231" class="renvoi">enquêtes Revenus fiscaux et sociaux</a> 2005 à 2024.</li>
+                        </ul>
+                     </figcaption>
+                  </figure>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section><section>
+   <div class="module-transverse pour-en-savoir-plus   ">
+      <div class="module-transverse-container">
+         <h2 class="module-transverse-titre" data-i18n="produit.pour-en-savoir-plus.titre">Pour en savoir plus</h2>
+         <div class="module-transverse-contenu">
+            <p class="paragraphe   ">
+               <a class="renvoi" data-i18n="" href="/fr/statistiques/9019316">Insee Première :&nbsp;Niveau de vie et pauvreté en&nbsp;2024</a>
+               </p>
+            <p class="paragraphe   ">
+               <a href="https://www.insee.fr/fr/information/7713943" class="renvoi">Insee Méthodes : Impact de la rénovation de l’enquête Revenus fiscaux et sociaux en
+                  2021 sur la mesure des niveaux de vie, des indicateurs d’inégalités et de pauvreté
+                  </a>
+               </p>
+         </div>
+      </div>
+   </div>
+</section>
+
+</main>
+
+<footer role="contentinfo">
+    
+        
+        
+            
+
+
+
+<div class="footer-mobile">
+	<div class="liens-reseaux-sociaux-mobile">
+		<a href="https://bsky.app/profile/insee.fr" target="_blank" rel="noopener" data-i18n="[title]reseaux-sociaux.footer.lien-bluesky" title="page Bluesky de l'Insee"><span class="icone-bluesky"><span data-i18n="reseaux-sociaux.footer.lien-bluesky" class="hidden-accessibilite">page Bluesky de l'Insee</span></span></a>
+		<a href="https://www.instagram.com/insee_fr/" target="_blank" rel="noopener" data-i18n="[title]reseaux-sociaux.footer.lien-instagram" title="page Instagram de l'Insee"><span class="icone-instagram"><span data-i18n="reseaux-sociaux.footer.lien-instagram" class="hidden-accessibilite">page Instagram de l'Insee</span></span></a>
+		<a href="https://www.linkedin.com/company/insee" target="_blank" rel="noopener" data-i18n="[title]reseaux-sociaux.footer.lien-linkedin" title="page LinkedIn de l'Insee"><span class="icone-linkedin"><span data-i18n="reseaux-sociaux.footer.lien-linkedin" class="hidden-accessibilite">page LinkedIn de l'Insee</span></span></a>
+		
+			
+			
+				<a href="https://x.com/InseeFr" target="_blank" rel="noopener" data-i18n="[title]reseaux-sociaux.footer.lien-twitter" title="page X de l'Insee"><span class="icone-twitter"><span data-i18n="reseaux-sociaux.footer.lien-twitter" class="hidden-accessibilite">page X de l'Insee</span></span></a>
+			
+		
+		<a href="https://www.youtube.com/@Insee_Fr" target="_blank" rel="noopener" data-i18n="[title]reseaux-sociaux.footer.lien-youtube" title="chaîne Youtube de l'Insee"><span class="icone-youtube"><span data-i18n="reseaux-sociaux.footer.lien-youtube" class="hidden-accessibilite">chaîne Youtube de l'Insee</span></span></a>
+		<a href="https://blog.insee.fr/" target="_blank" rel="noopener" data-i18n="[title]reseaux-sociaux.footer.lien-blog" title="blog de l'Insee"><span class="icone-blog"><span data-i18n="reseaux-sociaux.footer.lien-blog" class="hidden-accessibilite">blog de l'Insee</span></span></a>
+		<a href="
+
+
+/fr/information/2381941
+" data-i18n="[title]reseaux-sociaux.footer.lien-rss" title="flux RSS de l'Insee"><span class="icone-rss"><span data-i18n="reseaux-sociaux.footer.lien-rss" class="hidden-accessibilite">flux RSS de l'Insee</span></span></a>
+	</div>
+	<div class="liens-partenaires-mobile">
+		<ul class="menu-liens-partenaires-mobile" role="menu">
+			
+				
+				
+					<li class="lien"><span data-i18n="footer.menu-footer.partenaires">Nos sites partenaires</span><span class="chevron-bas"></span></li>
+					<ul class="menu-deroulant-partenaires-mobile" role="menu" style="display: none;">
+						<li role="menuitem">
+							<a class="lien" href="http://ec.europa.eu/eurostat/web/european-statistical-system/overview?locale=fr" target="_blank" data-i18n="[title]footer.images.sse" title="Système Statistique Européen">Système Statistique Européen</a>
+						</li>
+						<li role="menuitem">
+							<a class="lien" href="http://www.reseau-quetelet.cnrs.fr/spip/" target="_blank" data-i18n="[title]footer.images.quetelet" title="Réseau Quetelet">Réseau Quetelet</a>
+						</li>
+						<li role="menuitem">
+							<a class="lien" href="https://casd.eu/" target="_blank" data-i18n="[title]footer.images.casd" title="Centre d'Accès Sécurisé Distant aux données (CASD)">Centre d'Accès Sécurisé Distant aux données (CASD)</a>
+						</li>
+						<li role="menuitem">
+							<a class="lien" href="http://www.data.gouv.fr/fr/" target="_blank" data-i18n="[title]footer.images.data" title="site data.gouv">site data.gouv</a>
+						</li>
+						<li role="menuitem">
+							<a class="lien" href="https://www.plus.transformation.gouv.fr/" target="_blank" data-i18n="[title]footer.images.services" title="Services Publics +">Services Publics +</a>
+						</li>
+					
+				
+			</ul>
+		</ul>
+	</div>
+</div>
+<div class="footer">
+	<div class="container-bloc-1">
+		<nav class="bloc-1" aria-label="bloc-1">
+			<div class="abonnement">
+				<h2 class="titre-footer" data-i18n="footer.abonnez-vous">Abonnez-vous</h2>
+				<div class="contenu-abonnement">
+					<div class="lettre"></div>
+					<a href="
+
+
+/fr/information/1405555
+" class="lien-footer avis-parution" data-i18n="footer.avis-parution">Avis de parution</a>
+				</div>
+			</div>
+			<div class="reseaux-sociaux">
+				<h2 class="titre-footer" data-i18n="footer.reseaux-sociaux">Nous suivre</h2>
+				<div class="contenu-reseaux-sociaux">
+					<a href="https://bsky.app/profile/insee.fr" target="_blank" rel="noopener" data-i18n="[title]reseaux-sociaux.footer.lien-bluesky" title="page Bluesky de l'Insee"><img class="cercle-bluesky" alt="" src="
+
+
+/static/img/logo-bluesky.svg
+"><span data-i18n="reseaux-sociaux.footer.lien-bluesky" class="hidden-accessibilite">page Bluesky de l'Insee</span></a>
+					<a href="https://www.instagram.com/insee_fr/" target="_blank" rel="noopener" data-i18n="[title]reseaux-sociaux.footer.lien-instagram" title="page Instagram de l'Insee"><img class="cercle-instagram" alt="" src="
+
+
+/static/img/logo-instagram-small.png
+"><span data-i18n="reseaux-sociaux.footer.lien-instagram" class="hidden-accessibilite">page Instagram de l'Insee</span></a>
+					<div class="cercle-linkedin">
+						<a href="https://www.linkedin.com/company/insee" target="_blank" rel="noopener" data-i18n="[title]reseaux-sociaux.footer.lien-linkedin" title="page LinkedIn de l'Insee"><span class="icone-linkedin"><span data-i18n="reseaux-sociaux.footer.lien-linkedin" class="hidden-accessibilite">page LinkedIn de l'Insee</span></span></a>
+					</div>
+					<div class="cercle-twitter">
+						
+							
+							
+								<a href="https://x.com/InseeFr" target="_blank" rel="noopener" data-i18n="[title]reseaux-sociaux.footer.lien-twitter" title="page X de l'Insee"><span class="icone-twitter"><span data-i18n="reseaux-sociaux.footer.lien-twitter" class="hidden-accessibilite">page X de l'Insee</span></span></a>
+							
+						
+					</div>
+					<div class="cercle-youtube">
+						<a href="https://www.youtube.com/@Insee_Fr" target="_blank" rel="noopener" data-i18n="[title]reseaux-sociaux.footer.lien-youtube" title="chaîne Youtube de l'Insee"><span class="icone-youtube"><span data-i18n="reseaux-sociaux.footer.lien-youtube" class="hidden-accessibilite">chaîne Youtube de l'Insee</span></span></a>
+					</div>
+					<div class="cercle-blog">
+						<a href="https://blog.insee.fr/" target="_blank" rel="noopener" data-i18n="[title]reseaux-sociaux.footer.lien-blog" title="blog de l'Insee"><span class="icone-blog"><span data-i18n="reseaux-sociaux.footer.lien-blog" class="hidden-accessibilite">blog de l'Insee</span></span></a>
+					</div>
+					<div class="cercle-rss">
+						<a href="
+
+
+/fr/information/2381941
+" data-i18n="[title]reseaux-sociaux.footer.lien-rss" title="flux RSS de l'Insee"><span class="icone-rss"><span data-i18n="reseaux-sociaux.footer.lien-rss" class="hidden-accessibilite">flux RSS de l'Insee</span></span></a>
+					</div>
+				</div>
+			</div>
+			<div class="contact-aide">
+				<h2 class="titre-footer" data-i18n="footer.contact">Contact</h2>
+				<div class="contenu-contact-aide">
+					<a href="
+
+
+/fr/information/2411108
+" class="lien-footer" data-i18n="footer.aide">Aide et contact</a>
+				</div>
+			</div>
+			
+		</nav>
+	</div>
+	<div class="container-bloc-2">
+		<div class="bloc-2"><ul>
+   <div class="colonne-1">
+      <li class="liste-niveau-1">
+         <div class="titre-liste-niveau-1"><a class="lien" href="/fr/statistiques" data-i18n="menu.statistiques.titre">Statistiques et études</a></div>
+      </li>
+      <li class="liste-niveau-1">
+         <div class="titre-liste-niveau-1"><a class="lien" href="/fr/information/2016815">Définitions, méthodes et&nbsp;qualité</a></div>
+         <ul>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/metadonnees/definitions">Définitions</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/2407637">Sources statistiques et&nbsp;indicateurs</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/4138839">La qualité dans le Service statistique public (SSP)</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/2016811">Nomenclatures</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/8391822">Géographie administrative et d'étude</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/2022002">Modèles, méthodes et outils statistiques</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/3622502">Courrier des statistiques</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/2410988">Offre de données ouvertes</a></div>
+            </li>
+         </ul>
+      </li>
+   </div>
+   <div class="colonne-2">
+      <li class="liste-niveau-1">
+         <div class="titre-liste-niveau-1"><a class="lien" href="/fr/information/1302181">Services</a></div>
+         <ul>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/1302157">Réviser une pension, un loyer, bail ou contrat</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/2411675">Consulter les indices et&nbsp;séries&nbsp;chronologiques</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/6675111">Sirene</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/2021852">Découvrir, apprendre, enseigner</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/1302175">Répondre à une enquête de&nbsp;l'Insee</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/1302152">S’informer sur l’actualité de notre diffusion</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/1302179">Gérer les répertoires des personnes physiques</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/1302154">Bibliothèque de l’Insee Alain&nbsp;Desrosières</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/1302171">Commander une prestation, acheter une publication</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/1302177">Nous suivre</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/2411108">Aide et contacts</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/2008400">Espace presse</a></div>
+            </li>
+         </ul>
+      </li>
+      <li class="liste-niveau-1">
+         <div class="titre-liste-niveau-1"><a class="lien" href="/fr/information/1302230">L'Insee et la statistique publique</a></div>
+         <ul>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/1302198">L'Insee</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/1302194">Les activités de l'Insee</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/1302208">La statistique publique</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/1302196">La construction de la statistique européenne</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/4248413">Mesure de la qualité de service</a></div>
+            </li>
+            <li class="liste-niveau-2">
+               <div class="titre-liste-niveau-2"><a class="lien titre-categorie" href="/fr/information/5413276">Services Publics+ : un service public plus proche, plus simple, plus efficace</a></div>
+            </li>
+         </ul>
+      </li>
+   </div>
+</ul></div>
+	</div>
+	<nav class="container-bloc-3" aria-label="container-bloc-3">
+		<div class="bloc-3">
+			<ul class="images-footer">
+				
+					
+					
+						<li class="image-footer">
+							<a class="lien-footer-image" href="http://ec.europa.eu/eurostat/web/european-statistical-system/overview?locale=fr" target="_blank" data-i18n="[title]footer.images.sse" title="Système Statistique Européen">
+								<img src="
+
+
+/static/img/footer/sse.png
+" alt="Système Statistique Européen" title="Système Statistique Européen">
+							</a>
+						</li>
+						<li class="image-footer">
+							<a class="lien-footer-image" href="http://www.reseau-quetelet.cnrs.fr/spip/" target="_blank" data-i18n="[title]footer.images.quetelet" title="Réseau Quetelet">
+								<img src="
+
+
+/static/img/footer/Reseau_quetelet.png
+" alt="Réseau Quetelet" title="Réseau Quetelet">
+							</a>
+						</li>
+						<li class="image-footer">
+							<a class="lien-footer-image" href="https://casd.eu/" target="_blank" data-i18n="[title]footer.images.casd" title="Centre d'Accès Sécurisé Distant aux données (CASD)">
+								<img src="
+
+
+/static/img/footer/CASD.png
+" alt="Centre d'Accès Sécurisé Distant aux données (CASD)" title="Centre d'Accès Sécurisé Distant aux données (CASD)">
+							</a>
+						</li>
+						<li class="image-footer">
+							<a class="lien-footer-image" href="http://www.data.gouv.fr/fr/" target="_blank" data-i18n="[title]footer.images.data" title="site data.gouv">
+								<img src="
+
+
+/static/img/footer/data.gouv.png
+" alt="site data.gouv" title="site data.gouv">
+							</a>
+						</li>
+						<li class="image-footer">
+							<a class="lien-footer-image" href="https://www.plus.transformation.gouv.fr/" target="_blank" data-i18n="[title]footer.images.services" title="Services Publics +">
+								<img src="
+
+
+/static/img/footer/Service_public.png
+" alt="Services Publics +" title="Services Publics +">
+							</a>
+						</li>
+					
+				
+			</ul>
+		</div>
+	</nav>
+	<nav class="container-bloc-4" aria-label="container-bloc-4">
+		<div class="bloc-4">
+			<ul class="liens-footer">
+				
+					
+					
+						<li class="lien-footer">
+							<a href="
+
+
+/fr/information/2008466
+" data-i18n="footer.liens.mentions">Mentions légales et crédits</a>
+						</li>
+						<li class="lien-footer">
+							<a href="
+
+
+/fr/information/2386135
+" data-i18n="footer.liens.accessibilite">Accessibilité : partiellement conforme</a>
+						</li>
+						<li class="lien-footer ">
+							<a href="
+
+
+/fr/information/5894637
+">Accès sourds et malentendants</a>
+						</li>
+						<li class="lien-footer">
+							<a href="
+
+
+/fr/information/2381939
+" data-i18n="footer.liens.securite">Sécurité</a>
+						</li>
+						<li class="lien-footer">
+							<a href="
+
+
+/fr/plan-du-site
+" data-i18n="footer.liens.plan">Plan du site</a>
+						</li>
+					
+				
+			</ul>
+		</div>
+	</nav>
+</div>
+
+        
+    
+</footer>
+
+<a href="#" class="sticky-top"><span data-i18n="footer.sticky-top.texte" class="sticky-text">Haut de page</span></a>
+
+
+<script>
+    window.addEventListener("load", async function () {
+        const isFrench = document.documentElement.lang !== "en";
+        Highcharts.setOptions({
+            lang: {
+                thousandsSep: "\u00A0",
+                numericSymbols: undefined, // disable 100k, 1M, etc
+                decimalPoint: isFrench ? "," : ".",
+            },
+        });
+
+        const bimester = isFrench
+            ? { label: "bimestre", abbr: "bim." }
+            : { label: "bimester", abbr: "bim." };
+        const quarter = isFrench
+            ? { label: "trimestre", abbr: "trim." }
+            : { label: "quarter", abbr: "qtr." };
+
+        const getBimester = (date) => {
+            return Math.floor(date.getUTCMonth() / 2) + 1;
+        };
+        const getQuarter = (date) => {
+            return Math.floor(date.getUTCMonth() / 3) + 1;
+        };
+
+        const addSuffix = function (pos) {
+            switch (pos) {
+                case 1:
+                    return pos + (isFrench ? "er " : "st ");
+                case 2:
+                    return pos + (isFrench ? "e " : "nd ");
+                case 3:
+                    return pos + (isFrench ? "e " : "rd ");
+                default:
+                    return pos + (isFrench ? "e " : "th ");
+            }
+        };
+
+        Highcharts.dateFormats.clib = function (timestamp) {
+            const date = new Date(timestamp);
+            return addSuffix(getBimester(date)) + bimester.abbr;
+        };
+        Highcharts.dateFormats.Clib = function (timestamp) {
+            const date = new Date(timestamp);
+            return addSuffix(getBimester(date)) + bimester.label;
+        };
+        Highcharts.dateFormats.t = function (timestamp) {
+            const date = new Date(timestamp);
+            return getQuarter(date) + "";
+        };
+        Highcharts.dateFormats.qlib = function (timestamp) {
+            const date = new Date(timestamp);
+            return addSuffix(getQuarter(date)) + quarter.abbr;
+        };
+        Highcharts.dateFormats.Qlib = function (timestamp) {
+            const date = new Date(timestamp);
+            return addSuffix(getQuarter(date)) + quarter.label;
+        };
+
+        const graphs = document.querySelectorAll("[id^='highchart']");
+        for (const graph of graphs) {
+            const response = await fetch(graph.getAttribute("data-graphique"));
+            const xml = await response.text();
+            const options = await generateChartOptions(xml);
+
+            if (options?.chart.type === 'map') {
+                Highcharts.mapChart(graph.getAttribute("id"), options);
+            } else {
+                Highcharts.chart(graph.getAttribute("id"), options);
+            }
+        }
+    });
+</script>
+
+
+
+
+<ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-1" tabindex="0" style="display: none;"></ul><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span></body></html>

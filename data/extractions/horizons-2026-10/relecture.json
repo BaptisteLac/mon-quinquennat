@@ -273,7 +273,8 @@
  },
  "389581c2bf2b": {
   "verdict": "fidele",
-  "contentSha256": "ac213119b9af4e797d80ecf40154af00c5184c39bd795ac4a74592a8ce6f8e1c"
+  "contentSha256": "bbccfc402f02b13806a48ad1a25cc8f9a31950af2bc5537b53023677a652a42b",
+  "note": "Cas type conditionnel ajouté : paramètres repris de la citation, condition et hypothèse écrites ; relu le 2026-11-03."
  },
  "0899e59e092c": {
   "verdict": "fidele",
@@ -337,7 +338,8 @@
  },
  "4018fedf16d6": {
   "verdict": "fidele",
-  "contentSha256": "b11b656028f245721b5ec3d3bf772f6a32b9799c00ee7e6fd530def2b3dcc5eb"
+  "contentSha256": "b0cb836b22f01803196dc7fe59d22dac1dc326ec59fe5371ef4401893dc0966b",
+  "note": "Cas type conditionnel ajouté : paramètres repris de la citation, condition et hypothèse écrites ; relu le 2026-11-03."
  },
  "045d183b2c71": {
   "verdict": "fidele",
