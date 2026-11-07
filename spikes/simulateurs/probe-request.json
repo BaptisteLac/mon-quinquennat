@@ -1,8 +1,7 @@
 {
-  "run": 36,
+  "run": 37,
   "targets": [
-    { "id": "melenchon-programme-decouvrir", "url": "https://melenchon2027.fr/programme/decouvrir/", "waitUntil": "load", "timeoutMs": 90000, "continueOnError": true, "actions": [{ "wait": 4000 }] },
-    { "id": "melenchon-accueil", "url": "https://melenchon2027.fr/", "waitUntil": "load", "timeoutMs": 90000, "continueOnError": true, "actions": [{ "wait": 4000 }], "follow": "programme|avenir|livre|chapitre", "maxFollow": 8 },
-    { "id": "lafranceinsoumise-programme", "url": "https://lafranceinsoumise.fr/", "waitUntil": "load", "timeoutMs": 90000, "continueOnError": true, "actions": [{ "wait": 4000 }], "follow": "programme|avenir en commun", "maxFollow": 5 }
+    { "id": "melenchon-laec", "url": "https://melenchon2027.fr/programme/laec/", "waitUntil": "load", "timeoutMs": 90000, "continueOnError": true, "actions": [{ "wait": 5000 }], "follow": "programme/laec|chapitre|partie|\\.pdf", "maxFollow": 6 },
+    { "id": "lfi-sortie-aec", "url": "https://lafranceinsoumise.fr/2026/11/02/avenir-en-commun-nouvelle-france/", "waitUntil": "load", "timeoutMs": 60000, "continueOnError": true }
   ]
 }
