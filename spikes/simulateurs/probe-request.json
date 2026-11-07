@@ -1,7 +1,8 @@
 {
-  "run": 35,
+  "run": 36,
   "targets": [
-    { "id": "roussel-wayback", "url": "https://web.archive.org/web/2026/https://www.fabienroussel2027.fr/", "waitUntil": "load", "timeoutMs": 120000, "continueOnError": true, "follow": "programme|projet|mesure|propos", "maxFollow": 6 },
-    { "id": "roussel-wayback-cdx", "url": "https://web.archive.org/cdx/search/cdx?url=fabienroussel2027.fr*&output=txt&limit=200&from=2026", "waitUntil": "load", "timeoutMs": 60000, "continueOnError": true }
+    { "id": "melenchon-programme-decouvrir", "url": "https://melenchon2027.fr/programme/decouvrir/", "waitUntil": "load", "timeoutMs": 90000, "continueOnError": true, "actions": [{ "wait": 4000 }] },
+    { "id": "melenchon-accueil", "url": "https://melenchon2027.fr/", "waitUntil": "load", "timeoutMs": 90000, "continueOnError": true, "actions": [{ "wait": 4000 }], "follow": "programme|avenir|livre|chapitre", "maxFollow": 8 },
+    { "id": "lafranceinsoumise-programme", "url": "https://lafranceinsoumise.fr/", "waitUntil": "load", "timeoutMs": 90000, "continueOnError": true, "actions": [{ "wait": 4000 }], "follow": "programme|avenir en commun", "maxFollow": 5 }
   ]
 }
