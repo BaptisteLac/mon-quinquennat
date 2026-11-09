@@ -1,0 +1,1504 @@
+# Veille — france-insoumise-2026-10 → france-insoumise-2026-11-09
+
+**Le programme a changé.**
+
+| Documents | Nombre |
+|---|---|
+| Modifiés | 3 |
+| Ajoutés | 37 |
+| Supprimés | 1 |
+| Inchangés | 8 |
+
+## Mesures à relire (0)
+
+Aucune.
+
+## ajoute : https://melenchon2027.fr/programme/commander/
+
+- + Gérer le consentement aux cookies
+- + Pour offrir les meilleures expériences, nous utilisons des technologies telles que les cookies pour stocker et/ou accéder aux informations des appareils. Le fait de consentir à ces technologies nous permettra de traiter des données telles que le comportement de navigation ou les ID uniques sur ce site. Le fait de ne pas consentir ou de retirer son consentement peut avoir un effet négatif sur certaines caractéristiques et fonctions.
+- + Fonctionnel Fonctionnel Toujours activé
+- + Le stockage ou l'accès technique est strictement nécessaire dans la finalité d'intérêt légitime de permettre l'utilisation d'un service spécifique explicitement demandé par l'abonné ou l'internaute, ou dans le seul but d'effectuer la transmission d'une communication sur un réseau de communications électroniques.
+- + Préférences Préférences
+- + Le stockage ou l'accès technique est nécessaire dans la finalité d'intérêt légitime de stocker des préférences qui ne sont pas demandées par l'abonné ou la personne utilisant le service.
+- + Statistiques Statistiques
+- + Le stockage ou l'accès technique qui est utilisé exclusivement à des fins statistiques. Le stockage ou l'accès technique qui est utilisé exclusivement dans des finalités statistiques anonymes. En l'absence d'une assignation à comparaître, d'une conformité volontaire de la part de votre fournisseur d'accès à internet ou d'enregistrements supplémentaires provenant d'une tierce partie, les informations stockées ou extraites à cette seule fin ne peuvent généralement pas être utilisées pour vous identifier.
+- + Marketing Marketing
+- + Le stockage ou l'accès technique est nécessaire pour créer des profils d'internautes afin d'envoyer des publicités, ou pour suivre l'internaute sur un site web ou sur plusieurs sites web ayant des finalités marketing similaires.
+- + - Gérer les options
+- + - Gérer les services
+- + - Gérer {vendor_count} fournisseurs
+- + - En savoir plus sur ces finalités
+- + Voir les préférences
+- + - Mentions légales
+- + - {title}
+- + - {title}
+- + Aller au contenu
+- + Commander le programme
+- + Ce vendredi 6 novembre est sorti en librairie L'Avenir en commun (Édition La Dispute), le programme de la Nouvelle France. C'est le livre-programme de gouvernement de la France insoumise, porté par son candidat à l'élection présidentielle de 2027: Jean-Luc Mélenchon.
+- + Achetez le sur...
+- + Place des libraires
+- + La Librairie
+- + paris librairies
+- + fnac
+
+## modifie : https://melenchon2027.fr/programme/decouvrir/
+
+- − Disponible le 6 novembre en librairie.
+- − Retrouvez la 5e édition de L'Avenir en Commun, notre livre-programme qui rassemble toutes mesures concrètes portées par Jean-Luc Mélenchon et la France insoumise pour répondre à l'urgence écologique et sociale.
+- + Commandez-le dès maintenant.
+- + commander
+- + Retrouvez la 6e édition de L'Avenir en Commun, notre livre-programme qui rassemble toutes mesures concrètes portées par Jean-Luc Mélenchon et la France insoumise pour répondre à l'urgence écologique et sociale.
+- + Lire commander
+- + Pour un pôle public bancaire
+- + D'immenses investissements productifs sont nécessaires pour faire face à l'urgence sociale et aux bouleversements écologiques. Or, ces investissements reculent et la droite brandit la dette pour justifier son inaction. Le pôle public bancaire soutiendra les investissements définis dans le cadre d'une planification écologique nationale décidée de façon démocratique. Nous exposons notre projet, que nous mettrons en place dès la première année.
+- + Lire le PDF
+
+## ajoute : https://melenchon2027.fr/programme/livre/
+
+- + Gérer le consentement aux cookies
+- + Pour offrir les meilleures expériences, nous utilisons des technologies telles que les cookies pour stocker et/ou accéder aux informations des appareils. Le fait de consentir à ces technologies nous permettra de traiter des données telles que le comportement de navigation ou les ID uniques sur ce site. Le fait de ne pas consentir ou de retirer son consentement peut avoir un effet négatif sur certaines caractéristiques et fonctions.
+- + Fonctionnel Fonctionnel Toujours activé
+- + Le stockage ou l'accès technique est strictement nécessaire dans la finalité d'intérêt légitime de permettre l'utilisation d'un service spécifique explicitement demandé par l'abonné ou l'internaute, ou dans le seul but d'effectuer la transmission d'une communication sur un réseau de communications électroniques.
+- + Préférences Préférences
+- + Le stockage ou l'accès technique est nécessaire dans la finalité d'intérêt légitime de stocker des préférences qui ne sont pas demandées par l'abonné ou la personne utilisant le service.
+- + Statistiques Statistiques
+- + Le stockage ou l'accès technique qui est utilisé exclusivement à des fins statistiques. Le stockage ou l'accès technique qui est utilisé exclusivement dans des finalités statistiques anonymes. En l'absence d'une assignation à comparaître, d'une conformité volontaire de la part de votre fournisseur d'accès à internet ou d'enregistrements supplémentaires provenant d'une tierce partie, les informations stockées ou extraites à cette seule fin ne peuvent généralement pas être utilisées pour vous identifier.
+- + Marketing Marketing
+- + Le stockage ou l'accès technique est nécessaire pour créer des profils d'internautes afin d'envoyer des publicités, ou pour suivre l'internaute sur un site web ou sur plusieurs sites web ayant des finalités marketing similaires.
+- + - Gérer les options
+- + - Gérer les services
+- + - Gérer {vendor_count} fournisseurs
+- + - En savoir plus sur ces finalités
+- + Voir les préférences
+- + - Mentions légales
+- + - {title}
+- + - {title}
+- + Aller au contenu
+- + L'Avenir en commun
+- + Le programme de la Nouvelle France
+- + partager
+- + acheter le livre papier
+- + Table des matières
+
+## ajoute : https://melenchon2027.fr/programme/livre/fonder-la-6e-republique
+
+- + Gérer le consentement aux cookies
+- + Pour offrir les meilleures expériences, nous utilisons des technologies telles que les cookies pour stocker et/ou accéder aux informations des appareils. Le fait de consentir à ces technologies nous permettra de traiter des données telles que le comportement de navigation ou les ID uniques sur ce site. Le fait de ne pas consentir ou de retirer son consentement peut avoir un effet négatif sur certaines caractéristiques et fonctions.
+- + Fonctionnel Fonctionnel Toujours activé
+- + Le stockage ou l'accès technique est strictement nécessaire dans la finalité d'intérêt légitime de permettre l'utilisation d'un service spécifique explicitement demandé par l'abonné ou l'internaute, ou dans le seul but d'effectuer la transmission d'une communication sur un réseau de communications électroniques.
+- + Préférences Préférences
+- + Le stockage ou l'accès technique est nécessaire dans la finalité d'intérêt légitime de stocker des préférences qui ne sont pas demandées par l'abonné ou la personne utilisant le service.
+- + Statistiques Statistiques
+- + Le stockage ou l'accès technique qui est utilisé exclusivement à des fins statistiques. Le stockage ou l'accès technique qui est utilisé exclusivement dans des finalités statistiques anonymes. En l'absence d'une assignation à comparaître, d'une conformité volontaire de la part de votre fournisseur d'accès à internet ou d'enregistrements supplémentaires provenant d'une tierce partie, les informations stockées ou extraites à cette seule fin ne peuvent généralement pas être utilisées pour vous identifier.
+- + Marketing Marketing
+- + Le stockage ou l'accès technique est nécessaire pour créer des profils d'internautes afin d'envoyer des publicités, ou pour suivre l'internaute sur un site web ou sur plusieurs sites web ayant des finalités marketing similaires.
+- + - Gérer les options
+- + - Gérer les services
+- + - Gérer {vendor_count} fournisseurs
+- + - En savoir plus sur ces finalités
+- + Voir les préférences
+- + - Mentions légales
+- + - {title}
+- + - {title}
+- + Aller au contenu
+- + L'Avenir en commun
+- + Le programme de la Nouvelle France
+- + Table des matières
+- + Retour Partager
+- + Partie 5 - Fonder la 6e République
+- + La Nouvelle France est déjà là. Avec elle doit s'ouvrir une nouvelle saison institutionnelle. Moins de 1% des Français qui ont voté en 1958 pour adopter notre Constitution sont encore vivants. La Ve République portait les défis d'une époque qui n'est plus: décolonisation, exode rural, industrialisation. Tant de choses ont changé depuis. Il y a soixante-dix ans, une femme ne pouvait ni ouvrir un compte bancaire, ni travailler sans l'autorisation de son mari. Le passage dans la jeunesse n'a plus rien à voir avec ce qu'il était alors. L'immigration est un héritage partagé par un tiers des Français. La classe travailleuse s'est profondément métamorphosée. Ce peuple est plus éduqué, plus informé et plus connecté que jamais. Il faut répondre à ses nouveaux besoins et ses nouvelles aspirations. Cela doit passer par la refonte de nos institutions et l'adoption d'une nouvelle Constitution. Celle de la Ve République a dégénéré en monarchie présidentielle; celle de la 6e devra mettre en son cœur la souveraineté populaire permanente. Celle de la Ve a produit un millefeuille territorial technocratique; celle de la 6e réorganisera les collectivités pour qu'elles puissent œuvrer à la planification écologique. Celle de la Ve a fait ruisseler l'autoritarisme à tous les niveaux; celle de la 6e rétablira la liberté.
+- + Partie suivante
+
+## ajoute : https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1
+
+- + Partie 5 - Fonder la 6e République
+- + Chapitre 1: Le pouvoir au peuple
+- + Une République de la souveraineté populaire permanente
+- + Le peuple de France exige plus de pouvoir de contrôle. Ces dernières années ont été marquées par des taux d'abstention records aux élections. Il est urgent de forger une nouvelle culture démocratique et d'arrêter de tenir les citoyens à l'écart des décisions en dehors des élections. L'intervention citoyenne est le cœur de notre programme et de notre projet politiques pour la France. Des outils permettent de concilier la stabilité institutionnelle et la possibilité de l'intervention populaire permanente.
+- + Mesure clé
+- + Instaurer le référendum d'initiative citoyenne (RIC), par lequel les citoyens qui réunissent suffisamment de signatures peuvent révoquer des élus, proposer ou abroger une loi et modifier la Constitution
+- + - Donner le droit de vote à 16 ans
+- + - Reconnaître le vote blanc, mettre en place le vote obligatoire et instaurer un seuil de votes exprimés pour valider une élection
+- + - Instaurer une procédure de parrainages citoyens pour l'élection présidentielle à la place des 500 parrainages d'élus
+- + - Interdire la sous-traitance des opérations de propagande électorale à des entreprises privées
+- + - Présenter systématiquement au bureau de l'Assemblée nationale les propositions émises par les citoyens dans le cadre de conventions citoyennes ou d'assemblées créées à cet effet
+- + - Obliger l'Assemblée nationale à débattre des pétitions qui ont recueilli plus de 500 000 signatures
+- + - Rendre obligatoire le recours au référendum en cas de modification de la Constitution ou d'adoption d'un nouveau traité européen
+- + - Affirmer les trois échelons de l'organisation décentralisée de l'État (communes, départements, éco-régions) pour mettre fin à la superposition d'échelons technocratiques (métropoles, intercommunalités géantes), qui éloignent les citoyens des prises de décision
+- + - Organiser une conférence sur l'avenir institutionnel des territoires insulaires et éloignés
+- + - Donner à la Corse le statut garanti par un nouvel article de la Constitution, assorti d'un principe de non-régression sociale et environnementale
+- + - Organiser l'accession de la Kanaky-Nouvelle-Calédonie à l'indépendance au 1er janvier 2028 par la convocation d'un référendum national ouvrant la voie à une consultation locale
+- + - Rendre effectif le principe du non-cumul des mandats et des indemnités, y compris dans le temps
+- + - Organiser la sortie du mandat: garantir un droit à la formation professionnelle pour les élus
+- + - Faire voter une loi d'amnistie pour les syndicalistes, les Gilets jaunes, les militants pour la paix, les écologistes, les associatifs et les militants des différents mouvements sociaux dans les Outre-mer, condamnés pour leur participation à la vie publique
+- + - Instaurer un moratoire sur les radiations des listes électorales et mettre en place un système d'inscription automatique sur les listes électorales pour éviter les radiations abusives
+- + Réunir une Assemblée constituante pour passer à la 6e République
+- + La Ve République a fait son temps. Elle a permis l'exercice solitaire du pouvoir et tous les coups de force contre la souveraineté populaire. En témoigne l'acharnement autoritaire du bloc libéral à poursuivre la même politique malgré trois défaites successives. Nous avons le pouvoir de refonder nos institutions communes. Nous proposons que les Français se dotent d'une nouvelle Constitution via une Assemblée constituante.
+- + Mesure clé
+- + Convoquer une Constituante pour passer à la 6e République
+- + - Convoquer un référendum (article 11) pour engager le processus constituant et décider des modalités de composition de l'Assemblée constituante
+- + - Le projet de Constitution proposé par la Constituante sera soumis à référendum après ses travaux
+- + Abolir la monarchie présidentielle
+- + Le président de la République concentre beaucoup trop de pouvoirs: tout le pays est entraîné par sa seule volonté. La France est la seule démocratie où un seul homme peut décider de s'asseoir sur le résultat des élections législatives pendant près de trois ans sans être renversé. Autoritaire, cette dérive a culminé dans l'effacement du Parlement, y compris lorsque les opposants au monarque présidentiel y étaient plus nombreux. Depuis 2017, le «49.3» a été utilisé à 32 reprises, au mépris de la volonté populaire. Des budgets entiers, pourtant majoritaires à l'Assemblée, ont été effacés par la seule volonté du président. Il faut mettre fin à cette aberration. On ne compte plus les secteurs de la société qu'il a brutalisés.
+- + Mesure clé
+- + Passer à une 6e République, qui soit un régime parlementaire stable et d'intervention citoyenne
+- + Par la loi:
+- + - Élire l'Assemblée nationale au scrutin proportionnel
+- + Dans le cadre de l'Assemblée constituante:
+- + - Obliger le gouvernement à rendre réellement des comptes devant le Parlement
+- + - Abolir les procédures de «votes forcés» du Parlement comme l'article 49.3 de la Constitution de la Ve République
+- + Balayer l'oligarchie, abolir les privilèges de la caste
+- + En Macronie, au plus haut sommet de l'État, la défense des intérêts privés a remplacé la poursuite de l'intérêt général. Une caste de privilégiés dicte la politique du gouvernement. Il est temps d'en finir avec ce système injuste, de rappeler le principe fondamental de l'égalité entre tous, et d'acter la séparation de l'argent et de l'État.
+- + Mesure clé
+- + Mettre en place un plan de séparation de l'argent et de l'État
+
+## ajoute : https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre2
+
+- + Partie 5 - Fonder la 6e République
+- + Chapitre 2: Libertés publiques et sûreté
+- + Sortir de l'état d'urgence permanent
+- + Depuis trente ans, les lois antiterroristes se cumulent et renforcent progressivement la surveillance généralisée de la population, les restrictions de libertés et les dispositifs d'exception. L'état d'urgence a été intégré dans le droit commun, installant une logique de suspicion et de contrôle. Cette fuite en avant sécuritaire est aggravée par l'adoption de mesures inspirées de l'extrême droite. Cela n'a pas renforcé la sécurité, mais a fragilisé, au contraire, les garanties démocratiques. Nous proposons de rétablir un État de droit plein et entier en recentrant la lutte contre le terrorisme sur le renseignement humain, la prévention, les moyens des services spécialisés et le discernement professionnel.
+- + Mesure clé
+- + Élaborer une nouvelle stratégie antiterroriste
+- + - Réaffirmer la place centrale du renseignement humain face aux limites et aux dérives du tout-technologique; réduire la dépendance aux solutions techniques privées et étrangères
+- + - Assécher les réseaux de financement du terrorisme en renforçant les moyens d'enquête et de poursuite contre les entreprises, associations et structures qui participent à des activités illicites, au blanchiment ou à la fraude fiscale
+- + - Procéder à l'évaluation des résultats des lois déjà adoptées et abroger les dispositions liberticides qui ont instauré un état d'urgence permanent
+- + - Garantir le contrôle du juge judiciaire dans la lutte contre le terrorisme
+- + - Placer la lutte contre le terrorisme sous l'autorité du Premier ministre
+- + - Lutter contre tous les processus d'embrigadement en renforçant les dispositifs de prévention, d'accompagnement et de prise en charge des personnes concernées; étendre les dispositifs de prévention et de coordination existants aux groupuscules d'extrême droite
+- + - Renforcer les moyens humains de la plateforme PHAROS, afin de lutter plus efficacement contre les appels en ligne à la violence, au racisme et aux discriminations
+- + Refonder une police républicaine
+- + Garantir le droit à la sûreté, c'est avoir une police loyale et attachée aux principes de l'État de droit. Dans notre République, la police doit avoir pour missions prioritaires de protéger les personnes, de garantir les libertés publiques et d'agir au service de l'intérêt général. C'est pourquoi nous la refondrons de la cave au grenier.
+- + Mesure clé
+- + Refonder le service public de la police pour garantir le droit à la sûreté
+- + - Rétablir une référence déontologique forte pour les agents de police et la gendarmerie en réintroduisant les principes du Code de déontologie de 1986, notamment l'indépendance, l'impartialité, le respect des libertés publiques et la protection des citoyens
+- + - Supprimer l'Inspection générale de la police nationale (IGPN) et l'Inspection générale de la gendarmerie nationale (IGGN) et les remplacer par une autorité indépendante incluant des magistrats, des universitaires, des citoyens, rattachée au Défenseur des droits, en lui octroyant une capacité de sanctions disciplinaires propre sur les agents fautifs
+- + - Interdire les pistolets à impulsion électrique (tasers), les grenades de désencerclement, les lanceurs de balles de défense (LBD) pour la police du quotidien ou la gestion des rassemblements, de sorte à favoriser une stratégie de maintien de l'ordre basée sur la désescalade
+- + - Porter à deux ans la formation des élèves gardiens de la paix, réviser son contenu (déontologie, maîtrise du droit, pratiques de désescalade et relation avec la population) et réouvrir des écoles nationales pour les activités de police
+- + - Interdire en manifestation la technique de la «nasse» (ou «encerclement»), rendre obligatoire et effectif le port du référentiel des identités et de l'organisation (RIO) par tous les agents intervenant lors des manifestations
+- + - Abroger la loi dite «Cazeneuve» sur le refus d'obtempérer et refuser la loi dite «permis de tuer XXL» instaurant une présomption de légitime défense pour les policiers
+- + - Abroger les lois sécuritaires inefficaces et renforcer les logiques de prévention, notamment grâce à davantage de moyens humains (éducateurs spécialisés, éducateurs de rue, médiateurs)
+- + - Créer une commission dite «Vérité et Justice», chargée d'établir les responsabilités dans les cas de violences policières mortelles ou mutilantes afin de garantir la reconnaissance des faits et de prévenir leur répétition
+- + - Réformer le dialogue social au sein de la police et de la gendarmerie pour garantir la transparence, renforcer la déontologie et professionnaliser les instances de concertation
+- + - Intégrer au service public certaines fonctions de sécurité aujourd'hui privées, comme le gardiennage des services publics
+- + - Interdire les techniques d'immobilisation létales: plaquage ventral, pliage ventral, clé d'étranglement
+- + Une police de proximité au service de la sûreté des citoyens
+- + La sûreté est un droit fondamental inscrit à l'article 2 de la Déclaration des droits de l'homme et du citoyen. Ce principe doit guider l'action de la police. Pour le garantir, nous rétablirons enfin la police de proximité.
+- + Mesure clé
+- + Rétablir la police de proximité comme pilier du service public et démanteler les brigades anticriminalité (BAC) ainsi que les brigades de répression des actions violentes motorisées (BRAV-M)
+- + - Intégrer progressivement les polices municipales dans une police de proximité républicaine, formée aux exigences du service public, sous l'autorité fonctionnelle des maires et l'autorité hiérarchique de l'État, sans armes létales; répartir ses effectifs selon les besoins réels des communes
+- + - En finir avec la politique du chiffre et les primes aux résultats pour réorienter l'évaluation des agents de police et la gendarmerie vers la qualité du service rendu, la résolution des problèmes et la confiance avec les citoyens
+- + - Renforcer les moyens dédiés au recueil des plaintes et à l'accompagnement des victimes
+- + - Faire de la lutte contre la criminalité organisée, les trafics, la corruption et la délinquance financière une priorité en renforçant les effectifs spécialisés
+- + - Doubler les moyens de la police scientifique, revenir sur la réforme de la police judiciaire et recréer un corps spécifique de police judiciaire, indépendant et placé sous l'autorité des magistrats enquêteurs
+- + - Interdire la reconnaissance faciale et les dispositifs de «technopolice» reposant sur une surveillance biométrique généralisée dans les espaces publics, incompatibles avec les libertés publiques et le respect de la vie privée
+- + Une politique de justice efficace
+- + La justice inspire de plus en plus la défiance à nos concitoyens. Elle est perçue comme trop lente, trop déconnectée de la réalité et du vécu des victimes ou des accusés au pénal, ou des parties au civil. Son indépendance est mise en cause dans les affaires politico-financières. La réformer ne pourra se faire qu'à l'occasion d'un grand rendez-vous entre le peuple et ses institutions, avec la convocation d'une Assemblée constituante. En attendant, nous proposons d'ores et déjà de nombreuses réformes.
+
+## ajoute : https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre3
+
+- + Partie 5 - Fonder la 6e République
+- + Chapitre 3: Une France sans déserts de droits
+- + Une République affirmant le rôle central des communes
+- + Nombre d'avancées démocratiques et sociales ont été inventées dans les communes depuis que la Révolution française les a instituées comme le lieu premier de la souveraineté populaire. Mais, sous l'ère néolibérale, les communes ont souvent été réduites à devoir gérer les coupes permanentes de budgets et affronter la mise en concurrence des collectivités. Nous avons besoin d'une République communaliste. Dans la 6e République, les communes seront centrales pour l'exercice de la souveraineté populaire, l'organisation d'une société de l'entraide et la planification écologique. Pour cela, il est nécessaire de restaurer la souveraineté municipale et leur droit à la libre association.
+- + Mesure clé
+- + Redonner aux communes le rôle de cellule de base de la démocratie locale, permettre leur libre association
+- + - Supprimer les métropoles technocratiques en abrogeant les lois ayant organisé la concentration des pouvoirs locaux et restituer aux communes leur libre choix d'association
+- + - Rééquilibrer la dotation globale de fonctionnement versée aux communes pour lutter contre les inégalités territoriales et l'indexer sur l'inflation
+- + - Refuser les fusions forcées de communes
+- + - Augmenter l'enveloppe budgétaire des communes rurales par la création d'un fonds de soutien communal, notamment pour recruter et revaloriser les agents
+- + - Revaloriser et rééquilibrer les indemnités des élus en tenant compte de leur temps de travail réel et des responsabilités exercées, plutôt que du seul nombre d'habitants
+- + - Valoriser les métiers de secrétaires de mairies en favorisant le recrutement à temps complet et en développant des formations adaptées
+- + - Imposer la parité dans les exécutifs municipaux et communautaires: binôme maire-premier adjoint, présidences et vice-présidences, sans exception
+- + - Réformer le mode de désignation des conseils communautaires, afin de renforcer la parité au sein de leur exécutif
+- + - Redonner des moyens aux communes en rétablissant une taxe d'habitation calculée selon un barème progressif en fonction des revenus des occupants et de la valeur du logement, dont 80% des ménages seraient exonérés
+- + L'organisation de l'État au service de la planification écologique
+- + Au fil des années, les collectivités locales sont devenues un millefeuille administratif illisible. Nous devons réorganiser l'État républicain d'après des objectifs écologiques et démocratiques. L'objectif de maîtrise du cycle de l'eau doit guider cette nouvelle organisation: les bassins-versants et les agences de l'eau en seront le socle, de sorte à atteindre un grand objectif «zéro pollution et zéro épuisement de la ressource en eau».
+- + Mesure clé
+- + Créer des éco-régions pour remplacer les régions actuelles, délimitées en cohérence avec les caractéristiques écologiques (bassins-versants, façades maritimes, massifs montagneux, etc.) et chargées de mettre en œuvre la planification écologique et de protéger les communs (eau, air, sols)
+- + - Impliquer pleinement les communes dans les décisions et la mise en œuvre des investissements de la planification écologique
+- + - Supprimer les régions transfrontalières (ou eurorégions)
+- + - Réserver le statut de collectivité unique aux territoires insulaires et aux Outre-mer
+- + - Mettre en place des Défenseurs de la nature, chargés de l'eau, de l'air, de la forêt, de la végétalisation et de la perméabilité des sols au niveau communal
+- + - Mettre en place des assemblées citoyennes régionales pour débattre des projets d'aménagement et d'investissement en lien avec la planification écologique
+- + - Stopper l'étalement urbain: rapprocher les bassins de vie et les bassins d'emploi
+- + - Adapter les zones habitées et cultivées au changement climatique: désimperméabiliser les sols, créer des îlots et des corridors de fraîcheur
+- + - Renforcer les moyens humains et financiers de l'ingénierie des territoires pour appuyer les collectivités dans le déploiement d'une planification écologique régénérative (restauration des trames vertes et bleues ainsi que des énergies renouvelables)
+- + L'égalité des populations par la démocratie et les services publics
+- + Les quartiers populaires, les petites villes, les ruralités et les Outre-mer partagent une même condition: celle des territoires délaissés. Laisser le champ libre au privé pour l'organisation de l'essentiel a créé une géographie faite de déserts pour le peuple et d'oasis pour les riches. Remettons de l'ordre et de la justice dans l'organisation du pays. Les services publics seront les piliers de cette politique.
+- + Mesure clé
+- + Défendre et reconstruire un maillage dense et accessible de transports en commun et de services publics, notamment dans les départements ruraux, les quartiers populaires et les Outre-mer, afin de garantir une distance maximale (de 15 à 30 minutes en voiture ou en transport collectif) entre tout lieu d'habitation et les services publics essentiels (école, gare, hôpital, bureau de poste)
+- + - Réaffirmer le rôle du département comme échelle pertinente pour organiser un maillage équilibré du territoire en services publics essentiels à la population
+- + - Organiser des états généraux des quartiers populaires et des états généraux des espaces ruraux pour construire une véritable égalité territoriale, notamment dans les services publics
+- + - Renforcer et réouvrir des accueils physiques dans les services publics
+- + - Développer des services publics itinérants (santé, administrations, culture) pour desservir les communes les plus isolées, en complément des structures fixes
+- + - Renforcer les dotations de l'État pour les collectivités en tenant compte de leurs inégalités sociales et économiques
+- + - Renforcer durablement les moyens des services de sécurité civile et des services de secours en fonction des besoins réels et des risques propres à chaque collectivité
+- + - Instaurer un moratoire sur les fermetures d'écoles, de maternités, de bureaux de poste, de gares et de tous les services publics de proximité
+- + - Garantir une présence postale et des services bancaires accessibles dans toutes les collectivités
+- + Garantir le droit au logement
+
+## ajoute : https://melenchon2027.fr/programme/livre/introduction
+
+- + Introduction
+- + Introduction
+- + de Jean-Luc Mélenchon
+- + Ce livre présente la cinquième édition, depuis 2016, de L'Avenir en commun, un programme déjà riche d'une intense histoire. Il a rencontré le suffrage universel lors de l'élection présidentielle de 2017, quand il a réuni sept millions de voix, puis en 2022, quand il en a fédéré près de huit millions. Sa force populaire et son sérieux, reconnus de toutes parts, lui ont permis d'être la base des programmes d'union de la gauche aux législatives de 2022, avec la Nouvelle Union populaire écologique et sociale et, en 2024, avec le Nouveau Front populaire. Ce texte et sa méthode vivent donc dans la conscience et la volonté populaires, depuis bientôt dix ans d'actualisation ininterrompue, au fil des événements.
+- + Les mesures proposées ne sont pas les inventions de quelques technocrates seuls dans un bureau. L'Avenir en commun est une mise en cohérence des programmes produits par la société elle-même. Syndicats, associations, collectifs, scientifiques: chacune des propositions est ancrée dans le mouvement réel de la société, dont elle vient parfois très directement. Ce mouvement, les 80 parlementaires insoumis l'épousent d'abord, chacun ayant la tâche de suivre, de discuter, de travailler avec un secteur particulier de la société. L'Avenir en commun est ensuite le résultat d'une méthode de mise à jour permanente par des travaux programmatiques. Pour réviser, compléter, amender, page après page, la dernière version de ce programme qui datait de 2025, les Insoumis ont organisé une trentaine d'auditions longues et prolongées par des échanges. Ils ont recueilli et traité plus de 24 000 contributions citoyennes. Ils se sont réparti ce travail entre les 40 groupes en charge d'un livret thématique, chacun composé de militants spécialistes de leur domaine.
+- + La crise de la civilisation humaine
+- + Mais un programme n'est pas un simple catalogue de revendications. L'Avenir en commun a été écrit avec un objectif à la fois précis et global: répondre, pour le peuple de France, à la crise de la civilisation humaine. En 2017, lorsque sa première version a été proposée aux suffrages des Français, les scientifiques du monde alertaient: pour limiter le réchauffement climatique à 1,5 °C dans le siècle, et ainsi respecter l'objectif de l'accord de Paris, il fallait baisser les émissions mondiales de gaz à effet de serre à compter de 2025. L'échéance a été dépassée, et la civilisation du pétrole continue sa folle croissance. À l'époque, 2016 avait été l'année la plus chaude jamais enregistrée sur terre. Depuis, le record a été battu en 2020, 2023, 2024 et 2025. Trois canicules consécutives ont enterré cet été l'espoir d'un retour à «la normale». Autrement dit: le changement climatique et son lot de bouleversements pour la vie sur terre ont commencé et sont irréversibles. Les sécheresses à répétition, et avec elles les conflits sur l'usage de l'eau, ont commencé. L'intensification des pluies torrentielles et destructrices est engagée. Les méga-feux ravageurs, l'érosion du trait de côte, les fissures dans les sols en argile, les inondations débordant sur les villes étalées, la déformation des rails et les incendies des lignes électriques sous l'effet des canicules, la baisse des rendements agricoles, l'arrivée des pandémies par zoonoses ont débuté. Nous vivons sous un nouveau régime, celui de l'incertitude. Les conditions même de la vie en société des êtres humains, comme le climat, la nature des sols, la qualité de l'eau ou de l'air, vont être mises en cause dans des proportions difficiles à prévoir. Une question nous est posée. Elle n'est ni idéologique, ni confuse. Elle est claire et directe, et nous allons être sommés d'y répondre: par quelle méthode allons-nous tenter de perpétuer la vie humaine?
+- + Suprémacisme ou collectivisme
+- + Deux formules vont s'affronter. D'un côté, le «chacun pour soi»: la compétition entre individus et groupes d'individus. D'abord, le marché et la concurrence pour séparer les bons et les mauvais, les gagnants et les perdants. Puis, les communautés essentialisées, dressées les unes contre les autres, soigneusement hiérarchisées, avec la domination de certains sur les autres comme solution. Le masculinisme pour dominer les femmes. Le racisme pour dominer les non-blancs. L'impérialisme pour dominer les peuples hors de l'Empire. Cela porte un nom: le suprémacisme. Il propose une offre cohérente aux peuples pour répondre aux désordres du monde. Son résultat sera de les aggraver. Surtout, il conduira à consolider le pouvoir exclusif d'une poignée de puissants, amassant des milliards, et construisant une société de ruines, dont ils comptent, pour finir, faire sécession. De l'autre côté, il y a le «tous ensemble». C'est la solution défendue par ce programme. Elle procède du raisonnement suivant: les êtres humains étant fondamentalement interdépendants, leurs sociétés sont aussi fortes que les liens qui unissent les individus et les groupes entre eux. Ici, il ne s'agit pas de pousser à la compétition partout et tout le temps, mais au contraire de fortifier l'entraide sous toutes ses formes. Cette pensée est celle du collectivisme écologique. Son postulat? Puisqu'il y a un seul écosystème compatible avec la vie humaine, il y a un intérêt général humain. Celui-ci n'est pas seulement une idée, un grand principe philosophique. Il est une réalité tangible, mesurable chaque jour dans la destruction des conditions d'habitabilité de la Terre. De ce point de vue, l'eau, l'air, les sols, les océans, les forêts et même l'orbite terrestre ne sont pas des ressources vouées à l'exploitation. Ce sont des biens communs, à gérer comme tels, avec pour premier objectif de garantir les conditions nécessaires à leur perpétuation.
+- + Pour une bifurcation écologique
+- + Un programme, en phase avec ce moment du monde, doit commencer par la bifurcation écologique. Les êtres humains font partie intégrante du système de la nature. Depuis la nuit des temps, ils ont dû régler leurs rythmes sur ceux des saisons, des crues, des pluies, des floraisons, des migrations animales et combien d'autres encore. Le capitalisme a détraqué cette horloge de précision. Il cherche à soumettre tous les rythmes planétaires, sociaux, biologiques et biophysiques au temps zéro, celui de son profit. Il lui faut valoriser les actions en Bourse et obtenir un retour sur investissement toujours plus grand et plus rapide. Il n'atteint ce but qu'en pressurant les cycles biologiques humains et les cycles de la nature. Il pompe l'eau des nappes phréatiques, coupe rases les forêts, pollue l'atmosphère à un rythme insoutenable. Pour inverser cette logique, nous proposons une «règle verte»: ne pas prendre à la nature plus qu'elle n'est capable de renouveler. Nous visons l'harmonie avec la nature. Non entendue seulement dans un sens métaphorique ou poétique. Car cette harmonie a un sens très concret: celui de la concordance des rythmes. La bataille écologique est donc une bataille pour le temps. Son outil est transversal à toute action publique: la planification. Il s'agit de nous rendre collectivement maîtres du temps pour prévoir, anticiper, décider ce que nous allons produire, consommer, échanger; comment nous allons nous déplacer, habiter et vivre. Pour cela, nous proposons de construire une République écologique. Les communes, pour mener à bien la planification, en seront l'échelon de base. Surtout, les régions seront réorganisées pour coïncider avec les grandes réalités écologiques du territoire français, et en premier lieu avec les bassins-versants. Les éco-régions auront en charge l'eau, l'air, la terre, la santé et les mobilités, c'est-à-dire les composantes fondamentales de la survie de notre espèce.
+- + Une économie au service des besoins
+- + Tout cela implique un changement complet de logiciel économique. Celui des dirigeants français, depuis le début du néolibéralisme, a conduit à la catastrophe. Avec comme seule visée le redressement des profits des très grandes entreprises et les performances sur le marché mondial, il a élargi, sans cesse, le domaine du marché, et toujours davantage réduit celui de l'État et des services publics. Ces dogmes ont volé en éclats quand le président des États-Unis d'Amérique, lui-même, a décrété la fin du libre-échange et de la concurrence non faussée. En attendant, les conséquences sont là: la France a perdu ses capacités à produire pour elle dans de trop nombreux domaines. Elle dépend tant du travail d'autres qu'elle est obligée d'acheter ses médicaments, son acier, ses automobiles, ses turbines et, maintenant, même son alimentation! La culture des bras ouverts à la finance a fini par laisser des fonds prédateurs dépouiller des milliers d'entreprises. Les salaires, avec la vie chère, ont reculé, tandis que des fortunes colossales et inédites s'accumulaient dans les mains de quelques-uns. Il faut prendre le problème à la racine pour remettre la politique à l'endroit: toute production est vouée à satisfaire des besoins. Nous proposons de construire une économie non au service du taux de profit ou du marché mondial, mais des besoins humains. Il nous faut pour cela un nouveau pacte productif. Refermons la page de l'État prenant en charge tous les risques du secteur privé, mais n'ayant son mot à dire sur rien. Pas d'arrosage d'aides publiques sans contreparties écologiques et sociales et sans engagements sur les objectifs du Plan. La principale richesse d'une nation ne se mesure pas à la hauteur de la montagne de billets sur laquelle sont assis ses milliardaires. Elle est dans le travail humain, son intelligence, ses qualifications. Les inégalités extrêmes dont nous sommes les témoins aujourd'hui sont purement parasitaires. Les réduire est non seulement un impératif moral, mais aussi le moyen de gagner en efficacité.
+- + Mettre en sécurité sociale
+- + La France a déjà inventé un principe pour orienter la mobilisation des ressources vers la satisfaction des besoins. Elle était alors exsangue, appauvrie par la guerre et l'occupation allemande nazie. Mais elle a mis sur pied la Sécurité sociale. Sa règle de fonctionnement? De chacun selon ses moyens, à chacun selon ses besoins. Pour nous, cette phrase est plus qu'un joli slogan. C'est la base d'une autre organisation sociale. Ainsi, nous nous fixons l'objectif de mettre en sécurité sociale intégrale la population française. Il faudra d'abord consolider la Sécurité sociale, mise obsessionnellement à mal par les libéraux depuis sa naissance ou presque. Ses caisses doivent revenir sous la responsabilité de ses cotisants, à travers des élections spécifiques. Son financement doit être remis en ordre avec, au centre, une cotisation sociale élargie mettant aussi à contribution les revenus du capital. Sur des bases solides, nous pourrons alors travailler à son extension. D'abord, avec le remboursement intégral des soins prescrits par l'Assurance maladie, plus efficace en la matière que toutes les offres privées. L'autonomie du grand âge et de la jeunesse sont aussi des aires d'extensions naturelles de la Sécurité sociale. La société regorge d'autres propositions pour en faire l'institution centrale de la société de l'entraide. Les progrès des solidarités collectives marchent main dans la main avec ceux de l'émancipation personnelle. Les droits nouveaux sont la garantie de la cohésion sociale de la société qui les adopte. Ainsi est-ce le cas, par exemple, là où la liberté de choisir son genre est assurée. Les femmes, en France, ont depuis un demi-siècle conquis par leurs luttes le droit formel de disposer d'elles-mêmes. Mais elles sont encore souvent écrasées sous la charge du travail domestique, des bas salaires, tout comme la violence sexiste, n'a pas disparu. Les héritiers de l'immigration forment un tiers de la société française. Mais ils subissent encore le racisme et les discriminations au travail, pour trouver un logement ou dans leur rapport à la police. Mettre en sécurité sociale, c'est d'abord garantir l'égalité réelle.
+- + Le goût du futur
+- + Prendre au sérieux la crise civilisationnelle ne signifie pas renoncer à un avenir améliorant le présent. Une grande bataille politique se joue en ce moment sur le futur. Les milliardaires du numérique, du pétrole et de la finance veulent s'en arroger le monopole. Pour chaque nouvelle frontière de l'humanité, ils veulent imposer leur projet suprémaciste. La France ne manque pas d'atouts dans ces grands domaines où se déploient aujourd'hui la connaissance et la curiosité humaines. Ils veulent une intelligence artificielle pour remplacer les humains qu'ils jugent remplaçables? Nous voulons une IA pour aider les humains à progresser! Dans les mains des seigneurs de la tech, le numérique ne sert qu'à fabriquer des armes, à inventer des moyens de fliquer tout le monde ou de vendre de la pub. Mais nous pouvons faire autre chose: une IA non marchande, tournée vers la recherche scientifique et la santé. Une IA qui, métier par métier, aide à soulager la peine du travail et à améliorer les réussites humaines. Car oui, si la peine de l'être humain peut être soulagée, qui va s'en plaindre? Mais alors, il faudra organiser aussi la baisse du temps de travail à proportion! Ils veulent des fusées privées pour aller coloniser Mars? Nous ne rêvons pas de colonies quand nous regardons, émerveillés, les étoiles. Nous rêvons d'exploration, de connaissances, de prouesses scientifiques. La Nouvelle France fera un avion spatial! Non pour dominer et détruire, mais pour aider et coopérer. Non pour provoquer une guerre des étoiles, mais une paix des étoiles. Ils veulent forer dans la mer des trous pour en extraire plus de pétrole? Nous ferons de l'océan la première source d'énergie renouvelable propre! Ils veulent l'amélioration individuelle du corps humain par le transhumanisme? Nous allons vaincre les maladies écologiques par l'action collective! Cancers, diabètes, infertilité ne sont pas seulement des maux individuels. Ils sont des conséquences du mode de production.
+- + Ordonner le monde
+- + On le voit bien, beaucoup des sujets de notre époque sont d'ampleur mondiale. La crise écologique a fait émerger, avec l'intérêt général humain, un peuple humain identifié à ses causes communes. Protéger les biens communs et la vie nécessite un monde ordonné, où peuples et États peuvent compter sur un droit et des institutions internationales stables, égalitaires et fonctionnelles. Qui l'empêche aujourd'hui, crée le chaos et la prolifération des guerres dans les relations internationales? C'est le déclin de l'empire des États-Unis d'Amérique. Il est un danger pour le monde entier, car il est géré d'une manière agressive par les élites de cet empire. Faire entendre une autre voix de la France nécessite de rompre nos dépendances avec lui et de nous affirmer non-alignés. Nous voulons sauver les Nations unies. Elles doivent agir en organe universel capable de produire des normes partagées. Nous voulons instaurer l'ONU comme instance de coordination de tous les peuples du monde. Cela nécessite de défendre le droit international, sans «deux poids deux mesures». Les droits des peuples doivent s'appliquer en Ukraine comme en Palestine. Nous ne proposons pas une puissance française fondée sur la domination militaire, même si nous devons avoir les moyens de nous défendre seuls. Notre idée est celle d'un nouveau type de diplomatie reposant sur les coopérations pour le progrès humain, c'est-à-dire les causes communes de l'humanité à notre époque. La France peut être davantage entendue par sa culture et sa science que par ses canons et son commerce.
+- + Fonder la 6e République
+- + Bref, c'est une toute Nouvelle France que ce programme propose de fonder. Comme à chaque saison agitée de l'Histoire, notre pays va chercher dans sa capacité d'auto-création politique les moyens de sortir de l'ornière. La Constitution de la Ve République est devenue un carcan. Quand elle a été adoptée le 28 septembre 1958, seuls les Français nés avant 1937 ont pu donner leur avis. 1% de ceux-là sont encore vivants à cette heure. Il s'agissait alors d'acter la fin de l'empire colonial, d'achever l'industrialisation et l'exode rural. Nous parlons d'un pays où il n'y avait ni TGV ni réseau d'autoroutes. Les smartphones, les appels vidéo et les réseaux sociaux étaient encore loin d'être inventés. Pour le meilleur et pour le pire, nous étions encore à l'aube d'une grande accélération dont nous sommes désormais les enfants. Un adage dit que chaque génération est un peuple nouveau. Quand cela a-t-il été plus vrai qu'entre cet hier et aujourd'hui? Comment comprendre la France sans voir aussi que la moitié de son peuple, les femmes, s'est transformée du tout au tout? Comment ne pas voir à quel point le peuple français a été brassé par les migrations? Et d'abord par les migrations intérieures! Après 1958, une personne sur trois a émigré vers une commune plus grande. Et bien sûr, il y a celles et ceux qui, venus se battre pour la France, la reconstruire ou étudier, ont fait leur vie et leurs enfants ici. Une personne sur trois descend, par au moins un de ses grands-parents, de cette histoire-là. La question sociale, celle des modes de vie, l'urbanisation: tout a changé. Le peuple de France, au seuil du second quart du xxie siècle, est plus éduqué, informé et connecté que jamais. Il demande plus de pouvoir de contrôle. La Nouvelle France a besoin d'une nouvelle République: la 6e République. Ce sera celle de la souveraineté populaire permanente, avec les référendums citoyens, dont celui permettant de révoquer un élu, du conseiller municipal au président. Cette République devra trouver les moyens d'une structure fédérative avec des territoires insulaires et éloignés qui auront le droit à l'autonomie qu'ils demandent. Les libertés publiques, collectives comme individuelles, doivent être rétablies, après avoir été tant maltraitées. Tout cela justifie la convocation d'une Assemblée constituante.
+- + Au final, l'heure n'est pas aux arrangements, aux bricolages ou aux demi-mesures. Oui, pour préparer une vie meilleure, il faut tout changer. La France et son peuple en sont capables, j'en suis convaincu. Je me présente devant elle avec ce programme, et une équipe prête à l'appliquer en condition de gouvernement. Le choix que nous allons faire en 2027, à l'occasion de l'élection présidentielle, est historique. Il dira au monde qui nous sommes devenus, nous Français, les héritiers de 1789 et de la résistance au nazisme. Il déterminera quel monde nous allons laisser à nos enfants. Et il dira surtout où nous nous proposons d'aller. La France va-t-elle rejoindre le camp du suprémacisme mondial? Ou bien va-t-elle puiser dans le meilleur de son passé pour étonner et entraîner le monde des peuples aux désirs pacifiques? Les conditions historiques sont réunies pour cela. Pour que les Français montrent qu'un autre monde est possible: celui d'un robuste avenir en commun.
+
+## ajoute : https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite
+
+- + Gérer le consentement aux cookies
+- + Pour offrir les meilleures expériences, nous utilisons des technologies telles que les cookies pour stocker et/ou accéder aux informations des appareils. Le fait de consentir à ces technologies nous permettra de traiter des données telles que le comportement de navigation ou les ID uniques sur ce site. Le fait de ne pas consentir ou de retirer son consentement peut avoir un effet négatif sur certaines caractéristiques et fonctions.
+- + Fonctionnel Fonctionnel Toujours activé
+- + Le stockage ou l'accès technique est strictement nécessaire dans la finalité d'intérêt légitime de permettre l'utilisation d'un service spécifique explicitement demandé par l'abonné ou l'internaute, ou dans le seul but d'effectuer la transmission d'une communication sur un réseau de communications électroniques.
+- + Préférences Préférences
+- + Le stockage ou l'accès technique est nécessaire dans la finalité d'intérêt légitime de stocker des préférences qui ne sont pas demandées par l'abonné ou la personne utilisant le service.
+- + Statistiques Statistiques
+- + Le stockage ou l'accès technique qui est utilisé exclusivement à des fins statistiques. Le stockage ou l'accès technique qui est utilisé exclusivement dans des finalités statistiques anonymes. En l'absence d'une assignation à comparaître, d'une conformité volontaire de la part de votre fournisseur d'accès à internet ou d'enregistrements supplémentaires provenant d'une tierce partie, les informations stockées ou extraites à cette seule fin ne peuvent généralement pas être utilisées pour vous identifier.
+- + Marketing Marketing
+- + Le stockage ou l'accès technique est nécessaire pour créer des profils d'internautes afin d'envoyer des publicités, ou pour suivre l'internaute sur un site web ou sur plusieurs sites web ayant des finalités marketing similaires.
+- + - Gérer les options
+- + - Gérer les services
+- + - Gérer {vendor_count} fournisseurs
+- + - En savoir plus sur ces finalités
+- + Voir les préférences
+- + - Mentions légales
+- + - {title}
+- + - {title}
+- + Aller au contenu
+- + L'Avenir en commun
+- + Le programme de la Nouvelle France
+- + Table des matières
+- + Retour Partager
+- + Partie 4 - Le goût du futur: aux nouvelles frontières de l'humanité
+- + Le futur vers lequel nous avançons est incertain. Les événements climatiques qui s'annoncent sont en partie imprévisibles, tant parfois ils dépassent les prévisions des scientifiques. Nous refusons d'y voir un motif de fatalisme ou de résignation à un avenir sombre, où le progrès serait synonyme d'une illusion du siècle dernier. Au contraire, ces événements sont l'occasion de protéger nos biens communs, tout en nous portant aux nouvelles frontières de l'humanité: la mer, le numérique, l'espace et la santé. Dans ces quatre domaines, la France ne manque pas d'atouts. Nous pouvons proposer à l'humanité tout entière plus de connaissances, plus de science, plus de prouesses de l'esprit humain, débarrassé de l'obsession mortifère pour le profit. Nous y arriverons en élevant le niveau d'instruction de toutes et tous et en humanisant par la culture et le sport. Voilà le progrès auquel nous aspirons.
+- + Partie suivante
+
+## ajoute : https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre1
+
+- + Partie 4 - Le goût du futur: aux nouvelles frontières de l'humanité
+- + Chapitre 1: Les nouveaux droits de l'espèce: protéger les biens communs
+- + Pollutions: désempoisonner le monde
+- + L'empoisonnement du monde est global. L'air, l'eau et les sols sont contaminés par toutes sortes de pollutions plastiques, chimiques, industrielles. Les plus riches polluent le plus. Mais ce sont les plus pauvres qui subissent davantage les conséquences de cet empoisonnement, au premier rang desquelles les nouvelles maladies politiques. Un plan de dépollution national et international s'impose.
+- + Mesure clé
+- + Aider les victimes des pollutions et les lanceurs d'alerte grâce à un fonds abondé par les consommations polluantes
+- + - Redonner à l'État et aux collectivités locales les moyens humains et financiers d'appliquer le triptyque «surveiller, contrôler, sanctionner» et réguler le libre marché
+- + - Revenir sur l'affaiblissement des normes environnementales et des mécanismes de participation publique décidés lors du précédent quinquennat (décrets permettant aux préfets de déroger aux normes environnementales, par exemple)
+- + - Planifier la réduction progressive des doses d'engrais et de pesticides, interdire immédiatement les plus dangereux (glyphosate, néonicotinoïdes) et l'importation de productions qui en contiennent
+- + - Établir un plan d'urgence pour la dépollution rapide des régions durablement polluées en France, dont en priorité la Guadeloupe et la Martinique, victimes du chlordécone
+- + - Prendre en charge et indemniser les victimes, y compris indirectes, des essais nucléaires français et reconnaître leurs dommages environnementaux, en particulier en Polynésie
+- + - Gérer les risques industriels avec la création d'une autorité de sûreté des risques industriels indépendante, augmenter le nombre d'inspecteurs des installations classées pour la protection de l'environnement (ICPE) et renforcer les sanctions en cas de non-respect de la réglementation
+- + - Créer un centre national de régénération des charbons actifs destinés à la destruction des PFAS dans l'eau
+- + - Lutter contre le cadmium dans les engrais et dans l'alimentation, lancer un plan de réduction de la pollution déjà présente et prendre en charge un réel suivi médical pour les personnes exposées
+- + - En Guadeloupe et en Martinique, reconnaître le statut de crise sanitaire et écologique concernant l'eau potable et son assainissement, la contamination au chlordécone et les effets cocktails avec d'autres substances dont les conséquences sont inconnues
+- + - Instaurer une zone tampon pour protéger les enfants des pesticides et polluants autour des habitations, des crèches, des écoles et des hôpitaux
+- + L'eau, enjeu central pour l'humanité
+- + L'eau est le grand défi commun de l'humanité. C'est une urgence écologique de mettre fin au cercle vicieux suivant: le cycle de l'eau est perturbé par le réchauffement climatique et cette perturbation aggrave en retour le changement climatique. L'eau douce disponible devient de plus en plus rare. C'est aussi une urgence sociale. Car des centaines de milliers de Français, les Ultramarins en première ligne, subissent des coupures d'eau et voient leur eau polluée. Les inondations deviennent une menace récurrente. Garantir le droit d'accès à l'eau et à l'assainissement par une gestion publique est une priorité.
+- + Mesure clé
+- + Consacrer une «règle bleue» sur le principe de la «règle verte»: ne pas prélever, ni transformer, ni polluer le cycle de l'eau au-delà de ce que la nature peut reconstituer
+- + - Inscrire que l'eau est un commun et la protection de l'ensemble de son cycle, y compris les nappes phréatiques, les rivières et les fleuves, dans la Constitution, ainsi que le droit à l'eau salubre, à l'assainissement de qualité et à l'hygiène
+- + - Créer un haut-commissariat à l'eau, incluant une instance scientifique indépendante en lien étroit avec les éco-régions
+- + - Multiplier au moins par trois les effectifs de la police de l'eau et des inspecteurs de l'environnement, étendre leurs missions au contrôle de tout le cycle et garantir leur autonomie face aux préfets et au ministère de l'Agriculture
+- + - Organiser la gestion publique autour de régies locales d'eau potable et d'assainissement, ouvertes avec voix délibérative aux habitantes et habitants et aux salariés
+- + - Établir une tarification juste: gratuité des mètres cubes indispensables à une vie digne, suppression de l'abonnement, tarification progressive et différenciée selon les usages, fin des tarifs dégressifs
+- + - Garantir l'accès de tous à l'eau, par la fin des coupures illégales et un maillage de fontaines, douches et sanitaires publics gratuits
+- + - Garantir une eau de bonne qualité au robinet en analysant systématiquement les pollutions (PFAS, pesticides, microplastiques et résidus médicamenteux) dans toutes les eaux, en imposant des seuils plus stricts
+- + - Sanctuariser la ressource en eau en instaurant un moratoire immédiat sur les méga-bassines et en en finissant avec l'accaparement de l'eau
+- + - Planifier la sortie des PFAS en mettant fin à la fabrication, à l'importation et à la vente de produits qui en contiennent
+- + Défendre la forêt, poumon de la planète et premier réservoir de la biodiversité terrestre
+- + La forêt couvre un tiers du territoire hexagonal et environ 85% des territoires ultramarins. Pourtant, la forêt française va mal. Sa capacité à absorber du carbone diminue. La mortalité des arbres a augmenté de 125% en dix ans. Les sécheresses et les méga-feux progressent. Les dynamiques de marchandisation à outrance imposent toujours plus de coupes rases. Les forêts constituent pourtant un atout naturel stratégique pour la Nation, remplissant trois fonctions, environnementale, sociale et économique. Pour qu'elles le restent, il faut s'opposer à l'industrialisation et à la marchandisation de la forêt. Nous devons aussi redonner une place centrale aux services de l'État, et protéger ceux qui s'en occupent au quotidien, tels les agents de l'Office national des forêts (ONF). Le développement d'une filière bois française soutenable et créatrice d'emplois est possible.
+- + Mesure clé
+- + Interdire les coupes rases, sauf en cas d'impasse sanitaire avérée
+- + - Interdire l'installation de photovoltaïque et d'éolien exigeant des coupes rases
+- + - Intégrer pleinement les objectifs climatiques et de biodiversité dans les politiques forestières
+- + - Augmenter les moyens humains et financiers de l'ONF et stopper sa privatisation pour lui permettre d'assurer ses missions, y compris d'accueil du public
+- + - Renforcer les moyens humains et matériels de lutte contre les feux de forêt
+- + - Améliorer les conditions de travail en forêt: interdire le travail détaché, garantir une juste répartition de la valeur dans la filière forêt-bois, reconnaître la pénibilité et les maladies professionnelles, augmenter les salaires des forestiers et préserver le droit à la retraite anticipée
+- + - Augmenter la part des forêts publiques, notamment par l'extension du droit de préemption publique avec des budgets suffisants, et réhabiliter les communs forestiers
+- + - Conditionner les aides publiques à une gestion forestière adaptée au changement climatique, visant l'augmentation des puits de carbone et la préservation d'écosystèmes forestiers variés
+
+## ajoute : https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2
+
+- + Partie 4 - Le goût du futur: aux nouvelles frontières de l'humanité
+- + Chapitre 2: Élever le niveau d'éducation et de savoirs
+- + Éradiquer l'illettrisme et développer l'alphabétisation
+- + Les difficultés de lecture touchent un adulte sur dix, les empêchant d'être autonomes dans la vie quotidienne. C'est près de 4 millions de personnes dans l'Hexagone: un tiers vit dans les espaces ruraux et six sur dix sont des femmes. En Outre-mer, 25% des personnes sont concernées. De plus en plus de démarches s'effectuant uniquement en ligne, les personnes illettrées perdent peu à peu l'accès à leurs droits et ne parviennent même plus à régler leurs factures ou à se déplacer. Nous voulons éradiquer enfin l'illettrisme.
+- + Mesure clé
+- + Éradiquer l'illettrisme pour les jeunes sortis du système scolaire et les adultes à l'horizon 2032
+- + - Développer les structures d'alphabétisation et les cours de langue française pour les personnes non francophones
+- + - Créer un service public de lutte contre l'illettrisme et l'illectronisme et soutenir les programmes associatifs d'accompagnement
+- + - Proposer une formation gratuite aux personnes en situation d'illettrisme
+- + - Mener de grandes campagnes d'information et de sensibilisation à l'illettrisme chaque année, former les agents des services publics à sa détection
+- + - Séparer clairement les dispositifs destinés aux personnes en situation d'illettrisme de ceux destinés aux personnes allophones pour orienter chacun vers la formation qui lui correspond
+- + Reconstruire une école globale pour l'égalité et l'émancipation
+- + Une des grandes conquêtes sociales du siècle passé aura été d'arracher les enfants aux violences de l'usine pour les accueillir à l'école publique. Mais l'école publique, laïque et gratuite, qui est une des clés du progrès social et humain, sort terriblement affaiblie d'une vingtaine d'années marquées par des politiques destructrices. Il faut reconstruire l'école de l'égalité et de l'émancipation, une école dans laquelle tous les élèves sont capables d'apprendre, et qui œuvre à la bifurcation écologique et à la 6e République. Pas de Nouvelle France sans école globale.
+- + Mesure clé
+- + Assurer la gratuité réelle de l'éducation publique, y compris de la cantine, du transport, des activités périscolaires, des manuels et des fournitures
+- + - Reconstruire l'école publique:
+- + -
+- + - Réduire partout les effectifs par classe pour faire mieux que la moyenne européenne de 19 élèves par classe en donnant la priorité aux maternelles et aux classes des actuels réseaux d'éducation prioritaire (REP)
+- + - Reconstituer les viviers de professeurs remplaçants, afin de mettre un terme au scandale des 15 millions d'heures de cours non assurées chaque année par manque d'enseignants
+- + - Étendre la scolarité obligatoire à 18 ans
+- + - Mettre en place une véritable politique d'éducation prioritaire en refondant la carte de l'éducation prioritaire en fonction des besoins
+- + - Construire un service public national du périscolaire, en lien avec les communes, fondé sur la gratuité, animé par des personnels formés, titulaires de la fonction publique
+- + - Tourner la page du désastre macroniste:
+- + -
+- + - Abroger le «choc des savoirs»
+- + - Mettre fin au «pacte enseignant»
+- + - Rétablir le diplôme national du baccalauréat, abroger les contre-réformes du lycée, de la voie professionnelle et du collège
+- + - Mettre fin à l'expérimentation de l'uniforme
+- + - Sortir du tout numérique pour un usage raisonné et réfléchi de cet outil, consacrer un droit à la déconnexion des élèves et des personnels
+- + - L'égalité pour toutes et tous:
+- + -
+- + - Instaurer une nouvelle version de la carte scolaire pour lutter contre la ségrégation socio-scolaire
+- + - Assurer un égal accès aux diverses options et langues, de l'école élémentaire au lycée
+- + - Construire et maintenir des écoles, collèges et lycées publics à taille humaine, afin de garantir l'accès à une école publique à moins de 15 minutes du domicile, et investir dans les équipements sportifs scolaires
+- + - Renforcer l'éducation à l'égalité, contre le sexisme et les discriminations, dans les programmes scolaires
+- + - Intégrer l'enjeu écologique dans les programmes de la maternelle au lycée et introduire de nouveaux enseignements pratiques
+- + - Permettre à toutes les familles d'accéder gratuitement aux dispositifs de type «devoirs faits», de l'école au lycée
+- + - Introduire le droit à la seconde chance en matière d'orientation
+- + - Refonder la relation entre l'État et les établissements privés sous contrat:
+- + -
+
+## ajoute : https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre3
+
+- + Partie 4 - Le goût du futur: aux nouvelles frontières de l'humanité
+- + Chapitre 3: Humaniser par la culture et le sport
+- + La bifurcation dans les arts et la culture: pour un service public du progrès humain
+- + La culture a été bien malmenée ces dernières années: tantôt traitée comme une simple marchandise dont il faudrait subventionner la consommation, tantôt reléguée à un statut «non essentiel» pendant la crise sanitaire, et désormais prise en étau entre la censure de l'extrême droite et celle des logiques commerciales. Nous défendons, au contraire, une politique publique des arts et de la culture forte, où chacune et chacun d'entre nous peut s'exprimer, s'impliquer, et développer un rapport sensible et critique au monde, sur l'ensemble du territoire national. Il y a nécessité de faire confiance aux travailleurs et travailleuses de l'art. Vecteurs d'altérité et d'émancipation, les arts et la culture sont le cœur du progrès humain.
+- + Mesure clé
+- + Porter la dépense publique consacrée à l'art, à la culture et à la création à 1% du produit intérieur brut (PIB) par an pour mener une politique culturelle ambitieuse, émancipatrice et à l'image de la France d'aujourd'hui
+- + - Adopter une loi pour démanteler et empêcher la formation de monopoles privés contrôlant la création et la diffusion artistiques
+- + - Reprendre les grands travaux culturels pour remédier à l'inégale répartition territoriale des structures de création, d'enseignement, de diffusion et de mémoire artistiques et culturelles
+- + - Renouer avec des financements pérennes pour les structures et associations culturelles, ainsi que pour la création et la programmation artistiques, fondés sur la diversité des formes, des récits et des artistes soutenus
+- + - Étendre la gratuité à tous les musées et les bibliothèques, garantir une tarification abordable dans les institutions publiques et encadrer les tarifs abusifs des cinémas et autres lieux privés (salles de concert, lieux d'exposition, etc.)
+- + - Faire de l'audiovisuel public le premier financeur du cinéma français, revoir la chronologie des médias en cohérence et créer une médiathèque en ligne publique et gratuite avec une plateforme de vidéo à la demande
+- + - Lancer un plan d'envergure pour la diversité et l'indépendance dans l'édition et renforcer les moyens du Centre national du livre (CNL)
+- + - Créer un centre national du jeu vidéo et renforcer la filière publique de formation dans ce domaine
+- + - Garantir aux joueuses et aux joueurs la propriété et l'accès durable aux jeux qu'ils achètent, qu'ils soient physiques ou numériques, et soutenir les initiatives s'opposant à la disparition des jeux physiques
+- + - Abolir tous les privilèges fiscaux liés au mécénat culturel et mettre fin à la mainmise des grandes fortunes et entreprises sur les arts et la culture
+- + - Lutter activement contre les discriminations de genre et d'origine ainsi que toutes formes de violences sexuelles, racistes et pédagogiques qui persistent dans les arts et la culture, y compris dans l'accès aux postes de création, de direction, d'administration et de programmation
+- + - Instituer un «domaine public commun» pour financer la création nouvelle, constitué d'une redevance sur l'usage commercial des œuvres tombées dans le domaine public
+- + - Améliorer le régime des intermittents du spectacle sur la base de l'accord professionnel de 2023, faciliter l'ouverture des droits, notamment pour les primo-cotisants et personnes en rupture de droits, et l'étendre aux autres professions culturelles et événementielles discontinues, comme les «extras» de l'hôtellerie-restauration et les guides-conférenciers
+- + - Mettre en place de véritables droits sociaux pour les artistes-auteurs, notamment grâce à un système de continuité de revenus financé par une hausse de cotisation des diffuseurs, d'élections professionnelles adaptées et d'instances de démocratie sociale représentatives de ces professions
+- + - Encadrer les intelligences artificielles génératives culturelles en distinguant leurs usages commerciaux et non-commerciaux, et mettre en place des accords de rémunération équitables pour les créateurs dont l'œuvre est utilisée
+- + Le sport et les corps libérés de l'argent
+- + Alors que la France a accueilli les Jeux olympiques sur son sol, de nombreux clubs de sport amateurs mettent la clé sous la porte et des territoires entiers sont sous-dotés en infrastructures sportives. Pourtant, le sport est un loisir, un espace d'épanouissement autant qu'un impératif de santé publique. L'inactivité physique tue dix fois plus que les accidents de la route chaque année. Mettons fin au sport business et développons le service public du sport: il est urgent de mettre des moyens au service de l'intérêt général pour un sport émancipateur et libéré de l'argent.
+- + Mesure clé
+- + Favoriser la gratuité des activités sportives, en priorité pour les populations les plus pauvres
+- + - Renforcer le financement du sport amateur en augmentant la taxation sur les retransmissions sportives à la télévision et en créant une taxe sur les transferts
+- + - Interdire toute multipropriété dans le sport professionnel
+- + - Démocratiser la gestion des fédérations sportives en assurant la souveraineté des licenciés sur leur fédération et en valorisant davantage le bénévolat
+- + - Assurer un vrai développement du sport féminin pour lutter contre les inégalités d'accès à la pratique sportive et aux postes d'encadrement, instaurer la parité dans la retransmission télévisuelle des grands événements sportifs et étendre leur diffusion sur des chaînes publiques
+- + - Renforcer l'accessibilité aux équipements sportifs des personnes handicapées et développer partout une offre de pratiques sportives adaptées
+- + - Redonner les moyens de mener une politique sportive ambitieuse, notamment en déployant et en renforçant les conseillers techniques et sportifs (CTS) sur tout le territoire
+- + - Mettre en place un plan national d'urgence pour la construction et la rénovation des équipements sportifs, notamment des équipements publics de proximité dédiés aux pratiques libres (piscines, salles d'escalade, salles de remise en forme, pistes de skate, etc.)
+- + - Cesser la criminalisation des supporters et mettre fin aux atteintes aux libertés publiques et aux expérimentations sécuritaires comme la reconnaissance faciale
+- + - Réguler les paris sportifs, notamment en interdisant leur publicité
+- + - Organiser la mise en place réelle, à la fois contrôlée et évaluée, d'un plan d'action, de formation et de sensibilisation sur les violences sexistes, racistes et LGBTIphobes dans le sport pour garantir l'inclusion de toutes et tous dans les pratiques sportives et réaffirmer le refus catégorique des tests de féminité
+- + Éduquer par le sport et la culture
+- + Le sport et la culture sont des leviers majeurs d'émancipation et de construction de soi. En la matière, le rôle de l'école est central, en particulier pour les enfants qui n'ont pas accès aux pratiques sportives et culturelles en dehors de ce cadre. Face aux inégalités qui persistent, l'école doit être le lieu des premières rencontres avec des disciplines diversifiées. L'éducation par le sport et la culture commence dès le plus jeune âge et continue tout au long de la vie.
+- + Mesure clé
+- + Créer une association sportive et culturelle dans tous les établissements scolaires du premier degré pour rendre gratuite et accessible la pratique de ces activités encadrées par des professionnels
+- + - Mettre en place un plan national pour l'éducation artistique et culturelle, ainsi que pour l'éducation populaire tout au long de la vie, en réorientant les moyens du pass Culture vers des projets collectifs à l'école, en renforçant l'enseignement artistique public et associatif dans tous les domaines et en développant l'éducation aux images et aux nouveaux médias
+- + - Renforcer la place de l'éducation physique tout au long de la scolarité en améliorant la formation des professeurs des écoles et en garantissant quatre heures hebdomadaires d'éducation physique et sportive (EPS)
+
+## ajoute : https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4
+
+- + Partie 4 - Le goût du futur: aux nouvelles frontières de l'humanité
+- + Chapitre 4: Faire de la santé un enjeu global
+- + S'organiser pour faire face aux maladies écologiques
+- + Une société malade rend malade. 80% de notre santé est déterminée par notre environnement. Aujourd'hui, nombreuses sont les maladies qui sont liées au mode de production capitaliste: zoonoses, mais aussi cancers, diabète, obésité, infertilité, allergies. Des études scientifiques ont démontré le rôle de la malbouffe, des pesticides, des polluants éternels ou encore des perturbateurs endocriniens dans les manifestations de ces maladies chroniques, qui touchent en priorité les mondes populaires qui ne peuvent s'en protéger. Aucune fatalité à cela. L'eau, l'air et l'alimentation ont été empoisonnés par des pratiques soucieuses uniquement de produire à bas coûts. Éradiquer les facteurs favorisant ces maladies écologiques est possible. Ainsi, 40% des cancers sont évitables en agissant sur l'environnement. Il faut dépolluer le monde, reconstruire notre système de soin et investir massivement dans la recherche médicale.
+- + Mesure clé
+- + Intégrer la santé environnementale dans toutes les politiques publiques, notamment par une obligation d'évaluation santé-environnement des projets d'infrastructure et des lois
+- + - Adopter un plan d'éradication des maladies chroniques liées à l'exposition aux pollutions (pesticides, radioactivité, amiante, produits chimiques, etc.)
+- + - Adopter un plan d'action national de protection de la santé contre les perturbateurs endocriniens poursuivant l'objectif «zéro exposition»
+- + - Appliquer un principe de précaution sanitaire, avec une liste d'interdiction des substances dangereuses avérées, suspectées et présumées
+- + - Doubler le budget du programme national de recherche «environnement - santé - travail» et publier le résultat de ses enquêtes
+- + - Augmenter les moyens de l'Institut national du cancer pour améliorer la connaissance sur l'épidémie de cancer via le déploiement effectif du registre national des cancers
+- + - Former massivement les professionnels de santé pour renforcer le dépistage et la prévention des maladies écologiques ainsi que la prise en charge des plus vulnérables
+- + - Mettre en place un interrogatoire allergique lors des visites de médecine scolaire et de médecine du travail pour prévenir le risque allergique
+- + - Créer un fonds d'indemnisation spécifique des victimes, offrant une prise en charge intégrale pour toutes les victimes de maladies liées au chlordécone, qu'elles soient professionnelles ou environnementales
+- + Se préparer à l'ère des pandémies
+- + Tant que les causes des pandémies n'auront pas été réglées, nous devrons nous tenir prêts à des répliques de même nature que le Covid-19. Il nous faudra le faire de la manière la plus efficace et humainement acceptée. Nous choisirons le «tous ensemble» plutôt que le «chacun pour soi». L'État planificateur sera l'instrument principal de notre adaptation à l'ère des pandémies.
+- + Mesure clé
+- + Reconnaître les épidémies et pandémies au titre des catastrophes naturelles
+- + - Élaborer un plan d'adaptation aux pandémies et zoonoses basé sur la planification sanitaire
+- + - Réquisitionner les entreprises indispensables à la production de matériel sanitaire (masques, tests, purificateurs) en cas de pandémie
+- + - Interdire le dépôt de brevets sur les médicaments et les équipements nécessaires à une réponse sanitaire urgente
+- + - Éradiquer l'épidémie de VIH en France par un grand plan national de prévention, de dépistage, de traitement ainsi que de lutte contre la désinformation et la discrimination des personnes séropositives, tout en renforçant la contribution française au Fonds mondial
+- + - Construire un pôle public du médicament qui devra:
+- + -
+- + - Assurer une relocalisation de la production de médicaments et une capacité souveraine de production de vaccins
+- + - Garantir l'approvisionnement d'une réserve stratégique de médicaments essentiels
+- + - Reconstruire les capacités de fabrication de médicaments des pharmacies hospitalières
+- + - Nationaliser certaines filiales critiques (par exemple pour atteindre l'autonomie de production du principe actif Doliprane)
+- + - Assurer le contrôle des prix sur l'ensemble des produits de santé et communiquer sur leurs coûts réels
+- + - Produire et diffuser massivement les vaccins et traitements passés sous licence d'office
+- + - Financer la recherche et le développement publics sur les antibiotiques et l'antibiorésistance pour développer des solutions thérapeutiques
+- + - Développer une production publique de biomédicaments, notamment pour les thérapies contre le cancer
+- + En finir avec la malbouffe
+- + Nous sommes confrontés à une épidémie de maladies chroniques (diabète, obésité) et de cancers. L'agro-industrie et ses produits, vendus à grand renfort d'additifs et de publicité, en sont une cause majeure. Les plus pauvres sont les premières victimes. En finir avec la malbouffe est un enjeu de santé publique. Nous avons les moyens de produire autrement pour nous nourrir tous et mieux.
+- + Mesure clé
+- + Créer un ministère de la Production alimentaire
+- + - Interdire d'urgence les additifs dangereux pour la santé en limitant la liste aux composants autorisés dans l'agriculture biologique
+- + - Fixer des taux maximaux de sel, de sucre et d'acides gras saturés dans les aliments transformés et garantir l'application de la loi dans les Outre-mer
+- + - Rendre le Nutri-Score (étiquetage nutritionnel) obligatoire pour en finir avec la désinformation de la grande distribution
+- + - Interdire la publicité alimentaire sur tous les supports (radiophonique, audiovisuel et électronique) à destination des enfants et adolescents
+
+## ajoute : https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre5
+
+- + Partie 4 - Le goût du futur: aux nouvelles frontières de l'humanité
+- + Chapitre 5: Entrer en mer sans saccage
+- + Protéger les mers et océans
+- + L'Océan commun est aujourd'hui en danger. La biodiversité marine se dégrade, du fait du dérèglement climatique et des conséquences immédiates de l'activité économique humaine, notamment de la surpêche, de la pollution plastique. Il est urgent de protéger les mers des tensions militaires et du pillage. Il est nécessaire de sanctuariser les écosystèmes marins.
+- + Mesure clé
+- + Œuvrer à l'approfondissement d'un droit international de la biodiversité marine, notamment dans les grands fonds
+- + - Proposer d'accueillir la deuxième COP «Océans» en France en 2028
+- + - Lancer un programme international de dépollution des mers et de l'Océan (récupération des déchets plastiques, équipements des littoraux en stations d'épuration, etc.) en commençant par la mer Méditerranée et les Outre-mer français
+- + - Augmenter le niveau de protection des aires marines protégées (AMP) et en créer de nouvelles, notamment en haute mer
+- + - Mettre fin aux accords de pêche inégaux, qui détruisent les écosystèmes et privent les populations riveraines de leurs moyens de subsistance
+- + - Lutter contre les pratiques de pêche illégales et empêcher la réautorisation de la pêche électrique; en finir avec les pratiques de pêche destructrices et les engins trop peu sélectifs
+- + - Interdire l'usage des 12 milles côtiers aux navires usines et les réserver progressivement aux pratiques de pêche durables et aux pêcheurs artisans
+- + - Allouer les quotas de pêche et les subventions selon des critères sociaux et environnementaux; renforcer la définition du lien économique réel avec le territoire exigé
+- + - Mettre en place un moratoire sur les projets de fermes-usines de saumons et favoriser une aquaculture soutenable
+- + - Mettre en place un plan de lutte contre les marées de sargasses dans les Antilles et contribuer à élaborer un plan d'action international pour lutter contre le problème à la source
+- + - Défendre un moratoire sur les forages en Méditerranée et sur l'extraction minière en eaux profondes
+- + - Interdire les prélèvements massifs de sable marin pour le secteur de la construction et lutter contre son extraction illicite à l'échelle nationale et internationale
+- + - Lutter contre l'acidification des océans et la multiplication des «zones mortes» dépourvues d'oxygène en commençant par une alliance pour la sauvegarde de la mer Méditerranée
+- + Être à la hauteur de la responsabilité maritime française
+- + Avec le deuxième territoire marin du monde, la France est une puissance maritime qui s'ignore. La mer est pourtant une source formidable d'activité et d'emploi dans la bifurcation écologique qu'exige notre époque. Mais les technologies marines sont délaissées par les pouvoirs publics. Pour la France pourtant, le futur a le goût de la mer.
+- + Mesure clé
+- + Déployer l'éolien en mer, posé et flottant, pour atteindre au moins 45 gigawatts de puissance installée en 2050, ainsi que les énergies marines renouvelables (EMR), comme l'hydrolien ou l'énergie de la houle, dans le cadre du plan de bifurcation énergétique
+- + - Tenir le cap de la planification maritime intégrée pour concilier production d'énergie, exigences des usagers de la mer et protection de la biodiversité
+- + - Renforcer la maîtrise publique des acteurs stratégiques de l'éolien maritime, si nécessaire par des nationalisations, par exemple des activités de GE Vernova (ex-Alstom)
+- + - Investir plus fortement l'Organisation maritime internationale (OMI) pour soutenir l'objectif de neutralité carbone du transport maritime en 2050 et l'amélioration des conditions sociales des marins à l'échelle internationale
+- + - Mettre en place un plan de décarbonation de la marine marchande, faire de la France le leader du développement de la propulsion vélique et des propulsions moins polluantes
+- + - Défendre les emplois de marins contre la concurrence déloyale, le dumping social et la Commission européenne (remorquage portuaire, construction et entretien des parcs éoliens maritimes, transports de passagers dans la Manche, la Méditerranée ou entre la Corse et le continent, etc.)
+- + - Réformer le système de taxation des armateurs, y compris la taxe au tonnage, pour mettre fin aux abus; privilégier le pavillon français et l'investissement écologique
+- + - Relancer les ports français et moderniser les infrastructures portuaires dans une logique multimodale mer-rail-fluvial d'électrification, de décarbonation et de soutien aux énergies renouvelables; favoriser le débarquement des marchandises de transit européen dans les ports français de Marseille et du Havre
+- + - Refuser le grand projet «canal Seine-Nord» tourné vers les ports du nord de l'Europe, et lui préférer le développement du port du Havre
+- + - Soutenir la construction de navires publics et d'intérêt public (scientifique, services publics, militaire et d'approvisionnement stratégique) dans les chantiers navals français
+- + - Poursuivre la cartographie détaillée de l'espace maritime français, en collaboration avec le service hydrographique et océanographique de la marine (SHOM), ainsi que le travail de reconnaissance internationale à travers le programme français d'extension du plateau continental
+- + - Mettre les moyens français comme la Marine nationale au service de l'application du droit international de la mer et du nouveau traité sur la haute mer
+- + - Augmenter en conséquence les moyens de surveillance, de protection et de sécurisation effective de notre domaine maritime, de son écosystème et de ses axes stratégiques
+- + - Redevenir une puissance polaire: augmenter les moyens de la recherche française dans les régions polaires, faire aboutir la reconstruction des stations de recherche en Antarctique et la construction d'un brise-glace en soutien à la recherche océanographique
+- + Forger une culture maritime humaniste
+- + L'Océan mondial relève de l'intérêt général humain. Il ne sépare pas les êtres humains, mais il les lie au contraire plus fortement ensemble, comme l'atteste le droit de la mer s'agissant du droit au secours. Il est donc l'affaire de toutes et tous.
+- + Mesure clé
+- + Créer en France un institut Océan de l'université des Nations unies et le doter d'un navire-université pour l'enseignement et la recherche
+- + - Faire de la France le leader mondial de la recherche et de l'éducation dans le secteur maritime
+
+## ajoute : https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre6
+
+- + Partie 4 - Le goût du futur: aux nouvelles frontières de l'humanité
+- + Chapitre 6: Mettre le spatial au service de l'intérêt général humain
+- + Assurer la souveraineté spatiale française
+- + La France est une nation spatiale majeure. Elle est, en Europe, la première puissance dans le domaine. Toutefois, le sujet intéresse peu les partis politiques, qui semblent ne comprendre aucun des enjeux en cause. Le plus souvent, les Insoumis sont les seuls qui expriment des avis, des encouragements ou qui participent et organisent des actions sur le thème. Pourtant, c'est dorénavant par l'espace que passent les activités scientifiques de pointe de l'humanité. Les communications et le fonctionnement de milliers d'applications numériques du quotidien en dépendent entièrement. La paix ou la guerre dans le monde de même. Pour un gouvernement de L'Avenir en commun, l'espace sera un outil essentiel de coopération, à la fois pour protéger ce bien commun et pour partager des savoirs et des enseignements.
+- + Mesure clé
+- + Lutter contre la course à l'armement spatial tout en garantissant la souveraineté de la France face aux nouvelles menaces
+- + - Doter la France d'un avion spatial souverain
+- + - Fermer le Centre spatial de l'Organisation du traité de l'Atlantique nord (OTAN) à Toulouse
+- + - Nationaliser ArianeGroup et instituer un pôle public du satellite
+- + - Doter la France des moyens de neutralisation des actions hostiles menées contre elle
+- + - Garantir l'utilisation de Galileo par le grand public et nos forces armées
+- + - Concentrer les financements publics sur un seul projet de lanceur: MaiaSpace, filiale d'ArianeGroup, en complément d'Ariane 6
+- + Relancer la découverte de l'espace
+- + L'espace représente une nouvelle frontière pour l'humanité. Il est temps de relancer son exploration pour mieux le comprendre. Depuis l'espace, il est possible d'observer précisément les effets du réchauffement climatique sur la Terre et d'étudier les origines de l'Univers. S'y aventurer, c'est s'ouvrir à de nouvelles connaissances.
+- + Mesure clé
+- + Renforcer les moyens du Centre national d'études spatiales (CNES), qui redeviendra le maître d'œuvre de la politique spatiale française
+- + - Intensifier la recherche dans le domaine de la météorologie de l'espace (prévision des tempêtes solaires)
+- + - Maintenir un accès libre et ouvert aux données météorologiques et d'observation de la Terre fournies par les services satellitaires européens
+- + - Initier la création d'une université francophone des métiers de l'espace en Guyane
+- + - Renforcer le Centre spatial guyanais et en faire un avant-poste souverain de la nouvelle frontière de l'espace
+- + - Contribuer à organiser les différentes missions dans le système solaire et assurer la participation française à ces missions
+- + Défendre l'espace comme bien commun de l'humanité
+- + Alors que l'espace, par ses grands traités, a été pensé comme une nouvelle frontière à préserver et à protéger des logiques de domination et de confrontations, des acteurs privés et des nations spatiales offensives, comme SpaceX et les États-Unis, cherchent à l'accaparer. Elles le saturent, le polluent, accélèrent sa militarisation et sa reconversion en marché lucratif. Il y a urgence à faire bifurquer la politique spatiale en la mettant au service de la science, de la planification écologique et de la protection de ce bien commun.
+- + Mesure clé
+- + Proposer un nouveau traité international pour la non-appropriation des ressources spatiales et la démilitarisation de l'espace, basé sur le traité de la Lune que la France ratifiera
+- + - Se retirer des accords Artemis et inviter d'autres signataires à en faire de même
+- + - Planifier la bifurcation écologique de l'industrie spatiale
+- + - Promouvoir un programme international de dépollution de l'orbite basse, porté par les Nations unies
+
+## ajoute : https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre7
+
+- + Partie 4 - Le goût du futur: aux nouvelles frontières de l'humanité
+- + Chapitre 7: Démocratiser la révolution numérique
+- + Affirmer le caractère d'intérêt général de la révolution numérique
+- + La révolution numérique est une chance immense pour l'humanité. Elle peut ouvrir la voie à un développement humain, scientifique et démocratique inédit, à condition de ne pas laisser les multinationales l'accaparer pour leurs seuls profits. Faire du numérique un bien commun mondial est un enjeu démocratique, économique, écologique et social de premier plan: la technologie doit servir le progrès humain, non créer de nouvelles inégalités, restreindre les libertés ou privatiser les biens communs culturels.
+- + Mesure clé
+- + Garantir le droit à un accès minimal gratuit à Internet
+- + - Achever la couverture numérique en fibre de tout le pays
+- + - Constitutionnaliser le droit au chiffrement et à la sécurité des données et des communications, afin de se prémunir contre les moyens d'interception et de surveillance
+- + - Systématiser la publication en données ouvertes des informations publiques détenues par les collectivités
+- + - Garantir le maintien de l'accès à des guichets physiques et à des formulaires papier malgré la dématérialisation des services publics
+- + - Garantir le droit à un interlocuteur humain dans les interactions avec toute organisation, publique ou privée
+- + - Mettre en place une autorité de contrôle dédiée à l'accessibilité numérique, dotée de moyens pour sanctionner les organismes ne respectant pas les obligations légales
+- + - Faire de la lutte contre les fuites de données une priorité nationale:
+- + -
+- + - Former les personnes amenées à traiter des données sensibles et à caractère personnel et encadrer strictement la transmission de ces données à des tiers
+- + - Ne pas faire du seul consentement des utilisateurs un fondement suffisant pour le traitement de leurs données, afin de mettre fin aux pratiques abusives de collecte massive
+- + - Réduire le recours excessif à la sous-traitance
+- + - Renforcer les moyens de la Commission nationale de l'informatique et des libertés (CNIL) pour qu'elle garantisse l'application effective des exigences de sécurité prévues par le règlement général sur la protection des données (RGPD)
+- + - Faire de la France une puissance quantique mondiale:
+- + -
+- + - Investir dans la recherche fondamentale quantique en augmentant le financement des bourses doctorales dédiées et les laboratoires publics de recherches dédiés
+- + - Investir dans le développement industriel et la formation, en conditionnant toute aide publique aux entreprises start-ups quantiques à des garanties de souveraineté, afin de produire notre propre équipement quantique
+- + - Lancer un programme national d'urgence de cryptographie post-quantique
+- + Garantir la souveraineté numérique de la France
+- + La mise en réseau mondiale permet de nouvelles coopérations grâce à la circulation des idées, des paroles, des images et des écrits. Elle doit se faire dans un cadre international garantissant la maîtrise publique et démocratique d'Internet. La France ne doit pas dépendre d'autres pays et des multinationales comme les GAFAM (Google devenu Alphabet, Amazon, Facebook devenu Meta, Apple et Microsoft). Elle doit pouvoir prendre librement ses propres décisions.
+- + Mesure clé
+- + Garantir la neutralité du Net, c'est-à-dire le droit d'accéder aux contenus et de les diffuser sans discrimination
+- + - Passer sous contrôle public et relocaliser les infrastructures du numérique et des télécommunications
+- + - Nationaliser toute entreprise du numérique détenant un savoir-faire essentiel qui risque la faillite, la délocalisation ou le rachat par des fonds prédateurs
+- + - Construire un cloud véritablement public, composé de data centers publics interconnectés
+- + - Créer une agence publique des logiciels libres chargée de planifier leur développement stratégique, domaine par domaine, en identifiant les manques et en finançant les projets-clés
+- + - Généraliser l'usage des logiciels libres dans les administrations publiques et l'Éducation nationale; garantir l'interopérabilité chez tous les acteurs du numérique, publics comme privés
+- + - Permettre à tous les citoyens et à toutes les entreprises l'accès à des services et logiciels en ligne hébergés sur des serveurs français de droit français
+- + - Développer progressivement une offre publique pour les services numériques essentiels: moteur de recherche, paiements en ligne, etc.
+- + - Structurer une filière industrielle nationale des technologies numériques couvrant l'ensemble des composants matériels critiques (semi-conducteurs, stockage, connectivité) et incluant notamment la création d'une fonderie de microprocesseurs sur le territoire français
+- + - Refuser le contrôle privé et discrétionnaire des contenus exercés par les grandes plateformes (GAFAM) sur les réseaux sociaux
+- + - Garantir l'hébergement des données des services publics français et des entreprises essentielles sur des serveurs publics situés en France
+- + - Favoriser la coopération entre les États pour développer des solutions numériques émancipées des GAFAM
+- + - Réduire l'impact écologique du numérique (réglementations sur l'obsolescence programmée, politiques incitatives sur l'écoconception, indice carbone sur le Web, etc.)
+- + - Décréter un moratoire sur l'installation de centres de données non souverains (sans aucune participation publique)
+
+## ajoute : https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale
+
+- + Gérer le consentement aux cookies
+- + Pour offrir les meilleures expériences, nous utilisons des technologies telles que les cookies pour stocker et/ou accéder aux informations des appareils. Le fait de consentir à ces technologies nous permettra de traiter des données telles que le comportement de navigation ou les ID uniques sur ce site. Le fait de ne pas consentir ou de retirer son consentement peut avoir un effet négatif sur certaines caractéristiques et fonctions.
+- + Fonctionnel Fonctionnel Toujours activé
+- + Le stockage ou l'accès technique est strictement nécessaire dans la finalité d'intérêt légitime de permettre l'utilisation d'un service spécifique explicitement demandé par l'abonné ou l'internaute, ou dans le seul but d'effectuer la transmission d'une communication sur un réseau de communications électroniques.
+- + Préférences Préférences
+- + Le stockage ou l'accès technique est nécessaire dans la finalité d'intérêt légitime de stocker des préférences qui ne sont pas demandées par l'abonné ou la personne utilisant le service.
+- + Statistiques Statistiques
+- + Le stockage ou l'accès technique qui est utilisé exclusivement à des fins statistiques. Le stockage ou l'accès technique qui est utilisé exclusivement dans des finalités statistiques anonymes. En l'absence d'une assignation à comparaître, d'une conformité volontaire de la part de votre fournisseur d'accès à internet ou d'enregistrements supplémentaires provenant d'une tierce partie, les informations stockées ou extraites à cette seule fin ne peuvent généralement pas être utilisées pour vous identifier.
+- + Marketing Marketing
+- + Le stockage ou l'accès technique est nécessaire pour créer des profils d'internautes afin d'envoyer des publicités, ou pour suivre l'internaute sur un site web ou sur plusieurs sites web ayant des finalités marketing similaires.
+- + - Gérer les options
+- + - Gérer les services
+- + - Gérer {vendor_count} fournisseurs
+- + - En savoir plus sur ces finalités
+- + Voir les préférences
+- + - Mentions légales
+- + - {title}
+- + - {title}
+- + Aller au contenu
+- + L'Avenir en commun
+- + Le programme de la Nouvelle France
+- + Table des matières
+- + Retour Partager
+- + Partie 3 - Mettre en sécurité sociale
+- + Dans notre pays, un parent sur trois se prive de manger pour nourrir ses enfants, sept personnes sur dix ont déjà renoncé à se soigner, et plus de 2 000 enfants dorment dans la rue chaque nuit. Les plus exposés à cette violence sociale sont les femmes, les enfants, les jeunes, les familles monoparentales, les personnes âgées, en situation de handicap ou LGBTI. Ce bilan, c'est celui du logiciel libéral: à force de coupes budgétaires, il détruit les infrastructures de notre système social et in fine nos droits. Il y a donc urgence à mettre en sécurité sociale la Nouvelle France. Ce qui veut dire réparer ce qui a été cassé, mais aussi étendre et créer de nouveaux droits sociaux et économiques. La Sécurité sociale, bâtie en 1945, n'est pas un acquis à démanteler, mais un principe d'organisation de la société à élargir pour généraliser une vie meilleure.
+- + Partie suivante
+
+## ajoute : https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1
+
+- + Partie 3 - Mettre en sécurité sociale
+- + Chapitre 1: À chacun selon ses besoins
+- + Éradiquer la pauvreté
+- + Depuis 2017, un million de personnes ont basculé dans la pauvreté. En tout, ce sont plus de 15% des Français qui vivent sous le seuil de pauvreté: un record jamais enregistré. On pensait les privations révolues, elles reviennent massivement: un Français sur trois déclare acheter de la nourriture en quantité moindre, 4 millions d'entre eux ne parviennent pas à se chauffer correctement, 800 000 ne peuvent pas acheter de vêtements neufs. À cette crise sociale sans précédent s'ajoute une maltraitance institutionnelle qui bloque la sortie de la pauvreté. Cela ne peut plus durer. Notre société sera celle du plein-emploi, où chacun pourra vivre dignement de son travail. Dès les premiers jours, un plan d'urgence sera mis en œuvre pour éradiquer la grande pauvreté.
+- + Mesure clé
+- + Créer une garantie d'autonomie, qui permettra que nul ne soit privé de sa dignité pour vivre: le revenu mensuel de chaque personne atteindra le seuil de pauvreté (1 337 euros pour une personne seule)
+- + - Atteindre l'objectif de «zéro sans-abri»: augmentation significative des places d'accueil dans une logique de «logement d'abord»
+- + - Encadrer le prix des produits alimentaires de première nécessité et interdire la pratique commerciale trompeuse de la «réduflation» (réduction des quantités pour le même prix)
+- + - Instaurer une première tranche gratuite de consommation d'électricité, de chaleur, d'eau, de gaz
+- + - Restructurer les emprunts des ménages surendettés et garantir à tous l'accès effectif aux services bancaires de base
+- + - Plafonner strictement les frais d'incidents bancaires pour empêcher les banques de s'enrichir grâce à la pauvreté
+- + - Garantir l'individualisation des droits et proposer l'automatisation des prestations sociales
+- + - Lutter contre le non-recours aux droits sociaux et civiques par la simplification des démarches et la réouverture des accueils physiques dans les services publics
+- + - Interdire les pratiques de notation des allocataires de prestations sociales, qui engendrent un sur-contrôle des personnes les plus défavorisées, avec des biais discriminatoires
+- + - Assurer la gratuité des protections périodiques pour toutes et tous, quel que soit l'âge
+- + Établir la garantie d'emploi
+- + Une personne au chômage forcé, c'est un savoir-faire gâché pour la société. La collectivité doit intervenir et proposer à chacun de prendre la part du travail qui est nécessaire. Pour cela, tout chômeur de longue durée se verra proposer un emploi utile à la bifurcation écologique ou à l'action sociale (les secteurs d'urgence), en lien avec ses qualifications et sur la base du volontariat.
+- + Mesure clé
+- + Créer une garantie d'emploi: tout chômeur de longue durée pourra se voir proposer d'être embauché au moins au SMIC revalorisé dans un secteur d'urgence
+- + Un emploi stable pour chacun
+- + Près de 4 millions de personnes occupent un emploi précaire. 87% des embauches ont lieu en contrats courts. La précarité représente un tunnel sans fin: un précaire sur deux obtenait un contrat à durée indéterminée (CDI) au bout d'un an en 1982, contre un sur cinq maintenant! Et ce, sans compter les temps partiels contraints, quasi exclusivement occupés par des femmes. Dans la France de Macron, ce sont 1,5 million de personnes qui cumulent même deux emplois pour s'en sortir. Cette vision «jetable» des salariés dévalorise le travail, nie les métiers et les savoir-faire. Elle empêche de lancer de vrais projets, de se former ou de s'intéresser à ses clients et à ses usagers.
+- + Mesure clé
+- + Instaurer un quota maximal de contrats précaires dans les entreprises: 10% pour les petites et moyennes entreprises (PME), 5% pour les grandes entreprises
+- + - Abroger les ordonnances dites «Pénicaud» ainsi que la loi dite «El Khomri», et rétablir le principe de faveur: un accord d'entreprise doit être plus favorable qu'un accord de branche, lui-même plus favorable que la loi
+- + - Transposer dans le droit français la directive européenne sur la présomption de salariat empêchant les plateformes numériques (Uber, Deliveroo, etc.) d'avoir recours aux faux indépendants
+- + - Titulariser les précaires des trois fonctions publiques
+- + - Démarchandiser le travail temporaire en supprimant le caractère lucratif des entreprises d'intérim et en confiant la gestion des besoins temporaires de main-d'œuvre au service public de l'emploi et à des associations à but non lucratif
+- + Réduire le temps de travail et faire naître une société du temps choisi
+- + Le temps de travail des salariés français est reparti à la hausse depuis 2002. La dernière fois qu'ils ont obtenu une semaine de congés payés supplémentaire remonte à quarante ans, avec l'arrivée au pouvoir de François Mitterrand. Pourtant, les avancées technologiques, notamment l'automatisation intelligente, constituent des opportunités uniques pour aller vers une société du temps libéré. La réduction du temps de travail repose le corps et l'esprit, mais elle est aussi une nécessité quand les emplois manquent: pour 1 offre d'emploi vacant, on compte 17 chômeurs dans notre pays! Progrès social et humain, la réduction du temps de travail apparaît ainsi comme la politique la plus juste, la plus efficace et la moins coûteuse pour lutter contre l'usure des salariés et le sous-emploi. C'est enfin un enjeu de planification écologique. Car il est urgent de réduire le nombre de trajets domicile-travail et d'augmenter le temps individuel dédié à d'autres activités.
+- + Mesure clé
+- + Rétablir immédiatement la durée légale hebdomadaire du temps de travail à 35 heures (en majorant les heures supplémentaires, cotisations incluses, à 25% pour les quatre premières et 50% au-delà), passer aux 32 heures dans les métiers pénibles ou de nuit et favoriser leur généralisation par la négociation collective
+- + - Généraliser une sixième semaine de congés payés pour tous les salariés
+- + - Convoquer une conférence nationale sur le partage du temps de travail et l'impact du progrès technologique
+- + - Remettre en cause les autorisations de travail le dimanche
+- + - En finir avec la flexibilisation, l'annualisation contrainte, l'intensification et les horaires fractionnés
+- + - Rétablir le 1er mai comme jour férié chômé payé pour tous les travailleurs
+- + - Instaurer un délégué au travail réel dans les entreprises, chargé de réunir les salariés une fois par mois pour proposer des changements dans l'organisation du travail, auxquels l'employeur devra fournir une réponse justifiée
+- + Rétablir une assurance chômage protectrice
+- + Les gouvernements Macron ont largement avancé dans le démantèlement de l'assurance chômage. Allongement de la durée minimale de cotisation, réforme du mode de calcul: les perdants de ces réformes sont plus d'un million. Pourtant, le chômage tue: chaque année, 14 000 personnes en meurent à cause du stress, de la dépression, du manque de sommeil. L'assurance chômage doit protéger les personnes privées d'emploi et nous devons créer des emplois en nombre.
+- + Mesure clé
+
+## ajoute : https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre2
+
+- + Partie 3 - Mettre en sécurité sociale
+- + Chapitre 2: Une République de l'égalité réelle et des droits nouveaux
+- + Une nouvelle étape des libertés et de l'émancipation individuelle
+- + La liberté de choisir sa vie est un droit fondamental de tous les êtres humains. Nos lois doivent garantir ce droit. La 6e République et sa Constitution seront l'occasion de consacrer de nouveaux droits civils, collectifs et individuels, pour aller vers une nouvelle étape de l'émancipation humaine.
+- + Mesure clé
+- + Constitutionnaliser la non-marchandisation du corps humain et le droit fondamental de disposer de soi en toutes circonstances
+- + - Ajouter dans la Constitution le droit de mourir dans la dignité (y compris avec assistance) et l'accès garanti à des soins palliatifs
+- + - Soutenir l'inclusion dans la Charte européenne des droits fondamentaux du droit à l'interruption volontaire de grossesse (IVG) et à la contraception, ainsi que leur accès gratuit pour toutes les personnes menstruées
+- + - Déjudiciariser le changement de sexe à l'état civil en le rendant libre et gratuit devant un officier d'état civil; tendre vers la suppression de la mention du sexe sur la carte nationale d'identité et le passeport; pour les mineurs, permettre cette modification avec l'accord d'un des parents
+- + - Établir la filiation par reconnaissance comme principe par défaut, refuser la gestation pour autrui (GPA), faire prévaloir l'intérêt supérieur de l'enfant comme principe premier, en toutes circonstances
+- + - Donner plus de moyens au Défenseur des droits
+- + Protéger les enfants
+- + Une société juste protège et respecte les enfants. La France a trop longtemps toléré que s'exercent à bas bruit des violences sur les enfants. Désormais, la mortalité infantile repart à la hausse partout dans le pays. Un pays qui laisse mourir et abandonne ses enfants de la sorte est un pays qui condamne son futur. La Nouvelle France est aussi un pays à hauteur d'enfants.
+- + Mesure clé
+- + Engager un plan de lutte contre le phénomène social massif des violences sexuelles faites aux enfants, fondé sur les préconisations de la Commission indépendante sur l'inceste et les violences sexuelles faites aux enfants (Ciivise)
+- + - Constitutionnaliser la Convention internationale des droits de l'enfant et créer un Code de l'enfance qui prenne en compte l'enfant en tant que personne et oblige l'État à garantir ses droits et libertés fondamentales sans discrimination
+- + - Revenir sur toutes les mesures qui alignent la justice des mineurs sur celle des adultes, rétablir les principes de l'ordonnance de février 1945 de primauté de l'action éducative sur l'action répressive, et doter la Protection judiciaire de la jeunesse (PJJ) de moyens adaptés
+- + - Permettre aux enfants d'apprendre la démocratie en la pratiquant dans les établissements qui les accueillent et tenir compte de leur parole sur les décisions qui les concernent (règles collectives, activités, personnels)
+- + - Combattre les logiques «no kids», qui discriminent les enfants dans l'espace public, les transports, les lieux de vacances
+- + - Recentraliser la protection de l'enfance en augmentant significativement ses moyens financiers et humains pour une égalité entre tous les enfants de la République et un accompagnement éducatif de qualité
+- + - En finir avec tous les lieux de placement indignes (hôtels, campings, Airbnb) en dotant la protection de l'enfance de moyens humains et matériels à la hauteur des besoins par un plan pluriannuel de recrutement et d'ouverture de places en établissements, en familles d'accueil, en structures «hybrides» et en alternatives au placement
+- + - Créer un contrôleur général des lieux de placement, indépendant des pouvoirs publics, pour veiller au respect de plusieurs critères (nombre minimal de professionnels, nombre maximal d'enfants par structure et par professionnel, temps d'accompagnement, formation des professionnels)
+- + - Accompagner socialement et financièrement jusqu'à 25 ans les jeunes sortant de l'aide sociale à l'enfance (ASE)
+- + - Prolonger le délai de prescription du délit de non-dénonciation pour les faits de violences sexuelles, tels que définis par le Code pénal, dès lors qu'ils sont commis sur un mineur
+- + - Engager un plan de rattrapage spécifique pour la protection des droits fondamentaux des enfants dans les Outre-mer
+- + - Déployer des campagnes massives de sensibilisation et de prévention des violences et négligences graves faites aux enfants, faire connaître et renforcer les dispositifs d'alerte et d'accompagnement des parents pour créer une culture protectrice
+- + - Garantir le droit à la santé des enfants, notamment la santé mentale
+- + - Mettre fin aux violations des droits fondamentaux des enfants étrangers, faire respecter l'interdiction d'expulsion des enfants et abolir l'enfermement des mineurs et familles avec enfants en rétention administrative
+- + - Inscrire dans les emplois du temps des élèves des séances d'information, adaptée à leur âge, sur l'enfance maltraitée, notamment sur les violences intrafamiliales à caractère sexuel et sur les violences commises par des adultes exerçant une fonction d'autorité
+- + - Étendre le contrôle des antécédents, au moyen d'une attestation d'honorabilité, à toutes les personnes travaillant dans les établissements scolaires
+- + Construire l'autonomie des jeunes
+- + La jeunesse était autrefois une promesse d'autonomie, elle est devenue un piège à précarité. Contrats courts, études chères, loyers excessifs: les jeunes sont les premiers à trinquer pour tout. Les conséquences sont directes, avec une dégradation généralisée de leur état de santé. La Nouvelle France sera un pays qui ne laissera pas sa jeunesse dans les longues files d'attente pour l'aide alimentaire. Les jeunes sont sa plus grande richesse. Il faut leur donner les moyens de choisir leur vie.
+- + Mesure clé
+- + Créer un office pour l'autonomie des jeunes, afin de redonner une direction politique claire aux politiques de jeunesse, aujourd'hui éparpillées entre 28 administrations différentes
+- + - Financer l'autonomie des jeunes détachés du foyer fiscal parental grâce à la garantie d'autonomie qui les portera au-dessus du seuil de pauvreté (1 337 euros pour une personne seule)
+- + - Instaurer réellement le repas à un euro dans les centres régionaux des œuvres universitaires et scolaires (Crous) pour tous les étudiants, en garantissant les financements nécessaires à un repas de qualité ainsi que l'obligation d'au moins un restaurant universitaire à proximité de chaque campus
+- + - Relancer la construction de logements sociaux pour les étudiants et jeunes travailleurs, favoriser la rénovation de l'existant
+- + - Instaurer un «emploi spécifique jeune» d'une durée de cinq ans dans le secteur non marchand et public pour éliminer le chômage des jeunes (trois fois supérieur à celui de leurs aînés à diplôme égal)
+- + - Mettre fin à la précarité des étudiants, notamment en augmentant les indemnités de stage et en négociant avec les branches patronales les postes ouverts aux stages pour en finir avec la pratique des CDD déguisés
+- + - Rembourser les séances de psychothérapie pour les moins de 26 ans
+
+## ajoute : https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre3
+
+- + Partie 3 - Mettre en sécurité sociale
+- + Chapitre 3: Entrer pleinement dans l'ère de l'émancipation des femmes
+- + Atteindre l'égalité salariale
+- + Les femmes gagnent en moyenne 22% de moins que les hommes et constituent 70% des travailleurs pauvres. De plus en plus précaires, reléguées en bas de l'échelle, elles subissent le temps partiel imposé et les horaires décalés. Dans la Nouvelle France, les femmes ne seront plus des subalternes dans le monde du travail.
+- + Mesure clé
+- + Lutter contre le temps partiel contraint qui touche à 80% des femmes
+- + - Revaloriser les rémunérations des métiers occupés majoritairement par des femmes, prendre en compte leur pénibilité en réinstaurant les facteurs de risques supprimés par Macron en 2017 et en créant de nouveaux critères liés aux contraintes émotionnelles fortes
+- + - Augmenter les sanctions financières et pénales à l'encontre des entreprises qui ne respectent pas l'égalité salariale femmes/hommes (amendes et refus d'attribution de marchés publics)
+- + - Créer dans l'entreprise une commission de contrôle salarié sur l'égalité entre les femmes et les hommes
+- + - Imposer la parité entre les femmes et les hommes dans les institutions politiques et économiques, ainsi que dans les administrations, les syndicats et les associations
+- + - Remplacer le congé paternité et le congé maternité actuels par un congé d'accueil de l'enfant, identique et obligatoire pour les deux parents, d'une durée de 20 semaines par parent
+- + Éradiquer les violences sexistes et sexuelles
+- + Les violences sexistes et sexuelles sont systémiques. Elles sont tellement intriquées à la domination masculine que lutter contre elles, c'est lutter contre cette domination tout entière. Elles appellent une réponse d'ampleur coordonnée, incluant notamment une transformation des institutions policière et judiciaire mais aussi de l'école ou du secteur du logement.
+- + Mesure clé
+- + Adopter une loi de lutte contre les violences sexistes et sexuelles et allouer les 3 milliards de budget demandés par les associations
+- + - Garantir une budgétisation transparente qui prenne en compte le genre
+- + - Mettre fin au harcèlement sexiste et aux agressions sexuelles dans l'espace public en agissant, en particulier, sur la prévention et en promouvant un urbanisme féministe
+- + - Reconnaître et sanctionner les violences obstétricales et gynécologiques
+- + - Combattre l'impunité des agresseurs sexuels et la correctionnalisation des viols
+- + - Adapter le monde du travail à la réalité des violences conjugales et sexuelles et renforcer les obligations de l'employeur en matière de prévention et de traitement des violences sexistes et sexuelles au travail
+- + - Intégrer la prévention et la lutte contre les discours masculinistes à l'ensemble des politiques publiques du numérique, notamment aux séances d'éducation à l'école
+- + - Créer un fonds dédié au dédommagement des enfants des victimes de féminicides
+- + - Soutenir les permanences associatives et les dispositifs itinérants d'aide aux femmes victimes de violences, là où l'offre d'accompagnement est insuffisante, notamment en zones rurales et dans les quartiers populaires
+- + - Rembourser les tests de soumission chimique sur l'ensemble du territoire
+- + Garantir le droit des femmes à disposer librement de leur corps
+- + La Nouvelle France est le résultat des luttes des femmes pour conquérir le droit à disposer d'elles-mêmes. De ce point de vue, la constitutionnalisation du droit à l'avortement, portée notamment par une proposition de loi de Mathilde Panot, est une conquête. Mais il reste encore du chemin à parcourir pour que le droit à disposer librement de son corps soit effectif pour toutes les femmes.
+- + Mesure clé
+- + Garantir l'égal accès et l'effectivité du droit à l'IVG, tout comme le choix de la méthode d'IVG, et supprimer la double clause de conscience des médecins
+- + - Lutter contre les mouvements anti-choix qui entravent les droits à la santé sexuelle et reproductive et le droit à l'avortement
+- + - Abolir la prostitution, garantir la dignité de la personne et renforcer, sans condition, l'accompagnement social, sanitaire, juridique et professionnel des personnes en situation de prostitution
+- + - Améliorer l'accès à la santé des femmes et leur prise en charge
+- + - Rembourser le traitement hormonal de la ménopause
+- + - Renforcer le planning familial, augmenter et pérenniser les financements des associations féministes et LGBTI
+- + Faire le service public de la petite enfance
+- + Tant que les femmes auront une charge totale de travail, activité domestique comprise, supérieure à celle des hommes, elles n'auront pas leur juste part de liberté, de loisir et de repos. C'est aux femmes qu'incombe encore trop souvent, et parfois exclusivement, la prise en charge des enfants. Par ailleurs, la maltraitance au sein de crèches privées a été révélée par plusieurs enquêtes: la course aux profits fait des ravages sur le bien-être des enfants et les personnels. La création d'un vaste système public de garde d'enfants est donc impérative pour garantir la liberté des parents, des mères en particulier, un meilleur accueil des tout-petits et de bonnes conditions de travail aux personnels.
+- + Mesure clé
+- + Créer un véritable service public de la petite enfance
+- + - Planifier l'ouverture progressive de 500 000 places pour l'accueil des jeunes enfants (crèches publiques, associatives, assistantes maternelles, jardins d'enfants)
+- + - Garantir la gratuité des crèches publiques
+- + - Mailler le territoire de centres de protection maternelle et infantile (PMI) et de lieux ressources pour les parents; renforcer leurs moyens humains et financiers, afin de développer l'accompagnement à la périnatalité et à la parentalité
+
+## ajoute : https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre4
+
+- + Partie 3 - Mettre en sécurité sociale
+- + Chapitre 4: Faire triompher l'égalité contre le racisme et les discriminations
+- + Éradiquer les agressions racistes
+- + La vie républicaine réclame l'unité du peuple. Aujourd'hui, et depuis longtemps, elle est défigurée par le racisme. Loin d'être un phénomène strictement culturel ou symbolique, celui-ci relève avant tout d'un système de domination matérielle. Emploi, logement, éducation, sûreté, dignité: tous les aspects de l'existence sont traversés par le racisme. Y mettre fin est la condition sine qua non pour une vie meilleure.
+- + Mesure clé
+- + Mettre en œuvre un plan d'action pour analyser, prévenir et lutter contre l'islamophobie, l'antisémitisme et toutes les formes de racisme et y allouer le milliard de budget nécessaire
+- + - Créer un commissariat à l'égalité doté d'un observatoire des discriminations pour coordonner les politiques publiques de lutte contre les racismes
+- + - Assurer la sécurité des lieux cultuels et culturels de notre pays en renforçant, si nécessaire, toutes les mesures de protection policières dont ils bénéficient, du fait des attaques et menaces contre des mosquées et des synagogues
+- + - Généraliser les campagnes de testing, pouvant donner lieu à des sanctions en cas de pratiques discriminatoires avérées
+- + - Expérimenter les dossiers anonymes dans l'accès à l'emploi, au logement, aux études supérieures, etc.
+- + - Créer un organisme indépendant dédié à la lutte contre les complotismes et contre les haines antisémites et islamophobes en ligne, placé sous l'égide de l'Autorité de régulation de la communication audiovisuelle et numérique (Arcom), dont l'objectif sera notamment d'accompagner les victimes dans leurs démarches
+- + - Mettre en place des règles contre les biais discriminatoires des intelligences artificielles et des technologies médicales, notamment sur la qualité des ensembles de données d'entraînement et les procédures d'essai pour la détection et la correction desdits biais
+- + - Reconnaître officiellement le traumatisme psychique conséquent au vécu raciste, et permettre aux victimes de bénéficier d'une prise en charge et d'une réparation intégrale effective
+- + - Renforcer la lutte contre toutes les discriminations et garantir l'égalité réelle dans l'emploi en renforçant la formation et les moyens de contrôle
+- + - Renforcer les sanctions financières et pénales à l'encontre des entreprises ayant des pratiques discriminatoires, allant jusqu'au refus d'attribution de marchés publics
+- + Faire France de tout bois
+- + La France ne se définit ni par une couleur de peau, ni par une religion, ni même par une langue. Ceux qui naissent en France sont légitimes à devenir Français: c'est le droit du sol, qui existe en France depuis 1515! Ces dernières années, ce droit a cependant été détricoté. Il faudra le rétablir, et en finir avec les situations qui créent des catégories de «sous-citoyens».
+- + Mesure clé
+- + Garantir le droit du sol intégral à tous les enfants nés en France, le rétablir sur l'ensemble du territoire national et faciliter l'accès à la nationalité française
+- + - Abroger les mesures liberticides de la loi dite «contre le séparatisme» et le contrat d'engagement républicain
+- + - Instituer le droit de vote des étrangers aux élections locales
+- + Décoloniser les mentalités
+- + La colonisation est un crime. La Nouvelle France s'identifie aux luttes d'émancipation de celles et ceux qui y ont mis fin. Dans notre mémoire collective, ce sont eux que nous devons célébrer et non les maîtres colons.
+- + Mesure clé
+- + Instaurer le 4 février comme jour férié national en mémoire des victimes de l'esclavage et de leurs luttes s'ajoutant au jour de commémoration spécifique à chaque territoire d'Outre-mer
+- + - Développer de manière pluridisciplinaire la recherche universitaire, la formation des enseignants et le contenu des programmes et manuels scolaires sur l'histoire de l'esclavage, de la colonisation et de l'immigration
+- + - Ouvrir les archives sur les guerres de décolonisation, être ouvert à la discussion quant aux demandes de restitution et de circulation des biens culturels issus de la colonisation
+- + - Reconnaître le massacre des Algériens du 17 octobre 1961 comme un crime d'État au cours d'une journée nationale de commémoration
+- + - Instaurer le 2 août comme journée de commémoration du génocide des Roms, des Manouches, des Sinti, des Gitans, des Yéniches et des Voyageurs
+- + - Créer une commission d'enquête sur le massacre des tirailleurs sénégalais à Thiaroye le 1er décembre 1944
+- + Organiser la formation des fonctionnaires au contact du public et créer un brevet obligatoire pour les policiers
+- + L'universalité des droits n'est pas négociable en république. Pourtant, les personnes racisées et immigrées sont les plus exposées aux discriminations dans l'accès aux services publics. Et, quand elles sont victimes d'actes racistes, peu d'entre elles osent porter plainte, anxieuses à l'idée de l'accueil qui pourrait leur être réservé. Les associations de défense des droits humains alertent depuis des années sur le racisme au sein de la police française. Les services publics font ainsi face à un défi de taille: faire de l'égalité, principe inscrit dans le droit, une réalité vécue par toutes et tous.
+- + Mesure clé
+- + Mettre en place le récépissé de contrôle d'identité par les agents de police et la gendarmerie pour lutter contre le contrôle au faciès, accompagné de dispositifs de formation, de contrôle et de sanctions
+- + - Former massivement les fonctionnaires au contact du public, notamment au sein de la police, la justice et la santé, à la reconnaissance et à la lutte contre toutes les formes de racisme
+- + - Homologuer la formation à la lutte contre les discriminations par un brevet obligatoire pour les policiers
+- + - Établir un plan de prévention et de lutte contre les dérives racistes au sein des effectifs de police et de gendarmerie afin de garantir la neutralité républicaine des forces de sécurité
+- + - Instaurer des pôles spécialisés au sein des services publics et des cours d'appel
+- + - Abroger les amendes forfaitaires délictuelles, qui remplacent les procès par des jugements arbitraires immédiats des policiers
+- + - Créer un référent discriminations dans chaque hôpital et développer l'interprétariat médical public
+
+## ajoute : https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale
+
+- + Gérer le consentement aux cookies
+- + Pour offrir les meilleures expériences, nous utilisons des technologies telles que les cookies pour stocker et/ou accéder aux informations des appareils. Le fait de consentir à ces technologies nous permettra de traiter des données telles que le comportement de navigation ou les ID uniques sur ce site. Le fait de ne pas consentir ou de retirer son consentement peut avoir un effet négatif sur certaines caractéristiques et fonctions.
+- + Fonctionnel Fonctionnel Toujours activé
+- + Le stockage ou l'accès technique est strictement nécessaire dans la finalité d'intérêt légitime de permettre l'utilisation d'un service spécifique explicitement demandé par l'abonné ou l'internaute, ou dans le seul but d'effectuer la transmission d'une communication sur un réseau de communications électroniques.
+- + Préférences Préférences
+- + Le stockage ou l'accès technique est nécessaire dans la finalité d'intérêt légitime de stocker des préférences qui ne sont pas demandées par l'abonné ou la personne utilisant le service.
+- + Statistiques Statistiques
+- + Le stockage ou l'accès technique qui est utilisé exclusivement à des fins statistiques. Le stockage ou l'accès technique qui est utilisé exclusivement dans des finalités statistiques anonymes. En l'absence d'une assignation à comparaître, d'une conformité volontaire de la part de votre fournisseur d'accès à internet ou d'enregistrements supplémentaires provenant d'une tierce partie, les informations stockées ou extraites à cette seule fin ne peuvent généralement pas être utilisées pour vous identifier.
+- + Marketing Marketing
+- + Le stockage ou l'accès technique est nécessaire pour créer des profils d'internautes afin d'envoyer des publicités, ou pour suivre l'internaute sur un site web ou sur plusieurs sites web ayant des finalités marketing similaires.
+- + - Gérer les options
+- + - Gérer les services
+- + - Gérer {vendor_count} fournisseurs
+- + - En savoir plus sur ces finalités
+- + Voir les préférences
+- + - Mentions légales
+- + - {title}
+- + - {title}
+- + Aller au contenu
+- + L'Avenir en commun
+- + Le programme de la Nouvelle France
+- + Table des matières
+- + Retour Partager
+- + Partie 1 - Pour une bifurcation écologique et sociale
+- + La première tâche de la Nouvelle France est de se confronter à la plus grande crise existentielle à laquelle l'humanité ait jamais fait face: la catastrophe écologique, et avec elle son cortège de canicules, tempêtes, sécheresses, inondations et pollutions. Rien de tout cela ne tombe du ciel. Le capitalisme nous précipite droit dans le mur en détruisant les écosystèmes, en déréglant les cycles écologiques qui régissent les conditions nécessaires à la vie sur terre, en instaurant le règne du chacun pour soi et en organisant notre impréparation au changement climatique. Mais l'avenir peut aussi être autre chose qu'une suite de catastrophes angoissantes. L'horizon peut s'ouvrir sur une société d'harmonie entre les êtres humains et avec la nature, dans laquelle les cycles naturels et les cycles de la vie humaine seraient enfin en phase. À une condition: celle de rompre avec ce système en planifiant la bifurcation écologique et sociale.
+- + Partie suivante
+
+## ajoute : https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre1
+
+- + Partie 1 - Pour une bifurcation écologique et sociale
+- + Chapitre 1: Planification écologique
+- + La bifurcation écologique pour une société de l'harmonie
+- + L'urgence écologique et climatique suppose de rompre avec le système de l'argent-roi. L'exigence d'une société d'harmonie des êtres humains entre eux et avec la nature doit déterminer toute l'action de l'État. Elle doit être inscrite au sommet de la hiérarchie des normes grâce à la «règle verte». L'enjeu est la reconquête collective du temps long. C'est le but de la planification écologique comme méthode pour gouverner par les besoins.
+- + Mesure clé
+- + Inscrire dans la Constitution le principe de la «règle verte», selon laquelle on ne prélève pas davantage sur la nature que ce qu'elle est en état de reconstituer
+- + - Instaurer un moratoire sur les grands projets inutiles, imposés et écocidaires, les réévaluer au regard de la «règle verte» et de leur impact sur la biosphère
+- + - Respecter au plus vite les engagements climatiques de la France, relever le niveau de ses ambitions, avec une baisse de 65% des émissions de gaz à effet de serre (GES) d'ici 2033, et rendre public un bilan annuel incluant les émissions importées
+- + - Adopter des lois-cadres instaurant une planification écologique et démocratique coordonnant les échelles nationale et locale
+- + - Donner les moyens humains et financiers à l'État et ses opérateurs publics (comme le Centre d'études et d'expertise sur les risques, l'environnement, la mobilité et l'aménagement (Cerema), l'Office national des forêts (ONF), l'Office français de la biodiversité (OFB) ou Météo-France) de mener à bien la planification
+- + - Créer un conseil à la planification écologique pour l'organiser
+- + - Obliger les entreprises à adopter une comptabilité carbone pour les émissions directes et indirectes de GES certifiée par un organisme public agréé en commençant par les secteurs les plus polluants - énergie, transport, bâtiment, industrie lourde - puis selon la taille des entreprises, accompagnée d'une trajectoire de baisse de leurs émissions
+- + - Instaurer un crime climatique de dissimulation et de tromperie sur les émissions carbone des entreprises
+- + - Inscrire dans les comptes publics un diagnostic régulier de l'état des écosystèmes, avec des indicateurs biophysiques et économiques permettant d'évaluer les coûts d'une restauration de leurs capacités
+- + - Développer un outil national via l'Institut national de la statistique et des études économiques (Insee) pour suivre en temps réel les données clés sur l'économie et l'environnement en compilant des images satellites, des mesures terrestres et maritimes, des informations sur les actifs industriels énergétiques et leur impact, etc.
+- + - Mettre en place une logistique verte: rompre avec les flux tendus, développer les modes de transport propres et structurer une logistique territoriale, notamment en renforçant le rôle du train et du fluvial ainsi qu'en mutualisant les flux du dernier kilomètre
+- + Les Outre-mer, avant-postes de la planification écologique
+- + Les Outre-mer seront les pilotes de la planification écologique et du progrès humain. Ces dix dernières années, des «plans pays» ont émergé grâce aux mobilisations des Ultramarins. Ils doivent servir de modèle pour fixer de grands objectifs écologiques capables de satisfaire les besoins essentiels: autonomie énergétique, relocalisation de la production alimentaire, déploiement d'une économie de la mer.
+- + Mesure clé
+- + Faire des Outre-mer des territoires pilotes de la planification écologique: circuits courts, autonomie énergétique et 100% renouvelable, autosuffisance alimentaire, politique maritime, protection de la biodiversité
+- + - Instaurer un bouclier douanier en faveur des productions locales à faible empreinte écologique
+- + - Appliquer une préférence commerciale pour les produits ultramarins vers l'Hexagone et nouer des partenariats commerciaux équilibrés avec les voisins régionaux
+- + - Tendre vers l'autosuffisance alimentaire grâce à l'agriculture paysanne écologique et aux filières agroalimentaires locales
+- + - Sauver les trésors de biodiversité des Outre-mer en renforçant les moyens d'étude et de protection des espèces animales et végétales
+- + - Promouvoir des plans d'autonomie énergétique
+- + - Renforcer la résilience des Outre-mer face aux risques naturels majeurs en améliorant les dispositifs de prévention, de gestion de crise et de réparation avec des solutions innovantes et des moyens adaptés aux besoins des populations
+- + - Développer l'offre locale de formation aux métiers de la bifurcation écologique (électricité et déploiement d'énergies renouvelables, utilisation de matériaux biosourcés locaux, foresterie et pêche durables)
+- + - Généraliser et faciliter les prélèvements et analyses des sols des «jardins créoles» des particuliers (notamment en Martinique et Guadeloupe) afin d'encourager les pratiques agroécologiques déjà à l'œuvre
+- + - Engager un plan spécifique de développement des transports collectifs en Outre-mer sur le modèle du projet de tram-train à La Réunion
+- + - Lutter contre la pêche illégale dans les eaux territoriales françaises
+
+## ajoute : https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre2
+
+- + Partie 1 - Pour une bifurcation écologique et sociale
+- + Chapitre 2: Produire nous-mêmes pour répondre aux besoins
+- + Réindustrialiser et relocaliser pour assurer notre indépendance
+- + Avec la désindustrialisation, la France a perdu sa souveraineté dans de nombreux domaines, parfois essentiels. Désastreux sur le plan économique, les deux quinquennats Macron ont aggravé ce phénomène: la production industrielle n'a toujours pas retrouvé son niveau d'avant Covid-19. Voilà le sinistre bilan de sa politique ultralibérale. Tandis que les actionnaires se gorgent de dividendes et d'aides de l'État, des dizaines de milliers de familles françaises voient leur vie bouleversée par les plans sociaux et les délocalisations. La France ne doit pas dépendre d'autres États pour ses productions essentielles: lorsqu'une crise éclate, il est déjà trop tard pour relocaliser.
+- + Mesure clé
+- + Relocaliser les productions essentielles à la vie de notre pays
+- + - Créer une agence pour les relocalisations, placée sous la tutelle du conseil à la planification écologique, en charge du recensement des secteurs industriels indispensables à la souveraineté nationale et à la bifurcation écologique ainsi que de l'établissement d'un plan de relocalisation pour chaque filière ou production stratégique identifiée
+- + - Engager un plan de reconstruction industrielle pour mettre fin à la dépendance de la France dans les domaines stratégiques (semi-conducteurs, médicaments, etc.)
+- + - Réformer et investir les comités stratégiques de filières (CSF) pour en faire de réels lieux d'élaboration de la planification écologique dans le domaine industriel
+- + - Présenter chaque année devant le Parlement la stratégie industrielle globale des administrateurs de l'État, avec un débat en hémicycle suivi d'un vote
+- + - Créer des pactes de commande publique entre l'État et certaines filières industrielles pour garantir un niveau de commandes publiques en échange du respect de certains critères écologiques et sociaux dans la production
+- + - Instaurer un contrat de bifurcation écologique garantissant les droits sociaux, la formation et la rémunération des salariés pour leur assurer un cadre protecteur en cas de reconversion d'une entreprise
+- + - Créer, pour les salariés, un droit de reprise d'activité préférentiel dans un but écologique, en cas de cession ou de fermeture d'entreprise, ainsi qu'un droit de préemption, en cas de pratiques contraires à l'intérêt écologique général
+- + Investir pour lancer la bifurcation de notre économie
+- + Acier, automobile, chimie, agriculture, robotique ou encore pharmacie: les difficultés de nombreuses filières productives menacent la capacité du pays à conduire la bifurcation écologique et à garantir notre souveraineté. Pour atteindre les objectifs de la planification écologique, il faut être en mesure de fabriquer ici les produits et les infrastructures dont nous avons besoin. Lancer cette grande transformation de notre économie nécessite d'investir au plus vite pour pallier ce qui n'a pas été fait pendant dix ans.
+- + Mesure clé
+- + Lancer un grand plan d'investissements écologiquement et socialement utiles
+- + - Conditionner les aides publiques versées aux entreprises à l'adoption des objectifs écologiques et sociaux définis par le Plan; exiger le remboursement des aides en cas de non-respect des contreparties
+- + - Reprendre les sites en difficulté ou en cours de vente à l'étranger pour stopper l'hémorragie dans les secteurs stratégiques comme la chimie, l'automobile, le numérique
+- + - Produire en France l'acier décarboné dont nous avons besoin pour la bifurcation écologique, notamment en nationalisant ArcelorMittal France
+- + - Constituer une réserve stratégique nationale d'acier et de minerai
+- + - Planifier la construction de modèles de voitures électriques légères et abordables
+- + - Développer une filière française de bombardiers d'eau et de drones pour lutter contre les feux de forêts
+- + - Proposer des contrats de transition agroécologique sur plusieurs années aux agriculteurs, ouvrant droit à un accompagnement public pour les aider à adapter et transformer leur activité
+- + - Relocaliser 80 principes actifs nécessaires pour des médicaments stratégiques en 5 ans en priorisant les antibiotiques, antidouleurs, antiépileptiques et spécialités de réanimation
+- + - Faire adopter un plan de sortie des dépendances numériques par toutes les administrations publiques, collectivités locales et entreprises publiques
+- + - Planifier le rattrapage de la France en matière de robotisation de l'industrie pour revenir à hauteur avec l'Allemagne, soit 400 robots pour 10 000 salariés
+- + - Développer des filières de robotique dans la santé, la mer et l'espace
+- + - Relancer l'observation spatiale de la Terre au service de la lutte contre le changement climatique grâce à un programme placé sous la responsabilité du Centre national d'études spatiales (CNES)
+- + - Structurer une filière textile autour du lin pour garantir une offre de vêtements français accessibles et développer massivement le réemploi
+- + Refuser la concurrence généralisée
+- + En mettant les usines françaises en concurrence avec celles de pays aux normes sociales et écologiques moins-disantes, le libre-échange a dépecé l'industrie nationale. Les gouvernements macronistes ont mis le pays dans l'impasse en laissant toute latitude aux actionnaires de délocaliser et de licencier. Pourtant, les unes après les autres, les grandes puissances tournent la page du libre-échange. Cette nouvelle donne est une opportunité pour permettre au pays de produire ce dont il a besoin.
+- + Mesure clé
+- + Adopter des mesures antidumping d'urgence sur les industries stratégiques: sidérurgie, automobile, pharmaceutique
+- + - Réviser le Code des marchés publics pour favoriser les entreprises sociales et solidaires, écologiques et locales
+- + - Faire l'inventaire et l'évaluation des accords de libre-échange déjà appliqués et imposer le respect des normes sociales et écologiques pour la commercialisation des produits importés en France
+- + - Instaurer des droits de douane sur des critères écologiques (émissions carbone, pollution, consommation d'eau)
+- + - Mettre fin aux niches fiscales sur le kérosène pour limiter le dumping exercé par l'e-commerce depuis l'étranger
+- + - Instaurer une taxe kilométrique aux frontières de la France pour dissuader les délocalisations et l'importation de produits trop éloignés
+- + - Exiger un dépôt de garantie préalable auprès de la Banque de France en contrepartie d'un investissement étranger dans le pays
+
+## ajoute : https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3
+
+- + Partie 1 - Pour une bifurcation écologique et sociale
+- + Chapitre 3: Les grands chantiers de la bifurcation écologique
+- + Planifier l'adaptation au changement climatique
+- + Le changement climatique est commencé. Les mandats Sarkozy, Hollande et Macron nous ont fait prendre du retard dans les batailles pour y faire face et s'y adapter. Il y a urgence à planifier la bifurcation écologique de notre économie en lançant de grands chantiers pour relever ce défi. Notre plan peut créer plusieurs centaines de milliers d'emplois et réduire massivement le chômage.
+- + Mesure clé
+- + Engager un plan global de rénovation de nos infrastructures pour les adapter au changement climatique
+- + - Lancer un plan de dépollution de la Méditerranée, ainsi que de nos façades maritimes et fonds marins de l'océan Atlantique, de la mer du Nord, de l'océan Indien et de l'océan Pacifique
+- + - Rénover l'intégralité des réseaux d'eau et d'assainissement pour limiter les fuites et garantir le droit humain à l'eau et à l'assainissement
+- + - Lancer des grands travaux de rénovation des voies ferrées et de réouverture des lignes et gares fermées ces trente dernières années
+- + - Investir dans l'efficacité et la sobriété énergétiques, ainsi que dans les projets énergétiques innovants comme les énergies marines renouvelables
+- + - Accélérer la modernisation et l'enfouissement du réseau de lignes à haute tension
+- + - Réaliser un diagnostic national des ouvrages d'art (ponts, viaducs, digues, barrages) et les consolider
+- + - Reconstituer de manière durable nos capacités productives dans le secteur du bois et fixer les unités de production au plus près des massifs forestiers: sciage, menuiserie (meubles, charpentes, constructions écologiques), production de panneaux, cartons et pâte à papier
+- + - Planifier le développement de filières d'écoconstruction en matériaux biosourcés et géosourcés (dont bois, terre, paille), imposer des quotas dans la commande publique
+- + - Augmenter les effectifs et les moyens des forces de sécurité civile
+- + - Planifier l'installation de solutions de rafraîchissement dans les hôpitaux, les établissements d'hébergement pour personnes âgées dépendantes (EHPAD), les écoles, les lieux collectifs et les espaces publics (réseaux de fraîcheur urbains, climatisation, végétalisation, ombrières, etc.)
+- + - Imposer la gratuité de lieux refuges, rafraîchis en cas d'alerte canicule (piscines publiques, médiathèques, musées, etc.)
+- + - Planifier une stratégie nationale de sobriété métal, qui permette une utilisation de minerai conforme aux besoins collectifs et à l'intérêt général humain
+- + Le droit à l'eau dans les Outre-mer
+- + Dans tous les Outre-mer, les ruptures d'accès à l'eau potable se multiplient malgré la mobilisation des habitants. L'inaction prolongée des gouvernements quant à cette situation est un cas avéré de racisme environnemental. La moitié de l'eau potable se perd à cause des fuites de réseaux de canalisation laissés à l'abandon. Un grand plan d'investissement et d'adaptation des infrastructures s'impose pour garantir le droit à l'eau aux populations des Outre-mer.
+- + Mesure clé
+- + Garantir, quoi qu'il en coûte, l'accès à l'eau courante potable à tous les habitants des Outre-mer
+- + - Rétablir une distribution d'eau de bonne qualité et en volume suffisant dans les territoires d'Outre-mer où le service public de l'eau est défaillant
+- + - Lancer des travaux urgents pour remplacer, notamment en Guadeloupe, les canalisations des réseaux d'eau potable et d'assainissement via un financement de l'État
+- + - Adopter la régie comme mode de gestion de l'eau et de l'assainissement tout en prévoyant des sanctions conséquentes lorsque les délégataires, concessionnaires et fermiers ne remplissent pas leurs obligations contractuelles, notamment en matière d'entretien des réseaux
+- + - En cas de pénurie, déclencher un plan visant à la distribution de bouteilles d'eau (plan ORSEC-eau), en plafonnant leur prix, dans tous les endroits où le service public de l'eau potable et de l'assainissement est défaillant
+- + - Annuler la dette citoyenne résultant du problème de facturation des anciens opérateurs et/ou d'impayés pour service non rendu et cesser le recouvrement forcé de celle-ci
+- + - Garantir que ni la dette existante, ni les investissements à venir des opérateurs de l'eau, ne seront répercutés sur la facture des usagers
+- + - Mettre en œuvre un plan d'urgence pour résoudre la crise de l'eau à Mayotte
+- + Développer les transports publics écologiques, repenser la mobilité individuelle
+- + Le transport ferroviaire a été sacrifié au nom de la concurrence. Des gares et des milliers de kilomètres de lignes ont été fermés depuis 1970. Les camions envahissent désormais nos routes. La libéralisation du rail empêche toute politique de bifurcation écologique. Il est urgent de relocaliser les productions et de réduire les distances entre bassins de vie et bassins d'emploi.
+- + Mesure clé
+- + Créer un pôle public des transports et de la mobilité
+- + - Mailler tout le pays de transports publics interconnectés combinant trains, transports collectifs urbains et interurbains, vélos
+- + - Renationaliser la Société nationale des chemins de fer français (SNCF) et refuser la mise en concurrence des lignes de transport
+- + - Stopper la suppression des lignes ferroviaires du quotidien et en réouvrir, augmenter le nombre et la fréquence des trains tout en garantissant des tarifs accessibles, maintenir et réimplanter des guichets physiques dans les gares
+- + - Réduire le prix des billets de train, notamment en mettant fin à la gestion algorithmique des prix
+- + - Revenir sur la liquidation de Fret SNCF, poussée par la Commission européenne et mise en place par les gouvernements Macron
+- + - Développer massivement le fret ferroviaire, notamment le wagon isolé, et rendre obligatoire le raccordement des plateformes logistiques au réseau ferré, dès lors qu'aucune contrainte écologique n'existe
+- + - Développer les transports publics à la demande hors des zones denses en transport public
+
+## ajoute : https://melenchon2027.fr/programme/livre/un-monde-ordonne
+
+- + Gérer le consentement aux cookies
+- + Pour offrir les meilleures expériences, nous utilisons des technologies telles que les cookies pour stocker et/ou accéder aux informations des appareils. Le fait de consentir à ces technologies nous permettra de traiter des données telles que le comportement de navigation ou les ID uniques sur ce site. Le fait de ne pas consentir ou de retirer son consentement peut avoir un effet négatif sur certaines caractéristiques et fonctions.
+- + Fonctionnel Fonctionnel Toujours activé
+- + Le stockage ou l'accès technique est strictement nécessaire dans la finalité d'intérêt légitime de permettre l'utilisation d'un service spécifique explicitement demandé par l'abonné ou l'internaute, ou dans le seul but d'effectuer la transmission d'une communication sur un réseau de communications électroniques.
+- + Préférences Préférences
+- + Le stockage ou l'accès technique est nécessaire dans la finalité d'intérêt légitime de stocker des préférences qui ne sont pas demandées par l'abonné ou la personne utilisant le service.
+- + Statistiques Statistiques
+- + Le stockage ou l'accès technique qui est utilisé exclusivement à des fins statistiques. Le stockage ou l'accès technique qui est utilisé exclusivement dans des finalités statistiques anonymes. En l'absence d'une assignation à comparaître, d'une conformité volontaire de la part de votre fournisseur d'accès à internet ou d'enregistrements supplémentaires provenant d'une tierce partie, les informations stockées ou extraites à cette seule fin ne peuvent généralement pas être utilisées pour vous identifier.
+- + Marketing Marketing
+- + Le stockage ou l'accès technique est nécessaire pour créer des profils d'internautes afin d'envoyer des publicités, ou pour suivre l'internaute sur un site web ou sur plusieurs sites web ayant des finalités marketing similaires.
+- + - Gérer les options
+- + - Gérer les services
+- + - Gérer {vendor_count} fournisseurs
+- + - En savoir plus sur ces finalités
+- + Voir les préférences
+- + - Mentions légales
+- + - {title}
+- + - {title}
+- + Aller au contenu
+- + L'Avenir en commun
+- + Le programme de la Nouvelle France
+- + Table des matières
+- + Retour Partager
+- + Partie 6 - Un monde ordonné
+- + Nous n'avons jamais été aussi proches d'une guerre généralisée. Avec elle, le droit international et les institutions au service de la paix sont remis en question par des criminels de guerre qui ne répondent qu'à la loi du plus fort. Ce nouvel ordre mondial, que certains aimeraient voir triompher, menace le peuple humain tout entier. Nous le refusons catégoriquement. La France doit être à l'initiative d'un «Front du refus» pour l'empêcher et revenir à un monde ordonné. Il y a urgence àa rendre à la France son indépendance afin qu'elle puisse se mettre au service de la paix et refuser la nouvelle compétition suprémaciste qui se profile. Redonner à notre pays une position non alignée, c'est refuser de fermer les yeux quand l'horreur s'abat sur les peuples bombardés. C'est refuser de se soumettre aux logiques bellicistes de puissances qui voient dans la guerre un moyen de s'approprier des ressources qui ne leur appartiennent pas. C'est défendre la paix et de nouvelles coopérations internationales au service de l'intérêt général humain.
+
+## ajoute : https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1
+
+- + Partie 6 - Un monde ordonné
+- + Chapitre 1: Se libérer du libéralisme en Europe
+- + Depuis bientôt quarante ans, l'Union européenne (UE) a réduit son projet aux principes libéraux: concurrence libre et non faussée, liberté totale de circulation des marchandises et des capitaux, politiques budgétaires austéritaires et banque centrale indépendante. Ces règles ont déjà été rejetées par le peuple français, qui s'est exprimé sur ce texte par référendum en 2005. Ce vote a été tenu pour nul puisque, deux ans plus tard, le Parlement français, réuni en congrès, adoptait le traité de Lisbonne, reprenant l'essentiel des dispositions contre lesquelles le peuple avait voté. Depuis, l'UE a pu se permettre tous les abus de pouvoirs, comme par exemple avec la mise sous tutelle, durant la décennie 2010, d'un État membre, la Grèce, dont le peuple a été martyrisé. Elle a pu passer sans discussion de «l'Europe de la paix» à l'Europe de la défense et de l'économie d'armement. Avant cela, elle a pu abroger sa Charte sociale et la remplacer par un texte lourdement régressif. L'Europe que nous avons sous les yeux est une construction sans rapport avec le projet initial qu'elle annonçait.
+- + Depuis les élections européennes de 2024, l'UE s'enfonce davantage encore dans sa logique ultralibérale et dérégulatrice. Elle défait méthodiquement le peu d'avancées écologiques et sociales acquises lors du mandat précédent. Elle signe des accords de libre-échange destructeurs, notamment avec le Mercosur, l'Inde ou les États-Unis. Et elle cède aux injonctions xénophobes de l'extrême droite en durcissant encore ses politiques migratoires. L'année 2027 sera charnière pour les politiques européennes avec l'adoption du nouveau budget pluriannuel de l'UE et la réforme de la politique agricole commune (PAC). Mais aussi l'extension du marché carbone aux particuliers pour le logement et le transport, qui fera payer aux plus précaires le coût de la transition écologique.
+- + Une nouvelle donne se dessine désormais. Car tous les principes néolibéraux sur lesquels se fondent les traités européens sont devenus publiquement obsolètes. Ils ont été contredits par la réalité elle-même. Deux présidents des États-Unis, Joe Biden (démocrate) et Donald Trump (républicain), ont refermé l'ère du libre-échange. Pendant la crise du Covid-19, les institutions européennes, elles-mêmes, ont été contraintes de suspendre leurs absurdes règles économiques, tant du côté budgétaire que monétaire. Aujourd'hui, de nombreux États, dont l'Allemagne, grande gardienne en Europe de l'ordolibéralisme, passent outre les règles budgétaires et de concurrence pour tenter de sortir de leur récession en réorientant leur économie autour de leur industrie guerrière.
+- + Le moment est mûr pour se libérer du libéralisme en Europe. La France sera à l'initiative de cette proposition avec une stratégie en quatre points. Avec nous, la France ne sortira ni de l'Union, ni de la zone euro; elle appliquera, en revanche, sans aucune concession, le programme choisi démocratiquement par son peuple, même si cela n'est pas permis par les traités.
+- + Le principe de non-régression écologique et sociale
+- + Nous proposerons au Parlement français d'adopter un principe de non-régression écologique et sociale, puis de l'inscrire dans la Constitution dans le cadre de la Constituante. La France transcrira dans son droit national les règles européennes seulement si elles améliorent l'existant en matière de protection sociale, de protection de l'environnement et de respect des droits humains. Aucune norme européenne ne pourra donc s'appliquer si elle est moins ambitieuse qu'une norme nationale sur le plan social ou écologique.
+- + Ce principe nous permettra de refuser l'application:
+- + - Des grands plans de dérégulation dits «omnibus», qui détruisent les rares progrès permis par le droit européen et mettent en danger les travailleurs, la santé et l'environnement, tel celui adopté sur le devoir de vigilance des multinationales, ou celui sur les pesticides, qui réautorise la mise sur le marché de nombreux produits hier interdits
+- + - Du projet dit de «28e régime», qui veut contourner les législations nationales protectrices des travailleurs et créer toujours plus de niches fiscales et de régimes d'exception, entraînant ainsi une harmonisation «par le bas»
+- + - Des législations européennes sur la migration (pacte sur la migration et l'asile, règlement dit «retour», etc.), qui font obstacle à une politique humaniste et réaliste
+- + - De la directive sur les travailleurs détachés, qui tire vers le bas les systèmes de sécurité sociale des États membres
+- + Un droit d'objection souveraine sur certaines politiques européennes
+- + Le Parlement français votera sur la suspension de certaines règles de fonctionnement de l'UE, le temps que ces règles soient révisées, dès lors que cette suspension est indispensable à l'application du programme choisi majoritairement par le peuple français.
+- + Ce moratoire concernera notamment:
+- + - Le semestre européen, qui met sous surveillance budgétaire les États membres et les contraint à des politiques d'austérité perpétuelles
+- + - La libre circulation sans limite des marchandises et des capitaux, qui empêche, par exemple, la mise en place d'une clause de sauvegarde sanitaire contre l'entrée de certains produits dangereux pour la santé
+- + - Les règles de concurrence appliquées, entre autres choses, aux services publics, et qui nous ont notamment contraint à la libéralisation de biens communs comme l'énergie, le transport et les télécoms
+- + - L'Europe de la défense, aujourd'hui toujours conçue comme un «pilier européen de l'OTAN» (Organisation du traité de l'Atlantique nord) nord-américain
+- + - Les accords de libre-échange
+- + Nous appliquerons immédiatement, dans tous les cas, notre programme au niveau national. Il faudra donc assumer la confrontation avec les institutions européennes. Nous utiliserons pour cela tous les leviers pour faire valoir notre position au Conseil européen (droit de veto sur les accords de libre-échange ou projet d'élargissement, conditionnement de la contribution française au budget européen etc.). Cela veut dire aussi la désobéissance aux règles bloquantes, chaque fois que cela sera nécessaire.
+- + Ces deux stratégies s'alimentent mutuellement: c'est en agissant en éclaireurs que nous pourrons entraîner les autres peuples européens et changer les règles de fond en comble!
+- + La construction d'un bloc de bifurcation en Europe
+- + Nous nous appuierons sur les intérêts communs que la France partage avec certains États, notamment au sud de l'Europe. Beaucoup de peuples en Europe souffrent de la construction européenne telle qu'elle est. La France peut construire des coalitions pour obtenir des changements profonds de la politique européenne:
+- + - La fin de la politique absurde de resserrement monétaire de la Banque centrale européenne (BCE) et la reprise de ses rachats de dettes publiques afin que la politique monétaire serve l'intérêt général, et non les intérêts des banques privées
+- + - La suspension pour tous des règles budgétaires des 3% de déficit, comme pendant la crise du Covid-19
+- + - La sortie coordonnée du marché européen de l'énergie
+- + - Des mécanismes d'harmonisation fiscale et sociale par le haut, par exemple en étendant la clause de l'Européenne la plus favorisée à tous les domaines
+- + - Une réforme de la politique agricole commune (PAC) pour cesser de favoriser l'agriculture industrielle et destructrice
+- + - L'introduction de protections douanières et d'un impôt sur les multinationales dans le prochain budget européen
+- + - La suspension de l'accord d'association UE-Israël, qui rend l'Union européenne complice du génocide
+- + Pour la rupture avec le libéralisme du traité de Lisbonne
+- + La France proposera aussi une nouvelle étape pour l'Europe, en rupture avec des décennies de libéralisme, dont les impasses apparaissent aujourd'hui plus clairement que jamais. C'est pourquoi notre position ne sera pas uniquement défensive, mais aussi constructive. Comme pays fondateur, deuxième économie et bientôt première population de l'Union, nous avons toute légitimité pour proposer une refondation de la coopération en Europe sur des principes totalement différents. Ce changement du principe de l'action de l'Union européenne devrait prendre une forme officielle telle qu'une convention ou qu'un nouvel accord général des pays membres réunis en conseil. Nous mettrons sur la table des propositions pour fonder de nouveaux traités:
+- + - La souveraineté budgétaire des parlements nationaux
+- + - Une BCE placée sous contrôle démocratique et mobilisée pour financer la bifurcation écologique et sociale des États
+- + - La suppression du veto des paradis fiscaux européens en matière fiscale, qui siphonne nos recettes budgétaires et sape le consentement à l'impôt
+- + - La mise en place de règles d'harmonisation sociale, fiscale et écologique à l'intérieur de l'Union
+- + - La mise en place d'un protectionnisme écologique et solidaire, avec notamment une taxe kilométrique aux frontières de l'UE
+- + - Le droit pour les États de venir librement en aide à des entreprises d'intérêt public ou de créer des monopoles publics dans des secteurs stratégiques
+
+## ajoute : https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2
+
+- + Partie 6 - Un monde ordonné
+- + Chapitre 2: Une France indépendante au service de la paix
+- + Assumer l'indépendance de la France dans le monde
+- + En s'alignant sur les États-Unis, le gouvernement français a laissé commettre un génocide à Gaza. En ne condamnant pas les guerres d'agression contre le Liban et l'Iran, comme elles avaient condamné la guerre d'agression contre l'Ukraine, les autorités françaises ont fait la démonstration de leur double standard diplomatique. La servitude volontaire de l'Europe face à Washington se retourne aujourd'hui contre elle: par ses menaces d'annexion contre le Groenland et le Canada, Trump remet en cause l'intégrité territoriale d'États membres de l'OTAN. Avec sa vision fascisante et suprémaciste, Trump incarne un nouvel âge de l'impérialisme. Il extorque un tribut à ses «alliés» et entreprend une stratégie de généralisation de la guerre pour contrecarrer la place prise par la Chine dans le capitalisme mondialisé. La France doit prendre la tête du camp de la paix: abandonner l'atlantisme et retrouver une voix indépendante sont plus que jamais une nécessité.
+- + Mesure clé
+- + Se retirer immédiatement du commandement intégré de l'OTAN puis, par étapes, de l'organisation elle-même
+- + - Sortir la France de l'isolement occidental et recommencer à parler au monde entier en refusant la doctrine du «choc des civilisations», en portant une action internationale non-alignée au service de la paix, en promouvant une conception universelle et non dévoyée des droits humains
+- + - Renforcer le «Front du refus» contre la stratégie belliciste des États-Unis en étant le premier État membre permanent du Conseil de sécurité à le rejoindre
+- + - Rejeter le tribut, exigé par les États-Unis, de 5% du PIB consacré aux dépenses de défense
+- + - Protéger le Groenland face aux menaces états-uniennes en étendant à l'ensemble des territoires associés à l'UE les garanties de sécurité prévues par les traités
+- + - Refuser toute inscription de notre pays dans une alliance militaire permanente dans la région Asie-Pacifique et ailleurs
+- + - Engager la formation d'une nouvelle entente altermondialiste
+- + - Rétablir le réseau diplomatique français et stopper son alignement sur l'atlantisme de l'UE
+- + Construire une défense souveraine au service de la paix
+- + La France doit être capable de se défendre et de porter secours à ses partenaires européens alliés, notamment en vertu de l'article 42-7 du traité sur l'Union européenne (TUE), sans être dépendante des États-Unis. Nous redéfinirons le format de nos armées, en donnant la priorité aux moyens techniques qui rendent possible l'usage de la force: les «encapacitants» stratégiques, c'est-à-dire les moyens du renseignement, information, communication et logistique notamment. Au sein de l'OTAN, ces moyens sont aujourd'hui fournis par les États-Unis. Ces «encapacitants» doivent donc faire l'objet d'un travail de production prioritaire de la France. Ils garantiront notre capacité d'action pour nous-même et, le cas échéant, pour nos partenaires en cas de conflit.
+- + Mesure clé
+- + Donner la priorité à l'investissement dans les «encapacitants» stratégiques, refonder et restaurer toutes les capacités de recherche, de formation et de production stratégique dans les domaines des sauts technologiques pour pallier les dépendances militaires dans une trajectoire compatible avec la bifurcation écologique
+- + - Créer un modèle d'armée basé sur les technologies de ruptures, (cyber, spatial, cloud, IA) et réduire nos dépendances militaires dans ces domaines en développant des programmes souverains
+- + - Porter assistance à nos partenaires par la production d'«encapacitants» de pointe, dans les domaines cyber, spatial et de renseignement, par exemple en offrant une alternative à Starlink
+- + - Créer un pôle public de l'armement pour réintégrer dans le secteur public les entreprises nécessaires pour planifier à long terme la satisfaction de nos besoins industriels et technologiques en matière de défense
+- + - Relancer les processus multilatéraux de désarmement nucléaire et conventionnel dans le cadre de la conférence du désarmement de l'Organisation des Nations unies (ONU) et participer comme observateur au traité sur l'interdiction des armes nucléaires (TIAN)
+- + - Engager une stratégie ambitieuse pour la maîtrise des fonds marins en confortant les services compétents de la Marine, en charge notamment de la cartographie ainsi que de la protection des approches et des infrastructures
+- + - Refuser tout soutien aux guerres illégales, quels qu'en soient les belligérants, en interdisant l'accès aux infrastructures logistiques françaises et en stoppant toutes les exportations d'armement et de biens à double usage
+- + - Instaurer un contrôle parlementaire effectif des exportations d'armes pour s'assurer du respect du droit international humanitaire et des droits humains, en particulier du respect par la France du traité sur le commerce des armes
+- + - Définir, avec la communauté internationale, une doctrine de sécurisation des sites nucléaires en zones de guerre et soutenir la protection immédiate des réacteurs en Ukraine et au Moyen-Orient, par la présence de l'ONU, avec l'appui de l'Agence internationale de l'énergie atomique (AIEA)
+- + - Porter des initiatives de régulation des nouveaux armements dans les enceintes onusiennes: démilitarisation de l'espace, encadrement des systèmes d'armes létales autonomes (SALA)
+- + - Organiser une capacité de projection des forces armées françaises, dont le déploiement se ferait exclusivement dans le cadre d'un mandat de l'ONU
+- + - Faire de la lutte contre les violences sexuelles et sexistes et contre les discriminations au sein des armées une exigence immédiate, dans les unités comme dans les écoles de formation et les lycées militaires
+- + - Adapter le matériel militaire et l'équipement de nos soldats à la nouvelle donne climatique
+- + - Renforcer les moyens dédiés à la condition militaire et les moyens du service de santé des armées; renforcer le dispositif ATHOS et simplifier l'indemnisation et la reconnaissance des blessures physiques et psychiques au sein de l'armée française
+- + Renforcer l'ONU pour faire vivre un monde ordonné
+- + En dépit de ses insuffisances, l'ONU reste le seul organe légitime, car universel, pour assurer la sécurité collective. Elle est pourtant attaquée dans ses fondements mêmes par le président Donald Trump, qui a retiré les États-Unis de plusieurs de ses organes, et a constitué un prétendu «Conseil de la paix» dans l'objectif avoué de supplanter l'ONU. L'Organisation est également sapée de l'intérieur par des manques financiers structurels, qui la rendent dépendante du bon vouloir de sociétés privées «partenaires». Pour la paix et le droit international, la France doit œuvrer, sans aucune arrière-pensée, au retour en force de cette institution face aux déséquilibres et aux menaces.
+- + Mesure clé
+- + Réaffirmer que l'ONU est le seul organe légitime pour la sécurité collective
+- + - Refuser toute intervention militaire sans mandat clair de l'ONU, rétablir l'autorité du Comité d'état-major des Nations unies
+- + - Créer une organisation mondiale de l'environnement, défendre l'Organisation des Nations unies pour l'éducation, la science et la culture (Unesco) et œuvrer à ce que l'Organisation mondiale de la santé (OMS) s'affranchisse des intérêts de l'industrie pharmaceutique
+- + - Agir pour une réforme du Conseil de sécurité et de l'Assemblée générale de l'ONU afin que l'organisation fondée en 1945 soit représentative du monde actuel
+- + - Réformer l'Organisation des Nations unies pour l'agriculture et l'alimentation (FAO) afin de favoriser la souveraineté alimentaire, la régulation des marchés et la conversion écologique de l'agriculture
+- + - Soutenir l'action de l'ONU, et notamment de l'UNRWA, l'agence en charge des réfugiés palestiniens, et le renforcement de la présence de l'ONU au Liban
+- + - Construire avec les États et les sociétés concernées, sous l'égide de l'ONU, et dans le cadre du droit international, des solutions politiques partout où la paix n'est pas garantie (Proche et Moyen-Orient, Afrique sahélienne, Afrique centrale, Cachemire, Caucase, Corne de l'Afrique, etc.)
+
+## ajoute : https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3
+
+- + Partie 6 - Un monde ordonné
+- + Chapitre 3: Les nouvelles coopérations de la diplomatie altermondialiste
+- + Refuser le libre-échange, instaurer un protectionnisme écologique et la coopération économique entre les États
+- + L'ère du libre-échange généralisé et de la prétendue «mondialisation heureuse» est révolue. Distancés par la Chine, à présent première puissance productive mondiale, les États-Unis se lancent dans une guerre commerciale perdue d'avance. Pour cela, ils imposent des droits de douane, qui brutalisent l'ensemble des échanges internationaux. Au lieu de défendre la souveraineté de la France, Emmanuel Macron a aligné notre pays sur les exigences néolibérales de la Commission européenne. Ce faisant, il a rendu notre pays extrêmement vulnérable. Cette fuite en avant doit prendre fin: un protectionnisme solidaire, négocié et tourné vers la satisfaction des besoins humains, est la seule stratégie viable pour résister à l'offensive économique de Donald Trump. L'indépendance de la France ne peut être effective qu'en s'affranchissant de toute logique impérialiste.
+- + Mesure clé
+- + Porter au sein du Fonds monétaire international (FMI), de la Banque mondiale et de l'Organisation mondiale du commerce (OMC) des propositions de rupture avec le néolibéralisme international, et réinvestir la Conférence des Nations unies sur le commerce et le développement (CNUCED)
+- + - Intégrer le respect des règles fondamentales de l'Organisation internationale du travail (OIT) dans les accords commerciaux
+- + - Agir pour l'adoption à l'ONU d'un règlement contraignant les multinationales à respecter des normes sociales et environnementales
+- + - Œuvrer à un règlement collectif des dettes publiques, indépendamment des mécanismes du marché, dans le cadre de la résolution votée par l'Assemblée générale de l'ONU en 2015
+- + - Interdire l'exportation de pesticides interdits en Europe
+- + Pour une politique migratoire humaniste et réaliste
+- + Vivre un parcours migratoire est toujours une double souffrance: ne pas être chez soi où l'on vit, et ne plus être chez soi d'où l'on vient. Les migrations sont un sujet trop sérieux pour les réduire à des surenchères. La première tâche est de permettre à chacun de vivre chez soi, auprès de ses proches. Pour cela, il faut arrêter les guerres et les accords commerciaux qui détruisent les économies et affronter le changement climatique.
+- + Mesure clé
+- + Faciliter l'accès aux visas et instituer la carte de séjour de dix ans comme titre de séjour de référence
+- + - Renforcer le Haut-Commissariat des Nations unies pour les réfugiés (HCR) et organiser une conférence annuelle sur les migrations
+- + - S'opposer aux accords commerciaux inéquitables afin d'éviter l'exil des populations
+- + - Créer un statut de «détresse environnementale» apportant une protection temporaire, pouvant devenir durable en fonction de la gravité de la catastrophe ayant entraîné la migration
+- + - Agir contre les conséquences des bouleversements climatiques par des transferts de technologies, de la coopération multilatérale, et du soutien aux initiatives locales
+- + - Refuser l'application du pacte européen sur la migration et l'asile
+- + - Assumer notre devoir d'humanité envers les réfugiés en garantissant sans concession le droit d'asile
+- + - Prendre en charge les personnes migrantes grâce à des structures d'accueil et d'hébergement en nombre suffisant sur tout le territoire, créer un guichet unique d'accueil
+- + - Garantir l'indépendance administrative de l'Office français de protection des réfugiés et apatrides (Ofpra)
+- + - Régulariser les travailleurs, étudiants, parents d'enfants scolarisés sans papiers
+- + - Fermer les centres de rétention administrative (CRA) en les remplaçant par des alternatives plus humaines et efficaces fondées sur l'accompagnement juridique, l'hébergement ouvert et le respect des libertés fondamentales
+- + - Supprimer la liste des pays d'origine sûrs et améliorer la prise en compte des identités de genre et des orientations sexuelles dans les procédures en mettant fin aux discriminations administratives et en assurant une protection réelle
+- + - Abroger les dernières lois sur l'asile et l'immigration, la circulaire dite «Retailleau» et l'ensemble des textes qui criminalisent les personnes étrangères et les personnes aidantes
+- + - Garantir l'accès à l'aide médicale d'État (AME) et assurer un accès effectif au soutien psychosocial pour les demandeurs d'asile
+- + - Assurer l'accès aux droits (justice, santé, etc.) des femmes ayant subi des violences sexuelles dans le cadre de leur parcours migratoire
+- + Les Outre-mer, fer de lance d'une diplomatie écologique altermondialiste
+- + Grâce aux Outre-mer, la France est présente à tous les points clés de l'écosystème. Elle possède le deuxième domaine maritime au monde. La Guyane française abrite près de 80% de la biodiversité nationale et partage avec le Brésil la plus longue frontière terrestre de notre pays. Le devoir de la France est fixé par ses responsabilités vis-à-vis des Outre-mer. Elle doit être le fer de lance d'une diplomatie universaliste. Les Outre-mer en seront les points d'appui.
+- + Mesure clé
+- + Construire des politiques internationales à partir des Outre-mer: préservation de l'Amazonie, aide aux peuples autochtones menacés par la montée des eaux et la sécheresse
+- + - Faire des Outre-mer des pôles régionaux de codéveloppement: transfert de technologies auprès des pays voisins, aide logistique et scientifique, établissement de formations de haut niveau bénéficiant à la fois aux étudiants ultramarins et à ceux des pays voisins, coopération militaire de maintien de la paix
+- + - Rejoindre les coopérations régionales: la Communauté d'États latino-américains et caraïbes (CELAC) pour les Antilles et la Guyane française, l'Union africaine pour Mayotte, la Communauté de développement de l'Afrique australe (CDAA) pour La Réunion, qui participera activement aussi à l'Association des États riverains de l'océan Indien (IORA)
+- + - Garantir la paix dans l'océan Indien en négociant des accords de co-souveraineté sur l'espace maritime partagé avec Maurice autour de Tromelin et avec Madagascar autour des îles Éparses
+- + Construire des coopérations altermondialistes et internationalistes
+- + Un autre monde est possible, plus juste, plus ordonné, plus écologique. Pour cela, de nouvelles coopérations doivent être engagées et d'autres renforcées. La France doit œuvrer, sans exclusive, à tous les projets sortant d'une conception néolibérale et occidentaliste de la mondialisation, promouvant des biens publics mondiaux exempts des mécanismes du marché et luttant contre les inégalités et la crise écologique. Elle a les moyens de développer des coopérations dans le non-alignement.
+- + Mesure clé
+- + Consacrer 0,7% du revenu national brut à une aide publique au développement débarrassée du carcan néolibéral
+- + - Agir pour la paix et respecter l'indépendance des États et la souveraineté des peuples
+
+## ajoute : https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins
+
+- + Gérer le consentement aux cookies
+- + Pour offrir les meilleures expériences, nous utilisons des technologies telles que les cookies pour stocker et/ou accéder aux informations des appareils. Le fait de consentir à ces technologies nous permettra de traiter des données telles que le comportement de navigation ou les ID uniques sur ce site. Le fait de ne pas consentir ou de retirer son consentement peut avoir un effet négatif sur certaines caractéristiques et fonctions.
+- + Fonctionnel Fonctionnel Toujours activé
+- + Le stockage ou l'accès technique est strictement nécessaire dans la finalité d'intérêt légitime de permettre l'utilisation d'un service spécifique explicitement demandé par l'abonné ou l'internaute, ou dans le seul but d'effectuer la transmission d'une communication sur un réseau de communications électroniques.
+- + Préférences Préférences
+- + Le stockage ou l'accès technique est nécessaire dans la finalité d'intérêt légitime de stocker des préférences qui ne sont pas demandées par l'abonné ou la personne utilisant le service.
+- + Statistiques Statistiques
+- + Le stockage ou l'accès technique qui est utilisé exclusivement à des fins statistiques. Le stockage ou l'accès technique qui est utilisé exclusivement dans des finalités statistiques anonymes. En l'absence d'une assignation à comparaître, d'une conformité volontaire de la part de votre fournisseur d'accès à internet ou d'enregistrements supplémentaires provenant d'une tierce partie, les informations stockées ou extraites à cette seule fin ne peuvent généralement pas être utilisées pour vous identifier.
+- + Marketing Marketing
+- + Le stockage ou l'accès technique est nécessaire pour créer des profils d'internautes afin d'envoyer des publicités, ou pour suivre l'internaute sur un site web ou sur plusieurs sites web ayant des finalités marketing similaires.
+- + - Gérer les options
+- + - Gérer les services
+- + - Gérer {vendor_count} fournisseurs
+- + - En savoir plus sur ces finalités
+- + Voir les préférences
+- + - Mentions légales
+- + - {title}
+- + - {title}
+- + Aller au contenu
+- + L'Avenir en commun
+- + Le programme de la Nouvelle France
+- + Table des matières
+- + Retour Partager
+- + Partie 2 - Une économie au service des besoins
+- + Dans la société du tout-marché, une caste d'actionnaires se gave, pendant que le peuple se serre la ceinture. Les dividendes explosent, les factures des Français aussi. Il est temps de briser cette logique en mettant au pas la finance et en organisant la production pour qu'elle réponde aux besoins essentiels du plus grand nombre: se nourrir, se chauffer, se loger, se vêtir et se divertir. Le quotidien ne doit plus être marqué par le renoncement à des repas, à des sorties au cinéma ou à des vacances. L'heure est venue d'un nouveau collectivisme, d'une révolution fiscale et d'un pacte productif ambitieux.
+- + Partie suivante
+
+## ajoute : https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre1
+
+- + Partie 2 - Une économie au service des besoins
+- + Chapitre 1: L'ère d'un nouveau collectivisme
+- + Mettre fin au pillage économique de la Nation
+- + Infrastructures, services publics, fleurons industriels ou technologiques, industries de souveraineté: combien de privatisations à vil prix, de partenariats abusifs, d'ouvriers aux savoir-faire inestimables jetés dans la précarité? Ces dernières années, de nombreux secteurs de l'économie française ont été les victimes de fonds financiers prédateurs. Ces biens publics nous appartiennent à tous. Pour l'intérêt général, ils doivent être protégés par la loi.
+- + Mesure clé
+- + Revenir sur les privatisations (aéroports, autoroutes, Française des jeux, etc.)
+- + - Rendre effectif le droit de réquisition des usines et entreprises d'intérêt général par l'État
+- + - Décréter un moratoire sur les partenariats public-privé (PPP), auditer ceux en cours et abroger les dispositions législatives les permettant
+- + - Poursuivre les atteintes au patrimoine industriel français relevant des «intérêts fondamentaux de la Nation», comme le prévoit le Code pénal
+- + - Constituer des pôles publics dans les secteurs stratégiques: médicament, transports et mobilité, banque et assurance, énergie, armement, mines, satellite
+- + Collectiviser les biens communs fondamentaux
+- + Une minorité veut vendre au marché jusqu'aux biens les plus essentiels à la survie humaine. L'intérêt général humain exige de protéger dans la loi ces biens communs de l'humanité. C'est au peuple de contrôler démocratiquement leurs usages et d'assurer leur protection. L'eau et l'air, qui permettent la vie, doivent être collectivisés.
+- + Mesure clé
+- + Empêcher le droit de propriété privée de prévaloir sur la protection de l'eau, de l'air, de l'alimentation, du vivant, de la forêt, de la santé et de l'énergie
+- + - Créer un Défenseur des biens communs, chargé de produire un rapport annuel public sur leur état
+- + - Établir dans la Constitution de la 6e République la liste des biens communs et services essentiels à gérer collectivement
+- + - Garantir un accès respectueux à la nature pour tous, en rétablissant un plein accès aux sentiers balisés, restreint par les macronistes
+- + Reconnaître la citoyenneté dans l'entreprise et des droits nouveaux pour les salariés
+- + La 6e République de la Nouvelle France rompra l'état de servitude dans lequel nous sommes maintenus dans les entreprises. La démocratie ne doit pas s'arrêter aux portes des seules institutions politiques. Elle doit également s'imposer à l'économie, et nous ferons tout pour que les citoyens, maîtres dans la cité, le soient aussi sur leur lieu de travail.
+- + Mesure clé
+- + Créer un droit de préemption pour permettre aux salariés de reprendre leur entreprise sous la forme d'une coopérative
+- + - Accorder aux comités d'entreprise un droit de veto suspensif sur les plans de licenciements, les projets de cession, y compris de holdings, et de nouveaux droits de contrôle sur les finances de leur entreprise
+- + - Donner plus de pouvoir aux salariés lors des procédures de redressement et de liquidation d'entreprises; instaurer le droit à un vote de défiance à l'égard des dirigeants d'entreprises ou des projets stratégiques
+- + - Renforcer la représentation des salariés dans les instances de décision des grandes entreprises à hauteur d'un tiers au moins et inclure d'autres parties prenantes, comme les associations environnementales ou de consommateurs
+- + - Garantir les droits des représentants du personnel et des délégués syndicaux contre les licenciements abusifs des salariés protégés
+- + - Instaurer des comités sociaux et économiques de site (centre commercial, zone industrielle)
+- + - Permettre aux salariés des très petites entreprises d'avoir une représentation syndicale extérieure
+- + - Réformer les tribunaux de commerce en assurant une meilleure représentation des salariés dans leur composition
+- + Faire la société de l'entraide: bâtir une économie de coopération
+- + Face à la prédation de la finance et à la dictature des actionnaires, une autre économie est possible. Elle existe déjà, avec ses centaines de milliers d'entreprises et ses millions d'emplois. Nous proposons qu'elle se substitue à l'économie libérale. Il s'agit de remplacer l'autoritarisme individuel par la délibération collective, le travail imposé par le travail émancipateur, la production aveugle par la production planifiée. Puisque le capitalisme ne supporte pas la démocratie, remplaçons-le.
+- + Mesure clé
+- + Généraliser l'économie sociale et solidaire (ESS) et protéger le secteur associatif
+- + - Garantir l'accès de l'ESS au financement et aux marchés publics
+- + - Donner la priorité aux structures non lucratives de l'ESS sur le secteur privé classique pour certaines activités essentielles: petite enfance, aide aux personnes âgées, restauration collective
+- + - Favoriser le développement des sociétés coopératives d'intérêt collectif (SCIC) et des sociétés coopératives et participatives (Scop), ainsi que de services communs fondés sur une gouvernance partagée entre citoyens et usagers, salariés, partenaires publics et privés
+- + - Redonner du pouvoir et des moyens aux associations citoyennes et aux acteurs de l'éducation populaire, sortir de la logique d'appels à projets et généraliser les conventions pluriannuelles afin de leur garantir stabilité, indépendance et visibilité financière
+- + - Garantir les libertés associatives
+- + - Reconnaître et valoriser le bénévolat comme une force d'émancipation, d'éducation populaire et d'expérimentation collective, contribuant pleinement à la vie sociale, démocratique et économique
+- + - Développer les coopératives d'activités et d'emploi (CAE), afin de lutter contre l'autoentrepreneuriat subi et de développer des formes de travail en commun
+
+## ajoute : https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2
+
+- + Partie 2 - Une économie au service des besoins
+- + Chapitre 2: Partager les richesses
+- + Créer un état d'urgence sociale
+- + Covid-19, guerres en Ukraine et en Iran, canicules et sécheresses: les crises écologiques et géopolitiques ont eu des effets sociaux désastreux ces dernières années. Les gouvernements Macron ont multiplié les états d'urgence et d'exception, sécuritaire ou sanitaire, allant tous dans le même sens: la restriction des libertés individuelles et collectives. Nous leur substituerons un «état d'urgence sociale» pour que les désordres du monde ne conduisent pas à la mort sociale de millions de gens.
+- + Mesure clé
+- + Bloquer et encadrer les prix des produits de première nécessité (alimentation, énergie, carburant) et interdire la «réduflation» (réduction des quantités pour le même prix)
+- + - Renforcer le bouclier qualité-prix dans les Outre-mer
+- + - Augmenter immédiatement le SMIC à 1 700 euros net mensuel et les minima sociaux
+- + - Revaloriser la valeur du point d'indice des fonctionnaires de 10%, inscrire son dégel dans la loi et compenser intégralement cette augmentation pour les collectivités territoriales
+- + - Revaloriser les aides pour le logement (APL) de 10%
+- + - Mettre en place des stocks tampons de matières premières alimentaires pour lisser les prix et garantir une offre en temps de crise
+- + Faire la révolution fiscale
+- + Après dix années de cadeaux aux plus riches, la France est plus que jamais une société de privilèges. Comme l'a écrit le Financial Times: «C'est comme si 1789 n'avait jamais eu lieu.» Désormais, les riches payent moins d'impôts que les autres, quand bien même ils s'enrichissent. La fortune des milliardaires français a doublé. Pendant ce temps, les salaires réels ont baissé, les services publics se sont dégradés. Notre fiscalité doit être entièrement refondée, sur des bases claires et justes, en appliquant le principe de progressivité: plus on gagne d'argent, plus on contribue au bien public!
+- + Mesure clé
+- + Rendre l'impôt sur le revenu plus progressif avec un barème à 14 tranches contre 5 aujourd'hui
+- + - Refonder l'impôt sur les sociétés pour établir l'égalité devant l'impôt entre petites et moyennes entreprises (PME) et grands groupes; instaurer un barème progressif et moduler l'impôt selon l'usage des bénéfices afin d'encourager leur réinvestissement plutôt que la distribution de dividendes
+- + - Rétablir et renforcer l'impôt de solidarité sur la fortune (ISF) incluant un volet climatique visant à taxer les gros pollueurs
+- + - Introduire une garantie d'impôt de 2% sur le patrimoine des centimillionaires, dite «taxe Zucman», et rétablir une exit tax renforcée pour lutter contre l'évasion fiscale
+- + - Supprimer la flat tax et imposer les revenus du capital comme ceux du travail
+- + - Augmenter les droits de succession sur les plus hauts patrimoines en comptabilisant l'ensemble des dons et héritages reçus tout au long de la vie; créer un héritage maximal de 12 millions d'euros
+- + - Exonérer de droits de succession les héritages inférieurs à 150 000 euros
+- + - Instaurer une «TVA grand luxe» visant des produits de consommation ostentatoires et incompatibles avec l'impératif de sobriété (yachts, jets privés, palaces, etc.)
+- + - Passer au crible les niches fiscales et supprimer celles qui sont injustes, inefficaces socialement ou nuisibles écologiquement; pour les niches restantes, transformer les réductions d'impôt en crédits d'impôt afin que chacun puisse bénéficier de ces incitations financières à égalité, quels que soient ses revenus
+- + - Instaurer un impôt universel sur les entreprises (basant leur taxation sur l'activité effectivement réalisée en France) et sur les revenus des particuliers pour lutter contre l'évasion fiscale
+- + - Établir une taxe sur les superprofits de toutes les grandes entreprises, activée en cas de hausse soudaine de leurs bénéfices en période de crise
+- + - Mettre fin au quotient conjugal, système patriarcal favorisant les inégalités salariales entre les femmes et les hommes
+- + - Créer un crédit d'impôt par enfant pour toutes les familles
+- + - Faire de la lutte contre la fraude et l'évasion fiscales une priorité en renforçant massivement les moyens humains et financiers du contrôle fiscal, et en assumant des mesures unilatérales en cas de blocage des négociations au niveau européen ou international
+- + - Mettre fin à la convention judiciaire d'intérêt public, qui permet aux entreprises de négocier leur sanction financière en cas de fraude fiscale
+- + - Intensifier les poursuites judiciaires et durcir les sanctions à l'encontre des criminels en col blanc reconnus coupables de fraude fiscale
+- + - Mettre fin aux pratiques frauduleuses d'arbitrage de dividendes
+- + - Rendre obligatoire la publication du montant des aides publiques perçues par les plus grandes entreprises; créer une commission d'enquête afin d'évaluer leur efficacité et les conditionner au respect d'objectifs définis par le Plan
+- + - Créer une mission spéciale dressant le bilan des faveurs fiscales, des privatisations et des abandons de fleurons comme Alstom, Alcatel, EADS depuis trois décennies, permettre les poursuites judiciaires des responsables de ces cessions
+- + - Rendre l'impôt plus juste en remplaçant la cotisation sur la valeur ajoutée des entreprises (CVAE) par un nouvel impôt sur les entreprises, dont la progressivité sera fonction du chiffre d'affaires et de l'empreinte écologique globale, pour financer l'action des éco-régions
+- + Augmenter les salaires
+- + Alors que les revenus de certains dirigeants explosent de manière indécente, un salarié au SMIC gagne à peine plus que le seuil de pauvreté. 60% de ces salariés sont des femmes, souvent employées à temps partiel. Depuis 2022, les Français ont par ailleurs connu deux crises inflationnistes, sans que leurs salaires augmentent pour autant. Ce véritable vol de salaire par la hausse des prix doit être corrigé. Il faut relancer à la hausse les salaires dans l'intérêt du bonheur commun.
+- + Mesure clé
+- + Porter immédiatement le SMIC mensuel à 1 700 euros net et indexer les salaires sur l'inflation dans le privé comme dans la fonction publique
+- + - Revaloriser la rémunération des apprentis et des alternants
+- + - Organiser une conférence sociale nationale sur les salaires et les conditions de travail, déclinée dans chaque branche, notamment pour:
+
+## ajoute : https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre3
+
+- + Partie 2 - Une économie au service des besoins
+- + Chapitre 3: Un pacte productif pour répondre aux besoins
+- + Mettre au pas la finance
+- + La financiarisation est un danger: à nouveau, nous sommes menacés d'une crise financière mondiale. En 2008, la finance a mis à terre l'économie réelle. Sauvées par les États, et donc les contribuables, les banques n'ont pas changé leurs mauvaises habitudes. Bénéficiant de l'absence quasi totale de règles, une nouvelle finance non-bancaire a envahi notre économie. Des fonds prédateurs pillent nos entreprises. Il faut stopper ce cycle infernal en mettant au pas la finance.
+- + Mesure clé
+- + Instaurer une taxe réelle sur les transactions financières
+- + - Séparer strictement les banques d'affaires et les banques de détail
+- + - Contrôler les mouvements de capitaux
+- + - Identifier et interdire les produits dérivés toxiques et inutiles de la finance, limiter les effets de levier et les rendements actionnariaux exorbitants, taxer les rachats d'action
+- + - Protéger le tissu économique des fonds vautours:
+- + -
+- + - Réguler la «finance de l'ombre» (le secteur financier non-bancaire) aussi strictement que les banques, et interdire aux banques de prêter aux acteurs les plus risqués de la finance non-bancaire
+- + - Instaurer un régime d'autorisation préalable par l'État pour les grandes opérations de rachat d'entreprise avec effet de levier (LBO) tout en supprimant les avantages fiscaux desdits LBO
+- + - Empêcher les manipulations comptables dans les groupes pour échapper à l'impôt ou pour mettre en faillite artificiellement des filiales en interdisant les remontées abusives vers les holdings, en plafonnant les frais de conseil, les frais de management et les prestations intra-groupe
+- + - Renforcer le contrôle des investissements étrangers dans tous les secteurs présentant un caractère stratégique, y compris a posteriori, en obligeant la notification de tout investissement étranger au ministère de l'Économie
+- + Pour des banques au service de l'intérêt général
+- + Le crédit est à la base de l'activité future. Les banques doivent donc avoir une mission d'intérêt général. Il est crucial d'orienter l'argent en direction des projets socialement et écologiquement utiles. La monnaie doit aussi être un bien commun créé et géré démocratiquement.
+- + Mesure clé
+- + Créer un pôle public bancaire et de l'assurance et transformer la Banque publique d'investissement (BPI) en véritable banque publique des besoins productifs
+- + - Socialiser certaines banques de détail et les intégrer au pôle public bancaire, en vue de financer les très petites entreprises (TPE) sur des critères sociaux et écologiques
+- + - Réaliser un audit du coût économique, social et écologique des banques et de la finance
+- + - Créer des banques de désinvestissement afin de regrouper les actifs écologiquement nocifs et absorber les pertes économiques liées à l'arrêt des activités polluantes
+- + - Dépolluer les flux financiers en pénalisant la détention et l'usage d'actifs financiers qui aggravent le changement climatique et la destruction des écosystèmes, ainsi qu'en renchérissant le crédit pour les entreprises dont la comptabilité carbone contrevient à l'accord de Paris
+- + - Appliquer strictement les réglementations du secteur des crypto-actifs pour limiter son impact environnemental nocif et ses usages spéculatifs
+- + - Garantir un euro numérique 100% public qui respecte la vie privée des usagers et ne remplace pas l'argent liquide; limiter la dépendance de l'économie française aux systèmes de paiement étrangers
+- + - Garantir la gratuité du socle bancaire essentiel pour tous les titulaires d'un compte courant
+- + Définanciariser l'économie réelle
+- + Les actionnaires exigent des taux de rendement intenables, obtenus au détriment des droits sociaux et des conditions, notamment environnementales, de production. Ils imposent la tyrannie du temps court sur le temps long de l'activité humaine et du rythme écologique. Il faut protéger l'économie réelle des agissements de ces spéculateurs en reprenant le pouvoir sur la finance.
+- + Mesure clé
+- + Établir de nouveaux indicateurs statistiques de progrès humain pour mettre l'économie au service du bien-vivre (santé, éducation, etc.)
+- + - Interdire aux entreprises de distribuer un montant de dividendes supérieur à leurs bénéfices de l'année
+- + - Mettre fin à la cotation continue des entreprises en Bourse et moduler les droits de vote des actionnaires selon la durée d'engagement dans l'entreprise
+- + - Interdire les licenciements boursiers et économiques par les entreprises qui versent des dividendes ou bénéficient des aides de l'État
+- + Refuser le chantage: définanciariser la dette publique
+- + La dette publique est instrumentalisée pour justifier les saignées budgétaires à répétition et les privatisations. Le patrimoine de l'État est pourtant supérieur à sa dette: en France, chaque enfant naît avec plus de 10 000 euros d'actif public! Mais la puissance publique a fait le choix de s'abaisser en se plaçant sous l'empire de marchés financiers qui peuvent la menacer d'augmenter les taux d'intérêt. Il y a moyen de faire autrement, en passant par la Banque centrale européenne (BCE), ou en créant des circuits de financement stables pour la dette publique française. Il faut aussi traiter la question des dettes privées, qui est un plus grand danger.
+- + Mesure clé
+- + Proposer la modification du traité de fonctionnement de l'Union européenne (TFUE) et du statut de la BCE pour lui permettre d'acheter de la dette publique sans passer par les banques privées en mettant notamment en place une autorisation de découvert des États auprès d'elle
+- + - Exiger de l'Union européenne (UE) que la BCE soulage les États membres en annulant ou en transformant en dettes perpétuelles à taux nul la part de dette des États qu'elle possède
+- + - Interdire à la BCE de revendre sur les marchés financiers la part de dette des États qu'elle détient
+- + - Reprendre, sans attendre de modification des traités, les programmes de rachat de dettes souveraines par la BCE, comme en 2015 et en 2020
+
+## modifie : https://melenchon2027.fr/programme/plans-thematiques/
+
+- − Comment nous allons garantir l'égalité pour des ruralités où il fait bon vivre?
+- + Comment nous allons garantir l'égalité pour des ruralités où il fait bon vivre
+- + Comment nous allons refonder l'enseignement supérieur, la recherche et la formation continue
+- + Comment nous allons reconstruire notre système de santé
+
+## ajoute : https://melenchon2027.fr/programme/plans-thematiques/esr/
+
+- + Gérer le consentement aux cookies
+- + Pour offrir les meilleures expériences, nous utilisons des technologies telles que les cookies pour stocker et/ou accéder aux informations des appareils. Le fait de consentir à ces technologies nous permettra de traiter des données telles que le comportement de navigation ou les ID uniques sur ce site. Le fait de ne pas consentir ou de retirer son consentement peut avoir un effet négatif sur certaines caractéristiques et fonctions.
+- + Fonctionnel Fonctionnel Toujours activé
+- + Le stockage ou l'accès technique est strictement nécessaire dans la finalité d'intérêt légitime de permettre l'utilisation d'un service spécifique explicitement demandé par l'abonné ou l'internaute, ou dans le seul but d'effectuer la transmission d'une communication sur un réseau de communications électroniques.
+- + Préférences Préférences
+- + Le stockage ou l'accès technique est nécessaire dans la finalité d'intérêt légitime de stocker des préférences qui ne sont pas demandées par l'abonné ou la personne utilisant le service.
+- + Statistiques Statistiques
+- + Le stockage ou l'accès technique qui est utilisé exclusivement à des fins statistiques. Le stockage ou l'accès technique qui est utilisé exclusivement dans des finalités statistiques anonymes. En l'absence d'une assignation à comparaître, d'une conformité volontaire de la part de votre fournisseur d'accès à internet ou d'enregistrements supplémentaires provenant d'une tierce partie, les informations stockées ou extraites à cette seule fin ne peuvent généralement pas être utilisées pour vous identifier.
+- + Marketing Marketing
+- + Le stockage ou l'accès technique est nécessaire pour créer des profils d'internautes afin d'envoyer des publicités, ou pour suivre l'internaute sur un site web ou sur plusieurs sites web ayant des finalités marketing similaires.
+- + - Gérer les options
+- + - Gérer les services
+- + - Gérer {vendor_count} fournisseurs
+- + - En savoir plus sur ces finalités
+- + Voir les préférences
+- + - Mentions légales
+- + - {title}
+- + - {title}
+- + Aller au contenu
+- + Programme
+- + Les plans thématiques
+- + Comment nous allons refonder l'enseignement supérieur, la recherche et la formation continue
+- + À propos des plans thématiques
+- + À propos des plans thématiques
+- + Les plans thématiques sont des documents complémentaires de L'Avenir en Commun, le programme de Jean-Luc Mélenchon pour l'élection présidentielle.
+- + Ils établissent la quarantaine d'objectifs politiques, du plein emploi à la démocratisation de la révolution numérique, en passant par la planification écologique, que nous nous fixons pour le quinquennat et balisent le chemin pour les atteindre. Ils présentent ainsi de manière approfondie et détaillée les actions qu'entreprendra le gouvernement insoumis dès son arrivée au pouvoir en mai 2027 pour faire face aux défis et aux urgences de notre temps.
+- + Ces plans thématiques ont été élaborés de manière collective et contributive grâce au travail des groupes thématique et parlementaires de la France insoumise au sein de l'espace programme coordonné par Clémence Guetté, vice-présidente de l'Assemblée nationale et co-présidente de l'Institut La Boétie, et Hadrien Clouet député LFI.
+- + Comment nous allons refonder l'enseignement supérieur, la recherche et la formation continue
+- + télécharger le pdf
+- + Partager
+- + E-mail
+- + Facebook
+- + X
+- + Telegram
+- + WhatsApp
+- + Threads
+- + Sommaire
+- + -
+- + Les universités, la recherche et la formation tout au long de la vie, malades du néolibéralisme
+- + -
+
+## modifie : https://melenchon2027.fr/programme/plans-thematiques/ruralite/
+
+- − Comment nous allons garantir l'égalité pour des ruralités où il fait bon vivre?
+- − Comment nous allons garantir l'égalité pour des ruralités où il fait bon vivre?
+- + Comment nous allons garantir l'égalité pour des ruralités où il fait bon vivre
+- + Comment nous allons garantir l'égalité pour des ruralités où il fait bon vivre
+
+## ajoute : https://melenchon2027.fr/programme/plans-thematiques/sante/
+
+- + Gérer le consentement aux cookies
+- + Pour offrir les meilleures expériences, nous utilisons des technologies telles que les cookies pour stocker et/ou accéder aux informations des appareils. Le fait de consentir à ces technologies nous permettra de traiter des données telles que le comportement de navigation ou les ID uniques sur ce site. Le fait de ne pas consentir ou de retirer son consentement peut avoir un effet négatif sur certaines caractéristiques et fonctions.
+- + Fonctionnel Fonctionnel Toujours activé
+- + Le stockage ou l'accès technique est strictement nécessaire dans la finalité d'intérêt légitime de permettre l'utilisation d'un service spécifique explicitement demandé par l'abonné ou l'internaute, ou dans le seul but d'effectuer la transmission d'une communication sur un réseau de communications électroniques.
+- + Préférences Préférences
+- + Le stockage ou l'accès technique est nécessaire dans la finalité d'intérêt légitime de stocker des préférences qui ne sont pas demandées par l'abonné ou la personne utilisant le service.
+- + Statistiques Statistiques
+- + Le stockage ou l'accès technique qui est utilisé exclusivement à des fins statistiques. Le stockage ou l'accès technique qui est utilisé exclusivement dans des finalités statistiques anonymes. En l'absence d'une assignation à comparaître, d'une conformité volontaire de la part de votre fournisseur d'accès à internet ou d'enregistrements supplémentaires provenant d'une tierce partie, les informations stockées ou extraites à cette seule fin ne peuvent généralement pas être utilisées pour vous identifier.
+- + Marketing Marketing
+- + Le stockage ou l'accès technique est nécessaire pour créer des profils d'internautes afin d'envoyer des publicités, ou pour suivre l'internaute sur un site web ou sur plusieurs sites web ayant des finalités marketing similaires.
+- + - Gérer les options
+- + - Gérer les services
+- + - Gérer {vendor_count} fournisseurs
+- + - En savoir plus sur ces finalités
+- + Voir les préférences
+- + - Mentions légales
+- + - {title}
+- + - {title}
+- + Aller au contenu
+- + Programme
+- + Les plans thématiques
+- + Comment nous allons reconstruire notre système de santé
+- + À propos des plans thématiques
+- + À propos des plans thématiques
+- + Les plans thématiques sont des documents complémentaires de L'Avenir en Commun, le programme de Jean-Luc Mélenchon pour l'élection présidentielle.
+- + Ils établissent la quarantaine d'objectifs politiques, du plein emploi à la démocratisation de la révolution numérique, en passant par la planification écologique, que nous nous fixons pour le quinquennat et balisent le chemin pour les atteindre. Ils présentent ainsi de manière approfondie et détaillée les actions qu'entreprendra le gouvernement insoumis dès son arrivée au pouvoir en mai 2027 pour faire face aux défis et aux urgences de notre temps.
+- + Ces plans thématiques ont été élaborés de manière collective et contributive grâce au travail des groupes thématique et parlementaires de la France insoumise au sein de l'espace programme coordonné par Clémence Guetté, vice-présidente de l'Assemblée nationale et co-présidente de l'Institut La Boétie, et Hadrien Clouet député LFI.
+- + Comment nous allons reconstruire notre système de santé
+- + télécharger le pdf
+- + Partager
+- + E-mail
+- + Facebook
+- + X
+- + Telegram
+- + WhatsApp
+- + Threads
+- + Sommaire
+- + -
+- + 1. Emmanuel Macron: le fossoyeur de notre système de santé
+- + -
+
+## supprime : https://melenchon2027.fr/programme2025/livre/
+
+- − Gérer le consentement aux cookies
+- − Pour offrir les meilleures expériences, nous utilisons des technologies telles que les cookies pour stocker et/ou accéder aux informations des appareils. Le fait de consentir à ces technologies nous permettra de traiter des données telles que le comportement de navigation ou les ID uniques sur ce site. Le fait de ne pas consentir ou de retirer son consentement peut avoir un effet négatif sur certaines caractéristiques et fonctions.
+- − Fonctionnel Fonctionnel Toujours activé
+- − Le stockage ou l'accès technique est strictement nécessaire dans la finalité d'intérêt légitime de permettre l'utilisation d'un service spécifique explicitement demandé par l'abonné ou l'internaute, ou dans le seul but d'effectuer la transmission d'une communication sur un réseau de communications électroniques.
+- − Préférences Préférences
+- − Le stockage ou l'accès technique est nécessaire dans la finalité d'intérêt légitime de stocker des préférences qui ne sont pas demandées par l'abonné ou la personne utilisant le service.
+- − Statistiques Statistiques
+- − Le stockage ou l'accès technique qui est utilisé exclusivement à des fins statistiques. Le stockage ou l'accès technique qui est utilisé exclusivement dans des finalités statistiques anonymes. En l'absence d'une assignation à comparaître, d'une conformité volontaire de la part de votre fournisseur d'accès à internet ou d'enregistrements supplémentaires provenant d'une tierce partie, les informations stockées ou extraites à cette seule fin ne peuvent généralement pas être utilisées pour vous identifier.
+- − Marketing Marketing
+- − Le stockage ou l'accès technique est nécessaire pour créer des profils d'internautes afin d'envoyer des publicités, ou pour suivre l'internaute sur un site web ou sur plusieurs sites web ayant des finalités marketing similaires.
+- − - Gérer les options
+- − - Gérer les services
+- − - Gérer {vendor_count} fournisseurs
+- − - En savoir plus sur ces finalités
+- − Voir les préférences
+- − - Mentions légales
+- − - {title}
+- − - {title}
+- − Aller au contenu
+- − L'avenir en commun
+- − L'Avenir en commun est en cours de réactualisation. Sa nouvelle version sera bientôt publiée!
+- − L'Avenir en commun est le programme de la Nouvelle France. Il part de ses aspirations et répond à ses besoins en organisant la rupture avec l'ordre social, écologique, et économique dominant.
+- − À chaque étape, il se construit donc en impliquant le plus grand nombre. C'est pourquoi nous l'avons ouvert à contributions citoyennes.
+- − Merci pour vos nombreuses contributions. Nous en publierons bientôt une synthèse ici.
+- − Table des matières
+- − Lire la suite
+
+## ajoute : https://melenchon2027.fr/wp-content/uploads/2026/10/DP-POLE-PUBLIC-BANCAIRE_ST.pdf
+
+- + Élection présidentielle - 18 avril et 2 mai 2027
+- + POUR UN
+- + PÔLE PUBLIC
+- + BANCAIREAU SERVICE DES BESOINS
+- + POUR UN PÔLE PUBLIC BANCAIRE
+- + AU SERVICE DES BESOINS 4
+- + 7UN «PÔLE FINANCIER PUBLIC» MACRONISTE
+- + AVEC PEU DE MOYENS ET SOUMIS AUX MARCHÉS
+- + 1.
+- + 10
+- + NOTRE PROPOSITION: LE FINANCEMENT
+- + DES BESOINS PRODUCTIFS
+- + 2.
+- + 13
+- + LA RÉORIENTATION DE L'ÉPARGNE FRANÇAISE
+- + VERS LES ACTIVITÉS UTILES POUR LA NATION
+- + 3.
+- + 15
+- + PÔLE PUBLIC BANCAIRE: POUR
+- + UNE REFONTE DE LA GOUVERNANCE
+- + 4.
+- + 4Pour un pôle public bancaire au service des besoins
+- + Pour un pôle public bancaire
+- + au service des besoins
+- + D'immenses investissements productifs sont nécessaires pour faire
+- + face à l'urgence sociale et aux bouleversements écologiques. Or, ces
+- + investissements reculent. La France subit un record de défaillances
+- + d'entreprises. Faute de financements, des pans entiers de notre pro-
+- + duction s'écroulent, dans l'industrie, les transports, le logement, la
+- + santé... Ce manque d'investissements nous empêche de transformer
+- + notre appareil productif face aux bouleversements écologiques et
+- + conduit à un décrochage technologique majeur et à une perte drama-
+- + tique de souveraineté économique.
+- + Les ménages les plus aisés n'ont pourtant jamais accumulé autant
+- + d'épargne et le secteur financier n'a jamais fait circuler autant d'argent.
+- + Cet argent n'est pas orienté selon les besoins productifs de notre
+- + économie nationale, mais selon la rentabilité des capitaux. Il est uti-
+- + lisé pour piller à moindre coût les savoirs et compétences des entre-
+- + prises et en extraire le maximum de valeur, pour reverser les profits à
+- + de grandes fortunes et pour soutenir des activités nuisibles. C'est la
+
+## ajoute : https://melenchon2027.fr/wp-content/uploads/2026/10/plan_ESR_lowres.pdf
+
+- + LES PLANS THÉMATIQUES DE L'AVENIR EN COMMUN
+- + Élection présidentielle - 18 avril 2027
+- + ÉDITION 2027
+- + Le savoir comme bien commun
+- + 3
+- + LES UNIVERSITÉS, LA RECHERCHE 4
+- + ET LA FORMATION TOUT AU LONG
+- + DE LA VIE, MALADES DU NÉOLIBÉRALISME
+- + NOTRE STRATÉGIE: COMMENT NOUS ALLONS 8
+- + RECONSTRUIRE UN SERVICE PUBLIC DE
+- + L'ENSEIGNEMENT SUPÉRIEUR ET DE LA RECHERCHE
+- + COMMENT NOUS ALLONS REFONDER 12
+- + L'ENSEIGNEMENT SUPÉRIEUR, LA RECHERCHE
+- + ET LA FORMATION CONTINUE
+- + 1. Nos mesures d'urgence 13
+- + 1.1 En finir avec Parcoursup pour une université 13
+- + émancipatrice, ouverte et accessible à toutes et tous
+- + 1.2 Pour garantir des moyens à la hauteur des besoins 18
+- + 1.3 Pour assurer le respect des libertés académiques 20
+- + et l'indépendance de l'ESR
+- + 2. Nos mesures pour refonder le service public 23
+- + de l'enseignement supérieur, de la recherche
+- + et de la formation continue
+- + 2.1 Pour reconstruire le service public 23
+- + de l'enseignement supérieur
+- + 2.2 Pour renforcer le CNRS et les autres organismes 25
+- + nationaux de recherche
+- + 2.3 Pour démarchandiser la formation continue 26
+- + et renforcer les liens avec la formation initiale
+- + 2.4 Pour favoriser la diffusion des connaissances 28
+- + et la coopération internationale et francophone
+- + 4
+- + I. LES UNIVERSITÉS, LA RECHERCHE
+- + ET LA FORMATION TOUT AU LONG
+- + DE LA VIE, MALADES DU
+- + NÉOLIBÉRALISME
+- + 5
+- + Partout où il est appliqué, le logiciel néolibéral détruit. L'université et la
+- + formation tout au long de la vie en sont particulièrement victimes.
+- + D'un côté, le savoir est progressivement transformé en une marchandise
+
+## ajoute : https://melenchon2027.fr/wp-content/uploads/2026/11/plan_SANTE_lowres.pdf
+
+- + LES PLANS THÉMATIQUES DE L'AVENIR EN COMMUN
+- + Élection présidentielle - 18 avril et 2 mai 2027
+- + ÉDITION 2027
+- + RECONSTRUIRE
+- + NOTRE SYSTÈME DE SANTÉ
+- + EMMANUEL MACRON: 4
+- + LE FOSSOYEUR DE NOTRE
+- + SYSTÈME DE SANTÉ
+- + NOTRE STRATÉGIE POUR FAIRE 12
+- + DE LA SANTÉ UN BIEN COMMUN ET VAINCRE
+- + LES MALADIES ÉCOLOGIQUES
+- + COMMENT NOUS ALLONS 15
+- + RECONSTRUIRE NOTRE
+- + SYSTÈME DE SANTÉ
+- + 1. Nos mesures pour répondre à l'urgence 16
+- + 1.1 Lever les premiers obstacles financiers aux soins 16
+- + 1.2 Soutenir les équipes et rétablir les capacités 16
+- + hospitalières indispensables
+- + 1.3 Répondre à la crise de la psychiatrie 17
+- + 1.4 Commencer à éradiquer les maladies écologiques 18
+- + 3
+- + 2. Nos propositions pour faire 19
+- + de la santé un droit pour toutes et tous
+- + 2.1 Instaurer le 100% Sécu et financer 19
+- + les besoins de santé
+- + 2.2 Construire un service public des soins de proximité 22
+- + 2.3 Refonder l'hôpital public et garantir un système 24
+- + de santé de qualité pour toutes et tous
+- + 2.4 Former, recruter et protéger 26
+- + les professionnels de santé
+- + 2.5 Agir sur les déterminants sociaux et 27
+- + environnementaux de la santé
+- + 2.6 Protéger la santé au travail et les victimes 30
+- + d'accidents et de maladies professionnelles
+- + 2.7 Refonder le service public de santé mentale, 31
+- + de psychiatrie et de pédopsychiatrie
+- + 2.8 Protéger la santé dès la naissance 32
+- + et tout au long de la scolarité
+- + 2.9 Lutter contre les discriminations sexistes 32
+- + et de genre dans la médecine et par le soin

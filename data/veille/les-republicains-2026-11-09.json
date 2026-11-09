@@ -1,0 +1,964 @@
+{
+  "oldCorpusId": "les-republicains-2026-10",
+  "newCorpusId": "les-republicains-2026-11-09",
+  "changed": true,
+  "documents": [
+    {
+      "url": "https://www.avecretailleau.fr/projet",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/faq",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/abaisser-le-seuil-du-referendum-d-initiative-partagee",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/abroger-le-zan",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/accelerer-les-expulsions-pour-squat-ou-impayes",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/acheter-europeen-pour-les-besoins-numeriques-essentiels-de",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/aider-les-grands-parents-a-aider-leurs-petits-enfants",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/aligner-les-regles-agricoles-sur-l-europe",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/alleger-l-impot-sur-les-loyers",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/augmenter-le-salaire-net-des-seniors-ayant-tous-leurs",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/baisser-le-cout-du-credit-immobilier-des-familles",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/cesser-de-subventionner-ce-qui-fait-monter-la-facture-les",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/charte-republicaine",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/concentrer-la-recherche-sur-sept-priorites-industrielles",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/concentrer-le-primaire-et-le-college-sur-les-savoirs",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/conditionner-les-prestations-sociales-a-cinq-ans-de-sejour",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/confier-la-voie-professionnelle-aux-regions-et-aux-branches",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/construire-des-logements-sociaux-selon-les-besoins-locaux",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/construire-les-epr2-dans-les-couts-et-delais-prevus",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/construire-nos-data-centers-souverains",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/construire-plus-vite-avec-les-maires",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/controler-davantage-les-importations-et-exiger-la",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/creer-marianne-l-assistant-administratif-de-chaque-francais",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/creer-plus-de-places-de-garde",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/creer-un-fonds-france-production-pour-moderniser-nos-usines",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/creer-une-reserve-nationale-des-sciences",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/d",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/debloquer-la-transmission-entre-generations",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/decider-en-france-de-notre-production-d-electricite",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/donner-a-chaque-francais-un-capital-pour-sa-retraite",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/donner-priorite-a-l-apprentissage-jusqu-a-bac-2-et-a-l",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/doubler-le-revenu-familial-pour-le-troisieme-enfant",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/elargir-le-referendum-a-toute-la-matiere-legislative-et",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/encadrer-les-negociations-et-controler-les-importations",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/equiper-les-entreprises-francaises-en-intelligence",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/etre-juste-fraude-fiscale-et-aux-aides-publiques-abus-des",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/evaluer-et-certifier-chaque-etablissement-decentraliser-et",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/eviter-les-arrets-nucleaires-dus-a-la-surproduction",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/faciliter-l-achat-de-son-logement",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/faciliter-la-reprise-des-exploitations-agricoles",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/faire-de-l-entreprise-un-acteur-de-la-garde-d-enfants",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/faire-fixer-par-la-loi-des-quotas-migratoires",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/faire-gagner-plus-a-ceux-qui-reprennent-un-emploi",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/faire-mieux-le-fonctionnement-de-l-etat-revu-ses-agences",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/faire-moins-perimetre-revu-politiques-au-tamis-dispositifs",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/faire-revenir-les-talents-francais-et-attirer-les-experts",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/financer-l-apprentissage-sur-ses-resultats",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/financer-la-croissance-des-entreprises-d-ia",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/financer-la-modernisation-des-fermes",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/financer-les-bailleurs-qui-construisent-et-renovent",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/financer-les-entreprises-avec-l-epargne-et-preparer-la",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/former-des-millions-d-actifs-a-l-ia-en-deux-ans",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/garantir-le-budget-agricole-europeen-sur-sept-ans",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/geler-les-normes-de-construction-pendant-dix-ans",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/inscrire-la-laicite-et-nos-racines-dans-la-constitution",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/inscrire-le-droit-a-la-securite-dans-la-constitution",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/instaurer-une-veritable-gestion-des-ressources-humaines-et",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/introduire-dans-la-constitution-une-clause-de-sauvegarde",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/investir-toutes-les-autorites-publiques-francaises-du",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/la-regle-d-or-de-2011",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/la-trajectoire-financiere-du-projet-197-md-dont-146-md-pour",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/lever-les-freins-reglementaires-a-l-innovation-en-ia",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/lever-les-interdictions-de-louer-liees-au-dpe",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/liberer-et-faciliter-la-transmission-des-entreprises",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/liberer-les-etablissements-et-rendre-aux-familles-la",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/limiter-le-cout-des-nouvelles-regles-pour-les-entreprises",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/logement-social-priorite-aux-actifs-et-a-leurs-familles",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/logement-social-priorite-aux-actifs-et-aux-familles",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/lorsque-le-conseil-constitutionnel-censure-une-loi",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/mettre-l-intelligence-artificielle-au-service-des",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/multiplier-par-cinq-les-moyens-de-l-ia-de-defense",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/ne-laisser-aucun-jeune-hors-radar",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/ne-plus-financer-une-recherche-sans-debouche-industriel",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/ne-plus-jamais-evaluer-deux-fois-ce-qui-l-a-deja-ete",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/ouvrir-les-marches-publics-aux-producteurs-agricoles",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/passer-d-un-etat-de-mefiance-a-un-etat-de-confiance",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/permettre-aux-agriculteurs-de-stocker-l-eau",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/permettre-aux-cadres-de-devenir-independants-au-dela-de-100",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/plafonner-les-aides-sociales-a-70-du-smic",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/preparer-les-reacteurs-nucleaires-de-quatrieme-generation",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/preserver-et-renforcer-l-epargne-retraite-volontaire",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/produire-et-stocker-plus-d-electricite-grace-aux-barrages",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/prolonger-le-conge-jusqu-aux-six-mois-de-l-enfant",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/prolonger-les-centrales-nucleaires-jusqu-a-80-ans",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/proteger-l-agriculture-dans-la-constitution",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/proteger-les-donnees-sensibles-sous-juridiction-europeenne",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/proteger-les-services-publics-et-les-entreprises-contre-les",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/raccourcir-les-recours-et-renforcer-l-etiquetage-agricole",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/rapprocher-le-brut-du-net-avec-le-seuil-zero-cotisation",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/reconquerir-les-friches-industrielles",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/reconstruire-la-formation-et-le-recrutement-des-maitres",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/reduire-de-60-le-handicap-fiscal-de-nos-entreprises-par",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/reduire-le-cout-du-credit-des-familles",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/reduire-le-deficit-pour-retrouver-notre-souverainete-146-md",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/reduire-les-charges-sur-l-electricite-et-revoir-le-dpe",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/reduire-les-durees-et-plafonner-les-allocations-chomage",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/refaire-de-l-ecole-un-sanctuaire-restaurer-l-autorite-et",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/refaire-un-lycee-de-l-excellence",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/refonder-l-education-prioritaire-et-passer-de-l-inclusion",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/refonder-le-code-du-travail-sur-50-principes-rendre-le",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/rendre-30-milliards-d-euros-aux-salaries-et-aux-entreprises",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/rendre-a-la-france-la-maitrise-de-son-immigration",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/rendre-le-travail-toujours-gagnant-apres-65-ans",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/rendre-le-travail-toujours-gagnant-pour-ceux-qui-ont",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/repondre-a-la-guerre-informationnelle",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/retablir-l-evaluation-qui-dit-la-verite-et-la-selection-au",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/securiser-l-uranium-les-batteries-et-le-reseau-electrique",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/simplifier-les-demarches-et-reduire-les-taches",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/stabiliser-et-reduire-le-prix-de-l-electricite-pour-l",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/stabiliser-le-prix-de-l-electricite",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/suppression-du-principe-de-precaution-inscrit-dans-la",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/supprimer-100-regles-qui-penalisent-le-plus-les-entreprises",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/supprimer-l-encadrement-des-loyers",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/supprimer-l-ofb-et-accelerer-les-autorisations-sanitaires",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/supprimer-la-taxe-qui-penalise-l-actionnariat-salarie",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/supprimer-le-couperet-des-67-ans",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/supprimer-le-principe-de-precaution-par-referendum",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/traiter-la-penibilite-metier-par-metier",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/transformer-les-batiments-vacants-en-logements",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/vendre-leur-logement-aux-locataires-hlm-qui-le-souhaitent",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/verser-240-euros-par-mois-par-enfant-mineur",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/mesure/verser-9-000-euros-aux-communes-par-logement-neuf-construit",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/theme/agriculture",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/theme/comptes-publics",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/theme/education",
+      "status": "modifie",
+      "added": [
+        "8 terminées",
+        "Professeurs",
+        "Quand un professeur est menacé, faut-il le soutenir fermement ou chercher à apaiser les tensions?",
+        "Professeurs",
+        "Quand un professeur est menacé, faut-il le soutenir fermement ou chercher à apaiser les tensions?",
+        "Professeurs",
+        "Quand un professeur est menacé, faut-il le soutenir fermement ou chercher à apaiser les tensions?",
+        "Professeurs",
+        "Quand un professeur est menacé, faut-il le soutenir fermement ou chercher à apaiser les tensions?",
+        "Professeurs",
+        "Quand un professeur est menacé, faut-il le soutenir fermement ou chercher à apaiser les tensions?",
+        "Consultation",
+        "Voir les mesures",
+        "Consultation",
+        "Voir les mesures",
+        "Consultation",
+        "Voir les mesures",
+        "Consultation",
+        "Voir les mesures",
+        "Consultation",
+        "Voir les mesures"
+      ],
+      "removed": [
+        "7 terminées"
+      ]
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/theme/electricite",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/theme/famille",
+      "status": "modifie",
+      "added": [
+        "1 terminée",
+        "Voir les mesures"
+      ],
+      "removed": [
+        "Consultation en cours"
+      ]
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/theme/industrie-entreprises",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/theme/institutions",
+      "status": "modifie",
+      "added": [
+        "La sécurité des policiers doit-elle être mieux protégée par la loi?",
+        "Face aux violences urbaines, la sécurité des citoyens doit-elle être un droit garanti par la loi?",
+        "La sécurité des policiers doit-elle être mieux protégée par la loi?",
+        "Face aux violences urbaines, la sécurité des citoyens doit-elle être un droit garanti par la loi?",
+        "Sécurité",
+        "Sécurité",
+        "La sécurité des policiers doit-elle être mieux protégée par la loi?",
+        "Sécurité",
+        "Face aux violences urbaines, la sécurité des citoyens doit-elle être un droit garanti par la loi?",
+        "Sécurité",
+        "Sécurité",
+        "La sécurité des policiers doit-elle être mieux protégée par la loi?",
+        "Sécurité",
+        "Face aux violences urbaines, la sécurité des citoyens doit-elle être un droit garanti par la loi?",
+        "Sécurité",
+        "Sécurité",
+        "La sécurité des policiers doit-elle être mieux protégée par la loi?",
+        "Sécurité",
+        "Face aux violences urbaines, la sécurité des citoyens doit-elle être un droit garanti par la loi?",
+        "Sécurité"
+      ],
+      "removed": [
+        "Aides sociales",
+        "Les prestations sociales doivent-elles être ouvertes à tous ou réservées aux résidents établis?",
+        "Quand le Conseil constitutionnel censure une loi, le peuple doit-il pouvoir la rétablir par référendum?",
+        "Aides sociales",
+        "Les prestations sociales doivent-elles être ouvertes à tous ou réservées aux résidents établis?",
+        "Quand le Conseil constitutionnel censure une loi, le peuple doit-il pouvoir la rétablir par référendum?",
+        "Aides sociales",
+        "Les prestations sociales doivent-elles être ouvertes à tous ou réservées aux résidents établis?",
+        "Quand le Conseil constitutionnel censure une loi, le peuple doit-il pouvoir la rétablir par référendum?",
+        "Démocratie",
+        "Aides sociales",
+        "Les prestations sociales doivent-elles être ouvertes à tous ou réservées aux résidents établis?",
+        "Démocratie",
+        "Quand le Conseil constitutionnel censure une loi, le peuple doit-il pouvoir la rétablir par référendum?",
+        "Démocratie",
+        "Démocratie",
+        "Aides sociales",
+        "Les prestations sociales doivent-elles être ouvertes à tous ou réservées aux résidents établis?",
+        "Démocratie",
+        "Quand le Conseil constitutionnel censure une loi, le peuple doit-il pouvoir la rétablir par référendum?"
+      ]
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/theme/l-ia",
+      "status": "modifie",
+      "added": [
+        "Vos avis.",
+        "3 terminées",
+        "Consultation",
+        "IA",
+        "Les démarches administratives doivent-elles être simplifiées par l'IA ou rester sous contrôle humain?",
+        "Voir les mesures",
+        "Consultation",
+        "L'IA administrative doit-elle d'abord réduire les démarches ou garantir l'emploi public?",
+        "Voir les mesures",
+        "Consultation",
+        "L'IA",
+        "Les assistants IA doivent-ils d'abord simplifier les démarches administratives ou créer de nouveaux emplois?",
+        "Voir les mesures",
+        "Consultation",
+        "IA",
+        "Les démarches administratives doivent-elles être simplifiées par l'IA ou rester sous contrôle humain?",
+        "Voir les mesures",
+        "Consultation",
+        "L'IA",
+        "L'IA administrative doit-elle d'abord réduire les démarches ou garantir l'emploi public?",
+        "Voir les mesures",
+        "Consultation",
+        "L'IA",
+        "Les assistants IA doivent-ils d'abord simplifier les démarches administratives ou créer de nouveaux emplois?",
+        "Voir les mesures",
+        "Consultation",
+        "IA",
+        "Les démarches administratives doivent-elles être simplifiées par l'IA ou rester sous contrôle humain?",
+        "Voir les mesures",
+        "Consultation",
+        "L'IA",
+        "L'IA administrative doit-elle d'abord réduire les démarches ou garantir l'emploi public?",
+        "Voir les mesures",
+        "Consultation",
+        "L'IA",
+        "Les assistants IA doivent-ils d'abord simplifier les démarches administratives ou créer de nouveaux emplois?",
+        "Voir les mesures",
+        "Consultation",
+        "IA",
+        "Les démarches administratives doivent-elles être simplifiées par l'IA ou rester sous contrôle humain?"
+      ],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/theme/logement",
+      "status": "modifie",
+      "added": [
+        "Logement social",
+        "Le logement social doit-il prioritairement accueillir les familles actives ou rester ouvert à tous?",
+        "Consultation",
+        "Voir les mesures"
+      ],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/theme/retraites",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet/theme/travail",
+      "status": "modifie",
+      "added": [
+        "5 terminées",
+        "Pouvoir d'achat",
+        "Pour améliorer le pouvoir d'achat des salariés, faut-il augmenter les salaires ou réduire les prélèvements?",
+        "Pouvoir d'achat",
+        "Pour améliorer le pouvoir d'achat des salariés, faut-il augmenter les salaires ou réduire les prélèvements?",
+        "Pouvoir d'achat",
+        "Pour améliorer le pouvoir d'achat des salariés, faut-il augmenter les salaires ou réduire les prélèvements?",
+        "Pouvoir d'achat",
+        "Pour améliorer le pouvoir d'achat des salariés, faut-il augmenter les salaires ou réduire les prélèvements?",
+        "Pouvoir d'achat",
+        "Pour améliorer le pouvoir d'achat des salariés, faut-il augmenter les salaires ou réduire les prélèvements?",
+        "Pouvoir d'achat",
+        "Pour améliorer le pouvoir d'achat des salariés, faut-il augmenter les salaires ou réduire les prélèvements?"
+      ],
+      "removed": [
+        "Consultation en cours",
+        "Retraites",
+        "Un retraité qui reprend du travail doit-il être exonéré de cotisations sociales?",
+        "Retraités actifs",
+        "Un retraité qui reprend du travail doit-il cotiser moins ou garder tous ses revenus?",
+        "Emploi",
+        "Quand un salarié retrouve du travail, faut-il augmenter son salaire ou réduire ses cotisations?",
+        "Pour soutenir le pouvoir d'achat des salariés, faut-il agir sur les salaires ou sur les cotisations?",
+        "Retraites",
+        "Un retraité qui reprend du travail doit-il être exonéré de cotisations sociales?",
+        "Retraités actifs",
+        "Un retraité qui reprend du travail doit-il cotiser moins ou garder tous ses revenus?",
+        "Consultation",
+        "Emploi",
+        "Quand un salarié retrouve du travail, faut-il augmenter son salaire ou réduire ses cotisations?",
+        "Consultation",
+        "Travail",
+        "Pour soutenir le pouvoir d'achat des salariés, faut-il agir sur les salaires ou sur les cotisations?",
+        "Voir les mesures",
+        "Travail"
+      ]
+    },
+    {
+      "url": "https://www.avecretailleau.fr/projet?niveau=synthese",
+      "status": "inchange",
+      "added": [],
+      "removed": []
+    }
+  ],
+  "measuresToReview": []
+}
