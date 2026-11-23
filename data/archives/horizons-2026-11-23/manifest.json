@@ -1,0 +1,77 @@
+{
+  "corpusId": "horizons-2026-11-23",
+  "candidateId": "c-04",
+  "collectedAt": "2026-11-23T16:53:58.251Z",
+  "startUrls": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants",
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+  ],
+  "include": [
+    "https://www.edouardphilippe.fr/priorites/"
+  ],
+  "rendered": true,
+  "documents": [
+    {
+      "id": "horizons-2026-11-23-programme",
+      "kind": "html",
+      "officialUrl": "https://www.edouardphilippe.fr/programme",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Le programme — Avec Édouard 2027",
+      "retrievedAt": "2026-11-23T16:54:03.040Z",
+      "file": "raw/horizons-2026-11-23-programme.html",
+      "sha256": "71850d056f6318e35a7b0283ecb30e7d47a031c54c0041b96726e621e56a2b15",
+      "textFile": "text/horizons-2026-11-23-programme.json",
+      "textSha256": "cfa6b4393bbe714083f363095bd5fbfbdc6387a580478e0d4bad7f19d7ac95bf",
+      "pageCount": 1
+    }
+  ],
+  "excludedLinks": [
+    "https://www.edouardphilippe.fr/",
+    "https://www.edouardphilippe.fr/a-propos",
+    "https://www.edouardphilippe.fr/actualites",
+    "https://www.edouardphilippe.fr/comites",
+    "https://www.edouardphilippe.fr/contact",
+    "https://www.edouardphilippe.fr/don",
+    "https://www.edouardphilippe.fr/edouard-philippe",
+    "https://www.edouardphilippe.fr/elus",
+    "https://www.edouardphilippe.fr/jeunes",
+    "https://www.edouardphilippe.fr/pages/mentions-legales",
+    "https://www.edouardphilippe.fr/pages/politique-de-confidentialite",
+    "https://www.edouardphilippe.fr/programme",
+    "https://www.edouardphilippe.fr/programme/adaptation-climatique",
+    "https://www.edouardphilippe.fr/programme/comptes-publics",
+    "https://www.edouardphilippe.fr/programme/defense",
+    "https://www.edouardphilippe.fr/programme/ecole",
+    "https://www.edouardphilippe.fr/programme/energie",
+    "https://www.edouardphilippe.fr/programme/entreprises",
+    "https://www.edouardphilippe.fr/programme/famille",
+    "https://www.edouardphilippe.fr/programme/handicap",
+    "https://www.edouardphilippe.fr/programme/immigration",
+    "https://www.edouardphilippe.fr/programme/intelligence-artificielle",
+    "https://www.edouardphilippe.fr/programme/justice",
+    "https://www.edouardphilippe.fr/programme/logement",
+    "https://www.edouardphilippe.fr/programme/outre-mer",
+    "https://www.edouardphilippe.fr/programme/protection-de-l-enfance",
+    "https://www.edouardphilippe.fr/programme/retraites",
+    "https://www.edouardphilippe.fr/programme/securite",
+    "https://www.edouardphilippe.fr/programme/travail",
+    "https://www.edouardphilippe.fr/rejoindre"
+  ],
+  "externalPdfs": [],
+  "skipped": [
+    {
+      "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants",
+      "reason": "doublon (même texte qu'une page déjà collectée)"
+    },
+    {
+      "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
+      "reason": "doublon (même texte qu'une page déjà collectée)"
+    },
+    {
+      "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante",
+      "reason": "doublon (même texte qu'une page déjà collectée)"
+    }
+  ]
+}
