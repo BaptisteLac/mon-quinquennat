@@ -1,0 +1,541 @@
+{
+  "measures": [
+    {
+      "theme": "sante",
+      "title": "Centres de formation des soignants dans les zones rurales",
+      "summary": {
+        "simple": "Former des soignants à la campagne pour qu'ils s'y installent.",
+        "normal": "Développement de centres de formation dans les zones rurales pour y favoriser l'implantation de professionnels de santé."
+      },
+      "sources": [
+        {
+          "page": 33,
+          "quote": "Développer des centres de formation dans les zones rurales pour y favoriser l'implantation de professionnels"
+        },
+        {
+          "page": 138,
+          "quote": "Il plaide pour que des campus universitaires soient de nouveau implantés dans des villes moyennes, afin que les étudiants qui y sont formés y restent une fois leur formation achevée."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "sante",
+      "title": "Exonérer de CFE les médecins libéraux en zone sous-dense",
+      "summary": {
+        "simple": "Les médecins qui s'installent là où il en manque paieraient moins d'impôts et de charges.",
+        "normal": "Exonération de cotisation foncière des entreprises pour les médecins libéraux en zone sous-dense, réduction des prélèvements sociaux pendant les cinq premières années et déductibilité accélérée des investissements du cabinet."
+      },
+      "sources": [
+        {
+          "page": 33,
+          "quote": "Exonérer de cotisation foncière des entreprises les médecins libéraux en zone sous-dense, réduire les prélèvements sociaux pendant les cinq premières années et accélérer la déductibilité des investissements du cabinet."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "sante",
+      "title": "Exonérer les plus-values de cession de patientèle en zone sous-dense",
+      "summary": {
+        "simple": "Faciliter la reprise des cabinets médicaux là où il manque des médecins.",
+        "normal": "Faciliter la transmission de patientèle libérale, notamment par l'exonération des plus-values professionnelles lors de la cession en zone sous-dense."
+      },
+      "sources": [
+        {
+          "page": 33,
+          "quote": "Faciliter la transmission de patientèle libérale, notamment par l’exonération des plus-values professionnelles lors de la cession en zone sous-dense."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "sante",
+      "title": "Réduire la charge administrative des soignants",
+      "summary": {
+        "simple": "Moins de paperasse pour les soignants, plus de temps pour les patients.",
+        "normal": "Réduction drastique de la charge administrative des soignants, en ville comme à l'hôpital, pour leur redonner du temps médical."
+      },
+      "sources": [
+        {
+          "page": 33,
+          "quote": "Réduire drastiquement la charge administrative des soignants (ville et hôpital) pour leur redonner du temps médical."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "sante",
+      "title": "Faire de la santé un ascenseur social",
+      "summary": {
+        "simple": "Ouvrir plus largement l'accès aux formations de santé et aux reconversions.",
+        "normal": "Élargissement des conditions d'accès aux formations de santé, développement de la promotion interne et des reconversions qualifiantes."
+      },
+      "sources": [
+        {
+          "page": 33,
+          "quote": "Faire de la santé un ascenseur social : élargir les conditions d’accès aux formations, développer la promotion interne et les reconversions qualifiantes."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "sante",
+      "title": "Exonérer de cotisations sociales les soignants libéraux en cumul emploi-retraite",
+      "summary": {
+        "simple": "Les soignants retraités qui continuent à exercer ne paieraient plus de cotisations sociales.",
+        "normal": "Rétablissement et pérennisation de l'exonération de cotisations sociales pour l'ensemble des soignants libéraux en cumul emploi-retraite."
+      },
+      "sources": [
+        {
+          "page": 33,
+          "quote": "Rétablir et pérenniser l’exonération de cotisations sociales pour l’ensemble des soignants libéraux en cumul emploi-retraite."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "sante",
+      "title": "Faciliter les contrats passerelles entre la ville et l'hôpital",
+      "summary": {
+        "simple": "Des soignants de ville pourraient venir renforcer ponctuellement l'hôpital.",
+        "normal": "Facilitation des contrats passerelles ville-hôpital pour répondre aux besoins ponctuels et désengorger certains services."
+      },
+      "sources": [
+        {
+          "page": 33,
+          "quote": "Faciliter les contrats passerelles ville-hôpital pour répondre aux besoins ponctuels et désengorger certains services."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "sante",
+      "title": "Défiscaliser les heures supplémentaires des soignants",
+      "summary": {
+        "simple": "Les heures supplémentaires des soignants ne seraient pas imposées.",
+        "normal": "Exonération fiscale des heures supplémentaires pour les soignants en établissement sanitaire, médico-social, social, éducatif ou en lieu d'exercice coordonné."
+      },
+      "sources": [
+        {
+          "page": 33,
+          "quote": "Exonérer fiscalement les heures supplémentaires pour les soignants en établissement sanitaire, médico-social, social, éducatif ou en lieu d’exercice coordonné."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "sante",
+      "title": "Politique nationale de prévention évaluée, financement conditionné aux résultats",
+      "summary": {
+        "simple": "Une politique de prévention avec des objectifs mesurés ; les programmes sans résultat ne seraient pas reconduits.",
+        "normal": "Politique nationale de prévention évaluable par indicateurs (taux de dépistage, réduction des facteurs de risque), avec un financement de chaque programme conditionné à des résultats mesurables : sans évaluation, pas de reconduction."
+      },
+      "sources": [
+        {
+          "page": 34,
+          "quote": "Adopter une politique nationale de prévention évaluable par indicateurs (taux de dépistage, réduction des facteurs de risque)."
+        },
+        {
+          "page": 34,
+          "quote": "Conditionner le financement de chaque programme de prévention à des résultats mesurables : taux de dépistage atteint, réduction de l'incidence d'une pathologie ciblée, évolution des comportements à risque. Sans évaluation, pas de reconduction."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "sante",
+      "title": "Vaccination et dépistages portés par les infirmiers et les pharmaciens",
+      "summary": {
+        "simple": "Infirmiers et pharmaciens vaccineraient et dépisteraient au plus près des habitants.",
+        "normal": "Actions de prévention vers le public : vaccination des personnes vulnérables et des seniors, dépistage de l'hypertension et prévention du diabète, portés par les infirmiers et les pharmaciens."
+      },
+      "sources": [
+        {
+          "page": 34,
+          "quote": "Déployer des actions de prévention vers le public : vaccination des personnes vulnérables et des seniors, dépistage de l'hypertension et prévention du diabète, portés par les infirmiers et pharmaciens directement auprès des populations concernées."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "education",
+      "title": "Éducation à la santé dans les programmes scolaires et recrutement d'infirmiers scolaires",
+      "summary": {
+        "simple": "Des cours d'éducation à la santé et plus d'infirmiers dans les écoles.",
+        "normal": "Intégration de l'éducation à la santé aux programmes scolaires, et plan de recrutement d'infirmiers scolaires chargés des bilans de santé à des âges clés et du premier niveau de prévention psychologique."
+      },
+      "sources": [
+        {
+          "page": 34,
+          "quote": "Intégrer l'éducation à la santé aux programmes scolaires, sous pilotage conjoint avec l'Éducation nationale, avec une évaluation sur des indicateurs de long terme."
+        },
+        {
+          "page": 34,
+          "quote": "Engager un plan de recrutement d'infirmiers scolaires pour le suivi sanitaire effectif, en leur confiant la réalisation des bilans de santé à des âges clés et le premier niveau de prévention psychologique."
+        }
+      ],
+      "precision": "partielle",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Plus d'infirmiers scolaires pour suivre la santé de tes enfants.",
+            "normal": "Un plan de recrutement d'infirmiers scolaires assurerait des bilans de santé à des âges clés."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "sante",
+      "title": "Stratégie nationale de santé mentale et renforcement de la pédopsychiatrie",
+      "summary": {
+        "simple": "Mieux dépister et soigner les troubles psychiques, notamment chez les enfants.",
+        "normal": "Stratégie nationale de santé mentale : dépistage précoce, accès simplifié aux soins psychiques, renforcement massif de la pédopsychiatrie, coordination avec les acteurs de terrain."
+      },
+      "sources": [
+        {
+          "page": 34,
+          "quote": "Mettre en place une stratégie nationale de santé mentale : dépistage précoce, accès simplifié aux soins psychiques, renforcement massif de la pédopsychiatrie, coordination avec les acteurs de terrain."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "sante",
+      "title": "Incitations fiscales pour les entreprises qui investissent dans la santé des salariés",
+      "summary": {
+        "simple": "Un avantage fiscal pour les entreprises qui agissent pour la santé de leurs salariés.",
+        "normal": "Incitations fiscales pour les entreprises qui investissent dans la santé de leurs salariés."
+      },
+      "sources": [
+        {
+          "page": 34,
+          "quote": "Proposer des incitations fiscales pour les entreprises qui investissent dans la santé de leurs salariés."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "sante",
+      "title": "Bilans de santé obligatoires à des âges clés",
+      "summary": {
+        "simple": "Des bilans de santé obligatoires à certains âges.",
+        "normal": "Instauration de bilans de santé obligatoires à des âges clés pour favoriser la détection précoce."
+      },
+      "sources": [
+        {
+          "page": 34,
+          "quote": "Instaurer des bilans de santé obligatoires à des âges clés pour favoriser la détection précoce."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "sante",
+          "section": "vie",
+          "sentence": {
+            "simple": "Tu aurais des bilans de santé obligatoires à certains âges.",
+            "normal": "Des bilans de santé obligatoires seraient instaurés à des âges clés pour détecter les maladies plus tôt."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "sante",
+      "title": "Prévenir les chutes des plus de 65 ans",
+      "summary": {
+        "simple": "Activité physique et aménagements pour éviter les chutes des plus de 65 ans.",
+        "normal": "Prévention des chutes chez les plus de 65 ans par l'activité physique adaptée, l'aménagement des domiciles et l'adaptation de l'espace public."
+      },
+      "sources": [
+        {
+          "page": 34,
+          "quote": "Prévenir les chutes chez les plus de 65 ans par l'activité physique adaptée, l'aménagement des domiciles et l'adaptation de l'espace public."
+        }
+      ],
+      "precision": "partielle",
+      "effects": [
+        {
+          "ticketLine": "sante",
+          "section": "vie",
+          "appliesTo": {
+            "field": "age",
+            "op": "gte",
+            "value": 65
+          },
+          "sentence": {
+            "simple": "Des actions pour prévenir les chutes après 65 ans.",
+            "normal": "La prévention des chutes après 65 ans passerait par l'activité physique adaptée et l'aménagement des domiciles et de l'espace public."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "sante",
+      "title": "Simplifier la tarification à l'activité (T2A) des hôpitaux",
+      "summary": {
+        "simple": "Simplifier le mode de financement des hôpitaux.",
+        "normal": "Simplification des processus de la tarification à l'activité (T2A) pour réduire les tâches administratives inutiles."
+      },
+      "sources": [
+        {
+          "page": 34,
+          "quote": "Simplifier les process de la tarification à l’activité (T2A) afin de réduire les tâches administratives inutiles."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "sante",
+      "title": "Certificats médicaux courants entièrement numériques",
+      "summary": {
+        "simple": "Arrêts courts et certificats sportifs ou scolaires générés automatiquement en ligne.",
+        "normal": "Les certificats médicaux à faible valeur ajoutée (arrêts courts, certificats sportifs et scolaires) deviendraient intégralement numériques, générés automatiquement via le Dossier médical partagé."
+      },
+      "sources": [
+        {
+          "page": 34,
+          "quote": "Rendre intégralement numériques les certificats médicaux à faible valeur ajoutée (arrêts courts, certificats sportifs et scolaires), avec génération automatique via le Dossier Médical Partagé."
+        }
+      ],
+      "precision": "partielle",
+      "effects": [
+        {
+          "ticketLine": "sante",
+          "section": "vie",
+          "sentence": {
+            "simple": "Les certificats sportifs ou scolaires et les arrêts courts se feraient en ligne.",
+            "normal": "Les certificats sportifs et scolaires et les arrêts courts seraient générés automatiquement via le Dossier médical partagé."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "sante",
+      "title": "Suivi coordonné des malades chroniques par des équipes de proximité",
+      "summary": {
+        "simple": "Les malades chroniques suivis par une équipe médecin, infirmier, diététicien et coach sportif.",
+        "normal": "Suivi coordonné des malades chroniques (diabète, maladies cardiovasculaires, obésité sévère) par des équipes de proximité associant médecin, infirmier, diététicien et coach en activité physique."
+      },
+      "sources": [
+        {
+          "page": 34,
+          "quote": "Organiser le suivi coordonné des malades chroniques (diabète, maladies cardiovasculaires, obésité sévère) par des équipes de proximité associant médecin, infirmier, diététicien et coach en activité physique, pour prévenir les complications et réduire les hospitalisations évitables."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "sante",
+      "title": "Plus de souplesse pour les directions d'hôpitaux",
+      "summary": {
+        "simple": "Les hôpitaux auraient plus de liberté pour s'organiser.",
+        "normal": "Souplesse juridique et administrative accrue pour les directions d'hôpitaux, avec des contrats locaux permettant de moduler financement et organisation."
+      },
+      "sources": [
+        {
+          "page": 34,
+          "quote": "Donner aux directions d'hôpitaux une plus grande souplesse juridique et administrative, avec des contrats locaux permettant de moduler financement et organisation."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "sante",
+      "title": "Loi pluriannuelle de programmation de la santé",
+      "summary": {
+        "simple": "Une loi qui fixe la stratégie de santé pour plusieurs années.",
+        "normal": "Loi pluriannuelle de santé, sur le modèle des lois de programmation militaire : vision stratégique à 3-5 ans, priorités sanitaires, moyens correspondants et suivi annuel."
+      },
+      "sources": [
+        {
+          "page": 35,
+          "quote": "Instaurer une loi pluriannuelle de santé, sur le modèle des lois de programmation militaire ou de sécurité intérieure : vision stratégique à 3-5 ans, priorités sanitaires, moyens correspondants, engagement de suivi annuel et ajustements."
+        },
+        {
+          "page": 29,
+          "quote": "L'État doit définir une stratégie de long terme à travers une loi d'orientation et de programmation sanitaire pluriannuelle."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "sante",
+      "title": "Convergence tarifaire entre hôpitaux publics et cliniques privées",
+      "summary": {
+        "simple": "Les mêmes tarifs pour le public et le privé.",
+        "normal": "Convergence tarifaire entre public et privé pour supprimer les distorsions."
+      },
+      "sources": [
+        {
+          "page": 35,
+          "quote": "Mener une convergence tarifaire entre public et privé pour supprimer les distorsions."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "sante",
+      "title": "Carte Vitale biométrique contre la fraude",
+      "summary": {
+        "simple": "Une Carte Vitale biométrique pour lutter contre la fraude.",
+        "normal": "Renforcement de la lutte contre la fraude (actes fictifs, abus de prescriptions, arrêts de travail injustifiés) avec la Carte Vitale biométrique et un contrôle automatisé ciblé."
+      },
+      "sources": [
+        {
+          "page": 35,
+          "quote": "Renforcer la lutte contre la fraude (actes fictifs, abus de prescriptions, arrêts de travail injustifiés) avec la Carte Vitale biométrique et un contrôle automatisé ciblé."
+        }
+      ],
+      "precision": "partielle",
+      "effects": [
+        {
+          "ticketLine": "sante",
+          "section": "vie",
+          "sentence": {
+            "simple": "Ta Carte Vitale deviendrait biométrique.",
+            "normal": "La Carte Vitale deviendrait biométrique, avec un contrôle automatisé ciblé contre la fraude."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "sante",
+      "title": "Flux de santé numérisés et contrôlés par IA, entente préalable rétablie pour les prothèses dentaires",
+      "summary": {
+        "simple": "Les échanges entre soignants seraient numérisés et vérifiés automatiquement.",
+        "normal": "Numérisation de l'intégralité des flux entre professionnels et établissements de santé, avec un contrôle de cohérence par intelligence artificielle ; entente préalable rétablie pour les prothèses dentaires et renforcée pour les actes les plus coûteux."
+      },
+      "sources": [
+        {
+          "page": 35,
+          "quote": "Digitaliser l'intégralité des flux entre professionnels et établissements de santé et en confier le contrôle de cohérence à l'intelligence artificielle, en restaurant l'entente préalable pour les prothèses dentaires et en la renforçant pour l'ensemble des actes les plus coûteux."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "sante",
+      "title": "Formation médicale continue effective pour tous les praticiens",
+      "summary": {
+        "simple": "Tous les médecins devraient suivre une formation continue.",
+        "normal": "Renforcement de la formation médicale continue, rendue effective pour tous les praticiens, pour réduire les prescriptions de routine non fondées sur l'état de l'art."
+      },
+      "sources": [
+        {
+          "page": 35,
+          "quote": "Renforcer la formation médicale continue et la rendre effective pour tous les praticiens, afin de réduire à la source les prescriptions de routine non fondées sur l'état de l'art."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "sante",
+      "title": "Offre de soins de premier recours graduée autour des infirmiers, pharmaciens et kinés",
+      "summary": {
+        "simple": "Un parcours de soins plus lisible pour éviter les passages inutiles aux urgences.",
+        "normal": "Offre territoriale de soins structurée autour d'une prise en charge graduée de premier recours mobilisant infirmiers, pharmaciens et kinésithérapeutes, pour éviter le recours inutile aux urgences et garantir le libre choix du patient."
+      },
+      "sources": [
+        {
+          "page": 35,
+          "quote": "Construire une offre territoriale de soins structurée autour d'une prise en charge graduée de premier recours mobilisant infirmiers, pharmaciens et kinésithérapeutes, pour offrir au patient un parcours lisible, éviter le recours inutile aux urgences, et garantir pleinement le libre choix du patient."
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "sante",
+      "title": "Dossier médical partagé obligatoire et prescription électronique systématique",
+      "summary": {
+        "simple": "Plus d'examens refaits pour rien : ton dossier médical serait partagé entre tous les soignants.",
+        "normal": "Alimentation obligatoire du Dossier médical partagé par tous les professionnels de santé et prescription électronique systématique : aucun examen déjà réalisé ne serait prescrit une seconde fois."
+      },
+      "sources": [
+        {
+          "page": 35,
+          "quote": "Mettre fin à la gabegie des actes inutiles en rendant obligatoire l'alimentation du Dossier Médical Partagé par tous les professionnels de santé et l'utilisation systématique de la prescription électronique. Aucun examen déjà réalisé ne doit être prescrit une seconde fois"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "sante",
+          "section": "vie",
+          "sentence": {
+            "simple": "Tous tes soignants verraient ton dossier médical complet.",
+            "normal": "Le Dossier médical partagé serait alimenté par tous les professionnels, pour qu'aucun examen ne soit prescrit deux fois."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "sante",
+      "title": "Programmation pluriannuelle de la recherche en santé",
+      "summary": {
+        "simple": "Un financement stable de la recherche médicale sur plusieurs années.",
+        "normal": "Programmation pluriannuelle de la recherche en santé, avec des priorités scientifiques, des financements dédiés et une trajectoire d'investissement stable ; consortium national de recherche associant CHU, universités, laboratoires et industriels."
+      },
+      "sources": [
+        {
+          "page": 35,
+          "quote": "Instaurer une programmation pluriannuelle de la recherche en santé, fixant des priorités scientifiques claires, des financements dédiés et une trajectoire d'investissement stable sur plusieurs années."
+        },
+        {
+          "page": 35,
+          "quote": "Créer un consortium national de recherche et d'innovation, associant notamment CHU, universités, laboratoires et industriels"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "sante",
+      "title": "Relocaliser la production de médicaments et dispositifs médicaux critiques",
+      "summary": {
+        "simple": "Produire en France les médicaments essentiels.",
+        "normal": "Relocalisation des productions critiques de médicaments et de dispositifs médicaux par un allégement fiscal et administratif, une simplification réglementaire et un soutien aux filières industrielles stratégiques."
+      },
+      "sources": [
+        {
+          "page": 35,
+          "quote": "Relocaliser les productions critiques de médicaments et dispositifs médicaux en créant un écosystème favorable : allégement fiscal et administratif, simplification réglementaire, soutien aux filières industrielles stratégiques."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "numerique",
+      "title": "Hébergement souverain des données de santé",
+      "summary": {
+        "simple": "Les données de santé hébergées et protégées en France.",
+        "normal": "Protection des données de santé par un cadre souverain d'hébergement, de cybersécurité et de gouvernance."
+      },
+      "sources": [
+        {
+          "page": 35,
+          "quote": "Protéger les données de santé par un cadre souverain d'hébergement, de cybersécurité et de gouvernance, garantissant souveraineté nationale et libertés individuelles."
+        }
+      ],
+      "precision": "floue"
+    }
+  ]
+}

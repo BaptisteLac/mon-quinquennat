@@ -1,0 +1,407 @@
+{
+  "measures": [
+    {
+      "theme": "finances_publiques",
+      "title": "Règle d'or de limitation des déficits publics, hors investissement",
+      "summary": {
+        "simple": "L'État s'impose une règle qui limite ses déficits, sauf pour les investissements.",
+        "normal": "Instauration d'une règle institutionnelle de limitation des déficits publics (« règle d'or »), applicable aux dépenses de fonctionnement mais pas à l'investissement."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "la France doit désormais s’astreindre à une règle institutionnelle de limitation des déficits publics"
+        },
+        {
+          "page": 3,
+          "quote": "cette « règle d’or » s’appliquerait aux dépenses de fonctionnement mais pas à l’investissement"
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "finances_publiques",
+      "title": "Rééquilibrer le budget de l'État vers les fonctions régaliennes",
+      "summary": {
+        "simple": "Une plus grande part du budget de l'État irait aux missions régaliennes, notamment la police et la justice.",
+        "normal": "Rééquilibrage du budget de l'État vers les fonctions régaliennes, avec des plans de remise à niveau des moyens de la police et de la justice."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "Un rééquilibrage vers l’Etat régalien s’impose d’autant plus que des plans de remise à niveau des moyens de la police et de la justice sont indispensables"
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "finances_publiques",
+      "title": "Plan de réduction des déficits et de la dette en trois temps",
+      "summary": {
+        "simple": "Un plan pour faire baisser la dette : d'abord chasser le gaspillage, puis équilibrer le budget.",
+        "normal": "Baisse de la dette publique rapportée au PIB : plan de lutte contre les gaspillages et doublons pendant 5 ans, puis équilibrage structurel des dépenses et des recettes, puis reflux de la dette en distinguant ses composantes."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "La France doit également s’engager vers la baisse de la dette publique par rapport au PIB"
+        },
+        {
+          "page": 3,
+          "quote": "D’abord par un plan de lutte contre les gaspillages et doublons pendant 5 ans, puis par l’équilibrage structurel des dépenses et des recettes, ensuite par le reflux de la dette en distinguant ses composantes"
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Limiter la loi aux principes fondamentaux du droit",
+      "summary": {
+        "simple": "Les lois fixent les grands principes ; le gouvernement et les collectivités précisent l'application.",
+        "normal": "La loi serait limitée aux principes fondamentaux du droit (sauf exceptions comme la fiscalité et le droit pénal) ; le gouvernement et les collectivités territoriales en préciseraient l'application."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "La loi doit donc être limitée à l’édiction des principes fondamentaux du droit, sauf certaines exceptions comme la fiscalité et le droit pénal. Il reviendrait au gouvernement et aux collectivités territoriales, dans la limite de leurs compétences, de préciser leur application."
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Regrouper les textes existants dans des « codes simplifiés », à droit constant.",
+          "source": {
+            "page": 3,
+            "quote": "de recueillir tous les textes existants dans des « codes simplifiés »"
+          }
+        },
+        {
+          "text": "Confier à une instance de parlementaires, de juristes et de représentants de la société civile l'extraction des principes fondamentaux du droit existant.",
+          "source": {
+            "page": 3,
+            "quote": "une instance composée de parlementaires, de juristes et de représentants de la société civile, se verrait confier la tâche d’extraire du droit existant ses principes fondamentaux"
+          }
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Renforcer le Parlement : initiative réservée, contrôle, diagnostic préalable",
+      "summary": {
+        "simple": "Le Parlement aurait plus de pouvoir pour proposer des lois et contrôler le gouvernement.",
+        "normal": "Création d'un périmètre législatif où le Parlement aurait un droit d'initiative réservé, renforcement de sa mission de contrôle du gouvernement et diagnostic préalable obligatoire avant l'adoption de nouvelles normes."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "la définition d’un périmètre législatif sur lequel le Parlement disposerait d’un droit d’initiative réservé"
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Renforcer le Parlement dans sa mission de contrôle de l'action gouvernementale.",
+          "source": {
+            "page": 3,
+            "quote": "le renforcement du Parlement dans sa mission de contrôle de l’action gouvernementale"
+          }
+        },
+        {
+          "text": "Faire du Parlement le garant d'un diagnostic préalable avant l'adoption de nouvelles normes.",
+          "source": {
+            "page": 3,
+            "quote": "de faire du Parlement le garant d’un « diagnostic » préalable opéré avant l’adoption de nouvelles normes"
+          }
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Recentrer le rôle du Président de la République sur trois fonctions",
+      "summary": {
+        "simple": "Le Président se concentre sur les grandes décisions, les crises et le lien avec la Nation.",
+        "normal": "Le rôle du Président serait recentré sur la préparation des grandes décisions (avec le Haut-Commissariat au Plan), la gestion des crises majeures et le dialogue avec les forces vives du pays."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "le rôle du Président de la République doit être recentré sur son statut constitutionnel autour de trois grandes fonctions"
+        },
+        {
+          "page": 3,
+          "quote": "le lien entre toutes les composantes de la Nation par un dialogue constant avec les forces vives du pays."
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Préparer les grandes décisions en s'appuyant sur le Haut-Commissariat au Plan.",
+          "source": {
+            "page": 3,
+            "quote": "la préparation et la prise des grandes décisions (en s’appuyant sur le Haut-Commissariat au Plan"
+          }
+        },
+        {
+          "text": "Gérer les crises majeures, en particulier diplomatiques et militaires.",
+          "source": {
+            "page": 3,
+            "quote": "la gestion des crises majeures, en particulier diplomatiques et militaires"
+          }
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Services publics redevables : indicateurs de résultats et choix des usagers",
+      "summary": {
+        "simple": "Les services publics seraient évalués sur leurs résultats et les usagers pourraient choisir.",
+        "normal": "Les services publics seraient rendus redevables envers les citoyens par des indicateurs de résultats et la possibilité de choix offerte aux usagers."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "une révolution décentralisatrice sera imposée aux services publics pour les rendre véritablement redevables à l’égard des citoyens, à travers des indicateurs de résultats et la possibilité de choix offerte aux usagers"
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "institutions",
+      "title": "Déléguer au secteur privé ce qui peut l'être",
+      "summary": {
+        "simple": "Ce que le privé ou les associations peuvent faire à la place de l'État leur serait confié.",
+        "normal": "Nouvelle impulsion à l'externalisation : tout ce qui peut être délégué au secteur privé au sens large (entreprises, associations) le serait, si l'intégrité et la qualité du service public sont préservées."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "tout ce qui peut être délégué au secteur privé – au sens large – doit l’être, dès lors que cela n’attente pas à l’intégrité et la qualité du service public et au contraire les renforce"
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "institutions",
+      "title": "Réduire les tâches administratives de la fonction publique de 33 % à 25 %",
+      "summary": {
+        "simple": "Moins de fonctionnaires dans les bureaux, plus sur le terrain.",
+        "normal": "Le taux de tâches administratives dans la fonction publique passerait de 33 % à 25 % ; 75 % des effectifs (contre 66 %) seraient affectés au service public effectif, soit 450 000 fonctionnaires basculés des bureaux vers le terrain."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "diminuer de 33% à 25% (taux de l’Allemagne) le taux de tâches administratives dans la fonction publique et rendre au service public effectif 75% des effectifs (contre 66% actuellement)"
+        },
+        {
+          "page": 3,
+          "quote": "faire basculer 450 000 fonctionnaires des bureaux vers le terrain et la réduction de la masse salariale"
+        }
+      ],
+      "precision": "precise"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Diviser par deux les contraintes administratives des entreprises et des citoyens",
+      "summary": {
+        "simple": "Deux fois moins de démarches et de contraintes administratives.",
+        "normal": "Objectif de diviser par deux les contraintes administratives imposées aux entreprises et aux citoyens."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "diviser par deux les contraintes administratives imposées aux entreprises et aux citoyens"
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Recruter les directeurs d'administration centrale sur contrats d'objectifs",
+      "summary": {
+        "simple": "Les hauts responsables de l'administration auraient des objectifs à atteindre.",
+        "normal": "Les directeurs d'administration centrale seraient recrutés sur des contrats d'objectifs, évalués sur les résultats et révocables (« spoil system »)."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "responsabiliser les directeurs d’administration centrale en recrutant ces derniers sur des contrats d’objectifs"
+        },
+        {
+          "page": 61,
+          "quote": "Instauration d’un spoil system: les directeurs d’administration centrale seront recrutés sur contrats d’objectifs, évalués sur les résultats, révocables."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Réformer les trois fonctions publiques et généraliser le contrat hors régalien",
+      "summary": {
+        "simple": "Les fonctionnaires des métiers non régaliens seraient de plus en plus recrutés sous contrat.",
+        "normal": "Réorganisation des services de l'État et réforme des trois fonctions publiques pour une fonction publique de métier : statut aligné progressivement sur les contrats de droit privé pour les missions non régaliennes, avec la possibilité de récompenser et de sanctionner."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "revoir l’organisation de l’Etat, en particulier de ses services déconcentrés, et réformer les trois fonctions publiques, pour développer une fonction publique de métier et systématiser le contrat dans les fonctions non-régaliennes"
+        },
+        {
+          "page": 130,
+          "quote": "Son livre propose d’aligner progressivement ce statut sur les contrats de droit privé pour les missions non régaliennes, de diversifier le recrutement de la haute fonction publique, d’externaliser certains services, et de pouvoir récompenser et sanctionner pour mieux rémunérer les agents méritants."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Confier l'évaluation des politiques publiques à des experts indépendants",
+      "summary": {
+        "simple": "Des experts extérieurs à l'administration évalueraient les politiques publiques.",
+        "normal": "Distinction entre contrôle et évaluation, l'évaluation des politiques publiques étant confiée à des experts indépendants de l'administration."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "instaurer une meilleure distinction entre logique de contrôle et d’évaluation, notamment en confiant l’évaluation des politiques publiques à des experts indépendants de l’Administration"
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Réduire le stock de normes via le Conseil national d'évaluation des normes",
+      "summary": {
+        "simple": "Moins de règles et des démarches plus simples.",
+        "normal": "Mise en place d'un processus pour réduire le stock de normes et simplifier les procédures, via le Conseil national d'évaluation des normes. Une équipe placée sous l'autorité directe du président de la République ou du Premier ministre retirerait les normes existantes."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "mettre en place un processus pour dégonfler le stock de normes et simplifier les procédures, via le Conseil National d’Evaluation des Normes"
+        },
+        {
+          "page": 175,
+          "quote": "Le stock, lui, ne disparaît pas tout seul : il propose une équipe placée sous l’autorité directe du président de la République ou du premier ministre pour retirer les normes existantes."
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "numerique",
+      "title": "Une action publique pilotée par la donnée",
+      "summary": {
+        "simple": "L'État utiliserait davantage les données pour décider.",
+        "normal": "Nouvelle architecture numérique de l'action publique : passer d'un fonctionnement de l'État fondé sur la norme à un fonctionnement fondé sur la donnée, en lien avec les acteurs privés et la société civile."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "il s’agit de passer d’un « système nerveux » de l’Etat basé sur la norme à un système basé sur la donnée pour éclairer les choix collectifs et servir de levier aux décideurs publics"
+        },
+        {
+          "page": 3,
+          "quote": "En collaboration étroite avec les acteurs privés et la société civile"
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "institutions",
+      "title": "Regrouper ministres et administrations centrales dans une « cité gouvernementale »",
+      "summary": {
+        "simple": "Tous les ministères réunis sur un même site.",
+        "normal": "Création d'une « cité gouvernementale » regroupant sur un même lieu les ministres et l'ensemble des directions centrales des administrations de l'État."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "la création d’une « cité gouvernementale » regroupant sur un même lieu ministres et l’ensemble des directions centrales des administrations de l’État sera engagée"
+        }
+      ],
+      "precision": "partielle"
+    },
+    {
+      "theme": "international",
+      "title": "Négocier un traité de démocratisation de l'Europe",
+      "summary": {
+        "simple": "Plus de pouvoir au Conseil européen et au Parlement européen.",
+        "normal": "Négociation d'un traité de démocratisation de l'Europe revoyant la répartition des compétences entre institutions européennes, au profit du Conseil européen et du Parlement."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "La négociation d’un Traité de démocratisation de l’Europe permettra de revoir la répartition des compétences entre les institutions européennes, et de renforcer les prérogatives des institutions ayant la plus forte légitimité démocratique : le Conseil Européen et le Parlement."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "institutions",
+      "title": "Référendum en cas de blocage dû à des règles supranationales",
+      "summary": {
+        "simple": "Si une règle européenne bloque la France, les citoyens pourraient trancher par référendum.",
+        "normal": "En cas d'impossibilité pour un État d'exercer sa souveraineté du fait de règles supranationales, possibilité de demander aux citoyens d'arbitrer par référendum, ce qui implique de revoir partiellement la hiérarchie des normes."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "En cas d’impossibilité pour un Etat d’exercer sa souveraineté en raison de règles supranationales, il devra être possible, en cas de blocage, de demander aux citoyens d’arbitrer par référendum. Cela implique de revoir partiellement la hiérarchie des normes."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "international",
+      "title": "Conditionner les transferts européens de cohésion à l'État de droit",
+      "summary": {
+        "simple": "Les aides européennes aux pays bénéficiaires dépendraient du respect de l'État de droit.",
+        "normal": "Les transferts financiers de la politique européenne de cohésion seraient conditionnés au respect de l'État de droit et des règles anti-corruption par les pays bénéficiaires, et à l'assentiment des citoyens européens."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "ces transferts ne sont acceptables qu’à deux conditions : que les pays bénéficiaires respectent l’Etat de droit et les règles anti-corruption, et que cette solidarité entre régions européennes fasse l’objet d’un assentiment par les citoyens européens"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "international",
+      "title": "Coopérations européennes de projets entre États volontaires",
+      "summary": {
+        "simple": "Des grands projets européens communs : espace, numérique, énergie décarbonée, recherche médicale.",
+        "normal": "Renforcement de la coopération européenne entre États volontaires sur des programmes concrets : industrie spatiale, données numériques, production énergétique décarbonée, technologies de rupture, recherche médicale."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Le renforcement de la coopération européenne, à l’initiative des Etats membres volontaires, sur des programmes structurants et concrets, portant une ambition collective, est la meilleure façon de relancer le processus européen"
+        },
+        {
+          "page": 4,
+          "quote": "outre l’industrie spatiale, les nouvelles filières de la data numérique, la production énergétique décarbonnée, les technologies de rupture ou la recherche médicale"
+        }
+      ],
+      "precision": "floue"
+    },
+    {
+      "theme": "international",
+      "title": "Redéfinir les compétences de l'Union européenne",
+      "summary": {
+        "simple": "Revoir ce que décide l'Europe et ce qui reste aux États.",
+        "normal": "Redéfinition des compétences pour lesquelles l'Europe agit en pleine capacité et de celles qui doivent rester de niveau national ou régional."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Il importe donc de redéfinir les compétences indispensables à la plus-value européenne, pour lesquelles l’Europe doit agir en pleine capacité et les compétences qui doivent rester de niveau national ou régional."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "accord_ue"
+    }
+  ]
+}
