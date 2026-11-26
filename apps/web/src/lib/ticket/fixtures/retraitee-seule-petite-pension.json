@@ -67,6 +67,34 @@
         },
         "nonCalcules": {}
       },
+      "c-02": {
+        "hypotheses": [
+          "Zone des aides au logement déduite du lieu de vie, commune non renseignée : zone_3 (≈).",
+          "Aides au logement : la hausse s'applique au montant calculé avec les règles actuelles, le programme ne précisant pas le barème."
+        ],
+        "mesures": {
+          "aides_logement": [
+            "m-0e9bfe33fd68",
+            "m-8a77e20c8059"
+          ],
+          "minimum_vieillesse": [
+            "m-8a77e20c8059"
+          ],
+          "prime_activite": [
+            "m-8a77e20c8059"
+          ]
+        },
+        "montants": {
+          "aides_logement": 0.0,
+          "allocations_familiales": 0.0,
+          "impot_revenu": 0.0,
+          "minimum_vieillesse": 937.0,
+          "prime_activite": 0.0,
+          "rsa": 0.0,
+          "salaire_net": 0.0
+        },
+        "nonCalcules": {}
+      },
       "c-03": {
         "hypotheses": [
           "Zone des aides au logement déduite du lieu de vie, commune non renseignée : zone_3 (≈).",
@@ -157,9 +185,10 @@
       }
     },
     "corpus": {
-      "c-01": "nouvelle-energie-2026-10",
-      "c-03": "les-republicains-2026-10",
-      "c-04": "horizons-2026-10",
+      "c-01": "nouvelle-energie-2026-11",
+      "c-02": "france-insoumise-2026-11",
+      "c-03": "les-republicains-2026-11",
+      "c-04": "horizons-2026-11",
       "c-05": "place-publique-2026-11"
     }
   }

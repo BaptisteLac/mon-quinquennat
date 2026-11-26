@@ -26,3 +26,13 @@ describe("Proportion", () => {
     expect(Proportion.safeParse({ k: 41, n: 40, low: 0, high: 1 }).success).toBe(false);
   });
 });
+
+describe("intervalle de Wilson aux extrêmes", () => {
+  it("toutes les réussites : borne haute exactement 1, quel que soit n (erreur corrigée : n = 21)", () => {
+    for (let n = 1; n <= 200; n++) {
+      expect(wilson(n, n).high).toBe(1);
+      expect(wilson(0, n).low).toBe(0);
+    }
+  });
+});
+

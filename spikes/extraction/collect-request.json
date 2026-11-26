@@ -1,9 +1,15 @@
 {
-  "corpus": "place-publique-2026-11",
-  "candidate": "c-05",
-  "start": ["https://raphaelglucksmann.eu/programme.html"],
-  "include": ["https://raphaelglucksmann.eu/programme.html"],
-  "exclude": [],
+  "corpus": "france-insoumise-2026-11",
+  "candidate": "c-02",
+  "start": [
+    "https://melenchon2027.fr/programme/livre/"
+  ],
+  "include": [
+    "https://melenchon2027.fr/programme/livre/"
+  ],
+  "exclude": [
+    "https://melenchon2027.fr/wp-content/"
+  ],
   "render": true,
-  "delayMs": 1500
+  "delayMs": 5000
 }

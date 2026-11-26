@@ -7,5 +7,6 @@
   "revenu_incitation_activite_base_mensuel",
   "revenu_incitation_activite_complement_mensuel",
   "revenu_incitation_activite_taux_degressivite",
-  "csg_activite_taux_global"
+  "csg_activite_taux_global",
+  "aides_logement_hausse_pourcent"
 ]

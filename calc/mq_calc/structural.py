@@ -100,4 +100,25 @@ def ria(reform: Reform, settings: Settings) -> None:
         reform.update_variable(v)
 
 
-STRUCTURAL: dict[str, Callable[[Reform, Settings], None]] = {"revenu_familial": revenu_familial, "ria": ria}
+def hausse_aides_logement(reform: Reform, settings: Settings) -> None:
+    """Aides au logement (APL, ALS, ALF) revalorisées d'un pourcentage : le montant calculé par les
+    règles en vigueur est multiplié d'autant. Le programme ne dit pas quels paramètres du barème bougent."""
+    hausse = 1 + _value(settings, "aides_logement_hausse_pourcent") / 100  # % → facteur
+
+    class aide_logement(Variable):
+        value_type = float
+        entity = Famille
+        definition_period = MONTH
+        label = "Aide au logement revalorisée (réforme)"
+
+        def formula(famille, period):
+            return hausse * (famille("apl", period) + famille("als", period) + famille("alf", period))
+
+    reform.update_variable(aide_logement)
+
+
+STRUCTURAL: dict[str, Callable[[Reform, Settings], None]] = {
+    "revenu_familial": revenu_familial,
+    "ria": ria,
+    "hausse_aides_logement": hausse_aides_logement,
+}

@@ -1,0 +1,893 @@
+===== m-4226524dac80 =====
+{
+ "title": "Rétablir les peines planchers pour les infractions les plus graves",
+ "summary": {
+  "simple": "Les infractions les plus graves, notamment contre les policiers, gendarmes, pompiers et professeurs, auraient une peine minimale.",
+  "normal": "Peines minimales et certaines pour les infractions les plus graves, en particulier les atteintes aux personnes dépositaires de l'autorité publique (pompiers, policiers, gendarmes) et aux professeurs."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-justice p. 1) : Le rétablissement des peines planchers.
+CITATION (horizons-2026-11-programme-justice p. 1) : Édouard Philippe veut des peines minimales et certaines pour les infractions les plus graves, en particulier les atteintes aux personnes dépositaires de l’autorité publique, comme les pompiers, les policiers et les gendarmes, et les professeurs.
+
+===== m-81b6f75ffeac =====
+{
+ "title": "Instaurer des peines de prison courtes dès la première infraction, sur le modèle des pays du Nord",
+ "summary": {
+  "simple": "Une première infraction pourrait être punie d'une peine de prison courte et dissuasive.",
+  "normal": "Peines de prison courtes et dissuasives dès la première infraction, sur le modèle des pays du Nord, plutôt que d'enfermer trop tard et trop longtemps."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-justice p. 1) : Des peines de prison courtes, dès la première infraction.
+CITATION (horizons-2026-11-programme-justice p. 1) : Oui, avec une peine courte et dissuasive. Édouard Philippe s’inspire des pays du Nord, qui condamnent dès la première infraction plutôt que d’enfermer trop tard et trop longtemps.
+
+===== m-a218b8a393bf =====
+{
+ "title": "Construire 30 000 places de prison pour les peines courtes, avec une loi d'accélération",
+ "summary": {
+  "simple": "30 000 places de prison seraient construites pour les peines courtes.",
+  "normal": "Construction de 30 000 places de prison pour les peines courtes, avec une loi d'accélération des prisons."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-justice p. 1) : Construire 30 000 places de prison pour les peines courtes, avec une loi d’accélération des prisons.
+
+===== m-8af7eecb0ff5 =====
+{
+ "title": "Interdire aux magistrats de se syndiquer",
+ "summary": {
+  "simple": "Les magistrats n'auraient plus le droit de se syndiquer, comme les militaires et les préfets.",
+  "normal": "Interdiction du droit syndical pour les magistrats, comme pour d'autres fonctions régaliennes (militaires, préfets)."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-justice p. 1) : Interdire aux magistrats de se syndiquer.
+CITATION (horizons-2026-11-programme-justice p. 1) : Édouard Philippe veut interdire aux magistrats de se syndiquer.
+
+===== m-613ada42f0c5 =====
+{
+ "title": "Renforcer la responsabilité des juges : saisine directe du CSM et pouvoir disciplinaire des chefs de juridiction",
+ "summary": {
+  "simple": "Les justiciables pourraient saisir plus facilement le Conseil supérieur de la magistrature, et les chefs de juridiction auraient un pouvoir disciplinaire.",
+  "normal": "Responsabilité des juges renforcée : saisine directe du Conseil supérieur de la magistrature facilitée pour les justiciables, pouvoir disciplinaire de premier niveau pour les chefs de juridiction."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-justice p. 1) : Édouard Philippe veut renforcer la responsabilité des juges : faciliter la saisine directe du Conseil supérieur de la magistrature par les justiciables et doter les chefs de juridiction d’un pouvoir disciplinaire de premier niveau.
+
+===== m-dfdce0ce307e =====
+{
+ "title": "Ouvrir le recrutement des magistrats à d'autres métiers du droit et revoir leur formation",
+ "summary": {
+  "simple": "Plus de magistrats seraient recrutés parmi des avocats et d'autres professionnels du droit.",
+  "normal": "Formation et sélection des magistrats revues, profession davantage ouverte aux personnes ayant exercé d'autres métiers du droit, comme les avocats."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-justice p. 1) : Édouard Philippe veut revoir la formation et la sélection des magistrats, et ouvrir davantage la profession à des personnes qui ont déjà exercé d’autres métiers du droit comme les avocats par exemple.
+
+===== m-58cb8fcef8c3 =====
+{
+ "title": "Appliquer aux casseurs les mesures de prévention antiterroristes",
+ "summary": {
+  "simple": "Les casseurs seraient fichés et pourraient être assignés à résidence lors des manifestations à risque, comme pour la prévention du terrorisme.",
+  "normal": "Contre les casseurs : fichier dédié sur le modèle du FSPRT, visites domiciliaires, mesures individuelles de contrôle administratif et assignation à résidence lors des manifestations à risque."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-securite p. 1) : Utiliser contre les casseurs les mêmes mesures de prévention que contre le terrorisme.
+CITATION (horizons-2026-11-programme-securite p. 1) : un fichier dédié sur le modèle du FSPRT, les visites domiciliaires, les mesures individuelles de contrôle administratif et l’assignation à résidence lors des manifestations à risque.
+
+===== m-02279cf8dfdc =====
+{
+ "title": "Aligner l'exécution des peines des grands trafiquants sur celle des terroristes",
+ "summary": {
+  "simple": "Les grands trafiquants exécuteraient leur peine selon les règles appliquées aux terroristes.",
+  "normal": "Exécution des peines des grands trafiquants alignée sur le régime des terroristes."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-securite p. 1) : Les grands trafiquants exécuteront leur peine comme des terroristes, et une liste noire européenne viserait les pays qui refusent de coopérer.
+
+===== m-5304aa36b341 =====
+{
+ "title": "Établir une liste noire européenne des pays qui refusent de coopérer contre le narcotrafic",
+ "summary": {
+  "simple": "L'Europe tiendrait une liste noire des pays qui ne coopèrent pas contre le trafic de drogue.",
+  "normal": "Liste noire européenne visant les pays qui refusent de coopérer contre le narcotrafic."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-securite p. 1) : une liste noire européenne viserait les pays qui refusent de coopérer.
+
+===== m-6d549fc72164 =====
+{
+ "title": "Signaler à son employeur tout agent public poursuivi pour usage de stupéfiants",
+ "summary": {
+  "simple": "Un agent public poursuivi pour usage de drogue serait systématiquement signalé à son employeur.",
+  "normal": "Signalement systématique à son employeur de tout agent public poursuivi pour usage de stupéfiants."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-securite p. 1) : Un agent public poursuivi pour usage de stupéfiants sera systématiquement signalé à son employeur
+
+===== m-8693d348949a =====
+{
+ "title": "Combattre l'islamisme et éradiquer les Frères musulmans et les organisations affiliées",
+ "summary": {
+  "simple": "L'État combattrait l'islamisme et les organisations liées aux Frères musulmans.",
+  "normal": "Combattre l'islamisme et éradiquer les Frères musulmans et les organisations qui y sont affiliées."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-securite p. 1) : Édouard Philippe veut combattre l’islamisme et éradiquer les Frères musulmans et les organisations qui y sont affiliées
+
+===== m-24b6fb32e306 =====
+{
+ "title": "Dénoncer l'accord franco-algérien de 1968",
+ "summary": {
+  "simple": "L'accord de 1968 qui facilite l'installation des Algériens en France serait dénoncé.",
+  "normal": "Dénonciation de l'accord franco-algérien de 1968, pour appliquer les mêmes règles à tous les étrangers."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-immigration p. 1) : La dénonciation de l’accord franco-algérien de 1968.
+
+===== m-be2ec3a6be35 =====
+{
+ "title": "Rétablir la double peine : expulsion et perte des aides sociales pour les étrangers délinquants",
+ "summary": {
+  "simple": "Un étranger qui commet un délit serait expulsé et perdrait ses aides sociales.",
+  "normal": "Retour de la double peine : un étranger condamné pour un délit perd ses aides sociales et est expulsé."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-immigration p. 1) : Le retour de la double peine pour les étrangers délinquants.
+CITATION (horizons-2026-11-programme-immigration p. 1) : un étranger qui commet un délit doit être expulsé immédiatement et perdre ses aides sociales.
+
+===== m-e9837cad7034 =====
+{
+ "title": "Instaurer un « verrou Schengen » contre les régularisations massives décidées par un seul État",
+ "summary": {
+  "simple": "Aucun pays européen ne pourrait régulariser massivement des sans-papiers sans l'accord des autres.",
+  "normal": "« Verrou Schengen » : aucune régularisation massive au-delà d'un seuil défini ensemble sans accord préalable des partenaires européens."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-immigration p. 1) : Édouard Philippe propose un « verrou Schengen » : aucun État européen ne pourrait engager seul une régularisation massive au-delà d’un seuil défini ensemble, sans l’accord préalable de ses partenaires.
+
+===== m-78a660c9016b =====
+{
+ "title": "Créer un régime européen d'urgence pour suspendre les demandes d'asile en cas de chantage migratoire",
+ "summary": {
+  "simple": "L'Europe pourrait suspendre les nouvelles demandes d'asile quand un pays utilise les migrants pour faire pression.",
+  "normal": "Régime européen d'urgence pour suspendre les nouvelles demandes d'asile quand un pays utilise les migrants pour faire pression sur les frontières."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-immigration p. 1) : Il propose aussi un régime européen d’urgence pour suspendre les nouvelles demandes quand un pays utilise les migrants pour faire pression sur nos frontières
+
+===== m-c29533cee5e8 =====
+{
+ "title": "Doubler le nombre de navires aux Antilles",
+ "summary": {
+  "simple": "La marine aurait deux fois plus de navires aux Antilles, notamment contre le trafic de drogue.",
+  "normal": "Renforcement de la flotte navale, notamment en doublant le nombre de navires aux Antilles contre le narcotrafic."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-defense p. 1) : Édouard Philippe veut renforcer notre flotte navale, notamment en doublant le nombre de navires aux Antilles.
+
+===== m-e4732134552c =====
+{
+ "title": "Exonérer d'impôt et de cotisations salariales les heures au-delà de 35 heures, sans cotisation patronale après la 37e",
+ "summary": {
+  "simple": "Les heures travaillées au-delà de 35 heures seraient sans impôt ni cotisations salariales : plus de 1 000 € par an au SMIC pour deux heures de plus par semaine.",
+  "normal": "Quand l'entreprise allonge le temps de travail après discussion interne, heures au-delà de 35 heures exonérées d'impôt et de cotisations salariales, et plus de cotisation patronale au-delà de la 37e heure ; selon le programme, plus de 1 000 € par an au SMIC pour deux heures de plus par semaine."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-e4732134552c-e1",
+   "ticketLine": "salaire_net",
+   "section": "portefeuille",
+   "appliesTo": {
+    "field": "situationPro",
+    "op": "eq",
+    "value": "salarie_prive"
+   },
+   "computation": {
+    "kind": "estimation",
+    "formulaId": "gain_salaire_reference_personne",
+    "params": {
+     "gainAnnuelReference": 1000
+    },
+    "hypothesis": {
+     "label": "Cas type : plus de 1 000 € par an au SMIC pour deux heures de plus par semaine, chiffre annoncé par le candidat, adapté à ton salaire net en proportion du SMIC net.",
+     "dataSourceId": "service-public-smic-net-2026",
+     "condition": "si ton entreprise allonge ton temps de travail de deux heures par semaine"
+    }
+   },
+   "sentence": {
+    "simple": "Si ton entreprise allonge ton temps de travail, les heures au-delà de 35 heures seraient sans impôt ni cotisations : plus de 1 000 € par an au SMIC pour deux heures par semaine, selon le candidat.",
+    "normal": "Heures au-delà de 35 heures exonérées d'impôt et de cotisations salariales quand l'entreprise allonge le temps de travail. Le montant est calculé pour ce cas type, hors solde : il dépend de la décision de ton entreprise."
+   }
+  }
+ ]
+}
+CITATION (horizons-2026-11-programme-travail p. 1) : Quand une entreprise décide, après discussion interne, d’allonger le temps de travail, les heures au-delà de 35 heures seront exonérées d’impôt et de cotisations salariales, et l’entreprise ne paiera plus de cotisations patronales au-delà de la 37e heure. Pour un salarié au SMIC qui travaille deux heures de plus par semaine, le gain sera de plus de 1 000 € par an.
+
+===== m-d1c92370535e =====
+{
+ "title": "Imposer 3 à 6 mois entre un arrêt maladie et une rupture conventionnelle",
+ "summary": {
+  "simple": "Une rupture conventionnelle ne pourrait être signée que 3 à 6 mois après un arrêt maladie.",
+  "normal": "Période incompressible de 3 à 6 mois entre un arrêt maladie et une rupture conventionnelle."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-travail p. 1) : Édouard Philippe veut créer une période incompressible de 3 à 6 mois entre un arrêt maladie et une rupture conventionnelle.
+
+===== m-9101ef8f26f0 =====
+{
+ "title": "Créer un « livret capital France » et des fonds de capitalisation pour l'épargne vers les entreprises",
+ "summary": {
+  "simple": "Un livret d'épargne « capital France » et des fonds de capitalisation dirigeraient l'épargne des Français vers les entreprises.",
+  "normal": "« Livret capital France » et fonds de capitalisation pour diriger l'épargne vers les entreprises et les champions technologiques."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-entreprises p. 1) : Un « livret capital France » et des fonds de capitalisation pour diriger l’épargne vers nos entreprises.
+
+===== m-466b912d6bac =====
+{
+ "title": "Créer un « super Dutreil agricole » pour transmettre et moderniser les exploitations",
+ "summary": {
+  "simple": "La transmission des exploitations agricoles serait défiscalisée, et l'installation des jeunes aidée.",
+  "normal": "« Super Dutreil agricole » qui défiscalise les transmissions et aide les jeunes à s'installer, dans un plan de transmission et de modernisation des exploitations."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-entreprises p. 1) : Un « super Dutreil agricole » pour transmettre et moderniser les exploitations agricoles.
+CITATION (horizons-2026-11-programme-entreprises p. 1) : avec un « super Dutreil agricole » qui défiscalise les transmissions et aide les jeunes à s’installer
+
+===== m-8199faa5a19f =====
+{
+ "title": "Supprimer des normes chaque année, diviser par deux les délais des projets et supprimer la CNDP",
+ "summary": {
+  "simple": "Une loi annuelle supprimerait des normes, les délais des projets seraient divisés par deux et la Commission nationale du débat public supprimée.",
+  "normal": "Loi annuelle de suppression de normes, passage de l'autorisation à la déclaration pour de nombreuses procédures, délais des projets divisés par deux, suppression de la Commission nationale du débat public."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-entreprises p. 1) : Il veut adopter une loi annuelle de suppression de normes, passer d’un régime d’autorisation à un régime de déclaration pour de nombreuses procédures, diviser par deux les délais pour les projets et supprimer la Commission nationale du débat public (CNDP).
+
+===== m-ce2efe52a9ee =====
+{
+ "title": "Ramener le déficit sous 2,5 % du PIB en fin de quinquennat, soit près de 150 milliards d'économies",
+ "summary": {
+  "simple": "Le déficit passerait sous 2,5 % de la richesse nationale en fin de mandat, soit près de 150 milliards d'euros d'économies.",
+  "normal": "Déficit ramené sous 2,5 % de la richesse nationale à la fin du quinquennat, soit près de 150 milliards d'économies ; effort pour moitié sur les dépenses sociales, un quart sur l'État et les collectivités, un quart sur la croissance."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-comptes-publics p. 1) : Ramener le déficit sous 2,5 % de la richesse nationale à la fin du quinquennat, soit près de 150 milliards d’économies.
+CITATION (horizons-2026-11-programme-comptes-publics p. 1) : l’effort portera pour moitié sur les dépenses sociales, pour un quart sur l’État et les collectivités, et pour un quart sur la croissance.
+
+===== m-f3a4b033a183 =====
+{
+ "title": "Porter progressivement l'âge de départ à 65 ans et la durée de cotisation à 45 ans en moins de dix ans",
+ "summary": {
+  "simple": "L'âge de départ à la retraite passerait progressivement à 65 ans, et la durée de cotisation à 45 ans, en moins de dix ans.",
+  "normal": "Âge de départ porté progressivement à 65 ans et durée de cotisation à 45 ans en moins de dix ans, sans hausse des cotisations ni baisse des pensions."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-f3a4b033a183-e1",
+   "ticketLine": "age_depart_retraite",
+   "section": "temps",
+   "appliesTo": {
+    "field": "situationPro",
+    "op": "in",
+    "value": [
+     "salarie_prive",
+     "fonctionnaire",
+     "independant",
+     "chef_entreprise",
+     "demandeur_emploi",
+     "sans_activite"
+    ]
+   },
+   "computation": {
+    "kind": "formule",
+    "formulaId": "retraite_age_depart",
+    "params": {
+     "ageLegal": 65
+    }
+   },
+   "sentence": {
+    "simple": "Ton âge de départ à la retraite passerait progressivement à 65 ans, en moins de dix ans.",
+    "normal": "Âge de départ porté progressivement à 65 ans en moins de dix ans, et durée de cotisation à 45 ans. Calcul fait avec l'âge cible de 65 ans ; le calendrier par génération n'est pas publié."
+   }
+  }
+ ]
+}
+CITATION (horizons-2026-11-programme-retraites p. 1) : Porter progressivement l’âge de départ à 65 ans et la durée de cotisation à 45 ans, en moins de dix ans.
+
+===== m-a92e843c9982 =====
+{
+ "title": "Maintenir les départs anticipés : handicap, incapacité, invalidité, carrières longues",
+ "summary": {
+  "simple": "Un Français sur trois pourrait partir avant 65 ans : âges maintenus pour les personnes en mauvaise santé et les carrières longues.",
+  "normal": "Âges actuels maintenus : 55 ans en situation de handicap, 60 ans en incapacité permanente, 62 ans en invalidité ; départs anticipés pour carrières longues maintenus ; pénibilité négociée avec les partenaires sociaux."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-a92e843c9982-e1",
+   "ticketLine": "age_depart_retraite",
+   "section": "temps",
+   "appliesTo": {
+    "all": [
+     {
+      "field": "situationPro",
+      "op": "in",
+      "value": [
+       "salarie_prive",
+       "fonctionnaire",
+       "independant",
+       "chef_entreprise",
+       "demandeur_emploi",
+       "sans_activite"
+      ]
+     },
+     {
+      "field": "handicapOuAidant",
+      "op": "eq",
+      "value": "moi"
+     }
+    ]
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "En situation de handicap, tu garderais la possibilité de partir à 55 ans.",
+    "normal": "Âges de départ maintenus : 55 ans en situation de handicap, 60 ans en incapacité permanente, 62 ans en invalidité ; carrières longues maintenues."
+   }
+  }
+ ]
+}
+CITATION (horizons-2026-11-programme-retraites p. 1) : Un Français sur trois pourra partir avant 65 ans, et l’âge ne bougera pas pour les personnes en mauvaise santé.
+CITATION (horizons-2026-11-programme-retraites p. 1) : Les âges actuels seront maintenus pour les personnes en mauvaise santé : 55 ans en situation de handicap, 60 ans en incapacité permanente, 62 ans en invalidité.
+
+===== m-033ec1233b23 =====
+{
+ "title": "Créer une « amende de responsabilisation scolaire » pour les parents d'enfants harceleurs ou absentéistes",
+ "summary": {
+  "simple": "Les parents d'enfants harceleurs, perturbateurs ou absentéistes, et les parents violents, pourraient recevoir une amende du maire.",
+  "normal": "« Amende de responsabilisation scolaire » inspirée du modèle britannique, donnée par le maire sur proposition de l'équipe éducative, pour les parents d'enfants harceleurs, perturbateurs ou absentéistes et les parents violents."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-033ec1233b23-e1",
+   "ticketLine": "ecole",
+   "section": "vie",
+   "appliesTo": {
+    "field": "enfantsAgeBand",
+    "op": "in",
+    "value": [
+     "3_10",
+     "11_17"
+    ]
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Si ton enfant harcèle, perturbe la classe ou manque l'école, le maire pourrait te donner une amende.",
+    "normal": "Amende de responsabilisation scolaire donnée par le maire, sur proposition de l'équipe éducative ; montant non précisé."
+   }
+  }
+ ]
+}
+CITATION (horizons-2026-11-programme-ecole p. 1) : Édouard Philippe veut créer une « amende de responsabilisation scolaire », inspirée du modèle britannique, pour les parents d’enfants harceleurs, perturbateurs ou absentéistes, et pour les parents violents.
+
+===== m-259a2ac3e2f4 =====
+{
+ "title": "Apprendre la natation à tous les enfants dès la maternelle",
+ "summary": {
+  "simple": "Les enfants apprendraient à nager dès l'école maternelle.",
+  "normal": "Apprentissage de la natation pour tous les enfants dès l'école maternelle."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-259a2ac3e2f4-e1",
+   "ticketLine": "ecole",
+   "section": "vie",
+   "appliesTo": {
+    "field": "enfantsAgeBand",
+    "op": "in",
+    "value": [
+     "0_2",
+     "3_10"
+    ]
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Tes enfants apprendraient à nager dès la maternelle.",
+    "normal": "Natation pour tous dès l'école maternelle."
+   }
+  }
+ ]
+}
+CITATION (horizons-2026-11-programme-ecole p. 1) : Édouard Philippe veut que tous les enfants apprennent la natation dès l’école maternelle.
+
+===== m-0d77c4a9fa0a =====
+{
+ "title": "Supprimer les « frais de notaire » pour le premier achat des moins de 35 ans",
+ "summary": {
+  "simple": "Les moins de 35 ans ne paieraient plus de droits de mutation pour leur première résidence principale : 7 000 € de gain pour un appartement de 100 000 €.",
+  "normal": "Exonération de droits de mutation pour l'achat de la première résidence principale des moins de 35 ans ; selon le programme, 7 000 € de gain pour un appartement de 100 000 €."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-0d77c4a9fa0a-e1",
+   "ticketLine": "logement",
+   "section": "vie",
+   "appliesTo": {
+    "all": [
+     {
+      "field": "age",
+      "op": "lte",
+      "value": 34
+     },
+     {
+      "field": "logement",
+      "op": "in",
+      "value": [
+       "locataire_prive",
+       "locataire_hlm",
+       "heberge"
+      ]
+     }
+    ]
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Si tu achètes ton premier logement avant 35 ans, tu ne paierais plus les « frais de notaire » : 7 000 € de moins pour un appartement de 100 000 €, selon le candidat.",
+    "normal": "Exonération de droits de mutation sur la première résidence principale des moins de 35 ans. Gain ponctuel à l'achat, non compté par mois."
+   }
+  }
+ ]
+}
+CITATION (horizons-2026-11-programme-logement p. 1) : Suppression des « frais de notaire » pour le premier achat des moins de 35 ans.
+CITATION (horizons-2026-11-programme-logement p. 1) : en exonérant de droits de mutation l’achat de la première résidence principale. Pour un appartement de 100 000 €, le gain est de 7 000 €.
+
+===== m-0cf90a8e0b6d =====
+{
+ "title": "Créer des « zones d'accélération du logement » près des grands projets",
+ "summary": {
+  "simple": "Près des grands sites industriels, des futurs RER et des zones touristiques, construire serait plus simple et moins taxé.",
+  "normal": "Zones d'accélération du logement, avec normes simplifiées et fiscalité allégée, près des grands sites industriels (EPR), des futurs RER métropolitains et des zones touristiques."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-logement p. 1) : Ce sont des zones où les normes seront simplifiées et la fiscalité allégée pour construire plus vite.
+
+===== m-e575437e1cd6 =====
+{
+ "title": "Garantir une solution d'accompagnement à chaque personne handicapée et voter une loi sur l'école inclusive",
+ "summary": {
+  "simple": "Chaque enfant et chaque adulte handicapé aurait une solution d'accompagnement, sans liste d'attente en IME.",
+  "normal": "Solution d'accompagnement pour chaque enfant et chaque adulte en situation de handicap ; loi sur l'école inclusive pour en finir avec les listes d'attente en IME."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-e575437e1cd6-e1",
+   "ticketLine": "sante",
+   "section": "vie",
+   "appliesTo": {
+    "field": "handicapOuAidant",
+    "op": "in",
+    "value": [
+     "moi",
+     "proche"
+    ]
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Chaque personne en situation de handicap aurait une solution d'accompagnement, sans liste d'attente en IME.",
+    "normal": "Solution d'accompagnement garantie pour chaque enfant et chaque adulte ; loi sur l'école inclusive."
+   }
+  }
+ ]
+}
+CITATION (horizons-2026-11-programme-handicap p. 1) : Une solution d’accompagnement pour chaque enfant et chaque adulte, avec une loi sur l’école inclusive pour en finir avec les listes d’attente en IME.
+
+===== m-201649f61cc0 =====
+{
+ "title": "Permettre le cumul intégral de l'AAH et d'un salaire pendant un an après une reprise d'emploi",
+ "summary": {
+  "simple": "En reprenant un emploi, une personne handicapée garderait toute son AAH pendant un an, contre six mois aujourd'hui.",
+  "normal": "Cumul intégral de l'allocation aux adultes handicapés et des revenus du travail pendant un an après la reprise d'un emploi, contre 6 mois aujourd'hui."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": [
+  {
+   "id": "m-201649f61cc0-e1",
+   "ticketLine": "prime_activite",
+   "section": "portefeuille",
+   "appliesTo": {
+    "field": "handicapOuAidant",
+    "op": "eq",
+    "value": "moi"
+   },
+   "computation": {
+    "kind": "qualitatif"
+   },
+   "sentence": {
+    "simple": "Si tu touches l'AAH et reprends un emploi, tu la garderais en entier pendant un an.",
+    "normal": "Cumul intégral AAH et salaire pendant un an après reprise d'emploi (6 mois aujourd'hui). Montant non calculé : le profil ne demande pas l'AAH."
+   }
+  }
+ ]
+}
+CITATION (horizons-2026-11-programme-handicap p. 1) : Le cumul intégral de l’AAH et des revenus du travail pendant un an après la reprise d’un emploi.
+CITATION (horizons-2026-11-programme-handicap p. 1) : contre 6 mois aujourd’hui
+
+===== m-573c27f3802b =====
+{
+ "title": "Conclure un pacte européen de puissance numérique avec une priorité européenne dans l'achat technologique",
+ "summary": {
+  "simple": "Les États européens achèteraient en priorité des technologies européennes, avec des achats groupés.",
+  "normal": "Pacte européen de puissance numérique : priorité européenne dans l'achat technologique (« Buy European Tech Act ») et achats groupés entre États membres."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-intelligence-artificielle p. 1) : Un pacte européen de puissance numérique, avec une priorité européenne dans l’achat technologique.
+
+===== m-4240e0576e44 =====
+{
+ "title": "Lancer le plan Horizon 2050 : un euro public pour un euro privé",
+ "summary": {
+  "simple": "Un plan d'investissement succéderait à France 2030, avec un euro public pour chaque euro privé.",
+  "normal": "Plan Horizon 2050, successeur de France 2030 : un euro public pour un euro privé, concentré sur les fonds propres des acteurs technologiques critiques et les infrastructures de l'IA."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-intelligence-artificielle p. 1) : Lancer le plan Horizon 2050 pour succéder à France 2030 : un euro public pour un euro privé.
+
+===== m-6edfcf62e528 =====
+{
+ "title": "Simplifier les règles européennes sur l'IA en gardant une régulation protectrice des enfants",
+ "summary": {
+  "simple": "Les règles européennes sur l'IA seraient simplifiées, tout en protégeant les enfants.",
+  "normal": "Simplification du cadre juridique européen applicable à l'IA, sans renoncer à une régulation éthique et protectrice des enfants ; réflexion sur la modération a priori des contenus illicites générés par l'IA."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-intelligence-artificielle p. 1) : Édouard Philippe veut simplifier le cadre juridique européen applicable à l’IA, pour que nos entreprises puissent innover.
+
+===== m-c28fa2daeaeb =====
+{
+ "title": "Relancer le nucléaire avec 8 EPR en plus des 6 prévus et développer les renouvelables",
+ "summary": {
+  "simple": "Huit réacteurs EPR seraient lancés en plus des six prévus, soit 14 nouveaux réacteurs, avec plus de renouvelables là où elles sont efficaces.",
+  "normal": "Relance du nucléaire : 8 EPR supplémentaires en plus des 6 déjà prévus, soit 14 nouveaux réacteurs ; renouvelables développées là où elles sont efficaces."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-energie p. 1) : Relancer le nucléaire et développer les renouvelables là où elles sont efficaces.
+CITATION (horizons-2026-11-programme-energie p. 1) : Édouard Philippe propose de lancer 8 EPR supplémentaires, en plus des 6 déjà prévus, soit 14 nouveaux réacteurs.
+
+===== m-d4c9351a80aa =====
+{
+ "title": "Électrifier massivement les usages pour sortir du pétrole et du gaz",
+ "summary": {
+  "simple": "Les usages passeraient massivement à l'électricité, avec un accompagnement des ménages.",
+  "normal": "Électrification massive des usages pour sortir du pétrole et du gaz, sans détriment pour le pouvoir d'achat, avec un accompagnement des Français ; modalités non précisées."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-energie p. 1) : Électrifier massivement nos usages pour sortir du pétrole et du gaz.
+
+===== m-add06be7e9fd =====
+{
+ "title": "Renforcer le prix du carbone aux frontières européennes",
+ "summary": {
+  "simple": "Les produits importés en Europe paieraient davantage leurs émissions de carbone.",
+  "normal": "Renforcement du prix du carbone aux frontières européennes pour protéger les industries qui décarbonent."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-energie p. 1) : Renforcer le prix du carbone aux frontières européennes. Protéger les industries qui décarbonent face aux concurrents qui ne le font pas.
+
+===== m-40610daf6493 =====
+{
+ "title": "Porter la part du fret ferroviaire à 20 % en fin de quinquennat",
+ "summary": {
+  "simple": "La part des marchandises transportées par le train passerait de moins de 10 % à 20 %.",
+  "normal": "Grand plan fret ferroviaire : part portée à 20 % à la fin du quinquennat, contre moins de 10 % aujourd'hui."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-energie p. 1) : Lancer un grand plan fret ferroviaire : porter sa part à 20 % à la fin du quinquennat, contre moins de 10 % aujourd’hui.
+
+===== m-9644d37e317d =====
+{
+ "title": "Financer le nucléaire et les interconnexions par la Banque européenne d'investissement",
+ "summary": {
+  "simple": "La Banque européenne d'investissement financerait le nucléaire et les liaisons électriques entre pays.",
+  "normal": "Europe puissance énergétique : la Banque européenne d'investissement finance le nucléaire et les interconnexions."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-energie p. 1) : Faire de l’Europe une puissance énergétique, avec la Banque européenne d’investissement pour financer le nucléaire et les interconnexions.
+
+===== m-048bb157069b =====
+{
+ "title": "Ajouter un volet environnemental au service national",
+ "summary": {
+  "simple": "Les jeunes du service national pourraient débroussailler, entretenir les forêts ou sensibiliser le public.",
+  "normal": "Volet environnemental du service national : missions de débroussaillage, d'entretien des forêts et de sensibilisation du public."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-adaptation-climatique p. 1) : Édouard Philippe veut intégrer un volet environnemental au futur service national.
+
+===== m-f3d6b469d986 =====
+{
+ "title": "Construire une nouvelle piste d'aéroport sur Grande-Terre et un deuxième hôpital à Mayotte",
+ "summary": {
+  "simple": "Mayotte aurait une nouvelle piste d'aéroport sur Grande-Terre et un deuxième hôpital complet à Combani.",
+  "normal": "Nouvelle piste d'aéroport sur Grande-Terre et deuxième hôpital de plein exercice à Combani (maternité, médecine, chirurgie) ; financements de l'eau garantis jusqu'en 2032."
+ },
+ "subMeasures": [],
+ "schedule": {
+  "effectiveDate": "2028-01-01",
+  "dateOrigin": "estimee",
+  "estimationRule": "Date non annoncée : 1er janvier suivant la première loi de finances du quinquennat (règle par défaut)"
+ },
+ "effects": []
+}
+CITATION (horizons-2026-11-programme-outre-mer p. 1) : Lancement d’une nouvelle piste d’aéroport sur Grande-Terre et un deuxième hôpital de plein exercice à Mayotte.
+CITATION (horizons-2026-11-programme-outre-mer p. 1) : Édouard Philippe veut d’abord garantir dans la durée, jusqu’en 2032, les financements de l’eau à Mayotte

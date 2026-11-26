@@ -205,6 +205,8 @@ export const ReformLever = z.enum([
   "revenu_incitation_activite_taux_degressivite",
   /** Taux global de CSG sur les revenus d'activité, en % (ex. 6,6). */
   "csg_activite_taux_global",
+  /** Hausse du montant des aides au logement (APL, ALS, ALF), en % (ex. 10). */
+  "aides_logement_hausse_pourcent",
 ]);
 
 const BaremeComputation = z.object({
@@ -237,6 +239,7 @@ const EstimateComputation = z.object({
     "gain_pourcent_salaire_net",
     "gain_salaire_reference_personne",
     "impot_supprime_decile",
+    "smic_net_plancher",
   ]),
   params: z.record(z.string(), z.number()),
   hypothesis: z.object({

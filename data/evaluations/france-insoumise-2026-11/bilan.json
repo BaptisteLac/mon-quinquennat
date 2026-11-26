@@ -1,0 +1,58 @@
+{
+  "corpusId": "france-insoumise-2026-11",
+  "candidateId": "c-02",
+  "manifestSha256": "8f73294e89c318bf3de46d72f95c2b9538fcb2a99ceae7054384bf8a974ffc08",
+  "seed": 2027,
+  "readOn": "2026-11-26",
+  "readers": {
+    "rappel": "Claude (session Claude Code, 2026-11-26), lecture des trois pages tirées pour relever chaque engagement, y compris secondaire ; même modèle que l'extraction",
+    "precision": "Claude (session Claude Code, 2026-11-26), relecture de chaque fiche tirée contre ses citations et la page source ; même modèle que l'extraction"
+  },
+  "checks": {
+    "citations": {
+      "k": 121,
+      "n": 121
+    },
+    "figures": {
+      "k": 121,
+      "n": 121
+    },
+    "autoValidated": {
+      "k": 121,
+      "n": 121
+    }
+  },
+  "recall": {
+    "k": 60,
+    "n": 60,
+    "low": 0.9398260695220669,
+    "high": 1,
+    "pages": 3
+  },
+  "precision": {
+    "k": 39,
+    "n": 40,
+    "low": 0.8711834051199223,
+    "high": 0.9955732825922052
+  },
+  "parameters": {
+    "k": 17,
+    "n": 17,
+    "low": 0.8156763396284354,
+    "high": 1
+  },
+  "errorFree": {
+    "k": 39,
+    "n": 40,
+    "low": 0.8711834051199223,
+    "high": 0.9955732825922052
+  },
+  "discrepancies": [
+    {
+      "measureId": "m-f4fe244d5d4e",
+      "sens": "incorrect",
+      "parametres": "justes",
+      "note": "Le résumé ajoute « plan d'urgence contre la grande pauvreté », tiré du paragraphe d'introduction et non d'une citation de la fiche."
+    }
+  ]
+}

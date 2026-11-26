@@ -1,0 +1,23 @@
+{
+  "corpus": "horizons-2026-11",
+  "lecteur": "Claude (session Claude Code, 2026-11-26)",
+  "consigne": "Pour chaque engagement non apparié automatiquement (citations trop différentes), chercher une mesure publiée qui porte le même engagement ; ne la retenir que si elle en reprend l'objet, même avec une autre citation.",
+  "couvertures": {
+    "aligner l’exécution des peines des grands trafiquants sur celle des terroristes": {
+      "measureId": "m-02279cf8dfdc",
+      "note": "Même engagement, cité depuis la page Sécurité."
+    },
+    "des tests de décodage seront organisés pour repérer très tôt les élèves en difficulté": {
+      "measureId": "m-356333951522",
+      "note": "La fiche sur la lecture dès la maternelle reprend les tests de décodage."
+    },
+    "Faire de la lutte contre le narcotrafic une priorité aux Antilles notamment avec une présence en mer renforcée.": {
+      "measureId": "m-c29533cee5e8",
+      "note": "Même engagement (navires doublés aux Antilles contre le narcotrafic), cité depuis la page Défense."
+    },
+    "relancer une conférence régionale sur les sargasses dans les Antilles, lancer un plan de protection des mangroves et des coraux": {
+      "measureId": "m-a98d6ba6cbcc",
+      "note": "La fiche de la loi de programmation économique pour les outre-mer reprend sargasses, mangroves et coraux dans son résumé."
+    }
+  }
+}

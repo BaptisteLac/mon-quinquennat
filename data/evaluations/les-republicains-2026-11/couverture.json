@@ -1,0 +1,39 @@
+{
+  "corpus": "les-republicains-2026-11",
+  "lecteur": "Claude (session Claude Code, 2026-11-26)",
+  "consigne": "Pour chaque engagement non apparié automatiquement (citations trop différentes), chercher une mesure publiée qui porte le même engagement ; ne la retenir que si elle en reprend l'objet, même avec une autre citation.",
+  "couvertures": {
+    "à la dispersion des « éducations à » ceci ou cela : ces heures seront rendues au français": {
+      "measureId": "m-02c8c6640114",
+      "note": "La fiche reprend les heures des « éducations à » rendues au français, au calcul et à l'anglais."
+    },
+    "L'accord deviendra la règle prioritaire dans l'entreprise, à défaut dans la branche": {
+      "measureId": "m-97e3f5e7fa75",
+      "note": "La fiche reprend la priorité de l'accord d'entreprise sur l'accord de branche."
+    },
+    "Sanctuariser l'industrie et la technologie, ingénieurs et BUT industriels compris, jusqu'au master": {
+      "measureId": "m-a67fc6f9b051",
+      "note": "La fiche reprend l'industrie et la technologie sanctuarisées jusqu'au master."
+    },
+    "une loi reconnaissant la réutilisation des friches comme raison impérative d'intérêt public majeur": {
+      "measureId": "m-1ef52c92fedf",
+      "note": "La fiche reprend la réutilisation des friches reconnue d'intérêt public majeur."
+    },
+    "les nouvelles techniques génomiques seront pleinement intégrées à la stratégie agricole française": {
+      "measureId": "m-8a7257a34de6",
+      "note": "La fiche reprend l'intégration des nouvelles techniques génomiques."
+    },
+    "Ces mesures bénéficieront aussi aux PME et aux TPE, et pas seulement aux grands groupes": {
+      "measureId": "m-d8b6ff619555",
+      "note": "La fiche précise « y compris dans les PME et TPE »."
+    },
+    "Il s'agit de reprendre les travaux interrompus en 2019 avec l'arrêt du programme ASTRID": {
+      "measureId": "m-0d6119454166",
+      "note": "La relance des programmes de recherche sur un démonstrateur de quatrième génération est la reprise des travaux d'ASTRID."
+    },
+    "La gestion est confiée aux partenaires sociaux, sur le modèle de l'Agirc-Arrco, avec des gestionnaires choisis par appel d'offres.": {
+      "measureId": "m-9a2c937727f1",
+      "note": "La fiche reprend la gestion par les partenaires sociaux."
+    }
+  }
+}

@@ -115,6 +115,13 @@ LEVERS: dict[str, Lever] = {
         _csg_activite,
         hypotheses=("CSG sur les revenus d'activité : la part imposable (2,4 %) est gardée, la baisse porte sur la part déductible.",),
     ),
+    "aides_logement_hausse_pourcent": Lever(
+        "Hausse des aides au logement (%)",
+        frozenset({"aides_logement"}),
+        _none,
+        structural="hausse_aides_logement",
+        hypotheses=("Aides au logement : la hausse s'applique au montant calculé avec les règles actuelles, le programme ne précisant pas le barème.",),
+    ),
 }
 
 

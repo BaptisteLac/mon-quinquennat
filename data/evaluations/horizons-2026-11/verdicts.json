@@ -1,0 +1,169 @@
+{
+  "corpus": "horizons-2026-11",
+  "lecteur": "Claude (session Claude Code, 2026-11-26), relecture de chaque fiche tirée contre ses citations et la page source ; même modèle que l'extraction",
+  "date": "2026-11-26",
+  "consigne": "Sens : la fiche (titre, résumés, phrases d'effet) dit ce que dit la citation, sans ajout, omission qui change le sens, ni engagement plus fort ou plus faible. Paramètres : taux, montants, durées, seuils et date d'effet conformes au programme ; « sans_parametre » si la fiche n'en porte aucun.",
+  "verdicts": {
+    "m-4226524dac80": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-81b6f75ffeac": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-a218b8a393bf": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-8af7eecb0ff5": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-613ada42f0c5": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-dfdce0ce307e": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-58cb8fcef8c3": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-02279cf8dfdc": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-5304aa36b341": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-6d549fc72164": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-8693d348949a": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-24b6fb32e306": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-be2ec3a6be35": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-e9837cad7034": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-78a660c9016b": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-c29533cee5e8": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-e4732134552c": {
+      "sens": "correct",
+      "parametres": "justes",
+      "note": "Le calcul retient 1 000 € par an comme gain de référence au SMIC alors que le programme écrit « plus de 1 000 € » : borne basse du chiffre annoncé, écrite dans l'hypothèse ; jugé correct."
+    },
+    "m-d1c92370535e": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-9101ef8f26f0": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-466b912d6bac": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-8199faa5a19f": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-ce2efe52a9ee": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-f3a4b033a183": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-a92e843c9982": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-033ec1233b23": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-259a2ac3e2f4": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-0d77c4a9fa0a": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-0cf90a8e0b6d": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-e575437e1cd6": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-201649f61cc0": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-573c27f3802b": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-4240e0576e44": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-6edfcf62e528": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-c28fa2daeaeb": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-d4c9351a80aa": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-add06be7e9fd": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-40610daf6493": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-9644d37e317d": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-048bb157069b": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-f3d6b469d986": {
+      "sens": "correct",
+      "parametres": "justes"
+    }
+  }
+}

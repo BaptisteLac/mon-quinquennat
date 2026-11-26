@@ -1,0 +1,64 @@
+{
+  "corpus": "france-insoumise-2026-11",
+  "manifestSha256": "8f73294e89c318bf3de46d72f95c2b9538fcb2a99ceae7054384bf8a974ffc08",
+  "seed": 2027,
+  "pages": [
+    {
+      "documentId": "france-insoumise-2026-11-programme-livre-une-economie-au-service-des-besoins",
+      "page": 1,
+      "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins"
+    },
+    {
+      "documentId": "france-insoumise-2026-11-le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite",
+      "page": 1,
+      "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite"
+    },
+    {
+      "documentId": "france-insoumise-2026-11-programme-livre-un-monde-ordonne-chapitre3",
+      "page": 1,
+      "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3"
+    }
+  ],
+  "mesures": [
+    "m-cee099c25115",
+    "m-ab41086bd244",
+    "m-55365eea03b9",
+    "m-331de08baaa3",
+    "m-25b79ada7527",
+    "m-e5002018bf36",
+    "m-1501e260abbd",
+    "m-8c12cce5b549",
+    "m-0e9bfe33fd68",
+    "m-1b7efd478939",
+    "m-5481a2bdecd0",
+    "m-2fb4c57f40d2",
+    "m-f4fe244d5d4e",
+    "m-b05948a8ae0a",
+    "m-8a77e20c8059",
+    "m-61a60c6ab4d2",
+    "m-799bfc2020c8",
+    "m-02b43c861bbc",
+    "m-39d97603c499",
+    "m-82709f247d1c",
+    "m-c15afd769dd2",
+    "m-92eafdd22583",
+    "m-88336309a89e",
+    "m-1d1268eb617c",
+    "m-07490c84aa3d",
+    "m-0d171bfb4148",
+    "m-a339a26c9cab",
+    "m-dbd6075c3637",
+    "m-50a9265187a3",
+    "m-f4c4adc15e81",
+    "m-458a6d2ff3d2",
+    "m-ccc68e0dd3b0",
+    "m-24285dfb2a84",
+    "m-b143f3b94eed",
+    "m-8513c5d8ba68",
+    "m-28b19bb8e2ec",
+    "m-0856d5bc86de",
+    "m-4bbcc1fe9a4f",
+    "m-3c68fe2db975",
+    "m-5a8369a7bab1"
+  ]
+}

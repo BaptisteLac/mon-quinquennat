@@ -77,6 +77,35 @@
         },
         "nonCalcules": {}
       },
+      "c-02": {
+        "hypotheses": [
+          "Enfants nés le 1er juillet de leur année de naissance (≈).",
+          "Personne seule avec enfants : parent isolé (case T), sans pension alimentaire.",
+          "Aides au logement : la hausse s'applique au montant calculé avec les règles actuelles, le programme ne précisant pas le barème."
+        ],
+        "mesures": {
+          "aides_logement": [
+            "m-0e9bfe33fd68",
+            "m-8a77e20c8059"
+          ],
+          "minimum_vieillesse": [
+            "m-8a77e20c8059"
+          ],
+          "prime_activite": [
+            "m-8a77e20c8059"
+          ]
+        },
+        "montants": {
+          "aides_logement": 176.33,
+          "allocations_familiales": 152.24,
+          "impot_revenu": 0.0,
+          "minimum_vieillesse": 0.0,
+          "prime_activite": 168.37,
+          "rsa": 0.0,
+          "salaire_net": 1700.0
+        },
+        "nonCalcules": {}
+      },
       "c-03": {
         "hypotheses": [
           "Enfants nés le 1er juillet de leur année de naissance (≈).",
@@ -170,9 +199,10 @@
       }
     },
     "corpus": {
-      "c-01": "nouvelle-energie-2026-10",
-      "c-03": "les-republicains-2026-10",
-      "c-04": "horizons-2026-10",
+      "c-01": "nouvelle-energie-2026-11",
+      "c-02": "france-insoumise-2026-11",
+      "c-03": "les-republicains-2026-11",
+      "c-04": "horizons-2026-11",
       "c-05": "place-publique-2026-11"
     }
   }

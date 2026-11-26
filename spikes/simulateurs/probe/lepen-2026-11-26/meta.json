@@ -1,0 +1,364 @@
+{
+  "requested": "https://www.marinelepen.com/",
+  "final": "https://www.marinelepen.com/",
+  "status": 200,
+  "title": "Présidentielle 2027 : Marine Le Pen, site officiel de campagne",
+  "iframes": [
+    "https://www.marinelepen.com/",
+    "about:blank"
+  ],
+  "links": [
+    {
+      "href": "https://www.marinelepen.com/#main-content",
+      "text": "Aller au contenu"
+    },
+    {
+      "href": "https://www.marinelepen.com/",
+      "text": ""
+    },
+    {
+      "href": "https://www.marinelepen.com/",
+      "text": "Accueil"
+    },
+    {
+      "href": "https://www.marinelepen.com/medias",
+      "text": "Médias"
+    },
+    {
+      "href": "https://www.marinelepen.com/biographie",
+      "text": "Connaître Marine"
+    },
+    {
+      "href": "https://www.marinelepen.com/actualites",
+      "text": "Actualités"
+    },
+    {
+      "href": "https://www.marinelepen.com/deplacements",
+      "text": "Déplacements"
+    },
+    {
+      "href": "https://www.marinelepen.com/materiel-de-campagne",
+      "text": "Matériel de campagne"
+    },
+    {
+      "href": "https://www.marinelepen.com/don",
+      "text": "Faire un don (nouvel onglet)"
+    },
+    {
+      "href": "https://www.marinelepen.com/actualites",
+      "text": "Le journal de campagne Toutel’actualité Retrouvez les actualités et les communiqués de la campagne. Consulter le journal"
+    },
+    {
+      "href": "https://www.marinelepen.com/biographie",
+      "text": "Son parcours ConnaîtreMarine Retrouvez la biographie de Marine"
+    },
+    {
+      "href": "https://www.marinelepen.com/don",
+      "text": "Votre soutien compte Faites un don (nouvel onglet) Pour la France, aidez Marine dans sa campagne présidentielle. Je fais un don"
+    },
+    {
+      "href": "https://www.marinelepen.com/medias",
+      "text": "Médias Suivez la campagne de Marine en images"
+    },
+    {
+      "href": "https://www.marinelepen.com/actualites?rubrique=communiques",
+      "text": "Les communiqués Consultez les communiqués officiels et l’actualité de la campagne"
+    },
+    {
+      "href": "https://www.marinelepen.com/contact",
+      "text": "Contact Contacter l’équipe de campagne"
+    },
+    {
+      "href": "https://www.marinelepen.com/deplacements",
+      "text": "Déplacements Suivez les déplacements de la campagne de Marine"
+    },
+    {
+      "href": "https://www.marinelepen.com/materiel-de-campagne",
+      "text": "Matériel de campagne Tracts et affiches"
+    },
+    {
+      "href": "https://www.marinelepen.com/aider",
+      "text": "Participation Comment aider Marine ? Soutien, don et participation : on vous explique tout !"
+    },
+    {
+      "href": "https://www.marinelepen.com/",
+      "text": ""
+    },
+    {
+      "href": "https://www.facebook.com/share/19BqwGkbBw/",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/marine_lepen",
+      "text": ""
+    },
+    {
+      "href": "https://x.com/MLP_officiel",
+      "text": ""
+    },
+    {
+      "href": "https://youtube.com/@marinelepenofficiel",
+      "text": ""
+    },
+    {
+      "href": "https://www.tiktok.com/@mlp.officiel",
+      "text": ""
+    },
+    {
+      "href": "https://whatsapp.com/channel/0029VbE6wx72v1ImV4EGDW0t",
+      "text": ""
+    },
+    {
+      "href": "https://www.marinelepen.com/materiel-de-campagne",
+      "text": "Matériel de campagne"
+    },
+    {
+      "href": "https://www.marinelepen.com/mentions-legales",
+      "text": "Mentions légales"
+    },
+    {
+      "href": "https://www.marinelepen.com/politique-de-confidentialite",
+      "text": "Confidentialité"
+    },
+    {
+      "href": "https://www.marinelepen.com/contact",
+      "text": "Contact"
+    },
+    {
+      "href": "https://www.marinelepen.com/politique-de-confidentialite",
+      "text": "Politique de confidentialité"
+    },
+    {
+      "href": "https://www.marinelepen.com/#cookies-policy-customize",
+      "text": "Personnaliser"
+    },
+    {
+      "href": "https://www.marinelepen.com/#cookies-policy-essentials",
+      "text": "Plus d'informations"
+    },
+    {
+      "href": "https://www.marinelepen.com/#cookies-policy-analytics",
+      "text": "Plus d'informations"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Ouvrir le menu"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Partager le site"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "firstName",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "lastName",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "zipCode",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "city",
+      "id": "",
+      "value": [
+        "=Saisissez d’abord le code postal"
+      ],
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "email",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "",
+      "id": "",
+      "value": "on",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "",
+      "id": "",
+      "value": "on",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "_token",
+      "id": "",
+      "value": "bpLLUlWhemSjaThMTrSDhBXUSNwDllj0OKpKH4b8",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "_token",
+      "id": "",
+      "value": "bpLLUlWhemSjaThMTrSDhBXUSNwDllj0OKpKH4b8",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "_token",
+      "id": "",
+      "value": "bpLLUlWhemSjaThMTrSDhBXUSNwDllj0OKpKH4b8",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "categories[]",
+      "id": "",
+      "value": "essentials",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "categories[]",
+      "id": "cookies-policy-check-essentials",
+      "value": "essentials",
+      "label": "Cookies de fonctionnement Nous devons utiliser certains cookies pour pouvoir faire fonctionner certaines pages web. C'est la raison pour laquelle ils ne nécessitent pas votre consentement."
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "categories[]",
+      "id": "cookies-policy-check-analytics",
+      "value": "analytics",
+      "label": "Cookies analytiques Nous utilisons ces cookies uniquement à des fins de recherche interne sur la manière dont nous pouvons améliorer le service que nous offrons à tous nos utilisateurs. Ces cookies permettent d'évaluer la manière dont vous interagissez avec notre site web."
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    }
+  ],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://www.marinelepen.com/",
+      "resourceType": "document",
+      "postData": null
+    }
+  ]
+}

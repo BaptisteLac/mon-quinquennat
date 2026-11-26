@@ -52,3 +52,14 @@ Une adresse n'est retenue que si la page visitée est le site du candidat ou de 
 | Raphaël Glucksmann | raphaelglucksmann.eu/programme.html : six axes d'orientations, chiffrage « publié progressivement » | Intégré (`place-publique-2026-11`) |
 | Gabriel Attal | gabrielattal.fr : page « Programme » des législatives de 2024 | Pas de programme 2027 : non intégré |
 | Fabien Roussel | fabienroussel2027.fr et pcf.fr : protection anti-robot (403), y compris la copie d'Internet Archive | Illisible : non intégré |
+
+## Mise à jour du 26 novembre 2026
+
+| Candidat | Constat | Suite |
+|---|---|---|
+| Édouard Philippe | edouardphilippe.fr/programme : site refondu, « Le programme » en 17 thématiques ; le livret PDF ne se télécharge qu'en laissant ses coordonnées | Réextrait (`horizons-2026-11`) ; livret non collecté |
+| Bruno Retailleau | Nouvelles pages, dont l'immigration ; mesure sur l'IA modifiée | Mis à jour (`les-republicains-2026-11`) |
+| David Lisnard | Page sur le chiffrage réécrite | Mis à jour (`nouvelle-energie-2026-11`) |
+| Jean-Luc Mélenchon | melenchon2027.fr/programme/livre/ : *L'Avenir en commun*, 5e édition, en ligne chapitre par chapitre (introduction et six parties) ; plans thématiques en PDF à part | Intégré (`france-insoumise-2026-11`) ; plans thématiques à venir |
+| Raphaël Glucksmann | Page programme inchangée | Inchangé (`place-publique-2026-11`) |
+| Marine Le Pen, Gabriel Attal, Fabien Roussel | Toujours pas de programme 2027 officiel lisible | Non intégrés |

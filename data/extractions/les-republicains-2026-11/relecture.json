@@ -1,0 +1,572 @@
+{
+ "d85e5adef490": {
+  "verdict": "fidele",
+  "contentSha256": "ba37be7ae6f0ada16abd2e57dd45db7c4be054846dad9a1a27577909568abbff"
+ },
+ "a2956a0971a9": {
+  "verdict": "fidele",
+  "contentSha256": "37e6af4dc0d35b0f23642e610008480f1ab17426a8c8a221834364eeabd751f0"
+ },
+ "0d5651d95bbf": {
+  "verdict": "fidele",
+  "contentSha256": "159375192fdee8ab63320b0953430ca0cb91031e39ef0cdd8f84c370bae1aff3"
+ },
+ "183078f6f9d7": {
+  "verdict": "fidele",
+  "contentSha256": "0189d3fee36d922642d8b07c7cd127e00360a9c42b1f922a553b485158c41c6a"
+ },
+ "0dbca131d3d6": {
+  "verdict": "fidele",
+  "contentSha256": "7274db2622cb89a9dbc1555ebeb3ca0d7cca8dc3f1067d3e3dfca365086321eb"
+ },
+ "c6b9e9910427": {
+  "verdict": "fidele",
+  "contentSha256": "24a5258c99923ddefb162e323f190409f570cc7978ea1f012d86e04df123a58a"
+ },
+ "bc8a2581483e": {
+  "verdict": "fidele",
+  "contentSha256": "53b8259f58e6cfb9affcc1505a9631de8890a60fef406614d533d747ac4ca40b"
+ },
+ "86124cd9f3f1": {
+  "verdict": "fidele",
+  "contentSha256": "256084a0f1870a32069b307ddea64950ca8cdf43d6cd54e4631d6f4096c316ba"
+ },
+ "26221327b226": {
+  "verdict": "fidele",
+  "contentSha256": "97e5e3bdc9b8c513b2222a574c966f9a4c6adb52ad780f97164360c137cf5349"
+ },
+ "6d6ec10c9d02": {
+  "verdict": "fidele",
+  "contentSha256": "11777268ee4fdd4cdc115f7b4495701289716ba6313bb516241b0c7c48ef18b4"
+ },
+ "4c33a97511b4": {
+  "verdict": "fidele",
+  "contentSha256": "eee560d90d89c9d0dd0efd2cea43e2316ca22b101ab16968d21f48c9a6bcd577"
+ },
+ "c3b3e20e9e00": {
+  "verdict": "fidele",
+  "contentSha256": "cb6d746bb69ec1b74525f7a011c86928d9244d9d42326cddeb3b80743eb35927"
+ },
+ "815fafefe403": {
+  "verdict": "fidele",
+  "contentSha256": "6d8a1dec28477f2a01ef18d70a01d8be630e56df39a699803745056b1beafc58"
+ },
+ "6bb9da5f1d63": {
+  "verdict": "fidele",
+  "contentSha256": "bc04e049d9271c90851e6518fbdaf7e58f5b207643b09d83875dc4fd941522aa"
+ },
+ "669fa240031a": {
+  "verdict": "fidele",
+  "contentSha256": "56d1baeb63b8090a93da0a3efa22a6332834d51972fae316532df7e0b6f35b60"
+ },
+ "e1c86c752546": {
+  "verdict": "fidele",
+  "contentSha256": "54d81357c54a447f74f63c48ff4bed9474833c309c163e5905ad3a298fc85d40"
+ },
+ "15e928b77096": {
+  "verdict": "fidele",
+  "contentSha256": "6a0390f6b81de8724852f47c5ee86588d0c518b02b8bbc8a8731971779640877"
+ },
+ "02c8c6640114": {
+  "verdict": "fidele",
+  "contentSha256": "7c2b2141ece20717a8d88493326b4ca93bde2d48806417c3d06f1537bbbb95f0",
+  "note": "Engagement relevé par l'évaluation du 2026-11-26 et absent de la fiche : citation et résumé complétés après le bilan."
+ },
+ "bef66b460c8c": {
+  "verdict": "fidele",
+  "contentSha256": "b5cc0d0573e510bd6b4aec7ead50226573e82627a535bdb3bb31c1e3c9a5a0fb"
+ },
+ "f92f75a756cb": {
+  "verdict": "fidele",
+  "contentSha256": "03e7de88d40ca53281f76102bd00a6fd1bca8b9108b00ed90bd6d4ad3eb49e6c"
+ },
+ "5de03beda32e": {
+  "verdict": "fidele",
+  "contentSha256": "3e390f358bc5d2df12472d770438e366bc96eec984bb7d3bcc0bffd5afdfbaae"
+ },
+ "e3105fecad9b": {
+  "verdict": "fidele",
+  "contentSha256": "a60c4b9c3a26bdcfd89357b7dd538553f9cc12acdaebd6277df1d46684b1935b"
+ },
+ "b6e6ece99a3e": {
+  "verdict": "fidele",
+  "contentSha256": "eb0152fcfcd86a3f0d24c5b3e89029f00f4815d0a663915444bf2c9f15b72d0d"
+ },
+ "db40be8b077a": {
+  "verdict": "fidele",
+  "contentSha256": "6d0313fc746ed31e3ed47cba881c1fadfec462a89ecdfd527efbbfa9f88ce563"
+ },
+ "62f36b6eaf5f": {
+  "verdict": "fidele",
+  "contentSha256": "d2a0e497f7a971e6a18e36adcbb021a5619c6fef972c2d7732add28abc6c192a"
+ },
+ "88eed64006b3": {
+  "verdict": "fidele",
+  "contentSha256": "077af210e698a5a1bdaf5d9279215d3cfc593d001ed12c77869fbfd03057fb55"
+ },
+ "f7c0b8d9bcfc": {
+  "verdict": "fidele",
+  "contentSha256": "9f4c649879ac187a62931f6c530019c64a3e51de42c6a9c480db406d67c4d8ee"
+ },
+ "20196212d1da": {
+  "verdict": "fidele",
+  "contentSha256": "251d7254aff652b6573d35a7bc33d161c56206f01641e31301b2b553ec3815c4"
+ },
+ "73e8831c29b1": {
+  "verdict": "fidele",
+  "contentSha256": "d4e3aefa6247b2e53c98164eeae94bc60430c49f56d7e50dbd63c419a4a97a4f"
+ },
+ "383e0645dcc9": {
+  "verdict": "fidele",
+  "contentSha256": "f7d7bf07f48010fc5692c59187ce8987a806824fc50cff6ea2d3ec3e3434d299"
+ },
+ "97e3f5e7fa75": {
+  "verdict": "fidele",
+  "contentSha256": "ea78ad484bb796d01c88b409cc1a60762e8b44d726e0d2166998d0e98ca2b710"
+ },
+ "81d4f12ce59c": {
+  "verdict": "fidele",
+  "contentSha256": "365116bb9725bb9ff4f8a72b0633ffeedc8e9f72cbeac7cacad9494f3e0da40c"
+ },
+ "92c614e90053": {
+  "verdict": "fidele",
+  "contentSha256": "67994a29d9e5b7c06ff398be602f0ce519fb4d4512aa6e3cc77720fd0de001d4"
+ },
+ "2628cb64ef2e": {
+  "verdict": "fidele",
+  "contentSha256": "6302529d3e70f7022b69c7b4ee702dc8b874e098907132371f02941d87c6c1e0"
+ },
+ "fa088ca24741": {
+  "verdict": "fidele",
+  "contentSha256": "610623d36cf345db2eaeb4369d79a25fac91c339d39813590afc0844625df9f4"
+ },
+ "a67fc6f9b051": {
+  "verdict": "fidele",
+  "contentSha256": "365dc2b07d49a5f5221aa2b76a6bdd949db671e1039f6c76cc70719b6768c122"
+ },
+ "5a23db4e9e86": {
+  "verdict": "fidele",
+  "contentSha256": "830d949535ac18edb02092be217fe0d966ee709ab9227eed49f4d65588a086ec"
+ },
+ "2b18deb330bc": {
+  "verdict": "fidele",
+  "contentSha256": "a8305970d6d6ab14ba15c61dc5b8f920644ff05af96c4888ebdeffaead6789c3"
+ },
+ "aba36841a68d": {
+  "verdict": "fidele",
+  "contentSha256": "4c9082c5329fe9360e12275984cca19a87e0e273762ec49adad85615efea1fec"
+ },
+ "4fc81c3dc620": {
+  "verdict": "fidele",
+  "contentSha256": "9733cf3153be12312dd561a25970b9a39f7b6ad4ad065f665a9b0ebf2e13b496"
+ },
+ "339e9d42394d": {
+  "verdict": "fidele",
+  "contentSha256": "6978c7e27c9cee2c262c3fe79aed80ecfdf49bba844db0a10c08bd394b984211"
+ },
+ "37edf86bcd3b": {
+  "verdict": "fidele",
+  "contentSha256": "0abb3d1cfc5501015896a6f34fe20fe0057d4206d4d7026db64335ee7df37aa2"
+ },
+ "249252d789d5": {
+  "verdict": "fidele",
+  "contentSha256": "796519b175ebd52c0a42dbe792ee3d78902c5f4457518fdcb3d851ddf8d396e3"
+ },
+ "3ec1b90120e1": {
+  "verdict": "fidele",
+  "contentSha256": "5f5d7ccdcf8053bb85da114f6da067886ced8ec642cdf2ab3e9fca34ff5d1358"
+ },
+ "1ef52c92fedf": {
+  "verdict": "fidele",
+  "contentSha256": "d69f5e653573195f0eff06b37a5e28a8a92cd785dafd3aa589b0877027602692",
+  "note": "Engagement relevé par l'évaluation du 2026-11-26 et absent de la fiche : citation et résumé complétés après le bilan."
+ },
+ "54d65a3da87b": {
+  "verdict": "fidele",
+  "contentSha256": "0ad50a3b7aacfc4f9f40a53441909e2208a84f13c270d0465cc92779523a3a74"
+ },
+ "8a7257a34de6": {
+  "verdict": "fidele",
+  "contentSha256": "c344b7772d4fe7e75ea20f4667aa3a2dc4361142ce98a35423a9866a761245c1"
+ },
+ "afc120f37d75": {
+  "verdict": "fidele",
+  "contentSha256": "0ceef809d526413c6d7478cc57d8608bf92fe79f6fe258014700c6446c066d20"
+ },
+ "a38f460e0460": {
+  "verdict": "fidele",
+  "contentSha256": "51b38cf54e6cb229a5452ab8dfb78388f079e6faa6296aba960bd132706ad94b"
+ },
+ "1d5b96e5a0b2": {
+  "verdict": "fidele",
+  "contentSha256": "b3975bcbe9c7db34f7f30d6038254f813646aca22278327d63f9ad2659819a2a"
+ },
+ "cdd28c48906e": {
+  "verdict": "fidele",
+  "contentSha256": "4ab0fccbe1e0ca9d531d0babc72db6579fd7e60a3907e731748e395bfa3772b6"
+ },
+ "aff101c65882": {
+  "verdict": "fidele",
+  "contentSha256": "5c4a639ed79044c36989e650b5d2324cab8502c1c8b8a46ea71b85598f07d412"
+ },
+ "29367046766b": {
+  "verdict": "fidele",
+  "contentSha256": "68f60f8285c5c87882d8477e128e371d91552dd27402e4b64586fd7e6c17aef3"
+ },
+ "e4842108c0aa": {
+  "verdict": "fidele",
+  "contentSha256": "3f356d724980cd0f7dc56d3943ef2fff9c0975f1dfb616d29499ac5353ad9ab5"
+ },
+ "91e2040e3ef0": {
+  "verdict": "fidele",
+  "contentSha256": "58eed96634561953d316ae952d85d7f304bd039774c97e7b99aff64c9370aef3"
+ },
+ "cfacda3391d7": {
+  "verdict": "fidele",
+  "contentSha256": "69b23c36398c02a3003728864172be80237ea61ed72101a4544f9b73fb7c46e4"
+ },
+ "b41cd06a1bbd": {
+  "verdict": "fidele",
+  "contentSha256": "4a56de4b532fbcc58d27ad210e084a3f8dc67ebd8ea137d277faa15e37f6069d"
+ },
+ "76d6fdd8f8b1": {
+  "verdict": "fidele",
+  "contentSha256": "b04dad87747b0c669b00d61bfd57d16a09195b90e9bd932c1f9b7908e1a4d5f3",
+  "note": "Engagement relevé par l'évaluation du 2026-11-26 et absent de la fiche : citation et résumé complétés après le bilan."
+ },
+ "a585a8992b48": {
+  "verdict": "fidele",
+  "contentSha256": "57832029c4a94b8b3d96e2ef0025eada4ac4b7734c275c6e62ebfc62d5385391"
+ },
+ "86161dce5b30": {
+  "verdict": "fidele",
+  "contentSha256": "607d140224782ac7a546edf41d4aeb421d7d2d096b3868bca94ff7450f174fe1"
+ },
+ "dc349e13d2f7": {
+  "verdict": "fidele",
+  "contentSha256": "4e395bc1be11803e88099819d8a6f3c805b9df17f19208c271e7210c7948801a"
+ },
+ "34a4aec6c274": {
+  "verdict": "fidele",
+  "contentSha256": "95a743901b399633172a662fe2b39805feea8b9ba51ad6ea2285ea2ee3e8132b"
+ },
+ "a353e7bf6d66": {
+  "verdict": "fidele",
+  "contentSha256": "f915d9b9143ff9af58d0a95e807fe3a1679c40ba919f47f29c0bd561ea40f978"
+ },
+ "3bafb803f69a": {
+  "verdict": "fidele",
+  "contentSha256": "f497afe8f327deb3d67ccc6d4ad9d71c244ac50f16e26f666f2d678ecd250294"
+ },
+ "b1d28e758f60": {
+  "verdict": "fidele",
+  "contentSha256": "7177d26eba64f1ab9b69e8cb12426cafd6e8af6d06994421b29eb0c5b9cf91c9"
+ },
+ "20b23552caef": {
+  "verdict": "fidele",
+  "contentSha256": "bef07727dd5ba0d1ef6ac8311c217de5d0c0686c9d22bf0dd7842b303801545d"
+ },
+ "7026724140fe": {
+  "verdict": "fidele",
+  "contentSha256": "ef70136c68a83ee67fe8e4e22ce4c24736e17dc10094318e19c664a985948fc1"
+ },
+ "b6d0da5d545e": {
+  "verdict": "fidele",
+  "contentSha256": "532502d72042234928377dab8d8ed656493b7c118c419c6ba72944b129fb73de"
+ },
+ "76c1120c4a18": {
+  "verdict": "fidele",
+  "contentSha256": "57c7fde931c8c22888a61f3a9e2da7aaf1644f9525a7a3aeb953e1016709d1b7"
+ },
+ "8ec99bd49836": {
+  "verdict": "fidele",
+  "contentSha256": "1ba977be36f7f570dd2ec4fa36ca42e60298f41cf1a7f23cbc020d28fd288b02"
+ },
+ "0cd65d7f6db3": {
+  "verdict": "fidele",
+  "contentSha256": "024c6b5583d87f8991e431e726bdcca04f2cb4eba817503c2e2b8535a631b590"
+ },
+ "d335ecf8f618": {
+  "verdict": "fidele",
+  "contentSha256": "06cfbf7ce097633ba4bf495c111ebbd7375b4b0789f07f72e541a2d749635f03"
+ },
+ "3efa3f82eeb8": {
+  "verdict": "fidele",
+  "contentSha256": "1b298d765bec38b0ef10d997200c5b934224e7b2a4e96234bc748d8402dd95f4"
+ },
+ "031606fd1a51": {
+  "verdict": "fidele",
+  "contentSha256": "57c9a4e2ffc8d37130806bb8010a3559a60daf62a577ff258effee71af1d0bdb"
+ },
+ "f533d5da8646": {
+  "verdict": "fidele",
+  "contentSha256": "79426c9e76596a3cae494ce4d60b722d9776a5c09cd57a098c626f736d6000d1"
+ },
+ "948ffac79d16": {
+  "verdict": "fidele",
+  "contentSha256": "e1e7f77ff9a747a80005ea2dad2f297f0ed9cc8cdad7b19397e93b4cd3ae5065"
+ },
+ "a944bdb82b0c": {
+  "verdict": "fidele",
+  "contentSha256": "76c6cc5c95c6ed814b0f971659c6dc28354433e5f31c9d90e3e99d4f619ab24e"
+ },
+ "d40271dccc4d": {
+  "verdict": "fidele",
+  "contentSha256": "14180aa00d1b8b865cbe01c755b20322d81c450cc187accab20b9ab25b4ca9c2"
+ },
+ "d8b6ff619555": {
+  "verdict": "fidele",
+  "contentSha256": "67069bba509ccaaa72f153800d462a59458925f60c19f582b1968ce834b06544"
+ },
+ "031fdec84fd5": {
+  "verdict": "fidele",
+  "contentSha256": "9124f9a203805cefaec95e7623d691590abc31153ef3e15647b609eb26610d79"
+ },
+ "bad658baf663": {
+  "verdict": "fidele",
+  "contentSha256": "980c0558b41f6b22a43d499577dfcffb0ead728e93ae7ca52f0b6fdda3b4c20a"
+ },
+ "956ca90ad257": {
+  "verdict": "fidele",
+  "contentSha256": "9a485fa50b4f7188ba10c87bfc69e842f0ef08f0bb16c7ca7c26b306cb8e52d1"
+ },
+ "803ff64258b6": {
+  "verdict": "fidele",
+  "contentSha256": "a80ede501555e6e45e6ce025515819d5110b35fe6de3a2c1bf74acbdd047a953"
+ },
+ "33a8897d1d43": {
+  "verdict": "fidele",
+  "contentSha256": "6dca9bdfe7ce0ff0115fb6c0d770ed8a388bf747fd383622716ec2f90791ed48"
+ },
+ "097d257c8413": {
+  "verdict": "fidele",
+  "contentSha256": "fdd928fdc9c330748a9451a07ce306e7a6ff7fba7274a490c91ba54808eec03a"
+ },
+ "d83695853eb9": {
+  "verdict": "fidele",
+  "contentSha256": "ebd729719756d9e259da48772c52badf48108715107e75b7027debaadf900a8d"
+ },
+ "0d6119454166": {
+  "verdict": "fidele",
+  "contentSha256": "6470e96cc4350344853c770420f60be10cbde87aec9b3e6539e9549568de7e29"
+ },
+ "1ce9099f35bf": {
+  "verdict": "fidele",
+  "contentSha256": "976c3223301ec7a6bf1d42971e4ef45d3c99bb46ab45e244e4ca616882b6800f"
+ },
+ "dd439c70928b": {
+  "verdict": "fidele",
+  "contentSha256": "e472fc56a6a3a6bc7532521e2325070d94937d09c326270ac364e08c3b84d185"
+ },
+ "fadadf1528ce": {
+  "verdict": "fidele",
+  "contentSha256": "581b035bafb36dd5419b643e5c82ee026aced82b6e9ff28ee153db07e1ab1ed9"
+ },
+ "a3dbf671eb56": {
+  "verdict": "fidele",
+  "contentSha256": "db1fc2c00b8e3472441d193ee622854763081eb409292c1e684ae9e6945161cf"
+ },
+ "6b6e50ecb712": {
+  "verdict": "fidele",
+  "contentSha256": "b3b81b02dd2455968339ca64a291b267425c1816db40e02c296b926b67ddd5e1"
+ },
+ "d2f4cacdb7fc": {
+  "verdict": "fidele",
+  "contentSha256": "e14506faa9978c5ee26230fadc5458451d887f7219d3d09976c958603b2230d9"
+ },
+ "fd631775bbc3": {
+  "verdict": "fidele",
+  "contentSha256": "12ac0f207a3aae4ee37f45804eb595b0b554f44cb9163c184ed70ea6dbb9e9be"
+ },
+ "abf6ec860c70": {
+  "verdict": "fidele",
+  "contentSha256": "cf2d79b58afe4443cdea4236d33675ca4c71925ed93c6efbc964924ccff4826a"
+ },
+ "79ca09f1cbfc": {
+  "verdict": "fidele",
+  "contentSha256": "02486ac2ea907da0cb9a20bee2b7cc3fd11a103b03335c1f2add1998d5c34e42"
+ },
+ "bf16e1f67bb1": {
+  "verdict": "fidele",
+  "contentSha256": "312aeb6c86ade87bf31652154301f9db87bb939e3d96928645b1f08067a1e9e0"
+ },
+ "7522bd51f84f": {
+  "verdict": "fidele",
+  "contentSha256": "4d36a0fa73eb93de4d4c34762df89d2d406cfc149741cca4853fa3cebdce921f"
+ },
+ "61b150181c1d": {
+  "verdict": "fidele",
+  "contentSha256": "20eb47ef24c850cba52c8a899f16c70b5b0055bc65748413fc7b2914d03534d1"
+ },
+ "0706d0c9171f": {
+  "verdict": "fidele",
+  "contentSha256": "999e79cefd5e52eb37eaedeea901e81d74722283aeaaa249f40a6594a96ce98e"
+ },
+ "14c49a6a98ec": {
+  "verdict": "fidele",
+  "contentSha256": "f08c8f83a4d14636394e0845c0f5a959a933de807c605253ce915c7186cc6a63"
+ },
+ "a753afab8fa1": {
+  "verdict": "fidele",
+  "contentSha256": "1dee90942428996690554ce89d64a91783b93069372a1e200d70b1aba1d9c910"
+ },
+ "b55286251486": {
+  "verdict": "fidele",
+  "contentSha256": "490699c8e67315b683ae35175a225dca2b2d321dcd7c50d457fb2f5a5a8618aa"
+ },
+ "d0cac1645a6c": {
+  "verdict": "fidele",
+  "contentSha256": "59e86f77688bdad9d7b03107be408ac18c2fec45385e3d73895f16b79e502b25"
+ },
+ "8d7c0bec75e6": {
+  "verdict": "fidele",
+  "contentSha256": "6ce27470be9cbf72e27dc8b8988eaa532ff231cc3092748a3fb5f8e136935a84"
+ },
+ "3a7dfdb4ef2b": {
+  "verdict": "fidele",
+  "contentSha256": "11a2156eed2ac23c95d40fd809ce65ce749d6f619b4199b5a584569cc0691264"
+ },
+ "64cb42fba719": {
+  "verdict": "fidele",
+  "contentSha256": "8bc4914610f83c8f17a2b735329f023bfe1b441d12d7eb50b744f53436e9e739"
+ },
+ "4c41c197e6bf": {
+  "verdict": "fidele",
+  "contentSha256": "179c5cbeabdbccc2a6a503be97fd3ea5ef5ff539c050fe592c57198ce2fecf60"
+ },
+ "30e06531fa32": {
+  "verdict": "fidele",
+  "contentSha256": "6853785320dd60b117acfdd19b04ddbad2fa647e455109dfca96310a04e77375"
+ },
+ "18cbe6d6a819": {
+  "verdict": "fidele",
+  "contentSha256": "9e4d30286138eb3eed41c7fc8c7d18e4f1113d2d404e9aac6f4738fb2d190443"
+ },
+ "5746dab62e85": {
+  "verdict": "fidele",
+  "contentSha256": "4e24465d4ce56166bad2b5b62d4869449075ac4275a8ce96a1b4113572b2afd6"
+ },
+ "5512df2000e1": {
+  "verdict": "fidele",
+  "contentSha256": "7095017cad5e217dcfe86fde0eabcbbf11a2ad20114dd887d135f6102bfb4d57"
+ },
+ "b033fae2abf0": {
+  "verdict": "fidele",
+  "contentSha256": "bc79d3cb83456b18ece490e4921f6538cfb87d68b7ebab8ab95f89aa1e470752"
+ },
+ "87d3f3c8bdd5": {
+  "verdict": "fidele",
+  "contentSha256": "28dc30f9c6cb06a260834b48dd2ed26a34fa92695f706f226522a66fc2e2447c"
+ },
+ "9a2c937727f1": {
+  "verdict": "fidele",
+  "contentSha256": "804ea4858060fd1a66de238e65a76b610a2dbf8c9ba881e22226df4bf788f3d5",
+  "note": "Engagement relevé par l'évaluation du 2026-11-26 et absent de la fiche : citation et résumé complétés après le bilan."
+ },
+ "14b60a71b481": {
+  "verdict": "fidele",
+  "contentSha256": "6fc64a40072069ebdafbc91e0d7a030c04b87799e91b74cf64067ce119197320"
+ },
+ "75ceffd4d6ca": {
+  "verdict": "fidele",
+  "contentSha256": "a28ab919c8a7823e81dd5e5176b1930b5f1b060e294933480dee159dbedcd902"
+ },
+ "14e503e23ee1": {
+  "verdict": "fidele",
+  "contentSha256": "70daee929f773b0b5b492bfb172a9a02215decf713baf777a1a2b67fbf59b1a8"
+ },
+ "705d2a52fceb": {
+  "verdict": "fidele",
+  "contentSha256": "a10f978de31cfea0c60cd03f715ec83a17f187841b4fe194e3af0948a6055c5a"
+ },
+ "ef0844750160": {
+  "verdict": "fidele",
+  "contentSha256": "108943a55aef2d264867adac2a7e25dad2cae919d2b2d625f12440a0e3bce633"
+ },
+ "72b9607c6677": {
+  "verdict": "fidele",
+  "contentSha256": "0a73ef0239127437aceeba0875e509e36565eac83760dc0f4935a32ff27c1568"
+ },
+ "8955feb61b5e": {
+  "verdict": "fidele",
+  "contentSha256": "bb0778a331c9faa719dfa9e8fbfc5b555dbb86482ed01fdfd166482a4350bb95"
+ },
+ "a2d768be5142": {
+  "verdict": "fidele",
+  "contentSha256": "a8d9c379d662fab1b26c5845d948c45801e6295e1fa75cda79e41dc24e4394ac"
+ },
+ "a6a77b5253cc": {
+  "verdict": "fidele",
+  "contentSha256": "b3f3db13c3feee8359777b32915d24fda03a45b267ba19157c66baabb6998902"
+ },
+ "967d997524bc": {
+  "verdict": "fidele",
+  "contentSha256": "3f904307a19112bd93f19d748d8583e5af925ac0566eb4346ef5e8fe6b9ef23d",
+  "note": "Mesure ajoutée ou modifiée par la mise à jour du programme (collecte du 2026-11-26), relue le 2026-11-26."
+ },
+ "57e93b22d82e": {
+  "verdict": "fidele",
+  "contentSha256": "ff520568da1d211234714e953ff52cb6868fe14cdb6eee4e4c8ef5e4199e9912",
+  "note": "Mesure ajoutée ou modifiée par la mise à jour du programme (collecte du 2026-11-26), relue le 2026-11-26."
+ },
+ "9a75042ca805": {
+  "verdict": "fidele",
+  "contentSha256": "216b1cff38b049ae923f669e36e9285b3544bd96907b39c4d7ff8af50973ec9a",
+  "note": "Mesure ajoutée ou modifiée par la mise à jour du programme (collecte du 2026-11-26), relue le 2026-11-26."
+ },
+ "6662596586da": {
+  "verdict": "fidele",
+  "contentSha256": "e6316cb077db2da1e5f58d8ecc008c148faf5d6244b21b13985e4b797d1f205d",
+  "note": "Mesure ajoutée ou modifiée par la mise à jour du programme (collecte du 2026-11-26), relue le 2026-11-26."
+ },
+ "07640b4bbcf4": {
+  "verdict": "fidele",
+  "contentSha256": "e272d6e30383d07b6637b37bb88cbd9ee97c1ea9d4d2b202bc6a29ae967b0e7e",
+  "note": "Mesure ajoutée ou modifiée par la mise à jour du programme (collecte du 2026-11-26), relue le 2026-11-26."
+ },
+ "32ebb3bc90ee": {
+  "verdict": "fidele",
+  "contentSha256": "31d387565808b586e7f9448deaea886b6b9dc36c0215397d55fb80d6235ed6be",
+  "note": "Mesure ajoutée ou modifiée par la mise à jour du programme (collecte du 2026-11-26), relue le 2026-11-26."
+ },
+ "6d123536f022": {
+  "verdict": "fidele",
+  "contentSha256": "c5b6d8441f4ac6921877e9b9991a8c0cc923df0b657dd2d2db72ce5f3fc1d7ab",
+  "note": "Mesure ajoutée ou modifiée par la mise à jour du programme (collecte du 2026-11-26), relue le 2026-11-26."
+ },
+ "288b2dda416d": {
+  "verdict": "fidele",
+  "contentSha256": "83873ac693ea320d916211f32991c58ed7c2487dcc43f01b6a97cd861f7226db",
+  "note": "Mesure ajoutée ou modifiée par la mise à jour du programme (collecte du 2026-11-26), relue le 2026-11-26."
+ },
+ "72df382ca495": {
+  "verdict": "fidele",
+  "contentSha256": "968e2fc6d272ad3c8a7493f132c32deacda71ba9a4c816c56da71dd25c8bfe2b",
+  "note": "Mesure ajoutée ou modifiée par la mise à jour du programme (collecte du 2026-11-26), relue le 2026-11-26."
+ },
+ "82ff9474cb71": {
+  "verdict": "fidele",
+  "contentSha256": "8ab03dea3609f1cf9facc5a8a2c8c8fe801df555791ea8c2ffb54060f86ddd12",
+  "note": "Mesure ajoutée ou modifiée par la mise à jour du programme (collecte du 2026-11-26), relue le 2026-11-26."
+ },
+ "a778c11245ff": {
+  "verdict": "fidele",
+  "contentSha256": "014ba15ea05da58b33ebccf6403fc85f303a2105ff9f03fa7528957bb2e1634f",
+  "note": "Mesure ajoutée ou modifiée par la mise à jour du programme (collecte du 2026-11-26), relue le 2026-11-26."
+ },
+ "9888a1d13a83": {
+  "verdict": "fidele",
+  "contentSha256": "995f5c9faf90462edcfb5c135923ba319d2be88643bc2fb32fd7aefa60df3895",
+  "note": "Mesure ajoutée ou modifiée par la mise à jour du programme (collecte du 2026-11-26), relue le 2026-11-26."
+ },
+ "5a24294a5a2f": {
+  "verdict": "fidele",
+  "contentSha256": "a0fdbf268a4711282effab41dc435df503e7ebcd6c28feb66f18c3ec1fdbeb58",
+  "note": "Mesure ajoutée ou modifiée par la mise à jour du programme (collecte du 2026-11-26), relue le 2026-11-26."
+ },
+ "394681ef213d": {
+  "verdict": "fidele",
+  "contentSha256": "41dba5c37a05d65597f102a2947235b6df6049af90268b87db2fb0b1bf971598",
+  "note": "Mesure ajoutée ou modifiée par la mise à jour du programme (collecte du 2026-11-26), relue le 2026-11-26."
+ }
+}

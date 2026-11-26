@@ -1,0 +1,170 @@
+{
+  "corpus": "france-insoumise-2026-11",
+  "lecteur": "Claude (session Claude Code, 2026-11-26), relecture de chaque fiche tirée contre ses citations et la page source ; même modèle que l'extraction",
+  "date": "2026-11-26",
+  "consigne": "Sens : la fiche (titre, résumés, phrases d'effet) dit ce que dit la citation, sans ajout, omission qui change le sens, ni engagement plus fort ou plus faible. Paramètres : taux, montants, durées, seuils et date d'effet conformes au programme ; « sans_parametre » si la fiche n'en porte aucun.",
+  "verdicts": {
+    "m-cee099c25115": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-ab41086bd244": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-55365eea03b9": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-331de08baaa3": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-25b79ada7527": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-e5002018bf36": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-1501e260abbd": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-8c12cce5b549": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-0e9bfe33fd68": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-1b7efd478939": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-5481a2bdecd0": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-2fb4c57f40d2": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-f4fe244d5d4e": {
+      "sens": "incorrect",
+      "parametres": "justes",
+      "note": "Le résumé ajoute « plan d'urgence contre la grande pauvreté », tiré du paragraphe d'introduction et non d'une citation de la fiche."
+    },
+    "m-b05948a8ae0a": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-8a77e20c8059": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-61a60c6ab4d2": {
+      "sens": "correct",
+      "parametres": "justes",
+      "note": "« Permis de conduire gratuit » résume « une formation gratuite à la conduite et le passage du permis de conduire » : formulation à rapprocher de la citation."
+    },
+    "m-799bfc2020c8": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-02b43c861bbc": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-39d97603c499": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-82709f247d1c": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-c15afd769dd2": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-92eafdd22583": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-88336309a89e": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-1d1268eb617c": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-07490c84aa3d": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-0d171bfb4148": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-a339a26c9cab": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-dbd6075c3637": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-50a9265187a3": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-f4c4adc15e81": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-458a6d2ff3d2": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-ccc68e0dd3b0": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-24285dfb2a84": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-b143f3b94eed": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-8513c5d8ba68": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-28b19bb8e2ec": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-0856d5bc86de": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-4bbcc1fe9a4f": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-3c68fe2db975": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-5a8369a7bab1": {
+      "sens": "correct",
+      "parametres": "justes"
+    }
+  }
+}

@@ -12,6 +12,7 @@ import {
   deductionInteretsEmprunt,
   energieFacture,
   gainPourcentSalaireNet,
+  smicNetPlancher,
   impotSupprimeParDecile,
   LegalAgeTable,
   PublicData,
@@ -118,6 +119,9 @@ function estimate(
       // Cas type personnel (« si ton entreprise… ») : le salaire de la personne, pas celui du conjoint.
       if (!datum) throw new Error("Le salaire de référence doit venir d'une donnée publique.");
       return baisseCotisationsSalaire(profile.situationPro === "salarie_prive" ? [profile.revenusNetsMensuels] : [], params, datum.valeur);
+    case "smic_net_plancher":
+      // Plancher à temps plein : le salaire de la personne (le temps partiel du conjoint n'est pas connu).
+      return smicNetPlancher(profile.situationPro === "salarie_prive" && profile.tempsPartiel !== true ? profile.revenusNetsMensuels : null, params);
     case "impot_supprime_decile": {
       if (!datum) throw new Error("Les seuils de déciles doivent venir de données publiques.");
       const { decileDebut, decileFin, decileSuivant } = params;

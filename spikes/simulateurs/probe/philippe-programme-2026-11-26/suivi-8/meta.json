@@ -1,0 +1,747 @@
+{
+  "requested": "https://www.edouardphilippe.fr/programme/comptes-publics",
+  "final": "https://www.edouardphilippe.fr/programme/comptes-publics",
+  "status": 200,
+  "title": "Finances publiques — Le programme — Avec Édouard 2027",
+  "iframes": [
+    "https://www.edouardphilippe.fr/programme/comptes-publics"
+  ],
+  "links": [
+    {
+      "href": "https://www.edouardphilippe.fr/programme/comptes-publics#contenu",
+      "text": "Aller au contenu"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/edouard-philippe",
+      "text": "Édouard Philippe"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme",
+      "text": "Le programme"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/actualites",
+      "text": "Actus"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/actualites#deplacements",
+      "text": "Déplacements"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/actualites#medias",
+      "text": "Dans les médias"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/a-propos",
+      "text": "L’équipe"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/a-propos",
+      "text": "L’équipe de campagne"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/jeunes",
+      "text": "Les jeunes avec Édouard"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/comites",
+      "text": "Les comités avec Édouard"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/elus",
+      "text": "Les élus avec Édouard"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/don",
+      "text": "Donner"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/rejoindre",
+      "text": "RejoindreRejoindre →"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/don",
+      "text": "Donner"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/rejoindre",
+      "text": "Rejoindre"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/edouard-philippe",
+      "text": "Édouard Philippe"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme",
+      "text": "Le programme"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/actualites#deplacements",
+      "text": "Déplacements"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/actualites#medias",
+      "text": "Dans les médias"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/a-propos",
+      "text": "L’équipe de campagne"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/jeunes",
+      "text": "Les jeunes avec Édouard"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/comites",
+      "text": "Les comités avec Édouard"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/elus",
+      "text": "Les élus avec Édouard"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/",
+      "text": "Accueil"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme",
+      "text": "Le programme"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/securite",
+      "text": "Sécurité"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/justice",
+      "text": "Justice"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/immigration",
+      "text": "Immigration"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/defense",
+      "text": "Défense"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail",
+      "text": "Travail et salaires"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/entreprises",
+      "text": "Entreprises et industrie"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/comptes-publics",
+      "text": "Finances publiques"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/retraites",
+      "text": "Retraites"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/ecole",
+      "text": "École"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/famille",
+      "text": "Famille"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/protection-de-l-enfance",
+      "text": "Protection de l’enfance"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/logement",
+      "text": "Logement"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/handicap",
+      "text": "Handicap"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/intelligence-artificielle",
+      "text": "Intelligence artificielle"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/energie",
+      "text": "Énergie"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/adaptation-climatique",
+      "text": "Adaptation climatique"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/outre-mer",
+      "text": "Outre-mer"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/comptes-publics#quel-est-le-plan-d-edouard-philippe-pour-reduire-la-dette",
+      "text": "Quel est le plan d’Édouard Philippe pour réduire la dette ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/comptes-publics#edouard-philippe-va-t-il-augmenter-les-impots",
+      "text": "Édouard Philippe va-t-il augmenter les impôts ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/comptes-publics#c-est-quoi-la-regle-d-or-proposee-par-edouard-philippe",
+      "text": "C’est quoi la règle d’or proposée par Édouard Philippe ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/comptes-publics#ou-edouard-philippe-va-t-il-faire-des-economies",
+      "text": "Où Édouard Philippe va-t-il faire des économies ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/comptes-publics#edouard-philippe-va-t-il-supprimer-des-postes-de-fonctionn",
+      "text": "Édouard Philippe va-t-il supprimer des postes de fonctionnaires ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/comptes-publics#edouard-philippe-va-t-il-supprimer-des-agences-de-l-etat",
+      "text": "Édouard Philippe va-t-il supprimer des agences de l’État ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/comptes-publics#edouard-philippe-va-t-il-baisser-les-aides-sociales",
+      "text": "Édouard Philippe va-t-il baisser les aides sociales ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/comptes-publics#edouard-philippe-va-t-il-reduire-les-depenses-des-collecti",
+      "text": "Édouard Philippe va-t-il réduire les dépenses des collectivités locales ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/comptes-publics#edouard-philippe-va-t-il-faire-de-l-austerite",
+      "text": "Édouard Philippe va-t-il faire de l’austérité ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/comptes-publics#edouard-philippe-va-t-il-reduire-les-depenses-de-sante",
+      "text": "Édouard Philippe va-t-il réduire les dépenses de santé ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/comptes-publics#edouard-philippe-va-t-il-simplifier-les-demarches-administ",
+      "text": "Édouard Philippe va-t-il simplifier les démarches administratives ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/comptes-publics#edouard-philippe-veut-il-moins-de-lois-et-de-normes",
+      "text": "Édouard Philippe veut-il moins de lois et de normes ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme#recherche",
+      "text": "Poser une question →"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme",
+      "text": "→ Le programme"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/comptes-publics#avis-coordonnees",
+      "text": "Envoyer mon avis →"
+    },
+    {
+      "href": "https://whatsapp.com/channel/0029Vb2lsUl1XquO5oXP803R",
+      "text": "Rejoindre le groupe WhatsApp →"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/pages/politique-de-confidentialite",
+      "text": "politique de confidentialité"
+    },
+    {
+      "href": "https://altcha.org/",
+      "text": ""
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail",
+      "text": "Travail et salaires Libérer l’organisation du travail Fin de l’open bar des arrêts maladie Développement de l’apprentissage Lire plus"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/entreprises",
+      "text": "Entreprises et industrie 50 milliards d’impôts de production en moins Zéro nouvelle norme et zéro surtransposition Des fonds de capitalisation pour flécher l’épargne vers l’économie Lire plus"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/retraites",
+      "text": "Retraites Départ à 65 ans, 45 ans de cotisation Départ précoce pour un tiers des Français Capitalisation collective pour tous Lire plus"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/justice",
+      "text": "Par exemple : « Que propose Édouard Philippe pour la justice ? »"
+    },
+    {
+      "href": "https://www.facebook.com/edouardphilippelh",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/edouardphilippelh/",
+      "text": ""
+    },
+    {
+      "href": "https://x.com/EPhilippe_LH",
+      "text": ""
+    },
+    {
+      "href": "https://www.tiktok.com/@avec_edouard",
+      "text": ""
+    },
+    {
+      "href": "https://www.youtube.com/@EdouardPhilippe",
+      "text": ""
+    },
+    {
+      "href": "https://www.linkedin.com/company/horizonsleparti/",
+      "text": ""
+    },
+    {
+      "href": "https://whatsapp.com/channel/0029Vb2lsUl1XquO5oXP803R",
+      "text": ""
+    },
+    {
+      "href": "https://t.me/HorizonsOff",
+      "text": ""
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/edouard-philippe",
+      "text": "Édouard Philippe"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme",
+      "text": "Le programme"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/actualites",
+      "text": "Actus"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/a-propos",
+      "text": "L’équipe"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/contact",
+      "text": "Contact"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/pages/mentions-legales",
+      "text": "Mentions légales"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/pages/politique-de-confidentialite",
+      "text": "Données personnelles"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "axeptio_cookies_edouard-philippe-base_value",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "axeptio_cookies_edouard-philippe-base_accept",
+      "id": "axeptio_consent_checkbox",
+      "value": "0",
+      "label": "Axeptio consent"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "axeptio_main_button",
+      "value": "",
+      "label": "Gérez vos préférences en matière de cookies et données personnelles"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "menu-open",
+      "value": "",
+      "label": "Ouvrir le menu"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "menu-close",
+      "value": "",
+      "label": "Fermer le menu"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "_token",
+      "id": "",
+      "value": "12SJDx4KzxLcJ9GHyKnDTznlNrWv4Uld7GDXdPkm",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "website",
+      "id": "av-website",
+      "value": "",
+      "label": "Ne pas remplir"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "note",
+      "id": "",
+      "value": "1",
+      "label": "1 sur 5 : Pas du tout"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "note",
+      "id": "",
+      "value": "2",
+      "label": "2 sur 5"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "note",
+      "id": "",
+      "value": "3",
+      "label": "3 sur 5"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "note",
+      "id": "",
+      "value": "4",
+      "label": "4 sur 5"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "note",
+      "id": "",
+      "value": "5",
+      "label": "5 sur 5 : Tout à fait"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "sens",
+      "id": "",
+      "value": "1",
+      "label": "1 sur 5 : Pas assez loin"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "sens",
+      "id": "",
+      "value": "2",
+      "label": "2 sur 5"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "sens",
+      "id": "",
+      "value": "3",
+      "label": "3 sur 5 : Juste ce qu’il faut"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "sens",
+      "id": "",
+      "value": "4",
+      "label": "4 sur 5"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "sens",
+      "id": "",
+      "value": "5",
+      "label": "5 sur 5 : Trop loin"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "mesures_preferees[]",
+      "id": "",
+      "value": "Inscrire dans la Constitution une « règle d’or » budgétaire adoptée par référendum dès le début du quinquennat.",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "mesures_preferees[]",
+      "id": "",
+      "value": "Ramener le déficit sous 2,5 % de la richesse nationale à la fin du quinquennat, soit près de 150 milliards d’économies.",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "mesures_preferees[]",
+      "id": "",
+      "value": "Ne créer aucun nouvel impôt pendant cinq ans.",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "mesures_preferees[]",
+      "id": "",
+      "value": "Regrouper ou privatiser les agences de l’État qui font doublon.",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "mesures_preferees[]",
+      "id": "",
+      "value": "Réduire de 250 000 le nombre de postes de fonctionnaires sur le quinquennat, en ne remplaçant pas un fonctionnaire sur trois partant à la retraite dans les fonctions de bureau, grâce aux gains de productivité de l’IA.",
+      "label": ""
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": "message",
+      "id": "av-avis",
+      "value": "",
+      "label": "3Avez-vous une proposition sur cette thématique ? (optionnel)"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "prenom",
+      "id": "av-prenom",
+      "value": "",
+      "label": "Prénom *"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "nom",
+      "id": "av-nom",
+      "value": "",
+      "label": "Nom *"
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "email",
+      "id": "av-email",
+      "value": "",
+      "label": "Adresse e-mail *"
+    },
+    {
+      "tag": "input",
+      "type": "date",
+      "name": "date_naissance",
+      "id": "av-naissance",
+      "value": "",
+      "label": "Date de naissance *"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Pays choisi"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "name": "",
+      "id": "iti-0__search-input",
+      "value": "",
+      "label": "Rechercher un pays"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Effacer la recherche"
+    },
+    {
+      "tag": "input",
+      "type": "tel",
+      "name": "",
+      "id": "av-tel",
+      "value": "",
+      "label": "Téléphone (facultatif)"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "telephone",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "telephone_pays",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "adresse",
+      "id": "av-adresse",
+      "value": "",
+      "label": "Adresse postale *"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "ban_id",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "insee_code",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "latitude",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "longitude",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "code_postal",
+      "id": "av-cp",
+      "value": "",
+      "label": "Code postal *"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "ville",
+      "id": "av-ville",
+      "value": "",
+      "label": "Ville *"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "pays",
+      "id": "av-pays",
+      "value": "France",
+      "label": "Pays *"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "consent",
+      "id": "",
+      "value": "1",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "",
+      "id": "altcha-checkbox-4844b80ccf",
+      "value": "on",
+      "label": "Vérifié"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "altcha",
+      "id": "",
+      "value": "eyJhbGdvcml0aG0iOiJTSEEtMjU2IiwiY2hhbGxlbmdlIjoiYjI2NWE4MWE5MTQyNWRiZjJkZGVjYzIwNDBhNDMwOTU4Y2ZkOWY5NDM0ODAyMmNmYWM0YjQzOTczNmQyYmM0YSIsIm51bWJlciI6OTk2MDksInNhbHQiOiJhZDZjMzIzYWEwNWZmOTc0MGE1OThlNzQ/ZXhwaXJlcz0xNzk1NjgyNTQ4JiIsInNpZ25hdHVyZSI6ImY3YTFhOGQ3NWUzNGQwOGI1YzM2YWU1NmJmNWEzZDUyZjBhNGEzOTlhZTIwM2ZiNDg3NWI1ODU5OWY0ZDFiNWQiLCJ0b29rIjo0MTIuN30=",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "name": "",
+      "id": "q",
+      "value": "",
+      "label": "Rechercher dans le programme"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "open-axeptio",
+      "value": "",
+      "label": ""
+    }
+  ],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://www.edouardphilippe.fr/programme/comptes-publics",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.edouardphilippe.fr/altcha/challenge",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://client.axept.io/projectconfigurations/brands/606722fe6ac944450ffeb559.json?r=0",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4FNJBCSNBB&gtm=45je6bh1v877959061za208zd877959061xf1&_p=1795681948219&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dNGFkYj&_eu=AAAAACAC&cid=79364281.1795681949&frm=0&ibt=1&ngs=1&pscdl=denied&rcb=1&sr=1280x1600&uaa=x86&uab=64&uafvl=Not-A.Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B157.0.8103.78%7CChromium%3B157.0.8103.78&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115616986~115938465~115938469~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795681948&sct=1&seg=0&dl=https%3A%2F%2Fwww.edouardphilippe.fr%2Fprogramme%2Fcomptes-publics&dt=Finances%20publiques%20%E2%80%94%20Le%20programme%20%E2%80%94%20Avec%20%C3%89douard%202027&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1017",
+      "resourceType": "fetch",
+      "postData": null
+    }
+  ]
+}

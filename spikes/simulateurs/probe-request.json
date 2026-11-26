@@ -1,7 +1,11 @@
 {
-  "run": 35,
+  "run": 40,
   "targets": [
-    { "id": "roussel-wayback", "url": "https://web.archive.org/web/2026/https://www.fabienroussel2027.fr/", "waitUntil": "load", "timeoutMs": 120000, "continueOnError": true, "follow": "programme|projet|mesure|propos", "maxFollow": 6 },
-    { "id": "roussel-wayback-cdx", "url": "https://web.archive.org/cdx/search/cdx?url=fabienroussel2027.fr*&output=txt&limit=200&from=2026", "waitUntil": "load", "timeoutMs": 60000, "continueOnError": true }
+    { "id": "philippe-programme-2026-11-26", "url": "https://www.edouardphilippe.fr/programme", "waitUntil": "load", "timeoutMs": 90000, "continueOnError": true, "actions": [{ "wait": 4000 }], "follow": "programme/|livret|\\.pdf", "maxFollow": 10 },
+    { "id": "lepen-2026-11-26", "url": "https://www.marinelepen.com/", "waitUntil": "networkidle", "timeoutMs": 90000, "continueOnError": true, "follow": "programme|projet|mesure|engagement", "maxFollow": 6 },
+    { "id": "rn-2026-11-26", "url": "https://rassemblementnational.fr/", "waitUntil": "load", "timeoutMs": 90000, "continueOnError": true, "actions": [{ "wait": 4000 }], "follow": "programme|projet|2027", "maxFollow": 6 },
+    { "id": "attal-2026-11-26", "url": "https://www.gabrielattal.fr/", "waitUntil": "load", "timeoutMs": 90000, "continueOnError": true, "actions": [{ "wait": 4000 }], "follow": "programme|projet|2027", "maxFollow": 6 },
+    { "id": "roussel-2026-11-26", "url": "https://www.fabienroussel2027.fr/", "waitUntil": "load", "timeoutMs": 120000, "continueOnError": true, "actions": [{ "wait": 20000 }], "follow": "programme|projet|mesure", "maxFollow": 6 },
+    { "id": "glucksmann-2026-11-26", "url": "https://raphaelglucksmann.eu/programme.html", "waitUntil": "load", "timeoutMs": 90000, "continueOnError": true, "follow": "programme|mesure", "maxFollow": 6 }
   ]
 }

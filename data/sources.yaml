@@ -53,22 +53,17 @@ candidates:
     party: "La France insoumise"
     status: declaree
     corpusPrefix: france-insoumise
-    # Le site annonce « L'Avenir en commun est en cours de réactualisation » ; nouvelle version
-    # présentée les 6 et 7 novembre 2026. La veille détecte sa publication ; l'extraction attend
-    # cette version (les chapitres 2025 encore en ligne sont archivés, pas extraits).
+    # 5e édition de L'Avenir en commun, « le programme de la Nouvelle France » (1 069 mesures), en
+    # librairie le 6 novembre 2026 et en ligne chapitre par chapitre depuis la mi-novembre. Les plans
+    # thématiques et d'investissement, présentés comme des compléments, ne sont pas collectés ici.
     programme:
       start:
-        - "https://melenchon2027.fr/programme/decouvrir/"
-        - "https://melenchon2027.fr/programme/plans-thematiques/"
-        - "https://melenchon2027.fr/programme/plans-investissement/"
-        - "https://melenchon2027.fr/programme2025/livre/"
+        - "https://melenchon2027.fr/programme/livre/"
       include:
-        - "https://melenchon2027.fr/programme/"
-        - "https://melenchon2027.fr/programme2025/livre/"
-      # Les PDF du site liés depuis ces pages sont collectés, sauf le programme du Nouveau Front
-      # populaire de 2024, lié depuis le menu : document d'une autre élection.
+        - "https://melenchon2027.fr/programme/livre/"
       exclude:
-        - "https://melenchon2027.fr/wp-content/uploads/2026/04/PROGRAMME-FRONT-POPULAIRE.pdf"
+        # PDF lié depuis le livre : contrat de législature du Nouveau Front populaire (législatives 2024).
+        - "https://melenchon2027.fr/wp-content/"
       render: true
       delayMs: 5000         # le site renvoie des 403 (protection anti-robots) quand on enchaîne les pages
       watch: weekly
@@ -92,15 +87,14 @@ candidates:
     party: "Horizons"
     status: declaree
     corpusPrefix: horizons
-    # Quatre priorités détaillées (recensement du 2026-10-29).
+    # Site refondu en novembre 2026 : les quatre pages « priorités » ont été remplacées par
+    # « Le programme » et ses 17 thématiques (propositions phares et questions-réponses).
+    # Le « livret du programme, volume 1 » ne se télécharge qu'en laissant ses coordonnées : non collecté.
     programme:
       start:
-        - "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
-        - "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
-        - "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
-        - "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+        - "https://www.edouardphilippe.fr/programme"
       include:
-        - "https://www.edouardphilippe.fr/priorites/"
+        - "https://www.edouardphilippe.fr/programme"
       render: true
       watch: weekly
       volatile: []

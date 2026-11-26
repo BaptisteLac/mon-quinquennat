@@ -72,6 +72,6 @@ Point de départ : les deux tests de faisabilité ont leur feu vert (2026-10-26)
 - Duel d'entre-deux-tours (`DUEL1`, `DUEL2`), passage de la veille en quotidien 6 semaines avant le 1er tour.
 
 ## Pistes parallèles (hors code du site)
-- **Programmes** : extraction de La France insoumise après la publication du 6 novembre 2026 (détectée par la veille), puis chaque candidat qui publie.
+- **Programmes** : *L'Avenir en commun* (La France insoumise) extrait le 26 novembre 2026 depuis l'édition en ligne ; ses plans thématiques restent à extraire. Ensuite, chaque candidat qui publie.
 - **Photos des candidats** : droits à obtenir (noir et blanc, même cadrage).
 - **Juridique** : liste de `docs/cadrage.md`, à traiter avant le jalon 6.

@@ -1,0 +1,284 @@
+{
+  "corpus": "horizons-2026-11",
+  "lecteur": "Claude (session Claude Code, 2026-11-26), lecture des quatre pages tirées au sort pour relever chaque engagement, y compris secondaire ; même modèle que l'extraction",
+  "date": "2026-11-26",
+  "consigne": "Relever, page par page, chaque engagement de politique publique (ce que le candidat ferait ou ferait faire une fois élu), avec sa citation exacte. Exclus : constats, chiffres de diagnostic, rappels historiques, chiffrages de financement, slogans de thème sans action identifiable. Un engagement qui regroupe plusieurs actions séparables est découpé.",
+  "pages": [
+    {
+      "documentId": "horizons-2026-11-programme-justice",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Le rétablissement des peines planchers.",
+          "description": "Le rétablissement des peines planchers"
+        },
+        {
+          "quote": "Des peines de prison courtes, dès la première infraction.",
+          "description": "Des peines de prison courtes, dès la première infraction"
+        },
+        {
+          "quote": "La suppression du juge d’application des peines : une peine prononcée sera une peine exécutée.",
+          "description": "La suppression du juge d’application des peines : une peine prononcée sera une peine exécutée"
+        },
+        {
+          "quote": "Construire 30 000 places de prison pour les peines courtes, avec une loi d’accélération des prisons.",
+          "description": "Construire 30 000 places de prison pour les peines courtes, avec une loi d’accélération des prisons"
+        },
+        {
+          "quote": "Le retour des juges de paix : une justice civile plus rapide et plus proche.",
+          "description": "Le retour des juges de paix : une justice civile plus rapide et plus proche"
+        },
+        {
+          "quote": "Interdire aux magistrats de se syndiquer.",
+          "description": "Interdire aux magistrats de se syndiquer"
+        },
+        {
+          "quote": "Simplifier massivement la procédure pénale et déployer l’intelligence artificielle pour accélérer l’instruction des dossiers.",
+          "description": "Simplifier massivement la procédure pénale et déployer l’intelligence artificielle pour accélérer l’instruction des dossiers"
+        },
+        {
+          "quote": "Il propose de créer un comité de simplification qui devra refondre le code de procédure pénale en 100 jours",
+          "description": "Il propose de créer un comité de simplification qui devra refondre le code de procédure pénale en 100 jours"
+        },
+        {
+          "quote": "faciliter la saisine directe du Conseil supérieur de la magistrature par les justiciables et doter les chefs de juridiction d’un pouvoir disciplinaire de premier niveau",
+          "description": "Faciliter la saisine directe du Conseil supérieur de la magistrature par les justiciables et doter les chefs de juridiction d’un pouvoir disciplinaire de premier niveau"
+        },
+        {
+          "quote": "notamment en lui permettant d’adresser des instructions individuelles aux procureurs",
+          "description": "Notamment en lui permettant d’adresser des instructions individuelles aux procureurs"
+        },
+        {
+          "quote": "Il veut pour cela abroger la loi Taubira de 2013.",
+          "description": "Il veut pour cela abroger la loi Taubira de 2013"
+        },
+        {
+          "quote": "Édouard Philippe veut revoir la formation et la sélection des magistrats, et ouvrir davantage la profession à des personnes qui ont déjà exercé d’autres métiers du droit",
+          "description": "Édouard Philippe veut revoir la formation et la sélection des magistrats, et ouvrir davantage la profession à des personnes qui ont déjà exercé d’autres métiers du droit"
+        },
+        {
+          "quote": "Édouard Philippe veut donner aux maires un pouvoir de sanction pénale contre les incivilités qui pourrissent la vie de millions de Français.",
+          "description": "Édouard Philippe veut donner aux maires un pouvoir de sanction pénale contre les incivilités qui pourrissent la vie de millions de Français"
+        },
+        {
+          "quote": "aligner l’exécution des peines des grands trafiquants sur celle des terroristes",
+          "description": "Aligner l’exécution des peines des grands trafiquants sur celle des terroristes"
+        },
+        {
+          "quote": "Édouard Philippe veut lever l’excuse de minorité pour les faits liés au narcotrafic et créer la comparution immédiate des mineurs pour ces infractions.",
+          "description": "Édouard Philippe veut lever l’excuse de minorité pour les faits liés au narcotrafic et créer la comparution immédiate des mineurs pour ces infractions"
+        }
+      ]
+    },
+    {
+      "documentId": "horizons-2026-11-programme-travail",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Augmenter le salaire net en baissant la dépense sociale : une partie des économies sur les retraites, l’assurance chômage et les arrêts maladie sera redistribuée en pouvoir d’achat.",
+          "description": "Augmenter le salaire net en baissant la dépense sociale : une partie des économies sur les retraites, l’assurance chômage et les arrêts maladie sera redistribuée en pouvoir d’achat"
+        },
+        {
+          "quote": "Laisser les entreprises organiser leur temps de travail.",
+          "description": "Laisser les entreprises organiser leur temps de travail"
+        },
+        {
+          "quote": "Limiter à 12 mois l’indemnisation chômage des moins de 50 ans.",
+          "description": "Limiter à 12 mois l’indemnisation chômage des moins de 50 ans"
+        },
+        {
+          "quote": "Trois jours de carence pour tous, dans le privé comme dans le public.",
+          "description": "Trois jours de carence pour tous, dans le privé comme dans le public"
+        },
+        {
+          "quote": "Développer l’apprentissage.",
+          "description": "Développer l’apprentissage"
+        },
+        {
+          "quote": "les heures au-delà de 35 heures seront exonérées d’impôt et de cotisations salariales, et l’entreprise ne paiera plus de cotisations patronales au-delà de la 37e heure",
+          "description": "Les heures au-delà de 35 heures seront exonérées d’impôt et de cotisations salariales, et l’entreprise ne paiera plus de cotisations patronales au-delà de la 37e heure"
+        },
+        {
+          "quote": "Les jeunes des classes moyennes qui travaillent et ont des enfants seront par ailleurs exemptés d’impôt sur le revenu pendant trois ans après la naissance.",
+          "description": "Les jeunes des classes moyennes qui travaillent et ont des enfants seront par ailleurs exemptés d’impôt sur le revenu pendant trois ans après la naissance"
+        },
+        {
+          "quote": "Édouard Philippe veut créer une période incompressible de 3 à 6 mois entre un arrêt maladie et une rupture conventionnelle.",
+          "description": "Édouard Philippe veut créer une période incompressible de 3 à 6 mois entre un arrêt maladie et une rupture conventionnelle"
+        },
+        {
+          "quote": "avec notamment un véritable droit à la reconversion pour les salariés dont le métier est menacé",
+          "description": "Avec notamment un véritable droit à la reconversion pour les salariés dont le métier est menacé"
+        },
+        {
+          "quote": "Édouard Philippe propose un temps partiel parental : après un congé parental, le parent pourra travailler à 80 % tout en étant payé 100 % pendant deux mois.",
+          "description": "Édouard Philippe propose un temps partiel parental : après un congé parental, le parent pourra travailler à 80 % tout en étant payé 100 % pendant deux mois"
+        },
+        {
+          "quote": "Édouard Philippe veut former, recruter et accompagner les salariés après 50 ans.",
+          "description": "Édouard Philippe veut former, recruter et accompagner les salariés après 50 ans"
+        },
+        {
+          "quote": "Il veut aussi développer la retraite progressive et le cumul emploi-retraite",
+          "description": "Il veut aussi développer la retraite progressive et le cumul emploi-retraite"
+        },
+        {
+          "quote": "Édouard Philippe confie aux partenaires sociaux la négociation sur la pénibilité, puis la gestion du système de retraite une fois celui-ci revenu à l’équilibre.",
+          "description": "Édouard Philippe confie aux partenaires sociaux la négociation sur la pénibilité, puis la gestion du système de retraite une fois celui-ci revenu à l’équilibre"
+        },
+        {
+          "quote": "Il entend également confier au dialogue social l’organisation et la fixation de la durée du travail dans l’entreprise.",
+          "description": "Il entend également confier au dialogue social l’organisation et la fixation de la durée du travail dans l’entreprise"
+        }
+      ]
+    },
+    {
+      "documentId": "horizons-2026-11-programme-ecole",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Augmenter de 20 % en moyenne le salaire des enseignants pendant le quinquennat.",
+          "description": "Augmenter de 20 % en moyenne le salaire des enseignants pendant le quinquennat"
+        },
+        {
+          "quote": "Créer un nouveau statut d’école publique autonome",
+          "description": "Créer un nouveau statut d’école publique autonome"
+        },
+        {
+          "quote": "Créer un soutien scolaire universel ouvert à tous les élèves.",
+          "description": "Créer un soutien scolaire universel ouvert à tous les élèves"
+        },
+        {
+          "quote": "Diminuer la taille des classes en maternelle et en primaire.",
+          "description": "Diminuer la taille des classes en maternelle et en primaire"
+        },
+        {
+          "quote": "Apprendre à lire dès la maternelle et concentrer l’école primaire sur lire, écrire, compter.",
+          "description": "Apprendre à lire dès la maternelle et concentrer l’école primaire sur lire, écrire, compter"
+        },
+        {
+          "quote": "Recréer des écoles normales pour former les professeurs.",
+          "description": "Recréer des écoles normales pour former les professeurs"
+        },
+        {
+          "quote": "Édouard Philippe veut interdire strictement le téléphone portable à l’école primaire, au collège et au lycée.",
+          "description": "Édouard Philippe veut interdire strictement le téléphone portable à l’école primaire, au collège et au lycée"
+        },
+        {
+          "quote": "les notes du mois de juin compteront donc pour le bulletin de l’année suivante",
+          "description": "Les notes du mois de juin compteront donc pour le bulletin de l’année suivante"
+        },
+        {
+          "quote": "des tests de décodage seront organisés pour repérer très tôt les élèves en difficulté",
+          "description": "Des tests de décodage seront organisés pour repérer très tôt les élèves en difficulté"
+        },
+        {
+          "quote": "zéro IA avant le collège pour bien former les élèves, une sensibilisation à l’usage responsable de l’IA au collège et son inscription progressive dans la pédagogie au lycée",
+          "description": "Zéro IA avant le collège pour bien former les élèves, une sensibilisation à l’usage responsable de l’IA au collège et son inscription progressive dans la pédagogie au lycée"
+        },
+        {
+          "quote": "Édouard Philippe veut rendre publiques, auprès des parents et des élus locaux, les évaluations de performance des établissements scolaires.",
+          "description": "Édouard Philippe veut rendre publiques, auprès des parents et des élus locaux, les évaluations de performance des établissements scolaires"
+        },
+        {
+          "quote": "Édouard Philippe veut créer une « amende de responsabilisation scolaire »",
+          "description": "Édouard Philippe veut créer une « amende de responsabilisation scolaire »"
+        },
+        {
+          "quote": "le renforcement de l’écoute, à l’image du 3018, le numéro national contre le harcèlement, dont les moyens doivent être consolidés",
+          "description": "Le renforcement de l’écoute, à l’image du 3018, le numéro national contre le harcèlement, dont les moyens doivent être consolidés"
+        },
+        {
+          "quote": "Édouard Philippe veut créer un service public de l’orientation",
+          "description": "Édouard Philippe veut créer un service public de l’orientation"
+        },
+        {
+          "quote": "chaque université décidera de son mode de sélection, les formations aux faibles taux de diplomation et d’insertion seront fermées et les filières scientifiques revalorisées",
+          "description": "Chaque université décidera de son mode de sélection, les formations aux faibles taux de diplomation et d’insertion seront fermées et les filières scientifiques revalorisées"
+        },
+        {
+          "quote": "Les élèves auront accès à des tiers de confiance, à des conseils et à une meilleure détection en matière de santé mentale.",
+          "description": "Les élèves auront accès à des tiers de confiance, à des conseils et à une meilleure détection en matière de santé mentale"
+        },
+        {
+          "quote": "Il veut systématiser l’intervention des professionnels du handicap à l’école et reconnaître le métier d’accompagnant d’élèves en situation de handicap (AESH)",
+          "description": "Il veut systématiser l’intervention des professionnels du handicap à l’école et reconnaître le métier d’accompagnant d’élèves en situation de handicap (AESH)"
+        },
+        {
+          "quote": "Édouard Philippe veut que tous les enfants apprennent la natation dès l’école maternelle.",
+          "description": "Édouard Philippe veut que tous les enfants apprennent la natation dès l’école maternelle"
+        },
+        {
+          "quote": "Édouard Philippe veut faire passer le nombre d’ingénieurs formés chaque année de 40 000 à 100 000 en cinq ans.",
+          "description": "Édouard Philippe veut faire passer le nombre d’ingénieurs formés chaque année de 40 000 à 100 000 en cinq ans"
+        }
+      ]
+    },
+    {
+      "documentId": "horizons-2026-11-programme-outre-mer",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "La modernisation de l’octroi de mer et plus de concurrence sur les transports pour faire baisser la vie chère.",
+          "description": "La modernisation de l’octroi de mer et plus de concurrence sur les transports pour faire baisser la vie chère"
+        },
+        {
+          "quote": "Lancement d’une nouvelle piste d’aéroport sur Grande-Terre et un deuxième hôpital de plein exercice à Mayotte.",
+          "description": "Lancement d’une nouvelle piste d’aéroport sur Grande-Terre et un deuxième hôpital de plein exercice à Mayotte"
+        },
+        {
+          "quote": "Un moratoire total sur l’immigration à Mayotte pendant tout le quinquennat, y compris pour l’immigration familiale.",
+          "description": "Un moratoire total sur l’immigration à Mayotte pendant tout le quinquennat, y compris pour l’immigration familiale"
+        },
+        {
+          "quote": "La suspension des nouvelles demandes d’asile à Mayotte et en Guyane pendant le quinquennat.",
+          "description": "La suspension des nouvelles demandes d’asile à Mayotte et en Guyane pendant le quinquennat"
+        },
+        {
+          "quote": "La suspension totale du droit du sol à Mayotte pendant plusieurs années.",
+          "description": "La suspension totale du droit du sol à Mayotte pendant plusieurs années"
+        },
+        {
+          "quote": "Un centre de retour français en Afrique de l’Est pour éloigner les étrangers en situation irrégulière à Mayotte.",
+          "description": "Un centre de retour français en Afrique de l’Est pour éloigner les étrangers en situation irrégulière à Mayotte"
+        },
+        {
+          "quote": "Faire de la lutte contre le narcotrafic une priorité aux Antilles notamment avec une présence en mer renforcée.",
+          "description": "Faire de la lutte contre le narcotrafic une priorité aux Antilles notamment avec une présence en mer renforcée"
+        },
+        {
+          "quote": "la question de la surrémunération ne sera pas abordée lors du prochain quinquennat",
+          "description": "La question de la surrémunération ne sera pas abordée lors du prochain quinquennat"
+        },
+        {
+          "quote": "il veut accélérer la convergence jusqu’à l’égalité, de façon maîtrisée et financée",
+          "description": "Il veut accélérer la convergence jusqu’à l’égalité, de façon maîtrisée et financée"
+        },
+        {
+          "quote": "Édouard Philippe veut d’abord garantir dans la durée, jusqu’en 2032, les financements de l’eau à Mayotte",
+          "description": "Édouard Philippe veut d’abord garantir dans la durée, jusqu’en 2032, les financements de l’eau à Mayotte"
+        },
+        {
+          "quote": "À La Réunion, il veut accélérer la création de retenues collinaires pour stocker l’eau qui tombe.",
+          "description": "À La Réunion, il veut accélérer la création de retenues collinaires pour stocker l’eau qui tombe"
+        },
+        {
+          "quote": "Édouard Philippe est convaincu qu’il est dans l’intérêt général de développer le ferroviaire à La Réunion et en Guyane",
+          "description": "Édouard Philippe est convaincu qu’il est dans l’intérêt général de développer le ferroviaire à La Réunion et en Guyane"
+        },
+        {
+          "quote": "mobilisera tous les leviers, de l’aide au développement aux visas, en passant par les accords de coopération et les transferts de fonds, contre tout État qui voudrait faire de Mayotte un moyen de pression sur la France",
+          "description": "Mobilisera tous les leviers, de l’aide au développement aux visas, en passant par les accords de coopération et les transferts de fonds, contre tout État qui voudrait faire de Mayotte un moyen de pres"
+        },
+        {
+          "quote": "Édouard Philippe veut une loi de programmation économique pour les outre-mer",
+          "description": "Édouard Philippe veut une loi de programmation économique pour les outre-mer"
+        },
+        {
+          "quote": "relancer une conférence régionale sur les sargasses dans les Antilles, lancer un plan de protection des mangroves et des coraux",
+          "description": "Relancer une conférence régionale sur les sargasses dans les Antilles, lancer un plan de protection des mangroves et des coraux"
+        }
+      ]
+    }
+  ]
+}

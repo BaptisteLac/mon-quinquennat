@@ -46,6 +46,7 @@ const LlmComputation = z.object({
       "gain_pourcent_salaire_net",
       "gain_salaire_reference_personne",
       "impot_supprime_decile",
+      "smic_net_plancher",
     ])
     .nullable(),
   params: z.array(z.object({ name: z.string(), value: z.number() })),
