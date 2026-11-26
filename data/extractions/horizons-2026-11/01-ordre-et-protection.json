@@ -1,0 +1,890 @@
+{
+  "measures": [
+    {
+      "theme": "justice",
+      "title": "Rétablir les peines planchers pour les infractions les plus graves",
+      "summary": {
+        "simple": "Les infractions les plus graves, notamment contre les policiers, gendarmes, pompiers et professeurs, auraient une peine minimale.",
+        "normal": "Peines minimales et certaines pour les infractions les plus graves, en particulier les atteintes aux personnes dépositaires de l'autorité publique (pompiers, policiers, gendarmes) et aux professeurs."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Le rétablissement des peines planchers."
+        },
+        {
+          "page": 2,
+          "quote": "Édouard Philippe veut des peines minimales et certaines pour les infractions les plus graves, en particulier les atteintes aux personnes dépositaires de l’autorité publique, comme les pompiers, les policiers et les gendarmes, et les professeurs."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Instaurer des peines de prison courtes dès la première infraction, sur le modèle des pays du Nord",
+      "summary": {
+        "simple": "Une première infraction pourrait être punie d'une peine de prison courte et dissuasive.",
+        "normal": "Peines de prison courtes et dissuasives dès la première infraction, sur le modèle des pays du Nord, plutôt que d'enfermer trop tard et trop longtemps."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Des peines de prison courtes, dès la première infraction."
+        },
+        {
+          "page": 2,
+          "quote": "Oui, avec une peine courte et dissuasive. Édouard Philippe s’inspire des pays du Nord, qui condamnent dès la première infraction plutôt que d’enfermer trop tard et trop longtemps."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Supprimer le juge d'application des peines",
+      "summary": {
+        "simple": "Le juge d'application des peines serait supprimé : une peine prononcée serait une peine exécutée.",
+        "normal": "Suppression du juge d'application des peines, pour qu'une décision prise par un juge ne puisse pas être défaite par un autre."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "La suppression du juge d’application des peines : une peine prononcée sera une peine exécutée."
+        },
+        {
+          "page": 2,
+          "quote": "Édouard Philippe veut supprimer le juge d’application des peines, pour qu’une décision prise par un juge ne puisse pas être défaite par un autre."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Construire 30 000 places de prison pour les peines courtes, avec une loi d'accélération",
+      "summary": {
+        "simple": "30 000 places de prison seraient construites pour les peines courtes.",
+        "normal": "Construction de 30 000 places de prison pour les peines courtes, avec une loi d'accélération des prisons."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Construire 30 000 places de prison pour les peines courtes, avec une loi d’accélération des prisons."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Rétablir les juges de paix pour une justice civile plus rapide et plus proche",
+      "summary": {
+        "simple": "Des juges de paix traiteraient les affaires civiles du quotidien, plus vite et plus près des gens.",
+        "normal": "Retour des juges de paix, pour une justice civile plus rapide et plus proche."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Le retour des juges de paix : une justice civile plus rapide et plus proche."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Interdire aux magistrats de se syndiquer",
+      "summary": {
+        "simple": "Les magistrats n'auraient plus le droit de se syndiquer, comme les militaires et les préfets.",
+        "normal": "Interdiction du droit syndical pour les magistrats, comme pour d'autres fonctions régaliennes (militaires, préfets)."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Interdire aux magistrats de se syndiquer."
+        },
+        {
+          "page": 2,
+          "quote": "Édouard Philippe veut interdire aux magistrats de se syndiquer."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Refondre le code de procédure pénale en 100 jours et déployer l'IA dans l'instruction",
+      "summary": {
+        "simple": "Un comité refondrait le code de procédure pénale en 100 jours, et l'intelligence artificielle accélérerait l'instruction des dossiers.",
+        "normal": "Simplification massive de la procédure pénale : comité de simplification chargé de refondre le code de procédure pénale en 100 jours, déploiement de l'intelligence artificielle pour accélérer l'instruction."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Simplifier massivement la procédure pénale et déployer l’intelligence artificielle pour accélérer l’instruction des dossiers."
+        },
+        {
+          "page": 2,
+          "quote": "Il propose de créer un comité de simplification qui devra refondre le code de procédure pénale en 100 jours"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Renforcer la responsabilité des juges : saisine directe du CSM et pouvoir disciplinaire des chefs de juridiction",
+      "summary": {
+        "simple": "Les justiciables pourraient saisir plus facilement le Conseil supérieur de la magistrature, et les chefs de juridiction auraient un pouvoir disciplinaire.",
+        "normal": "Responsabilité des juges renforcée : saisine directe du Conseil supérieur de la magistrature facilitée pour les justiciables, pouvoir disciplinaire de premier niveau pour les chefs de juridiction."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Édouard Philippe veut renforcer la responsabilité des juges : faciliter la saisine directe du Conseil supérieur de la magistrature par les justiciables et doter les chefs de juridiction d’un pouvoir disciplinaire de premier niveau."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Permettre au garde des Sceaux d'adresser des instructions individuelles écrites aux procureurs",
+      "summary": {
+        "simple": "Le ministre de la Justice pourrait donner des instructions écrites sur des affaires précises aux procureurs, versées au dossier.",
+        "normal": "Autorité du garde des Sceaux renforcée sur le parquet : instructions individuelles aux procureurs, écrites et versées au dossier ; abrogation de la loi de 2013."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Édouard Philippe veut renforcer l’autorité du garde des Sceaux sur le parquet, notamment en lui permettant d’adresser des instructions individuelles aux procureurs."
+        },
+        {
+          "page": 2,
+          "quote": "Il veut pour cela abroger la loi Taubira de 2013. Ces instructions seront écrites et versées au dossier, pour garantir leur totale transparence."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Ouvrir le recrutement des magistrats à d'autres métiers du droit et revoir leur formation",
+      "summary": {
+        "simple": "Plus de magistrats seraient recrutés parmi des avocats et d'autres professionnels du droit.",
+        "normal": "Formation et sélection des magistrats revues, profession davantage ouverte aux personnes ayant exercé d'autres métiers du droit, comme les avocats."
+      },
+      "sources": [
+        {
+          "page": 2,
+          "quote": "Édouard Philippe veut revoir la formation et la sélection des magistrats, et ouvrir davantage la profession à des personnes qui ont déjà exercé d’autres métiers du droit comme les avocats par exemple."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Créer un « état d'urgence narco » dans les zones les plus touchées, jusqu'à la reconnaissance faciale ciblée",
+      "summary": {
+        "simple": "Dans les zones les plus touchées par le trafic de drogue, un régime d'exception permettrait d'interpeller la nuit, d'assigner à résidence et d'étendre les gardes à vue.",
+        "normal": "Régime juridique d'exception, limité dans le temps, dans les zones les plus touchées par le narcotrafic : interpellations nocturnes à domicile, assignations à résidence, gardes à vue étendues, jusqu'à l'usage ciblé de la reconnaissance faciale."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "Un « état d’urgence narco » qui donne des moyens exceptionnels dans les zones les plus touchées par le narcotrafic."
+        },
+        {
+          "page": 3,
+          "quote": "Les forces de l’ordre disposeront de moyens supplémentaires pour interpeller les trafiquants chez eux la nuit, les assigner à résidence, étendre les garde à vue. Ces pouvoirs pourront aller jusqu’à l’usage ciblé de la reconnaissance faciale."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Utiliser la vidéoprotection avec intelligence artificielle pour identifier casseurs et criminels",
+      "summary": {
+        "simple": "Les caméras de vidéoprotection, avec intelligence artificielle, serviraient à identifier les casseurs et les criminels.",
+        "normal": "Utilisation de la vidéoprotection avec intelligence artificielle pour identifier les casseurs et les criminels."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "L’utilisation de la vidéoprotection avec intelligence artificielle pour identifier les casseurs et les criminels."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Saisir l'argent des trafiquants et renforcer les amendes et opérations « place nette » contre les consommateurs",
+      "summary": {
+        "simple": "L'argent des trafiquants serait saisi ; les consommateurs de drogue paieraient des amendes plus fortes, avec des opérations « place nette » en boîte de nuit et en festival.",
+        "normal": "Saisie de l'argent des trafiquants, amendes plus fortes et réellement payées pour les consommateurs, opérations « place nette » dans les boîtes de nuit et les festivals."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "La saisie de l’argent des trafiquants et des amendes plus fortes pour les consommateurs."
+        },
+        {
+          "page": 3,
+          "quote": "Il propose des opérations « place nette » dans les boîtes de nuit et les festivals"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Donner aux maires un pouvoir de sanction contre les incivilités",
+      "summary": {
+        "simple": "Les maires pourraient infliger des amendes rapides à ceux qui dégradent l'espace public.",
+        "normal": "Pouvoir de sanction renforcé pour les maires contre les incivilités du quotidien, avec des amendes rapides contre ceux qui dégradent l'espace public."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "Un pouvoir de sanction renforcé pour les maires contre les incivilités du quotidien."
+        },
+        {
+          "page": 3,
+          "quote": "Concrètement, il pourra mettre des amendes rapides à ceux qui dégradent l’espace public ou gâchent le quotidien des Français."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Prélever les amendes impayées sur les aides sociales",
+      "summary": {
+        "simple": "Les amendes non payées pourraient être prélevées directement sur les aides sociales.",
+        "normal": "Recouvrement forcé des amendes impayées, y compris par prélèvement sur les prestations sociales."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "Le prélèvement des amendes impayées sur les aides sociales."
+        },
+        {
+          "page": 3,
+          "quote": "Il propose de pouvoir les recouvrer de force, y compris en les prélevant sur les prestations sociales."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "prestations",
+      "title": "Suspendre automatiquement le RSA des délinquants condamnés, sauf décision du maire",
+      "summary": {
+        "simple": "Une personne condamnée pour un délit perdrait automatiquement son RSA, sauf si le maire en décide autrement.",
+        "normal": "Suspension automatique du RSA des délinquants condamnés, sauf décision contraire du maire après examen individuel."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "Suspendre automatiquement le RSA pour les délinquants condamnés."
+        },
+        {
+          "page": 3,
+          "quote": "Édouard Philippe veut suspendre automatiquement leur RSA, sauf si le maire en décide autrement au terme d’un examen individuel de la situation."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Appliquer aux casseurs les mesures de prévention antiterroristes",
+      "summary": {
+        "simple": "Les casseurs seraient fichés et pourraient être assignés à résidence lors des manifestations à risque, comme pour la prévention du terrorisme.",
+        "normal": "Contre les casseurs : fichier dédié sur le modèle du FSPRT, visites domiciliaires, mesures individuelles de contrôle administratif et assignation à résidence lors des manifestations à risque."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "Utiliser contre les casseurs les mêmes mesures de prévention que contre le terrorisme."
+        },
+        {
+          "page": 3,
+          "quote": "un fichier dédié sur le modèle du FSPRT, les visites domiciliaires, les mesures individuelles de contrôle administratif et l’assignation à résidence lors des manifestations à risque."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Mobiliser la DGSI contre le narcotrafic, créer une « fiche S financière » et saisir les avoirs",
+      "summary": {
+        "simple": "Les services de renseignement seraient mobilisés contre les trafiquants, fichés financièrement, et leurs biens saisis.",
+        "normal": "Services de renseignement, à commencer par la DGSI, mobilisés contre les trafiquants ; « fiche S financière » ; saisie de leurs biens et avoirs."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "Les services secrets comme la DGSI seront mobilisés contre les trafiquants, une « fiche S financière » et la saisie de leurs biens et leurs avoirs."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Aligner l'exécution des peines des grands trafiquants sur celle des terroristes",
+      "summary": {
+        "simple": "Les grands trafiquants exécuteraient leur peine selon les règles appliquées aux terroristes.",
+        "normal": "Exécution des peines des grands trafiquants alignée sur le régime des terroristes."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "Les grands trafiquants exécuteront leur peine comme des terroristes, et une liste noire européenne viserait les pays qui refusent de coopérer."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "international",
+      "title": "Établir une liste noire européenne des pays qui refusent de coopérer contre le narcotrafic",
+      "summary": {
+        "simple": "L'Europe tiendrait une liste noire des pays qui ne coopèrent pas contre le trafic de drogue.",
+        "normal": "Liste noire européenne visant les pays qui refusent de coopérer contre le narcotrafic."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "une liste noire européenne viserait les pays qui refusent de coopérer."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "securite",
+      "title": "Signaler à son employeur tout agent public poursuivi pour usage de stupéfiants",
+      "summary": {
+        "simple": "Un agent public poursuivi pour usage de drogue serait systématiquement signalé à son employeur.",
+        "normal": "Signalement systématique à son employeur de tout agent public poursuivi pour usage de stupéfiants."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "Un agent public poursuivi pour usage de stupéfiants sera systématiquement signalé à son employeur"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Lever l'excuse de minorité pour le narcotrafic et ouvrir des établissements de réinsertion pour mineurs",
+      "summary": {
+        "simple": "Pour le trafic de drogue, les mineurs n'auraient plus l'excuse de minorité et pourraient être jugés en comparution immédiate ; des établissements de réinsertion et de soin les accueilleraient.",
+        "normal": "Levée de l'excuse de minorité pour les faits liés au trafic de drogue, comparution immédiate des mineurs, établissements de réinsertion et de soin pour les mineurs condamnés."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "Pour les faits liés au trafic de drogue, il veut lever l’excuse de minorité et permettre la comparution immédiate des mineurs. Il propose aussi des établissements de réinsertion et de soin pour les mineurs condamnés"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Cribler les fonctions sensibles et réformer les habilitations contre la corruption",
+      "summary": {
+        "simple": "Les agents exposés aux trafiquants seraient systématiquement contrôlés contre la corruption.",
+        "normal": "Protection des forces de l'ordre et des agents exposés contre la corruption : criblage systématique des fonctions sensibles et réforme des habilitations de sécurité."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "grâce à un criblage systématique des fonctions sensibles et à une réforme des habilitations de sécurité."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "securite",
+      "title": "Combattre l'islamisme et éradiquer les Frères musulmans et les organisations affiliées",
+      "summary": {
+        "simple": "L'État combattrait l'islamisme et les organisations liées aux Frères musulmans.",
+        "normal": "Combattre l'islamisme et éradiquer les Frères musulmans et les organisations qui y sont affiliées."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "Édouard Philippe veut combattre l’islamisme et éradiquer les Frères musulmans et les organisations qui y sont affiliées"
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "securite",
+      "title": "Construire en France des avions bombardiers d'eau « Canadairs »",
+      "summary": {
+        "simple": "Des avions bombardiers d'eau seraient construits en France.",
+        "normal": "Construction en France de nos propres « Canadairs » contre les incendies."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "Il propose de construire en France nos propres « Canadairs » contre les incendies"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "securite",
+      "title": "Créer des réserves communales de citoyens volontaires et une journée nationale d'alerte",
+      "summary": {
+        "simple": "Les communes auraient des réserves de citoyens volontaires, et une journée nationale testerait les alertes chaque année.",
+        "normal": "Réserves de citoyens volontaires formés dans les communes ; journée nationale d'alerte chaque année, comme en Allemagne."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "de créer dans les communes des réserves de citoyens volontaires formés et d’organiser chaque année une journée nationale d’alerte, comme en Allemagne."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "sante",
+      "title": "Former tous les Français aux premiers secours",
+      "summary": {
+        "simple": "Tous les Français seraient formés aux premiers secours.",
+        "normal": "Formation de tous les Français aux premiers secours."
+      },
+      "sources": [
+        {
+          "page": 3,
+          "quote": "Il veut aussi former tous les Français aux premiers secours, pour que chacun sache réagir en attendant les secours."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "immigration",
+      "title": "Diviser l'immigration légale par deux, pour revenir au niveau d'il y a 15 ans",
+      "summary": {
+        "simple": "L'immigration légale serait divisée par deux.",
+        "normal": "Objectif de division par deux de l'immigration légale, pour la ramener au niveau d'il y a 15 ans."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Diviser l’immigration légale par deux, pour la ramener au niveau d’il y a 15 ans."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "immigration",
+      "title": "Choisir l'immigration de travail par des quotas",
+      "summary": {
+        "simple": "Des quotas fixeraient les travailleurs étrangers admis selon les besoins du pays.",
+        "normal": "Politique de quotas pour choisir l'immigration de travail selon les profils dont la France a besoin."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Des quotas pour choisir l’immigration de travail."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Suspendre le regroupement familial pendant le quinquennat",
+      "summary": {
+        "simple": "Le regroupement familial serait suspendu pendant les cinq ans du mandat.",
+        "normal": "Moratoire sur le regroupement familial pendant toute la durée du quinquennat."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Un moratoire sur le regroupement familial."
+        },
+        {
+          "page": 4,
+          "quote": "Édouard Philippe propose de le suspendre pendant toute la durée du quinquennat."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Utiliser des « centres de retour » à l'étranger pour exécuter les éloignements",
+      "summary": {
+        "simple": "Les étrangers sans droit au séjour seraient éloignés via des centres de retour à l'étranger prévus par le règlement européen.",
+        "normal": "Utilisation des centres de retour prévus par le nouveau règlement européen pour exécuter les décisions d'éloignement."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "L’utilisation de « centres de retour » à l’étranger pour éloigner effectivement ceux qui n’ont rien à faire en France."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "immigration",
+      "title": "Dénoncer l'accord franco-algérien de 1968",
+      "summary": {
+        "simple": "L'accord de 1968 qui facilite l'installation des Algériens en France serait dénoncé.",
+        "normal": "Dénonciation de l'accord franco-algérien de 1968, pour appliquer les mêmes règles à tous les étrangers."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "La dénonciation de l’accord franco-algérien de 1968."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "immigration",
+      "title": "Rétablir la double peine : expulsion et perte des aides sociales pour les étrangers délinquants",
+      "summary": {
+        "simple": "Un étranger qui commet un délit serait expulsé et perdrait ses aides sociales.",
+        "normal": "Retour de la double peine : un étranger condamné pour un délit perd ses aides sociales et est expulsé."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Le retour de la double peine pour les étrangers délinquants."
+        },
+        {
+          "page": 4,
+          "quote": "un étranger qui commet un délit doit être expulsé immédiatement et perdre ses aides sociales."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Rendre l'acquisition de la nationalité française jamais automatique, sans revenir sur le droit du sol",
+      "summary": {
+        "simple": "La nationalité française ne s'acquerrait plus jamais automatiquement.",
+        "normal": "Acquisition de la nationalité française plus jamais automatique, sans revenir sur le droit du sol ; intégration par la langue, le travail et les valeurs républicaines."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Renforcer l’intégration et faire que l’acquisition de la nationalité française ne soit plus jamais automatique."
+        },
+        {
+          "page": 4,
+          "quote": "Sans revenir sur le droit du sol, Édouard Philippe veut que l’acquisition de la nationalité française ne soit plus jamais automatique."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Instaurer un « verrou Schengen » contre les régularisations massives décidées par un seul État",
+      "summary": {
+        "simple": "Aucun pays européen ne pourrait régulariser massivement des sans-papiers sans l'accord des autres.",
+        "normal": "« Verrou Schengen » : aucune régularisation massive au-delà d'un seuil défini ensemble sans accord préalable des partenaires européens."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Édouard Philippe propose un « verrou Schengen » : aucun État européen ne pourrait engager seul une régularisation massive au-delà d’un seuil défini ensemble, sans l’accord préalable de ses partenaires."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "immigration",
+      "title": "Faire voter chaque année la liste des pays sûrs et supprimer l'asile à vie",
+      "summary": {
+        "simple": "Le Parlement voterait chaque année la liste des pays sûrs, et le statut de réfugié ne serait plus accordé à vie.",
+        "normal": "Vote annuel par le Parlement de la liste des pays sûrs ; suppression de l'asile à vie."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Le Parlement voterait chaque année la liste des pays considérés comme sûrs, et l’asile à vie serait supprimé."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Créer un régime européen d'urgence pour suspendre les demandes d'asile en cas de chantage migratoire",
+      "summary": {
+        "simple": "L'Europe pourrait suspendre les nouvelles demandes d'asile quand un pays utilise les migrants pour faire pression.",
+        "normal": "Régime européen d'urgence pour suspendre les nouvelles demandes d'asile quand un pays utilise les migrants pour faire pression sur les frontières."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Il propose aussi un régime européen d’urgence pour suspendre les nouvelles demandes quand un pays utilise les migrants pour faire pression sur nos frontières"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "immigration",
+      "title": "Suspendre le droit du sol à Mayotte et l'enregistrement des demandes d'asile à Mayotte et en Guyane",
+      "summary": {
+        "simple": "À Mayotte, le droit du sol serait suspendu ; à Mayotte et en Guyane, les demandes d'asile ne seraient plus enregistrées pendant le mandat.",
+        "normal": "Suspension du droit du sol à Mayotte et, pendant tout le quinquennat, de l'enregistrement des demandes d'asile à Mayotte et en Guyane."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Édouard Philippe propose d’y suspendre le droit du sol et d’y suspendre aussi, pendant tout le quinquennat, l’enregistrement des demandes d’asile, comme en Guyane."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Aligner les aides sociales versées aux étrangers sur la moyenne européenne",
+      "summary": {
+        "simple": "Les aides sociales des étrangers seraient ramenées à la moyenne des pays européens.",
+        "normal": "Alignement des aides sociales versées aux étrangers sur la moyenne européenne."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Édouard Philippe veut aligner les aides sociales versées aux étrangers sur la moyenne européenne."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Vérifier les moyens des étudiants étrangers et appliquer la hausse des droits d'inscription hors Europe",
+      "summary": {
+        "simple": "Les étudiants étrangers devraient prouver qu'ils peuvent financer leurs études, et les frais plus élevés pour ceux venus hors d'Europe seraient appliqués.",
+        "normal": "Vérification des moyens des étudiants étrangers et application de la hausse des droits d'inscription prévue pour les étudiants venus hors d'Europe."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Il propose de vérifier qu’ils ont réellement les moyens de financer leurs études et d’appliquer vraiment la hausse des droits d’inscription prévue pour les étudiants venus hors d’Europe."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "decret"
+    },
+    {
+      "theme": "immigration",
+      "title": "Créer un régime européen de sanctions contre les passeurs",
+      "summary": {
+        "simple": "Les passeurs feraient l'objet de sanctions européennes : gel des avoirs, interdiction de territoire.",
+        "normal": "Régime européen de sanctions contre les passeurs : gel de leurs avoirs, interdiction de territoire et sanctions contre leurs réseaux."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Il propose un régime européen de sanctions contre eux : gel de leurs avoirs, interdiction de territoire et sanctions contre leurs réseaux."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "immigration",
+      "title": "Conduire une politique d'intégration exigeante par la langue, le travail et les valeurs républicaines",
+      "summary": {
+        "simple": "Les étrangers qui s'installent devraient apprendre le français, travailler et respecter les valeurs républicaines.",
+        "normal": "Politique d'intégration exigeante reposant sur la langue, le travail et l'adhésion aux valeurs républicaines, notamment la laïcité et l'égalité entre les femmes et les hommes."
+      },
+      "sources": [
+        {
+          "page": 4,
+          "quote": "Il veut une véritable politique d’intégration, exigeante et claire, pour que chacun sache ce que la France attend de lui."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "securite",
+      "title": "Voter une loi de massification des armées : soldats, réservistes, munitions, drones",
+      "summary": {
+        "simple": "Une nouvelle loi militaire augmenterait le nombre de soldats, de réservistes, de munitions et de drones.",
+        "normal": "Loi de programmation militaire de la massification : plus de soldats, de réservistes, de drones, de munitions et de navires."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "Une loi de massification de nos armées pour avoir plus de soldats, de réservistes, de munitions et de drones."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Rétablir un service national obligatoire et universel, civil ou militaire, et porter les réservistes à 250 000",
+      "summary": {
+        "simple": "Chaque jeune ferait un service national obligatoire, civil ou militaire ; les réservistes passeraient de 45 000 à 250 000.",
+        "normal": "Service national obligatoire et universel, avec le choix entre une option militaire et plusieurs options civiles (600 000 jeunes par an) ; réservistes portés de 45 000 à 250 000."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "Le rétablissement d’un service national obligatoire et universel, avec le choix entre une option militaire et plusieurs options civiles, et 250 000 réservistes."
+        },
+        {
+          "page": 5,
+          "quote": "Il veut aussi porter le nombre de réservistes de 45 000 à 250 000."
+        },
+        {
+          "page": 5,
+          "quote": "ce ne sont pas nos armées qui porteront seules la prise en charge de chaque classe d’âge, soit 600 000 jeunes par an."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "11_17",
+              "18_25"
+            ]
+          },
+          "sentence": {
+            "simple": "Tes enfants feraient un service national obligatoire, au choix civil ou militaire.",
+            "normal": "Service national obligatoire et universel pour chaque classe d'âge, avec une option militaire et plusieurs options civiles ; durée non précisée."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "international",
+      "title": "Consacrer au moins 1 % de la richesse européenne à des armements fabriqués en Europe",
+      "summary": {
+        "simple": "Les pays de l'Union européenne consacreraient au moins 1 % de leur richesse à des armements fabriqués en Europe.",
+        "normal": "Préférence européenne en matière d'armements : au moins 1 % de la richesse nationale des pays de l'Union européenne consacré à des équipements fabriqués en Europe."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "Des armements « made in Europe » : au moins 1 % de la richesse nationale des pays de l’Union européenne consacré à des équipements fabriqués en Europe, grâce à une vraie préférence européenne en matière d’armements."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "international",
+      "title": "Soutenir pleinement l'Ukraine, qui a vocation à intégrer l'OTAN",
+      "summary": {
+        "simple": "La France soutiendrait financièrement et militairement l'Ukraine, qui a vocation à entrer dans l'OTAN.",
+        "normal": "Soutien financier et opérationnel à l'Ukraine, qui a vocation à intégrer l'OTAN et à être arrimée à l'Union européenne."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "Soutenir pleinement l’Ukraine, qui a vocation à intégrer l’OTAN."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "securite",
+      "title": "Moderniser la dissuasion nucléaire",
+      "summary": {
+        "simple": "La dissuasion nucléaire serait modernisée.",
+        "normal": "Modernisation de la dissuasion nucléaire."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "Une dissuasion nucléaire modernisée."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Massifier la production et les achats de drones tactiques",
+      "summary": {
+        "simple": "L'armée produirait et achèterait des drones tactiques en grand nombre.",
+        "normal": "Massification de la production et des achats de drones tactiques, sur le modèle du programme américain de 300 000 drones."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "Édouard Philippe veut massifier notre production et nos achats de drones tactiques, sur le modèle du programme américain de 300 000 drones."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Lancer un plan munitions pour dépasser 100 000 obus par an et viser l'échelle allemande de 700 000",
+      "summary": {
+        "simple": "La production d'obus dépasserait 100 000 par an pour s'approcher des 700 000 produits par l'Allemagne.",
+        "normal": "Grand plan munitions pour dépasser l'objectif actuel de 100 000 obus par an et atteindre l'échelle des 700 000 produits par l'Allemagne."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "Édouard Philippe veut lancer un grand plan munitions pour dépasser l’objectif actuel de 100 000 obus par an et atteindre l’échelle des 700 000 produits par l’Allemagne."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Doubler le nombre de navires aux Antilles",
+      "summary": {
+        "simple": "La marine aurait deux fois plus de navires aux Antilles, notamment contre le trafic de drogue.",
+        "normal": "Renforcement de la flotte navale, notamment en doublant le nombre de navires aux Antilles contre le narcotrafic."
+      },
+      "sources": [
+        {
+          "page": 5,
+          "quote": "Édouard Philippe veut renforcer notre flotte navale, notamment en doublant le nombre de navires aux Antilles."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    }
+  ]
+}

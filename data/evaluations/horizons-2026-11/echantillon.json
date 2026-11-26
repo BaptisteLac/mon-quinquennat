@@ -1,0 +1,69 @@
+{
+  "corpus": "horizons-2026-11",
+  "manifestSha256": "f2359da4cecf147958ee03437f0fd9104ba23f03d7774676cb3d05ac21c7cafd",
+  "seed": 2027,
+  "pages": [
+    {
+      "documentId": "horizons-2026-11-programme-justice",
+      "page": 1,
+      "url": "https://www.edouardphilippe.fr/programme/justice"
+    },
+    {
+      "documentId": "horizons-2026-11-programme-travail",
+      "page": 1,
+      "url": "https://www.edouardphilippe.fr/programme/travail"
+    },
+    {
+      "documentId": "horizons-2026-11-programme-ecole",
+      "page": 1,
+      "url": "https://www.edouardphilippe.fr/programme/ecole"
+    },
+    {
+      "documentId": "horizons-2026-11-programme-outre-mer",
+      "page": 1,
+      "url": "https://www.edouardphilippe.fr/programme/outre-mer"
+    }
+  ],
+  "mesures": [
+    "m-4226524dac80",
+    "m-81b6f75ffeac",
+    "m-a218b8a393bf",
+    "m-8af7eecb0ff5",
+    "m-613ada42f0c5",
+    "m-dfdce0ce307e",
+    "m-58cb8fcef8c3",
+    "m-02279cf8dfdc",
+    "m-5304aa36b341",
+    "m-6d549fc72164",
+    "m-8693d348949a",
+    "m-24b6fb32e306",
+    "m-be2ec3a6be35",
+    "m-e9837cad7034",
+    "m-78a660c9016b",
+    "m-c29533cee5e8",
+    "m-e4732134552c",
+    "m-d1c92370535e",
+    "m-9101ef8f26f0",
+    "m-466b912d6bac",
+    "m-8199faa5a19f",
+    "m-ce2efe52a9ee",
+    "m-f3a4b033a183",
+    "m-a92e843c9982",
+    "m-033ec1233b23",
+    "m-259a2ac3e2f4",
+    "m-0d77c4a9fa0a",
+    "m-0cf90a8e0b6d",
+    "m-e575437e1cd6",
+    "m-201649f61cc0",
+    "m-573c27f3802b",
+    "m-4240e0576e44",
+    "m-6edfcf62e528",
+    "m-c28fa2daeaeb",
+    "m-d4c9351a80aa",
+    "m-add06be7e9fd",
+    "m-40610daf6493",
+    "m-9644d37e317d",
+    "m-048bb157069b",
+    "m-f3d6b469d986"
+  ]
+}

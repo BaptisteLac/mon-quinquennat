@@ -1,0 +1,1391 @@
+{
+  "measures": [
+    {
+      "theme": "education",
+      "title": "Augmenter de 20 % en moyenne le salaire des enseignants pendant le quinquennat",
+      "summary": {
+        "simple": "Les enseignants seraient payés 20 % de plus en moyenne à la fin du mandat.",
+        "normal": "Hausse de 20 % en moyenne du salaire des enseignants sur le quinquennat, pour atteindre au moins la moyenne européenne, notamment en milieu de carrière."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Augmenter de 20 % en moyenne le salaire des enseignants pendant le quinquennat."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "education",
+      "title": "Créer un statut d'école publique autonome : méthodes, horaires, uniforme, rentrée avancée",
+      "summary": {
+        "simple": "Chaque école volontaire pourrait adapter ses méthodes et horaires, imposer l'uniforme et avancer la rentrée d'une à deux semaines pour les élèves qui en ont besoin.",
+        "normal": "Nouveau statut d'école publique autonome : établissements volontaires libres d'adapter méthodes, horaires et organisation des classes, d'imposer l'uniforme, de fixer la discipline, de participer au recrutement, et d'avancer la rentrée d'une à deux semaines."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Créer un nouveau statut d’école publique autonome : chaque établissement volontaire sera libre d’adapter ses méthodes, ses horaires, l’organisation de ses classes et d’avancer la rentrée d’une à deux semaines pour les élèves qui en ont besoin."
+        },
+        {
+          "page": 10,
+          "quote": "Les chefs d’établissement auront la liberté d’imposer l’uniforme"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "L'école de tes enfants pourrait fixer ses horaires et ses règles, imposer l'uniforme et avancer la rentrée.",
+            "normal": "Statut d'école publique autonome pour les établissements volontaires : méthodes, horaires, uniforme, discipline, rentrée avancée d'une à deux semaines."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Créer un service public universel du soutien scolaire",
+      "summary": {
+        "simple": "Tous les élèves pourraient bénéficier d'un soutien scolaire public, avec des anciens professeurs, des étudiants et un assistant IA.",
+        "normal": "Service public universel du soutien scolaire : brigades d'anciens professeurs et d'étudiants volontaires, assistant d'intelligence artificielle personnalisé."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Créer un soutien scolaire universel ouvert à tous les élèves."
+        },
+        {
+          "page": 10,
+          "quote": "Édouard Philippe veut créer un service public universel du soutien scolaire."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Tes enfants auraient accès à un soutien scolaire public gratuit.",
+            "normal": "Service public universel du soutien scolaire : anciens professeurs, étudiants volontaires et assistant IA personnalisé."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Réduire la taille des classes en maternelle et en primaire",
+      "summary": {
+        "simple": "Les classes de maternelle et de primaire compteraient moins d'élèves.",
+        "normal": "Réduction des effectifs par classe en maternelle et en primaire ; nombre visé non précisé."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Diminuer la taille des classes en maternelle et en primaire."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "0_2",
+              "3_10"
+            ]
+          },
+          "sentence": {
+            "simple": "En maternelle et en primaire, tes enfants seraient dans des classes moins chargées.",
+            "normal": "Effectifs réduits en maternelle et en primaire ; le nombre d'élèves visé n'est pas précisé."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Apprendre à lire dès la maternelle et viser 2 500 mots maîtrisés à l'entrée en CP",
+      "summary": {
+        "simple": "La lecture s'apprendrait dès la maternelle, avec des tests pour repérer tôt les difficultés et un objectif de 2 500 mots en arrivant au CP.",
+        "normal": "Primaire recentré sur lire, écrire, compter ; apprentissage de la lecture généralisé dès la maternelle, tests de décodage, objectif de 2 500 mots maîtrisés à l'entrée au CP."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Apprendre à lire dès la maternelle et concentrer l’école primaire sur lire, écrire, compter."
+        },
+        {
+          "page": 10,
+          "quote": "L’objectif pour chaque élève sera de maîtriser 2500 mots en arrivant au CP"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "0_2",
+              "3_10"
+            ]
+          },
+          "sentence": {
+            "simple": "Tes enfants apprendraient à lire dès la maternelle, avec un objectif de 2 500 mots à l'entrée au CP.",
+            "normal": "Lecture dès la maternelle, tests de décodage et objectif de 2 500 mots maîtrisés en arrivant au CP."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Recréer des écoles normales pour former les professeurs et ouvrir les carrières",
+      "summary": {
+        "simple": "Les futurs professeurs seraient formés dans des écoles normales ; des professionnels d'autres métiers pourraient enseigner.",
+        "normal": "Écoles normales recréées, plus exigeantes sur les savoirs fondamentaux ; carrières ouvertes à des professionnels venus de l'extérieur et évolutions dans ou hors de l'Éducation nationale."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Recréer des écoles normales pour former les professeurs. Les rendre plus exigeantes sur les savoirs fondamentaux et ouvrir les carrières à des professionnels venus de l’extérieur."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "education",
+      "title": "Interdire le téléphone portable à l'école, au collège et au lycée",
+      "summary": {
+        "simple": "Le téléphone serait interdit à l'école, au collège et au lycée ; confisqué en cas d'usage et rendu aux parents.",
+        "normal": "Interdiction stricte du téléphone portable à l'école primaire, au collège et au lycée, avec confiscation immédiate et restitution aux parents."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Édouard Philippe veut interdire strictement le téléphone portable à l’école primaire, au collège et au lycée."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Le téléphone de tes enfants serait interdit à l'école, au collège et au lycée, confisqué en cas d'usage et rendu à toi.",
+            "normal": "Interdiction stricte du portable de l'école primaire au lycée ; confiscation immédiate et restitution aux parents."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Faire compter les notes de juin dans le bulletin de l'année suivante",
+      "summary": {
+        "simple": "Les notes du mois de juin compteraient pour le bulletin de l'année suivante.",
+        "normal": "Fin d'année réorganisée pour que juin ne soit plus sacrifié : les notes de juin compteront pour le bulletin de l'année suivante."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "les notes du mois de juin compteront donc pour le bulletin de l’année suivante"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Les notes de juin de tes enfants compteraient pour le bulletin de l'année suivante.",
+            "normal": "Notes du mois de juin reportées sur le bulletin de l'année suivante."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Pas d'IA avant le collège, sensibilisation au collège, usage progressif au lycée",
+      "summary": {
+        "simple": "Les élèves n'utiliseraient pas d'intelligence artificielle avant le collège ; ils y seraient sensibilisés au collège et l'utiliseraient progressivement au lycée.",
+        "normal": "Approche par paliers : zéro IA avant le collège, sensibilisation à l'usage responsable au collège, inscription progressive dans la pédagogie au lycée ; IA encouragée pour les professeurs."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Édouard Philippe propose une approche par paliers : zéro IA avant le collège pour bien former les élèves, une sensibilisation à l’usage responsable de l’IA au collège et son inscription progressive dans la pédagogie au lycée"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Tes enfants n'utiliseraient pas d'IA à l'école avant le collège.",
+            "normal": "Zéro IA avant le collège, sensibilisation au collège, usage progressif au lycée."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Rendre publiques les évaluations de performance des établissements",
+      "summary": {
+        "simple": "Les parents et les élus pourraient consulter les évaluations de chaque établissement.",
+        "normal": "Publication auprès des parents et des élus locaux des évaluations de performance des établissements scolaires."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Édouard Philippe veut rendre publiques, auprès des parents et des élus locaux, les évaluations de performance des établissements scolaires."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Tu pourrais consulter les évaluations de l'établissement de tes enfants.",
+            "normal": "Évaluations de performance des établissements rendues publiques auprès des parents et des élus locaux."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Créer une « amende de responsabilisation scolaire » pour les parents d'enfants harceleurs ou absentéistes",
+      "summary": {
+        "simple": "Les parents d'enfants harceleurs, perturbateurs ou absentéistes, et les parents violents, pourraient recevoir une amende du maire.",
+        "normal": "« Amende de responsabilisation scolaire » inspirée du modèle britannique, donnée par le maire sur proposition de l'équipe éducative, pour les parents d'enfants harceleurs, perturbateurs ou absentéistes et les parents violents."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Édouard Philippe veut créer une « amende de responsabilisation scolaire », inspirée du modèle britannique, pour les parents d’enfants harceleurs, perturbateurs ou absentéistes, et pour les parents violents."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Si ton enfant harcèle, perturbe la classe ou manque l'école, le maire pourrait te donner une amende.",
+            "normal": "Amende de responsabilisation scolaire donnée par le maire, sur proposition de l'équipe éducative ; montant non précisé."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Créer un service public de l'orientation dès le collège",
+      "summary": {
+        "simple": "Chaque élève serait accompagné dès le collège pour découvrir les métiers, avec un tutorat personnalisé.",
+        "normal": "Service public de l'orientation : tutorat personnalisé d'étudiants, de professeurs et d'intervenants extérieurs dès le collège, temps dédiés pour les professeurs."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Édouard Philippe veut créer un service public de l’orientation, pour accompagner chaque élève dans sa découverte des métiers et ses choix dès le collège"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "eq",
+            "value": "11_17"
+          },
+          "sentence": {
+            "simple": "Dès le collège, tes enfants auraient un tutorat pour découvrir les métiers et choisir leur orientation.",
+            "normal": "Service public de l'orientation avec tutorat personnalisé dès le collège."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Laisser chaque université choisir sa sélection et fermer les formations à faible insertion",
+      "summary": {
+        "simple": "Chaque université choisirait comment sélectionner ses étudiants ; les formations qui mènent peu au diplôme ou à l'emploi seraient fermées.",
+        "normal": "Sélection à l'université assumée : chaque université décide de son mode de sélection, fermeture des formations aux faibles taux de diplomation et d'insertion, filières scientifiques revalorisées."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Il assume la sélection à l’université : chaque université décidera de son mode de sélection, les formations aux faibles taux de diplomation et d’insertion seront fermées et les filières scientifiques revalorisées."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "11_17",
+              "18_25"
+            ]
+          },
+          "sentence": {
+            "simple": "Chaque université pourrait sélectionner ses étudiants à sa façon.",
+            "normal": "Sélection décidée par chaque université ; fermeture des formations à faibles taux de diplomation et d'insertion."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "sante",
+      "title": "Renforcer la santé mentale à l'école",
+      "summary": {
+        "simple": "Les élèves auraient accès à des adultes de confiance et à un meilleur repérage en santé mentale.",
+        "normal": "Santé à l'école renforcée : tiers de confiance, conseils et meilleure détection en matière de santé mentale."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Les élèves auront accès à des tiers de confiance, à des conseils et à une meilleure détection en matière de santé mentale."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "education",
+      "title": "Reconnaître le métier d'AESH et systématiser les professionnels du handicap à l'école",
+      "summary": {
+        "simple": "Le métier d'accompagnant des élèves en situation de handicap serait reconnu, et des professionnels du handicap interviendraient à l'école.",
+        "normal": "Intervention systématique des professionnels du handicap à l'école et reconnaissance du métier d'accompagnant d'élèves en situation de handicap (AESH)."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Il veut systématiser l’intervention des professionnels du handicap à l’école et reconnaître le métier d’accompagnant d’élèves en situation de handicap (AESH), pour une école réellement inclusive."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "all": [
+              {
+                "field": "enfantsAgeBand",
+                "op": "in",
+                "value": [
+                  "3_10",
+                  "11_17"
+                ]
+              },
+              {
+                "field": "handicapOuAidant",
+                "op": "in",
+                "value": [
+                  "moi",
+                  "proche"
+                ]
+              }
+            ]
+          },
+          "sentence": {
+            "simple": "Des professionnels du handicap interviendraient à l'école, et le métier d'AESH serait reconnu.",
+            "normal": "Professionnels du handicap à l'école et reconnaissance du métier d'AESH."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Apprendre la natation à tous les enfants dès la maternelle",
+      "summary": {
+        "simple": "Les enfants apprendraient à nager dès l'école maternelle.",
+        "normal": "Apprentissage de la natation pour tous les enfants dès l'école maternelle."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Édouard Philippe veut que tous les enfants apprennent la natation dès l’école maternelle."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "0_2",
+              "3_10"
+            ]
+          },
+          "sentence": {
+            "simple": "Tes enfants apprendraient à nager dès la maternelle.",
+            "normal": "Natation pour tous dès l'école maternelle."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Former 100 000 ingénieurs par an d'ici cinq ans, contre 40 000",
+      "summary": {
+        "simple": "La France formerait 100 000 ingénieurs par an d'ici cinq ans, contre 40 000.",
+        "normal": "Nombre d'ingénieurs formés chaque année porté de 40 000 à 100 000 en cinq ans."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "Édouard Philippe veut faire passer le nombre d’ingénieurs formés chaque année de 40 000 à 100 000 en cinq ans."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "famille",
+      "title": "Verser une allocation familiale unique de 350 € par mois dès le premier enfant, dégressive avec le revenu",
+      "summary": {
+        "simple": "Une allocation familiale unique, jusqu'à 350 € par mois pour les plus modestes, serait versée dès le premier enfant ; elle baisserait quand le revenu augmente.",
+        "normal": "Allocation familiale unique dès le premier enfant, fusionnant des aides existantes ; elle « atteindra 350 € pour les plus modestes » et sera dégressive avec le revenu. Ni le barème de dégressivité ni la base (par enfant ou par foyer) ne sont publiés."
+      },
+      "sources": [
+        {
+          "page": 11,
+          "quote": "Verser une allocation familiale de 350 € par mois dès le premier enfant."
+        },
+        {
+          "page": 11,
+          "quote": "Elle atteindra 350 € pour les plus modestes et sera dégressive avec le revenu."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "allocations_familiales",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "0_2",
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Tes aides familiales seraient remplacées par une allocation unique, jusqu'à 350 € par mois pour les plus modestes, dégressive avec ton revenu.",
+            "normal": "Allocation familiale unique dès le premier enfant, 350 € par mois pour les plus modestes, dégressive avec le revenu. Montant non calculé : ni le barème de dégressivité ni la base (par enfant ou par foyer) ne sont publiés."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "fiscalite",
+      "title": "Supprimer l'impôt sur le revenu des classes moyennes les trois premières années de l'enfant",
+      "summary": {
+        "simple": "Pendant les trois premières années d'un enfant, les familles des classes moyennes ne paieraient pas d'impôt sur le revenu ; les familles plus aisées qui travaillent auraient 3 000 € de réduction par an.",
+        "normal": "Impôt sur le revenu supprimé pendant les trois premières années de l'enfant pour les ménages du 4e au 6e décile et au début du 7e ; réduction de 3 000 € par an sur la même période pour les familles plus aisées qui travaillent."
+      },
+      "sources": [
+        {
+          "page": 11,
+          "quote": "Supprimer l’impôt sur le revenu des classes moyennes les trois premières années de l’enfant."
+        },
+        {
+          "page": 11,
+          "quote": "Pendant les trois premières années de l’enfant, Édouard Philippe veut supprimer l’impôt sur le revenu des ménages des classes moyennes, du 4e au 6e décile et au début du 7e. Les familles plus aisées qui travaillent auront droit à 3 000 € de réduction d’impôt par an."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "impot_revenu",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "eq",
+            "value": "0_2"
+          },
+          "sentence": {
+            "simple": "Avec un enfant de moins de trois ans, tu pourrais ne plus payer d'impôt sur le revenu, ou avoir 3 000 € de réduction par an si tes revenus sont plus élevés.",
+            "normal": "Impôt sur le revenu supprimé pendant les trois premières années de l'enfant du 4e au 6e décile (et au début du 7e) ; réduction de 3 000 € par an pour les familles plus aisées qui travaillent. Le montant est calculé pour ce cas type, hors solde : l'avantage ne dure que les trois premières années de chaque enfant."
+          },
+          "computation": {
+            "kind": "estimation",
+            "formulaId": "impot_supprime_decile",
+            "params": [
+              {
+                "name": "decileDebut",
+                "value": 4
+              },
+              {
+                "name": "decileFin",
+                "value": 6
+              },
+              {
+                "name": "decileSuivant",
+                "value": 7
+              },
+              {
+                "name": "reductionAnnuelle",
+                "value": 3000
+              }
+            ],
+            "hypothesisLabel": "Cas type : ton niveau de vie est estimé par les revenus nets du foyer divisés par ses unités de consommation (sans prestations ni impôt), puis situé dans les déciles de l'INSEE. Entre le 4e et le 6e décile, tout l'impôt est supprimé ; au début du 7e décile, dont la limite n'est pas publiée, fourchette entre la suppression et la réduction ; au-delà, réduction de 3 000 € par an si le foyer travaille, sans dépasser l'impôt dû.",
+            "hypothesisSourceId": "insee-niveau-de-vie-d3-2024",
+            "hypothesisCondition": "pendant les trois premières années de ton enfant"
+          }
+        }
+      ]
+    },
+    {
+      "theme": "famille",
+      "title": "Lancer un plan Marshall pour la garde d'enfants",
+      "summary": {
+        "simple": "Un grand plan faciliterait la recherche d'un mode de garde pour les jeunes parents.",
+        "normal": "Plan Marshall pour la garde d'enfants ; contenu et moyens non précisés."
+      },
+      "sources": [
+        {
+          "page": 11,
+          "quote": "Lancer un plan Marshall pour la garde d’enfants."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "eq",
+            "value": "0_2"
+          },
+          "sentence": {
+            "simple": "Trouver un mode de garde pour ton enfant serait facilité par un grand plan national.",
+            "normal": "Plan Marshall pour la garde d'enfants ; moyens non précisés."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Accorder un prêt à taux zéro « famille » à chaque naissance et pérenniser le PTZ",
+      "summary": {
+        "simple": "À chaque naissance, les parents auraient droit à un nouveau prêt à taux zéro pour accéder à la propriété.",
+        "normal": "Prêt à taux zéro pérennisé et prêt à taux zéro « famille » à la naissance de chaque enfant ; montant non précisé."
+      },
+      "sources": [
+        {
+          "page": 11,
+          "quote": "Accorder un prêt à taux zéro à chaque naissance."
+        },
+        {
+          "page": 13,
+          "quote": "Édouard Philippe veut pérenniser le prêt à taux zéro et créer un prêt à taux zéro « famille » : les parents auront droit à un nouveau prêt à taux zéro à la naissance de chaque enfant."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "field": "age",
+            "op": "lte",
+            "value": 45
+          },
+          "sentence": {
+            "simple": "À chaque naissance, tu pourrais obtenir un nouveau prêt à taux zéro pour acheter ton logement.",
+            "normal": "Prêt à taux zéro « famille » à la naissance de chaque enfant ; montant et conditions non précisés."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "justice",
+      "title": "Rendre imprescriptibles les crimes sur mineurs",
+      "summary": {
+        "simple": "Les crimes commis sur des mineurs pourraient être poursuivis sans limite de temps.",
+        "normal": "Imprescriptibilité des crimes commis sur des mineurs."
+      },
+      "sources": [
+        {
+          "page": 12,
+          "quote": "Des crimes sur mineurs poursuivis sans limite de temps."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Éloigner immédiatement l'adulte en cause dès qu'une plainte concerne un enfant",
+      "summary": {
+        "simple": "Dès qu'une plainte concerne un enfant, l'adulte mis en cause serait éloigné sans attendre la fin de l'enquête.",
+        "normal": "Principe de précaution pénal : toute plainte concernant un enfant déclenche une mesure de protection immédiate d'éloignement de l'adulte en cause, sans attendre la fin de l'enquête."
+      },
+      "sources": [
+        {
+          "page": 12,
+          "quote": "L’éloignement immédiat de l’adulte en cause dès qu’une plainte concerne un enfant."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "0_2",
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Si une plainte concerne ton enfant, l'adulte en cause serait éloigné immédiatement.",
+            "normal": "Principe de précaution pénal : éloignement immédiat de l'adulte mis en cause, sans attendre la fin de l'enquête."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "justice",
+      "title": "Instituer un « droit de savoir » pour vérifier les antécédents des adultes proches de son enfant",
+      "summary": {
+        "simple": "Les parents pourraient demander à la police de vérifier les antécédents d'une personne en contact avec leur enfant.",
+        "normal": "« Droit de savoir » inspiré de la « Sarah's law » britannique : demande à la police pour vérifier qu'une personne en contact avec son enfant n'a pas d'antécédents."
+      },
+      "sources": [
+        {
+          "page": 12,
+          "quote": "Un « droit de savoir » qui permet aux parents de vérifier le passé des adultes proches de leur enfant."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "0_2",
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Tu pourrais demander à la police de vérifier les antécédents d'un adulte en contact avec ton enfant.",
+            "normal": "Droit de savoir : vérification par la police des antécédents d'un entraîneur, d'un animateur ou d'un voisin qui garde les enfants."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Créer une Inspection nationale de l'enfance qui contrôle tous les lieux d'accueil tous les trois ans",
+      "summary": {
+        "simple": "Les lieux accueillant des enfants seraient contrôlés au moins tous les trois ans, contre tous les six ans aujourd'hui, et pourraient être fermés.",
+        "normal": "Inspection nationale de l'enfance contrôlant tous les lieux accueillant des mineurs au moins tous les trois ans, contre tous les six ans aujourd'hui, avec pouvoir de fermeture."
+      },
+      "sources": [
+        {
+          "page": 12,
+          "quote": "Une Inspection nationale de l’enfance qui contrôle tous les lieux d’accueil au moins tous les trois ans."
+        },
+        {
+          "page": 12,
+          "quote": "contre tous les six ans aujourd’hui"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "0_2",
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Les lieux qui accueillent tes enfants seraient contrôlés au moins tous les trois ans, contre six aujourd'hui.",
+            "normal": "Inspection nationale de l'enfance : contrôle de tous les lieux d'accueil de mineurs au moins tous les trois ans (six aujourd'hui), avec pouvoir de fermeture."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "education",
+      "title": "Vérifier les antécédents de tous les encadrants et réformer le périscolaire",
+      "summary": {
+        "simple": "Tous les adultes qui encadrent des enfants devraient avoir un certificat d'honorabilité ; un responsable formé serait présent à chaque temps périscolaire.",
+        "normal": "Certificats d'honorabilité déployés partout, choc de formation des encadrants, présence obligatoire d'un responsable formé à la protection des enfants pendant chaque temps périscolaire, publication des parcours des éducateurs."
+      },
+      "sources": [
+        {
+          "page": 12,
+          "quote": "La vérification des antécédents de tous ceux qui encadrent des enfants."
+        },
+        {
+          "page": 12,
+          "quote": "Il propose ainsi de déployer partout les certificats d’honorabilité, un choc de formation des encadrants, la présence obligatoire d’un responsable formé à la protection des enfants pendant chaque temps périscolaire et la publication des parcours des éducateurs."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Les adultes qui encadrent tes enfants au périscolaire devraient tous avoir un certificat d'honorabilité.",
+            "normal": "Certificats d'honorabilité généralisés, responsable formé présent à chaque temps périscolaire, parcours des éducateurs publiés."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "numerique",
+      "title": "Renforcer la responsabilité pénale des plateformes et les amendes pour défaut de modération",
+      "summary": {
+        "simple": "Les plateformes seraient plus lourdement sanctionnées si elles laissent circuler des contenus illicites, notamment pédopornographiques.",
+        "normal": "Responsabilité pénale des plateformes durcie pour les contenus pédopornographiques, amendes massivement augmentées pour celles qui ne modèrent pas correctement ; fermeture des sites qui laissent prospérer le proxénétisme en ligne."
+      },
+      "sources": [
+        {
+          "page": 12,
+          "quote": "Renforcer la responsabilité des plateformes face aux contenus illicites."
+        },
+        {
+          "page": 12,
+          "quote": "durcir leur responsabilité pénale pour les contenus pédopornographiques et augmenter massivement les amendes de celles qui ne modèrent pas correctement."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "numerique",
+      "title": "Réécrire la loi d'interdiction des réseaux sociaux aux moins de 15 ans",
+      "summary": {
+        "simple": "Une loi interdisant les réseaux sociaux aux moins de 15 ans serait réécrite par un groupe transpartisan.",
+        "normal": "Réécriture, par un groupe transpartisan de parlementaires et de juristes, de la loi d'interdiction des réseaux sociaux aux moins de 15 ans."
+      },
+      "sources": [
+        {
+          "page": 12,
+          "quote": "Réécrire la loi d’interdiction des réseaux sociaux aux moins de 15 ans."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "ecole",
+          "section": "vie",
+          "appliesTo": {
+            "field": "enfantsAgeBand",
+            "op": "in",
+            "value": [
+              "3_10",
+              "11_17"
+            ]
+          },
+          "sentence": {
+            "simple": "Les réseaux sociaux seraient interdits à tes enfants avant 15 ans.",
+            "normal": "Loi d'interdiction des réseaux sociaux aux moins de 15 ans, réécrite par un groupe transpartisan."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Construire 4 millions de logements en dix ans",
+      "summary": {
+        "simple": "4 millions de logements seraient construits en dix ans, soit 400 000 par an.",
+        "normal": "Objectif de 4 millions de logements en dix ans, soit 400 000 par an contre 274 000 mises en chantier en 2025, dans les bassins d'emploi et près des grands projets."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Édouard Philippe veut construire 4 millions de logements en dix ans, soit 400 000 par an contre 274 000 mises en chantier en 2025"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "logement",
+      "title": "Supprimer les « frais de notaire » pour le premier achat des moins de 35 ans",
+      "summary": {
+        "simple": "Les moins de 35 ans ne paieraient plus de droits de mutation pour leur première résidence principale : 7 000 € de gain pour un appartement de 100 000 €.",
+        "normal": "Exonération de droits de mutation pour l'achat de la première résidence principale des moins de 35 ans ; selon le programme, 7 000 € de gain pour un appartement de 100 000 €."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Suppression des « frais de notaire » pour le premier achat des moins de 35 ans."
+        },
+        {
+          "page": 13,
+          "quote": "en exonérant de droits de mutation l’achat de la première résidence principale. Pour un appartement de 100 000 €, le gain est de 7 000 €."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "all": [
+              {
+                "field": "age",
+                "op": "lte",
+                "value": 34
+              },
+              {
+                "field": "logement",
+                "op": "in",
+                "value": [
+                  "locataire_prive",
+                  "locataire_hlm",
+                  "heberge"
+                ]
+              }
+            ]
+          },
+          "sentence": {
+            "simple": "Si tu achètes ton premier logement avant 35 ans, tu ne paierais plus les « frais de notaire » : 7 000 € de moins pour un appartement de 100 000 €, selon le candidat.",
+            "normal": "Exonération de droits de mutation sur la première résidence principale des moins de 35 ans. Gain ponctuel à l'achat, non compté par mois."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Instaurer un moratoire de cinq ans sur les normes de construction et suspendre l'interdiction de louer les passoires",
+      "summary": {
+        "simple": "Les normes de construction seraient gelées cinq ans, et l'interdiction de louer les logements mal isolés suspendue pendant le mandat.",
+        "normal": "Moratoire de cinq ans sur l'ensemble des normes de construction et d'habitation ; moratoire sur les paliers de la RE2020 et sur l'interdiction de location des passoires thermiques pendant le quinquennat."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Moratoire de cinq ans sur l’ensemble des normes relatives à la construction et à l’habitation des logements."
+        },
+        {
+          "page": 13,
+          "quote": "Édouard Philippe veut un moratoire sur les paliers de la RE2020 et un moratoire sur l’interdiction de location des passoires thermiques pendant la durée du quinquennat."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "field": "logement",
+            "op": "eq",
+            "value": "locataire_prive"
+          },
+          "sentence": {
+            "simple": "L'interdiction de louer les logements mal isolés serait suspendue pendant le mandat.",
+            "normal": "Moratoire sur l'interdiction de location des passoires thermiques pendant le quinquennat."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Affecter aux maires la TVA sur les logements neufs construits dans leur commune",
+      "summary": {
+        "simple": "Les communes toucheraient la TVA des logements neufs construits chez elles.",
+        "normal": "Affectation à la commune de la TVA sur les logements neufs qui y sont construits."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Affectation aux maires de la TVA sur les logements neufs construits dans leur commune."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "fiscalite",
+      "title": "Imposer les loyers longue durée au prélèvement forfaitaire unique et supprimer l'IFI sur ces logements",
+      "summary": {
+        "simple": "Les revenus de location longue durée seraient taxés à un taux forfaitaire, et les logements loués sortiraient de l'impôt sur la fortune immobilière.",
+        "normal": "Prélèvement forfaitaire unique sur les revenus de la location longue durée, après charges et amortissement accéléré ; suppression de l'IFI sur les logements loués en longue durée."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Mise en place du prélèvement forfaitaire unique sur les revenus de la location longue durée."
+        },
+        {
+          "page": 13,
+          "quote": "Édouard Philippe veut supprimer l’impôt sur la fortune immobilière (IFI) sur ces logements"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "fiscalite",
+      "title": "Pérenniser la défiscalisation des donations pour un premier achat immobilier",
+      "summary": {
+        "simple": "Les dons aux enfants et petits-enfants pour acheter un premier logement resteraient sans impôt.",
+        "normal": "Défiscalisation des donations aux enfants et petits-enfants pour un premier achat, pérennisée ; incitation des seniors à vendre la nue-propriété de leur logement."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Défiscalisation des donations aux enfants et petits-enfants pour un premier achat."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "logement",
+      "title": "Réduire la durée des procédures d'impayés de loyer",
+      "summary": {
+        "simple": "Les procédures contre les loyers impayés seraient beaucoup plus courtes.",
+        "normal": "Réduction drastique de la durée des procédures d'impayés et sanctions plus dures contre les mauvais payeurs."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Il propose de réduire drastiquement la durée des procédures d’impayés et de sanctionner plus durement les mauvais payeurs."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "logement",
+      "title": "Créer des « zones d'accélération du logement » près des grands projets",
+      "summary": {
+        "simple": "Près des grands sites industriels, des futurs RER et des zones touristiques, construire serait plus simple et moins taxé.",
+        "normal": "Zones d'accélération du logement, avec normes simplifiées et fiscalité allégée, près des grands sites industriels (EPR), des futurs RER métropolitains et des zones touristiques."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Ce sont des zones où les normes seront simplifiées et la fiscalité allégée pour construire plus vite."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "logement",
+      "title": "Confier aux maires l'encadrement des loyers, l'attribution des HLM et les aides à la rénovation",
+      "summary": {
+        "simple": "Les maires décideraient de l'encadrement des loyers, attribueraient les logements sociaux et distribueraient les aides à la rénovation.",
+        "normal": "Responsabilité pleine des maires sur l'encadrement des loyers, l'attribution des logements sociaux, les aides à la rénovation énergétique et les aides à la pierre."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Il veut confier aux maires la responsabilité pleine et entière de mettre en place ou non l’encadrement des loyers, d’attribuer les logements sociaux, de distribuer les aides à la rénovation énergétique et les aides à la pierre."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "field": "logement",
+            "op": "in",
+            "value": [
+              "locataire_prive",
+              "locataire_hlm"
+            ]
+          },
+          "sentence": {
+            "simple": "Ton maire déciderait de l'encadrement des loyers et de l'attribution des logements sociaux.",
+            "normal": "Encadrement des loyers et attribution des logements sociaux confiés aux maires."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Regrouper les bailleurs sociaux en foncières de 100 000 logements et supprimer la RLS",
+      "summary": {
+        "simple": "Les organismes HLM seraient regroupés en grandes foncières et la réduction de loyer de solidarité supprimée, contre des objectifs de construction.",
+        "normal": "Regroupement des bailleurs sociaux dans des foncières d'intérêt général de 100 000 logements ; suppression intégrale de la réduction de loyer de solidarité, contre des objectifs de production."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Édouard Philippe veut regrouper les bailleurs sociaux dans des foncières d’intérêt général de 100 000 logements."
+        },
+        {
+          "page": 13,
+          "quote": "Oui, intégralement. Édouard Philippe veut redonner des marges de manœuvre au logement social"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "logement",
+      "title": "Faciliter la vente des HLM à leurs occupants et appliquer systématiquement les surloyers",
+      "summary": {
+        "simple": "Les locataires HLM pourraient plus facilement acheter leur logement ; ceux qui dépassent les plafonds paieraient systématiquement un surloyer.",
+        "normal": "Vente des logements sociaux à leurs occupants simplifiée ; réexamen annuel de la situation des locataires et surloyers systématiques en cas de dépassement des plafonds."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Édouard Philippe veut simplifier la vente des logements sociaux à leurs occupants par les bailleurs."
+        },
+        {
+          "page": 13,
+          "quote": "Édouard Philippe veut un réexamen annuel de la situation des locataires et l’application systématique de surloyers en cas de dépassement des plafonds."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "field": "logement",
+            "op": "eq",
+            "value": "locataire_hlm"
+          },
+          "sentence": {
+            "simple": "Ta situation serait réexaminée chaque année ; tu pourrais plus facilement acheter ton logement, et payer un surloyer si tu dépasses les plafonds.",
+            "normal": "Réexamen annuel, surloyers systématiques au-dessus des plafonds, vente aux occupants simplifiée."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Inciter à construire du logement privé dans les communes à plus de 40 % de logements sociaux",
+      "summary": {
+        "simple": "Construire des logements privés serait encouragé fiscalement là où il y a déjà plus de 40 % de logements sociaux.",
+        "normal": "Incitations fiscales à construire du logement privé dans les communes qui comptent plus de 40 % de logements sociaux."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Édouard Philippe veut mettre en place des incitations fiscales à construire du logement privé dans les communes qui ont plus de 40 % de logements sociaux."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "logement",
+      "title": "Permettre aux préfets d'expulser de son logement social un occupant condamné pour troubles graves",
+      "summary": {
+        "simple": "Un locataire HLM condamné pour des troubles graves à l'ordre public pourrait être expulsé par le préfet.",
+        "normal": "Expulsion par le préfet d'un occupant de logement social condamné pour des troubles graves à l'ordre public."
+      },
+      "sources": [
+        {
+          "page": 13,
+          "quote": "Édouard Philippe veut permettre aux préfets d’expulser de son logement social un occupant condamné pour des troubles graves à l’ordre public."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "prestations",
+      "title": "Garantir une solution d'accompagnement à chaque personne handicapée et voter une loi sur l'école inclusive",
+      "summary": {
+        "simple": "Chaque enfant et chaque adulte handicapé aurait une solution d'accompagnement, sans liste d'attente en IME.",
+        "normal": "Solution d'accompagnement pour chaque enfant et chaque adulte en situation de handicap ; loi sur l'école inclusive pour en finir avec les listes d'attente en IME."
+      },
+      "sources": [
+        {
+          "page": 14,
+          "quote": "Une solution d’accompagnement pour chaque enfant et chaque adulte, avec une loi sur l’école inclusive pour en finir avec les listes d’attente en IME."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "sante",
+          "section": "vie",
+          "appliesTo": {
+            "field": "handicapOuAidant",
+            "op": "in",
+            "value": [
+              "moi",
+              "proche"
+            ]
+          },
+          "sentence": {
+            "simple": "Chaque personne en situation de handicap aurait une solution d'accompagnement, sans liste d'attente en IME.",
+            "normal": "Solution d'accompagnement garantie pour chaque enfant et chaque adulte ; loi sur l'école inclusive."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "prestations",
+      "title": "Garantir 15 jours de répit par an aux proches aidants les plus mobilisés",
+      "summary": {
+        "simple": "Les proches aidants les plus mobilisés auraient droit à 15 jours de répit par an.",
+        "normal": "Garantie nationale de 15 jours de répit par an pour les proches aidants les plus mobilisés : relais à domicile, accueil temporaire, séjour de répit ou remplacement la nuit et le week-end."
+      },
+      "sources": [
+        {
+          "page": 14,
+          "quote": "Une garantie nationale pour les aidants : 15 jours de répit par an pour les proches aidants les plus mobilisés."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "sante",
+          "section": "vie",
+          "appliesTo": {
+            "field": "handicapOuAidant",
+            "op": "eq",
+            "value": "proche"
+          },
+          "sentence": {
+            "simple": "En tant que proche aidant, tu pourrais avoir jusqu'à 15 jours de répit par an.",
+            "normal": "Garantie nationale de 15 jours de répit par an pour les proches aidants les plus mobilisés."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "prestations",
+      "title": "Permettre le cumul intégral de l'AAH et d'un salaire pendant un an après une reprise d'emploi",
+      "summary": {
+        "simple": "En reprenant un emploi, une personne handicapée garderait toute son AAH pendant un an, contre six mois aujourd'hui.",
+        "normal": "Cumul intégral de l'allocation aux adultes handicapés et des revenus du travail pendant un an après la reprise d'un emploi, contre 6 mois aujourd'hui."
+      },
+      "sources": [
+        {
+          "page": 14,
+          "quote": "Le cumul intégral de l’AAH et des revenus du travail pendant un an après la reprise d’un emploi."
+        },
+        {
+          "page": 14,
+          "quote": "contre 6 mois aujourd’hui"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "prime_activite",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "handicapOuAidant",
+            "op": "eq",
+            "value": "moi"
+          },
+          "sentence": {
+            "simple": "Si tu touches l'AAH et reprends un emploi, tu la garderais en entier pendant un an.",
+            "normal": "Cumul intégral AAH et salaire pendant un an après reprise d'emploi (6 mois aujourd'hui). Montant non calculé : le profil ne demande pas l'AAH."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "prestations",
+      "title": "Imposer à la MDPH une première réponse sous deux mois et une décision sous trois mois",
+      "summary": {
+        "simple": "La MDPH devrait répondre sous deux mois et décider sous trois mois.",
+        "normal": "Première réponse de la MDPH sous deux mois, décision définitive sous trois mois, sauf situation exceptionnellement complexe et motivée."
+      },
+      "sources": [
+        {
+          "page": 14,
+          "quote": "Une première réponse de la MDPH sous deux mois, et une décision définitive sous trois mois."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "sante",
+          "section": "vie",
+          "appliesTo": {
+            "field": "handicapOuAidant",
+            "op": "in",
+            "value": [
+              "moi",
+              "proche"
+            ]
+          },
+          "sentence": {
+            "simple": "La MDPH devrait te répondre sous deux mois et décider sous trois mois.",
+            "normal": "Délais de la MDPH : première réponse sous deux mois, décision sous trois mois."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "prestations",
+      "title": "Rendre accessibles les centres-villes et centres-bourgs et créer 100 000 places en habitat inclusif",
+      "summary": {
+        "simple": "Les centres-villes seraient rendus accessibles et 100 000 logements partagés ou inclusifs créés d'ici 2035.",
+        "normal": "Plans d'accessibilité des centres-villes et centres-bourgs par bassin de vie ; 100 000 logements adaptés, inclusifs, partagés ou intergénérationnels d'ici 2035."
+      },
+      "sources": [
+        {
+          "page": 14,
+          "quote": "100 000 places créées en habitat partagé et inclusif."
+        },
+        {
+          "page": 14,
+          "quote": "Des centres-villes et des centres-bourgs accessibles, grâce au soutien des collectivités sur tout le territoire."
+        },
+        {
+          "page": 14,
+          "quote": "Édouard Philippe veut créer 100 000 logements adaptés, inclusifs, partagés ou intergénérationnels d’ici 2035."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "education",
+      "title": "Consolider les moyens du 3018, le numéro national contre le harcèlement",
+      "summary": {
+        "simple": "Le numéro national contre le harcèlement, le 3018, aurait plus de moyens.",
+        "normal": "Renforcement de l'écoute contre le harcèlement scolaire, à l'image du 3018, le numéro national, dont les moyens doivent être consolidés."
+      },
+      "sources": [
+        {
+          "page": 10,
+          "quote": "le renforcement de l’écoute, à l’image du 3018, le numéro national contre le harcèlement, dont les moyens doivent être consolidés"
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    }
+  ]
+}

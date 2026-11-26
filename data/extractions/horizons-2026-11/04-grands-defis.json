@@ -1,0 +1,555 @@
+{
+  "measures": [
+    {
+      "theme": "numerique",
+      "title": "Conclure un pacte européen de puissance numérique avec une priorité européenne dans l'achat technologique",
+      "summary": {
+        "simple": "Les États européens achèteraient en priorité des technologies européennes, avec des achats groupés.",
+        "normal": "Pacte européen de puissance numérique : priorité européenne dans l'achat technologique (« Buy European Tech Act ») et achats groupés entre États membres."
+      },
+      "sources": [
+        {
+          "page": 15,
+          "quote": "Un pacte européen de puissance numérique, avec une priorité européenne dans l’achat technologique."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "numerique",
+      "title": "Faire de la France le leader européen du calcul avec des « zones d'accélération de l'IA »",
+      "summary": {
+        "simple": "Des zones dédiées faciliteraient l'installation de centres de données, avec un accès prioritaire à l'électricité décarbonée.",
+        "normal": "France leader européen de la puissance de calcul et des data centers : « zones d'accélération de l'IA » (raccordements facilités, permis accélérés, normes supprimées), accès préférentiel à l'électricité décarbonée."
+      },
+      "sources": [
+        {
+          "page": 15,
+          "quote": "Faire de la France le leader européen de la puissance de calcul et des data centers, avec des « zones d’accélération de l’IA »."
+        },
+        {
+          "page": 15,
+          "quote": "il créera des « zones d’accélération de l’IA » avec des raccordements facilités, des permis accélérés et des normes supprimées"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "numerique",
+      "title": "Lancer un grand plan de transformation des services publics par l'intelligence artificielle",
+      "summary": {
+        "simple": "Les services publics utiliseraient l'intelligence artificielle pour rendre des décisions plus vite.",
+        "normal": "Grand plan de transformation des services publics grâce à l'intelligence artificielle : gains de productivité des agents et décisions plus rapides pour les usagers."
+      },
+      "sources": [
+        {
+          "page": 15,
+          "quote": "Un grand plan pour transformer les services publics grâce à l’intelligence artificielle."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "entreprise",
+      "title": "Lancer le plan Horizon 2050 : un euro public pour un euro privé",
+      "summary": {
+        "simple": "Un plan d'investissement succéderait à France 2030, avec un euro public pour chaque euro privé.",
+        "normal": "Plan Horizon 2050, successeur de France 2030 : un euro public pour un euro privé, concentré sur les fonds propres des acteurs technologiques critiques et les infrastructures de l'IA."
+      },
+      "sources": [
+        {
+          "page": 15,
+          "quote": "Lancer le plan Horizon 2050 pour succéder à France 2030 : un euro public pour un euro privé."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "numerique",
+      "title": "Déployer un Bouclier Cyber et lutter contre la désinformation et les ingérences",
+      "summary": {
+        "simple": "L'État investirait dans la protection informatique des administrations et lutterait contre la désinformation.",
+        "normal": "Bouclier Cyber : centres de protection cyber des administrations, lutte contre la désinformation et les ingérences étrangères."
+      },
+      "sources": [
+        {
+          "page": 15,
+          "quote": "Déployer un Bouclier Cyber et protéger le débat démocratique."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "numerique",
+      "title": "Simplifier les règles européennes sur l'IA en gardant une régulation protectrice des enfants",
+      "summary": {
+        "simple": "Les règles européennes sur l'IA seraient simplifiées, tout en protégeant les enfants.",
+        "normal": "Simplification du cadre juridique européen applicable à l'IA, sans renoncer à une régulation éthique et protectrice des enfants ; réflexion sur la modération a priori des contenus illicites générés par l'IA."
+      },
+      "sources": [
+        {
+          "page": 15,
+          "quote": "Édouard Philippe veut simplifier le cadre juridique européen applicable à l’IA, pour que nos entreprises puissent innover."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "energie",
+      "title": "Relancer le nucléaire avec 8 EPR en plus des 6 prévus et développer les renouvelables",
+      "summary": {
+        "simple": "Huit réacteurs EPR seraient lancés en plus des six prévus, soit 14 nouveaux réacteurs, avec plus de renouvelables là où elles sont efficaces.",
+        "normal": "Relance du nucléaire : 8 EPR supplémentaires en plus des 6 déjà prévus, soit 14 nouveaux réacteurs ; renouvelables développées là où elles sont efficaces."
+      },
+      "sources": [
+        {
+          "page": 16,
+          "quote": "Relancer le nucléaire et développer les renouvelables là où elles sont efficaces."
+        },
+        {
+          "page": 16,
+          "quote": "Édouard Philippe propose de lancer 8 EPR supplémentaires, en plus des 6 déjà prévus, soit 14 nouveaux réacteurs."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "energie",
+      "title": "Électrifier massivement les usages pour sortir du pétrole et du gaz",
+      "summary": {
+        "simple": "Les usages passeraient massivement à l'électricité, avec un accompagnement des ménages.",
+        "normal": "Électrification massive des usages pour sortir du pétrole et du gaz, sans détriment pour le pouvoir d'achat, avec un accompagnement des Français ; modalités non précisées."
+      },
+      "sources": [
+        {
+          "page": 16,
+          "quote": "Électrifier massivement nos usages pour sortir du pétrole et du gaz."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "environnement",
+      "title": "Renforcer le prix du carbone aux frontières européennes",
+      "summary": {
+        "simple": "Les produits importés en Europe paieraient davantage leurs émissions de carbone.",
+        "normal": "Renforcement du prix du carbone aux frontières européennes pour protéger les industries qui décarbonent."
+      },
+      "sources": [
+        {
+          "page": 16,
+          "quote": "Renforcer le prix du carbone aux frontières européennes. Protéger les industries qui décarbonent face aux concurrents qui ne le font pas."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "energie",
+      "title": "Engager un plan Messmer des énergies de la Terre : géothermie et biométhane",
+      "summary": {
+        "simple": "La géothermie et le biométhane seraient développés avec les collectivités et les agriculteurs.",
+        "normal": "Plan Messmer des énergies de la Terre (géothermie, biométhane) avec les collectivités et les agriculteurs."
+      },
+      "sources": [
+        {
+          "page": 16,
+          "quote": "Engager un plan Messmer des énergies de la Terre, géothermie et biométhane, avec les collectivités et les agriculteurs."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "transport",
+      "title": "Porter la part du fret ferroviaire à 20 % en fin de quinquennat",
+      "summary": {
+        "simple": "La part des marchandises transportées par le train passerait de moins de 10 % à 20 %.",
+        "normal": "Grand plan fret ferroviaire : part portée à 20 % à la fin du quinquennat, contre moins de 10 % aujourd'hui."
+      },
+      "sources": [
+        {
+          "page": 16,
+          "quote": "Lancer un grand plan fret ferroviaire : porter sa part à 20 % à la fin du quinquennat, contre moins de 10 % aujourd’hui."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "energie",
+      "title": "Financer le nucléaire et les interconnexions par la Banque européenne d'investissement",
+      "summary": {
+        "simple": "La Banque européenne d'investissement financerait le nucléaire et les liaisons électriques entre pays.",
+        "normal": "Europe puissance énergétique : la Banque européenne d'investissement finance le nucléaire et les interconnexions."
+      },
+      "sources": [
+        {
+          "page": 16,
+          "quote": "Faire de l’Europe une puissance énergétique, avec la Banque européenne d’investissement pour financer le nucléaire et les interconnexions."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "transport",
+      "title": "Verser la même aide pour une voiture électrique d'occasion que pour une neuve",
+      "summary": {
+        "simple": "Acheter une voiture électrique d'occasion donnerait droit à la même aide qu'une neuve.",
+        "normal": "Aide à l'achat d'une voiture électrique d'occasion alignée sur celle d'une voiture neuve."
+      },
+      "sources": [
+        {
+          "page": 16,
+          "quote": "Édouard Philippe veut verser la même aide pour l’achat d’une voiture électrique d’occasion que pour une neuve."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "decret",
+      "effects": [
+        {
+          "ticketLine": "transport",
+          "section": "vie",
+          "appliesTo": {
+            "field": "mobilite",
+            "op": "eq",
+            "value": "voiture_thermique"
+          },
+          "sentence": {
+            "simple": "Si tu achètes une voiture électrique d'occasion, tu aurais la même aide que pour une neuve.",
+            "normal": "Aide à l'achat d'une voiture électrique d'occasion alignée sur celle du neuf."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "environnement",
+      "title": "Investir massivement dans la capture de carbone et décarboner l'industrie lourde",
+      "summary": {
+        "simple": "L'État investirait dans la capture de carbone et la décarbonation de l'industrie lourde, du fret et de la rénovation.",
+        "normal": "Action climatique concentrée sur l'industrie lourde, le fret et la rénovation ; investissement massif dans la capture de carbone."
+      },
+      "sources": [
+        {
+          "page": 16,
+          "quote": "Il propose d’accélérer sa décarbonation, d’investir massivement dans la capture de carbone et de la protéger par un prix du carbone aux frontières européennes."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "environnement",
+      "title": "Créer un fonds d'adaptation au climat de 2 milliards d'euros par an et un opérateur unique",
+      "summary": {
+        "simple": "Un fonds de 2 milliards d'euros par an, issu du fonds Barnier et du Fonds vert, financerait l'adaptation, avec un opérateur public unique.",
+        "normal": "Fonds d'adaptation au changement climatique de 2 milliards d'euros par an réunissant le fonds Barnier et le Fonds vert ; opérateur public unique fusionnant quatre agences."
+      },
+      "sources": [
+        {
+          "page": 17,
+          "quote": "Un fonds d’adaptation au changement climatique de 2 milliards d’euros par an."
+        },
+        {
+          "page": 17,
+          "quote": "Il réunira le fonds Barnier et le Fonds vert, et financera des investissements dont l’impact devra être mesurable."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "environnement",
+      "title": "Stocker davantage l'eau agricole et réutiliser 10 % des eaux usées traitées",
+      "summary": {
+        "simple": "Le stockage de l'eau agricole serait accéléré, et 10 % des eaux usées traitées réutilisées, contre moins de 1 % aujourd'hui.",
+        "normal": "Stockage de l'eau agricole accéléré (« la protection avant la procédure ») ; réutilisation de 10 % des eaux usées traitées pour les usages non potables, contre moins de 1 % aujourd'hui."
+      },
+      "sources": [
+        {
+          "page": 17,
+          "quote": "Stocker davantage l’eau et mieux la réutiliser."
+        },
+        {
+          "page": 17,
+          "quote": "Il veut aussi réutiliser 10 % des eaux usées traitées pour les usages qui ne demandent pas d’eau potable, contre moins de 1 % aujourd’hui."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "environnement",
+      "title": "Climatiser les lieux accueillant des personnes fragiles et financer les réseaux de froid",
+      "summary": {
+        "simple": "Les EHPAD et lieux accueillant des personnes fragiles seraient climatisés ; les logements sociaux rafraîchis par des réseaux de froid.",
+        "normal": "Climatisation massive des lieux accueillant des personnes fragiles ; soutien du fonds chaleur étendu aux réseaux de froid pour rafraîchir les EHPAD et les logements sociaux."
+      },
+      "sources": [
+        {
+          "page": 17,
+          "quote": "Édouard Philippe veut climatiser massivement les lieux qui accueillent des personnes fragiles et aider beaucoup plus les réseaux de froid, pour rafraîchir les logements sociaux et les EHPAD."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "field": "logement",
+            "op": "eq",
+            "value": "locataire_hlm"
+          },
+          "sentence": {
+            "simple": "Ton logement social pourrait être rafraîchi l'été grâce aux réseaux de froid.",
+            "normal": "Réseaux de froid soutenus pour rafraîchir les logements sociaux ; calendrier et logements concernés non précisés."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "environnement",
+      "title": "Planter des arbres en ville et lancer un plan baignade pour rendre les rivières baignables",
+      "summary": {
+        "simple": "Plus d'arbres seraient plantés en ville et les rivières rendues baignables, les piscines rénovées.",
+        "normal": "Plantations d'arbres et levée des règles d'urbanisme qui freinent l'adaptation à la chaleur ; plan baignade national pour rendre baignables toutes les rivières et rénover les piscines."
+      },
+      "sources": [
+        {
+          "page": 17,
+          "quote": "Édouard Philippe veut lancer un plan baignade national pour rendre baignables toutes nos rivières et rénover nos piscines."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "logement",
+      "title": "Revoir l'assurance des risques climatiques, notamment les maisons fissurées par la sécheresse",
+      "summary": {
+        "simple": "L'assurance des maisons fissurées par la sécheresse ou menacées par l'érosion du littoral serait revue.",
+        "normal": "Révision du système d'assurance du risque climatique, notamment la prise en charge du retrait-gonflement des argiles et de l'érosion du littoral."
+      },
+      "sources": [
+        {
+          "page": 17,
+          "quote": "Édouard Philippe veut revoir le système d’assurance du risque climatique, et notamment la prise en charge du retrait-gonflement des argiles, qui fissure les maisons lors des sécheresses."
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "field": "logement",
+            "op": "in",
+            "value": [
+              "proprio_credit",
+              "proprio_sans_credit"
+            ]
+          },
+          "sentence": {
+            "simple": "L'assurance de ta maison contre les fissures dues à la sécheresse et l'érosion du littoral serait revue.",
+            "normal": "Révision de l'assurance du risque climatique (retrait-gonflement des argiles, érosion du littoral) ; modalités non précisées."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "environnement",
+      "title": "Ajouter un volet environnemental au service national",
+      "summary": {
+        "simple": "Les jeunes du service national pourraient débroussailler, entretenir les forêts ou sensibiliser le public.",
+        "normal": "Volet environnemental du service national : missions de débroussaillage, d'entretien des forêts et de sensibilisation du public."
+      },
+      "sources": [
+        {
+          "page": 17,
+          "quote": "Édouard Philippe veut intégrer un volet environnemental au futur service national."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "prestations",
+      "title": "Moderniser l'octroi de mer et ouvrir les transports à la concurrence contre la vie chère outre-mer",
+      "summary": {
+        "simple": "Outre-mer, l'octroi de mer serait rendu plus transparent et les transports ouverts à la concurrence pour faire baisser les prix.",
+        "normal": "Contre la vie chère outre-mer : modernisation de l'octroi de mer (sans le supprimer) et concurrence sur les mobilités, liaisons extérieures et transports en commun."
+      },
+      "sources": [
+        {
+          "page": 18,
+          "quote": "La modernisation de l’octroi de mer et plus de concurrence sur les transports pour faire baisser la vie chère."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "transport",
+          "section": "vie",
+          "appliesTo": {
+            "field": "lieuDeVie",
+            "op": "eq",
+            "value": "outre_mer"
+          },
+          "sentence": {
+            "simple": "Outre-mer, l'octroi de mer serait modernisé et les transports ouverts à la concurrence pour faire baisser les prix.",
+            "normal": "Modernisation de l'octroi de mer et concurrence sur les transports ; effet sur les prix non chiffré."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "autre",
+      "title": "Construire une nouvelle piste d'aéroport sur Grande-Terre et un deuxième hôpital à Mayotte",
+      "summary": {
+        "simple": "Mayotte aurait une nouvelle piste d'aéroport sur Grande-Terre et un deuxième hôpital complet à Combani.",
+        "normal": "Nouvelle piste d'aéroport sur Grande-Terre et deuxième hôpital de plein exercice à Combani (maternité, médecine, chirurgie) ; financements de l'eau garantis jusqu'en 2032."
+      },
+      "sources": [
+        {
+          "page": 18,
+          "quote": "Lancement d’une nouvelle piste d’aéroport sur Grande-Terre et un deuxième hôpital de plein exercice à Mayotte."
+        },
+        {
+          "page": 18,
+          "quote": "Édouard Philippe veut d’abord garantir dans la durée, jusqu’en 2032, les financements de l’eau à Mayotte"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances"
+    },
+    {
+      "theme": "immigration",
+      "title": "Instaurer un moratoire total sur l'immigration à Mayotte pendant le quinquennat",
+      "summary": {
+        "simple": "Toute nouvelle immigration vers Mayotte serait arrêtée pendant cinq ans, y compris familiale ; le droit du sol y serait suspendu plusieurs années.",
+        "normal": "Moratoire total sur les voies d'accès à l'immigration à Mayotte pendant tout le quinquennat, y compris l'immigration familiale ; suspension totale du droit du sol pendant plusieurs années."
+      },
+      "sources": [
+        {
+          "page": 18,
+          "quote": "Un moratoire total sur l’immigration à Mayotte pendant tout le quinquennat, y compris pour l’immigration familiale."
+        },
+        {
+          "page": 18,
+          "quote": "La suspension totale du droit du sol à Mayotte pendant plusieurs années."
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "immigration",
+      "title": "Ouvrir un centre de retour français en Afrique de l'Est pour les étrangers en situation irrégulière à Mayotte",
+      "summary": {
+        "simple": "Les étrangers en situation irrégulière à Mayotte seraient éloignés vers un centre de retour dans un pays de la région.",
+        "normal": "Premier centre de retour français, installé en Afrique de l'Est, pour éloigner les étrangers en situation irrégulière à Mayotte ; appui demandé à Frontex."
+      },
+      "sources": [
+        {
+          "page": 18,
+          "quote": "Un centre de retour français en Afrique de l’Est pour éloigner les étrangers en situation irrégulière à Mayotte."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "accord_ue"
+    },
+    {
+      "theme": "travail",
+      "title": "Faire converger le SMIC et les retraites de Mayotte vers ceux de l'Hexagone",
+      "summary": {
+        "simple": "Le SMIC de Mayotte, à 87,5 % du niveau national, rejoindrait progressivement celui de l'Hexagone.",
+        "normal": "Convergence accélérée, maîtrisée et financée du SMIC mahorais (87,5 % du niveau national) et des retraites de Mayotte vers l'Hexagone, avec un accompagnement des petites entreprises."
+      },
+      "sources": [
+        {
+          "page": 18,
+          "quote": "Le SMIC mahorais atteint 87,5 % du niveau national : il veut accélérer la convergence jusqu’à l’égalité, de façon maîtrisée et financée"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "decret"
+    },
+    {
+      "theme": "autre",
+      "title": "Voter une loi de programmation économique pour les outre-mer",
+      "summary": {
+        "simple": "Une loi de programmation soutiendrait l'apprentissage, l'emploi et l'attractivité des outre-mer.",
+        "normal": "Loi de programmation économique pour les outre-mer (apprentissage, lutte contre le chômage, attractivité) ; adaptation de l'agriculture, protection des mangroves et des coraux, conférence régionale sur les sargasses."
+      },
+      "sources": [
+        {
+          "page": 18,
+          "quote": "Édouard Philippe veut une loi de programmation économique pour les outre-mer"
+        }
+      ],
+      "precision": "floue",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "autre",
+      "title": "Ne pas modifier la surrémunération des fonctionnaires outre-mer pendant le quinquennat",
+      "summary": {
+        "simple": "La rémunération majorée des fonctionnaires outre-mer ne serait pas modifiée pendant le mandat.",
+        "normal": "La question de la surrémunération des fonctionnaires outre-mer ne sera pas abordée lors du prochain quinquennat."
+      },
+      "sources": [
+        {
+          "page": 18,
+          "quote": "la question de la surrémunération ne sera pas abordée lors du prochain quinquennat"
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "environnement",
+      "title": "Accélérer la création de retenues collinaires à La Réunion",
+      "summary": {
+        "simple": "À La Réunion, davantage de retenues d'eau seraient créées pour stocker l'eau de pluie.",
+        "normal": "Création accélérée de retenues collinaires à La Réunion pour stocker l'eau qui tombe."
+      },
+      "sources": [
+        {
+          "page": 18,
+          "quote": "À La Réunion, il veut accélérer la création de retenues collinaires pour stocker l’eau qui tombe."
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    },
+    {
+      "theme": "international",
+      "title": "Mobiliser aide au développement, visas et accords contre tout État qui ferait pression via Mayotte",
+      "summary": {
+        "simple": "La France utiliserait l'aide au développement, les visas et les accords de coopération contre tout pays qui ferait pression sur elle par Mayotte.",
+        "normal": "Mobilisation de tous les leviers (aide au développement, visas, accords de coopération, transferts de fonds) contre tout État qui voudrait faire de Mayotte un moyen de pression sur la France."
+      },
+      "sources": [
+        {
+          "page": 18,
+          "quote": "mobilisera tous les leviers, de l’aide au développement aux visas, en passant par les accords de coopération et les transferts de fonds, contre tout État qui voudrait faire de Mayotte un moyen de pression sur la France"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "inconnu"
+    }
+  ]
+}
