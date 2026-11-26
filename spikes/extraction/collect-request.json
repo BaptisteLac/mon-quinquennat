@@ -1,16 +1,9 @@
 {
-  "corpus": "nouvelle-energie-2026-11",
-  "candidate": "c-01",
-  "start": [
-    "https://www.unenouvelleenergie.fr/notre-programme/",
-    "https://www.unenouvelleenergie.fr/questions/"
-  ],
-  "include": [
-    "https://www.unenouvelleenergie.fr/notre-programme/",
-    "https://www.unenouvelleenergie.fr/questions/",
-    "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/"
-  ],
+  "corpus": "france-insoumise-2026-11",
+  "candidate": "c-02",
+  "start": ["https://melenchon2027.fr/programme/livre/"],
+  "include": ["https://melenchon2027.fr/programme/livre/"],
   "exclude": [],
   "render": true,
-  "delayMs": 1500
+  "delayMs": 5000
 }
