@@ -1,8 +1,8 @@
 {
-  "corpus": "horizons-2026-11",
-  "candidate": "c-04",
-  "start": ["https://www.edouardphilippe.fr/programme"],
-  "include": ["https://www.edouardphilippe.fr/programme"],
+  "corpus": "les-republicains-2026-11",
+  "candidate": "c-03",
+  "start": ["https://www.avecretailleau.fr/projet"],
+  "include": ["https://www.avecretailleau.fr/projet"],
   "exclude": [],
   "render": true,
   "delayMs": 1500
