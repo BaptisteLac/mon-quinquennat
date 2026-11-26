@@ -127,3 +127,13 @@ def test_csg_des_actifs_a_6_6_hausse_le_salaire_net():
     assert total.value == pytest.approx(0.066) and deductible.value == pytest.approx(0.042)
     avant, apres, _ = _avant_apres([_lever("csg_activite_taux_global", 6.6)], **FAMILLE)
     assert apres["salaire_net"] > avant["salaire_net"]
+
+
+def test_aides_au_logement_revalorisees_de_10_pour_cent():
+    locataire = dict(age=30, genre="femme", situationFamiliale="seul", enfants=[], situationPro="salarie_prive",
+                     revenusNetsMensuels=1300, logement="locataire_prive", loyerMensuel=600, codeCommune="69123",
+                     lieuDeVie="grande_ville", mobilite="transports")
+    avant, apres, cand = _avant_apres([_lever("aides_logement_hausse_pourcent", 10)], **locataire)
+    assert avant["aides_logement"] > 0
+    assert apres["aides_logement"] == pytest.approx(1.10 * avant["aides_logement"], abs=0.02)
+    assert any("règles actuelles" in h for h in cand.hypotheses)

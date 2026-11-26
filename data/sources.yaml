@@ -61,6 +61,9 @@ candidates:
         - "https://melenchon2027.fr/programme/livre/"
       include:
         - "https://melenchon2027.fr/programme/livre/"
+      exclude:
+        # PDF lié depuis le livre : contrat de législature du Nouveau Front populaire (législatives 2024).
+        - "https://melenchon2027.fr/wp-content/"
       render: true
       delayMs: 5000         # le site renvoie des 403 (protection anti-robots) quand on enchaîne les pages
       watch: weekly

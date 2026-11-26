@@ -103,6 +103,19 @@ export function gainPourcentSalaireNet(salaireNet: number | null, params: Readon
 }
 
 /**
+ * SMIC net mensuel porté à un nouveau montant (« porter le SMIC mensuel à 1 700 euros net ») : à temps
+ * plein, un salaire net inférieur passe à ce montant. Le programme donne un plancher, pas une hausse
+ * générale : un salaire déjà au-dessus ne bouge pas. Un temps partiel n'est pas calculé (heures inconnues).
+ */
+export function smicNetPlancher(salaireNet: number | null, params: Readonly<Record<string, number>>): Range {
+  const smic = params.smicNetMensuel;
+  if (smic === undefined) throw new Error("Paramètre smicNetMensuel manquant.");
+  if (salaireNet === null || salaireNet <= 0 || salaireNet >= smic) return { low: 0, high: 0 };
+  const v = round2(smic - salaireNet);
+  return { low: v, high: v };
+}
+
+/**
  * Unités de consommation du foyer, échelle de l'OCDE modifiée utilisée par l'INSEE (donnée publique
  * `insee-unites-de-consommation`) : 1 pour le premier adulte, 0,5 pour chaque autre personne de 14 ans
  * ou plus, 0,3 pour chaque enfant de moins de 14 ans.

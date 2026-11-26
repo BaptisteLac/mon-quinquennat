@@ -57,6 +57,16 @@ describe("checkFigures", () => {
     expect(checkFigures(arrival).passed).toBe(false);
   });
 
+  it("ne confond pas le premier jour d'un droit avec le premier jour du mandat", () => {
+    // Erreur corrigée : « Indemniser les chômeurs dès le premier jour de la fin de contrat » lu comme une mise en œuvre immédiate.
+    const base = { title: "Droit fictif", summary: { simple: "Un droit fictif.", normal: "Un droit fictif serait ouvert." }, effects: [] };
+    const schedule = { effectiveDate: "2028-01-01", dateOrigin: "estimee" as const, estimationRule: "[règle de test]" };
+    for (const quote of ["Indemniser dès le premier jour de la fin de contrat.", "Une aide versée dès le premier jour de chômage."]) {
+      expect(checkFigures(draft({ ...base, sources: [{ page: 1, quote }], schedule })).passed).toBe(true);
+    }
+    expect(checkFigures(draft({ ...base, sources: [{ page: 1, quote: "Dès le premier jour du mandat, un conseil fictif sera réuni." }], schedule })).passed).toBe(false);
+  });
+
   it("vérifie l'année d'une date annoncée, pas celle d'une date estimée", () => {
     const announced = draft({ schedule: { effectiveDate: "2029-01-01", dateOrigin: "annoncee", estimationRule: null } });
     expect(checkFigures(announced).passed).toBe(false);

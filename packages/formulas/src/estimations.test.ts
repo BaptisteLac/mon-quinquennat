@@ -8,6 +8,7 @@ import {
   gainPourcentSalaireNet,
   impotSupprimeParDecile,
   PublicData,
+  smicNetPlancher,
   unitesDeConsommation,
 } from "./estimations.ts";
 
@@ -79,5 +80,18 @@ describe("impôt supprimé selon le décile de niveau de vie", () => {
     expect(impotSupprimeParDecile(50000, true, 400, p, seuils)).toEqual({ low: 250, high: 250 });
     expect(impotSupprimeParDecile(50000, true, 100, p, seuils)).toEqual({ low: 100, high: 100 });
     expect(impotSupprimeParDecile(50000, false, 400, p, seuils)).toEqual({ low: 0, high: 0 });
+  });
+});
+
+describe("smicNetPlancher", () => {
+  it("porte un salaire net à temps plein inférieur au nouveau SMIC net à ce montant", () => {
+    expect(smicNetPlancher(1478, { smicNetMensuel: 1700 })).toEqual({ low: 222, high: 222 });
+    expect(smicNetPlancher(1650.5, { smicNetMensuel: 1700 })).toEqual({ low: 49.5, high: 49.5 });
+  });
+  it("ne change pas un salaire déjà au-dessus, ni une personne sans salaire", () => {
+    expect(smicNetPlancher(1700, { smicNetMensuel: 1700 })).toEqual({ low: 0, high: 0 });
+    expect(smicNetPlancher(2500, { smicNetMensuel: 1700 })).toEqual({ low: 0, high: 0 });
+    expect(smicNetPlancher(null, { smicNetMensuel: 1700 })).toEqual({ low: 0, high: 0 });
+    expect(() => smicNetPlancher(1500, {})).toThrow();
   });
 });

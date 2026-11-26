@@ -65,7 +65,8 @@ export function claimedFigures(m: FigureFields): { where: string; value: number 
 export const START_OF_TERM = "2027-05-14";
 
 /** Citation qui annonce une mise en œuvre dès l'entrée en fonction. */
-const IMMEDIATE = /(le premier jour|le jour même|dès (son|mon|notre) arrivée au pouvoir|dès (son|mon|notre) élection|dès (l'|son |mon )entrée en fonctions?|dès le début du (quinquennat|mandat))/i;
+// « Le premier jour de la fin de contrat », « du premier jour de travail » : le premier jour d'un droit, pas du mandat.
+const IMMEDIATE = /(le premier jour(?! d[eu] (la fin|travail|chômage|contrat|carence|l'arrêt|son arrêt))|le jour même|dès (son|mon|notre) arrivée au pouvoir|dès (son|mon|notre) élection|dès (l'|son |mon )entrée en fonctions?|dès le début du (quinquennat|mandat))/i;
 
 /** La date d'effet d'une mesure annoncée « le premier jour » ne peut pas être postérieure au début du mandat. */
 export function announcesImmediateStart(m: Pick<FigureFields, "sources" | "rationale" | "subMeasures">): boolean {
