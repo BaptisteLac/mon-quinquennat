@@ -243,3 +243,39 @@ describe("cas types d'Édouard Philippe", () => {
   });
 });
 
+
+describe("Jean-Luc Mélenchon (SMIC à 1 700 € net, APL +10 %, minimum vieillesse, retraite à 60 ans)", () => {
+  const melenchon = programmes.find((p) => p.candidate.id === "c-02");
+  if (!melenchon) throw new Error("programme c-02 absent");
+
+  it("SMIC à 1 700 € net : à temps plein, l'écart avec le salaire net, compté dans le solde", () => {
+    const { profile, calc } = fixture("celibataire-smic-locataire");
+    const t = buildTicket(melenchon, profile, calc);
+    const smic = t.lines.find((l) => l.ticketLine === "salaire_net" && l.nature === "estime");
+    expect(smic?.value).toEqual({ low: 1700 - profile.revenusNetsMensuels, high: 1700 - profile.revenusNetsMensuels });
+    expect(smic?.condition).toBeUndefined();
+    expect(t.hypotheses.some((h) => h.includes("1 700 €"))).toBe(true);
+    // À temps partiel, les heures ne sont pas connues : pas de ligne.
+    const partiel = buildTicket(melenchon, { ...profile, tempsPartiel: true }, calc);
+    expect(partiel.lines.some((l) => l.ticketLine === "salaire_net" && l.nature === "estime")).toBe(false);
+  });
+
+  it("APL +10 % et minimum vieillesse au seuil de pauvreté : écarts calculés par OpenFisca", () => {
+    const hlm = fixture("parent-isole-2-enfants-hlm");
+    const apl = buildTicket(melenchon, hlm.profile, hlm.calc).lines.find((l) => l.ticketLine === "apl");
+    const base = hlm.calc.actuel.montants.aides_logement as number;
+    expect(base).toBeGreaterThan(0);
+    expect(apl?.nature).toBe("sur");
+    expect(apl?.value?.low).toBeCloseTo(0.1 * base, 1);
+    const retraitee = fixture("retraitee-seule-petite-pension");
+    const pension = buildTicket(melenchon, retraitee.profile, retraitee.calc).lines.find((l) => l.ticketLine === "pension" && l.nature === "sur");
+    expect(retraitee.calc.candidats["c-02"]?.montants.minimum_vieillesse).toBeCloseTo(1337 - (retraitee.profile.pensionMensuelle ?? 0), 0);
+    expect(pension?.value?.low).toBeGreaterThan(0);
+  });
+
+  it("retraite à 60 ans : âge de départ avancé par la formule de la liste blanche", () => {
+    const { profile, calc } = fixture("couple-2-enfants-proprietaires");
+    const age = buildTicket(melenchon, profile, calc).lines.find((l) => l.ticketLine === "age_depart_retraite");
+    expect(age?.value?.low).toBeLessThan(0);
+  });
+});

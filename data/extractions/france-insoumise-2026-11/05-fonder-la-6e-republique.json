@@ -1,0 +1,1411 @@
+{
+  "measures": [
+    {
+      "theme": "institutions",
+      "title": "Instaurer le référendum d'initiative citoyenne et le droit de vote à 16 ans",
+      "summary": {
+        "simple": "Les citoyens pourraient révoquer des élus, proposer ou abroger une loi par référendum ; on voterait dès 16 ans.",
+        "normal": "Référendum d'initiative citoyenne (révocation des élus, proposition ou abrogation d'une loi, modification de la Constitution), droit de vote à 16 ans, vote blanc reconnu et vote obligatoire, parrainages citoyens pour la présidentielle, débat obligatoire sur les pétitions de plus de 500 000 signatures."
+      },
+      "sources": [
+        {
+          "page": 30,
+          "quote": "Instaurer le référendum d’initiative citoyenne (RIC), par lequel les citoyens qui réunissent suffisamment de signatures peuvent révoquer des élus, proposer ou abroger une loi et modifier la Constitution"
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Donner le droit de vote à 16 ans",
+          "source": {
+            "page": 30,
+            "quote": "Donner le droit de vote à 16 ans"
+          }
+        },
+        {
+          "text": "Reconnaître le vote blanc, mettre en place le vote obligatoire et instaurer un seuil de votes exprimés pour valider une élection",
+          "source": {
+            "page": 30,
+            "quote": "Reconnaître le vote blanc, mettre en place le vote obligatoire et instaurer un seuil de votes exprimés pour valider une élection"
+          }
+        },
+        {
+          "text": "Instaurer une procédure de parrainages citoyens pour l’élection présidentielle à la place des 500 parrainages d’élus",
+          "source": {
+            "page": 30,
+            "quote": "Instaurer une procédure de parrainages citoyens pour l’élection présidentielle à la place des 500 parrainages d’élus"
+          }
+        },
+        {
+          "text": "Interdire la sous-traitance des opérations de propagande électorale à des entreprises privées",
+          "source": {
+            "page": 30,
+            "quote": "Interdire la sous-traitance des opérations de propagande électorale à des entreprises privées"
+          }
+        },
+        {
+          "text": "Présenter systématiquement au bureau de l’Assemblée nationale les propositions émises par les citoyens dans le cadre de conventions citoyennes ou d’assemblées créées à cet effet",
+          "source": {
+            "page": 30,
+            "quote": "Présenter systématiquement au bureau de l’Assemblée nationale les propositions émises par les citoyens dans le cadre de conventions citoyennes ou d’assemblées créées à cet effet"
+          }
+        },
+        {
+          "text": "Obliger l’Assemblée nationale à débattre des pétitions qui ont recueilli plus de 500 000 signatures",
+          "source": {
+            "page": 30,
+            "quote": "Obliger l’Assemblée nationale à débattre des pétitions qui ont recueilli plus de 500 000 signatures"
+          }
+        },
+        {
+          "text": "Rendre obligatoire le recours au référendum en cas de modification de la Constitution ou d’adoption d’un nouveau traité européen",
+          "source": {
+            "page": 30,
+            "quote": "Rendre obligatoire le recours au référendum en cas de modification de la Constitution ou d’adoption d’un nouveau traité européen"
+          }
+        },
+        {
+          "text": "Affirmer les trois échelons de l’organisation décentralisée de l’État (communes, départements, éco-régions) pour mettre fin à la superposition d’échelons technocratiques (métropoles, intercommunalités géantes), qui éloignent les citoyens des prises de décision",
+          "source": {
+            "page": 30,
+            "quote": "Affirmer les trois échelons de l’organisation décentralisée de l’État (communes, départements, éco-régions) pour mettre fin à la superposition d’échelons technocratiques (métropoles, intercommunalités géantes), qui éloignent les citoyens des prises de décision"
+          }
+        },
+        {
+          "text": "Organiser une conférence sur l’avenir institutionnel des territoires insulaires et éloignés",
+          "source": {
+            "page": 30,
+            "quote": "Organiser une conférence sur l’avenir institutionnel des territoires insulaires et éloignés"
+          }
+        },
+        {
+          "text": "Donner à la Corse le statut garanti par un nouvel article de la Constitution, assorti d’un principe de non-régression sociale et environnementale",
+          "source": {
+            "page": 30,
+            "quote": "Donner à la Corse le statut garanti par un nouvel article de la Constitution, assorti d’un principe de non-régression sociale et environnementale"
+          }
+        },
+        {
+          "text": "Organiser l’accession de la Kanaky-Nouvelle-Calédonie à l’indépendance au 1er janvier 2028 par la convocation d’un référendum national ouvrant la voie à une consultation locale",
+          "source": {
+            "page": 30,
+            "quote": "Organiser l’accession de la Kanaky-Nouvelle-Calédonie à l’indépendance au 1er janvier 2028 par la convocation d’un référendum national ouvrant la voie à une consultation locale"
+          }
+        },
+        {
+          "text": "Rendre effectif le principe du non-cumul des mandats et des indemnités, y compris dans le temps",
+          "source": {
+            "page": 30,
+            "quote": "Rendre effectif le principe du non-cumul des mandats et des indemnités, y compris dans le temps"
+          }
+        },
+        {
+          "text": "Organiser la sortie du mandat : garantir un droit à la formation professionnelle pour les élus",
+          "source": {
+            "page": 30,
+            "quote": "Organiser la sortie du mandat : garantir un droit à la formation professionnelle pour les élus"
+          }
+        },
+        {
+          "text": "Faire voter une loi d’amnistie pour les syndicalistes, les Gilets jaunes, les militants pour la paix, les écologistes, les associatifs et les militants des différents mouvements sociaux dans les Outre-mer, condamnés pour leur participation à la vie publique",
+          "source": {
+            "page": 30,
+            "quote": "Faire voter une loi d’amnistie pour les syndicalistes, les Gilets jaunes, les militants pour la paix, les écologistes, les associatifs et les militants des différents mouvements sociaux dans les Outre-mer, condamnés pour leur participation à la vie publique"
+          }
+        },
+        {
+          "text": "Instaurer un moratoire sur les radiations des listes électorales et mettre en place un système d’inscription automatique sur les listes électorales pour éviter les radiations abusives",
+          "source": {
+            "page": 30,
+            "quote": "Instaurer un moratoire sur les radiations des listes électorales et mettre en place un système d’inscription automatique sur les listes électorales pour éviter les radiations abusives"
+          }
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Convoquer une Assemblée constituante pour passer à la 6e République",
+      "summary": {
+        "simple": "Un référendum lancerait une Assemblée constituante ; la nouvelle Constitution serait soumise au vote.",
+        "normal": "Référendum (article 11) pour engager le processus constituant, Assemblée constituante, projet de Constitution soumis à référendum."
+      },
+      "sources": [
+        {
+          "page": 30,
+          "quote": "Convoquer une Constituante pour passer à la 6e République"
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Convoquer un référendum (article 11) pour engager le processus constituant et décider des modalités de composition de l’Assemblée constituante",
+          "source": {
+            "page": 30,
+            "quote": "Convoquer un référendum (article 11) pour engager le processus constituant et décider des modalités de composition de l’Assemblée constituante"
+          }
+        },
+        {
+          "text": "Le projet de Constitution proposé par la Constituante sera soumis à référendum après ses travaux",
+          "source": {
+            "page": 30,
+            "quote": "Le projet de Constitution proposé par la Constituante sera soumis à référendum après ses travaux"
+          }
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "referendum"
+    },
+    {
+      "theme": "institutions",
+      "title": "Passer à un régime parlementaire avec une Assemblée élue à la proportionnelle et sans 49.3",
+      "summary": {
+        "simple": "La 6e République serait un régime parlementaire ; l'Assemblée serait élue à la proportionnelle et le 49.3 aboli.",
+        "normal": "6e République parlementaire et d'intervention citoyenne : Assemblée nationale élue au scrutin proportionnel, gouvernement responsable devant le Parlement, abolition des « votes forcés » comme l'article 49.3."
+      },
+      "sources": [
+        {
+          "page": 30,
+          "quote": "Passer à une 6e République, qui soit un régime parlementaire stable et d’intervention citoyenne"
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Élire l’Assemblée nationale au scrutin proportionnel",
+          "source": {
+            "page": 30,
+            "quote": "Élire l’Assemblée nationale au scrutin proportionnel"
+          }
+        },
+        {
+          "text": "Obliger le gouvernement à rendre réellement des comptes devant le Parlement",
+          "source": {
+            "page": 30,
+            "quote": "Obliger le gouvernement à rendre réellement des comptes devant le Parlement"
+          }
+        },
+        {
+          "text": "Abolir les procédures de « votes forcés » du Parlement comme l’article 49.3 de la Constitution de la Ve République",
+          "source": {
+            "page": 30,
+            "quote": "Abolir les procédures de « votes forcés » du Parlement comme l’article 49.3 de la Constitution de la Ve République"
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "revision_constitutionnelle"
+    },
+    {
+      "theme": "institutions",
+      "title": "Séparer l'argent et l'État : encadrer les lobbys et interdire le pantouflage",
+      "summary": {
+        "simple": "Les lobbys seraient encadrés ; un haut fonctionnaire partant dans le privé devrait démissionner et rembourser sa formation s'il n'a pas servi dix ans.",
+        "normal": "Plan de séparation de l'argent et de l'État : transparence face aux lobbys, inéligibilité des condamnés pour corruption, interdiction du pantouflage, interdiction portée à dix ans d'exercer une fonction privée dans le secteur suivi au sein de la fonction publique, diversité sociale dans les concours."
+      },
+      "sources": [
+        {
+          "page": 30,
+          "quote": "Mettre en place un plan de séparation de l’argent et de l’État"
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Combattre l’influence des lobbys dans le débat parlementaire, notamment en imposant la transparence des agendas des membres des bureaux des chambres et du gouvernement, interdire l’entrée du Parlement aux lobbyistes et leurs cadeaux aux parlementaires, aux membres du gouvernement et à leurs cabinets",
+          "source": {
+            "page": 30,
+            "quote": "Combattre l’influence des lobbys dans le débat parlementaire, notamment en imposant la transparence des agendas des membres des bureaux des chambres et du gouvernement, interdire l’entrée du Parlement aux lobbyistes et leurs cadeaux aux parlementaires, aux membres du gouvernement et à leurs cabinets"
+          }
+        },
+        {
+          "text": "Faire appliquer la loi rendant inéligible toute personne condamnée pour corruption et mettre en place un plan national de lutte contre la corruption et les délits de probité",
+          "source": {
+            "page": 30,
+            "quote": "Faire appliquer la loi rendant inéligible toute personne condamnée pour corruption et mettre en place un plan national de lutte contre la corruption et les délits de probité"
+          }
+        },
+        {
+          "text": "Durcir les règles contre les conflits d’intérêts et interdire le pantouflage : tout haut fonctionnaire souhaitant travailler dans le privé devra démissionner de la fonction publique et rembourser le prix de sa formation s’il n’a pas servi au moins dix ans",
+          "source": {
+            "page": 30,
+            "quote": "Durcir les règles contre les conflits d’intérêts et interdire le pantouflage : tout haut fonctionnaire souhaitant travailler dans le privé devra démissionner de la fonction publique et rembourser le prix de sa formation s’il n’a pas servi au moins dix ans"
+          }
+        },
+        {
+          "text": "Allonger à dix ans la période d’interdiction d’exercice d’une fonction privée après avoir exercé une activité dans la fonction publique relative au même secteur",
+          "source": {
+            "page": 30,
+            "quote": "Allonger à dix ans la période d’interdiction d’exercice d’une fonction privée après avoir exercé une activité dans la fonction publique relative au même secteur"
+          }
+        },
+        {
+          "text": "Garantir des recrutements qui reflètent la diversité sociale dans les concours de la fonction publique",
+          "source": {
+            "page": 30,
+            "quote": "Garantir des recrutements qui reflètent la diversité sociale dans les concours de la fonction publique"
+          }
+        },
+        {
+          "text": "Supprimer le monopole de l’administration fiscale sur le déclenchement de poursuites judiciaires pour toutes les affaires de fraude, quelle qu’elles soient : la justice doit pouvoir enquêter librement, même contre l’avis du ministre",
+          "source": {
+            "page": 30,
+            "quote": "Supprimer le monopole de l’administration fiscale sur le déclenchement de poursuites judiciaires pour toutes les affaires de fraude, quelle qu’elles soient : la justice doit pouvoir enquêter librement, même contre l’avis du ministre"
+          }
+        },
+        {
+          "text": "Réformer le financement de la vie politique et abaisser le plafond des dons individuels aux partis politiques",
+          "source": {
+            "page": 30,
+            "quote": "Réformer le financement de la vie politique et abaisser le plafond des dons individuels aux partis politiques"
+          }
+        },
+        {
+          "text": "Interdire la sous-traitance de la mise en œuvre et de l’évaluation des politiques publiques à des cabinets de conseils privés ainsi que la surfacturation de leurs prestations",
+          "source": {
+            "page": 30,
+            "quote": "Interdire la sous-traitance de la mise en œuvre et de l’évaluation des politiques publiques à des cabinets de conseils privés ainsi que la surfacturation de leurs prestations"
+          }
+        },
+        {
+          "text": "Abolir la réforme Macron du corps préfectoral et diplomatique",
+          "source": {
+            "page": 30,
+            "quote": "Abolir la réforme Macron du corps préfectoral et diplomatique"
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "institutions",
+      "title": "Appliquer strictement la laïcité et abroger le concordat d'Alsace-Moselle",
+      "summary": {
+        "simple": "La laïcité s'appliquerait strictement partout ; le concordat d'Alsace-Moselle serait abrogé.",
+        "normal": "Liberté de conscience et laïcité stricte, abrogation du concordat d'Alsace-Moselle et des statuts spécifiques ultramarins, Observatoire de la laïcité rétabli, pas de financements publics pour les édifices religieux, école publique laïque de proximité."
+      },
+      "sources": [
+        {
+          "page": 30,
+          "quote": "Garantir la liberté de conscience et l’application stricte de la laïcité"
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Abroger le concordat d’Alsace-Moselle et les divers statuts spécifiques en vigueur dans les Outre-mer",
+          "source": {
+            "page": 30,
+            "quote": "Abroger le concordat d’Alsace-Moselle et les divers statuts spécifiques en vigueur dans les Outre-mer"
+          }
+        },
+        {
+          "text": "Rétablir l’Observatoire de la laïcité",
+          "source": {
+            "page": 30,
+            "quote": "Rétablir l’Observatoire de la laïcité"
+          }
+        },
+        {
+          "text": "Interdire aux élus locaux, parlementaires, ministres et préfets d’assister à des cérémonies religieuses au titre de leur fonction ou de recevoir des titres religieux, refuser l’attribution du titre de chanoine de Latran au président de la République",
+          "source": {
+            "page": 30,
+            "quote": "Interdire aux élus locaux, parlementaires, ministres et préfets d’assister à des cérémonies religieuses au titre de leur fonction ou de recevoir des titres religieux, refuser l’attribution du titre de chanoine de Latran au président de la République"
+          }
+        },
+        {
+          "text": "Combattre tous les communautarismes et l’usage politique des religions",
+          "source": {
+            "page": 30,
+            "quote": "Combattre tous les communautarismes et l’usage politique des religions"
+          }
+        },
+        {
+          "text": "Refuser les financements publics pour la construction d’édifices religieux et d’établissements confessionnels, ainsi que pour l’organisation et l’animation d’événements cultuels",
+          "source": {
+            "page": 30,
+            "quote": "Refuser les financements publics pour la construction d’édifices religieux et d’établissements confessionnels, ainsi que pour l’organisation et l’animation d’événements cultuels"
+          }
+        },
+        {
+          "text": "Garantir l’accès à une école publique laïque de proximité à toutes les familles",
+          "source": {
+            "page": 30,
+            "quote": "Garantir l’accès à une école publique laïque de proximité à toutes les familles"
+          }
+        },
+        {
+          "text": "Rétablir et augmenter les moyens et l’autonomie de la Mission interministérielle de vigilance et de lutte contre les dérives sectaires (Miviludes)",
+          "source": {
+            "page": 30,
+            "quote": "Rétablir et augmenter les moyens et l’autonomie de la Mission interministérielle de vigilance et de lutte contre les dérives sectaires (Miviludes)"
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "institutions",
+      "title": "Démanteler les empires médiatiques des milliardaires par une loi anti-concentration",
+      "summary": {
+        "simple": "Une loi empêcherait la concentration des médias entre les mains de milliardaires.",
+        "normal": "Loi anti-concentration dans les médias quel que soit le support, séparation des infrastructures et des contenus, indépendance et financement de l'audiovisuel public, Conseil de déontologie des médias transformé en contre-pouvoir citoyen."
+      },
+      "sources": [
+        {
+          "page": 30,
+          "quote": "Démanteler les empires médiatiques des milliardaires"
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Adopter une loi anti-concentration dans les médias et engager leur démocratisation :",
+          "source": {
+            "page": 30,
+            "quote": "Adopter une loi anti-concentration dans les médias et engager leur démocratisation :"
+          }
+        },
+        {
+          "text": "Élargir les règles anti-concentration, sans tenir compte du support (quotidiens, hebdomadaires, presse locale ou nationale, plateformes ou contenus en ligne)",
+          "source": {
+            "page": 30,
+            "quote": "Élargir les règles anti-concentration, sans tenir compte du support (quotidiens, hebdomadaires, presse locale ou nationale, plateformes ou contenus en ligne)"
+          }
+        },
+        {
+          "text": "Établir des règles anti-concentration horizontale (détenir en même temps des entreprises de presse, de télévision, de radio, etc.) et lutter contre les regroupements entre filières de médias et autres industries culturelles, comme le cinéma, l’édition, les agences de publicité et d’influence",
+          "source": {
+            "page": 30,
+            "quote": "Établir des règles anti-concentration horizontale (détenir en même temps des entreprises de presse, de télévision, de radio, etc.) et lutter contre les regroupements entre filières de médias et autres industries culturelles, comme le cinéma, l’édition, les agences de publicité et d’influence"
+          }
+        },
+        {
+          "text": "Empêcher le même groupe de posséder à la fois les infrastructures (réseaux, box, boutiques de vente) et la production des contenus (chaînes, programmes, droits sportifs), ce qui crée, de fait, des situations de monopole",
+          "source": {
+            "page": 30,
+            "quote": "Empêcher le même groupe de posséder à la fois les infrastructures (réseaux, box, boutiques de vente) et la production des contenus (chaînes, programmes, droits sportifs), ce qui crée, de fait, des situations de monopole"
+          }
+        },
+        {
+          "text": "Garantir l’indépendance, le pluralisme et le financement de l’audiovisuel public en instaurant une contribution audiovisuelle dédiée, universelle et progressive",
+          "source": {
+            "page": 30,
+            "quote": "Garantir l’indépendance, le pluralisme et le financement de l’audiovisuel public en instaurant une contribution audiovisuelle dédiée, universelle et progressive"
+          }
+        },
+        {
+          "text": "Transformer le Conseil de déontologie des médias créé en 2019 en véritable contre-pouvoir citoyen",
+          "source": {
+            "page": 30,
+            "quote": "Transformer le Conseil de déontologie des médias créé en 2019 en véritable contre-pouvoir citoyen"
+          }
+        },
+        {
+          "text": "Protéger le secteur des intérêts financiers et politiques en adossant la convention collective aux chartes éthiques de la profession et en dotant les rédactions publiques et privées d’un statut juridique leur permettant d’exercer des droits collectifs tels que le droit d’agrément, le droit d’opposition, le droit de préemption en cas de cession ou encore la motion de défiance",
+          "source": {
+            "page": 30,
+            "quote": "Protéger le secteur des intérêts financiers et politiques en adossant la convention collective aux chartes éthiques de la profession et en dotant les rédactions publiques et privées d’un statut juridique leur permettant d’exercer des droits collectifs tels que le droit d’agrément, le droit d’opposition, le droit de préemption en cas de cession ou encore la motion de défiance"
+          }
+        },
+        {
+          "text": "Réguler les plateformes en ligne pour garantir une information de qualité et lutter contre la désinformation, les ingérences étrangères et économiques",
+          "source": {
+            "page": 30,
+            "quote": "Réguler les plateformes en ligne pour garantir une information de qualité et lutter contre la désinformation, les ingérences étrangères et économiques"
+          }
+        },
+        {
+          "text": "Donner aux abonnés des journaux et aux usagers de l’audiovisuel public des droits sur la gouvernance de ces médias",
+          "source": {
+            "page": 30,
+            "quote": "Donner aux abonnés des journaux et aux usagers de l’audiovisuel public des droits sur la gouvernance de ces médias"
+          }
+        },
+        {
+          "text": "Refonder le système des aides publiques à la presse pour mieux tenir compte de sa diversité (nouveaux médias, radios associatives, presse locale indépendante)",
+          "source": {
+            "page": 30,
+            "quote": "Refonder le système des aides publiques à la presse pour mieux tenir compte de sa diversité (nouveaux médias, radios associatives, presse locale indépendante)"
+          }
+        },
+        {
+          "text": "Élire au Parlement les présidents de France Télévisions et de Radio France",
+          "source": {
+            "page": 30,
+            "quote": "Élire au Parlement les présidents de France Télévisions et de Radio France"
+          }
+        },
+        {
+          "text": "Revoir les missions et pouvoirs de l’Autorité de régulation de la communication audiovisuelle et numérique (Arcom), garantir l’attribution des fréquences aux médias locaux, associatifs et publics",
+          "source": {
+            "page": 30,
+            "quote": "Revoir les missions et pouvoirs de l’Autorité de régulation de la communication audiovisuelle et numérique (Arcom), garantir l’attribution des fréquences aux médias locaux, associatifs et publics"
+          }
+        },
+        {
+          "text": "Garantir aux médias locaux, en particulier d’Outre-mer, les moyens d’assurer leur mission d’information afin d’éviter les déserts informationnels",
+          "source": {
+            "page": 30,
+            "quote": "Garantir aux médias locaux, en particulier d’Outre-mer, les moyens d’assurer leur mission d’information afin d’éviter les déserts informationnels"
+          }
+        },
+        {
+          "text": "Renforcer la liberté des journalistes en luttant contre les « procédures bâillons », empêcher les procédures relatives à la liberté de la presse d’être jugées devant des tribunaux de commerce",
+          "source": {
+            "page": 30,
+            "quote": "Renforcer la liberté des journalistes en luttant contre les « procédures bâillons », empêcher les procédures relatives à la liberté de la presse d’être jugées devant des tribunaux de commerce"
+          }
+        },
+        {
+          "text": "Protéger les journalistes couvrant les manifestations contre les violences pour leur permettre d’exercer leur droit à informer",
+          "source": {
+            "page": 30,
+            "quote": "Protéger les journalistes couvrant les manifestations contre les violences pour leur permettre d’exercer leur droit à informer"
+          }
+        },
+        {
+          "text": "Interdire les sondages politiques avant que les candidats à une élection soient connus, les interdire également dans les jours précédant les élections et renforcer leur transparence en rendant obligatoire la publication des colonnes de redressement et des intervalles",
+          "source": {
+            "page": 30,
+            "quote": "Interdire les sondages politiques avant que les candidats à une élection soient connus, les interdire également dans les jours précédant les élections et renforcer leur transparence en rendant obligatoire la publication des colonnes de redressement et des intervalles"
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Élaborer une nouvelle stratégie antiterroriste et sortir de l'état d'urgence permanent",
+      "summary": {
+        "simple": "La lutte antiterroriste miserait sur le renseignement humain et le contrôle du juge judiciaire.",
+        "normal": "Nouvelle stratégie antiterroriste : renseignement humain, lutte contre le financement du terrorisme, évaluation des lois adoptées et abrogation des dispositions que le programme qualifie de liberticides, contrôle du juge judiciaire, pilotage par le Premier ministre."
+      },
+      "sources": [
+        {
+          "page": 31,
+          "quote": "Élaborer une nouvelle stratégie antiterroriste"
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Réaffirmer la place centrale du renseignement humain face aux limites et aux dérives du tout-technologique ; réduire la dépendance aux solutions techniques privées et étrangères",
+          "source": {
+            "page": 31,
+            "quote": "Réaffirmer la place centrale du renseignement humain face aux limites et aux dérives du tout-technologique ; réduire la dépendance aux solutions techniques privées et étrangères"
+          }
+        },
+        {
+          "text": "Assécher les réseaux de financement du terrorisme en renforçant les moyens d’enquête et de poursuite contre les entreprises, associations et structures qui participent à des activités illicites, au blanchiment ou à la fraude fiscale",
+          "source": {
+            "page": 31,
+            "quote": "Assécher les réseaux de financement du terrorisme en renforçant les moyens d’enquête et de poursuite contre les entreprises, associations et structures qui participent à des activités illicites, au blanchiment ou à la fraude fiscale"
+          }
+        },
+        {
+          "text": "Procéder à l’évaluation des résultats des lois déjà adoptées et abroger les dispositions liberticides qui ont instauré un état d’urgence permanent",
+          "source": {
+            "page": 31,
+            "quote": "Procéder à l’évaluation des résultats des lois déjà adoptées et abroger les dispositions liberticides qui ont instauré un état d’urgence permanent"
+          }
+        },
+        {
+          "text": "Garantir le contrôle du juge judiciaire dans la lutte contre le terrorisme",
+          "source": {
+            "page": 31,
+            "quote": "Garantir le contrôle du juge judiciaire dans la lutte contre le terrorisme"
+          }
+        },
+        {
+          "text": "Placer la lutte contre le terrorisme sous l’autorité du Premier ministre",
+          "source": {
+            "page": 31,
+            "quote": "Placer la lutte contre le terrorisme sous l’autorité du Premier ministre"
+          }
+        },
+        {
+          "text": "Lutter contre tous les processus d’embrigadement en renforçant les dispositifs de prévention, d’accompagnement et de prise en charge des personnes concernées ; étendre les dispositifs de prévention et de coordination existants aux groupuscules d’extrême droite",
+          "source": {
+            "page": 31,
+            "quote": "Lutter contre tous les processus d’embrigadement en renforçant les dispositifs de prévention, d’accompagnement et de prise en charge des personnes concernées ; étendre les dispositifs de prévention et de coordination existants aux groupuscules d’extrême droite"
+          }
+        },
+        {
+          "text": "Renforcer les moyens humains de la plateforme PHAROS, afin de lutter plus efficacement contre les appels en ligne à la violence, au racisme et aux discriminations",
+          "source": {
+            "page": 31,
+            "quote": "Renforcer les moyens humains de la plateforme PHAROS, afin de lutter plus efficacement contre les appels en ligne à la violence, au racisme et aux discriminations"
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Refonder la police : supprimer l'IGPN et interdire tasers et LBD",
+      "summary": {
+        "simple": "L'IGPN serait remplacée par une autorité indépendante ; tasers et LBD seraient interdits pour la police du quotidien et les rassemblements.",
+        "normal": "Refondation du service public de la police : code de déontologie, IGPN et IGGN remplacées par une autorité indépendante rattachée au Défenseur des droits, interdiction des tasers, grenades de désencerclement et LBD pour la police du quotidien et la gestion des rassemblements, formation des gardiens de la paix portée à deux ans, abrogation de la loi « Cazeneuve » sur le refus d'obtempérer."
+      },
+      "sources": [
+        {
+          "page": 31,
+          "quote": "Refonder le service public de la police pour garantir le droit à la sûreté"
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Rétablir une référence déontologique forte pour les agents de police et la gendarmerie en réintroduisant les principes du Code de déontologie de 1986, notamment l’indépendance, l’impartialité, le respect des libertés publiques et la protection des citoyens",
+          "source": {
+            "page": 31,
+            "quote": "Rétablir une référence déontologique forte pour les agents de police et la gendarmerie en réintroduisant les principes du Code de déontologie de 1986, notamment l’indépendance, l’impartialité, le respect des libertés publiques et la protection des citoyens"
+          }
+        },
+        {
+          "text": "Supprimer l’Inspection générale de la police nationale (IGPN) et l’Inspection générale de la gendarmerie nationale (IGGN) et les remplacer par une autorité indépendante incluant des magistrats, des universitaires, des citoyens, rattachée au Défenseur des droits, en lui octroyant une capacité de sanctions disciplinaires propre sur les agents fautifs",
+          "source": {
+            "page": 31,
+            "quote": "Supprimer l’Inspection générale de la police nationale (IGPN) et l’Inspection générale de la gendarmerie nationale (IGGN) et les remplacer par une autorité indépendante incluant des magistrats, des universitaires, des citoyens, rattachée au Défenseur des droits, en lui octroyant une capacité de sanctions disciplinaires propre sur les agents fautifs"
+          }
+        },
+        {
+          "text": "Interdire les pistolets à impulsion électrique (tasers), les grenades de désencerclement, les lanceurs de balles de défense (LBD) pour la police du quotidien ou la gestion des rassemblements, de sorte à favoriser une stratégie de maintien de l’ordre basée sur la désescalade",
+          "source": {
+            "page": 31,
+            "quote": "Interdire les pistolets à impulsion électrique (tasers), les grenades de désencerclement, les lanceurs de balles de défense (LBD) pour la police du quotidien ou la gestion des rassemblements, de sorte à favoriser une stratégie de maintien de l’ordre basée sur la désescalade"
+          }
+        },
+        {
+          "text": "Porter à deux ans la formation des élèves gardiens de la paix, réviser son contenu (déontologie, maîtrise du droit, pratiques de désescalade et relation avec la population) et réouvrir des écoles nationales pour les activités de police",
+          "source": {
+            "page": 31,
+            "quote": "Porter à deux ans la formation des élèves gardiens de la paix, réviser son contenu (déontologie, maîtrise du droit, pratiques de désescalade et relation avec la population) et réouvrir des écoles nationales pour les activités de police"
+          }
+        },
+        {
+          "text": "Interdire en manifestation la technique de la « nasse » (ou « encerclement »), rendre obligatoire et effectif le port du référentiel des identités et de l’organisation (RIO) par tous les agents intervenant lors des manifestations",
+          "source": {
+            "page": 31,
+            "quote": "Interdire en manifestation la technique de la « nasse » (ou « encerclement »), rendre obligatoire et effectif le port du référentiel des identités et de l’organisation (RIO) par tous les agents intervenant lors des manifestations"
+          }
+        },
+        {
+          "text": "Abroger la loi dite « Cazeneuve » sur le refus d’obtempérer et refuser la loi dite « permis de tuer XXL » instaurant une présomption de légitime défense pour les policiers",
+          "source": {
+            "page": 31,
+            "quote": "Abroger la loi dite « Cazeneuve » sur le refus d’obtempérer et refuser la loi dite « permis de tuer XXL » instaurant une présomption de légitime défense pour les policiers"
+          }
+        },
+        {
+          "text": "Abroger les lois sécuritaires inefficaces et renforcer les logiques de prévention, notamment grâce à davantage de moyens humains (éducateurs spécialisés, éducateurs de rue, médiateurs)",
+          "source": {
+            "page": 31,
+            "quote": "Abroger les lois sécuritaires inefficaces et renforcer les logiques de prévention, notamment grâce à davantage de moyens humains (éducateurs spécialisés, éducateurs de rue, médiateurs)"
+          }
+        },
+        {
+          "text": "Créer une commission dite « Vérité et Justice », chargée d’établir les responsabilités dans les cas de violences policières mortelles ou mutilantes afin de garantir la reconnaissance des faits et de prévenir leur répétition",
+          "source": {
+            "page": 31,
+            "quote": "Créer une commission dite « Vérité et Justice », chargée d’établir les responsabilités dans les cas de violences policières mortelles ou mutilantes afin de garantir la reconnaissance des faits et de prévenir leur répétition"
+          }
+        },
+        {
+          "text": "Réformer le dialogue social au sein de la police et de la gendarmerie pour garantir la transparence, renforcer la déontologie et professionnaliser les instances de concertation",
+          "source": {
+            "page": 31,
+            "quote": "Réformer le dialogue social au sein de la police et de la gendarmerie pour garantir la transparence, renforcer la déontologie et professionnaliser les instances de concertation"
+          }
+        },
+        {
+          "text": "Intégrer au service public certaines fonctions de sécurité aujourd’hui privées, comme le gardiennage des services publics",
+          "source": {
+            "page": 31,
+            "quote": "Intégrer au service public certaines fonctions de sécurité aujourd’hui privées, comme le gardiennage des services publics"
+          }
+        },
+        {
+          "text": "Interdire les techniques d’immobilisation létales : plaquage ventral, pliage ventral, clé d’étranglement",
+          "source": {
+            "page": 31,
+            "quote": "Interdire les techniques d’immobilisation létales : plaquage ventral, pliage ventral, clé d’étranglement"
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "securite",
+      "title": "Rétablir la police de proximité et démanteler les BAC et les BRAV-M",
+      "summary": {
+        "simple": "La police de proximité serait rétablie ; les BAC et BRAV-M seraient démantelées.",
+        "normal": "Police de proximité rétablie, démantèlement des BAC et BRAV-M, intégration progressive des polices municipales, fin de la politique du chiffre, moyens de la police scientifique doublés, interdiction de la reconnaissance faciale."
+      },
+      "sources": [
+        {
+          "page": 31,
+          "quote": "Rétablir la police de proximité comme pilier du service public et démanteler les brigades anticriminalité (BAC) ainsi que les brigades de répression des actions violentes motorisées (BRAV-M)"
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Intégrer progressivement les polices municipales dans une police de proximité républicaine, formée aux exigences du service public, sous l’autorité fonctionnelle des maires et l’autorité hiérarchique de l’État, sans armes létales ; répartir ses effectifs selon les besoins réels des communes",
+          "source": {
+            "page": 31,
+            "quote": "Intégrer progressivement les polices municipales dans une police de proximité républicaine, formée aux exigences du service public, sous l’autorité fonctionnelle des maires et l’autorité hiérarchique de l’État, sans armes létales ; répartir ses effectifs selon les besoins réels des communes"
+          }
+        },
+        {
+          "text": "En finir avec la politique du chiffre et les primes aux résultats pour réorienter l’évaluation des agents de police et la gendarmerie vers la qualité du service rendu, la résolution des problèmes et la confiance avec les citoyens",
+          "source": {
+            "page": 31,
+            "quote": "En finir avec la politique du chiffre et les primes aux résultats pour réorienter l’évaluation des agents de police et la gendarmerie vers la qualité du service rendu, la résolution des problèmes et la confiance avec les citoyens"
+          }
+        },
+        {
+          "text": "Renforcer les moyens dédiés au recueil des plaintes et à l’accompagnement des victimes",
+          "source": {
+            "page": 31,
+            "quote": "Renforcer les moyens dédiés au recueil des plaintes et à l’accompagnement des victimes"
+          }
+        },
+        {
+          "text": "Faire de la lutte contre la criminalité organisée, les trafics, la corruption et la délinquance financière une priorité en renforçant les effectifs spécialisés",
+          "source": {
+            "page": 31,
+            "quote": "Faire de la lutte contre la criminalité organisée, les trafics, la corruption et la délinquance financière une priorité en renforçant les effectifs spécialisés"
+          }
+        },
+        {
+          "text": "Doubler les moyens de la police scientifique, revenir sur la réforme de la police judiciaire et recréer un corps spécifique de police judiciaire, indépendant et placé sous l’autorité des magistrats enquêteurs",
+          "source": {
+            "page": 31,
+            "quote": "Doubler les moyens de la police scientifique, revenir sur la réforme de la police judiciaire et recréer un corps spécifique de police judiciaire, indépendant et placé sous l’autorité des magistrats enquêteurs"
+          }
+        },
+        {
+          "text": "Interdire la reconnaissance faciale et les dispositifs de « techno­police » reposant sur une surveillance biométrique généralisée dans les espaces publics, incompatibles avec les libertés publiques et le respect de la vie privée",
+          "source": {
+            "page": 31,
+            "quote": "Interdire la reconnaissance faciale et les dispositifs de « techno­police » reposant sur une surveillance biométrique généralisée dans les espaces publics, incompatibles avec les libertés publiques et le respect de la vie privée"
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Confier au Parlement l'orientation de la politique pénale",
+      "summary": {
+        "simple": "Le Parlement voterait chaque année l'orientation de la politique pénale.",
+        "normal": "Débat et vote annuels du Parlement sur la politique pénale, indépendance de la justice vis-à-vis de l'exécutif, sortie du tout carcéral, doublement des effectifs contre la délinquance financière, service public d'accueil des victimes."
+      },
+      "sources": [
+        {
+          "page": 31,
+          "quote": "Confier au Parlement l’orientation de la politique pénale du pays par un débat annuel sur un texte soumis au vote"
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Renforcer l’indépendance de la justice vis-à-vis de l’exécutif : interdire les remontées d’information individuelles, sauf lorsqu’elles appellent à une intervention directe de l’exécutif en matière d’ordre public (le terrorisme, par exemple)",
+          "source": {
+            "page": 31,
+            "quote": "Renforcer l’indépendance de la justice vis-à-vis de l’exécutif : interdire les remontées d’information individuelles, sauf lorsqu’elles appellent à une intervention directe de l’exécutif en matière d’ordre public (le terrorisme, par exemple)"
+          }
+        },
+        {
+          "text": "Sécuriser le secret de l’instruction et de l’enquête en renforçant les mécanismes de poursuite des auteurs et de leurs complices",
+          "source": {
+            "page": 31,
+            "quote": "Sécuriser le secret de l’instruction et de l’enquête en renforçant les mécanismes de poursuite des auteurs et de leurs complices"
+          }
+        },
+        {
+          "text": "Sortir de la logique du tout carcéral, respecter la dignité et les droits des personnes privées de liberté : en finir avec la surpopulation carcérale par la mise en place d’un mécanisme contraignant de régulation carcérale et assurer aux personnes détenues les moyens de se réinsérer dans notre société",
+          "source": {
+            "page": 31,
+            "quote": "Sortir de la logique du tout carcéral, respecter la dignité et les droits des personnes privées de liberté : en finir avec la surpopulation carcérale par la mise en place d’un mécanisme contraignant de régulation carcérale et assurer aux personnes détenues les moyens de se réinsérer dans notre société"
+          }
+        },
+        {
+          "text": "Lutter contre la délinquance financière : doubler les effectifs des services qui luttent contre les infractions financières, supprimer réellement le « verrou de Bercy », donner plus de moyens humains aux brigades en charge de la délinquance financière, augmenter le nombre de juges d’instruction et supprimer la convention judiciaire d’intérêt public",
+          "source": {
+            "page": 31,
+            "quote": "Lutter contre la délinquance financière : doubler les effectifs des services qui luttent contre les infractions financières, supprimer réellement le « verrou de Bercy », donner plus de moyens humains aux brigades en charge de la délinquance financière, augmenter le nombre de juges d’instruction et supprimer la convention judiciaire d’intérêt public"
+          }
+        },
+        {
+          "text": "Lutter contre l’impunité des agresseurs sexuels, la correctionnalisation des viols et la victimisation secondaire lors des procédures judiciaires",
+          "source": {
+            "page": 31,
+            "quote": "Lutter contre l’impunité des agresseurs sexuels, la correctionnalisation des viols et la victimisation secondaire lors des procédures judiciaires"
+          }
+        },
+        {
+          "text": "Créer un service public d’accueil, d’accompagnement et de prise en charge des victimes :",
+          "source": {
+            "page": 31,
+            "quote": "Créer un service public d’accueil, d’accompagnement et de prise en charge des victimes :"
+          }
+        },
+        {
+          "text": "Reconnaître le statut de victime indépendamment de l’issue ou de l’engagement d’une procédure pénale",
+          "source": {
+            "page": 31,
+            "quote": "Reconnaître le statut de victime indépendamment de l’issue ou de l’engagement d’une procédure pénale"
+          }
+        },
+        {
+          "text": "Garantir un accompagnement individualisé, tant sur le plan social que juridique, ainsi que la prise en charge d’un parcours de soins spécialisé pour les victimes de violences sexistes et sexuelles à 100 % par la Sécurité sociale",
+          "source": {
+            "page": 31,
+            "quote": "Garantir un accompagnement individualisé, tant sur le plan social que juridique, ainsi que la prise en charge d’un parcours de soins spécialisé pour les victimes de violences sexistes et sexuelles à 100 % par la Sécurité sociale"
+          }
+        },
+        {
+          "text": "Donner les moyens d’une justice pénale environnementale efficace, punir les pollutions industrielles et appliquer strictement le principe pollueur-payeur",
+          "source": {
+            "page": 31,
+            "quote": "Donner les moyens d’une justice pénale environnementale efficace, punir les pollutions industrielles et appliquer strictement le principe pollueur-payeur"
+          }
+        },
+        {
+          "text": "Rattacher la police judiciaire à l’autorité judiciaire pour assurer un contrôle direct et exclusif, lui donner les moyens de son action",
+          "source": {
+            "page": 31,
+            "quote": "Rattacher la police judiciaire à l’autorité judiciaire pour assurer un contrôle direct et exclusif, lui donner les moyens de son action"
+          }
+        },
+        {
+          "text": "Garantir l’égalité de traitement des personnes étrangères devant la justice, notamment en abolissant les procédures d’exception",
+          "source": {
+            "page": 31,
+            "quote": "Garantir l’égalité de traitement des personnes étrangères devant la justice, notamment en abolissant les procédures d’exception"
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "justice",
+      "title": "Augmenter l'aide juridictionnelle et rétablir les tribunaux de proximité",
+      "summary": {
+        "simple": "L'aide juridictionnelle augmenterait et des tribunaux de proximité reviendraient.",
+        "normal": "Hausse de l'aide juridictionnelle, retour des tribunaux de proximité, recrutement de magistrats et greffiers, jurés populaires rétablis, gratuité des procédures courantes comme le divorce et suppression de la taxe de 50 euros."
+      },
+      "sources": [
+        {
+          "page": 31,
+          "quote": "Assurer un meilleur accès de toutes et tous à la justice en augmentant notamment l’aide juridictionnelle et en veillant au retour des tribunaux de proximité"
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Planifier des moyens pour la justice et recruter davantage de fonctionnaires : magistrats, greffiers, agents de la protection judiciaire de la jeunesse",
+          "source": {
+            "page": 31,
+            "quote": "Planifier des moyens pour la justice et recruter davantage de fonctionnaires : magistrats, greffiers, agents de la protection judiciaire de la jeunesse"
+          }
+        },
+        {
+          "text": "Rétablir pleinement les jurés populaires, désormais quasiment disparus, supprimer les cours criminelles sans jurés et expérimenter les jurés dans les tribunaux correctionnels",
+          "source": {
+            "page": 31,
+            "quote": "Rétablir pleinement les jurés populaires, désormais quasiment disparus, supprimer les cours criminelles sans jurés et expérimenter les jurés dans les tribunaux correctionnels"
+          }
+        },
+        {
+          "text": "Renforcer les droits de la défense, inscrire le droit à une défense dans la Constitution, renforcer la place de l’avocat et limiter le recours à la visioconférence, qui déshumanise la justice",
+          "source": {
+            "page": 31,
+            "quote": "Renforcer les droits de la défense, inscrire le droit à une défense dans la Constitution, renforcer la place de l’avocat et limiter le recours à la visioconférence, qui déshumanise la justice"
+          }
+        },
+        {
+          "text": "Garantir la gratuité des procédures les plus courantes (le divorce, par exemple) et supprimer la taxe de 50 euros pour les citoyens qui veulent saisir la justice",
+          "source": {
+            "page": 31,
+            "quote": "Garantir la gratuité des procédures les plus courantes (le divorce, par exemple) et supprimer la taxe de 50 euros pour les citoyens qui veulent saisir la justice"
+          }
+        },
+        {
+          "text": "Garantir des sessions de formation (histoire, géographie et enjeux locaux) pour les magistrats en poste dans les Outre-mer et qui n’en sont pas originaires",
+          "source": {
+            "page": 31,
+            "quote": "Garantir des sessions de formation (histoire, géographie et enjeux locaux) pour les magistrats en poste dans les Outre-mer et qui n’en sont pas originaires"
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "institutions",
+      "title": "Faire de la commune la base de la démocratie locale et supprimer les métropoles",
+      "summary": {
+        "simple": "Les communes redeviendraient la base de la démocratie locale ; les métropoles seraient supprimées.",
+        "normal": "Commune cellule de base de la démocratie locale et libre association, suppression des métropoles, pas de fusions forcées, dotation globale rééquilibrée, fonds de soutien aux communes rurales."
+      },
+      "sources": [
+        {
+          "page": 32,
+          "quote": "Redonner aux communes le rôle de cellule de base de la démocratie locale, permettre leur libre association"
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Supprimer les métropoles technocratiques en abrogeant les lois ayant organisé la concentration des pouvoirs locaux et restituer aux communes leur libre choix d’association",
+          "source": {
+            "page": 32,
+            "quote": "Supprimer les métropoles technocratiques en abrogeant les lois ayant organisé la concentration des pouvoirs locaux et restituer aux communes leur libre choix d’association"
+          }
+        },
+        {
+          "text": "Rééquilibrer la dotation globale de fonctionnement versée aux communes pour lutter contre les inégalités territoriales et l’indexer sur l’inflation",
+          "source": {
+            "page": 32,
+            "quote": "Rééquilibrer la dotation globale de fonctionnement versée aux communes pour lutter contre les inégalités territoriales et l’indexer sur l’inflation"
+          }
+        },
+        {
+          "text": "Refuser les fusions forcées de communes",
+          "source": {
+            "page": 32,
+            "quote": "Refuser les fusions forcées de communes"
+          }
+        },
+        {
+          "text": "Augmenter l’enveloppe budgétaire des communes rurales par la création d’un fonds de soutien communal, notamment pour recruter et revaloriser les agents",
+          "source": {
+            "page": 32,
+            "quote": "Augmenter l’enveloppe budgétaire des communes rurales par la création d’un fonds de soutien communal, notamment pour recruter et revaloriser les agents"
+          }
+        },
+        {
+          "text": "Revaloriser et rééquilibrer les indemnités des élus en tenant compte de leur temps de travail réel et des responsabilités exercées, plutôt que du seul nombre d’habitants",
+          "source": {
+            "page": 32,
+            "quote": "Revaloriser et rééquilibrer les indemnités des élus en tenant compte de leur temps de travail réel et des responsabilités exercées, plutôt que du seul nombre d’habitants"
+          }
+        },
+        {
+          "text": "Valoriser les métiers de secrétaires de mairies en favorisant le recrutement à temps complet et en développant des formations adaptées",
+          "source": {
+            "page": 32,
+            "quote": "Valoriser les métiers de secrétaires de mairies en favorisant le recrutement à temps complet et en développant des formations adaptées"
+          }
+        },
+        {
+          "text": "Imposer la parité dans les exécutifs municipaux et communautaires : binôme maire-premier adjoint, présidences et vice-­présidences, sans exception",
+          "source": {
+            "page": 32,
+            "quote": "Imposer la parité dans les exécutifs municipaux et communautaires : binôme maire-premier adjoint, présidences et vice-­présidences, sans exception"
+          }
+        },
+        {
+          "text": "Réformer le mode de désignation des conseils communautaires, afin de renforcer la parité au sein de leur exécutif",
+          "source": {
+            "page": 32,
+            "quote": "Réformer le mode de désignation des conseils communautaires, afin de renforcer la parité au sein de leur exécutif"
+          }
+        },
+        {
+          "text": "Redonner des moyens aux communes en rétablissant une taxe d’habitation calculée selon un barème progressif en fonction des revenus des occupants et de la valeur du logement, dont 80 % des ménages seraient exonérés",
+          "source": {
+            "page": 32,
+            "quote": "Redonner des moyens aux communes en rétablissant une taxe d’habitation calculée selon un barème progressif en fonction des revenus des occupants et de la valeur du logement, dont 80 % des ménages seraient exonérés"
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "institutions",
+      "title": "Remplacer les régions par des éco-régions chargées de la planification écologique",
+      "summary": {
+        "simple": "Les régions seraient remplacées par des éco-régions dessinées selon la géographie (bassins, massifs…).",
+        "normal": "Éco-régions délimitées selon les caractéristiques écologiques et chargées de la planification écologique, Défenseurs de la nature, assemblées citoyennes régionales, fin de l'étalement urbain."
+      },
+      "sources": [
+        {
+          "page": 32,
+          "quote": "Créer des éco-régions pour remplacer les régions actuelles, délimitées en cohérence avec les caractéristiques écologiques (bassins-­versants, façades maritimes, massifs montagneux, etc.) et chargées de mettre en œuvre la planification écologique et de protéger les communs (eau, air, sols)"
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Impliquer pleinement les communes dans les décisions et la mise en œuvre des investissements de la planification écologique",
+          "source": {
+            "page": 32,
+            "quote": "Impliquer pleinement les communes dans les décisions et la mise en œuvre des investissements de la planification écologique"
+          }
+        },
+        {
+          "text": "Supprimer les régions transfrontalières (ou eurorégions)",
+          "source": {
+            "page": 32,
+            "quote": "Supprimer les régions transfrontalières (ou eurorégions)"
+          }
+        },
+        {
+          "text": "Réserver le statut de collectivité unique aux territoires insulaires et aux Outre-mer",
+          "source": {
+            "page": 32,
+            "quote": "Réserver le statut de collectivité unique aux territoires insulaires et aux Outre-mer"
+          }
+        },
+        {
+          "text": "Mettre en place des Défenseurs de la nature, chargés de l’eau, de l’air, de la forêt, de la végétalisation et de la perméabilité des sols au niveau communal",
+          "source": {
+            "page": 32,
+            "quote": "Mettre en place des Défenseurs de la nature, chargés de l’eau, de l’air, de la forêt, de la végétalisation et de la perméabilité des sols au niveau communal"
+          }
+        },
+        {
+          "text": "Mettre en place des assemblées citoyennes régionales pour débattre des projets d’aménagement et d’investissement en lien avec la planification écologique",
+          "source": {
+            "page": 32,
+            "quote": "Mettre en place des assemblées citoyennes régionales pour débattre des projets d’aménagement et d’investissement en lien avec la planification écologique"
+          }
+        },
+        {
+          "text": "Stopper l’étalement urbain : rapprocher les bassins de vie et les bassins d’emploi",
+          "source": {
+            "page": 32,
+            "quote": "Stopper l’étalement urbain : rapprocher les bassins de vie et les bassins d’emploi"
+          }
+        },
+        {
+          "text": "Adapter les zones habitées et cultivées au changement climatique : désimperméabiliser les sols, créer des îlots et des corridors de fraîcheur",
+          "source": {
+            "page": 32,
+            "quote": "Adapter les zones habitées et cultivées au changement climatique : désimperméabiliser les sols, créer des îlots et des corridors de fraîcheur"
+          }
+        },
+        {
+          "text": "Renforcer les moyens humains et financiers de l’ingénierie des territoires pour appuyer les collectivités dans le déploiement d’une planification écologique régénérative (restauration des trames vertes et bleues ainsi que des énergies renouvelables)",
+          "source": {
+            "page": 32,
+            "quote": "Renforcer les moyens humains et financiers de l’ingénierie des territoires pour appuyer les collectivités dans le déploiement d’une planification écologique régénérative (restauration des trames vertes et bleues ainsi que des énergies renouvelables)"
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi"
+    },
+    {
+      "theme": "transport",
+      "title": "Garantir des services publics essentiels à 15 à 30 minutes de chaque logement",
+      "summary": {
+        "simple": "Chaque habitant aurait une école, une gare, un hôpital et une poste à 15 à 30 minutes au plus.",
+        "normal": "Maillage de transports en commun et de services publics garantissant une distance maximale de 15 à 30 minutes entre tout logement et l'école, la gare, l'hôpital et le bureau de poste ; accueils physiques rouverts et services publics itinérants."
+      },
+      "sources": [
+        {
+          "page": 32,
+          "quote": "Défendre et reconstruire un maillage dense et accessible de transports en commun et de services publics, notamment dans les départements ruraux, les quartiers populaires et les Outre-mer, afin de garantir une distance maximale (de 15 à 30 minutes en voiture ou en transport collectif) entre tout lieu d’habitation et les services publics essentiels (école, gare, hôpital, bureau de poste)"
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Réaffirmer le rôle du département comme échelle pertinente pour organiser un maillage équilibré du territoire en services publics essentiels à la population",
+          "source": {
+            "page": 32,
+            "quote": "Réaffirmer le rôle du département comme échelle pertinente pour organiser un maillage équilibré du territoire en services publics essentiels à la population"
+          }
+        },
+        {
+          "text": "Organiser des états généraux des quartiers populaires et des états généraux des espaces ruraux pour construire une véritable égalité territoriale, notamment dans les services publics",
+          "source": {
+            "page": 32,
+            "quote": "Organiser des états généraux des quartiers populaires et des états généraux des espaces ruraux pour construire une véritable égalité territoriale, notamment dans les services publics"
+          }
+        },
+        {
+          "text": "Renforcer et réouvrir des accueils physiques dans les services publics",
+          "source": {
+            "page": 32,
+            "quote": "Renforcer et réouvrir des accueils physiques dans les services publics"
+          }
+        },
+        {
+          "text": "Développer des services publics itinérants (santé, administrations, culture) pour desservir les communes les plus isolées, en complément des structures fixes",
+          "source": {
+            "page": 32,
+            "quote": "Développer des services publics itinérants (santé, administrations, culture) pour desservir les communes les plus isolées, en complément des structures fixes"
+          }
+        },
+        {
+          "text": "Renforcer les dotations de l’État pour les collectivités en tenant compte de leurs inégalités sociales et économiques",
+          "source": {
+            "page": 32,
+            "quote": "Renforcer les dotations de l’État pour les collectivités en tenant compte de leurs inégalités sociales et économiques"
+          }
+        },
+        {
+          "text": "Renforcer durablement les moyens des services de sécurité civile et des services de secours en fonction des besoins réels et des risques propres à chaque collectivité",
+          "source": {
+            "page": 32,
+            "quote": "Renforcer durablement les moyens des services de sécurité civile et des services de secours en fonction des besoins réels et des risques propres à chaque collectivité"
+          }
+        },
+        {
+          "text": "Instaurer un moratoire sur les fermetures d’écoles, de maternités, de bureaux de poste, de gares et de tous les services publics de proximité",
+          "source": {
+            "page": 32,
+            "quote": "Instaurer un moratoire sur les fermetures d’écoles, de maternités, de bureaux de poste, de gares et de tous les services publics de proximité"
+          }
+        },
+        {
+          "text": "Garantir une présence postale et des services bancaires accessibles dans toutes les collectivités",
+          "source": {
+            "page": 32,
+            "quote": "Garantir une présence postale et des services bancaires accessibles dans toutes les collectivités"
+          }
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "transport",
+          "section": "vie",
+          "appliesTo": {
+            "field": "lieuDeVie",
+            "op": "in",
+            "value": [
+              "rural",
+              "peripherie",
+              "outre_mer"
+            ]
+          },
+          "sentence": {
+            "simple": "Tu aurais une école, une gare, un hôpital et une poste à 15 à 30 minutes au plus de chez toi.",
+            "normal": "Distance maximale de 15 à 30 minutes en voiture ou en transport collectif entre tout logement et les services publics essentiels (école, gare, hôpital, bureau de poste)."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Atteindre le « zéro sans-abri » et produire 200 000 logements publics par an",
+      "summary": {
+        "simple": "Personne ne dormirait à la rue en fin de mandat ; 200 000 logements publics seraient construits chaque année.",
+        "normal": "Droit inconditionnel à l'hébergement d'urgence et « zéro sans-abri » en fin de quinquennat, interdiction des expulsions sans relogement, garantie universelle des loyers, 200 000 logements publics par an et 30 000 logements jeunes pendant 5 ans, 30 % de logements sociaux (SRU), permis de louer, réquisition des logements vides, meublés touristiques limités à 60 jours par an, plafond de 5 logements transmissibles par héritage."
+      },
+      "sources": [
+        {
+          "page": 32,
+          "quote": "Faire appliquer le droit inconditionnel à un hébergement d’urgence de qualité et atteindre l’objectif de « zéro sans-abri » à l’issue du quinquennat"
+        },
+        {
+          "page": 32,
+          "quote": "Interdire les expulsions locatives sans relogement public et abroger la loi dite « Kasbarian »"
+        },
+        {
+          "page": 32,
+          "quote": "Mettre en place une garantie universelle des loyers créant un filet de sécurité contre les impayés de loyers pour les locataires comme pour les propriétaires"
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Produire 200 000 logements publics par an et 30 000 logements jeunes pendant 5 ans aux normes écologiques les plus ambitieuses",
+          "source": {
+            "page": 32,
+            "quote": "Produire 200 000 logements publics par an et 30 000 logements jeunes pendant 5 ans aux normes écologiques les plus ambitieuses"
+          }
+        },
+        {
+          "text": "Encadrer le prix du foncier pour endiguer la spéculation immobilière",
+          "source": {
+            "page": 32,
+            "quote": "Encadrer le prix du foncier pour endiguer la spéculation immobilière"
+          }
+        },
+        {
+          "text": "Rehausser le seuil de logements sociaux à 30 % dans les villes (loi relative à la solidarité et au renouvellement urbain, dite « SRU »), le calculer par arrondissements pour les grandes métropoles et aggraver les sanctions contre les communes hors la loi",
+          "source": {
+            "page": 32,
+            "quote": "Rehausser le seuil de logements sociaux à 30 % dans les villes (loi relative à la solidarité et au renouvellement urbain, dite « SRU »), le calculer par arrondissements pour les grandes métropoles et aggraver les sanctions contre les communes hors la loi"
+          }
+        },
+        {
+          "text": "Créer une Inspection du logement, sur le modèle de l’Inspection du travail pour faire respecter les droits des locataires, contrôler les bailleurs, sanctionner les manquements et lutter contre la spéculation",
+          "source": {
+            "page": 32,
+            "quote": "Créer une Inspection du logement, sur le modèle de l’Inspection du travail pour faire respecter les droits des locataires, contrôler les bailleurs, sanctionner les manquements et lutter contre la spéculation"
+          }
+        },
+        {
+          "text": "Lutter contre l’habitat indigne, l’habitat insalubre et les passoires thermiques : conditionner toute mise en location en France à l’obtention d’un permis de louer et lancer un grand plan de rénovation des logements",
+          "source": {
+            "page": 32,
+            "quote": "Lutter contre l’habitat indigne, l’habitat insalubre et les passoires thermiques : conditionner toute mise en location en France à l’obtention d’un permis de louer et lancer un grand plan de rénovation des logements"
+          }
+        },
+        {
+          "text": "Rétablir les aides publiques pour les habitations à loyer modéré (HLM), garantir la qualité et l’entretien du parc social et éviter les hausses de loyers à la relocation en logement social",
+          "source": {
+            "page": 32,
+            "quote": "Rétablir les aides publiques pour les habitations à loyer modéré (HLM), garantir la qualité et l’entretien du parc social et éviter les hausses de loyers à la relocation en logement social"
+          }
+        },
+        {
+          "text": "Utiliser la loi de réquisition des logements vides et les remettre sur le marché, dans des conditions qui respectent les critères du logement décent",
+          "source": {
+            "page": 32,
+            "quote": "Utiliser la loi de réquisition des logements vides et les remettre sur le marché, dans des conditions qui respectent les critères du logement décent"
+          }
+        },
+        {
+          "text": "Augmenter le nombre de logements disponibles par une taxe unique sur les logements vacants, progressive selon le nombre de logements vacants détenus",
+          "source": {
+            "page": 32,
+            "quote": "Augmenter le nombre de logements disponibles par une taxe unique sur les logements vacants, progressive selon le nombre de logements vacants détenus"
+          }
+        },
+        {
+          "text": "Lutter contre la spéculation sur le logement en limitant les locations de meublés touristiques de type Airbnb à 60 jours par an, fixer un quota de locations touristiques dans les zones en tension, interdire la location de meublés touristiques dans l’hypercentre des grandes métropoles et supprimer leur niche fiscale",
+          "source": {
+            "page": 32,
+            "quote": "Lutter contre la spéculation sur le logement en limitant les locations de meublés touristiques de type Airbnb à 60 jours par an, fixer un quota de locations touristiques dans les zones en tension, interdire la location de meublés touristiques dans l’hypercentre des grandes métropoles et supprimer leur niche fiscale"
+          }
+        },
+        {
+          "text": "Limiter la concentration immobilière en instaurant un plafond de 5 logements transmissibles par héritage ; au-delà, les biens sont réquisitionnés par l’État et redistribués entre le parc social et des dispositifs d’accès à la propriété par des organismes de foncier solidaire",
+          "source": {
+            "page": 32,
+            "quote": "Limiter la concentration immobilière en instaurant un plafond de 5 logements transmissibles par héritage ; au-delà, les biens sont réquisitionnés par l’État et redistribués entre le parc social et des dispositifs d’accès à la propriété par des organismes de foncier solidaire"
+          }
+        },
+        {
+          "text": "Lancer un plan d’urgence de prévention et d’éradication des punaises de lit, avec la création de services publics locaux dédiés",
+          "source": {
+            "page": 32,
+            "quote": "Lancer un plan d’urgence de prévention et d’éradication des punaises de lit, avec la création de services publics locaux dédiés"
+          }
+        },
+        {
+          "text": "Réviser les plans de prévention des risques d’inondations à la hauteur des nouvelles menaces et créer un Fonds d’aide à la relocalisation des constructions menacées par les inondations et la montée des mers",
+          "source": {
+            "page": 32,
+            "quote": "Réviser les plans de prévention des risques d’inondations à la hauteur des nouvelles menaces et créer un Fonds d’aide à la relocalisation des constructions menacées par les inondations et la montée des mers"
+          }
+        },
+        {
+          "text": "Remplacer l’Agence nationale pour la rénovation urbaine (ANRU) par un office national du logement et de l’amélioration du cadre de vie pour :",
+          "source": {
+            "page": 32,
+            "quote": "Remplacer l’Agence nationale pour la rénovation urbaine (ANRU) par un office national du logement et de l’amélioration du cadre de vie pour :"
+          }
+        },
+        {
+          "text": "en finir avec les projets de rénovation urbaine qui se font contre les habitants",
+          "source": {
+            "page": 32,
+            "quote": "en finir avec les projets de rénovation urbaine qui se font contre les habitants"
+          }
+        },
+        {
+          "text": "garantir le droit à rester vivre dans son quartier",
+          "source": {
+            "page": 32,
+            "quote": "garantir le droit à rester vivre dans son quartier"
+          }
+        },
+        {
+          "text": "privilégier la rénovation plutôt que la démolition, planifier la construction de nouveaux quartiers écologiques où il fait bon vivre",
+          "source": {
+            "page": 32,
+            "quote": "privilégier la rénovation plutôt que la démolition, planifier la construction de nouveaux quartiers écologiques où il fait bon vivre"
+          }
+        }
+      ],
+      "precision": "precise",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "field": "logement",
+            "op": "in",
+            "value": [
+              "locataire_prive",
+              "locataire_hlm"
+            ]
+          },
+          "sentence": {
+            "simple": "Tu ne pourrais pas être expulsé sans relogement public ; une garantie couvrirait les loyers impayés.",
+            "normal": "Interdiction des expulsions locatives sans relogement public, garantie universelle des loyers contre les impayés."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "logement",
+      "title": "Geler les loyers puis les encadrer partout, à la baisse dans les grandes villes",
+      "summary": {
+        "simple": "Les loyers seraient gelés, puis encadrés dans tout le pays et baissés dans les grandes villes.",
+        "normal": "Gel des loyers le temps de déployer un encadrement des loyers sur tout le territoire, à la baisse dans les grandes villes ; niveaux non précisés."
+      },
+      "sources": [
+        {
+          "page": 32,
+          "quote": "Geler les loyers le temps de déployer un encadrement des loyers partout sur le territoire et à la baisse dans les grandes villes"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "logement",
+          "section": "vie",
+          "appliesTo": {
+            "field": "logement",
+            "op": "in",
+            "value": [
+              "locataire_prive",
+              "locataire_hlm"
+            ]
+          },
+          "sentence": {
+            "simple": "Ton loyer serait gelé, puis encadré ; dans les grandes villes, l'encadrement viserait une baisse.",
+            "normal": "Gel des loyers puis encadrement partout, à la baisse dans les grandes villes ; niveaux non précisés."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "fiscalite",
+      "title": "Rendre la taxe foncière progressive selon le patrimoine total",
+      "summary": {
+        "simple": "La taxe foncière dépendrait de l'ensemble de ton patrimoine.",
+        "normal": "Taxe foncière refondée pour être progressive, chacun payant selon son patrimoine total réel ; barème non précisé."
+      },
+      "sources": [
+        {
+          "page": 32,
+          "quote": "Refonder la taxe foncière pour la rendre progressive et que chacun paie à hauteur de son patrimoine total réel"
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi_de_finances",
+      "effects": [
+        {
+          "ticketLine": "taxe_fonciere",
+          "section": "portefeuille",
+          "appliesTo": {
+            "field": "logement",
+            "op": "in",
+            "value": [
+              "proprio_credit",
+              "proprio_sans_credit"
+            ]
+          },
+          "sentence": {
+            "simple": "Ta taxe foncière dépendrait de ton patrimoine total ; le barème n'est pas précisé.",
+            "normal": "Taxe foncière progressive selon le patrimoine total réel ; barème non précisé, effet non calculé."
+          }
+        }
+      ]
+    },
+    {
+      "theme": "autre",
+      "title": "Engager un plan pluriannuel pour les services publics des Outre-mer",
+      "summary": {
+        "simple": "Les Outre-mer bénéficieraient d'un plan d'investissement dans les transports, l'école, la santé et le logement.",
+        "normal": "Plan pluriannuel d'investissement dans les services publics ultramarins à partir des propositions des mouvements sociaux, encadrement des prix et des marges, prime de vie chère étendue aux bénéficiaires des minima sociaux, continuité territoriale à tarifs réglementés."
+      },
+      "sources": [
+        {
+          "page": 32,
+          "quote": "Engager un plan pluriannuel d’investissement et de développement des services publics (transports, éducation, santé, logement, culture) en partant des propositions formulées par les mouvements sociaux ultramarins eux-mêmes, notamment en Guyane et à Mayotte"
+        },
+        {
+          "page": 32,
+          "quote": "Assurer la continuité territoriale (desserte de service public à tarifs réglementés) ainsi que le désenclavement intraterritorial et extraterritorial, mettre en œuvre un plan de rattrapage spécifique sur les infrastructures routières et ferroviaires, en particulier à La Réunion et en Guyane"
+        }
+      ],
+      "subMeasures": [
+        {
+          "text": "Mettre en place un encadrement des prix et des marges sur les produits de première nécessité pour lutter contre la vie chère, les monopoles et les oligopoles privés",
+          "source": {
+            "page": 32,
+            "quote": "Mettre en place un encadrement des prix et des marges sur les produits de première nécessité pour lutter contre la vie chère, les monopoles et les oligopoles privés"
+          }
+        },
+        {
+          "text": "Étendre la prime de vie chère aux bénéficiaires des minima sociaux et de l’allocation de solidarité aux personnes âgées, ainsi qu’aux personnes dont les revenus sont inférieurs au seuil de pauvreté",
+          "source": {
+            "page": 32,
+            "quote": "Étendre la prime de vie chère aux bénéficiaires des minima sociaux et de l’allocation de solidarité aux personnes âgées, ainsi qu’aux personnes dont les revenus sont inférieurs au seuil de pauvreté"
+          }
+        },
+        {
+          "text": "Garantir l’accueil scolaire et la santé publique gratuite pour tous, reconstruire ou rénover les hôpitaux, renforcer leurs moyens et ceux des structures médicales et paramédicales",
+          "source": {
+            "page": 32,
+            "quote": "Garantir l’accueil scolaire et la santé publique gratuite pour tous, reconstruire ou rénover les hôpitaux, renforcer leurs moyens et ceux des structures médicales et paramédicales"
+          }
+        },
+        {
+          "text": "Mettre en œuvre un plan de réparation pour répondre à la crise sociale, économique et sanitaire que traverse l’archipel de Kanaky-Nouvelle-Calédonie",
+          "source": {
+            "page": 32,
+            "quote": "Mettre en œuvre un plan de réparation pour répondre à la crise sociale, économique et sanitaire que traverse l’archipel de Kanaky-Nouvelle-Calédonie"
+          }
+        },
+        {
+          "text": "Soutenir l’enseignement des langues et des cultures d’Outre-mer et intégrer dans les programmes scolaires nationaux, en France hexagonale comme en Outre-mer, l’enseignement de l’histoire des Outre-mer",
+          "source": {
+            "page": 32,
+            "quote": "Soutenir l’enseignement des langues et des cultures d’Outre-mer et intégrer dans les programmes scolaires nationaux, en France hexagonale comme en Outre-mer, l’enseignement de l’histoire des Outre-mer"
+          }
+        },
+        {
+          "text": "Instaurer un principe de faveur, de manière à garantir 50 % de recrutements locaux dans tous les corps de la fonction publique, et privilégier l’accès à l’emploi de cadre en direction des locaux",
+          "source": {
+            "page": 32,
+            "quote": "Instaurer un principe de faveur, de manière à garantir 50 % de recrutements locaux dans tous les corps de la fonction publique, et privilégier l’accès à l’emploi de cadre en direction des locaux"
+          }
+        },
+        {
+          "text": "Contrôler le prix des billets d’avion entre les Outre-mer et l’Hexagone, lancer un audit relatif à la situation oligopolistique du secteur aérien",
+          "source": {
+            "page": 32,
+            "quote": "Contrôler le prix des billets d’avion entre les Outre-mer et l’Hexagone, lancer un audit relatif à la situation oligopolistique du secteur aérien"
+          }
+        },
+        {
+          "text": "Aligner les prestations sociales et le droit du travail à Mayotte sur l’Hexagone",
+          "source": {
+            "page": 32,
+            "quote": "Aligner les prestations sociales et le droit du travail à Mayotte sur l’Hexagone"
+          }
+        }
+      ],
+      "precision": "partielle",
+      "legalPath": "loi",
+      "effects": [
+        {
+          "ticketLine": "transport",
+          "section": "vie",
+          "appliesTo": {
+            "field": "lieuDeVie",
+            "op": "eq",
+            "value": "outre_mer"
+          },
+          "sentence": {
+            "simple": "La desserte de ton territoire serait assurée en service public, à tarifs réglementés.",
+            "normal": "Continuité territoriale : desserte de service public à tarifs réglementés."
+          }
+        }
+      ]
+    }
+  ]
+}

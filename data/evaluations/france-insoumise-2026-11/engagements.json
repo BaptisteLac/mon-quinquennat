@@ -1,0 +1,264 @@
+{
+  "corpus": "france-insoumise-2026-11",
+  "lecteur": "Claude (session Claude Code, 2026-11-26), lecture des trois pages tirées pour relever chaque engagement, y compris secondaire ; même modèle que l'extraction",
+  "date": "2026-11-26",
+  "consigne": "Relever, page par page, chaque engagement de politique publique (ce que le candidat ferait ou ferait faire une fois élu), avec sa citation exacte. Exclus : constats, chiffres de diagnostic, rappels historiques, chiffrages de financement, slogans de thème sans action identifiable. Un engagement qui regroupe plusieurs actions séparables est découpé. Les deux pages d'ouverture de partie (« Une économie au service des besoins », « Le goût du futur ») ne contiennent qu'un constat et l'annonce des thèmes de la partie : aucun engagement relevé.",
+  "pages": [
+    {
+      "documentId": "france-insoumise-2026-11-programme-livre-une-economie-au-service-des-besoins",
+      "page": 1,
+      "engagements": []
+    },
+    {
+      "documentId": "france-insoumise-2026-11-le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite",
+      "page": 1,
+      "engagements": []
+    },
+    {
+      "documentId": "france-insoumise-2026-11-programme-livre-un-monde-ordonne-chapitre3",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Porter au sein du Fonds monétaire international (FMI), de la Banque mondiale et de l’Organisation mondiale du commerce (OMC) des propositions de rupture avec le néolibéralisme international",
+          "description": "Porter au sein du Fonds monétaire international (FMI), de la Banque mondiale et de l’Organisation mondiale du commerce (OMC) des propositions de rupture avec le néolibéralisme international"
+        },
+        {
+          "quote": "réinvestir la Conférence des Nations unies sur le commerce et le développement (CNUCED)",
+          "description": "réinvestir la Conférence des Nations unies sur le commerce et le développement (CNUCED)"
+        },
+        {
+          "quote": "Faciliter l’accès aux visas",
+          "description": "Faciliter l’accès aux visas"
+        },
+        {
+          "quote": "instituer la carte de séjour de dix ans comme titre de séjour de référence",
+          "description": "instituer la carte de séjour de dix ans comme titre de séjour de référence"
+        },
+        {
+          "quote": "Construire des politiques internationales à partir des Outre-mer : préservation de l’Amazonie, aide aux peuples autochtones menacés par la montée des eaux et la sécheresse",
+          "description": "Construire des politiques internationales à partir des Outre-mer : préservation de l’Amazonie, aide aux peuples autochtones menacés par la montée des eaux et la sécheresse"
+        },
+        {
+          "quote": "Consacrer 0,7 % du revenu national brut à une aide publique au développement débarrassée du carcan néolibéral",
+          "description": "Consacrer 0,7 % du revenu national brut à une aide publique au développement débarrassée du carcan néolibéral"
+        },
+        {
+          "quote": "Créer un réseau d’universités méditerranéennes",
+          "description": "Créer un réseau d’universités méditerranéennes"
+        },
+        {
+          "quote": "organiser un réseau méditerranéen de l’enseignement professionnel",
+          "description": "organiser un réseau méditerranéen de l’enseignement professionnel"
+        },
+        {
+          "quote": "Bâtir une politique prenant en compte la réaffirmation de la souveraineté des peuples africains et les transformations profondes de ce continent",
+          "description": "Bâtir une politique prenant en compte la réaffirmation de la souveraineté des peuples africains et les transformations profondes de ce continent"
+        },
+        {
+          "quote": "Défendre l’usage du français dans les institutions internationales",
+          "description": "Défendre l’usage du français dans les institutions internationales"
+        },
+        {
+          "quote": "Intégrer le respect des règles fondamentales de l’Organisation internationale du travail (OIT) dans les accords commerciaux",
+          "description": "Intégrer le respect des règles fondamentales de l’Organisation internationale du travail (OIT) dans les accords commerciaux"
+        },
+        {
+          "quote": "Agir pour l’adoption à l’ONU d’un règlement contraignant les multinationales à respecter des normes sociales et environnementales",
+          "description": "Agir pour l’adoption à l’ONU d’un règlement contraignant les multinationales à respecter des normes sociales et environnementales"
+        },
+        {
+          "quote": "Œuvrer à un règlement collectif des dettes publiques, indépendamment des mécanismes du marché, dans le cadre de la résolution votée par l’Assemblée générale de l’ONU en 2015",
+          "description": "Œuvrer à un règlement collectif des dettes publiques, indépendamment des mécanismes du marché, dans le cadre de la résolution votée par l’Assemblée générale de l’ONU en 2015"
+        },
+        {
+          "quote": "Interdire l’exportation de pesticides interdits en Europe",
+          "description": "Interdire l’exportation de pesticides interdits en Europe"
+        },
+        {
+          "quote": "Renforcer le Haut-Commissariat des Nations unies pour les réfugiés (HCR)",
+          "description": "Renforcer le Haut-Commissariat des Nations unies pour les réfugiés (HCR)"
+        },
+        {
+          "quote": "organiser une conférence annuelle sur les migrations",
+          "description": "organiser une conférence annuelle sur les migrations"
+        },
+        {
+          "quote": "S’opposer aux accords commerciaux inéquitables afin d’éviter l’exil des populations",
+          "description": "S’opposer aux accords commerciaux inéquitables afin d’éviter l’exil des populations"
+        },
+        {
+          "quote": "Créer un statut de « détresse environnementale » apportant une protection temporaire, pouvant devenir durable en fonction de la gravité de la catastrophe ayant entraîné la migration",
+          "description": "Créer un statut de « détresse environnementale » apportant une protection temporaire, pouvant devenir durable en fonction de la gravité de la catastrophe ayant entraîné la migration"
+        },
+        {
+          "quote": "Agir contre les conséquences des bouleversements climatiques par des transferts de technologies, de la coopération multilatérale, et du soutien aux initiatives locales",
+          "description": "Agir contre les conséquences des bouleversements climatiques par des transferts de technologies, de la coopération multilatérale, et du soutien aux initiatives locales"
+        },
+        {
+          "quote": "Refuser l’application du pacte européen sur la migration et l’asile",
+          "description": "Refuser l’application du pacte européen sur la migration et l’asile"
+        },
+        {
+          "quote": "Assumer notre devoir d’humanité envers les réfugiés en garantissant sans concession le droit d’asile",
+          "description": "Assumer notre devoir d’humanité envers les réfugiés en garantissant sans concession le droit d’asile"
+        },
+        {
+          "quote": "Prendre en charge les personnes migrantes grâce à des structures d’accueil et d’hébergement en nombre suffisant sur tout le territoire",
+          "description": "Prendre en charge les personnes migrantes grâce à des structures d’accueil et d’hébergement en nombre suffisant sur tout le territoire"
+        },
+        {
+          "quote": "créer un guichet unique d’accueil",
+          "description": "créer un guichet unique d’accueil"
+        },
+        {
+          "quote": "Garantir l’indépendance administrative de l’Office français de protection des réfugiés et apatrides (Ofpra)",
+          "description": "Garantir l’indépendance administrative de l’Office français de protection des réfugiés et apatrides (Ofpra)"
+        },
+        {
+          "quote": "Régulariser les travailleurs, étudiants, parents d’enfants scolarisés sans papiers",
+          "description": "Régulariser les travailleurs, étudiants, parents d’enfants scolarisés sans papiers"
+        },
+        {
+          "quote": "Fermer les centres de rétention administrative (CRA) en les remplaçant par des alternatives plus humaines et efficaces fondées sur l’accompagnement juridique, l’hébergement ouvert et le respect des libertés fondamentales",
+          "description": "Fermer les centres de rétention administrative (CRA) en les remplaçant par des alternatives plus humaines et efficaces fondées sur l’accompagnement juridique, l’hébergement ouvert et le respect des libertés fondamentales"
+        },
+        {
+          "quote": "Supprimer la liste des pays d’origine sûrs",
+          "description": "Supprimer la liste des pays d’origine sûrs"
+        },
+        {
+          "quote": "améliorer la prise en compte des identités de genre et des orientations sexuelles dans les procédures",
+          "description": "améliorer la prise en compte des identités de genre et des orientations sexuelles dans les procédures"
+        },
+        {
+          "quote": "Abroger les dernières lois sur l’asile et l’immigration, la circulaire dite « Retailleau » et l’ensemble des textes qui criminalisent les personnes étrangères et les personnes aidantes",
+          "description": "Abroger les dernières lois sur l’asile et l’immigration, la circulaire dite « Retailleau » et l’ensemble des textes qui criminalisent les personnes étrangères et les personnes aidantes"
+        },
+        {
+          "quote": "Garantir l’accès à l’aide médicale d’État (AME)",
+          "description": "Garantir l’accès à l’aide médicale d’État (AME)"
+        },
+        {
+          "quote": "assurer un accès effectif au soutien psychosocial pour les demandeurs d’asile",
+          "description": "assurer un accès effectif au soutien psychosocial pour les demandeurs d’asile"
+        },
+        {
+          "quote": "Assurer l’accès aux droits (justice, santé, etc.) des femmes ayant subi des violences sexuelles dans le cadre de leur parcours migratoire",
+          "description": "Assurer l’accès aux droits (justice, santé, etc.) des femmes ayant subi des violences sexuelles dans le cadre de leur parcours migratoire"
+        },
+        {
+          "quote": "Faire des Outre-mer des pôles régionaux de codéveloppement : transfert de technologies auprès des pays voisins, aide logistique et scientifique, établissement de formations de haut niveau bénéficiant à la fois aux étudiants ultramarins et à ceux des pays voisins, coopération militaire de maintien de la paix",
+          "description": "Faire des Outre-mer des pôles régionaux de codéveloppement : transfert de technologies auprès des pays voisins, aide logistique et scientifique, établissement de formations de haut niveau bénéficiant à la fois aux étudiants ultramarins et à ceux des pays voisins, coopération militaire de maintien de la paix"
+        },
+        {
+          "quote": "Rejoindre les coopérations régionales : la Communauté d’États latino-américains et caraïbes (CELAC) pour les Antilles et la Guyane française, l’Union africaine pour Mayotte, la Communauté de développement de l’Afrique australe (CDAA) pour La Réunion, qui participera activement aussi à l’Association des États riverains de l’océan Indien (IORA)",
+          "description": "Rejoindre les coopérations régionales : la Communauté d’États latino-américains et caraïbes (CELAC) pour les Antilles et la Guyane française, l’Union africaine pour Mayotte, la Communauté de développement de l’Afrique australe (CDAA) pour La Réunion, qui participera activement aussi à l’Association des États riverains de l’océan Indien (IORA)"
+        },
+        {
+          "quote": "Garantir la paix dans l’océan Indien en négociant des accords de co-souveraineté sur l’espace maritime partagé avec Maurice autour de Tromelin et avec Madagascar autour des îles Éparses",
+          "description": "Garantir la paix dans l’océan Indien en négociant des accords de co-souveraineté sur l’espace maritime partagé avec Maurice autour de Tromelin et avec Madagascar autour des îles Éparses"
+        },
+        {
+          "quote": "Agir pour la paix et respecter l’indépendance des États et la souveraineté des peuples",
+          "description": "Agir pour la paix et respecter l’indépendance des États et la souveraineté des peuples"
+        },
+        {
+          "quote": "Relancer le codéveloppement et la coopération, notamment dans la lutte contre le changement climatique",
+          "description": "Relancer le codéveloppement et la coopération, notamment dans la lutte contre le changement climatique"
+        },
+        {
+          "quote": "Soutenir le projet de monnaie commune mondiale face au dollar",
+          "description": "Soutenir le projet de monnaie commune mondiale face au dollar"
+        },
+        {
+          "quote": "Appuyer la restructuration des dettes souveraines",
+          "description": "Appuyer la restructuration des dettes souveraines"
+        },
+        {
+          "quote": "Réformer l’aide au développement apportée par l’Agence française de développement (AFD) pour qu’elle ne serve pas les intérêts des régimes oligarchiques ni ceux d’entreprises intéressées aux partenariats public-privé ; décider de son allocation avec les sociétés civiles sur place, dans un objectif de renforcement des droits humains et des souverainetés populaires, et non de mise en dépendance néocoloniale",
+          "description": "Réformer l’aide au développement apportée par l’Agence française de développement (AFD) pour qu’elle ne serve pas les intérêts des régimes oligarchiques ni ceux d’entreprises intéressées aux partenariats public-privé ; décider de son allocation avec les sociétés civiles sur place, dans un objectif de renforcement des droits humains et des souverainetés populaires, et non de mise en dépendance néocoloniale"
+        },
+        {
+          "quote": "Créer une force méditerranéenne d’intervention et de sécurité civile pour lutter contre les incendies et pour le secours en mer en cas de catastrophes naturelles",
+          "description": "Créer une force méditerranéenne d’intervention et de sécurité civile pour lutter contre les incendies et pour le secours en mer en cas de catastrophes naturelles"
+        },
+        {
+          "quote": "Mettre en place une structure commune de lutte contre les pollutions et de gestion de la dépollution de l’écosystème de la mer Méditerranée",
+          "description": "Mettre en place une structure commune de lutte contre les pollutions et de gestion de la dépollution de l’écosystème de la mer Méditerranée"
+        },
+        {
+          "quote": "Organiser les moyens d’intervention sous-marins à des fins de recherche",
+          "description": "Organiser les moyens d’intervention sous-marins à des fins de recherche"
+        },
+        {
+          "quote": "Étendre à la Méditerranée les normes écologiques applicables dans la mer Baltique, notamment en matière de limitation des émissions liées au trafic maritime",
+          "description": "Étendre à la Méditerranée les normes écologiques applicables dans la mer Baltique, notamment en matière de limitation des émissions liées au trafic maritime"
+        },
+        {
+          "quote": "Créer une chaîne de télévision méditerranéenne émettant en plusieurs langues, diffusant ses programmes sur les deux rives de la Méditerranée et sur Internet (sur le modèle de la chaîne franco­allemande Arte)",
+          "description": "Créer une chaîne de télévision méditerranéenne émettant en plusieurs langues, diffusant ses programmes sur les deux rives de la Méditerranée et sur Internet (sur le modèle de la chaîne franco­allemande Arte)"
+        },
+        {
+          "quote": "Renforcer l’aide au développement au Sahel et la conditionner au respect des droits humains, démocratiques, sociaux et écologiques des peuples concernés",
+          "description": "Renforcer l’aide au développement au Sahel et la conditionner au respect des droits humains, démocratiques, sociaux et écologiques des peuples concernés"
+        },
+        {
+          "quote": "Réviser les accords de défense passés avec les pays africains pour qu’ils soient conclus dans l’intérêt des peuples et empêchent toute ingérence dans leurs affaires intérieures",
+          "description": "Réviser les accords de défense passés avec les pays africains pour qu’ils soient conclus dans l’intérêt des peuples et empêchent toute ingérence dans leurs affaires intérieures"
+        },
+        {
+          "quote": "Œuvrer, aux côtés des pays africains concernés, à mettre un terme à la double monnaie CFA au profit d’une monnaie souveraine dont ils seront les seuls maîtres",
+          "description": "Œuvrer, aux côtés des pays africains concernés, à mettre un terme à la double monnaie CFA au profit d’une monnaie souveraine dont ils seront les seuls maîtres"
+        },
+        {
+          "quote": "Annuler les dettes « odieuses » de certains pays africains, c’est-à-dire les dettes contractées par des dictatures dans le seul but d’enrichir le clan au pouvoir ou d’engager des actions allant à l’encontre de l’intérêt général",
+          "description": "Annuler les dettes « odieuses » de certains pays africains, c’est-à-dire les dettes contractées par des dictatures dans le seul but d’enrichir le clan au pouvoir ou d’engager des actions allant à l’encontre de l’intérêt général"
+        },
+        {
+          "quote": "Faire vivre une francophonie des peuples",
+          "description": "Faire vivre une francophonie des peuples"
+        },
+        {
+          "quote": "Faire une académie de la Francophonie, ouverte sur les évolutions et la créolisation de notre langue commune à travers le monde",
+          "description": "Faire une académie de la Francophonie, ouverte sur les évolutions et la créolisation de notre langue commune à travers le monde"
+        },
+        {
+          "quote": "Créer un Erasmus francophone",
+          "description": "Créer un Erasmus francophone"
+        },
+        {
+          "quote": "Élaborer des contenus éducatifs et des diplômes communs entre pays francophones",
+          "description": "Élaborer des contenus éducatifs et des diplômes communs entre pays francophones"
+        },
+        {
+          "quote": "Renforcer les médias audiovisuels francophones",
+          "description": "Renforcer les médias audiovisuels francophones"
+        },
+        {
+          "quote": "Renforcer l’Assemblée parlementaire de la Francophonie (APF)",
+          "description": "Renforcer l’Assemblée parlementaire de la Francophonie (APF)"
+        },
+        {
+          "quote": "Participer à la création d’une revue scientifique francophone de premier plan au niveau mondial",
+          "description": "Participer à la création d’une revue scientifique francophone de premier plan au niveau mondial"
+        },
+        {
+          "quote": "Créer une université francophone de l’espace proposant un cursus universitaire commun d’accès à tous les métiers relatifs au secteur aérospatial",
+          "description": "Créer une université francophone de l’espace proposant un cursus universitaire commun d’accès à tous les métiers relatifs au secteur aérospatial"
+        },
+        {
+          "quote": "Recréer des espaces d’expressions culturelles francophones (les scènes nationales, par exemple)",
+          "description": "Recréer des espaces d’expressions culturelles francophones (les scènes nationales, par exemple)"
+        },
+        {
+          "quote": "Renforcer le réseau des Instituts français et Alliances françaises",
+          "description": "Renforcer le réseau des Instituts français et Alliances françaises"
+        },
+        {
+          "quote": "le renforcement de la présence de l’ONU au Liban",
+          "description": "le renforcement de la présence de l’ONU au Liban"
+        }
+      ]
+    }
+  ]
+}
