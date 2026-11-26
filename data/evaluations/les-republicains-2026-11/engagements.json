@@ -1,0 +1,411 @@
+{
+  "corpus": "les-republicains-2026-11",
+  "lecteur": "Claude (session Claude Code, 2026-11-26), lecture des pages tirées au sort pour relever chaque engagement ; pour les pages déjà relues lors de l'évaluation du corpus les-republicains-2026-10 et restées identiques, reprise des engagements relevés alors ; même modèle que l'extraction",
+  "date": "2026-11-26",
+  "consigne": "Relever, page par page, chaque engagement de politique publique (ce que le candidat ferait ou ferait faire une fois élu), avec sa citation exacte. Exclus : constats, chiffres de diagnostic, rappels historiques, chiffrages de financement, slogans de thème sans action identifiable. Un engagement qui regroupe plusieurs actions séparables est découpé.",
+  "pages": [
+    {
+      "documentId": "les-republicains-2026-11-projet",
+      "page": 1,
+      "engagements": []
+    },
+    {
+      "documentId": "les-republicains-2026-11-suppression-du-principe-de-precaution-inscrit-dans-la",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Supprimer le principe de précaution inscrit dans la Charte de l'environnement et lui substituer un principe de responsabilité et d'innovation",
+          "description": "Supprimer le principe de précaution inscrit dans la Charte de l'environnement et lui substituer un principe de responsabilité et d'innovation"
+        },
+        {
+          "quote": "Cette suppression figurera dans la révision constitutionnelle soumise au référendum",
+          "description": "Cette suppression figurera dans la révision constitutionnelle soumise au référendum"
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-11-mesure-liberer-les-etablissements-et-rendre-aux-familles-la",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Recentrer les programmes du primaire sur le lire",
+          "description": "Recentrer les programmes du primaire sur le lire"
+        },
+        {
+          "quote": "ainsi que sur l'histoire et la géographie de la France",
+          "description": "Ainsi que sur l'histoire et la géographie de la France"
+        },
+        {
+          "quote": "Mettre fin",
+          "description": "Mettre fin"
+        },
+        {
+          "quote": "dans le temps scolaire",
+          "description": "Dans le temps scolaire"
+        },
+        {
+          "quote": "à la dispersion des « éducations à » ceci ou cela : ces heures seront rendues au français",
+          "description": "À la dispersion des « éducations à » ceci ou cela : ces heures seront rendues au français"
+        },
+        {
+          "quote": "au calcul et à l'anglais",
+          "description": "Au calcul et à l'anglais"
+        },
+        {
+          "quote": "Ne retenir que les méthodes dont l'efficacité est explicitement prouvée",
+          "description": "Ne retenir que les méthodes dont l'efficacité est explicitement prouvée"
+        },
+        {
+          "quote": "Consacrer chaque jour quinze minutes à la lecture, à hauteur de chaque âge, du primaire au collège",
+          "description": "Consacrer chaque jour quinze minutes à la lecture, à hauteur de chaque âge, du primaire au collège"
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-11-refonder-le-code-du-travail-sur-50-principes-rendre-le",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Refonder le droit du travail autour de la subsidiarité sociale : un socle de 50 principes fondamentaux rendu indépassable, et pour le reste un code devenu supplétif, qui ne s'applique qu'en l'absence d'accord collectif",
+          "description": "Refonder le droit du travail autour de la subsidiarité sociale : un socle de 50 principes fondamentaux rendu indépassable, et pour le reste un code devenu supplétif, qui ne s'applique qu'en l'absence "
+        },
+        {
+          "quote": "L'accord deviendra la règle prioritaire dans l'entreprise, à défaut dans la branche",
+          "description": "L'accord deviendra la règle prioritaire dans l'entreprise, à défaut dans la branche"
+        },
+        {
+          "quote": "Il pourra être conclu par des syndicats majoritaires, par le CSE ou par référendum à l'initiative de l'employeur, avec une voie adaptée aux entreprises sans délégué syndical",
+          "description": "Il pourra être conclu par des syndicats majoritaires, par le CSE ou par référendum à l'initiative de l'employeur, avec une voie adaptée aux entreprises sans délégué syndical"
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-11-donner-priorite-a-l-apprentissage-jusqu-a-bac-2-et-a-l",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Éteindre progressivement les aides à l'embauche et les niveaux de prise en charge dans les filières tertiaires du supérieur, où elles financent des recrutements qui auraient eu lieu sans elles",
+          "description": "Éteindre progressivement les aides à l'embauche et les niveaux de prise en charge dans les filières tertiaires du supérieur, où elles financent des recrutements qui auraient eu lieu sans elles"
+        },
+        {
+          "quote": "Sanctuariser l'industrie et la technologie, ingénieurs et BUT industriels compris, jusqu'au master",
+          "description": "Sanctuariser l'industrie et la technologie, ingénieurs et BUT industriels compris, jusqu'au master"
+        },
+        {
+          "quote": "Revaloriser de 10 à 15 % le financement des formations jusqu'à Bac+2 et porter l'aide à l'embauche en TPE-PME de 5 000 à 6 000 euros",
+          "description": "Revaloriser de 10 à 15 % le financement des formations jusqu'à Bac+2 et porter l'aide à l'embauche en TPE-PME de 5 000 à 6 000 euros"
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-11-projet-mesure-reconquerir-les-friches-industrielles",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Créer un Répertoire national des friches, établi par arrêté préfectoral dans les deux ans",
+          "description": "Répertoire national des friches."
+        },
+        {
+          "quote": "une loi reconnaissant la réutilisation des friches comme raison impérative d'intérêt public majeur",
+          "description": "Réutilisation des friches reconnue d'intérêt public majeur."
+        },
+        {
+          "quote": "un malus fiscal pour le propriétaire qui laisse le terrain en l'état, et un crédit d'impôt de 30 % pour celui qui le dépollue",
+          "description": "Malus fiscal et crédit d'impôt de 30 %."
+        },
+        {
+          "quote": "Les subventions directes de l'État seront supprimées.",
+          "description": "Supprimer les subventions directes."
+        },
+        {
+          "quote": "un préfet interlocuteur unique, un délai d'instruction opposable de neuf mois au-delà duquel le silence vaut acceptation",
+          "description": "Préfet interlocuteur unique et délai d'instruction de neuf mois."
+        },
+        {
+          "quote": "des sociétés foncières publiques porteront le foncier : des SEM régionales pour les surfaces inférieures à deux hectares, et une Société foncière pour l'industrie chargée de maintenir en permanence 1 000 hectares immédiatement disponibles pour les grands projets",
+          "description": "Sociétés foncières publiques, dont 1 000 hectares disponibles en permanence."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-11-projet-mesure-proteger-l-agriculture-dans-la-constitution",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Engager une réforme constitutionnelle inscrivant la notion d'intérêts supérieurs de la Nation, une loi organique précisant que l'agriculture en fait pleinement partie.",
+          "description": "Agriculture parmi les intérêts supérieurs de la Nation."
+        },
+        {
+          "quote": "les nouvelles techniques génomiques seront pleinement intégrées à la stratégie agricole française",
+          "description": "Intégrer les nouvelles techniques génomiques."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-11-supprimer-l-ofb-et-accelerer-les-autorisations-sanitaires",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Supprimer l'Office français de la biodiversité et revenir à l'organisation antérieure entre l'Agence française pour la biodiversité et l'Office national de la chasse et de la faune sauvage, la police de l'environnement hors chasse revenant à la gendarmerie nationale",
+          "description": "Supprimer l'Office français de la biodiversité et revenir à l'organisation antérieure entre l'Agence française pour la biodiversité et l'Office national de la chasse et de la faune sauvage, la police "
+        },
+        {
+          "quote": "Établir explicitement une présomption de bonne foi : les contrôles seront ciblés et proportionnés, les sanctions recentrées sur les fraudes caractérisées et intentionnelles, non sur des erreurs formelles",
+          "description": "Établir explicitement une présomption de bonne foi : les contrôles seront ciblés et proportionnés, les sanctions recentrées sur les fraudes caractérisées et intentionnelles, non sur des erreurs formel"
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-11-encadrer-les-negociations-et-controler-les-importations",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Sanctuariser la part non négociable liée aux matières premières, renforcer la contractualisation écrite et fixer une date butoir au 31 décembre pour clore les négociations",
+          "description": "Sanctuariser la part non négociable liée aux matières premières, renforcer la contractualisation écrite et fixer une date butoir au 31 décembre pour clore les négociations"
+        },
+        {
+          "quote": "Rendre les enseignes opérant en France responsables des pratiques de leurs centrales d'achat européennes ou internationales",
+          "description": "Rendre les enseignes opérant en France responsables des pratiques de leurs centrales d'achat européennes ou internationales"
+        },
+        {
+          "quote": "S'opposer à l'intégration de l'Ukraine au marché agricole européen",
+          "description": "S'opposer à l'intégration de l'Ukraine au marché agricole européen"
+        },
+        {
+          "quote": "Le contrôle renforcé des importations et les clauses de réciprocité, décrits dans la page Entreprises, s'appliquent en priorité aux produits agricoles",
+          "description": "Le contrôle renforcé des importations et les clauses de réciprocité, décrits dans la page Entreprises, s'appliquent en priorité aux produits agricoles"
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-11-verser-9-000-euros-aux-communes-par-logement-neuf-construit",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Verser automatiquement à la commune une fraction forfaitaire de TVA de 9 000 euros pour chaque logement neuf",
+          "description": "Verser automatiquement à la commune une fraction forfaitaire de TVA de 9 000 euros pour chaque logement neuf"
+        },
+        {
+          "quote": "afin de financer les équipements publics nécessaires : écoles",
+          "description": "Afin de financer les équipements publics nécessaires : écoles"
+        },
+        {
+          "quote": "Faire du préfet le pivot de la politique de construction, par des contrats territoriaux conclus à l'échelle des bassins de vie, qui remplaceront les objectifs tombés d'en haut",
+          "description": "Faire du préfet le pivot de la politique de construction, par des contrats territoriaux conclus à l'échelle des bassins de vie, qui remplaceront les objectifs tombés d'en haut"
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-11-faire-de-l-entreprise-un-acteur-de-la-garde-d-enfants",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Supprimer le plafond de 500 000 euros du crédit d'impôt famille",
+          "description": "Supprimer le plafond de 500 000 euros du crédit d'impôt famille"
+        },
+        {
+          "quote": "Porter de 2 421 à 7 000 euros par an et par salarié le plafond d'exonération de cotisations sociales et d'impôt sur le revenu applicable à l'aide versée par l'employeur pour la garde d'enfant",
+          "description": "Porter de 2 421 à 7 000 euros par an et par salarié le plafond d'exonération de cotisations sociales et d'impôt sur le revenu applicable à l'aide versée par l'employeur pour la garde d'enfant"
+        },
+        {
+          "quote": "Ces mesures bénéficieront aussi aux PME et aux TPE, et pas seulement aux grands groupes",
+          "description": "Ces mesures bénéficieront aussi aux PME et aux TPE, et pas seulement aux grands groupes"
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-11-aider-les-grands-parents-a-aider-leurs-petits-enfants",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Instaurer un choc de transmission patrimoniale, pendant trois ans",
+          "description": "Instaurer un choc de transmission patrimoniale, pendant trois ans"
+        },
+        {
+          "quote": "Le don familial sera exonéré jusqu'à 150 000 euros par donateur pour un bénéficiaire de moins de 30 ans, et 100 000 euros pour un bénéficiaire de moins de 40 ans",
+          "description": "Le don familial sera exonéré jusqu'à 150 000 euros par donateur pour un bénéficiaire de moins de 30 ans, et 100 000 euros pour un bénéficiaire de moins de 40 ans"
+        },
+        {
+          "quote": "Ces règles s'appliqueront aux dons de sommes d'argent comme aux donations et successions portant sur le patrimoine immobilier",
+          "description": "Ces règles s'appliqueront aux dons de sommes d'argent comme aux donations et successions portant sur le patrimoine immobilier"
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-11-produire-et-stocker-plus-d-electricite-grace-aux-barrages",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Remplacer le régime des concessions par un régime d'autorisation, avec un droit d'exploitation de 70 ans pour les opérateurs actuels et l'ouverture d'au moins 40 % des capacités à des tiers, sous forme de droits de production virtuels mis aux enchères",
+          "description": "Remplacer le régime des concessions par un régime d'autorisation, avec un droit d'exploitation de 70 ans pour les opérateurs actuels et l'ouverture d'au moins 40 % des capacités à des tiers, sous form"
+        },
+        {
+          "quote": "Moderniser les installations existantes : EDF estime pouvoir ajouter 4 GW, soit 20 % de plus, dont 2 GW dès 2035",
+          "description": "Moderniser les installations existantes : EDF estime pouvoir ajouter 4 GW, soit 20 % de plus, dont 2 GW dès 2035"
+        },
+        {
+          "quote": "Remettre à l'étude le projet de STEP de Redenat, abandonné depuis 1982",
+          "description": "Remettre à l'étude le projet de STEP de Redenat, abandonné depuis 1982"
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-11-cesser-de-subventionner-ce-qui-fait-monter-la-facture-les",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Abroger immédiatement le volet électricité de la PPE 3",
+          "description": "Abroger immédiatement le volet électricité de la PPE 3"
+        },
+        {
+          "quote": "Déclarer infructueux les appels d'offres non attribués en photovoltaïque et en éolien en mer, et n'en plus lancer tant que la demande n'augmentera pas nettement",
+          "description": "Déclarer infructueux les appels d'offres non attribués en photovoltaïque et en éolien en mer, et n'en plus lancer tant que la demande n'augmentera pas nettement"
+        },
+        {
+          "quote": "Supprimer les avantages fiscaux et tarifaires pour toute installation photovoltaïque mise en service après la promulgation de la loi",
+          "description": "Supprimer les avantages fiscaux et tarifaires pour toute installation photovoltaïque mise en service après la promulgation de la loi"
+        },
+        {
+          "quote": "Ramener les trajectoires d'investissement de RTE et d'Enedis à la mesure des besoins réels",
+          "description": "Ramener les trajectoires d'investissement de RTE et d'Enedis à la mesure des besoins réels"
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-11-preparer-les-reacteurs-nucleaires-de-quatrieme-generation",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Accélérer le calendrier arrêté par le Conseil de politique nucléaire du 12 mars 2026 en relançant immédiatement, en complément des études d'ingénierie, les programmes de recherche expérimentale sur un démonstrateur",
+          "description": "Accélérer le calendrier arrêté par le Conseil de politique nucléaire du 12 mars 2026 en relançant immédiatement, en complément des études d'ingénierie, les programmes de recherche expérimentale sur un"
+        },
+        {
+          "quote": "Viser la mise en service d'un premier réacteur de puissance en 2045, avec ses usines de fabrication et de retraitement des combustibles",
+          "description": "Viser la mise en service d'un premier réacteur de puissance en 2045, avec ses usines de fabrication et de retraitement des combustibles"
+        },
+        {
+          "quote": "Il s'agit de reprendre les travaux interrompus en 2019 avec l'arrêt du programme ASTRID",
+          "description": "Il s'agit de reprendre les travaux interrompus en 2019 avec l'arrêt du programme ASTRID"
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-11-mesure-equiper-les-entreprises-francaises-en-intelligence",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Lancer un programme national d'équipement des ETI et des grandes PME, le Starter Pack IA",
+          "description": "Starter Pack IA."
+        },
+        {
+          "quote": "Faire bénéficier pleinement les entreprises qui investissent dans l'IA, la robotique et les capacités de calcul du suramortissement de 100 % sur trois ans des investissements productifs",
+          "description": "Suramortissement des investissements en IA."
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-11-projet-mesure-combattre-les-filieres-de-passeurs",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Frapper les filières dans les pays de départ via la conditionnalité de l'aide",
+          "description": "Frapper les filières dans les pays de départ via la conditionnalité de l'aide"
+        },
+        {
+          "quote": "de la coopération policière en amont",
+          "description": "De la coopération policière en amont"
+        },
+        {
+          "quote": "du durcissement européen",
+          "description": "Du durcissement européen"
+        },
+        {
+          "quote": "de peines appliquées sans faiblesse",
+          "description": "De peines appliquées sans faiblesse"
+        },
+        {
+          "quote": "du retrait des annonces en ligne",
+          "description": "Du retrait des annonces en ligne"
+        },
+        {
+          "quote": "du démantèlement des campements et de la fin des subventions aux associations complices",
+          "description": "Du démantèlement des campements et de la fin des subventions aux associations complices"
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-11-projet-mesure-faire-du-depart-force-et-immediat-la-regle",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Appliquer immédiatement et intégralement le règlement européen retour y compris ses clauses optionnelles",
+          "description": "Appliquer immédiatement et intégralement le règlement européen retour y compris ses clauses optionnelles"
+        },
+        {
+          "quote": "maintenir en rétention jusqu'à 24 mois les sortants de prison et profils dangereux",
+          "description": "Maintenir en rétention jusqu'à 24 mois les sortants de prison et profils dangereux"
+        },
+        {
+          "quote": "porter les moyens de la lutte contre l'immigration irrégulière de 1,6 à environ 4 milliards d'euros par an",
+          "description": "Porter les moyens de la lutte contre l'immigration irrégulière de 1,6 à environ 4 milliards d'euros par an"
+        },
+        {
+          "quote": "et unifier le contentieux devant le juge administratif",
+          "description": "Et unifier le contentieux devant le juge administratif"
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-11-projet-mesure-d",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Partir dès 63 ans sera un droit, et chacun connaîtra à l'avance le montant de sa pension selon l'âge qu'il choisit",
+          "description": "Partir dès 63 ans sera un droit, et chacun connaîtra à l'avance le montant de sa pension selon l'âge qu'il choisit"
+        },
+        {
+          "quote": "À 65 ans, le taux plein sera garanti à tous, quels que soient les trimestres cotisés ou validés",
+          "description": "À 65 ans, le taux plein sera garanti à tous, quels que soient les trimestres cotisés ou validés"
+        },
+        {
+          "quote": "Ces deux âges seront les mêmes pour les salariés du privé et pour les agents publics",
+          "description": "Ces deux âges seront les mêmes pour les salariés du privé et pour les agents publics"
+        },
+        {
+          "quote": "Ils évolueront ensuite avec l'espérance de vie, selon une formule inscrite dans la loi",
+          "description": "Ils évolueront ensuite avec l'espérance de vie, selon une formule inscrite dans la loi"
+        }
+      ]
+    },
+    {
+      "documentId": "les-republicains-2026-11-mesure-donner-a-chaque-francais-un-capital-pour-sa-retraite",
+      "page": 1,
+      "engagements": [
+        {
+          "quote": "Chaque salarié, du privé comme du public, aura un capital à son nom pour sa retraite, sur un compte individuel bloqué jusqu'à son départ et protégé par la Constitution.",
+          "description": "Compte individuel de retraite pour chaque salarié."
+        },
+        {
+          "quote": "Le compte est alimenté par une cotisation de 1 % du salaire, dans la limite du plafond de la Sécurité sociale, versée pour moitié par le salarié et pour moitié par l'employeur",
+          "description": "Cotisation de 1 % du salaire."
+        },
+        {
+          "quote": "Dans la fonction publique, la cotisation de retraite additionnelle sur les primes sera doublée et versée sur le compte.",
+          "description": "Doubler la cotisation sur les primes des fonctionnaires."
+        },
+        {
+          "quote": "La gestion est confiée aux partenaires sociaux, sur le modèle de l'Agirc-Arrco, avec des gestionnaires choisis par appel d'offres.",
+          "description": "Gestion par les partenaires sociaux."
+        },
+        {
+          "quote": "Avec la participation et l'intéressement, versés par défaut sur le compte à raison de 1 000 euros par an",
+          "description": "Participation et intéressement versés par défaut sur le compte."
+        },
+        {
+          "quote": "À la retraite, chacun choisira de sortir son épargne en capital ou en rente.",
+          "description": "Sortie en capital ou en rente au choix."
+        }
+      ]
+    }
+  ]
+}

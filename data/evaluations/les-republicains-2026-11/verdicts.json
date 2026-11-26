@@ -1,0 +1,178 @@
+{
+  "corpus": "les-republicains-2026-11",
+  "lecteur": "Claude (session Claude Code, 2026-11-26), relecture de chaque fiche tirée contre ses citations et la page source ; verdicts du corpus les-republicains-2026-10 repris pour les mesures inchangées ; même modèle que l'extraction",
+  "date": "2026-11-26",
+  "consigne": "Sens : la fiche (titre, résumés, phrases d'effet) dit ce que dit la citation, sans ajout, omission qui change le sens, ni engagement plus fort ou plus faible. Paramètres : taux, montants, durées, seuils et date d'effet conformes au programme ; « sans_parametre » si la fiche n'en porte aucun.",
+  "verdicts": {
+    "m-a2956a0971a9": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-0d5651d95bbf": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-c6b9e9910427": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-bc8a2581483e": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-86124cd9f3f1": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-669fa240031a": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-e1c86c752546": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-02c8c6640114": {
+      "sens": "correct",
+      "parametres": "sans_parametre",
+      "note": "Détails du résumé absents des citations mais présents sur la page officielle de la mesure (vérifié) ; jugé correct."
+    },
+    "m-bef66b460c8c": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-5de03beda32e": {
+      "sens": "correct",
+      "parametres": "justes",
+      "note": "Détails du résumé absents des citations mais présents sur la page officielle de la mesure (vérifié) ; jugé correct."
+    },
+    "m-db40be8b077a": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-383e0645dcc9": {
+      "sens": "correct",
+      "parametres": "justes",
+      "note": "Détails du résumé absents des citations mais présents sur la page officielle de la mesure (vérifié) ; jugé correct."
+    },
+    "m-97e3f5e7fa75": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-fa088ca24741": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-1ef52c92fedf": {
+      "sens": "correct",
+      "parametres": "justes",
+      "note": "Détails du résumé absents des citations mais présents sur la page officielle de la mesure (vérifié) ; jugé correct."
+    },
+    "m-afc120f37d75": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-cdd28c48906e": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-29367046766b": {
+      "sens": "correct",
+      "parametres": "justes",
+      "note": "Détails du résumé absents des citations mais présents sur la page officielle de la mesure (vérifié) ; jugé correct."
+    },
+    "m-a585a8992b48": {
+      "sens": "correct",
+      "parametres": "sans_parametre",
+      "note": "Détails du résumé absents des citations mais présents sur la page officielle de la mesure (vérifié) ; jugé correct."
+    },
+    "m-dc349e13d2f7": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-3bafb803f69a": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-76c1120c4a18": {
+      "sens": "correct",
+      "parametres": "justes",
+      "note": "Détails du résumé absents des citations mais présents sur la page officielle de la mesure (vérifié) ; jugé correct."
+    },
+    "m-8ec99bd49836": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-3efa3f82eeb8": {
+      "sens": "correct",
+      "parametres": "justes",
+      "note": "Détails du résumé absents des citations mais présents sur la page officielle de la mesure (vérifié) ; jugé correct."
+    },
+    "m-33a8897d1d43": {
+      "sens": "correct",
+      "parametres": "sans_parametre",
+      "note": "Détails du résumé absents des citations mais présents sur la page officielle de la mesure (vérifié) ; jugé correct."
+    },
+    "m-dd439c70928b": {
+      "sens": "correct",
+      "parametres": "sans_parametre",
+      "note": "Détails du résumé absents des citations mais présents sur la page officielle de la mesure (vérifié) ; jugé correct."
+    },
+    "m-0706d0c9171f": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-3a7dfdb4ef2b": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-5512df2000e1": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-b033fae2abf0": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-9a2c937727f1": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-14e503e23ee1": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-705d2a52fceb": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-72b9607c6677": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-8955feb61b5e": {
+      "sens": "correct",
+      "parametres": "justes"
+    },
+    "m-a2d768be5142": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-a6a77b5253cc": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-57e93b22d82e": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-72df382ca495": {
+      "sens": "correct",
+      "parametres": "sans_parametre"
+    },
+    "m-a778c11245ff": {
+      "sens": "correct",
+      "parametres": "justes"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "corpusId": "les-republicains-2026-11",
+  "candidateId": "c-03",
+  "manifestSha256": "3872b8ad4ff5a782ca3d8709ca5f25548ede86046d10b1329c392c480d835820",
+  "seed": 2027,
+  "readOn": "2026-11-26",
+  "readers": {
+    "rappel": "Claude (session Claude Code, 2026-11-26), lecture des pages tirées au sort pour relever chaque engagement ; pour les pages déjà relues lors de l'évaluation du corpus les-republicains-2026-10 et restées identiques, reprise des engagements relevés alors ; même modèle que l'extraction",
+    "precision": "Claude (session Claude Code, 2026-11-26), relecture de chaque fiche tirée contre ses citations et la page source ; verdicts du corpus les-republicains-2026-10 repris pour les mesures inchangées ; même modèle que l'extraction"
+  },
+  "checks": {
+    "citations": {
+      "k": 137,
+      "n": 137
+    },
+    "figures": {
+      "k": 137,
+      "n": 137
+    },
+    "autoValidated": {
+      "k": 137,
+      "n": 137
+    }
+  },
+  "recall": {
+    "k": 66,
+    "n": 71,
+    "low": 0.8455078823270786,
+    "high": 0.9695468465937355,
+    "pages": 20
+  },
+  "precision": {
+    "k": 40,
+    "n": 40,
+    "low": 0.9123754607496077,
+    "high": 1
+  },
+  "parameters": {
+    "k": 21,
+    "n": 21,
+    "low": 0.8453561767357979,
+    "high": 1
+  },
+  "errorFree": {
+    "k": 40,
+    "n": 40,
+    "low": 0.9123754607496077,
+    "high": 1
+  },
+  "discrepancies": []
+}

@@ -1,8 +1,15 @@
 {
-  "corpus": "les-republicains-2026-11",
-  "candidate": "c-03",
-  "start": ["https://www.avecretailleau.fr/projet"],
-  "include": ["https://www.avecretailleau.fr/projet"],
+  "corpus": "nouvelle-energie-2026-11",
+  "candidate": "c-01",
+  "start": [
+    "https://www.unenouvelleenergie.fr/notre-programme/",
+    "https://www.unenouvelleenergie.fr/questions/"
+  ],
+  "include": [
+    "https://www.unenouvelleenergie.fr/notre-programme/",
+    "https://www.unenouvelleenergie.fr/questions/",
+    "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/"
+  ],
   "exclude": [],
   "render": true,
   "delayMs": 1500
