@@ -1,0 +1,33 @@
+{
+  "requested": "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf",
+  "final": "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf",
+  "status": 200,
+  "title": "",
+  "iframes": [
+    "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf",
+    "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html",
+    "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf"
+  ],
+  "links": [],
+  "fields": [],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf",
+      "resourceType": "document",
+      "postData": null
+    }
+  ]
+}

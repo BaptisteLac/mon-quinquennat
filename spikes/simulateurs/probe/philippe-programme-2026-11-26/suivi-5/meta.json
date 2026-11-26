@@ -1,0 +1,739 @@
+{
+  "requested": "https://www.edouardphilippe.fr/programme/defense",
+  "final": "https://www.edouardphilippe.fr/programme/defense",
+  "status": 200,
+  "title": "Défense — Le programme — Avec Édouard 2027",
+  "iframes": [
+    "https://www.edouardphilippe.fr/programme/defense"
+  ],
+  "links": [
+    {
+      "href": "https://www.edouardphilippe.fr/programme/defense#contenu",
+      "text": "Aller au contenu"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/edouard-philippe",
+      "text": "Édouard Philippe"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme",
+      "text": "Le programme"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/actualites",
+      "text": "Actus"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/actualites#deplacements",
+      "text": "Déplacements"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/actualites#medias",
+      "text": "Dans les médias"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/a-propos",
+      "text": "L’équipe"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/a-propos",
+      "text": "L’équipe de campagne"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/jeunes",
+      "text": "Les jeunes avec Édouard"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/comites",
+      "text": "Les comités avec Édouard"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/elus",
+      "text": "Les élus avec Édouard"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/don",
+      "text": "Donner"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/rejoindre",
+      "text": "RejoindreRejoindre →"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/don",
+      "text": "Donner"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/rejoindre",
+      "text": "Rejoindre"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/edouard-philippe",
+      "text": "Édouard Philippe"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme",
+      "text": "Le programme"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/actualites#deplacements",
+      "text": "Déplacements"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/actualites#medias",
+      "text": "Dans les médias"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/a-propos",
+      "text": "L’équipe de campagne"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/jeunes",
+      "text": "Les jeunes avec Édouard"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/comites",
+      "text": "Les comités avec Édouard"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/elus",
+      "text": "Les élus avec Édouard"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/",
+      "text": "Accueil"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme",
+      "text": "Le programme"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/securite",
+      "text": "Sécurité"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/justice",
+      "text": "Justice"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/immigration",
+      "text": "Immigration"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/defense",
+      "text": "Défense"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail",
+      "text": "Travail et salaires"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/entreprises",
+      "text": "Entreprises et industrie"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/comptes-publics",
+      "text": "Finances publiques"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/retraites",
+      "text": "Retraites"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/ecole",
+      "text": "École"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/famille",
+      "text": "Famille"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/protection-de-l-enfance",
+      "text": "Protection de l’enfance"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/logement",
+      "text": "Logement"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/handicap",
+      "text": "Handicap"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/intelligence-artificielle",
+      "text": "Intelligence artificielle"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/energie",
+      "text": "Énergie"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/adaptation-climatique",
+      "text": "Adaptation climatique"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/outre-mer",
+      "text": "Outre-mer"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/defense#que-propose-edouard-philippe-pour-l-armee-francaise",
+      "text": "Que propose Édouard Philippe pour l’armée française ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/defense#edouard-philippe-veut-il-augmenter-le-budget-de-l-armee",
+      "text": "Édouard Philippe veut-il augmenter le budget de l’armée ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/defense#edouard-philippe-veut-il-retablir-le-service-militaire-obl",
+      "text": "Édouard Philippe veut-il rétablir un service national obligatoire ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/defense#edouard-philippe-veut-il-developper-le-service-militaire-v",
+      "text": "Le service national d’Édouard Philippe sera-t-il uniquement militaire ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/defense#edouard-philippe-veut-il-augmenter-le-nombre-de-reserviste",
+      "text": "Édouard Philippe veut-il augmenter le nombre de réservistes ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/defense#edouard-philippe-veut-il-plus-de-drones-pour-l-armee",
+      "text": "Édouard Philippe veut-il plus de drones pour l’armée ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/defense#edouard-philippe-veut-il-produire-plus-d-obus-et-de-muniti",
+      "text": "Édouard Philippe veut-il produire plus d’obus et de munitions ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/defense#que-propose-edouard-philippe-pour-defendre-les-outre-mer",
+      "text": "Que propose Édouard Philippe pour défendre les outre-mer ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/defense#que-propose-edouard-philippe-contre-les-incendies-et-les-c-defense",
+      "text": "Que propose Édouard Philippe contre les incendies et les catastrophes naturelles ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/defense#edouard-philippe-veut-il-que-l-ukraine-entre-dans-l-otan",
+      "text": "Édouard Philippe veut-il que l’Ukraine entre dans l’OTAN ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme#recherche",
+      "text": "Poser une question →"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme",
+      "text": "→ Le programme"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/defense#avis-coordonnees",
+      "text": "Envoyer mon avis →"
+    },
+    {
+      "href": "https://whatsapp.com/channel/0029Vb2lsUl1XquO5oXP803R",
+      "text": "Rejoindre le groupe WhatsApp →"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/pages/politique-de-confidentialite",
+      "text": "politique de confidentialité"
+    },
+    {
+      "href": "https://altcha.org/",
+      "text": ""
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/securite",
+      "text": "Sécurité État d’urgence contre le narcotrafic Pouvoir de police renforcé des maires Amendes prélevées directement sur les prestations sociales Lire plus"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/justice",
+      "text": "Justice Le rétablissement des peines planchers Des peines de prison courtes, dès la première infraction 30 000 places de prison pour les peines courtes Lire plus"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/immigration",
+      "text": "Immigration Division par deux de l’immigration légale Moratoire sur le regroupement familial Dénonciation de l’accord de 1968 avec l’Algérie Lire plus"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/justice",
+      "text": "Par exemple : « Que propose Édouard Philippe pour la justice ? »"
+    },
+    {
+      "href": "https://www.facebook.com/edouardphilippelh",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/edouardphilippelh/",
+      "text": ""
+    },
+    {
+      "href": "https://x.com/EPhilippe_LH",
+      "text": ""
+    },
+    {
+      "href": "https://www.tiktok.com/@avec_edouard",
+      "text": ""
+    },
+    {
+      "href": "https://www.youtube.com/@EdouardPhilippe",
+      "text": ""
+    },
+    {
+      "href": "https://www.linkedin.com/company/horizonsleparti/",
+      "text": ""
+    },
+    {
+      "href": "https://whatsapp.com/channel/0029Vb2lsUl1XquO5oXP803R",
+      "text": ""
+    },
+    {
+      "href": "https://t.me/HorizonsOff",
+      "text": ""
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/edouard-philippe",
+      "text": "Édouard Philippe"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme",
+      "text": "Le programme"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/actualites",
+      "text": "Actus"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/a-propos",
+      "text": "L’équipe"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/contact",
+      "text": "Contact"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/pages/mentions-legales",
+      "text": "Mentions légales"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/pages/politique-de-confidentialite",
+      "text": "Données personnelles"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "axeptio_cookies_edouard-philippe-base_value",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "axeptio_cookies_edouard-philippe-base_accept",
+      "id": "axeptio_consent_checkbox",
+      "value": "0",
+      "label": "Axeptio consent"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "axeptio_main_button",
+      "value": "",
+      "label": "Gérez vos préférences en matière de cookies et données personnelles"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "menu-open",
+      "value": "",
+      "label": "Ouvrir le menu"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "menu-close",
+      "value": "",
+      "label": "Fermer le menu"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "_token",
+      "id": "",
+      "value": "12SJDx4KzxLcJ9GHyKnDTznlNrWv4Uld7GDXdPkm",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "website",
+      "id": "av-website",
+      "value": "",
+      "label": "Ne pas remplir"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "note",
+      "id": "",
+      "value": "1",
+      "label": "1 sur 5 : Pas du tout"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "note",
+      "id": "",
+      "value": "2",
+      "label": "2 sur 5"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "note",
+      "id": "",
+      "value": "3",
+      "label": "3 sur 5"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "note",
+      "id": "",
+      "value": "4",
+      "label": "4 sur 5"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "note",
+      "id": "",
+      "value": "5",
+      "label": "5 sur 5 : Tout à fait"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "sens",
+      "id": "",
+      "value": "1",
+      "label": "1 sur 5 : Pas assez loin"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "sens",
+      "id": "",
+      "value": "2",
+      "label": "2 sur 5"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "sens",
+      "id": "",
+      "value": "3",
+      "label": "3 sur 5 : Juste ce qu’il faut"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "sens",
+      "id": "",
+      "value": "4",
+      "label": "4 sur 5"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "sens",
+      "id": "",
+      "value": "5",
+      "label": "5 sur 5 : Trop loin"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "mesures_preferees[]",
+      "id": "",
+      "value": "Une loi de massification de nos armées pour avoir plus de soldats, de réservistes, de munitions et de drones.",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "mesures_preferees[]",
+      "id": "",
+      "value": "Le rétablissement d’un service national obligatoire et universel, avec le choix entre une option militaire et plusieurs options civiles, et 250 000 réservistes.",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "mesures_preferees[]",
+      "id": "",
+      "value": "Des armements « made in Europe » : au moins 1 % de la richesse nationale des pays de l’Union européenne consacré à des équipements fabriqués en Europe, grâce à une vraie préférence européenne en matière d’armements.",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "mesures_preferees[]",
+      "id": "",
+      "value": "Soutenir pleinement l’Ukraine, qui a vocation à intégrer l’OTAN.",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "mesures_preferees[]",
+      "id": "",
+      "value": "Une dissuasion nucléaire modernisée.",
+      "label": ""
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": "message",
+      "id": "av-avis",
+      "value": "",
+      "label": "3Avez-vous une proposition sur cette thématique ? (optionnel)"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "prenom",
+      "id": "av-prenom",
+      "value": "",
+      "label": "Prénom *"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "nom",
+      "id": "av-nom",
+      "value": "",
+      "label": "Nom *"
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "email",
+      "id": "av-email",
+      "value": "",
+      "label": "Adresse e-mail *"
+    },
+    {
+      "tag": "input",
+      "type": "date",
+      "name": "date_naissance",
+      "id": "av-naissance",
+      "value": "",
+      "label": "Date de naissance *"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Pays choisi"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "name": "",
+      "id": "iti-0__search-input",
+      "value": "",
+      "label": "Rechercher un pays"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Effacer la recherche"
+    },
+    {
+      "tag": "input",
+      "type": "tel",
+      "name": "",
+      "id": "av-tel",
+      "value": "",
+      "label": "Téléphone (facultatif)"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "telephone",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "telephone_pays",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "adresse",
+      "id": "av-adresse",
+      "value": "",
+      "label": "Adresse postale *"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "ban_id",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "insee_code",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "latitude",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "longitude",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "code_postal",
+      "id": "av-cp",
+      "value": "",
+      "label": "Code postal *"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "ville",
+      "id": "av-ville",
+      "value": "",
+      "label": "Ville *"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "pays",
+      "id": "av-pays",
+      "value": "France",
+      "label": "Pays *"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "consent",
+      "id": "",
+      "value": "1",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "",
+      "id": "altcha-checkbox-bed7cc3def",
+      "value": "on",
+      "label": "Vérifié"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "altcha",
+      "id": "",
+      "value": "eyJhbGdvcml0aG0iOiJTSEEtMjU2IiwiY2hhbGxlbmdlIjoiZGY2NzQzZjMzNDBmMDBiYzAxM2M5NjBmMzQyNjRmMTcwZmNjYmFhOGI3ODBmMTc1MWVlMDM3NTVhYWE1YjZiYSIsIm51bWJlciI6ODkwNzQsInNhbHQiOiJhZjVkNWE3ZDZiYTUyODNjZDY5ZmY5ZmM/ZXhwaXJlcz0xNzk1NjgyNTM3JiIsInNpZ25hdHVyZSI6Ijc5NGM5ZTYwM2Q2NmMzMGEzNTM5NWYxNmQ3YmFjMWU5ZDM1NzlhMjcyZWExOTc4ZWE2ZjNlZWM3Y2NjYzA2ODMiLCJ0b29rIjozNTcuNX0=",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "name": "",
+      "id": "q",
+      "value": "",
+      "label": "Rechercher dans le programme"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "open-axeptio",
+      "value": "",
+      "label": ""
+    }
+  ],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://www.edouardphilippe.fr/programme/defense",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.edouardphilippe.fr/altcha/challenge",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://client.axept.io/projectconfigurations/brands/606722fe6ac944450ffeb559.json?r=0",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4FNJBCSNBB&gtm=45je6bh1v877959061za208zd877959061xf1&_p=1795681937795&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dNGFkYj&_eu=AAAAACAC&cid=1582369902.1795681938&frm=0&ibt=1&ngs=1&pscdl=denied&rcb=4&sr=1280x1600&uaa=x86&uab=64&uafvl=Not-A.Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B157.0.8103.78%7CChromium%3B157.0.8103.78&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115616986~115938465~115938468~120213116~120385422~120469145~120469153~121246026~121246034&sid=1795681937&sct=1&seg=0&dl=https%3A%2F%2Fwww.edouardphilippe.fr%2Fprogramme%2Fdefense&dt=D%C3%A9fense%20%E2%80%94%20Le%20programme%20%E2%80%94%20Avec%20%C3%89douard%202027&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1241",
+      "resourceType": "fetch",
+      "postData": null
+    }
+  ]
+}

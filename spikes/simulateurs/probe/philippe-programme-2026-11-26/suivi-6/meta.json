@@ -1,0 +1,763 @@
+{
+  "requested": "https://www.edouardphilippe.fr/programme/travail",
+  "final": "https://www.edouardphilippe.fr/programme/travail",
+  "status": 200,
+  "title": "Travail et salaires — Le programme — Avec Édouard 2027",
+  "iframes": [
+    "https://www.edouardphilippe.fr/programme/travail"
+  ],
+  "links": [
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail#contenu",
+      "text": "Aller au contenu"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/edouard-philippe",
+      "text": "Édouard Philippe"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme",
+      "text": "Le programme"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/actualites",
+      "text": "Actus"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/actualites#deplacements",
+      "text": "Déplacements"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/actualites#medias",
+      "text": "Dans les médias"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/a-propos",
+      "text": "L’équipe"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/a-propos",
+      "text": "L’équipe de campagne"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/jeunes",
+      "text": "Les jeunes avec Édouard"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/comites",
+      "text": "Les comités avec Édouard"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/elus",
+      "text": "Les élus avec Édouard"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/don",
+      "text": "Donner"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/rejoindre",
+      "text": "RejoindreRejoindre →"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/don",
+      "text": "Donner"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/rejoindre",
+      "text": "Rejoindre"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/edouard-philippe",
+      "text": "Édouard Philippe"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme",
+      "text": "Le programme"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/actualites#deplacements",
+      "text": "Déplacements"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/actualites#medias",
+      "text": "Dans les médias"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/a-propos",
+      "text": "L’équipe de campagne"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/jeunes",
+      "text": "Les jeunes avec Édouard"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/comites",
+      "text": "Les comités avec Édouard"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/elus",
+      "text": "Les élus avec Édouard"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/",
+      "text": "Accueil"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme",
+      "text": "Le programme"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/securite",
+      "text": "Sécurité"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/justice",
+      "text": "Justice"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/immigration",
+      "text": "Immigration"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/defense",
+      "text": "Défense"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail",
+      "text": "Travail et salaires"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/entreprises",
+      "text": "Entreprises et industrie"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/comptes-publics",
+      "text": "Finances publiques"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/retraites",
+      "text": "Retraites"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/ecole",
+      "text": "École"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/famille",
+      "text": "Famille"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/protection-de-l-enfance",
+      "text": "Protection de l’enfance"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/logement",
+      "text": "Logement"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/handicap",
+      "text": "Handicap"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/intelligence-artificielle",
+      "text": "Intelligence artificielle"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/energie",
+      "text": "Énergie"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/adaptation-climatique",
+      "text": "Adaptation climatique"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/outre-mer",
+      "text": "Outre-mer"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail#que-propose-edouard-philippe-pour-le-travail",
+      "text": "Que propose Édouard Philippe pour le travail ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail#edouard-philippe-va-t-il-augmenter-le-salaire-net",
+      "text": "Édouard Philippe veut-il augmenter le salaire net des Français ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail#edouard-philippe-va-t-il-baisser-les-cotisations-sur-les-s",
+      "text": "Édouard Philippe va-t-il baisser les cotisations sur les salaires ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail#edouard-philippe-veut-il-que-travailler-rapporte-plus-que",
+      "text": "Avec Édouard Philippe, gagnera-t-on plus en travaillant qu’en ne travaillant pas ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail#que-propose-edouard-philippe-pour-les-salaries-au-smic",
+      "text": "Que propose Édouard Philippe pour les salariés au SMIC ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail#edouard-philippe-veut-il-supprimer-les-35-heures",
+      "text": "Édouard Philippe veut-il supprimer les 35 heures ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail#avec-edouard-philippe-les-heures-supplementaires-seront-el",
+      "text": "Avec Édouard Philippe, les heures supplémentaires seront-elles défiscalisées ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail#comment-edouard-philippe-veut-il-faire-baisser-le-chomage",
+      "text": "Comment Édouard Philippe veut-il faire baisser le chômage ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail#edouard-philippe-va-t-il-reduire-la-duree-des-allocations",
+      "text": "Édouard Philippe va-t-il réduire la durée des allocations chômage ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail#avec-edouard-philippe-combien-de-jours-d-arret-maladie-ne",
+      "text": "Avec Édouard Philippe, combien de jours d’arrêt maladie ne seront pas payés ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail#que-fera-edouard-philippe-contre-le-chantage-a-l-arret-mal",
+      "text": "Que fera Édouard Philippe contre le chantage à l’arrêt maladie ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail#que-change-edouard-philippe-pour-les-ruptures-conventionne",
+      "text": "Que change Édouard Philippe pour les ruptures conventionnelles ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail#que-propose-edouard-philippe-pour-les-salaries-menaces-par",
+      "text": "Que propose Édouard Philippe pour les salariés menacés par l’intelligence artificielle ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail#que-fera-edouard-philippe-pour-le-retour-au-travail-apres-travail",
+      "text": "Que fera Édouard Philippe pour le retour au travail après la naissance d’un enfant ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail#que-fera-edouard-philippe-pour-l-emploi-des-seniors-travail",
+      "text": "Que fera Édouard Philippe pour l’emploi des seniors ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail#quelle-place-edouard-philippe-donne-t-il-aux-syndicats",
+      "text": "Quelle place Édouard Philippe donne-t-il aux syndicats ?"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme#recherche",
+      "text": "Poser une question →"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme",
+      "text": "→ Le programme"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/travail#avis-coordonnees",
+      "text": "Envoyer mon avis →"
+    },
+    {
+      "href": "https://whatsapp.com/channel/0029Vb2lsUl1XquO5oXP803R",
+      "text": "Rejoindre le groupe WhatsApp →"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/pages/politique-de-confidentialite",
+      "text": "politique de confidentialité"
+    },
+    {
+      "href": "https://altcha.org/",
+      "text": ""
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/entreprises",
+      "text": "Entreprises et industrie 50 milliards d’impôts de production en moins Zéro nouvelle norme et zéro surtransposition Des fonds de capitalisation pour flécher l’épargne vers l’économie Lire plus"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/comptes-publics",
+      "text": "Finances publiques Une règle d’or adoptée par référendum Déficit ramené sous 2,5 % de la richesse nationale Aucun nouvel impôt pendant cinq ans Lire plus"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/retraites",
+      "text": "Retraites Départ à 65 ans, 45 ans de cotisation Départ précoce pour un tiers des Français Capitalisation collective pour tous Lire plus"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme/justice",
+      "text": "Par exemple : « Que propose Édouard Philippe pour la justice ? »"
+    },
+    {
+      "href": "https://www.facebook.com/edouardphilippelh",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/edouardphilippelh/",
+      "text": ""
+    },
+    {
+      "href": "https://x.com/EPhilippe_LH",
+      "text": ""
+    },
+    {
+      "href": "https://www.tiktok.com/@avec_edouard",
+      "text": ""
+    },
+    {
+      "href": "https://www.youtube.com/@EdouardPhilippe",
+      "text": ""
+    },
+    {
+      "href": "https://www.linkedin.com/company/horizonsleparti/",
+      "text": ""
+    },
+    {
+      "href": "https://whatsapp.com/channel/0029Vb2lsUl1XquO5oXP803R",
+      "text": ""
+    },
+    {
+      "href": "https://t.me/HorizonsOff",
+      "text": ""
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/edouard-philippe",
+      "text": "Édouard Philippe"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/programme",
+      "text": "Le programme"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/actualites",
+      "text": "Actus"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/a-propos",
+      "text": "L’équipe"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/contact",
+      "text": "Contact"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/pages/mentions-legales",
+      "text": "Mentions légales"
+    },
+    {
+      "href": "https://www.edouardphilippe.fr/pages/politique-de-confidentialite",
+      "text": "Données personnelles"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "axeptio_cookies_edouard-philippe-base_value",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "axeptio_cookies_edouard-philippe-base_accept",
+      "id": "axeptio_consent_checkbox",
+      "value": "0",
+      "label": "Axeptio consent"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "axeptio_main_button",
+      "value": "",
+      "label": "Gérez vos préférences en matière de cookies et données personnelles"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "menu-open",
+      "value": "",
+      "label": "Ouvrir le menu"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "menu-close",
+      "value": "",
+      "label": "Fermer le menu"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "_token",
+      "id": "",
+      "value": "12SJDx4KzxLcJ9GHyKnDTznlNrWv4Uld7GDXdPkm",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "website",
+      "id": "av-website",
+      "value": "",
+      "label": "Ne pas remplir"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "note",
+      "id": "",
+      "value": "1",
+      "label": "1 sur 5 : Pas du tout"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "note",
+      "id": "",
+      "value": "2",
+      "label": "2 sur 5"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "note",
+      "id": "",
+      "value": "3",
+      "label": "3 sur 5"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "note",
+      "id": "",
+      "value": "4",
+      "label": "4 sur 5"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "note",
+      "id": "",
+      "value": "5",
+      "label": "5 sur 5 : Tout à fait"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "sens",
+      "id": "",
+      "value": "1",
+      "label": "1 sur 5 : Pas assez loin"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "sens",
+      "id": "",
+      "value": "2",
+      "label": "2 sur 5"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "sens",
+      "id": "",
+      "value": "3",
+      "label": "3 sur 5 : Juste ce qu’il faut"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "sens",
+      "id": "",
+      "value": "4",
+      "label": "4 sur 5"
+    },
+    {
+      "tag": "input",
+      "type": "radio",
+      "name": "sens",
+      "id": "",
+      "value": "5",
+      "label": "5 sur 5 : Trop loin"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "mesures_preferees[]",
+      "id": "",
+      "value": "Augmenter le salaire net en baissant la dépense sociale : une partie des économies sur les retraites, l’assurance chômage et les arrêts maladie sera redistribuée en pouvoir d’achat.",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "mesures_preferees[]",
+      "id": "",
+      "value": "Laisser les entreprises organiser leur temps de travail.",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "mesures_preferees[]",
+      "id": "",
+      "value": "Limiter à 12 mois l’indemnisation chômage des moins de 50 ans.",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "mesures_preferees[]",
+      "id": "",
+      "value": "Trois jours de carence pour tous, dans le privé comme dans le public.",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "mesures_preferees[]",
+      "id": "",
+      "value": "Développer l’apprentissage.",
+      "label": ""
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": "message",
+      "id": "av-avis",
+      "value": "",
+      "label": "3Avez-vous une proposition sur cette thématique ? (optionnel)"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Fermer"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "prenom",
+      "id": "av-prenom",
+      "value": "",
+      "label": "Prénom *"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "nom",
+      "id": "av-nom",
+      "value": "",
+      "label": "Nom *"
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "email",
+      "id": "av-email",
+      "value": "",
+      "label": "Adresse e-mail *"
+    },
+    {
+      "tag": "input",
+      "type": "date",
+      "name": "date_naissance",
+      "id": "av-naissance",
+      "value": "",
+      "label": "Date de naissance *"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Pays choisi"
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "name": "",
+      "id": "iti-0__search-input",
+      "value": "",
+      "label": "Rechercher un pays"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": "Effacer la recherche"
+    },
+    {
+      "tag": "input",
+      "type": "tel",
+      "name": "",
+      "id": "av-tel",
+      "value": "",
+      "label": "Téléphone (facultatif)"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "telephone",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "telephone_pays",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "adresse",
+      "id": "av-adresse",
+      "value": "",
+      "label": "Adresse postale *"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "ban_id",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "insee_code",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "latitude",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "longitude",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "code_postal",
+      "id": "av-cp",
+      "value": "",
+      "label": "Code postal *"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "ville",
+      "id": "av-ville",
+      "value": "",
+      "label": "Ville *"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "pays",
+      "id": "av-pays",
+      "value": "France",
+      "label": "Pays *"
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "consent",
+      "id": "",
+      "value": "1",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "",
+      "id": "altcha-checkbox-9dc515c841",
+      "value": "on",
+      "label": "Vérifié"
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "altcha",
+      "id": "",
+      "value": "eyJhbGdvcml0aG0iOiJTSEEtMjU2IiwiY2hhbGxlbmdlIjoiMDQwY2JiY2YwNmRmN2UzOWMyMDQwZjhkYzRmYjIwZjI2MWIyZGIxNjZlZTBkMzkzYmUxMzBmMGQ3N2NhNWJiMiIsIm51bWJlciI6Mzc5MzYsInNhbHQiOiJlMDg3YTBkZjVmNzc1MDZlZWQ4Njc0NzU/ZXhwaXJlcz0xNzk1NjgyNTQxJiIsInNpZ25hdHVyZSI6Ijk1ZmQ0YWYwYThjYzg0NTgzOWMzMmJiMDlkYTU3MzFlMDExNGRiODNiNGUyYzAzN2NhNmJkYTQ1ZDM3OTAyZDgiLCJ0b29rIjoxNjkuNH0=",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "search",
+      "name": "",
+      "id": "q",
+      "value": "",
+      "label": "Rechercher dans le programme"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "open-axeptio",
+      "value": "",
+      "label": ""
+    }
+  ],
+  "calls": [
+    {
+      "method": "GET",
+      "url": "https://www.edouardphilippe.fr/programme/travail",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://www.edouardphilippe.fr/altcha/challenge",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "GET",
+      "url": "https://client.axept.io/projectconfigurations/brands/606722fe6ac944450ffeb559.json?r=0",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "method": "POST",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4FNJBCSNBB&gtm=45je6bh1v877959061za208zd877959061xf1&_p=1795681941300&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dNGFkYj&_eu=AAAAACAC&cid=733043566.1795681942&frm=0&ibt=1&ngs=1&pscdl=denied&rcb=12&sr=1280x1600&uaa=x86&uab=64&uafvl=Not-A.Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B157.0.8103.78%7CChromium%3B157.0.8103.78&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=fr-fr&_s=1&tag_exp=115938466~115938468~119863601~120213116~120385423~120469145~120469153~121246026~121246034&sid=1795681941&sct=1&seg=0&dl=https%3A%2F%2Fwww.edouardphilippe.fr%2Fprogramme%2Ftravail&dt=Travail%20et%20salaires%20%E2%80%94%20Le%20programme%20%E2%80%94%20Avec%20%C3%89douard%202027&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1109",
+      "resourceType": "fetch",
+      "postData": null
+    }
+  ]
+}

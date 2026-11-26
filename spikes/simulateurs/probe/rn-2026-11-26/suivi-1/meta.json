@@ -1,0 +1,571 @@
+{
+  "requested": "https://rassemblementnational.fr/programme-patriotes-pour-leurope",
+  "final": "https://rassemblementnational.fr/programme-patriotes-pour-leurope",
+  "status": 200,
+  "title": "Rassemblement National - Accueil",
+  "iframes": [
+    "https://rassemblementnational.fr/programme-patriotes-pour-leurope"
+  ],
+  "links": [
+    {
+      "href": "https://rassemblementnational.fr/",
+      "text": "RN"
+    },
+    {
+      "href": "https://rassemblementnational.fr/programme-patriotes-pour-leurope",
+      "text": ""
+    },
+    {
+      "href": "https://rassemblementnational.fr/congres2026",
+      "text": ""
+    },
+    {
+      "href": "https://francaisdeletranger.rassemblementnational.fr/",
+      "text": "Les Français de l'étranger"
+    },
+    {
+      "href": "https://rassemblementnational.fr/les-federations-du-rassemblement-national",
+      "text": "Les fédérations métropolitaines"
+    },
+    {
+      "href": "https://rassemblementnational.fr/les-federations-dom-tom-du-rassemblement-national",
+      "text": "Les fédérations d’Outre-mer"
+    },
+    {
+      "href": "https://francaisdeletranger.rassemblementnational.fr/",
+      "text": "Les Français de l’étranger"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/bureau-executif",
+      "text": "Bureau Exécutif"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/bureau-national",
+      "text": "Bureau National"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/commission-nationale-investiture",
+      "text": "Commission Nationale d'Investiture"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/commission-des-conflits",
+      "text": "Commission des Conflits"
+    },
+    {
+      "href": "https://rassemblementnational.fr/conseil-national",
+      "text": "Conseil national"
+    },
+    {
+      "href": "https://rassemblementnational.fr/le-congres",
+      "text": "Le Congrès"
+    },
+    {
+      "href": "https://rassemblementnational.fr/congres2022",
+      "text": "18ème congrès"
+    },
+    {
+      "href": "https://rassemblementnational.fr/les-adherents",
+      "text": "Les adhérents"
+    },
+    {
+      "href": "https://rassemblementnational.fr/assemblee-generale-extraordinaire5nov2022",
+      "text": "Assemblée générale extraordinaire"
+    },
+    {
+      "href": "https://rassemblementnational.fr/communiques",
+      "text": "Communiqués"
+    },
+    {
+      "href": "https://rassemblementnational.fr/tribunes-libres",
+      "text": "Tribunes libres"
+    },
+    {
+      "href": "https://rassemblementnational.fr/lettre-ouverte",
+      "text": "Lettre ouverte"
+    },
+    {
+      "href": "https://rassemblementnational.fr/videos",
+      "text": "Vidéos"
+    },
+    {
+      "href": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+      "text": "Découvrez le programme"
+    },
+    {
+      "href": "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf",
+      "text": "Contre-Budget 2026"
+    },
+    {
+      "href": "https://rassemblementnational.fr/livrets-thematiques",
+      "text": "Livrets thématiques"
+    },
+    {
+      "href": "https://twitter.com/RNational_off",
+      "text": ""
+    },
+    {
+      "href": "https://www.facebook.com/RassemblementNational/",
+      "text": ""
+    },
+    {
+      "href": "https://www.youtube.com/user/fnofficiel",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/rassemblementnational_fr/",
+      "text": ""
+    },
+    {
+      "href": "https://t.me/rassemblementnational",
+      "text": ""
+    },
+    {
+      "href": "https://www.tiktok.com/@rnational_off?_t=8jFRT5Fgrpp&_r=1",
+      "text": ""
+    },
+    {
+      "href": "https://rassemblementnational.fr/les-federations-du-rassemblement-national",
+      "text": "Les fédérations métropolitaines"
+    },
+    {
+      "href": "https://rassemblementnational.fr/les-federations-dom-tom-du-rassemblement-national",
+      "text": "Les fédérations d’Outre-mer"
+    },
+    {
+      "href": "https://francaisdeletranger.rassemblementnational.fr/",
+      "text": "Les Français de l’étranger"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/bureau-executif",
+      "text": "Bureau exécutif"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/bureau-national",
+      "text": "Bureau national"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/commission-nationale-investiture",
+      "text": "Commission nationale d'investiture"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/commission-des-conflits",
+      "text": "Commission des conflits"
+    },
+    {
+      "href": "https://rassemblementnational.fr/conseil-national",
+      "text": "Conseil national"
+    },
+    {
+      "href": "https://rassemblementnational.fr/le-congres",
+      "text": "Le Congrès"
+    },
+    {
+      "href": "https://rassemblementnational.fr/congres2022",
+      "text": "18ème congrès"
+    },
+    {
+      "href": "https://rassemblementnational.fr/les-adherents",
+      "text": "Les adhérents"
+    },
+    {
+      "href": "https://rassemblementnational.fr/assemblee-generale-extraordinaire5nov2022",
+      "text": "Assemblée générale extraordinaire"
+    },
+    {
+      "href": "https://rassemblementnational.fr/reglement-interieur-du-rassemblement-national",
+      "text": "Le règlement intérieur"
+    },
+    {
+      "href": "https://rassemblementnational.fr/statuts-du-rassemblement-national",
+      "text": "Statuts du Rassemblement National"
+    },
+    {
+      "href": "https://rassemblementnational.fr/videos",
+      "text": "Vidéos"
+    },
+    {
+      "href": "https://rassemblementnational.fr/communiques",
+      "text": "Communiqués"
+    },
+    {
+      "href": "https://rassemblementnational.fr/interventions",
+      "text": "Vie parlementaire"
+    },
+    {
+      "href": "https://rassemblementnational.fr/tribunes-libres",
+      "text": "Tribunes libres"
+    },
+    {
+      "href": "https://rassemblementnational.fr/discours",
+      "text": "Discours"
+    },
+    {
+      "href": "https://rassemblementnational.fr/conferences-de-presse",
+      "text": "Conférences de presse"
+    },
+    {
+      "href": "https://rassemblementnational.fr/lettre-ouverte",
+      "text": "Lettre ouverte"
+    },
+    {
+      "href": "https://rassemblementnational.fr/communiques/budget-europeen-controler-largent-pas-mettre-les-etats-sous-tutelle-2",
+      "text": "Global Europe : 225 milliards d’euros pour l’hégémonie diplomatique de Bruxelles ? Jean-Paul Garraud - 25 novembre 2026"
+    },
+    {
+      "href": "https://rassemblementnational.fr/communiques/budget-europeen-controler-largent-pas-mettre-les-etats-sous-tutelle",
+      "text": "Budget européen : contrôler l'argent, pas mettre les États sous tutelle ! Jean-Paul Garraud - 24 novembre 2026"
+    },
+    {
+      "href": "https://rassemblementnational.fr/programme-patriotes-pour-leurope#",
+      "text": "Toute l'actualité →"
+    },
+    {
+      "href": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+      "text": "Législatives 2024 Découvrez le programme."
+    },
+    {
+      "href": "https://rassemblementnational.fr/documents/202411-programme-europeennes.pdf",
+      "text": "Européennes 2024 Découvrez le programme."
+    },
+    {
+      "href": "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf",
+      "text": "Contre-Budget 2026 Découvrez le programme."
+    },
+    {
+      "href": "https://rassemblementnational.fr/documents/WEB-GRN-LIVRET-ENTREPRISE.pdf",
+      "text": "La France entreprend Découvrez le programme."
+    },
+    {
+      "href": "https://rassemblementnational.fr/livrets-thematiques",
+      "text": "Livrets thématiques Retrouvez les livrets thématiques de Marine Le Pen."
+    },
+    {
+      "href": "https://rassemblementnational.fr/tracts",
+      "text": "Militer"
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/?utm_source=SiteRN&utm_medium=SiteRN_blochaut_adherer&utm_campaign=SiteRN_blochaut_adherer",
+      "text": "Adhérer"
+    },
+    {
+      "href": "https://rassemblementnational.fr/congres2026",
+      "text": ""
+    },
+    {
+      "href": "https://rassemblementnational.fr/programme-patriotes-pour-leurope",
+      "text": ""
+    },
+    {
+      "href": "https://rassemblementnational.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://rassemblementnational.fr/programme-patriotes-pour-leurope",
+      "text": ""
+    },
+    {
+      "href": "https://twitter.com/RNational_off",
+      "text": ""
+    },
+    {
+      "href": "https://www.facebook.com/RassemblementNational/",
+      "text": ""
+    },
+    {
+      "href": "https://www.youtube.com/user/fnofficiel",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/rassemblementnational_fr/",
+      "text": ""
+    },
+    {
+      "href": "https://t.me/rassemblementnational",
+      "text": ""
+    },
+    {
+      "href": "https://www.tiktok.com/@rnational_off?_t=8jFRT5Fgrpp&_r=1",
+      "text": ""
+    },
+    {
+      "href": "https://deputes-rn.fr/",
+      "text": ""
+    },
+    {
+      "href": "https://rassemblementnational.fr/les-federations-du-rassemblement-national",
+      "text": "Les fédérations métropolitaines"
+    },
+    {
+      "href": "https://rassemblementnational.fr/les-federations-dom-tom-du-rassemblement-national",
+      "text": "Les fédérations d’Outre-mer"
+    },
+    {
+      "href": "https://francaisdeletranger.rassemblementnational.fr/",
+      "text": "Les Français de l’étranger"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/bureau-executif",
+      "text": "Bureau Exécutif"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/bureau-national",
+      "text": "Bureau National"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/commission-nationale-investiture",
+      "text": "Commission Nationale d'Investiture"
+    },
+    {
+      "href": "https://rassemblementnational.fr/instances/commission-des-conflits",
+      "text": "Commission des Conflits"
+    },
+    {
+      "href": "https://rassemblementnational.fr/le-congres",
+      "text": "Le Congrès"
+    },
+    {
+      "href": "https://rassemblementnational.fr/les-adherents",
+      "text": "Les adhérents"
+    },
+    {
+      "href": "https://rassemblementnational.fr/communiques",
+      "text": "Communiqués"
+    },
+    {
+      "href": "https://rassemblementnational.fr/tribunes-libres",
+      "text": "Tribunes libres"
+    },
+    {
+      "href": "https://rassemblementnational.fr/lettre-ouverte",
+      "text": "Lettre ouverte"
+    },
+    {
+      "href": "https://rassemblementnational.fr/videos",
+      "text": "Vidéos"
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/?utm_source=SiteRN&utm_medium=SiteRN_footer_adherer&utm_campaign=SiteRN_footer_adherer",
+      "text": "J'adhère au RN"
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/dons/?utm_source=SiteRN&utm_medium=SiteRN_footer_donner&utm_campaign=SiteRN_footer_donner",
+      "text": "Je donne au RN"
+    },
+    {
+      "href": "https://rassemblementnational.fr/tracts",
+      "text": "Je m'engage au RN"
+    },
+    {
+      "href": "https://rassemblementnational.fr/formulaire-contact",
+      "text": "Contacter le RN"
+    },
+    {
+      "href": "https://rassemblementnational.fr/formulaire-de-gestion-dexercice-des-droits-rgpd",
+      "text": "Formulaire RGPD"
+    },
+    {
+      "href": "https://rassemblementnational.fr/mentions-legales",
+      "text": "Mentions légales et CGU"
+    },
+    {
+      "href": "https://rassemblementnational.fr/politique-protection-donnees",
+      "text": "Politique de Confidentialité"
+    },
+    {
+      "href": "https://rassemblementnational.fr/politique-de-cookies",
+      "text": "Politique des cookies"
+    },
+    {
+      "href": "https://rassemblementnational.fr/formulaire-contact",
+      "text": "Nous contacter"
+    },
+    {
+      "href": "https://rassemblementnational.fr/formulaire-de-gestion-dexercice-des-droits-rgpd",
+      "text": "Formulaire RGPD"
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/?utm_source=SiteRN&utm_medium=SiteRN_bandeau&utm_campaign=SiteRN_bandeau",
+      "text": "Adhésion"
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/dons?type=ponctuel&amount=50&utm_source=SiteRN&utm_medium=SiteRN_bandeau&utm_campaign=SiteRN_bandeau",
+      "text": "50 €"
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/dons?type=ponctuel&amount=100&utm_source=SiteRN&utm_medium=SiteRN_bandeau&utm_campaign=SiteRN_bandeau",
+      "text": "100 €"
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/dons?type=ponctuel&amount=500&utm_source=SiteRN&utm_medium=SiteRN_bandeau&utm_campaign=SiteRN_bandeau",
+      "text": "500 €"
+    },
+    {
+      "href": "https://adhesions.rassemblementnational.fr/dons?type=ponctuel&amount=1000&utm_source=SiteRN&utm_medium=SiteRN_bandeau&utm_campaign=SiteRN_bandeau",
+      "text": "1 000 €"
+    }
+  ],
+  "fields": [
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "axeptio_cookies_rassemblement national-fr-EU_value",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "axeptio_cookies_rassemblement national-fr-EU_accept",
+      "id": "axeptio_consent_checkbox",
+      "value": "0",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "axeptio_main_button",
+      "value": "",
+      "label": "Gérez vos préférences en matière de cookies et données personnelles"
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "search",
+      "id": "search",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "search",
+      "id": "search",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "name": "email-address",
+      "id": "email-address",
+      "value": "",
+      "label": "Adresse électronique"
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "name": "",
+      "id": "",
+      "value": "",
+      "label": ""
+    }
+  ],
+  "calls": [
+    {
+      "method": "POST",
+      "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+      "resourceType": "xhr",
+      "postData": "{\"context\":{\"client\":{\"hl\":\"fr\",\"gl\":\"US\",\"clientName\":56,\"clientVersion\":\"2.20261125.00.00\",\"configInfo\":{\"appInstallData\":\"CMjdn9gGEMn2gBMQyvuAExDBj9AcEO370hwQ3orTHBC9tq4FEJzl0hwQjuTRHBCh_tEcEOqM0xwQuOTOHBDa984cEIeszhwQ04rTHBC54IATEJ_PgBMQzN-uBRDxntMcEN68zhwQ8N7RHBCBzc4cEJmNsQUQ9quwBRD82tIcEL230xwQv_7SHBDyldMcEPSV0xwQp7_THBCkqdEcELuMuCIQrtbPHBDxtNAcENOk0hwQvYqwBRDwnLAFEJev0hwQmK_SHBC8pNAcENXS0xwQrpnSHBDZqdMcEOyw0xwQltnSHBDdqdMcEMfG0xwQ5rrTHBCextMcEL660xwQl8LTHBD8ndMcEKG70xwQ15_THBCS8tEcEK_40RwQibDOHBCxkdEcEL740hwQu_zSHBCkrdMcEM2Q0xwQ9vfRHBD5ldMcELGd_xIqZENBTVNSUlZHLVpxLURMaVVFcFFDblJ1ZUJhZnlEOXdVMEFUekJNa0ZDWjhHeFFIbm5la0w1YXdFazh3RHR1UUc1SVVYckxzRDJkVUZueXU4andtMlltZXMzd1N0dmdVZEJ3PT0wAA%3D%3D\"},\"userAgent\":\"MonQuinquennat-ReleveSimulateurs/0.1 (+https://github.com/BaptisteLac/mon-quinquennat)\",\"connectionType\":\"CONN_CELLULAR_4G\",\"osName\":\"+https://github.com/BaptisteLac/mon-quinquennat\",\"platform\":\"DESKTOP\",\"windowWidthPoints\":628,\"windowHeightPoints\":353},\"thirdParty\":{\"embedUrl\":\"https://rassemblementnational.fr/\"}},\"events\":[{\"eventTimeMs\":1795682003331,\"finalPayload\":{\"csn\":\"2hHyVTjwd8IgnfWu\"},\"context\":{\"lastActivityMs\":\"694\"}}],\"serializedClientEventId\":{\"serializedEventId\":\"yO4Ha5aTJuGR6NwP85DzqQg\",\"clientCounter\":\"28893\"}}"
+    },
+    {
+      "method": "GET",
+      "url": "https://rassemblementnational.fr/programme-patriotes-pour-leurope",
+      "resourceType": "document",
+      "postData": null
+    },
+    {
+      "method": "POST",
+      "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+      "resourceType": "xhr",
+      "postData": "{\"context\":{\"client\":{\"hl\":\"fr\",\"gl\":\"US\",\"clientName\":56,\"clientVersion\":\"2.20261125.00.00\",\"configInfo\":{\"appInstallData\":\"CMjdn9gGEMn2gBMQyvuAExDBj9AcEO370hwQ3orTHBC2pNEcEL22rgUQnOXSHBCO5NEcEOqM0xwQuOTOHBDa984cEIeszhwQ04rTHBCfz4ATEMzfrgUQ8Z7THBDevM4cEPDe0RwQgc3OHBCZjbEFEParsAUQ_NrSHBC9t9McEL_-0hwQ8pXTHBD0ldMcEKe_0xwQpKnRHBDcqNIcELuMuCIQrtbPHBDxtNAcENKk0hwQvoqwBRCWr9IcEJiv0hwQvKTQHBDH0tMcENmp0xwQ7LDTHBCW2dIcEN6p0xwQ5rrTHBCbvtMcEJ7G0xwQv7rTHBCXwtMcEPyd0xwQoLvTHBDWn9McEJ6J0hwQr_jRHBCJsM4cEJ2W0xwQsZHRHBC--NIcELv80hwQpK3THBDOkNMcEPb30RwQ-JXTHBDZhdAcKmRDQU1TUmhWRi1acS1ETGlVRXBRQ25SdWVCYWZ5RDl3VTBBVHpCTWtGQ0pBR3dRSGJuZWtMNWF3RWs4d0R0dVFHNUlVWHJMc0QyZFVGbnl1OGp3bjlRTEVhWjdfYkJmWjhIUWM9MAA%3D\"},\"userAgent\":\"MonQuinquennat-ReleveSimulateurs/0.1 (+https://github.com/BaptisteLac/mon-quinquennat)\",\"connectionType\":\"CONN_CELLULAR_4G\",\"osName\":\"+https://github.com/BaptisteLac/mon-quinquennat\",\"platform\":\"DESKTOP\",\"windowWidthPoints\":628,\"windowHeightPoints\":353},\"thirdParty\":{\"embedUrl\":\"https://rassemblementnational.fr/\"}},\"events\":[{\"eventTimeMs\":1795681995857,\"visualElementShown\":{\"csn\":\"YdC6bwvAuZ-vcwv_\",\"ve\":{\"trackingParams\":\"CAQQ-N8BGAAiEwj9ibTanKWYAxXfxD8EHUujNfE=\"},\"eventType\":1},\"context\":{\"lastActivityMs\":\"2372\"}},{\"eventTimeMs\":1795682003340,\"finalPayload\":{\"csn\":\"YdC6bwvAuZ-vcwv_\"},\"context\":{\"lastActivityMs\":\"704\"}}],\"serializedClientEventId\":{\"serializedEventId\":\"yO4Ha92WJuDMkucPs4K6uQQ\",\"clientCounter\":\"8216\"}}"
+    },
+    {
+      "method": "GET",
+      "url": "https://client.axept.io/projectconfigurations/brands/6641e3815d90c1bed01261f0.json?r=0",
+      "resourceType": "fetch",
+      "postData": null
+    }
+  ]
+}
